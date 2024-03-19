@@ -6,7 +6,7 @@ subtitle: <b>WW Tech Lead</b> for Computer-Aided Engineering (CAE) Amazon Web Se
 
 profile:
   align: right
-  image: nashton-small.jpeg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
 ##  more_info: >
 ##    <p>60 Holborn Viaduct</p>
