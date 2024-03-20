@@ -5,7 +5,7 @@ title: talks
 nav: true
 nav_order: 3
 ---
-<b>November 2023</b> - F1/AWS Trackside; The power of data event - why do golf balls have dimples, An exploration of aerodynamics and it's influence on winning F1 races
+<b>November 2023</b> - F1/AWS Trackside; The power of data event - why do golf balls have dimples, An exploration of aerodynamics and it's influence on winning F1 races \
 <b>July 2023</b> - 18th OpenFOAM Conference - Keynote - The role of Cloud Computing, Machine Learning and HPC in accelerating the adoption of high-fidelity CFD for industry \
 <b>April 2023</b> - Invited Keynote: 22nd International Computational Fluids Conference (CFC2023), Cannes - The role of Cloud Computing, Machine Learning and HPC in the advancement of high-fidelity CFD for industry \
 <b>March 2023</b> - NASA Ames Research Centre AMS Seminar Series - How Cloud Computing, Machine Learning and High-Performance Computing are accelerating adoption of HRLES & WRLES methods for industry (link to video). \
