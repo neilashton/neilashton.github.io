@@ -4,16 +4,8 @@
     "label": "Engineer/Academic",
     "image": "prof_pic.jpg",
     "email": "neashton@amazon.com",
-    "phone": "(912) 123-4567",
-    "url": "https://neilashton.github.io/",
+    "url": "https://www.neilashton.co.uk/",
     "summary": "Former F1 & NASA engineer now working in the tech sector for AWS.",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
     "profiles": [
       {
         "network": "Twitter",
