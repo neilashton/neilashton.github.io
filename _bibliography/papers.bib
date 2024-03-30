@@ -1,6 +1,6 @@
 ---
 ---
-@conference{ananthan2024,
+@inproceedings{ananthan2024,
    abstract = {This paper discusses an emerging area of applying machine 1 learning (ML) methods to augment traditional Computational 2 Fluid Dynamics (CFD) simulations of road vehicle aerodynam-3 ics. ML methods have the potential to both reduce the com-4 putational effort to predict a new geometry or car condition 5 and to explore a greater number of design parameters with the 6 same computational budget. Similar to traditional CFD meth-7 ods, there exists a broad range of approaches. In particular, 8 the accuracy and computational efficiency of a CFD simula-9 tion vary greatly depending on the choice of turbulence model 10 (DNS, LES, RANS) and the underlying spatial and temporal nu-11 merical discretizations. Similarly, the end-user must select the 12 correct ML method depending on the use-case, the available in-13 put data, and the trade-off between accuracy and computational 14 cost. In this paper, we showcase several case studies using var-15 ious data-driven ML methods to highlight the promise of these 16 approaches. Whilst these case studies are not comprehensive 17 investigations of the underlying methods and do not include all 18 possible ML approaches (i.e., physics-driven), they highlight 19 the ability of these models to in general predict new designs in 20 near real-time (i.e., less than 5 seconds), after typically less than 21 1 hour of training on a single GPU. There still exists a need for 22 high quality training data from traditional CFD methods and 23 high-fidelity CFD simulations to validate the ML predictions. 24},
    author = {Vidyasagar Ananthan and Neil Ashton and Nate Chadwick and Mariano Lizarraga and Danielle C Maddix and Satheesh Maheswaran and Pablo Hermoso Moreno and Parisa M Shabestari and Sandeep Sovani and Shreyas Subramanian and Srinivas Tadepalli and Peter Yu},
    isbn = {0148-7191},
@@ -44,7 +44,7 @@
 }
 
 
-@conference{hupertz2022,
+@inproceedings{hupertz2022,
    abstract = {The 2nd Automotive CFD Prediction workshop (AutoCFD2) was organized to improve the state-of-the-art in automotive aerodynamic prediction. It is the mission of the workshop organizing committee to drive the development and validation of enhanced CFD methods by establishing publicly available standard test cases for which high quality on- and off-body wind tunnel test data is available. This paper reports on the AutoCFD2 workshop for the Ford DrivAer test case. Since its introduction, the DrivAer quickly became the quasi-standard for CFD method development and correlation. The Ford DrivAer has been chosen due to the proven, high-quality experimental data available, which includes integral aerodynamic forces, 209 surface pressures, 11 velocity profiles and 4 flow field planes. For the workshop, the notchback version of the DrivAer in a closed cooling, static floor test condition has been selected. For a better comparability of CFD results, two carefully designed control meshes were provided. Both meshes share identical distributions in the flow field volume but differ in near wall spacing to allow for wall-modelled and wall-resolved solutions. The 65 results, which were submitted by 22 participants, revealed a very significant variability of the aerodynamic force predictions even when using the same turbulence model on the control grids. While individual simulations using scale-resolving hybrid turbulence models correlated very well to the experimental flow field data, other analyses using almost identical simulation approaches resulted in very different predictions. The comparison of transient versus steady state analysis confirmed that transient simulations deliver more accurate flow field predictions. A significant impact of the near wall mesh resolution could not be confirmed by the results submitted for the DrivAer test case.},
    author = {Burkhard Hupertz and Neil Lewington and Charles Mockett and Neil Ashton and Lian Duan},
    doi = {10.4271/2022-01-0886},
@@ -73,7 +73,7 @@
 }
 @inproceedings{ashton2022c,
    author = {N Ashton and P Batten and A Cary and K Holst},
-   journal = {AIAA Aviation 2022},
+   booktitle = {AIAA Aviation 2022},
    title = {HLPW-4/GMGW-3: Hybrid RANS/LES Technology Focus Group Workshop Summary},
    year = {2022},
 }
@@ -83,7 +83,7 @@
    abstract = {© 2021, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved. This paper presents a detailed analysis of the relative performance and cost of GPU and CPU architectures for a full aircraft RANS simulation using the CFD code zCFD. Using Amazon Web Services as the platform, several generations of NVIDIA GPUs are assessed (T4, V100, and A100) and compared to x86 Intel Broadwell and Skylake CPUs. It is found that for the same computational setup and mesh, one Amazon EC2 p4d.24xlarge instance (containing eight NVIDIA A100 GPUs) provides the same run-time as 2,160 cores (60 nodes) of the Intel Skylake Amazon EC2 c5n.18xlarge. At the maximum number of nodes tested (100 CPU nodes and 10 GPU nodes-each containing 8 GPUs) the GPU-based instance is 2.8x faster than the x86 Intel CPU-based instance (Amazon EC2 c5n.18xlarge) for half the cost. It is hoped these results will provide extra evidence to support the continued focus on CFD code development to support GPUs and will help to make high-fidelity simulations more practical for engineering companies.},
    author = {M. Turner and J. Appa and N. Ashton},
    isbn = {9781624106095},
-   journal = {AIAA Scitech 2021 Forum},
+   booktitle = {AIAA Scitech 2021 Forum},
    title = {Performance of cpu and gpu hpc architectures for off-design aircraft simulation},
    year = {2021},
    selected={true}
@@ -94,7 +94,7 @@
    city = {Reston, Virginia},
    doi = {10.2514/6.2020-1570},
    isbn = {978-1-62410-595-1},
-   journal = {AIAA Scitech 2020 Forum},
+   booktitle = {AIAA Scitech 2020 Forum},
    month = {1},
    publisher = {American Institute of Aeronautics and Astronautics},
    title = {Coherence Analysis of Rotating Turbulent Pipe Flow},
@@ -106,7 +106,7 @@
 @inproceedings{ashton2020,
    author = {N Ashton and S Sachs and L Foti and S Eberhardt},
    city = {detroit},
-   journal = {SAE World Congress},
+   booktitle = {SAE World Congress},
    title = {Towards High-Fidelity CFD on the Cloud for the Automotive and Motorsport sectors},
    year = {2020},
 }
@@ -129,7 +129,7 @@
    city = {Reston, Virginia},
    doi = {10.2514/6.2019-2966},
    isbn = {978-1-62410-589-0},
-   journal = {AIAA Aviation 2019 Forum},
+   booktitle = {AIAA Aviation 2019 Forum},
    month = {6},
    pages = {1-12},
    publisher = {American Institute of Aeronautics and Astronautics},
@@ -140,7 +140,7 @@
 
 @inproceedings{davis2019,
    author = {J Davis and G Sparsh and N Ashton and S Bailey and C Brehm},
-   journal = {AIAA Aviation 2019},
+   booktile = {AIAA Aviation 2019},
    title = {A DNS Study to Investigate Turbulence Suppressionin Rotating Pipe Flows},
    year = {2019},
 }
@@ -170,7 +170,7 @@
    doi = {10.2514/6.2018-1552},
    isbn = {9781624105241},
    issue = {210059},
-   journal = {AIAA Aerospace Sciences Meeting, 2018},
+   booktitle = {AIAA Aerospace Sciences Meeting, 2018},
    title = {Towards a viscous wall model for immersed boundary methods},
    year = {2018},
 }
@@ -180,7 +180,7 @@
    doi = {10.2514/6.2018-1253},
    isbn = {9781624105241},
    issue = {210059},
-   journal = {AIAA Aerospace Sciences Meeting, 2018},
+   booktitle = {AIAA Aerospace Sciences Meeting, 2018},
    title = {3<sup>rd</sup>high-lift workshop summary paper - openfoam, star-ccm+ &amp; lava simulations on unstructured grids},
    year = {2018},
 }
@@ -190,7 +190,7 @@
    doi = {10.2514/6.2018-0660},
    isbn = {9781624105241},
    issue = {210059},
-   journal = {AIAA Aerospace Sciences Meeting, 2018},
+   booktitle = {AIAA Aerospace Sciences Meeting, 2018},
    title = {Development of high-quality hybrid unstructured meshes for the GMGW-1 workshop using ANSA},
    year = {2018},
 }
@@ -198,7 +198,7 @@
    abstract = {© 2015, American Institute of Aeronautics and Astronautics Inc, AIAA. All Rights Reserved. This paper presents work to assess the noise emissions from a high-lift three-element airfoil using hybrid RANS-LES methods on both structured and unstructured meshes. The primary purpose of this work is to assess the sensitivity of the grid type and resolution using the same finite-volume code, numerical scheme and turbulence model. It has been shown that whilst the structured mesh provides better correlation to experimental data, an unstructured grid provides a good prediction of both the aerodynamic and acoustic data. The difierences between both meshes is generally small and explained by a combi- nation of mesh resolution, RANS/LES activation and numerical error. In particular, the initial separated shear layer is identified as the most challenging area to capture correctly. Furthermore estimates are made on the computational efiort to compute an entire aircraft using hybrid RANS-LES methods, based upon the spatial and temporal resolution of this work.},
    author = {N. Ashton and A. West and F. Mendonça},
    isbn = {9781624103674},
-   journal = {21st AIAA/CEAS Aeroacoustics Conference},
+   booktitle = {21st AIAA/CEAS Aeroacoustics Conference},
    title = {Slat noise prediction using hybrid RANS-LES methods on structured and unstructured grids},
    year = {2015},
 }
@@ -216,7 +216,7 @@
    abstract = {© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved. The flow through a axially rotating pipe is examined using the open-source code OpenFOAM for both standard eddy-viscosity models (Spalart-Allmaras  &  k - ω SST) and a low-Reynolds number Elliptic Blending Reynolds Stress Model with a homogenous turbulent dissipation rate equation. Corrections to the length-scale determining equation for rotation, based upon the work of Hellsten et al. (1998), are evaluated for both the SST and EB-RSM models. It is shown that for models with or without a rotation correction, the EB-RSM offered improved results over the SST model, better capturing the level of turbulence suppression and the parabolic circumferential velocity profile. A clear improvement to both the SST and EB-RSM models is observed when a Richardson correction is applied to the length-scale determining equations, resulting in much closer agreement to the experimental data. The results for the EB-RSM with this correction are in good agreement with previous studies and further improvements to the turbulent diffusion model would likely improve the correlation to the experiment even further. The performance of the SST model is better than expected although the reliance of both models on the Richardson correction suggests further work is needed to thoroughly assess the formulation of such corrections for a wider range of flows.},
    author = {N. Ashton and M. Stoellinger},
    isbn = {9781624104367},
-   journal = {46th AIAA Fluid Dynamics Conference},
+   booktitle = {46th AIAA Fluid Dynamics Conference},
    title = {Computation of turbulent flow in a rotating pipe using an elliptic blending Reynolds stress model},
    year = {2016},
 }
@@ -256,7 +256,7 @@
    abstract = {© 2015, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved. A novel Reynolds stress model is presented that can be integrated up to the wall through the use of an elliptic blending of a near wall model for the pressure redistribution term and a homogeneous model farther away from the wall. The main novelty of the proposed model consists in using the homogeneous dissipation rate of turbulent kinetic energy εh instead of ε to model the anisotropic dissipation rate tensor. The model parameters are calibrated by using DNS results for a plane channel flow with a friction Reynolds number of ReT = 2000. The accuracy of the model is further demonstrated for the channel flow at ReT = 1000,4200, and 52000 through comparison with DNS data. To test the model performance in separated flows the periodic hill flow at several Reynolds numbers (Reb = 2800, 5600, 10600, 37000) is considered. For the hill flow, the model performs reasonable well showing slightly better results when compared to results obtained with the Menterhen compared to results obtained with thes SST k - ω model although both models fail to reproduce the high turbulence levels in the initial separated shear layer. Two external aerodynamics problems are studied in addition to the internal flows: the NACA 0012 at varying angles of attack and the NACA 4412 with a trailing edge separation (Aoa = 12). The flow over the NACA 0012 airfoil is considered for Rec = 106 at angles of attack AoA = 0, 5,10,15,16,17,18,19. For the lower angles of attack AoA < 17 the new Reynolds stress model predictions for lift and drag are in close agreement with the experimental values and also agree with the SST model predictions. For the highest angle of attack AoA = 19 the Reynolds stress model predicts flow separation and thus the lift and drag results are closer to the experimental values when compared to the SST model results. A similar result is found for the 2D NACA 4412 airfoil with trailing edge separation case (AoA = 12o). For the cases considered in this study the new Reynolds stress model was very robust but provided only small improvements over the two-equation model results in the flows with separation. Further calibration of the model parameters in a flow with separation could improve the results and will be considered as a next step.},
    author = {M. Stoellinger and R. Roy and N. Ashton},
    isbn = {9781624103667},
-   journal = {22nd AIAA Computational Fluid Dynamics Conference},
+   booktitle = {22nd AIAA Computational Fluid Dynamics Conference},
    title = {Application of an elliptic blending Reynolds stress model in attached and separated flows},
    year = {2015},
 }
@@ -324,7 +324,7 @@
    doi = {10.2514/6.2015-3139},
    isbn = {978-1-62410-367-4},
    issue = {June},
-   journal = {21st AIAA/CEAS Aeroacoustics Conference},
+   booktitle = {21st AIAA/CEAS Aeroacoustics Conference},
    month = {6},
    pages = {1-18},
    publisher = {American Institute of Aeronautics and Astronautics},
@@ -367,7 +367,7 @@
    doi = {10.1088/1742-6596/318/4/042043},
    issn = {1742-6596},
    issue = {4},
-   journal = {Journal of Physics: Conference Series},
+   booktitle = {Journal of Physics: Conference Series},
    keywords = {2d hump,DDES,v2f},
    month = {12},
    pages = {042043},
