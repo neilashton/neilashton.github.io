@@ -1,11 +1,11 @@
 ---
 ---
-@inproceedings{ananthan2024,
+@conference{ananthan2024,
    abstract = {This paper discusses an emerging area of applying machine 1 learning (ML) methods to augment traditional Computational 2 Fluid Dynamics (CFD) simulations of road vehicle aerodynam-3 ics. ML methods have the potential to both reduce the com-4 putational effort to predict a new geometry or car condition 5 and to explore a greater number of design parameters with the 6 same computational budget. Similar to traditional CFD meth-7 ods, there exists a broad range of approaches. In particular, 8 the accuracy and computational efficiency of a CFD simula-9 tion vary greatly depending on the choice of turbulence model 10 (DNS, LES, RANS) and the underlying spatial and temporal nu-11 merical discretizations. Similarly, the end-user must select the 12 correct ML method depending on the use-case, the available in-13 put data, and the trade-off between accuracy and computational 14 cost. In this paper, we showcase several case studies using var-15 ious data-driven ML methods to highlight the promise of these 16 approaches. Whilst these case studies are not comprehensive 17 investigations of the underlying methods and do not include all 18 possible ML approaches (i.e., physics-driven), they highlight 19 the ability of these models to in general predict new designs in 20 near real-time (i.e., less than 5 seconds), after typically less than 21 1 hour of training on a single GPU. There still exists a need for 22 high quality training data from traditional CFD methods and 23 high-fidelity CFD simulations to validate the ML predictions. 24},
    author = {Vidyasagar Ananthan and Neil Ashton and Nate Chadwick and Mariano Lizarraga and Danielle C Maddix and Satheesh Maheswaran and Pablo Hermoso Moreno and Parisa M Shabestari and Sandeep Sovani and Shreyas Subramanian and Srinivas Tadepalli and Peter Yu},
    isbn = {0148-7191},
    issn = {2688-3627},
-   journal = {SAE World Congress},
+   booktitle = {SAE World Congress},
    title = {Machine Learning for Road Vehicle Aerodynamics},
    year = {2024},
    selected={true}
@@ -16,7 +16,7 @@
    author = {Ekhi Ajuria Illarramendi and Michael Bauerheim and Neil Ashton and Coretin Lapeyre and Bénédicte Cuenot},
    doi = {10.1145/3592979.3593416},
    isbn = {9798400701900},
-   journal = {Proceedings of the Platform for Advanced Scientific Computing Conference, PASC 2023},
+   booktitle = {Proceedings of the Platform for Advanced Scientific Computing Conference, PASC 2023},
    keywords = {CFD,CNN,Poisson equation,incompressible flows},
    month = {6},
    publisher = {Association for Computing Machinery, Inc},
@@ -36,21 +36,21 @@
    year = {2023},
    selected={true}
 }
-@inproceedings{ashton2022,
+@conference{ashton2022,
    author = {Neil Ashton and Scott Eberhardt and Paul Batten and Vangelis Skaperdas},
-   journal = {AIAA Aviation 2022},
+   booktitle = {AIAA Aviation 2022},
    title = {Towards best-practices for Hybrid RANS-LES simulations of high-lift aircraft geometries},
    year = {2022},
 }
 
 
-@inproceedings{hupertz2022,
+@conference{hupertz2022,
    abstract = {The 2nd Automotive CFD Prediction workshop (AutoCFD2) was organized to improve the state-of-the-art in automotive aerodynamic prediction. It is the mission of the workshop organizing committee to drive the development and validation of enhanced CFD methods by establishing publicly available standard test cases for which high quality on- and off-body wind tunnel test data is available. This paper reports on the AutoCFD2 workshop for the Ford DrivAer test case. Since its introduction, the DrivAer quickly became the quasi-standard for CFD method development and correlation. The Ford DrivAer has been chosen due to the proven, high-quality experimental data available, which includes integral aerodynamic forces, 209 surface pressures, 11 velocity profiles and 4 flow field planes. For the workshop, the notchback version of the DrivAer in a closed cooling, static floor test condition has been selected. For a better comparability of CFD results, two carefully designed control meshes were provided. Both meshes share identical distributions in the flow field volume but differ in near wall spacing to allow for wall-modelled and wall-resolved solutions. The 65 results, which were submitted by 22 participants, revealed a very significant variability of the aerodynamic force predictions even when using the same turbulence model on the control grids. While individual simulations using scale-resolving hybrid turbulence models correlated very well to the experimental flow field data, other analyses using almost identical simulation approaches resulted in very different predictions. The comparison of transient versus steady state analysis confirmed that transient simulations deliver more accurate flow field predictions. A significant impact of the near wall mesh resolution could not be confirmed by the results submitted for the DrivAer test case.},
    author = {Burkhard Hupertz and Neil Lewington and Charles Mockett and Neil Ashton and Lian Duan},
    doi = {10.4271/2022-01-0886},
    issn = {01487191},
    issue = {2022},
-   journal = {SAE Technical Papers},
+   booktitle = {SAE Technical Papers},
    month = {3},
    publisher = {SAE International},
    title = {Towards a Standardized Assessment of Automotive Aerodynamic CFD Prediction Capability - AutoCFD 2: Ford DrivAer Test Case Summary},
