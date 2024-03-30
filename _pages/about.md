@@ -18,5 +18,5 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I'm the WW Tech Leader for CAE at Amazon Web Services and also act as one of the main subject-matter experts for Computational Fluid Dynamics and High Performance Computing (HPC) across Amazon and lead the Amazon-wide CFD working group. I am also a Fellow of the Institution of Mechanical Engineers. Previous to these positions I worked in Formula 1 with the Lotus F1 team (now Renault F1) and I worked with Formula 1 Management and the FIA on the 2021 technical regulation changes and I was also a core part of the British Cycling 2020 Tokyo Olympics bike development program.
-I'm passionate about explaining science and engineering to the general public and will be soon be launching a podcast. 
+I'm passionate about explaining science and engineering to the general public and will be soon launching a podcast. 
 
