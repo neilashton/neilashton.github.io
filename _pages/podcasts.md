@@ -2,7 +2,7 @@
 layout: page
 title: podcasts
 permalink: /podcasts/
-description: Coming soon..
+description: Available via Spotify/Apple/YouTube
 nav: true
 nav_order: 3
 display_categories: [Season1]
