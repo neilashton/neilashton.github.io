@@ -2,7 +2,7 @@
 layout: page
 title: podcasts
 permalink: /podcasts/
-description: Available via Spotify/Apple/YouTube
+description: Available via [Spotify](https://open.spotify.com/show/4muRLrJ9Pxglw0RsPgx2gb?si=b9f75d8a131c4090)/Apple/YouTube
 nav: true
 nav_order: 3
 display_categories: [Season1]
