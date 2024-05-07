@@ -8,32 +8,12 @@
     - name: Languages
       value: English
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Manchester, UK
-      year: 2013
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: MEng
-      institution: University of Manchester, UK
-      year: 2008
-      description:
-        - Description 1.
-        - Description 2.
-
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: WW Tech Lead, Computer Aided Engineering (CAE)
+      institution: Amazon Web Services, London, UK
+      year: Feb 2020 - Present
       description:
         - Description 1.
         - Description 2.
@@ -41,8 +21,8 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
+    - title: Senior Researcher
+      institution: University of Oxford, Oxford, UK
       year: 1933
       description:
         - Description 1.
@@ -60,6 +40,26 @@
     - title: Associate Professor of Theoretical Physics
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Manchester, UK
+      year: 2013
+      description:
+        - 'PhD entited: Development, Implementation and testing of an alternative DDES formulation based on elliptic relaxation. This focussed on hybrid RANS-LES methods such as Delayed Detached-Eddy Simulation (DDES) and Scale-Adaptive Simulation (SAS). Key area was developing the v2f-DDES model.'
+        - 'Activities and societies: Student newspaper sub-editor, Student mentor'
+        - Also Involved in the SPIRIT Global Design Challenge and ATAAC (Advanced Turbulence Simulation for Aerodynamic Application Challenges)
+
+    - title: MEng
+      institution: University of Manchester, UK
+      year: 2008
+      description:
+        - 'Grade : 1st class (GPA 4.0)'
+        - 'Activities and societies: University Student Newspaper (Writer), Wing Tsun Kung Fu, Badminton club, Squash club'
+        - 'Thesis: Analysis of a GP2 rear wing using computational and experimental fluid dynamics. Supervised by Prof. D. L. Laurence. Grade: 82%.'
+        - 'Modules include: Advanced Aerospace Design, Advanced Aerodynamics, Advanced Aerospace Structures, Flight Dynamics, Advanced Aerospace Systems, Numerical Methods.'
 
 - title: Open Source Projects
   type: time_table

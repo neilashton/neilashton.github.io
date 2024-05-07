@@ -8,7 +8,7 @@ nav_order: 3
 display_categories: [Season1]
 horizontal: false
 ---
-
+<div id='buzzsprout-large-player'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2274389.js?container_id=buzzsprout-large-player&player=large'></script>
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
