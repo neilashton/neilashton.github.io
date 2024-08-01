@@ -1,0 +1,94 @@
+{
+  "basics": {
+    "name": "Neil Ashton",
+    "label": "Engineer/Academic",
+    "image": "prof_pic.jpg",
+    "email": "neashton@amazon.com",
+    "url": "https://www.neilashton.co.uk/",
+    "summary": "Former F1 & NASA engineer now working in the tech sector for AWS.",
+  },
+  "work": [
+    {
+      "name": "Amazon Web Services",
+      "position": "WW Tech Lead for Computer Aided Engineering (CAE)",
+      "url": "https://aws.amazon.com",
+      "startDate": "2020-02-04",
+      "endDate": "present-day",
+      "summary": "Work in the Advanced Computing and Simulation service team to be the subject matter expert globally for computational engineering to help define current and future products and technologies. Part of the HPC leadership team to decide on key new HPC/ML-related services, hardware, software and regularly work with Director and VP-level within AWS. This role focuses on developing the strategy on what products and technologies we build to help customers wanting to do computational engineering (CFD, FEA, ML, CAD, PLM etc) on AWS whether it's a large enterprise, startup or public-sector institute. I also continue to be the main WW CFD SME at AWS so still work closely on helping AWS and Amazon teams on CFD-related matters. I also chair the Amazon-wide CFD Working group.",
+    }
+    {
+      "name": "University of Oxford",
+      "position": "Senior Researcher",
+      "url": "https://www.ox.ac.uk",
+      "startDate": "2016-06-04",
+      "endDate": "2020-02-04",
+      "summary": "Senior Researcher at the Oxford Thermofluids Institute within the Department of Engineering Science. Focusing on Computational Aerodynamics and the development and application of advanced Computational Fluid Dynamics methods using High-Performance Computing. I was also the Faculty Advisor for the first ever Formula Student Team.",
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Manchester, UK",
+      "location": "Manchester",
+      "url": "https://www.manchester.ac.uk",
+      "area": "Turbulence Modelling",
+      "studyType": "PhD",
+      "startDate": "2008-07-01",
+      "endDate": "2013-07-01",
+    }
+    {
+      "institution": "University of Manchester, UK",
+      "location": "Manchester",
+      "url": "https://www.manchester.ac.uk",
+      "area": "Turbulence Modelling",
+      "studyType": "MEng",
+      "startDate": "2004-09-01",
+      "endDate": "2008-07-01",
+    }
+  ],
+  "skills": [
+    {
+      "name": "Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
+  ]
+}
