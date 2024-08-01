@@ -32,7 +32,13 @@ html={https://arc.aiaa.org/doi/10.2514/6.2024-3792},
     title = {AhmedML: High-Fidelity Computational Fluid Dynamics Dataset for Incompressible, Low-Speed Bluff Body Aerodynamics},
     year = {2024},
     journal = {arxiv.org},
-    author = {Ashton, Neil and Maddix, Danielle and Gundry, Samuel and Shabestari, Parisa}
+    author = {Ashton, Neil and Maddix, Danielle and Gundry, Samuel and Shabestari, Parisa},
+    url={https://arxiv.org/abs/2407.20801},
+    html={https://arxiv.org/abs/2407.20801},
+    abstract={The development of Machine Learning (ML) methods for Computational Fluid Dynamics (CFD) is currently limited by the lack of openly available training data. This paper presents a new open-source dataset comprising of high fidelity, scale-resolving CFD simulations of 500 geometric variations of the Ahmed Car Body - a simplified car-like shape that exhibits many of the flow topologies that are present on bluff bodies such as road vehicles. The dataset contains simulation results that exhibit a broad set of fundamental flow physics such as geometry and pressure-induced flow separation as well as 3D vortical structures. Each variation of the Ahmed car body were run using a high-fidelity, time-accurate, hybrid Reynolds-Averaged Navier-Stokes (RANS) - Large-Eddy Simulation (LES) turbulence modelling approach using the open-source CFD code OpenFOAM. The dataset contains boundary, volume, geometry, and time-averaged forces/moments in widely used open-source formats. In addition, the OpenFOAM case setup is provided so that others can reproduce or extend the dataset. This represents to the authors knowledge, the first open-source large-scale dataset using high-fidelity CFD methods for the widely used Ahmed car body that is available to freely download with a permissive license (CC-BY-SA).},
+    dimensions={true},
+    selected={true},
+    bibtex_show={true}
 }
 @article{ashton2024windsor,
     title = {WindsorML: High-Fidelity Computational Fluid Dynamics Dataset for Automotive Aerodynamics},
@@ -41,9 +47,11 @@ html={https://arc.aiaa.org/doi/10.2514/6.2024-3792},
     author = {Ashton, Neil and Angel, Jordan and Ghate, Aditya and Kenway, Gaetan and Long Wong, Man and Kiris, Cetin and Walle, Astrid and Maddix, Danielle and Page, Gary},
     url={https://arxiv.org/abs/2407.19320},
     html={https://arxiv.org/abs/2407.19320},
+    abstract={This paper presents a new open-source high-fidelity dataset for Machine Learning (ML) containing 355 geometric variants of the Windsor body, to help the development and testing of ML surrogate models for external automotive aerodynamics. Each Computational Fluid Dynamics (CFD) simulation was run with a GPU-native high-fidelity Wall-Modeled Large-Eddy Simulations (WMLES) using a Cartesian immersed-boundary method using more than 280M cells to ensure the greatest possible accuracy. The dataset contains geometry variants that exhibits a wide range of flow characteristics that are representative of those observed on road-cars.
+The dataset itself contains the 3D time-averaged volume \& boundary data as well as the geometry and force \& moment coefficients. This paper discusses the validation of the underlying CFD methods as well as contents and structure of the dataset. To the authors knowledge, this represents the first, large-scale high-fidelity CFD dataset for the Windsor body with a permissive open-source license (CC-BY-SA).},
     dimensions={true},
     selected={true},
-    bibtex_show={true},
+    bibtex_show={true}
 }
 @inproceedings{ananthan2024,
    abstract = {This paper discusses an emerging area of applying machine 1 learning (ML) methods to augment traditional Computational 2 Fluid Dynamics (CFD) simulations of road vehicle aerodynam-3 ics. ML methods have the potential to both reduce the com-4 putational effort to predict a new geometry or car condition 5 and to explore a greater number of design parameters with the 6 same computational budget. Similar to traditional CFD meth-7 ods, there exists a broad range of approaches. In particular, 8 the accuracy and computational efficiency of a CFD simula-9 tion vary greatly depending on the choice of turbulence model 10 (DNS, LES, RANS) and the underlying spatial and temporal nu-11 merical discretizations. Similarly, the end-user must select the 12 correct ML method depending on the use-case, the available in-13 put data, and the trade-off between accuracy and computational 14 cost. In this paper, we showcase several case studies using var-15 ious data-driven ML methods to highlight the promise of these 16 approaches. Whilst these case studies are not comprehensive 17 investigations of the underlying methods and do not include all 18 possible ML approaches (i.e., physics-driven), they highlight 19 the ability of these models to in general predict new designs in 20 near real-time (i.e., less than 5 seconds), after typically less than 21 1 hour of training on a single GPU. There still exists a need for 22 high quality training data from traditional CFD methods and 23 high-fidelity CFD simulations to validate the ML predictions.},
