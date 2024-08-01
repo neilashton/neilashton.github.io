@@ -1,17 +1,18 @@
 ---
 ---
-@conference{angel2024,
+@inproceedings{angel2024,
    abstract = {This paper presents preliminary validation results of a new immersed boundary Wall- Modelled Large Eddy Simulation (WMLES) framework, Volcano ScaLES, for two automotive configurations as part of the 4th Automotive CFD Prediction Workshop (AutoCFD 4): the Windsor Squareback body and the DrivAer Notchback model. For the Windsor body, grids of up to 363 million cells were run to assess the sensitivity to spatial resolution and showed favorable correlation to experimental pressure and velocity data. This paper also presents preliminary results for the simulation of the DrivAer model which more closely represents the complexity of a production road-vehicle. We assess the sensitivity to the sub-grid scale closure model as well as the influence of mesh refinement on solution accuracy by exploring grids of more than half a billion cells. For both cases we demonstrate how the use of WMLES based upon a Cartesian immersed boundary method built for GPUs from the ground-up can provide both excellent correlation to experimental data as well as computational efficiency; only requiring the use of desktop-grade GPUs such as the Nvidia GeForce RTX 4090 or A10g series. To the authors knowledge, this is one of the first examples of a WMLES using a Navier–Stokes based Cartesian finite-difference code with immersed-boundary method being used to simulate a complex road-vehicle.},
-   author = {Jordan Angel and Aditya Ghate and Gaetan Kenway and Man Long Wong and Cetin Kiris and Neil Ashton},
+   author = {Angel, Jordan and Ghate, Aditya and Kenway, Gaetan and Wong, Man Long and Kiris, Cetin and Ashton, Neil},
    booktitle = {AIAA Aviation 2024},
    title = {Immersed Boundary Wall-Modelled Large Eddy Simulations for Automotive Aerodynamics},
    year = {2024},
    preview={imb.png},
-html={https://arc.aiaa.org/doi/10.2514/6.2024-4172},
+   html={https://arc.aiaa.org/doi/10.2514/6.2024-4172},
   dimensions={true},
    bibtex_show={true}
 }
-@conference{patel2024,
+
+@inproceedings{patel2024,
    abstract = {In this paper we study the HPC performance of the new CFD software by ONERA, DLR and Airbus (CODA) on a range of CPU hardware types for the NASA Common Research Model, using meshes up to 192M cells. We explore both the weak and strong scaling, as well as the influence of the number of OMP threads and MPI ranks on the overall runtime. A number of different generations of AMD-based CPU architectures are assessed and compared against two generations of Arm-based CPUs. It is found that the code demonstrates excellent weak and strong scaling, with greater than linear scaling down to 2000 cells per CPU core. As expected the newer generation of AMD CPUs with greater memory bandwidth and higher cores per node, result in better over runtime performance. We see as good or better parallel efficiency using ethernet-based Elastic Fabric Adapter (EFA) interconnect versus Infiniband. The single-socket Arm64-based processors offer similar performance to the x86-based alternatives which suggests those more power-efficient processors can help to reach both performance and sustainability targets. Future work will be to extend this comparison to GPUs and Arm64 based Graviton4, which offer even greater potential for performance improvements.},
    author = {Hirav Patel and Thomas Gerhold and Neil Ashton},
    booktitle = {AIAA Aviation 2024},
