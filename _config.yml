@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Neil
 middle_name: 
 last_name: Ashton
-email: neashton@amazon.com
+email: contact@neilashton.co.uk
 description: Personal website of Dr Neil Ashton
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
