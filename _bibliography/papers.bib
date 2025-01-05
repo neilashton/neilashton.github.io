@@ -1,5 +1,39 @@
 ---
 ---
+
+@inproceedings{ashton2025a,
+   abstract = {This study summarizes the work of the Hybrid RANS/LES (HRLES) Technology Focus Group (TFG) for the 5th High-Lift Prediction Workshop (HLPW-5). Results indicate that, as shown in HLPW-4, HRLES methodologies continue to consistently outperform SA-based RANS models in predicting maximum lift coefficients and flow-field correlations for a range of high-lift aircraft geometry variations - from clean wing to those with flap, slat and engine nacelles. However, challenges persist in simulating low angle-of-attack configurations with deployed flaps, as well as the transitional flow in some of the lower-Reynold-number cases studied. This work also highlights the importance of mesh resolution and low-dissipation numerical schemes in achieving consistent results across different HRLES implementations. While HRLES methods demonstrates promise for industrial applications, the work of the HLPW-5 HRLES TFG underscores the need for further research to enhance the maturity and widespread applicability of these methods.},
+   author = {Ashton, Neil and Batten, Paul and Skaperdas, Vangelis and Holst, Kevin},
+   booktitle = {AIAA SciTech 2025},
+   title = {High-Lift Prediction Workshop 5: Hybrid RANS/LES Technology Focus Group Summary},
+   year = {2025},
+   html={https://arc.aiaa.org/doi/10.2514/6.2025-0048},
+  dimensions={true},
+   bibtex_show={true}
+}
+
+@inproceedings{batten2025a,
+   abstract = {This paper presents a summary of results from the 5th High-Lift Prediction Workshop computed using CFD++. The major focus of this paper is on the performance of hybrid RANS/LES methods on high-lift aircraft configurations, but results are also compared against statistically steady-state RANS and transition-prediction simulations in order to demonstrate the effect of switching to a hybrid RANS/LES model based on the same underlying RANS framework, and to help shed light on remaining discrepancies in two of the test cases - discrepancies that were not observed in HLPW-4. This work confirms conclusions from earlier studies on the High-Lift Common Research Model (CRM-HL) at high angles of attack with hybrid RANS/LES which suggests a definitive overall improvement in predictive accuracy with respect to conventional RANS models, particularly at or near stall. These studies also suggest that, at least on the finer meshes used for HLPW-5 case 1, there is a benefit to the use of enhanced shielding functions that go beyond those in standard DDES. Lastly, transition-prediction simulations suggest that the addition of the flaps in configurations 2.3 and 2.4 may be responsible for a delay in the transition onset over the main element. Future work could usefully address this, either in tunnel measurements, CFD simulations, or both.},
+   author = {Batten, Paul and Ashton, Neil and Skaperdas, Vangelis},
+   booktitle = {AIAA SciTech 2025},
+   title = {Hybrid RANS/LES Computations of the HLPW-5 Test Cases Using CFD++},
+   year = {2025},
+   html={https://arc.aiaa.org/doi/10.2514/6.2025-0685},
+  dimensions={true},
+   bibtex_show={true}
+}
+
+@inproceedings{ashton2025b,
+   abstract = {A new Wall-Modelled Large Eddy Simulation (WMLES) framework, Volcano ScaLES, is evaluated on high-lift aircraft configurations as part of the fifth AIAA High Lift Prediction Workshop (HLPW-5). Excellent “blind” CLMax predictions are obtained for multiple configura- tions involving slats, flaps, and the nacelle, with errors less than 1 - 2% compared to the ONERA experimental data. Modest grid convergence is shown via a sequence of consistently refined grids, and some qualitative differences between the use of constant-coefficient Vreman and the dynamic Smagorinsky subgrid-scale models are reported. Utilization of appropriate mixed precision numerical formulations along with flow-optimized grids allow for highly efficient use of consumer-grade GPUs such as the Nvidia A10g. We show that even with grids using as many as 1.6 billion degrees of freedom, WMLES is cost-competitive with conventional steady-state RANS models. Reynolds number sensitivity study shows monotonically increasing lift going from a subscale Reynolds number of ReMAC = 5.49 x106 to a flight-scale Reynolds number of ReMAC = 30x106 with reasonable grid convergence obtained at all three Reynolds numbers studied.},
+   author = {Ashton, Neil and Ghate, Aditya and Kenway, Gaetan and Angel, Jordan and Wong, Man Long and Kiris, Cetin},
+   booktitle = {AIAA Scitech 2025},
+   title = {Immersed Boundary Wall-Modelled Large Eddy Simulations for the 5th High-Lift Prediction Workshop},
+   year = {2025},
+   html={https://arc.aiaa.org/doi/10.2514/6.2025-0888},
+  dimensions={true},
+   bibtex_show={true}
+}
+
 @inproceedings{angel2024,
    abstract = {This paper presents preliminary validation results of a new immersed boundary Wall- Modelled Large Eddy Simulation (WMLES) framework, Volcano ScaLES, for two automotive configurations as part of the 4th Automotive CFD Prediction Workshop (AutoCFD 4): the Windsor Squareback body and the DrivAer Notchback model. For the Windsor body, grids of up to 363 million cells were run to assess the sensitivity to spatial resolution and showed favorable correlation to experimental pressure and velocity data. This paper also presents preliminary results for the simulation of the DrivAer model which more closely represents the complexity of a production road-vehicle. We assess the sensitivity to the sub-grid scale closure model as well as the influence of mesh refinement on solution accuracy by exploring grids of more than half a billion cells. For both cases we demonstrate how the use of WMLES based upon a Cartesian immersed boundary method built for GPUs from the ground-up can provide both excellent correlation to experimental data as well as computational efficiency; only requiring the use of desktop-grade GPUs such as the Nvidia GeForce RTX 4090 or A10g series. To the authors knowledge, this is one of the first examples of a WMLES using a Navier–Stokes based Cartesian finite-difference code with immersed-boundary method being used to simulate a complex road-vehicle.},
    author = {Angel, Jordan and Ghate, Aditya and Kenway, Gaetan and Wong, Man Long and Kiris, Cetin and Ashton, Neil},
