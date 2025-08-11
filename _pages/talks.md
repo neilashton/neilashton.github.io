@@ -5,6 +5,12 @@ title: talks
 nav: true
 nav_order: 3
 ---
+<b>June 2025</b> PASC25 - Scaling AI Surrogate Modelling Methods Towards Industrial Application for Computational Fluid Dynamics mini-symposium
+<b>June 2025</b> ISC25 - Machine Learning for Computer-Aided Engineering Birds of a Feather session
+<b>May 2025</b> NASA High Fidelity CFD Workshop 2025 - Enabling industrially relevant high-fidelity CFD and AI surrogate models for external aerodynamics (Invited) 
+<b>March 2025</b> 2nd ERCOFTAC Machine Learning for Fluid Dynamics - (Plentary panel session chair) and 'Detailed assessment of a data-driven GNN approach for the AhmedML, WindsorML and DrivAerML datasets' 
+<b>October 2024</b> AutoCFD4 - AI/ML TFG - Initial AutoCFD4 results using the WindsorML and DrivaerML datasets
+<b>March 2024</b> 1st ERCOFTAC Machine Learning for Fluid Dynamics - Open-Source Machine Learning Training Dataset for the Windsor Body Using High-Fidelity Cartesian Immersed Boundary WMLES
 <b>November 2023</b> - F1/AWS Trackside; The power of data event - why do golf balls have dimples, An exploration of aerodynamics and it's influence on winning F1 races \
 <b>July 2023</b> - 18th OpenFOAM Conference - Keynote - The role of Cloud Computing, Machine Learning and HPC in accelerating the adoption of high-fidelity CFD for industry \
 <b>April 2023</b> - Invited Keynote: 22nd International Computational Fluids Conference (CFC2023), Cannes - The role of Cloud Computing, Machine Learning and HPC in the advancement of high-fidelity CFD for industry \
