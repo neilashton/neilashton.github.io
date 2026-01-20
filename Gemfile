@@ -23,4 +23,6 @@ end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
+    gem "nokogiri"      # The most reliable XML parser
+    gem "loofah"        # Helps with HTML scrubbing
 end
