@@ -6,6 +6,7 @@ nav: true
 nav_order: 3
 ---
 
+* **Feb 2026** Sutter Hill Ventures AI seminar series - 
 * **June 2025** PASC25 - Scaling AI Surrogate Modelling Methods Towards Industrial Application for Computational Fluid Dynamics mini-symposium
 * **June 2025** ISC25 - Machine Learning for Computer-Aided Engineering Birds of a Feather session
 * **May 2025** NASA High Fidelity CFD Workshop 2025 - Enabling industrially relevant high-fidelity CFD and AI surrogate models for external aerodynamics (Invited)
