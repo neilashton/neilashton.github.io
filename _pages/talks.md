@@ -6,6 +6,7 @@ nav: true
 nav_order: 3
 ---
 
+* **May 2026** University of Oxford Mathematical Insitute Seminar Series - Towards a Foundation Model for Computational Engineering: Opportunities, Challenges, and Novel Scaling Laws [link](https://www.maths.ox.ac.uk/node/80517)
 * **April 2026** NASA Ames Seminar series - Perspectives on Foundation Models and Agentic Architectures for Computational Fluid Dynamics [link](https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html)
 * **Feb 2026** Sutter Hill Ventures AI seminar series - Towards a Foundation Model for Computational Engineering: Opportunities, Challenges, and Novel Scaling Laws
 * **Jan 2026** UKRI AI4Turbulence Workshop - Invited panel discussion on industry perspectives for AI for turbulence
