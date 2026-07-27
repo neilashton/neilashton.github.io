@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://neilashton.github.io/sitemap.xml
+Sitemap: https://neilashton.co.uk/sitemap.xml
