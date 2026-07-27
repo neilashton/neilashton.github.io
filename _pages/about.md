@@ -1,27 +1,103 @@
 ---
 layout: about
-title: about
+title: Neil Ashton
 permalink: /
-subtitle: <b>Distinguished Engineer and Product Architect</b> at NVIDIA
-
+description: Neil Ashton is a Distinguished Engineer at NVIDIA whose research develops AI methods for computational engineering, including scientific machine learning, foundation models, agentic workflows, and computational fluid dynamics.
+schema_type: ProfilePage
+headline: Neil Ashton
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-##  more_info: >
-##    <p>60 Holborn Viaduct</p>
-##    <p>London, EC1A 2FD, UK</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+  alt: Portrait of Neil Ashton
+research_agenda:
+  - title: Foundation models for physical systems
+    question: How can models learn from high-fidelity simulations and generalise across geometries, operating conditions, and engineering tasks?
+  - title: Scientific data and evaluation
+    question: Which datasets, benchmarks, and validation methods demonstrate physical fidelity, computational efficiency, and engineering utility?
+  - title: Agentic engineering
+    question: How can AI agents use simulation, analysis, and optimisation tools reliably, with traceable reasoning and appropriate human oversight?
+featured_work:
+  - kicker: Open scientific data
+    title: CAE ML Datasets
+    url: https://caemldatasets.org/
+    description: I lead and collaborate on open, high-fidelity datasets—including AhmedML, WindsorML, DrivAerML, and HiLiftAeroML—for reproducible automotive and aerospace research.
+    link_label: Project website
+  - kicker: Foundation models
+    title: Fluid Intelligence
+    url: https://arxiv.org/abs/2511.20455
+    description: A research perspective and scaling analysis for foundation models in computational fluid dynamics, including the respective costs of data generation and model training.
+    link_label: Paper
+  - kicker: Agentic engineering
+    title: Agentic computational engineering
+    url: https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html
+    description: I research agentic AI systems that can formulate engineering problems, orchestrate simulation, analysis, and optimisation tools, interpret results, and iteratively improve designs with traceable human oversight.
+    link_label: NASA Ames talk
+featured_publications:
+  - year: "2026"
+    title: "HiLiftAeroML: High-Fidelity Computational Fluid Dynamics Dataset for High-Lift Aircraft Aerodynamics"
+    authors: Neil Ashton et al.
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2605.19565
+    summary: An open high-fidelity dataset comprising 1,800 samples across 180 geometry variants and ten angles of attack.
+  - year: "2025"
+    title: "Fluid Intelligence: A Forward Look on AI Foundation Models in Computational Fluid Dynamics"
+    authors: Neil Ashton, Johannes Brandstetter, and Siddhartha Mishra
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2511.20455
+    summary: Develops a CFD-specific scaling law and estimates the data-generation and training costs of foundation models.
+  - year: "2024"
+    title: "WindsorML: High-Fidelity Computational Fluid Dynamics Dataset for Automotive Aerodynamics"
+    authors: Neil Ashton et al.
+    venue: NeurIPS 2024, Datasets and Benchmarks Track
+    url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/42a59a5f35b1b3c3fd648397c88a7164-Abstract-Datasets_and_Benchmarks_Track.html
+    summary: A peer-reviewed open dataset of 355 GPU-native wall-modelled large-eddy simulations for automotive aerodynamics.
+  - year: "2024"
+    title: "Summary of the 4th High-Lift Prediction Workshop Hybrid RANS/LES Technology Focus Group"
+    authors: Neil Ashton, Paul Batten, Andrew Cary, and Kevin Holst
+    venue: Journal of Aircraft 61(1), 86–115
+    url: https://doi.org/10.2514/1.C037329
+    summary: A multi-team assessment of hybrid RANS/LES methods for complex high-lift aircraft configurations.
+  - year: "2023"
+    title: "Overview and Summary of the First Automotive CFD Prediction Workshop: DrivAer Model"
+    authors: Neil Ashton and William Van Noordt
+    venue: SAE International Journal of Commercial Vehicles 16(1), 61–85
+    url: https://doi.org/10.4271/02-16-01-0005
+    summary: The founding workshop’s assessment of 53 CFD datasets from nine groups using open DrivAer test cases.
+  - year: "2016"
+    title: Assessment of RANS and DES methods for realistic automotive models
+    authors: Neil Ashton, Alastair West, Sylvain Lardeau, and Alistair Revell
+    venue: Computers & Fluids 128, 1–15
+    url: https://doi.org/10.1016/j.compfluid.2016.01.008
+    summary: A systematic comparison of turbulence-modelling approaches for the Ahmed and DrivAer automotive configurations.
+featured_talks:
+  - year: "2026"
+    kind: Sponsored keynote
+    host: SIGGRAPH 2026
+    title: NVIDIA | Next Era of Graphics — Neural Rendering, World Models, and Simulation
+    url: https://s2026.siggraph.org/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation/
+    link_label: Event page
+  - year: "2026"
+    kind: Invited seminar
+    host: NASA Ames Seminar Series
+    title: Perspectives on Foundation Models and Agentic Architectures for Computational Fluid Dynamics
+    url: https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html
+    link_label: Watch seminar
+  - year: "2026"
+    kind: Invited seminar
+    host: University of Oxford Mathematical Institute
+    title: "Towards a Foundation Model for Computational Engineering: Opportunities, Challenges, and Novel Scaling Laws"
+    url: https://www.maths.ox.ac.uk/node/80517
+    link_label: Event page
+  - year: "2025"
+    kind: Invited talk
+    host: NASA High-Fidelity CFD Workshop
+    title: Enabling industrially relevant high-fidelity CFD and AI surrogate models for external aerodynamics
+  - year: "2023"
+    kind: Invited keynote
+    host: 22nd International Computational Fluids Conference
+    title: The role of cloud computing, machine learning, and HPC in the advancement of high-fidelity CFD for industry
 ---
 
-I’m a Distinguished Engineer and Product Architect at NVIDIA, working at the intersection of agentic AI, foundation models, high-performance computing and Computer-Aided Engineering. My focus is on how AI can move engineering workflows beyond passive surrogate models towards autonomous, goal-oriented systems that can reason about, orchestrate and optimise complex simulation and design processes.
+I am a Distinguished Engineer at NVIDIA, working at the intersection of computational engineering and artificial intelligence. My research spans computational fluid dynamics, high-performance computing, scientific machine learning, open datasets, and the evaluation of AI systems for engineering.
 
-Much of my recent work is focused on building the foundations for this shift: open high-fidelity CAE datasets, benchmarking frameworks, community workshops and papers that connect the machine-learning and engineering-simulation communities. I lead and collaborate on open datasets including AhmedML, WindsorML, DrivAerML and HiLiftAeroML, and co-authored Fluid Intelligence, a forward look at scaling laws and foundation models for computational fluid dynamics.
+I founded the Automotive CFD Prediction Workshop (AutoCFD) and serve on the organising committee of the AIAA CFD High-Lift Prediction Workshop (HLPW), where I lead the AI/ML Technical Focus Group. These programmes coordinate shared test cases, validation methods, and research priorities across academic and industrial groups. I also lead and collaborate on the open AhmedML, WindsorML, DrivAerML, and HiLiftAeroML datasets.
 
-Before NVIDIA, I was Worldwide Tech Lead for CAE at Amazon Web Services and a Senior Researcher in the Department of Engineering Science at the University of Oxford. My career has spanned industrial CFD, high-performance computing, automotive and aerospace aerodynamics, Formula 1, FIA technical regulation work and the British Cycling Tokyo 2020 bike development programme. I am a Fellow of the Institution of Mechanical Engineers and host The Neil Ashton Podcast ([Spotify](https://open.spotify.com/show/4muRLrJ9Pxglw0RsPgx2gb?si=2ad43f70bad14edb) [YouTube](https://www.youtube.com/channel/UCFFbscxlXPiTNRulk8sOwRQ)), where I discuss the future of AI, simulation and computational engineering.
-
-For details on the open-source CAE datasets that I've been creating with colleagues across industry and academia, please visit [CAE ML Datasets](https://caemldatasets.org) 
-
+Before joining NVIDIA, I was Worldwide Technical Lead for CAE at Amazon Web Services and a Senior Researcher in the Department of Engineering Science at the University of Oxford. Earlier research and engineering work covered industrial CFD, high-performance computing, automotive and aerospace aerodynamics, Formula 1, FIA technical regulation, and the British Cycling Tokyo 2020 bicycle development programme. I completed my PhD at the University of Manchester and am a Fellow of the Institution of Mechanical Engineers and a Chartered Engineer.

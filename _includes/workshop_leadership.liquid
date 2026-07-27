@@ -1,0 +1,18 @@
+<section class="research-subsection" aria-labelledby="community-workshops-title">
+  <h3 id="community-workshops-title">Community workshops</h3>
+  <p class="measure-wide">
+    I founded AutoCFD and serve on the HLPW organising committee, where I lead the AI/ML Technical Focus Group. These programmes establish shared test
+    cases, evaluation methods, and community research priorities for computational aerodynamics.
+  </p>
+  <div class="service-list">
+    {% for activity in site.data.workshop_leadership %}
+      <article>
+        <h4>
+          <a href="{{ activity.url }}">{{ activity.title }}</a>
+        </h4>
+        <p class="service-role">{{ activity.role }}</p>
+        <p>{{ activity.description }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,47 +1,56 @@
-$(document).ready(function () {
-  // add toggle functionality to abstract and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.querySelector("[data-nav-toggle]");
+  const navMenu = document.querySelector("[data-nav-menu]");
+
+  const setNavigationOpen = (isOpen) => {
+    if (!navToggle || !navMenu) return;
+    navMenu.classList.toggle("show", isOpen);
+    navToggle.classList.toggle("collapsed", !isOpen);
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+    navToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+  };
+
+  navToggle?.addEventListener("click", () => {
+    setNavigationOpen(navToggle.getAttribute("aria-expanded") !== "true");
   });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+
+  navMenu?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => setNavigationOpen(false));
   });
-  $("a").removeClass("waves-effect waves-light");
 
-  // bootstrap-toc
-  if ($("#toc-sidebar").length) {
-    // remove related publications years from the TOC
-    $(".publications h2").each(function () {
-      $(this).attr("data-toc-skip", "");
-    });
-    var navSelector = "#toc-sidebar";
-    var $myNav = $(navSelector);
-    Toc.init($myNav);
-    $("body").scrollspy({
-      target: navSelector,
-    });
-  }
-
-  // add css to jupyter notebooks
-  const cssLink = document.createElement("link");
-  cssLink.href = "../css/jupyter.css";
-  cssLink.rel = "stylesheet";
-  cssLink.type = "text/css";
-
-  let theme = determineComputedTheme();
-
-  $(".jupyter-notebook-iframe-container iframe").each(function () {
-    $(this).contents().find("head").append(cssLink);
-
-    if (theme == "dark") {
-      $(this).bind("load", function () {
-        $(this).contents().find("body").attr({
-          "data-jp-theme-light": "false",
-          "data-jp-theme-name": "JupyterLab Dark",
-        });
-      });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setNavigationOpen(false);
+      navToggle?.focus();
     }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (navMenu?.classList.contains("show") && !event.target.closest("#navbar")) {
+      setNavigationOpen(false);
+    }
+  });
+
+  document.querySelectorAll("[data-disclosure-target]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = document.getElementById(button.dataset.disclosureTarget);
+      if (!target) return;
+      const willOpen = target.hidden;
+
+      button
+        .closest(".publication-entry")
+        ?.querySelectorAll("[data-disclosure-target]")
+        .forEach((siblingButton) => {
+          if (siblingButton === button) return;
+          const siblingTarget = document.getElementById(siblingButton.dataset.disclosureTarget);
+          if (siblingTarget) siblingTarget.hidden = true;
+          siblingButton.setAttribute("aria-expanded", "false");
+          siblingButton.classList.remove("is-active");
+        });
+
+      target.hidden = !willOpen;
+      button.setAttribute("aria-expanded", String(willOpen));
+      button.classList.toggle("is-active", willOpen);
+    });
   });
 });

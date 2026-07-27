@@ -1,86 +1,231 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Neil Ashton
-    - name: Date of Birth
-      value: 17th Oct 1985
-    - name: Languages
-      value: English
+updated: July 2026
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: WW Tech Lead, Computer Aided Engineering (CAE)
-      institution: Amazon Web Services, London, UK
-      year: Feb 2020 - Present
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Senior Researcher
-      institution: University of Oxford, Oxford, UK
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+summary: >-
+  Computational engineering researcher and technical leader working at the
+  intersection of scientific machine learning, high-fidelity simulation,
+  foundation models, agentic AI, and high-performance computing. Experience
+  spans research and product direction, open scientific datasets,
+  international benchmarking programmes, and industrial deployment.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+experience:
+  - current: true
+    role: Distinguished Engineer
+    organisation: NVIDIA
+    organisation_url: https://www.nvidia.com/
+    period: Jan 2025-present
+    location: United Kingdom
+    highlights:
+      - Set research and product direction for accelerated computational engineering, AI physics, simulation, and engineering AI.
+      - Lead work on foundation models, scientific machine learning, and agentic architectures that use simulation and engineering tools.
+      - Work across research, engineering, product, and external partners to translate advances into dependable computational-engineering systems.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+  - role: Worldwide Technical Lead for Computer-Aided Engineering
+    organisation: Amazon Web Services
+    organisation_url: https://aws.amazon.com/hpc/engineering/
+    period: Feb 2020-Jan 2025
+    highlights:
+      - Led worldwide technical strategy for CAE across high-performance computing, machine learning, cloud services, and partner technologies.
+      - Founded and led a cross-Amazon machine-learning-for-CAE initiative, connecting product development, research, and industrial adoption.
+      - Provided technical leadership for open, high-fidelity datasets including AhmedML, WindsorML, and DrivAerML.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+  - role: Senior Researcher
+    organisation: Osney Thermofluids Institute, Department of Engineering Science, University of Oxford
+    organisation_url: https://oti.eng.ox.ac.uk/
+    period: Jul 2016-Jan 2020
+    highlights:
+      - Led vehicle-aerodynamics research spanning high-fidelity CFD, turbulence modelling, multiphysics, and high-performance computing.
+      - Supervised doctoral research and led collaborations with academic, government, and industrial partners.
+      - Founded Oxford University Racing and chaired the 10th International Conference on Computational Fluid Dynamics.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Manchester, UK
-      year: 2013
-      description:
-        - 'PhD entited: Development, Implementation and testing of an alternative DDES formulation based on elliptic relaxation. This focussed on hybrid RANS-LES methods such as Delayed Detached-Eddy Simulation (DDES) and Scale-Adaptive Simulation (SAS). Key area was developing the v2f-DDES model.'
-        - 'Activities and societies: Student newspaper sub-editor, Student mentor'
-        - Also Involved in the SPIRIT Global Design Challenge and ATAAC (Advanced Turbulence Simulation for Aerodynamic Application Challenges)
+  - role: Consultant
+    organisation: Formula 1 Management
+    period: Jul 2017-Dec 2019
+    highlights:
+      - Provided CFD and HPC expertise to the motorsport team, co-authored the CFD/HPC sections of proposed FIA Sporting Regulations, reviewed Technical Regulations, and helped establish a cloud-based OpenFOAM process.
 
-    - title: MEng
-      institution: University of Manchester, UK
-      year: 2008
-      description:
-        - 'Grade : 1st class (GPA 4.0)'
-        - 'Activities and societies: University Student Newspaper (Writer), Wing Tsun Kung Fu, Badminton club, Squash club'
-        - 'Thesis: Analysis of a GP2 rear wing using computational and experimental fluid dynamics. Supervised by Prof. D. L. Laurence. Grade: 82%.'
-        - 'Modules include: Advanced Aerospace Design, Advanced Aerodynamics, Advanced Aerospace Structures, Flight Dynamics, Advanced Aerospace Systems, Numerical Methods.'
+  - role: Consultant
+    organisation: British Cycling
+    period: Jul 2016-Dec 2019
+    highlights:
+      - Conducted the high-fidelity CFD programme for the Great Britain track bicycle developed for the Tokyo 2020 Olympic cycle, including more than 1,000 transient simulations.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+  - role: Consultant
+    organisation: Williams Advanced Engineering
+    period: Jan 2016-Jul 2017
+    highlights:
+      - Established CFD and aerodynamic methods for Formula 3, Le Mans, and touring-car programmes.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+  - role: Visiting Scholar
+    organisation: Advanced Supercomputing Division, NASA Ames Research Center
+    organisation_url: https://www.nas.nasa.gov/
+    period: Jan-Jul 2016
+    highlights:
+      - Conducted large-scale computational aerodynamics research for transonic and supersonic aircraft with the Applied Modeling and Simulation group.
 
-- title: Other Interests
-  type: list
-  contents:
-    - Climbing, Music, Cycling, Travelling
+  - role: EPSRC Impact Acceleration Research Associate
+    organisation: University of Manchester
+    organisation_url: https://www.mace.manchester.ac.uk/
+    period: 2013-2015
+    highlights:
+      - Developed turbulence models for automotive and aerospace applications and contributed to the EU FP7 Go4Hybrid programme.
+      - Undertook a one-month research visit to NASA Ames Research Center in February 2015.
+
+  - role: CFD Engineer
+    organisation: Lotus F1 Team
+    period: 2012-2013
+    highlights:
+      - Developed computational-fluid-dynamics and high-performance-computing methods within the Formula 1 aerodynamics group.
+
+research_leadership:
+  - title: Automotive CFD Prediction Workshop (AutoCFD)
+    role: Founder and organiser, 2019-present
+    url: https://autocfd.org/
+    description: >-
+      Founded the international workshop series to establish open test cases,
+      reproducible comparisons, and shared research priorities for automotive
+      CFD; currently co-leads its AI/ML Technical Focus Group.
+    pdf_description: >-
+      Founded the international series for open test cases, reproducible
+      comparisons, and shared automotive-CFD research priorities.
+
+  - title: AIAA CFD High-Lift Prediction Workshop (HLPW)
+    role: Organising Committee and AI/ML Technical Focus Group Lead
+    url: https://aiaa-hlpw.org/
+    description: >-
+      Helps direct the international aerospace benchmarking programme and leads
+      its work on machine-learning datasets, evaluation, and physically
+      meaningful model comparison.
+    pdf_description: >-
+      Directs aerospace benchmarking and leads machine-learning data and
+      evaluation activities.
+
+  - title: CAE ML Datasets
+    role: Research lead and collaborator
+    url: https://caemldatasets.org/
+    description: >-
+      Leads and collaborates on AhmedML, WindsorML, DrivAerML, and HiLiftAeroML,
+      an open collection of more than 3,100 high-fidelity automotive and
+      aerospace simulation samples.
+    pdf_description: >-
+      Leads the open AhmedML, WindsorML, DrivAerML, and HiLiftAeroML collection
+      of more than 3,100 high-fidelity simulation samples.
+
+  - title: The Neil Ashton Podcast
+    role: Founder and host, 2024-present
+    url: /podcasts/
+    description: >-
+      Long-form conversations with researchers and engineering leaders on AI,
+      scientific computing, simulation, aerodynamics, and research practice.
+    pdf_description: >-
+      Long-form conversations with research and engineering leaders in AI,
+      scientific computing, simulation, and aerodynamics.
+
+education:
+  - degree: PhD, Aerospace Engineering
+    institution: University of Manchester
+    period: 2008-2013
+    detail: >-
+      Thesis: Development, Implementation and Testing of an Alternative DDES
+      Formulation Based on Elliptic Relaxation. EPSRC funded.
+    url: https://research.manchester.ac.uk/portal/en/theses/development-implementation-and-testing-of-an-alternative-ddes-formulation-based-on-elliptic-relaxation%28cfd86ae9-c48e-4f89-84b7-fa6aac6dd3e4%29.html
+
+  - degree: MEng (Hons), Aerospace Engineering - First Class
+    institution: University of Manchester
+    period: 2004-2008
+
+professional_standing:
+  - title: Fellow, Institution of Mechanical Engineers
+    period: Since 2020
+  - title: Chartered Engineer, Institution of Mechanical Engineers
+    period: Since 2013
+  - title: Senior Member, American Institute of Aeronautics and Astronautics
+    period: Since 2014
+  - title: Member, NAFEMS CFD Working Group
+    period: Since 2014
+  - title: Expert reviewer, European Commission
+    period: Since 2017
+  - title: Member, IMechE Technical Strategy Board and Education Advisory Group
+    period: 2017-2021
+
+publications:
+  - year: "2026"
+    authors: Neil Ashton et al.
+    title: "HiLiftAeroML: High-Fidelity Computational Fluid Dynamics Dataset for High-Lift Aircraft Aerodynamics"
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2605.19565
+
+  - year: "2025"
+    authors: Neil Ashton, Johannes Brandstetter, and Siddhartha Mishra
+    title: "Fluid Intelligence: A Forward Look on AI Foundation Models in Computational Fluid Dynamics"
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2511.20455
+
+  - year: "2024"
+    authors: Neil Ashton et al.
+    title: "WindsorML: High-Fidelity Computational Fluid Dynamics Dataset for Automotive Aerodynamics"
+    venue: Advances in Neural Information Processing Systems 37, 37823-37835
+    url: https://doi.org/10.52202/079017-1194
+
+  - year: "2024"
+    authors: Neil Ashton, Paul Batten, Andrew Cary, and Kevin Holst
+    title: Summary of the 4th High-Lift Prediction Workshop Hybrid RANS/LES Technology Focus Group
+    venue: Journal of Aircraft 61(1), 86-115
+    url: https://doi.org/10.2514/1.C037329
+
+  - year: "2023"
+    authors: Neil Ashton and William Van Noordt
+    title: "Overview and Summary of the First Automotive CFD Prediction Workshop: DrivAer Model"
+    venue: SAE International Journal of Commercial Vehicles 16(1), 61-85
+    url: https://doi.org/10.4271/02-16-01-0005
+
+  - year: "2021"
+    authors: Jamil Appa, Mike Turner, and Neil Ashton
+    title: Performance of CPU and GPU HPC Architectures for Off-Design Aircraft Simulations
+    venue: AIAA SciTech 2021
+    url: https://doi.org/10.2514/6.2021-0141
+
+  - year: "2016"
+    authors: Neil Ashton, Alastair West, Sylvain Lardeau, and Alistair Revell
+    title: Assessment of RANS and DES Methods for Realistic Automotive Models
+    venue: Computers & Fluids 128, 1-15
+    url: https://doi.org/10.1016/j.compfluid.2016.01.008
+
+  - year: "2013"
+    authors: Neil Ashton, Alistair Revell, Robert Prosser, and Juan Uribe
+    title: Development of an Alternative Delayed Detached-Eddy Simulation Formulation Based on Elliptic Relaxation
+    venue: AIAA Journal 51(2), 513-519
+    url: https://doi.org/10.2514/1.J051808
+
+talks:
+  - date: Jul 2026
+    type: Sponsored keynote
+    host: SIGGRAPH 2026
+    title: NVIDIA - Next Era of Graphics - Neural Rendering, World Models, and Simulation
+    url: https://s2026.siggraph.org/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation/
+
+  - date: May 2026
+    type: Invited seminar
+    host: University of Oxford Mathematical Institute
+    title: "Towards a Foundation Model for Computational Engineering: Opportunities, Challenges, and Novel Scaling Laws"
+    url: https://www.maths.ox.ac.uk/node/80517
+
+  - date: Apr 2026
+    type: Invited seminar
+    host: NASA Ames Seminar Series
+    title: Perspectives on Foundation Models and Agentic Architectures for Computational Fluid Dynamics
+    url: https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html
+
+  - date: May 2025
+    type: Invited talk
+    host: NASA High-Fidelity CFD Workshop
+    title: Enabling Industrially Relevant High-Fidelity CFD and AI Surrogate Models for External Aerodynamics
+
+  - date: Apr 2023
+    type: Invited keynote
+    host: 22nd International Computational Fluids Conference
+    title: The Role of Cloud Computing, Machine Learning, and HPC in the Advancement of High-Fidelity CFD for Industry
+
+  - date: Mar 2023
+    type: Invited seminar
+    host: MIT ACDL Seminar Series
+    title: The Role of Cloud Computing, Machine Learning, and HPC in the Advancement of High-Fidelity CFD for Industry
