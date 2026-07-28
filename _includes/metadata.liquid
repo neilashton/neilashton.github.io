@@ -2,15 +2,12 @@
 {% assign meta_description = page.description | default: site.description | strip_html | strip_newlines | strip %}
 {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
 {% assign social_image = page.og_image | default: site.og_image | absolute_url %}
-{% assign current_cv_entry = site.data.cv.experience | where: 'current', true | first %}
-{% assign current_role = site.current_position.role | default: current_cv_entry.role | default: 'Distinguished Engineer' %}
-{% assign current_organisation = site.current_position.organisation | default: current_cv_entry.organisation | default: 'NVIDIA' %}
-{% assign current_organisation_url = site.current_position.organisation_url
-  | default: current_cv_entry.organisation_url
-  | default: 'https://www.nvidia.com/'
-%}
+{% assign social_image_alt = page.og_image_alt | default: site.og_image_alt | default: 'Neil Ashton — Computational Engineering' %}
+{% assign current_role = site.current_position.role %}
+{% assign current_organisation = site.current_position.organisation %}
+{% assign current_organisation_url = site.current_position.organisation_url %}
 {% if page.permalink == '/' %}
-  {% assign meta_title = site.title %}
+  {% assign meta_title = site.homepage_meta_title | default: site.title %}
 {% else %}
   {% assign meta_title = page.title | append: ' | ' | append: site.title %}
 {% endif %}
@@ -33,14 +30,14 @@
   <meta property="og:image" content="{{ social_image }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Neil Ashton — AI for computational engineering and CFD research">
+  <meta property="og:image:alt" content="{{ social_image_alt | escape }}">
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ meta_title | escape }}">
   <meta name="twitter:description" content="{{ meta_description | escape }}">
   <meta name="twitter:image" content="{{ social_image }}">
-  <meta name="twitter:image:alt" content="Neil Ashton — AI for computational engineering and CFD research">
+  <meta name="twitter:image:alt" content="{{ social_image_alt | escape }}">
 {% endif %}
 
 {% if site.serve_schema_org %}

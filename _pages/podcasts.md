@@ -23,16 +23,43 @@ podcast_same_as:
   </nav>
 </div>
 
-<div class="podcast-embed">
-  <iframe
-    title="The Neil Ashton Podcast on Spotify"
-    src="https://open.spotify.com/embed/show/4muRLrJ9Pxglw0RsPgx2gb/video?utm_source=generator"
-    width="624"
-    height="351"
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    loading="lazy"
-    allowfullscreen
-  ></iframe>
+<div
+  class="podcast-embed"
+  data-podcast-embed
+  data-embed-src="https://open.spotify.com/embed/show/4muRLrJ9Pxglw0RsPgx2gb/video"
+  aria-label="The Neil Ashton Podcast Spotify player"
+>
+  <div class="podcast-embed-slot" data-podcast-embed-slot>
+    <div class="podcast-embed-poster">
+      <span class="podcast-embed-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" focusable="false">
+          <circle cx="24" cy="24" r="23"></circle>
+          <path d="m20 15 14 9-14 9Z"></path>
+        </svg>
+      </span>
+      <div class="podcast-embed-copy">
+        <p class="eyebrow">Spotify player</p>
+        <p class="podcast-embed-title">The Neil Ashton Podcast</p>
+        <p>Browse and play the latest conversations without leaving this page.</p>
+        <button
+          class="button button-primary podcast-embed-load"
+          type="button"
+          data-load-podcast-player
+          hidden
+        >
+          Load Spotify player
+        </button>
+        <noscript>
+          <p class="podcast-embed-noscript">The embedded player requires JavaScript. You can still listen directly on Spotify.</p>
+        </noscript>
+      </div>
+    </div>
+  </div>
+  <div class="podcast-embed-meta">
+    <p>Spotify is contacted only after you load the player and may then set cookies.</p>
+    <a href="{{ site.spotify_show_url }}">Open in Spotify <span aria-hidden="true">↗</span></a>
+  </div>
+  <p class="sr-only" data-podcast-embed-status aria-live="polite"></p>
 </div>
 
 {% assign podcast_episode_count = 0 %}
@@ -130,3 +157,5 @@ podcast_same_as:
     </article>
   </div>
 </section>
+
+<script defer src="{{ '/assets/js/podcast-embed.js' | relative_url | bust_file_cache }}"></script>

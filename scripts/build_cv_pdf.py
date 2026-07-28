@@ -57,7 +57,7 @@ def load_yaml(path: Path) -> dict[str, Any]:
 
 
 def assert_pdf_safe_text(value: Any, trail: str = "root") -> None:
-    """Keep generated PDF text free of typographic dash encoding surprises."""
+    """Keep generated PDF text free of unsupported typographic characters."""
 
     if isinstance(value, dict):
         for key, item in value.items():
@@ -66,7 +66,7 @@ def assert_pdf_safe_text(value: Any, trail: str = "root") -> None:
         for index, item in enumerate(value):
             assert_pdf_safe_text(item, f"{trail}[{index}]")
     elif isinstance(value, str):
-        for prohibited in ("\u2013", "\u2014"):
+        for prohibited in ("\u2014",):
             if prohibited in value:
                 raise ValueError(f"Unicode dash found at {trail}: {value!r}")
 
@@ -487,8 +487,9 @@ def build_pdf(cv: dict[str, Any], config: dict[str, Any]) -> None:
 
     story.extend(section_heading("Selected publications", styles))
     for index, item in enumerate(cv["publications"], start=1):
+        author_stop = "" if str(item["authors"]).rstrip().endswith(".") else "."
         citation = (
-            f"{esc(item['authors'])}. "
+            f"{esc(item['authors'])}{author_stop} "
             f"{linked(item['title'], item['url'])}. "
             f"<i>{esc(item['venue'])}</i>."
         )

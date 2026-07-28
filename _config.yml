@@ -1,9 +1,10 @@
 # Site identity
 title: Neil Ashton
+homepage_meta_title: Neil Ashton | Computational Engineering
 first_name: Neil
 last_name: Ashton
 email: contact@neilashton.co.uk
-description: Neil Ashton is a Distinguished Engineer at NVIDIA whose research develops AI methods for computational engineering, including scientific machine learning, foundation models, agentic workflows, and computational fluid dynamics.
+description: Neil Ashton's research develops AI methods for computational engineering, including scientific machine learning, foundation models, agentic workflows, and computational fluid dynamics.
 keywords: Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing
 lang: en-GB
 timezone: America/Los_Angeles
@@ -29,7 +30,8 @@ lazy_loading_images: true
 # Social preview and structured data
 serve_og_meta: true
 serve_schema_org: true
-og_image: /assets/img/neil-ashton-social.jpg
+og_image: /assets/img/neil-ashton-social-academic.jpg
+og_image_alt: Neil Ashton — Computational Engineering
 same_as:
   - https://www.linkedin.com/in/neilashton
   - https://scholar.google.com/citations?user=mtBY0RcAAAAJ

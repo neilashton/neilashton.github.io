@@ -2843,6 +2843,43 @@ h3 {
 }
 
 @media (max-width: 767.98px) {
+  .navbar.navbar-light .navbar-brand {
+    min-height: 44px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 0;
+    left: 0;
+    max-height: calc(100vh - 64px);
+    max-height: calc(100dvh - 64px);
+    padding: 0.75rem 1rem 1rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-bottom: 1px solid var(--global-divider-color);
+    background: var(--header-bg-color);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .navbar-nav {
+    align-items: stretch;
+  }
+
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    min-height: 44px;
+    padding: 0.68rem 0.75rem;
+  }
+
+  .theme-item {
+    margin: 0.35rem 0 0.15rem 0.5rem;
+  }
+
+  .theme-toggle {
+    width: 44px;
+    height: 44px;
+  }
+
   .research-agenda-list,
   .research-themes,
   .cv-leadership,
@@ -2859,6 +2896,11 @@ h3 {
 }
 
 @media (max-width: 639.98px) {
+  .navbar-collapse {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
   .site-main {
     padding-top: 2.4rem;
   }
@@ -2882,6 +2924,14 @@ h3 {
   .biography-layout {
     gap: 1.75rem;
     grid-template-columns: 1fr;
+  }
+
+  .biography-portrait {
+    grid-row: 1;
+  }
+
+  .biography-copy {
+    grid-row: 2;
   }
 
   .cv-intro-grid {

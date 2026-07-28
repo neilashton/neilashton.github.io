@@ -2,7 +2,6 @@
 layout: about
 title: Neil Ashton
 permalink: /
-description: Neil Ashton is a Distinguished Engineer at NVIDIA whose research develops AI methods for computational engineering, including scientific machine learning, foundation models, agentic workflows, and computational fluid dynamics.
 schema_type: ProfilePage
 headline: Neil Ashton
 profile:
@@ -13,7 +12,7 @@ research_agenda:
   - title: Scientific data and evaluation
     question: Which datasets, benchmarks, and validation methods demonstrate physical fidelity, computational efficiency, and engineering utility?
   - title: Agentic engineering
-    question: How can AI agents use simulation, analysis, and optimisation tools reliably, with traceable reasoning and appropriate human oversight?
+    question: How can AI agents select and orchestrate simulation, analysis, and optimisation tools, verify physical consistency, preserve provenance, respond to uncertainty and failures, and keep consequential decisions under appropriate human oversight?
 featured_work:
   - kicker: Open scientific data
     title: CAE ML Datasets
@@ -28,7 +27,7 @@ featured_work:
   - kicker: Agentic engineering
     title: Agentic computational engineering
     url: https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html
-    description: I research agentic AI systems that can formulate engineering problems, orchestrate simulation, analysis, and optimisation tools, interpret results, and iteratively improve designs with traceable human oversight.
+    description: I research agentic AI systems that formulate engineering problems; select and orchestrate simulation, analysis, and optimisation tools; verify physical consistency; preserve traceable provenance; respond to uncertainty and failures; and support human engineering judgement.
     link_label: NASA Ames talk
 featured_publications:
   - year: "2026"
@@ -96,8 +95,8 @@ featured_talks:
     title: The role of cloud computing, machine learning, and HPC in the advancement of high-fidelity CFD for industry
 ---
 
-I am a Distinguished Engineer at NVIDIA, working at the intersection of computational engineering and artificial intelligence. My research spans computational fluid dynamics, high-performance computing, scientific machine learning, open datasets, and the evaluation of AI systems for engineering.
+I am a {{ site.current_position.role }} at {{ site.current_position.organisation }}, working at the intersection of computational engineering and artificial intelligence. My research spans computational fluid dynamics, high-performance computing, scientific machine learning, open datasets, foundation models for physical systems, and reliable agentic systems for engineering design and analysis.
 
 I founded the Automotive CFD Prediction Workshop (AutoCFD) and serve on the organising committee of the AIAA CFD High-Lift Prediction Workshop (HLPW), where I lead the AI/ML Technical Focus Group. These programmes coordinate shared test cases, validation methods, and research priorities across academic and industrial groups. I also lead and collaborate on the open AhmedML, WindsorML, DrivAerML, and HiLiftAeroML datasets.
 
-Before joining NVIDIA, I was Worldwide Technical Lead for CAE at Amazon Web Services and a Senior Researcher in the Department of Engineering Science at the University of Oxford. Earlier research and engineering work covered industrial CFD, high-performance computing, automotive and aerospace aerodynamics, Formula 1, FIA technical regulation, and the British Cycling Tokyo 2020 bicycle development programme. I completed my PhD at the University of Manchester and am a Fellow of the Institution of Mechanical Engineers and a Chartered Engineer.
+Previously, I was Worldwide Technical Lead for CAE at Amazon Web Services and a Senior Researcher in the Department of Engineering Science at the University of Oxford. Earlier research and engineering work covered industrial CFD, high-performance computing, automotive and aerospace aerodynamics, Formula 1, FIA technical regulation, and British Cycling’s bicycle development programme for the Tokyo 2020 Olympic Games. I completed my PhD at the University of Manchester and am a Fellow of the Institution of Mechanical Engineers and a Chartered Engineer.

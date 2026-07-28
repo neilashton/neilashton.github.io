@@ -9,7 +9,7 @@ nav_order: 1
 ---
 
 <div class="page-intro measure-wide">
-  <p>My research develops AI methods for modelling, reasoning about, and designing complex physical systems. It connects high-fidelity simulation and scientific data with foundation models, agentic engineering workflows, and rigorous physical evaluation.</p>
+  <p>My research develops AI methods for modelling, reasoning about, and designing complex physical systems. It connects high-fidelity simulation and scientific data with foundation models and agentic engineering workflows that remain verifiable, traceable, and accountable to human engineering judgement.</p>
 </div>
 
 <section class="work-section" aria-labelledby="projects-title">
@@ -18,7 +18,7 @@ nav_order: 1
     <article>
       <p class="research-type">Research programme</p>
       <h3>Agentic computational engineering</h3>
-      <p>AI systems that can formulate simulation tasks, use numerical, analysis, and optimisation tools, interpret results, and revise engineering workflows with traceable human oversight.</p>
+      <p>AI systems that formulate engineering tasks; select and orchestrate numerical, analysis, and optimisation tools; verify results for physical consistency; preserve provenance and traceability; handle uncertainty and recover from failures; and retain human oversight for consequential decisions.</p>
       <a href="https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html">NASA Ames talk</a>
     </article>
     <article>
@@ -68,7 +68,7 @@ nav_order: 1
     </article>
     <article>
       <h3>Tool-using engineering agents</h3>
-      <p>How can agents use simulation, analysis, and optimisation tools reliably while preserving traceability and appropriate human control?</p>
+      <p>How can agents select and orchestrate simulation, analysis, and optimisation tools while verifying physical consistency, preserving provenance, recovering from failures, representing uncertainty, and retaining appropriate human control?</p>
     </article>
     <article>
       <h3>Trustworthy evaluation</h3>

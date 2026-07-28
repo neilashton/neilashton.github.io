@@ -31,6 +31,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  const desktopNavigation = window.matchMedia("(min-width: 768px)");
+  desktopNavigation.addEventListener?.("change", (event) => {
+    if (event.matches) setNavigationOpen(false);
+  });
+
   document.querySelectorAll("[data-disclosure-target]").forEach((button) => {
     button.addEventListener("click", () => {
       const target = document.getElementById(button.dataset.disclosureTarget);

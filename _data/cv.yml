@@ -3,26 +3,24 @@ updated: July 2026
 summary: >-
   Computational engineering researcher and technical leader working at the
   intersection of scientific machine learning, high-fidelity simulation,
-  foundation models, agentic AI, and high-performance computing. Experience
-  spans research and product direction, open scientific datasets,
-  international benchmarking programmes, and industrial deployment.
+  foundation models, and agentic AI for verifiable and traceable engineering
+  workflows. Experience spans research and product direction, open scientific
+  datasets, international benchmarking programmes, high-performance computing,
+  and industrial deployment.
 
 experience:
   - current: true
-    role: Distinguished Engineer
-    organisation: NVIDIA
-    organisation_url: https://www.nvidia.com/
-    period: Jan 2025-present
+    period: Jan 2025–present
     location: United Kingdom
     highlights:
       - Set research and product direction for accelerated computational engineering, AI physics, simulation, and engineering AI.
-      - Lead work on foundation models, scientific machine learning, and agentic architectures that use simulation and engineering tools.
+      - Lead work on foundation models, scientific machine learning, and agentic architectures, with emphasis on tool orchestration, physical verification, provenance, uncertainty, failure recovery, and human oversight.
       - Work across research, engineering, product, and external partners to translate advances into dependable computational-engineering systems.
 
   - role: Worldwide Technical Lead for Computer-Aided Engineering
     organisation: Amazon Web Services
     organisation_url: https://aws.amazon.com/hpc/engineering/
-    period: Feb 2020-Jan 2025
+    period: Feb 2020–Jan 2025
     highlights:
       - Led worldwide technical strategy for CAE across high-performance computing, machine learning, cloud services, and partner technologies.
       - Founded and led a cross-Amazon machine-learning-for-CAE initiative, connecting product development, research, and industrial adoption.
@@ -31,7 +29,7 @@ experience:
   - role: Senior Researcher
     organisation: Osney Thermofluids Institute, Department of Engineering Science, University of Oxford
     organisation_url: https://oti.eng.ox.ac.uk/
-    period: Jul 2016-Jan 2020
+    period: Jul 2016–Jan 2020
     highlights:
       - Led vehicle-aerodynamics research spanning high-fidelity CFD, turbulence modelling, multiphysics, and high-performance computing.
       - Supervised doctoral research and led collaborations with academic, government, and industrial partners.
@@ -39,46 +37,46 @@ experience:
 
   - role: Consultant
     organisation: Formula 1 Management
-    period: Jul 2017-Dec 2019
+    period: Jul 2017–Dec 2019
     highlights:
       - Provided CFD and HPC expertise to the motorsport team, co-authored the CFD/HPC sections of proposed FIA Sporting Regulations, reviewed Technical Regulations, and helped establish a cloud-based OpenFOAM process.
 
   - role: Consultant
     organisation: British Cycling
-    period: Jul 2016-Dec 2019
+    period: Jul 2016–Dec 2019
     highlights:
-      - Conducted the high-fidelity CFD programme for the Great Britain track bicycle developed for the Tokyo 2020 Olympic cycle, including more than 1,000 transient simulations.
+      - Conducted the high-fidelity CFD programme for the Great Britain track bicycle developed for the Tokyo 2020 Olympic Games, including more than 1,000 transient simulations.
 
   - role: Consultant
     organisation: Williams Advanced Engineering
-    period: Jan 2016-Jul 2017
+    period: Jan 2016–Jul 2017
     highlights:
       - Established CFD and aerodynamic methods for Formula 3, Le Mans, and touring-car programmes.
 
   - role: Visiting Scholar
     organisation: Advanced Supercomputing Division, NASA Ames Research Center
     organisation_url: https://www.nas.nasa.gov/
-    period: Jan-Jul 2016
+    period: Jan–Jul 2016
     highlights:
       - Conducted large-scale computational aerodynamics research for transonic and supersonic aircraft with the Applied Modeling and Simulation group.
 
   - role: EPSRC Impact Acceleration Research Associate
     organisation: University of Manchester
     organisation_url: https://www.mace.manchester.ac.uk/
-    period: 2013-2015
+    period: 2013–2015
     highlights:
       - Developed turbulence models for automotive and aerospace applications and contributed to the EU FP7 Go4Hybrid programme.
       - Undertook a one-month research visit to NASA Ames Research Center in February 2015.
 
   - role: CFD Engineer
     organisation: Lotus F1 Team
-    period: 2012-2013
+    period: 2012–2013
     highlights:
       - Developed computational-fluid-dynamics and high-performance-computing methods within the Formula 1 aerodynamics group.
 
 research_leadership:
   - title: Automotive CFD Prediction Workshop (AutoCFD)
-    role: Founder and organiser, 2019-present
+    role: Founder and organiser, 2019–present
     url: https://autocfd.org/
     description: >-
       Founded the international workshop series to establish open test cases,
@@ -111,7 +109,7 @@ research_leadership:
       of more than 3,100 high-fidelity simulation samples.
 
   - title: The Neil Ashton Podcast
-    role: Founder and host, 2024-present
+    role: Founder and host, 2024–present
     url: /podcasts/
     description: >-
       Long-form conversations with researchers and engineering leaders on AI,
@@ -123,15 +121,15 @@ research_leadership:
 education:
   - degree: PhD, Aerospace Engineering
     institution: University of Manchester
-    period: 2008-2013
+    period: 2008–2013
     detail: >-
       Thesis: Development, Implementation and Testing of an Alternative DDES
       Formulation Based on Elliptic Relaxation. EPSRC funded.
     url: https://research.manchester.ac.uk/portal/en/theses/development-implementation-and-testing-of-an-alternative-ddes-formulation-based-on-elliptic-relaxation%28cfd86ae9-c48e-4f89-84b7-fa6aac6dd3e4%29.html
 
-  - degree: MEng (Hons), Aerospace Engineering - First Class
+  - degree: MEng (Hons), Aerospace Engineering – First Class
     institution: University of Manchester
-    period: 2004-2008
+    period: 2004–2008
 
 professional_standing:
   - title: Fellow, Institution of Mechanical Engineers
@@ -145,7 +143,7 @@ professional_standing:
   - title: Expert reviewer, European Commission
     period: Since 2017
   - title: Member, IMechE Technical Strategy Board and Education Advisory Group
-    period: 2017-2021
+    period: 2017–2021
 
 publications:
   - year: "2026"
@@ -163,19 +161,19 @@ publications:
   - year: "2024"
     authors: Neil Ashton et al.
     title: "WindsorML: High-Fidelity Computational Fluid Dynamics Dataset for Automotive Aerodynamics"
-    venue: Advances in Neural Information Processing Systems 37, 37823-37835
+    venue: Advances in Neural Information Processing Systems 37, 37823–37835
     url: https://doi.org/10.52202/079017-1194
 
   - year: "2024"
     authors: Neil Ashton, Paul Batten, Andrew Cary, and Kevin Holst
     title: Summary of the 4th High-Lift Prediction Workshop Hybrid RANS/LES Technology Focus Group
-    venue: Journal of Aircraft 61(1), 86-115
+    venue: Journal of Aircraft 61(1), 86–115
     url: https://doi.org/10.2514/1.C037329
 
   - year: "2023"
     authors: Neil Ashton and William Van Noordt
     title: "Overview and Summary of the First Automotive CFD Prediction Workshop: DrivAer Model"
-    venue: SAE International Journal of Commercial Vehicles 16(1), 61-85
+    venue: SAE International Journal of Commercial Vehicles 16(1), 61–85
     url: https://doi.org/10.4271/02-16-01-0005
 
   - year: "2021"
@@ -187,13 +185,13 @@ publications:
   - year: "2016"
     authors: Neil Ashton, Alastair West, Sylvain Lardeau, and Alistair Revell
     title: Assessment of RANS and DES Methods for Realistic Automotive Models
-    venue: Computers & Fluids 128, 1-15
+    venue: Computers & Fluids 128, 1–15
     url: https://doi.org/10.1016/j.compfluid.2016.01.008
 
   - year: "2013"
     authors: Neil Ashton, Alistair Revell, Robert Prosser, and Juan Uribe
     title: Development of an Alternative Delayed Detached-Eddy Simulation Formulation Based on Elliptic Relaxation
-    venue: AIAA Journal 51(2), 513-519
+    venue: AIAA Journal 51(2), 513–519
     url: https://doi.org/10.2514/1.J051808
 
 talks:

@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 <div class="page-intro measure-wide">
-  <p>Selected keynotes, invited seminars, conference sessions, and technical workshops spanning AI for engineering, computational fluid dynamics, and high-performance computing.</p>
+  <p>An archive of keynotes, invited seminars, conference sessions, and technical workshops spanning AI for engineering, computational fluid dynamics, and high-performance computing.</p>
 </div>
 
 <div class="talks-timeline">
