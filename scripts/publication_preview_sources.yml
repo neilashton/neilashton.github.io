@@ -1,0 +1,157 @@
+# Source provenance for publication thumbnails added in July 2026.
+# Each image is a crop of the cited paper figure; no synthetic artwork is used.
+
+ashton2026hiliftaeromlhighfidelitycomputationalfluid:
+  preview: hiliftaeroml.png
+  source: https://arxiv.org/pdf/2605.19565
+  figure: "PDF p. 23, Figure 16 — simulated wall shear and ONERA oil-flow"
+
+Ashton2026a:
+  preview: hiliftaeroml-generation.png
+  source: https://arc.aiaa.org/doi/pdf/10.2514/6.2026-0042
+  figure: "PDF p. 7, Figure 4 — solution-grid distribution"
+
+Ashton2025:
+  preview: fluid-intelligence.png
+  source: https://arxiv.org/pdf/2511.20455
+  figure: "PDF p. 24, Figure 3a-b — data-generation and training-cost scaling"
+
+Tangsali2025:
+  preview: ai-aero-benchmark.png
+  source: https://arxiv.org/pdf/2507.10747
+  figure: "PDF p. 19, Figure 9 — X-MeshGraphNet truth, prediction, and error fields"
+
+ashton2025a:
+  preview: hlpw5-summary.png
+  source: https://arc.aiaa.org/doi/pdf/10.2514/6.2025-0048
+  figure: "PDF p. 21, Figure 28 — experimental oil-flow compared with HRLES and RANS"
+
+batten2025a:
+  preview: hlpw5-cfdpp.png
+  source: https://arc.aiaa.org/doi/pdf/10.2514/6.2025-0685
+  figure: "PDF p. 14, Figure 16 — high-angle-of-attack surface oil-flow"
+
+ashton2025b:
+  preview: hlpw5-imb.png
+  source: https://doi.org/10.2514/6.2025-0888
+  figure: "PDF p. 20, Figure 29 — Q-criterion and skin-friction comparison"
+
+ashton2022c:
+  preview: hlpw4-summary.png
+  source: https://arc.aiaa.org/doi/pdf/10.2514/6.2022-3293
+  figure: "PDF p. 15, Figure 12 — experimental flow-visualisation paint"
+
+Davis2020:
+  preview: rotating-pipe-coherence.png
+  source: https://par.nsf.gov/servlets/purl/10317258
+  figure: "PDF p. 2, Figure 1 — streamwise velocity and Q-criterion"
+
+Ashton2017c:
+  preview: openfoam-highlift-vv.png
+  source: https://doi.org/10.2514/1.C034918
+  figure: "Accepted manuscript p. 24, Figure 29 — experiment and solver surface streamlines"
+
+Ashton2019:
+  preview: rotating-pipe-eb-rsm.png
+  source: https://par.nsf.gov/servlets/purl/10317510
+  figure: "PDF p. 7, Figure 3 — EBRSM and DNS Reynolds stresses and TKE"
+
+davis2019:
+  preview: rotating-pipe-dns.png
+  source: https://par.nsf.gov/servlets/purl/10317260
+  figure: "PDF p. 3, Figure 2 — DNS domain and mesh cross-section"
+
+Valen-Sendstad2018:
+  preview: aneurysm-challenge-2015.png
+  source: https://doi.org/10.1007/s13239-018-00374-2
+  figure: "PDF p. 11, Figure 5a — multi-team absolute wall-shear-stress fields"
+
+Ashton2018g:
+  preview: industrial-ddes-sensitivity.png
+  source: https://doi.org/10.4271/2018-01-0709
+  figure: "PDF p. 3, Figure 6 — separated-flow isosurfaces for URANS and DDES"
+
+Brehm2018:
+  preview: immersed-boundary-wall-model.png
+  source: https://doi.org/10.2514/6.2018-1560
+  figure: "PDF p. 16, Figure 16 — NACA0012 pressure and immersed-boundary mesh"
+
+Ashton2018c:
+  preview: hlpw3-summary.png
+  source: https://doi.org/10.2514/6.2018-1253
+  figure: "PDF p. 21, Figure 32 — experiment, OpenFOAM, and LAVA surface streamlines"
+
+Skaperdas2018:
+  preview: gmgw1-meshes.png
+  source: https://doi.org/10.2514/6.2018-0660
+  figure: "PDF p. 14, Figure 22 — JSM Case 2c medium volume mesh"
+
+Ashton2015:
+  preview: slat-noise.png
+  source: https://doi.org/10.2514/6.2015-3139
+  figure: "PDF p. 15, Figure 19a — 1312 Hz aeroacoustic field"
+
+Ashton2018a:
+  preview: ec135-fuselage.png
+  source: https://doi.org/10.1007/978-3-319-52995-0_10
+  figure: "Printed p. 199, Figure 10 — pressure and wall-friction comparison"
+
+Ashton2017b:
+  preview: recalibrated-ddes.png
+  source: https://doi.org/10.2514/6.2017-4281
+  figure: "PDF p. 13, Figure 20c — recalibrated turbulent-viscosity field"
+
+Ashton2016e:
+  preview: 30p30n-flow.png
+  source: https://doi.org/10.2514/1.J054521
+  figure: "PDF p. 7, Figure 9 — SPIV and IDDES resolved TKE"
+
+Ashton2016a:
+  preview: rotating-pipe-rsm.png
+  source: https://doi.org/10.2514/6.2016-3943
+  figure: "PDF p. 9, Figure 7 — EB-RSM turbulent kinetic energy and experiment"
+
+stoellinger2015:
+  preview: eb-rsm-flows.png
+  source: https://doi.org/10.2514/6.2015-2926
+  figure: "PDF p. 7, Figure 4 — periodic-hill geometry and velocity streamlines"
+
+ashton2015f:
+  preview: ahmed-grey-area.png
+  source: https://doi.org/10.1007/978-3-319-15141-0_9
+  figure: "PDF p. 12, Figure 9d — E-DDES Q-criterion isosurfaces"
+
+Ashton2015f:
+  preview: drivaer-rans-des.png
+  source: https://doi.org/10.4271/2015-01-1538
+  figure: "PDF p. 8, Figure 8 — experimental, RANS, and IDDES pressure fields"
+
+Owen16:
+  preview: abdominal-aneurysm.png
+  source: https://doi.org/10.1177/0954411915626742
+  figure: "PDF p. 6, Figure 5 — CT and ultrasound wall-shear-stress comparison"
+
+Berg2015:
+  preview: aneurysm-rupture-challenge.png
+  source: https://doi.org/10.1115/1.4031794
+  figure: "PDF p. 8, Figure 7 — multi-team peak-systolic velocity comparison"
+
+Ashton2015a:
+  preview: simplified-car-ddes.png
+  source: https://ars.els-cdn.com/content/image/1-s2.0-S0142727X15000673-gr12.jpg
+  figure: "Figure 12 — URANS, DDES, E-DDES, and experiment flow fields"
+
+Ashton2013:
+  preview: elliptic-relaxation-ddes.png
+  source: https://doi.org/10.2514/1.J051808
+  figure: "PDF p. 4, Figure 8 — instantaneous NACA 0021 vorticity fields"
+
+Poletto2012:
+  preview: hump-embedded-ddes.png
+  source: https://doi.org/10.1007/978-3-642-31818-4_15
+  figure: "PDF p. 10, Figure 5 — DDES mode-switch contours over the 2D hump"
+
+ashton11:
+  preview: hybrid-ddes-scheme.png
+  source: https://iopscience.iop.org/article/10.1088/1742-6596/318/4/042043/pdf
+  figure: "PDF p. 14, Figure 14 — Q-criterion isosurfaces over the wall-mounted hump"
