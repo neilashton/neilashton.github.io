@@ -1,0 +1,8584 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:41,120
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:41,120 --> 00:00:44,360
+Ashton Podcast.
+So today I'm speaking with
+
+13
+00:00:44,480 --> 00:00:50,080
+Professor Mike Giles, somebody
+who has had a enormous influence
+
+14
+00:00:50,160 --> 00:00:56,480
+on the CFD community, but more
+broadly in, in maths, in high
+
+15
+00:00:56,480 --> 00:01:01,680
+performance computing.
+And someone that, as I say to to
+
+16
+00:01:01,680 --> 00:01:05,519
+Mike at the beginning of the of
+the chat is his name often comes
+
+17
+00:01:05,519 --> 00:01:07,800
+up when I speak to, to other
+people.
+
+18
+00:01:08,320 --> 00:01:11,760
+And I was always really
+intrigued to, to speak to him,
+
+19
+00:01:12,440 --> 00:01:18,200
+particularly because when I was
+at Oxford myself, he was always
+
+20
+00:01:18,200 --> 00:01:21,120
+a figure that was, that was
+mentioned and was influential in
+
+21
+00:01:21,120 --> 00:01:26,400
+so many bits.
+Probably for most people, he is
+
+22
+00:01:26,720 --> 00:01:32,040
+most known as the, I guess you'd
+call it the lead developer
+
+23
+00:01:32,040 --> 00:01:37,040
+instigator of the Hydra Rolls
+Royce CFD code that is used
+
+24
+00:01:37,040 --> 00:01:42,400
+stilted today by I would assume,
+thousands of engineers around
+
+25
+00:01:42,400 --> 00:01:46,400
+the world to design the the jet
+engines that they produce.
+
+26
+00:01:46,920 --> 00:01:52,640
+And, and I think what makes
+really interesting is his pivot
+
+27
+00:01:52,720 --> 00:01:59,840
+also to them work in finance,
+computational maths in in as
+
+28
+00:01:59,840 --> 00:02:07,440
+applied to, to, to, to finance,
+where he is equally made in
+
+29
+00:02:07,440 --> 00:02:08,840
+prayer.
+And that's what's incredible for
+
+30
+00:02:08,840 --> 00:02:15,480
+someone to make an impression in
+two quite different fields, CFD
+
+31
+00:02:15,520 --> 00:02:19,640
+and and finance being quite
+different shows the level of the
+
+32
+00:02:19,640 --> 00:02:25,760
+person, the intellect, the the
+sort of innovation potential to
+
+33
+00:02:25,760 --> 00:02:29,040
+switch to a different field and
+then still make an impact.
+
+34
+00:02:29,760 --> 00:02:34,160
+Now I only come from the first
+field, so my appreciation of the
+
+35
+00:02:34,160 --> 00:02:36,920
+second in the sort of quant side
+of the world.
+
+36
+00:02:36,920 --> 00:02:41,200
+But I've read enough to know and
+you only have to look at do a
+
+37
+00:02:41,200 --> 00:02:47,080
+quick Google search to see that
+he's his work on what's called
+
+38
+00:02:47,080 --> 00:02:52,280
+that multi level Monte Carlo
+methods has been very impactful
+
+39
+00:02:52,280 --> 00:02:57,040
+in that community.
+And the third thing that I guess
+
+40
+00:02:57,040 --> 00:03:01,360
+he is really pioneered in some
+ways, and one one was one of the
+
+41
+00:03:01,360 --> 00:03:04,600
+early adopters for is on the
+high, high performance computing
+
+42
+00:03:04,600 --> 00:03:07,120
+side and particularly around
+GPUs.
+
+43
+00:03:08,280 --> 00:03:12,800
+I should state obviously for
+transparency, I do now work at
+
+44
+00:03:12,800 --> 00:03:17,720
+that company NVIDIA, but this
+conversation was in no way
+
+45
+00:03:17,720 --> 00:03:22,120
+arranged to to promote NVIDIA.
+This was organized completely
+
+46
+00:03:22,120 --> 00:03:24,760
+separately.
+And it just happens to be that
+
+47
+00:03:24,760 --> 00:03:28,520
+I, I, I don't I would there.
+So you'll hear some mentions of
+
+48
+00:03:28,520 --> 00:03:31,560
+it, but please trust me, this is
+not some sort of, you know,
+
+49
+00:03:32,000 --> 00:03:35,440
+product placement.
+And and he was actually working
+
+50
+00:03:35,440 --> 00:03:38,640
+on this and I think he said that
+he was maybe the number 2 or
+
+51
+00:03:38,640 --> 00:03:42,280
+like the second ever CUDA fellow
+and was looking at this in 2000
+
+52
+00:03:42,280 --> 00:03:46,200
+and six 2007.
+You know, well before sort of
+
+53
+00:03:46,200 --> 00:03:49,280
+everybody knows the name of
+video and GPU.
+
+54
+00:03:49,280 --> 00:03:53,480
+So he, he is always, and he says
+in the discussion, had an
+
+55
+00:03:53,480 --> 00:03:56,880
+interest in high performance
+computers throughout the time
+
+56
+00:03:57,120 --> 00:04:01,680
+and, and still today teaches
+classes and, and programs and
+
+57
+00:04:01,680 --> 00:04:04,160
+does everything, which is, I
+really love that when you see
+
+58
+00:04:04,160 --> 00:04:07,040
+someone who's gone through their
+whole career and it's completely
+
+59
+00:04:07,040 --> 00:04:09,000
+fine if you do change.
+And some people as they
+
+60
+00:04:09,000 --> 00:04:12,400
+progress, become more senior,
+they get less hands on, you
+
+61
+00:04:12,400 --> 00:04:15,600
+know, and then they're more
+about enacting a vision for what
+
+62
+00:04:15,600 --> 00:04:17,079
+they want to do.
+And there's nothing wrong with
+
+63
+00:04:17,079 --> 00:04:19,600
+that.
+But I always have a special
+
+64
+00:04:19,600 --> 00:04:23,000
+appreciation for, for people who
+are, you know, one of the
+
+65
+00:04:23,000 --> 00:04:28,360
+world's leading professors and
+they, they're still a hands on,
+
+66
+00:04:28,560 --> 00:04:30,640
+you know, keyboard.
+So yeah.
+
+67
+00:04:32,640 --> 00:04:37,160
+Mike is a professor of numerical
+analysis at the Maths Institute
+
+68
+00:04:37,400 --> 00:04:40,280
+at the University of Oxford.
+As we mentioned, beautiful
+
+69
+00:04:40,280 --> 00:04:42,320
+building, lovely location.
+I'm very jealous.
+
+70
+00:04:44,000 --> 00:04:48,880
+And he was at the University of
+Cambridge that was rated as an
+
+71
+00:04:48,880 --> 00:04:51,000
+undergraduate.
+And we mentioned it, he was a
+
+72
+00:04:51,000 --> 00:04:53,960
+senior Wrangler, which if you
+look it up on Wikipedia,
+
+73
+00:04:53,960 --> 00:04:57,920
+basically means the person who
+graduated top of class for the
+
+74
+00:04:57,920 --> 00:05:00,600
+whole university in terms of
+maths as an undergraduate.
+
+75
+00:05:01,320 --> 00:05:04,320
+And then he went to MIT, he was
+Kennedy Scholar, taught there,
+
+76
+00:05:04,680 --> 00:05:07,120
+came back to Oxford.
+Now we go through all of that,
+
+77
+00:05:07,680 --> 00:05:11,200
+but one of the things that's
+probably worth mentioning and
+
+78
+00:05:11,200 --> 00:05:15,200
+congratulating him on is that
+actually very recently he was
+
+79
+00:05:15,200 --> 00:05:18,280
+elected a fellow of the Royal
+Society, which is one of the
+
+80
+00:05:18,280 --> 00:05:21,120
+highest honors that can be
+bestowed on somebody.
+
+81
+00:05:21,720 --> 00:05:25,880
+So he's had an amazing career,
+still has an amazing career.
+
+82
+00:05:26,200 --> 00:05:30,160
+And like any of these episodes,
+when I talk to something like
+
+83
+00:05:30,160 --> 00:05:33,440
+that, there are so many things
+that I realized I didn't ask him
+
+84
+00:05:33,440 --> 00:05:36,920
+after I finished the episode.
+And I don't think we would have
+
+85
+00:05:36,920 --> 00:05:39,360
+time anyway to, to to go through
+stuff.
+
+86
+00:05:40,280 --> 00:05:43,920
+I will just note that if you
+Google his name and go to his
+
+87
+00:05:43,920 --> 00:05:47,400
+personal website, I'll put it in
+the chat for the YouTube side of
+
+88
+00:05:47,400 --> 00:05:49,720
+things.
+He has a great link to lots of
+
+89
+00:05:49,720 --> 00:05:52,120
+presentations courses that he's
+done.
+
+90
+00:05:52,840 --> 00:05:57,040
+So I would definitely look at
+there on that to yeah, to to
+
+91
+00:05:57,240 --> 00:06:00,000
+find out more.
+But yeah, I really hope you
+
+92
+00:06:00,000 --> 00:06:02,440
+enjoy this conversation.
+I genuinely did.
+
+93
+00:06:02,520 --> 00:06:04,720
+I hope you can see it from my
+face if you're watching it.
+
+94
+00:06:04,720 --> 00:06:08,240
+I was learning and, you know,
+interested throughout the whole
+
+95
+00:06:08,480 --> 00:06:11,160
+2 hours.
+So yeah, please sit back and
+
+96
+00:06:11,160 --> 00:06:13,720
+enjoy this episode with
+Professor Mike Childs.
+
+97
+00:06:14,480 --> 00:06:16,440
+Thank you very much.
+Really appreciate.
+
+98
+00:06:16,720 --> 00:06:20,440
+As I said just before your name
+comes up a lot in people I speak
+
+99
+00:06:20,440 --> 00:06:25,480
+to in the in the CFD and HPC
+world.
+
+100
+00:06:25,480 --> 00:06:29,520
+And so I was, yeah, really
+wanting to speak to you to find
+
+101
+00:06:29,520 --> 00:06:32,520
+out a little bit more how this,
+you know, connections started
+
+102
+00:06:32,520 --> 00:06:38,880
+out.
+But maybe we could start, you
+
+103
+00:06:38,880 --> 00:06:41,720
+know, I guess towards towards
+the beginning.
+
+104
+00:06:41,720 --> 00:06:44,480
+Now you're a professor at, you
+know, one of the top
+
+105
+00:06:44,480 --> 00:06:46,960
+universities in the in the in
+the world and maths department,
+
+106
+00:06:46,960 --> 00:06:48,640
+but obviously with an
+engineering background.
+
+107
+00:06:50,520 --> 00:06:54,240
+Did you always want?
+Was your interest in maths?
+
+108
+00:06:54,360 --> 00:06:56,440
+Engineering?
+Were you a person with planes
+
+109
+00:06:56,440 --> 00:06:58,560
+and cars?
+More reading?
+
+110
+00:06:58,560 --> 00:07:01,040
+Physics What?
+What was your early days like?
+
+111
+00:07:02,680 --> 00:07:07,320
+So I would say in school my
+interests were maths and
+
+112
+00:07:07,320 --> 00:07:14,200
+physics.
+And so I actually, you know,
+
+113
+00:07:14,400 --> 00:07:19,160
+went to Cambridge to study
+maths, intending after the first
+
+114
+00:07:19,160 --> 00:07:22,080
+year to transfer into
+theoretical physics.
+
+115
+00:07:24,200 --> 00:07:28,240
+But then, you know, enjoyed the
+maths, stayed, stayed in the
+
+116
+00:07:28,240 --> 00:07:32,080
+maths.
+So, so as a child, that's kind
+
+117
+00:07:32,080 --> 00:07:37,280
+of the direction I suppose I saw
+myself going in, but I also
+
+118
+00:07:37,280 --> 00:07:41,720
+wasn't sure, you know, what I
+would want to do after my
+
+119
+00:07:41,720 --> 00:07:46,160
+studies.
+And so in terms of CFDI mean
+
+120
+00:07:46,160 --> 00:07:52,960
+really the, the pivotal thing
+for me was the fact that in in
+
+121
+00:07:52,960 --> 00:07:57,000
+going to Cambridge in those
+days, you did the entrance exam
+
+122
+00:07:57,000 --> 00:08:02,160
+in November, December and then
+you had from January to October
+
+123
+00:08:02,160 --> 00:08:06,360
+to do something else.
+And some people have travelled
+
+124
+00:08:06,360 --> 00:08:12,200
+then in my case, I went and
+worked at Rolls Royce for that
+
+125
+00:08:12,200 --> 00:08:16,440
+period.
+And that, that was really to
+
+126
+00:08:16,440 --> 00:08:20,640
+learn well, well, to see what
+engineering was like, see if
+
+127
+00:08:20,640 --> 00:08:22,880
+that's something which
+interested me.
+
+128
+00:08:24,320 --> 00:08:29,120
+So at age 18, I was an Rolls
+Royce undergraduate engineering
+
+129
+00:08:29,120 --> 00:08:32,400
+apprentice.
+That was my, my job title.
+
+130
+00:08:33,919 --> 00:08:35,960
+And normally they wouldn't,
+wouldn't have taken a
+
+131
+00:08:35,960 --> 00:08:40,000
+mathematician on, you know,
+usually it, it was engineers,
+
+132
+00:08:40,000 --> 00:08:45,040
+maybe people in materials.
+But I was actually third
+
+133
+00:08:45,040 --> 00:08:48,920
+generation Rolls Royce.
+My, my mother was a programmer
+
+134
+00:08:48,920 --> 00:08:51,400
+before I was born.
+She was a programmer with Rolls
+
+135
+00:08:51,400 --> 00:08:54,840
+Royce in Derby.
+And my grandfather worked,
+
+136
+00:08:54,840 --> 00:08:58,840
+worked for the company for more
+than 25 years in Glasgow.
+
+137
+00:09:00,360 --> 00:09:05,440
+So back in those days, you know,
+the application forms asked if
+
+138
+00:09:05,440 --> 00:09:08,000
+you had any family members
+working in the company.
+
+139
+00:09:08,200 --> 00:09:11,400
+I mean, these days that, that
+that would be nepotism that's
+
+140
+00:09:11,680 --> 00:09:14,880
+strictly forbidden.
+But back in those days that that
+
+141
+00:09:14,880 --> 00:09:19,960
+was viewed as a positive thing.
+And so I think because of that,
+
+142
+00:09:19,960 --> 00:09:26,520
+they, they, they took me on as
+an apprentice because I was a
+
+143
+00:09:26,520 --> 00:09:28,720
+mathematician.
+They weren't exactly sure what
+
+144
+00:09:28,720 --> 00:09:31,760
+to do with me.
+So, so I went through a lot of
+
+145
+00:09:31,760 --> 00:09:36,400
+the standard training with, with
+the engineers then, whereas the
+
+146
+00:09:36,400 --> 00:09:39,840
+engineers had to be moved around
+different parts of the company
+
+147
+00:09:40,280 --> 00:09:43,640
+to satisfy, you know,
+requirements for chartered
+
+148
+00:09:43,640 --> 00:09:47,280
+engineer status.
+You know, later on, you know, I
+
+149
+00:09:47,280 --> 00:09:50,760
+had, I had more flexibility as,
+as to what I did.
+
+150
+00:09:50,760 --> 00:09:55,040
+And so I got into various
+assignments which involved
+
+151
+00:09:55,040 --> 00:10:00,760
+programming in in various forms.
+Oh wow, that's interesting.
+
+152
+00:10:00,760 --> 00:10:03,800
+So this is before you did your
+undergraduate?
+
+153
+00:10:03,840 --> 00:10:06,840
+Yes, this is the period after
+school.
+
+154
+00:10:07,960 --> 00:10:11,360
+Before undergraduate and then
+each summer while I was at
+
+155
+00:10:11,360 --> 00:10:14,840
+Cambridge, each summer I went
+back to Rolls Royce for, for
+
+156
+00:10:14,840 --> 00:10:20,960
+another two months.
+So it was after my second year.
+
+157
+00:10:20,960 --> 00:10:27,040
+So that would be 1980 that I
+joined what was essentially the
+
+158
+00:10:27,040 --> 00:10:31,600
+CFD group, you know, only a few
+months after it was first
+
+159
+00:10:31,680 --> 00:10:34,880
+created, you know, so it was
+called the theoretical sciences
+
+160
+00:10:34,880 --> 00:10:41,280
+group.
+And that that summer I was doing
+
+161
+00:10:42,080 --> 00:10:45,160
+2D grid generation using
+conformal mapping.
+
+162
+00:10:47,320 --> 00:10:52,120
+So directly using, using my, my,
+my coursework in complex
+
+163
+00:10:52,120 --> 00:10:57,080
+variable theory.
+That was actually a paper, I
+
+164
+00:10:57,080 --> 00:11:00,080
+think it was written by Bob Nee
+at Pratt and Whitney.
+
+165
+00:11:00,640 --> 00:11:03,560
+I don't know whether you
+recognise that, that name, but
+
+166
+00:11:04,520 --> 00:11:08,560
+Bob's a really, you know, senior
+figure of that of that era.
+
+167
+00:11:08,560 --> 00:11:09,800
+Oh.
+Wow.
+
+168
+00:11:10,000 --> 00:11:13,320
+OK, so you did.
+So you're going between, but in
+
+169
+00:11:13,320 --> 00:11:18,520
+the during your undergraduate,
+did you already therefore get a
+
+170
+00:11:18,520 --> 00:11:24,480
+sense that you wanted to go down
+the more CFD route because you
+
+171
+00:11:24,480 --> 00:11:27,400
+were doing in Rolls Royce?
+I imagine because you were doing
+
+172
+00:11:27,400 --> 00:11:31,960
+maths you didn't touch.
+Well, I guess would you do fluid
+
+173
+00:11:31,960 --> 00:11:34,320
+dynamics in?
+I guess you would do numerical
+
+174
+00:11:34,320 --> 00:11:36,480
+methods, but would would fluids
+come up?
+
+175
+00:11:37,080 --> 00:11:40,320
+So.
+So we did lots of theoretical
+
+176
+00:11:40,320 --> 00:11:44,680
+fluid dynamics.
+So I can remember thinking, you
+
+177
+00:11:44,720 --> 00:11:48,480
+know, on on the one hand here,
+here I am taking a course
+
+178
+00:11:48,720 --> 00:11:53,960
+learning about invisid
+incompressible 2D flow over a
+
+179
+00:11:53,960 --> 00:11:56,840
+cylinder.
+And on the other hand, here I am
+
+180
+00:11:56,840 --> 00:12:03,720
+at Rolls Royce looking at these
+phenomenally complex, you know,
+
+181
+00:12:03,720 --> 00:12:09,960
+engineering devices.
+You're clearly paper and pencil
+
+182
+00:12:09,960 --> 00:12:14,560
+cannot take you very far.
+So I was really sold on the idea
+
+183
+00:12:14,560 --> 00:12:18,400
+of numerical simulation at a
+very early age.
+
+184
+00:12:18,760 --> 00:12:20,880
+You know, a very, very early
+stage.
+
+185
+00:12:22,000 --> 00:12:26,760
+I mean, already by the time I
+went to university I'd done some
+
+186
+00:12:26,760 --> 00:12:30,200
+amount of programming.
+So I got into programming pretty
+
+187
+00:12:30,200 --> 00:12:34,720
+early in, in, in part through,
+through my mother.
+
+188
+00:12:34,720 --> 00:12:38,800
+I mean she, she was IT support
+at University of Sterling.
+
+189
+00:12:39,920 --> 00:12:43,800
+So in the holidays I actually
+did a little bit of programming
+
+190
+00:12:43,800 --> 00:12:48,360
+on one of the big academic
+systems down in Manchester.
+
+191
+00:12:51,120 --> 00:12:53,800
+Where was that in the big
+building?
+
+192
+00:12:56,200 --> 00:13:00,720
+When was that in Manchester?
+I mean, I, I didn't go there.
+
+193
+00:13:00,720 --> 00:13:03,160
+I mean, this was remote access
+from Sterling.
+
+194
+00:13:04,760 --> 00:13:07,000
+Yeah.
+So this was in, in, in the
+
+195
+00:13:07,000 --> 00:13:09,800
+sense, you know, the equivalent
+of what's now the Edinburgh
+
+196
+00:13:09,920 --> 00:13:12,720
+Apparel Computing Centre.
+Back in those days, it was the
+
+197
+00:13:12,720 --> 00:13:18,240
+Manchester centre.
+I don't remember what I did on
+
+198
+00:13:18,240 --> 00:13:20,200
+it.
+Nothing very significant.
+
+199
+00:13:21,520 --> 00:13:24,280
+But also while, while that Rolls
+Royce for those eight months
+
+200
+00:13:24,280 --> 00:13:28,920
+before going to Cambridge one
+one day a week, they sent us
+
+201
+00:13:28,920 --> 00:13:33,360
+along to what was then called
+Darby Tech to sort of keep our,
+
+202
+00:13:33,720 --> 00:13:37,320
+our brains ticking over doing
+various classes, including
+
+203
+00:13:37,320 --> 00:13:41,520
+programming.
+And so I, I, I worked in an IBM
+
+204
+00:13:41,840 --> 00:13:48,080
+system there, I, I wrote a code
+to do project critical path
+
+205
+00:13:48,080 --> 00:13:53,360
+analysis, which was great fun.
+So so I've always enjoyed
+
+206
+00:13:53,360 --> 00:13:54,480
+programming.
+What?
+
+207
+00:13:54,480 --> 00:13:56,680
+What languages would it be?
+I'm sorry if I'm asking a stupid
+
+208
+00:13:56,680 --> 00:13:57,840
+question, I'm trying.
+To.
+
+209
+00:13:58,040 --> 00:14:03,640
+Get back to like.
+So I think that must have been
+
+210
+00:14:03,640 --> 00:14:06,280
+Fortran.
+It was punch cards.
+
+211
+00:14:07,360 --> 00:14:11,600
+So that was my experience with,
+with, with punch cards that that
+
+212
+00:14:11,600 --> 00:14:16,360
+time at Darby Tech, it was, it
+was a cast off the IBM machine
+
+213
+00:14:16,360 --> 00:14:18,680
+from Rolls Royce.
+They, they, they donated it to
+
+214
+00:14:18,680 --> 00:14:22,160
+Darby Tech.
+That's, that's my recollection
+
+215
+00:14:22,160 --> 00:14:26,920
+anyway.
+So yes, I think that must have
+
+216
+00:14:26,920 --> 00:14:33,800
+been Fortran in, in Cambridge,
+we had the whole teaching lab of
+
+217
+00:14:33,800 --> 00:14:39,160
+desktop machines and that was
+basic, I think that we used.
+
+218
+00:14:39,680 --> 00:14:43,480
+So there was a, there was a
+numerical projects course in the
+
+219
+00:14:43,480 --> 00:14:47,520
+third year, which was very good,
+you know, and so that, that
+
+220
+00:14:47,520 --> 00:14:51,920
+really sort of solidified my,
+my, my interest in, in, in
+
+221
+00:14:51,920 --> 00:15:00,920
+computational methods.
+And then what about so I, I, I
+
+222
+00:15:00,920 --> 00:15:02,960
+have to ask you one, one
+question.
+
+223
+00:15:02,960 --> 00:15:05,680
+When I was doing a bit of
+research, I hadn't come across
+
+224
+00:15:05,680 --> 00:15:10,400
+this term before, but it's quite
+an esteemed senior Wrangler.
+
+225
+00:15:10,640 --> 00:15:12,000
+Am I pronouncing it?
+Correctly.
+
+226
+00:15:12,920 --> 00:15:14,400
+I guess you've looked at the
+Wikipedia.
+
+227
+00:15:15,800 --> 00:15:19,320
+And then I was like, then I
+started to look down and I read
+
+228
+00:15:19,520 --> 00:15:22,360
+fantastic stories about people
+being paraded around.
+
+229
+00:15:22,360 --> 00:15:24,240
+I don't know if that was the
+time.
+
+230
+00:15:24,240 --> 00:15:29,320
+So this was the top
+undergraduate of maths, is that
+
+231
+00:15:29,320 --> 00:15:31,960
+correct?
+Which which you you've got.
+
+232
+00:15:32,680 --> 00:15:35,680
+Yeah, there there was no fanfare
+in my game.
+
+233
+00:15:40,000 --> 00:15:43,760
+So yeah, I was just told
+afterwards by by my tutor, yeah.
+
+234
+00:15:44,320 --> 00:15:49,160
+OK, well, it's it's still it
+shows, I guess your your
+
+235
+00:15:49,160 --> 00:15:55,480
+ability.
+Were you, did you enjoy the, the
+
+236
+00:15:55,480 --> 00:15:58,000
+sort of Cambridge life, the
+collegiate life?
+
+237
+00:15:58,040 --> 00:16:01,960
+Was, was that something that
+you, I mean, now obviously you
+
+238
+00:16:01,960 --> 00:16:05,520
+know, you're at the other place,
+but was that something that you
+
+239
+00:16:05,880 --> 00:16:09,240
+made a, a strong impression on
+you and, and sort of motivated
+
+240
+00:16:09,240 --> 00:16:13,800
+you later on to, to ultimately
+stay in or, or go back to
+
+241
+00:16:13,800 --> 00:16:18,960
+academia?
+I mean, I, I enjoyed my time at
+
+242
+00:16:18,960 --> 00:16:23,200
+Cambridge.
+I spent a lot of time doing
+
+243
+00:16:23,920 --> 00:16:27,760
+orienteering while I was there.
+So orienteering was something I
+
+244
+00:16:27,760 --> 00:16:31,800
+did as a child, you know, from
+the age of about 12, you know,
+
+245
+00:16:31,800 --> 00:16:34,280
+for.
+Yeah, for, for those listening
+
+246
+00:16:34,280 --> 00:16:36,880
+to this who don't know about
+orienteering, it's effectively
+
+247
+00:16:37,160 --> 00:16:41,560
+cross country running, using a
+map to guide yourself through
+
+248
+00:16:41,560 --> 00:16:43,720
+forests and over hillsides and
+stuff.
+
+249
+00:16:45,400 --> 00:16:50,720
+So, yeah, a lot of my time at
+Cambridge was spent going off
+
+250
+00:16:51,280 --> 00:16:59,720
+the orienteering at weekends.
+I would say that I was as a
+
+251
+00:16:59,720 --> 00:17:03,040
+diligent student, but I wasn't
+particularly hard working.
+
+252
+00:17:03,040 --> 00:17:04,640
+Let's let's let's put it that
+way.
+
+253
+00:17:04,880 --> 00:17:10,839
+You know, I seem to remember my,
+my maths as being sort of a, a
+
+254
+00:17:10,839 --> 00:17:14,079
+nine to five activity five days
+a week.
+
+255
+00:17:14,079 --> 00:17:15,880
+And then, you know, weekends I
+was away.
+
+256
+00:17:17,319 --> 00:17:20,119
+I didn't really start working
+until I went to MIT.
+
+257
+00:17:20,720 --> 00:17:25,119
+OK, that, that that sort of sums
+up the difference between MIT
+
+258
+00:17:25,119 --> 00:17:28,680
+and Cambridge also, you know,
+grad student life and undergrad
+
+259
+00:17:28,680 --> 00:17:30,920
+life, I guess.
+Yeah, Yeah.
+
+260
+00:17:30,920 --> 00:17:34,960
+So you said the beginning that
+you'd, you weren't sure.
+
+261
+00:17:34,960 --> 00:17:38,040
+You, you were debating around
+theoretical physics, maths I
+
+262
+00:17:38,040 --> 00:17:40,560
+presume.
+Then as you went towards the end
+
+263
+00:17:40,560 --> 00:17:45,400
+of your undergrad and
+particularly with the summers in
+
+264
+00:17:45,400 --> 00:17:49,360
+Rolls Royce, you'd, you'd put
+aside the theoretical physics
+
+265
+00:17:49,480 --> 00:17:53,360
+and you were more moving
+towards, I guess the engineering
+
+266
+00:17:53,360 --> 00:17:55,760
+or applied mathematics.
+Would that be fair?
+
+267
+00:17:56,240 --> 00:18:00,120
+I mean, I think by the time I
+finished that initial 8 months
+
+268
+00:18:00,120 --> 00:18:08,200
+at Rolls Royce, I think probably
+the physics ideas had to a large
+
+269
+00:18:08,200 --> 00:18:13,160
+extent dropped out.
+Although I think equally I knew
+
+270
+00:18:13,160 --> 00:18:15,200
+I didn't want to work in
+industry.
+
+271
+00:18:15,760 --> 00:18:19,320
+So yeah.
+So maybe things were still
+
+272
+00:18:19,320 --> 00:18:28,400
+somewhat open.
+Yes, I I do remember, I'm trying
+
+273
+00:18:28,400 --> 00:18:31,680
+to think whether it would be end
+of my second year or early in my
+
+274
+00:18:31,680 --> 00:18:37,000
+third year.
+There was a talk in college by
+
+275
+00:18:38,600 --> 00:18:43,120
+an academic, A researcher just
+talking about the joy of being
+
+276
+00:18:43,120 --> 00:18:47,640
+an academic researcher and that
+that did strike me.
+
+277
+00:18:48,200 --> 00:18:54,440
+So, so that's one of those
+moments that I think, you know,
+
+278
+00:18:54,480 --> 00:18:59,960
+confirmed me in going as an
+academic path or, or at least
+
+279
+00:18:59,960 --> 00:19:02,800
+taking it further and doing,
+doing a PhD.
+
+280
+00:19:06,720 --> 00:19:13,560
+But you know, the move to MIT,
+my, my tutor told me about the,
+
+281
+00:19:13,560 --> 00:19:18,240
+the Kennedy scholarship scheme
+and encouraged me to apply, you
+
+282
+00:19:18,240 --> 00:19:22,000
+know, and so, you know,
+initially I went to MIT on, on
+
+283
+00:19:22,000 --> 00:19:26,800
+this one year scholarship
+thinking it would be a chance to
+
+284
+00:19:26,800 --> 00:19:30,680
+see the world.
+And then I would think about
+
+285
+00:19:31,040 --> 00:19:38,200
+what to do next.
+Having gone out to MIT, my, my
+
+286
+00:19:38,200 --> 00:19:43,080
+supervisor there found funding
+for my second year to, to finish
+
+287
+00:19:43,080 --> 00:19:48,600
+up the masters.
+And in doing that, I also came
+
+288
+00:19:48,600 --> 00:19:53,200
+up with a, what turned out to be
+a good idea for a PhD project.
+
+289
+00:19:53,640 --> 00:19:57,640
+And then, then he got more, more
+research funding for, for me
+
+290
+00:19:59,080 --> 00:20:03,640
+actually from US Air Force to,
+to carry on and do do the PhD.
+
+291
+00:20:04,200 --> 00:20:07,480
+So it wasn't.
+It wasn't the master plan by any
+
+292
+00:20:07,480 --> 00:20:13,040
+means, but yeah, yeah, I went
+out initially for one year and
+
+293
+00:20:13,040 --> 00:20:17,360
+ended up staying for 11.
+So what was the Kennedy
+
+294
+00:20:17,360 --> 00:20:18,920
+scholarship like?
+Because I spoke to somebody
+
+295
+00:20:18,920 --> 00:20:21,880
+else, Anthony.
+Oh, sorry, I'm confusing.
+
+296
+00:20:24,120 --> 00:20:29,240
+Oh, got a brain fog.
+Now the have to rise.
+
+297
+00:20:31,000 --> 00:20:36,720
+Now I'm just interested because
+I wonder if you'd actually come
+
+298
+00:20:36,960 --> 00:20:39,480
+across.
+Probably you haven't.
+
+299
+00:20:40,640 --> 00:20:44,440
+My my memory for names is
+terrible, but there wasn't
+
+300
+00:20:44,440 --> 00:20:46,880
+Anthony about my time.
+Yeah, that's why I'm.
+
+301
+00:20:47,600 --> 00:20:51,280
+Just.
+Wondering if you've in In
+
+302
+00:20:51,280 --> 00:20:54,640
+general, most of the Kennedy
+scholars were at Harvard.
+
+303
+00:20:54,640 --> 00:21:00,040
+There were very few at MIT and,
+and, and these days it's really
+
+304
+00:21:00,040 --> 00:21:03,920
+quite the exception to have
+anybody at MIT, which is a bit
+
+305
+00:21:03,920 --> 00:21:06,640
+of a shame I think.
+Yeah, Tony Pannell.
+
+306
+00:21:07,320 --> 00:21:13,200
+Did you ever come across Tony?
+Yeah, that that that name does
+
+307
+00:21:13,200 --> 00:21:14,560
+sound familiar.
+So what?
+
+308
+00:21:14,600 --> 00:21:15,880
+What?
+What's he doing now?
+
+309
+00:21:16,280 --> 00:21:19,800
+Yeah, So Tony, who I actually
+also interviewed, he's a really
+
+310
+00:21:19,920 --> 00:21:23,480
+great guy.
+So he he won the Kennedy
+
+311
+00:21:23,480 --> 00:21:30,440
+scholarship, went to MIT and I
+think it was in 80, mid 80s, so
+
+312
+00:21:30,440 --> 00:21:36,280
+similar time.
+And then he went to he then went
+
+313
+00:21:36,280 --> 00:21:37,960
+to work.
+He created his own company, but
+
+314
+00:21:37,960 --> 00:21:41,240
+he ultimately ended up in
+Formula One running the what is
+
+315
+00:21:41,240 --> 00:21:43,280
+now the Red Bull team.
+But he's now a professor at
+
+316
+00:21:43,280 --> 00:21:46,600
+Cambridge.
+Does all the aerodynamics and
+
+317
+00:21:46,600 --> 00:21:51,280
+CFDII wonder whether?
+Yeah, so, yeah.
+
+318
+00:21:51,280 --> 00:21:54,680
+So I was a Kennedy scholar 81 to
+82.
+
+319
+00:21:58,000 --> 00:22:01,040
+Your and the name does sound
+familiar.
+
+320
+00:22:01,320 --> 00:22:04,960
+Basically, we we didn't really
+hang out with each other.
+
+321
+00:22:05,520 --> 00:22:08,240
+I didn't hang out with the other
+Kennedy scholars.
+
+322
+00:22:10,400 --> 00:22:15,880
+So yes, yes.
+I didn't really have have have
+
+323
+00:22:15,880 --> 00:22:18,960
+those connections, but it was a
+part time experience.
+
+324
+00:22:18,960 --> 00:22:22,560
+Oh, oh, yes, yeah, yeah.
+So, so, you know, it was Kennedy
+
+325
+00:22:22,560 --> 00:22:24,880
+scholarship that took me over to
+MIT.
+
+326
+00:22:25,480 --> 00:22:28,400
+And as it happened, and this
+this was really sort of
+
+327
+00:22:28,400 --> 00:22:34,600
+coincidence, my supervisor at
+MIT had Rolls Royce funding.
+
+328
+00:22:35,920 --> 00:22:41,400
+This was in the days when Rolls
+Royce was starting to sell
+
+329
+00:22:41,400 --> 00:22:46,480
+engines to the US Marine Corps
+for the Harrier, and they wanted
+
+330
+00:22:46,480 --> 00:22:49,840
+to be viewed as more of an
+international company.
+
+331
+00:22:51,040 --> 00:22:56,040
+And so as part of that, I think
+almost out of their marketing
+
+332
+00:22:56,040 --> 00:22:59,200
+budget, maybe there was a whole
+pile of research funding to be
+
+333
+00:22:59,200 --> 00:23:04,960
+spent to MIT.
+And and so some of this was was
+
+334
+00:23:04,960 --> 00:23:09,040
+going to my supervisor guy guy
+by the name of Tilt Tompkins.
+
+335
+00:23:12,240 --> 00:23:16,760
+So although my going to MIT and,
+you know, landing up with Tilt
+
+336
+00:23:16,760 --> 00:23:19,800
+as a supervisor was completely
+independent of Rolls Royce,
+
+337
+00:23:20,160 --> 00:23:23,520
+there was still that sort of
+accidental background
+
+338
+00:23:23,520 --> 00:23:32,520
+connection.
+So then my, my, my, my graduate
+
+339
+00:23:32,520 --> 00:23:36,040
+history at, at MIT is a bit
+curious.
+
+340
+00:23:36,040 --> 00:23:42,120
+So I did did the masters in 18
+months, which is a bit faster
+
+341
+00:23:42,120 --> 00:23:44,880
+than normal, but not
+exceptional.
+
+342
+00:23:45,480 --> 00:23:50,800
+I then did did my PhD in 2 1/2
+years, which is highly unusual
+
+343
+00:23:50,800 --> 00:23:55,520
+for MIT.
+So, So what happened there was I
+
+344
+00:23:55,520 --> 00:24:01,400
+was basically two years into my
+PhD and you know, it had gone
+
+345
+00:24:01,400 --> 00:24:04,040
+very well.
+I mean, this was, you know, the
+
+346
+00:24:04,040 --> 00:24:07,720
+project that me and Mark Drella
+did, you know, you know, the ICS
+
+347
+00:24:07,720 --> 00:24:11,120
+code, you know, 2D airfoil
+design code.
+
+348
+00:24:13,200 --> 00:24:17,320
+So the project was going ahead
+very well, but I got called into
+
+349
+00:24:18,080 --> 00:24:24,520
+the head of departments office
+about two years into my PhD and
+
+350
+00:24:24,520 --> 00:24:28,680
+told that my supervisor hadn't
+got tenure and would be leaving
+
+351
+00:24:28,680 --> 00:24:31,400
+in six months time and would I
+like his job.
+
+352
+00:24:34,720 --> 00:24:39,040
+Wow.
+So so I then had to finish up
+
+353
+00:24:39,040 --> 00:24:42,520
+really quickly that that I
+wasn't.
+
+354
+00:24:42,520 --> 00:24:43,400
+Expecting that.
+Wow.
+
+355
+00:24:43,560 --> 00:24:46,000
+OK, so.
+Yeah, yes, that, that, that,
+
+356
+00:24:46,000 --> 00:24:48,920
+that last six months was, yes,
+exhausting.
+
+357
+00:24:50,200 --> 00:24:53,840
+So then, so your your pH.
+What was the?
+
+358
+00:24:53,920 --> 00:24:57,160
+What was the end title of your
+thesis then for the?
+
+359
+00:24:57,560 --> 00:25:02,480
+Something like 2 dimensional
+transonic aerodynamic design
+
+360
+00:25:02,480 --> 00:25:06,640
+method.
+So did you work with or be
+
+361
+00:25:06,640 --> 00:25:10,840
+inspired, I guess by, by
+Professor Jameson?
+
+362
+00:25:11,200 --> 00:25:14,520
+Was there, was there any sort of
+link into?
+
+363
+00:25:15,000 --> 00:25:17,400
+I just, I always find it
+interesting when there's sort of
+
+364
+00:25:17,400 --> 00:25:20,840
+Brits going over to the US.
+Yeah, yeah, they go and work on
+
+365
+00:25:20,840 --> 00:25:22,160
+things.
+But it was independent.
+
+366
+00:25:22,160 --> 00:25:24,120
+There was no he didn't have a.
+Connection.
+
+367
+00:25:24,120 --> 00:25:30,080
+No, there was no connection at
+all there, although he, he, he
+
+368
+00:25:30,080 --> 00:25:35,760
+was aware of me.
+He was aware of my master's
+
+369
+00:25:35,760 --> 00:25:42,720
+thesis and actually told, told
+tilt type, you know, something
+
+370
+00:25:42,720 --> 00:25:45,240
+along the lines of, you know,
+they should have given me a PhD
+
+371
+00:25:45,240 --> 00:25:52,360
+for it, which it was flattering.
+But but no, my, my, my master's
+
+372
+00:25:52,360 --> 00:25:59,560
+thesis was using some
+mathematics WKB analysis to
+
+373
+00:25:59,560 --> 00:26:05,800
+understand some numerical wave
+propagation on grids.
+
+374
+00:26:06,360 --> 00:26:08,840
+And what it shows you is that if
+you have something like the
+
+375
+00:26:08,840 --> 00:26:14,080
+convection equation, if you have
+a poorly resolved wave, it can
+
+376
+00:26:14,080 --> 00:26:17,680
+actually travel in the wrong
+direction and you can get these
+
+377
+00:26:17,680 --> 00:26:20,640
+weird wave track wave trapping
+phenomenon.
+
+378
+00:26:20,960 --> 00:26:23,720
+Anyway, it, it, it, it, it was
+something that intrigued
+
+379
+00:26:23,720 --> 00:26:28,840
+Anthony.
+And so, so he was aware of me
+
+380
+00:26:28,840 --> 00:26:34,600
+already at at that point.
+I mean, I was obviously aware of
+
+381
+00:26:34,760 --> 00:26:42,480
+him, but the, you know, the, the
+stream tube idea that I had,
+
+382
+00:26:42,480 --> 00:26:45,960
+which was the basis of the ICS
+code, that was completely
+
+383
+00:26:45,960 --> 00:26:53,520
+different to anything, you know,
+in, in, in CFD at that time, you
+
+384
+00:26:53,560 --> 00:26:58,760
+know, worked beautifully in 2D.
+It had had no natural 3D Ext,
+
+385
+00:26:59,600 --> 00:27:04,120
+but, but for, for 2D wing design
+it, it, it was really ideal.
+
+386
+00:27:04,440 --> 00:27:07,640
+And so Mark, Mark Drella and I
+teamed up on that.
+
+387
+00:27:08,040 --> 00:27:12,920
+And in fact, for a while we were
+going to do a joint thesis.
+
+388
+00:27:13,120 --> 00:27:16,640
+We're actually going to write it
+up as a single document between
+
+389
+00:27:16,640 --> 00:27:19,960
+the two of us.
+And our thesis committee was
+
+390
+00:27:20,320 --> 00:27:23,440
+perfectly happy with this.
+And since our thesis committee
+
+391
+00:27:23,440 --> 00:27:27,320
+included the head of department,
+I assumed that this was all
+
+392
+00:27:27,320 --> 00:27:29,440
+fine.
+And then later on in the
+
+393
+00:27:29,440 --> 00:27:35,360
+process, the central university
+somehow, you know, learnt about
+
+394
+00:27:35,360 --> 00:27:38,600
+this and said there is no
+precedent for this, there shall
+
+395
+00:27:38,600 --> 00:27:41,160
+be no precedent.
+You know, you're not allowed.
+
+396
+00:27:42,520 --> 00:27:46,080
+And so very late in the process,
+basically, you know, Mark and I
+
+397
+00:27:46,080 --> 00:27:50,480
+had to sort of carve our work up
+into two separate pieces so that
+
+398
+00:27:50,480 --> 00:27:52,440
+we could write up two separate
+documents.
+
+399
+00:27:53,160 --> 00:27:57,000
+You know, so in, in, in the end,
+I, I finished up early because I
+
+400
+00:27:57,000 --> 00:27:58,920
+had to take over Tilt's
+position.
+
+401
+00:27:59,160 --> 00:28:03,360
+Mark, Mark finished up a year
+later then, you know, he did, he
+
+402
+00:28:03,360 --> 00:28:06,280
+got an academic position as
+well, you know, so we were both
+
+403
+00:28:06,280 --> 00:28:08,040
+hired.
+I mean, there was never any
+
+404
+00:28:08,080 --> 00:28:11,160
+question of one of us
+freeloading off the other one.
+
+405
+00:28:11,160 --> 00:28:14,680
+I mean, our, our thesis
+committee were perfectly content
+
+406
+00:28:14,680 --> 00:28:18,480
+on that point.
+So yes, so it's a curious
+
+407
+00:28:18,480 --> 00:28:25,840
+situation, but it meant that I,
+I took over Tilt's office, PA
+
+408
+00:28:26,560 --> 00:28:31,240
+software engineer, almost all of
+his students and all of his
+
+409
+00:28:31,240 --> 00:28:34,360
+research contracts, including
+the Rolls Royce research
+
+410
+00:28:34,360 --> 00:28:37,280
+contract.
+So, so at that point I was then
+
+411
+00:28:37,280 --> 00:28:38,960
+back into the Rolls Royce
+family.
+
+412
+00:28:39,920 --> 00:28:42,680
+And how old were you then?
+You couldn't have been that old.
+
+413
+00:28:42,680 --> 00:28:46,640
+25.
+OK, that's quite, that's quite
+
+414
+00:28:46,640 --> 00:28:51,240
+young then.
+In in the US system and
+
+415
+00:28:51,240 --> 00:28:57,800
+particularly at MIT, they they
+do hire a lot of people straight
+
+416
+00:28:57,800 --> 00:29:02,880
+from PhD into assistant
+professor positions because
+
+417
+00:29:03,160 --> 00:29:07,040
+given the tenure system if they
+decide that they made a mistake,
+
+418
+00:29:07,040 --> 00:29:09,080
+they just flush you out after
+seven years.
+
+419
+00:29:12,840 --> 00:29:17,200
+Whereas whereas in, in the
+British system, you know, we,
+
+420
+00:29:17,200 --> 00:29:21,480
+we, we, we like to see people
+get a good bit of experience
+
+421
+00:29:21,480 --> 00:29:24,840
+under their belt, you know,
+before we'll, we'll, we'll hire
+
+422
+00:29:24,840 --> 00:29:26,600
+them in, in Oxford.
+Yeah.
+
+423
+00:29:26,840 --> 00:29:30,440
+Very occasionally we'll we'll
+take people straight from PhD,
+
+424
+00:29:30,440 --> 00:29:34,400
+but it's very, very rare.
+Wow.
+
+425
+00:29:34,760 --> 00:29:38,440
+So you're 25, you're an
+assistant professor at MIT,
+
+426
+00:29:38,440 --> 00:29:43,600
+you've got APA, all that, and
+and now you're taking over the
+
+427
+00:29:43,600 --> 00:29:44,760
+Rolls Royce.
+So what what?
+
+428
+00:29:45,000 --> 00:29:47,640
+How do things progress from from
+there?
+
+429
+00:29:51,120 --> 00:29:56,800
+So looking back, actually the,
+the, the first thing is it took
+
+430
+00:29:56,800 --> 00:30:00,720
+me about six months, I think, to
+recover from burnout from having
+
+431
+00:30:00,720 --> 00:30:08,240
+finished up the PhD so quickly.
+But, you know, there were, there
+
+432
+00:30:08,480 --> 00:30:11,720
+were a certain number of plans
+that were already in place that
+
+433
+00:30:11,760 --> 00:30:14,120
+I sort of carried on supervising
+students.
+
+434
+00:30:14,120 --> 00:30:17,440
+But I guess during that first
+six months, I was thinking
+
+435
+00:30:17,440 --> 00:30:21,000
+about, you know, what, what was
+the first new thing I wanted to,
+
+436
+00:30:21,160 --> 00:30:24,160
+to, to do with Rolls Royce
+funding.
+
+437
+00:30:24,640 --> 00:30:30,080
+And you know, I want, I wanted
+to do something different.
+
+438
+00:30:30,720 --> 00:30:34,400
+I, I can't remember how much I
+talked to them to understand
+
+439
+00:30:34,400 --> 00:30:37,760
+what their concerns were at the
+time.
+
+440
+00:30:37,760 --> 00:30:39,400
+So that what, what, what they
+needed.
+
+441
+00:30:42,120 --> 00:30:48,520
+But what I decided to do was to
+develop a 2D unsteady CFD code.
+
+442
+00:30:49,960 --> 00:30:57,480
+I think that they had had some
+engineering challenges in I
+
+443
+00:30:57,480 --> 00:31:01,520
+think it was a military engine
+where in military engines
+
+444
+00:31:01,520 --> 00:31:06,040
+there's a smaller gap between
+the stators and rotors.
+
+445
+00:31:06,320 --> 00:31:09,080
+So they're they're they're more
+closely coupled stages.
+
+446
+00:31:09,880 --> 00:31:13,480
+And as that as such, that means
+you get a larger level of
+
+447
+00:31:13,480 --> 00:31:18,040
+unsteady forcing on on on the
+blades.
+
+448
+00:31:18,320 --> 00:31:21,880
+And I think they, that there had
+possibly been some engineering
+
+449
+00:31:23,040 --> 00:31:27,040
+project where they had major
+difficulties with that and they
+
+450
+00:31:27,480 --> 00:31:31,760
+really needed tools to analyse
+that.
+
+451
+00:31:34,720 --> 00:31:37,800
+I mean, this, this was still,
+you know, fairly early days for,
+
+452
+00:31:37,800 --> 00:31:42,480
+for, for CFD, you know, so, so I
+think at that point, you know,
+
+453
+00:31:42,480 --> 00:31:48,680
+people like Bill Dawes and John
+Denton had developed steady 2D
+
+454
+00:31:48,680 --> 00:31:55,720
+CFD codes, possibly even 3D, but
+but not anything unsteady.
+
+455
+00:31:56,160 --> 00:32:02,000
+So, you know, so I, I, you know,
+my first code for Rolls Royce
+
+456
+00:32:02,000 --> 00:32:07,080
+was one called Unsflow, which
+was 2D unsteady.
+
+457
+00:32:07,400 --> 00:32:11,520
+Initially it was wake rotor
+interaction.
+
+458
+00:32:11,800 --> 00:32:14,760
+So you were passing in the wakes
+through upstream boundary
+
+459
+00:32:14,760 --> 00:32:22,000
+conditions and then going into
+doing stator rotor interaction.
+
+460
+00:32:22,240 --> 00:32:25,080
+So you've actually got the
+moving blade rows, you know,
+
+461
+00:32:25,160 --> 00:32:30,240
+moving relative to each other
+that that was initially
+
+462
+00:32:30,240 --> 00:32:33,800
+envisited.
+I later made it viscous.
+
+463
+00:32:35,520 --> 00:32:38,160
+I can't remember now what I did
+for a turbulence model.
+
+464
+00:32:38,160 --> 00:32:41,960
+It's probably an algebraic
+turbulence model in those in
+
+465
+00:32:41,960 --> 00:32:44,920
+those days.
+Mid 80s, Yeah, yeah, I guess,
+
+466
+00:32:45,160 --> 00:32:50,480
+yeah.
+So the the the sort of unique
+
+467
+00:32:51,280 --> 00:32:56,480
+thing about onsflow was this
+thing called the time inclined
+
+468
+00:32:57,680 --> 00:33:03,400
+plane.
+So one of the difficulties in in
+
+469
+00:33:03,400 --> 00:33:10,680
+doing unsteady analysis in turbo
+machinery is the number of rotor
+
+470
+00:33:10,680 --> 00:33:14,160
+blades is different to the
+number of stator blades.
+
+471
+00:33:15,520 --> 00:33:19,320
+So you want to do a simulation
+that just has one blade passage,
+
+472
+00:33:20,480 --> 00:33:23,760
+but if you do it the natural
+way, that doesn't work.
+
+473
+00:33:23,760 --> 00:33:27,080
+You know, you don't have the
+right periodicity to, to to do
+
+474
+00:33:27,080 --> 00:33:30,720
+that.
+So the time inclined plane
+
+475
+00:33:33,000 --> 00:33:38,880
+involved, you know, usually you
+know, when you're at time level
+
+476
+00:33:38,880 --> 00:33:42,600
+N, you know, all the grid points
+are at the same physical time.
+
+477
+00:33:43,160 --> 00:33:47,000
+The time inclined plane, you
+know that, that, that that time
+
+478
+00:33:47,000 --> 00:33:52,480
+was inclined.
+So that, and you could incline
+
+479
+00:33:52,480 --> 00:33:57,080
+it in such a way that you then
+set up the right periodicity
+
+480
+00:33:57,080 --> 00:34:00,960
+condition to cope with this
+arbitrary blade count.
+
+481
+00:34:02,320 --> 00:34:07,800
+So yeah, that that, that that
+was kind of the the unique
+
+482
+00:34:07,800 --> 00:34:09,679
+point.
+And then, you know, there's also
+
+483
+00:34:09,679 --> 00:34:13,080
+some maths I did on non
+reflecting boundary conditions
+
+484
+00:34:13,440 --> 00:34:15,920
+that when you're doing these
+unsteady interactions with the
+
+485
+00:34:15,920 --> 00:34:21,400
+boundaries very close, you want
+the outgoing waves to go out to
+
+486
+00:34:21,400 --> 00:34:24,000
+not be artificially reflected
+from the boundary.
+
+487
+00:34:24,600 --> 00:34:27,520
+And so there's a whole piece of
+research on on, on that.
+
+488
+00:34:27,920 --> 00:34:30,639
+Steph, you take for granted now
+in a commercial solver.
+
+489
+00:34:31,679 --> 00:34:35,840
+Yeah, Yeah.
+So I mean really I was one of
+
+490
+00:34:35,840 --> 00:34:40,480
+the first people doing that in,
+in the context of compressible
+
+491
+00:34:40,480 --> 00:34:45,760
+flow CFD yes.
+I mean these, these these days
+
+492
+00:34:46,320 --> 00:34:49,480
+you, you've got things like
+absorbing boundary methods,
+
+493
+00:34:49,480 --> 00:34:53,560
+which is probably what you would
+use if you're doing far field
+
+494
+00:34:53,760 --> 00:34:57,640
+acoustics and electromagnetics.
+But that actually wouldn't work
+
+495
+00:34:57,640 --> 00:35:03,880
+well in in this context of
+closely coupled stages with very
+
+496
+00:35:03,880 --> 00:35:07,240
+close in boundaries.
+And were you always hands on?
+
+497
+00:35:07,240 --> 00:35:10,480
+Were you, you know, at that
+time, were you always that sort
+
+498
+00:35:10,480 --> 00:35:13,040
+of person who was programming it
+yourself?
+
+499
+00:35:13,080 --> 00:35:18,040
+You had students, but you were
+still very much yes and and sort
+
+500
+00:35:18,040 --> 00:35:21,720
+of a hands on programmer.
+Yes, that was hands on.
+
+501
+00:35:21,720 --> 00:35:27,800
+I mean generally the students
+were writing their own other
+
+502
+00:35:27,800 --> 00:35:35,000
+codes.
+So, so with Ansflow there was
+
+503
+00:35:35,000 --> 00:35:36,880
+this software engineer Bob
+Haynes.
+
+504
+00:35:36,960 --> 00:35:39,960
+So I don't know whether you
+recognise the name Bob Haynes.
+
+505
+00:35:40,320 --> 00:35:44,440
+He, he he was responsible for
+developing our visualisation
+
+506
+00:35:44,440 --> 00:35:47,360
+software.
+So visual two, Visual three.
+
+507
+00:35:48,040 --> 00:35:50,400
+Yeah.
+Name names from the past.
+
+508
+00:35:50,920 --> 00:35:54,360
+Bob's Bob's still at, at MIT, I
+think he still hasn't retired.
+
+509
+00:35:55,400 --> 00:35:58,960
+You know, he must be about 10
+years older than me, something
+
+510
+00:35:58,960 --> 00:36:04,200
+like that.
+So, yeah.
+
+511
+00:36:04,200 --> 00:36:09,160
+So I did most of the onsflow
+development, but Bob will have
+
+512
+00:36:09,160 --> 00:36:14,840
+helped me with, with, with bits
+of that as well as doing, you
+
+513
+00:36:14,880 --> 00:36:17,560
+know, he did, he certainly did
+all, all of the visualisation
+
+514
+00:36:17,720 --> 00:36:20,600
+because if you're doing a, you
+know, 2D calculation, you know,
+
+515
+00:36:20,600 --> 00:36:23,640
+you want to have some nice, nice
+visualisation.
+
+516
+00:36:24,040 --> 00:36:25,840
+It's true then, true now, isn't
+it?
+
+517
+00:36:26,280 --> 00:36:31,280
+So this was, this was in, in the
+early days of Silicon Graphics
+
+518
+00:36:31,280 --> 00:36:36,280
+and there was a company called
+Stellar which was based just
+
+519
+00:36:36,280 --> 00:36:40,040
+outside, well, in the Boston
+suburb.
+
+520
+00:36:41,400 --> 00:36:44,320
+And I, I sort of got involved
+with, with them.
+
+521
+00:36:44,320 --> 00:36:48,360
+And so we, we, we had a couple
+of their, their machines,
+
+522
+00:36:48,360 --> 00:36:55,840
+beautiful machines, you know,
+multiple courses I recall as
+
+523
+00:36:55,840 --> 00:36:58,480
+well, which was unusual.
+I mean, it was a very early days
+
+524
+00:36:58,480 --> 00:37:04,240
+of parallel computing.
+And back then were you, you
+
+525
+00:37:04,240 --> 00:37:07,920
+know, as much as you were
+developing the code for accuracy
+
+526
+00:37:07,920 --> 00:37:12,040
+and the physics side, did you,
+did you still have a strong
+
+527
+00:37:12,040 --> 00:37:14,680
+interest in the sort of high
+performance computing side?
+
+528
+00:37:14,680 --> 00:37:18,160
+Were you were you always excited
+to try out different machines or
+
+529
+00:37:18,160 --> 00:37:21,200
+have access to the machines or
+did that come later?
+
+530
+00:37:22,040 --> 00:37:26,400
+No, I was always interested.
+So I mean, even even while I was
+
+531
+00:37:26,400 --> 00:37:30,560
+doing, you know, masters and
+PhDs.
+
+532
+00:37:30,560 --> 00:37:34,440
+So I think, oh, I'm trying to
+remember.
+
+533
+00:37:34,440 --> 00:37:41,360
+So it was so probably soon after
+my master's, I spent the summer
+
+534
+00:37:41,360 --> 00:37:47,360
+at NASA Langley at at at ICASE
+and down there I think I was
+
+535
+00:37:47,360 --> 00:37:55,960
+doing programming on oh gosh,
+what, what what would it be?
+
+536
+00:38:00,320 --> 00:38:02,880
+My mind's gone blank.
+There was there was Crane and
+
+537
+00:38:02,880 --> 00:38:04,200
+then there was the other
+company.
+
+538
+00:38:05,880 --> 00:38:12,840
+What was the other one called?
+So it was, it was before, you
+
+539
+00:38:12,840 --> 00:38:21,280
+know, the ETA 10.
+Oh, Cyber 205.
+
+540
+00:38:21,640 --> 00:38:24,040
+Yeah, that sounds, sounds maybe
+right.
+
+541
+00:38:25,400 --> 00:38:30,840
+So I guess coming out to CDC
+maybe so.
+
+542
+00:38:31,080 --> 00:38:36,160
+So I I had my first experience
+of supercomputing at at I case.
+
+543
+00:38:36,160 --> 00:38:40,560
+I don't think I did a lot there.
+Who was there at that time?
+
+544
+00:38:40,560 --> 00:38:43,040
+Because I've heard other people
+mention about this I case they
+
+545
+00:38:43,040 --> 00:38:46,960
+don't do it anymore, I don't
+think, but it was this wasn't
+
+546
+00:38:47,000 --> 00:38:51,320
+it.
+So the person who led it, I
+
+547
+00:38:51,320 --> 00:38:55,640
+think when I was there was Milt
+Rose, but I think he may have
+
+548
+00:38:55,640 --> 00:38:58,120
+retired not long after I was
+there.
+
+549
+00:38:58,480 --> 00:39:06,680
+And then for many years it was
+led by somebody whose surname is
+
+550
+00:39:06,680 --> 00:39:08,200
+Hosseini.
+I'm trying to remember what his
+
+551
+00:39:08,200 --> 00:39:11,200
+first name is.
+Possibly Youssef.
+
+552
+00:39:12,280 --> 00:39:18,040
+No, I'm not sure.
+Yes, yes, I case.
+
+553
+00:39:18,160 --> 00:39:23,000
+I mean, you know, there are lots
+of academics there.
+
+554
+00:39:24,760 --> 00:39:28,600
+Who else do I remember?
+Eli Turkel.
+
+555
+00:39:28,640 --> 00:39:32,800
+I remember he was, he was there,
+I think, you know, the summer
+
+556
+00:39:32,800 --> 00:39:38,440
+that I was there.
+And then, you know, we sometimes
+
+557
+00:39:38,440 --> 00:39:44,520
+saw the people in, in the CFD
+group there and oh, there was a,
+
+558
+00:39:45,400 --> 00:39:51,320
+there was a great, great person
+who headed up the CFD group.
+
+559
+00:39:51,320 --> 00:39:56,960
+Oh, gosh, my, my, my memory
+today is, is is poor.
+
+560
+00:39:56,960 --> 00:40:01,280
+Yeah.
+So, yeah.
+
+561
+00:40:01,280 --> 00:40:04,560
+So, yeah.
+So I had, I had experience with
+
+562
+00:40:04,560 --> 00:40:14,160
+this, I think it was a cyber 205
+at at Langley at MIT.
+
+563
+00:40:14,240 --> 00:40:20,080
+I did a little bit of work on on
+the Thinking Machines CM5, you
+
+564
+00:40:20,160 --> 00:40:25,280
+know.
+That I remember at the time, you
+
+565
+00:40:25,280 --> 00:40:27,560
+know, there was a lot of
+discussion about, you know, this
+
+566
+00:40:27,560 --> 00:40:31,080
+is the future of massively
+parallel computing, you know so
+
+567
+00:40:31,080 --> 00:40:34,560
+I think it was 64,000
+processors, but each of the
+
+568
+00:40:34,560 --> 00:40:37,240
+processors was incredibly
+elementary.
+
+569
+00:40:39,400 --> 00:40:43,760
+And then it got blown away by
+risk computing, you know, and,
+
+570
+00:40:44,080 --> 00:40:48,120
+and people putting together PC
+clusters, you know, so I think
+
+571
+00:40:48,120 --> 00:40:54,320
+DARPA basically bankrolled it
+for maybe five years, eight
+
+572
+00:40:54,320 --> 00:40:57,040
+years.
+But then, yeah, it wasn't
+
+573
+00:40:57,040 --> 00:41:01,560
+capable of of sustaining itself.
+And then and then, you know,
+
+574
+00:41:01,560 --> 00:41:04,680
+Cray, Cray really got
+established, you know, And so
+
+575
+00:41:05,000 --> 00:41:11,280
+Cray, Cray was the winner.
+Yeah.
+
+576
+00:41:11,280 --> 00:41:15,240
+I so Rolls Royce at one stage
+had the Cray.
+
+577
+00:41:15,520 --> 00:41:20,160
+So I don't remember the time
+scales.
+
+578
+00:41:20,160 --> 00:41:25,320
+So I don't remember whether
+Onslow was ever run on the Cray
+
+579
+00:41:25,320 --> 00:41:31,800
+or not.
+I think it's possible it was.
+
+580
+00:41:35,760 --> 00:41:38,560
+And were you travelling back
+when you were MIT working for
+
+581
+00:41:38,560 --> 00:41:42,200
+Rolls Royce, Did you come back
+to the UK, to Derby to sort of
+
+582
+00:41:42,840 --> 00:41:47,000
+have meetings with it or was it
+slightly sort of separated?
+
+583
+00:41:48,520 --> 00:41:53,440
+I mean, I probably came back
+twice a year at most.
+
+584
+00:41:54,480 --> 00:41:59,080
+So.
+And, you know, to some extent I
+
+585
+00:41:59,080 --> 00:42:02,040
+would be coming home to come
+home and see people.
+
+586
+00:42:02,760 --> 00:42:05,000
+And then while I was here, I
+would visit Rolls Royce.
+
+587
+00:42:05,000 --> 00:42:08,720
+And to some extent, you know, a
+trip might, might be motivated,
+
+588
+00:42:09,120 --> 00:42:11,600
+you know, more more primarily
+because of Rolls Royce, you
+
+589
+00:42:11,600 --> 00:42:16,000
+know.
+So, yeah, I guess probably twice
+
+590
+00:42:16,000 --> 00:42:19,640
+a year was the norm in those
+days.
+
+591
+00:42:21,280 --> 00:42:24,040
+So how did things progress then
+at the MIT?
+
+592
+00:42:24,040 --> 00:42:28,120
+So you were working on the Rolls
+Royce projects that, Yeah.
+
+593
+00:42:28,120 --> 00:42:30,560
+How did, how did, how did things
+evolve during that time?
+
+594
+00:42:32,200 --> 00:42:37,320
+I mean, as well as working on
+the Rolls Royce projects, I had
+
+595
+00:42:37,320 --> 00:42:41,640
+some amount of funding from US
+sources.
+
+596
+00:42:41,960 --> 00:42:46,920
+Not a lot, but things I think.
+Office of Naval Research Air
+
+597
+00:42:46,920 --> 00:42:53,400
+Force Oh, we, we, we bought the
+stellar machines with a grant
+
+598
+00:42:53,400 --> 00:42:56,720
+from DARPA.
+So again, DARPA was really
+
+599
+00:42:56,720 --> 00:43:01,880
+active in funding new
+technologies to see whether, you
+
+600
+00:43:01,880 --> 00:43:03,520
+know, these really were useful
+or not.
+
+601
+00:43:04,880 --> 00:43:10,440
+That that is probably the worst
+proposal I have ever written.
+
+602
+00:43:12,520 --> 00:43:16,400
+But but, but my excuse is by the
+time I submitted the proposal,
+
+603
+00:43:16,720 --> 00:43:21,760
+my temperature was 102 or 103.
+I was going down with glandular
+
+604
+00:43:21,760 --> 00:43:24,120
+fever.
+Oh, I've had that.
+
+605
+00:43:24,320 --> 00:43:25,960
+That's bad glandular fever,
+isn't it?
+
+606
+00:43:26,000 --> 00:43:30,960
+Yeah.
+So in in, in the way I was lucky
+
+607
+00:43:30,960 --> 00:43:34,440
+mine was sufficiently bad that I
+had to be admitted into
+
+608
+00:43:34,440 --> 00:43:37,400
+hospital.
+And so they then pumped, pumped
+
+609
+00:43:37,400 --> 00:43:41,680
+me full of, you know, various
+antibiotics and stuff.
+
+610
+00:43:41,680 --> 00:43:47,520
+And so I recovered well.
+I was ill for like 6 weeks or
+
+611
+00:43:47,560 --> 00:43:50,080
+something, it was horrible.
+Yeah, I was.
+
+612
+00:43:50,880 --> 00:43:55,000
+I was probably in hospital for a
+week or two and then I was sent
+
+613
+00:43:55,000 --> 00:44:00,400
+home and told to stay at home
+and and recuperate for like 2
+
+614
+00:44:00,400 --> 00:44:06,280
+months or something.
+And and So what I did was to
+
+615
+00:44:06,280 --> 00:44:13,520
+write up a 60 page document
+documenting all of onsflow so
+
+616
+00:44:13,640 --> 00:44:19,240
+that that that was the best
+documented code I ever wrote it.
+
+617
+00:44:19,720 --> 00:44:25,360
+It's always this, this rule that
+people hate writing detailed
+
+618
+00:44:25,360 --> 00:44:28,880
+documentation and, you know,
+just just laying out all the
+
+619
+00:44:28,880 --> 00:44:33,480
+details of the numerics, all of
+the things that your future
+
+620
+00:44:33,760 --> 00:44:35,840
+people modifying the code need
+to do.
+
+621
+00:44:35,960 --> 00:44:39,480
+You know, it's very hard getting
+getting students to do that.
+
+622
+00:44:40,600 --> 00:44:47,640
+So anyway, I yeah, yes, I'm
+trying to trying to remember
+
+623
+00:44:47,640 --> 00:44:50,360
+exactly when, when all these
+different things happened.
+
+624
+00:44:50,480 --> 00:44:52,440
+Yeah.
+So.
+
+625
+00:44:54,640 --> 00:44:58,400
+So you're progressing at MIT,
+your assistant professor.
+
+626
+00:44:58,960 --> 00:45:02,800
+Did you feel that you would
+always stay there or what
+
+627
+00:45:02,800 --> 00:45:06,440
+started to get into your head
+about coming back?
+
+628
+00:45:07,240 --> 00:45:14,280
+To so I, I, I had a good, good
+job.
+
+629
+00:45:14,280 --> 00:45:16,160
+Obviously they're, they're at
+MIT.
+
+630
+00:45:16,160 --> 00:45:19,440
+I was part of the gas turbine
+lab and there were wonderful
+
+631
+00:45:19,440 --> 00:45:23,320
+experimentalists there.
+And so, you know, we, we, we did
+
+632
+00:45:23,320 --> 00:45:27,320
+lots of good works of comparing
+numerics with experiment.
+
+633
+00:45:27,320 --> 00:45:32,400
+And there's one paper we, we, we
+have an unsteady heat transfer
+
+634
+00:45:32,680 --> 00:45:37,480
+where in the sense neither the
+experimentalists nor me had
+
+635
+00:45:37,520 --> 00:45:40,960
+great faith in our own research
+and yet the results matched
+
+636
+00:45:41,280 --> 00:45:43,760
+wonderfully.
+We were delighted.
+
+637
+00:45:46,160 --> 00:45:51,840
+I, I did feel to some extent,
+not quite a fish out the water,
+
+638
+00:45:51,840 --> 00:45:54,560
+but really I am at heart a
+mathematician.
+
+639
+00:45:55,040 --> 00:45:58,400
+You know, you, you asked me at,
+at the beginning, you know, was
+
+640
+00:45:58,400 --> 00:46:01,720
+I the kind of kid that tinkered
+with devices?
+
+641
+00:46:01,960 --> 00:46:06,880
+No, I wasn't, you know, so I, I,
+I really wasn't by nature an
+
+642
+00:46:06,880 --> 00:46:11,880
+engineer in that sense, by by
+nature, I'm an applied
+
+643
+00:46:11,880 --> 00:46:16,720
+mathematician who enjoys
+mathematics and enjoys seeing it
+
+644
+00:46:16,720 --> 00:46:21,160
+being useful in the real world.
+I'm not fundamentally at heart
+
+645
+00:46:21,160 --> 00:46:26,240
+an engineer.
+And so in that sense, I did feel
+
+646
+00:46:26,240 --> 00:46:29,560
+a little bit constrained being
+in the aeronautics and
+
+647
+00:46:29,560 --> 00:46:33,520
+astronautics department, which
+is, you know, where I was at
+
+648
+00:46:33,520 --> 00:46:38,480
+MIT.
+And that that I was sort of most
+
+649
+00:46:38,480 --> 00:46:41,240
+aware of when doing things like
+the non reflecting boundary
+
+650
+00:46:41,240 --> 00:46:45,280
+condition theory, because that
+was very much maths theory, but
+
+651
+00:46:45,440 --> 00:46:50,920
+publishing it in in engineering
+CFD, So journals, you know, AI
+
+652
+00:46:50,920 --> 00:47:00,720
+AA journal.
+So that yeah, I think also, you
+
+653
+00:47:00,720 --> 00:47:02,880
+know, getting married and
+thinking about where, where you
+
+654
+00:47:02,880 --> 00:47:05,760
+want to have a family and raise
+kids and things like that.
+
+655
+00:47:06,120 --> 00:47:08,720
+You know, that that that was
+part of it.
+
+656
+00:47:09,880 --> 00:47:14,960
+And then the other part of it.
+And I forget the exact sequence
+
+657
+00:47:14,960 --> 00:47:21,160
+of all of this was on one of my
+trips to Rolls Royce, I was
+
+658
+00:47:21,400 --> 00:47:27,240
+called in to see the chief
+engineer who said, oh, by the
+
+659
+00:47:27,240 --> 00:47:30,520
+way, please let us know whenever
+you want to come back to this
+
+660
+00:47:30,520 --> 00:47:35,520
+country and we'll sort it.
+So I had that standing offer
+
+661
+00:47:35,520 --> 00:47:41,320
+from Rolls Royce that they would
+organise it for me or that I
+
+662
+00:47:41,320 --> 00:47:43,560
+could basically choose where I
+came back to.
+
+663
+00:47:45,080 --> 00:47:51,280
+So yeah, so I decided, yes, I
+wanted to, to, to come home and,
+
+664
+00:47:51,520 --> 00:47:57,920
+and, and I chose Oxford rather
+than Cambridge as the place to
+
+665
+00:47:57,920 --> 00:48:03,000
+come to partly.
+Well, you see in, in Cambridge
+
+666
+00:48:03,000 --> 00:48:05,640
+I'd have probably been in
+engineering, not in maths.
+
+667
+00:48:06,680 --> 00:48:12,520
+You know, Cambridge maths was
+always kind of anti numerical
+
+668
+00:48:12,520 --> 00:48:18,480
+analysis.
+There was certainly a chunk of
+
+669
+00:48:18,480 --> 00:48:23,000
+the faculty who felt that you
+know the computer is what you
+
+670
+00:48:23,000 --> 00:48:25,360
+used if you weren't clever
+enough to do it properly.
+
+671
+00:48:26,680 --> 00:48:36,640
+Old school.
+Old school, yes, whereas Oxford
+
+672
+00:48:36,880 --> 00:48:40,840
+really had had embraced
+numerical methods and had very,
+
+673
+00:48:40,840 --> 00:48:45,400
+very strong group here and in
+those days the numerical
+
+674
+00:48:45,400 --> 00:48:48,680
+analysis group, although they
+were a group of mathematicians,
+
+675
+00:48:49,000 --> 00:48:51,080
+they were in the computer
+science department.
+
+676
+00:48:51,400 --> 00:48:54,320
+And so there were also people in
+computer science on the parallel
+
+677
+00:48:54,320 --> 00:48:56,720
+computing site.
+And so that that was an
+
+678
+00:48:56,720 --> 00:49:00,160
+attraction to me as well, you
+know, to have them as sort of
+
+679
+00:49:00,160 --> 00:49:03,760
+neighbors.
+As it turned out that that
+
+680
+00:49:03,760 --> 00:49:08,320
+didn't work out because soon
+after arriving in 92, it was
+
+681
+00:49:08,320 --> 00:49:13,400
+thefirst.com boom and all, all
+of the parallel computing people
+
+682
+00:49:13,560 --> 00:49:19,280
+left to set up companies.
+So anyway, but but that was part
+
+683
+00:49:19,280 --> 00:49:21,240
+of the motivation of choosing
+Oxford.
+
+684
+00:49:21,240 --> 00:49:25,040
+Ah, OK.
+So yeah.
+
+685
+00:49:25,040 --> 00:49:27,800
+So, you know, Sir, Rolls Royce
+kind of organized it.
+
+686
+00:49:28,560 --> 00:49:33,520
+I mean it, it had to be a
+properly advertised and competed
+
+687
+00:49:33,520 --> 00:49:36,040
+for a position.
+So I was in this strange
+
+688
+00:49:36,040 --> 00:49:40,680
+position of helping to write the
+job description, possibly even
+
+689
+00:49:40,680 --> 00:49:44,560
+the advert for a position that I
+then applied for.
+
+690
+00:49:44,680 --> 00:49:50,040
+You know, there are various
+parts of my career which I, I, I
+
+691
+00:49:50,040 --> 00:49:52,480
+look back on.
+And now, now I realise just how
+
+692
+00:49:52,480 --> 00:49:56,520
+peculiar they were at the time.
+That's right.
+
+693
+00:49:56,560 --> 00:50:01,360
+So you technically came into the
+computer science department?
+
+694
+00:50:01,400 --> 00:50:03,080
+Yeah.
+So in those days it was called
+
+695
+00:50:03,080 --> 00:50:05,440
+the Computing Laboratory.
+Yeah.
+
+696
+00:50:05,840 --> 00:50:08,600
+And that was a Keble Rd. always
+OK.
+
+697
+00:50:09,640 --> 00:50:13,120
+And so that was like a Rolls
+Royce.
+
+698
+00:50:13,800 --> 00:50:18,760
+So it was a Rolls Royce
+readership in CFD and then and
+
+699
+00:50:18,760 --> 00:50:21,760
+then they funded me to set up a
+whole research group.
+
+700
+00:50:21,760 --> 00:50:25,560
+So I, I have a lot of funding
+from them for a, you know,
+
+701
+00:50:25,560 --> 00:50:31,880
+prolonged period.
+So really from 92 through to
+
+702
+00:50:32,040 --> 00:50:37,320
+2008 is when I moved to maths,
+you know, so, so, so for those
+
+703
+00:50:37,320 --> 00:50:42,240
+sort of 15 years, you know, I, I
+had a lot of Rolls Royce
+
+704
+00:50:42,240 --> 00:50:47,280
+funding.
+So this is the bit that I was
+
+705
+00:50:47,600 --> 00:50:49,080
+wondering about.
+So you came into computer
+
+706
+00:50:49,080 --> 00:50:57,000
+science for CFD and is this the
+time then when I guess what most
+
+707
+00:50:57,000 --> 00:51:00,920
+people recognize as the Hydra
+code is, is this where it begins
+
+708
+00:51:00,920 --> 00:51:03,440
+or did it actually begin even
+when you were MIT?
+
+709
+00:51:03,440 --> 00:51:06,440
+When, when would when would you
+say was the start of that?
+
+710
+00:51:07,440 --> 00:51:10,880
+Journey.
+So I would say that Hydra proper
+
+711
+00:51:10,880 --> 00:51:18,240
+started in about 96, but there
+was there were various bits of
+
+712
+00:51:18,240 --> 00:51:22,000
+research that in the sense laid
+the foundations for Hydra.
+
+713
+00:51:22,840 --> 00:51:30,200
+So while I was still at MIT, you
+know, so I was thinking about
+
+714
+00:51:30,400 --> 00:51:36,400
+what to do after onsflow.
+And so my plan after onsflow was
+
+715
+00:51:36,400 --> 00:51:43,400
+that we really wanted something
+that would be a design tool for
+
+716
+00:51:43,400 --> 00:51:48,560
+doing complete engines, you
+know, so no no longer single
+
+717
+00:51:48,560 --> 00:51:50,640
+stage, really looking multi
+stage.
+
+718
+00:51:53,400 --> 00:51:58,600
+I was also interested in the
+idea that the unsteadiness could
+
+719
+00:51:58,600 --> 00:52:01,240
+be done from a linear
+perturbation point of view
+
+720
+00:52:01,520 --> 00:52:03,640
+rather than doing non linear
+unsteady.
+
+721
+00:52:04,760 --> 00:52:10,200
+So so also linearize the
+unsteady equations, look at, you
+
+722
+00:52:10,200 --> 00:52:13,960
+know, harmonics.
+And so doing this for both
+
+723
+00:52:13,960 --> 00:52:19,320
+flutter and forced response.
+The key technical issue there is
+
+724
+00:52:19,320 --> 00:52:25,720
+whether it was legitimate to do
+linearised harmonic analysis of
+
+725
+00:52:25,720 --> 00:52:31,600
+shock capturing.
+And so I had a student who did a
+
+726
+00:52:31,600 --> 00:52:35,560
+project at MIT to prove that,
+show that that was was a
+
+727
+00:52:35,560 --> 00:52:39,960
+legitimate thing to do that as
+long as you so slightly smeared
+
+728
+00:52:39,960 --> 00:52:44,160
+the shock over a few grid points
+that that the linearised
+
+729
+00:52:44,160 --> 00:52:49,800
+analysis did do the right thing
+and did, yeah, you know, you
+
+730
+00:52:49,800 --> 00:52:54,920
+could do it on that basis.
+So that was the precursor work
+
+731
+00:52:55,680 --> 00:53:02,600
+at MIT.
+And then early on in Oxford, I
+
+732
+00:53:02,600 --> 00:53:06,080
+don't think I'd started this
+coding before I moved.
+
+733
+00:53:07,840 --> 00:53:13,360
+I did a code called Slick SLIQ.
+So steady, linear and quadratic.
+
+734
+00:53:13,880 --> 00:53:17,440
+So the idea was you did you know
+the non linear steady state, you
+
+735
+00:53:17,440 --> 00:53:21,720
+did a linear perturbation
+analysis for the unsteady
+
+736
+00:53:21,720 --> 00:53:26,320
+effects and then the quadratic
+was to it's kind of a formal
+
+737
+00:53:26,320 --> 00:53:31,760
+asymptotic expansion to get the
+mean flow changes due to the
+
+738
+00:53:31,760 --> 00:53:39,720
+second order quadratic effects.
+So, yeah, so I developed slick
+
+739
+00:53:39,720 --> 00:53:45,920
+early in, in in my Oxford days
+and and you know, I had a
+
+740
+00:53:45,920 --> 00:53:48,640
+student who who, who worked on
+that with with me.
+
+741
+00:53:50,120 --> 00:53:56,960
+So that was one piece of work.
+Another piece of work was back
+
+742
+00:53:56,960 --> 00:54:02,880
+in the 9293 era, there was
+funding.
+
+743
+00:54:02,880 --> 00:54:06,680
+I think this came from, you
+know, the UK Department of Trade
+
+744
+00:54:06,680 --> 00:54:10,600
+and Industry DTI.
+In those days there was an
+
+745
+00:54:10,600 --> 00:54:14,560
+initiative of setting up
+parallel application centres in
+
+746
+00:54:14,560 --> 00:54:20,400
+various parts of the country.
+And so I, I had a colleague on
+
+747
+00:54:20,400 --> 00:54:24,040
+the computer science side in
+Oxford, Bill McCall, who'd
+
+748
+00:54:24,040 --> 00:54:26,880
+applied for that funding even
+before I arrived.
+
+749
+00:54:27,360 --> 00:54:34,960
+And so had funding for an IBM
+machine, something called an SP2
+
+750
+00:54:36,720 --> 00:54:43,840
+and and also there was funding
+there for, for research and also
+
+751
+00:54:43,840 --> 00:54:46,080
+also match funding.
+I think so.
+
+752
+00:54:46,240 --> 00:54:51,160
+So I had 5050 matching from
+Rolls Royce and so did the
+
+753
+00:54:51,160 --> 00:54:58,480
+project there on developing.
+So in the sense of support layer
+
+754
+00:54:58,480 --> 00:55:01,160
+for doing distributed memory
+parallel computing.
+
+755
+00:55:01,560 --> 00:55:04,760
+So this was something called,
+you know, we called OO plus
+
+756
+00:55:04,960 --> 00:55:07,840
+Oxford parallel library for
+unstructured solvers.
+
+757
+00:55:10,000 --> 00:55:15,800
+Although although orally O plus
+doesn't doesn't sound right, but
+
+758
+00:55:15,800 --> 00:55:21,280
+written down it looks good.
+So, yeah, so, so I think Bill,
+
+759
+00:55:21,760 --> 00:55:26,680
+yeah, must have been in Oxford
+after I arrived from maybe two
+
+760
+00:55:26,680 --> 00:55:30,560
+or three years before he left in
+that.com boom.
+
+761
+00:55:31,480 --> 00:55:34,600
+He was one of the people I hoped
+to work, worked with a bit more
+
+762
+00:55:34,600 --> 00:55:39,520
+on the parallel computing side.
+So, so we got a whole pile of
+
+763
+00:55:39,520 --> 00:55:44,880
+funding half and Rolls Royce
+half from DTI to develop this
+
+764
+00:55:44,880 --> 00:55:53,320
+parallel application framework.
+There was another code that at
+
+765
+00:55:53,320 --> 00:55:58,160
+the postdoc Paul Crompton, who
+actually did most of the
+
+766
+00:55:58,160 --> 00:56:03,520
+development of that software and
+wrote the CFD code as basically
+
+767
+00:56:03,520 --> 00:56:06,760
+a test bed to check everything
+worked correctly.
+
+768
+00:56:07,920 --> 00:56:11,520
+But that was never intended as
+ACFD code for Rolls Royce.
+
+769
+00:56:14,920 --> 00:56:17,920
+So then that's what led into
+Hydra.
+
+770
+00:56:18,320 --> 00:56:23,200
+So basically there were the the
+ideas of doing steady post
+
+771
+00:56:23,200 --> 00:56:28,120
+linear perturbation tested out
+in slick and there was the
+
+772
+00:56:28,280 --> 00:56:32,720
+parallel framework in O plus
+that we'd developed thoroughly
+
+773
+00:56:33,240 --> 00:56:38,280
+tested out.
+And so Hydra then what was built
+
+774
+00:56:38,280 --> 00:56:42,720
+on those foundations now.
+So Hydra it dropped the idea of
+
+775
+00:56:42,720 --> 00:56:47,400
+doing the quadratic piece.
+So, so it's non linear steady,
+
+776
+00:56:47,400 --> 00:56:53,240
+or at least in its original
+incarnation, non linear, steady
+
+777
+00:56:53,920 --> 00:57:01,680
+linear perturbation for flutter
+forced response and then
+
+778
+00:57:01,760 --> 00:57:07,200
+adjoints of all of those for for
+the design optimization, both
+
+779
+00:57:07,200 --> 00:57:10,480
+steady and and the unsteady
+aspects, you know, so the
+
+780
+00:57:10,480 --> 00:57:15,480
+adjoints was completely
+motivated by the work that
+
+781
+00:57:15,480 --> 00:57:19,520
+Anthony Jamieson was doing, you
+know, on on, you know, the
+
+782
+00:57:19,520 --> 00:57:27,080
+aircraft side, except that I
+chose a different technical
+
+783
+00:57:27,080 --> 00:57:32,320
+approach in as much as Anthony
+always viewed the adjoint being
+
+784
+00:57:32,440 --> 00:57:36,920
+developed at the PDE level, you
+know, formulating the adjoint
+
+785
+00:57:36,920 --> 00:57:41,200
+PDE and then thinking about how
+to discretize it.
+
+786
+00:57:41,720 --> 00:57:45,400
+Whereas I followed the the
+so-called discrete adjoint
+
+787
+00:57:45,400 --> 00:57:51,560
+approach, where where you take
+the non linear discrete
+
+788
+00:57:51,560 --> 00:57:56,360
+equations, you linearize those
+sort of element by element and
+
+789
+00:57:56,360 --> 00:58:00,280
+then you take the transpose of
+the matrix to define the the
+
+790
+00:58:00,280 --> 00:58:02,880
+discrete adjoint.
+You know and.
+
+791
+00:58:04,400 --> 00:58:06,840
+Yes.
+How did you, just out of
+
+792
+00:58:06,840 --> 00:58:11,600
+interest at this time, maybe
+also MIT, but Oxford, how active
+
+793
+00:58:11,600 --> 00:58:17,640
+were you in, you know, the AI
+AA, the the sort of turbo
+
+794
+00:58:17,640 --> 00:58:23,920
+machinery conferences were you,
+were you sort of always, were
+
+795
+00:58:23,920 --> 00:58:27,320
+you at these events and saw
+these people or was this more of
+
+796
+00:58:27,440 --> 00:58:31,080
+a like direct industrial
+engagement?
+
+797
+00:58:31,080 --> 00:58:33,720
+I'm always interested, like now
+I go to the AI AA conference.
+
+798
+00:58:33,720 --> 00:58:36,120
+I'm always, just always
+wondering what it was like, you
+
+799
+00:58:36,120 --> 00:58:40,800
+know, before and was that still
+the main venue I guess to go.
+
+800
+00:58:41,640 --> 00:58:44,720
+Yes, yes, that, that, that, that
+was the main venue.
+
+801
+00:58:44,920 --> 00:58:53,760
+I, I sometimes went to the
+ASMEIGTI conference, but I went
+
+802
+00:58:53,760 --> 00:58:57,200
+more, more to the AI AA
+conferences.
+
+803
+00:58:57,240 --> 00:59:03,240
+You know, I think there was more
+discussion of CFD at at AI AA
+
+804
+00:59:03,240 --> 00:59:06,240
+and in, in, in particular, you
+know, the AI double ACFD
+
+805
+00:59:06,240 --> 00:59:09,680
+conference.
+I mean that that was really my
+
+806
+00:59:09,680 --> 00:59:13,160
+home, you know, sort of during
+this period.
+
+807
+00:59:13,160 --> 00:59:19,200
+I would say that, you know, the
+ASME was more on the application
+
+808
+00:59:19,200 --> 00:59:23,360
+side.
+Yeah.
+
+809
+00:59:23,360 --> 00:59:26,800
+So I, I, I, I can remember going
+to two or three of those, but it
+
+810
+00:59:26,800 --> 00:59:29,240
+was the AI AA ones which really
+were.
+
+811
+00:59:29,240 --> 00:59:30,880
+Where was was this Reno?
+No.
+
+812
+00:59:30,880 --> 00:59:36,080
+Where was the CFD?
+So Reno was the January
+
+813
+00:59:36,080 --> 00:59:39,480
+conference, the CFD conference,
+what was in the summer.
+
+814
+00:59:40,000 --> 00:59:47,600
+So I I remember well, I remember
+one in Snowmass in, in Colorado.
+
+815
+00:59:48,000 --> 00:59:49,360
+Yeah.
+Beautiful venue.
+
+816
+00:59:49,360 --> 00:59:50,240
+Yeah.
+Good, good.
+
+817
+00:59:50,440 --> 00:59:54,640
+Orienteering, right?
+Well, yeah, yeah, except it's
+
+818
+00:59:54,640 --> 00:59:57,280
+high, high enough up that you
+really wouldn't be wanting to
+
+819
+00:59:57,280 --> 00:59:59,440
+run at that altitude.
+No, Yeah, yeah.
+
+820
+00:59:59,440 --> 01:00:02,040
+I mean, this is this is a ski
+resort that in the in the
+
+821
+01:00:02,040 --> 01:00:05,240
+summer.
+You know, they, you know, are
+
+822
+01:00:05,480 --> 01:00:07,720
+used for conferences because
+there aren't that many people
+
+823
+01:00:07,720 --> 01:00:13,360
+who want to go hiking.
+But I remember Snowmass.
+
+824
+01:00:13,440 --> 01:00:20,640
+I remember Hawaii.
+I remember there was 1 in LA.
+
+825
+01:00:21,520 --> 01:00:23,320
+Yeah.
+I mean, it just hopped, hopped
+
+826
+01:00:23,320 --> 01:00:26,400
+all over the place.
+Yeah.
+
+827
+01:00:26,400 --> 01:00:27,560
+So.
+Yeah.
+
+828
+01:00:27,560 --> 01:00:33,040
+So I was really mainly in those
+days going to engineering
+
+829
+01:00:33,040 --> 01:00:39,760
+conferences, not so many, I
+guess some maths conferences,
+
+830
+01:00:39,760 --> 01:00:45,160
+but, but in those days, yeah,
+most of my publishing was in in
+
+831
+01:00:45,160 --> 01:00:47,240
+engineering journal still at
+that point.
+
+832
+01:00:47,240 --> 01:00:49,840
+But did you struggle?
+I'm interested because I,
+
+833
+01:00:51,000 --> 01:00:53,440
+because you have such a strong
+maths background, did you ever
+
+834
+01:00:53,440 --> 01:00:58,320
+struggle getting accepted or
+being in that blur of what
+
+835
+01:00:58,320 --> 01:01:02,520
+journal, what conference is the
+right place for maths?
+
+836
+01:01:02,520 --> 01:01:05,040
+And then I always find this
+interesting that, you know, it's
+
+837
+01:01:05,040 --> 01:01:07,160
+something too applied or too
+fundamental.
+
+838
+01:01:07,160 --> 01:01:09,480
+Did you find a sweet spot or was
+there still a little bit of a
+
+839
+01:01:09,480 --> 01:01:14,520
+straight frustration that your
+deep maths wasn't understood by
+
+840
+01:01:14,520 --> 01:01:16,200
+everybody?
+Do do you know what I'm getting
+
+841
+01:01:16,200 --> 01:01:23,080
+at or was it not an issue then?
+I mean, I, I think I was
+
+842
+01:01:23,080 --> 01:01:27,840
+probably in those days still
+viewed more as an engineer than
+
+843
+01:01:27,880 --> 01:01:33,160
+than the mathematics, you know.
+I mean, you know, if you have a
+
+844
+01:01:33,560 --> 01:01:37,680
+PhD in in aeronautics from MIT,
+you know, you're, you're an
+
+845
+01:01:37,680 --> 01:01:38,360
+engineer.
+Yeah.
+
+846
+01:01:39,800 --> 01:01:42,760
+So, I mean, there was never a
+question of the engineering
+
+847
+01:01:42,760 --> 01:01:48,440
+community not accepting me.
+You know, I think, you know, my,
+
+848
+01:01:48,440 --> 01:01:51,800
+my evolution has, has been one
+of the of the mass community
+
+849
+01:01:51,800 --> 01:01:52,920
+accepting me.
+OK, OK.
+
+850
+01:01:55,520 --> 01:01:57,640
+Yeah.
+So, yeah.
+
+851
+01:01:57,640 --> 01:02:02,360
+And that, that, that I guess,
+you know, happened more once
+
+852
+01:02:02,560 --> 01:02:05,120
+once I moved over into the Maths
+Institute.
+
+853
+01:02:06,440 --> 01:02:13,360
+But yes, I guess I felt, I mean,
+having made the, the move to the
+
+854
+01:02:13,360 --> 01:02:18,520
+numerical analysis group in
+Oxford, then in a sense I felt I
+
+855
+01:02:18,520 --> 01:02:23,160
+was back amongst mathematicians.
+But but I was still very much at
+
+856
+01:02:23,160 --> 01:02:26,200
+the engineering end of of of the
+group.
+
+857
+01:02:26,600 --> 01:02:33,200
+You know, I think I was probably
+40 before I wrote my first paper
+
+858
+01:02:33,200 --> 01:02:39,160
+that had a theorem and a proof
+in it, you know, So I mean that
+
+859
+01:02:39,200 --> 01:02:41,440
+that's kind of needed to be a
+mathematician.
+
+860
+01:02:42,600 --> 01:02:45,040
+So what was the link to the
+engineering department at that
+
+861
+01:02:45,040 --> 01:02:50,120
+time like because there's was,
+was it the case that that was
+
+862
+01:02:50,120 --> 01:02:55,680
+more experimental work and the
+sort of CFD was mainly computer
+
+863
+01:02:55,680 --> 01:02:58,480
+science?
+Is, is that sort of, I always
+
+864
+01:02:58,480 --> 01:03:01,160
+found that unique in Oxford
+that, you know, like I said, MIT
+
+865
+01:03:01,160 --> 01:03:05,280
+engineering where like, yeah, I
+guess Oxford's a bit different.
+
+866
+01:03:05,960 --> 01:03:11,200
+So in in Oxford at that time we
+had three UT CS.
+
+867
+01:03:11,400 --> 01:03:14,920
+So the UT CS are the university
+technology centres that, that
+
+868
+01:03:14,920 --> 01:03:22,840
+the Rolls Royce set up.
+And so I had mine in CFD, there
+
+869
+01:03:22,840 --> 01:03:30,160
+was an experimental one in heat
+transfer in, in, in engineering
+
+870
+01:03:30,160 --> 01:03:33,040
+science.
+And then there was one in
+
+871
+01:03:33,040 --> 01:03:40,560
+materials which I didn't didn't
+have any interaction with except
+
+872
+01:03:40,840 --> 01:03:43,120
+one of the profs.
+There used to be an orienteer
+
+873
+01:03:43,120 --> 01:03:44,840
+back in my case.
+So there was.
+
+874
+01:03:46,200 --> 01:03:51,280
+A UTC just for CFD.
+Yes, yes, yes.
+
+875
+01:03:51,280 --> 01:03:55,560
+So this was my, my own little
+UTC.
+
+876
+01:03:55,560 --> 01:04:03,000
+I was the only academic in it.
+So and, and possibly within the
+
+877
+01:04:03,000 --> 01:04:07,040
+Rolls Royce family, that's
+slightly unusual to have a UTC
+
+878
+01:04:07,040 --> 01:04:12,720
+that only has one academic.
+Generally they're they're bigger
+
+879
+01:04:12,720 --> 01:04:15,920
+than that.
+But it was a funding mechanism,
+
+880
+01:04:15,920 --> 01:04:17,680
+I guess, and you were doing the
+work.
+
+881
+01:04:18,600 --> 01:04:22,840
+Yes, the funding mechanism it
+it, it involved me in all the
+
+882
+01:04:22,840 --> 01:04:26,040
+UTC directors meetings.
+I mean, you were part of the
+
+883
+01:04:26,040 --> 01:04:31,080
+family.
+And I mean that that's kind of
+
+884
+01:04:31,080 --> 01:04:35,640
+important in the sense that
+Rolls Royce really knew how to
+
+885
+01:04:35,640 --> 01:04:43,680
+work well with academics, that
+you were part of the family in
+
+886
+01:04:43,680 --> 01:04:46,840
+the sense that you knew all the
+problems as well as, you know,
+
+887
+01:04:46,840 --> 01:04:49,440
+the, the achievements of, of, of
+Rolls Royce.
+
+888
+01:04:49,440 --> 01:04:54,040
+You know, they, they, they, you
+know, they didn't hide anything
+
+889
+01:04:54,040 --> 01:04:57,280
+from you so that you could think
+about what you might potentially
+
+890
+01:04:57,280 --> 01:05:01,360
+do to, to, to help them address
+some of their challenges and
+
+891
+01:05:01,360 --> 01:05:06,560
+things.
+So, you know, it really was a
+
+892
+01:05:06,560 --> 01:05:13,040
+very good collaborative
+experience when, when you're
+
+893
+01:05:13,040 --> 01:05:16,320
+working with industry, you know,
+it's important that both sides
+
+894
+01:05:16,320 --> 01:05:20,200
+realise that what the other
+wants out of the relationship
+
+895
+01:05:20,200 --> 01:05:23,440
+is, is different, you know, and,
+and, and so you're always
+
+896
+01:05:23,440 --> 01:05:26,760
+looking for this sort of win win
+arrangement, you know, the, you
+
+897
+01:05:26,760 --> 01:05:29,720
+know, so they understood that,
+you know, for us, it was
+
+898
+01:05:29,720 --> 01:05:33,680
+important for the students to
+publish papers, to write
+
+899
+01:05:33,760 --> 01:05:37,080
+dissertations, you know, that
+there would be times when they
+
+900
+01:05:37,080 --> 01:05:39,880
+would be utterly focused on
+writing their dissertation and
+
+901
+01:05:40,160 --> 01:05:44,800
+not doing any more research, you
+know, but equally, I, I
+
+902
+01:05:44,800 --> 01:05:48,280
+understood what Rolls Royce
+needed out of the relationship,
+
+903
+01:05:49,200 --> 01:05:53,120
+which was primarily software,
+but occasionally if, if there
+
+904
+01:05:53,120 --> 01:05:56,840
+was a particular engineering
+thing to be investigated, you
+
+905
+01:05:56,840 --> 01:06:01,840
+know, we may occasionally do
+some, no special calculations
+
+906
+01:06:01,840 --> 01:06:05,520
+just for them, as it were,
+rather than as, as part of the
+
+907
+01:06:05,520 --> 01:06:07,680
+research.
+Yeah, I always found that
+
+908
+01:06:07,680 --> 01:06:13,280
+interesting that some it takes a
+special company to understand
+
+909
+01:06:13,280 --> 01:06:17,000
+the value of academic engagement
+and have the patience and the
+
+910
+01:06:17,000 --> 01:06:20,760
+long term vision that it's not
+just cheap labour.
+
+911
+01:06:21,440 --> 01:06:26,040
+Yes, you know that requires you.
+You have to be very careful to
+
+912
+01:06:26,040 --> 01:06:27,880
+make sure it's never just cheap
+labour.
+
+913
+01:06:30,920 --> 01:06:34,520
+I think Rolls Royce was possibly
+slightly disappointed that they
+
+914
+01:06:34,520 --> 01:06:38,360
+never ended up being able to
+hire any of my students.
+
+915
+01:06:38,360 --> 01:06:41,680
+You know, that's, that's, that's
+the other thing that, you know,
+
+916
+01:06:41,920 --> 01:06:47,240
+Rolls Royce would ideally like
+from a UTC is as a source of,
+
+917
+01:06:47,440 --> 01:06:51,480
+you know, people to be employed,
+you know, and that that never
+
+918
+01:06:51,480 --> 01:06:56,440
+quite happened.
+But, yeah.
+
+919
+01:06:56,640 --> 01:06:59,280
+But certainly they, they, they,
+they got their money's worth in
+
+920
+01:06:59,280 --> 01:07:04,560
+terms of CFD codes.
+So, yeah, and I guess like in
+
+921
+01:07:04,560 --> 01:07:08,640
+today's world probably, you
+know, you'd create a start up or
+
+922
+01:07:08,640 --> 01:07:12,800
+something, write a code, you
+know, I guess at that time there
+
+923
+01:07:12,800 --> 01:07:17,520
+was a more traditional link to
+the to the company, right?
+
+924
+01:07:17,520 --> 01:07:18,640
+You know, in terms of.
+Yeah.
+
+925
+01:07:18,840 --> 01:07:22,600
+I mean in, in, in this area, it
+would be tough to do a start up.
+
+926
+01:07:22,640 --> 01:07:27,520
+I mean, I guess 11 Alonso's
+done, done the startup.
+
+927
+01:07:27,520 --> 01:07:30,880
+I haven't talked to him recently
+as to how, how that's going.
+
+928
+01:07:32,240 --> 01:07:38,240
+I mean it, yeah.
+At, at, at one point in parallel
+
+929
+01:07:38,240 --> 01:07:43,120
+computing, I, you know, once I
+moved out of CFD into into
+
+930
+01:07:43,120 --> 01:07:47,560
+mathematical finance, I, I tried
+setting up a spin off.
+
+931
+01:07:48,760 --> 01:07:52,280
+No, it's just more hard work.
+Yeah, I'm, I'm, I'm, I'm
+
+932
+01:07:52,320 --> 01:07:56,520
+fundamentally an academic, not,
+not a start up guy.
+
+933
+01:07:57,440 --> 01:08:01,960
+The reason I say it is because,
+you know, speaking now to
+
+934
+01:08:01,960 --> 01:08:08,400
+yourself or, or to Anthony, and
+I guess that like now CFD has
+
+935
+01:08:08,400 --> 01:08:13,160
+become very dominated by these
+huge multibillion dollar
+
+936
+01:08:13,560 --> 01:08:18,720
+commercial companies.
+I guess in the 80s, that was
+
+937
+01:08:18,920 --> 01:08:23,200
+before the time, wasn't it?
+It was before the, the Fluence
+
+938
+01:08:23,200 --> 01:08:27,279
+and, and, and the, the open
+phones and it was still, you
+
+939
+01:08:27,279 --> 01:08:31,600
+wrote your own code.
+I assume that's old.
+
+940
+01:08:32,359 --> 01:08:35,040
+Was that one of the reasons for
+the hydrogen development that
+
+941
+01:08:35,040 --> 01:08:37,479
+they couldn't just buy something
+off the shelf that wasn't a
+
+942
+01:08:37,479 --> 01:08:40,120
+company that could just sell
+them a capability they felt they
+
+943
+01:08:40,120 --> 01:08:41,160
+needed?
+Yes.
+
+944
+01:08:41,160 --> 01:08:44,520
+And even today I don't think
+there's a company that could
+
+945
+01:08:44,520 --> 01:08:48,000
+sell them what they need because
+the turbo machinery requirements
+
+946
+01:08:48,479 --> 01:08:53,520
+are really very specific.
+So I mean I've I've not kept up
+
+947
+01:08:53,520 --> 01:08:56,840
+with the discipline.
+So I don't know what ANSYS
+
+948
+01:08:56,840 --> 01:09:03,479
+Fluent has as a capability these
+days, but you know, the ability,
+
+949
+01:09:03,479 --> 01:09:09,560
+for example, to have flutter
+calculations being performed on
+
+950
+01:09:09,560 --> 01:09:13,560
+a single blade passage with an
+inter blade phase angle between
+
+951
+01:09:13,560 --> 01:09:16,359
+the passages.
+You know, that's such a unique
+
+952
+01:09:16,560 --> 01:09:21,319
+requirement of turbo machinery
+that I'm not sure the answers
+
+953
+01:09:21,319 --> 01:09:24,240
+views the market as being big
+enough to develop that
+
+954
+01:09:24,240 --> 01:09:26,800
+capability.
+And then, and then you get into
+
+955
+01:09:26,800 --> 01:09:30,680
+things like real gas effects,
+you know, so, so, so Hydra
+
+956
+01:09:31,040 --> 01:09:34,040
+doesn't assume a fixed gamma.
+You know, it, it, it has a
+
+957
+01:09:34,040 --> 01:09:38,319
+general, you know, energy
+temperature relationship in
+
+958
+01:09:38,319 --> 01:09:43,000
+there.
+So again, I mean, I guess things
+
+959
+01:09:43,000 --> 01:09:46,960
+like that answers could add in,
+but there will be add insurance
+
+960
+01:09:46,960 --> 01:09:50,399
+for particular customers and,
+and they would charge
+
+961
+01:09:50,399 --> 01:09:54,720
+accordingly.
+I mean, one of the reasons I got
+
+962
+01:09:54,720 --> 01:10:01,480
+out of the CFD business is it's
+not clear to me long term, you
+
+963
+01:10:01,480 --> 01:10:06,480
+know, what Rolls Royce will do
+for their next so CFD code.
+
+964
+01:10:06,920 --> 01:10:12,040
+So I mean, Hydra's just
+celebrated its 25th anniversary
+
+965
+01:10:12,040 --> 01:10:17,600
+at, at, at Rolls Royce.
+I would say it'll remain the
+
+966
+01:10:17,600 --> 01:10:21,920
+corporate, you know, primary
+code for at least another 10
+
+967
+01:10:21,920 --> 01:10:25,360
+years because it takes a long
+time to, to introduce a brand
+
+968
+01:10:25,360 --> 01:10:29,160
+new code.
+And you know, they, you know,
+
+969
+01:10:29,160 --> 01:10:36,920
+they're doing work with Spencer
+Sherwin on his Nectar code with
+
+970
+01:10:36,920 --> 01:10:41,400
+the thought that they will use
+that in, in applications where
+
+971
+01:10:41,400 --> 01:10:47,600
+they want to really do DNS or or
+at least high resolution LES,
+
+972
+01:10:48,120 --> 01:10:53,520
+but, but that won't be part of
+their sort of standard, you
+
+973
+01:10:53,520 --> 01:11:00,600
+know, design process.
+So I think it's, it's harder to
+
+974
+01:11:00,600 --> 01:11:06,040
+see now.
+Yeah, companies funding a brand
+
+975
+01:11:06,040 --> 01:11:10,240
+new code development.
+That's kind of what I was
+
+976
+01:11:10,280 --> 01:11:15,480
+hinting at, that it does seem as
+if that that generation in the
+
+977
+01:11:15,480 --> 01:11:21,760
+80s and the 90s throughout
+aerospace was a time of real
+
+978
+01:11:21,760 --> 01:11:23,840
+innovation and development.
+It was.
+
+979
+01:11:23,840 --> 01:11:27,560
+Themselves.
+Yeah, I mean when, when, when I,
+
+980
+01:11:27,880 --> 01:11:32,280
+you know, joined Rolls Royce's
+first CFD group in 1980.
+
+981
+01:11:32,680 --> 01:11:36,520
+You know, most of the design
+methods were one-dimensional
+
+982
+01:11:36,520 --> 01:11:42,720
+design methods, you know, with
+sort of mean, mean line, sort
+
+983
+01:11:42,720 --> 01:11:46,560
+of, you know, I mean really
+mathematical models rather than
+
+984
+01:11:46,560 --> 01:11:51,760
+numerics.
+So, yeah, I mean it, it, it's
+
+985
+01:11:51,760 --> 01:11:57,240
+been wonderful just being part
+of that whole process of, you
+
+986
+01:11:57,240 --> 01:12:01,880
+know, you know, the development
+of computational engineering
+
+987
+01:12:01,880 --> 01:12:07,680
+and, and seeing it go all the
+way from 1D2D3D, you know, in
+
+988
+01:12:07,680 --> 01:12:12,040
+viscid to viscous steady to
+unsteady and then the adjoints
+
+989
+01:12:12,040 --> 01:12:16,160
+and everything.
+You know, it is interesting.
+
+990
+01:12:16,160 --> 01:12:21,120
+So looking back over your
+lifetime and looking at the
+
+991
+01:12:21,120 --> 01:12:24,360
+progress in computational
+engineering and then of course
+
+992
+01:12:24,360 --> 01:12:27,040
+the progress in parallel
+computing and the high
+
+993
+01:12:27,040 --> 01:12:30,080
+performance computing, I mean.
+Both of them, yeah.
+
+994
+01:12:30,360 --> 01:12:33,040
+It's really stunning looking
+back over the years.
+
+995
+01:12:34,000 --> 01:12:38,720
+Yeah, that's what I was
+wondering about is so you, so
+
+996
+01:12:38,720 --> 01:12:40,920
+you came into Oxford doing the
+computer science.
+
+997
+01:12:42,280 --> 01:12:45,600
+I was just looking at the and I
+guess this is where we have a
+
+998
+01:12:45,600 --> 01:12:48,600
+slight shared connection into
+some of the people.
+
+999
+01:12:51,240 --> 01:12:54,720
+How did and you mentioned also
+about the government setting up
+
+1000
+01:12:54,720 --> 01:12:56,440
+some, you know, parallel
+computing.
+
+1001
+01:12:57,400 --> 01:13:02,920
+I guess how did that evolve the
+HPC angle, Oxford, maybe some of
+
+1002
+01:13:02,920 --> 01:13:06,080
+the E research ideas you'll move
+into mass.
+
+1003
+01:13:06,080 --> 01:13:09,360
+When did how did that time?
+And I guess that probably aligns
+
+1004
+01:13:09,360 --> 01:13:14,280
+to also when you had a declining
+interest in CFD and more into
+
+1005
+01:13:14,280 --> 01:13:17,120
+the computing and other areas.
+Is that fair to say?
+
+1006
+01:13:17,600 --> 01:13:20,280
+Were they aligned a little bit
+or were they sort of separate?
+
+1007
+01:13:21,000 --> 01:13:25,160
+OK, so yeah, yeah, let's let
+let's.
+
+1008
+01:13:25,480 --> 01:13:26,800
+Try to.
+I've asked you like 3 questions
+
+1009
+01:13:26,800 --> 01:13:29,320
+in one.
+Yeah, yeah, yeah.
+
+1010
+01:13:29,360 --> 01:13:32,280
+So get get the timeline straight
+in my mind.
+
+1011
+01:13:32,880 --> 01:13:36,240
+OK.
+So the main Hydra research
+
+1012
+01:13:36,240 --> 01:13:47,440
+period was sort of 96 to maybe
+2004, 2006, something like that.
+
+1013
+01:13:48,840 --> 01:13:55,920
+And the Hydra code was built on
+top of this O plus parallel
+
+1014
+01:13:55,920 --> 01:13:59,360
+layer that we had developed
+earlier as part of the DTI
+
+1015
+01:13:59,360 --> 01:14:05,480
+funded activity.
+And so incidentally, both O plus
+
+1016
+01:14:05,480 --> 01:14:09,480
+and Hydra, you're the IPR
+belongs to Rolls Royce.
+
+1017
+01:14:12,480 --> 01:14:20,960
+So O plus was very much
+developed in the time of single
+
+1018
+01:14:20,960 --> 01:14:27,280
+core CPUs, risk risk based CPUs,
+you know, so, so there, you
+
+1019
+01:14:27,280 --> 01:14:30,160
+know, there was good performance
+there, but single core.
+
+1020
+01:14:30,840 --> 01:14:35,000
+And then what was happening over
+time was that CPUs were, were
+
+1021
+01:14:35,000 --> 01:14:41,920
+going multicore and, and then we
+had GPUs that came along.
+
+1022
+01:14:42,840 --> 01:14:47,960
+So, so again, I've, I've always
+been interested in the latest
+
+1023
+01:14:47,960 --> 01:14:53,920
+computing technology.
+So I think it must have been
+
+1024
+01:14:56,320 --> 01:15:06,160
+sort of late 2006, early 2007.
+An ex colleague, Mike Rodger, I
+
+1025
+01:15:06,160 --> 01:15:08,000
+don't know if the name means
+anything to you.
+
+1026
+01:15:08,720 --> 01:15:16,120
+He, he set up a company spin off
+from Warwick actually, which
+
+1027
+01:15:16,200 --> 01:15:22,040
+sold parallel, you know,
+systems, you know, parallel
+
+1028
+01:15:22,040 --> 01:15:26,280
+clusters.
+And he was the one who said to
+
+1029
+01:15:26,280 --> 01:15:32,720
+me, there's this new thing
+called the GPU and this, this,
+
+1030
+01:15:32,720 --> 01:15:36,520
+this new language CUDA.
+Actually, I'm not even sure if
+
+1031
+01:15:36,520 --> 01:15:38,840
+he told me about CUDA.
+He may just have told me, you
+
+1032
+01:15:38,840 --> 01:15:41,000
+know, there's this new hardware
+called GPUs.
+
+1033
+01:15:41,200 --> 01:15:43,720
+It's really impressive.
+You know, you ought to have a
+
+1034
+01:15:43,720 --> 01:15:51,640
+look at it.
+And at about the same time there
+
+1035
+01:15:51,640 --> 01:15:57,440
+was a company based in Bristol
+called Clearspeed, which had
+
+1036
+01:15:57,440 --> 01:16:01,300
+people in it who I think had the
+background coming from the in
+
+1037
+01:16:01,300 --> 01:16:07,720
+MOS transputer days, you know,
+so, so I first tried the the
+
+1038
+01:16:07,720 --> 01:16:14,400
+Clearspeed card and I was
+impressed by what it was capable
+
+1039
+01:16:14,400 --> 01:16:17,800
+of, but I wasn't blown away by
+it.
+
+1040
+01:16:20,240 --> 01:16:27,320
+And then actually I had the
+visiting student, a Chinese
+
+1041
+01:16:27,320 --> 01:16:31,760
+student, I forget how, how he
+came to me, but he, he did the
+
+1042
+01:16:31,760 --> 01:16:35,040
+clear speed work.
+And then I said, well, now, now
+
+1043
+01:16:35,040 --> 01:16:40,120
+let's try this GPU.
+And he came back to me with it
+
+1044
+01:16:40,120 --> 01:16:45,240
+within like a couple of weeks
+with the code performing just
+
+1045
+01:16:45,240 --> 01:16:48,120
+incredibly fast.
+And I was saying, OK, you've
+
+1046
+01:16:48,120 --> 01:16:55,840
+clearly messed up the timing.
+And so it took took me a week to
+
+1047
+01:16:55,840 --> 01:16:59,320
+convince myself, no, I mean it
+really was performing that that
+
+1048
+01:16:59,320 --> 01:17:03,760
+well.
+So, so this was right at the
+
+1049
+01:17:03,760 --> 01:17:08,840
+beginning of CUDA.
+So I think we, we started with
+
+1050
+01:17:09,360 --> 01:17:12,440
+the naughty .9 beta release or
+something like that.
+
+1051
+01:17:14,080 --> 01:17:18,120
+And, and so I was just stunned
+at, you know, the power of, of
+
+1052
+01:17:18,120 --> 01:17:20,680
+the GPU.
+Now this was when I was already
+
+1053
+01:17:20,680 --> 01:17:23,840
+starting to pivot into
+mathematical finance.
+
+1054
+01:17:23,840 --> 01:17:27,320
+So I was actually looking at it
+for doing Monte Carlo
+
+1055
+01:17:28,360 --> 01:17:34,240
+simulations in, in finance,
+which is why NVIDIA then got
+
+1056
+01:17:34,240 --> 01:17:37,800
+interested in me because they
+saw that as a potential market.
+
+1057
+01:17:40,320 --> 01:17:46,800
+So, yeah, so, so I was pivoting
+to finance, but I was also
+
+1058
+01:17:46,800 --> 01:17:49,160
+interested in the power of the
+GPUs.
+
+1059
+01:17:49,520 --> 01:17:53,680
+So after two or three years of
+that, I'm trying to think
+
+1060
+01:17:53,680 --> 01:18:00,200
+exactly on the timing.
+Again, I was interested in doing
+
+1061
+01:18:00,200 --> 01:18:07,240
+an upgrade to O Plus which could
+then incorporate both GPUs and
+
+1062
+01:18:07,240 --> 01:18:12,240
+multi core CPUs.
+But by the way, just before you
+
+1063
+01:18:12,240 --> 01:18:15,360
+go on, did so did you if it was
+2000 and six 2007, did you
+
+1064
+01:18:15,360 --> 01:18:19,200
+interact with Ian Buck at all
+then on the cooter stuff or was
+
+1065
+01:18:19,200 --> 01:18:23,440
+it on people more in the UK who?
+You no, no.
+
+1066
+01:18:23,440 --> 01:18:30,200
+So Massimiliano I, I interacted
+with Ian.
+
+1067
+01:18:30,360 --> 01:18:37,200
+Ian, I probably met in in the
+same way that I met Jensen at,
+
+1068
+01:18:37,320 --> 01:18:42,920
+you know, drinks things at GTC.
+So, so I was, I think the number
+
+1069
+01:18:42,920 --> 01:18:45,120
+2 CUDA fellow.
+I think.
+
+1070
+01:18:45,120 --> 01:18:48,920
+I think the first CUDA fellow
+was somebody in India.
+
+1071
+01:18:49,760 --> 01:18:52,600
+And then I was #2 like a month
+later.
+
+1072
+01:18:54,080 --> 01:18:59,480
+So yeah, yeah, I mean, yeah.
+So I was going along to the GTC,
+
+1073
+01:18:59,600 --> 01:19:02,600
+you know.
+I have to say to the, I guess to
+
+1074
+01:19:02,600 --> 01:19:06,360
+the people is that a bit of like
+self-proclaimed interest just
+
+1075
+01:19:06,360 --> 01:19:09,640
+because now the team I'm in has
+those people in it.
+
+1076
+01:19:09,640 --> 01:19:12,280
+So I'm always intrigued when
+they're like, oh, you, you know
+
+1077
+01:19:12,280 --> 01:19:14,280
+that person and this person
+knows this person.
+
+1078
+01:19:14,320 --> 01:19:17,480
+So it's kind of interesting,
+especially because you were, I
+
+1079
+01:19:17,480 --> 01:19:19,480
+mean, now everybody knows NVIDIA
+and GP us.
+
+1080
+01:19:19,560 --> 01:19:24,000
+But 2006 seven was really early
+on, wasn't it?
+
+1081
+01:19:24,680 --> 01:19:27,200
+Yeah, yeah.
+And, and in fact, some of the
+
+1082
+01:19:27,200 --> 01:19:32,760
+people from Clear Speed moved to
+NVIDIA in part in influenced by
+
+1083
+01:19:32,760 --> 01:19:36,840
+my feedback to them.
+Yeah.
+
+1084
+01:19:36,840 --> 01:19:41,200
+They then saw the writing on the
+wall and moved, moved ship
+
+1085
+01:19:41,200 --> 01:19:46,440
+accordingly.
+So, but yes, I don't think I,
+
+1086
+01:19:46,880 --> 01:19:49,440
+yeah, I don't remember talking
+to Ian Buck at all.
+
+1087
+01:19:49,920 --> 01:19:55,320
+Massimiliano was was was one of
+my early contacts in in in the
+
+1088
+01:19:55,320 --> 01:20:00,400
+Bay Area.
+Yeah.
+
+1089
+01:20:01,080 --> 01:20:06,240
+So, yeah, yes, I sort of came
+back then to do this upgrade
+
+1090
+01:20:06,440 --> 01:20:11,680
+from O plus to to OP 2.
+So that, that was with Gehan,
+
+1091
+01:20:12,040 --> 01:20:16,040
+you know, mutilation and Ishwan
+regularly that you, you, you
+
+1092
+01:20:16,440 --> 01:20:21,720
+both of them.
+So, and so that, that had
+
+1093
+01:20:21,720 --> 01:20:27,320
+funding from both Rolls Royce
+and, you know, the UK EPSURC,
+
+1094
+01:20:28,560 --> 01:20:36,880
+you know, government funding.
+So that has in a sense, you
+
+1095
+01:20:36,880 --> 01:20:41,120
+know, protected Hydra's future
+by, by up upgrading the, the,
+
+1096
+01:20:41,320 --> 01:20:45,240
+the underlying computing
+hardness for, for, you know,
+
+1097
+01:20:45,240 --> 01:20:51,560
+modern systems.
+But but I haven't really done
+
+1098
+01:20:51,920 --> 01:20:56,320
+CFD as such since about
+2/2/2000.
+
+1099
+01:20:56,760 --> 01:20:58,640
+Seven, I think was the last
+time.
+
+1100
+01:20:59,200 --> 01:21:02,640
+So what was, yeah, maybe that's
+the elephant in the room.
+
+1101
+01:21:04,120 --> 01:21:07,600
+Why what, why was the, I mean,
+you sort of hinted towards it
+
+1102
+01:21:07,920 --> 01:21:13,600
+earlier, but what was the reason
+to maybe move away from CFD and
+
+1103
+01:21:13,600 --> 01:21:16,240
+move into the, you know, the
+financial side?
+
+1104
+01:21:16,440 --> 01:21:20,240
+Was that the maths angle moving
+to the maths department sort of
+
+1105
+01:21:20,240 --> 01:21:23,320
+just wanting new challenges?
+The computing side What?
+
+1106
+01:21:23,320 --> 01:21:26,200
+What was the ingredients to
+that?
+
+1107
+01:21:34,200 --> 01:21:37,440
+Yeah, I'm just, I'm just
+thinking what, what, what what
+
+1108
+01:21:37,440 --> 01:21:40,400
+to say.
+Yeah, let's, let's let's be be
+
+1109
+01:21:40,400 --> 01:21:44,000
+open about it because I have
+been been open about this, you
+
+1110
+01:21:44,000 --> 01:21:51,800
+know, in, in various settings.
+I got, you know, more than burnt
+
+1111
+01:21:51,800 --> 01:21:56,960
+out developing the hydrocode.
+You know that there were lots of
+
+1112
+01:21:56,960 --> 01:22:00,400
+aspects of the hydrocode that
+worked very well, but they had
+
+1113
+01:22:00,520 --> 01:22:05,160
+major problems early on with
+numerical stability which got me
+
+1114
+01:22:05,400 --> 01:22:11,320
+horrendously stressed out to to
+the point of serious
+
+1115
+01:22:12,280 --> 01:22:16,360
+consequences.
+So, you know, for about 6 months
+
+1116
+01:22:16,360 --> 01:22:18,560
+it took to, to recover from all
+of that.
+
+1117
+01:22:20,600 --> 01:22:27,520
+And I decided at that point that
+it's a got to a situation where
+
+1118
+01:22:28,040 --> 01:22:31,640
+in a sense, too much
+perspiration and too little
+
+1119
+01:22:31,640 --> 01:22:35,160
+inspiration.
+It, it, it's not being fun, you
+
+1120
+01:22:35,160 --> 01:22:42,560
+know, managing a large software
+project is, is tiring, you know,
+
+1121
+01:22:42,600 --> 01:22:48,080
+and, and, you know, I'd, yeah,
+I'd, I'd had enough.
+
+1122
+01:22:48,680 --> 01:22:55,720
+So, you know, I sort of finished
+up the things that needed to be
+
+1123
+01:22:55,720 --> 01:22:59,800
+finished up, transferred things
+to Rolls Royce and they've,
+
+1124
+01:23:00,040 --> 01:23:02,920
+they've continued, you know, the
+development subsequently.
+
+1125
+01:23:05,000 --> 01:23:10,440
+So I decided I had to had to do
+something fresh different.
+
+1126
+01:23:10,920 --> 01:23:15,920
+I had to get out of big codes.
+Yeah.
+
+1127
+01:23:16,760 --> 01:23:25,560
+So in, in engineering style, I,
+I thought, OK, where's the money
+
+1128
+01:23:25,560 --> 01:23:28,400
+in terms of where, where's the
+research funding?
+
+1129
+01:23:28,840 --> 01:23:32,880
+What do, what do people care
+about health and wealth?
+
+1130
+01:23:33,360 --> 01:23:38,880
+So, so computational biology and
+computational finance, those,
+
+1131
+01:23:39,120 --> 01:23:42,760
+those were the two areas I
+contemplated moving into.
+
+1132
+01:23:43,280 --> 01:23:48,840
+And computational biology, I, I
+know no biology.
+
+1133
+01:23:48,840 --> 01:23:51,840
+So I'd have been starting from
+Ground Zero on that.
+
+1134
+01:23:52,240 --> 01:23:57,200
+And I also wasn't convinced
+there was the research funding
+
+1135
+01:23:57,200 --> 01:24:00,960
+in in that area, although I was
+proved wrong on that, you know,
+
+1136
+01:24:01,040 --> 01:24:03,080
+you know, there is actually
+plenty of funding there.
+
+1137
+01:24:04,240 --> 01:24:08,000
+Computational finance, there was
+a very good mathematical finance
+
+1138
+01:24:08,000 --> 01:24:12,080
+group in the maths department
+but they didn't have a lot of
+
+1139
+01:24:12,080 --> 01:24:15,960
+numerical expertise.
+So, so for me that that was a
+
+1140
+01:24:15,960 --> 01:24:19,800
+natural fit.
+And So what I did was I actually
+
+1141
+01:24:19,800 --> 01:24:25,360
+transferred from computer
+science into maths to join the
+
+1142
+01:24:25,360 --> 01:24:30,000
+mathematical finance group.
+And then a couple of years later
+
+1143
+01:24:30,160 --> 01:24:33,240
+the rest of the numerical
+analysis group kind of moved,
+
+1144
+01:24:33,400 --> 01:24:37,520
+moved across behind me into
+maths as well.
+
+1145
+01:24:40,480 --> 01:24:45,000
+And so now, now I'm, I'm head of
+the, the numerical analysis
+
+1146
+01:24:45,000 --> 01:24:48,600
+group now, you know, so, so in a
+sense in, in, in the last few
+
+1147
+01:24:48,600 --> 01:24:52,560
+years I've sort of transferred
+back from the finance group into
+
+1148
+01:24:52,560 --> 01:24:56,920
+the numerical analysis group.
+As which ultimately sort of came
+
+1149
+01:24:56,920 --> 01:25:01,800
+with you in the fullness of time
+from the computer science into
+
+1150
+01:25:01,800 --> 01:25:02,960
+the into the.
+Maths, yeah.
+
+1151
+01:25:02,960 --> 01:25:06,480
+When when when maths got its new
+building, there was the
+
+1152
+01:25:06,480 --> 01:25:09,840
+opportunity for the numerical
+analysis group to move and it
+
+1153
+01:25:09,840 --> 01:25:12,160
+was a take it to leave it kind
+of opportunity.
+
+1154
+01:25:12,160 --> 01:25:14,600
+And you know, they, they, they,
+they moved.
+
+1155
+01:25:14,600 --> 01:25:17,240
+And for people listening, it's a
+lovely building.
+
+1156
+01:25:17,560 --> 01:25:19,280
+It's a very nice.
+It's a very nice.
+
+1157
+01:25:20,760 --> 01:25:25,080
+Building also, you know, when I
+joined computer science in 92,
+
+1158
+01:25:25,320 --> 01:25:29,360
+the numerical analysis group was
+half of the whole department,
+
+1159
+01:25:29,760 --> 01:25:33,200
+you know, Wow yeah.
+So what happened over time was
+
+1160
+01:25:33,200 --> 01:25:36,280
+the computer science side grew
+and the numerical analysis side
+
+1161
+01:25:36,280 --> 01:25:39,360
+didn't.
+And so by by the time the
+
+1162
+01:25:39,360 --> 01:25:48,000
+numerical analysis group moved
+over in 2910, yeah, they were
+
+1163
+01:25:48,000 --> 01:25:52,320
+basically pushed out
+effectively, you know, you know,
+
+1164
+01:25:52,400 --> 01:25:56,200
+you know, that it didn't make
+sense for them being in computer
+
+1165
+01:25:56,200 --> 01:25:59,560
+science any longer.
+I mean, historically they were
+
+1166
+01:25:59,560 --> 01:26:03,360
+there because that's where the
+computers were, you know, and,
+
+1167
+01:26:03,680 --> 01:26:07,160
+and that, you know, that is a
+history that has happened
+
+1168
+01:26:07,160 --> 01:26:09,000
+elsewhere.
+I mean, you know, numerical
+
+1169
+01:26:09,000 --> 01:26:12,200
+analysis and Stanford for a long
+time was based in computer
+
+1170
+01:26:12,200 --> 01:26:14,400
+science.
+And I think, again,
+
+1171
+01:26:14,400 --> 01:26:17,240
+historically, it's because
+that's where the computers were.
+
+1172
+01:26:19,040 --> 01:26:20,920
+I do always find this
+interesting and that's why I
+
+1173
+01:26:20,920 --> 01:26:24,480
+just wanted to, you know, get
+the I get the quick history of
+
+1174
+01:26:25,320 --> 01:26:28,160
+like places like the E Research
+Centre and others because in
+
+1175
+01:26:28,160 --> 01:26:32,720
+some ways I understand the logic
+that where does some of these
+
+1176
+01:26:32,720 --> 01:26:34,840
+places fit?
+You know, there's numerical
+
+1177
+01:26:34,840 --> 01:26:37,360
+analysis, there's computers,
+there's high performance
+
+1178
+01:26:37,360 --> 01:26:39,600
+computing, there's an
+engineering application, there's
+
+1179
+01:26:39,640 --> 01:26:46,600
+a pure application was the was
+was that sort of E research
+
+1180
+01:26:46,600 --> 01:26:49,000
+centre and I believe there were
+others around the country was
+
+1181
+01:26:49,000 --> 01:26:55,040
+the initiative to try and bring
+them together to in a more
+
+1182
+01:26:55,040 --> 01:26:57,880
+collaborative way Was that was
+that sort of the initiative?
+
+1183
+01:26:58,080 --> 01:27:02,560
+I know that they've subsequently
+largely folded into other
+
+1184
+01:27:02,560 --> 01:27:05,400
+departments now, but.
+Yes, I mean, it it there was a
+
+1185
+01:27:05,400 --> 01:27:13,880
+massive funding initiative to
+fund this E science and yeah,
+
+1186
+01:27:13,880 --> 01:27:18,560
+so, so Tony, hey was was the
+person in charge of that.
+
+1187
+01:27:21,440 --> 01:27:28,040
+And I'm not sure what exactly
+the intent was.
+
+1188
+01:27:28,120 --> 01:27:33,360
+How, how explicitly they wanted
+it to be an interdisciplinary
+
+1189
+01:27:33,360 --> 01:27:34,120
+effort.
+Maybe.
+
+1190
+01:27:34,280 --> 01:27:40,440
+Maybe they did so in Oxford.
+Yeah.
+
+1191
+01:27:41,280 --> 01:27:44,040
+When, when, when they round up
+the usual suspects for high
+
+1192
+01:27:44,040 --> 01:27:46,720
+performance computing.
+I was, I was one of the usual
+
+1193
+01:27:46,720 --> 01:27:49,320
+suspects.
+And so I was one of the four
+
+1194
+01:27:49,320 --> 01:27:56,560
+people who put in the Oxford
+bid, you know, to get OERC
+
+1195
+01:27:56,560 --> 01:28:04,080
+initially, I mean, at that point
+and Trefethen was Tony's deputy
+
+1196
+01:28:04,080 --> 01:28:08,360
+and then she later, you know,
+joined Oxford and and and became
+
+1197
+01:28:08,360 --> 01:28:15,360
+head of OARC.
+So I think certainly computer
+
+1198
+01:28:15,360 --> 01:28:20,920
+science in those days in Oxford
+was very theoretical, especially
+
+1199
+01:28:20,920 --> 01:28:24,640
+after the panel computing people
+like Bill McColl had left
+
+1200
+01:28:24,640 --> 01:28:31,840
+duringthe.com era to some extent
+in Oxford there were tensions
+
+1201
+01:28:31,840 --> 01:28:36,880
+between engineering and computer
+science as to where some of the
+
+1202
+01:28:36,880 --> 01:28:41,120
+more applied computer science
+activities should go, should
+
+1203
+01:28:41,120 --> 01:28:46,320
+should go.
+And then OERC was, was just,
+
+1204
+01:28:46,400 --> 01:28:50,440
+yeah, another, another location
+to have such things, you know,
+
+1205
+01:28:50,440 --> 01:28:54,560
+so, so eventually it made sense
+for OOERC to be merged into
+
+1206
+01:28:54,560 --> 01:28:59,640
+engineering.
+I think at the time computer
+
+1207
+01:28:59,640 --> 01:29:03,240
+science expressed a strong view
+that they they did not want to
+
+1208
+01:29:03,240 --> 01:29:06,480
+be the destination.
+So.
+
+1209
+01:29:06,760 --> 01:29:11,200
+Anyway, OK, but maybe on to then
+more the maths side.
+
+1210
+01:29:11,240 --> 01:29:18,120
+I mean, I'm, I'm intrigued
+because maybe to explain at more
+
+1211
+01:29:18,120 --> 01:29:22,560
+of a higher level, if you can,
+what what are the similarities
+
+1212
+01:29:22,560 --> 01:29:26,280
+between some of the mathematical
+finances and maybe CFD?
+
+1213
+01:29:26,280 --> 01:29:29,760
+What are the, and obviously
+you're known for which, you
+
+1214
+01:29:30,640 --> 01:29:33,320
+know, I only understand the
+basic basics of it, but the sort
+
+1215
+01:29:33,320 --> 01:29:36,120
+of multi level Monte Carlo,
+which I as soon as I saw the
+
+1216
+01:29:36,120 --> 01:29:37,560
+description, always like a multi
+grid.
+
+1217
+01:29:37,800 --> 01:29:40,400
+It always makes me interested
+that there's some of these, you
+
+1218
+01:29:40,400 --> 01:29:44,000
+see it with AI today that some
+of these CFD solutions to
+
+1219
+01:29:44,000 --> 01:29:46,440
+problems are now being applied
+to new areas.
+
+1220
+01:29:46,680 --> 01:29:48,960
+So what?
+Yeah, what are the sort of high
+
+1221
+01:29:48,960 --> 01:29:52,760
+level things that makes the link
+between CFD and maths, I guess.
+
+1222
+01:29:53,480 --> 01:30:00,280
+So in in mathematical finance,
+there's basically two kinds of
+
+1223
+01:30:00,280 --> 01:30:03,560
+methodology.
+You can approach it from a PDE
+
+1224
+01:30:03,560 --> 01:30:08,360
+point of view, where in in one
+sense you you have APDE that
+
+1225
+01:30:08,360 --> 01:30:12,720
+describes the evolution of the
+probability density function
+
+1226
+01:30:13,080 --> 01:30:16,800
+for, you know, a stock having a
+certain value at the time in the
+
+1227
+01:30:16,800 --> 01:30:19,920
+future.
+And there's a corresponding sort
+
+1228
+01:30:19,920 --> 01:30:25,800
+of adjoint of that to give the
+value of of various financial
+
+1229
+01:30:25,800 --> 01:30:29,840
+options or there's the Monte
+Carlo approach where you
+
+1230
+01:30:29,840 --> 01:30:34,600
+simulate lots of these different
+possible future trajectories of
+
+1231
+01:30:34,640 --> 01:30:39,680
+of the stock and then and then
+say, OK, given that family of
+
+1232
+01:30:39,680 --> 01:30:43,200
+solutions, what's the average
+pay off of your financial
+
+1233
+01:30:43,200 --> 01:30:48,240
+option?
+So when I initially moved into
+
+1234
+01:30:48,240 --> 01:30:52,800
+finance, I was focused on the
+PDE site because it's basically
+
+1235
+01:30:52,800 --> 01:30:56,320
+convection diffusion Pdes.
+And I thought, hey, you know,
+
+1236
+01:30:58,120 --> 01:31:01,240
+this is, this is a no brainer.
+I can just bring all the CFD
+
+1237
+01:31:01,240 --> 01:31:05,040
+techniques over and, and, and do
+things here.
+
+1238
+01:31:07,080 --> 01:31:12,200
+What I quickly found was other
+people have beaten me to it in
+
+1239
+01:31:12,200 --> 01:31:17,320
+terms of moving over from CFD.
+So particularly Peter Forsyth,
+
+1240
+01:31:17,800 --> 01:31:21,640
+University of Waterloo in
+Canada, who I think Peter had
+
+1241
+01:31:21,640 --> 01:31:26,520
+come out of the oil reservoir
+CFD area if I remember
+
+1242
+01:31:26,520 --> 01:31:29,760
+correctly.
+And so he he did a lot of the
+
+1243
+01:31:29,760 --> 01:31:35,920
+pioneering work in terms of PDE
+methods, you know, numerical
+
+1244
+01:31:35,920 --> 01:31:40,520
+methods for for finance.
+And so there wasn't, as it
+
+1245
+01:31:40,520 --> 01:31:45,000
+happened so much, you know, left
+for, for me, as I had maybe
+
+1246
+01:31:45,000 --> 01:31:50,760
+thought.
+And then I mean this, this was
+
+1247
+01:31:51,080 --> 01:31:53,240
+over a relatively short period
+of time.
+
+1248
+01:31:53,680 --> 01:31:58,200
+I thought that I would probably
+have to teach a course on Monte
+
+1249
+01:31:58,200 --> 01:32:01,880
+Carlo methods, you know,
+because, you know, we, we, we
+
+1250
+01:32:01,880 --> 01:32:06,360
+had still have an MSC in
+mathematical and computational
+
+1251
+01:32:06,360 --> 01:32:09,760
+finance.
+And I, I teach numerics on that.
+
+1252
+01:32:10,040 --> 01:32:12,720
+And you know, we would need to
+teach them about both sides.
+
+1253
+01:32:13,400 --> 01:32:20,040
+And so I took a 2 day course put
+on by a couple of professors
+
+1254
+01:32:20,240 --> 01:32:26,120
+from Columbia University in, in,
+in the US, put on in, in London
+
+1255
+01:32:26,120 --> 01:32:31,120
+for, for London finance.
+People managed to, to, to
+
+1256
+01:32:31,120 --> 01:32:35,960
+convince the, the, the
+department to, to pay my fees
+
+1257
+01:32:35,960 --> 01:32:39,040
+for that.
+They, they, they, they gave me a
+
+1258
+01:32:39,040 --> 01:32:44,040
+50% discount as an academic, but
+Even so, it was a costlier
+
+1259
+01:32:44,200 --> 01:32:45,960
+course to attend.
+Anyway.
+
+1260
+01:32:46,560 --> 01:32:50,600
+So I went to this course and
+they were teaching me about,
+
+1261
+01:32:50,720 --> 01:32:56,200
+about, about Monte Carlo methods
+and talking about doing
+
+1262
+01:32:56,320 --> 01:33:01,520
+sensitivity calculations.
+And I went up and talked to Paul
+
+1263
+01:33:01,520 --> 01:33:04,880
+Glassman, the lead guy in in a
+coffee break and said, well,
+
+1264
+01:33:05,240 --> 01:33:09,360
+this is all fascinating, but I
+presume that of course you, you
+
+1265
+01:33:09,400 --> 01:33:13,160
+actually use an joint methods to
+to compute these sensitivities
+
+1266
+01:33:13,320 --> 01:33:17,520
+more more efficiently.
+To which he said, what?
+
+1267
+01:33:19,920 --> 01:33:24,840
+So yeah.
+So just pure, pure luck.
+
+1268
+01:33:24,840 --> 01:33:29,920
+I was able to introduce adjoint
+methods to the financial Monte
+
+1269
+01:33:29,920 --> 01:33:34,400
+Carlo community for doing
+sensitivity calculations.
+
+1270
+01:33:34,640 --> 01:33:41,280
+So I did a paper with with, with
+Paul Glasserman in a finance, so
+
+1271
+01:33:41,360 --> 01:33:46,560
+industry magazine really, rather
+than as a proper academic
+
+1272
+01:33:46,560 --> 01:33:48,400
+journal.
+Because from my point of view
+
+1273
+01:33:48,400 --> 01:33:50,680
+there was absolutely nothing new
+mathematically.
+
+1274
+01:33:50,680 --> 01:33:57,320
+This was just a new application.
+This is a paper that went, went,
+
+1275
+01:33:57,320 --> 01:34:03,080
+went by the title of smoking a
+joint, which helped helped.
+
+1276
+01:34:03,080 --> 01:34:07,200
+It's it's notoriety.
+This is a journal or, or trade
+
+1277
+01:34:07,200 --> 01:34:10,360
+journal that liked puns in their
+titles.
+
+1278
+01:34:10,600 --> 01:34:15,080
+And so I would never dare do
+that in an academic journal.
+
+1279
+01:34:15,120 --> 01:34:19,680
+But anyway, so yeah.
+So I so I got known for, you
+
+1280
+01:34:19,680 --> 01:34:23,880
+know, the adjoint work, which is
+really sort of taken over in, in
+
+1281
+01:34:24,000 --> 01:34:28,960
+in the finance sector.
+And then the multi level Monte
+
+1282
+01:34:28,960 --> 01:34:31,240
+Carlo.
+Yes, I mean, you're right to
+
+1283
+01:34:31,240 --> 01:34:33,720
+take, you know, the analogy to
+multigrid.
+
+1284
+01:34:33,720 --> 01:34:39,120
+I mean, multigrid is such a
+fundamental part of CFD that it
+
+1285
+01:34:39,120 --> 01:34:43,400
+was natural in getting into
+Monte Carlo methods to think,
+
+1286
+01:34:43,400 --> 01:34:46,960
+well, is there anything
+analogous that that that we can
+
+1287
+01:34:46,960 --> 01:34:52,120
+do here?
+And so, yeah, I came up with
+
+1288
+01:34:52,120 --> 01:34:54,480
+with, you know, the multi level
+idea.
+
+1289
+01:34:54,680 --> 01:34:58,200
+And it's one of those things
+that like multigrid itself, I
+
+1290
+01:34:58,200 --> 01:35:02,920
+mean, it's such a simple idea.
+It really ought to have been
+
+1291
+01:35:02,920 --> 01:35:06,960
+thought of ages before.
+But because I came in from a
+
+1292
+01:35:06,960 --> 01:35:10,240
+different background, you know,
+this was, this was part of my
+
+1293
+01:35:10,240 --> 01:35:15,720
+toolkit, you know, it, it, it
+was a fairly natural thing for,
+
+1294
+01:35:15,880 --> 01:35:19,120
+for, for me to do.
+And so I've kind of been living
+
+1295
+01:35:19,120 --> 01:35:23,680
+off that and extensions of that,
+you know, for the last 15 years.
+
+1296
+01:35:26,880 --> 01:35:30,200
+And what about the computing
+side that the GPU side, you
+
+1297
+01:35:30,200 --> 01:35:34,120
+know, is that is that being just
+because of, of, of an interest?
+
+1298
+01:35:34,120 --> 01:35:38,440
+How much of that and forgive me
+for for not knowing, but how,
+
+1299
+01:35:39,080 --> 01:35:42,440
+how much is that shaped Also on
+the maths side, how, how much is
+
+1300
+01:35:42,440 --> 01:35:45,160
+that acceleration?
+You know GPUs to CFD is well
+
+1301
+01:35:45,160 --> 01:35:49,240
+known but is it similar ID on
+the maths side?
+
+1302
+01:35:50,960 --> 01:35:55,680
+So, I mean, most maths research
+just doesn't need lots of
+
+1303
+01:35:55,680 --> 01:35:59,200
+compute power.
+I mean, these these days more
+
+1304
+01:35:59,200 --> 01:36:03,120
+and more, you know, our, our
+students do things in Python
+
+1305
+01:36:03,440 --> 01:36:09,920
+And, you know, maybe some will,
+will use the jacks package
+
+1306
+01:36:09,920 --> 01:36:11,800
+within Python to get
+performance.
+
+1307
+01:36:12,120 --> 01:36:17,280
+But a lot of work.
+No, nobody worries about, you
+
+1308
+01:36:17,280 --> 01:36:22,960
+know, performance, you know, so
+I'm, I'm kind of an unusual,
+
+1309
+01:36:23,560 --> 01:36:27,200
+yeah.
+So I, I, I still teach my, my
+
+1310
+01:36:27,200 --> 01:36:30,240
+CUDA course every year with,
+with Wes.
+
+1311
+01:36:31,840 --> 01:36:35,160
+You know, a few weeks ago I
+taught in, you know, a one day
+
+1312
+01:36:35,160 --> 01:36:40,760
+open MP, you know, some mini
+course for, for PhD students
+
+1313
+01:36:40,760 --> 01:36:44,360
+just to introduce them to this
+forgetting performance.
+
+1314
+01:36:44,560 --> 01:36:48,640
+But there's very, very few
+students who are particularly
+
+1315
+01:36:48,640 --> 01:36:52,640
+interested in, in that.
+It is an interesting question.
+
+1316
+01:36:52,640 --> 01:36:55,280
+You know, where, where does that
+kind of work belong?
+
+1317
+01:36:55,280 --> 01:36:59,920
+You know, to what extent does it
+belong in computer science or
+
+1318
+01:36:59,920 --> 01:37:09,080
+maths or engineering?
+You know, I guess I'm somehow a
+
+1319
+01:37:09,080 --> 01:37:14,720
+product of, of my time and it's
+not clear that there will be a
+
+1320
+01:37:14,720 --> 01:37:19,440
+new generation of people like
+me, at least not in maths.
+
+1321
+01:37:19,680 --> 01:37:21,600
+Yes.
+I'm not sure where, where the
+
+1322
+01:37:21,600 --> 01:37:26,680
+next generation of me sort of
+lives, you know, so, so there's
+
+1323
+01:37:26,680 --> 01:37:29,200
+Wes.
+Wes is in, in engineering now,
+
+1324
+01:37:29,640 --> 01:37:33,160
+you know, having moved with,
+with, with OARC.
+
+1325
+01:37:33,760 --> 01:37:39,600
+So, you know, Wes is now kind of
+my successor within the
+
+1326
+01:37:39,600 --> 01:37:47,600
+university.
+He's, he's now Mr. HPC, you
+
+1327
+01:37:47,640 --> 01:37:53,320
+know, there will be individuals
+in departments like physics and
+
+1328
+01:37:53,320 --> 01:37:58,280
+chemistry and biochemistry who,
+who have their expertise in HPC,
+
+1329
+01:37:58,560 --> 01:38:02,200
+but we don't really, you know,
+we're not a community as such
+
+1330
+01:38:02,720 --> 01:38:09,160
+now, I would say, and we're
+still struggling a bit to
+
+1331
+01:38:10,000 --> 01:38:13,480
+organise graduate teaching
+across the university.
+
+1332
+01:38:13,880 --> 01:38:19,680
+I mean, this is something where
+Oxford and I think Cambridge
+
+1333
+01:38:19,680 --> 01:38:24,360
+are, are poor compared to our
+American counterparts, where
+
+1334
+01:38:24,720 --> 01:38:27,160
+you'll, you'll have graduate
+courses offered by one
+
+1335
+01:38:27,160 --> 01:38:30,880
+department taken by people from
+across the university.
+
+1336
+01:38:31,520 --> 01:38:33,640
+Yeah.
+We, we don't do enough of that
+
+1337
+01:38:34,160 --> 01:38:37,280
+Our, our, our, our CUDA course
+is, is unusual.
+
+1338
+01:38:37,280 --> 01:38:43,520
+I mean, this this year, I think
+we're currently up to about well
+
+1339
+01:38:43,520 --> 01:38:49,280
+over 100 people signed up, of
+whom 65 are Oxford people and
+
+1340
+01:38:49,280 --> 01:38:56,040
+another 35 externals, you know,
+and so the Oxford people do come
+
+1341
+01:38:56,320 --> 01:39:01,640
+from across the university, but
+that, that's very unusual in, in
+
+1342
+01:39:01,640 --> 01:39:06,800
+the Oxford setup.
+I'm, I'm, I'm trying to get more
+
+1343
+01:39:06,800 --> 01:39:09,520
+of that happening.
+You know that we we have a much
+
+1344
+01:39:09,520 --> 01:39:17,240
+more systematic training in, in
+advanced computing because you
+
+1345
+01:39:17,240 --> 01:39:19,160
+know there are needs across the
+university.
+
+1346
+01:39:20,720 --> 01:39:23,800
+I mean, I have to ask the
+obvious question, which is you
+
+1347
+01:39:23,800 --> 01:39:27,760
+know, you've you've pivoted once
+I guess to the maps were you,
+
+1348
+01:39:28,040 --> 01:39:30,560
+were you?
+And are you still tempted on the
+
+1349
+01:39:30,760 --> 01:39:34,680
+AI given that it seems your
+skills are probably absolutely
+
+1350
+01:39:34,680 --> 01:39:38,160
+perfectly aligned, which is
+strong maps under tech,
+
+1351
+01:39:38,160 --> 01:39:42,920
+engineering and HPC?
+Yeah, So the quick answer is no.
+
+1352
+01:39:44,360 --> 01:39:49,120
+So it, it, it is curious.
+I've I've got so three points of
+
+1353
+01:39:49,120 --> 01:39:54,760
+contact with with AI.
+I've, I've got the, the GP US
+
+1354
+01:39:55,280 --> 01:40:02,560
+I've got, you know, stochastic
+gradient method is very close to
+
+1355
+01:40:02,560 --> 01:40:04,280
+the stuff I'm doing in Monte
+Carlo.
+
+1356
+01:40:05,640 --> 01:40:08,240
+And there's the I joint, you
+know, so.
+
+1357
+01:40:09,920 --> 01:40:13,200
+I mean, certainly at one point
+in the past, if you looked at
+
+1358
+01:40:13,200 --> 01:40:18,240
+the source code for Pytorch,
+there were more references to my
+
+1359
+01:40:18,240 --> 01:40:23,680
+adjoint publications than than
+any other academic, you know, So
+
+1360
+01:40:25,280 --> 01:40:28,360
+it is, it is interesting how,
+how, how the adjoint stuffs got
+
+1361
+01:40:28,360 --> 01:40:35,960
+got, got picked up.
+But, but no, no, it, it AAI is
+
+1362
+01:40:35,960 --> 01:40:39,640
+for, for for a new generation.
+No, I'm, I'm, I'm not doing
+
+1363
+01:40:39,640 --> 01:40:44,960
+another pivot.
+I'm, I'm I'm happy to keep
+
+1364
+01:40:44,960 --> 01:40:50,160
+things going on on the HPC side.
+So I will continue doing things
+
+1365
+01:40:50,160 --> 01:40:55,120
+with, with, with GP us I've,
+I'm, I'm interested in the
+
+1366
+01:40:55,120 --> 01:40:59,560
+potential of Fpgas for doing
+finance calculations.
+
+1367
+01:41:01,520 --> 01:41:06,040
+It it it's amusing when when I
+arrived in in 92 in computer
+
+1368
+01:41:06,040 --> 01:41:11,280
+science, one of my colleagues
+then in in computer science told
+
+1369
+01:41:11,280 --> 01:41:15,280
+me, you know, this is wonderful
+new technology Mike called Fpgas
+
+1370
+01:41:15,440 --> 01:41:18,080
+is going to absolutely
+revolutionize everything that
+
+1371
+01:41:18,080 --> 01:41:19,720
+you're doing.
+You know, you really need to
+
+1372
+01:41:19,720 --> 01:41:25,600
+learn about it, and that's kind
+of still the message.
+
+1373
+01:41:25,840 --> 01:41:27,680
+Yeah.
+I was just about to say they
+
+1374
+01:41:27,680 --> 01:41:29,960
+haven't been right in the last
+30 years.
+
+1375
+01:41:30,160 --> 01:41:32,600
+Doesn't mean that they may not
+be right at some point in the
+
+1376
+01:41:32,600 --> 01:41:33,920
+next 30 years.
+So.
+
+1377
+01:41:35,680 --> 01:41:37,400
+And there's a story for GPUs
+from that.
+
+1378
+01:41:37,400 --> 01:41:39,760
+It is that, you know, you were
+there early in the day, But I, I
+
+1379
+01:41:39,760 --> 01:41:43,200
+guess it's Jensen always says
+that, you know, it's, it's taken
+
+1380
+01:41:43,200 --> 01:41:46,800
+like 30 years to sort of get to
+this point where there's been
+
+1381
+01:41:46,800 --> 01:41:50,400
+this massive, you know, use
+because of because of AI, but I
+
+1382
+01:41:50,400 --> 01:41:56,240
+guess it was because of people
+who are early adopters it like
+
+1383
+01:41:56,240 --> 01:41:57,560
+yourself.
+It's it's been a slow
+
+1384
+01:41:57,560 --> 01:42:00,640
+progression, but suddenly it's
+all come together.
+
+1385
+01:42:00,640 --> 01:42:02,280
+Hasn't.
+It, I mean, it has been
+
+1386
+01:42:02,280 --> 01:42:08,280
+fascinating being sort of in,
+in, in the company of, of NVIDIA
+
+1387
+01:42:08,280 --> 01:42:13,640
+during this whole evolution.
+You know, that, you know, I went
+
+1388
+01:42:14,160 --> 01:42:21,920
+to all the GTCS in, in the early
+days and I, I remember being
+
+1389
+01:42:21,920 --> 01:42:29,040
+there, you know, when Imagenet,
+you know, one, sorry, not, not
+
+1390
+01:42:29,040 --> 01:42:35,080
+image net one, you know, one won
+the, you know, the competition,
+
+1391
+01:42:36,040 --> 01:42:40,480
+yeah, for, you know, you know,
+for image recognition, image
+
+1392
+01:42:40,480 --> 01:42:44,160
+clinic classification.
+And then the next year, the top
+
+1393
+01:42:44,160 --> 01:42:50,000
+10 competitors won with, with
+GPUs, you know, and, and you
+
+1394
+01:42:50,000 --> 01:42:53,800
+know, the way that NVIDIA
+pivoted was, was impressive, but
+
+1395
+01:42:53,800 --> 01:42:57,400
+they were always on the lookout
+for the killer application.
+
+1396
+01:42:57,760 --> 01:43:02,280
+You know, so right at the
+beginning they thought, at least
+
+1397
+01:43:02,280 --> 01:43:05,160
+this is my impression that they
+thought that computational
+
+1398
+01:43:05,160 --> 01:43:07,360
+finance might be the killer
+application.
+
+1399
+01:43:07,840 --> 01:43:11,400
+And so that's why they were
+interested in in what I did in
+
+1400
+01:43:11,560 --> 01:43:14,400
+implementing, you know, the
+first random number generator
+
+1401
+01:43:14,400 --> 01:43:20,120
+on, on, on CUDA.
+You know, I think in, I think at
+
+1402
+01:43:20,120 --> 01:43:23,480
+that point, the value
+proposition wasn't sufficient to
+
+1403
+01:43:23,480 --> 01:43:27,680
+persuade the banks to take
+highly paid quants to, to
+
+1404
+01:43:27,680 --> 01:43:33,040
+rewrite all of the software.
+And so the adoption rate was,
+
+1405
+01:43:33,040 --> 01:43:38,120
+was, was slow.
+But yeah, yeah, the company was
+
+1406
+01:43:38,120 --> 01:43:40,600
+always on the lookout for that
+killer application.
+
+1407
+01:43:41,000 --> 01:43:44,480
+And, you know, when when they
+saw, you know, those early days
+
+1408
+01:43:44,480 --> 01:43:49,680
+in AI, they thought, yeah, let's
+let's let's double down on this.
+
+1409
+01:43:49,680 --> 01:43:53,040
+And, you know, first, first on
+the software side and then
+
+1410
+01:43:53,040 --> 01:43:55,040
+increasingly on the hardware
+side as well.
+
+1411
+01:43:55,360 --> 01:43:57,320
+Yeah, I mean, it is.
+Fascinating.
+
+1412
+01:43:58,200 --> 01:44:05,800
+I just find that the CFD in some
+ways is still a niche industry
+
+1413
+01:44:05,800 --> 01:44:08,200
+at a global level.
+You know the amount of money and
+
+1414
+01:44:08,200 --> 01:44:11,000
+the amount of people.
+But I do always find it
+
+1415
+01:44:11,000 --> 01:44:16,360
+fascinating that so many things
+have originated in CFD.
+
+1416
+01:44:16,440 --> 01:44:19,800
+I mean, Ian Buck's PhD was CFD,
+right?
+
+1417
+01:44:19,800 --> 01:44:22,240
+CUDA, as far as I'm aware,
+there's like a fluid dynamics
+
+1418
+01:44:23,440 --> 01:44:27,640
+application, you know, like with
+yourself with the early days of
+
+1419
+01:44:27,640 --> 01:44:29,600
+CFD.
+OK, now you've it's.
+
+1420
+01:44:29,600 --> 01:44:32,760
+It's funny how I guess because
+it was one of the original hard
+
+1421
+01:44:32,760 --> 01:44:34,400
+problems to solve.
+Yes.
+
+1422
+01:44:34,400 --> 01:44:42,720
+I mean CCFDI guess was a prime
+driver for HPC for for a long
+
+1423
+01:44:42,720 --> 01:44:54,480
+period, you know, So yeah, I
+mean, both in terms of as it
+
+1424
+01:44:54,480 --> 01:45:00,720
+were open, open CFD and all,
+all, all of you know, the
+
+1425
+01:45:00,720 --> 01:45:04,400
+nuclear weapons stuff as well.
+Yeah, which is sort of related
+
+1426
+01:45:04,400 --> 01:45:10,200
+very closely, you know.
+So whereas now you know, within
+
+1427
+01:45:10,200 --> 01:45:15,520
+the UK the biggest computers or
+the most IT spend is in the
+
+1428
+01:45:15,520 --> 01:45:20,280
+banks, you know, you know, So
+you know, the amount of money
+
+1429
+01:45:20,280 --> 01:45:25,000
+that Rolls Royce spends on
+compute per year, I would
+
+1430
+01:45:25,000 --> 01:45:30,040
+imagine is, is less than any any
+one of the big banks in London.
+
+1431
+01:45:31,240 --> 01:45:33,440
+I don't know that for a fact,
+but no.
+
+1432
+01:45:34,040 --> 01:45:37,160
+Probably.
+That's the case, you know, of
+
+1433
+01:45:37,160 --> 01:45:41,120
+sense.
+Yeah.
+
+1434
+01:45:41,360 --> 01:45:44,920
+You know, so these days it it's
+the money in AI which is driving
+
+1435
+01:45:44,920 --> 01:45:47,520
+the hardware development, you
+know, clearly.
+
+1436
+01:45:47,840 --> 01:45:53,960
+And so, you know, you know, CFD
+is no longer that driver.
+
+1437
+01:45:57,120 --> 01:46:00,720
+I guess CFD was also driving a
+lot of development of numerical
+
+1438
+01:46:00,720 --> 01:46:05,080
+methods within academia, you
+know, and academia tends to be
+
+1439
+01:46:05,080 --> 01:46:08,240
+at the sort of bleeding edge of
+the technology.
+
+1440
+01:46:08,320 --> 01:46:13,480
+You know, again, all of those
+cheap bodies, Yeah.
+
+1441
+01:46:13,920 --> 01:46:18,520
+Bright, bright young minds and
+well, seeing just how much they
+
+1442
+01:46:18,520 --> 01:46:21,320
+they can squeeze out of this,
+this new hardware.
+
+1443
+01:46:25,560 --> 01:46:28,360
+But yes, what are the big
+drivers these days other than
+
+1444
+01:46:28,360 --> 01:46:29,560
+AI?
+Yeah, Yeah.
+
+1445
+01:46:29,560 --> 01:46:32,920
+I mean that so much is is is
+based on that now.
+
+1446
+01:46:34,720 --> 01:46:38,840
+Yeah, that's why I find it
+interesting that the and it's a
+
+1447
+01:46:38,840 --> 01:46:41,720
+bit more of a controversial
+topic, which is the convergence
+
+1448
+01:46:42,240 --> 01:46:45,600
+or the use of AI techniques for
+some of these disciplines.
+
+1449
+01:46:45,600 --> 01:46:53,720
+You know, whether just as
+there's influences of using CFD
+
+1450
+01:46:53,720 --> 01:47:01,520
+or numerical methods for AI, is
+AI got any use within CFD or or
+
+1451
+01:47:01,640 --> 01:47:05,960
+you know, do you see it in the
+maths world that the actual use
+
+1452
+01:47:05,960 --> 01:47:11,000
+of AI techniques or is it
+controversial or not sort of
+
+1453
+01:47:11,000 --> 01:47:12,960
+proven?
+You know, just as you were
+
+1454
+01:47:12,960 --> 01:47:17,000
+bringing in like techniques from
+CFDCAI applications in the
+
+1455
+01:47:17,000 --> 01:47:22,400
+finance.
+So I mean, in terms of AAI
+
+1456
+01:47:22,400 --> 01:47:33,200
+within CFD in general, I would
+say I'm a sceptic, but but to
+
+1457
+01:47:33,200 --> 01:47:36,200
+some extent that may be that I
+just haven't spent enough time
+
+1458
+01:47:36,200 --> 01:47:39,080
+to actually see what is is
+happening.
+
+1459
+01:47:40,120 --> 01:47:45,840
+I think potentially the idea of
+an AI based turbulence model
+
+1460
+01:47:46,160 --> 01:47:49,960
+might, might make sense.
+I mean, turbulence modelling is
+
+1461
+01:47:49,960 --> 01:47:54,360
+such a challenging topic and
+there's so little progress I
+
+1462
+01:47:54,360 --> 01:48:01,120
+think has been made in the last,
+you know, 25 years that AAI may
+
+1463
+01:48:01,120 --> 01:48:08,080
+may be the answer there.
+I think in I think, you know,
+
+1464
+01:48:08,080 --> 01:48:11,640
+for detailed CFDI think it it,
+it's going to need to continue
+
+1465
+01:48:11,640 --> 01:48:18,360
+to be traditional CFD methods.
+You know that whether AI can
+
+1466
+01:48:18,360 --> 01:48:23,760
+then get trained on the results
+of a large number of simulations
+
+1467
+01:48:24,080 --> 01:48:29,600
+such that it does a pretty good
+proxy for the purposes of of
+
+1468
+01:48:29,600 --> 01:48:37,160
+design optimization.
+Maybe I guess that doesn't
+
+1469
+01:48:37,160 --> 01:48:40,880
+particularly interest or excite
+me.
+
+1470
+01:48:41,400 --> 01:48:46,240
+But again, maybe I'm, I'm just
+showing my, my, my age.
+
+1471
+01:48:47,680 --> 01:48:57,520
+I, I am interested in the impact
+of AI on research more
+
+1472
+01:48:57,520 --> 01:49:03,000
+generally.
+So, you know, I'm really very
+
+1473
+01:49:03,000 --> 01:49:10,320
+impressed by the capabilities of
+the latest ChatGPT, you know,
+
+1474
+01:49:10,400 --> 01:49:15,520
+and you know, I think it really
+has improved hugely, you know,
+
+1475
+01:49:15,680 --> 01:49:18,480
+over the last two years, say,
+you know, so the pace of
+
+1476
+01:49:18,480 --> 01:49:25,880
+development is, is fascinating,
+you know, so, so I'm doing quite
+
+1477
+01:49:25,880 --> 01:49:31,200
+a few experiments in different
+settings just just to understand
+
+1478
+01:49:31,200 --> 01:49:36,880
+what it can do.
+So, so you know, I mean, just
+
+1479
+01:49:36,880 --> 01:49:44,000
+yesterday I was getting it to,
+you know, tell me all about, you
+
+1480
+01:49:44,080 --> 01:49:50,400
+know, Brownian motion, spatial
+white noise, space-time white
+
+1481
+01:49:50,400 --> 01:49:53,520
+noise for, you know, for
+stochastic modelling.
+
+1482
+01:49:54,400 --> 01:49:58,840
+And so put together a whole lot
+of information for me to, to, to
+
+1483
+01:49:58,840 --> 01:50:03,600
+give to an MSC student who's
+doing a project with me, you
+
+1484
+01:50:03,600 --> 01:50:08,360
+know, all all the way to it, you
+know, telling me about the
+
+1485
+01:50:08,360 --> 01:50:13,640
+stochastic heat equation,
+providing me with some sample
+
+1486
+01:50:13,640 --> 01:50:19,400
+code, implementing it in, in a
+simple, you know, finite
+
+1487
+01:50:19,400 --> 01:50:25,560
+difference approximation.
+It, it tried to set it up to, to
+
+1488
+01:50:25,560 --> 01:50:28,240
+use multi level.
+So understood about multi level
+
+1489
+01:50:28,520 --> 01:50:35,040
+it it didn't quite get things
+right, but but it, you know, did
+
+1490
+01:50:35,040 --> 01:50:38,960
+surprisingly well, you know, so
+I really wonder where we're
+
+1491
+01:50:38,960 --> 01:50:42,560
+going to be in five or ten years
+time, you know, so.
+
+1492
+01:50:42,880 --> 01:50:48,360
+Yeah.
+I think it's entirely possible.
+
+1493
+01:50:48,360 --> 01:50:52,760
+I might even go as far as to say
+likely, that 10 years from now
+
+1494
+01:50:53,120 --> 01:50:59,720
+you will have a proof assistant
+that is capable of looking at a
+
+1495
+01:50:59,720 --> 01:51:04,320
+theorem and proof given the
+necessary background
+
+1496
+01:51:04,320 --> 01:51:09,200
+information, and it won't be
+able to say with certainty that
+
+1497
+01:51:09,200 --> 01:51:16,920
+the proof is correct.
+But it will on many occasions be
+
+1498
+01:51:16,920 --> 01:51:21,280
+able to highlight bits in the
+proof that look dodgy or don't
+
+1499
+01:51:21,280 --> 01:51:29,280
+like wrong.
+So yeah, So I, I, I kind of
+
+1500
+01:51:29,280 --> 01:51:33,400
+think that AI, you know, you
+should absolutely never trust it
+
+1501
+01:51:33,400 --> 01:51:35,800
+100%.
+You should always look at what
+
+1502
+01:51:35,800 --> 01:51:38,800
+it produces.
+But the fact that it gets some
+
+1503
+01:51:38,800 --> 01:51:42,480
+things wrong doesn't matter if
+it also gets some things right.
+
+1504
+01:51:42,880 --> 01:51:47,760
+And it is, you know, it's very
+helpful.
+
+1505
+01:51:47,760 --> 01:51:54,120
+I mean, another another thing I
+did with it a few days ago, it's
+
+1506
+01:51:54,120 --> 01:51:59,960
+always irritated me with
+programming Intel CPUs that at
+
+1507
+01:51:59,960 --> 01:52:03,480
+times their compiler is very
+poor at vectorization.
+
+1508
+01:52:03,760 --> 01:52:07,960
+And so if you really want to get
+performance, you have to work
+
+1509
+01:52:07,960 --> 01:52:11,720
+with the vector intrinsics, you
+know, the AVX 512 intrinsics.
+
+1510
+01:52:13,040 --> 01:52:18,200
+And it's irritated me the fact
+that Intel doesn't provide you
+
+1511
+01:52:18,800 --> 01:52:23,680
+with AC plus plus class that has
+operator overloading, you know,
+
+1512
+01:52:24,080 --> 01:52:26,720
+to go along with all of those
+intrinsics.
+
+1513
+01:52:28,480 --> 01:52:32,200
+And so I asked ChatGPT about
+this and it, it produced me
+
+1514
+01:52:32,200 --> 01:52:36,960
+with, you know, it gave me AC
+plus plus class definition with,
+
+1515
+01:52:36,960 --> 01:52:40,000
+with all of the operator
+overloading, you know, and I'm,
+
+1516
+01:52:40,200 --> 01:52:42,880
+I'm not a good enough C++
+programmer that I could have
+
+1517
+01:52:42,880 --> 01:52:45,800
+done that myself.
+So just saved me, you know,
+
+1518
+01:52:46,680 --> 01:52:56,040
+incredible amount of time.
+So things that in a sense are
+
+1519
+01:52:56,720 --> 01:53:01,160
+are routine enough for a large
+group of people now become
+
+1520
+01:53:01,160 --> 01:53:05,800
+automatically available to
+everyone else who isn't part of
+
+1521
+01:53:05,800 --> 01:53:11,080
+that, you know, So, so as a
+productivity tool, you know, it
+
+1522
+01:53:11,080 --> 01:53:17,440
+really is capable.
+So I'm, I'm doing this, I mean,
+
+1523
+01:53:17,440 --> 01:53:21,520
+partly from, for my own benefit,
+partly also to just spread the
+
+1524
+01:53:21,520 --> 01:53:25,840
+word amongst my colleagues, you
+know, to give them a range of
+
+1525
+01:53:25,840 --> 01:53:30,920
+examples of, look, this is what
+AI can do for you.
+
+1526
+01:53:31,680 --> 01:53:35,640
+Yeah.
+I mean, I agree.
+
+1527
+01:53:35,640 --> 01:53:40,360
+It's, it's amazing what it, it's
+and and it's, it almost does
+
+1528
+01:53:40,360 --> 01:53:43,480
+need people to evangelise or
+show it because if you haven't
+
+1529
+01:53:43,480 --> 01:53:45,680
+seen it, you don't know.
+But once you see that, Oh my
+
+1530
+01:53:45,680 --> 01:53:47,760
+God, this is.
+Yeah.
+
+1531
+01:53:47,760 --> 01:53:51,320
+So I'm, I'm, I'm now kind of
+getting into that evangelism
+
+1532
+01:53:51,680 --> 01:53:56,960
+group.
+Yes, Yeah.
+
+1533
+01:53:57,240 --> 01:54:02,560
+It it it, it is fascinating.
+So here's maybe a question for
+
+1534
+01:54:02,560 --> 01:54:08,440
+you as, as we get towards the
+end of this discussion, which
+
+1535
+01:54:08,440 --> 01:54:13,400
+I'm sure we could carry on for
+hours, because I, I, yeah,
+
+1536
+01:54:13,400 --> 01:54:16,200
+you've got so many interesting
+things that we didn't talk
+
+1537
+01:54:16,200 --> 01:54:18,000
+about.
+But I'm I'm conscious of like
+
+1538
+01:54:18,000 --> 01:54:22,040
+your, your time, but maybe more
+philosophical question, which is
+
+1539
+01:54:22,040 --> 01:54:27,360
+if you were if you were now a
+undergrad.
+
+1540
+01:54:27,960 --> 01:54:31,680
+Yeah.
+In today's world, what would be
+
+1541
+01:54:31,680 --> 01:54:38,640
+your advice on a career
+trajectory, what to focus on?
+
+1542
+01:54:38,640 --> 01:54:41,240
+Like, I know it's a very
+difficult question, but seeing
+
+1543
+01:54:41,240 --> 01:54:44,120
+everything you've done, is there
+anything you would advise now,
+
+1544
+01:54:44,720 --> 01:54:48,920
+somebody who is, yeah, 1819 or
+doing an undergraduate and is
+
+1545
+01:54:48,920 --> 01:54:54,040
+thinking about, you know,
+academia, industry, Is it good
+
+1546
+01:54:54,040 --> 01:54:57,400
+to work with industry to get
+that understanding?
+
+1547
+01:54:59,480 --> 01:55:11,920
+Yeah.
+Yeah, it's tough because I mean,
+
+1548
+01:55:11,920 --> 01:55:14,920
+I think the main advice is to
+try to do something that you
+
+1549
+01:55:14,920 --> 01:55:17,120
+enjoy doing.
+You know, you know, you know,
+
+1550
+01:55:17,320 --> 01:55:20,280
+you know, we don't want everyone
+to be doing the same things.
+
+1551
+01:55:20,280 --> 01:55:25,760
+Everyone should kind of pursue,
+you know what, what, what they
+
+1552
+01:55:25,760 --> 01:55:31,640
+like.
+If, if I mean if it was me again
+
+1553
+01:55:31,640 --> 01:55:37,960
+now, you know, thinking of, you
+know, where I was as a teenager,
+
+1554
+01:55:39,400 --> 01:55:43,640
+you know, I would, I would still
+probably be, be heading in into
+
+1555
+01:55:43,720 --> 01:55:50,120
+mathematics.
+You know, I would.
+
+1556
+01:55:50,440 --> 01:55:53,440
+I think by my nature I was
+always interested in
+
+1557
+01:55:53,440 --> 01:55:57,320
+applications.
+So I think as a teenager I was
+
+1558
+01:55:57,320 --> 01:56:00,360
+interested in maths because it
+helped me with applications in
+
+1559
+01:56:00,360 --> 01:56:03,600
+physics that that was kind of
+the motivation.
+
+1560
+01:56:05,520 --> 01:56:09,640
+I mean maths now one of the
+areas of growth I think is in
+
+1561
+01:56:09,640 --> 01:56:14,160
+terms of mathematical modelling
+in medicine.
+
+1562
+01:56:14,800 --> 01:56:20,680
+So, so I do think if, if, if I
+was maybe an undergraduate now
+
+1563
+01:56:20,800 --> 01:56:26,760
+and, and thinking about where I
+wanted to head for PhD, you
+
+1564
+01:56:26,760 --> 01:56:32,080
+know, computational methods
+applied in, in the sort of
+
+1565
+01:56:32,080 --> 01:56:37,360
+medical area, I think may, may
+be an area right right now.
+
+1566
+01:56:37,360 --> 01:56:40,040
+It's still challenging with the
+whole funding situation.
+
+1567
+01:56:40,040 --> 01:56:42,960
+So, you know, we have
+difficulties linking up medical
+
+1568
+01:56:42,960 --> 01:56:47,120
+departments with science
+departments and, you know, the
+
+1569
+01:56:47,120 --> 01:56:51,160
+whole way the UK funding
+mechanisms work, but at least we
+
+1570
+01:56:51,160 --> 01:56:54,080
+don't have the problems that,
+that, that the US has for us.
+
+1571
+01:56:57,240 --> 01:57:01,440
+So yes, I mean that that's maybe
+what, what I would end up doing
+
+1572
+01:57:01,440 --> 01:57:05,320
+if, you know, I was, I was 18
+again.
+
+1573
+01:57:05,320 --> 01:57:09,240
+Now I don't know.
+But I think the main thing is,
+
+1574
+01:57:09,360 --> 01:57:14,960
+is to try to enjoy what it is
+you do.
+
+1575
+01:57:14,960 --> 01:57:23,160
+And, and you know, don't don't
+worry too much about, about the
+
+1576
+01:57:23,160 --> 01:57:26,520
+future, you know, you know, you
+know, when I started as, as an
+
+1577
+01:57:26,520 --> 01:57:28,400
+undergraduate at Cambridge, I
+really didn't know what I was
+
+1578
+01:57:28,400 --> 01:57:31,520
+going to be doing at the end.
+I think, I think now students
+
+1579
+01:57:31,520 --> 01:57:34,560
+start as undergrads with much
+more of an idea of what they
+
+1580
+01:57:34,560 --> 01:57:38,120
+want to do at the end of it.
+And maybe there's.
+
+1581
+01:57:38,200 --> 01:57:40,440
+Pressure.
+Yeah, there is more pressure
+
+1582
+01:57:40,440 --> 01:57:43,360
+now.
+I mean, back when I was an
+
+1583
+01:57:43,360 --> 01:57:48,240
+undergraduate, so few people
+went to university that in a
+
+1584
+01:57:48,240 --> 01:57:53,520
+sense you were, you felt, you
+know, guaranteed that you you
+
+1585
+01:57:53,520 --> 01:57:55,120
+would get a good job at the end
+of it.
+
+1586
+01:57:55,120 --> 01:58:00,160
+And people do do not feel that
+guarantee now, you know, so, so,
+
+1587
+01:58:00,160 --> 01:58:05,000
+so I do, you know, I do
+understand and appreciate that,
+
+1588
+01:58:05,000 --> 01:58:12,920
+you know, I certainly wouldn't
+discourage people from doing,
+
+1589
+01:58:13,280 --> 01:58:15,880
+you know, you know, pursuing
+interests in programming.
+
+1590
+01:58:16,160 --> 01:58:18,960
+I know, I know there's talk
+about AAI is going to do away
+
+1591
+01:58:18,960 --> 01:58:21,640
+with all these programmers.
+No, I don't think so.
+
+1592
+01:58:21,640 --> 01:58:26,560
+I think, you know, you, you,
+you, you still need people with
+
+1593
+01:58:27,280 --> 01:58:30,200
+with programming skills.
+I think I would definitely
+
+1594
+01:58:30,200 --> 01:58:34,400
+encourage people to develop
+their AI using skills, you know,
+
+1595
+01:58:34,520 --> 01:58:41,600
+so and engage with these AI
+tools, you know, because they
+
+1596
+01:58:41,880 --> 01:58:48,120
+they are hugely useful, you
+know, and yet at the same time,
+
+1597
+01:58:48,360 --> 01:58:51,880
+you have to have the critical
+skills to look at what they
+
+1598
+01:58:51,880 --> 01:58:55,600
+produce and ask whether it's
+right or not, you know, so, so
+
+1599
+01:58:55,600 --> 01:59:00,040
+you absolutely still do need to
+have very strong understanding
+
+1600
+01:59:00,040 --> 01:59:04,240
+of your technical area, but
+given that, you know, the AI
+
+1601
+01:59:04,240 --> 01:59:09,040
+tools can, you know, make you
+more productive.
+
+1602
+01:59:10,760 --> 01:59:14,320
+Would would you agree as well
+that I mean it's easy for both
+
+1603
+01:59:14,320 --> 01:59:21,520
+of us to say this, but that the
+if you want to guarantee a job
+
+1604
+01:59:21,520 --> 01:59:26,960
+for the next 60 years, having a
+maths and or engineering
+
+1605
+01:59:26,960 --> 01:59:30,360
+background allows you to turn
+your hand to almost any
+
+1606
+01:59:30,360 --> 01:59:33,600
+problems.
+And it's, it's quite a general
+
+1607
+01:59:34,400 --> 01:59:38,200
+skill set that is desirable
+because you could turn to maths,
+
+1608
+01:59:38,200 --> 01:59:40,760
+you could turn to CFD, you could
+turn to biology, you could turn,
+
+1609
+01:59:41,360 --> 01:59:44,120
+you know, there's always a need
+for the sort of mathematical
+
+1610
+01:59:44,440 --> 01:59:51,120
+simulation side of things.
+I mean, I, I, I think maths is
+
+1611
+01:59:51,120 --> 01:59:56,080
+rightly viewed as, as a subject
+that has, you know, lots of real
+
+1612
+01:59:56,080 --> 01:59:59,400
+world applications.
+I think, I think it's viewed
+
+1613
+01:59:59,400 --> 02:00:05,040
+more so now than probably 30
+years ago, you know, so you
+
+1614
+02:00:05,040 --> 02:00:07,960
+know, you know, because of data
+science, because of AI.
+
+1615
+02:00:08,960 --> 02:00:11,960
+You know, the importance of
+maths I think is much better
+
+1616
+02:00:12,320 --> 02:00:16,840
+understood.
+We still at some time, you know,
+
+1617
+02:00:17,200 --> 02:00:20,720
+have have trouble convincing
+politicians of, of, of that from
+
+1618
+02:00:20,720 --> 02:00:25,480
+the point of view of funding.
+You know, we, we, we do feel a
+
+1619
+02:00:25,480 --> 02:00:29,400
+bit hard done by, shall we say,
+in terms of supporting, you
+
+1620
+02:00:29,440 --> 02:00:33,280
+know, you know, the underpinning
+maths that's so important for so
+
+1621
+02:00:33,280 --> 02:00:38,440
+many applications.
+So yes, I think, you know, a
+
+1622
+02:00:38,440 --> 02:00:44,120
+mass education gives you a very
+firm foundation for, for life.
+
+1623
+02:00:46,880 --> 02:00:50,240
+But again, I would, I would
+emphasise doing things that you
+
+1624
+02:00:51,280 --> 02:00:55,040
+enjoy, you know, you know, I
+think, you know, there are
+
+1625
+02:00:55,040 --> 02:01:01,280
+people on, on the, you know, the
+creative side where I don't see
+
+1626
+02:01:01,280 --> 02:01:07,960
+AI sort of taking over.
+I mean, whether it's creative in
+
+1627
+02:01:07,960 --> 02:01:13,160
+the arts or being a chef or
+being a singer, you know, I
+
+1628
+02:01:13,400 --> 02:01:19,080
+mean, yes, I mean, we'll see
+where, where, where AI gets to
+
+1629
+02:01:19,080 --> 02:01:23,280
+in terms of, you know,
+generating your pop songs and
+
+1630
+02:01:23,280 --> 02:01:24,320
+things.
+I don't know, yes.
+
+1631
+02:01:24,320 --> 02:01:29,560
+I mean, maybe, maybe it'll turn
+out yeah, but people will, will,
+
+1632
+02:01:29,560 --> 02:01:31,640
+will still want live
+performances and stuff.
+
+1633
+02:01:31,640 --> 02:01:33,400
+No.
+So, so I think there's a lot of
+
+1634
+02:01:33,400 --> 02:01:39,000
+stuff on the creative side which
+will will be important for the
+
+1635
+02:01:39,000 --> 02:01:43,400
+future.
+But, you know, there's only so
+
+1636
+02:01:43,400 --> 02:01:48,120
+much that AAI can do.
+You know, I, I think it, I think
+
+1637
+02:01:48,120 --> 02:01:51,680
+it's best to think of it as a
+productivity tool that it's
+
+1638
+02:01:51,680 --> 02:01:55,120
+important you engage with so
+that you you have those skills
+
+1639
+02:01:55,120 --> 02:02:01,120
+to be productive.
+But don't, don't think that it's
+
+1640
+02:02:01,120 --> 02:02:04,600
+going to suddenly eliminate huge
+numbers of jobs.
+
+1641
+02:02:06,000 --> 02:02:09,040
+Yeah.
+Well, and you still you need at
+
+1642
+02:02:09,120 --> 02:02:13,040
+least at the moment there's a
+huge market for people with HPC,
+
+1643
+02:02:13,560 --> 02:02:17,640
+CFD, programming, maths
+backgrounds to develop these AI
+
+1644
+02:02:17,640 --> 02:02:20,960
+models.
+So it's actually a a great time
+
+1645
+02:02:20,960 --> 02:02:23,640
+in some ways to have those skill
+sets.
+
+1646
+02:02:23,880 --> 02:02:26,760
+Yes, I'm not sure that we're,
+we're developing enough new
+
+1647
+02:02:26,760 --> 02:02:33,320
+people in HPC, you know, and I'm
+not sure which degree programs
+
+1648
+02:02:33,320 --> 02:02:36,040
+they're coming out of it.
+It's definitely not maths.
+
+1649
+02:02:36,040 --> 02:02:38,200
+It's definitely not computer
+science.
+
+1650
+02:02:39,040 --> 02:02:41,320
+Well, not, not Oxford computer
+science.
+
+1651
+02:02:41,560 --> 02:02:46,280
+You know, places like Warwick
+maybe have a bit more or Bristol
+
+1652
+02:02:46,280 --> 02:02:49,280
+maybe have a bit more of a focus
+on on HPC.
+
+1653
+02:02:50,120 --> 02:02:55,440
+Now it's, it's a very actually
+good question because I guess by
+
+1654
+02:02:55,440 --> 02:02:58,640
+definition, what is HPC is part
+of the problem.
+
+1655
+02:02:59,080 --> 02:03:01,680
+And I, I would agree with you
+that.
+
+1656
+02:03:01,680 --> 02:03:07,080
+And again, to link to the AI,
+it's even more important because
+
+1657
+02:03:07,640 --> 02:03:10,480
+you know, as you know, big AI
+training clusters are
+
+1658
+02:03:11,480 --> 02:03:15,240
+essentially what people would
+have called HPC classes before.
+
+1659
+02:03:15,240 --> 02:03:19,520
+There is essentially no
+difference networking that you
+
+1660
+02:03:19,520 --> 02:03:22,080
+Slurm or the OK now Kubernetes
+and things.
+
+1661
+02:03:22,080 --> 02:03:26,560
+But but you're right, what
+course teaches?
+
+1662
+02:03:29,520 --> 02:03:32,040
+Yeah.
+Yes, I mean, I know some of the
+
+1663
+02:03:32,040 --> 02:03:37,680
+inside story on, on in
+Microsoft's development of large
+
+1664
+02:03:38,040 --> 02:03:43,000
+GPU clusters and how they in,
+you know, involved a consultant
+
+1665
+02:03:43,000 --> 02:03:46,800
+who is one of the world's
+leading HPC experts, you know,
+
+1666
+02:03:46,800 --> 02:03:50,720
+so, so yes, absolutely.
+You know, doing, doing these
+
+1667
+02:03:50,720 --> 02:03:54,520
+really large systems is is a
+massive HPC challenge.
+
+1668
+02:03:55,160 --> 02:03:58,040
+It, it, it would be interesting
+to know, you know, the people
+
+1669
+02:03:58,040 --> 02:04:03,680
+that NVIDIA hires as dev techs,
+what is their background?
+
+1670
+02:04:04,400 --> 02:04:10,080
+You know, to what extent have
+they been formally trained in
+
+1671
+02:04:10,080 --> 02:04:14,240
+HPC or to what extent is, has it
+been a passion?
+
+1672
+02:04:14,680 --> 02:04:19,840
+And they've learnt on the job in
+various application areas and
+
+1673
+02:04:20,000 --> 02:04:23,920
+they've, they've proved their
+skills and, you know, been hired
+
+1674
+02:04:23,920 --> 02:04:27,120
+on that basis.
+That's that's a good question.
+
+1675
+02:04:27,120 --> 02:04:31,440
+And I think maybe this goes not
+full circle, but half to our
+
+1676
+02:04:31,440 --> 02:04:36,640
+discussion about with some of
+these OEOERC or these research
+
+1677
+02:04:36,640 --> 02:04:41,400
+software engineers that at least
+what I see is that people get
+
+1678
+02:04:41,400 --> 02:04:45,800
+their HPC skills often during
+their PhD when they're using a
+
+1679
+02:04:45,800 --> 02:04:50,200
+HPC utility and they're sort of
+become best buddies with the
+
+1680
+02:04:50,200 --> 02:04:52,200
+admin because they want to get
+higher up in the queue where
+
+1681
+02:04:52,200 --> 02:04:54,200
+they have to sort of figure out
+some courses.
+
+1682
+02:04:54,680 --> 02:04:58,080
+And so they haven't done
+necessary HPC course, but
+
+1683
+02:04:58,080 --> 02:05:00,760
+they've had to do it to get
+access to the compute.
+
+1684
+02:05:02,040 --> 02:05:04,800
+But somebody was there to manage
+the system.
+
+1685
+02:05:04,800 --> 02:05:07,000
+So it's probably those like RSI
+think they call it.
+
+1686
+02:05:07,120 --> 02:05:08,840
+Is it Rs ES now research
+software?
+
+1687
+02:05:08,840 --> 02:05:12,440
+Engineers.
+Are sort of like this lifeblood
+
+1688
+02:05:12,640 --> 02:05:15,360
+who support the people and are
+probably helping them.
+
+1689
+02:05:15,360 --> 02:05:22,880
+That maybe is an underrated
+skill or need in the community.
+
+1690
+02:05:23,520 --> 02:05:29,040
+But you're right, I'm I'm not
+sure of any HPC official
+
+1691
+02:05:29,040 --> 02:05:34,320
+training, but maybe I need to do
+a bit of digging around to we
+
+1692
+02:05:34,320 --> 02:05:36,440
+sort of take for granted stuff
+that we have.
+
+1693
+02:05:36,440 --> 02:05:39,000
+We never realized that.
+What if all those people retire?
+
+1694
+02:05:39,000 --> 02:05:43,000
+I suppose is your point, isn't?
+It like, yeah, yes, yes, I
+
+1695
+02:05:43,040 --> 02:05:46,600
+wonder yes, where, where, where,
+where the next generation of
+
+1696
+02:05:46,600 --> 02:05:49,840
+academics is, is, is coming
+from, but.
+
+1697
+02:05:50,360 --> 02:05:54,640
+Yeah, yeah.
+But I, yeah, really appreciate
+
+1698
+02:05:54,640 --> 02:05:59,360
+you talking.
+And I, I will put some links to
+
+1699
+02:05:59,480 --> 02:06:02,080
+the the sort of episode notes
+because you, you know, I saw
+
+1700
+02:06:02,120 --> 02:06:04,640
+you've got a great website as
+well where you link some of the,
+
+1701
+02:06:04,800 --> 02:06:08,280
+you know, full list of your
+papers, some of the courses that
+
+1702
+02:06:08,280 --> 02:06:10,800
+you're doing so that people
+could maybe read up because we
+
+1703
+02:06:10,800 --> 02:06:12,880
+didn't get into all of your
+academic papers.
+
+1704
+02:06:12,880 --> 02:06:15,640
+But I know you've done a good
+job of linking and some of the
+
+1705
+02:06:15,640 --> 02:06:17,240
+presentations and things like
+that.
+
+1706
+02:06:17,240 --> 02:06:20,280
+So I'll put it through.
+But yeah, I just want to say
+
+1707
+02:06:20,280 --> 02:06:23,320
+thank you also collectively
+thank you because all the work
+
+1708
+02:06:23,320 --> 02:06:27,520
+that you did in throughout your
+career has actually helped
+
+1709
+02:06:27,520 --> 02:06:30,880
+people like me and others who
+work in industry to be able to
+
+1710
+02:06:30,880 --> 02:06:34,440
+do CFD in an easy way that we
+take for granted now and don't
+
+1711
+02:06:34,440 --> 02:06:37,960
+have to program 2G grids by hand
+like like you did.
+
+1712
+02:06:37,960 --> 02:06:41,640
+So thank you from all the CFD
+people who take it for granted
+
+1713
+02:06:41,640 --> 02:06:44,040
+now.
+And yeah, thanks for taking the
+
+1714
+02:06:44,040 --> 02:06:46,760
+time to to speak to me.
+You're very welcome.
+
+1715
+02:06:47,600 --> 02:06:50,320
+It's fun.
+Fun reminiscing about these
+
+1716
+02:06:50,880 --> 02:06:53,480
+these things from days past.
+Yeah.
+
+1717
+02:06:54,360 --> 02:06:55,440
+Great.
+Thanks very much.

@@ -1,0 +1,6594 @@
+1
+00:00:00,240 --> 00:00:02,360
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,000 --> 00:00:05,880
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,880 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,760 --> 00:00:12,720
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,800 --> 00:00:16,840
+cycling and Formula One to some
+of the world's top academics to
+
+6
+00:00:16,840 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:22,960
+are bringing in a new era of
+discovery.
+
+8
+00:00:23,920 --> 00:00:27,040
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,040
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,040 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:40,840
+episode.
+Hi, and welcome back to the New
+
+12
+00:00:40,840 --> 00:00:43,160
+Russian Podcast.
+So today I'm delighted to be
+
+13
+00:00:43,160 --> 00:00:45,240
+joined by Professor Paola
+Chinella.
+
+14
+00:00:45,440 --> 00:00:48,240
+She's a professor of fluid
+mechanics at Sorbonne University
+
+15
+00:00:48,240 --> 00:00:52,680
+in Paris, and she's also the new
+director of the Sorbonne Cluster
+
+16
+00:00:52,680 --> 00:00:55,680
+for Artificial Intelligence,
+also in Paris.
+
+17
+00:00:56,280 --> 00:00:59,520
+And what I've found particularly
+interesting about her career is
+
+18
+00:00:59,520 --> 00:01:02,360
+that she's not come through AI,
+through the usual, you know,
+
+19
+00:01:02,360 --> 00:01:05,000
+computer science route.
+She is very much panel
+
+20
+00:01:05,000 --> 00:01:07,760
+engineering and fluid dynamics
+specialist.
+
+21
+00:01:08,080 --> 00:01:12,440
+We talk about where she started
+in Italy, the transition to
+
+22
+00:01:12,440 --> 00:01:17,080
+France, moving back, the idea
+of, you know, academia having to
+
+23
+00:01:17,080 --> 00:01:21,840
+move between different countries
+to, to secure the tenure
+
+24
+00:01:21,840 --> 00:01:25,200
+positions, how how challenging
+it, it, it can be, especially
+
+25
+00:01:25,200 --> 00:01:27,360
+for, you know, for family and,
+and personal life.
+
+26
+00:01:28,200 --> 00:01:30,560
+But she really, well, I liked
+it.
+
+27
+00:01:30,560 --> 00:01:34,000
+Her passion for, for fluids, you
+know, she talked about working
+
+28
+00:01:34,000 --> 00:01:38,520
+on these exotic dense gases and
+real gas effects and, and how
+
+29
+00:01:39,080 --> 00:01:43,160
+some of those LED her towards
+the uncertainty quantification
+
+30
+00:01:43,160 --> 00:01:46,880
+and Bayesian methods.
+And working with statisticians
+
+31
+00:01:47,040 --> 00:01:51,160
+helped her then realize that she
+could do the same around machine
+
+32
+00:01:51,160 --> 00:01:54,760
+learning and really wanting to
+collaborate with different
+
+33
+00:01:54,760 --> 00:01:56,480
+disciplines and, and different
+groups.
+
+34
+00:01:56,880 --> 00:02:00,040
+And, and in some ways, she's
+represents a very important
+
+35
+00:02:00,040 --> 00:02:03,720
+bridge between what we might
+call, you know, classical CFD,
+
+36
+00:02:03,720 --> 00:02:06,680
+you know, numerical methods,
+turbulence modelling and this
+
+37
+00:02:06,680 --> 00:02:09,560
+new world of, of, of AI for
+science.
+
+38
+00:02:09,560 --> 00:02:13,720
+And, and she's played actually
+a, a major role in the wider CFD
+
+39
+00:02:13,720 --> 00:02:15,200
+community.
+You know, she's an editorial and
+
+40
+00:02:15,200 --> 00:02:18,520
+chief of computers and fluids
+associate editor for
+
+41
+00:02:18,520 --> 00:02:20,200
+International Journal heat and
+fluid flow.
+
+42
+00:02:20,600 --> 00:02:23,840
+And she also helps to coordinate
+the Akof Tak special interest
+
+43
+00:02:23,840 --> 00:02:27,640
+group on machine learning and
+fluids fluid dynamics, which has
+
+44
+00:02:28,040 --> 00:02:30,640
+led to a really successful
+conference series.
+
+45
+00:02:30,640 --> 00:02:34,800
+This ML fluids that I have been
+fortunate to to have helped her
+
+46
+00:02:35,240 --> 00:02:40,440
+a little bit as well.
+And, but really we, she is an
+
+47
+00:02:40,440 --> 00:02:43,400
+educator and she is an academic
+and, and we had a really
+
+48
+00:02:43,400 --> 00:02:48,440
+interesting discussion as well
+on what it means in this new era
+
+49
+00:02:48,440 --> 00:02:51,880
+of AI, what, what's the valuable
+thing that we should be teaching
+
+50
+00:02:52,080 --> 00:02:54,720
+new students at undergraduate
+and postgraduate level?
+
+51
+00:02:54,880 --> 00:02:57,960
+And really what is the potential
+for methods?
+
+52
+00:02:58,040 --> 00:03:01,160
+And one of the things we talk
+about is, you know, the
+
+53
+00:03:01,160 --> 00:03:03,880
+differences between surrogate
+modelling and turbans modelling
+
+54
+00:03:03,880 --> 00:03:05,520
+and how could they be
+interconnected?
+
+55
+00:03:05,520 --> 00:03:09,920
+When is the value of those?
+And and we finish off talking a
+
+56
+00:03:09,920 --> 00:03:12,480
+little bit on the AI for science
+and how there is this
+
+57
+00:03:12,480 --> 00:03:15,520
+opportunity for cross
+collaboration across discipline.
+
+58
+00:03:15,520 --> 00:03:20,000
+So she is somebody that I am
+inspired by and always enjoy
+
+59
+00:03:20,000 --> 00:03:23,040
+working with.
+And I hope you enjoy learning
+
+60
+00:03:23,040 --> 00:03:25,640
+more about her and her work in
+this conversation.
+
+61
+00:03:25,640 --> 00:03:28,640
+So sit back and enjoy this
+conversation with Paula.
+
+62
+00:03:28,800 --> 00:03:31,440
+So yeah, thanks.
+Thanks for coming on this,
+
+63
+00:03:31,560 --> 00:03:34,080
+really appreciate it.
+I've loved working with you on
+
+64
+00:03:34,080 --> 00:03:36,720
+various projects over the years,
+but this is a good opportunity
+
+65
+00:03:36,720 --> 00:03:40,320
+to hear more about, you know,
+you and, and what you do.
+
+66
+00:03:41,080 --> 00:03:44,640
+And I guess maybe it's a
+starting question.
+
+67
+00:03:45,520 --> 00:03:48,160
+You know, you started in
+mechanical engineering in, in
+
+68
+00:03:48,160 --> 00:03:51,160
+classical fluid mechanics, I
+guess, and then you move through
+
+69
+00:03:51,160 --> 00:03:53,760
+now into, you know, machine
+learning and, and AI.
+
+70
+00:03:54,840 --> 00:03:57,120
+But how did all that happen?
+You know, rewind where?
+
+71
+00:03:57,120 --> 00:03:59,600
+Where did this love for fluid
+mechanics start?
+
+72
+00:03:59,960 --> 00:04:04,080
+Well, when I started, so I had
+to choose the university.
+
+73
+00:04:04,080 --> 00:04:06,520
+I wanted to do fundamental
+physics.
+
+74
+00:04:06,640 --> 00:04:09,480
+I, I wanted to go to, to
+fundamental physics,
+
+75
+00:04:09,480 --> 00:04:12,440
+astrophysics or something or to
+mathematics.
+
+76
+00:04:12,960 --> 00:04:18,360
+And well, my mother said, no,
+this is not a good job because
+
+77
+00:04:18,360 --> 00:04:21,279
+the only opportunity for you is
+to become a researcher that's
+
+78
+00:04:21,279 --> 00:04:23,720
+not well paid.
+So be an engineer.
+
+79
+00:04:23,920 --> 00:04:27,320
+So good for engineering.
+And then I started to do serial
+
+80
+00:04:27,440 --> 00:04:31,720
+engineering actually.
+And after one year, I discovered
+
+81
+00:04:31,720 --> 00:04:35,760
+that they didn't like, and I
+started to look for things which
+
+82
+00:04:35,760 --> 00:04:37,960
+were closer to physics and to
+mathematics.
+
+83
+00:04:38,400 --> 00:04:44,080
+And well, a friend of mine said,
+you know, I'm doing free
+
+84
+00:04:44,080 --> 00:04:45,680
+mechanics.
+There's quite a lot of
+
+85
+00:04:45,680 --> 00:04:47,720
+mathematics in that, and also
+some physics.
+
+86
+00:04:47,720 --> 00:04:51,600
+So, right.
+And that's how I went to free
+
+87
+00:04:51,600 --> 00:04:55,960
+mechanics and I didn't like it.
+Actually, my my professor in
+
+88
+00:04:55,960 --> 00:05:00,360
+Italy is Michela Napolitano.
+He was, he worked with NASA.
+
+89
+00:05:00,360 --> 00:05:04,680
+He was, he had a PhD with Sally
+Rubin, who was actually the one
+
+90
+00:05:04,680 --> 00:05:07,320
+of the first editors in chief of
+computers and suites.
+
+91
+00:05:08,000 --> 00:05:11,280
+And he gave us a book by
+Shapiro.
+
+92
+00:05:12,000 --> 00:05:14,720
+It's fast profiles.
+I think it's a book.
+
+93
+00:05:14,720 --> 00:05:16,680
+You know, Shapiro is a, is a
+professor.
+
+94
+00:05:16,680 --> 00:05:21,000
+He was professor at MIT I think.
+And he said he he gave us the
+
+95
+00:05:21,000 --> 00:05:24,960
+book the first day of the
+classroom and he said if you
+
+96
+00:05:25,200 --> 00:05:28,840
+don't like this book, you can
+change, go to another take
+
+97
+00:05:28,840 --> 00:05:31,640
+another course to just abandoned
+the fluid mechanics option.
+
+98
+00:05:32,040 --> 00:05:35,840
+And I read it and I loved it so.
+And that's how I meant for the
+
+99
+00:05:35,840 --> 00:05:40,400
+mechanics.
+So that's interesting.
+
+100
+00:05:40,400 --> 00:05:45,640
+And then did you always want to
+go and do a PhD or were you sort
+
+101
+00:05:45,640 --> 00:05:48,240
+of debating of going into
+industry or something?
+
+102
+00:05:48,560 --> 00:05:51,240
+Yes, because you know my family,
+everybody.
+
+103
+00:05:51,680 --> 00:05:53,760
+So my family is a family of
+professors.
+
+104
+00:05:53,760 --> 00:05:57,480
+Well, they are professors more
+in the secondary school, but
+
+105
+00:05:57,480 --> 00:06:02,120
+they all did high studies, let's
+say university and so on.
+
+106
+00:06:02,680 --> 00:06:05,720
+So I wanted to be a professor
+and I wanted to be a researcher
+
+107
+00:06:05,720 --> 00:06:08,440
+most first of all, in the 1st
+place, I wanted to be a
+
+108
+00:06:08,440 --> 00:06:14,200
+researcher And, and So what I
+knew that was necessary to have
+
+109
+00:06:14,200 --> 00:06:19,320
+a PhD for being a researcher.
+And so well, since the beginning
+
+110
+00:06:19,320 --> 00:06:23,360
+I was looking for a PhD.
+And at that time it was very
+
+111
+00:06:23,360 --> 00:06:27,280
+hard to have a PhD in Italy
+because there was no traditional
+
+112
+00:06:27,280 --> 00:06:33,960
+PhD, I would say 30 years ago.
+And the people went abroad for
+
+113
+00:06:33,960 --> 00:06:37,840
+the PhD actually, because in
+Italy it was not very valued.
+
+114
+00:06:38,320 --> 00:06:42,200
+It was at the very beginning.
+I was maybe the 11th cycle of
+
+115
+00:06:42,200 --> 00:06:46,680
+PhD, which means that the, the
+PhD degree in Italy was created
+
+116
+00:06:46,680 --> 00:06:50,120
+11 years before I start, you
+know, so it was relatively
+
+117
+00:06:50,320 --> 00:06:57,480
+recent and, and there were very
+few fellowships for a PhD, so it
+
+118
+00:06:57,480 --> 00:07:02,120
+was very difficult to have them.
+And that's how at some point I,
+
+119
+00:07:02,200 --> 00:07:05,160
+I decided to move to France.
+So, yeah.
+
+120
+00:07:05,480 --> 00:07:08,360
+And and then, well, I loved
+France and remained here.
+
+121
+00:07:09,800 --> 00:07:14,400
+Yeah, OK.
+And your topic was on more
+
+122
+00:07:14,400 --> 00:07:18,400
+numerical schemes, more like
+compressible to how did you get
+
+123
+00:07:18,400 --> 00:07:22,280
+to that, you know, decision I I
+guess on the.
+
+124
+00:07:22,280 --> 00:07:24,520
+Topic Actually the very
+beginning.
+
+125
+00:07:24,520 --> 00:07:28,200
+At the very beginning I was
+doing schemes for incompressible
+
+126
+00:07:28,200 --> 00:07:30,600
+flow.
+It was I started with the lid
+
+127
+00:07:30,600 --> 00:07:35,080
+driven cavity and the velocity
+vorticity formulation of the
+
+128
+00:07:35,080 --> 00:07:38,840
+nagastric equation.
+So that was my master tests, but
+
+129
+00:07:38,840 --> 00:07:43,800
+then when I was looking for a pH
+for a PhD in France, actually
+
+130
+00:07:43,800 --> 00:07:47,480
+the beginning should have been
+just a second master degree.
+
+131
+00:07:47,560 --> 00:07:50,440
+And after I decided to remain
+for the PhD in France.
+
+132
+00:07:50,920 --> 00:07:56,200
+But anyway, so my, my supervisor
+in Italy knew Professor Alano,
+
+133
+00:07:56,720 --> 00:08:00,280
+who was one of the founders of
+the ICCFD conference too.
+
+134
+00:08:01,000 --> 00:08:03,960
+And he said, well, I know this
+guy in France is doing good job
+
+135
+00:08:03,960 --> 00:08:06,520
+with, but it's compressible.
+So it's another thing.
+
+136
+00:08:06,600 --> 00:08:09,680
+And then if you don't, you're
+not scared about compressible
+
+137
+00:08:09,680 --> 00:08:12,120
+flows, you can go to him and
+he's very good.
+
+138
+00:08:12,120 --> 00:08:15,320
+She's doing, she's doing
+numerical schemes and so on.
+
+139
+00:08:15,760 --> 00:08:18,800
+And so that's how I decided, oh,
+Paris is not bad.
+
+140
+00:08:18,800 --> 00:08:21,720
+Actually it was because of Paris
+more than because of the
+
+141
+00:08:21,760 --> 00:08:24,840
+compressible schemes, because my
+options were to go to the
+
+142
+00:08:24,840 --> 00:08:29,560
+Fonkerman Institute, to go to
+the US or to go to Paris.
+
+143
+00:08:29,560 --> 00:08:33,240
+And what I said about Paris, I
+have to go to Paris.
+
+144
+00:08:34,240 --> 00:08:39,000
+And so I arrived here and
+another proposed to me to work
+
+145
+00:08:39,000 --> 00:08:43,440
+on high order schemes which were
+a quite recent topic at that
+
+146
+00:08:43,440 --> 00:08:46,240
+time.
+You know, at that time high
+
+147
+00:08:46,240 --> 00:08:49,600
+order was second order schemes
+actually because everybody was
+
+148
+00:08:49,600 --> 00:08:52,400
+doing 1st order.
+So 2nd order scheme were already
+
+149
+00:08:52,400 --> 00:08:54,760
+high order.
+And he said to me, but we are
+
+150
+00:08:54,760 --> 00:08:57,280
+going to move to 3rd order.
+OK, yeah.
+
+151
+00:08:57,720 --> 00:09:00,600
+And that's, you do unsteady
+flows because at the, you know,
+
+152
+00:09:00,600 --> 00:09:04,560
+at that time people were mostly
+doing steady oiler or steady
+
+153
+00:09:04,560 --> 00:09:08,120
+Navy spokes.
+And so, well, I started a PhD
+
+154
+00:09:08,120 --> 00:09:12,080
+for high order scheme to capture
+steady phenomena, even if it was
+
+155
+00:09:12,080 --> 00:09:16,760
+only runs at the time.
+And, and, and yes, it was a high
+
+156
+00:09:16,760 --> 00:09:19,680
+order finding volume schemes.
+And then I spent quite a lot of
+
+157
+00:09:19,680 --> 00:09:23,120
+my career on on high order
+scheme because of that.
+
+158
+00:09:24,360 --> 00:09:28,240
+And, and was it therefore a
+natural progression to continue
+
+159
+00:09:28,240 --> 00:09:32,480
+going down the route to sort of
+post doc and, and, and you know,
+
+160
+00:09:32,480 --> 00:09:36,560
+faculty position with was it
+just an evolution or, or was it
+
+161
+00:09:37,480 --> 00:09:43,160
+a, a challenge to, to, to
+progress down that route?
+
+162
+00:09:43,880 --> 00:09:48,000
+It was a challenge because as
+you know, there are not many
+
+163
+00:09:48,000 --> 00:09:51,440
+positions in academia.
+They're very challenging.
+
+164
+00:09:53,320 --> 00:09:59,320
+Also, when I, when I was in
+France, I spent quite one year,
+
+165
+00:09:59,800 --> 00:10:03,040
+the second master degree and
+then three years of PhD in
+
+166
+00:10:03,040 --> 00:10:06,040
+France.
+And at some point I wanted to go
+
+167
+00:10:06,040 --> 00:10:09,400
+back to Italy.
+And in Italy there were zero
+
+168
+00:10:09,400 --> 00:10:16,680
+positions basically.
+So I passed the competitions in
+
+169
+00:10:16,680 --> 00:10:19,520
+France because in France, you
+know, the positions are open,
+
+170
+00:10:19,520 --> 00:10:22,840
+you have to to get a
+qualification, which is a
+
+171
+00:10:22,840 --> 00:10:26,160
+national qualification.
+So this depends on how many
+
+172
+00:10:26,160 --> 00:10:29,840
+papers if you have taught
+courses not and so on.
+
+173
+00:10:30,200 --> 00:10:34,840
+And you it's basically sort of
+minimum certification, which
+
+174
+00:10:34,840 --> 00:10:39,520
+says, OK, you are fit to be a
+professor.
+
+175
+00:10:39,760 --> 00:10:42,600
+OK, not, not a professor, but an
+assistant professor.
+
+176
+00:10:43,560 --> 00:10:47,800
+And then we once you have got
+got, once you got the, the, the
+
+177
+00:10:48,040 --> 00:10:52,120
+qualification, you have to apply
+at the universities which have
+
+178
+00:10:52,120 --> 00:10:54,800
+positions open and you have to
+compete with other guys.
+
+179
+00:10:54,800 --> 00:11:00,760
+So I eventually got a position
+here in Paris, but I wanted to
+
+180
+00:11:00,760 --> 00:11:04,680
+go back to Italy.
+So I renounced the position,
+
+181
+00:11:04,680 --> 00:11:09,000
+even it was rank at first.
+And I decided to go back to
+
+182
+00:11:09,000 --> 00:11:11,760
+Italy.
+And there I started with a post
+
+183
+00:11:11,760 --> 00:11:15,040
+doc because there were no
+permanent positions open.
+
+184
+00:11:15,880 --> 00:11:21,520
+And after some time after my
+post doc, I moved to a close by
+
+185
+00:11:21,520 --> 00:11:25,320
+university because, well, my
+home university is Bari.
+
+186
+00:11:25,360 --> 00:11:27,800
+It's in the South of Italy, it's
+Apulia.
+
+187
+00:11:28,200 --> 00:11:32,240
+And I went to Leche, which is
+even even more S you know, it's
+
+188
+00:11:32,760 --> 00:11:39,000
+the very tip of the hill.
+And, and there I got the
+
+189
+00:11:39,000 --> 00:11:43,320
+eventually a faculty position
+and I worked there for eight
+
+190
+00:11:43,320 --> 00:11:48,200
+years as an assistant professor.
+And I was the only assistant
+
+191
+00:11:48,200 --> 00:11:51,120
+professor in fluid dynamics of
+the whole university.
+
+192
+00:11:51,240 --> 00:11:58,440
+I was the only one.
+And, and what was what was your
+
+193
+00:11:58,440 --> 00:12:02,640
+main focus back was back then,
+you know, when did this move to
+
+194
+00:12:02,640 --> 00:12:06,600
+the the Rands modelling and
+certainty quantification and
+
+195
+00:12:06,600 --> 00:12:08,840
+things like that?
+Was that during that period or
+
+196
+00:12:08,840 --> 00:12:11,000
+was that?
+Actually when I arrived in
+
+197
+00:12:11,000 --> 00:12:16,480
+lecture, I was, as I said, I was
+the only free mechanicist and I
+
+198
+00:12:16,480 --> 00:12:21,400
+wasn't part of a group, a larger
+group in energetics.
+
+199
+00:12:22,280 --> 00:12:26,560
+And I started to think about
+what could I do which is related
+
+200
+00:12:26,560 --> 00:12:31,240
+to energetics.
+And I discovered almost by by by
+
+201
+00:12:31,240 --> 00:12:35,800
+chance dense gases.
+And so dense gases are
+
+202
+00:12:35,800 --> 00:12:39,760
+compressible.
+So it's it's gases.
+
+203
+00:12:39,760 --> 00:12:43,560
+So it's compressible.
+Compressible flows of organic
+
+204
+00:12:43,560 --> 00:12:47,040
+fluids, which are governed by
+complex equations of states
+
+205
+00:12:47,040 --> 00:12:50,640
+could be super critical CO2, but
+it's it's light gas.
+
+206
+00:12:51,040 --> 00:12:55,000
+But you can have denser gases or
+more heavier gases like
+
+207
+00:12:55,400 --> 00:13:01,080
+refrigerants or hydrocarbons.
+And these gases are used in
+
+208
+00:13:01,080 --> 00:13:06,160
+processes, industrial processes,
+or also in some thermodynamic
+
+209
+00:13:06,160 --> 00:13:09,920
+cycles like, well, of course the
+refrigeration cycles, but also
+
+210
+00:13:11,040 --> 00:13:14,880
+direct cycles, which means, for
+instance, organic Franklin
+
+211
+00:13:14,880 --> 00:13:17,920
+cycles, which are like the
+ranking cycle, which works with
+
+212
+00:13:17,920 --> 00:13:20,400
+these strange gases instead of
+water.
+
+213
+00:13:21,360 --> 00:13:26,080
+And the problem with these gases
+is that since it is industrial,
+
+214
+00:13:26,880 --> 00:13:29,920
+industrial fluids they are very
+ill characterized.
+
+215
+00:13:30,240 --> 00:13:33,880
+Actually you don't know exactly
+about the properties about
+
+216
+00:13:33,920 --> 00:13:36,680
+equational state you should use
+there are few data.
+
+217
+00:13:37,600 --> 00:13:43,440
+The material properties are
+given in only technical sheets
+
+218
+00:13:43,880 --> 00:13:46,440
+with a lot of uncertainties.
+And that's how I came to
+
+219
+00:13:46,600 --> 00:13:49,560
+uncertainty quantification,
+because at some point I
+
+220
+00:13:49,560 --> 00:13:52,440
+discovered polynomial care stuff
+and so on.
+
+221
+00:13:52,680 --> 00:13:56,560
+And I said, oh, this is perfect
+because I have a fluid where
+
+222
+00:13:56,600 --> 00:13:58,960
+actually don't know exactly how
+it behaves.
+
+223
+00:13:59,280 --> 00:14:03,600
+So I would like to characterize
+the impact on the CFD solution
+
+224
+00:14:04,000 --> 00:14:07,840
+of the, the, the, the bad
+knowledge of the fluid
+
+225
+00:14:07,840 --> 00:14:10,600
+properties, not only the
+thermodynamics, but also the
+
+226
+00:14:10,600 --> 00:14:13,160
+transport properties are not
+very well known.
+
+227
+00:14:13,880 --> 00:14:17,120
+And so, yeah, that's how I moved
+to uncertainty quantification.
+
+228
+00:14:17,200 --> 00:14:21,080
+But at the beginning was not
+runs, it was even Euler, you
+
+229
+00:14:21,080 --> 00:14:26,440
+know, but you don't know exactly
+the thermodynamic, you cannot
+
+230
+00:14:26,440 --> 00:14:29,200
+characterize completely the
+thermodynamic behavior of your
+
+231
+00:14:29,200 --> 00:14:33,600
+gas because you, you, you don't
+know which equation of state you
+
+232
+00:14:33,600 --> 00:14:36,560
+should use.
+And the parameters of the
+
+233
+00:14:36,560 --> 00:14:39,800
+equation of state are, you know,
+not very accurate.
+
+234
+00:14:42,600 --> 00:14:44,720
+That's interesting.
+So it's more driven from that.
+
+235
+00:14:44,960 --> 00:14:51,440
+Yeah, I guess did that help you
+working in a more complex area
+
+236
+00:14:51,440 --> 00:14:52,640
+in a way?
+Did it give you more
+
+237
+00:14:52,640 --> 00:14:55,600
+understanding of the
+fundamentals of fluid mechanics?
+
+238
+00:14:55,600 --> 00:14:58,600
+I guess when people just study
+single phase simple
+
+239
+00:14:58,600 --> 00:15:01,120
+incompressible, maybe they don't
+appreciate the.
+
+240
+00:15:01,200 --> 00:15:05,560
+Complexity, yeah.
+Actually I I adore those gases
+
+241
+00:15:05,560 --> 00:15:09,880
+because, well at least
+theoretically they could exhibit
+
+242
+00:15:09,880 --> 00:15:13,400
+very exotic behaviors.
+In particular they are expected
+
+243
+00:15:13,400 --> 00:15:16,240
+to exhibit under some
+thermodynamic conditions.
+
+244
+00:15:16,240 --> 00:15:20,800
+If if you take a heavy enough
+gas, it is expected to exhibit
+
+245
+00:15:20,800 --> 00:15:23,680
+expansion shock waves.
+And actually there is a
+
+246
+00:15:23,680 --> 00:15:28,280
+community around that which is
+called the non ideal
+
+247
+00:15:28,680 --> 00:15:31,800
+compressible pseudo dynamics
+community, which has spent
+
+248
+00:15:31,800 --> 00:15:36,800
+several years trying to expect
+to to have an experimental proof
+
+249
+00:15:36,920 --> 00:15:40,520
+of the existence of these
+expansion shock waves in single
+
+250
+00:15:40,520 --> 00:15:44,960
+phase compressible flows.
+So the first one to postulate
+
+251
+00:15:44,960 --> 00:15:47,440
+that is Hans Bitte.
+So the the physician, the
+
+252
+00:15:47,520 --> 00:15:53,800
+physicist Hans Bitte, Nobel
+Prize who showed that for Vander
+
+253
+00:15:53,800 --> 00:16:00,720
+Waals gases with some values of
+the of the polytropic exponent,
+
+254
+00:16:01,440 --> 00:16:05,520
+you can get a region where the
+second principle of
+
+255
+00:16:05,520 --> 00:16:10,680
+thermodynamics forbids the the
+classical shock waves.
+
+256
+00:16:10,680 --> 00:16:12,560
+So the the the compression shock
+waves.
+
+257
+00:16:12,840 --> 00:16:17,520
+So instead you have a
+compression fan and conversely,
+
+258
+00:16:17,520 --> 00:16:21,440
+you can have expansion shock
+waves and instead of expansion
+
+259
+00:16:21,440 --> 00:16:23,400
+fan.
+So everything is reversed.
+
+260
+00:16:24,040 --> 00:16:27,120
+And then several researchers
+work on that.
+
+261
+00:16:27,120 --> 00:16:32,920
+Thompson, Michael Kramer at at
+Virginia Tech and so on.
+
+262
+00:16:33,400 --> 00:16:36,760
+And people were fascinated by
+these gases because everybody
+
+263
+00:16:36,760 --> 00:16:40,720
+wanted to prove experimentally
+that that was possible.
+
+264
+00:16:40,720 --> 00:16:44,200
+And eventually there was a group
+in Russia at some point we did
+
+265
+00:16:44,200 --> 00:16:49,280
+an experiment with FC-70, which
+is a, you know, fluorocarbon,
+
+266
+00:16:49,280 --> 00:16:51,920
+those which are very, very bad
+for the ozone layer.
+
+267
+00:16:52,480 --> 00:16:55,440
+So they did an experiment with
+this and they said, oh, here,
+
+268
+00:16:55,640 --> 00:16:57,440
+here you have the expansion
+shockwaves.
+
+269
+00:16:57,800 --> 00:17:01,680
+But then the people started to
+challenge the experiment and
+
+270
+00:17:01,680 --> 00:17:05,240
+said no, this is impossible,
+Probably it was to face and so
+
+271
+00:17:05,240 --> 00:17:07,680
+on.
+And then in depth there was a
+
+272
+00:17:07,680 --> 00:17:09,960
+group.
+So the group of Piero Corona,
+
+273
+00:17:10,200 --> 00:17:14,920
+there is a big group in TU Delft
+who tried to reproduce an
+
+274
+00:17:14,920 --> 00:17:18,680
+experiment with different gases.
+Also you have Alberto Guardo,
+
+275
+00:17:18,680 --> 00:17:22,000
+name Milan.
+He, he got an ERC actually on
+
+276
+00:17:22,000 --> 00:17:24,560
+that.
+And what it's very, very
+
+277
+00:17:24,560 --> 00:17:28,240
+difficult because this shock
+expansion shock waves exist in a
+
+278
+00:17:28,240 --> 00:17:31,640
+very tiny thermodynamic region
+and all the uncertainties
+
+279
+00:17:31,640 --> 00:17:35,440
+associated with the shock tube
+with the membrane breaking and
+
+280
+00:17:35,440 --> 00:17:39,320
+so on can perturb the actual
+development of the shockwave.
+
+281
+00:17:39,320 --> 00:17:43,440
+And so we are never sure it's
+really a pure expansion
+
+282
+00:17:43,440 --> 00:17:47,960
+shockwave.
+So, well, and the interest of
+
+283
+00:17:47,960 --> 00:17:50,800
+that thing besides the, let's
+say the, the, the, the
+
+284
+00:17:50,800 --> 00:17:55,800
+scientific curiosity was that
+some people were expecting that
+
+285
+00:17:55,920 --> 00:18:01,400
+you could exploit this behaviour
+to get better energy conversion
+
+286
+00:18:01,400 --> 00:18:04,280
+cycle with the reduced losses
+and so on.
+
+287
+00:18:05,600 --> 00:18:10,640
+It has been abandoned right now
+a little bit because actually
+
+288
+00:18:11,600 --> 00:18:14,440
+while there is a very small
+industry supporting that because
+
+289
+00:18:14,560 --> 00:18:19,000
+it's very specific machines and
+it's very small companies
+
+290
+00:18:19,000 --> 00:18:22,880
+working on that with few funds
+for to invest in research.
+
+291
+00:18:23,560 --> 00:18:28,080
+But it was a great period.
+So it was actually, and also it
+
+292
+00:18:28,080 --> 00:18:30,800
+has the impact, even if you
+don't find the expansion shock
+
+293
+00:18:30,800 --> 00:18:33,320
+waves, at some point, you don't
+care because there are plenty of
+
+294
+00:18:33,320 --> 00:18:37,120
+systems with real gas effects,
+not expansion shockwave, but
+
+295
+00:18:37,120 --> 00:18:40,040
+still real gas effects.
+And that you need to
+
+296
+00:18:40,040 --> 00:18:44,720
+characterize to have better
+conversion cycles or better heat
+
+297
+00:18:44,720 --> 00:18:47,120
+pumps or, you know, all these
+stuff.
+
+298
+00:18:47,200 --> 00:18:50,840
+And so we're still working.
+So we are right now a project
+
+299
+00:18:50,840 --> 00:18:53,960
+ongoing with the, with, with the
+German team.
+
+300
+00:18:54,360 --> 00:18:57,520
+We are doing the, the
+simulations and the machine
+
+301
+00:18:57,520 --> 00:19:01,120
+learning and they are doing the
+experiments and it's a very nice
+
+302
+00:19:01,120 --> 00:19:03,160
+team.
+And yeah, we, yeah.
+
+303
+00:19:04,120 --> 00:19:08,760
+Very cool.
+And you, you mentioned at the
+
+304
+00:19:08,760 --> 00:19:12,240
+beginning that, you know, you
+were in Italy, you went to
+
+305
+00:19:12,240 --> 00:19:16,680
+Paris, you went back to Italy.
+What then was the what?
+
+306
+00:19:16,680 --> 00:19:20,240
+What led to you, you know, going
+back to Paris again?
+
+307
+00:19:21,680 --> 00:19:26,400
+Yeah, well, again, I mean, it's
+not easy to stay in academia in
+
+308
+00:19:26,400 --> 00:19:32,160
+Italy because the, you know, the
+funding system, well, the
+
+309
+00:19:32,160 --> 00:19:36,520
+academic system in Italy is
+chronically underfunded, but
+
+310
+00:19:36,520 --> 00:19:38,880
+severely underfunded.
+That's why you find Italians
+
+311
+00:19:38,880 --> 00:19:41,080
+everywhere.
+Actually, I've noticed maybe
+
+312
+00:19:41,080 --> 00:19:43,360
+that there are lots of Italians
+everywhere.
+
+313
+00:19:45,280 --> 00:19:48,760
+So, so the, the academic
+position are very few.
+
+314
+00:19:48,760 --> 00:19:52,200
+I had one actually.
+But then you are alone.
+
+315
+00:19:52,280 --> 00:19:54,720
+It's very difficult to get
+funding.
+
+316
+00:19:55,840 --> 00:20:00,280
+The possibility of having a
+career are very, So you, you
+
+317
+00:20:00,400 --> 00:20:02,760
+have to be very patient, you
+know.
+
+318
+00:20:03,400 --> 00:20:10,840
+And also, my husband wasn't
+Italian and he never could find
+
+319
+00:20:10,840 --> 00:20:14,400
+a satisfactory job in Italy.
+So at some point he said, well,
+
+320
+00:20:14,400 --> 00:20:18,680
+let's go back to Paris.
+And there I applied because I
+
+321
+00:20:18,680 --> 00:20:20,560
+wanted to move to a
+professorship.
+
+322
+00:20:20,560 --> 00:20:24,560
+I was assistant professor, I
+wanted to move a professor and I
+
+323
+00:20:24,960 --> 00:20:28,000
+got a position in Paris.
+And that's how we we moved back
+
+324
+00:20:28,000 --> 00:20:31,000
+to Paris because he also had a
+job here in Paris.
+
+325
+00:20:32,760 --> 00:20:37,800
+Ah, OK, I understand.
+So you well, as you say, Paris
+
+326
+00:20:37,800 --> 00:20:41,040
+is not such a bad place to to to
+be.
+
+327
+00:20:41,480 --> 00:20:45,600
+Easy for two person It's easier
+to find both a job in Paris than
+
+328
+00:20:45,600 --> 00:20:48,520
+find both a job in the in
+southern Italy.
+
+329
+00:20:49,560 --> 00:20:55,680
+Yeah, but that does seem to be,
+I guess, an overriding thing of
+
+330
+00:20:55,680 --> 00:21:00,880
+academia that it's almost this
+necessity to move, right.
+
+331
+00:21:00,880 --> 00:21:02,440
+It's it's kind of a weird
+profession.
+
+332
+00:21:02,440 --> 00:21:06,160
+Even in the US or the UK, very
+few people will have their
+
+333
+00:21:06,160 --> 00:21:09,400
+entire career at one place,
+particularly earlier on.
+
+334
+00:21:09,640 --> 00:21:15,120
+They will have to have you found
+that it's almost, it's a fairly
+
+335
+00:21:15,120 --> 00:21:18,840
+unfair thing in a way that you
+have to move your family and do
+
+336
+00:21:18,840 --> 00:21:22,520
+things just to progress.
+Yeah, yeah, that that that's
+
+337
+00:21:22,520 --> 00:21:26,760
+true.
+And that's because, well, for
+
+338
+00:21:26,760 --> 00:21:29,600
+instance, in France, there is
+even a rule in some, in some
+
+339
+00:21:29,600 --> 00:21:32,120
+disciplines, like in
+mathematics, that if you have
+
+340
+00:21:32,120 --> 00:21:36,520
+been an assistant professor in a
+department, you cannot be a
+
+341
+00:21:37,280 --> 00:21:39,000
+professor in the same
+department.
+
+342
+00:21:39,000 --> 00:21:43,040
+You have to move another one.
+And these small cities where you
+
+343
+00:21:43,040 --> 00:21:46,920
+have just one university, it's
+basically this means that you
+
+344
+00:21:46,920 --> 00:21:49,600
+have to move.
+So this pushes a lot of people
+
+345
+00:21:49,600 --> 00:21:53,720
+to abandon the idea of moving to
+a professorship and they remain
+
+346
+00:21:53,720 --> 00:21:56,240
+assistant professors for
+forever.
+
+347
+00:21:56,600 --> 00:21:58,600
+Also because the French system
+allows it.
+
+348
+00:21:58,600 --> 00:22:00,880
+It's not like the tenure track
+in the US.
+
+349
+00:22:00,880 --> 00:22:04,160
+If you don't, if you are not
+promoted to associate, then you
+
+350
+00:22:04,160 --> 00:22:08,280
+have to leave academia.
+You can remain as associate
+
+351
+00:22:08,280 --> 00:22:10,880
+professor with a permanent
+position forever.
+
+352
+00:22:11,240 --> 00:22:16,280
+So if you can't move with your
+family, basically you cannot
+
+353
+00:22:17,280 --> 00:22:22,120
+progress in your career.
+And and so it's a choice.
+
+354
+00:22:23,720 --> 00:22:27,080
+Some people are happy with the,
+with an assistant professorship
+
+355
+00:22:27,080 --> 00:22:29,400
+for their life, they do teaching
+and so on.
+
+356
+00:22:30,240 --> 00:22:34,240
+But if you, if you want to move,
+so if you want to progress with
+
+357
+00:22:34,240 --> 00:22:37,080
+the career, yes.
+The, the, I don't know, the
+
+358
+00:22:37,080 --> 00:22:41,400
+academic, the academic world is
+built like that.
+
+359
+00:22:41,400 --> 00:22:45,680
+Why don't know exactly it's also
+part of science to move.
+
+360
+00:22:45,680 --> 00:22:49,240
+We should look in the past at
+the the former scientists where
+
+361
+00:22:49,240 --> 00:22:53,280
+they were moving quite a lot.
+You know, even in the
+
+362
+00:22:53,280 --> 00:22:56,720
+Renaissance, you know, you, you,
+you had this, I don't know
+
+363
+00:22:56,720 --> 00:23:00,680
+Galileo or or Leonardo da Vinci,
+they were moving around.
+
+364
+00:23:01,320 --> 00:23:06,560
+And that's because you need to
+to spread knowledge to find
+
+365
+00:23:06,560 --> 00:23:09,440
+better environment.
+So I think it's nice the
+
+366
+00:23:09,440 --> 00:23:14,640
+difficulties when you also have
+a family life and you have to,
+
+367
+00:23:14,880 --> 00:23:17,040
+so you have two person to, to,
+to move.
+
+368
+00:23:17,920 --> 00:23:22,400
+In some cases it's easy because
+1 is a flexible job or, or
+
+369
+00:23:22,600 --> 00:23:25,960
+things at home.
+But otherwise it can be, yeah,
+
+370
+00:23:26,720 --> 00:23:29,280
+quite challenging.
+And I think it's something that
+
+371
+00:23:29,280 --> 00:23:33,360
+the new generation don't
+appreciate that much because,
+
+372
+00:23:33,400 --> 00:23:38,400
+you know, I, I think I am
+what's, what's my generation, I
+
+373
+00:23:38,400 --> 00:23:43,240
+think generation X and we are,
+you know, I, I know that my
+
+374
+00:23:43,240 --> 00:23:46,520
+children say your generation X
+is the generation of suffering.
+
+375
+00:23:46,600 --> 00:23:51,120
+You know you were you were
+raised to suffer, but it's no
+
+376
+00:23:51,120 --> 00:23:55,880
+longer the case.
+But it, but it is a serious
+
+377
+00:23:55,880 --> 00:23:59,440
+point though, that I've, I
+almost feel like sometimes
+
+378
+00:23:59,440 --> 00:24:06,800
+academia has maybe not to be
+careful, but I always, I'm just
+
+379
+00:24:06,800 --> 00:24:11,840
+amazed that the dedication it
+requires to get through it and
+
+380
+00:24:11,840 --> 00:24:14,520
+to to become Someone Like You,
+you know, a top professor.
+
+381
+00:24:14,520 --> 00:24:21,880
+Like it feels, it's, I feel like
+probably many people aren't able
+
+382
+00:24:21,880 --> 00:24:27,480
+to get to that .1 Obviously
+they're not intellectual enough.
+
+383
+00:24:27,480 --> 00:24:28,840
+They're not, you know, capable
+enough.
+
+384
+00:24:29,320 --> 00:24:32,240
+But but also you have to have a
+quiet determination.
+
+385
+00:24:32,320 --> 00:24:36,080
+Yeah, to, to get there, which is
+probably partly a good thing
+
+386
+00:24:36,080 --> 00:24:38,960
+because it, you know, it's, it's
+like a, you know, survival of
+
+387
+00:24:38,960 --> 00:24:42,720
+the fittest, I guess.
+But as you've said to some
+
+388
+00:24:42,720 --> 00:24:46,520
+people where they just really
+would love to stay where they're
+
+389
+00:24:46,520 --> 00:24:49,800
+living because they have friends
+and family and they can't, it's,
+
+390
+00:24:50,920 --> 00:24:53,160
+it's a shame.
+Well, what I used to say to my
+
+391
+00:24:53,160 --> 00:24:57,800
+PhD students is that the
+academic career is kind of
+
+392
+00:24:57,800 --> 00:25:04,120
+similar to a career in music or
+in theatre or in high level
+
+393
+00:25:04,160 --> 00:25:07,480
+level sport.
+OK, if you are a musician, if
+
+394
+00:25:07,480 --> 00:25:11,080
+you're a pianist or if you are
+an opera singer, you have to
+
+395
+00:25:11,080 --> 00:25:14,280
+move around and it's a very
+competitive field.
+
+396
+00:25:14,280 --> 00:25:18,360
+And you do that not because you
+want no quiet life, a quiet
+
+397
+00:25:18,360 --> 00:25:22,200
+life, but because you are
+passioned and you want to be on
+
+398
+00:25:22,200 --> 00:25:26,520
+the stage and see, you know,
+people around you clapping
+
+399
+00:25:26,520 --> 00:25:29,400
+hands.
+And, you know, it's a sort of,
+
+400
+00:25:29,760 --> 00:25:34,760
+you know, I think that well,
+there is a sort of narcissistic
+
+401
+00:25:34,760 --> 00:25:39,160
+side, maybe like people
+remaining in academia, but also,
+
+402
+00:25:39,240 --> 00:25:42,240
+you know, it's it's an
+intellectual work.
+
+403
+00:25:42,360 --> 00:25:48,680
+And I guess that what if you,
+you should you, you do that
+
+404
+00:25:48,680 --> 00:25:52,200
+because because of passion,
+first of all, it's not, it's not
+
+405
+00:25:52,200 --> 00:25:58,200
+an ordinary job actually.
+And you want to push the, the,
+
+406
+00:25:58,200 --> 00:26:01,960
+the, the, the, the, the, the,
+the frontiers of knowledge.
+
+407
+00:26:02,280 --> 00:26:07,640
+You want your, your work to have
+an impact and you know, you want
+
+408
+00:26:07,640 --> 00:26:10,040
+to do something to move things
+forward.
+
+409
+00:26:10,440 --> 00:26:12,960
+And, and that's a, that's a
+passion.
+
+410
+00:26:13,080 --> 00:26:19,480
+So it's maybe you don't, you
+don't make it, but you still try
+
+411
+00:26:19,480 --> 00:26:22,240
+because you know, it's, it's
+like a football player.
+
+412
+00:26:22,240 --> 00:26:26,000
+Not not all football players are
+Lionel Messi or, I don't know,
+
+413
+00:26:26,360 --> 00:26:30,880
+David Beckham.
+That's a very good.
+
+414
+00:26:30,880 --> 00:26:35,400
+I've not heard it described that
+way about a musician or sports
+
+415
+00:26:35,400 --> 00:26:37,000
+players.
+It's kind of true that they also
+
+416
+00:26:37,000 --> 00:26:41,200
+move around a lot.
+And I, I get that's the, that's
+
+417
+00:26:41,200 --> 00:26:44,920
+the, the old thing though of
+universities, isn't it, that you
+
+418
+00:26:44,920 --> 00:26:47,400
+almost have to wait for the
+person above you to, you know,
+
+419
+00:26:47,800 --> 00:26:49,680
+retire or die to get their
+position.
+
+420
+00:26:49,680 --> 00:26:53,040
+So people end up also moving
+around because there's sort of
+
+421
+00:26:53,120 --> 00:26:56,960
+not enough where I guess in a
+big corporate world, people are
+
+422
+00:26:56,960 --> 00:27:00,920
+more able to, maybe that's
+changing, But you know, in a, in
+
+423
+00:27:00,920 --> 00:27:03,840
+like an Airbus or something,
+I'm, I'm sure there's jobs for
+
+424
+00:27:03,840 --> 00:27:08,120
+life almost just in one company
+where academia.
+
+425
+00:27:08,120 --> 00:27:11,800
+So I, I, I say that because I
+think it, people should
+
+426
+00:27:11,800 --> 00:27:16,600
+appreciate just how hard it is
+to get to being a professor,
+
+427
+00:27:16,600 --> 00:27:18,560
+that it, it's not just an
+intellectual thing.
+
+428
+00:27:18,560 --> 00:27:23,320
+It's like a determination and
+passion thing, as you say, to,
+
+429
+00:27:23,520 --> 00:27:28,320
+to, to do it.
+And so all, you know, talking
+
+430
+00:27:28,320 --> 00:27:30,880
+about, you know, wanting to be
+at the forefront.
+
+431
+00:27:31,840 --> 00:27:35,640
+I mean, you, you were quite
+early on looking at learning and
+
+432
+00:27:35,640 --> 00:27:38,320
+data-driven turbines models and
+and machine learning.
+
+433
+00:27:38,680 --> 00:27:41,080
+You know, when did you start to
+get into that?
+
+434
+00:27:41,080 --> 00:27:44,960
+When did you get a sense that
+these methods were an
+
+435
+00:27:44,960 --> 00:27:49,120
+alternative or an enhancement on
+the more traditional numerical
+
+436
+00:27:49,120 --> 00:27:51,000
+methods sort of line of
+research?
+
+437
+00:27:51,800 --> 00:27:55,120
+Well, actually I.
+Stepped into Bayesian methods
+
+438
+00:27:55,240 --> 00:27:58,720
+when I was doing uncertainty
+quantification for dense gases.
+
+439
+00:27:59,480 --> 00:28:03,880
+And at some point I was
+discussing with some colleagues
+
+440
+00:28:03,880 --> 00:28:08,480
+of mine from from the University
+of Trieste, and they had a sort
+
+441
+00:28:08,480 --> 00:28:12,560
+of startup, I don't know if you
+know this startup called Esteco.
+
+442
+00:28:12,640 --> 00:28:17,480
+They produce software called
+Mode Frontier.
+
+443
+00:28:18,080 --> 00:28:20,440
+Oh yes.
+Yes, yes, of course, yeah.
+
+444
+00:28:21,400 --> 00:28:25,160
+And so, yeah, they were actually
+promoting this software in
+
+445
+00:28:25,160 --> 00:28:31,000
+universities and, and they sold
+also academic licenses and so
+
+446
+00:28:31,000 --> 00:28:33,760
+on.
+And so I started to discuss with
+
+447
+00:28:33,760 --> 00:28:36,960
+them about my problems with
+uncertainty quantification in
+
+448
+00:28:36,960 --> 00:28:40,480
+dense gases.
+And they said, OK, but you could
+
+449
+00:28:40,480 --> 00:28:42,840
+try to solve a numerous problem
+and so on.
+
+450
+00:28:42,840 --> 00:28:47,440
+And, and, and so that I, so I
+started to look into the
+
+451
+00:28:47,440 --> 00:28:52,320
+literature and I started to be
+interested into these Bayesian
+
+452
+00:28:52,320 --> 00:28:58,840
+methods and, and I said, OK,
+this could work for dense gases,
+
+453
+00:28:58,840 --> 00:29:01,680
+but we, well, the thermodynamics
+is not the only source of
+
+454
+00:29:01,680 --> 00:29:04,360
+uncertainty because you also
+have the uncertainties
+
+455
+00:29:04,360 --> 00:29:05,960
+associated with the turbulence
+models.
+
+456
+00:29:05,960 --> 00:29:09,800
+And these are very old problems.
+So there are so many turbulence
+
+457
+00:29:09,800 --> 00:29:12,720
+models, you don't know which one
+you have to choose, you don't
+
+458
+00:29:12,720 --> 00:29:15,720
+know which parameters you should
+put into them and so on.
+
+459
+00:29:15,720 --> 00:29:20,120
+So let's try to quantify this
+statistically instead of just
+
+460
+00:29:20,560 --> 00:29:24,800
+using expert knowledge, which is
+what any anybody does actually,
+
+461
+00:29:25,000 --> 00:29:31,880
+because every, every company
+actually has sort of, you know,
+
+462
+00:29:33,240 --> 00:29:37,320
+establish Noahu saying OK, for
+this problem, you should use the
+
+463
+00:29:37,360 --> 00:29:41,240
+KE Omega SST for this problem,
+you should use the Sphalatalmers
+
+464
+00:29:41,240 --> 00:29:42,960
+for this problem, you should use
+that one.
+
+465
+00:29:43,160 --> 00:29:46,440
+And sometimes you also know that
+they retune the parameters.
+
+466
+00:29:46,800 --> 00:29:51,320
+For instance, I know that people
+in internal combustion engine
+
+467
+00:29:51,320 --> 00:29:56,840
+used to recalibrate KE epsilon
+for for having better results
+
+468
+00:29:56,840 --> 00:30:00,320
+for, for, for, for, Yeah, for
+internal combustion engines.
+
+469
+00:30:00,760 --> 00:30:04,240
+And but all this was was tuned
+by hands basically.
+
+470
+00:30:04,640 --> 00:30:08,840
+And I said, OK, if there are,
+you know, mathematical, clean
+
+471
+00:30:08,840 --> 00:30:12,240
+mathematical techniques to do
+that, let's try to use them.
+
+472
+00:30:12,240 --> 00:30:16,040
+And so since I was already doing
+direct uncertainty
+
+473
+00:30:16,040 --> 00:30:20,400
+quantification, I started to,
+you know, try to do the the
+
+474
+00:30:20,400 --> 00:30:22,440
+backward uncertainty
+verification.
+
+475
+00:30:23,320 --> 00:30:26,680
+And at some point, well, it was
+a bit hard for me because you
+
+476
+00:30:26,680 --> 00:30:30,520
+know, in mechanical engineering
+we are not very well trained in,
+
+477
+00:30:30,560 --> 00:30:34,440
+in probability and statistics.
+So eventually.
+
+478
+00:30:34,440 --> 00:30:39,360
+I, I studied that myself because
+it was interesting to that
+
+479
+00:30:39,360 --> 00:30:44,320
+actually I also thought a little
+bit, but it was not enough to,
+
+480
+00:30:44,400 --> 00:30:46,040
+you know, understand all the
+details.
+
+481
+00:30:46,520 --> 00:30:51,120
+And so at some point I was
+invited by statistics department
+
+482
+00:30:51,120 --> 00:30:55,880
+in Chile and they invited me for
+two months and I was there with
+
+483
+00:30:55,880 --> 00:30:59,680
+statisticians and mathematicians
+of probabilities.
+
+484
+00:30:59,680 --> 00:31:05,000
+So and during the first month it
+was impossible to understand
+
+485
+00:31:05,000 --> 00:31:08,920
+each other because, you know, I
+was calling things with names
+
+486
+00:31:08,920 --> 00:31:11,240
+that they interpreted in another
+way and so on.
+
+487
+00:31:12,240 --> 00:31:15,480
+And, but at some point we
+started to understand each other
+
+488
+00:31:15,480 --> 00:31:19,480
+and that was great because some
+papers which were, you know,
+
+489
+00:31:19,480 --> 00:31:26,600
+just giraglyphs to me,
+giraglyphs started to be clear.
+
+490
+00:31:26,720 --> 00:31:31,760
+And, and that's where, you know,
+all the, the Bayesian stuff was,
+
+491
+00:31:31,800 --> 00:31:35,640
+was set and, and, and I could
+start to recalibrate the
+
+492
+00:31:35,640 --> 00:31:37,880
+turbulence models and and so on.
+So that.
+
+493
+00:31:38,520 --> 00:31:42,080
+So yeah, the fact of being in an
+interdisciplinary environment
+
+494
+00:31:42,080 --> 00:31:46,880
+and talk with mathematicians was
+extremely useful to me, not only
+
+495
+00:31:46,880 --> 00:31:49,800
+with engineers, even if I love
+engineers, but you know,
+
+496
+00:31:50,680 --> 00:31:53,840
+sometimes like, no, that.
+That's, that's a very good
+
+497
+00:31:53,840 --> 00:31:57,800
+point.
+And I guess even to today,
+
+498
+00:31:57,800 --> 00:32:00,960
+that's a challenge on the
+machine learning side, isn't it,
+
+499
+00:32:00,960 --> 00:32:05,320
+that maybe it's starting to
+change in a course today.
+
+500
+00:32:05,720 --> 00:32:08,840
+But I guess most people who are
+doing the research, therefore
+
+501
+00:32:08,840 --> 00:32:12,840
+who studied, you know, 5 to 10
+years ago or more didn't have
+
+502
+00:32:12,840 --> 00:32:16,960
+any of that background in
+computer science or in
+
+503
+00:32:16,960 --> 00:32:20,360
+statistics or, or sort of
+methods that maybe people who
+
+504
+00:32:20,360 --> 00:32:23,440
+did more maths, stronger maths
+may, may, may do it, but
+
+505
+00:32:24,000 --> 00:32:27,200
+engineering courses probably
+wouldn't.
+
+506
+00:32:27,200 --> 00:32:30,240
+I mean, how have you seen that
+affect the machine learning
+
+507
+00:32:30,240 --> 00:32:31,400
+side?
+I know you've been quite
+
+508
+00:32:31,400 --> 00:32:35,360
+passionate about connecting.
+I know you you kicked off, for
+
+509
+00:32:35,360 --> 00:32:40,200
+example, with the extrality and
+Air, Air France data sets.
+
+510
+00:32:40,200 --> 00:32:43,600
+And, you know, did you try and
+take some of that inspiration of
+
+511
+00:32:43,600 --> 00:32:47,160
+your time getting familiar with
+statistics and try and do the
+
+512
+00:32:47,160 --> 00:32:49,240
+same on the machine learning
+side?
+
+513
+00:32:49,240 --> 00:32:53,440
+Yeah, yeah, definitely.
+Actually, I had the chance when,
+
+514
+00:32:53,440 --> 00:32:56,200
+when I, when I moved to Sorbonne
+to be in a very
+
+515
+00:32:56,200 --> 00:33:04,120
+interdisciplinary environment.
+And at some point I, I, well, I
+
+516
+00:33:04,120 --> 00:33:07,560
+stepped into the team.
+We have a very strong machine
+
+517
+00:33:07,560 --> 00:33:11,560
+learning team here in the
+computer science department, and
+
+518
+00:33:12,600 --> 00:33:18,080
+I discovered almost by chance
+that they were doing machine
+
+519
+00:33:18,080 --> 00:33:21,200
+learning for physics.
+So I contacted them and said,
+
+520
+00:33:21,200 --> 00:33:24,480
+OK, I'm a fluid mechanicist, I'm
+trying to move to machine
+
+521
+00:33:24,480 --> 00:33:26,080
+learning.
+I know that you're doing machine
+
+522
+00:33:26,080 --> 00:33:28,440
+learning and you're trying to
+move to fluid mechanics.
+
+523
+00:33:28,880 --> 00:33:32,720
+Can we do something together?
+And so we applied together to an
+
+524
+00:33:32,720 --> 00:33:37,280
+internal funding instrument of
+the university and we got
+
+525
+00:33:37,280 --> 00:33:39,200
+founded.
+So we had this learned fluid
+
+526
+00:33:39,400 --> 00:33:42,480
+team.
+So it was a little bit of money
+
+527
+00:33:42,480 --> 00:33:48,320
+to have a post doc and a few
+interns and little things, but
+
+528
+00:33:48,320 --> 00:33:51,240
+this allowed to connect each
+other.
+
+529
+00:33:51,760 --> 00:33:55,840
+And then they said, Hey, we have
+this guy who is going to do
+
+530
+00:33:56,080 --> 00:33:58,200
+machine learning methods for
+CFD.
+
+531
+00:33:58,640 --> 00:34:02,840
+So we want to, but we have no
+databases machine learning.
+
+532
+00:34:02,840 --> 00:34:09,440
+We, we have minis.
+We have, you know, many famous
+
+533
+00:34:09,440 --> 00:34:13,120
+databases, but there are not bad
+databases in CFD.
+
+534
+00:34:13,120 --> 00:34:16,800
+We want to build 1, but actually
+we don't know exactly how to do
+
+535
+00:34:16,800 --> 00:34:20,679
+the meshes because they were
+trying to use, you know, open
+
+536
+00:34:20,679 --> 00:34:25,880
+phone and we're using, you know,
+as not PX.
+
+537
+00:34:25,880 --> 00:34:28,760
+Yeah.
+And of course the meshes are.
+
+538
+00:34:28,760 --> 00:34:31,520
+Not very good close to the wall.
+And that's the point.
+
+539
+00:34:31,920 --> 00:34:35,199
+So I said no, but you can also
+use the structured meshes and so
+
+540
+00:34:35,199 --> 00:34:38,320
+on.
+And then, and then also we
+
+541
+00:34:38,320 --> 00:34:41,960
+started to discuss a little bit
+about the criteria we had to use
+
+542
+00:34:41,960 --> 00:34:44,600
+to evaluate the results.
+Not only the MSC we have
+
+543
+00:34:44,600 --> 00:34:49,400
+discussed, but you know, and
+that's how well eventually they
+
+544
+00:34:49,400 --> 00:34:53,480
+produce this Air France.
+Of course, the well, the
+
+545
+00:34:53,719 --> 00:34:56,080
+marriage is essentially the,
+the, the students.
+
+546
+00:34:56,480 --> 00:34:59,200
+It's something interesting that
+this student had the background
+
+547
+00:34:59,200 --> 00:35:02,760
+in physics the beginning, so and
+he moved to machine learning
+
+548
+00:35:02,760 --> 00:35:05,880
+too, but he had a background in
+not in CFD but in physics.
+
+549
+00:35:06,400 --> 00:35:10,880
+And so, yeah, so with this
+mixture of disciplines, we came
+
+550
+00:35:10,880 --> 00:35:13,920
+up with this, with this
+database.
+
+551
+00:35:14,200 --> 00:35:17,440
+And also they could test a lot
+of baselines that the way they
+
+552
+00:35:17,440 --> 00:35:20,040
+do it in machine learning or
+they take 1 based and two
+
+553
+00:35:20,040 --> 00:35:22,160
+baselines and they test all the
+baselines.
+
+554
+00:35:22,920 --> 00:35:27,000
+And now we are trying to do more
+actually also for unsteady
+
+555
+00:35:27,000 --> 00:35:29,520
+flows.
+So hopefully we will have a new
+
+556
+00:35:29,520 --> 00:35:33,040
+database coming out which is on
+LES.
+
+557
+00:35:33,840 --> 00:35:37,520
+So this times is not steady
+runs, it's more LES and it's
+
+558
+00:35:37,560 --> 00:35:43,160
+actually it snapshots because
+you know to to have time
+
+559
+00:35:43,160 --> 00:35:46,120
+resolved predictions, yes.
+And.
+
+560
+00:35:46,360 --> 00:35:50,840
+And the idea is the same.
+So they, they well enlighten me
+
+561
+00:35:50,840 --> 00:35:53,720
+on machine learning
+architectures because they know
+
+562
+00:35:53,720 --> 00:35:56,960
+better.
+They know, they know better.
+
+563
+00:35:56,960 --> 00:36:03,680
+Also the, the, the sometimes
+the, you know, the, the, the,
+
+564
+00:36:03,720 --> 00:36:08,000
+the pitfalls and the you can
+have in training these things
+
+565
+00:36:08,000 --> 00:36:10,840
+because sometimes, you know, the
+training is not an easy.
+
+566
+00:36:12,760 --> 00:36:17,280
+But on the other side, I say,
+OK, maybe you should look at
+
+567
+00:36:17,280 --> 00:36:20,600
+this and that you should use
+this physical criteria and so
+
+568
+00:36:20,600 --> 00:36:22,760
+on.
+And it's very, very instructive,
+
+569
+00:36:22,800 --> 00:36:25,720
+I think, for both sides.
+So I'm very happy with this
+
+570
+00:36:25,720 --> 00:36:30,480
+collaboration.
+And yeah, that's that's how we.
+
+571
+00:36:32,360 --> 00:36:36,720
+I mean, how much have you
+struggled, though to get
+
+572
+00:36:36,720 --> 00:36:41,240
+acceptance in that the from when
+you started to now?
+
+573
+00:36:41,240 --> 00:36:43,000
+Have you how have you seen
+things progress?
+
+574
+00:36:43,000 --> 00:36:47,680
+You know, the the argument of
+how well is the model just a
+
+575
+00:36:47,680 --> 00:36:51,440
+fancy interpolation versus
+actually learning the physics?
+
+576
+00:36:51,440 --> 00:36:55,160
+You know, how much is that is a
+a good thing that this is hard
+
+577
+00:36:55,160 --> 00:36:59,400
+questions and how much of it is
+almost holding things back a
+
+578
+00:36:59,400 --> 00:37:01,160
+little bit?
+Well, the.
+
+579
+00:37:01,160 --> 00:37:03,440
+Hardest thing, Well, I started
+with the turbulence for this
+
+580
+00:37:03,440 --> 00:37:06,240
+right?
+And it was hard beginning
+
+581
+00:37:06,280 --> 00:37:11,320
+because, you know, well,
+turbulence models have a lot of
+
+582
+00:37:11,320 --> 00:37:13,640
+knowledge.
+They are really incredible.
+
+583
+00:37:13,640 --> 00:37:19,080
+They have this physics sense,
+which is, I don't know, but they
+
+584
+00:37:19,080 --> 00:37:24,480
+are also very, you know, fond of
+their methodology.
+
+585
+00:37:24,480 --> 00:37:27,680
+They, you know, the fact that
+you have do you have to do the
+
+586
+00:37:27,680 --> 00:37:32,200
+things like in a certain way?
+And also the parameters has
+
+587
+00:37:32,200 --> 00:37:36,760
+been, have been the model
+parameters been tuned making a
+
+588
+00:37:36,760 --> 00:37:40,640
+lot of compromises and so on.
+So they don't like that you
+
+589
+00:37:40,640 --> 00:37:43,480
+start playing with the
+parameters, playing with the
+
+590
+00:37:43,480 --> 00:37:47,640
+terms and so on and so on.
+And for sure at the beginning
+
+591
+00:37:48,520 --> 00:37:53,000
+the community of people who were
+who was playing with machine
+
+592
+00:37:53,000 --> 00:37:56,560
+learning or, or calibration also
+calibrations of of turbulence
+
+593
+00:37:56,560 --> 00:38:00,520
+model was not a community of
+turbulence models was a
+
+594
+00:38:00,640 --> 00:38:03,840
+community of people coming like
+me from numerical schemes
+
+595
+00:38:04,080 --> 00:38:06,160
+actually or from numerics in
+general.
+
+596
+00:38:07,200 --> 00:38:13,160
+And so we didn't have the right
+codes for provenance modelling,
+
+597
+00:38:13,480 --> 00:38:17,200
+which is, you know, there is a
+lot of knowledge accumulated for
+
+598
+00:38:17,400 --> 00:38:21,320
+for decades.
+And so many people were doing
+
+599
+00:38:21,320 --> 00:38:24,920
+things that were not acceptable
+actually from a strict
+
+600
+00:38:24,920 --> 00:38:26,320
+turbulence modeling point of
+view.
+
+601
+00:38:26,320 --> 00:38:30,000
+So they were not using the right
+features as the input of the
+
+602
+00:38:30,000 --> 00:38:32,000
+turbulent model.
+For instance, some people were
+
+603
+00:38:32,000 --> 00:38:36,280
+using velocities at the
+beginning, which, you know, it's
+
+604
+00:38:36,320 --> 00:38:39,280
+it's non Galilean invariants and
+so on.
+
+605
+00:38:39,800 --> 00:38:45,240
+And and however, well, still
+this model looked interesting.
+
+606
+00:38:45,240 --> 00:38:47,840
+So everybody was intrigued with
+the with the with the
+
+607
+00:38:47,840 --> 00:38:50,000
+possibility of having it in this
+model.
+
+608
+00:38:50,000 --> 00:38:52,360
+Because in the end, if you look
+at even if the to the
+
+609
+00:38:52,400 --> 00:38:56,880
+traditional turbulence models,
+they remain data-driven.
+
+610
+00:38:57,080 --> 00:39:01,120
+They yeah, data-driven with a
+human, you know, tuning the
+
+611
+00:39:01,120 --> 00:39:02,600
+parameters.
+But they are data-driven
+
+612
+00:39:02,720 --> 00:39:06,360
+actually because you are you are
+calibrating on, on some data
+
+613
+00:39:06,360 --> 00:39:08,200
+sets which are the canonical
+flows.
+
+614
+00:39:08,480 --> 00:39:12,440
+But OK, so at some point, well
+you had Chris Ramsey, which you
+
+615
+00:39:12,440 --> 00:39:19,600
+know who, you know who decides
+to organize a meeting at it was
+
+616
+00:39:19,600 --> 00:39:23,720
+in Virginia, it was at the was
+the name, the light, the
+
+617
+00:39:23,720 --> 00:39:25,200
+lighthouse, right, the
+lighthouse.
+
+618
+00:39:25,840 --> 00:39:30,240
+So there was this mythical
+meeting in 2022 where he said,
+
+619
+00:39:30,240 --> 00:39:33,400
+OK, we are going to put around
+the table classical turbulence
+
+620
+00:39:33,400 --> 00:39:36,560
+modeler and these guys, these,
+you know, these power venues
+
+621
+00:39:36,560 --> 00:39:37,640
+with their machine learning
+stuff.
+
+622
+00:39:39,680 --> 00:39:43,760
+And and it was really
+instructive because you had
+
+623
+00:39:43,760 --> 00:39:48,040
+incredible guys there.
+So it was a in honor of the 60th
+
+624
+00:39:48,040 --> 00:39:51,440
+birthday of Lips Palat, who is a
+great guy by the way.
+
+625
+00:39:52,000 --> 00:39:56,600
+And you had, you know, Phillip,
+you had Paul Durbin, you had all
+
+626
+00:39:56,600 --> 00:40:00,400
+these guys, you know, you know,
+plenty of things on turbulence
+
+627
+00:40:00,400 --> 00:40:02,640
+modelling and they were
+explaining things.
+
+628
+00:40:03,000 --> 00:40:06,200
+And on the other hand, we were
+trying to defend the idea of
+
+629
+00:40:06,200 --> 00:40:09,800
+using machine learning.
+So we were a little bit, you
+
+630
+00:40:09,800 --> 00:40:15,160
+know, like how, how do you say
+you attack?
+
+631
+00:40:16,680 --> 00:40:19,160
+Attack.
+But it was instructive because I
+
+632
+00:40:19,160 --> 00:40:22,440
+think thanks to that, we
+progressed a lot because we, we
+
+633
+00:40:22,440 --> 00:40:24,320
+started with the idea, OK, it's
+nice.
+
+634
+00:40:24,320 --> 00:40:29,320
+We just fine tune a model for a
+very narrow set of flows.
+
+635
+00:40:29,360 --> 00:40:31,200
+We get better results.
+We are happy with that.
+
+636
+00:40:31,760 --> 00:40:35,880
+And now we are moving more and
+more toward unifying models.
+
+637
+00:40:36,280 --> 00:40:40,280
+And maybe, maybe, maybe I, I
+maybe show ambition, but never
+
+638
+00:40:40,280 --> 00:40:43,400
+know.
+Maybe in 10 years more we could
+
+639
+00:40:43,400 --> 00:40:47,640
+have a foundation model that's a
+dream and turbulence model which
+
+640
+00:40:47,640 --> 00:40:52,200
+could, you know, actually
+realize the the the dream of
+
+641
+00:40:52,200 --> 00:40:55,600
+turbulence model of a universal
+turbulence model.
+
+642
+00:40:56,160 --> 00:41:01,120
+I'm not sure we will get there,
+but you know it is.
+
+643
+00:41:01,120 --> 00:41:07,280
+Interesting though, because in
+some ways turbulence modelling
+
+644
+00:41:08,400 --> 00:41:14,240
+was going out of fashion.
+And I know that it used to be
+
+645
+00:41:14,240 --> 00:41:16,880
+the joke, didn't it?
+I think that for a European
+
+646
+00:41:16,880 --> 00:41:19,000
+project, if you said you're
+going to work on turbans
+
+647
+00:41:19,000 --> 00:41:21,640
+modelling, it was almost like
+guaranteed to be rejected
+
+648
+00:41:22,160 --> 00:41:26,080
+because it was seen as a solved
+problem or you know what's new?
+
+649
+00:41:26,600 --> 00:41:32,760
+And but there were the the irony
+is is the industry still uses
+
+650
+00:41:32,760 --> 00:41:37,040
+mainly RANS and are stuck using
+methods from the 80s or or early
+
+651
+00:41:37,040 --> 00:41:39,800
+90s seems like with machine
+learning.
+
+652
+00:41:39,800 --> 00:41:43,960
+Then there was this spike of of
+of potential again.
+
+653
+00:41:44,640 --> 00:41:46,920
+But I don't know about you, but
+I almost felt that.
+
+654
+00:41:48,600 --> 00:41:51,200
+Maybe some of the?
+Use of machine learning for
+
+655
+00:41:51,200 --> 00:41:55,440
+turbans modeling was a little
+bit early and the expectation
+
+656
+00:41:55,440 --> 00:42:00,400
+was so big that when it didn't
+meet that expectation, it sort
+
+657
+00:42:00,400 --> 00:42:05,120
+of then dropped down again.
+And, and I, I, but I agree with
+
+658
+00:42:05,120 --> 00:42:11,400
+you that in some ways with the
+idea that we want to build also
+
+659
+00:42:11,400 --> 00:42:14,520
+foundation models from a
+surrogate modelling side, having
+
+660
+00:42:14,520 --> 00:42:17,600
+to do everything with LES or
+whatever, it's just so
+
+661
+00:42:17,600 --> 00:42:21,080
+computationally expensive.
+Ironically, if you could use
+
+662
+00:42:21,080 --> 00:42:24,440
+machine learning to come up with
+the ultimate turbots model, you
+
+663
+00:42:24,440 --> 00:42:29,520
+would actually make it much more
+affordable to, to, to actually
+
+664
+00:42:29,520 --> 00:42:33,080
+run the simulations to achieve.
+So I feel like now there is
+
+665
+00:42:33,080 --> 00:42:39,160
+maybe a little bit more economic
+or relevant again of the turbots
+
+666
+00:42:39,160 --> 00:42:45,840
+modelling because it would save
+so much on the date generation
+
+667
+00:42:45,840 --> 00:42:51,000
+side.
+But yeah, it it does seem to be,
+
+668
+00:42:51,600 --> 00:42:55,800
+I don't know if you've noticed,
+but I saw in CFD anyway that
+
+669
+00:42:55,800 --> 00:42:58,760
+initially everybody was focused
+on machine learning for turbans
+
+670
+00:42:58,760 --> 00:43:04,920
+models, where now it seems to be
+far more about machine learning
+
+671
+00:43:04,920 --> 00:43:10,800
+for surrogate models.
+And that seems to be much more
+
+672
+00:43:10,800 --> 00:43:15,120
+focused on and you don't hear as
+much on maybe the terms
+
+673
+00:43:15,120 --> 00:43:18,360
+modelling in such a strong way.
+Would would, would you tend to
+
+674
+00:43:18,360 --> 00:43:21,400
+agree with that, that the
+community sort of shifted a
+
+675
+00:43:21,400 --> 00:43:25,960
+little bit?
+Some communities, yes, I think
+
+676
+00:43:25,960 --> 00:43:31,840
+in the, in the well in, in
+complex engineering applications
+
+677
+00:43:32,000 --> 00:43:38,600
+like well car industry or even
+in solid mechanics for instance,
+
+678
+00:43:38,600 --> 00:43:40,760
+they are shifting in that
+direction.
+
+679
+00:43:41,760 --> 00:43:44,280
+I think that in aerospace they
+are still interesting to
+
+680
+00:43:44,280 --> 00:43:47,360
+turbulence models, especially
+for complex application like
+
+681
+00:43:47,360 --> 00:43:52,800
+hypersonics or transition
+models, all that.
+
+682
+00:43:54,320 --> 00:44:01,040
+That's because, well, even if
+you can, well what you would
+
+683
+00:44:01,040 --> 00:44:06,520
+like to have in in for instance
+in aerospace where we have what
+
+684
+00:44:06,520 --> 00:44:11,200
+you would like to have is a high
+fidelity model, so like Elias
+
+685
+00:44:11,200 --> 00:44:13,960
+quality and to perform your
+optimization with that.
+
+686
+00:44:13,960 --> 00:44:16,120
+Why?
+Because we know that France has
+
+687
+00:44:16,120 --> 00:44:20,960
+flows, because we want to
+explore extreme, extreme
+
+688
+00:44:20,960 --> 00:44:26,240
+operating conditions, because we
+are moving away from known paths
+
+689
+00:44:26,400 --> 00:44:29,480
+like we are changing the fuels,
+we are changing the
+
+690
+00:44:29,480 --> 00:44:34,720
+architectures and so on.
+So you cannot just design, I
+
+691
+00:44:34,720 --> 00:44:38,520
+don't know, a new propeller or a
+new wing based on epsilon
+
+692
+00:44:38,520 --> 00:44:41,960
+modifications of something you
+know and for which you know that
+
+693
+00:44:41,960 --> 00:44:44,680
+the turbulence model is going to
+be wrong, but you know more or
+
+694
+00:44:44,680 --> 00:44:48,000
+less how it's going to fail and
+how you should correct it.
+
+695
+00:44:48,280 --> 00:44:52,000
+OK.
+And the problem is that even if
+
+696
+00:44:52,000 --> 00:44:55,760
+right now with the, the, the,
+the Portage to GPUs and so on,
+
+697
+00:44:56,760 --> 00:45:00,720
+high fidelity simulation are
+becoming more affordable, still
+
+698
+00:45:00,720 --> 00:45:04,200
+that's one simulation.
+If you want to perform an
+
+699
+00:45:04,200 --> 00:45:08,680
+optimization, you need thousands
+of LES.
+
+700
+00:45:08,840 --> 00:45:13,120
+And even if you can run a
+complex world model LES on on a
+
+701
+00:45:13,160 --> 00:45:18,960
+GPU, what you know, chatting,
+you know, well, you know this,
+
+702
+00:45:20,440 --> 00:45:23,320
+but still it's 1.
+So if you want to perform, I
+
+703
+00:45:23,320 --> 00:45:28,160
+don't know, 2000 simulations,
+you need 2000 GPUs, which is
+
+704
+00:45:28,160 --> 00:45:31,240
+very costly.
+I don't know how many companies
+
+705
+00:45:31,240 --> 00:45:35,920
+can, you know, afford 2000 GPUs,
+But there are and also, if you
+
+706
+00:45:35,920 --> 00:45:38,920
+have, you know, few GPUs, well,
+you have to wait for many, many
+
+707
+00:45:38,920 --> 00:45:43,720
+days and the design cycles to be
+shorter for for economical
+
+708
+00:45:43,720 --> 00:45:46,600
+reasons and also for
+environmental reasons.
+
+709
+00:45:46,600 --> 00:45:51,080
+I mean, OK, so for that you
+cannot rely on MES alone.
+
+710
+00:45:51,080 --> 00:45:55,480
+So what you can try to do is to
+distill the knowledge of this
+
+711
+00:45:55,480 --> 00:45:58,440
+high fidelity method into lower
+order modes.
+
+712
+00:45:59,000 --> 00:46:03,040
+So the how can you do it?
+That's the way I tried to do it.
+
+713
+00:46:03,400 --> 00:46:08,360
+One possibility is to distill
+this into augmented runs models.
+
+714
+00:46:08,480 --> 00:46:12,160
+And then once you have augmented
+your runs model, you use that
+
+715
+00:46:12,160 --> 00:46:15,360
+one to perform the optimization
+cycle, which is much more
+
+716
+00:46:15,360 --> 00:46:20,600
+affordable, provided that your
+model generalizes well enough,
+
+717
+00:46:20,600 --> 00:46:26,120
+at least on your design space.
+Because if the model fails as
+
+718
+00:46:26,120 --> 00:46:28,960
+you move a little bit far from
+the baseline, well, that's of
+
+719
+00:46:28,960 --> 00:46:32,680
+course that's useless.
+The other point you can do is to
+
+720
+00:46:32,880 --> 00:46:35,840
+surrogate models.
+OK, but the problem with
+
+721
+00:46:35,840 --> 00:46:40,520
+surrogate model is that you will
+never have enough NES to train a
+
+722
+00:46:40,520 --> 00:46:44,000
+surrogate model on it on NES.
+So you are trying to do that
+
+723
+00:46:44,040 --> 00:46:45,600
+right?
+You are trying to produce high
+
+724
+00:46:45,600 --> 00:46:50,680
+fidelity databases but they are
+still relatively limited and I
+
+725
+00:46:50,680 --> 00:46:54,040
+don't know how many of them will
+be possible to produce
+
+726
+00:46:54,040 --> 00:46:56,920
+especially for very complex very
+high Reynolds number flows.
+
+727
+00:46:57,720 --> 00:47:01,200
+And if we have so many data at
+some point, what's the point of
+
+728
+00:47:01,200 --> 00:47:05,120
+having surrogates if we can run
+thousands and 10s of thousands
+
+729
+00:47:05,120 --> 00:47:07,560
+of LES, what's the point of
+having a surrogate?
+
+730
+00:47:07,560 --> 00:47:10,800
+So I don't know.
+So maybe what's what we are
+
+731
+00:47:10,800 --> 00:47:14,920
+trying to do is to have multi
+fidelity models.
+
+732
+00:47:15,200 --> 00:47:19,320
+So where actually you train the
+model using data of different
+
+733
+00:47:19,320 --> 00:47:24,080
+origins provided that you have a
+clear hierarchy and you can
+
+734
+00:47:24,080 --> 00:47:30,480
+actually try to to train using
+plenty of low fidelity data like
+
+735
+00:47:30,480 --> 00:47:32,840
+runs.
+So that's where having a runs,
+
+736
+00:47:32,840 --> 00:47:35,520
+which is not too bad remains
+useful.
+
+737
+00:47:36,240 --> 00:47:40,840
+And then you try to learn the
+gap between the runs and the
+
+738
+00:47:41,120 --> 00:47:43,720
+high fidelity and then you use
+your surrogate.
+
+739
+00:47:44,120 --> 00:47:49,560
+And this is something which is
+not yet so used in the surrogate
+
+740
+00:47:49,560 --> 00:47:56,080
+modelling community because they
+either use plenty runs data or
+
+741
+00:47:56,120 --> 00:47:59,720
+well, whoever some databases,
+high fidelity database like the
+
+742
+00:47:59,720 --> 00:48:01,920
+one you you have contributed to
+produce.
+
+743
+00:48:02,160 --> 00:48:07,200
+But still in a database you have
+what, 300 cases for a family of
+
+744
+00:48:07,200 --> 00:48:10,480
+cases, But it's not enough to,
+you know, to have something
+
+745
+00:48:10,480 --> 00:48:13,640
+which can be reused for
+anything.
+
+746
+00:48:14,000 --> 00:48:18,320
+So this means that every time
+you change, you need to run 300
+
+747
+00:48:18,320 --> 00:48:21,560
+and yes, or, or one model that
+yes or whatever.
+
+748
+00:48:21,560 --> 00:48:25,600
+And that's costly.
+And yeah, So no, I, I.
+
+749
+00:48:25,840 --> 00:48:29,480
+That's kind of why I think there
+is a connection between the two
+
+750
+00:48:29,480 --> 00:48:35,720
+for sure that the the the
+underlying CFD is still the key
+
+751
+00:48:36,000 --> 00:48:39,600
+and making that more affordable.
+Yeah, you're right.
+
+752
+00:48:39,600 --> 00:48:42,880
+There are start-ups like like
+Volcano and others who are
+
+753
+00:48:42,880 --> 00:48:45,520
+trying to come up with very
+computationally efficient codes.
+
+754
+00:48:46,080 --> 00:48:51,160
+But that is kind of the whole
+point of turbans modelling in
+
+755
+00:48:51,160 --> 00:48:54,560
+some ways is to, is to try to
+come up with a way of modelling
+
+756
+00:48:54,560 --> 00:48:57,600
+it in a, in a, in a, in a clever
+way.
+
+757
+00:48:57,720 --> 00:49:02,000
+So, yeah, if it, if it can be
+done, then that would be then
+
+758
+00:49:02,000 --> 00:49:05,600
+that would be good.
+I, I did want to ask you on the,
+
+759
+00:49:05,600 --> 00:49:09,080
+I mean, you're an editor in
+chief of Computers and fluids.
+
+760
+00:49:09,080 --> 00:49:13,800
+You're extremely active in the,
+you know, academic world when it
+
+761
+00:49:13,800 --> 00:49:18,040
+comes to publishing.
+You know, how how are things
+
+762
+00:49:18,040 --> 00:49:20,920
+changing with the rise of like
+ML based papers?
+
+763
+00:49:21,320 --> 00:49:24,800
+You know, what standards should
+they be having?
+
+764
+00:49:24,800 --> 00:49:26,920
+You know, you would previously
+we'd always say, I want to see a
+
+765
+00:49:26,920 --> 00:49:28,640
+mesh requirement study.
+I want to see proof of
+
+766
+00:49:28,640 --> 00:49:32,400
+convergence.
+I want to see, you know what,
+
+767
+00:49:33,520 --> 00:49:36,280
+what standards are you wanting
+and seeing?
+
+768
+00:49:36,280 --> 00:49:38,840
+And and yeah, I'd be interested
+to hear your thoughts as a
+
+769
+00:49:38,840 --> 00:49:40,960
+journal editor.
+Yeah, what we are.
+
+770
+00:49:40,960 --> 00:49:46,120
+Doing right now in computers and
+fluids is to ask to motivate
+
+771
+00:49:46,120 --> 00:49:51,320
+very well why you do need
+machine learning and why this is
+
+772
+00:49:51,320 --> 00:49:55,560
+improving over, I would say,
+standard approaches.
+
+773
+00:49:56,680 --> 00:50:00,280
+To give an example, many people
+do OK, we were talking about
+
+774
+00:50:00,280 --> 00:50:04,680
+surrogates and they say, OK, I
+want to design a new airfoil.
+
+775
+00:50:05,120 --> 00:50:10,160
+So new airfoil and for that I
+generated a database of 10,000
+
+776
+00:50:10,160 --> 00:50:14,040
+run simulations and then I
+trained the surrogate and then
+
+777
+00:50:14,240 --> 00:50:21,520
+here goes my my, my, my optimal
+profile optimized using the
+
+778
+00:50:21,520 --> 00:50:24,120
+surrogate.
+But if you have the
+
+779
+00:50:24,160 --> 00:50:29,680
+computational power to run
+10,000 runs, you can do brute
+
+780
+00:50:29,680 --> 00:50:32,880
+force optimization.
+You don't need actually the
+
+781
+00:50:32,880 --> 00:50:36,640
+surrogates, right.
+So what we are trying to ask is
+
+782
+00:50:36,640 --> 00:50:41,080
+to show clearly that you are
+learning something more than.
+
+783
+00:50:41,720 --> 00:50:45,320
+So your method is, is bringing
+something more either in term of
+
+784
+00:50:46,320 --> 00:50:49,240
+total computational time,
+including the time required to
+
+785
+00:50:49,240 --> 00:50:55,560
+generate the database and in
+terms of improved design or
+
+786
+00:50:55,560 --> 00:51:00,600
+showing that you, you know, you
+are making up for some failure
+
+787
+00:51:00,600 --> 00:51:04,720
+of the plastical model because
+otherwise showing OK, I train
+
+788
+00:51:05,120 --> 00:51:08,200
+surrogate, it works well.
+Here's the optimum.
+
+789
+00:51:08,240 --> 00:51:12,200
+It's, you know, it's, it's not
+I, I believe it, it's, it's,
+
+790
+00:51:12,200 --> 00:51:14,920
+it's better.
+But you know, you are not
+
+791
+00:51:15,840 --> 00:51:19,840
+telling the community what's new
+with respect to things we, we
+
+792
+00:51:20,040 --> 00:51:24,080
+already are able to do.
+For instance, in some cases we
+
+793
+00:51:24,080 --> 00:51:28,920
+have tested some business on Air
+Force, you can generate an Air
+
+794
+00:51:28,920 --> 00:51:31,960
+Force solution of full sealed
+runs in 5 minutes.
+
+795
+00:51:31,960 --> 00:51:34,240
+You know using free FAM or any
+any code.
+
+796
+00:51:34,400 --> 00:51:42,800
+OK to train some farrogates you
+need 20 or 25 or 30 hours of of
+
+797
+00:51:42,800 --> 00:51:46,840
+GPU time.
+So in 20 hours I have largely
+
+798
+00:51:46,840 --> 00:51:49,800
+finished my optimization with my
+old runs code.
+
+799
+00:51:50,080 --> 00:51:54,760
+So the point is to show that
+either you go to more complex
+
+800
+00:51:54,760 --> 00:51:56,760
+models and you can do that
+fastly.
+
+801
+00:51:57,120 --> 00:52:00,600
+So you have, you know, each run
+simulation would take, I don't
+
+802
+00:52:00,600 --> 00:52:05,920
+know, 100 hours and thanks to
+the surrogates, I'm speeding up
+
+803
+00:52:05,920 --> 00:52:09,840
+and I can have it in, I don't
+know, 20 hours or 24 hours or
+
+804
+00:52:09,840 --> 00:52:12,360
+it's not new.
+So what we are asking is that
+
+805
+00:52:12,360 --> 00:52:18,080
+OK, not only show that your
+model has been trained well and
+
+806
+00:52:18,080 --> 00:52:22,800
+it performs better, but also try
+to compare to classical methods,
+
+807
+00:52:22,800 --> 00:52:27,280
+show what's wrong with the
+classical method, what's what
+
+808
+00:52:27,280 --> 00:52:30,440
+what your new machine learning
+method is bringing.
+
+809
+00:52:30,880 --> 00:52:34,560
+And also show eventually where
+your machine learning method is
+
+810
+00:52:34,560 --> 00:52:37,720
+going to fail because that's
+also important, not only
+
+811
+00:52:37,720 --> 00:52:41,880
+showing, you know, positive
+results, but also negative
+
+812
+00:52:41,880 --> 00:52:43,480
+results.
+And that's something the
+
+813
+00:52:43,480 --> 00:52:46,360
+community doesn't like to do too
+much because it's easier to
+
+814
+00:52:46,360 --> 00:52:48,320
+publish when you have good
+results.
+
+815
+00:52:48,320 --> 00:52:51,120
+You know that's.
+That's a very good point
+
+816
+00:52:51,120 --> 00:52:53,520
+actually.
+I, I don't, I think if you look
+
+817
+00:52:53,520 --> 00:53:00,960
+at like Nurips or those papers
+conferences, they mandate like a
+
+818
+00:53:00,960 --> 00:53:05,000
+limitations section where you
+have to put down all the bits
+
+819
+00:53:05,000 --> 00:53:08,320
+where you didn't do it.
+And unless I'm mistaken, that
+
+820
+00:53:09,080 --> 00:53:12,280
+that precedent of very clearly
+pointing out where the
+
+821
+00:53:12,280 --> 00:53:15,640
+limitation is not something
+that's traditionally done right
+
+822
+00:53:15,720 --> 00:53:21,680
+in not in such a clear before
+the conclusions limitations.
+
+823
+00:53:21,680 --> 00:53:25,560
+And yeah, I've often felt that
+there needs to be more
+
+824
+00:53:25,560 --> 00:53:28,920
+transparency also from just the
+CFD side where things are bad,
+
+825
+00:53:29,400 --> 00:53:33,800
+you know, show me examples of
+machine learning, for example,
+
+826
+00:53:33,800 --> 00:53:37,800
+where the where if I pick a
+certain split or, or I pick a
+
+827
+00:53:37,800 --> 00:53:40,760
+thing, I get really bad results.
+It's actually quite important.
+
+828
+00:53:40,760 --> 00:53:45,160
+Or else the conclusion is that
+these models are amazing and
+
+829
+00:53:45,160 --> 00:53:50,480
+standard CF DS gone rather than
+pointing out they're positives
+
+830
+00:53:50,480 --> 00:53:54,400
+and and where they you failed.
+The classic one I guess is in
+
+831
+00:53:54,400 --> 00:53:58,760
+distribution and out of
+distribution where like yeah.
+
+832
+00:53:59,840 --> 00:54:02,120
+Exactly.
+And the other point is to
+
+833
+00:54:02,400 --> 00:54:05,040
+evaluate the models is as also
+discussion.
+
+834
+00:54:05,040 --> 00:54:12,120
+We, we have had as aware compare
+the model on CFD criteria, not
+
+835
+00:54:12,120 --> 00:54:16,240
+only on machine learning
+criteria, because OK, mean
+
+836
+00:54:16,240 --> 00:54:18,640
+squared errors are the standard
+in machine learning.
+
+837
+00:54:18,640 --> 00:54:23,160
+They are useful, whatever, but
+they can be also, you know,
+
+838
+00:54:23,800 --> 00:54:27,920
+misleading, because in
+particular in external
+
+839
+00:54:27,920 --> 00:54:32,400
+aerodynamics, where most of the
+flow is uniform, basically you
+
+840
+00:54:32,400 --> 00:54:36,720
+are training a neural network to
+capture a constant function, and
+
+841
+00:54:36,720 --> 00:54:39,800
+the regions where something's
+going on which are close to the
+
+842
+00:54:39,800 --> 00:54:43,840
+wall are very tiny.
+So if you are wrong in that
+
+843
+00:54:43,840 --> 00:54:48,320
+region comparatively to the
+whole with all the points you
+
+844
+00:54:48,320 --> 00:54:52,680
+have, maybe it's not enough to
+have a, a clear signal on the
+
+845
+00:54:52,680 --> 00:54:55,120
+MSC.
+But you see it if you plot
+
+846
+00:54:55,120 --> 00:54:58,640
+velocity profiles, if you plot
+pressure distribution in
+
+847
+00:54:58,640 --> 00:55:02,760
+general, they are very bumpy.
+If you plot skin friction, skin
+
+848
+00:55:02,760 --> 00:55:05,400
+friction is terrible because in
+that case you are not only
+
+849
+00:55:05,400 --> 00:55:08,800
+reconstructing the flow field,
+the the the velocity field, you
+
+850
+00:55:08,800 --> 00:55:11,480
+are taking the derivatives.
+And it's well known that
+
+851
+00:55:11,480 --> 00:55:14,280
+approximating the derivative of
+a function is more difficult
+
+852
+00:55:14,280 --> 00:55:16,440
+than approximating the function
+itself, right?
+
+853
+00:55:17,000 --> 00:55:21,680
+And so in the machine learning
+community is not used to this
+
+854
+00:55:21,680 --> 00:55:24,440
+criteria, which are the standard
+criteria in CFD.
+
+855
+00:55:24,800 --> 00:55:30,520
+So again, I I think that if you
+pretend to, if you, if you say
+
+856
+00:55:30,520 --> 00:55:33,880
+that you are going to replace
+standard CFD approaches with
+
+857
+00:55:33,880 --> 00:55:37,280
+machine learning, then you have
+to show that machine learning is
+
+858
+00:55:37,280 --> 00:55:40,240
+able to provide the same thing
+that the CFD group is able to
+
+859
+00:55:40,240 --> 00:55:42,520
+provide and funny.
+Enough.
+
+860
+00:55:42,520 --> 00:55:46,320
+I was having this discussion on
+a, on a, on a paper we're
+
+861
+00:55:46,320 --> 00:55:51,640
+putting out where it's also the
+case, isn't it, that in machine
+
+862
+00:55:51,640 --> 00:55:58,040
+learning, because you have,
+let's say, 300 or 100 or 50 test
+
+863
+00:55:58,600 --> 00:56:05,120
+cases, you'll average over them.
+And as your number where that
+
+864
+00:56:05,800 --> 00:56:11,920
+has the same risk of some are
+really bad, some are really
+
+865
+00:56:11,920 --> 00:56:13,240
+good.
+And then you have lots in the
+
+866
+00:56:13,240 --> 00:56:15,440
+middle.
+Or is it you have lots, you
+
+867
+00:56:15,440 --> 00:56:18,000
+know, how, how bad is bad, how
+good is good?
+
+868
+00:56:18,000 --> 00:56:23,120
+And, and this isn't fully
+explained just by a single
+
+869
+00:56:23,120 --> 00:56:26,320
+number.
+So this, as you say, almost
+
+870
+00:56:27,000 --> 00:56:33,560
+doing a deeper analysis and
+showing I, I guess that what
+
+871
+00:56:33,560 --> 00:56:38,320
+someone described to me is they
+to, to the early point of like
+
+872
+00:56:38,320 --> 00:56:42,560
+hype because of the way the
+results are presented today,
+
+873
+00:56:43,120 --> 00:56:48,360
+where an R-squared value or even
+l ^2 gives such low errors, it
+
+874
+00:56:48,400 --> 00:56:51,200
+looks like they're perfect.
+But then when they try and
+
+875
+00:56:51,200 --> 00:56:54,480
+practice and they don't see as
+good, it almost creates A
+
+876
+00:56:54,480 --> 00:56:59,080
+disappointment, which if the
+paper had shown it, they
+
+877
+00:56:59,080 --> 00:57:01,000
+probably would not be
+disappointed because it would
+
+878
+00:57:01,000 --> 00:57:03,920
+just be meeting the expectation
+where yes.
+
+879
+00:57:03,920 --> 00:57:07,560
+So I would agree with you, part
+of that is down to the way that
+
+880
+00:57:07,880 --> 00:57:09,840
+the results have been presented.
+Yeah.
+
+881
+00:57:10,480 --> 00:57:13,240
+There is quite a lot of
+overselling, but that's because
+
+882
+00:57:13,240 --> 00:57:16,720
+of the economical model also to
+continue, you know, and, and
+
+883
+00:57:16,720 --> 00:57:20,480
+the, and the publication system,
+which is a bit too, you know,
+
+884
+00:57:21,240 --> 00:57:23,880
+especially in, in some
+countries, that's not the case
+
+885
+00:57:23,880 --> 00:57:26,040
+in France, but in some
+countries, there's this huge
+
+886
+00:57:26,040 --> 00:57:29,080
+pressure for publication for
+being the 1st for, you know,
+
+887
+00:57:29,520 --> 00:57:32,840
+this is the store.
+And I think this, this, this
+
+888
+00:57:33,800 --> 00:57:38,320
+rush to publication publishing
+more and more in higher impact
+
+889
+00:57:38,320 --> 00:57:44,280
+in juveniles and so on, in the
+end is increasing in the, the
+
+890
+00:57:44,280 --> 00:57:50,360
+signal to noise ratio at, at
+such a point that people don't
+
+891
+00:57:50,360 --> 00:57:53,640
+even read the papers.
+They just read reviews of paper
+
+892
+00:57:53,640 --> 00:57:56,240
+which are automatically
+generated by AIS.
+
+893
+00:57:56,520 --> 00:57:59,640
+So there is something
+fundamentally wrong in this
+
+894
+00:57:59,680 --> 00:58:03,240
+because, you know, which should
+remain at a reasonable level
+
+895
+00:58:03,240 --> 00:58:07,560
+where humans are talking to
+humans because, you know, we're
+
+896
+00:58:07,560 --> 00:58:10,160
+trying to produce human
+knowledge in the end.
+
+897
+00:58:10,240 --> 00:58:14,640
+Because what's the point if all
+the AI is told to each other,
+
+898
+00:58:14,920 --> 00:58:17,680
+hey, what are we going to do as
+you?
+
+899
+00:58:18,600 --> 00:58:23,640
+I'm going to look at the beach.
+What the beach is not really not
+
+900
+00:58:23,640 --> 00:58:27,560
+bad, but stay on the beach all
+the year.
+
+901
+00:58:29,040 --> 00:58:30,520
+You have to find something else
+to do.
+
+902
+00:58:31,760 --> 00:58:36,240
+So, yeah, no, I think that we
+should maybe slow down a little
+
+903
+00:58:36,240 --> 00:58:41,680
+bit and do what well people used
+to do some years ago, which
+
+904
+00:58:41,680 --> 00:58:47,600
+means publish less, but publish
+more thoughtful papers and wait
+
+905
+00:58:47,600 --> 00:58:52,240
+a little bit before publishing.
+And when you publish, publish
+
+906
+00:58:52,240 --> 00:58:54,600
+something which is more
+complete, you have looked to all
+
+907
+00:58:54,600 --> 00:59:00,480
+the consequences and you know,
+thought to all the possible yes.
+
+908
+00:59:01,040 --> 00:59:04,480
+Do you know what you mean?
+This is the, the good and the
+
+909
+00:59:04,480 --> 00:59:07,840
+bad thing of things like archive
+where there's almost a sense of
+
+910
+00:59:08,680 --> 00:59:11,680
+let's get it out there.
+We want people to see it.
+
+911
+00:59:11,680 --> 00:59:14,560
+It's a preprint.
+The preprint supposed to be
+
+912
+00:59:14,560 --> 00:59:17,360
+taken as well.
+You know, this hasn't been
+
+913
+00:59:17,360 --> 00:59:21,000
+reviewed yet.
+But unfortunately people just
+
+914
+00:59:21,000 --> 00:59:25,560
+take it as the main thing.
+And because things are moving so
+
+915
+00:59:25,560 --> 00:59:28,920
+fast, the, the fact that it
+hasn't been reviewed is
+
+916
+00:59:28,920 --> 00:59:32,840
+sometimes almost ignored, you
+know, by, by, by people in a
+
+917
+00:59:32,840 --> 00:59:36,640
+way.
+So it's, I agree with you there,
+
+918
+00:59:37,960 --> 00:59:42,160
+the pace necessitates sometimes
+to put it out, but at the same
+
+919
+00:59:42,160 --> 00:59:45,600
+time that feeling in your back
+at the head of going, well, I
+
+920
+00:59:45,600 --> 00:59:48,440
+could really do with another
+month or two to really deeply
+
+921
+00:59:48,440 --> 00:59:51,680
+investigate this.
+Is.
+
+922
+00:59:52,080 --> 00:59:55,600
+Balanced against the desire just
+to get something out, it's.
+
+923
+00:59:56,320 --> 00:59:58,080
+It's a tricky 1 and.
+On the other.
+
+924
+00:59:58,080 --> 01:00:02,560
+Hand the editorial The standard
+editorial system is being
+
+925
+01:00:02,640 --> 01:00:06,000
+flooded by papers.
+So it's becoming more and more
+
+926
+01:00:06,000 --> 01:00:10,000
+difficult to keep quality in the
+review process.
+
+927
+01:00:11,920 --> 01:00:17,160
+You know when when you are
+flooded by 10s of papers every
+
+928
+01:00:17,160 --> 01:00:20,440
+day, OK.
+And you have to process them and
+
+929
+01:00:20,440 --> 01:00:22,520
+you have to send them to
+reviewers.
+
+930
+01:00:22,520 --> 01:00:25,840
+You have to find reviewers who
+are also flooded by other
+
+931
+01:00:25,840 --> 01:00:29,400
+journals because there are many
+journals, OK, many, many
+
+932
+01:00:29,400 --> 01:00:32,960
+journals and more journals are,
+are being created and so on.
+
+933
+01:00:33,440 --> 01:00:39,280
+So at some point it's just, you
+know, just an escalation and
+
+934
+01:00:39,280 --> 01:00:42,000
+it's very difficult to control
+the quality of the papers and
+
+935
+01:00:42,320 --> 01:00:47,120
+what in, in free mechanics,
+things are becoming difficult,
+
+936
+01:00:47,120 --> 01:00:50,640
+but they are still under control
+to some extent because it's a
+
+937
+01:00:50,800 --> 01:00:53,960
+small community.
+But you have seen the examples
+
+938
+01:00:53,960 --> 01:00:58,280
+of these big conferences like
+Europe's where they have 10s of
+
+939
+01:00:58,280 --> 01:01:03,120
+thousands of papers, where most
+of the papers are written by AI
+
+940
+01:01:03,120 --> 01:01:08,920
+and reviewed by AI.
+And so what's, what's the
+
+941
+01:01:08,920 --> 01:01:11,840
+meaning of the review process in
+that case?
+
+942
+01:01:11,840 --> 01:01:15,240
+You don't review it at all.
+You just put it for free on the
+
+943
+01:01:15,240 --> 01:01:17,840
+website and who wants to read
+it?
+
+944
+01:01:18,840 --> 01:01:22,880
+So I think that the, the, the
+rush to having more and more and
+
+945
+01:01:22,880 --> 01:01:27,640
+more papers, which is also due
+to the, you know, to the
+
+946
+01:01:27,640 --> 01:01:31,480
+publishers is in some sense
+killing system.
+
+947
+01:01:31,480 --> 01:01:36,600
+Because if the review level
+falls below a given pressure, at
+
+948
+01:01:36,600 --> 01:01:39,920
+some point, there is no point in
+going through a standard review
+
+949
+01:01:39,920 --> 01:01:43,680
+process because there is no
+added values in going through
+
+950
+01:01:43,680 --> 01:01:47,440
+that review.
+So you just produce your your
+
+951
+01:01:47,440 --> 01:01:50,800
+paper, you put it somewhere and
+the people look at it if they
+
+952
+01:01:50,800 --> 01:01:54,400
+want and that's it.
+And if you are in the hype, you
+
+953
+01:01:54,400 --> 01:01:58,080
+are in, let's say, famous
+scheme, very visible and so on,
+
+954
+01:01:58,080 --> 01:02:01,960
+people will have followers who
+will read your paper because
+
+955
+01:02:01,960 --> 01:02:04,520
+it's you.
+So we are lifting from
+
+956
+01:02:04,520 --> 01:02:08,320
+scientists to influencers.
+And that's a bit, you know,
+
+957
+01:02:08,320 --> 01:02:10,120
+scary for me.
+Yeah.
+
+958
+01:02:10,560 --> 01:02:15,760
+Yeah, no, no the.
+So how does this, you know,
+
+959
+01:02:15,760 --> 01:02:19,440
+translate and what it what's
+what are your trying to achieve
+
+960
+01:02:19,440 --> 01:02:23,560
+with with, you know, the new
+position that Sobhan the AI
+
+961
+01:02:23,560 --> 01:02:24,840
+centre?
+Could you maybe tell a little
+
+962
+01:02:24,840 --> 01:02:28,920
+bit more about your place and
+and kind of your vision to how
+
+963
+01:02:28,920 --> 01:02:33,200
+to do, I guess, AI for science
+and AI for engineering and and
+
+964
+01:02:33,200 --> 01:02:37,080
+and maybe take some of those
+rigorous things that you've
+
+965
+01:02:37,640 --> 01:02:41,320
+taken from the fluid mechanics
+world in into this side?
+
+966
+01:02:41,320 --> 01:02:43,320
+That'd be.
+I love your shiny new Offit So I
+
+967
+01:02:43,320 --> 01:02:46,760
+wanted to hear more.
+Yeah.
+
+968
+01:02:47,280 --> 01:02:50,440
+Well, actually, well, in
+Sorbonne we have this centre,
+
+969
+01:02:50,440 --> 01:02:53,080
+Sky Sorbonne.
+The beginning, the name was
+
+970
+01:02:53,080 --> 01:02:56,320
+Sorbonne Centre for Artificial
+Intelligence, which was created
+
+971
+01:02:56,320 --> 01:03:04,360
+seven years ago at the beginning
+of the AI hype, because we had
+
+972
+01:03:04,360 --> 01:03:08,160
+the strong teams in computer
+science and also in applied
+
+973
+01:03:08,160 --> 01:03:11,160
+mathematics working on that.
+So basically at the beginning,
+
+974
+01:03:11,240 --> 01:03:17,040
+Sky has been created by applied
+mathematicians and and computer
+
+975
+01:03:17,040 --> 01:03:21,480
+scientists alongside with some
+people from humanities and from
+
+976
+01:03:21,480 --> 01:03:24,400
+other sciences, for instance of
+computational biology, this kind
+
+977
+01:03:24,400 --> 01:03:28,720
+of thing.
+And well, it has helped a lot in
+
+978
+01:03:28,760 --> 01:03:33,040
+in making.
+So in making AI, it's a one
+
+979
+01:03:33,040 --> 01:03:36,560
+visible.
+They have generated a lot of
+
+980
+01:03:36,960 --> 01:03:39,760
+activities we have.
+So at at some point we have been
+
+981
+01:03:39,760 --> 01:03:42,400
+labeled by the French government
+as clusters.
+
+982
+01:03:42,400 --> 01:03:45,320
+So now the sea in sky stands for
+cluster.
+
+983
+01:03:47,040 --> 01:03:50,360
+And these clusters are sort of
+centres of excellence in France.
+
+984
+01:03:50,360 --> 01:03:55,680
+There are nine of them which are
+supposed to foster research in
+
+985
+01:03:55,680 --> 01:04:01,680
+AI training and transfer to to
+companies.
+
+986
+01:04:02,520 --> 01:04:07,080
+And well, every cluster has its
+own specificities.
+
+987
+01:04:07,480 --> 01:04:11,680
+But when?
+Well, based on my own experience
+
+988
+01:04:11,680 --> 01:04:15,520
+and based on the very large
+scientific community at
+
+989
+01:04:15,520 --> 01:04:20,520
+Sorbonne, I said, well, right
+now everybody is looking at AI
+
+990
+01:04:20,520 --> 01:04:25,720
+for science because science is
+actually going to be deeply
+
+991
+01:04:25,720 --> 01:04:27,400
+modified.
+The way of doing science is
+
+992
+01:04:27,400 --> 01:04:31,680
+going to be deeply modified by
+the introduction of these AI
+
+993
+01:04:32,600 --> 01:04:36,240
+approaches, which is not the
+machine learning approaches for,
+
+994
+01:04:36,240 --> 01:04:39,680
+you know, improving predictions
+or speeding up predictions, but
+
+995
+01:04:39,680 --> 01:04:48,000
+also reasoning tools and, you
+know, models for, you know, for,
+
+996
+01:04:48,280 --> 01:04:53,800
+for automatizing lab,
+automatizing labs, AI agents
+
+997
+01:04:53,800 --> 01:04:56,800
+and, and all that.
+And I said, well, the, the
+
+998
+01:04:56,800 --> 01:05:00,640
+difficulty with that is that
+when you apply this to science,
+
+999
+01:05:00,640 --> 01:05:03,240
+you have several promos.
+First of all, you are not
+
+1000
+01:05:03,240 --> 01:05:08,320
+dealing with random data.
+It's not images, it's not video.
+
+1001
+01:05:08,400 --> 01:05:14,240
+It's something which has a deep
+physical meaning, which he's
+
+1002
+01:05:14,280 --> 01:05:16,520
+known only to experts from the
+discipline.
+
+1003
+01:05:16,520 --> 01:05:20,720
+So you can train a surrogate or
+whatever, or a foundation model
+
+1004
+01:05:20,720 --> 01:05:22,280
+using, I don't know, chemistry
+data.
+
+1005
+01:05:22,480 --> 01:05:26,240
+But if you don't have a
+chemistry by you to explain, if
+
+1006
+01:05:26,240 --> 01:05:30,840
+what's coming out of the model
+is you know, makes sense from a
+
+1007
+01:05:30,840 --> 01:05:34,560
+chemical point of view or is
+just an hallucination, you don't
+
+1008
+01:05:34,560 --> 01:05:37,320
+know.
+So that's where it's extremely
+
+1009
+01:05:37,320 --> 01:05:41,360
+important to connect people from
+computer science and the
+
+1010
+01:05:41,360 --> 01:05:44,320
+disciplines and also people from
+mathematics because they can
+
+1011
+01:05:44,320 --> 01:05:46,800
+help with the mathematical
+foundations.
+
+1012
+01:05:47,080 --> 01:05:50,520
+What I dream about of is the
+equivalence, you know, LACS
+
+1013
+01:05:50,520 --> 01:05:52,760
+equivalence theorem for machine
+learning.
+
+1014
+01:05:52,760 --> 01:05:55,520
+That would be the growl, you
+know, something that ensures
+
+1015
+01:05:55,520 --> 01:05:58,840
+that you, if you put more data
+in your model, at some point you
+
+1016
+01:05:58,840 --> 01:06:00,480
+are going to converge to
+something.
+
+1017
+01:06:00,480 --> 01:06:03,160
+But you know, that would be
+great.
+
+1018
+01:06:03,160 --> 01:06:06,360
+But so the idea would be to have
+all these people discussing
+
+1019
+01:06:06,360 --> 01:06:08,200
+together.
+And then I realized that some
+
+1020
+01:06:08,200 --> 01:06:11,560
+problems you can have in one
+discipline, for instance, in
+
+1021
+01:06:11,560 --> 01:06:14,080
+high energy physics, you have
+big data.
+
+1022
+01:06:14,280 --> 01:06:19,960
+This data are structured, they
+encode causalities because the
+
+1023
+01:06:19,960 --> 01:06:24,240
+particle I'm capturing here at
+this moment comes from a jet
+
+1024
+01:06:24,240 --> 01:06:28,640
+which has originated there and
+the particle have undergone some
+
+1025
+01:06:28,640 --> 01:06:31,560
+decay process and so on.
+And this, they call this
+
+1026
+01:06:31,600 --> 01:06:34,520
+actually jets of particles.
+And they say, oh, this is the
+
+1027
+01:06:34,520 --> 01:06:37,120
+same you can have in a turbulent
+jet because the jet is
+
+1028
+01:06:37,200 --> 01:06:42,040
+originating from, you know, as
+lice or something as law.
+
+1029
+01:06:42,440 --> 01:06:46,520
+And then you have causalities of
+turbulent, of lamina structures
+
+1030
+01:06:46,520 --> 01:06:48,480
+which eventually become
+turbulent and then they are
+
+1031
+01:06:48,480 --> 01:06:51,680
+modified, they are transported.
+So we have the same problems and
+
+1032
+01:06:51,680 --> 01:06:54,760
+we have to encode these
+causalities because trying to
+
+1033
+01:06:54,760 --> 01:06:58,560
+learn all the physics, all the
+chemistry, all the biology from
+
+1034
+01:06:58,560 --> 01:07:02,640
+scratch, using brute force
+training on data, it's not
+
+1035
+01:07:02,640 --> 01:07:04,760
+efficient because we know the
+physics.
+
+1036
+01:07:04,960 --> 01:07:06,800
+If we know the physics, let's
+use it.
+
+1037
+01:07:07,160 --> 01:07:10,800
+But the problem is then how do
+you really encode that physics?
+
+1038
+01:07:10,800 --> 01:07:12,200
+First of all, you need to know
+it.
+
+1039
+01:07:12,480 --> 01:07:16,280
+So it's not the computer science
+guy who is going to know which
+
+1040
+01:07:16,280 --> 01:07:20,520
+are the constraints which are
+the most suitable for high
+
+1041
+01:07:20,520 --> 01:07:23,920
+energy jets, right?
+So we need the communities to
+
+1042
+01:07:23,920 --> 01:07:26,960
+work together and also some
+problems which have been solved
+
+1043
+01:07:26,960 --> 01:07:29,240
+about causalities.
+I don't know in high energy in
+
+1044
+01:07:29,240 --> 01:07:32,960
+the energy physics community can
+be useful for free mechanics and
+
+1045
+01:07:32,960 --> 01:07:36,800
+cover city.
+For instance, I have talked with
+
+1046
+01:07:36,960 --> 01:07:41,520
+people from plasma physics.
+So in some cases they have
+
+1047
+01:07:41,520 --> 01:07:43,560
+Navier Stokes plus the magnetic
+fields.
+
+1048
+01:07:43,560 --> 01:07:46,880
+They have problems of closures
+because they cannot resolve all
+
+1049
+01:07:46,880 --> 01:07:49,840
+the scales they need to cause
+brain models.
+
+1050
+01:07:49,840 --> 01:07:54,760
+So they have closure problems,
+and maybe something of what we
+
+1051
+01:07:54,760 --> 01:07:57,920
+are doing with turbulence
+modeling can be reduced in that
+
+1052
+01:07:57,920 --> 01:07:59,400
+field.
+I'm collaborating with
+
+1053
+01:07:59,400 --> 01:08:02,280
+volcanologists because in
+volcanoes you need to
+
+1054
+01:08:02,280 --> 01:08:05,960
+characterize the biology of
+magmas and you cannot measure it
+
+1055
+01:08:06,040 --> 01:08:10,320
+and you have simplified models
+which are not accurate enough.
+
+1056
+01:08:10,640 --> 01:08:14,800
+So you can use the techniques we
+use for turbulence modelling to
+
+1057
+01:08:14,800 --> 01:08:18,399
+improve the rheology of magmas.
+So that's where it becomes
+
+1058
+01:08:18,399 --> 01:08:23,240
+exciting to share knowledge
+across the, the different
+
+1059
+01:08:23,240 --> 01:08:27,880
+scientific communities instead
+of having every guy in its
+
+1060
+01:08:27,880 --> 01:08:32,520
+isolated department reinvent
+everything from scratch because
+
+1061
+01:08:32,520 --> 01:08:35,640
+we are reinventing the wheel
+otherwise, you know, and that's
+
+1062
+01:08:35,920 --> 01:08:39,200
+how we are trying to, you know,
+I'm trying to, to, to, to
+
+1063
+01:08:39,640 --> 01:08:43,319
+animate this community.
+And we have a seminar now called
+
+1064
+01:08:43,319 --> 01:08:47,520
+the EI for Science.
+And hopefully we are trying to
+
+1065
+01:08:47,520 --> 01:08:51,840
+apply to funding opportunities,
+even if they are not funding,
+
+1066
+01:08:52,520 --> 01:08:54,960
+just the fact that we are around
+the table and we are thinking
+
+1067
+01:08:54,960 --> 01:08:57,880
+about what we could do together.
+It's already something which
+
+1068
+01:08:57,880 --> 01:09:01,520
+helps building the community.
+And then what people start to
+
+1069
+01:09:01,520 --> 01:09:04,840
+collaborate and I think it's
+beneficial to everybody.
+
+1070
+01:09:04,840 --> 01:09:07,479
+That's, that's my hope at least.
+No, it sounds.
+
+1071
+01:09:07,479 --> 01:09:09,399
+Fantastic.
+And I totally agree there's lots
+
+1072
+01:09:09,399 --> 01:09:13,439
+of I like the ideas that these
+multidisciplinary centres,
+
+1073
+01:09:13,439 --> 01:09:16,800
+particularly in the age of AII
+think it makes complete sense.
+
+1074
+01:09:16,800 --> 01:09:20,920
+And as you say as well helping
+be a bridge to I guess the
+
+1075
+01:09:20,920 --> 01:09:23,640
+industry and startups and and
+and things like that.
+
+1076
+01:09:23,640 --> 01:09:28,120
+That makes makes complete sense.
+I guess maybe to, as we come to
+
+1077
+01:09:28,120 --> 01:09:33,000
+the end, all of these new
+things, all of these topics that
+
+1078
+01:09:33,000 --> 01:09:36,200
+have come up since, since I
+guess you did your original
+
+1079
+01:09:36,200 --> 01:09:41,439
+studies, you know, how does this
+affect the education system?
+
+1080
+01:09:41,680 --> 01:09:46,399
+You know, what should young
+fluid mechanics researchers be
+
+1081
+01:09:47,720 --> 01:09:50,920
+be picking today as their PhD
+topics or the undergraduate what
+
+1082
+01:09:50,920 --> 01:09:57,560
+what will prepare them for the
+next 10 to 20 years of of the
+
+1083
+01:09:57,560 --> 01:09:59,360
+world we live in?
+Yeah, I.
+
+1084
+01:09:59,360 --> 01:10:03,640
+Think we are in a very critical
+period for education because
+
+1085
+01:10:03,640 --> 01:10:08,040
+well you and me have been
+educated in a few without AI.
+
+1086
+01:10:08,240 --> 01:10:14,880
+So we have been taught how to to
+solve problems without the help
+
+1087
+01:10:14,880 --> 01:10:21,880
+of AI to how to like to
+interpret critically the results
+
+1088
+01:10:22,320 --> 01:10:27,680
+and how to look for information
+and, you know, how to, to check
+
+1089
+01:10:27,680 --> 01:10:30,200
+if what we are doing is good or
+not and so on.
+
+1090
+01:10:30,560 --> 01:10:33,520
+The problem is that the new
+generation is AI native.
+
+1091
+01:10:33,760 --> 01:10:41,440
+So I, I was hearing, yeah, yeah.
+Because yesterday at the radio
+
+1092
+01:10:41,440 --> 01:10:46,320
+were saying that many teenagers
+now who are going to vote for
+
+1093
+01:10:46,320 --> 01:10:50,400
+the first time are asking AIS
+what should they vote?
+
+1094
+01:10:50,800 --> 01:10:55,520
+Because trust AI is more than
+politicians or more than the
+
+1095
+01:10:55,520 --> 01:10:57,200
+classical media.
+OK.
+
+1096
+01:10:57,600 --> 01:11:00,440
+And they're doing a little bit
+the same with the with the
+
+1097
+01:11:00,440 --> 01:11:04,520
+school, with school teachers and
+with university professor who
+
+1098
+01:11:04,520 --> 01:11:07,920
+are not prepared to that
+because, you know, the students
+
+1099
+01:11:07,920 --> 01:11:11,680
+have smarter than we are and
+they know how to, you know, to
+
+1100
+01:11:11,680 --> 01:11:14,920
+use AI to solve their trade
+mechanics problems, to solve
+
+1101
+01:11:14,920 --> 01:11:19,160
+their thermodynamics problems.
+And you have still teachers who
+
+1102
+01:11:20,160 --> 01:11:24,080
+six months ago, we're not even
+imagining that the problem had
+
+1103
+01:11:24,080 --> 01:11:27,360
+been solved by an AI.
+So right now, many, many
+
+1104
+01:11:27,360 --> 01:11:31,160
+colleagues are scared about the
+fact that students are cheating
+
+1105
+01:11:31,200 --> 01:11:33,680
+with AI.
+But the for me, the problem is
+
+1106
+01:11:33,680 --> 01:11:36,640
+not only cheating.
+The fact is that some students
+
+1107
+01:11:36,640 --> 01:11:42,040
+are basically, you know,
+delegating the task of thinking
+
+1108
+01:11:42,040 --> 01:11:44,360
+to AI.
+That's more much more dangerous.
+
+1109
+01:11:44,720 --> 01:11:49,760
+So what I think is that we have
+to rethink the whole system and
+
+1110
+01:11:49,760 --> 01:11:54,000
+many tasks which were, you know,
+I teach you how to solve a
+
+1111
+01:11:54,000 --> 01:11:59,000
+second order linear ordinary
+differential equations and you
+
+1112
+01:11:59,000 --> 01:12:01,000
+just have the technique to solve
+that.
+
+1113
+01:12:01,000 --> 01:12:05,080
+That's no longer useful because
+you know, ChatGPT knows to do
+
+1114
+01:12:05,080 --> 01:12:08,280
+that very well.
+The problem, we should teach the
+
+1115
+01:12:08,280 --> 01:12:12,800
+students how to analyze the
+results and how to understand if
+
+1116
+01:12:12,800 --> 01:12:18,880
+the result is correct, if it's
+an hallucination, how to
+
+1117
+01:12:18,880 --> 01:12:22,000
+formulate the questions also.
+Because if you don't know how to
+
+1118
+01:12:22,000 --> 01:12:27,720
+ask AI correctly, what to do, AI
+is going to do something you
+
+1119
+01:12:27,720 --> 01:12:31,560
+know you don't control.
+And if you are not cultivated
+
+1120
+01:12:31,560 --> 01:12:35,920
+enough to understand the answer,
+you are just going to accept
+
+1121
+01:12:35,920 --> 01:12:41,600
+whatever comes out without,
+without, you know, without
+
+1122
+01:12:41,680 --> 01:12:43,760
+criticizing what what's coming
+out.
+
+1123
+01:12:44,160 --> 01:12:46,560
+So I think that we have to move
+the shift.
+
+1124
+01:12:46,560 --> 01:12:50,480
+So instead of teaching
+techniques and, you know,
+
+1125
+01:12:50,480 --> 01:12:57,080
+techniques or, or just notions,
+we should teach critical
+
+1126
+01:12:57,080 --> 01:12:59,560
+thinking.
+And that's harder because it,
+
+1127
+01:13:00,120 --> 01:13:05,320
+it, it, it implies a, a
+considerable modification of our
+
+1128
+01:13:05,320 --> 01:13:07,480
+teaching problems and new
+teaching approaches.
+
+1129
+01:13:07,760 --> 01:13:10,920
+It's not easy to do, especially
+in large universities as we
+
+1130
+01:13:10,920 --> 01:13:16,560
+have, I, we have courses with,
+you know, 5500 students.
+
+1131
+01:13:16,840 --> 01:13:21,760
+It's not easy to, you know, to
+have to, to change all the
+
+1132
+01:13:21,760 --> 01:13:24,560
+teaching procedure.
+But it's something we need to do
+
+1133
+01:13:25,120 --> 01:13:29,680
+because without critical
+thinking, basically humans are
+
+1134
+01:13:29,680 --> 01:13:35,920
+going to lose competence.
+And yeah, and, and, and, and,
+
+1135
+01:13:36,280 --> 01:13:39,920
+and in case, in case AI is not
+working, what do we do?
+
+1136
+01:13:40,240 --> 01:13:44,520
+And I had a very nice metaphor
+from a person from the European
+
+1137
+01:13:44,520 --> 01:13:50,800
+committee who said, well, when
+you, when you are, when are you
+
+1138
+01:13:50,800 --> 01:13:58,040
+are a pilot of an aircraft, you
+are 9, I say 8000 or 99900.
+
+1139
+01:13:58,040 --> 01:14:01,840
+Ninety, 100% of the time you are
+going to use the automatic pipe.
+
+1140
+01:14:02,200 --> 01:14:07,080
+But in case of accident, the
+pilot needs to know how to drive
+
+1141
+01:14:07,320 --> 01:14:12,640
+the plane down to safety, right?
+And that's exactly that.
+
+1142
+01:14:12,640 --> 01:14:17,720
+So we, we need to be critical
+because we don't know where the
+
+1143
+01:14:17,720 --> 01:14:20,680
+AI is going to hallucinate even
+we are.
+
+1144
+01:14:20,720 --> 01:14:25,040
+Also, we need to, to understand
+if, for instance, sometimes AI
+
+1145
+01:14:25,040 --> 01:14:28,960
+is able to bring us notions from
+other disciplines which are not
+
+1146
+01:14:28,960 --> 01:14:32,160
+our discipline.
+But if we have methodology, we
+
+1147
+01:14:32,160 --> 01:14:38,080
+know how to analyze if what the,
+the, the, the LMM is saying is
+
+1148
+01:14:38,080 --> 01:14:41,680
+reasonable or not.
+We know how to verify facts and
+
+1149
+01:14:41,680 --> 01:14:45,680
+so on.
+And we have culture, general
+
+1150
+01:14:45,680 --> 01:14:50,680
+culture and language capacity to
+understand then we can control
+
+1151
+01:14:50,680 --> 01:14:54,680
+and we can be enriched as
+professionals, as scientists, as
+
+1152
+01:14:54,680 --> 01:14:59,160
+humans and whatever instead of
+being just, you know, replaced
+
+1153
+01:14:59,520 --> 01:15:01,920
+like in Matrix.
+That's my, my nightmare.
+
+1154
+01:15:01,920 --> 01:15:05,480
+You know, Matrix humans are just
+there to be pumped energy.
+
+1155
+01:15:08,960 --> 01:15:09,480
+Yeah.
+No.
+
+1156
+01:15:09,480 --> 01:15:14,040
+It does.
+It does seem that it's not
+
+1157
+01:15:14,040 --> 01:15:16,600
+universally accepted.
+How best to do this from an
+
+1158
+01:15:16,600 --> 01:15:19,960
+education point of view?
+I've heard some go the other way
+
+1159
+01:15:19,960 --> 01:15:24,000
+and be almost well for an
+undergraduate, we will do lots
+
+1160
+01:15:24,000 --> 01:15:29,720
+of in person examinations and
+basically no homework anymore
+
+1161
+01:15:29,760 --> 01:15:34,080
+because you this is no way of
+knowing the homework.
+
+1162
+01:15:35,480 --> 01:15:39,680
+And, and as you say, there's the
+other side, which is maybe a
+
+1163
+01:15:39,680 --> 01:15:45,760
+little bit more ex, you know, do
+a presentation to explain how
+
+1164
+01:15:45,760 --> 01:15:49,000
+you got there.
+I, I kind of lean a little bit
+
+1165
+01:15:49,000 --> 01:15:52,400
+more to the first one at the
+right stage of your career.
+
+1166
+01:15:52,840 --> 01:15:56,160
+I guess this is more like even a
+secondary school, let's say, you
+
+1167
+01:15:56,160 --> 01:15:59,960
+know, before university, you
+know, the certain things where I
+
+1168
+01:15:59,960 --> 01:16:03,880
+just feel you have to know it
+because as you say, what if
+
+1169
+01:16:03,880 --> 01:16:06,560
+there is a moment where you
+don't, you're on a, you know,
+
+1170
+01:16:06,560 --> 01:16:08,280
+you don't have access to the AI
+tools.
+
+1171
+01:16:09,480 --> 01:16:13,200
+I feel there's like a transition
+point when you can expect.
+
+1172
+01:16:14,040 --> 01:16:15,680
+Like if you're doing a P.
+HD.
+
+1173
+01:16:17,000 --> 01:16:18,400
+Or certainly a.
+Postdoc.
+
+1174
+01:16:18,480 --> 01:16:22,400
+I actually think AI is a
+fantastic help and will make you
+
+1175
+01:16:22,400 --> 01:16:26,640
+more productive, make you be
+able to do more things, help you
+
+1176
+01:16:26,640 --> 01:16:28,960
+achieve what you want to do
+faster and better, and
+
+1177
+01:16:28,960 --> 01:16:32,560
+ultimately get a, you know what
+would have taken you a month to
+
+1178
+01:16:32,560 --> 01:16:36,440
+write some coding, which wasn't
+your main task, it was just you
+
+1179
+01:16:36,440 --> 01:16:39,480
+had to do it to get there.
+AI will accelerate it.
+
+1180
+01:16:39,480 --> 01:16:43,240
+But if you're at the
+undergraduate level or or still
+
+1181
+01:16:43,240 --> 01:16:48,240
+at school or something, I feel
+that's probably where AI should
+
+1182
+01:16:48,240 --> 01:16:53,320
+only be used to help you learn
+something, but not it shouldn't
+
+1183
+01:16:53,320 --> 01:16:57,120
+be used like a calculator almost
+or or or you will.
+
+1184
+01:16:57,120 --> 01:16:58,760
+Just not.
+Understand the fundamental
+
+1185
+01:16:59,320 --> 01:17:04,120
+theory, it can be used.
+As a mate you know because you
+
+1186
+01:17:04,120 --> 01:17:11,560
+can no say tell the EI ask me
+questions and give the answer
+
+1187
+01:17:11,560 --> 01:17:14,000
+and then the EI can analyze the
+tutor.
+
+1188
+01:17:14,240 --> 01:17:18,000
+Yes, and it.
+Makes, you know, learning more
+
+1189
+01:17:18,000 --> 01:17:20,200
+interactive.
+In my research, sometimes I feel
+
+1190
+01:17:20,200 --> 01:17:23,200
+alone and I don't have a
+colleague to discuss about the
+
+1191
+01:17:23,200 --> 01:17:25,440
+point.
+So I take an AI and say, what do
+
+1192
+01:17:25,440 --> 01:17:28,480
+you think about this idea?
+And so we start the conversation
+
+1193
+01:17:28,480 --> 01:17:31,080
+and that's useful.
+And then, you know, the AI is
+
+1194
+01:17:31,080 --> 01:17:33,120
+bringing some ideas.
+So, yeah, yeah.
+
+1195
+01:17:33,120 --> 01:17:35,000
+Or.
+Explaining new topic.
+
+1196
+01:17:35,000 --> 01:17:38,040
+I often do that when I'm trying
+to and you can ask it.
+
+1197
+01:17:38,040 --> 01:17:40,440
+And the great thing I find is
+that it has these different
+
+1198
+01:17:40,440 --> 01:17:44,480
+levels where you could say, OK,
+sometimes I'll ask like, can you
+
+1199
+01:17:44,480 --> 01:17:48,000
+show me that in a code like how
+would you actually code this up?
+
+1200
+01:17:48,320 --> 01:17:52,840
+Which would be hard for a tutor
+to do instantly like a person to
+
+1201
+01:17:52,920 --> 01:17:57,120
+be that flexible to move from
+reasoning.
+
+1202
+01:17:57,120 --> 01:18:00,840
+To code and back and so on.
+Because you are, yeah, easily
+
+1203
+01:18:00,840 --> 01:18:05,000
+lost in, you know, coding
+details and so on That that
+
+1204
+01:18:05,080 --> 01:18:07,200
+yeah, that's that's actually
+great.
+
+1205
+01:18:07,840 --> 01:18:11,840
+But the problem is to explain to
+the young generations that
+
+1206
+01:18:12,040 --> 01:18:16,440
+that's the way probably to use
+the AI more like a companion
+
+1207
+01:18:16,720 --> 01:18:22,880
+then like an entity that is
+going to do the work in my stead
+
+1208
+01:18:23,080 --> 01:18:28,320
+while I'm, I don't know, playing
+video games or something.
+
+1209
+01:18:28,320 --> 01:18:32,720
+That's that's not the point.
+And, and they need so the
+
+1210
+01:18:32,720 --> 01:18:37,320
+problem is to explain them what
+are the risks and why they are
+
+1211
+01:18:37,560 --> 01:18:41,680
+missing something if they use AI
+only for that.
+
+1212
+01:18:42,000 --> 01:18:44,080
+So I can understand that
+sometimes you need to
+
+1213
+01:18:44,080 --> 01:18:46,960
+accelerate, you know, you have
+to give a report or you are a
+
+1214
+01:18:46,960 --> 01:18:49,440
+little bit in a hurry.
+But if you do that
+
+1215
+01:18:49,440 --> 01:18:52,720
+systematically, then basically
+you are missing your education
+
+1216
+01:18:52,720 --> 01:18:56,040
+because it's not you who is
+going to be educated, but the AI
+
+1217
+01:18:56,040 --> 01:18:59,760
+and and I and I think.
+In some ways it'll end up
+
+1218
+01:18:59,760 --> 01:19:04,960
+creating a bit of a so A2 tier
+system where in some ways people
+
+1219
+01:19:04,960 --> 01:19:10,560
+will become it's quite capable
+of doing some jobs where it
+
+1220
+01:19:10,560 --> 01:19:16,000
+requires them just to be, you
+know, a functional user of these
+
+1221
+01:19:16,000 --> 01:19:20,520
+tools.
+But it will stop you from maybe
+
+1222
+01:19:20,520 --> 01:19:23,040
+being the the inventor or the
+innovator.
+
+1223
+01:19:23,160 --> 01:19:26,880
+And there it there feels like
+you could, to be fair, you could
+
+1224
+01:19:26,880 --> 01:19:30,760
+probably still do quite good at
+a job if you because these AI
+
+1225
+01:19:30,760 --> 01:19:34,240
+tools are so good.
+But I feel there must be some
+
+1226
+01:19:34,240 --> 01:19:38,200
+points where that lack of deep
+understanding will come and bite
+
+1227
+01:19:38,200 --> 01:19:44,320
+you.
+And so, yeah, it's it's a
+
+1228
+01:19:44,320 --> 01:19:45,240
+challenge.
+Yeah.
+
+1229
+01:19:45,640 --> 01:19:49,840
+We're not in very.
+Specialistic fields as as as so
+
+1230
+01:19:49,840 --> 01:19:51,560
+we are in very specialistic
+fields.
+
+1231
+01:19:52,000 --> 01:19:56,280
+So I don't think that the EI has
+been trained enough.
+
+1232
+01:19:56,400 --> 01:20:01,280
+So that's where you know, you
+bring the new ideas, maybe the
+
+1233
+01:20:01,280 --> 01:20:06,560
+AI strengthens you, accelerates
+you with the coding or allows
+
+1234
+01:20:06,560 --> 01:20:10,160
+you to make connections more
+quickly and so on.
+
+1235
+01:20:10,160 --> 01:20:12,920
+But it's still new.
+We're bringing the ideas.
+
+1236
+01:20:13,320 --> 01:20:17,480
+And if you're you know although
+that.
+
+1237
+01:20:17,840 --> 01:20:25,360
+I do suspect will also be, you
+know, succeeded by AI because
+
+1238
+01:20:25,360 --> 01:20:30,960
+the, you know, the, the AI
+scientist or the AI engineer.
+
+1239
+01:20:31,920 --> 01:20:35,480
+I have to say, I, I, I still
+suspect actually that it will be
+
+1240
+01:20:35,480 --> 01:20:40,240
+able to come up with as many
+ideas as as we, we will be able
+
+1241
+01:20:40,240 --> 01:20:42,080
+to do.
+Maybe not the, you know,
+
+1242
+01:20:42,720 --> 01:20:48,960
+Einstein new completely
+breakthrough thing, but it's
+
+1243
+01:20:48,960 --> 01:20:51,320
+it's certainly going to be an
+interesting test.
+
+1244
+01:20:52,400 --> 01:20:54,840
+Of given.
+That the whole, like your centre
+
+1245
+01:20:54,840 --> 01:20:58,840
+is a good example of it.
+I, I do get the sense that AI
+
+1246
+01:20:58,840 --> 01:21:02,000
+for science or AI for
+engineering is now becoming the
+
+1247
+01:21:02,000 --> 01:21:04,840
+frontier.
+It wasn't five years ago.
+
+1248
+01:21:05,280 --> 01:21:07,120
+It was sort of seen as a niche
+area.
+
+1249
+01:21:07,840 --> 01:21:12,240
+I, I get the sense now that the,
+the world of sort of physical AI
+
+1250
+01:21:12,240 --> 01:21:15,680
+and AI for engineering and AI
+for science is becoming a hot
+
+1251
+01:21:15,680 --> 01:21:18,240
+topic.
+And whenever it's a hot topic
+
+1252
+01:21:18,320 --> 01:21:21,200
+and there's lots of investment
+and money put into it, it, you
+
+1253
+01:21:21,200 --> 01:21:24,320
+know, yeah.
+There is, yeah, some
+
+1254
+01:21:24,320 --> 01:21:29,560
+overselling, yeah.
+But but yes, I guess, I guess
+
+1255
+01:21:29,560 --> 01:21:33,200
+that's the front here.
+And I, well, I want to believe
+
+1256
+01:21:33,200 --> 01:21:35,200
+that.
+Well, even if the guys are
+
+1257
+01:21:35,200 --> 01:21:39,280
+becoming more and more powerful
+and potentially they could even
+
+1258
+01:21:39,360 --> 01:21:43,720
+won a Nobel Prize at some point
+if you think about alpha fold
+
+1259
+01:21:43,720 --> 01:21:46,880
+for instance.
+It's well.
+
+1260
+01:21:48,000 --> 01:21:51,680
+What's new is the fact that in a
+few years they could discover
+
+1261
+01:21:51,680 --> 01:21:55,400
+thousands and hundreds of
+thousands of proteins which are
+
+1262
+01:21:55,400 --> 01:21:59,080
+much more than the 2000 and
+something proteins they had
+
+1263
+01:21:59,080 --> 01:22:01,520
+discovered during the past 50
+years.
+
+1264
+01:22:02,280 --> 01:22:08,920
+So every protein structure was
+PhD thesis and now you can
+
+1265
+01:22:08,920 --> 01:22:12,600
+generate plenty of them, you
+know, just with with with these
+
+1266
+01:22:12,720 --> 01:22:17,000
+AR.
+So what was new was the fact of
+
+1267
+01:22:17,000 --> 01:22:19,440
+being able to accelerate so
+much.
+
+1268
+01:22:19,440 --> 01:22:23,440
+But still without the knowledge
+of the proteins from the past,
+
+1269
+01:22:23,680 --> 01:22:25,800
+it wouldn't have been possible
+to have that.
+
+1270
+01:22:26,000 --> 01:22:29,600
+And the same for climate.
+If now climate models are so
+
+1271
+01:22:29,600 --> 01:22:34,880
+good, that's because for 10s of
+years people have developed
+
+1272
+01:22:34,880 --> 01:22:38,960
+better and better climate model,
+the classical ones, and they
+
+1273
+01:22:39,040 --> 01:22:43,840
+have done data simulation and
+then they have done all the
+
+1274
+01:22:43,840 --> 01:22:46,880
+reanalysis from the beginning.
+And with that they have
+
+1275
+01:22:46,880 --> 01:22:50,480
+generated the huge databases
+which can be used for by the
+
+1276
+01:22:50,480 --> 01:22:53,000
+models.
+And also, well, everything is
+
+1277
+01:22:53,000 --> 01:22:55,320
+like that.
+That's because we have huge
+
+1278
+01:22:55,640 --> 01:23:00,120
+amounts of human knowledge
+accumulated over years, which
+
+1279
+01:23:00,120 --> 01:23:05,480
+can be injected in these models.
+But what once all the knowledge
+
+1280
+01:23:05,480 --> 01:23:07,880
+will be generated by by these
+things?
+
+1281
+01:23:08,160 --> 01:23:11,080
+Probably, I don't know, Maybe at
+some point they will become so
+
+1282
+01:23:11,080 --> 01:23:14,840
+intelligent with these emergent
+phenomena, they will be able to
+
+1283
+01:23:14,840 --> 01:23:18,280
+create something new that
+happens in very complex systems.
+
+1284
+01:23:19,200 --> 01:23:24,360
+But I, I, I I I'm.
+But I, I hope humans has still a
+
+1285
+01:23:24,360 --> 01:23:26,160
+role to play.
+Oh yes.
+
+1286
+01:23:27,040 --> 01:23:29,840
+And that.
+Well, and that instead of being
+
+1287
+01:23:29,840 --> 01:23:35,000
+replaced by these AIS, well, one
+of the person who participates,
+
+1288
+01:23:35,000 --> 01:23:38,480
+a Jesse Taylor, he's a, he's a
+physicist from MIT and he
+
+1289
+01:23:38,480 --> 01:23:41,640
+participated to our AI for
+science launch play.
+
+1290
+01:23:41,920 --> 01:23:45,560
+And he came out with his
+metaphor of the Centaur
+
+1291
+01:23:45,680 --> 01:23:48,720
+scientists.
+And I found that as a beautiful
+
+1292
+01:23:48,720 --> 01:23:53,960
+metaphor because as you know, if
+you are two men and not enough
+
+1293
+01:23:53,960 --> 01:23:57,360
+horse, you are too slow.
+If you are two horse and not
+
+1294
+01:23:57,360 --> 01:24:02,160
+enough man, you cannot reason.
+But if you have 1/2 man half
+
+1295
+01:24:02,160 --> 01:24:05,360
+horse, you can go as fast as a
+horse while having all, you
+
+1296
+01:24:05,360 --> 01:24:08,840
+know, the creativity and and
+width of a human.
+
+1297
+01:24:09,160 --> 01:24:13,800
+And so, well, I, I adopted this
+idea and say that, well, our
+
+1298
+01:24:13,880 --> 01:24:17,760
+role would be to generate to,
+to, to train the next generation
+
+1299
+01:24:17,760 --> 01:24:22,000
+of Centaur scientists and
+Centaur professionals and not
+
+1300
+01:24:22,000 --> 01:24:26,320
+just horse.
+I like that.
+
+1301
+01:24:26,640 --> 01:24:29,480
+You know, and that's, that's
+probably a great way to end this
+
+1302
+01:24:29,480 --> 01:24:32,600
+in the, in the sense of I agree
+with you that it's, it's about
+
+1303
+01:24:33,040 --> 01:24:36,320
+the coupling of, of human and
+AI.
+
+1304
+01:24:36,320 --> 01:24:41,920
+It's about being progressive and
+optimistic about AI, but not
+
+1305
+01:24:41,920 --> 01:24:45,800
+forgetting the, the sort of
+human role role in it.
+
+1306
+01:24:45,800 --> 01:24:50,480
+And, and I would argue that
+today the human specialist is
+
+1307
+01:24:50,480 --> 01:24:54,760
+needed even more because, you
+know, to, to help develop these
+
+1308
+01:24:54,760 --> 01:24:57,080
+AI models and make them accurate
+and point them in the right
+
+1309
+01:24:57,080 --> 01:25:00,080
+direction.
+But maybe we need to talk again
+
+1310
+01:25:00,080 --> 01:25:04,320
+in two years time and, and see
+where things have gone.
+
+1311
+01:25:04,320 --> 01:25:08,040
+It'd be interesting to to listen
+back and see as it shot off like
+
+1312
+01:25:08,040 --> 01:25:10,160
+this is, is it the same?
+Is it less?
+
+1313
+01:25:10,200 --> 01:25:13,520
+That will be an interesting, but
+I really enjoyed this discussion
+
+1314
+01:25:13,520 --> 01:25:16,960
+with you and I personally always
+love working with you on on
+
+1315
+01:25:16,960 --> 01:25:20,680
+various committees and things.
+And yeah, been a pleasure to
+
+1316
+01:25:20,680 --> 01:25:22,160
+have to spend this time with
+you.
+
+1317
+01:25:23,160 --> 01:25:24,920
+OK.
+Thank you for the interview.
+
+1318
+01:25:24,920 --> 01:25:28,120
+It was very, very nice to
+discuss about all this.
+
+1319
+01:25:28,880 --> 01:25:29,640
+Great.
+Thank you.

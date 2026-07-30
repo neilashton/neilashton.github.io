@@ -1,0 +1,278 @@
+/* Individual, first-party podcast episode pages. */
+
+.podcast-episode {
+  max-width: 58rem;
+  margin: 0 auto;
+}
+
+.episode-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+
+  a {
+    font-weight: 650;
+  }
+}
+
+.episode-header {
+  display: grid;
+  align-items: end;
+  gap: clamp(1.5rem, 5vw, 3.5rem);
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.episode-header-copy {
+  min-width: 0;
+
+  h1 {
+    max-width: 15ch;
+    margin: 0.35rem 0 1rem;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: clamp(2.15rem, 6vw, 4.4rem);
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    line-height: 1.02;
+  }
+}
+
+.episode-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  font-weight: 620;
+}
+
+.episode-artwork {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--global-divider-color);
+  background: var(--surface-soft);
+}
+
+.podcast-embed--episode {
+  max-width: none;
+  margin-bottom: 1rem;
+
+  .podcast-embed-slot {
+    min-height: 15rem;
+    aspect-ratio: auto;
+  }
+
+  &.is-loaded .podcast-embed-slot {
+    min-height: 152px;
+    height: 152px;
+  }
+
+  .podcast-embed-poster {
+    padding-block: 2rem;
+  }
+
+  .podcast-embed-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.65rem);
+  }
+}
+
+.episode-platform-links {
+  justify-content: flex-start;
+  margin: 0 0 clamp(3rem, 7vw, 5rem);
+}
+
+.episode-content {
+  max-width: 48rem;
+}
+
+.episode-section {
+  padding: clamp(2.5rem, 6vw, 4.5rem) 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  &:first-child {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  > h2 {
+    margin: 0 0 1.4rem;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: clamp(1.65rem, 3.5vw, 2.35rem);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+
+  > p {
+    max-width: 70ch;
+  }
+}
+
+.episode-overview {
+  color: var(--global-text-color);
+  font-size: 1.02rem;
+  line-height: 1.78;
+
+  p {
+    margin-bottom: 1.15rem;
+  }
+}
+
+.episode-chapters,
+.episode-references {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.episode-chapters li,
+.episode-references li {
+  display: grid;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.episode-chapters li {
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+}
+
+.episode-chapter-time {
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 730;
+}
+
+.episode-references a {
+  overflow-wrap: anywhere;
+  font-weight: 620;
+}
+
+.episode-reference-domain {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--global-text-color-light);
+  font-size: 0.74rem;
+  font-weight: 500;
+}
+
+.episode-transcript-intro,
+.episode-transcript-unavailable {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.episode-transcript {
+  margin-top: 2rem;
+
+  p {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+    margin: 0;
+    padding: 0.8rem 0;
+    border-top: 1px solid var(--global-divider-color);
+    line-height: 1.7;
+  }
+}
+
+.transcript-timestamp {
+  color: var(--global-text-color-light);
+  font-size: 0.76rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
+.episode-pagination {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: clamp(3rem, 7vw, 5rem);
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.episode-pagination-link {
+  display: block;
+  padding: 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color);
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-weight: 600;
+  line-height: 1.35;
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+}
+
+.episode-pagination-link--next {
+  grid-column: 2;
+  text-align: right;
+}
+
+.episode-pagination-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--global-text-color-light);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.episode-archive-link {
+  margin: 1.5rem 0 0;
+  text-align: center;
+
+  a {
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .episode-header {
+    grid-template-columns: 1fr;
+  }
+
+  .episode-artwork {
+    max-width: 24rem;
+  }
+
+  .episode-pagination {
+    grid-template-columns: 1fr;
+  }
+
+  .episode-pagination-link--next {
+    grid-column: 1;
+    text-align: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .episode-chapters li,
+  .episode-transcript p {
+    gap: 0.35rem;
+    grid-template-columns: 1fr;
+  }
+
+  .podcast-embed--episode .podcast-embed-slot {
+    min-height: 18rem;
+  }
+
+  .podcast-embed--episode.is-loaded .podcast-embed-slot {
+    min-height: 152px;
+  }
+}

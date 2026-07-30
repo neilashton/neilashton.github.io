@@ -1,0 +1,4838 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:41,200
+episode.
+Hi and welcome back to the Neil
+
+12
+00:00:41,200 --> 00:00:46,680
+Ashton podcast.
+So I thought we'd do an episode
+
+13
+00:00:46,960 --> 00:00:53,720
+sort of career advice in a way
+episode for people who I didn't
+
+14
+00:00:53,720 --> 00:00:56,080
+see it already.
+I did one in the first season,
+
+15
+00:00:56,080 --> 00:01:00,320
+which was essentially more of an
+academia versus industry
+
+16
+00:01:00,320 --> 00:01:03,960
+question.
+I'll, if you're, if you're on
+
+17
+00:01:03,960 --> 00:01:06,440
+YouTube, I'll, I'll try and put
+a, a link to it here.
+
+18
+00:01:06,440 --> 00:01:08,400
+But if you're listening, you can
+just search for it.
+
+19
+00:01:08,400 --> 00:01:11,040
+I think it was in the first
+season.
+
+20
+00:01:11,040 --> 00:01:14,720
+I can't remember which episode
+now and but you know, I had
+
+21
+00:01:14,720 --> 00:01:18,720
+pretty positive response that
+people find it useful, you know,
+
+22
+00:01:18,720 --> 00:01:21,520
+at different career levels just
+to give some of my personal
+
+23
+00:01:21,520 --> 00:01:24,680
+opinion and things that I've
+observed and learnt along the
+
+24
+00:01:24,680 --> 00:01:27,120
+way.
+But I thought in this episode
+
+25
+00:01:27,120 --> 00:01:31,960
+maybe we would just focus purely
+on the industry as a non
+
+26
+00:01:31,960 --> 00:01:35,480
+academic job, so not university
+or sort of classic research
+
+27
+00:01:35,480 --> 00:01:38,560
+positions.
+Might do that one again, let me
+
+28
+00:01:38,560 --> 00:01:39,760
+know if that would be
+interesting.
+
+29
+00:01:39,760 --> 00:01:44,560
+But I thought just give some
+personal observations that and
+
+30
+00:01:44,560 --> 00:01:47,080
+things that I've learnt along
+the way that maybe I wish I'd,
+
+31
+00:01:47,560 --> 00:01:50,880
+you know, known in the past.
+So I'm going to try and cover
+
+32
+00:01:51,120 --> 00:01:55,960
+maybe four or five things that I
+think would be useful to know
+
+33
+00:01:56,320 --> 00:02:03,360
+for someone who is looking to
+get a job in engineering to
+
+34
+00:02:03,360 --> 00:02:08,160
+understand about potentially
+different roles and options and
+
+35
+00:02:08,479 --> 00:02:12,760
+the the different markets.
+So sort of companies, job roles,
+
+36
+00:02:12,760 --> 00:02:15,640
+career progression.
+And then maybe a bit of a deep
+
+37
+00:02:15,640 --> 00:02:19,640
+dive on actually the tech
+sector, something that obviously
+
+38
+00:02:19,640 --> 00:02:24,200
+I work in and some people have
+asked me, you know, to, to
+
+39
+00:02:24,480 --> 00:02:27,880
+understand a little bit more
+about what sort of roles are,
+
+40
+00:02:27,880 --> 00:02:30,160
+are available and, and what it's
+what it's like.
+
+41
+00:02:31,520 --> 00:02:34,320
+Again, caveat, this is just my
+opinion.
+
+42
+00:02:34,440 --> 00:02:37,840
+I I'm living in the UK.
+I'm going to have a sort of auk
+
+43
+00:02:37,960 --> 00:02:40,680
+slash US bias to, to all of
+this.
+
+44
+00:02:40,680 --> 00:02:44,320
+So if you're listening from a
+different country, apologies if
+
+45
+00:02:44,320 --> 00:02:47,880
+some of this isn't as relevant
+to you, but I, I think most of
+
+46
+00:02:47,880 --> 00:02:49,960
+what I'm talking about
+hopefully, hopefully is.
+
+47
+00:02:51,680 --> 00:02:56,920
+So we'll, we'll, we'll assume
+that we're basically that you
+
+48
+00:02:56,920 --> 00:03:01,040
+have some form of degree or
+you're about to, to, to, to
+
+49
+00:03:01,040 --> 00:03:03,480
+finish degree.
+I appreciate that there are
+
+50
+00:03:03,480 --> 00:03:07,600
+roots without having a
+university degree, but maybe
+
+51
+00:03:07,600 --> 00:03:09,720
+that's for for for another
+episode.
+
+52
+00:03:10,520 --> 00:03:13,280
+So I'm going to assume that you
+have some sort of engineering
+
+53
+00:03:13,360 --> 00:03:15,280
+degree.
+Well, it could be computer
+
+54
+00:03:15,280 --> 00:03:19,040
+science, it could be a more pure
+engineering, it could be sort of
+
+55
+00:03:19,040 --> 00:03:21,680
+more mathematical physics.
+But let's say you're sort of
+
+56
+00:03:21,680 --> 00:03:25,080
+interested in something I would
+call relate to engineering,
+
+57
+00:03:25,080 --> 00:03:27,360
+Although to be honest,
+engineering is a very broad feed
+
+58
+00:03:27,360 --> 00:03:30,320
+though, and you could include
+software and mechanical and
+
+59
+00:03:30,320 --> 00:03:33,000
+aerospace.
+But anyway, let's not get too
+
+60
+00:03:33,000 --> 00:03:34,480
+much down a rabbit hole straight
+away.
+
+61
+00:03:35,440 --> 00:03:42,360
+And so I'd say the first thing
+that you should consider is what
+
+62
+00:03:42,360 --> 00:03:45,720
+sort of company do you want to
+work for?
+
+63
+00:03:46,360 --> 00:03:51,320
+And the way I would tend to
+split this up is you have large
+
+64
+00:03:51,480 --> 00:03:58,360
+enterprise companies like a
+Rolls Royce, an Airbus, a
+
+65
+00:03:58,360 --> 00:04:05,800
+Siemens, an ANSYS, companies
+that have 10s of thousands maybe
+
+66
+00:04:05,960 --> 00:04:10,680
+of, of employees.
+And then you have start-ups,
+
+67
+00:04:10,720 --> 00:04:13,360
+which probably are the complete
+other end where you may only
+
+68
+00:04:13,360 --> 00:04:20,040
+have 10 people, but often in a
+very fast moving, innovative
+
+69
+00:04:20,120 --> 00:04:25,640
+sort of exciting way.
+I would say there's then what
+
+70
+00:04:25,640 --> 00:04:28,840
+some people would call mid
+market sort of smaller
+
+71
+00:04:28,840 --> 00:04:32,440
+enterprise where you may be
+joining a company that has, you
+
+72
+00:04:32,440 --> 00:04:37,520
+know, a hundred 200 people.
+So quite a different sort of
+
+73
+00:04:38,600 --> 00:04:42,400
+company like that.
+I'm trying to think of examples
+
+74
+00:04:44,120 --> 00:04:47,040
+like, I guess even a Formula One
+team would be sort of considered
+
+75
+00:04:47,040 --> 00:04:49,480
+like that.
+I mean, maximum 800 people.
+
+76
+00:04:49,480 --> 00:04:51,000
+I wouldn't call that an
+enterprise.
+
+77
+00:04:51,160 --> 00:04:53,720
+Could be, and I'll explain later
+why.
+
+78
+00:04:54,160 --> 00:04:57,760
+And then you have what I would
+sort of call SM ES, sort of
+
+79
+00:04:57,760 --> 00:05:01,200
+small and medium businesses.
+So these are sort of the catch.
+
+80
+00:05:01,840 --> 00:05:04,880
+Anything in between I, I, I
+suppose where you're going to
+
+81
+00:05:04,880 --> 00:05:11,120
+have something that is more than
+probably 10 people, but less
+
+82
+00:05:11,120 --> 00:05:16,760
+than than sort of 500 people.
+And what I've observed is that
+
+83
+00:05:17,040 --> 00:05:19,360
+they all have the sort of pros
+and cons.
+
+84
+00:05:20,360 --> 00:05:24,680
+If you're going into a large
+enterprise company, let's say
+
+85
+00:05:24,680 --> 00:05:28,240
+like one of those big sort of
+engineering giants in, in, in
+
+86
+00:05:28,240 --> 00:05:33,320
+the UK or the US or Europe, they
+often have graduate schemes.
+
+87
+00:05:33,720 --> 00:05:38,480
+They often have schemes that
+help you to progress within the
+
+88
+00:05:38,480 --> 00:05:41,120
+company and it's very common for
+someone to join one of those
+
+89
+00:05:41,120 --> 00:05:45,240
+sort of companies and be able to
+move around a lot just within
+
+90
+00:05:45,240 --> 00:05:49,640
+that single company.
+So if you join, let's say, doing
+
+91
+00:05:51,160 --> 00:05:56,120
+aerodynamics or, or, or, or CFD
+or like a fluids person, usually
+
+92
+00:05:56,120 --> 00:05:58,400
+they have the ability that if
+you wanted to move more into,
+
+93
+00:05:58,400 --> 00:06:02,120
+let's say project management or,
+or into some other area, there
+
+94
+00:06:02,120 --> 00:06:05,760
+may be options to do it because
+ultimately they want typically
+
+95
+00:06:05,760 --> 00:06:07,600
+to stay in that company.
+And so they're happy for you to
+
+96
+00:06:07,600 --> 00:06:10,600
+move around.
+So in some ways the advantage of
+
+97
+00:06:10,600 --> 00:06:14,840
+that is you have a lot of
+ability to move sideways and,
+
+98
+00:06:14,840 --> 00:06:18,720
+and potentially upwards because
+it's such a large company and
+
+99
+00:06:18,720 --> 00:06:24,800
+they typically have very mature
+schemes on training and
+
+100
+00:06:24,800 --> 00:06:26,440
+development.
+So particularly if you're a sort
+
+101
+00:06:26,440 --> 00:06:30,320
+of early career, you'll have a
+lot of help to, to progress a
+
+102
+00:06:30,320 --> 00:06:33,840
+lot of continuous professional
+development and just, you know,
+
+103
+00:06:33,840 --> 00:06:37,520
+lots of support because
+ultimately these companies want
+
+104
+00:06:38,120 --> 00:06:41,920
+to keep you, they spent a lot of
+money, you know, employing you
+
+105
+00:06:42,000 --> 00:06:45,200
+through the interview process
+and they're quite well set up
+
+106
+00:06:45,200 --> 00:06:49,160
+for that.
+So that's the sort of advantage
+
+107
+00:06:49,160 --> 00:06:51,800
+of that.
+They, but maybe the disadvantage
+
+108
+00:06:52,480 --> 00:06:56,960
+is that they can often be such a
+large company that they can be a
+
+109
+00:06:56,960 --> 00:07:01,000
+little bit more sort of
+bureaucracy.
+
+110
+00:07:02,280 --> 00:07:04,480
+And what I mean by that is
+there's a lot of sort of
+
+111
+00:07:04,480 --> 00:07:08,080
+processes and, and tickets to
+file because they've had to
+
+112
+00:07:08,080 --> 00:07:12,080
+scale out, you know, maybe they
+have 100,000 employees.
+
+113
+00:07:12,720 --> 00:07:17,760
+So that can sometimes mean that
+it's harder to know face to face
+
+114
+00:07:17,760 --> 00:07:20,480
+people because you may just be
+speaking through a, a ticketing
+
+115
+00:07:20,480 --> 00:07:25,040
+system to speak to somebody at,
+you know, within HR or, or if
+
+116
+00:07:25,040 --> 00:07:28,320
+you want to do something IT, you
+can't just go to someone's desk,
+
+117
+00:07:28,320 --> 00:07:30,720
+you may have to file something.
+So they, it's sort of a
+
+118
+00:07:30,720 --> 00:07:34,520
+different vibe, I guess.
+But particularly at an early
+
+119
+00:07:34,520 --> 00:07:38,360
+stage, they can be quite useful
+because the game there, they
+
+120
+00:07:38,360 --> 00:07:42,760
+want to to help you.
+Now let's go to the complete
+
+121
+00:07:42,760 --> 00:07:44,680
+other one, which is let's say a
+start up.
+
+122
+00:07:45,560 --> 00:07:47,800
+And again, I'm probably thinking
+a little bit now, maybe we're
+
+123
+00:07:47,800 --> 00:07:51,120
+starting off, if you're sort of
+more early career, the
+
+124
+00:07:51,120 --> 00:07:54,760
+enterprise one, as it said,
+graduate schemes sort of safe.
+
+125
+00:07:54,800 --> 00:07:56,840
+They, you know, will help to
+nurture you.
+
+126
+00:07:56,840 --> 00:07:59,480
+They're looking more for your
+long term growth.
+
+127
+00:08:00,160 --> 00:08:04,160
+Let's contrast that with the
+startup where you're essentially
+
+128
+00:08:04,160 --> 00:08:10,040
+joining a company that has to
+work as quickly as possible to
+
+129
+00:08:10,040 --> 00:08:13,640
+deliver something because of the
+way that they're funded, often
+
+130
+00:08:13,640 --> 00:08:17,800
+through venture capital money
+where they've got 125 years to
+
+131
+00:08:17,800 --> 00:08:21,040
+to deliver something.
+And so that is the complete
+
+132
+00:08:21,160 --> 00:08:24,040
+opposite side where the
+expectation is, you know, you're
+
+133
+00:08:24,040 --> 00:08:30,080
+working night and day to deliver
+something, which actually can be
+
+134
+00:08:30,080 --> 00:08:34,720
+quite exciting because you may
+only have 10 people working.
+
+135
+00:08:34,720 --> 00:08:38,159
+You're all maybe in one, you
+know, location or getting on to
+
+136
+00:08:38,159 --> 00:08:41,000
+it.
+There is no bureaucracy per SE.
+
+137
+00:08:41,000 --> 00:08:42,960
+If you need to go and get a
+laptop, you just buy one.
+
+138
+00:08:43,080 --> 00:08:44,680
+If you need to do something, you
+just do it.
+
+139
+00:08:44,920 --> 00:08:49,080
+It's complete opposite side.
+And often they do look for sort
+
+140
+00:08:49,080 --> 00:08:53,640
+of hungry, excited graduates who
+have just come out.
+
+141
+00:08:53,640 --> 00:08:58,240
+Let's have a PhD or maybe even
+just a normal bachelor's or
+
+142
+00:08:58,240 --> 00:09:04,000
+master's degree, but you're not
+going to get that sort of, you
+
+143
+00:09:04,000 --> 00:09:07,480
+know, continual professional
+development that that sense of,
+
+144
+00:09:08,200 --> 00:09:12,920
+you know, slowly helping you to
+do it, courses, training, you
+
+145
+00:09:12,920 --> 00:09:14,960
+know, you may have three months
+to ramp up.
+
+146
+00:09:15,480 --> 00:09:17,800
+That's, that's, that's not the
+way it's going to be.
+
+147
+00:09:17,800 --> 00:09:19,080
+So you're going to be on the
+other end.
+
+148
+00:09:19,080 --> 00:09:24,240
+But the positive thing is if the
+startup does well, you may have
+
+149
+00:09:24,240 --> 00:09:27,240
+been given shares, you could
+financially do quite well out of
+
+150
+00:09:27,240 --> 00:09:30,280
+it and you have a buzz of
+having, you know, delivered
+
+151
+00:09:30,280 --> 00:09:34,280
+something.
+And in for some ways it can be a
+
+152
+00:09:34,280 --> 00:09:42,360
+way to very quickly gain
+knowledge and reputation and can
+
+153
+00:09:42,360 --> 00:09:46,520
+help you to then move on to
+other career paths because
+
+154
+00:09:46,520 --> 00:09:49,000
+you've had to, you know, so
+quickly do something and the
+
+155
+00:09:49,000 --> 00:09:51,960
+startup is very exposed.
+So sometimes, particularly I see
+
+156
+00:09:51,960 --> 00:09:55,440
+in the US going to join startup
+can actually be quite a strong
+
+157
+00:09:55,440 --> 00:09:59,440
+move for, for, for let's say an
+early career person because it
+
+158
+00:09:59,440 --> 00:10:02,200
+gives them a, a sort of very
+rapid head start.
+
+159
+00:10:02,920 --> 00:10:06,600
+And then I'd say, you know, the
+sort of mid market, the
+
+160
+00:10:06,600 --> 00:10:09,040
+companies that have are sort of
+in the middle.
+
+161
+00:10:09,080 --> 00:10:12,000
+I, I guess, you know, you're not
+joining such a massive
+
+162
+00:10:12,120 --> 00:10:14,920
+enterprise company, but you're
+joining something that you know,
+
+163
+00:10:15,440 --> 00:10:20,920
+will help you out, but maybe is
+the best of both worlds.
+
+164
+00:10:20,960 --> 00:10:23,720
+You could sort of say that where
+it's small enough that you might
+
+165
+00:10:23,720 --> 00:10:25,240
+have a strong community of
+people.
+
+166
+00:10:25,240 --> 00:10:28,360
+You would, you would know, you
+might have a, you know, a small
+
+167
+00:10:28,360 --> 00:10:31,760
+team, but there's enough people
+within the organization and they
+
+168
+00:10:31,760 --> 00:10:33,600
+still want to sort of look after
+you.
+
+169
+00:10:33,640 --> 00:10:38,040
+And there is, you know, career
+progression either way.
+
+170
+00:10:38,440 --> 00:10:41,520
+And as small as the SMB
+business.
+
+171
+00:10:41,520 --> 00:10:45,640
+It it's sort of again, a little
+bit closer to a start up that
+
+172
+00:10:45,640 --> 00:10:49,600
+often the, the funding model and
+the career means that, you know,
+
+173
+00:10:49,600 --> 00:10:53,360
+they can't afford to be having
+lots and lots of staff.
+
+174
+00:10:54,360 --> 00:10:58,080
+But one thing I didn't mention
+is in terms of responsibility,
+
+175
+00:10:58,760 --> 00:11:01,960
+sometimes, and I think people
+who work in Formula One would
+
+176
+00:11:01,960 --> 00:11:07,440
+find this, that there's always a
+difference between ownership and
+
+177
+00:11:07,440 --> 00:11:10,120
+responsibility.
+And sometimes when you're a,
+
+178
+00:11:10,400 --> 00:11:13,160
+let's say, you know, early
+graduate, you're quite happy to
+
+179
+00:11:13,160 --> 00:11:16,400
+be given a very small piece of
+something to work on and that's
+
+180
+00:11:16,400 --> 00:11:18,320
+yours.
+But the other time, sometimes
+
+181
+00:11:18,320 --> 00:11:19,920
+you think I'd like to be working
+all of it.
+
+182
+00:11:19,920 --> 00:11:24,800
+So as an example, you know, if
+you're working in some very
+
+183
+00:11:24,800 --> 00:11:28,080
+large engineering company, you
+might be responsible just for a
+
+184
+00:11:28,080 --> 00:11:32,000
+very, very small part of, let's
+say, that aircraft design or
+
+185
+00:11:32,000 --> 00:11:37,240
+that car design, or that that
+that industrial a piece of
+
+186
+00:11:37,240 --> 00:11:39,000
+equipment or whatever, whatever
+it is.
+
+187
+00:11:39,000 --> 00:11:42,280
+Or in a software company, you
+could be a software development
+
+188
+00:11:42,280 --> 00:11:46,160
+engineer just working on a very
+small part of an overall
+
+189
+00:11:46,160 --> 00:11:49,160
+product.
+But if you're in a smaller
+
+190
+00:11:49,160 --> 00:11:54,080
+company, you may actually be
+responsible for, let's say,
+
+191
+00:11:54,440 --> 00:11:59,560
+designing the whole car, or you
+may be responsible for writing
+
+192
+00:11:59,840 --> 00:12:04,000
+the entire application.
+Now, probably by definition,
+
+193
+00:12:04,080 --> 00:12:05,960
+it's not going to be as
+complicated because if one
+
+194
+00:12:05,960 --> 00:12:08,680
+person can do it versus needing
+500 people, it's obviously a
+
+195
+00:12:08,680 --> 00:12:11,520
+different product.
+But there's a difference between
+
+196
+00:12:11,520 --> 00:12:13,440
+sort of the ownership side of
+it.
+
+197
+00:12:13,880 --> 00:12:16,880
+And that can often be something
+and, and one reason that people
+
+198
+00:12:16,880 --> 00:12:20,480
+switch between sort of large
+companies and small companies
+
+199
+00:12:20,480 --> 00:12:23,120
+because they feel they want to
+have, you know, more ownership
+
+200
+00:12:23,120 --> 00:12:28,600
+or more, more scope to take of a
+whole thing rather than just a
+
+201
+00:12:28,600 --> 00:12:30,800
+narrow fix.
+So the classic example would be
+
+202
+00:12:30,800 --> 00:12:33,720
+in Formula One, a lot of people
+that when they start, you know,
+
+203
+00:12:33,720 --> 00:12:38,000
+they're working just on a front
+wing flap or maybe less so now
+
+204
+00:12:38,000 --> 00:12:40,560
+with the new rules, but
+something very specific.
+
+205
+00:12:40,880 --> 00:12:43,960
+Whereas if you join, let's say,
+a smaller engineering
+
+206
+00:12:43,960 --> 00:12:48,280
+consultancy company that's been
+asked to develop an aero kit for
+
+207
+00:12:48,280 --> 00:12:50,520
+a whole car, you may be asked,
+right, can you do the
+
+208
+00:12:50,520 --> 00:12:53,440
+aerodynamics for the car?
+So it's a very different sort of
+
+209
+00:12:53,440 --> 00:12:56,560
+job.
+Pros and cons on, on, on both
+
+210
+00:12:56,560 --> 00:13:00,080
+sides.
+But then there's also an
+
+211
+00:13:00,080 --> 00:13:04,920
+interesting one, and this is
+maybe where I see and probably
+
+212
+00:13:04,920 --> 00:13:08,680
+not as well known, but this
+barrier between what some people
+
+213
+00:13:08,680 --> 00:13:11,800
+would call sort of traditional
+engineering companies.
+
+214
+00:13:11,920 --> 00:13:14,240
+And that's some of the names
+I've mentioned then like, you
+
+215
+00:13:14,240 --> 00:13:16,200
+know, your Rolls Royce and your
+hairdos and all the others.
+
+216
+00:13:17,920 --> 00:13:23,200
+And then what I would sort of
+call the sort of more slightly
+
+217
+00:13:24,160 --> 00:13:28,960
+newer in a way, but commercial
+or tech companies that actually
+
+218
+00:13:28,960 --> 00:13:33,520
+are increasingly doing more of
+the engineering that the
+
+219
+00:13:33,520 --> 00:13:35,200
+traditional engineering
+companies would do.
+
+220
+00:13:35,200 --> 00:13:39,760
+And what do I mean by that Is
+there are consulting companies,
+
+221
+00:13:40,960 --> 00:13:46,200
+you know, like your Cap Gemini,
+PwC, I'm probably going to
+
+222
+00:13:46,200 --> 00:13:48,840
+forget the names of these
+companies, but all these sort of
+
+223
+00:13:48,840 --> 00:13:54,640
+large consulting companies that
+actually do.
+
+224
+00:13:54,680 --> 00:13:57,640
+And, and I guess you could call
+companies like Arab as well in
+
+225
+00:13:57,640 --> 00:14:04,080
+that when they have specialist
+teams knowledge that help
+
+226
+00:14:04,080 --> 00:14:08,440
+perhaps some of these big
+engineering companies to do some
+
+227
+00:14:08,440 --> 00:14:13,600
+of this work and they either are
+essentially outsourced to that
+
+228
+00:14:13,600 --> 00:14:19,000
+company or they provide expert
+sort of guidance into that
+
+229
+00:14:19,000 --> 00:14:21,600
+company.
+And we could probably go into a
+
+230
+00:14:21,600 --> 00:14:24,600
+bit of a deep dive into this and
+this whole idea that large
+
+231
+00:14:24,600 --> 00:14:29,240
+companies are quite slow to
+innovate versus sort of smaller
+
+232
+00:14:29,240 --> 00:14:32,400
+or, or companies that are
+focused on on that.
+
+233
+00:14:32,880 --> 00:14:38,120
+So there's actually a lot of
+jobs for people to move into the
+
+234
+00:14:38,120 --> 00:14:41,200
+more consulting space.
+And this is sometimes a little
+
+235
+00:14:41,200 --> 00:14:46,920
+bit of a controversial topic,
+particularly the stereotype is
+
+236
+00:14:46,920 --> 00:14:50,480
+that some people when they
+finish their engineering degree
+
+237
+00:14:50,480 --> 00:14:54,400
+will will not go into quote UN
+quote, a traditional engineering
+
+238
+00:14:54,400 --> 00:14:58,720
+company and will instead go to
+one of these consulting
+
+239
+00:14:58,720 --> 00:15:01,320
+companies because there is
+perception of, you know, greater
+
+240
+00:15:01,320 --> 00:15:05,520
+money and a bit more of a sort
+of commercial sort of
+
+241
+00:15:05,520 --> 00:15:07,760
+environment.
+And, and to some extent that is
+
+242
+00:15:07,760 --> 00:15:11,960
+probably true.
+Certainly in the UK it is, maybe
+
+243
+00:15:11,960 --> 00:15:16,920
+it's less so in other countries,
+but there is this sense of these
+
+244
+00:15:16,920 --> 00:15:19,080
+consultants companies that quite
+often, let's say they're based
+
+245
+00:15:19,080 --> 00:15:22,840
+in London, again, sorry, bit of
+Auk centric view here.
+
+246
+00:15:23,800 --> 00:15:25,880
+And they can be a bit more
+exciting because you may be paid
+
+247
+00:15:25,880 --> 00:15:27,200
+a bit more.
+You're living in the city,
+
+248
+00:15:27,200 --> 00:15:31,560
+you're sort of working in a more
+commercial environment where the
+
+249
+00:15:31,560 --> 00:15:34,080
+sort of stereotype of going into
+the engineering company might
+
+250
+00:15:34,080 --> 00:15:36,920
+be, you know, you're in a
+factory in the middle of
+
+251
+00:15:36,920 --> 00:15:42,000
+nowhere, which is sort of true.
+But there are, you know, lots of
+
+252
+00:15:42,000 --> 00:15:45,680
+pros of, of working in those
+engineering companies,
+
+253
+00:15:45,680 --> 00:15:48,840
+particularly if you really,
+really love sort of engineering.
+
+254
+00:15:51,080 --> 00:15:53,360
+Now those companies are
+realizing that and they're
+
+255
+00:15:53,360 --> 00:15:56,240
+obviously trying to change.
+So the engineering companies,
+
+256
+00:15:56,280 --> 00:15:58,880
+the traditional engineering
+companies are trying to, you
+
+257
+00:15:58,880 --> 00:16:03,640
+know, attract younger talent and
+then trying to show that they're
+
+258
+00:16:03,640 --> 00:16:05,520
+more innovative.
+And I think that is certainly
+
+259
+00:16:05,920 --> 00:16:08,880
+becoming the, the, the case.
+But I say it because from a
+
+260
+00:16:08,880 --> 00:16:11,560
+career point of view, if you're
+looking, let's say on a job site
+
+261
+00:16:11,560 --> 00:16:15,000
+or, or or for places, if you're
+into, let's say mechanical
+
+262
+00:16:15,000 --> 00:16:19,000
+engineering or automotive or
+aerospace, there are there are
+
+263
+00:16:19,000 --> 00:16:22,640
+other options than just the big
+traditional engineering
+
+264
+00:16:22,640 --> 00:16:26,320
+companies or even some of those.
+And now we can get into what I
+
+265
+00:16:26,320 --> 00:16:30,920
+would call this hierarchy maybe.
+And hierarchy doesn't mean good
+
+266
+00:16:30,920 --> 00:16:32,840
+to bad.
+It's just in terms of the way
+
+267
+00:16:32,840 --> 00:16:38,000
+that they do it, the there are
+many, many opportunities and
+
+268
+00:16:38,000 --> 00:16:41,040
+companies that supply to the big
+companies.
+
+269
+00:16:41,680 --> 00:16:46,760
+So you know, you don't have
+Airbus may or Boeing may sort of
+
+270
+00:16:47,400 --> 00:16:51,120
+appear to be the aircraft
+manufacturer, but in fact there
+
+271
+00:16:51,120 --> 00:16:55,160
+is hundreds or thousands of
+companies that develop sub
+
+272
+00:16:55,160 --> 00:16:58,480
+components for them.
+And and actually the large
+
+273
+00:16:58,480 --> 00:17:00,440
+company outsource quite a lot to
+it.
+
+274
+00:17:01,440 --> 00:17:03,400
+So it very dependent on the
+company.
+
+275
+00:17:03,400 --> 00:17:07,319
+But it's not the case that to
+work on aircraft design, you
+
+276
+00:17:07,319 --> 00:17:12,240
+have to work maybe at a Boeing
+or Bombardier or or Embraer or
+
+277
+00:17:12,240 --> 00:17:16,880
+or Airbus or whatever.
+But there are sort of Tier 2,
+
+278
+00:17:16,880 --> 00:17:20,520
+tier 3 except companies that
+will build the landing gear or
+
+279
+00:17:20,520 --> 00:17:25,480
+the components or, or or again
+do consulting advice to those.
+
+280
+00:17:25,760 --> 00:17:29,080
+So there's, there's far more of
+those companies and sometimes,
+
+281
+00:17:29,800 --> 00:17:32,480
+and this depends on the sector,
+it can be a stepping stone a
+
+282
+00:17:32,480 --> 00:17:36,600
+little bit if if you wanted to
+get into the big company, but
+
+283
+00:17:36,720 --> 00:17:40,560
+for whatever reason there wasn't
+a job available, then there are
+
+284
+00:17:40,560 --> 00:17:44,000
+options to obviously go to these
+sort of smaller companies,
+
+285
+00:17:44,080 --> 00:17:47,600
+sometimes smaller to gain that
+experience that you may then
+
+286
+00:17:47,600 --> 00:17:49,440
+want to have the experience to
+go up.
+
+287
+00:17:49,440 --> 00:17:53,120
+And, and that's certainly true
+sort of from a motorsport
+
+288
+00:17:53,120 --> 00:17:55,600
+perspective, the classic example
+being people want to work in
+
+289
+00:17:55,600 --> 00:17:57,760
+Formula One.
+There's only a certain number of
+
+290
+00:17:57,760 --> 00:18:01,920
+jobs in Formula One, so either
+you just keep applying, but what
+
+291
+00:18:01,920 --> 00:18:04,280
+do you do in the meantime?
+Well, actually then there are
+
+292
+00:18:04,280 --> 00:18:09,360
+lots of companies that are sort
+of side auxiliary to to Formula
+
+293
+00:18:09,360 --> 00:18:14,920
+One, have a lower Formula One
+series or companies that provide
+
+294
+00:18:14,920 --> 00:18:19,080
+things to the Formula One teams.
+And this is probably where the
+
+295
+00:18:19,080 --> 00:18:24,800
+software side comes into it.
+So again, I suppose I'm, you
+
+296
+00:18:24,800 --> 00:18:28,280
+know, maybe most people
+listening to this I assume are
+
+297
+00:18:28,280 --> 00:18:33,240
+probably more engineering type
+people, but maybe some of you
+
+298
+00:18:34,080 --> 00:18:36,600
+have also done a little bit of
+what I've done, which is
+
+299
+00:18:36,680 --> 00:18:40,760
+appreciate that nowadays
+engineering is very much a
+
+300
+00:18:40,760 --> 00:18:45,000
+software driven industry.
+It's very much a sort of digital
+
+301
+00:18:45,040 --> 00:18:47,920
+industry.
+And that is of course why there
+
+302
+00:18:47,920 --> 00:18:52,520
+are so many software companies,
+software companies doing a whole
+
+303
+00:18:52,520 --> 00:18:57,640
+range of things that
+increasingly have much closer
+
+304
+00:18:57,640 --> 00:19:02,680
+links to engineering.
+And so for example, they have
+
+305
+00:19:02,720 --> 00:19:05,360
+the very large companies, which
+I would still call them now an
+
+306
+00:19:05,360 --> 00:19:11,600
+enterprise like Siemens or Ansys
+or Cadence or DASSO or or the
+
+307
+00:19:11,600 --> 00:19:13,680
+others which I'm probably
+forgetting to mention.
+
+308
+00:19:14,240 --> 00:19:18,320
+These are extremely large
+companies developing a whole
+
+309
+00:19:18,320 --> 00:19:23,960
+range of software that has, you
+know, is explicitly designed to
+
+310
+00:19:23,960 --> 00:19:28,800
+some extent for engineering.
+And so engineers are very
+
+311
+00:19:28,800 --> 00:19:33,280
+attractive both from a software
+engineering point of view, so
+
+312
+00:19:33,280 --> 00:19:37,240
+developing the software, but
+also we'll we'll come into this
+
+313
+00:19:37,240 --> 00:19:39,920
+in a minute in terms of job
+roles, they want people with an
+
+314
+00:19:39,920 --> 00:19:44,280
+engineering background to be
+able to either sell the product,
+
+315
+00:19:44,280 --> 00:19:46,360
+develop the product, research a
+product.
+
+316
+00:19:46,960 --> 00:19:51,440
+So, and that is a very, I would
+say, growing industry to the
+
+317
+00:19:51,440 --> 00:19:54,320
+point it's probably growing
+faster than the traditional
+
+318
+00:19:54,320 --> 00:19:59,840
+engineering.
+And it's also true that many,
+
+319
+00:19:59,960 --> 00:20:04,280
+you know, if you were to go back
+40 years ago, those engineering
+
+320
+00:20:04,280 --> 00:20:06,680
+companies would have probably
+developed their own software.
+
+321
+00:20:07,520 --> 00:20:10,480
+So if you go back and look at
+the, you know, old school
+
+322
+00:20:12,080 --> 00:20:18,080
+Lockheed Martin or.
+Or, or Boeing or BA systems or
+
+323
+00:20:18,080 --> 00:20:21,400
+whatever that was before it was
+BA systems or, or certainly in
+
+324
+00:20:21,400 --> 00:20:26,000
+Germany and France and, and, and
+probably in Asia as well.
+
+325
+00:20:26,000 --> 00:20:29,800
+And all around the world, 40
+years ago, you basically had to
+
+326
+00:20:29,800 --> 00:20:33,440
+write your own code because
+there wasn't first of all, you
+
+327
+00:20:33,440 --> 00:20:37,800
+know, computing and software was
+far, far different and you had
+
+328
+00:20:37,800 --> 00:20:41,040
+to do it really yourself.
+If you Fast forward to now,
+
+329
+00:20:41,840 --> 00:20:46,680
+there's a whole multi billion or
+trillion dollar industry for
+
+330
+00:20:46,680 --> 00:20:51,000
+software to the point that
+increasingly companies are
+
+331
+00:20:51,000 --> 00:20:54,800
+making a decision not to develop
+their own software, but instead
+
+332
+00:20:54,800 --> 00:20:59,200
+to buy the software.
+And increasingly also, and you
+
+333
+00:20:59,200 --> 00:21:01,400
+know, people know that I, I used
+to work at a cloud computing
+
+334
+00:21:01,400 --> 00:21:04,520
+company.
+It's, it's the same, it's the
+
+335
+00:21:04,520 --> 00:21:08,680
+same for that, that increasingly
+now even in terms of buying your
+
+336
+00:21:08,680 --> 00:21:11,280
+own hardware or data centres,
+you're looking to sort of
+
+337
+00:21:11,400 --> 00:21:14,600
+outsource it to another company,
+which means some of those jobs
+
+338
+00:21:15,000 --> 00:21:17,280
+are being shifted to those other
+companies.
+
+339
+00:21:17,280 --> 00:21:23,240
+So I would say the biggest thing
+is the idea that engineering is
+
+340
+00:21:23,240 --> 00:21:28,200
+transitioning from the
+traditional companies to sort of
+
+341
+00:21:28,480 --> 00:21:30,680
+the more digital or software
+companies.
+
+342
+00:21:31,400 --> 00:21:35,600
+Now, that's also why many of
+these traditional engineering
+
+343
+00:21:35,600 --> 00:21:38,800
+companies are trying to redefine
+themselves as software companies
+
+344
+00:21:38,800 --> 00:21:42,360
+because they realize that that
+really they need to become more
+
+345
+00:21:42,360 --> 00:21:46,200
+of a, a sort of software company
+than just a hardware company,
+
+346
+00:21:46,200 --> 00:21:49,520
+particularly because of the way
+the the the world is working.
+
+347
+00:21:50,360 --> 00:21:53,320
+And I've made a note down here
+that I'm going to definitely
+
+348
+00:21:53,320 --> 00:21:57,080
+talk about AI because that is a
+certainly a big one when it
+
+349
+00:21:57,080 --> 00:22:03,600
+comes to the job market.
+But OK, so that's the companies
+
+350
+00:22:04,080 --> 00:22:07,200
+and I'm I'm purposely not
+mentioning lots of specific
+
+351
+00:22:07,200 --> 00:22:10,480
+names because it's just so
+country dependent and and
+
+352
+00:22:11,680 --> 00:22:14,320
+industry dependent within, you
+know, the engineering sector.
+
+353
+00:22:14,320 --> 00:22:18,640
+But hopefully that's given you
+at least what I would say is the
+
+354
+00:22:18,640 --> 00:22:23,320
+sense of the different companies
+that that you could potentially
+
+355
+00:22:23,320 --> 00:22:26,880
+join or work for.
+But what about job roles?
+
+356
+00:22:27,600 --> 00:22:31,880
+And, and again, some of these
+people will know and be obvious.
+
+357
+00:22:32,160 --> 00:22:35,560
+There's some stuff that I don't
+think I knew actually before.
+
+358
+00:22:35,560 --> 00:22:37,360
+So I'm hoping maybe some of this
+might help.
+
+359
+00:22:38,680 --> 00:22:42,040
+So you do obviously have your
+sort of traditional quote UN
+
+360
+00:22:42,040 --> 00:22:44,800
+quote engineering roles.
+But what really is an
+
+361
+00:22:44,800 --> 00:22:48,280
+engineering role?
+It's actually, it's quite, it's
+
+362
+00:22:48,280 --> 00:22:52,000
+quite different.
+I would, I would sort of split
+
+363
+00:22:52,000 --> 00:23:00,640
+it that you have engineering
+roles, specialist engineering
+
+364
+00:23:00,640 --> 00:23:01,960
+roles.
+And what do I mean by that?
+
+365
+00:23:02,040 --> 00:23:05,400
+I mean domain specific.
+So in quite a lot of companies
+
+366
+00:23:05,400 --> 00:23:09,400
+you'll have a fluids group, A
+structures group, A sort of
+
+367
+00:23:09,880 --> 00:23:14,480
+battery group, you know, sort of
+more maybe the, the chemistry
+
+368
+00:23:14,480 --> 00:23:19,760
+side of it, sort of a noise
+group, maybe looking at water
+
+369
+00:23:19,800 --> 00:23:23,280
+and, and, and soiling.
+They'll be a manufacturing
+
+370
+00:23:23,280 --> 00:23:28,400
+group, they'll be composites
+group, there'll be a sort of
+
+371
+00:23:28,400 --> 00:23:31,680
+physical testing group.
+They'll be and they would hire
+
+372
+00:23:31,680 --> 00:23:36,600
+specialists in to them and
+that's where you would typically
+
+373
+00:23:36,600 --> 00:23:40,920
+find doing a PhD would be useful
+because they might want a fluid
+
+374
+00:23:40,920 --> 00:23:47,280
+specialist in in that group.
+Now that is obviously dependent
+
+375
+00:23:47,280 --> 00:23:50,280
+on sort of the company and a
+very large enterprise company
+
+376
+00:23:50,280 --> 00:23:54,320
+may have hundreds of people in a
+dedicated fluid sort of group.
+
+377
+00:23:54,400 --> 00:23:57,440
+And you know, Oh well, like a
+Formula One team in aerodynamics
+
+378
+00:23:57,440 --> 00:24:00,120
+division where you maybe have
+hundreds of people just in
+
+379
+00:24:00,120 --> 00:24:05,120
+aerodynamics.
+And that this is sort of linking
+
+380
+00:24:05,120 --> 00:24:06,520
+to my first point about
+companies.
+
+381
+00:24:07,640 --> 00:24:11,240
+And if you are in let's say one
+of those, you have sort of
+
+382
+00:24:11,240 --> 00:24:13,560
+career progression within that,
+you know, oh, I could be a
+
+383
+00:24:13,560 --> 00:24:16,560
+junior aerodynamicist or senior
+aerodynamics, principal
+
+384
+00:24:16,560 --> 00:24:21,400
+aerodynamics, etcetera.
+But if you then go into a, a
+
+385
+00:24:21,400 --> 00:24:25,640
+smaller company, perhaps maybe
+there's only one aerodynamicist.
+
+386
+00:24:26,560 --> 00:24:30,360
+So that aerodynamicist in some
+ways needs to be potentially
+
+387
+00:24:30,840 --> 00:24:36,160
+more rounded and qualified and
+given much more responsibility
+
+388
+00:24:37,160 --> 00:24:38,160
+because there's only one of
+them.
+
+389
+00:24:38,160 --> 00:24:41,680
+So it there's a potential career
+move from, let's say one of
+
+390
+00:24:41,680 --> 00:24:44,120
+these big companies where you
+were one of 100 to just being
+
+391
+00:24:44,120 --> 00:24:46,240
+one because you may find that
+exciting because you're owning
+
+392
+00:24:46,240 --> 00:24:47,880
+all of it.
+So this is where there's always
+
+393
+00:24:47,880 --> 00:24:50,000
+a bit of movement between.
+So I think there's sort of
+
+394
+00:24:50,000 --> 00:24:55,120
+specialist engineers and then
+some people find that, well, you
+
+395
+00:24:55,120 --> 00:24:58,040
+need engineering managers
+because somebody needs to manage
+
+396
+00:24:58,040 --> 00:25:00,480
+it.
+And that actually is in itself
+
+397
+00:25:00,480 --> 00:25:02,680
+its own sort of job role and
+skill.
+
+398
+00:25:04,160 --> 00:25:09,920
+Managing people, lots of people
+is a full time job and is not
+
+399
+00:25:09,920 --> 00:25:12,480
+just a a sort of thing you do on
+the side, at least for good
+
+400
+00:25:12,480 --> 00:25:15,120
+companies.
+There's also a lot of sort of
+
+401
+00:25:15,360 --> 00:25:18,720
+project management jobs and this
+is where some people find that
+
+402
+00:25:19,000 --> 00:25:21,080
+they actually really enjoy
+organizing things and doing
+
+403
+00:25:21,080 --> 00:25:24,320
+things, but don't want to be
+deep diving in one particular
+
+404
+00:25:25,000 --> 00:25:27,240
+sort of sub domain of fluids or
+structures.
+
+405
+00:25:27,240 --> 00:25:29,160
+They just they feel like they're
+an engineer.
+
+406
+00:25:29,720 --> 00:25:32,640
+And some people like either
+become therefore more than
+
+407
+00:25:32,640 --> 00:25:35,120
+engineering manager.
+There are in some large
+
+408
+00:25:35,120 --> 00:25:37,880
+companies that what they call
+some chief engineers or
+
+409
+00:25:37,880 --> 00:25:41,440
+assistant engineers, but these
+are people and there's a
+
+410
+00:25:41,440 --> 00:25:43,880
+borderline between I guess
+project management and
+
+411
+00:25:43,880 --> 00:25:47,080
+engineering management.
+But certainly I see that in in
+
+412
+00:25:47,080 --> 00:25:51,600
+some of the large sort of Rolls
+Royce tech companies where these
+
+413
+00:25:51,600 --> 00:25:55,560
+are the, these are the people
+who are supposed to look at the
+
+414
+00:25:55,560 --> 00:25:58,520
+bigger picture.
+How do you deliver that product?
+
+415
+00:25:59,240 --> 00:26:05,080
+How do you actually get that
+thing out and you need to manage
+
+416
+00:26:05,080 --> 00:26:09,320
+or organize or direct, you know,
+some fluids analysis here, some
+
+417
+00:26:09,320 --> 00:26:13,720
+structural analysis here, some
+some manufacturing analysis
+
+418
+00:26:13,720 --> 00:26:17,440
+here, some maybe market analysis
+here and you're coordinating all
+
+419
+00:26:17,440 --> 00:26:19,240
+of it.
+And that actually is it's own
+
+420
+00:26:19,480 --> 00:26:25,200
+typical job family.
+They often the big companies are
+
+421
+00:26:25,200 --> 00:26:27,640
+sometimes the ones to get that
+because they will train you up
+
+422
+00:26:27,640 --> 00:26:31,160
+in how to do it and sort of
+movie between projects.
+
+423
+00:26:31,160 --> 00:26:34,440
+Certainly that's the case that
+some of these large like the
+
+424
+00:26:34,440 --> 00:26:36,440
+Rolls Royce, the Hebbels, the
+Boeing, well, they'll sometimes
+
+425
+00:26:36,440 --> 00:26:39,320
+almost have like schemes to
+identify people like that.
+
+426
+00:26:41,320 --> 00:26:45,720
+Then I think it's important to
+note that some people actually
+
+427
+00:26:47,320 --> 00:26:51,320
+like to go in to more of a sort
+of cross in the middle, which I
+
+428
+00:26:51,320 --> 00:26:57,480
+would sort of call maybe
+technical marketing where you
+
+429
+00:26:58,040 --> 00:27:01,640
+it's a marketing role, but it's
+you've come from a technical
+
+430
+00:27:01,640 --> 00:27:03,800
+back background to do that
+marketing role.
+
+431
+00:27:03,800 --> 00:27:07,440
+And that's very common actually
+in software companies.
+
+432
+00:27:08,040 --> 00:27:11,640
+So if you look in all the tech
+companies, there are hundreds or
+
+433
+00:27:11,640 --> 00:27:14,480
+probably thousands of jobs or
+what they call like product
+
+434
+00:27:14,480 --> 00:27:17,680
+marketing or technical marketing
+and they're looking to hire
+
+435
+00:27:17,680 --> 00:27:19,640
+people with a technical
+background.
+
+436
+00:27:20,240 --> 00:27:24,720
+It is not a pure marketing job.
+You need to understand the
+
+437
+00:27:24,720 --> 00:27:26,520
+technical side.
+And often it's people even with
+
+438
+00:27:26,520 --> 00:27:29,520
+PhDs or things.
+And that can actually be quite
+
+439
+00:27:29,520 --> 00:27:33,280
+exciting for some people because
+they may like sort of a
+
+440
+00:27:33,280 --> 00:27:36,880
+different side of, of, of work,
+not just pure engineering.
+
+441
+00:27:36,880 --> 00:27:39,360
+And they may enjoy the sort of
+marketing and sales.
+
+442
+00:27:39,680 --> 00:27:42,880
+And so that is actually
+something that is worth thinking
+
+443
+00:27:42,880 --> 00:27:45,320
+about.
+You can still stay technical,
+
+444
+00:27:45,760 --> 00:27:47,760
+but go into these more technical
+marketing roles.
+
+445
+00:27:47,760 --> 00:27:50,240
+And like I said, in the software
+world, that is increasingly
+
+446
+00:27:50,240 --> 00:27:55,600
+becoming quite a big one.
+The other one, and I'm saying
+
+447
+00:27:55,600 --> 00:27:58,680
+this because I feel like some
+people leave engineering because
+
+448
+00:27:58,680 --> 00:28:01,560
+they think, well, I'm either
+just an engineer that has oil on
+
+449
+00:28:01,560 --> 00:28:04,520
+my hands or I need to get out
+and do something else.
+
+450
+00:28:04,520 --> 00:28:08,240
+And sort of what I'm saying is
+you can be an engineer but do
+
+451
+00:28:08,240 --> 00:28:12,080
+many other things.
+And so a good example of that is
+
+452
+00:28:12,080 --> 00:28:15,600
+sales.
+So some people may like the
+
+453
+00:28:15,600 --> 00:28:18,800
+idea, they may be driven more by
+a sort of commercial mindset.
+
+454
+00:28:19,200 --> 00:28:21,280
+And some of those may be for,
+you know, I just need to leave
+
+455
+00:28:21,280 --> 00:28:25,000
+engineering and go and work for
+a sort of financial institution
+
+456
+00:28:25,000 --> 00:28:27,680
+or go and work just just outside
+or not even do engineering.
+
+457
+00:28:28,240 --> 00:28:33,720
+But actually in many, many
+companies, and again, a lot
+
+458
+00:28:34,120 --> 00:28:38,080
+software companies, certainly
+true, they need people to sell
+
+459
+00:28:38,080 --> 00:28:40,720
+that software, but you need
+people who are technically
+
+460
+00:28:40,720 --> 00:28:44,440
+minded to do it as well because
+often you're talking about
+
+461
+00:28:44,440 --> 00:28:46,200
+complex stuff.
+If you're trying to sell a piece
+
+462
+00:28:46,200 --> 00:28:50,720
+of software that can manage all
+the manufacturing components or
+
+463
+00:28:50,720 --> 00:28:53,080
+some sort of, you know, fluid
+dynamic software, you, you sort
+
+464
+00:28:53,080 --> 00:28:56,200
+of need to know the area.
+So there's a whole load of
+
+465
+00:28:56,200 --> 00:29:02,800
+positions and jobs in sales.
+And some of that is what they
+
+466
+00:29:02,800 --> 00:29:05,920
+call business development.
+So it's more the strategy of how
+
+467
+00:29:05,920 --> 00:29:09,240
+you would do it.
+I think what they call go to
+
+468
+00:29:09,240 --> 00:29:14,440
+market or GTM phrase I'd never
+heard before, but it's it's very
+
+469
+00:29:14,440 --> 00:29:17,200
+common once you're sort of in
+the in the software or tech
+
+470
+00:29:17,480 --> 00:29:19,800
+market.
+And then you also have pure
+
+471
+00:29:19,800 --> 00:29:22,360
+sales, which often they're sort
+of quota driven.
+
+472
+00:29:22,360 --> 00:29:25,840
+So it's, you know, I need to
+sell this this much a month.
+
+473
+00:29:25,840 --> 00:29:28,440
+And some people really love that
+because it's sort of exciting
+
+474
+00:29:28,440 --> 00:29:30,520
+because you're, you know,
+you're, you're trying to get to
+
+475
+00:29:30,800 --> 00:29:33,800
+target and there are things like
+account managers.
+
+476
+00:29:34,120 --> 00:29:37,880
+And you have this again at in
+consultant companies or software
+
+477
+00:29:37,880 --> 00:29:41,240
+companies where you're sort of
+managing a customer or a set of
+
+478
+00:29:42,200 --> 00:29:46,480
+customers.
+Now, one of the big job families
+
+479
+00:29:46,600 --> 00:29:49,560
+obviously is software
+development engineers.
+
+480
+00:29:49,800 --> 00:29:51,840
+And so they often call them SD
+ES.
+
+481
+00:29:52,400 --> 00:29:57,520
+And that is something that has
+sort of blown up and something I
+
+482
+00:29:57,520 --> 00:30:03,240
+definitely was not aware of when
+I did my sort of traditional
+
+483
+00:30:03,240 --> 00:30:07,840
+engineering background.
+And what do I mean by that is
+
+484
+00:30:08,200 --> 00:30:12,040
+again, because of the software
+need and they do have them.
+
+485
+00:30:12,440 --> 00:30:16,720
+They do of course have these in
+these engineering companies, but
+
+486
+00:30:16,720 --> 00:30:19,520
+definitely, definitely in the
+big tech companies.
+
+487
+00:30:20,080 --> 00:30:23,960
+There are thousand 10s of
+thousands of STS software
+
+488
+00:30:23,960 --> 00:30:27,240
+development engineers who are
+there to develop code.
+
+489
+00:30:28,160 --> 00:30:31,560
+Now, some come from a computer
+science background, but many
+
+490
+00:30:31,560 --> 00:30:34,520
+also come from an engineering
+background because you need very
+
+491
+00:30:34,520 --> 00:30:37,880
+strong programming skills.
+But also it's useful if you have
+
+492
+00:30:37,880 --> 00:30:40,160
+some sort of mathematical or
+engineering background.
+
+493
+00:30:40,160 --> 00:30:44,040
+And engineering tends to be a
+good thing for problem solving.
+
+494
+00:30:45,000 --> 00:30:49,480
+And there is a huge market for
+this, whether you're talking in
+
+495
+00:30:49,480 --> 00:30:54,280
+the the Googles, the Facebooks,
+the Amazons, the Nvidias, all
+
+496
+00:30:54,280 --> 00:30:58,960
+those sort of tech companies and
+other ones like, you know,
+
+497
+00:30:59,000 --> 00:31:03,360
+Netflix or, or or whoever else
+to write code.
+
+498
+00:31:03,760 --> 00:31:07,000
+And there is A and I can talk
+about this maybe in the in the
+
+499
+00:31:07,000 --> 00:31:09,360
+next section about the sort of
+tech sector.
+
+500
+00:31:09,360 --> 00:31:14,360
+But this is really interesting
+for or career option for sort of
+
+501
+00:31:14,400 --> 00:31:18,200
+engineering graduates.
+And even I know people who have
+
+502
+00:31:18,600 --> 00:31:20,920
+in so much retrained to go into
+this.
+
+503
+00:31:20,920 --> 00:31:24,840
+So even if you're have a job,
+you may find it quite
+
+504
+00:31:24,840 --> 00:31:27,280
+interesting career path to go
+down that route.
+
+505
+00:31:27,280 --> 00:31:30,880
+You may have to retrain in terms
+of, you know, developing your
+
+506
+00:31:30,880 --> 00:31:32,760
+coding skills or software
+skills.
+
+507
+00:31:32,760 --> 00:31:35,720
+But it's a very interesting
+market that I think with the
+
+508
+00:31:35,720 --> 00:31:41,160
+rise of AI is becoming one of
+the sort of dominant job type of
+
+509
+00:31:41,160 --> 00:31:46,680
+positions to have.
+OK, so now maybe let's turn to
+
+510
+00:31:46,680 --> 00:31:50,600
+something I mentioned before,
+which is the the tech sector and
+
+511
+00:31:50,600 --> 00:31:54,320
+how I think this is actually
+increasingly becoming an area
+
+512
+00:31:54,320 --> 00:32:00,000
+very relevant to to engineers
+and is only going to grow for
+
+513
+00:32:00,000 --> 00:32:06,520
+for two reasons really.
+One is that there is a move to
+
+514
+00:32:06,520 --> 00:32:10,080
+digital engineering
+certification by analysis and
+
+515
+00:32:10,080 --> 00:32:12,880
+that is true across the whole of
+the engineering sector.
+
+516
+00:32:13,000 --> 00:32:16,440
+Whereas aerospace, automotive,
+defence, manufacturing,
+
+517
+00:32:16,440 --> 00:32:20,040
+industrial, really any of those
+industries are increasingly
+
+518
+00:32:20,040 --> 00:32:25,480
+using software to define, to
+develop, to test their their
+
+519
+00:32:25,480 --> 00:32:27,600
+products.
+You've all heard of things like
+
+520
+00:32:27,600 --> 00:32:31,640
+digital twins.
+And of course, and this is an
+
+521
+00:32:31,640 --> 00:32:38,880
+important and AIAI, whether you
+are a big believer in AI or a
+
+522
+00:32:38,880 --> 00:32:43,400
+bit of a sceptic, is becoming a
+huge thing for all engineering
+
+523
+00:32:43,400 --> 00:32:46,920
+companies.
+And that is a great opportunity
+
+524
+00:32:47,360 --> 00:32:50,760
+for for jobs.
+There are many opportunities,
+
+525
+00:32:50,760 --> 00:32:53,520
+whether you're in the large
+enterprise, I spoke about the
+
+526
+00:32:53,640 --> 00:32:58,200
+the small ones, the start-ups,
+some will develop in house, some
+
+527
+00:32:58,200 --> 00:33:00,920
+will buy in.
+So regardless of what they do,
+
+528
+00:33:00,920 --> 00:33:06,160
+there are many opportunities for
+software jobs, which is
+
+529
+00:33:06,160 --> 00:33:08,440
+typically developed by tech
+companies.
+
+530
+00:33:09,160 --> 00:33:12,200
+Of course, tech companies do
+more than just develop software.
+
+531
+00:33:12,200 --> 00:33:14,040
+They also sometimes develop
+hardware.
+
+532
+00:33:14,040 --> 00:33:17,080
+And so there is a blurred line
+sometimes between that.
+
+533
+00:33:18,160 --> 00:33:21,480
+But, and again, some of you
+listening will, will know this
+
+534
+00:33:21,480 --> 00:33:24,560
+very well.
+And so apologies maybe to some
+
+535
+00:33:24,560 --> 00:33:27,440
+of you, but there maybe some of
+you are not so familiar with
+
+536
+00:33:27,440 --> 00:33:29,280
+this.
+And so I'll, I'll say it anyway
+
+537
+00:33:29,960 --> 00:33:34,400
+and, and hopefully it's useful.
+So what do I mean by the sort of
+
+538
+00:33:34,440 --> 00:33:38,360
+tech companies?
+Again, I was not aware of this.
+
+539
+00:33:38,360 --> 00:33:41,520
+I will put my, my hand up.
+I was not fully aware of this
+
+540
+00:33:41,520 --> 00:33:46,320
+probably, you know, 10 years ago
+or, or even 7 years ago, I
+
+541
+00:33:46,320 --> 00:33:49,480
+wasn't fully aware of this whole
+sector actually.
+
+542
+00:33:51,240 --> 00:33:55,760
+So, and, and that's probably
+because it's traditionally being
+
+543
+00:33:55,760 --> 00:34:01,760
+a more US centric industry.
+And you know, being in the UK
+
+544
+00:34:01,760 --> 00:34:07,720
+myself, it's maybe has only more
+recently become a bit more
+
+545
+00:34:07,720 --> 00:34:09,080
+known.
+And still though, I don't think
+
+546
+00:34:09,080 --> 00:34:10,639
+isn't that known.
+And I think that's true for,
+
+547
+00:34:10,679 --> 00:34:13,199
+for, for Europe and, and the
+rest of the world.
+
+548
+00:34:14,400 --> 00:34:20,760
+So there are companies like
+Amazon, like Facebook or Meta,
+
+549
+00:34:21,560 --> 00:34:27,679
+like NVIDIA, like Google, like
+Microsoft, Oracle, trying to
+
+550
+00:34:27,679 --> 00:34:30,400
+think of other companies, you
+know, those are the sort of big
+
+551
+00:34:30,400 --> 00:34:33,800
+ones, I guess now, of course,
+open AI, etcetera.
+
+552
+00:34:34,760 --> 00:34:40,719
+But if we take the, the, the,
+the big companies, what do they
+
+553
+00:34:41,920 --> 00:34:43,400
+do?
+And, and by the way, there is a,
+
+554
+00:34:43,760 --> 00:34:47,880
+there is an acronym Fang, which
+I, I should have researched this
+
+555
+00:34:47,880 --> 00:34:53,440
+actually, maybe let's, let's do
+some live Googling.
+
+556
+00:34:53,920 --> 00:34:59,000
+So it was Facebook, Apple,
+Amazon, Netflix and Alphabet.
+
+557
+00:35:00,400 --> 00:35:05,480
+That was the traditional one.
+Of course, now Meta, etcetera,
+
+558
+00:35:06,720 --> 00:35:09,160
+but that's just sort of an
+acronym.
+
+559
+00:35:09,160 --> 00:35:13,840
+And then I think they call it
+the is it Magnificent 7?
+
+560
+00:35:17,520 --> 00:35:18,720
+I think I've heard that phrase
+used.
+
+561
+00:35:18,720 --> 00:35:22,200
+But anyway, the, the point is
+there are these sort of big tech
+
+562
+00:35:22,200 --> 00:35:24,760
+companies, but there's many,
+many others and the sort of
+
+563
+00:35:24,760 --> 00:35:27,680
+start-ups increasingly that sort
+of blur the line between it.
+
+564
+00:35:28,240 --> 00:35:34,000
+But what do they do?
+Well, of course, if you look at
+
+565
+00:35:34,000 --> 00:35:38,960
+something like Meta, you know,
+obviously they develop Facebook,
+
+566
+00:35:39,240 --> 00:35:43,760
+Instagram, WhatsApp, but they
+have a lot of research teams and
+
+567
+00:35:43,760 --> 00:35:46,880
+they have products that they
+they make as well.
+
+568
+00:35:47,440 --> 00:35:51,560
+And so physical products
+sometimes that's certainly true
+
+569
+00:35:51,560 --> 00:35:57,080
+with, with Amazon and and
+Google, who obviously have
+
+570
+00:35:57,080 --> 00:35:59,080
+devices.
+So they have to, you know, make
+
+571
+00:35:59,080 --> 00:36:02,400
+devices, but they develop
+software.
+
+572
+00:36:02,680 --> 00:36:06,520
+And you know, I used to work at
+a cloud computing company, AWS,
+
+573
+00:36:06,560 --> 00:36:10,600
+and of course they have a huge
+base of employees, you know,
+
+574
+00:36:10,600 --> 00:36:15,320
+hundreds of thousands of people
+who develop software and you can
+
+575
+00:36:15,320 --> 00:36:17,560
+use it through sort of a cloud
+interface.
+
+576
+00:36:17,560 --> 00:36:19,640
+And that's the same with Google,
+the Microsoft and others.
+
+577
+00:36:20,280 --> 00:36:26,360
+So the tech sector is massive.
+And let's focus why it's
+
+578
+00:36:26,720 --> 00:36:32,840
+interesting for engineering.
+Well, a lot of and, and by the
+
+579
+00:36:32,840 --> 00:36:37,000
+way, before I do that, I should
+say that is I would say that's
+
+580
+00:36:37,080 --> 00:36:43,520
+that's called the tech sector.
+But I think it's probably worth
+
+581
+00:36:43,640 --> 00:36:47,520
+also linking that particularly
+because we're talking about
+
+582
+00:36:47,520 --> 00:36:52,240
+engineering now with the
+software market as well.
+
+583
+00:36:52,240 --> 00:36:57,120
+Because I think there is a bit
+of a blurred line in the sense
+
+584
+00:36:57,120 --> 00:37:01,040
+of the Siemens, I think I
+suppose you'd call it Siemens
+
+585
+00:37:01,040 --> 00:37:03,560
+Digital Industries, because
+Siemens is obviously a very big
+
+586
+00:37:03,560 --> 00:37:06,760
+company.
+The ANSYS, the Cadence, the
+
+587
+00:37:06,760 --> 00:37:13,240
+Dassault, you know, Autodesk
+Synopsis, I'm probably
+
+588
+00:37:13,240 --> 00:37:17,640
+forgetting some of the other
+companies now Hexagon that
+
+589
+00:37:17,640 --> 00:37:20,120
+develop software.
+And these are very large
+
+590
+00:37:20,120 --> 00:37:22,840
+organisations, you know,
+multibillion dollar companies
+
+591
+00:37:22,840 --> 00:37:24,640
+that that sort of develop this
+software.
+
+592
+00:37:25,920 --> 00:37:29,480
+And so I would sort of tie them
+in actually in the sense of, of
+
+593
+00:37:29,480 --> 00:37:32,280
+what they're doing, particularly
+in terms of, of, of job roles.
+
+594
+00:37:33,360 --> 00:37:37,240
+So if you look at, let's say,
+the tech sector, what sort of
+
+595
+00:37:37,240 --> 00:37:39,920
+job roles are there and what
+could you be doing there?
+
+596
+00:37:40,480 --> 00:37:44,680
+Well, as I said, there are a
+very large number of SDS,
+
+597
+00:37:44,680 --> 00:37:47,120
+software development engineers,
+people who are expected to, you
+
+598
+00:37:48,680 --> 00:37:52,160
+know, write code for a whole
+range of different things.
+
+599
+00:37:52,160 --> 00:37:54,880
+And in some ways they typically
+start off being generalists.
+
+600
+00:37:55,280 --> 00:38:00,760
+So a fungible sort of asset that
+is just great at coding and
+
+601
+00:38:00,760 --> 00:38:03,880
+programming.
+And so those are quite often
+
+602
+00:38:03,880 --> 00:38:05,760
+entry level positions that you
+come in.
+
+603
+00:38:05,760 --> 00:38:08,200
+And at the beginning you may be
+literally just working on any
+
+604
+00:38:08,200 --> 00:38:12,880
+piece of, you know, databases,
+web applications, high
+
+605
+00:38:12,880 --> 00:38:16,640
+performance computing, machine
+learning, you know, just really
+
+606
+00:38:16,640 --> 00:38:18,720
+anything.
+And you may be just given a
+
+607
+00:38:18,720 --> 00:38:22,640
+small sort of task to do.
+But in terms of career
+
+608
+00:38:22,640 --> 00:38:28,080
+progression, you know, you will
+find that you'd become then much
+
+609
+00:38:28,080 --> 00:38:33,400
+more potentially specific to a
+certain area and you would take
+
+610
+00:38:33,400 --> 00:38:37,040
+more responsibility where you
+may end up either managing a
+
+611
+00:38:37,040 --> 00:38:39,440
+team of sort of software
+development engineers, which is
+
+612
+00:38:39,440 --> 00:38:44,520
+often referred to as SDM
+software development manager, or
+
+613
+00:38:44,520 --> 00:38:49,640
+you may stay what actually is a
+sort of individual contributor.
+
+614
+00:38:49,640 --> 00:38:51,240
+And I should, I should explain
+this.
+
+615
+00:38:51,240 --> 00:38:54,000
+And I realise I'm probably
+rambling on a little bit in this
+
+616
+00:38:54,640 --> 00:38:57,120
+podcast episode.
+So apologies about that.
+
+617
+00:38:58,480 --> 00:39:00,520
+I suppose I'm trying to make it
+as if we were just having a
+
+618
+00:39:00,520 --> 00:39:04,520
+conversation in a in a pub, just
+without the alcohol.
+
+619
+00:39:07,240 --> 00:39:10,920
+Typically in the tech sector, I
+would argue one of the benefits
+
+620
+00:39:11,240 --> 00:39:17,600
+is that there are typically 2
+paths, the management path and
+
+621
+00:39:17,600 --> 00:39:21,440
+the IC path.
+Individual contributor and I
+
+622
+00:39:21,440 --> 00:39:24,440
+actually quite like that because
+I think some people are
+
+623
+00:39:24,440 --> 00:39:27,360
+different.
+I personally, I've never been a
+
+624
+00:39:27,360 --> 00:39:30,680
+manager and I don't particularly
+have a great desire to be a
+
+625
+00:39:30,680 --> 00:39:35,800
+manager.
+And sometimes in other companies
+
+626
+00:39:35,800 --> 00:39:39,200
+that can actually be a bit of a
+ceiling to your career if you
+
+627
+00:39:39,200 --> 00:39:41,680
+don't want to, you know, manage
+people, that might be it.
+
+628
+00:39:41,680 --> 00:39:45,080
+You could never progress because
+the only way to progress is to
+
+629
+00:39:45,080 --> 00:39:47,360
+be a manager and a director and
+a senior director.
+
+630
+00:39:47,360 --> 00:39:51,000
+And you know, as you go up where
+actually in a lot of tech
+
+631
+00:39:51,000 --> 00:39:55,920
+companies, what's great is they
+have a track pretty much all the
+
+632
+00:39:55,920 --> 00:39:58,720
+way to the top for individual
+contributors.
+
+633
+00:39:59,120 --> 00:40:02,080
+And to go back to the discussion
+I was just having about SD ES,
+
+634
+00:40:02,400 --> 00:40:05,240
+that's where there are this
+notion of, you know, a principal
+
+635
+00:40:05,240 --> 00:40:08,120
+engineer or distinguished
+engineer or senior principal
+
+636
+00:40:08,120 --> 00:40:11,000
+engineer or a fellow or whatever
+the naming convention is in that
+
+637
+00:40:11,000 --> 00:40:14,280
+particular company.
+And these are individual
+
+638
+00:40:14,280 --> 00:40:17,560
+contributors.
+That can actually, I said be
+
+639
+00:40:17,560 --> 00:40:19,640
+very senior, but have no
+management.
+
+640
+00:40:20,280 --> 00:40:24,360
+And that is something actually,
+I think quite important to know
+
+641
+00:40:24,760 --> 00:40:28,120
+because some people believe that
+the only way to progress is
+
+642
+00:40:28,160 --> 00:40:31,000
+essentially to become a manager,
+which for some people they want
+
+643
+00:40:31,000 --> 00:40:35,400
+to do and they're good at doing,
+but it's important to know that
+
+644
+00:40:35,400 --> 00:40:41,280
+you don't have to to do that.
+So the, the Ste. root is a very
+
+645
+00:40:41,280 --> 00:40:44,320
+interesting root if you are
+particularly strong on the code
+
+646
+00:40:44,320 --> 00:40:47,960
+in the programming side.
+Now I typically find that people
+
+647
+00:40:47,960 --> 00:40:50,760
+are are one or the other.
+They're either very good at
+
+648
+00:40:50,760 --> 00:40:53,600
+programming and enjoy it, but
+like, you know, foreign
+
+649
+00:40:53,600 --> 00:40:57,560
+languages, I guess, or they
+really don't like it or they're
+
+650
+00:40:57,560 --> 00:41:00,520
+not very good at it.
+And so the Ste. root is
+
+651
+00:41:00,520 --> 00:41:02,920
+definitely more you like
+programming, you're good at
+
+652
+00:41:02,920 --> 00:41:06,120
+programming.
+But there is also an interesting
+
+653
+00:41:06,120 --> 00:41:09,520
+site that then has a parallel to
+sort of project management in
+
+654
+00:41:09,840 --> 00:41:12,840
+terms of engineering.
+That actually a key role is
+
+655
+00:41:12,840 --> 00:41:16,360
+software development managers
+who have to, you know, organize
+
+656
+00:41:16,360 --> 00:41:21,720
+sprints and put things in in
+dashboards to track progression
+
+657
+00:41:21,720 --> 00:41:24,720
+of, you know, which bit of code
+has been developed here and how
+
+658
+00:41:24,720 --> 00:41:26,840
+does it meet this target?
+And then it has to go through a
+
+659
+00:41:26,840 --> 00:41:31,120
+security review and app SEC and
+a legal review, and then it has
+
+660
+00:41:31,120 --> 00:41:33,240
+to be checked by somebody else.
+And this is whole sort of
+
+661
+00:41:33,240 --> 00:41:35,720
+management that happens in these
+big tech companies.
+
+662
+00:41:36,640 --> 00:41:41,440
+So you do find that actually
+people move over from sort of
+
+663
+00:41:41,440 --> 00:41:45,280
+traditional engineering into
+this software sometimes as
+
+664
+00:41:45,720 --> 00:41:48,680
+software development managers.
+So if you, let's say, are
+
+665
+00:41:48,680 --> 00:41:50,800
+someone who work at a
+traditional engineering company
+
+666
+00:41:51,280 --> 00:41:54,280
+and you've been leading a group
+of engineers to develop
+
+667
+00:41:54,280 --> 00:41:58,000
+something, you may actually find
+there is a career option in a
+
+668
+00:41:58,000 --> 00:42:00,880
+tech company leading a team of
+software development engineers,
+
+669
+00:42:01,520 --> 00:42:04,120
+particularly if it's related to
+something in the engineering
+
+670
+00:42:04,120 --> 00:42:07,200
+space, which we'll get on to a
+minute is, is quite often
+
+671
+00:42:07,560 --> 00:42:10,120
+increasingly happening.
+And of course, vice versa.
+
+672
+00:42:10,280 --> 00:42:14,920
+You know, if you're sort of STM
+in a tech company, you may find
+
+673
+00:42:14,920 --> 00:42:17,280
+there could be interesting roles
+in an engineering company
+
+674
+00:42:18,960 --> 00:42:20,720
+because of the of, of the
+overlap.
+
+675
+00:42:21,400 --> 00:42:25,840
+So that's that's what I would
+call the engineering teams.
+
+676
+00:42:25,840 --> 00:42:28,280
+And this is important
+distinction actually that maybe
+
+677
+00:42:28,280 --> 00:42:32,160
+it's not so well known, at least
+in my experience, all these tech
+
+678
+00:42:32,160 --> 00:42:35,720
+companies and I think it's true
+also with the software companies
+
+679
+00:42:35,800 --> 00:42:43,040
+typically have two or three
+broad vertical areas, which is
+
+680
+00:42:43,520 --> 00:42:47,360
+the engineering or product side
+of the business.
+
+681
+00:42:47,360 --> 00:42:50,480
+I mean, this is true for pretty
+much all the tech companies
+
+682
+00:42:50,480 --> 00:42:55,440
+where your responsibility is to
+develop the products and
+
+683
+00:42:55,720 --> 00:43:01,320
+engineer the code.
+So there's a lot of engineers or
+
+684
+00:43:01,840 --> 00:43:06,280
+you are in quote UN quote, the
+sales bit of the organization
+
+685
+00:43:07,000 --> 00:43:10,600
+where essentially your job is to
+sell the stuff that the
+
+686
+00:43:10,600 --> 00:43:14,640
+engineers make.
+It's a very, you know, crude
+
+687
+00:43:14,640 --> 00:43:16,880
+distinction because of course
+there is a lot of overlap and
+
+688
+00:43:16,880 --> 00:43:19,320
+there's a lot of information
+exchange between the two.
+
+689
+00:43:20,600 --> 00:43:25,160
+And then sometimes under sales
+is is marketing, but sometimes
+
+690
+00:43:25,160 --> 00:43:26,800
+it's a separate sort of
+vertical.
+
+691
+00:43:27,280 --> 00:43:30,000
+And then quite often these
+companies sometimes have a sort
+
+692
+00:43:30,000 --> 00:43:35,960
+of third or fourth leg, which is
+their consulting or professional
+
+693
+00:43:35,960 --> 00:43:41,120
+services, which is essentially
+when you have a product, you try
+
+694
+00:43:41,120 --> 00:43:45,720
+and sell it, but the customer
+says I need you to help me to
+
+695
+00:43:45,720 --> 00:43:47,600
+implement it or maybe even
+improve it.
+
+696
+00:43:48,240 --> 00:43:51,680
+And those are very large tech
+companies quite often have a, a
+
+697
+00:43:52,320 --> 00:43:57,920
+special arm that is you quite
+often would pay the company to
+
+698
+00:43:57,920 --> 00:44:00,360
+have people come into your
+company to help you to do it.
+
+699
+00:44:00,680 --> 00:44:02,080
+Sometimes hands on keyboard
+help.
+
+700
+00:44:03,040 --> 00:44:06,640
+So that that is actually, and I
+think it's important to know
+
+701
+00:44:06,640 --> 00:44:08,840
+this because sometimes when you
+look at job roles online, it's
+
+702
+00:44:08,840 --> 00:44:12,000
+not immediately obvious what
+side of the business it's on.
+
+703
+00:44:12,400 --> 00:44:17,000
+And that can have an influence
+in terms of what, what job you
+
+704
+00:44:17,000 --> 00:44:21,000
+would, you know, be doing.
+So that's the engineering.
+
+705
+00:44:21,760 --> 00:44:25,360
+Now another role is product
+management.
+
+706
+00:44:27,640 --> 00:44:33,320
+That is something that is very
+common in the software and tech
+
+707
+00:44:33,320 --> 00:44:38,560
+sectors.
+And your job is to manage the
+
+708
+00:44:38,560 --> 00:44:42,560
+direction and the definition of
+the product.
+
+709
+00:44:43,320 --> 00:44:47,280
+Now that product could be a
+piece of CFD software.
+
+710
+00:44:48,760 --> 00:44:51,800
+If it's a very big piece of CFD
+software, it could be a sub
+
+711
+00:44:51,800 --> 00:44:54,440
+component of that piece of CFD
+software.
+
+712
+00:44:54,440 --> 00:44:58,240
+So you are the product manager
+for the meshing team or the
+
+713
+00:44:58,240 --> 00:45:03,480
+meshing bit of the product or
+you are the product manager for
+
+714
+00:45:03,560 --> 00:45:06,080
+a particular cloud computing
+service.
+
+715
+00:45:06,280 --> 00:45:10,920
+So you're the product manager
+for Amazon S3 or for Google, you
+
+716
+00:45:10,920 --> 00:45:14,680
+know, blah, blah, blah, whatever
+the name of the service is that
+
+717
+00:45:15,760 --> 00:45:18,280
+you don't have to come from an
+engineering background.
+
+718
+00:45:18,280 --> 00:45:20,880
+And quite often, actually,
+people more come from a, doing
+
+719
+00:45:20,880 --> 00:45:24,600
+an MBA, let's say.
+But quite often, depending on
+
+720
+00:45:24,600 --> 00:45:27,600
+the company, while they do value
+having a technical or
+
+721
+00:45:27,600 --> 00:45:32,600
+engineering background.
+And then your job is to, as I
+
+722
+00:45:32,600 --> 00:45:34,600
+said, come up with the product
+definition.
+
+723
+00:45:34,600 --> 00:45:37,080
+And it's slightly different than
+the engineering and it does
+
+724
+00:45:37,080 --> 00:45:40,960
+depend on the company, but
+normally the product manager is
+
+725
+00:45:40,960 --> 00:45:45,320
+the one who will think about the
+needs of the end user.
+
+726
+00:45:45,320 --> 00:45:50,080
+The customer will sort of work
+with the sales team to get that,
+
+727
+00:45:50,440 --> 00:45:54,640
+you know, definition of what the
+product is or to help liaise,
+
+728
+00:45:54,840 --> 00:46:00,000
+you know, with them to define
+what the product should be and
+
+729
+00:46:00,000 --> 00:46:03,080
+then work with the engineering
+team to actually deliver it.
+
+730
+00:46:03,320 --> 00:46:05,560
+And of course, this is a team
+effort.
+
+731
+00:46:06,160 --> 00:46:09,240
+So typically that project manner
+will be, you know, very much
+
+732
+00:46:09,320 --> 00:46:12,360
+managing and tracking progress.
+You know, this needs to happen,
+
+733
+00:46:12,360 --> 00:46:15,480
+this needs to happen, this needs
+to happen at this timeline
+
+734
+00:46:15,480 --> 00:46:17,640
+timeline.
+They need to be technical enough
+
+735
+00:46:17,640 --> 00:46:20,280
+to push back and to understand,
+you know, if a customer says I
+
+736
+00:46:20,280 --> 00:46:23,000
+need this feature X or, you
+know, to even understand what it
+
+737
+00:46:23,000 --> 00:46:27,360
+is and to be able to understand
+the language of the engineering
+
+738
+00:46:27,360 --> 00:46:30,280
+team, you know, to understand
+what what needs to be done and,
+
+739
+00:46:30,280 --> 00:46:32,320
+and sort of understand
+timelines, etcetera.
+
+740
+00:46:32,720 --> 00:46:35,160
+They're often they're
+responsible commercially for the
+
+741
+00:46:35,160 --> 00:46:37,240
+revenue of it.
+So thinking, you know what,
+
+742
+00:46:37,360 --> 00:46:38,600
+what, how much should we charge
+for it?
+
+743
+00:46:39,280 --> 00:46:41,040
+How much money are we making on
+this thing?
+
+744
+00:46:41,120 --> 00:46:44,280
+You know, clearly the software,
+there's either a license or or
+
+745
+00:46:44,280 --> 00:46:49,040
+some sort of fee for it.
+And so that is a whole job
+
+746
+00:46:49,040 --> 00:46:52,400
+family of its own.
+And you know, I would estimate
+
+747
+00:46:52,400 --> 00:46:54,760
+there are 10s of thousands or
+hundreds of thousands of, you
+
+748
+00:46:54,760 --> 00:46:58,520
+know, product management jobs
+and very transferable between
+
+749
+00:46:58,520 --> 00:46:59,920
+companies.
+Many people move between
+
+750
+00:46:59,920 --> 00:47:04,280
+companies because it is a skill
+to sort of manage a product and
+
+751
+00:47:04,280 --> 00:47:09,000
+that again, very relevant for
+engineers to, to, to do because
+
+752
+00:47:09,000 --> 00:47:11,600
+quite often they want a quite
+technical product manager.
+
+753
+00:47:11,600 --> 00:47:13,640
+In fact, sometimes that's even
+part of the title, you know,
+
+754
+00:47:13,640 --> 00:47:15,240
+it's sort of technical project
+management.
+
+755
+00:47:17,280 --> 00:47:20,160
+So that's something if you look
+for as sort of job adverts,
+
+756
+00:47:20,160 --> 00:47:24,080
+you'd see it as like PMT or PM.
+And that's like I said, if you
+
+757
+00:47:24,080 --> 00:47:26,920
+enjoy some managing and
+particularly like some people
+
+758
+00:47:26,920 --> 00:47:31,120
+come from like an MBA background
+or want to do an MBA, that's
+
+759
+00:47:31,120 --> 00:47:33,160
+quite often for them.
+And the career progression of
+
+760
+00:47:33,160 --> 00:47:37,400
+that is often then, you know,
+you manage a team of product
+
+761
+00:47:37,400 --> 00:47:40,720
+managers, you become a director,
+you become AVP or something like
+
+762
+00:47:40,720 --> 00:47:42,720
+that.
+That's something that I don't
+
+763
+00:47:42,720 --> 00:47:46,600
+think is as well known, but it's
+definitely a career route for,
+
+764
+00:47:46,600 --> 00:47:51,440
+for for some people.
+As I said, those would be
+
+765
+00:47:51,440 --> 00:47:56,280
+typically the main sort of
+engineering functions.
+
+766
+00:47:58,280 --> 00:48:05,680
+You would then find, let's go
+more into the sales part of the
+
+767
+00:48:05,680 --> 00:48:09,400
+business.
+You would find a job family
+
+768
+00:48:09,920 --> 00:48:15,080
+that's quite commonly referred
+to as a solution architect,
+
+769
+00:48:15,680 --> 00:48:20,080
+quite a sort of tech sector type
+job title, but you know, very,
+
+770
+00:48:20,080 --> 00:48:25,360
+very common and something that I
+find not all engineers know
+
+771
+00:48:25,360 --> 00:48:28,200
+about.
+And so a solution architect,
+
+772
+00:48:28,480 --> 00:48:31,320
+depends which company you work
+for, of course, is typically
+
+773
+00:48:31,320 --> 00:48:40,440
+somebody who works to architect.
+It's going to be silly to say
+
+774
+00:48:40,440 --> 00:48:42,480
+this because I'm essentially to
+say the job title in reverse,
+
+775
+00:48:42,760 --> 00:48:45,360
+but architect the solution.
+What does that really mean is
+
+776
+00:48:46,280 --> 00:48:50,800
+let's say you custom A, who
+wants to use a software product?
+
+777
+00:48:50,800 --> 00:48:55,680
+B Well, first of all, maybe
+there's not just one software
+
+778
+00:48:55,680 --> 00:48:57,560
+product, maybe there's many
+software products and the
+
+779
+00:48:57,560 --> 00:48:59,560
+customer doesn't really know
+which one they should use.
+
+780
+00:49:00,080 --> 00:49:01,840
+And then maybe they all need to
+connect together.
+
+781
+00:49:01,840 --> 00:49:05,320
+And this is certainly true for
+sort of cloud services and, and
+
+782
+00:49:05,320 --> 00:49:09,200
+the solution architect is
+someone who understands how to
+
+783
+00:49:09,280 --> 00:49:11,880
+implement that solution, to
+guide them which solution they
+
+784
+00:49:11,880 --> 00:49:14,640
+should pick, how to maybe link
+it into their environment.
+
+785
+00:49:14,840 --> 00:49:16,960
+So I can certainly speak from
+let's say CFD or high
+
+786
+00:49:16,960 --> 00:49:19,920
+performance computing background
+solution architect would be
+
+787
+00:49:19,920 --> 00:49:24,720
+somebody who deeply understands
+HPC and CFD and would be able to
+
+788
+00:49:24,720 --> 00:49:29,680
+say right customer AI think that
+first of all, let me explain
+
+789
+00:49:29,680 --> 00:49:31,760
+what this product is.
+So you have to be quite
+
+790
+00:49:31,760 --> 00:49:34,600
+technical and I think you should
+do it in this way.
+
+791
+00:49:34,600 --> 00:49:36,800
+You know, you should use this
+service and I think if you
+
+792
+00:49:36,800 --> 00:49:39,320
+connect it with this service,
+you'll be able to then do this.
+
+793
+00:49:39,320 --> 00:49:43,360
+And you know, this is how we
+could do your existing systems
+
+794
+00:49:43,680 --> 00:49:46,760
+and, and we'll work with you to
+sort of architect a diagram, you
+
+795
+00:49:46,760 --> 00:49:48,920
+know, of how you would link all
+this stuff together.
+
+796
+00:49:49,520 --> 00:49:52,240
+Maybe then there would be
+somebody who would help to maybe
+
+797
+00:49:52,240 --> 00:49:54,440
+benchmark it, particularly from
+a software point of view, be
+
+798
+00:49:54,440 --> 00:49:59,200
+like, OK, this is how it would
+perform and they would work to,
+
+799
+00:49:59,280 --> 00:50:02,840
+you know, get that customer to
+to then buy it.
+
+800
+00:50:02,840 --> 00:50:05,800
+And that's why sometimes it's
+called pre sales, although
+
+801
+00:50:06,160 --> 00:50:08,320
+sometimes that can be a bit of a
+stigma and some people don't
+
+802
+00:50:08,320 --> 00:50:12,920
+like to be called it pre sales.
+But traditionally it's sort of
+
+803
+00:50:12,920 --> 00:50:16,040
+is that way that it's, it's
+quite often engagement before
+
+804
+00:50:16,680 --> 00:50:19,960
+they buy that piece of software.
+And some companies explicitly
+
+805
+00:50:19,960 --> 00:50:23,360
+call it pre sales and they even
+call it a pre sales engineer.
+
+806
+00:50:24,000 --> 00:50:28,640
+I think that's a bit more true
+in the software market, let's
+
+807
+00:50:28,640 --> 00:50:30,080
+say the answer Siemens,
+etcetera.
+
+808
+00:50:30,480 --> 00:50:33,280
+But in the tech sector, quite
+often it's called a sort of
+
+809
+00:50:33,280 --> 00:50:36,000
+solution architect.
+And there are different types.
+
+810
+00:50:36,000 --> 00:50:38,920
+And this is where we could go
+into so many rabbit holes of
+
+811
+00:50:38,920 --> 00:50:41,400
+specialist solution architect,
+the more generalist solution
+
+812
+00:50:41,400 --> 00:50:42,760
+architect.
+But it's important because you
+
+813
+00:50:42,760 --> 00:50:45,840
+will sometimes see these these
+jobs advertised and increase
+
+814
+00:50:45,840 --> 00:50:47,160
+them.
+They are looking for engineers
+
+815
+00:50:47,400 --> 00:50:49,360
+and a lot of engineers just
+don't know what the job is.
+
+816
+00:50:49,480 --> 00:50:55,440
+So that's why I mention it.
+Usually the solution architect
+
+817
+00:50:55,480 --> 00:50:58,560
+is working also with some sort
+of business development person
+
+818
+00:50:59,120 --> 00:51:02,560
+who is there again, in a sales
+function to hopefully try and
+
+819
+00:51:02,560 --> 00:51:05,480
+sell that product.
+But more than just sell, be an
+
+820
+00:51:05,480 --> 00:51:10,200
+advisor to, to the customer to
+say, look, I, you know, working
+
+821
+00:51:10,200 --> 00:51:12,360
+closely with that solution
+architect who is perhaps a
+
+822
+00:51:12,360 --> 00:51:15,280
+little bit more technical, but
+the business development is
+
+823
+00:51:15,280 --> 00:51:17,400
+often still a technical role.
+And many of the people I know
+
+824
+00:51:17,400 --> 00:51:20,400
+who do business development have
+come from very technical
+
+825
+00:51:20,400 --> 00:51:21,720
+background.
+They have a degree that even the
+
+826
+00:51:21,720 --> 00:51:24,520
+PhD, they've worked as an
+engineer, but they just enjoy
+
+827
+00:51:24,520 --> 00:51:28,000
+the more commercial side, sort
+of quasi sales.
+
+828
+00:51:28,800 --> 00:51:32,800
+So typically they work together
+and again, many opportunities,
+
+829
+00:51:34,480 --> 00:51:37,680
+often a more pure sales role is
+something like an account
+
+830
+00:51:37,680 --> 00:51:39,760
+manager.
+And that is where there's a lot
+
+831
+00:51:39,760 --> 00:51:43,040
+of crossover to completely non
+engineering roles.
+
+832
+00:51:43,200 --> 00:51:47,280
+You know, working at any sort of
+company where you're managing an
+
+833
+00:51:47,280 --> 00:51:49,320
+account you're selling.
+I mean that is just such a broad
+
+834
+00:51:50,400 --> 00:51:52,400
+role.
+So those are sort of what I
+
+835
+00:51:52,400 --> 00:51:55,880
+would call the sales type of
+positions.
+
+836
+00:51:57,960 --> 00:52:01,000
+Now I did mention that quite a
+lot of companies have these more
+
+837
+00:52:01,000 --> 00:52:03,920
+consulting or professional
+services side of the business
+
+838
+00:52:04,400 --> 00:52:09,680
+and these are usually very
+technical people because their
+
+839
+00:52:09,680 --> 00:52:13,240
+job is to go in and practically
+help a customer.
+
+840
+00:52:13,240 --> 00:52:15,280
+Hands on keyboard is using the
+phrase.
+
+841
+00:52:15,680 --> 00:52:19,120
+So whilst the solution architect
+may give the advice, they're not
+
+842
+00:52:19,120 --> 00:52:23,040
+usually allowed to actually
+touch a customer's account or,
+
+843
+00:52:23,040 --> 00:52:26,520
+or, or work on the thing for
+legal reasons and, and
+
+844
+00:52:26,520 --> 00:52:28,920
+financially sort of wouldn't
+really work out.
+
+845
+00:52:29,320 --> 00:52:33,800
+So often there is a, a branch
+where they need technical people
+
+846
+00:52:33,800 --> 00:52:37,360
+go in and actually help a
+customer to use that piece of
+
+847
+00:52:37,360 --> 00:52:41,200
+software, whether it's a sort of
+web-based thing, let's say cloud
+
+848
+00:52:41,200 --> 00:52:43,840
+or whether it's a engineering
+piece of software like CFD or
+
+849
+00:52:43,840 --> 00:52:45,960
+fluids.
+And they will go in and help
+
+850
+00:52:46,440 --> 00:52:48,320
+that customer to use and
+implement.
+
+851
+00:52:48,320 --> 00:52:50,480
+And sometimes they don't charge
+for it.
+
+852
+00:52:50,840 --> 00:52:55,360
+Quite often it is a business
+model to charge for it and there
+
+853
+00:52:55,360 --> 00:52:59,280
+are lots of jobs needing very
+technical engineering people to
+
+854
+00:52:59,280 --> 00:53:02,640
+do that.
+And that's again another a job
+
+855
+00:53:02,640 --> 00:53:04,720
+option.
+And this is that link to I
+
+856
+00:53:04,720 --> 00:53:08,680
+mentioned all those consulting
+companies and sometimes they're
+
+857
+00:53:08,680 --> 00:53:12,440
+also called system integrators.
+And those are companies that
+
+858
+00:53:12,440 --> 00:53:16,360
+will go in and actually help a
+very large organization
+
+859
+00:53:16,360 --> 00:53:20,560
+typically to implement some big
+change or big use of software.
+
+860
+00:53:20,960 --> 00:53:24,600
+And so sometimes rather than
+using, let's say, a tech
+
+861
+00:53:24,600 --> 00:53:28,560
+companies, consulting engineers,
+they will go and use one of
+
+862
+00:53:28,560 --> 00:53:34,640
+these big sort of consulting
+companies, whether it's, you
+
+863
+00:53:34,640 --> 00:53:38,760
+know, Accenture or it could be
+Arab or it could be Boston
+
+864
+00:53:38,760 --> 00:53:41,560
+Consulting, I guess technically
+and all these sort of companies
+
+865
+00:53:41,560 --> 00:53:45,160
+that operate in that sphere to
+go and practically implement and
+
+866
+00:53:45,160 --> 00:53:47,200
+go in.
+Often they also do sort of
+
+867
+00:53:47,200 --> 00:53:51,000
+strategy work, but quite often
+it is hands on keyboard help.
+
+868
+00:53:51,000 --> 00:53:52,880
+And again, that is another
+route.
+
+869
+00:53:52,880 --> 00:53:55,240
+They often have dedicated
+engineering divisions like an
+
+870
+00:53:55,240 --> 00:53:58,720
+aerospace division, defence
+division, etcetera.
+
+871
+00:53:59,440 --> 00:54:02,920
+Now the final piece is maybe
+support.
+
+872
+00:54:03,600 --> 00:54:08,680
+So in software companies there
+is often not just a pre sales
+
+873
+00:54:08,680 --> 00:54:12,120
+but essentially a post sales,
+which is also referred to as
+
+874
+00:54:12,120 --> 00:54:15,360
+typically a support.
+And those are also typically
+
+875
+00:54:15,360 --> 00:54:19,200
+very engineering focused and
+they need to help customers who
+
+876
+00:54:19,200 --> 00:54:20,880
+have bought the software and
+need help.
+
+877
+00:54:22,160 --> 00:54:25,840
+Some people transition between
+pre sales, post sales and sort
+
+878
+00:54:25,840 --> 00:54:27,680
+of development role within the
+engineering side of the
+
+879
+00:54:27,680 --> 00:54:30,000
+business.
+And again, there are many jobs,
+
+880
+00:54:30,080 --> 00:54:33,560
+let's say Siemens or an Ansys or
+Cadence, you know, hundreds of
+
+881
+00:54:33,560 --> 00:54:37,080
+jobs for people with engineering
+degrees and backgrounds to
+
+882
+00:54:37,080 --> 00:54:41,720
+support customers.
+And it's sometimes called
+
+883
+00:54:41,720 --> 00:54:45,240
+Technical Support to go and help
+them to use and, and, and
+
+884
+00:54:45,240 --> 00:54:49,280
+develop the software.
+And what's the further layer to
+
+885
+00:54:49,280 --> 00:54:52,880
+this is that there's often teams
+specifically to cover, let's say
+
+886
+00:54:52,880 --> 00:54:56,320
+EMEA to cover America to be a
+worldwide role.
+
+887
+00:54:56,800 --> 00:55:02,920
+So how they do I just so many
+opportunities and increasingly
+
+888
+00:55:02,920 --> 00:55:05,600
+they're Criss crossing with the
+traditional engineering
+
+889
+00:55:05,600 --> 00:55:07,680
+companies.
+Sometimes the traditional
+
+890
+00:55:07,680 --> 00:55:10,320
+engineering companies are sort
+of losing staff to go to those
+
+891
+00:55:10,760 --> 00:55:12,640
+or it could be that the
+traditional engineers are
+
+892
+00:55:12,640 --> 00:55:16,360
+creating their own little teams
+to sort of mirror a little bit
+
+893
+00:55:16,360 --> 00:55:19,040
+what happens.
+But I think particularly the
+
+894
+00:55:19,040 --> 00:55:22,400
+tech sector ones is stuff that a
+lot of people don't know about
+
+895
+00:55:22,400 --> 00:55:25,080
+and I think increasingly that's
+going to be the case.
+
+896
+00:55:25,640 --> 00:55:29,160
+OK, final thing, I know I've
+definitely been rambling on a
+
+897
+00:55:29,160 --> 00:55:31,200
+lot.
+So if you have specific
+
+898
+00:55:31,200 --> 00:55:33,240
+questions, maybe put it in the
+comments if you're watching on
+
+899
+00:55:33,240 --> 00:55:35,680
+YouTube is the AI side of the
+piece.
+
+900
+00:55:36,720 --> 00:55:40,240
+There are, and in some ways this
+is a bit of an overlap with what
+
+901
+00:55:40,240 --> 00:55:43,480
+I'm talking, but it's it's
+really to re confirm the point
+
+902
+00:55:44,120 --> 00:55:50,000
+because AI is becoming so
+important for for the end
+
+903
+00:55:50,000 --> 00:55:53,120
+engineering companies, but also
+for the software companies to
+
+904
+00:55:53,120 --> 00:55:56,280
+develop AI enhanced or focused
+products.
+
+905
+00:55:56,600 --> 00:56:01,040
+There's a whole new set of jobs
+specifically looking at AI.
+
+906
+00:56:01,840 --> 00:56:04,480
+And for me personally, I think
+one of the biggest interesting
+
+907
+00:56:04,480 --> 00:56:07,360
+areas is either that just means
+there's just more need for the
+
+908
+00:56:07,360 --> 00:56:09,600
+software development engineers
+to program that sort of stuff.
+
+909
+00:56:10,160 --> 00:56:13,200
+But I would point out, and it is
+a little bit more in this
+
+910
+00:56:13,200 --> 00:56:16,200
+industry at the moment, but it's
+going to grow, Is there's a lot
+
+911
+00:56:16,200 --> 00:56:20,720
+of need for people with
+engineering, physics, maths for
+
+912
+00:56:20,720 --> 00:56:23,440
+AI and that's sometimes called
+AI for science.
+
+913
+00:56:23,440 --> 00:56:25,560
+And if you've listened to this
+podcast before, you'll see I've
+
+914
+00:56:25,560 --> 00:56:28,360
+had quite a few guests talk
+about this AI for science.
+
+915
+00:56:29,000 --> 00:56:33,000
+But there are more than 10
+startups and Isvs now who are
+
+916
+00:56:33,000 --> 00:56:36,920
+focused on using AI for
+engineering and sciences.
+
+917
+00:56:37,200 --> 00:56:42,520
+And so they are looking for
+graduates and early and mid and
+
+918
+00:56:42,520 --> 00:56:45,560
+late stage career people with
+that background.
+
+919
+00:56:46,040 --> 00:56:49,600
+I would highly advise people
+that that is a great area to
+
+920
+00:56:49,600 --> 00:56:53,760
+look to.
+First of all, it is, oh, you
+
+921
+00:56:53,760 --> 00:56:57,720
+know, just an emerging area that
+is very exciting and it is
+
+922
+00:56:57,720 --> 00:57:00,760
+something that not many people
+have the skills on.
+
+923
+00:57:00,760 --> 00:57:02,920
+So it's quite a valuable
+resource.
+
+924
+00:57:03,320 --> 00:57:05,440
+And so if you're, if you have
+those skills, you know, that's
+
+925
+00:57:05,440 --> 00:57:08,440
+good for your career.
+But it's really, but it's
+
+926
+00:57:08,440 --> 00:57:11,960
+bringing again this, I guess ARC
+that I'm talking about of
+
+927
+00:57:11,960 --> 00:57:14,080
+software and traditional
+engineering together.
+
+928
+00:57:15,120 --> 00:57:17,440
+Engineering companies are
+developing their own AI teams,
+
+929
+00:57:17,440 --> 00:57:19,560
+software companies are
+developing their own AI
+
+930
+00:57:19,560 --> 00:57:22,600
+products.
+So it's a great area to be in
+
+931
+00:57:22,600 --> 00:57:27,920
+and really confirms this sort of
+Arc of there is more than just
+
+932
+00:57:27,920 --> 00:57:31,160
+traditional engineering, but
+more so in terms of roles and
+
+933
+00:57:31,160 --> 00:57:33,560
+and jobs.
+And I think you'll find that
+
+934
+00:57:34,240 --> 00:57:40,600
+hopefully understanding this
+ecosystem of jobs and companies
+
+935
+00:57:40,600 --> 00:57:43,640
+will help you to make a more
+rounded decision of not only
+
+936
+00:57:43,640 --> 00:57:46,000
+where you want to go, but just
+in general what's happening in
+
+937
+00:57:46,000 --> 00:57:49,680
+the world.
+Now, as I said, this is just a
+
+938
+00:57:49,680 --> 00:57:52,680
+personal opinion.
+I'm probably missing out whole
+
+939
+00:57:52,680 --> 00:57:57,640
+sweeps of companies and, and
+jobs and sectors and, and, and
+
+940
+00:57:57,640 --> 00:57:59,960
+probably I, you know, I'll try
+and maybe do a few more.
+
+941
+00:58:00,200 --> 00:58:03,080
+I didn't really touch much more
+on sort of career progression.
+
+942
+00:58:03,080 --> 00:58:05,680
+I think we took talk about
+salaries on purpose because it's
+
+943
+00:58:05,680 --> 00:58:08,480
+such a difficult topic to get
+into with different countries.
+
+944
+00:58:10,200 --> 00:58:14,720
+And yeah, but I, I wanted to
+just put this out because
+
+945
+00:58:14,720 --> 00:58:17,000
+sometimes I've had these sort of
+conversations with people who
+
+946
+00:58:17,000 --> 00:58:20,280
+ask a little bit for career
+advice and, and again, just
+
+947
+00:58:20,280 --> 00:58:23,800
+thinking what, what, what would
+I wish that I'd known before?
+
+948
+00:58:24,080 --> 00:58:29,320
+So I'm happy to deep dive in
+particular topic areas like a
+
+949
+00:58:29,320 --> 00:58:33,720
+particular tech sector, type of
+job or, or, or type of position.
+
+950
+00:58:34,560 --> 00:58:38,120
+But yeah, maybe let me know if
+this is on, if you're watching
+
+951
+00:58:38,120 --> 00:58:40,240
+on YouTube, maybe you could put
+some comments if you found this
+
+952
+00:58:40,240 --> 00:58:43,920
+useful or if there's other stuff
+that you would like.
+
+953
+00:58:45,320 --> 00:58:49,320
+But yeah, hope you enjoyed this
+and we have a few more
+
+954
+00:58:49,320 --> 00:58:53,080
+interesting episodes coming this
+this season on some what I think
+
+955
+00:58:53,080 --> 00:58:57,440
+are quite exciting topics.
+But in the meantime, hope you
+
+956
+00:58:58,040 --> 00:59:05,680
+enjoy this episode and don't
+forget to like and subscribe on
+
+957
+00:59:05,680 --> 00:59:09,640
+YouTube or follow this if you're
+on Spotify, Apple, and if you
+
+958
+00:59:09,640 --> 00:59:13,080
+can give a rating that helps.
+On the topic of tech companies,
+
+959
+00:59:13,080 --> 00:59:16,240
+there's a lot of algorithms that
+work and unfortunately nobody
+
+960
+00:59:16,240 --> 00:59:19,160
+gets to see stuff unless there
+is some user interaction.
+
+961
+00:59:19,160 --> 00:59:21,400
+So if you just listen to this
+alone, that's great.
+
+962
+00:59:21,880 --> 00:59:25,360
+But unfortunately it it makes it
+difficult for other people to
+
+963
+00:59:25,360 --> 00:59:28,880
+find it where if you literally
+just press the like button, it
+
+964
+00:59:28,880 --> 00:59:31,960
+sort of obviously changes its
+position in the rankings and and
+
+965
+00:59:31,960 --> 00:59:36,680
+helps obviously me, but it helps
+to get greater exposure, which
+
+966
+00:59:36,680 --> 00:59:40,440
+of course you don't have to do
+it, but if you did, I'd much
+
+967
+00:59:40,440 --> 00:59:42,840
+appreciate it.
+OK, I'll stop rambling now.
+
+968
+00:59:43,080 --> 00:59:43,720
+Thanks very much.

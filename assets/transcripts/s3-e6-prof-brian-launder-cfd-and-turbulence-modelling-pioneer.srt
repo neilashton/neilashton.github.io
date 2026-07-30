@@ -1,0 +1,6318 @@
+1
+00:00:00,240 --> 00:00:02,360
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,000 --> 00:00:05,880
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,880 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,760 --> 00:00:12,720
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,800 --> 00:00:16,840
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,840 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:22,960
+are bringing in a new era
+discovery.
+
+8
+00:00:23,920 --> 00:00:27,040
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,040
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,040 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:40,840
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:40,840 --> 00:00:43,960
+Ashton Podcast.
+I just finished recording
+
+13
+00:00:43,960 --> 00:00:48,240
+today's episode with Professor
+Brian Launder, the incredible
+
+14
+00:00:48,240 --> 00:00:53,600
+person who has truly been one of
+The Pioneers and legends of
+
+15
+00:00:53,600 --> 00:00:57,200
+computational fluid dynamics and
+fluid dynamics more broadly.
+
+16
+00:00:57,280 --> 00:01:03,760
+He is most well known for the
+Kepps Island model, for the LLR
+
+17
+00:01:03,920 --> 00:01:07,000
+mental stress model.
+And I would argue, and I didn't
+
+18
+00:01:07,000 --> 00:01:10,200
+fully appreciate it until after
+actually speaking to him, just
+
+19
+00:01:10,200 --> 00:01:16,200
+the number of people that he
+supervised, mentored and
+
+20
+00:01:16,200 --> 00:01:19,800
+brought, you know, these people
+like Bill Jones and Kimo and
+
+21
+00:01:20,120 --> 00:01:24,920
+Mike Leschina and Tim Kraft and
+Hector Acuvides, who are people
+
+22
+00:01:24,920 --> 00:01:27,480
+that themselves have gone on to
+supervise people.
+
+23
+00:01:27,480 --> 00:01:29,280
+You know, this is the thing with
+academia.
+
+24
+00:01:29,320 --> 00:01:32,880
+One of the core roles I believe
+of of as a professor is
+
+25
+00:01:32,920 --> 00:01:37,240
+research, of course, but the
+people that they nurture and
+
+26
+00:01:37,240 --> 00:01:41,360
+then bring on to go into
+industry, go into academia is
+
+27
+00:01:41,360 --> 00:01:43,200
+the real credit.
+And so many people have
+
+28
+00:01:43,200 --> 00:01:45,440
+benefited from from what he's
+done.
+
+29
+00:01:45,440 --> 00:01:48,280
+It's hard to believe that most
+of this stuff was done in the
+
+30
+00:01:48,280 --> 00:01:53,080
+1970s, fifty years ago.
+Today we are still using the K
+
+31
+00:01:53,080 --> 00:01:55,840
+epsilon model.
+If you're doing ACFD simulation
+
+32
+00:01:55,840 --> 00:01:58,840
+of many different objects,
+whether you know heat transfer
+
+33
+00:01:58,840 --> 00:02:03,320
+cars, engines, you're probably
+using what the Kepson or some
+
+34
+00:02:03,320 --> 00:02:05,520
+variant of it or, or Reynolds
+stress model.
+
+35
+00:02:05,520 --> 00:02:08,880
+And the fact that that was done
+in the 70s when computers, you
+
+36
+00:02:08,880 --> 00:02:11,240
+know, he was telling us that you
+have to walk up to the building.
+
+37
+00:02:11,240 --> 00:02:16,240
+There was no SSH remote access
+punch cards, you know, the codes
+
+38
+00:02:16,240 --> 00:02:18,600
+were just being written.
+It was incredible.
+
+39
+00:02:19,320 --> 00:02:24,040
+I genuinely in awe of the
+development that happened back
+
+40
+00:02:24,040 --> 00:02:28,840
+then and it we we went through
+essentially his life story from
+
+41
+00:02:28,840 --> 00:02:32,360
+his undergraduate years moving
+across to the US from Imperial
+
+42
+00:02:32,360 --> 00:02:36,440
+to then MIT coming back to
+Imperial, the role of Brian
+
+43
+00:02:36,440 --> 00:02:39,800
+Spaulding, a key interesting one
+that we reflect on at the
+
+44
+00:02:39,800 --> 00:02:42,840
+beginning and the end, you know,
+incredible at that time, the
+
+45
+00:02:42,840 --> 00:02:45,720
+turbulent time of how the Champ
+Code came about and some of the
+
+46
+00:02:45,720 --> 00:02:50,000
+tensions around that.
+His ultimate move to you missed
+
+47
+00:02:50,280 --> 00:02:51,800
+now the University of
+Manchester.
+
+48
+00:02:52,600 --> 00:02:56,240
+And as I said, the the key
+developments around the Eddie
+
+49
+00:02:56,920 --> 00:02:59,480
+viscosity model, second moment
+closure models, but also things
+
+50
+00:02:59,480 --> 00:03:02,680
+like the wall functions that I
+mentioned to him is now even
+
+51
+00:03:02,680 --> 00:03:06,080
+more relevant in the context of
+Walmart, LS etcetera.
+
+52
+00:03:06,080 --> 00:03:08,320
+And just yeah, an incredible
+person.
+
+53
+00:03:08,320 --> 00:03:11,920
+And I think some of the advice
+and lessons you get from it, it
+
+54
+00:03:11,920 --> 00:03:14,080
+reminds you even the greatest
+people have some of the
+
+55
+00:03:14,080 --> 00:03:17,160
+challenges that that we have.
+And, and they don't realize at
+
+56
+00:03:17,160 --> 00:03:19,480
+the time the amazing work that
+they're doing.
+
+57
+00:03:19,520 --> 00:03:24,080
+But yeah, really, really special
+person.
+
+58
+00:03:24,440 --> 00:03:27,040
+And someone I really liked
+speaking to, you know, he's a
+
+59
+00:03:27,200 --> 00:03:30,560
+fellow with the Royal Society.
+He's he's done so many things.
+
+60
+00:03:30,560 --> 00:03:34,440
+He's you know, how many good
+citations, you know, 10s of
+
+61
+00:03:34,440 --> 00:03:37,720
+thousands, super high hate
+index, all of all of the things,
+
+62
+00:03:37,720 --> 00:03:39,680
+of course, that a top professor
+would have.
+
+63
+00:03:39,680 --> 00:03:43,400
+So if you're looking for the
+pinnacle of people in the
+
+64
+00:03:43,400 --> 00:03:46,760
+simulation world, quite a few of
+his people he supervised and
+
+65
+00:03:46,760 --> 00:03:49,680
+worked with have now gone off
+into some of these major
+
+66
+00:03:49,720 --> 00:03:53,240
+multibillion dollar companies.
+In fact, if you use these big
+
+67
+00:03:53,240 --> 00:03:56,960
+simulation codes, many of them
+are the foundations are on the
+
+68
+00:03:56,960 --> 00:04:01,120
+work that the professor Brian
+Launder was part of or, or or
+
+69
+00:04:01,120 --> 00:04:03,560
+leading.
+And so, yeah, really interesting
+
+70
+00:04:03,560 --> 00:04:06,400
+story as as we've ever.
+There was lots of things that I
+
+71
+00:04:06,400 --> 00:04:08,240
+could have asked him.
+We did talk a little bit about
+
+72
+00:04:08,240 --> 00:04:11,760
+some of the rivalry with
+Spallard and and mentor and
+
+73
+00:04:11,760 --> 00:04:14,720
+Wilcox and of course, you know,
+Professor Launder's gentleman.
+
+74
+00:04:14,720 --> 00:04:17,640
+And then I genuinely think his
+focus was more on the research.
+
+75
+00:04:17,839 --> 00:04:20,600
+But it's always interesting to
+us who used turbans models to
+
+76
+00:04:20,640 --> 00:04:23,760
+understand, you know, what was
+the difference between these
+
+77
+00:04:23,760 --> 00:04:26,240
+these key figures, I guess at
+the time.
+
+78
+00:04:26,240 --> 00:04:28,920
+But so I hope you enjoy this
+episode.
+
+79
+00:04:28,920 --> 00:04:32,120
+I genuinely really did.
+I, I mentioned that I studied
+
+80
+00:04:32,120 --> 00:04:34,360
+the University of Manchester.
+I was taught by Professor
+
+81
+00:04:34,360 --> 00:04:35,480
+Laundus.
+So it was one of my good
+
+82
+00:04:35,480 --> 00:04:39,000
+friends, Alistair W, who was
+also his last PhD student.
+
+83
+00:04:39,040 --> 00:04:42,360
+And yeah, it's it was an honor
+to speak to him.
+
+84
+00:04:42,360 --> 00:04:46,560
+And I hope you enjoyed this as
+much as I did speaking to him.
+
+85
+00:04:46,560 --> 00:04:49,720
+So sit back and enjoy this
+episode with Professor Brian
+
+86
+00:04:49,720 --> 00:04:51,880
+Lauder.
+Thank you very much for agreeing
+
+87
+00:04:51,880 --> 00:04:53,560
+to do this.
+I really appreciate you taking
+
+88
+00:04:53,560 --> 00:04:57,400
+the time to speak to me today.
+And I thought maybe it would be
+
+89
+00:04:57,400 --> 00:05:01,400
+good for the people listening
+to, you know, hear about your
+
+90
+00:05:01,400 --> 00:05:04,600
+early days, where it all began
+and you starting off, you know,
+
+91
+00:05:04,600 --> 00:05:07,160
+what did you do at university?
+What was your undergraduate
+
+92
+00:05:07,160 --> 00:05:10,200
+studies?
+OK, well that doesn't sound a
+
+93
+00:05:10,200 --> 00:05:14,320
+bad place to start.
+Let's let's begin with early
+
+94
+00:05:14,320 --> 00:05:17,960
+1961.
+I was in the final year of my
+
+95
+00:05:18,240 --> 00:05:20,800
+bachelor's program at Imperial
+College.
+
+96
+00:05:21,160 --> 00:05:24,840
+I found a topic that really
+interested me, convective heat
+
+97
+00:05:24,840 --> 00:05:31,200
+transfer, and I was doing a
+final year project on flows
+
+98
+00:05:31,200 --> 00:05:34,360
+related to boiling.
+When I heard that the new
+
+99
+00:05:34,360 --> 00:05:38,200
+professor of heat transfer was
+going to talk about postgraduate
+
+100
+00:05:38,200 --> 00:05:40,760
+opportunities, I was quite
+excited.
+
+101
+00:05:40,760 --> 00:05:45,960
+I made sure to attend because I
+knew by then that I would like
+
+102
+00:05:45,960 --> 00:05:50,640
+to do postgraduate work.
+So I went along to the meeting
+
+103
+00:05:50,640 --> 00:05:55,600
+that he was to address, and he
+probably did talk about the
+
+104
+00:05:55,600 --> 00:05:58,800
+range of opportunities that
+there might be.
+
+105
+00:05:59,640 --> 00:06:04,440
+But what I remembered were a
+particular sentence or two that
+
+106
+00:06:04,440 --> 00:06:10,160
+he presented us with.
+He said, you well know that the
+
+107
+00:06:10,160 --> 00:06:14,560
+college is being rebuilt, and
+they're rebuilding it on the
+
+108
+00:06:14,560 --> 00:06:16,880
+same site as the present
+building.
+
+109
+00:06:17,720 --> 00:06:22,480
+This will inevitably mean
+interruptions and delays.
+
+110
+00:06:22,480 --> 00:06:28,680
+So if you're looking for a fast
+PhD, you ought to go elsewhere.
+
+111
+00:06:28,680 --> 00:06:32,560
+This was a very deflating
+statement from him.
+
+112
+00:06:32,600 --> 00:06:38,320
+A day or two later, I asked my
+closest friend in the course guy
+
+113
+00:06:38,320 --> 00:06:41,040
+called Hugh Kendrick what he
+planned to do.
+
+114
+00:06:41,960 --> 00:06:46,280
+He chuckled, looked at me and
+said I'll probably go to
+
+115
+00:06:46,280 --> 00:06:49,480
+America.
+I fancy doing a master's program
+
+116
+00:06:49,520 --> 00:06:54,160
+at Yale or Princeton.
+Which time I interrupted him and
+
+117
+00:06:54,160 --> 00:06:57,720
+said, you're talking rubbish.
+What would a top American
+
+118
+00:06:57,720 --> 00:07:00,920
+University do having a thick O
+like Q?
+
+119
+00:07:01,080 --> 00:07:04,360
+We both chuckled at that point
+and moved on to other things.
+
+120
+00:07:04,840 --> 00:07:09,040
+But you know, when I was alone
+reflecting on this in the
+
+121
+00:07:09,040 --> 00:07:13,400
+evening, I thought that's,
+that's a pretty neat idea.
+
+122
+00:07:14,160 --> 00:07:20,400
+So I wrote to a half dozen
+universities in the USA seeking
+
+123
+00:07:21,000 --> 00:07:25,840
+graduate or postgraduate
+engagement there, together with
+
+124
+00:07:25,840 --> 00:07:28,360
+funding.
+Nothing happened for several
+
+125
+00:07:28,360 --> 00:07:33,120
+weeks, of course, but then
+responses started to come in and
+
+126
+00:07:33,120 --> 00:07:38,080
+I was absolutely delighted.
+Princeton offered me a name
+
+127
+00:07:38,080 --> 00:07:42,480
+scholarship that would cover my
+tuition fees, my living costs to
+
+128
+00:07:42,480 --> 00:07:44,880
+do research on whatever I wanted
+to do.
+
+129
+00:07:45,040 --> 00:07:48,560
+There was a second offer from
+MIT that was specifically to
+
+130
+00:07:48,560 --> 00:07:53,320
+work in boiling heat transfer,
+which was a subject that I I was
+
+131
+00:07:53,480 --> 00:07:58,040
+really interested in.
+However, the downsize was that I
+
+132
+00:07:58,040 --> 00:08:04,200
+had to earn my keep as a
+teaching assistant, that I'd
+
+133
+00:08:04,200 --> 00:08:10,160
+spend maybe 1520 even 20 hours a
+week tutoring students probably
+
+134
+00:08:10,160 --> 00:08:13,840
+brighter than me on on the
+various courses they'd be
+
+135
+00:08:13,840 --> 00:08:17,720
+taking.
+So I knew where my preference
+
+136
+00:08:17,720 --> 00:08:21,000
+was, but I thought I'd go back
+and ask her for an appointment
+
+137
+00:08:21,000 --> 00:08:25,560
+with Brian Spaulding to confirm
+my choice.
+
+138
+00:08:25,840 --> 00:08:30,520
+His secretary graciously gave me
+a 5 minute interview slot.
+
+139
+00:08:30,960 --> 00:08:35,600
+I went in and took perhaps a
+minute describing my fortunate
+
+140
+00:08:35,880 --> 00:08:39,400
+pair of choices and he said
+Princeton.
+
+141
+00:08:39,400 --> 00:08:41,440
+Huh.
+Well, Princeton's Princeton.
+
+142
+00:08:41,440 --> 00:08:46,960
+Scott Drake, who's just
+co-authored a heat transfer
+
+143
+00:08:46,960 --> 00:08:50,640
+textbook with Professor Eckert.
+But you know, from my meetings
+
+144
+00:08:50,640 --> 00:08:54,200
+with him, Drake hasn't had an
+original idea in his life.
+
+145
+00:08:54,400 --> 00:08:58,040
+Go to MIT with Rose now and do
+boiling heat transfer.
+
+146
+00:08:58,680 --> 00:09:03,800
+This response somewhat deflated
+me again, but equally I felt I
+
+147
+00:09:03,800 --> 00:09:11,440
+had to take take his advice and
+reluctantly declined the
+
+148
+00:09:11,440 --> 00:09:15,920
+Princeton scholarship.
+But before I got to write to
+
+149
+00:09:16,120 --> 00:09:21,440
+MIT, a counter offer came in
+from their gas turbine
+
+150
+00:09:21,440 --> 00:09:25,760
+laboratory and the important
+difference was that they offered
+
+151
+00:09:25,760 --> 00:09:31,040
+me not a teaching assistantship,
+but a research assistantship.
+
+152
+00:09:31,320 --> 00:09:35,520
+This meant that I would do
+research on one of their
+
+153
+00:09:35,520 --> 00:09:38,600
+projects, which would also
+become my thesis.
+
+154
+00:09:38,600 --> 00:09:41,560
+This was a no brainer for me at
+any rate.
+
+155
+00:09:41,720 --> 00:09:46,880
+So I accepted that offer.
+I declined the heat transfer
+
+156
+00:09:46,880 --> 00:09:51,280
+offer, and I'm afraid that from
+there on in my life, boiling
+
+157
+00:09:51,280 --> 00:09:55,160
+heat transfer had sunk beneath
+my horizon.
+
+158
+00:09:56,920 --> 00:10:02,840
+OK, Well, before I talk about my
+research at MIT and thereafter,
+
+159
+00:10:03,000 --> 00:10:06,680
+let me just switch back for a
+minute to Hugh Kendrick.
+
+160
+00:10:07,240 --> 00:10:12,960
+We were talking one day and I
+said to him, hey, I have
+
+161
+00:10:12,960 --> 00:10:17,720
+accepted a postgraduate position
+at MIT, where are you going?
+
+162
+00:10:17,760 --> 00:10:20,320
+You'd talked about going to
+Princeton or Yale.
+
+163
+00:10:20,440 --> 00:10:24,360
+I suddenly realized I was
+talking that someone with the
+
+164
+00:10:24,360 --> 00:10:28,920
+blood draining from his face.
+He was literally dumbfounded at
+
+165
+00:10:28,920 --> 00:10:33,960
+what I told him.
+Eventually he muttered that he
+
+166
+00:10:33,960 --> 00:10:38,000
+had a he had a graduate
+apprenticeship, signed up with
+
+167
+00:10:38,000 --> 00:10:42,160
+Vickers, that he hadn't even
+been looking at other
+
+168
+00:10:42,160 --> 00:10:44,440
+opportunities.
+He'd go and complete his
+
+169
+00:10:44,720 --> 00:10:46,760
+postgraduate apprenticeship with
+them.
+
+170
+00:10:46,920 --> 00:10:50,800
+But then I could almost see the
+wheels turning around in his
+
+171
+00:10:50,800 --> 00:10:54,120
+brain.
+He said with you could see
+
+172
+00:10:54,120 --> 00:10:58,280
+growing confidence, he said, But
+I was under 21 when I signed
+
+173
+00:10:58,280 --> 00:11:01,160
+that contract.
+It's not enforceable.
+
+174
+00:11:01,360 --> 00:11:06,200
+And I'm sure MIT will take in a
+thick O like you, They'll,
+
+175
+00:11:06,240 --> 00:11:09,760
+they'll find a place for me.
+Well, he was right.
+
+176
+00:11:09,760 --> 00:11:13,840
+They did find a place for him,
+but by then it was two or three
+
+177
+00:11:13,840 --> 00:11:16,640
+months after I'd been in touch
+with them.
+
+178
+00:11:16,640 --> 00:11:19,160
+They'd allocated all their
+funding for the year.
+
+179
+00:11:19,320 --> 00:11:24,560
+However, not to be deterred, he
+applied to Caltech on the other
+
+180
+00:11:24,560 --> 00:11:28,840
+side of America and was offered
+a teaching assistantship.
+
+181
+00:11:28,960 --> 00:11:38,560
+And that was in August 1961.
+He and I sailed across in a very
+
+182
+00:11:38,560 --> 00:11:41,040
+tiny cabin on the Queen Mary
+together.
+
+183
+00:11:41,160 --> 00:11:46,600
+Thereafter I caught the train up
+to MIT, or rather to Boston.
+
+184
+00:11:46,600 --> 00:11:51,040
+But then Boston is just across
+the Charles River in Cambridge
+
+185
+00:11:51,280 --> 00:11:55,960
+and not a just a short distance.
+He flew out to Los Angeles and
+
+186
+00:11:56,120 --> 00:11:59,280
+indeed made the rest of his life
+in America that.
+
+187
+00:11:59,640 --> 00:12:02,640
+That's that's amazing.
+And I I'm more interested and I
+
+188
+00:12:02,640 --> 00:12:05,200
+don't know if other people
+hearing this is the comment
+
+189
+00:12:05,200 --> 00:12:09,120
+about sailing across from the
+Queen Mary, mainly because now
+
+190
+00:12:09,120 --> 00:12:12,400
+if I go to America and it'll
+probably the same for you, you
+
+191
+00:12:12,400 --> 00:12:15,320
+know, it's a flight.
+How long did it take on the
+
+192
+00:12:15,320 --> 00:12:17,520
+boat?
+It was it was a five day flight.
+
+193
+00:12:17,520 --> 00:12:22,360
+It was convenient because we
+worked on 25 hour days so that
+
+194
+00:12:22,360 --> 00:12:24,560
+so that we are on the right
+time.
+
+195
+00:12:24,560 --> 00:12:30,480
+When we finally arrived in New
+York, it was fine, fine sea
+
+196
+00:12:30,480 --> 00:12:34,560
+journeys, a bit boring, you
+know, try to amuse oneself.
+
+197
+00:12:34,560 --> 00:12:37,960
+We had a tiny cabin, but we
+would sneak through into the,
+
+198
+00:12:38,000 --> 00:12:41,920
+I'm not sure if it was first
+class or second class areas and
+
+199
+00:12:41,920 --> 00:12:47,920
+were able to watch films and and
+and so on in their luxury,
+
+200
+00:12:48,600 --> 00:12:51,320
+luxury cinemas.
+And so that they had on.
+
+201
+00:12:52,240 --> 00:12:55,200
+It was an interesting experience
+to do once.
+
+202
+00:12:55,560 --> 00:13:00,040
+The other thing I remember was
+that as we got close to New
+
+203
+00:13:00,040 --> 00:13:05,520
+York, you close to?
+Yeah, the final destination, the
+
+204
+00:13:05,520 --> 00:13:09,960
+air became more and more humid.
+So now I remember a site sailing
+
+205
+00:13:09,960 --> 00:13:12,680
+past the Statue of Liberty.
+Of course.
+
+206
+00:13:13,160 --> 00:13:19,240
+But it was absolutely 9090%
+humidity by then it it was
+
+207
+00:13:19,240 --> 00:13:21,640
+difficult.
+Anyway, that must have been a
+
+208
+00:13:21,640 --> 00:13:24,120
+moment, though, to see the
+Statue of Liberty coming to
+
+209
+00:13:24,120 --> 00:13:27,920
+America with your friend.
+Yeah, that's a that's a great
+
+210
+00:13:27,920 --> 00:13:30,720
+point.
+So what happened then when you
+
+211
+00:13:30,720 --> 00:13:34,920
+got to to MIT?
+How did you decide what research
+
+212
+00:13:34,920 --> 00:13:39,360
+projects to welcome?
+Well, I was simply checked in
+
+213
+00:13:39,360 --> 00:13:47,160
+there and they gave me a folder
+with perhaps 15 research
+
+214
+00:13:47,160 --> 00:13:50,000
+projects summarized in there,
+the sufficient amount of
+
+215
+00:13:50,000 --> 00:13:53,920
+background that one could make a
+decision, and I knew pretty much
+
+216
+00:13:53,920 --> 00:13:57,240
+straight away what my choice
+would be.
+
+217
+00:13:57,240 --> 00:14:01,120
+At Imperial I'd learned the
+rudiments of boundary layer
+
+218
+00:14:01,120 --> 00:14:04,000
+transition.
+That is to say, a boundary layer
+
+219
+00:14:04,000 --> 00:14:08,400
+developed initially was laminar,
+but then when the Reynolds
+
+220
+00:14:08,400 --> 00:14:11,840
+number got high enough,
+conditions were right for a
+
+221
+00:14:11,840 --> 00:14:16,080
+transition to a turbulent
+boundary layer and there and
+
+222
+00:14:16,080 --> 00:14:19,320
+turbulent it remained.
+But this this outline
+
+223
+00:14:19,320 --> 00:14:24,040
+description that I was reading
+said that couple of Soviet
+
+224
+00:14:24,040 --> 00:14:29,520
+scientists had found that in
+supersonic flow, if a turbulent
+
+225
+00:14:29,520 --> 00:14:34,120
+boundary layer was passed around
+what is called a a prantlemyer
+
+226
+00:14:34,120 --> 00:14:39,360
+expansion, essentially that's a
+series of waves that one might
+
+227
+00:14:39,360 --> 00:14:43,040
+go through in turning a corner
+and the flow is through that
+
+228
+00:14:43,040 --> 00:14:48,120
+expansion greatly accelerated.
+They found that downstream they
+
+229
+00:14:48,120 --> 00:14:50,560
+had a laminar boundary layer
+growing again.
+
+230
+00:14:51,120 --> 00:14:58,000
+So this project outlines said
+you will determine whether in
+
+231
+00:14:58,240 --> 00:15:03,240
+subsonic flow a boundary layer
+that's strongly accelerated also
+
+232
+00:15:03,520 --> 00:15:08,920
+can revert back to turbulent.
+So sorry to Lamina and I knew I
+
+233
+00:15:08,920 --> 00:15:12,800
+had to take that it, it just
+seemed very a very interesting
+
+234
+00:15:12,800 --> 00:15:17,120
+topic and it occupied the next
+three years of my life doing
+
+235
+00:15:17,160 --> 00:15:21,680
+doing research there.
+And the outcome was that yes,
+
+236
+00:15:21,960 --> 00:15:25,160
+you could make a turbulent
+boundary layer go back to
+
+237
+00:15:25,160 --> 00:15:27,560
+laminar or at least towards
+laminar.
+
+238
+00:15:27,640 --> 00:15:32,000
+I established the acceleration
+parameter, dimensionless
+
+239
+00:15:32,000 --> 00:15:36,200
+acceleration parameter that
+would determine when that would
+
+240
+00:15:36,200 --> 00:15:41,760
+take place and how roughly how
+big the parameter was.
+
+241
+00:15:41,840 --> 00:15:46,840
+I even developed what would be
+called a simple integral profile
+
+242
+00:15:46,840 --> 00:15:50,200
+method of predicting the
+phenomenon based on the idea
+
+243
+00:15:50,200 --> 00:15:54,680
+that whilst the viscous stresses
+were greatly increased by the
+
+244
+00:15:54,960 --> 00:15:58,760
+acceleration, that happened too
+quickly for the turbulent
+
+245
+00:15:58,760 --> 00:16:01,680
+stresses to respond.
+So I just left those as they
+
+246
+00:16:01,720 --> 00:16:06,240
+were and doing calculations
+based on that idea pretty much
+
+247
+00:16:06,320 --> 00:16:10,360
+imitate mimic the experiments
+that I'd.
+
+248
+00:16:10,480 --> 00:16:15,600
+OK, so now having finished my
+work at MIT, what next?
+
+249
+00:16:15,600 --> 00:16:20,760
+There were there were jobs
+available for PhD graduates from
+
+250
+00:16:20,760 --> 00:16:26,200
+MIT offering $14,000 or so a
+year, but I wasn't eligible to
+
+251
+00:16:26,200 --> 00:16:32,280
+apply for those.
+I'd taken a a Fulbright travel
+
+252
+00:16:32,280 --> 00:16:36,880
+grant to come across to the US,
+but remember that at the end of
+
+253
+00:16:36,880 --> 00:16:40,880
+it, I had to go back.
+So finding a job back in
+
+254
+00:16:40,880 --> 00:16:46,560
+England, I'd had one or two
+offers came in for postgraduate
+
+255
+00:16:46,720 --> 00:16:50,960
+research studentships.
+Not studentships, postgraduate
+
+256
+00:16:51,920 --> 00:16:57,080
+employment at government
+laboratories like the National
+
+257
+00:16:57,080 --> 00:17:00,800
+Gas Turbine Establishment,
+central electricity research
+
+258
+00:17:00,800 --> 00:17:02,920
+labs, and so on.
+They were.
+
+259
+00:17:03,560 --> 00:17:07,079
+They weren't uninteresting, but
+they didn't quite tick all the
+
+260
+00:17:07,079 --> 00:17:10,240
+boxes.
+So I decided to write to Brian
+
+261
+00:17:10,240 --> 00:17:15,760
+Spalding again and wondering
+whether there was a post and he
+
+262
+00:17:15,760 --> 00:17:20,680
+said send ACV.
+So I send ACV of what I'd
+
+263
+00:17:20,920 --> 00:17:25,440
+accomplished and I just was
+working on proofs of the 1st
+
+264
+00:17:25,440 --> 00:17:29,800
+paper that I'd written and I
+decided to send those along too
+
+265
+00:17:29,800 --> 00:17:32,400
+for good measure.
+It may sound a long time.
+
+266
+00:17:32,400 --> 00:17:35,440
+Everything was roughly 2 weeks
+between writing and getting.
+
+267
+00:17:35,440 --> 00:17:36,600
+I was just.
+Going to say yeah.
+
+268
+00:17:37,240 --> 00:17:38,160
+It wasn't.
+E-mail.
+
+269
+00:17:38,720 --> 00:17:41,080
+Yeah, yeah, there wasn't the
+e-mail response.
+
+270
+00:17:41,080 --> 00:17:48,720
+So anyway, 2 weeks later I I got
+a note from Spaulding saying I
+
+271
+00:17:48,720 --> 00:17:53,920
+could expect the offer of a
+lectureship shortly, and sure
+
+272
+00:17:53,920 --> 00:17:57,880
+enough, two or three days later
+there was a formal note from the
+
+273
+00:17:58,160 --> 00:18:03,120
+Registrar's department offering
+me a position as a lecturer at
+
+274
+00:18:03,120 --> 00:18:07,120
+the bottom of the lecturer
+scale, which at the time was
+
+275
+00:18:07,760 --> 00:18:12,520
+1400 lbs a year.
+It didn't compare very well with
+
+276
+00:18:12,520 --> 00:18:16,320
+what I could have earned in the
+USA if I'd been eligible, but I
+
+277
+00:18:16,320 --> 00:18:20,200
+forget this was Imperial College
+in London.
+
+278
+00:18:20,800 --> 00:18:26,480
+I was also awarded London
+Allowance and this was an extra
+
+279
+00:18:26,480 --> 00:18:32,520
+£60 a year.
+So I, I accepted like a shot and
+
+280
+00:18:32,520 --> 00:18:37,040
+my early years at Imperial
+College were, were were just
+
+281
+00:18:37,040 --> 00:18:39,880
+delightful.
+I'd really a very light teaching
+
+282
+00:18:39,880 --> 00:18:41,960
+load, but an interesting
+teaching load.
+
+283
+00:18:41,960 --> 00:18:45,840
+It was a master's level course.
+I was asked to take in fluid
+
+284
+00:18:45,840 --> 00:18:49,280
+mechanics.
+I had plenty of time free to try
+
+285
+00:18:49,280 --> 00:18:54,440
+and get research students.
+Sorry, research funding, but
+
+286
+00:18:54,560 --> 00:18:56,720
+then I mentioned research
+students.
+
+287
+00:18:56,880 --> 00:19:00,640
+There was also an important
+element there, Bran Spaulding
+
+288
+00:19:00,640 --> 00:19:03,320
+said.
+Would I take over as my
+
+289
+00:19:03,320 --> 00:19:09,200
+administrative load the process
+of research student admissions?
+
+290
+00:19:09,200 --> 00:19:14,160
+It meant that I, I looked at all
+the proposals that came in,
+
+291
+00:19:15,320 --> 00:19:18,760
+collected further references if
+these weren't provided,
+
+292
+00:19:18,760 --> 00:19:23,080
+distributed the applications to
+members of staff that I thought
+
+293
+00:19:23,080 --> 00:19:26,240
+might be interested in taking
+them and so on.
+
+294
+00:19:26,720 --> 00:19:30,840
+But naturally I got first sight
+of all of the students, and it
+
+295
+00:19:30,840 --> 00:19:37,720
+was from that site that I was
+able to recruit both Bill Jones
+
+296
+00:19:37,960 --> 00:19:43,120
+and Kim Mohanulich the projects
+as my first PhD students.
+
+297
+00:19:43,200 --> 00:19:48,240
+Now, viewers may well have heard
+of these names because they've
+
+298
+00:19:49,080 --> 00:19:53,800
+they've both gone on to very
+successful academic careers and
+
+299
+00:19:53,880 --> 00:19:56,520
+published extensively in
+Turbulence Modelling.
+
+300
+00:19:56,520 --> 00:19:58,680
+Can I just ask you a question at
+that point?
+
+301
+00:19:59,040 --> 00:19:59,920
+Sure.
+How?
+
+302
+00:20:00,000 --> 00:20:02,600
+How did it feel to go back to
+London?
+
+303
+00:20:03,000 --> 00:20:05,880
+Because you've gone to Boston,
+you've gone to MIT.
+
+304
+00:20:06,360 --> 00:20:10,560
+Was it almost a nice feeling to
+come back now as a lecturer, not
+
+305
+00:20:10,560 --> 00:20:15,320
+as a student be teaching?
+You know, how did it feel to
+
+306
+00:20:15,320 --> 00:20:17,480
+come back there?
+Did it feel like progression
+
+307
+00:20:17,480 --> 00:20:20,360
+with Spaulding now as a fellow
+member of the academic staff?
+
+308
+00:20:20,360 --> 00:20:25,680
+I don't think I I felt was
+terribly conscious of a change
+
+309
+00:20:25,680 --> 00:20:28,760
+of status.
+What I was aware of didn't,
+
+310
+00:20:28,800 --> 00:20:33,480
+doesn't relate directly to your
+question, but was that some of
+
+311
+00:20:33,480 --> 00:20:39,760
+the research students whom I got
+to know a bit while I was doing
+
+312
+00:20:39,760 --> 00:20:44,800
+my final undergraduate year
+experimental special tasks, they
+
+313
+00:20:44,800 --> 00:20:47,160
+were still there working on
+their pitch.
+
+314
+00:20:47,360 --> 00:20:52,520
+So it very much brought home to
+me sporting his comment that if
+
+315
+00:20:52,520 --> 00:20:54,960
+you want a quick PhD, go
+elsewhere.
+
+316
+00:20:54,960 --> 00:20:57,120
+Yeah.
+OK.
+
+317
+00:20:57,160 --> 00:20:59,680
+OK.
+So you sort of skipped ahead a
+
+318
+00:20:59,680 --> 00:21:01,680
+little bit, almost, yeah.
+Yeah.
+
+319
+00:21:04,320 --> 00:21:07,040
+So how so how about, you know,
+the research sort of project?
+
+320
+00:21:07,040 --> 00:21:10,800
+How about with with Bill?
+Jones, Bill Jones I basically
+
+321
+00:21:10,800 --> 00:21:16,280
+continued PhD research, only we
+arranged that he would simply
+
+322
+00:21:16,280 --> 00:21:20,360
+look at one particular
+configuration of acceleration
+
+323
+00:21:20,360 --> 00:21:24,040
+and that was flow between
+converging planes.
+
+324
+00:21:24,400 --> 00:21:28,040
+What I mean by converging planes
+is we measured the boundary
+
+325
+00:21:28,040 --> 00:21:31,280
+layer developing on that surface
+and the and the other wall just
+
+326
+00:21:31,280 --> 00:21:35,880
+sloped like this.
+It's a very special geometry so
+
+327
+00:21:35,880 --> 00:21:40,560
+far as accelerating boundary
+layers is concerned because the
+
+328
+00:21:40,560 --> 00:21:44,960
+thickness of the boundary layer
+goes down strictly in proportion
+
+329
+00:21:45,160 --> 00:21:48,520
+to the velocity going up.
+So the Reynolds number of the
+
+330
+00:21:48,520 --> 00:21:53,120
+flow reaches an equilibrium in
+which it stays constant
+
+331
+00:21:53,120 --> 00:21:57,320
+thereafter and also the
+acceleration parameter
+
+332
+00:21:57,320 --> 00:22:01,440
+determining the reversion to
+laminar flow that also stays
+
+333
+00:22:01,440 --> 00:22:03,760
+constant.
+And what we discovered there
+
+334
+00:22:03,760 --> 00:22:08,400
+that there wasn't just a single
+point first of all for various
+
+335
+00:22:08,400 --> 00:22:12,440
+levels of the acceleration
+parameter, you actually got a
+
+336
+00:22:12,440 --> 00:22:18,400
+frozen boundary layer was
+dissimilar from a turbulent
+
+337
+00:22:18,400 --> 00:22:20,960
+boundary layer.
+And this the viscous sub layer
+
+338
+00:22:20,960 --> 00:22:24,560
+was getting progressively
+thicker and thicker in what was
+
+339
+00:22:24,560 --> 00:22:29,640
+still a turbulent flow, a self
+preserving turbulent flow until
+
+340
+00:22:29,640 --> 00:22:32,400
+you reached a critical
+acceleration.
+
+341
+00:22:33,440 --> 00:22:37,200
+And at that level it you had a
+complete collapsed to turbulent
+
+342
+00:22:37,200 --> 00:22:41,280
+flow.
+So a a lot more came out from
+
+343
+00:22:41,480 --> 00:22:45,080
+from Bill Jones's study than I
+had I had achieved.
+
+344
+00:22:45,280 --> 00:22:50,400
+As for chemo, we actually looked
+at a project sponsored by the
+
+345
+00:22:50,400 --> 00:22:54,160
+Berkeley Nuclear Labs.
+They asked us to determine
+
+346
+00:22:54,160 --> 00:22:58,280
+whether for flying a duct,
+whether the position where the
+
+347
+00:22:58,280 --> 00:23:03,240
+velocity reached its maximum
+would coincide with where the
+
+348
+00:23:03,400 --> 00:23:05,720
+turbulent shear stress fell to
+0.
+
+349
+00:23:06,720 --> 00:23:10,560
+They'd been doing tests
+themselves in flow through
+
+350
+00:23:10,560 --> 00:23:14,360
+annually with a rough inner core
+tube and a smooth outer
+
+351
+00:23:14,360 --> 00:23:19,680
+containing tube and had assumed
+that there was this coincidence
+
+352
+00:23:19,680 --> 00:23:24,840
+and it gave them very hard to
+understand values for the
+
+353
+00:23:24,840 --> 00:23:29,320
+respective shear stresses on the
+rough and the smooth surface.
+
+354
+00:23:29,480 --> 00:23:32,520
+Could we sort it out, Judy?
+We did we he didn't look at an
+
+355
+00:23:32,520 --> 00:23:37,800
+annulus, we looked at parallel
+flow between parallel plates and
+
+356
+00:23:37,800 --> 00:23:40,000
+found there was a huge
+difference.
+
+357
+00:23:40,000 --> 00:23:45,120
+That was a thesis very well,
+very well completed by Kimo.
+
+358
+00:23:45,440 --> 00:23:49,920
+Now I think the next point I
+should mention was research that
+
+359
+00:23:50,120 --> 00:23:56,080
+Brian Spalding and his brilliant
+student Suhas Patanka had done.
+
+360
+00:23:56,440 --> 00:24:02,000
+They produced a very efficient,
+very easy to use boundary layer
+
+361
+00:24:02,000 --> 00:24:05,560
+code.
+The only thing that it was weak
+
+362
+00:24:05,560 --> 00:24:09,480
+on was its model of turbulence.
+It it had the mixing length
+
+363
+00:24:09,480 --> 00:24:13,840
+hypothesis.
+Prandtl's 1925 paper In There
+
+364
+00:24:15,800 --> 00:24:19,920
+Sporting realised that what he
+needed was a much more
+
+365
+00:24:19,920 --> 00:24:25,480
+sophisticated model, one that
+had individual velocity and
+
+366
+00:24:25,480 --> 00:24:29,640
+length scales of turbulence
+available, and not only the
+
+367
+00:24:29,640 --> 00:24:35,040
+these scales would be affected
+by diffusion, convection and
+
+368
+00:24:35,040 --> 00:24:40,200
+various source and sync terms.
+So he'd obviously chosen the
+
+369
+00:24:40,200 --> 00:24:41,920
+turbulence energy as one of
+them.
+
+370
+00:24:42,680 --> 00:24:46,440
+But then there was the issue of
+what would you use to get the
+
+371
+00:24:46,440 --> 00:24:50,600
+turbulent length scale didn't
+have to be the length scale
+
+372
+00:24:50,600 --> 00:24:54,800
+itself because you already were
+solving a transport equation for
+
+373
+00:24:54,800 --> 00:25:00,000
+the kinetic energy K.
+So any combination of K with L
+
+374
+00:25:00,000 --> 00:25:02,680
+would be a possibility.
+Indeed.
+
+375
+00:25:02,680 --> 00:25:08,840
+Golf gang Rody Sporting student
+adopted the product of K * L
+
+376
+00:25:08,840 --> 00:25:12,920
+where whereas Brian Sporting
+himself had an individual
+
+377
+00:25:12,920 --> 00:25:17,680
+project underway and he chose
+something he called you, which
+
+378
+00:25:18,400 --> 00:25:22,600
+basically amounted to K divided
+by the square of length scale.
+
+379
+00:25:22,800 --> 00:25:27,240
+OK, well one day Spaulding said
+to me, hey, would you like to
+
+380
+00:25:27,240 --> 00:25:32,880
+join our group?
+I put it to Bill and Kimmo and
+
+381
+00:25:32,880 --> 00:25:34,960
+they thought that sounded a neat
+idea.
+
+382
+00:25:34,960 --> 00:25:38,760
+By then we'd started to explore
+elaborations of the mixing
+
+383
+00:25:38,760 --> 00:25:41,960
+length hypothesis, but although
+we've published several papers
+
+384
+00:25:41,960 --> 00:25:44,600
+on the topic, it clearly wasn't
+going to get anywhere.
+
+385
+00:25:44,600 --> 00:25:48,360
+So one thing I should say
+though, is that Kimohaneilich
+
+386
+00:25:49,320 --> 00:25:53,280
+came from Yugoslavia and
+Yugoslavia was a communist
+
+387
+00:25:53,280 --> 00:25:56,440
+country at the time.
+Naturally then he had learned
+
+388
+00:25:56,440 --> 00:26:01,760
+Russian in school and that meant
+he could, he could have ready
+
+389
+00:26:01,760 --> 00:26:06,360
+access to the Russian literature
+and came across a paper by
+
+390
+00:26:06,400 --> 00:26:12,320
+somebody called Davidoff, which
+advocated in an otherwise
+
+391
+00:26:12,320 --> 00:26:16,680
+totally unusable turbulence
+model, but it advocated the use
+
+392
+00:26:16,680 --> 00:26:21,320
+of epsilon, the energy
+dissipation rate, OK, of, of
+
+393
+00:26:21,320 --> 00:26:24,720
+turbulence that appealed to us
+just physically.
+
+394
+00:26:24,720 --> 00:26:29,040
+It was something that one could
+put one's hand on and hopefully
+
+395
+00:26:29,040 --> 00:26:31,600
+one day be able to measure
+accurately.
+
+396
+00:26:33,520 --> 00:26:41,040
+And thus that was what we chose.
+We produced that, I say we, but
+
+397
+00:26:41,280 --> 00:26:45,280
+I was sitting back, it was my
+research students that that were
+
+398
+00:26:45,280 --> 00:26:49,400
+doing the computation.
+We produced the version of that
+
+399
+00:26:49,800 --> 00:26:55,920
+and we're delighted to discover
+that precisely the same model
+
+400
+00:26:56,560 --> 00:27:02,600
+enabled us to compute both the
+free flows, that is to say of of
+
+401
+00:27:02,840 --> 00:27:08,400
+mixing layer or a plane jet, but
+with the same model that we used
+
+402
+00:27:08,560 --> 00:27:11,320
+to compute flow along a flat
+plate.
+
+403
+00:27:11,320 --> 00:27:17,280
+Neither of the options that
+Spalding and Rhody were using
+
+404
+00:27:17,920 --> 00:27:22,280
+achieved that.
+So it it was indeed real
+
+405
+00:27:22,280 --> 00:27:25,040
+progress.
+And fairly soon thereafter,
+
+406
+00:27:25,040 --> 00:27:29,440
+Brian Spalding advocated that
+the group's work should focus on
+
+407
+00:27:29,440 --> 00:27:33,640
+what he called the K epsilon
+model rather than either of the
+
+408
+00:27:33,640 --> 00:27:37,760
+alternatives.
+Of course, this model that we
+
+409
+00:27:37,800 --> 00:27:42,280
+arrived at, the K epsilon Eddy
+viscosity model, wasn't any good
+
+410
+00:27:42,280 --> 00:27:45,600
+as it stood for either Bill or
+Kimo's research.
+
+411
+00:27:45,680 --> 00:27:51,080
+It needed great extension.
+For example, in Bill's case, he
+
+412
+00:27:51,080 --> 00:27:55,360
+had to deal with situations
+where one started with a
+
+413
+00:27:55,360 --> 00:27:59,440
+turbulent boundary layer and it
+went back to or towards lamina.
+
+414
+00:27:59,880 --> 00:28:04,480
+And so with the inner boundary
+condition that was being used
+
+415
+00:28:04,480 --> 00:28:08,360
+next to the wall wasn't strictly
+a wall boundary condition.
+
+416
+00:28:08,520 --> 00:28:11,880
+It assumed that across the
+viscous sub layer there was a
+
+417
+00:28:11,880 --> 00:28:16,000
+universal velocity profile.
+And so we didn't need to go
+
+418
+00:28:16,000 --> 00:28:19,360
+actually to the wall.
+We'd make our boundary condition
+
+419
+00:28:19,640 --> 00:28:23,840
+out in the fully turbulent
+region just a millimetre or so
+
+420
+00:28:24,000 --> 00:28:27,440
+from the wall.
+That meant that he had to
+
+421
+00:28:27,440 --> 00:28:32,600
+develop and extend his model and
+it it was a major task so that
+
+422
+00:28:32,600 --> 00:28:38,480
+it included all semi viscous
+effects that would modify both
+
+423
+00:28:38,480 --> 00:28:43,200
+kinetic energy that that wasn't
+that difficult, but also also
+
+424
+00:28:43,280 --> 00:28:46,400
+energy dissipation rate.
+And this one was flying blind.
+
+425
+00:28:46,400 --> 00:28:50,360
+There was no experience in this.
+So he, he did a very good job
+
+426
+00:28:50,720 --> 00:28:54,760
+and I'm glad to say that the
+paper he and I produced
+
+427
+00:28:54,840 --> 00:29:00,080
+describing it as being cited a
+large number of times over 6000.
+
+428
+00:29:00,080 --> 00:29:06,240
+I think likewise for chemo, he
+had been asked by sponsors to
+
+429
+00:29:06,560 --> 00:29:11,240
+explain or indeed provide a
+model for situations where the
+
+430
+00:29:11,240 --> 00:29:16,320
+position of maximum velocity did
+not coincide with the position
+
+431
+00:29:16,320 --> 00:29:19,200
+of 0 shear stress.
+But of course with an Eddy
+
+432
+00:29:19,200 --> 00:29:21,440
+viscosity model, you can't do
+that.
+
+433
+00:29:21,440 --> 00:29:25,480
+They're linked by the definitive
+link interlinkage between the
+
+434
+00:29:25,920 --> 00:29:29,120
+mean field velocity gradient and
+the turbulent shear stress.
+
+435
+00:29:29,120 --> 00:29:35,200
+So there what we did was provide
+an additional independent
+
+436
+00:29:35,520 --> 00:29:38,440
+transport equation for the
+turbulent stress.
+
+437
+00:29:38,440 --> 00:29:43,920
+Again, that paper has been
+reasonably widely cited.
+
+438
+00:29:44,160 --> 00:29:50,600
+I think both Kimmo and Bill and
+I felt at the times, though,
+
+439
+00:29:50,600 --> 00:29:55,960
+that Eddie viscosity modelling
+wasn't the way to go for most
+
+440
+00:29:55,960 --> 00:29:59,440
+cases.
+We felt that you really needed
+
+441
+00:29:59,440 --> 00:30:03,040
+to solve transport equations for
+all the Reynolds stresses
+
+442
+00:30:03,080 --> 00:30:05,760
+independently of the velocity
+field.
+
+443
+00:30:05,880 --> 00:30:11,680
+And curiously enough, Brian
+Spalding was the agent enabling
+
+444
+00:30:11,680 --> 00:30:17,600
+me to pursue that work.
+Golf Gang Roadie by then had
+
+445
+00:30:17,600 --> 00:30:23,160
+completed all his computations,
+but he was in the throes of
+
+446
+00:30:23,400 --> 00:30:27,960
+trying to write a thesis that
+met his supervisors very
+
+447
+00:30:27,960 --> 00:30:33,120
+exacting standards in English.
+His scholarship had run out by
+
+448
+00:30:33,120 --> 00:30:40,080
+then and so I was able to hire
+him as a a quasi postdoctoral
+
+449
+00:30:40,160 --> 00:30:45,280
+fellow and together we worked on
+developing a full stress
+
+450
+00:30:45,280 --> 00:30:49,440
+transport model.
+And in the time available that
+
+451
+00:30:49,440 --> 00:30:54,920
+also went very, very well.
+We produced a solver that
+
+452
+00:30:55,360 --> 00:31:00,120
+nowadays known as the LRR model
+Londores and Roadie in
+
+453
+00:31:00,120 --> 00:31:05,800
+alphabetical order.
+I'd I didn't so, and that too
+
+454
+00:31:05,800 --> 00:31:08,840
+has been quite widely cited.
+I think that's a little bit of
+
+455
+00:31:08,840 --> 00:31:12,040
+an understatement.
+I think they're quite widely
+
+456
+00:31:12,040 --> 00:31:14,320
+used.
+And maybe you just forward maybe
+
+457
+00:31:14,320 --> 00:31:17,440
+getting on to the next point,
+just on this chapter, I guess
+
+458
+00:31:17,640 --> 00:31:21,040
+would it be fair to say for
+people to realize that all of
+
+459
+00:31:21,040 --> 00:31:26,520
+the work prior to Spalding's
+finite volume code was
+
+460
+00:31:26,520 --> 00:31:30,520
+essentially experimental and you
+were mainly deriving
+
+461
+00:31:31,360 --> 00:31:34,200
+relationships from the
+experimental data, There wasn't
+
+462
+00:31:34,200 --> 00:31:38,120
+as much coding or numerical
+simulation work.
+
+463
+00:31:38,200 --> 00:31:44,240
+Is that correct?
+It was I'd say 80 to 90% correct
+
+464
+00:31:44,800 --> 00:31:47,520
+there.
+There was work on developing
+
+465
+00:31:47,520 --> 00:31:54,280
+solvers people in the in the the
+USA was were on to on to that a
+
+466
+00:31:54,280 --> 00:31:57,400
+group at Los Alamos.
+There were others in England.
+
+467
+00:31:57,400 --> 00:32:01,280
+You mustn't forget Peter
+Bradshaw also, although he was
+
+468
+00:32:01,320 --> 00:32:04,800
+out and out an experimentalist.
+He worked with a group at the
+
+469
+00:32:04,800 --> 00:32:08,960
+National Physical Laboratory
+that included some numerical
+
+470
+00:32:08,960 --> 00:32:13,680
+fluid mechanisms and they
+developed a scheme usually
+
+471
+00:32:13,680 --> 00:32:19,000
+called Bradshaw's method that
+indeed at the 1968 Stanford
+
+472
+00:32:19,000 --> 00:32:23,800
+conference was rather more
+successful than sporting and
+
+473
+00:32:23,800 --> 00:32:27,200
+Patanka scheme with that had
+used the mixing length
+
+474
+00:32:27,200 --> 00:32:32,160
+hypothesis, of course.
+OK, So the this bringing
+
+475
+00:32:32,160 --> 00:32:35,200
+together, how did it work in
+practice at that point?
+
+476
+00:32:35,200 --> 00:32:38,800
+Was Spalding still essentially
+running the department?
+
+477
+00:32:38,880 --> 00:32:42,480
+And and so in some ways was that
+the slight you still had your
+
+478
+00:32:42,480 --> 00:32:46,520
+individual research groups, but
+you were sort of merging in one,
+
+479
+00:32:46,520 --> 00:32:48,640
+you know, what was that?
+Because I can imagine he is the
+
+480
+00:32:48,640 --> 00:32:52,080
+senior professor here.
+You you're the How did that
+
+481
+00:32:52,080 --> 00:32:55,600
+relationship at that point?
+Well, well, Sporting was never a
+
+482
+00:32:55,600 --> 00:32:58,640
+head of department.
+He was happy to be head of the
+
+483
+00:32:58,840 --> 00:33:04,360
+heat transfer section, OK,
+really the next, and he was
+
+484
+00:33:04,360 --> 00:33:09,520
+happy doing that.
+The next major change in my own
+
+485
+00:33:09,520 --> 00:33:14,960
+career also arose indirectly
+from Brian Spaulding with the
+
+486
+00:33:15,040 --> 00:33:18,000
+success of this new boundary
+layer code.
+
+487
+00:33:18,200 --> 00:33:21,920
+And he had another code that
+handled recirculating flows too.
+
+488
+00:33:23,160 --> 00:33:27,960
+There was a lot of interest
+outside of the university in
+
+489
+00:33:28,160 --> 00:33:34,000
+getting consultancy help on
+applying these new schemes to
+
+490
+00:33:34,000 --> 00:33:37,840
+flows that were of interest to
+the people in question.
+
+491
+00:33:37,960 --> 00:33:41,280
+Sporting initially tried
+handling that internally by
+
+492
+00:33:41,280 --> 00:33:46,800
+sharing tasks with trusted
+members of staff and they're
+
+493
+00:33:46,840 --> 00:33:50,680
+research students.
+But after a year or so, he he
+
+494
+00:33:50,680 --> 00:33:55,080
+just felt that wasn't working.
+He'd find somewhere outside of
+
+495
+00:33:55,080 --> 00:33:59,240
+the university.
+So he established an independent
+
+496
+00:33:59,240 --> 00:34:04,440
+company, Concentration, Heat and
+Momentum, or Cham for short.
+
+497
+00:34:04,440 --> 00:34:09,320
+It established headquarters in
+Wimbledon and then he had the
+
+498
+00:34:09,320 --> 00:34:16,280
+enormous task of recruiting
+staff, completing the various
+
+499
+00:34:16,760 --> 00:34:19,280
+consultancy requests that were
+coming in.
+
+500
+00:34:19,280 --> 00:34:25,520
+And inevitably, even for someone
+as able as him, the activity
+
+501
+00:34:25,520 --> 00:34:30,400
+within the university itself,
+his academic role, they'd they
+
+502
+00:34:30,400 --> 00:34:38,400
+very much were on hold and this
+this produced unhappiness with
+
+503
+00:34:38,679 --> 00:34:44,560
+within the department.
+Now, as it happened, one of the
+
+504
+00:34:45,000 --> 00:34:48,600
+Spalding's group had also been
+made a professor by then.
+
+505
+00:34:49,080 --> 00:34:53,400
+His name was Jim Whitelaw.
+He was an experimentalist in
+
+506
+00:34:53,400 --> 00:34:58,240
+fluid mechanics mainly, but the
+idea developed that since he was
+
+507
+00:34:58,240 --> 00:35:02,440
+a professor, he was eligible to
+basically to lead a group of
+
+508
+00:35:02,440 --> 00:35:05,200
+staff.
+Maybe the head of department
+
+509
+00:35:05,200 --> 00:35:08,680
+would form something called the
+fluid section, and those who
+
+510
+00:35:08,680 --> 00:35:13,680
+wanted would transfer their
+affinity from the heat transfer
+
+511
+00:35:13,680 --> 00:35:17,240
+section to the fluid section.
+What was the outcome of that?
+
+512
+00:35:17,240 --> 00:35:22,400
+You can guess absolute turmoil.
+I won't go into the details of
+
+513
+00:35:22,400 --> 00:35:26,520
+the battling, but essentially it
+brought research to a halt.
+
+514
+00:35:26,600 --> 00:35:32,400
+Then one day I had a telephone
+call from the USA.
+
+515
+00:35:32,520 --> 00:35:35,360
+It was from the head of
+department at the University of
+
+516
+00:35:35,360 --> 00:35:39,480
+California, Davis.
+He'd been on sabbatical leave
+
+517
+00:35:39,560 --> 00:35:42,960
+within Spalding's Group A couple
+of years before.
+
+518
+00:35:43,040 --> 00:35:45,480
+He and I had got to know each
+other somewhat.
+
+519
+00:35:45,600 --> 00:35:50,720
+So he called and he said
+something like, hey, Bran, I
+
+520
+00:35:51,000 --> 00:35:56,160
+really sorry to hear about the
+problems that you guys have got
+
+521
+00:35:56,160 --> 00:36:00,200
+in the department at the moment.
+I've been talking with the Dean
+
+522
+00:36:00,200 --> 00:36:05,360
+and he said to me that if I
+wanted to offer you a full
+
+523
+00:36:05,360 --> 00:36:08,800
+professorship to come here to
+Davis, that was that.
+
+524
+00:36:09,480 --> 00:36:13,920
+Would you be interested?
+I heard these words and just
+
+525
+00:36:13,920 --> 00:36:17,800
+just seemed like someone had I
+was drowning and that someone
+
+526
+00:36:17,800 --> 00:36:21,760
+had dropped a lifeline from a
+helicopter to pull me out of the
+
+527
+00:36:23,520 --> 00:36:26,520
+So we I said yes without
+hesitation.
+
+528
+00:36:26,520 --> 00:36:32,120
+It took maybe well, we didn't
+get, didn't arrive in Davis
+
+529
+00:36:32,120 --> 00:36:39,160
+until, well, I think it was 96,
+the summer of 1976, but we were
+
+530
+00:36:39,160 --> 00:36:41,200
+very pleased to get there at the
+time.
+
+531
+00:36:41,480 --> 00:36:46,080
+What was it, what was it like
+though with your family,
+
+532
+00:36:46,080 --> 00:36:48,120
+children?
+Was that and that was a big
+
+533
+00:36:48,120 --> 00:36:52,040
+move, you know, big thing to
+move to the US, to leave London.
+
+534
+00:36:52,680 --> 00:36:56,040
+Was it an excitement to do it in
+a way?
+
+535
+00:36:56,040 --> 00:37:00,280
+Was it a challenge to convince
+your wife and family to to go
+
+536
+00:37:00,280 --> 00:37:04,800
+with you?
+With my, my wife, she's Danish
+
+537
+00:37:04,800 --> 00:37:09,560
+and moving away from moving away
+from Europe was a big thing for
+
+538
+00:37:09,560 --> 00:37:15,000
+her.
+And I softened that by buying,
+
+539
+00:37:15,640 --> 00:37:21,600
+buying a property in France.
+My contractor Davis was for nine
+
+540
+00:37:21,600 --> 00:37:26,520
+months, that is to say just just
+just until June and then you
+
+541
+00:37:26,520 --> 00:37:29,080
+were free completely over the
+summer.
+
+542
+00:37:29,160 --> 00:37:33,800
+And I'd have to say also that
+unlike, unlike Imperial College
+
+543
+00:37:33,800 --> 00:37:37,800
+that I just come out of staff
+didn't have administrative work
+
+544
+00:37:37,800 --> 00:37:41,440
+to do.
+There was other other workers
+
+545
+00:37:41,440 --> 00:37:44,760
+that handled all the
+administration academics were
+
+546
+00:37:44,760 --> 00:37:47,320
+there just to teach and do
+research.
+
+547
+00:37:47,840 --> 00:37:52,520
+So it did make sense having this
+nine month contract.
+
+548
+00:37:52,520 --> 00:38:00,920
+So what I agreed we do was in in
+the summer months, we, we come
+
+549
+00:38:01,440 --> 00:38:04,560
+to Europe entirely, which would
+give her more opportunity to
+
+550
+00:38:04,560 --> 00:38:08,920
+interact with friends and and so
+on.
+
+551
+00:38:09,800 --> 00:38:13,600
+Yes, we bought a rundown.
+We bought a rundown farmhouse
+
+552
+00:38:13,600 --> 00:38:22,080
+just north of Lyon and in the in
+the summer I would would drop in
+
+553
+00:38:22,440 --> 00:38:27,600
+two or three times a week to the
+acre Santral Polytechnique in
+
+554
+00:38:27,840 --> 00:38:33,840
+Lyon in enjoying doing research
+with new colleagues there.
+
+555
+00:38:33,840 --> 00:38:38,520
+My wife was happy at our our
+rather dilapidated farmhouse,
+
+556
+00:38:38,520 --> 00:38:41,360
+but that was that was a
+different life.
+
+557
+00:38:41,360 --> 00:38:49,240
+So, so yes, we will make that.
+But what about UC Davis then?
+
+558
+00:38:49,240 --> 00:38:52,200
+What was it like there?
+Well, the department was about
+
+559
+00:38:52,200 --> 00:38:54,960
+half the size of Imperial
+College.
+
+560
+00:38:55,080 --> 00:38:57,880
+Colleges staff did a lot more
+teaching.
+
+561
+00:38:57,880 --> 00:39:00,680
+They didn't have administration
+to do, but they certainly did a
+
+562
+00:39:00,680 --> 00:39:02,920
+lot more teaching.
+And some of them treated
+
+563
+00:39:02,920 --> 00:39:07,920
+research really like a hobby,
+something that they'd squeeze in
+
+564
+00:39:07,920 --> 00:39:11,960
+when time allowed.
+Luckily I struck up a very good
+
+565
+00:39:11,960 --> 00:39:16,720
+working relationship with two
+staff there that really they
+
+566
+00:39:16,720 --> 00:39:20,560
+were experimentalists in various
+aspects of heat transfer and
+
+567
+00:39:20,560 --> 00:39:25,680
+they they invited me to join
+them to add a computational side
+
+568
+00:39:25,680 --> 00:39:28,400
+to their activity.
+Probably the main thing though
+
+569
+00:39:28,400 --> 00:39:32,680
+that I should should mention is
+that Onira, which is the French
+
+570
+00:39:32,680 --> 00:39:38,640
+equivalent of NASA Onira, sent a
+post doc who had done his
+
+571
+00:39:38,640 --> 00:39:42,760
+doctorate in in turbulence
+modelling to work with me for a
+
+572
+00:39:42,760 --> 00:39:44,320
+year.
+I guess they thought that the
+
+573
+00:39:44,320 --> 00:39:47,640
+interaction of the two of us
+might be useful.
+
+574
+00:39:47,800 --> 00:39:53,280
+What he had done was produce an
+equation, sorry, a turbulence
+
+575
+00:39:53,280 --> 00:39:58,760
+model not with one length scale,
+but two effectively length scale
+
+576
+00:39:58,760 --> 00:40:01,960
+equations that are used in
+different ways in his model.
+
+577
+00:40:02,000 --> 00:40:06,160
+I didn't find the model as
+presented in his thesis exactly
+
+578
+00:40:06,160 --> 00:40:09,960
+coherent.
+But we work together and agreed
+
+579
+00:40:09,960 --> 00:40:14,360
+that what we do would be to
+develop what's known as a multi
+
+580
+00:40:14,360 --> 00:40:18,040
+scale model.
+That is to say, we'd effectively
+
+581
+00:40:18,200 --> 00:40:22,920
+cut the turbulent spectrum in
+half with a large scale part in
+
+582
+00:40:22,920 --> 00:40:29,680
+which eddies would capture mean
+energy from the from the flow
+
+583
+00:40:29,680 --> 00:40:35,880
+and a medium and fine scale part
+that received energy from the
+
+584
+00:40:36,320 --> 00:40:39,120
+large scale turbulence and
+finally dissipated it.
+
+585
+00:40:39,120 --> 00:40:43,120
+That is so we had separate
+transport equations for the two
+
+586
+00:40:43,120 --> 00:40:46,280
+parts of turbulence.
+Davis didn't have a great
+
+587
+00:40:46,280 --> 00:40:49,480
+computing system.
+We could only look at simple
+
+588
+00:40:49,480 --> 00:40:53,400
+flows, which also suited very
+well the background of the
+
+589
+00:40:53,520 --> 00:40:56,840
+French visitor.
+So we looked at sudden
+
+590
+00:40:56,880 --> 00:40:58,920
+contractions, sudden
+distortions.
+
+591
+00:40:58,920 --> 00:41:02,200
+They were just, these were just
+one-dimensional flows.
+
+592
+00:41:02,480 --> 00:41:07,000
+You could almost calculate them
+by hand rather than using the
+
+593
+00:41:07,000 --> 00:41:12,080
+computer.
+Well anyway, the outcome of this
+
+594
+00:41:12,080 --> 00:41:16,800
+was I felt quite spectacular.
+The simple flows which we did a
+
+595
+00:41:16,840 --> 00:41:21,920
+so so job on with previous
+models were now much better
+
+596
+00:41:21,920 --> 00:41:25,520
+predicted.
+You got a delayed response when
+
+597
+00:41:25,520 --> 00:41:29,000
+you put new energy in.
+You didn't get the dissipation
+
+598
+00:41:29,000 --> 00:41:33,160
+rate occurring straight away.
+There was a delayed response and
+
+599
+00:41:33,160 --> 00:41:37,120
+that mimicked very well the
+experiments that more or less
+
+600
+00:41:37,120 --> 00:41:38,920
+brought us to the end of his
+year.
+
+601
+00:41:38,920 --> 00:41:43,640
+But I wanted to continue the
+research to include really the
+
+602
+00:41:43,640 --> 00:41:46,760
+sorts of flows that in
+engineering 1 is dealing with
+
+603
+00:41:47,080 --> 00:41:51,280
+boundary layers, mixing layers,
+jets, wakes this, that and the
+
+604
+00:41:51,320 --> 00:41:53,320
+other.
+But in order to do that, the
+
+605
+00:41:53,920 --> 00:41:56,560
+Davis system wasn't really
+suitable.
+
+606
+00:41:56,560 --> 00:42:01,000
+That is to say, the computer
+gave too slow turn around for
+
+607
+00:42:01,000 --> 00:42:05,120
+model development.
+Also, well, I needed to get
+
+608
+00:42:05,640 --> 00:42:08,120
+funding if I was to get anyone
+else.
+
+609
+00:42:08,200 --> 00:42:11,800
+I couldn't easily recruit
+research students at Davis.
+
+610
+00:42:11,800 --> 00:42:14,640
+They didn't seem to want to do
+research in turbulence
+
+611
+00:42:14,640 --> 00:42:19,080
+modelling.
+But Kimo Hanielich, I knew, was
+
+612
+00:42:19,080 --> 00:42:22,280
+struggling with the
+administration that had hit him.
+
+613
+00:42:22,280 --> 00:42:27,720
+And having got funding from
+NASA, I invited him to come over
+
+614
+00:42:27,720 --> 00:42:32,800
+for a year and join me.
+Now, as I say, the Davis
+
+615
+00:42:32,800 --> 00:42:36,440
+computing system wasn't up to
+it, but it wasn't difficult to
+
+616
+00:42:36,440 --> 00:42:41,160
+obtain computing resources at
+the the Lawrence Berkeley labs.
+
+617
+00:42:41,200 --> 00:42:45,360
+Now in those days, we're still
+talking about the 1970s.
+
+618
+00:42:45,360 --> 00:42:47,640
+You've you've got computing
+resources.
+
+619
+00:42:48,240 --> 00:42:51,880
+Laptops weren't invented and you
+sure didn't have anything called
+
+620
+00:42:51,880 --> 00:42:55,600
+remote access.
+In order to use these, one had
+
+621
+00:42:55,600 --> 00:43:00,680
+to get in one's car and drive
+the 60 miles or so down to the
+
+622
+00:43:00,680 --> 00:43:05,040
+Lawrence Berkeley labs, which
+had brilliant facilities at the
+
+623
+00:43:05,040 --> 00:43:09,320
+time.
+Well, Kimo mainly, but I, I in
+
+624
+00:43:09,320 --> 00:43:13,040
+joined in as well, worked on
+this problem for the best part
+
+625
+00:43:13,040 --> 00:43:16,720
+of a year.
+And I have to say the outcome
+
+626
+00:43:16,720 --> 00:43:22,200
+was disappointing.
+We made one or two improvements
+
+627
+00:43:22,200 --> 00:43:25,480
+that applied equally to single
+scale models.
+
+628
+00:43:25,480 --> 00:43:29,200
+But there was really in you,
+you're looking at flows like a
+
+629
+00:43:29,200 --> 00:43:33,600
+mixing layer where so much
+energy is captured from the mean
+
+630
+00:43:33,600 --> 00:43:38,120
+flow into the turbulence that
+the medium and fine scale part
+
+631
+00:43:38,120 --> 00:43:40,560
+of the spectrum hardly had a
+look in.
+
+632
+00:43:40,560 --> 00:43:46,120
+So the results that we got for
+these flows were only marginally
+
+633
+00:43:46,120 --> 00:43:50,600
+better than we had obtained with
+a single scale model.
+
+634
+00:43:51,400 --> 00:43:55,520
+End of story.
+I thought it worth mentioning
+
+635
+00:43:55,520 --> 00:44:00,840
+that because this brings home
+that what looked like very good
+
+636
+00:44:00,840 --> 00:44:04,240
+research directions sometimes
+don't don't work.
+
+637
+00:44:05,360 --> 00:44:08,120
+Which is, which is a good lesson
+for people, I guess.
+
+638
+00:44:08,120 --> 00:44:11,920
+Maybe you're well known for your
+successes with the KEP silent
+
+639
+00:44:11,920 --> 00:44:14,440
+model and the LLR.
+But I guess if the point is not
+
+640
+00:44:14,440 --> 00:44:16,680
+all research comes out in
+success.
+
+641
+00:44:16,880 --> 00:44:19,200
+But maybe that's the point of
+research, isn't it?
+
+642
+00:44:19,440 --> 00:44:21,280
+Some stuff works.
+Indeed doesn't.
+
+643
+00:44:21,280 --> 00:44:23,720
+Yes.
+Well, there was something else
+
+644
+00:44:23,720 --> 00:44:28,360
+that arose from these trips down
+to Berkeley, because I got to
+
+645
+00:44:28,360 --> 00:44:32,480
+know the head of department at
+the University of California,
+
+646
+00:44:32,480 --> 00:44:35,240
+Berkeley.
+And one day he he said to me,
+
+647
+00:44:35,400 --> 00:44:39,200
+listen, I see you're down here
+quite regularly.
+
+648
+00:44:39,240 --> 00:44:44,240
+We need someone to teach
+turbulence modelling to our our
+
+649
+00:44:44,320 --> 00:44:47,880
+students here.
+And there are students asking to
+
+650
+00:44:47,880 --> 00:44:52,080
+do research in that area, but we
+really don't have anyone that
+
+651
+00:44:52,080 --> 00:44:56,560
+could provide that role.
+What if we, we're in the same
+
+652
+00:44:56,560 --> 00:45:02,640
+university system as Davis?
+What if we arrange to hire you
+
+653
+00:45:02,640 --> 00:45:05,920
+for, let's say, one day a week?
+It would be very easy to
+
+654
+00:45:05,920 --> 00:45:08,080
+arrange.
+And then when you're down here
+
+655
+00:45:08,960 --> 00:45:13,480
+at the LBL, you could also call
+in here at the department, see
+
+656
+00:45:13,480 --> 00:45:17,480
+students, give a lecture or two.
+And it seemed to me that that
+
+657
+00:45:17,800 --> 00:45:22,080
+that would work well.
+Again, I was delighted at this
+
+658
+00:45:22,080 --> 00:45:23,960
+suggestion.
+Couldn't wait to get back to
+
+659
+00:45:23,960 --> 00:45:27,880
+Davis to break the good news to
+the head of department so he
+
+660
+00:45:27,880 --> 00:45:32,520
+could then just sign whatever
+forms were needed to bring the
+
+661
+00:45:32,520 --> 00:45:35,800
+change about.
+I told him and he said
+
+662
+00:45:36,280 --> 00:45:39,880
+absolutely not.
+If students know they can work
+
+663
+00:45:39,880 --> 00:45:43,040
+with you by going to Berkeley,
+they're not going to come to
+
+664
+00:45:43,040 --> 00:45:45,760
+Davis.
+I said to him, Alan, that that
+
+665
+00:45:45,760 --> 00:45:48,960
+doesn't make sense, it's because
+they won't come to Davis.
+
+666
+00:45:49,200 --> 00:45:52,720
+But I can.
+I can see great opportunities
+
+667
+00:45:52,720 --> 00:45:55,520
+from recruiting students in in
+Berkeley.
+
+668
+00:45:55,960 --> 00:46:01,080
+However, he was implacably
+opposed and I accepted it.
+
+669
+00:46:01,080 --> 00:46:05,080
+I liked life in California.
+It was was a bitter pill, but I
+
+670
+00:46:05,080 --> 00:46:09,040
+could swallow it.
+But then not very long later, I
+
+671
+00:46:09,040 --> 00:46:14,920
+got a phone call from England.
+It was the principle of humis,
+
+672
+00:46:14,920 --> 00:46:18,000
+that is to say Manchester's
+Institute of Science and
+
+673
+00:46:18,000 --> 00:46:20,800
+Technology.
+He said the head of thermofluids
+
+674
+00:46:20,800 --> 00:46:25,200
+here has died and we're looking
+to recruit his replacement.
+
+675
+00:46:25,360 --> 00:46:28,000
+A few people I've asked have
+suggested you might be
+
+676
+00:46:28,000 --> 00:46:31,480
+interested.
+I disabused him of of that idea.
+
+677
+00:46:31,480 --> 00:46:36,560
+I said listen, I've only been
+here for 2 1/2 years, I put in a
+
+678
+00:46:36,560 --> 00:46:38,600
+lot of effort.
+I haven't started reaping the
+
+679
+00:46:38,600 --> 00:46:43,640
+rewards of being here so it's
+it's too early for me to
+
+680
+00:46:43,640 --> 00:46:48,240
+consider coming.
+However, he kept persisting and
+
+681
+00:46:48,240 --> 00:46:51,560
+in the end I thought I'll take a
+short back trip back to England,
+
+682
+00:46:51,640 --> 00:46:55,040
+see my parents, haven't seen
+them for a while, then I'll go
+
+683
+00:46:55,040 --> 00:46:58,960
+up to Manchester, have the
+interview and I'll politely
+
+684
+00:46:58,960 --> 00:47:02,600
+decline if they offer me a
+position and life will return to
+
+685
+00:47:02,600 --> 00:47:05,920
+normal.
+And that was the plan that I put
+
+686
+00:47:05,920 --> 00:47:08,520
+into motion.
+Spent a pleasant weekend with my
+
+687
+00:47:08,520 --> 00:47:14,000
+parents, travelled to Manchester
+and had a whole day before the
+
+688
+00:47:14,000 --> 00:47:19,360
+interview to be exposed to what
+you miss could offer.
+
+689
+00:47:19,360 --> 00:47:23,280
+And I have to say Neil, I was
+just blown away.
+
+690
+00:47:24,200 --> 00:47:28,400
+First of all, Thermo fluids
+research had its own building
+
+691
+00:47:28,480 --> 00:47:34,960
+all through itself.
+It had 15 academic staff that I
+
+692
+00:47:34,960 --> 00:47:40,160
+would generally have
+responsibility for, but not just
+
+693
+00:47:40,280 --> 00:47:45,040
+academic staff.
+There must have been at least 30
+
+694
+00:47:45,280 --> 00:47:50,240
+technician staff and what are
+called experimental officers to
+
+695
+00:47:50,240 --> 00:47:52,680
+basically help push research
+along.
+
+696
+00:47:52,920 --> 00:47:57,760
+There were around computing
+staff, of course, at the end.
+
+697
+00:47:58,120 --> 00:48:02,240
+At this point in time everyone
+was using card decks and it
+
+698
+00:48:02,240 --> 00:48:05,240
+needed it, needed quite a lot of
+support.
+
+699
+00:48:05,480 --> 00:48:09,480
+But four or five full time
+positions, That was amazing.
+
+700
+00:48:09,480 --> 00:48:13,840
+Finally, at the end of the day,
+I had an interview with the
+
+701
+00:48:14,480 --> 00:48:19,080
+principal himself.
+It was a relaxed chat really
+
+702
+00:48:19,080 --> 00:48:25,520
+over a glass of Sherry I recall.
+And he said, of course, if you
+
+703
+00:48:25,520 --> 00:48:28,040
+do come here, there will be
+administrative work you won't
+
+704
+00:48:28,040 --> 00:48:32,960
+need to get involved in.
+And to make it easier for you,
+
+705
+00:48:33,840 --> 00:48:38,760
+you'll have a dowry appointment.
+Meaning that I could choose
+
+706
+00:48:38,800 --> 00:48:43,680
+anyone that I thought was would
+going to be helpful to come and
+
+707
+00:48:43,680 --> 00:48:46,720
+work as a lecturer.
+No interview, no anything.
+
+708
+00:48:46,720 --> 00:48:50,560
+It was just me saying I want to
+have him.
+
+709
+00:48:51,240 --> 00:48:56,640
+It probably runs counter to to
+in nowadays, but it didn't at
+
+710
+00:48:56,640 --> 00:49:00,960
+that time.
+So at the end of that I had to
+
+711
+00:49:00,960 --> 00:49:05,440
+say I really wanted the
+interview the next day to go as
+
+712
+00:49:05,440 --> 00:49:07,920
+well.
+And it was a disaster.
+
+713
+00:49:08,400 --> 00:49:12,800
+I was taken into the room itself
+where the interview was
+
+714
+00:49:12,800 --> 00:49:17,040
+conducted.
+In front of me was a huge Oval
+
+715
+00:49:17,040 --> 00:49:20,240
+table.
+I was sat on one side of the
+
+716
+00:49:20,240 --> 00:49:28,000
+table and ranged all around the
+other side were the questioners.
+
+717
+00:49:28,000 --> 00:49:31,920
+There were about 10 or 12 there.
+The principal was there.
+
+718
+00:49:31,920 --> 00:49:38,280
+He introduced me, welcomed me,
+introduced me to the other.
+
+719
+00:49:38,880 --> 00:49:42,760
+Other people on the panel think
+he maybe even asked me a couple
+
+720
+00:49:42,760 --> 00:49:44,600
+of soft questions which I dealt
+with.
+
+721
+00:49:44,600 --> 00:49:49,400
+But then he stepped back and
+turned me loose to these hyenas
+
+722
+00:49:49,600 --> 00:49:54,040
+that ravaged me for the next 50
+minutes or so.
+
+723
+00:49:54,040 --> 00:49:57,320
+They were obsessed with
+something called the Finniston
+
+724
+00:49:57,320 --> 00:50:02,320
+Report, a report, a government
+produced report by Lord
+
+725
+00:50:02,320 --> 00:50:08,320
+Finniston or whoever that looked
+at potential changes in the
+
+726
+00:50:08,480 --> 00:50:10,640
+training and development of
+engineers.
+
+727
+00:50:10,640 --> 00:50:14,720
+I think by then it had been
+recognized that Britain didn't
+
+728
+00:50:14,720 --> 00:50:18,240
+recognize engineers to the
+extent that someone somewhere
+
+729
+00:50:18,240 --> 00:50:22,000
+like Germany or Japan did.
+And of course these these
+
+730
+00:50:22,000 --> 00:50:25,960
+countries, despite the set back
+of the Second World War, were
+
+731
+00:50:26,040 --> 00:50:30,480
+already very advanced and
+overtaking other European
+
+732
+00:50:30,480 --> 00:50:34,120
+countries.
+I honestly, I've been in America
+
+733
+00:50:34,120 --> 00:50:38,480
+for 2 1/2 years.
+I didn't have a clue about what
+
+734
+00:50:38,480 --> 00:50:43,280
+my reactions should be.
+Likewise, and I could have
+
+735
+00:50:43,280 --> 00:50:47,680
+anticipated this, there were a
+lot of questions related to what
+
+736
+00:50:47,680 --> 00:50:52,160
+management style I would apply
+if I had the post.
+
+737
+00:50:52,800 --> 00:50:54,920
+I hadn't been talking about
+management.
+
+738
+00:50:54,920 --> 00:50:59,040
+I'd I wanted to do research and
+do some creative teaching.
+
+739
+00:50:59,400 --> 00:51:05,840
+So again, my my questions were
+were very weak.
+
+740
+00:51:05,840 --> 00:51:10,840
+I felt at the end of an hour
+they released me to catch the
+
+741
+00:51:10,840 --> 00:51:14,680
+plane back to California.
+I remember my wife meeting me
+
+742
+00:51:15,240 --> 00:51:19,120
+and she was quite excited.
+She said, well, how was it?
+
+743
+00:51:19,120 --> 00:51:23,080
+Did it did it meet your hopes?
+We will we be going there?
+
+744
+00:51:24,040 --> 00:51:29,400
+And I held my hand up and said
+the job looked fantastic and I
+
+745
+00:51:29,400 --> 00:51:33,240
+made it a real terrible job of
+the interview.
+
+746
+00:51:33,720 --> 00:51:37,840
+That's the end.
+So I mentally got back to my
+
+747
+00:51:37,840 --> 00:51:41,840
+work in Davis.
+But you know, a week later the
+
+748
+00:51:41,840 --> 00:51:44,960
+principal phoned again and said
+the job was mine.
+
+749
+00:51:45,520 --> 00:51:50,240
+It may have been a a fine
+decision because usually they
+
+750
+00:51:50,240 --> 00:51:53,120
+don't take that long in reaching
+a decision.
+
+751
+00:51:53,480 --> 00:52:00,360
+But anyway, I did accept the
+position and well, by the time I
+
+752
+00:52:00,720 --> 00:52:05,800
+got loose from Davis, there were
+various entanglements that
+
+753
+00:52:05,800 --> 00:52:10,440
+slowed my departure.
+It was spring 1980.
+
+754
+00:52:10,640 --> 00:52:13,360
+After I'd accepted the
+appointment, the principal
+
+755
+00:52:13,360 --> 00:52:18,080
+pointed out that I wouldn't be
+really responsible for the
+
+756
+00:52:18,400 --> 00:52:23,000
+engine testing work that my
+predecessor had specialized in.
+
+757
+00:52:23,600 --> 00:52:28,320
+He had a right hand man for that
+work.
+
+758
+00:52:28,600 --> 00:52:33,520
+And if I was agreeable, he could
+be promoted to professor to thus
+
+759
+00:52:33,520 --> 00:52:35,960
+removing me from any
+responsibility.
+
+760
+00:52:36,120 --> 00:52:41,920
+And then that's what I very much
+agreed to and form my dowry
+
+761
+00:52:41,920 --> 00:52:45,680
+lectureship, I recruited Michael
+Leshina.
+
+762
+00:52:46,560 --> 00:52:51,000
+Michael had been my final PhD
+student before I left Imperial
+
+763
+00:52:51,000 --> 00:52:54,080
+College.
+In interim, he'd gone to work
+
+764
+00:52:54,080 --> 00:52:56,120
+with Wolfgang Rodie in
+Karlsruhe.
+
+765
+00:52:56,120 --> 00:53:00,760
+But when I suggested that he
+might rejoin me as a lecturer at
+
+766
+00:53:00,760 --> 00:53:03,160
+Manchester, he was very happy to
+come.
+
+767
+00:53:03,920 --> 00:53:08,480
+So I was able to get off to a
+very good start there because I
+
+768
+00:53:08,480 --> 00:53:13,360
+could delegate to Mike
+Leschziner responsibility for
+
+769
+00:53:13,800 --> 00:53:18,920
+the developing software and
+generally looking after the
+
+770
+00:53:18,920 --> 00:53:23,960
+turbulence related work while I
+got experimental work going.
+
+771
+00:53:24,880 --> 00:53:30,120
+In fact, I was very lucky in
+that while I was in Davis I'd
+
+772
+00:53:30,120 --> 00:53:35,200
+negotiated a contract with the
+Office of Naval Research, ONR as
+
+773
+00:53:35,200 --> 00:53:39,000
+it's known.
+The person behind that was
+
+774
+00:53:39,000 --> 00:53:44,760
+someone who was very sceptical
+of CFD, of what CFD codes could
+
+775
+00:53:44,760 --> 00:53:48,360
+do at that time.
+In particular, he was interested
+
+776
+00:53:48,520 --> 00:53:52,760
+in flow through heat exchangers,
+in particular, flow through a
+
+777
+00:53:52,760 --> 00:53:59,160
+tube, but in a tube that went in
+a series of U bends as you get
+
+778
+00:53:59,160 --> 00:54:03,080
+in a heat exchanger.
+He said he didn't believe that
+
+779
+00:54:03,160 --> 00:54:08,040
+current CFD software could
+accurately predict what heat
+
+780
+00:54:08,040 --> 00:54:11,960
+transfer coefficients would
+arise from the complications
+
+781
+00:54:11,960 --> 00:54:15,440
+that the swirling flow that was
+generated by these U bends would
+
+782
+00:54:15,440 --> 00:54:19,880
+create.
+Fine, I accepted that there was
+
+783
+00:54:19,880 --> 00:54:23,480
+no problem transferring the
+contract to Manchester.
+
+784
+00:54:24,160 --> 00:54:28,680
+So we got under way and after
+we'd got a very nice set of
+
+785
+00:54:29,240 --> 00:54:34,360
+results, not just for a circular
+U bend, circular section U bend,
+
+786
+00:54:34,360 --> 00:54:38,840
+we actually also produced
+experimental results for a
+
+787
+00:54:38,840 --> 00:54:42,840
+square section U bend.
+Real heat exchangers don't have
+
+788
+00:54:42,840 --> 00:54:48,200
+a square section pipes, of
+course, but it was easier to do
+
+789
+00:54:48,200 --> 00:54:53,000
+the experiments using laser
+Doppler anemometry going through
+
+790
+00:54:53,160 --> 00:54:56,760
+a plain surface rather than a
+circular surface at a time.
+
+791
+00:54:56,760 --> 00:54:59,280
+It took us a little while to
+work out how to do that.
+
+792
+00:55:00,160 --> 00:55:06,680
+Anyway, when we went to apply
+software to that we've we found
+
+793
+00:55:07,200 --> 00:55:11,000
+very poor agreement.
+The contract monitor was
+
+794
+00:55:11,000 --> 00:55:13,200
+delighted he'd been proof
+correct.
+
+795
+00:55:13,560 --> 00:55:18,120
+We carried on as well as we
+could refining the model.
+
+796
+00:55:18,120 --> 00:55:24,880
+We found in that case that that
+taking the calculation all the
+
+797
+00:55:24,880 --> 00:55:29,080
+way to the wall was highly
+beneficial.
+
+798
+00:55:29,240 --> 00:55:35,320
+We at that point just put in the
+mixing length hypothesis across
+
+799
+00:55:35,320 --> 00:55:38,120
+the sub layer.
+Remember this, these were
+
+800
+00:55:38,120 --> 00:55:40,720
+three-dimensional flow
+calculations and although
+
+801
+00:55:40,720 --> 00:55:43,960
+computers were getting more and
+more capable, the calculation
+
+802
+00:55:43,960 --> 00:55:49,040
+like flow 3 dimensional flow
+through a a succession of U
+
+803
+00:55:49,040 --> 00:55:51,480
+bends stretch the resources
+available.
+
+804
+00:55:51,480 --> 00:55:57,680
+OK, well we then went
+experimentally on to rotating U
+
+805
+00:55:57,680 --> 00:56:01,440
+bends.
+Now rotating U bends.
+
+806
+00:56:01,960 --> 00:56:07,280
+Heat exchangers don't rotate,
+but this configuration also
+
+807
+00:56:07,280 --> 00:56:13,600
+arises in tubes 1 millimetre in
+diameter that are inside gas
+
+808
+00:56:13,600 --> 00:56:17,920
+turbine blades and because of
+the pressure there and other
+
+809
+00:56:18,160 --> 00:56:21,680
+other factors.
+So for Rolls Royce for several
+
+810
+00:56:21,680 --> 00:56:28,880
+years we continued looking at
+the impact that swirl has on in
+
+811
+00:56:28,880 --> 00:56:32,800
+that particular configuration.
+I think on the research
+
+812
+00:56:33,240 --> 00:56:38,960
+computing side rather we'd for
+my money, I'd more or less run
+
+813
+00:56:38,960 --> 00:56:43,320
+out of Rd.
+The there didn't seem to me much
+
+814
+00:56:43,320 --> 00:56:48,160
+scope within the stress
+transport models or algebraic
+
+815
+00:56:48,160 --> 00:56:51,240
+simplifications thereof that we
+could exploit.
+
+816
+00:56:51,360 --> 00:56:55,560
+And then one day in a reflective
+mode, I recalled a paper that
+
+817
+00:56:55,760 --> 00:57:00,120
+John Lumley had published in
+1978.
+
+818
+00:57:01,160 --> 00:57:08,000
+He made what I then asserted was
+a absurd suggestion that
+
+819
+00:57:08,400 --> 00:57:13,080
+turbulence should comply with
+what he called the two component
+
+820
+00:57:13,080 --> 00:57:16,520
+limit.
+Turbulence, as you know, is 3
+
+821
+00:57:16,520 --> 00:57:21,600
+dimensional, John said.
+However, if you have a situation
+
+822
+00:57:21,600 --> 00:57:27,520
+where the fluctuations just lie
+in a plane, that is a state that
+
+823
+00:57:27,560 --> 00:57:31,280
+you should insist on your
+turbulence model agreeing with.
+
+824
+00:57:31,480 --> 00:57:35,160
+Indeed, he worked out a
+parameter that automatically
+
+825
+00:57:35,160 --> 00:57:39,760
+went to zero whenever you did
+have that two component state,
+
+826
+00:57:39,960 --> 00:57:44,000
+and thus it would be a useful
+parameter to use in one's
+
+827
+00:57:44,000 --> 00:57:48,360
+turbulence model.
+Well, in reflecting on this that
+
+828
+00:57:48,360 --> 00:57:54,760
+day, I suddenly realised that as
+you went closer and closer to a
+
+829
+00:57:54,760 --> 00:58:00,160
+wall, the presence of the wall
+damped out fluctuations normal
+
+830
+00:58:00,160 --> 00:58:04,480
+to the wall, so that then as you
+get close enough to the wall,
+
+831
+00:58:04,480 --> 00:58:10,680
+you indeed did have turbulence
+that was essentially 2
+
+832
+00:58:10,680 --> 00:58:13,600
+dimensional.
+At that instant I went from
+
+833
+00:58:13,600 --> 00:58:17,360
+being a critic to an
+enthusiastic supporter.
+
+834
+00:58:17,800 --> 00:58:21,120
+It was, it really was an
+overnight night thing.
+
+835
+00:58:21,120 --> 00:58:26,720
+I had two other students at the
+time but worked on this.
+
+836
+00:58:27,640 --> 00:58:32,520
+I'm happy to mention the My name
+1 was Dimitri Selikodakis and
+
+837
+00:58:32,520 --> 00:58:36,360
+the other was Songfu.
+Anyway, they made important
+
+838
+00:58:36,360 --> 00:58:40,640
+first steps, but then their
+names aren't linked with the TCL
+
+839
+00:58:40,640 --> 00:58:44,640
+modelling simply because they
+were in at the development stage
+
+840
+00:58:44,760 --> 00:58:51,240
+at the exploiting level.
+Though Li Xiaoping, another
+
+841
+00:58:51,240 --> 00:58:57,240
+Chinese student who now works
+for Fluent in the USA, He
+
+842
+00:58:57,240 --> 00:59:03,240
+applied the scheme both to flows
+along a flat plate, but also to
+
+843
+00:59:03,400 --> 00:59:06,280
+riblet flows in order to reduce
+the drag.
+
+844
+00:59:06,440 --> 00:59:09,680
+The results from his
+computations came out well.
+
+845
+00:59:09,680 --> 00:59:15,000
+And then especially a little
+afterwards, Tim Kraft looking at
+
+846
+00:59:15,000 --> 00:59:18,840
+a whole range of turbulent flows
+found that that this two
+
+847
+00:59:18,840 --> 00:59:23,320
+component limit, the TCL model
+as we called it, did a brilliant
+
+848
+00:59:23,320 --> 00:59:28,600
+job of imitating, mimicking the
+effects of buoyancy
+
+849
+00:59:28,600 --> 00:59:34,000
+stratification on the behaviour
+of the turbulent stresses much
+
+850
+00:59:34,000 --> 00:59:38,960
+better than the other the
+earlier LRR model that everyone
+
+851
+00:59:38,960 --> 00:59:42,960
+still uses.
+Maybe I can ask a quick
+
+852
+00:59:42,960 --> 00:59:45,720
+question.
+Actually on the TCL model, it
+
+853
+00:59:45,720 --> 00:59:49,760
+strikes me that from my
+understanding, that has probably
+
+854
+00:59:49,760 --> 00:59:53,880
+the most, that was the peak of
+the most sophistication, the
+
+855
+00:59:53,880 --> 00:59:57,720
+most complexity in a turbans
+model in, in terms of the number
+
+856
+00:59:57,720 --> 01:00:02,000
+of equations, the completeness.
+And yet if I look at fluent or,
+
+857
+01:00:02,000 --> 01:00:04,840
+you know, other codes today,
+it's probably still the case
+
+858
+01:00:04,840 --> 01:00:08,320
+that people use their LR, you
+know, LRR or SSG.
+
+859
+01:00:08,560 --> 01:00:11,880
+Is there a reason you think that
+the TCL wasn't adopted more
+
+860
+01:00:11,880 --> 01:00:14,400
+wisely?
+Was it just too difficult to
+
+861
+01:00:14,400 --> 01:00:15,920
+implement?
+Do you have any?
+
+862
+01:00:16,480 --> 01:00:20,040
+Yeah, thoughts.
+On that, I think it may well be
+
+863
+01:00:20,080 --> 01:00:23,280
+certainly what you suggest was a
+contributor.
+
+864
+01:00:23,840 --> 01:00:27,400
+Maybe maybe I didn't get
+involved myself in trying to
+
+865
+01:00:27,680 --> 01:00:29,680
+promote the model.
+I don't know.
+
+866
+01:00:29,720 --> 01:00:35,840
+Dave Wilcox I think has has done
+a better job in in in advocacy.
+
+867
+01:00:35,840 --> 01:00:40,640
+Florian Mentor's another name
+that is, is is an advocating
+
+868
+01:00:40,640 --> 01:00:42,680
+that approach.
+But well, I don't know.
+
+869
+01:00:43,080 --> 01:00:47,280
+It's a it's a thing of history.
+My philosophy is often, and I
+
+870
+01:00:47,280 --> 01:00:50,360
+just wonder whether that's why
+the K epsilon is still today one
+
+871
+01:00:50,360 --> 01:00:55,120
+of the most widely used is there
+is a simplicity is often
+
+872
+01:00:55,120 --> 01:00:58,840
+preferred because it's it's
+easier to implement, it's easier
+
+873
+01:00:58,840 --> 01:01:00,600
+to debug, it's easier to get
+right.
+
+874
+01:01:00,800 --> 01:01:04,440
+And so sometimes I wonder
+whether people are inherently
+
+875
+01:01:04,760 --> 01:01:08,280
+favouring simpler models.
+And so the K epsilon it's
+
+876
+01:01:08,360 --> 01:01:11,320
+probably an easier model to
+implement and test and use than
+
+877
+01:01:11,320 --> 01:01:15,480
+the TCL model that is has more
+places to make a mistake.
+
+878
+01:01:15,960 --> 01:01:18,280
+I don't know if that's the
+reason, it could be war.
+
+879
+01:01:18,960 --> 01:01:23,200
+I I think as well you, you
+touched on it, simplicity is a
+
+880
+01:01:23,200 --> 01:01:28,640
+very key point.
+But nowadays 1 is, is looking at
+
+881
+01:01:28,640 --> 01:01:34,880
+a situation where computers have
+developed so much that if K
+
+882
+01:01:34,880 --> 01:01:40,040
+epsilon isn't good enough,
+perhaps you should use a hybrid
+
+883
+01:01:40,040 --> 01:01:46,920
+K epsilon LES approach.
+Yeah, and LES is conceptually
+
+884
+01:01:46,920 --> 01:01:50,880
+quite simple.
+K epsilon is also pretty simple.
+
+885
+01:01:51,360 --> 01:01:55,360
+I think people can live with
+that package, maybe more easily
+
+886
+01:01:55,360 --> 01:02:00,760
+than solving rather obscure
+looking models for the pressure
+
+887
+01:02:00,760 --> 01:02:03,560
+strain hypothesis in the in the
+TC.
+
+888
+01:02:04,240 --> 01:02:08,280
+Yeah, but how about, you know,
+Tim Kraft, somebody who actually
+
+889
+01:02:08,280 --> 01:02:10,560
+taught me when I was at
+university?
+
+890
+01:02:11,680 --> 01:02:16,400
+He went further, right?
+You went on to move to look at
+
+891
+01:02:16,720 --> 01:02:20,760
+what I would consider I guess a
+blend or a theoretical blend of
+
+892
+01:02:20,760 --> 01:02:25,440
+trying to bring some of the
+concept of an ice to be into
+
+893
+01:02:26,120 --> 01:02:28,920
+simpler models.
+So this was the non linear cubic
+
+894
+01:02:28,920 --> 01:02:31,600
+models, right?
+That was this the next stage, I
+
+895
+01:02:31,600 --> 01:02:33,160
+guess, of the turbans modelling
+work.
+
+896
+01:02:33,800 --> 01:02:38,080
+Very much so.
+Toyota had contacted me wanting
+
+897
+01:02:38,080 --> 01:02:43,280
+to send one of their staff at
+the time, Kazuyi Kosuga, to work
+
+898
+01:02:43,280 --> 01:02:47,000
+on me and I've I'd figured that
+they wouldn't be interested in
+
+899
+01:02:47,000 --> 01:02:49,760
+TCL modelling.
+It really would be a step too
+
+900
+01:02:49,760 --> 01:02:54,860
+far for this car manufacturer.
+But we did agree to look at non
+
+901
+01:02:54,860 --> 01:02:59,680
+linear Eddy viscosity models.
+There had already been half a
+
+902
+01:02:59,680 --> 01:03:05,760
+dozen schemes that brought in
+quadratic terms in addition to
+
+903
+01:03:05,760 --> 01:03:09,680
+the principal linear term of an
+Eddy viscosity model.
+
+904
+01:03:09,760 --> 01:03:15,680
+We started off looking at those
+five schemes that already come
+
+905
+01:03:15,680 --> 01:03:21,280
+forward and what we concluded
+was that because these five
+
+906
+01:03:21,280 --> 01:03:25,480
+models were also very different,
+different magnitudes of
+
+907
+01:03:25,480 --> 01:03:29,520
+coefficients for different
+terms, these models had been
+
+908
+01:03:29,520 --> 01:03:33,800
+designed so that they cope with
+one particular class of flow
+
+909
+01:03:33,800 --> 01:03:37,240
+that a linearity viscosity model
+didn't get right.
+
+910
+01:03:37,320 --> 01:03:42,080
+We concluded that since the
+models weren't anything like the
+
+911
+01:03:42,080 --> 01:03:47,240
+same, we would be wasting our
+time to continue research at the
+
+912
+01:03:47,960 --> 01:03:51,840
+quadratic level.
+So for the first time then, we
+
+913
+01:03:52,160 --> 01:03:55,400
+we explored modelling at cubic
+level.
+
+914
+01:03:55,960 --> 01:04:00,600
+Cubic level of course brought in
+many more potential terms, each
+
+915
+01:04:00,600 --> 01:04:02,760
+with empirical coefficients to
+tune.
+
+916
+01:04:03,240 --> 01:04:09,400
+But Kazuhikosuga very patiently
+and very thoroughly looked at a
+
+917
+01:04:09,400 --> 01:04:13,960
+whole wide range of flows that
+were difficult or couldn't be
+
+918
+01:04:13,960 --> 01:04:19,720
+predicted with a linear Eddy
+viscosity model, and we ended up
+
+919
+01:04:19,720 --> 01:04:26,240
+with a version that perhaps
+wasn't the final word in cubic
+
+920
+01:04:26,360 --> 01:04:30,840
+Eddy viscosity modelling at at
+least did a hell of a lot better
+
+921
+01:04:31,200 --> 01:04:37,280
+for a large number of flows than
+than the quadratic models.
+
+922
+01:04:38,320 --> 01:04:42,920
+So he was content.
+I'd say after returning to
+
+923
+01:04:43,240 --> 01:04:46,560
+Japan, he worked for a few years
+with Toyota.
+
+924
+01:04:46,560 --> 01:04:52,600
+But then this is interesting.
+He got permission from Toyota to
+
+925
+01:04:52,600 --> 01:04:56,080
+move to a university position.
+Oh nice.
+
+926
+01:04:56,920 --> 01:05:01,240
+You could you could see that as,
+as you've just said Neil, a
+
+927
+01:05:01,240 --> 01:05:06,920
+simplification from from the
+pinnacle of TCL modelling.
+
+928
+01:05:07,280 --> 01:05:12,400
+And I guess the next step I took
+in research went a step further.
+
+929
+01:05:12,760 --> 01:05:19,400
+What really bugged me was that
+still in commercial CFD, people
+
+930
+01:05:20,000 --> 01:05:27,040
+so frequently use wall functions
+based on this old idea and very
+
+931
+01:05:27,040 --> 01:05:32,680
+limited, a very limited idea
+that the near wall velocity
+
+932
+01:05:32,680 --> 01:05:35,600
+profile was universal.
+What could we do with that?
+
+933
+01:05:35,760 --> 01:05:40,240
+Well, I worked on this with Tim
+Craft, who had become a lecturer
+
+934
+01:05:40,240 --> 01:05:44,520
+at the time, and Hector
+Yaccapedes, an earlier student
+
+935
+01:05:44,520 --> 01:05:48,720
+that had worked on flow around
+Benz with me, who was now a
+
+936
+01:05:48,720 --> 01:05:52,840
+professor.
+In fact, we decided we'd figure
+
+937
+01:05:52,840 --> 01:05:56,840
+out a better way of building a
+wall function.
+
+938
+01:05:57,320 --> 01:06:02,480
+Indeed, we worked on 2 schemes.
+There was a analytical approach.
+
+939
+01:06:02,480 --> 01:06:08,280
+We took the view that although
+the near wall velocity profile
+
+940
+01:06:08,560 --> 01:06:14,040
+wasn't universal in most of the
+flows that one would want to
+
+941
+01:06:14,040 --> 01:06:19,880
+look at, maybe the turbulent
+Eddy viscosity would be much
+
+942
+01:06:19,880 --> 01:06:23,760
+more nearly universal,
+Particularly as we agreed to
+
+943
+01:06:23,760 --> 01:06:28,960
+allow the viscous sub layer
+where there was 0 turbulent
+
+944
+01:06:28,960 --> 01:06:31,400
+mixing.
+According to our model, we could
+
+945
+01:06:31,400 --> 01:06:36,520
+vary that in thickness depending
+upon the gradient of shear
+
+946
+01:06:36,520 --> 01:06:42,640
+stress across the layer.
+Well, this we worked on with a
+
+947
+01:06:42,640 --> 01:06:46,160
+Russian student.
+My only Russian student, Alexi
+
+948
+01:06:46,160 --> 01:06:51,120
+Gorasimov, was just fun to work
+with and I'm glad to say that
+
+949
+01:06:51,160 --> 01:06:56,520
+the model he came up with, what
+was called the analytical wall
+
+950
+01:06:56,520 --> 01:07:01,560
+function, did pretty well.
+It's widely used at Manchester
+
+951
+01:07:01,560 --> 01:07:06,120
+now and and is at least
+incorporated in some of the
+
+952
+01:07:06,120 --> 01:07:10,960
+commercial software.
+It's a lot, lot better than log
+
+953
+01:07:10,960 --> 01:07:16,760
+roll wall functions.
+They should be made illegal, but
+
+954
+01:07:16,760 --> 01:07:21,560
+we also developed a second
+scheme in situations where you
+
+955
+01:07:21,560 --> 01:07:25,640
+have the velocity vector
+changing direction across the
+
+956
+01:07:25,640 --> 01:07:30,160
+viscous layer, such as a rises
+in those flow around U bends,
+
+957
+01:07:30,160 --> 01:07:33,560
+very tight U bends.
+We developed a numerical scheme.
+
+958
+01:07:33,560 --> 01:07:38,680
+I I won't attempt to go into any
+detail on that, but the key
+
+959
+01:07:38,680 --> 01:07:43,400
+thing was that just as in a
+boundary layer solver, if you
+
+960
+01:07:43,400 --> 01:07:48,920
+think of a but 2D boundary layer
+solver, you treat the static
+
+961
+01:07:48,920 --> 01:07:52,880
+pressure as though it is uniform
+across the layer.
+
+962
+01:07:53,000 --> 01:07:58,240
+We applied the same slight
+approximation, but only to the
+
+963
+01:07:58,840 --> 01:08:02,040
+very near wall region covered by
+the wall function.
+
+964
+01:08:02,040 --> 01:08:07,800
+And I won't go into the details.
+Indeed I've forgotten some of
+
+965
+01:08:07,800 --> 01:08:10,320
+the details by now.
+It's a while ago.
+
+966
+01:08:10,320 --> 01:08:16,200
+But that permitted us to very
+much reduce the cost of using
+
+967
+01:08:16,200 --> 01:08:19,600
+quite advanced models.
+I mean, Bill Jones's Paul
+
+968
+01:08:19,600 --> 01:08:24,520
+Reynolds number model could be
+put in or or any any other other
+
+969
+01:08:24,520 --> 01:08:28,680
+model and it reduced the
+computing time by something
+
+970
+01:08:28,680 --> 01:08:34,080
+between 80% and 90%.
+So it represents a huge saving.
+
+971
+01:08:34,359 --> 01:08:38,120
+I should just maybe add a point
+and maybe you're not even aware
+
+972
+01:08:38,120 --> 01:08:42,640
+of this, that I have seen a
+resurgence of the interest in
+
+973
+01:08:42,640 --> 01:08:47,439
+the work that you did with Tim
+and Hector for advanced war
+
+974
+01:08:47,439 --> 01:08:50,680
+functions in the context
+actually of LES.
+
+975
+01:08:51,399 --> 01:08:54,920
+That now because there is a
+resurgence of interest in the
+
+976
+01:08:54,920 --> 01:09:01,439
+war modelled LES, there is a
+realization that the model used
+
+977
+01:09:01,960 --> 01:09:04,000
+to approximate the near war
+behaviour.
+
+978
+01:09:04,600 --> 01:09:08,600
+Can we look at more advanced
+ways of calculating that?
+
+979
+01:09:08,600 --> 01:09:12,000
+And I I've seen now people
+reference and look at that work
+
+980
+01:09:12,880 --> 01:09:15,560
+not in the context of Rams, but
+actually in the context of LES,
+
+981
+01:09:15,560 --> 01:09:17,840
+which I thought is quite
+interesting how work that was
+
+982
+01:09:17,840 --> 01:09:22,720
+done, you know, 30 years ago is
+now being re looked at in a in a
+
+983
+01:09:22,720 --> 01:09:24,920
+different context, but still.
+Yeah.
+
+984
+01:09:25,279 --> 01:09:27,960
+So anyway, just a.
+Thank you Neil.
+
+985
+01:09:27,960 --> 01:09:31,200
+I, I was not aware of this
+resurgence of interest.
+
+986
+01:09:31,200 --> 01:09:37,640
+Long may it continue, but I, I
+have to say that that having got
+
+987
+01:09:37,640 --> 01:09:44,520
+that far, what I found was that
+turbulence models was looked on
+
+988
+01:09:44,560 --> 01:09:47,319
+as what might be called a mature
+subject.
+
+989
+01:09:48,000 --> 01:09:52,080
+People weren't interested in
+looking for radical changes in
+
+990
+01:09:52,080 --> 01:09:55,400
+in modelling.
+It was applications that were
+
+991
+01:09:55,400 --> 01:09:59,240
+very much to the flock for I
+didn't feel that that was what I
+
+992
+01:09:59,240 --> 01:10:06,320
+was perhaps best at at doing,
+though I, I did, I did supervise
+
+993
+01:10:06,320 --> 01:10:11,800
+one PhD student by a friend of
+yours, Alistair, and that was
+
+994
+01:10:11,800 --> 01:10:14,280
+very successful.
+He was looking at in nine tube
+
+995
+01:10:14,280 --> 01:10:16,760
+banks and it was quite
+extraordinary.
+
+996
+01:10:16,760 --> 01:10:22,440
+We found the the sorts of
+deviations from from going
+
+997
+01:10:22,440 --> 01:10:28,360
+straight through of N92 bank
+heat exchanger tended to develop
+
+998
+01:10:28,880 --> 01:10:33,320
+a diagonal path through that.
+I should maybe just interrupt
+
+999
+01:10:33,320 --> 01:10:35,440
+you slightly.
+I, I was mean to say it before,
+
+1000
+01:10:35,440 --> 01:10:38,960
+but maybe this is a good time to
+say it that almost as a, an
+
+1001
+01:10:38,960 --> 01:10:42,480
+observation or to people
+listening that I studied at
+
+1002
+01:10:42,480 --> 01:10:45,040
+Manchester University with
+Alistair as well.
+
+1003
+01:10:45,120 --> 01:10:49,000
+And we did our undergraduate
+PhDs and, and you taught us and
+
+1004
+01:10:49,000 --> 01:10:52,040
+so did Tim craft and so did
+hectic Yakovides and these folk.
+
+1005
+01:10:52,040 --> 01:10:57,120
+Not Michael, I guess Michael, I
+think moved to Imperial then and
+
+1006
+01:10:57,840 --> 01:11:01,560
+but we didn't know who you were.
+We didn't know who Tim was.
+
+1007
+01:11:01,560 --> 01:11:04,280
+We didn't know.
+And I, I know Alastair and I
+
+1008
+01:11:04,280 --> 01:11:06,600
+talk about this now that we feel
+bad in a way.
+
+1009
+01:11:06,600 --> 01:11:07,880
+And I'm sure others are like
+that.
+
+1010
+01:11:07,880 --> 01:11:10,520
+They see some professor come in,
+teach a subject, second year
+
+1011
+01:11:10,520 --> 01:11:13,320
+something and you all, you don't
+mean to be disrespectful, but
+
+1012
+01:11:13,680 --> 01:11:15,000
+you know, you don't know who
+they are.
+
+1013
+01:11:15,000 --> 01:11:18,200
+And it's only later you look
+back and think, oh wow, I was,
+
+1014
+01:11:18,240 --> 01:11:21,240
+you know, taught by this person
+or supervised.
+
+1015
+01:11:21,240 --> 01:11:25,760
+And I, I wonder, I think you
+mentioned to me this happens
+
+1016
+01:11:25,760 --> 01:11:28,800
+sometimes that people come or
+want to take a selfie with you
+
+1017
+01:11:28,800 --> 01:11:31,880
+or something.
+Because now with social media, I
+
+1018
+01:11:31,880 --> 01:11:33,960
+guess people know who people are
+more.
+
+1019
+01:11:33,960 --> 01:11:36,680
+But at the time we had no clue.
+And it was an honour to be
+
+1020
+01:11:36,680 --> 01:11:38,720
+taught by you.
+But I feel guilty that we didn't
+
+1021
+01:11:38,720 --> 01:11:42,480
+say it at the time.
+Well, I have no thoughts on
+
+1022
+01:11:42,480 --> 01:11:44,360
+that.
+Indeed you mentioned people
+
+1023
+01:11:44,360 --> 01:11:46,240
+coming in to have selfies with
+me.
+
+1024
+01:11:46,480 --> 01:11:50,200
+I I was just amazed and thought
+they were slightly crazy but
+
+1025
+01:11:50,920 --> 01:11:55,560
+complied with their request to
+to be photographed.
+
+1026
+01:11:56,600 --> 01:12:01,880
+Well, I suppose the one of the
+reasons that slightly steered me
+
+1027
+01:12:01,880 --> 01:12:08,440
+away from continuing too deeply
+in basically CFD applications.
+
+1028
+01:12:08,440 --> 01:12:12,440
+Much as there were very
+interesting things to explore, I
+
+1029
+01:12:12,840 --> 01:12:16,680
+would in fact mention another
+application case.
+
+1030
+01:12:16,680 --> 01:12:21,120
+We were looking at trailing
+vortices behind a wing.
+
+1031
+01:12:21,680 --> 01:12:24,880
+There was a good set of
+experimental data, and we
+
+1032
+01:12:24,880 --> 01:12:30,000
+computed that with a Eddy
+viscosity model, and as we knew
+
+1033
+01:12:30,000 --> 01:12:33,880
+it would, the swirl died out far
+too quickly.
+
+1034
+01:12:34,320 --> 01:12:38,440
+Now the trailing vortices behind
+a wing in practice are known to
+
+1035
+01:12:38,440 --> 01:12:42,760
+persist a long time, so that a
+big aircraft landing at an
+
+1036
+01:12:42,760 --> 01:12:48,480
+airport would make it really
+dangerous for a plane coming in
+
+1037
+01:12:48,640 --> 01:12:53,080
+a minute or so after them on the
+same track because the swirl
+
+1038
+01:12:53,080 --> 01:12:59,000
+persisted and persisted.
+The Eddie Viscosity model said
+
+1039
+01:12:59,000 --> 01:13:02,480
+don't worry folks, the swirl
+dies out very quickly.
+
+1040
+01:13:02,480 --> 01:13:06,560
+But experiments that Peter
+Bradshaw had done said, no, it
+
+1041
+01:13:06,560 --> 01:13:09,280
+doesn't die out.
+It hangs around an awful long
+
+1042
+01:13:09,280 --> 01:13:12,560
+time.
+And I'm happy to say that one of
+
+1043
+01:13:12,560 --> 01:13:19,080
+the applications that I did with
+Tim Craft at Manchester was to
+
+1044
+01:13:19,080 --> 01:13:23,680
+look at this with the TCL model.
+And the TCL model was the only
+
+1045
+01:13:23,680 --> 01:13:27,800
+one of four schemes that we
+looked at that in any way
+
+1046
+01:13:27,800 --> 01:13:31,320
+mimicked the observed
+experimental behavior.
+
+1047
+01:13:31,440 --> 01:13:35,320
+I will just add if you don't
+mind a quick again interesting
+
+1048
+01:13:35,320 --> 01:13:37,560
+thing that you may or may not be
+aware of and it's probably one
+
+1049
+01:13:37,560 --> 01:13:40,360
+of the reasons that Alistair
+works where he does now at the
+
+1050
+01:13:40,360 --> 01:13:44,400
+Formula One team, is that use
+case of RANS turbans modelling
+
+1051
+01:13:44,440 --> 01:13:48,160
+for highly vortex driven flows
+is a key use case in Formula
+
+1052
+01:13:48,160 --> 01:13:51,320
+One.
+And actually from when I was
+
+1053
+01:13:51,320 --> 01:13:54,700
+working and even recently, I
+still see people looking at non
+
+1054
+01:13:54,700 --> 01:13:58,840
+linearity viscosity models and
+all stress models because the
+
+1055
+01:13:58,840 --> 01:14:03,120
+flow around a Formula One chi is
+driven by 10s or more of
+
+1056
+01:14:03,120 --> 01:14:06,940
+individual vortices and they
+find that they need these non
+
+1057
+01:14:06,940 --> 01:14:10,240
+linear terms to capture it more
+nicely.
+
+1058
+01:14:10,240 --> 01:14:14,360
+So even today, I think that's
+one of the industries that still
+
+1059
+01:14:14,360 --> 01:14:16,640
+are very much indeterminate
+modelling.
+
+1060
+01:14:16,640 --> 01:14:21,000
+So yeah, yeah, that's that, that
+wing tip exact test case I've
+
+1061
+01:14:21,000 --> 01:14:24,680
+seen used internally at in F1
+teams to investigate different
+
+1062
+01:14:24,680 --> 01:14:25,760
+terms models.
+So.
+
+1063
+01:14:26,520 --> 01:14:29,240
+Gosh.
+Well, thank you.
+
+1064
+01:14:29,440 --> 01:14:34,120
+I hadn't supposed that that
+ground based object like a
+
+1065
+01:14:34,120 --> 01:14:37,680
+racing car would encounter the
+same problems.
+
+1066
+01:14:38,480 --> 01:14:42,440
+Yeah, that's because all the
+wings, they generate the tips
+
+1067
+01:14:42,480 --> 01:14:44,480
+and there's so many of those
+individual wings, there's,
+
+1068
+01:14:44,880 --> 01:14:49,240
+there's probably 40 different
+vortices I guess on the car all
+
+1069
+01:14:49,240 --> 01:14:51,240
+touching each other.
+You need a pretty fine.
+
+1070
+01:14:51,480 --> 01:14:53,560
+It's a result, yes.
+Well, yeah, there's like a
+
+1071
+01:14:53,560 --> 01:14:56,360
+billion grid points nowadays, so
+things have moved on.
+
+1072
+01:14:56,360 --> 01:14:58,640
+But yes, sorry I interrupted
+you.
+
+1073
+01:14:58,640 --> 01:15:02,800
+I think you were talking more
+about the Osborne Reynolds and
+
+1074
+01:15:02,800 --> 01:15:05,600
+and some of that work.
+Yeah, well, I've really reached
+
+1075
+01:15:05,600 --> 01:15:09,280
+the end of the end of the line.
+I thought I was also getting a
+
+1076
+01:15:09,280 --> 01:15:14,600
+bit old and so I was interested
+that the Royal Society announced
+
+1077
+01:15:14,960 --> 01:15:20,920
+that they had the original
+copies of referees reports from
+
+1078
+01:15:20,920 --> 01:15:24,440
+some of the early papers.
+Now I was quite interested in
+
+1079
+01:15:24,440 --> 01:15:27,680
+Osborne Reynolds, of course.
+He'd been a professor at
+
+1080
+01:15:27,680 --> 01:15:31,880
+Manchester, forerunner of
+Manchester University, but also
+
+1081
+01:15:31,880 --> 01:15:34,880
+he his paper on Reynolds
+averaging.
+
+1082
+01:15:34,880 --> 01:15:39,520
+Whilst it didn't actually get
+into the problems of modelling
+
+1083
+01:15:39,520 --> 01:15:43,560
+the Reynolds stresses, at least
+it marked a starting point for
+
+1084
+01:15:43,560 --> 01:15:46,840
+the subject that I'd been
+involved in for most of my
+
+1085
+01:15:46,840 --> 01:15:49,920
+professional career.
+So he asked whether they had
+
+1086
+01:15:49,920 --> 01:15:56,000
+copies of Reynolds papers.
+Judy travelled down to London to
+
+1087
+01:15:56,440 --> 01:16:01,920
+see them.
+And again was I was just blown
+
+1088
+01:16:01,920 --> 01:16:04,760
+away.
+I was blown away in much the
+
+1089
+01:16:04,760 --> 01:16:09,200
+same way that first coming to
+you Miss had had done for me.
+
+1090
+01:16:09,560 --> 01:16:17,280
+You got communications from
+Horace Lamb, George Stokes, from
+
+1091
+01:16:17,280 --> 01:16:21,600
+Reynolds of course, really from
+from all of these people that
+
+1092
+01:16:21,600 --> 01:16:26,480
+were involved in refereeing or
+acting as editor of of the
+
+1093
+01:16:26,560 --> 01:16:29,520
+manuscripts that Reynolds had
+submitted.
+
+1094
+01:16:29,520 --> 01:16:34,960
+So I said, well, can I have a
+copy of these?
+
+1095
+01:16:35,240 --> 01:16:38,360
+Yes.
+The Royal Society said no, I
+
+1096
+01:16:38,360 --> 01:16:41,520
+could not Xerox them.
+They wouldn't allow me to Xerox
+
+1097
+01:16:41,520 --> 01:16:46,520
+them, but they could arrange for
+their photographer to come in
+
+1098
+01:16:46,520 --> 01:16:50,000
+and copy them for me, which they
+duly did.
+
+1099
+01:16:50,120 --> 01:16:56,240
+I was charged 75 lbs for the
+privilege which I the other day
+
+1100
+01:16:56,240 --> 01:16:58,400
+I looked up as to what that
+would be today.
+
+1101
+01:16:58,400 --> 01:17:03,600
+It was a little over £200 but I
+happily paid that in order to
+
+1102
+01:17:03,640 --> 01:17:08,440
+get get the photographs and
+subsequently then I wrote a
+
+1103
+01:17:08,720 --> 01:17:16,080
+paper on how despite crushing
+referees reports, nevertheless
+
+1104
+01:17:16,080 --> 01:17:21,080
+Osborne Reynolds did publish his
+paper on Reynolds averaging.
+
+1105
+01:17:21,680 --> 01:17:26,680
+Well that's a lesson on even the
+famous and well known people
+
+1106
+01:17:26,680 --> 01:17:30,200
+like Osborne Reynolds can get
+very harsh reviews, so maybe
+
+1107
+01:17:30,200 --> 01:17:34,440
+that's reassuring for everybody
+else who probably also has had
+
+1108
+01:17:34,440 --> 01:17:37,000
+those.
+I'm sure it wouldn't have been
+
+1109
+01:17:37,000 --> 01:17:41,920
+published except that the
+earlier paper that he'd
+
+1110
+01:17:42,160 --> 01:17:46,840
+published in which he discovered
+that transition occurred at a
+
+1111
+01:17:46,840 --> 01:17:50,320
+particular of what we call today
+a particular critical Reynolds
+
+1112
+01:17:50,320 --> 01:17:51,920
+number.
+If he hadn't published that
+
+1113
+01:17:51,920 --> 01:17:56,560
+experimental paper first because
+the referees were saying things
+
+1114
+01:17:56,560 --> 01:17:59,640
+like the previous work he did
+was very good.
+
+1115
+01:17:59,640 --> 01:18:03,960
+Maybe there's something in this,
+but I can't see it that that was
+
+1116
+01:18:03,960 --> 01:18:06,160
+probably the reason it got
+published.
+
+1117
+01:18:06,400 --> 01:18:10,200
+Of course, having having
+published one paper, you get a
+
+1118
+01:18:10,200 --> 01:18:15,560
+request from conference
+organiser, could I give a paper
+
+1119
+01:18:15,560 --> 01:18:21,320
+just like that one?
+And of course my response is I
+
+1120
+01:18:21,320 --> 01:18:24,520
+couldn't bear to give the same
+paper twice.
+
+1121
+01:18:24,520 --> 01:18:29,640
+But what I discovered was that
+at Manchester they had all of
+
+1122
+01:18:29,640 --> 01:18:34,080
+the archive material from
+Reynolds applying for a his
+
+1123
+01:18:34,080 --> 01:18:36,480
+chair.
+Retired colleague of mine had
+
+1124
+01:18:36,480 --> 01:18:40,320
+also been following up on
+Reynolds's life, a person called
+
+1125
+01:18:40,320 --> 01:18:44,960
+Derek Jackson.
+And so we collaborated in
+
+1126
+01:18:45,080 --> 01:18:51,600
+producing a much fuller paper on
+Reynolds's life as a whole that
+
+1127
+01:18:52,080 --> 01:18:54,960
+was was published in a book that
+I forget.
+
+1128
+01:18:54,960 --> 01:18:56,800
+Let me find the name of the book
+here.
+
+1129
+01:18:56,800 --> 01:19:00,440
+It is A Voyage Through
+Turbulence that was edited by
+
+1130
+01:19:00,440 --> 01:19:03,000
+Keith Moffat and others from
+Cambridge.
+
+1131
+01:19:03,120 --> 01:19:07,520
+Anyway, I don't know whether it
+was connected with these papers
+
+1132
+01:19:07,520 --> 01:19:10,960
+when colleagues in the Royal
+Society died.
+
+1133
+01:19:11,040 --> 01:19:17,360
+It's the practice of the Royal
+Society to produce a 25 or 30
+
+1134
+01:19:17,360 --> 01:19:21,040
+page memoir on their lives,
+their achievements.
+
+1135
+01:19:21,520 --> 01:19:28,080
+So I was when my friend Jim
+Whitelaw passed away, I was
+
+1136
+01:19:28,080 --> 01:19:32,000
+asked to write his.
+And you know, that is, that is
+
+1137
+01:19:32,000 --> 01:19:36,120
+really an interesting branch of
+research that was quite like
+
+1138
+01:19:36,120 --> 01:19:42,040
+looking at looking at Osborne
+Reynolds's past life because Jim
+
+1139
+01:19:42,040 --> 01:19:45,760
+had produced a huge catalog of
+what he'd done.
+
+1140
+01:19:45,760 --> 01:19:50,200
+And so as a matter of sifting
+through that, pulling out the
+
+1141
+01:19:50,200 --> 01:19:53,160
+aspects that would be
+particularly important to
+
+1142
+01:19:53,160 --> 01:19:56,640
+stress, plus any personal views
+I might have.
+
+1143
+01:19:57,080 --> 01:20:00,400
+So that started following Bron
+Spaulding's death.
+
+1144
+01:20:00,440 --> 01:20:05,000
+I I also.
+Contributed to his memoir and
+
+1145
+01:20:05,000 --> 01:20:09,000
+now most recently, Peter
+Bradshaw, who died last year.
+
+1146
+01:20:09,520 --> 01:20:15,120
+I've written his article.
+So life in my retirement hasn't,
+
+1147
+01:20:15,360 --> 01:20:20,000
+hasn't by any means been without
+involvement with turbulence.
+
+1148
+01:20:21,040 --> 01:20:25,280
+Bryant Spalding, When we started
+off in the earlier discussions
+
+1149
+01:20:25,280 --> 01:20:29,520
+about the beginning of your
+career, you had the initial chat
+
+1150
+01:20:29,520 --> 01:20:34,000
+about where to study, then the
+offer of coming back to Imperial
+
+1151
+01:20:34,160 --> 01:20:38,040
+and obviously then there was a a
+sort of falling out and then
+
+1152
+01:20:38,040 --> 01:20:42,240
+leaving to UC Davis.
+What was your relationship like
+
+1153
+01:20:42,480 --> 01:20:45,480
+later on in in your career?
+Did you stay in touch?
+
+1154
+01:20:45,480 --> 01:20:48,480
+Did you?
+Yeah.
+
+1155
+01:20:48,480 --> 01:20:52,040
+How was your relationship when
+you came back to you missed?
+
+1156
+01:20:52,400 --> 01:20:55,640
+Well, when I came back to you
+missed it was.
+
+1157
+01:20:55,880 --> 01:20:59,880
+It was static.
+Nothing had moved by then, but
+
+1158
+01:20:59,880 --> 01:21:07,200
+then when in 1994 received a
+note notice that I was to be
+
+1159
+01:21:07,200 --> 01:21:12,880
+admitted to the Royal Society, I
+got a warm, very brief but brief
+
+1160
+01:21:12,880 --> 01:21:15,280
+brevity is certainly sporting
+style.
+
+1161
+01:21:15,640 --> 01:21:20,640
+A brief note congratulating me.
+I didn't respond to that.
+
+1162
+01:21:20,640 --> 01:21:23,720
+I think in as generous a way as
+I could.
+
+1163
+01:21:23,720 --> 01:21:29,920
+We, we might have developed much
+closer linkages again when he
+
+1164
+01:21:29,920 --> 01:21:34,640
+was when he was reaching his
+90th birthday, there was a, a
+
+1165
+01:21:34,640 --> 01:21:39,200
+celebration for him and I, I was
+distantly involved in helping to
+
+1166
+01:21:39,200 --> 01:21:43,320
+organize that.
+And of course we met there and
+
+1167
+01:21:43,600 --> 01:21:46,560
+exchanged pleasantries between
+us.
+
+1168
+01:21:46,560 --> 01:21:50,120
+I I guess there was still
+slightly a feeling of the
+
+1169
+01:21:50,120 --> 01:21:52,600
+tension.
+I think the last time I saw him
+
+1170
+01:21:52,960 --> 01:21:57,520
+was when I was giving, We were
+both giving, in fact invited
+
+1171
+01:21:57,520 --> 01:22:00,200
+lectures at a meeting in
+Sarajevo.
+
+1172
+01:22:00,200 --> 01:22:05,040
+I would by then had worked into
+the area of climate change and
+
+1173
+01:22:05,360 --> 01:22:09,560
+that was the topic of my
+lecture, really suggesting how
+
+1174
+01:22:09,560 --> 01:22:14,880
+engineers with their experience
+and now of being able to predict
+
+1175
+01:22:15,640 --> 01:22:20,040
+turbulent swirling flows could
+actually contribute to the
+
+1176
+01:22:20,040 --> 01:22:25,920
+modelling of hurricanes, perhaps
+devising methods to diminish the
+
+1177
+01:22:25,920 --> 01:22:31,400
+intensity of a hurricane.
+I think the paper went over the
+
+1178
+01:22:31,400 --> 01:22:36,560
+heads of those there.
+There was, I think, no question
+
+1179
+01:22:36,560 --> 01:22:41,120
+at all from the floor except
+from Brian Spalding.
+
+1180
+01:22:41,120 --> 01:22:44,160
+He was sad in the front row of
+the audience.
+
+1181
+01:22:44,400 --> 01:22:47,320
+We did mend our defences between
+us.
+
+1182
+01:22:47,640 --> 01:22:52,200
+I didn't do as much as I should
+have done, and I'm sorry, but I
+
+1183
+01:22:52,200 --> 01:22:56,800
+hope in contributing to his bio
+memoir, I'm forgiven.
+
+1184
+01:22:59,200 --> 01:23:04,360
+My other question, I'm kind of
+see how you saw it from the
+
+1185
+01:23:04,440 --> 01:23:09,240
+outside.
+Often the turbulent modelling,
+
+1186
+01:23:09,240 --> 01:23:12,640
+particularly in a Rands context,
+it's often seen as a almost a
+
+1187
+01:23:12,640 --> 01:23:19,120
+competition between Philippe's
+Ballade, you know, Florio Mentor
+
+1188
+01:23:19,360 --> 01:23:23,320
+yourself, Wilcox, how much did
+you see it that way in the
+
+1189
+01:23:23,320 --> 01:23:25,000
+night?
+And I guess you had done it a
+
+1190
+01:23:25,000 --> 01:23:28,920
+little bit before, but in the
+Seventies, 80s and 90s, were you
+
+1191
+01:23:28,920 --> 01:23:33,200
+aware of this almost papers
+always comparing the different
+
+1192
+01:23:33,200 --> 01:23:35,920
+turbans modelling approaches and
+which one was better?
+
+1193
+01:23:35,920 --> 01:23:39,960
+Was that something you aware of
+or was it not?
+
+1194
+01:23:40,520 --> 01:23:44,680
+Yeah, part of your thinking.
+I guess one could say I was
+
+1195
+01:23:44,840 --> 01:23:50,400
+dimly aware of, but I was so
+interested, you might say
+
+1196
+01:23:50,400 --> 01:23:56,480
+obsessed with tackling the
+problems in research that I felt
+
+1197
+01:23:56,480 --> 01:24:01,480
+I needed to deal with.
+I I wasn't looking over my
+
+1198
+01:24:01,480 --> 01:24:05,640
+shoulder all the time.
+Looking over one shoulder in
+
+1199
+01:24:05,640 --> 01:24:09,120
+implies people are behind me.
+Maybe some some of.
+
+1200
+01:24:09,480 --> 01:24:13,240
+Do you think it's ultimately
+though, just a matter of where
+
+1201
+01:24:13,240 --> 01:24:18,080
+you studied and what your
+funding was, new use cases, If
+
+1202
+01:24:18,080 --> 01:24:22,960
+you're in at Stanford and you're
+in the US, you have close links
+
+1203
+01:24:22,960 --> 01:24:26,000
+with NASA and the aerospace
+industry, you're going to be
+
+1204
+01:24:26,000 --> 01:24:29,520
+solving airplane cases.
+And so I wonder whether that
+
+1205
+01:24:29,520 --> 01:24:31,640
+motivated the Sparta, Maris and
+those.
+
+1206
+01:24:31,640 --> 01:24:37,600
+And if you had, instead of being
+funded by, you know, Boeing or
+
+1207
+01:24:37,600 --> 01:24:41,720
+or Rolls Royce, sorry, or
+Airbus, or would you have
+
+1208
+01:24:41,720 --> 01:24:45,360
+naturally pivoted and maybe come
+up with a slightly different
+
+1209
+01:24:45,360 --> 01:24:49,120
+terms model?
+Is it ultimately that you were
+
+1210
+01:24:49,120 --> 01:24:51,560
+driven a little bit by the
+problems you were trying to
+
+1211
+01:24:51,560 --> 01:24:52,720
+solve?
+I haven't.
+
+1212
+01:24:53,280 --> 01:24:56,920
+I haven't really thought of it
+that way, but I think I think
+
+1213
+01:24:56,920 --> 01:25:00,440
+that's it's correct.
+Had I, had I been at Stanford,
+
+1214
+01:25:00,440 --> 01:25:06,440
+say yes, NASA Ames would be the
+natural point of collaboration
+
+1215
+01:25:06,760 --> 01:25:08,760
+in research.
+Who knows?
+
+1216
+01:25:08,880 --> 01:25:12,520
+I don't.
+Well, I I say, I don't think I
+
+1217
+01:25:12,520 --> 01:25:17,080
+would have gone for A1 equation
+model as Philippe Spella.
+
+1218
+01:25:17,640 --> 01:25:19,480
+Yeah.
+And it's interesting, I think
+
+1219
+01:25:19,480 --> 01:25:22,600
+now if you look, even with the
+Spallitomaris, there's a lot of
+
+1220
+01:25:22,600 --> 01:25:26,800
+modifications to try and add
+some of these non linear terms.
+
+1221
+01:25:26,800 --> 01:25:31,080
+So I, I think ultimately people
+come from different directions
+
+1222
+01:25:31,080 --> 01:25:33,400
+and you know, I guess you can
+argue which one's correct and
+
+1223
+01:25:33,400 --> 01:25:36,120
+which one's not.
+But yeah, it, it's just a
+
+1224
+01:25:36,120 --> 01:25:39,680
+curiosity to us externally,
+because if you open up antis
+
+1225
+01:25:39,680 --> 01:25:44,000
+Fluent or Star CCM or one of
+these commercial packages, you
+
+1226
+01:25:44,000 --> 01:25:47,200
+are almost, you know, this, I
+didn't tell you, but you have
+
+1227
+01:25:47,200 --> 01:25:50,120
+radio buttons on which turbans
+model to pick.
+
+1228
+01:25:50,440 --> 01:25:52,840
+Do I pick the K silent?
+Do I pick the K Omega?
+
+1229
+01:25:53,280 --> 01:25:56,440
+And in some ways, if you have no
+context of the background, it is
+
+1230
+01:25:56,440 --> 01:25:58,360
+in some ways just which one do
+you pick?
+
+1231
+01:25:58,520 --> 01:26:01,400
+And that's why people often find
+it so interesting that there's
+
+1232
+01:26:01,400 --> 01:26:05,320
+these different options and how
+did they come about and what was
+
+1233
+01:26:05,320 --> 01:26:07,560
+their motivation.
+So that ends the question.
+
+1234
+01:26:07,640 --> 01:26:13,480
+So maybe to finish off, what if
+you were to now, you know,
+
+1235
+01:26:13,480 --> 01:26:16,560
+you're speaking to your 20 year
+old self, what advice would you
+
+1236
+01:26:16,560 --> 01:26:19,280
+give having all of what you've
+learned through your amazing
+
+1237
+01:26:19,280 --> 01:26:20,400
+career?
+What?
+
+1238
+01:26:20,400 --> 01:26:22,480
+What words of wisdom would you
+impart?
+
+1239
+01:26:22,640 --> 01:26:26,560
+Gosh, it's hard to imagine a 20
+year old who would sit and
+
+1240
+01:26:28,320 --> 01:26:33,920
+listen to somebody closer to 90
+than 80I.
+
+1241
+01:26:34,080 --> 01:26:38,320
+I suppose looking back over my
+life, what I can see is that
+
+1242
+01:26:38,720 --> 01:26:43,560
+changes have come about.
+Really not of my own driving,
+
+1243
+01:26:43,920 --> 01:26:47,440
+but I've somehow been thrust
+upon me.
+
+1244
+01:26:47,440 --> 01:26:53,320
+And I think I would say that
+people should be ready to accept
+
+1245
+01:26:53,320 --> 01:26:58,720
+change, not be downcast by it
+nor overly ill related, but to
+
+1246
+01:26:58,720 --> 01:27:04,640
+be inquisitive of of change.
+And I think making changes
+
+1247
+01:27:04,960 --> 01:27:10,080
+constructively has, in a sense,
+reflects my approach to
+
+1248
+01:27:10,080 --> 01:27:13,360
+modelling.
+When we'd reached the stage
+
+1249
+01:27:13,560 --> 01:27:17,600
+where it was just a matter of
+pushing a button to, as you had
+
+1250
+01:27:17,640 --> 01:27:22,400
+alluded to, to choose which
+model is applicable, that's when
+
+1251
+01:27:22,400 --> 01:27:27,080
+I think it's time for me to say
+thanks but no thanks, I'll do
+
+1252
+01:27:27,160 --> 01:27:32,000
+something else.
+Great words of wisdom and thank
+
+1253
+01:27:32,000 --> 01:27:34,880
+you so much for sharing your
+stories and your work.
+
+1254
+01:27:35,040 --> 01:27:40,200
+I'm sure I speak for everybody
+to say that the impact of, you
+
+1255
+01:27:40,200 --> 01:27:44,840
+know, the K Epsilon, the LLR and
+the wolf function work is today
+
+1256
+01:27:44,840 --> 01:27:48,760
+used by hundreds of thousands of
+engineers across the globe to
+
+1257
+01:27:48,760 --> 01:27:52,120
+design the things that we and
+you, the listener use it every
+
+1258
+01:27:52,120 --> 01:27:54,080
+day.
+So the impact, even though some
+
+1259
+01:27:54,080 --> 01:27:57,760
+of that work was 50 years ago,
+it is still impacting today,
+
+1260
+01:27:57,760 --> 01:28:00,960
+which is I think an incredible
+testament to the work you've
+
+1261
+01:28:00,960 --> 01:28:03,320
+done.
+So thank you for being on today
+
+1262
+01:28:03,320 --> 01:28:04,400
+and it was great to speak to
+you.
+
+1263
+01:28:04,840 --> 01:28:07,000
+Well, thank you, Neil.
+It's been fun.
+
+1264
+01:28:07,840 --> 01:28:08,240
+Bye bye.

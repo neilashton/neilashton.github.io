@@ -29,7 +29,7 @@
 
           const iframe = document.createElement("iframe");
           iframe.className = "podcast-embed-frame";
-          iframe.title = "The Neil Ashton Podcast on Spotify";
+          iframe.title = embed.dataset.embedTitle || "The Neil Ashton Podcast on Spotify";
           iframe.width = "624";
           iframe.height = "351";
           iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";

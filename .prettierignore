@@ -1,5 +1,6 @@
 **/*.min.css
 **/*.min.js
+_podcast_episodes/**
 assets/css/main.scss
 assets/plotly/demo.html
 lighthouse_results/**

@@ -1,0 +1,103 @@
+---
+layout: default
+---
+<article class="podcast-episode">
+  <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/podcasts/' | relative_url }}">Podcast</a>
+    <span aria-hidden="true">/</span>
+    <span>Season {{ page.season }}, episode {{ page.episode }}</span>
+  </nav>
+
+  <header class="episode-header">
+    <div class="episode-header-copy">
+      <p class="eyebrow">The Neil Ashton Podcast</p>
+      <h1>{{ page.title | escape }}</h1>
+      <p class="episode-meta">
+        <span>Season {{ page.season }}, episode {{ page.episode }}</span>
+        <span aria-hidden="true">·</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %B %Y' }}</time>
+        <span aria-hidden="true">·</span>
+        <span>{{ page.duration_display | escape }}</span>
+      </p>
+    </div>
+    <img
+      class="episode-artwork"
+      src="{{ page.episode_image | relative_url }}"
+      alt="{{ page.episode_image_alt | escape }}"
+      width="320"
+      height="180"
+      decoding="async"
+    >
+  </header>
+
+  <div
+    class="podcast-embed podcast-embed--episode"
+    data-podcast-embed
+    data-embed-src="{{ page.spotify_embed_url }}"
+    data-embed-title="{{ page.title | escape }} on Spotify"
+    aria-label="{{ page.title | escape }} Spotify player"
+  >
+    <div class="podcast-embed-slot" data-podcast-embed-slot>
+      <div class="podcast-embed-poster">
+        <span class="podcast-embed-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <circle cx="24" cy="24" r="23"></circle>
+            <path d="m20 15 14 9-14 9Z"></path>
+          </svg>
+        </span>
+        <div class="podcast-embed-copy">
+          <p class="eyebrow">Spotify player</p>
+          <p class="podcast-embed-title">{{ page.title | escape }}</p>
+          <button
+            class="button button-primary podcast-embed-load"
+            type="button"
+            data-load-podcast-player
+            hidden
+          >
+            Load episode player
+          </button>
+          <noscript>
+            <p class="podcast-embed-noscript">The embedded player requires JavaScript. You can still listen directly on Spotify.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <div class="podcast-embed-meta">
+      <p>Spotify is contacted only after you load the player and may then set cookies.</p>
+      <a href="{{ page.spotify_url }}">Open in Spotify <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="sr-only" data-podcast-embed-status aria-live="polite"></p>
+  </div>
+
+  <nav class="episode-platform-links academic-links" aria-label="Episode links">
+    <a href="{{ page.spotify_url }}">Spotify</a>
+    <a href="{{ page.creator_url }}">Spotify for Creators</a>
+    <a href="{{ site.apple_podcasts_url }}">Apple Podcasts</a>
+    {% if page.transcript_path %}
+      <a href="{{ page.transcript_path | relative_url }}" download>Download transcript</a>
+    {% endif %}
+  </nav>
+
+  <div class="episode-content">
+    {{ content }}
+  </div>
+
+  <nav class="episode-pagination" aria-label="Other podcast episodes">
+    {% if page.older_url %}
+      <a class="episode-pagination-link" href="{{ page.older_url | relative_url }}">
+        <span class="episode-pagination-label">Older episode</span>
+        <span>{{ page.older_title | escape }}</span>
+      </a>
+    {% endif %}
+    {% if page.newer_url %}
+      <a class="episode-pagination-link episode-pagination-link--next" href="{{ page.newer_url | relative_url }}">
+        <span class="episode-pagination-label">Newer episode</span>
+        <span>{{ page.newer_title | escape }}</span>
+      </a>
+    {% endif %}
+  </nav>
+
+  <p class="episode-archive-link"><a href="{{ '/podcasts/' | relative_url }}">Browse all podcast episodes →</a></p>
+</article>
+
+<script defer src="{{ '/assets/js/podcast-embed.js' | relative_url | bust_file_cache }}"></script>
