@@ -1,0 +1,1863 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+and lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:41,040
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:41,040 --> 00:00:43,760
+Ashton Podcast.
+So today I wanted to talk about
+
+13
+00:00:43,760 --> 00:00:48,480
+the topic of foundational models
+for fluids or for computational
+
+14
+00:00:48,480 --> 00:00:51,400
+fluid dynamics.
+It's a topic that I brought up
+
+15
+00:00:51,960 --> 00:00:53,840
+and asked quite a few of the
+people that I interviewed
+
+16
+00:00:53,840 --> 00:00:56,440
+recently.
+But I, I wanted to give some
+
+17
+00:00:56,440 --> 00:01:00,760
+personal thoughts on this,
+partially because I had the
+
+18
+00:01:00,760 --> 00:01:05,080
+pleasure a couple of weeks ago
+of chairing a panel discussion
+
+19
+00:01:05,640 --> 00:01:10,680
+at the second data-driven fluid
+dynamics conference, which was
+
+20
+00:01:10,680 --> 00:01:14,240
+on a cough tac euromech thing
+that was done at Imperial Carter
+
+21
+00:01:14,240 --> 00:01:16,920
+London.
+I was involved in the first one
+
+22
+00:01:16,920 --> 00:01:20,000
+in Paris the previous year.
+And it's a great initiative that
+
+23
+00:01:20,000 --> 00:01:24,080
+has tried to bring the fluid
+community and I guess the AI
+
+24
+00:01:24,080 --> 00:01:28,000
+community together, particularly
+with a sort of European flavour,
+
+25
+00:01:28,000 --> 00:01:31,440
+I guess to it.
+But in this panel session, it
+
+26
+00:01:31,440 --> 00:01:35,160
+was really interesting because
+we had representatives from, you
+
+27
+00:01:35,160 --> 00:01:41,840
+know, Harvard, but also Caltech
+and, and some from industry and,
+
+28
+00:01:44,160 --> 00:01:46,400
+and really representing the
+experimental and the
+
+29
+00:01:46,400 --> 00:01:52,280
+computational side.
+And one of the things that I did
+
+30
+00:01:52,280 --> 00:01:56,200
+was to try and ask people about
+their opinion of foundational
+
+31
+00:01:56,200 --> 00:02:02,240
+models.
+But more interestingly or as
+
+32
+00:02:02,240 --> 00:02:06,480
+interesting was I tried to ask
+the audience some of the
+
+33
+00:02:06,480 --> 00:02:10,240
+questions and there was a couple
+of 100 people in the audience.
+
+34
+00:02:10,240 --> 00:02:13,120
+And so we use this Menti meter
+app that I have to confess I
+
+35
+00:02:13,120 --> 00:02:15,520
+haven't really used before, but
+it's great because you can
+
+36
+00:02:15,520 --> 00:02:17,960
+essentially do real time polling
+of people.
+
+37
+00:02:18,920 --> 00:02:22,600
+So I asked the question, do you
+believe that we will have
+
+38
+00:02:22,800 --> 00:02:26,160
+foundational models?
+And in fact, I'm just looking on
+
+39
+00:02:26,160 --> 00:02:28,320
+the on the screen now because I
+have the results up.
+
+40
+00:02:28,360 --> 00:02:31,040
+Well, I should tell you, the
+first thing I did ask was what's
+
+41
+00:02:31,040 --> 00:02:34,880
+your favorite British food?
+Bit of a tongue in chic really.
+
+42
+00:02:34,880 --> 00:02:39,400
+And people for fish and chips
+won, followed secondly by the
+
+43
+00:02:39,480 --> 00:02:42,200
+vomit emoji, which I was a bit
+offended by.
+
+44
+00:02:42,840 --> 00:02:44,280
+And then a full English
+breakfast.
+
+45
+00:02:45,040 --> 00:02:48,880
+So there we go.
+But more seriously, on the
+
+46
+00:02:48,880 --> 00:02:54,640
+actual topic of foundational
+models, I basically said, will
+
+47
+00:02:55,800 --> 00:02:58,440
+you know, can we get
+foundational morphin fluids?
+
+48
+00:02:58,560 --> 00:03:01,480
+How generalisable could it be?
+And what I asked was, could it?
+
+49
+00:03:01,920 --> 00:03:06,880
+Could this foundational model
+provide instantaneous pressure,
+
+50
+00:03:06,880 --> 00:03:09,520
+velocity for any boundary
+conditional geometry?
+
+51
+00:03:10,080 --> 00:03:13,880
+So as in you can say to it
+here's a geometry with a certain
+
+52
+00:03:13,880 --> 00:03:17,400
+boundary condition, can it
+predict it and give you the
+
+53
+00:03:17,400 --> 00:03:18,840
+instantaneous pressure and
+velocity?
+
+54
+00:03:18,840 --> 00:03:21,560
+A bit like ACFD solver.
+Now you give it a geometry, you
+
+55
+00:03:21,560 --> 00:03:23,160
+give it some boundary
+conditions, and it would go and
+
+56
+00:03:23,160 --> 00:03:27,400
+solve it.
+Second option I gave people is
+
+57
+00:03:27,400 --> 00:03:29,920
+exactly the same, but time
+averaged.
+
+58
+00:03:30,080 --> 00:03:32,880
+So not instantaneous, but time
+averaged, and I'll get into the
+
+59
+00:03:32,880 --> 00:03:36,600
+nuance of that in a little bit.
+Then the third option was yes,
+
+60
+00:03:36,600 --> 00:03:40,240
+but only for a specific use
+case, as in maybe like a road,
+
+61
+00:03:40,240 --> 00:03:43,400
+car or a plane.
+And finally, option was
+
+62
+00:03:44,160 --> 00:03:47,120
+essentially no physics.
+Sorry fluids are just too
+
+63
+00:03:47,120 --> 00:03:48,760
+complex for an AI model to
+learn.
+
+64
+00:03:49,280 --> 00:03:55,240
+And interestingly the out of the
+scores it was 38 and this is out
+
+65
+00:03:55,240 --> 00:03:58,480
+of 100 and something.
+So the the the most popular
+
+66
+00:03:58,480 --> 00:04:04,280
+answer was only for a specific
+use case. 38 people close 2nd.
+
+67
+00:04:04,280 --> 00:04:08,960
+37 was provide time average to
+any bound addition and geometry
+
+68
+00:04:09,880 --> 00:04:12,040
+followed by instantaneous
+pressure.
+
+69
+00:04:12,080 --> 00:04:15,120
+And finally 13 had fluids that
+are just too complex.
+
+70
+00:04:15,360 --> 00:04:17,959
+So out of that audience, which
+is biased because they are
+
+71
+00:04:18,440 --> 00:04:24,480
+researchers looking at fluids
+and AI, the sense was it really
+
+72
+00:04:24,480 --> 00:04:26,760
+is only possible for a specific
+use case.
+
+73
+00:04:26,760 --> 00:04:30,920
+And therefore the terminology of
+foundational model is perhaps
+
+74
+00:04:31,440 --> 00:04:34,320
+pushing it a little bit or needs
+redefining.
+
+75
+00:04:35,720 --> 00:04:37,360
+OK.
+So that's why essentially I
+
+76
+00:04:37,360 --> 00:04:43,400
+wanted to to talk about it and I
+wanted to share I guess some
+
+77
+00:04:43,400 --> 00:04:47,120
+opinions of my own, some stuff
+I've seen along the way.
+
+78
+00:04:47,480 --> 00:04:48,920
+I'm in a lucky position, I
+guess.
+
+79
+00:04:49,520 --> 00:04:52,200
+I'm working in the tech sector
+that I get to engage with a lot
+
+80
+00:04:52,200 --> 00:04:54,680
+of customers and academics from
+different groups.
+
+81
+00:04:54,680 --> 00:04:58,400
+So I'd like to and, and go to
+conferences.
+
+82
+00:04:58,400 --> 00:05:00,640
+And I'd like to say I'd
+therefore have a, a reasonable
+
+83
+00:05:00,640 --> 00:05:02,880
+good view of what's going on in
+the community.
+
+84
+00:05:03,560 --> 00:05:07,040
+And I would actually say that
+things are looking very
+
+85
+00:05:07,040 --> 00:05:13,240
+interesting as in only a couple
+of years ago there was really no
+
+86
+00:05:13,240 --> 00:05:15,960
+work into this idea of a
+foundational model.
+
+87
+00:05:17,160 --> 00:05:19,880
+And another way of thinking of
+foundational model is simply a
+
+88
+00:05:19,880 --> 00:05:23,040
+pre train model.
+So what most people were looking
+
+89
+00:05:23,040 --> 00:05:26,240
+at was simply can we come up
+with some sort of algorithm,
+
+90
+00:05:26,240 --> 00:05:29,840
+some architecture that could
+allow somebody to go and train
+
+91
+00:05:29,840 --> 00:05:32,200
+an AI model based on prior
+simulation data.
+
+92
+00:05:33,240 --> 00:05:35,680
+So we're not talking about
+accelerating an existing code,
+
+93
+00:05:35,680 --> 00:05:37,920
+we're talking about replacing
+the code with a surrogate model.
+
+94
+00:05:38,760 --> 00:05:42,080
+And that was certainly the main
+focus probably five years ago or
+
+95
+00:05:42,080 --> 00:05:44,920
+four years ago.
+And there was some Seminole work
+
+96
+00:05:44,920 --> 00:05:48,040
+done with things like mesh,
+graphnet and others which took a
+
+97
+00:05:48,040 --> 00:05:51,080
+graph neural net approach where
+you could essentially take the
+
+98
+00:05:51,080 --> 00:05:55,040
+nodes of the mesh as the input.
+And that was something or
+
+99
+00:05:55,040 --> 00:05:58,160
+particles I guess because it was
+all particle examples of this.
+
+100
+00:05:59,080 --> 00:06:01,560
+And this rapidly became one of
+the success stories in the
+
+101
+00:06:01,560 --> 00:06:05,320
+weather and climate, but also
+was showing potential for CFD.
+
+102
+00:06:05,960 --> 00:06:09,920
+And this led to a number of
+start-ups that that formed over
+
+103
+00:06:09,920 --> 00:06:14,080
+the time, the sort of Navastos,
+Nora concepts and others who
+
+104
+00:06:14,080 --> 00:06:17,480
+took some of these work or
+pioneered things themselves and,
+
+105
+00:06:18,040 --> 00:06:21,360
+and released some of those
+things that people could go and,
+
+106
+00:06:21,400 --> 00:06:24,880
+and try for themselves.
+And so you saw in the past, you
+
+107
+00:06:24,880 --> 00:06:29,360
+know, several years, people
+really wanting to test out those
+
+108
+00:06:30,000 --> 00:06:34,640
+methods and with some success
+for sure.
+
+109
+00:06:36,480 --> 00:06:42,120
+But obviously that requires you
+to have your own training data,
+
+110
+00:06:42,880 --> 00:06:47,240
+your own ability to train a
+model and to have, I guess, both
+
+111
+00:06:47,240 --> 00:06:49,680
+the software and the knowledge
+to do it.
+
+112
+00:06:52,280 --> 00:06:55,240
+And I guess if you can compare
+that against what you would
+
+113
+00:06:55,240 --> 00:07:00,080
+typically see in the LLM space
+where maturity of us are not
+
+114
+00:07:00,080 --> 00:07:04,280
+training our own LLMS, but we
+are simply doing a prompt and
+
+115
+00:07:04,280 --> 00:07:07,600
+asking a question, doing an
+inference, we're not training
+
+116
+00:07:07,600 --> 00:07:10,120
+it.
+The logical question was, well,
+
+117
+00:07:10,120 --> 00:07:15,160
+could it be possible to train a
+model and then just provide it
+
+118
+00:07:15,160 --> 00:07:16,920
+to people as a pre trained
+model?
+
+119
+00:07:17,960 --> 00:07:21,960
+And it's a really interesting
+discussion because it has pretty
+
+120
+00:07:22,080 --> 00:07:28,080
+large it, it could have a
+potentially very large impact on
+
+121
+00:07:28,200 --> 00:07:32,280
+the CFT community.
+Now, there are some of you out
+
+122
+00:07:32,280 --> 00:07:35,520
+there who still have very
+negative opinions of AI and sort
+
+123
+00:07:35,520 --> 00:07:37,360
+of C as a fad, and it will come
+and go.
+
+124
+00:07:37,920 --> 00:07:42,000
+But I would say those voices are
+slowly starting to be overtaken
+
+125
+00:07:42,440 --> 00:07:46,600
+by the realization that actually
+these methods have a lot of
+
+126
+00:07:46,600 --> 00:07:50,200
+potential.
+Only, like I said, five years
+
+127
+00:07:50,200 --> 00:07:52,920
+ago with this was basically not
+happening.
+
+128
+00:07:52,920 --> 00:07:54,640
+Nobody was even talking about
+it.
+
+129
+00:07:55,720 --> 00:07:59,520
+I remember I got involved maybe
+three years ago in this topic,
+
+130
+00:07:59,520 --> 00:08:01,960
+so still quite late to the game
+I guess.
+
+131
+00:08:02,560 --> 00:08:06,840
+But even three years ago I
+remember most people had no idea
+
+132
+00:08:07,400 --> 00:08:10,640
+what this was all about.
+They just thought of this as
+
+133
+00:08:10,640 --> 00:08:15,360
+like reduced order modelling
+ROMs, real, no sense of what was
+
+134
+00:08:15,360 --> 00:08:18,040
+going on, didn't know what
+architecture would work.
+
+135
+00:08:18,880 --> 00:08:21,640
+There was only maybe one or two
+start-ups in the space, wasn't
+
+136
+00:08:21,640 --> 00:08:25,840
+very prominent.
+Fast forward to now and I would
+
+137
+00:08:25,840 --> 00:08:31,640
+say that it is certainly rapidly
+expanding and I would say
+
+138
+00:08:31,640 --> 00:08:35,280
+companies can be categorised as
+either trying to lead in this
+
+139
+00:08:35,280 --> 00:08:40,880
+way, being very interested and
+the number who were just set
+
+140
+00:08:40,880 --> 00:08:43,480
+against it is now sort of
+getting lower.
+
+141
+00:08:45,200 --> 00:08:49,760
+But I would say that this is
+still a little bit split between
+
+142
+00:08:49,760 --> 00:08:52,640
+the industries.
+And like with there's a bit of a
+
+143
+00:08:52,640 --> 00:08:56,720
+parallel with high fidelity
+methods, I see the automotive
+
+144
+00:08:56,720 --> 00:09:00,880
+sector as being much faster to
+adopt these new technologies or
+
+145
+00:09:00,920 --> 00:09:02,560
+investigate these new
+technologies.
+
+146
+00:09:03,040 --> 00:09:06,800
+Automotive companies today use
+sort of hybrid around scale
+
+147
+00:09:06,800 --> 00:09:10,120
+resolving methods on a
+day-to-day basis, whereas the
+
+148
+00:09:10,120 --> 00:09:13,920
+aerospace sector is still sort
+of proving out that they think
+
+149
+00:09:13,920 --> 00:09:15,600
+they can be used in in
+production.
+
+150
+00:09:15,800 --> 00:09:17,920
+And some of that is because
+Reynolds numbers and
+
+151
+00:09:17,920 --> 00:09:20,760
+complexities.
+Another is just a mindset, I
+
+152
+00:09:20,760 --> 00:09:22,840
+believe.
+And interestingly, I see the
+
+153
+00:09:22,840 --> 00:09:25,920
+same thing with the AII, see
+that the automotive companies
+
+154
+00:09:25,920 --> 00:09:30,160
+are far more motivated to try
+and find AI approaches that can
+
+155
+00:09:30,160 --> 00:09:33,880
+be faster potentially and are
+embracing it.
+
+156
+00:09:33,880 --> 00:09:37,280
+Whereas I see aerospace is more
+in the mindset of I don't think
+
+157
+00:09:37,280 --> 00:09:40,360
+this can work for me.
+And I guess part of me, the
+
+158
+00:09:40,360 --> 00:09:43,320
+reason doing this podcast
+episode is really just to put
+
+159
+00:09:43,320 --> 00:09:46,120
+across that, and this is a
+genuine, this is not influenced
+
+160
+00:09:46,120 --> 00:09:49,840
+by the company I work for.
+I've I've these all sort of
+
+161
+00:09:49,840 --> 00:09:53,880
+independent opinions, personal
+thoughts, but I really do think
+
+162
+00:09:53,880 --> 00:09:57,600
+that these are looking
+incredibly interesting for the
+
+163
+00:09:57,600 --> 00:10:01,040
+obvious reason that, you know,
+now if you do an inference on a,
+
+164
+00:10:01,480 --> 00:10:04,560
+on a model, you're going to get
+an answer in seconds.
+
+165
+00:10:06,600 --> 00:10:12,160
+But the accuracy is debatable
+whether people have truly proved
+
+166
+00:10:12,160 --> 00:10:15,200
+out that these these AI methods
+are accurate enough.
+
+167
+00:10:15,440 --> 00:10:18,800
+They give a very good impression
+of, you know, approximately what
+
+168
+00:10:18,800 --> 00:10:20,720
+the flow field is or
+approximately what the lift or
+
+169
+00:10:20,720 --> 00:10:23,080
+drag is.
+But I would say that we are
+
+170
+00:10:23,080 --> 00:10:26,440
+still not at the case where
+they're widely accepted or there
+
+171
+00:10:26,440 --> 00:10:30,960
+are very clear accuracy.
+I would say it's a bit like CFD
+
+172
+00:10:31,000 --> 00:10:34,160
+in the early days where you
+could argue there was clear
+
+173
+00:10:34,320 --> 00:10:37,120
+points where it worked well, but
+there were many examples where
+
+174
+00:10:37,120 --> 00:10:40,760
+it didn't work.
+And hence why CFD took decades,
+
+175
+00:10:40,920 --> 00:10:45,080
+you know, to to progress and be
+trusted enough to be a dominant
+
+176
+00:10:45,080 --> 00:10:49,120
+design tool.
+Sai is still in that sense where
+
+177
+00:10:49,880 --> 00:10:52,680
+it's probably not trusted as a
+key design tool yet.
+
+178
+00:10:53,560 --> 00:10:56,880
+But I would say that the number
+of companies really investing in
+
+179
+00:10:56,880 --> 00:11:01,080
+this is significantly growing.
+The number of start-ups who are
+
+180
+00:11:01,080 --> 00:11:03,800
+emerging in this space is
+growing month on month.
+
+181
+00:11:04,560 --> 00:11:08,280
+And the interest from the big is
+VS is also growing month on
+
+182
+00:11:08,280 --> 00:11:15,560
+month.
+But the challenge is the data.
+
+183
+00:11:16,080 --> 00:11:19,560
+So do you have available data?
+And this has always been the
+
+184
+00:11:19,560 --> 00:11:23,960
+challenge for the idea of a
+foundational model, as probably
+
+185
+00:11:23,960 --> 00:11:27,120
+people know, you know, the
+reason that these LMS and others
+
+186
+00:11:27,440 --> 00:11:31,000
+can do so well is that they have
+a very large data source to, to
+
+187
+00:11:31,000 --> 00:11:34,680
+to, to get to.
+So typically scraping off the
+
+188
+00:11:34,680 --> 00:11:39,360
+Internet, but nowadays maybe
+doing commercial deals with a
+
+189
+00:11:39,360 --> 00:11:42,000
+certain repository of data.
+You know, if you want to do
+
+190
+00:11:42,000 --> 00:11:45,040
+something on journal papers, you
+might do a deal with Elsevier or
+
+191
+00:11:45,040 --> 00:11:47,320
+John Wiley.
+If you want to do something on
+
+192
+00:11:47,320 --> 00:11:50,840
+video, you might do a deal with
+a video, you know, distributor
+
+193
+00:11:51,680 --> 00:11:54,240
+or or a newspaper.
+If you want to do on text or
+
+194
+00:11:54,240 --> 00:11:55,800
+pictures, you might do with
+Adobe.
+
+195
+00:11:56,280 --> 00:11:58,600
+You know, there's a lot of
+commercial arrangements going on
+
+196
+00:11:58,600 --> 00:12:00,600
+now.
+And I think that's what's super
+
+197
+00:12:00,600 --> 00:12:04,600
+interesting on the CFD side
+because on one side you could
+
+198
+00:12:04,600 --> 00:12:07,440
+say the data is just not
+available.
+
+199
+00:12:07,440 --> 00:12:10,600
+If you want to do combustion
+modelling or multi phase or
+
+200
+00:12:10,600 --> 00:12:13,920
+hypersonic something.
+This is not publicly available
+
+201
+00:12:13,920 --> 00:12:18,120
+data.
+So how do you you know, how do
+
+202
+00:12:18,120 --> 00:12:20,960
+you solve that?
+And this is where I think
+
+203
+00:12:20,960 --> 00:12:25,360
+there's an interesting technical
+but also commercial angle to
+
+204
+00:12:25,360 --> 00:12:31,800
+this, which is, is it worth it
+for a company to independently
+
+205
+00:12:31,920 --> 00:12:37,280
+run lots and lots of simulations
+to the fact that they can pre
+
+206
+00:12:37,280 --> 00:12:41,960
+train a model and then supply
+the model and, and and charge it
+
+207
+00:12:41,960 --> 00:12:46,560
+at a certain rate.
+And we have seen some early
+
+208
+00:12:46,560 --> 00:12:49,280
+signs of this happening.
+You know, there's a start up
+
+209
+00:12:49,280 --> 00:12:51,960
+luminary cloud.
+Some people know that I spoke to
+
+210
+00:12:52,120 --> 00:12:56,320
+to Juan Alonso, the founder, and
+they recently released a sort of
+
+211
+00:12:56,320 --> 00:13:00,000
+foundational model for Rd. cars
+where they'd, you know, run a
+
+212
+00:13:00,000 --> 00:13:03,480
+whole bunch of simulations
+themselves in collaboration with
+
+213
+00:13:03,480 --> 00:13:08,080
+an end with an end customer of
+theirs and and then released
+
+214
+00:13:08,080 --> 00:13:12,360
+that and pre trained the model.
+Now that it's probably too early
+
+215
+00:13:12,360 --> 00:13:15,160
+to see, you know, how ultimately
+successful that that that will
+
+216
+00:13:15,160 --> 00:13:19,200
+be, But it's it's they've sort
+of fired the starting gun, so to
+
+217
+00:13:19,200 --> 00:13:23,320
+speak, on an actual company
+releasing a sort of pre trained
+
+218
+00:13:23,320 --> 00:13:25,120
+model.
+And I think it's really
+
+219
+00:13:25,120 --> 00:13:29,400
+interesting to observe how
+useful that is because on one
+
+220
+00:13:29,400 --> 00:13:33,040
+side, it removes a massive
+barrier for a company to to
+
+221
+00:13:33,040 --> 00:13:36,240
+collect all the day, to find all
+the day to have the expertise to
+
+222
+00:13:36,240 --> 00:13:39,040
+use an AI tool.
+It's much easier just to do
+
+223
+00:13:39,080 --> 00:13:43,080
+inference on a pre trade model.
+So I think that's the first
+
+224
+00:13:43,080 --> 00:13:47,480
+thing I predict that we're going
+to see many more of those come
+
+225
+00:13:47,480 --> 00:13:50,480
+out.
+Many more companies will will,
+
+226
+00:13:50,480 --> 00:13:55,280
+will do that both I think from a
+start up and a nice fee space.
+
+227
+00:13:57,600 --> 00:14:03,040
+But how, how much data can a
+company generate and how can
+
+228
+00:14:03,040 --> 00:14:05,920
+they incentivize it?
+Well, one interesting thing,
+
+229
+00:14:06,440 --> 00:14:10,320
+when I spoke with Priff, who's
+the CTO of ANSYS, he said in one
+
+230
+00:14:10,320 --> 00:14:13,920
+of the talks that I gave that,
+you know, maybe the ISV needs to
+
+231
+00:14:13,920 --> 00:14:17,240
+incentivize people to allow the
+ISV to have the data.
+
+232
+00:14:18,080 --> 00:14:20,560
+So I think that's a really
+interesting proposition that,
+
+233
+00:14:20,840 --> 00:14:24,320
+you know, what if you would take
+a box that was to say, well, you
+
+234
+00:14:24,320 --> 00:14:27,640
+know, as you run your CFD
+simulation, I give permission
+
+235
+00:14:28,400 --> 00:14:32,880
+for the ISV to use that data and
+perhaps in return they get, you
+
+236
+00:14:32,880 --> 00:14:34,800
+know, some commercial incentive
+to do it.
+
+237
+00:14:36,160 --> 00:14:38,040
+And I think that's a really
+interesting proposition.
+
+238
+00:14:38,040 --> 00:14:41,200
+And I'm, I'm, I'm keen to see if
+some of the Isvs go down that
+
+239
+00:14:41,200 --> 00:14:45,640
+route.
+And this actually links why I've
+
+240
+00:14:45,640 --> 00:14:50,680
+often spoken about the cloud
+being an important Ave. and the
+
+241
+00:14:50,680 --> 00:14:54,720
+cloud being an important Ave.
+links to this because of the SAS
+
+242
+00:14:54,760 --> 00:14:59,400
+bit.
+If you give somebody a on Prem
+
+243
+00:14:59,400 --> 00:15:04,120
+binary, even if they tick some
+box to say we're happy for you
+
+244
+00:15:04,120 --> 00:15:07,880
+to look at our data, what's the
+mechanism to share that file?
+
+245
+00:15:08,000 --> 00:15:10,480
+Well, it's pretty difficult
+because it's running on their
+
+246
+00:15:10,480 --> 00:15:12,280
+local network.
+How are they going to, you know,
+
+247
+00:15:12,280 --> 00:15:15,480
+send that over to you?
+It's not practical where with a
+
+248
+00:15:15,480 --> 00:15:19,960
+SAS solution, it's much easier
+because it's by definition
+
+249
+00:15:19,960 --> 00:15:21,480
+running in, let's say someone's
+cloud.
+
+250
+00:15:22,160 --> 00:15:25,280
+And so if you say I want to
+share some of my data with them,
+
+251
+00:15:25,600 --> 00:15:27,240
+it's actually much easier to do
+it.
+
+252
+00:15:27,560 --> 00:15:30,920
+So I predict that part of the
+motivation and I think we'll see
+
+253
+00:15:30,920 --> 00:15:34,680
+an acceleration of the
+sassification is to make this
+
+254
+00:15:34,680 --> 00:15:39,120
+sort of AI and data collection
+easier both.
+
+255
+00:15:39,120 --> 00:15:42,280
+If you're an existing AI start
+up, you know, you could say,
+
+256
+00:15:42,280 --> 00:15:46,800
+hey, use my AI tool and I'll
+give you a discount if you share
+
+257
+00:15:46,800 --> 00:15:50,000
+your training data with me and
+over time will collect more
+
+258
+00:15:50,000 --> 00:15:54,720
+data.
+And also it links into one of
+
+259
+00:15:54,720 --> 00:15:59,920
+the things I've said repeatedly
+on this podcast about fast CFD
+
+260
+00:15:59,920 --> 00:16:03,400
+solvers or CAE solvers.
+Because now one of the big
+
+261
+00:16:03,400 --> 00:16:08,240
+things is if you've got to
+generate 5000 CFD cases, if your
+
+262
+00:16:08,240 --> 00:16:12,520
+CFD solver is twice as fast as
+another CFD solver, that's a big
+
+263
+00:16:12,520 --> 00:16:15,680
+amount of money to save.
+Or for the same budget, you
+
+264
+00:16:15,680 --> 00:16:20,760
+could run twice as many cases.
+So if we assume that people to
+
+265
+00:16:20,760 --> 00:16:24,160
+build these foundational models
+will have to run hundreds of
+
+266
+00:16:24,160 --> 00:16:29,160
+thousands of cases, then
+actually there will be a huge
+
+267
+00:16:29,160 --> 00:16:33,240
+focus on on enabling the code to
+be as efficient as possible.
+
+268
+00:16:35,040 --> 00:16:37,240
+Now, one of the other things
+that I haven't brought up, but I
+
+269
+00:16:37,240 --> 00:16:41,920
+think is another interesting one
+is everything I've spoken about
+
+270
+00:16:41,920 --> 00:16:46,040
+now assumes that the CFD code is
+independent from the AI code.
+
+271
+00:16:46,640 --> 00:16:49,200
+But as anybody knows anything
+about, for example, in situ
+
+272
+00:16:49,200 --> 00:16:52,720
+visualisation, we'll know that
+there's a strong move now
+
+273
+00:16:52,800 --> 00:16:56,040
+towards this idea of doing it,
+you know, online rather than
+
+274
+00:16:56,040 --> 00:16:59,040
+saving everything to disk and
+then doing the visualisation.
+
+275
+00:16:59,040 --> 00:17:00,480
+Can you do it whilst it's
+running?
+
+276
+00:17:01,280 --> 00:17:04,400
+And this is obviously something
+that's not just me, you know,
+
+277
+00:17:04,400 --> 00:17:07,280
+saying this for the first time,
+it's known that I think there'll
+
+278
+00:17:07,280 --> 00:17:10,319
+be a big increase in the Ori is
+certainly in the academic world
+
+279
+00:17:10,760 --> 00:17:14,800
+of trying to build your CFD code
+in the same framework as your AI
+
+280
+00:17:14,800 --> 00:17:16,480
+code.
+Some groups are doing this in
+
+281
+00:17:16,480 --> 00:17:18,560
+Pytorch, you know, how do I
+write a code in there?
+
+282
+00:17:19,160 --> 00:17:21,599
+Or they're using some sort of
+Python code that you can
+
+283
+00:17:21,599 --> 00:17:24,079
+automatically, you know,
+differentiate and move between
+
+284
+00:17:25,200 --> 00:17:27,560
+to pass gradients along and to
+the neural networks.
+
+285
+00:17:27,839 --> 00:17:31,880
+But I predict this will be a
+will be important because if you
+
+286
+00:17:31,920 --> 00:17:35,880
+are trying to build some pre
+trained model, some sort of
+
+287
+00:17:35,880 --> 00:17:39,720
+foundational model, you don't
+really want to be doing your CFD
+
+288
+00:17:39,720 --> 00:17:41,760
+independently to your AI
+training.
+
+289
+00:17:41,760 --> 00:17:45,480
+You want them to be tightly
+coupled and potentially adding
+
+290
+00:17:45,480 --> 00:17:50,640
+more points as you need them and
+not having to be, you know,
+
+291
+00:17:50,640 --> 00:17:54,000
+bound by IO issues, having to
+keep the data.
+
+292
+00:17:54,520 --> 00:17:57,720
+Which is particularly true if
+you have the dream, and I think
+
+293
+00:17:57,720 --> 00:18:01,120
+this is a much longer term dream
+of being able to do
+
+294
+00:18:01,120 --> 00:18:04,960
+instantaneous.
+So time dependent, most training
+
+295
+00:18:04,960 --> 00:18:08,080
+now is done on time average
+solutions, even if it's a time
+
+296
+00:18:08,080 --> 00:18:11,240
+accurate simulation, because
+just the amount of data, I mean
+
+297
+00:18:11,240 --> 00:18:14,760
+having created with colleagues,
+you know the driver ML data set,
+
+298
+00:18:15,360 --> 00:18:20,040
+it's already 30 terabytes with
+one time step essentially as in
+
+299
+00:18:20,040 --> 00:18:22,760
+the time averaging, if you were
+going to try and do it for all
+
+300
+00:18:22,760 --> 00:18:27,600
+of them, 200,000 iterations,
+well, you can do the maths, it's
+
+301
+00:18:27,600 --> 00:18:32,040
+unbelievably large.
+But if at every time we were
+
+302
+00:18:32,040 --> 00:18:36,160
+running those simulations, we
+were passing that data to a
+
+303
+00:18:36,160 --> 00:18:40,400
+model to train, then the cost we
+we don't need to save the time
+
+304
+00:18:40,400 --> 00:18:42,440
+steps out.
+We're just passing it in memory.
+
+305
+00:18:42,680 --> 00:18:44,720
+So we actually could have done
+it because we were running the
+
+306
+00:18:44,720 --> 00:18:47,080
+simulations time after time
+dependent anyway.
+
+307
+00:18:47,560 --> 00:18:53,040
+So I think this is where there's
+a lot of interest in these.
+
+308
+00:18:53,080 --> 00:18:56,240
+I feel this is where new
+technologies are converging with
+
+309
+00:18:56,480 --> 00:18:59,520
+AI as the sort of motivating
+factor.
+
+310
+00:19:00,360 --> 00:19:03,400
+So foundational models.
+I, I really would encourage any
+
+311
+00:19:03,400 --> 00:19:06,720
+academic who's listening to
+this, I think this is the topic
+
+312
+00:19:06,840 --> 00:19:11,840
+to propose as a, you know, a big
+university project or European
+
+313
+00:19:11,840 --> 00:19:15,480
+project or government project
+or, you know, anything that is
+
+314
+00:19:15,480 --> 00:19:18,640
+big.
+Because if this could be made
+
+315
+00:19:19,040 --> 00:19:21,880
+and there's so many debates on
+should be open source, should be
+
+316
+00:19:21,880 --> 00:19:25,880
+closed source.
+It could transform the way that
+
+317
+00:19:25,880 --> 00:19:29,720
+we are doing CFD today.
+If it is possible, it would
+
+318
+00:19:29,720 --> 00:19:32,600
+change the commercial landscape,
+it would change the technical
+
+319
+00:19:32,600 --> 00:19:35,400
+landscape.
+And if you imagine that it's
+
+320
+00:19:35,400 --> 00:19:39,480
+possible for a certain class of
+applications, you've got to
+
+321
+00:19:39,480 --> 00:19:41,640
+imagine the transfer learning,
+the fine tuning.
+
+322
+00:19:41,760 --> 00:19:46,240
+You know, at some point how
+different is a car than a plane
+
+323
+00:19:46,280 --> 00:19:50,240
+or a city if you are starting
+with, if the model is able to
+
+324
+00:19:50,240 --> 00:19:51,720
+learn some of these
+interactions.
+
+325
+00:19:52,240 --> 00:19:54,720
+I haven't really spoken about
+the idea of including physics
+
+326
+00:19:54,720 --> 00:20:01,200
+into it, but I I really do feel
+that just as five years ago AI
+
+327
+00:20:01,200 --> 00:20:04,120
+was an interesting thing for
+people to look at, I think the
+
+328
+00:20:04,120 --> 00:20:08,280
+whole concept of foundational
+models is becoming interesting.
+
+329
+00:20:08,320 --> 00:20:11,600
+I believe at the beginning it
+will be for Pacific use cases as
+
+330
+00:20:11,600 --> 00:20:18,600
+the audience voted, but I
+perceive that there will be a
+
+331
+00:20:18,600 --> 00:20:22,320
+bit of an arms race between the
+highest fees and startups to
+
+332
+00:20:22,320 --> 00:20:25,200
+build this, and it'll be
+interesting to see whether
+
+333
+00:20:25,200 --> 00:20:27,760
+companies see this as their
+secret sauce.
+
+334
+00:20:28,240 --> 00:20:31,160
+Whether you know, an aerospace
+manufacturer or an automotive
+
+335
+00:20:31,160 --> 00:20:34,760
+manufacturer says, well, I don't
+need the ISV, I'm going to do it
+
+336
+00:20:34,760 --> 00:20:37,520
+myself.
+And this will be an interesting
+
+337
+00:20:37,520 --> 00:20:41,080
+balance between the software
+suppliers, the companies,
+
+338
+00:20:41,200 --> 00:20:43,280
+because on the other hand, the
+automotive company can say,
+
+339
+00:20:43,280 --> 00:20:45,760
+well, we're not a software,
+we're a car designer.
+
+340
+00:20:45,760 --> 00:20:47,280
+Why are we going to write our
+own codes?
+
+341
+00:20:47,840 --> 00:20:50,560
+And that's certainly been the
+case even in the aerospace.
+
+342
+00:20:50,560 --> 00:20:52,440
+There's a move towards
+commercial codes.
+
+343
+00:20:52,920 --> 00:20:55,040
+Well, you know, it used to be
+the case, everybody would write
+
+344
+00:20:55,040 --> 00:20:56,960
+their own codes and that was
+their IP.
+
+345
+00:20:57,240 --> 00:21:00,360
+And then they realised their IP
+is making cars or planes, not
+
+346
+00:21:00,360 --> 00:21:04,440
+writing software.
+So it, I still suspect that most
+
+347
+00:21:04,440 --> 00:21:08,640
+of this work, these foundations
+will still make their way into
+
+348
+00:21:08,640 --> 00:21:13,000
+commercial sort of big software
+companies IS VS.
+
+349
+00:21:13,840 --> 00:21:18,720
+But given that they don't have
+the data, it's the sort of
+
+350
+00:21:19,040 --> 00:21:21,600
+engineering companies who have
+the data and they need to
+
+351
+00:21:21,600 --> 00:21:23,840
+somehow get that data or produce
+that data.
+
+352
+00:21:23,840 --> 00:21:25,600
+There'll be an interesting
+dynamic, I think in
+
+353
+00:21:25,600 --> 00:21:28,680
+collaboration.
+So these are just my personal
+
+354
+00:21:28,680 --> 00:21:30,520
+thoughts.
+I could be completely wrong, but
+
+355
+00:21:30,520 --> 00:21:34,320
+I am quite bullish on the idea
+of some of these foundational
+
+356
+00:21:34,320 --> 00:21:37,120
+models.
+And, and certainly, you know, in
+
+357
+00:21:37,120 --> 00:21:40,400
+my day job, this is something
+I'm actively pursuing.
+
+358
+00:21:40,680 --> 00:21:44,760
+I'm I'm academically interested.
+I'm interested in, you know,
+
+359
+00:21:44,760 --> 00:21:47,120
+NVIDIA doing its bit to help
+things along the way.
+
+360
+00:21:48,320 --> 00:21:51,760
+And yeah, I'll be really
+interested to see what happens
+
+361
+00:21:51,920 --> 00:21:54,240
+in a few years time.
+So maybe I I'll try and set a
+
+362
+00:21:54,240 --> 00:21:57,360
+reminder in two years to record
+another one and see how much of
+
+363
+00:21:57,360 --> 00:22:00,640
+this.
+I was right on and maybe it was
+
+364
+00:22:00,760 --> 00:22:03,080
+it'll all not happen and I was
+completely wrong.
+
+365
+00:22:03,080 --> 00:22:06,280
+But I'm, I'm going to make a bet
+that in a couple of years we
+
+366
+00:22:06,280 --> 00:22:11,240
+will have progressed quite a bit
+further than than than we have
+
+367
+00:22:11,480 --> 00:22:15,160
+done to date.
+So with that, thanks for thanks
+
+368
+00:22:15,160 --> 00:22:16,760
+for listening.
+I would really enjoy your
+
+369
+00:22:16,760 --> 00:22:18,000
+comments.
+Let me know what you think if
+
+370
+00:22:18,000 --> 00:22:20,160
+I'm completely wrong, if you
+have a different viewpoint on
+
+371
+00:22:20,160 --> 00:22:23,200
+it, please put your comments in
+the YouTube or, or send me a
+
+372
+00:22:23,200 --> 00:22:25,400
+message.
+And yeah, thanks for listening
+
+373
+00:22:25,400 --> 00:22:27,480
+and hope you enjoyed it.

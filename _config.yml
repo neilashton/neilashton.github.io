@@ -1,6 +1,6 @@
 # Site identity
 title: Neil Ashton
-homepage_meta_title: Neil Ashton | Computational Engineering
+homepage_meta_title: Neil Ashton | NVIDIA Distinguished Engineer in AI & CAE/EDA
 first_name: Neil
 last_name: Ashton
 email: contact@neilashton.co.uk
@@ -59,6 +59,9 @@ enable_google_analytics: false
 collections:
   news:
     output: false
+  podcast_episodes:
+    output: true
+    permalink: /podcasts/:name/
 
 announcements:
   enabled: true
@@ -160,6 +163,11 @@ defaults:
       path: assets
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: podcast_episodes
+    values:
+      layout: podcast_episode
 
 sass:
   style: compressed

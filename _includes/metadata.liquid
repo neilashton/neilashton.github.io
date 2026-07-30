@@ -3,10 +3,14 @@
 {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
 {% assign social_image = page.og_image | default: site.og_image | absolute_url %}
 {% assign social_image_alt = page.og_image_alt | default: site.og_image_alt | default: 'Neil Ashton — Computational Engineering' %}
+{% assign social_image_width = page.og_image_width | default: 1200 %}
+{% assign social_image_height = page.og_image_height | default: 630 %}
 {% assign current_role = site.current_position.role %}
 {% assign current_organisation = site.current_position.organisation %}
 {% assign current_organisation_url = site.current_position.organisation_url %}
-{% if page.permalink == '/' %}
+{% if page.meta_title %}
+  {% assign meta_title = page.meta_title %}
+{% elsif page.permalink == '/' %}
   {% assign meta_title = site.homepage_meta_title | default: site.title %}
 {% else %}
   {% assign meta_title = page.title | append: ' | ' | append: site.title %}
@@ -31,8 +35,8 @@
   <meta property="og:url" content="{{ canonical_url }}">
   <meta property="og:description" content="{{ meta_description | escape }}">
   <meta property="og:image" content="{{ social_image }}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="{{ social_image_width }}">
+  <meta property="og:image:height" content="{{ social_image_height }}">
   <meta property="og:image:alt" content="{{ social_image_alt | escape }}">
   <meta property="og:locale" content="en_GB">
 
@@ -82,6 +86,46 @@
           "url": {{ site.url | jsonify }}
         },
         "sameAs": {{ page.podcast_same_as | jsonify }}
+      }
+    </script>
+  {% elsif page.schema_type == 'PodcastEpisode' %}
+    {% assign publication_date = page.date | date_to_xmlschema %}
+    {% assign episode_image = page.episode_image | absolute_url %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PodcastEpisode",
+        "name": {{ page.title | jsonify }},
+        "url": {{ canonical_url | jsonify }},
+        "description": {{ meta_description | jsonify }},
+        "datePublished": {{ publication_date | jsonify }},
+        "duration": {{ page.duration_iso | jsonify }},
+        "episodeNumber": {{ page.episode | jsonify }},
+        "image": {{ episode_image | jsonify }},
+        "author": {
+          "@type": "Person",
+          "name": {{ author_name | jsonify }},
+          "url": {{ site.url | jsonify }}
+        },
+        "partOfSeason": {
+          "@type": "PodcastSeason",
+          "seasonNumber": {{ page.season | jsonify }},
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "The Neil Ashton Podcast",
+            "url": {{ '/podcasts/' | absolute_url | jsonify }},
+            "webFeed": {{ site.podcast_rss_url | jsonify }}
+          }
+        },
+        "associatedMedia": {
+          "@type": "MediaObject",
+          "contentUrl": {{ page.audio_url | jsonify }},
+          "encodingFormat": "audio/mpeg"
+        },
+        "sameAs": [
+          {{ page.spotify_url | jsonify }},
+          {{ page.creator_url | jsonify }}
+        ]
       }
     </script>
   {% else %}

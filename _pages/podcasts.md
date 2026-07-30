@@ -79,6 +79,7 @@ podcast_same_as:
 
   <div class="season-grid">
     {% for season in site.data.podcast_seasons %}
+      {% assign season_episode_pages = site.podcast_episodes | where: "season", season.number %}
       <details class="season-card">
         <summary>
           <span class="season-card-topline">
@@ -96,6 +97,7 @@ podcast_same_as:
 
         <ol class="season-episode-list" aria-label="Season {{ season.number }} episodes">
           {% for episode in season.episodes %}
+            {% assign episode_page = season_episode_pages | where: "episode", episode.number | first %}
             <li>
               {% capture episode_thumbnail_path %}/assets/img/podcast/episodes/s{{ season.number }}-e{{ episode.number }}.webp{% endcapture %}
               <img
@@ -112,9 +114,9 @@ podcast_same_as:
                   S{{ season.number }} · E{{ episode.number }} ·
                   <time datetime="{{ episode.date }}">{{ episode.date | date: "%d %b %Y" }}</time>
                 </span>
-                <a href="{{ episode.url }}">
+                <a href="{% if episode_page %}{{ episode_page.url | relative_url }}{% else %}{{ episode.url }}{% endif %}">
                   {{ episode.title | escape }}
-                  <span aria-hidden="true">↗</span>
+                  <span aria-hidden="true">→</span>
                 </a>
               </div>
             </li>
@@ -131,27 +133,30 @@ podcast_same_as:
   <div class="card-grid conversation-grid">
     <article class="conversation-card">
       <p class="card-kicker">AI &amp; engineering</p>
-      <h3>Professor Karthik Duraisamy</h3>
+      <h3><a href="{{ '/podcasts/s1-e12-prof-karthik-duraisamy-scientific-foundation-models/' | relative_url }}">Professor Karthik Duraisamy</a></h3>
       <p>Data-driven modelling and the future of computational engineering.</p>
       <div class="episode-links">
+        <a href="{{ '/podcasts/s1-e12-prof-karthik-duraisamy-scientific-foundation-models/' | relative_url }}">Episode page <span aria-hidden="true">→</span></a>
         <a href="https://open.spotify.com/episode/0vYtzHv0I2IiIIpMtUSJvn">Spotify <span aria-hidden="true">↗</span></a>
         <a href="https://youtu.be/VnISBGD6T14">YouTube <span aria-hidden="true">↗</span></a>
       </div>
     </article>
     <article class="conversation-card">
       <p class="card-kicker">Scientific computing</p>
-      <h3>Professor Jack Dongarra</h3>
+      <h3><a href="{{ '/podcasts/s1-e8-prof-jack-dongarra-high-performance-computing-pioneer/' | relative_url }}">Professor Jack Dongarra</a></h3>
       <p>High-performance computing and the evolution of computational science.</p>
       <div class="episode-links">
+        <a href="{{ '/podcasts/s1-e8-prof-jack-dongarra-high-performance-computing-pioneer/' | relative_url }}">Episode page <span aria-hidden="true">→</span></a>
         <a href="https://open.spotify.com/episode/6VsXMMAVf3iaCHkOPdY4uG">Spotify <span aria-hidden="true">↗</span></a>
         <a href="https://youtu.be/DgQt6rktdzw">YouTube <span aria-hidden="true">↗</span></a>
       </div>
     </article>
     <article class="conversation-card">
       <p class="card-kicker">Formula 1</p>
-      <h3>Pat Symonds</h3>
+      <h3><a href="{{ '/podcasts/s1-e7-pat-symonds-formula-1/' | relative_url }}">Pat Symonds</a></h3>
       <p>Engineering judgement, aerodynamics, and a career at the leading edge of motorsport.</p>
       <div class="episode-links">
+        <a href="{{ '/podcasts/s1-e7-pat-symonds-formula-1/' | relative_url }}">Episode page <span aria-hidden="true">→</span></a>
         <a href="https://open.spotify.com/episode/3USHfCZZAuAV3YvokYWVvg">Spotify <span aria-hidden="true">↗</span></a>
         <a href="https://youtu.be/vMoIgfHtJHc">YouTube <span aria-hidden="true">↗</span></a>
       </div>
