@@ -1,0 +1,9974 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:40,680
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:40,680 --> 00:00:43,960
+Ashton Podcast.
+So today's guest is Yoris Port,
+
+13
+00:00:43,960 --> 00:00:47,080
+who is the CEO and founder of
+Rescale.
+
+14
+00:00:47,320 --> 00:00:51,000
+He's somebody who I wanted to
+talk to for a while as part of
+
+15
+00:00:51,160 --> 00:00:54,280
+the opportunity to speak to
+people who have had that bold
+
+16
+00:00:54,280 --> 00:00:57,160
+vision to, to create a start up,
+to create a new company.
+
+17
+00:00:57,240 --> 00:00:59,920
+And I thought it was really
+interesting to try and learn
+
+18
+00:00:59,920 --> 00:01:03,000
+from these people, you know,
+what motivated them to do in the
+
+19
+00:01:03,000 --> 00:01:06,120
+1st place, what some of the
+lessons they've learnt in doing
+
+20
+00:01:06,120 --> 00:01:08,160
+that.
+And it's particularly relevant,
+
+21
+00:01:08,480 --> 00:01:10,840
+I guess, for the themes of of
+this podcast.
+
+22
+00:01:11,560 --> 00:01:15,920
+Rescale is, is used by actually
+a lot of companies these days,
+
+23
+00:01:15,920 --> 00:01:17,760
+you know, if they want to
+integrate more like high
+
+24
+00:01:17,760 --> 00:01:21,280
+performance computing and and
+more recently more applied AI,
+
+25
+00:01:21,280 --> 00:01:24,360
+you know, they've got hundreds
+of customers in this space,
+
+26
+00:01:24,360 --> 00:01:26,480
+enterprise customers.
+So it's kind of interesting to
+
+27
+00:01:26,480 --> 00:01:30,240
+speak to somebody who looks
+after that company and they have
+
+28
+00:01:30,240 --> 00:01:32,000
+a good sense of what's coming
+next.
+
+29
+00:01:32,120 --> 00:01:34,600
+It's been a topic also this
+podcast is looking at, you know,
+
+30
+00:01:34,600 --> 00:01:38,240
+what's the future of AI and we
+we ended up talking for quite
+
+31
+00:01:38,240 --> 00:01:42,240
+some time about the potential of
+agentic AI.
+
+32
+00:01:42,240 --> 00:01:45,680
+This is something that, you
+know, myself and yours turns out
+
+33
+00:01:45,680 --> 00:01:48,600
+are quite aligned on in this
+could be quite transformative.
+
+34
+00:01:48,600 --> 00:01:51,360
+You know, we previously mainly
+spoken about AI surrogates and
+
+35
+00:01:51,360 --> 00:01:54,640
+we we also do talk about that.
+But I think the yeah, the the
+
+36
+00:01:54,640 --> 00:01:57,640
+agentic AI and the potential
+this has for engineering was a
+
+37
+00:01:57,640 --> 00:01:59,840
+really interesting discussion
+that comes probably in the
+
+38
+00:01:59,880 --> 00:02:03,520
+second-half of of the chat.
+So it definitely TuneIn if you
+
+39
+00:02:03,520 --> 00:02:06,720
+want to hear some interesting
+thoughts on that, given my
+
+40
+00:02:06,720 --> 00:02:09,440
+background, having worked Adbs
+before and therefore being
+
+41
+00:02:09,440 --> 00:02:12,840
+immersed in the cloud computing
+space, I always find that
+
+42
+00:02:12,840 --> 00:02:16,000
+interesting as well.
+And how that has evolved.
+
+43
+00:02:16,080 --> 00:02:21,200
+You know, Rescale was created
+like 2011, Oh, quite a long time
+
+44
+00:02:21,360 --> 00:02:25,320
+before, I guess ways today where
+cloud is more mainstream and and
+
+45
+00:02:25,320 --> 00:02:27,200
+accepted, you know, and
+Rescale's had some pretty
+
+46
+00:02:27,200 --> 00:02:31,960
+impressive founders, sorry, fund
+funding from companies like
+
+47
+00:02:32,120 --> 00:02:35,440
+people like Salt and Jeff Bezos,
+Paul Graham.
+
+48
+00:02:35,440 --> 00:02:38,280
+So talk a bit about that with
+the, you know, Y Combinator,
+
+49
+00:02:38,280 --> 00:02:41,320
+NVIDIA, Microsoft.
+So, you know, it's, it's
+
+50
+00:02:41,360 --> 00:02:44,120
+impressive defeat for someone to
+create a company that's had
+
+51
+00:02:44,120 --> 00:02:45,840
+hundreds of millions of dollars
+in funding.
+
+52
+00:02:46,280 --> 00:02:50,280
+And so I hope that you learn a
+lot from some of his advice for
+
+53
+00:02:50,280 --> 00:02:52,600
+for maybe one of you who is
+thinking about creating a, a
+
+54
+00:02:53,200 --> 00:02:56,240
+start up yourself.
+I always talk about doing this
+
+55
+00:02:56,240 --> 00:02:58,600
+and I'm probably just too risk
+adverse to do it.
+
+56
+00:02:58,600 --> 00:03:01,280
+So, but don't listen to me,
+listen to yours and hopefully
+
+57
+00:03:01,280 --> 00:03:03,880
+you get some, some, some in.
+So this was a wide-ranging
+
+58
+00:03:03,880 --> 00:03:05,760
+discussion.
+You know, we probably could have
+
+59
+00:03:05,760 --> 00:03:09,600
+taken it even deeper or in other
+areas, but at an hour and a
+
+60
+00:03:09,600 --> 00:03:12,160
+half, I thought he was already
+taking a lot of his time.
+
+61
+00:03:12,200 --> 00:03:15,000
+But yeah, I certainly learnt a
+lot from this discussion and
+
+62
+00:03:15,040 --> 00:03:18,280
+have a renewed and even more
+sense of, you know, appreciation
+
+63
+00:03:18,280 --> 00:03:21,280
+for what people like him do and
+push the boundaries and try and
+
+64
+00:03:21,280 --> 00:03:24,240
+create new companies and ideas.
+So hopefully it's an inspiration
+
+65
+00:03:24,240 --> 00:03:27,680
+for you listening as well.
+So sit back and enjoy this
+
+66
+00:03:27,680 --> 00:03:30,840
+episode with your support.
+Thank you for for coming and
+
+67
+00:03:30,840 --> 00:03:33,800
+doing this.
+You're actually on the quite
+
+68
+00:03:33,800 --> 00:03:37,560
+high up the list of people I
+wanted to speak coming I guess
+
+69
+00:03:37,560 --> 00:03:41,520
+from a cloud provider background
+before sort of seeing cloud.
+
+70
+00:03:41,800 --> 00:03:45,920
+I think I joined 80 Business in
+2020 and thinking, oh, this is
+
+71
+00:03:45,920 --> 00:03:49,120
+quite novel, this is quite new.
+And then looking back and
+
+72
+00:03:49,120 --> 00:03:53,520
+realized that Rescale was part
+of the Y Combinator in 2011.
+
+73
+00:03:54,640 --> 00:03:58,080
+So back then, HPC in the cloud
+must have been even more
+
+74
+00:03:58,080 --> 00:04:00,480
+radical, even more sort of crazy
+ideas.
+
+75
+00:04:00,480 --> 00:04:04,320
+So maybe it's a starting point.
+I'd be interested to know like
+
+76
+00:04:04,320 --> 00:04:08,440
+what was your pitch for that
+start up for for risk?
+
+77
+00:04:09,840 --> 00:04:11,560
+Yeah, absolutely.
+So first of all, thanks for
+
+78
+00:04:11,880 --> 00:04:15,000
+thanks for having me on.
+I think this is, you know a nice
+
+79
+00:04:15,000 --> 00:04:18,880
+opportunity to to take some time
+and chat about the background.
+
+80
+00:04:18,880 --> 00:04:23,600
+I think for HPC in the cloud,
+certainly when we started in
+
+81
+00:04:23,600 --> 00:04:29,400
+2011, it was a very new concept.
+I will be honest, when we
+
+82
+00:04:29,400 --> 00:04:32,920
+founded the company, we thought
+we were late to market because
+
+83
+00:04:33,680 --> 00:04:35,160
+cloud computing had already
+started.
+
+84
+00:04:35,400 --> 00:04:39,360
+You had big data.
+And it seemed pretty obvious to
+
+85
+00:04:39,360 --> 00:04:42,120
+me that there would be like a
+sort of a big compute company.
+
+86
+00:04:42,360 --> 00:04:46,920
+And I actually looked for a
+company to join myself to say,
+
+87
+00:04:46,920 --> 00:04:51,000
+hey, who who's doing this,
+solving this problem, right?
+
+88
+00:04:51,480 --> 00:04:53,880
+And I had personally sort of
+experienced this problem before.
+
+89
+00:04:53,880 --> 00:04:57,600
+So it seemed like we were late
+to market.
+
+90
+00:04:58,000 --> 00:05:00,200
+Looking back now, we're quite
+early to market, right?
+
+91
+00:05:00,720 --> 00:05:03,560
+So at that time there was
+definitely 0% HPC happening in
+
+92
+00:05:03,560 --> 00:05:05,480
+cloud.
+But it's, you know, it's been a
+
+93
+00:05:05,480 --> 00:05:07,880
+fun journey and things have, you
+know, changed over time.
+
+94
+00:05:08,640 --> 00:05:13,720
+It was a tough process to get
+people excited about actually,
+
+95
+00:05:13,920 --> 00:05:16,600
+you know, investing in this and,
+and sort of joining the team to
+
+96
+00:05:16,600 --> 00:05:19,960
+pursue this.
+But you know, like most good
+
+97
+00:05:19,960 --> 00:05:24,120
+start-ups, you can start with a
+a great idea and and and lots of
+
+98
+00:05:24,120 --> 00:05:27,280
+effort and eventually you know
+you can make it.
+
+99
+00:05:28,000 --> 00:05:31,720
+Yeah.
+So maybe taking a step before
+
+100
+00:05:31,720 --> 00:05:35,840
+that, where had you been before?
+What gave you that original
+
+101
+00:05:35,920 --> 00:05:40,320
+motivational idea even to
+overcome these problems and and
+
+102
+00:05:40,320 --> 00:05:42,720
+create a start up, right.
+That's still a a leap of faith
+
+103
+00:05:43,120 --> 00:05:44,400
+to leave a company to a start
+up.
+
+104
+00:05:44,680 --> 00:05:47,200
+Yeah, absolutely.
+I think for for me, my
+
+105
+00:05:47,200 --> 00:05:51,160
+background is quite technical.
+So I'd studied, I grew up doing
+
+106
+00:05:51,160 --> 00:05:53,400
+a lot of computer science.
+I'd studied applied math,
+
+107
+00:05:53,400 --> 00:05:55,840
+mechanical engineering,
+aeronautics, astronautics.
+
+108
+00:05:55,880 --> 00:05:59,440
+I was sort of part of did a lot
+of work in the field of multi
+
+109
+00:05:59,440 --> 00:06:02,920
+display optimization.
+I know you come from a strong
+
+110
+00:06:02,920 --> 00:06:07,520
+CFD background, right.
+So by the professor I studied
+
+111
+00:06:07,520 --> 00:06:12,040
+under actually as a sort of
+elasticity expert who was a
+
+112
+00:06:12,040 --> 00:06:15,240
+disciple of Lucian Schmidt from
+the sort of structure of the
+
+113
+00:06:15,240 --> 00:06:17,560
+first person to kind of do
+structural optimization.
+
+114
+00:06:18,440 --> 00:06:19,640
+So I had sort of a background
+there.
+
+115
+00:06:19,640 --> 00:06:25,320
+And then I, I spent some time
+working at Boeing applying a lot
+
+116
+00:06:25,320 --> 00:06:27,920
+of these different kind of
+tools.
+
+117
+00:06:27,920 --> 00:06:31,480
+So a lot of software, a lot of
+math, a lot of different kind of
+
+118
+00:06:31,480 --> 00:06:35,560
+physics calculations for the 787
+Dreamliner program.
+
+119
+00:06:35,800 --> 00:06:38,520
+And the, the big challenge we
+had there was trying to solve,
+
+120
+00:06:39,360 --> 00:06:42,760
+it's the first kind of fully
+carbon fiber airplane and the
+
+121
+00:06:42,760 --> 00:06:46,360
+wing optimization, wing being
+kind of the most important part
+
+122
+00:06:46,360 --> 00:06:48,240
+of an airplane.
+A lot of big technical
+
+123
+00:06:48,240 --> 00:06:51,080
+challenges are the main
+difference being since it's
+
+124
+00:06:51,080 --> 00:06:52,800
+carbon fiber, many more
+variables.
+
+125
+00:06:52,800 --> 00:06:54,680
+And how do you sort of optimize
+this design?
+
+126
+00:06:55,240 --> 00:06:58,440
+And so I had a background there
+kind of using different
+
+127
+00:06:58,440 --> 00:07:02,040
+techniques in in sort of
+parameters trying to optimize
+
+128
+00:07:02,040 --> 00:07:04,760
+what it would be the lightest
+weight wing design for the best
+
+129
+00:07:04,760 --> 00:07:07,680
+performance.
+Long story short, took us many
+
+130
+00:07:07,680 --> 00:07:10,960
+years, but eventually we got
+there and that's the wing if
+
+131
+00:07:10,960 --> 00:07:13,680
+you've ever flown on 787, that's
+the that's the wing that's on
+
+132
+00:07:13,680 --> 00:07:16,720
+there.
+So it's a very efficient
+
+133
+00:07:16,720 --> 00:07:19,400
+airplane, right.
+But in order to do that and get
+
+134
+00:07:19,400 --> 00:07:22,400
+to that answer, we we really
+have to leverage a lot of
+
+135
+00:07:22,400 --> 00:07:24,040
+different computing
+capabilities.
+
+136
+00:07:24,160 --> 00:07:25,960
+And this was more than 20 years
+ago.
+
+137
+00:07:25,960 --> 00:07:27,440
+So there was no cloud computing
+yet.
+
+138
+00:07:28,160 --> 00:07:31,360
+So it was really much more about
+how do we scale sort of a
+
+139
+00:07:31,360 --> 00:07:35,280
+distributed systems problem from
+a software perspective inside of
+
+140
+00:07:35,640 --> 00:07:37,880
+Boeing with, you know, different
+resources from different
+
+141
+00:07:37,960 --> 00:07:40,560
+business units that we would
+sort of over the weekend be able
+
+142
+00:07:40,560 --> 00:07:43,920
+to kind of gather a bunch of
+compute capacity service
+
+143
+00:07:43,920 --> 00:07:46,680
+together from different teams
+and, and solve some of these
+
+144
+00:07:46,680 --> 00:07:49,640
+larger scale problems.
+And eventually that that really
+
+145
+00:07:49,640 --> 00:07:52,880
+got me into HPC because it was
+like in academia, I actually
+
+146
+00:07:52,880 --> 00:07:55,560
+studied more how do you solve
+these equations more
+
+147
+00:07:55,560 --> 00:07:57,680
+efficiently, right.
+So trying to combine an air
+
+148
+00:07:57,680 --> 00:08:00,960
+elasticity, try to kind of
+combine mechanical engineering
+
+149
+00:08:01,480 --> 00:08:03,920
+physics with, with fluid
+dynamics and, and things like
+
+150
+00:08:03,920 --> 00:08:05,640
+that.
+And with the ultimate goal of
+
+151
+00:08:05,640 --> 00:08:08,560
+just, you know, more efficiently
+calculating all these different
+
+152
+00:08:08,560 --> 00:08:11,760
+complex multi physics responses.
+And at Boeing, we were
+
+153
+00:08:11,760 --> 00:08:14,200
+implementing with this sort of
+multi physics problem, but in a
+
+154
+00:08:14,200 --> 00:08:16,560
+very different way than how
+academics kind of looked at the
+
+155
+00:08:16,560 --> 00:08:18,400
+problem.
+It was much more about the,
+
+156
+00:08:18,880 --> 00:08:21,040
+let's throw some more compute at
+this problem and like where are
+
+157
+00:08:21,040 --> 00:08:23,480
+the real bottlenecks and like
+sort of how do you scale this?
+
+158
+00:08:24,480 --> 00:08:27,320
+And from my own experience, I
+really enjoyed the ability to
+
+159
+00:08:27,320 --> 00:08:31,040
+kind of gather a lot of these
+compute resources and just solve
+
+160
+00:08:31,240 --> 00:08:34,640
+interesting problems faster.
+So that got me into this whole
+
+161
+00:08:34,640 --> 00:08:38,240
+sort of category of HBCI.
+Think one kind of insight as
+
+162
+00:08:38,240 --> 00:08:41,120
+well was like, you know, if you
+look at kind of the people who
+
+163
+00:08:41,120 --> 00:08:45,040
+were the best better name assist
+at Boeing, for example, or the
+
+164
+00:08:45,040 --> 00:08:48,360
+best at some of these like large
+physics computational problems,
+
+165
+00:08:48,920 --> 00:08:52,960
+they became the really good at
+running HPC, right, Basically in
+
+166
+00:08:52,960 --> 00:08:54,800
+practice, right.
+Like these are people at in
+
+167
+00:08:54,800 --> 00:08:56,200
+industry sort of working on
+this.
+
+168
+00:08:56,200 --> 00:08:59,720
+And I, I, I think I sort of had
+a background because of the
+
+169
+00:08:59,720 --> 00:09:02,280
+software and the math to be able
+to solve those kinds of
+
+170
+00:09:02,280 --> 00:09:04,400
+problems.
+But it's a really like a sort of
+
+171
+00:09:04,400 --> 00:09:08,160
+untapped potential to be able to
+kind of unlock, you know, the,
+
+172
+00:09:08,200 --> 00:09:11,200
+the possibility of, of
+leveraging really large scale
+
+173
+00:09:11,200 --> 00:09:13,000
+compute for many different
+problems.
+
+174
+00:09:13,120 --> 00:09:16,520
+And so that sort of.
+Led to hey.
+
+175
+00:09:17,280 --> 00:09:19,840
+This is an area I'm like pretty
+passionate about.
+
+176
+00:09:20,160 --> 00:09:23,080
+I also tried some other things.
+I was a management consultant
+
+177
+00:09:23,080 --> 00:09:26,520
+for some period of time, short
+period of time, yeah.
+
+178
+00:09:26,520 --> 00:09:28,880
+And so like I, I went to
+Business School.
+
+179
+00:09:29,360 --> 00:09:32,400
+So as I looked at it, I saw a
+pretty broad set of different
+
+180
+00:09:33,480 --> 00:09:37,160
+things you could do.
+But the thing that kept pulling
+
+181
+00:09:37,160 --> 00:09:39,680
+me back was I, I did really
+think there was like a really
+
+182
+00:09:39,680 --> 00:09:42,360
+interesting problem and and
+really impactful problem if we
+
+183
+00:09:42,360 --> 00:09:45,920
+could solve this sort of large
+scale physics calculations for
+
+184
+00:09:45,920 --> 00:09:49,320
+like engineers and scientists
+that really push the sort of
+
+185
+00:09:50,240 --> 00:09:53,360
+boundaries forward, not only in
+a place like Boeing, but also in
+
+186
+00:09:53,360 --> 00:09:57,000
+many other industries, right, in
+automotive and in life sciences,
+
+187
+00:09:57,000 --> 00:09:59,240
+semiconductor.
+And so that seemed like a a
+
+188
+00:09:59,920 --> 00:10:01,800
+worthwhile sort of mission to
+pursue.
+
+189
+00:10:03,400 --> 00:10:07,760
+But I'm, I'm kind of intrigued
+the practicals of doing it
+
+190
+00:10:07,760 --> 00:10:10,360
+because I often feel that a lot
+of engineers and maybe it's
+
+191
+00:10:10,360 --> 00:10:13,360
+changed now, haven't got the
+mindset to create a start up
+
+192
+00:10:13,600 --> 00:10:16,920
+that, you know, they, they think
+a little bit more linearly, you
+
+193
+00:10:16,920 --> 00:10:19,080
+know, OK, I'm going to do
+engineering and make something
+
+194
+00:10:19,080 --> 00:10:21,440
+better.
+Was it going to Business School
+
+195
+00:10:21,440 --> 00:10:24,880
+or going to McKinsey that gave
+you a bit more confidential
+
+196
+00:10:24,880 --> 00:10:27,240
+awareness to go and do a start
+up?
+
+197
+00:10:28,840 --> 00:10:31,840
+Yeah, I think, well, there's,
+there's many different things.
+
+198
+00:10:31,880 --> 00:10:35,360
+I I think ultimately for like
+the best founders, they have
+
+199
+00:10:35,360 --> 00:10:40,080
+like a few traits that are
+pretty common that together are
+
+200
+00:10:40,080 --> 00:10:44,040
+very uncommon, right.
+So like it's see if I can sort
+
+201
+00:10:44,040 --> 00:10:46,840
+of recall, I think Marc
+Andreessen sort of shared what
+
+202
+00:10:46,840 --> 00:10:50,240
+his perspective on this is,
+which are like, like, I think a
+
+203
+00:10:50,240 --> 00:10:53,280
+pretty good viewpoint.
+So what is you have to be very
+
+204
+00:10:53,280 --> 00:10:55,480
+open and curious, right?
+So you have to be kind of
+
+205
+00:10:55,480 --> 00:10:56,720
+willing to learn many different
+things.
+
+206
+00:10:56,720 --> 00:10:59,480
+And so that's probably also
+pretty common with like people
+
+207
+00:10:59,480 --> 00:11:02,480
+in academia, things like that.
+You also have to.
+
+208
+00:11:04,400 --> 00:11:07,600
+Be be pretty.
+Willing to stick with something
+
+209
+00:11:07,600 --> 00:11:10,000
+and work through a lot of
+challenges for a long period of
+
+210
+00:11:10,000 --> 00:11:12,760
+time.
+And then there's this element of
+
+211
+00:11:12,760 --> 00:11:15,040
+like he calls it
+disagreeableness, but it's like
+
+212
+00:11:15,040 --> 00:11:18,880
+you sort of have to be sober
+enough, right to be able it's
+
+213
+00:11:18,880 --> 00:11:21,000
+it's you know, starting a
+company is not the most like
+
+214
+00:11:21,000 --> 00:11:23,600
+rational thing to do, right?
+Like no matter kind of which
+
+215
+00:11:23,600 --> 00:11:29,000
+field you're in, it's, it's,
+it's really hard, right?
+
+216
+00:11:29,000 --> 00:11:32,360
+And so it's like people do it
+because they kind of have to,
+
+217
+00:11:32,480 --> 00:11:35,160
+not the people who just do it
+because they want to.
+
+218
+00:11:35,160 --> 00:11:40,520
+It's, it's often for maybe not
+the, the sort of ideal reasons,
+
+219
+00:11:40,520 --> 00:11:42,800
+right?
+But you'd be sure to have these
+
+220
+00:11:42,800 --> 00:11:45,440
+different traits, you need a lot
+of like, I think it's, it's
+
+221
+00:11:45,440 --> 00:11:47,920
+pretty risky.
+And so like, and a lot of
+
+222
+00:11:47,920 --> 00:11:52,080
+people, you know, will tell you
+to do something different or why
+
+223
+00:11:52,080 --> 00:11:54,000
+it's not going to work or why
+everybody's already thought of
+
+224
+00:11:54,000 --> 00:11:55,880
+this idea from the founders.
+I know.
+
+225
+00:11:56,160 --> 00:11:58,360
+I think it's just like, yeah,
+it's, it's a combination of
+
+226
+00:11:58,360 --> 00:11:59,840
+these, all these different
+traits, right?
+
+227
+00:12:00,360 --> 00:12:03,720
+And, and everyone is sort of
+unique, also uniquely flawed,
+
+228
+00:12:03,720 --> 00:12:09,000
+probably in many ways.
+I certainly AM, but but it is
+
+229
+00:12:09,000 --> 00:12:12,560
+hard to find.
+I would say like and out of all
+
+230
+00:12:12,560 --> 00:12:14,680
+these capabilities, you have to
+be really smart of course and
+
+231
+00:12:14,680 --> 00:12:17,640
+things like that.
+But like the probably the one in
+
+232
+00:12:17,640 --> 00:12:19,840
+lease supply is, is I think the
+courage, right?
+
+233
+00:12:19,920 --> 00:12:24,400
+It's like sort of the
+willingness to kind of jump in
+
+234
+00:12:24,400 --> 00:12:26,720
+and do it.
+There are times though, when
+
+235
+00:12:26,720 --> 00:12:29,120
+entrepreneurship is much more
+popular, right?
+
+236
+00:12:29,120 --> 00:12:33,000
+Like so when certain companies
+are taking off and there's a lot
+
+237
+00:12:33,000 --> 00:12:35,640
+of funding and things look a
+little like a little easier, you
+
+238
+00:12:35,640 --> 00:12:37,160
+get a lot of people jumping into
+the game.
+
+239
+00:12:37,600 --> 00:12:40,880
+But most big companies are
+really successful ones are built
+
+240
+00:12:40,880 --> 00:12:42,520
+over a very long period of time,
+right?
+
+241
+00:12:42,520 --> 00:12:43,760
+And there's lots of ups and
+downs.
+
+242
+00:12:44,480 --> 00:12:46,960
+Even if you look at the absolute
+most successful companies, there
+
+243
+00:12:46,960 --> 00:12:53,320
+are really challenging periods.
+And I think I think you have to
+
+244
+00:12:53,320 --> 00:12:56,920
+be willing to enable to kind of
+work through those, those
+
+245
+00:12:56,920 --> 00:12:59,880
+difficult times, right.
+And yeah, it's maybe something
+
+246
+00:12:59,880 --> 00:13:03,800
+from Jensen, I think I shared
+before where it's like, you
+
+247
+00:13:03,800 --> 00:13:06,280
+know, like it, it's really the
+challenges that that form the
+
+248
+00:13:06,280 --> 00:13:10,000
+character that allow you to to
+become like one of these kind of
+
+249
+00:13:10,000 --> 00:13:12,800
+leaders of these companies.
+It's probably not just, yeah,
+
+250
+00:13:12,800 --> 00:13:14,480
+just being smart or something
+like that.
+
+251
+00:13:14,640 --> 00:13:17,320
+Yeah, what, what practically
+though were the steps?
+
+252
+00:13:17,320 --> 00:13:21,160
+I'm always kind of intrigued.
+So the beginning, you have an
+
+253
+00:13:21,160 --> 00:13:23,200
+idea.
+How did that form?
+
+254
+00:13:23,200 --> 00:13:25,400
+Did you have an idea?
+And then you, you know, you go
+
+255
+00:13:25,400 --> 00:13:29,360
+around to the various species to
+get to get funding.
+
+256
+00:13:29,720 --> 00:13:32,080
+You had just a tiny idea.
+And then it evolved like what?
+
+257
+00:13:32,480 --> 00:13:35,880
+How did this thing come to be,
+essentially?
+
+258
+00:13:35,920 --> 00:13:39,240
+Yeah, there's a good book
+written on this from by Peter
+
+259
+00:13:39,240 --> 00:13:41,480
+Thiel 0 to one, right?
+It's like like how do you start
+
+260
+00:13:41,480 --> 00:13:45,520
+something from nothing?
+I think the how how it
+
+261
+00:13:45,520 --> 00:13:48,840
+tactically works, right?
+It's it's for me, it was about
+
+262
+00:13:49,840 --> 00:13:52,280
+sort of came to the conclusion
+you asked about this as well.
+
+263
+00:13:52,280 --> 00:13:53,800
+Like what does Business School
+really teach you?
+
+264
+00:13:53,960 --> 00:13:56,360
+I mean, I think the biggest
+lesson from Business School is
+
+265
+00:13:56,360 --> 00:13:59,960
+maybe, you know, all these, at
+least the one I went to, all
+
+266
+00:13:59,960 --> 00:14:01,880
+these different CE OS come
+through, right?
+
+267
+00:14:01,880 --> 00:14:04,040
+And they give these talks.
+These are all very impressive
+
+268
+00:14:04,040 --> 00:14:07,800
+people.
+But I think the one thing once
+
+269
+00:14:07,800 --> 00:14:10,280
+you've seen enough of them,
+right, you do all these case
+
+270
+00:14:10,280 --> 00:14:11,600
+studies and you learn all these
+things.
+
+271
+00:14:11,600 --> 00:14:16,080
+It does give you the feeling
+that at least for me, you know,
+
+272
+00:14:16,160 --> 00:14:18,760
+sort of you can really do
+anything, right?
+
+273
+00:14:18,800 --> 00:14:20,920
+Like you hear these kind of
+stories, the same thing if you
+
+274
+00:14:20,920 --> 00:14:23,040
+listen to like sort of founder
+stories.
+
+275
+00:14:23,320 --> 00:14:27,160
+And I think you could kind of do
+anything you set your mind to
+
+276
+00:14:27,160 --> 00:14:29,680
+do, right?
+And it's in some ways one of the
+
+277
+00:14:29,680 --> 00:14:32,200
+best insurance policies, right?
+Because like, look, you get this
+
+278
+00:14:32,200 --> 00:14:34,800
+Business School degree, you
+know, you can go get a job
+
+279
+00:14:34,800 --> 00:14:37,480
+somewhere.
+Like I had sort of, you know,
+
+280
+00:14:37,480 --> 00:14:39,480
+done this internship at
+McKenzie.
+
+281
+00:14:39,480 --> 00:14:44,640
+I could go back there, right?
+And that gives you, you know,
+
+282
+00:14:44,640 --> 00:14:47,320
+maybe sort of a floor of like,
+OK, now I can take a lot more
+
+283
+00:14:47,320 --> 00:14:49,920
+risk right now.
+This was a time I had to, I had,
+
+284
+00:14:49,920 --> 00:14:52,760
+I did not have a spouse that
+didn't have kids.
+
+285
+00:14:52,960 --> 00:14:57,240
+I, I was actually at sort of a
+point in time, I think where I
+
+286
+00:14:57,240 --> 00:14:59,000
+was able to take the most risk,
+right?
+
+287
+00:14:59,080 --> 00:15:01,920
+And so I think that's sort of
+sets a good foundation to jump
+
+288
+00:15:01,920 --> 00:15:03,920
+into to do it.
+I would recommend, right?
+
+289
+00:15:03,920 --> 00:15:06,000
+Like you do have to kind of burn
+the boats, right?
+
+290
+00:15:06,000 --> 00:15:08,600
+Like, so you can't be comparing
+yourself to your peers who are
+
+291
+00:15:08,600 --> 00:15:11,240
+going to go work in finance or
+whatever and make a bunch of
+
+292
+00:15:11,240 --> 00:15:14,960
+money or go work in academia and
+publish the most papers and the
+
+293
+00:15:14,960 --> 00:15:16,640
+do most innovative kind of
+thinking.
+
+294
+00:15:16,960 --> 00:15:19,720
+I have a lot of peers like that.
+And I think you have to be kind
+
+295
+00:15:19,720 --> 00:15:23,320
+of get yourself to the point
+where like you, you really do
+
+296
+00:15:23,320 --> 00:15:27,840
+want to start this company kind
+of no matter what, right?
+
+297
+00:15:28,360 --> 00:15:30,800
+And then you kind of have to
+like most founders describe it
+
+298
+00:15:30,800 --> 00:15:32,880
+as like, I would say that you
+kind of have to right, Like you
+
+299
+00:15:32,880 --> 00:15:35,720
+just don't see any other way.
+And that's kind of the how I saw
+
+300
+00:15:35,720 --> 00:15:37,120
+it.
+It was not to just for the
+
+301
+00:15:37,120 --> 00:15:38,640
+purpose of starting company.
+It was like.
+
+302
+00:15:39,440 --> 00:15:42,640
+To make the impact.
+That I thought would be possible
+
+303
+00:15:42,640 --> 00:15:45,720
+like that I could make myself
+right and I saw kind of was
+
+304
+00:15:45,720 --> 00:15:49,080
+possible at Boeing and then it's
+like OK there's many other
+
+305
+00:15:49,080 --> 00:15:51,480
+industries there's many other
+engineers and scientists who are
+
+306
+00:15:51,480 --> 00:15:54,920
+all like bottleneck by compute
+basically right and then there's
+
+307
+00:15:54,920 --> 00:15:56,920
+this thing called cloud
+computing and like everybody's
+
+308
+00:15:56,920 --> 00:16:02,960
+access to these and it seemed
+again I felt I was late right
+
+309
+00:16:02,960 --> 00:16:07,400
+and so it seemed pretty obvious
+to get to go pursue that the.
+
+310
+00:16:08,040 --> 00:16:11,600
+The tactical steps would be I
+decided to just move to Silicon
+
+311
+00:16:11,600 --> 00:16:14,560
+Valley.
+So like, I came out Silicon
+
+312
+00:16:14,560 --> 00:16:18,240
+Valley and I knew nothing right
+about.
+
+313
+00:16:18,240 --> 00:16:21,080
+Silicon Valley, really like I'd,
+you know, like read some books,
+
+314
+00:16:21,320 --> 00:16:24,280
+listened to some podcasts,
+probably weren't really, I don't
+
+315
+00:16:24,280 --> 00:16:24,880
+even know.
+What they were.
+
+316
+00:16:24,960 --> 00:16:27,440
+Called podcasts at that time,
+but the you know, Stanford had
+
+317
+00:16:27,440 --> 00:16:31,440
+this like I think they still do
+this entrepreneurial thought
+
+318
+00:16:31,440 --> 00:16:34,160
+leaders program.
+And so I remember just listening
+
+319
+00:16:34,240 --> 00:16:38,440
+to these people come in and this
+is a different generation.
+
+320
+00:16:38,440 --> 00:16:40,040
+So you talk about like, you
+know, I was listening to this
+
+321
+00:16:40,040 --> 00:16:42,280
+stuff like like, like way back
+in the day, right?
+
+322
+00:16:42,280 --> 00:16:47,640
+Like sort of 20, probably 20
+tenths maybe earlier to yeah,
+
+323
+00:16:47,760 --> 00:16:49,880
+probably earlier.
+But they give you some
+
+324
+00:16:50,400 --> 00:16:54,040
+inspiration and sort of a road
+map of of like, you know, how
+
+325
+00:16:54,040 --> 00:16:56,640
+you can start a company.
+There is something special about
+
+326
+00:16:56,640 --> 00:16:57,960
+Silicon Valley.
+So you have this very high
+
+327
+00:16:57,960 --> 00:17:02,480
+concentration of founders, you
+know, engineers who want to
+
+328
+00:17:02,480 --> 00:17:06,160
+build companies as sort of
+builders, investors.
+
+329
+00:17:06,720 --> 00:17:09,400
+You have sort of a cultural
+appetite for risk, right?
+
+330
+00:17:09,520 --> 00:17:12,079
+Like it's a, it's a very special
+place.
+
+331
+00:17:12,760 --> 00:17:16,680
+And I do think if it's like my
+mentality is a little bit like,
+
+332
+00:17:16,680 --> 00:17:19,480
+you know, if you're going to, if
+you're going to go do something
+
+333
+00:17:19,480 --> 00:17:25,000
+like this, you might as well,
+you know, try to sort of play in
+
+334
+00:17:25,000 --> 00:17:28,760
+the NBA, so to speak, right?
+Like so many places you can
+
+335
+00:17:28,760 --> 00:17:33,320
+start a company, but I think to
+give yourself the best chances
+
+336
+00:17:33,320 --> 00:17:36,400
+of success, it seems like moving
+to Silicon Valley would be a a
+
+337
+00:17:36,600 --> 00:17:39,640
+good move, right?
+But I literally moved out
+
+338
+00:17:39,640 --> 00:17:43,680
+without really, I had no family
+or you know, I had some
+
+339
+00:17:44,240 --> 00:17:46,480
+classmates that also moved to
+the Bay Area.
+
+340
+00:17:46,520 --> 00:17:51,760
+But I did not have any like like
+sort of real good reason to be
+
+341
+00:17:51,760 --> 00:17:53,720
+there other than to kind of try
+to start a company.
+
+342
+00:17:54,640 --> 00:17:56,320
+And I just started working at
+writing coat.
+
+343
+00:17:56,640 --> 00:17:59,920
+So I just started building the
+product in parallel.
+
+344
+00:17:59,920 --> 00:18:02,960
+It was like, you know, trying to
+see, hey, you know, can we raise
+
+345
+00:18:02,960 --> 00:18:05,760
+some money, etcetera.
+But it was just by myself and
+
+346
+00:18:05,760 --> 00:18:08,640
+just writing some code.
+That's really how it started,
+
+347
+00:18:08,880 --> 00:18:10,240
+right?
+And I think you mentioned
+
+348
+00:18:10,240 --> 00:18:13,680
+earlier like sort of eventually
+led to Y Combinator, which is
+
+349
+00:18:13,680 --> 00:18:15,440
+one of the incubators.
+So that that can really help a
+
+350
+00:18:15,440 --> 00:18:17,160
+lot, right?
+Because they that can give you a
+
+351
+00:18:17,160 --> 00:18:20,880
+pretty quick start and a very
+fast network of other founders
+
+352
+00:18:21,080 --> 00:18:24,680
+and great mentors that I can get
+you off the ground.
+
+353
+00:18:25,480 --> 00:18:26,560
+It's a little bit different than
+today.
+
+354
+00:18:26,560 --> 00:18:29,360
+This is back in 2011, right?
+So at that time you got to
+
+355
+00:18:29,360 --> 00:18:32,080
+remember it was like social,
+local, mobile or all the hot
+
+356
+00:18:32,080 --> 00:18:35,800
+trends, right?
+And so like sort of working on,
+
+357
+00:18:37,080 --> 00:18:39,400
+you know, a, a product that
+would do like.
+
+358
+00:18:39,400 --> 00:18:42,520
+You.
+Know complex super computing for
+
+359
+00:18:42,520 --> 00:18:45,960
+multidisciplinary optimization
+of physics where the aerospace
+
+360
+00:18:45,960 --> 00:18:49,680
+market was definitely not the
+hottest idea, right yeah, yeah,
+
+361
+00:18:50,200 --> 00:18:55,000
+but I think you know that what
+is nice is I do think the
+
+362
+00:18:55,000 --> 00:18:59,320
+culture in Silicon Valley
+embraces this sort of anybody
+
+363
+00:18:59,320 --> 00:19:01,760
+with an idea can come there
+right and you know ideas are
+
+364
+00:19:01,760 --> 00:19:04,240
+cheap right so it's all about
+the building and the execution
+
+365
+00:19:04,240 --> 00:19:05,400
+so.
+Yeah.
+
+366
+00:19:06,800 --> 00:19:10,320
+It's in a very meritocratic
+place, like, unlike like many
+
+367
+00:19:10,320 --> 00:19:13,480
+other sort of games, so to
+speak, in life.
+
+368
+00:19:13,560 --> 00:19:16,800
+I feel like Silicon Valley is
+quite meritocratic, right?
+
+369
+00:19:17,400 --> 00:19:19,920
+Where sort of anybody can be the
+next like Zuck.
+
+370
+00:19:20,840 --> 00:19:22,760
+And so everybody kind of has to
+be nice to each other and help
+
+371
+00:19:22,760 --> 00:19:27,040
+each other.
+And so, you know, it's yeah, it
+
+372
+00:19:27,040 --> 00:19:29,920
+has a nice.
+I think that dynamic is really,
+
+373
+00:19:29,920 --> 00:19:31,960
+there's a lot of paying it for
+it, like a lot of founders help
+
+374
+00:19:31,960 --> 00:19:34,000
+each other.
+People are very accessible,
+
+375
+00:19:34,040 --> 00:19:37,680
+right.
+So for me that was yeah, it was
+
+376
+00:19:37,680 --> 00:19:39,960
+a it was a great journey.
+It was, it was pretty tough
+
+377
+00:19:39,960 --> 00:19:40,960
+though.
+Like I like I was saying, I was
+
+378
+00:19:40,960 --> 00:19:43,240
+pitching this company.
+Yeah, yeah.
+
+379
+00:19:43,360 --> 00:19:47,400
+That, you know, the exact
+opposite of social locomobile.
+
+380
+00:19:47,400 --> 00:19:49,760
+There's like literally that if
+you have the Venn diagrams, we
+
+381
+00:19:49,760 --> 00:19:52,120
+would be the one that like does
+not overlap with anything that
+
+382
+00:19:52,200 --> 00:19:54,120
+like investors were interested
+in at that time.
+
+383
+00:19:54,120 --> 00:19:56,080
+But you know, everything goes
+through these waves, right?
+
+384
+00:19:56,080 --> 00:20:00,880
+And so I do think eventually,
+like, you know, if you just have
+
+385
+00:20:00,880 --> 00:20:02,200
+a good mission, you're on,
+right?
+
+386
+00:20:02,200 --> 00:20:03,600
+Like you'll find some funding,
+right?
+
+387
+00:20:03,600 --> 00:20:07,360
+Like it is a there's a lot of
+investors, right?
+
+388
+00:20:07,360 --> 00:20:09,760
+And so ultimately you just need
+one to write a check.
+
+389
+00:20:10,320 --> 00:20:13,160
+Yeah, yeah.
+So what was the first few years
+
+390
+00:20:13,160 --> 00:20:14,440
+like?
+What were the some standout
+
+391
+00:20:14,440 --> 00:20:16,520
+moments?
+Who were the was a returning
+
+392
+00:20:16,520 --> 00:20:21,080
+point from a big investor or
+like in those early days, 2011,
+
+393
+00:20:21,080 --> 00:20:25,680
+what when did you really feel
+that he was going to work out?
+
+394
+00:20:25,760 --> 00:20:28,080
+Because I guess there were
+moments when you maybe thought,
+
+395
+00:20:28,080 --> 00:20:30,960
+OK, I should just stop doing
+this and get a job somewhere
+
+396
+00:20:30,960 --> 00:20:33,240
+else.
+Yeah, I mean, I think like, you
+
+397
+00:20:33,240 --> 00:20:35,840
+know, what you call working out
+versus like success, these are
+
+398
+00:20:35,840 --> 00:20:39,280
+all like your own definition, I
+would say, right, Like so and
+
+399
+00:20:39,280 --> 00:20:41,280
+that definition for most people
+changes over time.
+
+400
+00:20:41,960 --> 00:20:44,720
+I remember making a promise to
+my significant other at the
+
+401
+00:20:44,720 --> 00:20:48,240
+time, we were not married yet
+that, you know, like I'll just
+
+402
+00:20:48,240 --> 00:20:50,440
+do this thing.
+And she was working really hard
+
+403
+00:20:51,560 --> 00:20:53,880
+and and, you know, like really
+grinding.
+
+404
+00:20:53,960 --> 00:20:56,960
+And I was just kind of sitting
+in our, I was working really
+
+405
+00:20:56,960 --> 00:20:58,960
+hard, but I was just writing
+software and not making any
+
+406
+00:20:58,960 --> 00:21:00,640
+money and, and she was paying
+the rent.
+
+407
+00:21:01,360 --> 00:21:04,560
+And so we sort of made this deal
+where like, OK, well, if you
+
+408
+00:21:04,560 --> 00:21:06,440
+know, let's, you know, at what
+point are you going to say, how
+
+409
+00:21:06,440 --> 00:21:07,880
+can I get a get a real job,
+right?
+
+410
+00:21:08,480 --> 00:21:09,800
+And my parents were wondering
+the same thing.
+
+411
+00:21:09,920 --> 00:21:13,680
+And we basically said, well,
+like, you know, let's give it
+
+412
+00:21:13,680 --> 00:21:15,680
+two years.
+And if you can pay yourself a
+
+413
+00:21:15,680 --> 00:21:19,560
+salary of something, right?
+Like enough to clear like the
+
+414
+00:21:19,560 --> 00:21:23,600
+minimum medical benefits and
+things like that, then that's a
+
+415
+00:21:23,600 --> 00:21:25,040
+win, right?
+Like that, then we can keep
+
+416
+00:21:25,040 --> 00:21:26,720
+going basically.
+So that was kind of the.
+
+417
+00:21:26,720 --> 00:21:33,800
+Deal I made with her and.
+I think that's you know, like,
+
+418
+00:21:33,880 --> 00:21:38,320
+like, yeah, I would say really
+made it it it changes all the
+
+419
+00:21:38,320 --> 00:21:40,800
+time.
+If I think if you have the
+
+420
+00:21:40,800 --> 00:21:43,160
+ambition and sort of the mission
+that we're on, right?
+
+421
+00:21:43,160 --> 00:21:44,720
+It's a it's a very big mission,
+right?
+
+422
+00:21:45,520 --> 00:21:49,480
+And so, you know, I think I
+think we still have a lot of our
+
+423
+00:21:49,480 --> 00:21:51,120
+work cut out for us even today,
+right?
+
+424
+00:21:51,520 --> 00:21:55,240
+But but some big milestones,
+important lesson I think for
+
+425
+00:21:55,240 --> 00:21:58,160
+founders is also like, you know,
+I think Paul Graham says this
+
+426
+00:21:58,160 --> 00:22:04,280
+like, you know, companies don't
+die, founders give up, right?
+
+427
+00:22:04,280 --> 00:22:06,360
+And you can't just keep going
+right now.
+
+428
+00:22:06,360 --> 00:22:09,200
+There's there's a limit probably
+like you take market feedback,
+
+429
+00:22:09,200 --> 00:22:11,240
+you're like, Hey, is this still,
+is this investable?
+
+430
+00:22:11,240 --> 00:22:13,360
+Is this like smart?
+Like did you learn some new
+
+431
+00:22:13,360 --> 00:22:15,240
+things?
+But if you're kind of iterating
+
+432
+00:22:15,240 --> 00:22:17,040
+quickly, you're learning a lot
+of things.
+
+433
+00:22:17,040 --> 00:22:20,320
+You're adapting your company to
+like meet the market, so to
+
+434
+00:22:20,320 --> 00:22:22,080
+speak, right?
+Kind of get this product market
+
+435
+00:22:22,080 --> 00:22:26,680
+fit and then any set of like
+really smart people that, that
+
+436
+00:22:26,680 --> 00:22:28,920
+work really hard together and
+sort of have these attributes
+
+437
+00:22:30,080 --> 00:22:31,680
+they, they will build success,
+right?
+
+438
+00:22:31,760 --> 00:22:35,000
+Like, and so I think it is in
+that way an amazing place where
+
+439
+00:22:35,000 --> 00:22:36,880
+you can kind of pursue, pursue
+what you want to do.
+
+440
+00:22:37,280 --> 00:22:40,720
+For us, a big milestone was
+first check.
+
+441
+00:22:40,720 --> 00:22:44,280
+So the first investor is always
+very special for us.
+
+442
+00:22:44,280 --> 00:22:47,880
+That was, you know, we'd gone
+around like pitched all these
+
+443
+00:22:47,880 --> 00:22:49,880
+like VCs kept getting turned
+down.
+
+444
+00:22:49,880 --> 00:22:51,760
+And at this point we were doing
+Y Combinator.
+
+445
+00:22:52,240 --> 00:22:55,520
+And you know, Paul Graham teed
+up like one of his buddies.
+
+446
+00:22:56,320 --> 00:22:57,760
+It's like, OK, just give him the
+pitch.
+
+447
+00:22:58,480 --> 00:23:00,920
+Here's the thing, I followed
+exactly the playbook that he
+
+448
+00:23:00,920 --> 00:23:05,280
+gave me and you know, we didn't,
+we didn't know what price, what,
+
+449
+00:23:06,400 --> 00:23:08,680
+you know, amount of the company
+we should give up for, for
+
+450
+00:23:08,680 --> 00:23:10,520
+whatever investment around.
+We're just trying to get some
+
+451
+00:23:10,520 --> 00:23:14,320
+investor right.
+And it was like, OK, well, like,
+
+452
+00:23:14,520 --> 00:23:17,680
+like, how about these terms or
+whatever based on guidance from
+
+453
+00:23:17,680 --> 00:23:19,600
+Paul Graham.
+And, you know, eventually he
+
+454
+00:23:19,600 --> 00:23:22,880
+goes through a bunch of things
+and still don't invest.
+
+455
+00:23:23,280 --> 00:23:25,920
+So I come back to Paul and I'm
+just like, man, you know, we did
+
+456
+00:23:25,920 --> 00:23:28,680
+everything you said.
+This is like the, you know, 50th
+
+457
+00:23:28,680 --> 00:23:34,080
+time and, you know, we didn't
+get the check and but but you
+
+458
+00:23:34,080 --> 00:23:36,480
+know, I did follow like all the
+things that you said, right?
+
+459
+00:23:36,480 --> 00:23:37,880
+And so like, why don't you just
+invest?
+
+460
+00:23:37,880 --> 00:23:41,640
+And he's like, sure, he whips
+out his checkbook and writes a
+
+461
+00:23:41,640 --> 00:23:44,440
+check.
+And, and I think that was very
+
+462
+00:23:44,440 --> 00:23:46,600
+special.
+Not really about the actual
+
+463
+00:23:46,600 --> 00:23:50,440
+dollar amount invested.
+It was much more about his, you
+
+464
+00:23:50,440 --> 00:23:53,000
+know, when somebody kind of
+makes a bet on you like that,
+
+465
+00:23:53,080 --> 00:23:54,920
+right?
+And it's like real money out of
+
+466
+00:23:54,920 --> 00:23:58,160
+his pocket.
+It, you know, means so much to
+
+467
+00:23:58,160 --> 00:24:01,080
+you that I'm sure you've seen
+this with maybe like a thesis
+
+468
+00:24:01,080 --> 00:24:03,640
+advisor or other people who've
+been in your career in the past.
+
+469
+00:24:04,160 --> 00:24:07,000
+That that is a a really special
+moment, right?
+
+470
+00:24:07,560 --> 00:24:10,520
+And I think that certainly gave
+me a lot of confidence to kind
+
+471
+00:24:10,520 --> 00:24:14,080
+of just keep, keep going.
+And eventually we, we got lots
+
+472
+00:24:14,080 --> 00:24:16,520
+of great investors, but that was
+that was a special one.
+
+473
+00:24:16,520 --> 00:24:19,240
+Another one was, you know, we,
+we'd started working with some
+
+474
+00:24:19,240 --> 00:24:20,920
+early customers like we couldn't
+raise money.
+
+475
+00:24:20,920 --> 00:24:24,520
+So we just like built the
+product and started to get who
+
+476
+00:24:24,520 --> 00:24:27,840
+wants to go run like large scale
+CFD in the cloud, right?
+
+477
+00:24:29,200 --> 00:24:33,480
+And it's like, you know, there's
+like Boeing, Airbus, etcetera.
+
+478
+00:24:33,480 --> 00:24:35,800
+At that time there were these
+really small space companies,
+
+479
+00:24:35,800 --> 00:24:37,880
+we're talking about like 50
+person companies, right?
+
+480
+00:24:39,440 --> 00:24:43,680
+And we went to, there were
+basically only two private space
+
+481
+00:24:43,680 --> 00:24:46,800
+companies at the time.
+We went to both of them and
+
+482
+00:24:47,000 --> 00:24:48,680
+because of my aerospace
+background, I've known some
+
+483
+00:24:48,680 --> 00:24:51,920
+people that working there.
+So we're able to kind of chat
+
+484
+00:24:51,920 --> 00:24:55,480
+with them and eventually we sort
+of got them on the hook that
+
+485
+00:24:55,480 --> 00:25:00,760
+they they would do this right.
+And that that was also very
+
+486
+00:25:00,760 --> 00:25:03,000
+special because I think that's
+when you kind of.
+
+487
+00:25:03,520 --> 00:25:05,840
+Could see hey.
+Like, and they're making a bet
+
+488
+00:25:05,840 --> 00:25:07,640
+on you, right?
+And, and, you know, when the
+
+489
+00:25:07,640 --> 00:25:09,920
+company is like one or two
+people, it's very personal,
+
+490
+00:25:10,080 --> 00:25:12,880
+right?
+So when these with these first
+
+491
+00:25:12,880 --> 00:25:15,440
+few customers, like at this
+point, I had my Co founder,
+
+492
+00:25:15,440 --> 00:25:17,840
+who's my old boss from Boeing,
+Adam McKenzie join.
+
+493
+00:25:17,840 --> 00:25:21,480
+And, you know, we sit there in
+the room with some of these like
+
+494
+00:25:21,480 --> 00:25:24,800
+aerodynamicists and they're just
+like this concept of putting it
+
+495
+00:25:24,800 --> 00:25:27,720
+in the cloud is, is pretty
+foreign.
+
+496
+00:25:27,760 --> 00:25:32,040
+And remember, like web services,
+So EWS had just started and web
+
+497
+00:25:32,040 --> 00:25:34,800
+services are built for like
+almost the exact opposite of
+
+498
+00:25:34,800 --> 00:25:36,800
+HPC, right?
+Like it, it's like very loosely
+
+499
+00:25:36,800 --> 00:25:40,480
+coupled, very, you know, you
+kind of have to write your
+
+500
+00:25:40,480 --> 00:25:42,640
+software very tolerant to
+failure, etcetera.
+
+501
+00:25:43,920 --> 00:25:46,280
+The actual performance is like
+not great.
+
+502
+00:25:47,080 --> 00:25:52,160
+And so it, you know, but you
+could kind of see where this was
+
+503
+00:25:52,160 --> 00:25:55,400
+going.
+And so we pitched these
+
+504
+00:25:55,400 --> 00:25:58,640
+companies and I think that was a
+big breakthrough when when they
+
+505
+00:25:58,640 --> 00:26:00,480
+were like, yes, we'll buy the
+software, We'll pay something
+
+506
+00:26:00,480 --> 00:26:03,480
+for this basically right.
+And we'll buy the software and
+
+507
+00:26:03,480 --> 00:26:06,040
+again, that was many iterations
+to get there.
+
+508
+00:26:06,120 --> 00:26:08,240
+But once you get that
+breakthrough, I mean, that was
+
+509
+00:26:08,240 --> 00:26:12,400
+very exciting, right?
+And and those little winds along
+
+510
+00:26:12,400 --> 00:26:15,320
+the way, I think it's like at no
+point, I think the entire
+
+511
+00:26:15,320 --> 00:26:17,080
+journey I felt like I've really
+made it.
+
+512
+00:26:17,600 --> 00:26:20,720
+Yeah.
+But you know, like I, I think
+
+513
+00:26:20,720 --> 00:26:23,560
+those are very material in those
+early days, right?
+
+514
+00:26:23,560 --> 00:26:25,640
+Like like just just getting off
+the ground.
+
+515
+00:26:25,680 --> 00:26:29,600
+I think many great ideas just
+don't have enough energy on
+
+516
+00:26:29,600 --> 00:26:32,240
+execution put behind them,
+right?
+
+517
+00:26:32,280 --> 00:26:34,760
+And, and even to this day,
+right, like I still have people
+
+518
+00:26:34,760 --> 00:26:37,800
+come to me and be like, well, I
+mean, we're doing much more than
+
+519
+00:26:37,800 --> 00:26:40,240
+just HPC these days.
+But you get some, you know, you
+
+520
+00:26:40,240 --> 00:26:42,720
+still have this sort of old
+network of HPC people, you know,
+
+521
+00:26:42,720 --> 00:26:45,520
+I both know who we're talking
+about and.
+
+522
+00:26:45,640 --> 00:26:48,200
+You know there'll be.
+People who say you get both
+
+523
+00:26:48,200 --> 00:26:50,240
+messages, right?
+There were people at that time
+
+524
+00:26:50,240 --> 00:26:52,880
+who were like, you get these
+Silicon Valley investors who
+
+525
+00:26:52,880 --> 00:26:55,880
+were like, what do you mean like
+HPC, Like it already exists,
+
+526
+00:26:55,880 --> 00:26:57,800
+It's cloud computing and it's
+AWS, right?
+
+527
+00:26:57,800 --> 00:27:01,520
+So you have that class of people
+which are basically sort of the,
+
+528
+00:27:02,120 --> 00:27:03,320
+yeah, it's like it's already
+been done.
+
+529
+00:27:03,320 --> 00:27:04,720
+Like why are you wasting your
+time on this?
+
+530
+00:27:04,720 --> 00:27:07,120
+And then you have the other
+class, which are the HPC people,
+
+531
+00:27:07,120 --> 00:27:08,160
+right?
+Like it's super computing.
+
+532
+00:27:08,240 --> 00:27:11,640
+And these these folks are like,
+this is absolutely impossible,
+
+533
+00:27:11,760 --> 00:27:13,840
+like never possible.
+All that hardware is not good
+
+534
+00:27:13,840 --> 00:27:17,200
+enough, like etcetera.
+And you have an entire ecosystem
+
+535
+00:27:17,200 --> 00:27:19,760
+that these days it's a little
+bit different, right?
+
+536
+00:27:19,760 --> 00:27:22,840
+But remember then it was like
+nobody was really doing this and
+
+537
+00:27:22,840 --> 00:27:24,800
+nobody believed it was really
+possible.
+
+538
+00:27:26,720 --> 00:27:29,960
+And then you have people who
+say, well, I had that idea.
+
+539
+00:27:31,040 --> 00:27:33,840
+Right, as if having the idea is
+an important thing.
+
+540
+00:27:33,840 --> 00:27:37,720
+Yeah, I think the execution is
+the the big thing that really
+
+541
+00:27:37,720 --> 00:27:38,960
+matters.
+And that's where like those
+
+542
+00:27:38,960 --> 00:27:41,440
+traits of a good founder, I
+think you, you, you know,
+
+543
+00:27:42,280 --> 00:27:44,240
+willing to persevere.
+If you look at most companies,
+
+544
+00:27:44,240 --> 00:27:46,840
+if you're just willing to kind
+of go for more than a decade,
+
+545
+00:27:46,840 --> 00:27:50,160
+most of the companies are very
+successful, right?
+
+546
+00:27:51,960 --> 00:27:54,560
+But it's not easy, right?
+So like I, I think that's also
+
+547
+00:27:54,560 --> 00:27:58,320
+like, it's not for everybody.
+Well, and, and I was thinking
+
+548
+00:27:58,320 --> 00:28:02,160
+that you were probably really
+facing an uphill battle because,
+
+549
+00:28:03,240 --> 00:28:06,040
+you know, if I look at from a
+technology point of view, you
+
+550
+00:28:06,040 --> 00:28:10,400
+know, the hyperscale has took
+quite a long time to really
+
+551
+00:28:11,760 --> 00:28:13,640
+have, for example, the
+interconnect.
+
+552
+00:28:14,120 --> 00:28:18,680
+You, you, you know, like when I
+joined Adbs in what 2020, things
+
+553
+00:28:18,680 --> 00:28:21,920
+like EFA or they, they were
+quite new.
+
+554
+00:28:21,920 --> 00:28:26,440
+So you were, did you feel that
+was part of the challenge before
+
+555
+00:28:26,440 --> 00:28:29,880
+that, the hyperscalers that I
+guess you know, you were
+
+556
+00:28:29,880 --> 00:28:36,480
+simplifying the use of when
+moving as quick as you wanted in
+
+557
+00:28:36,480 --> 00:28:41,600
+terms of like technology?
+Yeah, very good question because
+
+558
+00:28:41,600 --> 00:28:45,240
+like that was the remember we
+started in 2011, right.
+
+559
+00:28:45,240 --> 00:28:49,640
+So there were some some days in
+the wilderness there, but.
+
+560
+00:28:52,080 --> 00:28:54,720
+With cloud computing was kind of
+really gaining traction, right?
+
+561
+00:28:54,840 --> 00:28:56,960
+And even back then, you got to
+remember people were way
+
+562
+00:28:56,960 --> 00:28:59,880
+underestimating these markets by
+like X, right?
+
+563
+00:28:59,960 --> 00:29:03,240
+Like from where it is today?
+It shows how difficult it is.
+
+564
+00:29:03,240 --> 00:29:04,880
+Even when you see something
+happening, it's like very
+
+565
+00:29:04,880 --> 00:29:07,080
+difficult to forecast, right?
+We could talk about AI later,
+
+566
+00:29:07,360 --> 00:29:12,120
+yeah.
+Early on, a big one was always
+
+567
+00:29:12,120 --> 00:29:14,640
+like, well, like, like why do I
+need Rescale, right?
+
+568
+00:29:14,640 --> 00:29:18,640
+Like I could just go to a cloud
+company and get this myself,
+
+569
+00:29:18,640 --> 00:29:20,760
+right?
+And so and.
+
+570
+00:29:21,080 --> 00:29:23,760
+A lot of people perceived even
+to this day, probably people
+
+571
+00:29:23,760 --> 00:29:28,120
+perceived the cloud companies
+that are very close partners as
+
+572
+00:29:28,120 --> 00:29:31,120
+like competitors in this market
+and that's sort of the wrong
+
+573
+00:29:31,120 --> 00:29:34,960
+framing.
+The reality was I would be going
+
+574
+00:29:34,960 --> 00:29:37,560
+in at that time.
+It was going to be Andy, Jesse
+
+575
+00:29:38,160 --> 00:29:42,320
+and begging him to build
+InfiniBand networking and
+
+576
+00:29:42,320 --> 00:29:45,000
+begging him to build like Specs
+that.
+
+577
+00:29:45,880 --> 00:29:48,680
+Would do really well for this
+market, right?
+
+578
+00:29:48,720 --> 00:29:52,400
+And the answer often wasn't
+necessarily no, but it was like,
+
+579
+00:29:52,400 --> 00:29:56,600
+well, an incremental dollar
+spent today, you know, I'm
+
+580
+00:29:56,600 --> 00:29:59,760
+better off just building more,
+let's call it for simplification
+
+581
+00:29:59,760 --> 00:30:02,680
+commodity compute like because
+there's more market share to
+
+582
+00:30:02,680 --> 00:30:06,560
+grab there versus this like
+specialized compute, everything
+
+583
+00:30:06,560 --> 00:30:11,040
+costs X more, workloads are much
+more volatile, etcetera,
+
+584
+00:30:11,040 --> 00:30:12,880
+etcetera, etcetera, right.
+So there were sort of many
+
+585
+00:30:12,880 --> 00:30:15,120
+reasons to not do it.
+There's also like some real
+
+586
+00:30:15,120 --> 00:30:18,440
+difficult networking challenges
+like security challenges.
+
+587
+00:30:18,440 --> 00:30:20,280
+So the the way you build like a
+cloud.
+
+588
+00:30:20,280 --> 00:30:23,880
+Service as, as you know very
+well is a little bit different
+
+589
+00:30:23,880 --> 00:30:27,320
+than the HPC system, right.
+And so at that time, the
+
+590
+00:30:27,320 --> 00:30:32,800
+maturity wasn't there to easily
+sort of pursue this market, but.
+
+591
+00:30:33,120 --> 00:30:34,680
+But from first.
+Principles, it seems like a
+
+592
+00:30:34,680 --> 00:30:36,760
+really a lost opportunity,
+right, because if you kind of
+
+593
+00:30:36,760 --> 00:30:39,720
+look at it, it's like, well, you
+know, commodity confused great.
+
+594
+00:30:39,720 --> 00:30:41,880
+Like the whole thing about AWS
+was, hey, it was built for
+
+595
+00:30:41,880 --> 00:30:45,480
+scaling e-commerce peak loads
+during the like, Black Friday or
+
+596
+00:30:45,480 --> 00:30:48,320
+something, right?
+And but you know, like the rest
+
+597
+00:30:48,320 --> 00:30:51,760
+of the time and even today, like
+if you just look at it wasn't
+
+598
+00:30:51,760 --> 00:30:54,840
+the money makers at AWS, it's
+like the simple, it's just like
+
+599
+00:30:54,840 --> 00:30:59,160
+EC2S3 like basic stuff, right?
+And most people consume just
+
+600
+00:30:59,160 --> 00:31:03,160
+that what and super computing
+and high performance computing
+
+601
+00:31:03,160 --> 00:31:05,400
+was always the case is that, you
+know, these systems are super
+
+602
+00:31:05,400 --> 00:31:07,560
+expensive.
+So time sharing them only the
+
+603
+00:31:07,560 --> 00:31:10,080
+biggest companies in the world
+or the biggest labs could afford
+
+604
+00:31:10,080 --> 00:31:12,000
+to kind of build these systems,
+right?
+
+605
+00:31:12,080 --> 00:31:15,040
+And it makes a lot of sense to
+share those systems, right,
+
+606
+00:31:15,040 --> 00:31:16,200
+because they're so expensive,
+right?
+
+607
+00:31:16,200 --> 00:31:18,840
+So share the CapEx investment,
+the sort of timeshare of these
+
+608
+00:31:18,840 --> 00:31:20,600
+systems, so?
+Used to be like mainframe time
+
+609
+00:31:20,600 --> 00:31:22,920
+sharing, but like with cloud
+this becomes so much easier.
+
+610
+00:31:23,440 --> 00:31:28,400
+And so like it really did seem
+like that was A at that time
+
+611
+00:31:28,800 --> 00:31:31,960
+like a a lost opportunity and as
+Rescale we did make a conscious
+
+612
+00:31:31,960 --> 00:31:33,800
+choice.
+It's like we are not at least at
+
+613
+00:31:33,800 --> 00:31:35,520
+that time, right.
+We're not going to go get into
+
+614
+00:31:35,520 --> 00:31:39,360
+this CapEx game like the venture
+capital dollars are not made.
+
+615
+00:31:39,400 --> 00:31:40,640
+You can see that today with
+these.
+
+616
+00:31:40,840 --> 00:31:43,720
+AI companies in the
+infrastructure side are not
+
+617
+00:31:43,720 --> 00:31:46,920
+really made for, you know,
+making big CapEx compute
+
+618
+00:31:46,920 --> 00:31:50,760
+investments, right.
+And so, yeah, we would be trying
+
+619
+00:31:50,760 --> 00:31:53,520
+to work really closely with the.
+Cloud providers to actually
+
+620
+00:31:53,520 --> 00:31:55,520
+build the right infrastructure
+for our customers.
+
+621
+00:31:55,520 --> 00:31:57,080
+But you could kind of see where
+it's going, right?
+
+622
+00:31:57,080 --> 00:31:59,360
+Like at that time it was to me
+again, I thought it was late.
+
+623
+00:32:00,040 --> 00:32:03,720
+It was pretty obvious that like
+this is a great market.
+
+624
+00:32:03,720 --> 00:32:07,000
+Opportunity, right, But like
+yeah, yeah, I think of the eyes
+
+625
+00:32:07,000 --> 00:32:10,080
+of say somebody like Andy Jassy
+or you know, Sacho was running
+
+626
+00:32:10,080 --> 00:32:11,640
+advanced computing at that time
+in Azure.
+
+627
+00:32:11,640 --> 00:32:15,320
+I think they made some smart
+bets too, I think.
+
+628
+00:32:15,320 --> 00:32:20,640
+I think they, yeah, HPC is still
+this like small sub segment that
+
+629
+00:32:20,640 --> 00:32:22,840
+seems very difficult relative to
+all of computing.
+
+630
+00:32:23,560 --> 00:32:25,320
+So all these things are all
+about your frame, right?
+
+631
+00:32:25,320 --> 00:32:27,320
+Like if you come from the HPC
+frame, this seems like pretty
+
+632
+00:32:27,320 --> 00:32:29,920
+obvious I think.
+If you come from the, you're
+
+633
+00:32:29,920 --> 00:32:33,200
+running like the fastest
+growing, most successful cloud
+
+634
+00:32:33,200 --> 00:32:35,760
+company in the world, like, you
+know, there's many bets you
+
+635
+00:32:35,760 --> 00:32:38,080
+could be making.
+And yeah, it took a while to get
+
+636
+00:32:38,080 --> 00:32:39,360
+this one off the ground even
+today.
+
+637
+00:32:39,360 --> 00:32:41,600
+And as far as I understand,
+there's no infinite band
+
+638
+00:32:41,600 --> 00:32:45,640
+networking at at AWS.
+No, that's, that's true.
+
+639
+00:32:45,760 --> 00:32:48,560
+And we should say as well, I
+guess that when we use the term
+
+640
+00:32:48,560 --> 00:32:52,120
+HPC and I guess the relevant
+first discussing this is, I mean
+
+641
+00:32:52,120 --> 00:32:54,520
+you can argue, but I would say
+from a hardware point of view,
+
+642
+00:32:54,520 --> 00:32:59,640
+what AI training needs today has
+many, many, many of the same
+
+643
+00:32:59,640 --> 00:33:02,120
+components as HPC.
+There's some subtleties, but in
+
+644
+00:33:02,120 --> 00:33:07,320
+terms of a low latency network,
+that's basically what AI
+
+645
+00:33:07,320 --> 00:33:10,480
+training needs as well.
+So interestingly, like the
+
+646
+00:33:11,080 --> 00:33:14,680
+reason that we're talking about
+prior in those early days, it
+
+647
+00:33:14,680 --> 00:33:17,400
+was only really for loosely
+coupled, wasn't it, from like a
+
+648
+00:33:17,400 --> 00:33:19,360
+hardcore performance point of
+view.
+
+649
+00:33:19,440 --> 00:33:24,400
+So my question is, do you think
+those early days almost made it
+
+650
+00:33:24,400 --> 00:33:27,920
+harder to convince people when
+there was actually the hardware?
+
+651
+00:33:27,920 --> 00:33:32,960
+Are you still getting people who
+are like it's it's slow running
+
+652
+00:33:32,960 --> 00:33:35,560
+on the cloud or there's a
+because they they're still just
+
+653
+00:33:35,560 --> 00:33:40,280
+thinking back to the mid twenty
+10s when maybe the hardware
+
+654
+00:33:40,920 --> 00:33:42,360
+wasn't there.
+Do you know what I mean?
+
+655
+00:33:42,360 --> 00:33:45,120
+Are people lazy to be thinking
+of what's current?
+
+656
+00:33:45,560 --> 00:33:48,000
+Yeah, and and like you and I are
+probably on the same side of the
+
+657
+00:33:48,000 --> 00:33:54,000
+table on this, but, but I think
+if I had to steal a man, like
+
+658
+00:33:54,000 --> 00:33:57,320
+what's the sort of reason to not
+not go to cloud, right?
+
+659
+00:33:57,320 --> 00:33:59,640
+Like a lot of people bring up
+costs and we can talk about
+
+660
+00:33:59,640 --> 00:34:03,600
+that.
+But I think if I'm sort of put
+
+661
+00:34:03,600 --> 00:34:06,400
+my hat on as one of our
+customers, right like like a
+
+662
+00:34:06,400 --> 00:34:09,880
+manufacturing company it seems
+if you're.
+
+663
+00:34:10,280 --> 00:34:14,120
+Certainly starting a new company
+like like really obvious.
+
+664
+00:34:14,440 --> 00:34:16,880
+To to sort.
+Of buy this compute as a service
+
+665
+00:34:17,239 --> 00:34:19,400
+as opposed to start building
+your own data centers etcetera,
+
+666
+00:34:19,639 --> 00:34:21,159
+right?
+Like unless there is some sort
+
+667
+00:34:21,159 --> 00:34:23,480
+of reason that's your
+competitive advantage, right?
+
+668
+00:34:24,320 --> 00:34:26,440
+I can tell you Boeing thought it
+was their competitive advantage.
+
+669
+00:34:26,440 --> 00:34:27,920
+They probably still take that to
+this day.
+
+670
+00:34:27,920 --> 00:34:31,560
+And yeah, there's, there are
+some I would say like edge cases
+
+671
+00:34:31,560 --> 00:34:34,400
+where it can make sense.
+But in general, right, you want
+
+672
+00:34:34,400 --> 00:34:38,440
+to kind of a provider.
+Like any major cloud provider
+
+673
+00:34:38,480 --> 00:34:41,960
+has way better economics, has
+way more efficient sort of
+
+674
+00:34:41,960 --> 00:34:44,840
+scale.
+The better supply chain they
+
+675
+00:34:44,840 --> 00:34:47,880
+have like better hardware,
+faster, they are able to refresh
+
+676
+00:34:47,880 --> 00:34:50,880
+and resell your old hardware if
+you want to rotate to new skews
+
+677
+00:34:50,880 --> 00:34:53,440
+and things like that.
+So there's so many benefits if
+
+678
+00:34:53,440 --> 00:34:55,400
+you just.
+Look at solving the real problem
+
+679
+00:34:55,400 --> 00:34:57,360
+you're trying to solve as a
+manufacturer, say running a
+
+680
+00:34:57,360 --> 00:35:00,920
+simulation faster or designing a
+vehicle faster.
+
+681
+00:35:01,400 --> 00:35:03,120
+That's the real problem you're
+trying to solve, right?
+
+682
+00:35:03,720 --> 00:35:07,600
+The problem I think in HPC.
+Is there's an entire industry
+
+683
+00:35:07,600 --> 00:35:10,080
+that's been set up with a
+different framing, which is like
+
+684
+00:35:10,080 --> 00:35:14,800
+I'm, I'm actually here to most
+efficiently invest in CapEx, run
+
+685
+00:35:14,800 --> 00:35:18,360
+the infrastructure into the
+ground, try to efficiently use
+
+686
+00:35:18,360 --> 00:35:21,360
+this infrastructure, you know,
+depreciate it in a really smart
+
+687
+00:35:21,360 --> 00:35:22,840
+way.
+But it's all about this sort of
+
+688
+00:35:22,840 --> 00:35:25,720
+ITTCO sort of frame, right?
+And.
+
+689
+00:35:26,240 --> 00:35:30,160
+Purely on that frame, maybe
+sometimes on Prem is competitive
+
+690
+00:35:30,160 --> 00:35:32,760
+with cloud, right?
+But but if you even value a
+
+691
+00:35:32,760 --> 00:35:35,480
+little bit like actual
+performance, which is in the
+
+692
+00:35:35,480 --> 00:35:38,200
+name of the industry, right,
+like high performance computing,
+
+693
+00:35:38,320 --> 00:35:41,280
+the simple sort of to me.
+The concept is, is like, well,
+
+694
+00:35:41,280 --> 00:35:42,800
+who do you want to bear the
+CapEx?
+
+695
+00:35:42,800 --> 00:35:46,400
+Do you want it to be some really
+low cost of capital, very big
+
+696
+00:35:46,400 --> 00:35:48,400
+cloud infrastructure player,
+right?
+
+697
+00:35:48,520 --> 00:35:52,160
+Should that be you, right, as as
+a manufacturer and especially
+
+698
+00:35:52,160 --> 00:35:56,240
+with the sort of rotating to new
+infrastructure, there's a lot of
+
+699
+00:35:56,240 --> 00:35:59,280
+complexity, right.
+So typical organization might be
+
+700
+00:35:59,280 --> 00:36:03,280
+running, you say 50 different
+physics codes.
+
+701
+00:36:03,760 --> 00:36:06,080
+Right.
+Each of these have different
+
+702
+00:36:06,080 --> 00:36:08,360
+algorithms, some of them have
+different sub algorithms within
+
+703
+00:36:08,360 --> 00:36:10,320
+those algorithms, right,
+Different ways of running them.
+
+704
+00:36:10,360 --> 00:36:13,000
+And so there's like 10s of
+thousands of combinations and
+
+705
+00:36:13,000 --> 00:36:15,040
+way to run this.
+Then they can all be compiled
+
+706
+00:36:15,040 --> 00:36:16,640
+differently.
+They have different optimal
+
+707
+00:36:16,640 --> 00:36:17,640
+architectures.
+Right.
+
+708
+00:36:17,720 --> 00:36:21,120
+And it's sort of like, and then
+you run them sporadically at
+
+709
+00:36:21,120 --> 00:36:23,560
+different types like so if
+you're a automotive company,
+
+710
+00:36:23,560 --> 00:36:25,920
+there's a big part of the design
+cycle in detailed design.
+
+711
+00:36:25,920 --> 00:36:27,280
+You know, this is happening a
+lot.
+
+712
+00:36:27,720 --> 00:36:31,400
+There's other times where you
+may not be running so much and
+
+713
+00:36:31,400 --> 00:36:36,600
+so it is pretty tough.
+I think for the average
+
+714
+00:36:36,720 --> 00:36:42,880
+enterprise like you know,
+consumer of HPC to sort of say,
+
+715
+00:36:43,160 --> 00:36:45,440
+you know, it makes sense to kind
+of run your own HPC.
+
+716
+00:36:45,480 --> 00:36:49,680
+Now if you look at the market
+today, right, it's, it's about
+
+717
+00:36:49,680 --> 00:36:54,960
+20% cloud and say 80% on Prem,
+which which you know, I don't
+
+718
+00:36:54,960 --> 00:36:56,880
+know, blows my mind still today,
+right.
+
+719
+00:36:58,520 --> 00:37:00,920
+I think there is a, you know,
+it's a big.
+
+720
+00:37:01,280 --> 00:37:03,080
+Switching costs takes a long
+time.
+
+721
+00:37:03,080 --> 00:37:04,800
+If you're running and operating
+data centers, you're maybe
+
+722
+00:37:04,800 --> 00:37:07,280
+depreciating that you know if.
+It's ACFO making a decision
+
+723
+00:37:07,280 --> 00:37:11,440
+maybe six years, right?
+And so even if you said 100% to
+
+724
+00:37:11,440 --> 00:37:14,040
+cloud tomorrow, it's it still
+takes a long time, right?
+
+725
+00:37:15,640 --> 00:37:18,120
+And there's a lot of
+complexities that I think are
+
+726
+00:37:18,600 --> 00:37:20,520
+glossed over.
+So I think a big reason you
+
+727
+00:37:20,520 --> 00:37:24,880
+didn't see it take off earlier
+was a lot of this complexity.
+
+728
+00:37:24,880 --> 00:37:29,160
+It is actually very hard to run,
+say, a fluid dynamics code.
+
+729
+00:37:29,880 --> 00:37:33,880
+On an HPC system, very scalably,
+very reliably and continuously
+
+730
+00:37:33,880 --> 00:37:36,600
+keep the codes updated.
+And like when you run different
+
+731
+00:37:36,600 --> 00:37:38,480
+algorithms, they scale
+differently and sort of like
+
+732
+00:37:38,480 --> 00:37:39,880
+what's the right cluster size
+so.
+
+733
+00:37:40,400 --> 00:37:43,520
+There's so much that goes into
+that.
+
+734
+00:37:43,520 --> 00:37:48,120
+That is, it's still, you know,
+it's a specialized field right
+
+735
+00:37:48,280 --> 00:37:51,080
+now, every scale we write
+software to simplify all that.
+
+736
+00:37:51,080 --> 00:37:52,800
+Right.
+And try to sort of abstract away
+
+737
+00:37:52,800 --> 00:37:55,880
+all this complexity, but it's
+quite complex and if you really
+
+738
+00:37:55,880 --> 00:37:58,760
+dig into it.
+If you ask the people who are on
+
+739
+00:37:58,760 --> 00:38:01,120
+the sort of still running on
+prime systems, they would often
+
+740
+00:38:01,120 --> 00:38:05,320
+tell you the biggest reason why
+is, is sort of this it is hard
+
+741
+00:38:05,320 --> 00:38:07,360
+and you have to, you have to be
+willing to kind of reinvent
+
+742
+00:38:07,360 --> 00:38:11,040
+yourself, right?
+So like, just imagine if you're
+
+743
+00:38:11,080 --> 00:38:15,720
+a high performance computing
+administrator for like 1 of the
+
+744
+00:38:15,720 --> 00:38:17,960
+top three aerospace companies in
+the world, right?
+
+745
+00:38:19,120 --> 00:38:21,800
+All you've done last 20 years is
+basically figure out how to
+
+746
+00:38:21,800 --> 00:38:25,280
+procure like the right
+infrastructure, you know, 18
+
+747
+00:38:25,280 --> 00:38:28,160
+months of like.
+Procurement processes get these
+
+748
+00:38:28,160 --> 00:38:31,200
+systems tested up and running
+service, you know your different
+
+749
+00:38:31,200 --> 00:38:33,320
+engineering customers, internals
+to your organization.
+
+750
+00:38:33,320 --> 00:38:35,200
+With cloud, it's a completely
+different paradigm.
+
+751
+00:38:35,200 --> 00:38:37,680
+Like that entire paradigm is
+like sort of hardware up
+
+752
+00:38:37,680 --> 00:38:39,640
+thinking, right?
+Which is like it sort of starts
+
+753
+00:38:39,640 --> 00:38:42,320
+with the processor and then you
+build out the systems.
+
+754
+00:38:43,360 --> 00:38:44,880
+I think the right way to think
+about.
+
+755
+00:38:44,880 --> 00:38:48,720
+What is the purpose of HPC is
+ultimately to serve the
+
+756
+00:38:48,720 --> 00:38:52,480
+workloads with good performance.
+And that's more like workload
+
+757
+00:38:52,480 --> 00:38:54,840
+down thinking, right?
+So like it's really just about
+
+758
+00:38:54,840 --> 00:38:57,000
+OK, like for this workload, what
+is actually the right
+
+759
+00:38:57,040 --> 00:38:59,480
+infrastructure, what's the right
+price, what's the right
+
+760
+00:38:59,480 --> 00:39:00,920
+performance, etcetera.
+Like how are you going to
+
+761
+00:39:00,920 --> 00:39:03,960
+optimize that problem?
+And with an elastic system,
+
+762
+00:39:04,080 --> 00:39:06,160
+you're going to solve that
+problem much more elegantly,
+
+763
+00:39:06,480 --> 00:39:12,200
+right?
+So I would say that's a very
+
+764
+00:39:12,240 --> 00:39:18,520
+long answer, but I think it's
+still to this day, you know,
+
+765
+00:39:18,520 --> 00:39:21,000
+there's people who believe.
+Like HBC should be done on Prem
+
+766
+00:39:22,320 --> 00:39:25,480
+Yeah I.
+I see that my big observation is
+
+767
+00:39:25,480 --> 00:39:27,920
+always just timelines that
+everything, as you say, just
+
+768
+00:39:27,920 --> 00:39:31,440
+takes so much longer than people
+realize.
+
+769
+00:39:31,440 --> 00:39:37,640
+So, you know, when I started, I
+remember and this is This is why
+
+770
+00:39:37,640 --> 00:39:41,600
+I'm still amazed by you having
+these ideas nine years earlier
+
+771
+00:39:41,640 --> 00:39:45,120
+that people were like completely
+anti cloud.
+
+772
+00:39:45,240 --> 00:39:48,920
+A lot of people were anti cloud.
+And then you know, just as the
+
+773
+00:39:48,920 --> 00:39:53,800
+time as I was leaving, I
+remembered that it wasn't, are
+
+774
+00:39:53,800 --> 00:39:56,320
+we going to do that?
+It was like how, how we could,
+
+775
+00:39:56,440 --> 00:40:01,600
+oh, no, that's not true.
+It was probably hybrid, hybrid
+
+776
+00:40:01,600 --> 00:40:04,280
+and we are going to do some of
+it on, but we'll still keep
+
+777
+00:40:04,800 --> 00:40:06,000
+some.
+And that depended whether it's
+
+778
+00:40:06,000 --> 00:40:08,920
+to start upon enterprise.
+But I definitely saw a shift.
+
+779
+00:40:08,920 --> 00:40:15,400
+But then I thought that means
+the time then to do Apoc to then
+
+780
+00:40:15,400 --> 00:40:20,920
+roll it out to change like so.
+It's probably, I guess you'd
+
+781
+00:40:20,920 --> 00:40:24,360
+agree there's probably even more
+upside in cloud to come because
+
+782
+00:40:24,400 --> 00:40:27,040
+it takes so long to convince
+people and then for them to
+
+783
+00:40:27,040 --> 00:40:30,800
+change that we may not see that
+consequence for another few
+
+784
+00:40:30,800 --> 00:40:32,240
+years.
+Yeah, I think that's right.
+
+785
+00:40:32,240 --> 00:40:35,400
+I do think that, you know,
+Rescale, we're really focused on
+
+786
+00:40:35,400 --> 00:40:39,160
+solving kind of like what is the
+real problem the customer's
+
+787
+00:40:39,160 --> 00:40:42,120
+trying to solve, right?
+And so often it's again, using
+
+788
+00:40:42,120 --> 00:40:46,320
+this example of a manufacturer
+might be an engineer doing sort
+
+789
+00:40:46,320 --> 00:40:50,560
+of fluid dynamic simulation.
+They just want to run that
+
+790
+00:40:50,560 --> 00:40:53,520
+simulation as efficiently as
+possible and like all this other
+
+791
+00:40:53,520 --> 00:40:54,960
+stuff.
+And so they're like all the IT
+
+792
+00:40:54,960 --> 00:40:58,240
+stakeholders trying to kind of
+serve that user ideal, right?
+
+793
+00:40:58,600 --> 00:41:00,480
+You kind of work from that
+customer backwards.
+
+794
+00:41:01,240 --> 00:41:04,480
+I think you really want to solve
+this.
+
+795
+00:41:04,480 --> 00:41:07,240
+Problem more from first
+principles as opposed to.
+
+796
+00:41:08,080 --> 00:41:10,160
+Sort of you have all this
+baggage of these like on Prem
+
+797
+00:41:10,160 --> 00:41:11,760
+systems, hybrid, all this stuff,
+right?
+
+798
+00:41:11,760 --> 00:41:15,160
+And our view is sort of like,
+well, if we can give you a
+
+799
+00:41:15,160 --> 00:41:17,520
+service that is the optimal
+router, right?
+
+800
+00:41:17,520 --> 00:41:20,000
+So they can real time say, OK,
+you're going to run this fluid
+
+801
+00:41:20,000 --> 00:41:22,200
+dynamics code.
+You know, we understand some of
+
+802
+00:41:22,200 --> 00:41:24,880
+the metadata, right?
+So we say, hey, it has like, you
+
+803
+00:41:24,880 --> 00:41:27,520
+know, 500,000 cells or whatever,
+right?
+
+804
+00:41:27,640 --> 00:41:31,680
+And say you're running Star CCM.
+We know that version of Star
+
+805
+00:41:31,680 --> 00:41:35,520
+CCM, how well it scales.
+We we know like with that kind
+
+806
+00:41:35,520 --> 00:41:37,840
+of cell model, like what's the
+size cluster that should go on,
+
+807
+00:41:37,880 --> 00:41:38,800
+right.
+And then you go through this
+
+808
+00:41:38,800 --> 00:41:42,160
+sort of what we've built as a
+compute recommendation engine.
+
+809
+00:41:42,160 --> 00:41:45,320
+So you actually so say, OK, you
+can plug in your own on Prem
+
+810
+00:41:45,320 --> 00:41:46,760
+resource.
+So that's one of the fixed
+
+811
+00:41:46,760 --> 00:41:49,840
+resources you could choose from.
+It comes at some price layer
+
+812
+00:41:49,840 --> 00:41:51,160
+internal sort of cost to
+operate.
+
+813
+00:41:51,160 --> 00:41:53,320
+Maybe they have your cloud
+resources, right.
+
+814
+00:41:53,320 --> 00:41:55,560
+And then, you know, just have
+one, you have all the major
+
+815
+00:41:55,560 --> 00:41:58,480
+cloud providers, you have NEO
+clouds, maybe have some special
+
+816
+00:41:58,480 --> 00:42:00,640
+supercomputing relationships
+with universities, etcetera.
+
+817
+00:42:01,000 --> 00:42:04,520
+In this whole network, hundreds
+of architecture choices, right?
+
+818
+00:42:04,640 --> 00:42:06,320
+All of these had a little
+nuances, right?
+
+819
+00:42:06,320 --> 00:42:07,720
+Oh, but that's an Intel
+processor.
+
+820
+00:42:07,720 --> 00:42:11,520
+So you need to use Intel MPI or
+like hey here this like version
+
+821
+00:42:11,520 --> 00:42:13,160
+of this code.
+Like needs to be compiled
+
+822
+00:42:13,160 --> 00:42:17,480
+differently whatever.
+So it's a, it's a we want an
+
+823
+00:42:17,480 --> 00:42:20,040
+analysis in this little data,
+but how many combinations are
+
+824
+00:42:20,040 --> 00:42:22,040
+there is like more than 50
+million combinations.
+
+825
+00:42:23,160 --> 00:42:24,840
+So it's like, how do you solve
+that problem?
+
+826
+00:42:24,840 --> 00:42:28,960
+Well, you basically want to go
+through some sort of algorithm
+
+827
+00:42:28,960 --> 00:42:31,520
+and we.
+Recommendation system was kind
+
+828
+00:42:31,520 --> 00:42:34,080
+of our solution to this problem
+to automatically kind of figure
+
+829
+00:42:34,080 --> 00:42:36,520
+figure out and route that right.
+And that's now you have the
+
+830
+00:42:36,520 --> 00:42:39,480
+service for this user for any
+workload.
+
+831
+00:42:39,880 --> 00:42:44,240
+That you know, you can kind of
+use both the all the metadata
+
+832
+00:42:44,240 --> 00:42:46,480
+and all the knowledge Rescale
+has from running many of these
+
+833
+00:42:46,480 --> 00:42:50,840
+similar workloads before, but
+you can also leverage any of the
+
+834
+00:42:50,840 --> 00:42:53,240
+resources you want.
+In the way you as an
+
+835
+00:42:53,240 --> 00:42:55,840
+administrator can say, hey,
+like, I first want to fill up my
+
+836
+00:42:55,840 --> 00:42:58,480
+own system or whatever, right?
+And that is, I think that's the
+
+837
+00:42:58,480 --> 00:42:59,920
+right way to solve this problem,
+right?
+
+838
+00:43:00,000 --> 00:43:05,400
+And it is, it is a pretty
+technical way, right?
+
+839
+00:43:05,440 --> 00:43:08,160
+I think there's also like
+usability of this is, is super
+
+840
+00:43:08,160 --> 00:43:10,320
+important.
+So for us, how this shows up is
+
+841
+00:43:10,320 --> 00:43:13,280
+literally like you open up
+rescale, you drag in your like
+
+842
+00:43:13,280 --> 00:43:15,920
+input file, right?
+Or if you upload the input file
+
+843
+00:43:16,440 --> 00:43:18,480
+and you and you select the
+software, you press run, right?
+
+844
+00:43:18,480 --> 00:43:20,960
+It is that simple.
+But in that is this highly
+
+845
+00:43:20,960 --> 00:43:24,000
+complex Configurator which can
+kind of optimize and solve these
+
+846
+00:43:24,000 --> 00:43:26,040
+problems for you.
+And, you know, I, I think that's
+
+847
+00:43:26,040 --> 00:43:28,160
+a.
+Great way to solve this problem.
+
+848
+00:43:29,600 --> 00:43:31,720
+But like you said, like there's
+a, there's a lot of practical
+
+849
+00:43:31,720 --> 00:43:34,360
+challenges, right?
+Like, so that's the technical
+
+850
+00:43:34,360 --> 00:43:37,000
+person and he says, OK, like
+this is a great solution, right?
+
+851
+00:43:37,120 --> 00:43:39,880
+There's a lot of practical
+things in enterprise software.
+
+852
+00:43:39,880 --> 00:43:42,400
+And like go to market and like
+how do you use customers like
+
+853
+00:43:42,400 --> 00:43:46,640
+transition and etcetera.
+So that are still challenges for
+
+854
+00:43:46,640 --> 00:43:50,760
+customers today.
+But I think increasingly, like
+
+855
+00:43:50,760 --> 00:43:51,760
+you said, it's easier and
+easier.
+
+856
+00:43:51,760 --> 00:43:54,000
+Like this POC process you
+described, you got to remember,
+
+857
+00:43:54,000 --> 00:43:56,360
+like if you're buying on Prem,
+you're probably going through
+
+858
+00:43:56,360 --> 00:44:00,720
+like a sort of 9 to 12 month
+like procurement process at a
+
+859
+00:44:00,720 --> 00:44:03,440
+minimum, right?
+For many companies, it's closer
+
+860
+00:44:03,440 --> 00:44:04,840
+to 18 months.
+You go through all this
+
+861
+00:44:04,840 --> 00:44:07,840
+evaluation, then your system is
+finally live 18 months later.
+
+862
+00:44:07,840 --> 00:44:11,320
+And that's just not like, you
+know, if you're an engineer
+
+863
+00:44:11,320 --> 00:44:15,160
+trying to run this.
+Fluid dynamic simulation, you
+
+864
+00:44:15,160 --> 00:44:16,840
+can't do that right?
+Like you got to solve the
+
+865
+00:44:16,840 --> 00:44:18,120
+problem in a different way,
+right?
+
+866
+00:44:18,280 --> 00:44:21,800
+And I do think today if you go
+to rescale, right, and go
+
+867
+00:44:21,800 --> 00:44:24,960
+through this process, you can do
+this all in like 5 minutes,
+
+868
+00:44:25,120 --> 00:44:28,080
+right?
+But there are practical
+
+869
+00:44:28,080 --> 00:44:29,360
+challenges.
+So if you think again, think of
+
+870
+00:44:29,360 --> 00:44:32,080
+a like a large enterprise
+organization, there's a lot of
+
+871
+00:44:32,480 --> 00:44:34,440
+new ways of thinking that's sort
+of required.
+
+872
+00:44:35,560 --> 00:44:37,600
+And it comes back I think to
+like the courage, right?
+
+873
+00:44:37,640 --> 00:44:38,880
+Like are you, are you willing
+to?
+
+874
+00:44:40,080 --> 00:44:42,360
+Say, hey, like we got to do it a
+different way and I know I'm
+
+875
+00:44:42,360 --> 00:44:44,600
+going to go through lots of
+challenges, etcetera.
+
+876
+00:44:44,600 --> 00:44:49,120
+But and I think increasingly a
+lot of companies are seeing so
+
+877
+00:44:49,120 --> 00:44:52,360
+much success that it is hard to
+argue the other way, right?
+
+878
+00:44:52,360 --> 00:44:54,880
+Like if I had to argue where if
+you're using cloud, like if I go
+
+879
+00:44:54,880 --> 00:44:56,480
+to on Prem.
+Yeah.
+
+880
+00:44:57,080 --> 00:45:00,080
+There's a few reasons, but for
+most organizations this would
+
+881
+00:45:00,080 --> 00:45:03,440
+make very little sense.
+And I guess now it seems, and I
+
+882
+00:45:03,440 --> 00:45:06,640
+didn't predict it, but it seems
+to be happening that there's
+
+883
+00:45:06,640 --> 00:45:10,680
+even more because of UCB sort of
+neo clouds, which I guess has
+
+884
+00:45:10,680 --> 00:45:14,320
+been really because of AI.
+There seems to be even more
+
+885
+00:45:14,920 --> 00:45:17,560
+competition to the big cloud
+providers.
+
+886
+00:45:17,720 --> 00:45:20,960
+I guess there's more options,
+but even more reason to have a
+
+887
+00:45:20,960 --> 00:45:23,760
+single place to root that
+through.
+
+888
+00:45:23,800 --> 00:45:26,000
+Because if you have an if you
+have an account on cloud
+
+889
+00:45:26,000 --> 00:45:30,960
+provider ABCDE like to you for
+that enterprise to build out all
+
+890
+00:45:30,960 --> 00:45:33,160
+themselves.
+I mean it can be done.
+
+891
+00:45:33,160 --> 00:45:37,840
+But it's a lot of work.
+Does it make it even more
+
+892
+00:45:37,840 --> 00:45:40,960
+valuable to have like a go
+between it than it was when
+
+893
+00:45:40,960 --> 00:45:43,960
+there was mainly just AWS as the
+biggest one?
+
+894
+00:45:45,560 --> 00:45:47,320
+Yeah, I think.
+Now of course we can, we can
+
+895
+00:45:47,320 --> 00:45:48,880
+optimize within a single cloud,
+right?
+
+896
+00:45:48,880 --> 00:45:51,800
+So like if a customer really
+loves Microsoft or Amazon or
+
+897
+00:45:51,800 --> 00:45:54,920
+Google like we can, we can
+certainly do that and and you
+
+898
+00:45:54,920 --> 00:45:56,720
+sort of solve the problem at a
+smaller scale.
+
+899
+00:45:56,760 --> 00:46:00,120
+I think there's this margins
+piece, there's the speed, right?
+
+900
+00:46:00,120 --> 00:46:01,640
+That's why I think.
+You see the newer clouds as
+
+901
+00:46:01,640 --> 00:46:03,960
+well, like they're just able to
+stand up a cluster much faster,
+
+902
+00:46:03,960 --> 00:46:06,160
+like it is the bigger
+organization is it is hard,
+
+903
+00:46:06,160 --> 00:46:06,800
+right?
+And it's pretty.
+
+904
+00:46:06,880 --> 00:46:09,680
+Interesting to see Microsoft
+that they outsource a lot of
+
+905
+00:46:09,680 --> 00:46:13,560
+their GPU compute to core Weave,
+right?
+
+906
+00:46:13,560 --> 00:46:17,080
+So public information, you know,
+there's, there's a few dynamics
+
+907
+00:46:17,080 --> 00:46:20,920
+I think why like 1 is.
+Sort of just pure GPU scarcity.
+
+908
+00:46:20,960 --> 00:46:24,320
+So like they just have them, not
+only GPUs, they also have the
+
+909
+00:46:24,320 --> 00:46:26,400
+power infrastructure, right?
+Like I'm sitting in a data
+
+910
+00:46:26,400 --> 00:46:28,560
+center working to power them and
+cool them.
+
+911
+00:46:28,640 --> 00:46:31,560
+So there's sort of that timing
+effect, but there is a setting
+
+912
+00:46:31,560 --> 00:46:33,120
+up.
+Those systems are like HPC
+
+913
+00:46:33,120 --> 00:46:36,360
+systems, right?
+And that is very different than
+
+914
+00:46:36,360 --> 00:46:38,480
+building public cloud resources
+historically.
+
+915
+00:46:38,880 --> 00:46:42,000
+Now, if you only have like one
+or two customers, you can build
+
+916
+00:46:42,000 --> 00:46:44,360
+these bespoke systems, right?
+Like, like what cloud prevention
+
+917
+00:46:44,360 --> 00:46:47,560
+to get at is serving thousands
+or 10s of thousands, millions of
+
+918
+00:46:47,560 --> 00:46:50,760
+customers, right?
+And so there's a challenge for a
+
+919
+00:46:50,760 --> 00:46:52,360
+Neocloud is how do you scale
+that?
+
+920
+00:46:52,360 --> 00:46:55,120
+There's also, I think an element
+of, but the speed really
+
+921
+00:46:55,120 --> 00:46:56,960
+matters.
+Like I, I think right now in AI,
+
+922
+00:46:56,960 --> 00:46:58,280
+it's just all about speed,
+right?
+
+923
+00:46:58,280 --> 00:47:01,640
+And so people are willing to do
+absolutely crazy.
+
+924
+00:47:01,640 --> 00:47:06,600
+Thanks for speed, right?
+And it's because of the sort of
+
+925
+00:47:06,600 --> 00:47:09,160
+ultimate end use skate like this
+sort of AI war between all the
+
+926
+00:47:09,160 --> 00:47:12,600
+big tech companies is fueling
+all of that, right.
+
+927
+00:47:12,600 --> 00:47:16,320
+And and if you're just a few
+months faster, I'm training a
+
+928
+00:47:16,320 --> 00:47:17,920
+large language model that can
+make a big.
+
+929
+00:47:17,920 --> 00:47:20,000
+Difference right in in the long
+term game here.
+
+930
+00:47:20,000 --> 00:47:23,600
+And so it's, it's, it's
+interesting the bottlenecks,
+
+931
+00:47:23,600 --> 00:47:24,560
+right?
+Like if you, I don't know if
+
+932
+00:47:24,560 --> 00:47:26,520
+you've been following this, but
+there's like, it's all these neo
+
+933
+00:47:26,520 --> 00:47:29,680
+clouds, of course.
+But there's also these practical
+
+934
+00:47:29,680 --> 00:47:31,560
+problems people are running
+into, like there's not enough
+
+935
+00:47:31,560 --> 00:47:34,680
+electricians to like, you know,
+data centers, right?
+
+936
+00:47:36,440 --> 00:47:40,240
+And there's like, you know,
+like, like a meta doesn't have
+
+937
+00:47:40,240 --> 00:47:43,400
+enough like buildings.
+So they'd like operating data
+
+938
+00:47:43,400 --> 00:47:45,800
+centers in tents, right?
+Like, and then there's like this
+
+939
+00:47:45,800 --> 00:47:51,800
+really efficient cooling systems
+built by NVIDIA that like run
+
+940
+00:47:51,840 --> 00:47:55,360
+super efficiently.
+But then like XAI is, is is like
+
+941
+00:47:55,360 --> 00:48:00,120
+literally like, like using
+generators to do sort of cool
+
+942
+00:48:00,120 --> 00:48:03,680
+water and pump it into the
+cooling system in the Super
+
+943
+00:48:03,680 --> 00:48:04,960
+inefficient way.
+But they, they got their
+
+944
+00:48:04,960 --> 00:48:07,000
+training model up much faster
+than anybody else, right?
+
+945
+00:48:07,000 --> 00:48:10,120
+And so like, yeah, like running
+fast matters here.
+
+946
+00:48:10,600 --> 00:48:13,880
+And that's probably where, to be
+fair, the, there is a difference
+
+947
+00:48:13,880 --> 00:48:19,520
+between the HPC for CAE and the,
+and the HPC for AI because it's
+
+948
+00:48:19,520 --> 00:48:22,280
+probably true.
+If if you're a very large AI
+
+949
+00:48:22,280 --> 00:48:26,360
+company where you need so much
+compute, but it's basically just
+
+950
+00:48:26,360 --> 00:48:29,080
+for you, you could probably
+argue that it might be actually
+
+951
+00:48:29,080 --> 00:48:30,280
+better for you to build it
+yourself.
+
+952
+00:48:30,280 --> 00:48:33,480
+If that's your core
+differentiator is to get that
+
+953
+00:48:33,480 --> 00:48:35,600
+training model out.
+Two months later, you can kind
+
+954
+00:48:35,600 --> 00:48:38,280
+of see like, why would we go and
+wait on a cloud?
+
+955
+00:48:38,280 --> 00:48:40,560
+We can just do it ourselves.
+We, we have the same type of
+
+956
+00:48:40,560 --> 00:48:42,480
+GPU.
+We have 100,000 of them.
+
+957
+00:48:42,840 --> 00:48:45,240
+That's it.
+Then it's I can see the logic
+
+958
+00:48:45,720 --> 00:48:48,400
+but for most manufacturing
+companies or aerospace
+
+959
+00:48:48,400 --> 00:48:53,120
+companies, they don't have
+100,000 GPUs to train 1 bottle
+
+960
+00:48:53,120 --> 00:48:54,840
+right?
+It's a different world.
+
+961
+00:48:54,840 --> 00:48:59,960
+So I guess it's different needs
+as you say.
+
+962
+00:49:01,040 --> 00:49:04,320
+And probably they don't have 150
+different applications, legacy
+
+963
+00:49:04,320 --> 00:49:07,000
+applications like CAE does.
+I guess the AI world is
+
+964
+00:49:07,000 --> 00:49:09,120
+something newer.
+Yeah, I do think like you know,
+
+965
+00:49:09,240 --> 00:49:13,640
+AI is is changing a lot and you
+know the CAE engineering world
+
+966
+00:49:13,680 --> 00:49:15,480
+as well, right.
+And, and we could talk more
+
+967
+00:49:15,480 --> 00:49:17,720
+about that, but like you spend a
+lot of time talking about the
+
+968
+00:49:17,720 --> 00:49:20,680
+HPC layer.
+I think the way, if you sort of
+
+969
+00:49:20,680 --> 00:49:22,040
+Fast forward to rescale today,
+right?
+
+970
+00:49:22,040 --> 00:49:24,720
+Like the way the way we look at
+it today is there's the HPC
+
+971
+00:49:24,720 --> 00:49:29,040
+layer or the compute layer, but
+you the the the data layer,
+
+972
+00:49:29,040 --> 00:49:33,920
+super important, right?
+Like, so, so one of the big
+
+973
+00:49:34,280 --> 00:49:36,600
+argue like, OK, why do these big
+training models?
+
+974
+00:49:36,600 --> 00:49:39,440
+Why, why are these then sort of
+on Prem is like a natural
+
+975
+00:49:39,440 --> 00:49:41,080
+question, right?
+Like, but like if you're sort of
+
+976
+00:49:41,080 --> 00:49:44,760
+the downloading entire web and
+then like training on that,
+
+977
+00:49:44,840 --> 00:49:47,880
+that's a very heavy data gravity
+kind of situation, right?
+
+978
+00:49:48,400 --> 00:49:52,520
+And of course you want that data
+as close as possible to the
+
+979
+00:49:52,520 --> 00:49:53,960
+compute.
+So there's always like memory
+
+980
+00:49:53,960 --> 00:49:56,400
+implications.
+There's there's how these, you
+
+981
+00:49:56,400 --> 00:49:58,160
+know, all the detailed
+architecture really matters, but
+
+982
+00:49:58,160 --> 00:49:59,600
+also it's like, how do you serve
+all these things?
+
+983
+00:50:00,320 --> 00:50:03,640
+So that's one, I would say class
+of HPC problems.
+
+984
+00:50:04,600 --> 00:50:08,840
+But data starts, you know, it's
+true that some of this is only
+
+985
+00:50:08,840 --> 00:50:13,320
+for these large LLM providers.
+But you know, I think everybody
+
+986
+00:50:13,320 --> 00:50:15,560
+like if I speak with our
+customers, they're all building
+
+987
+00:50:15,560 --> 00:50:18,280
+AI models themselves as well.
+And these are much smaller
+
+988
+00:50:18,280 --> 00:50:20,720
+scale.
+But ultimately they need
+
+989
+00:50:20,720 --> 00:50:23,880
+efficient infrastructure to
+train their own data as well.
+
+990
+00:50:24,480 --> 00:50:26,240
+Yeah.
+And then obviously inference is
+
+991
+00:50:26,240 --> 00:50:28,320
+a big one too, right?
+And like running inference
+
+992
+00:50:28,320 --> 00:50:31,320
+efficiently is going to get
+really important right today,
+
+993
+00:50:32,600 --> 00:50:34,640
+you know, if you if you sort of
+breakdown the economics.
+
+994
+00:50:34,640 --> 00:50:37,400
+So like Silicon Valley is
+funding a lot of very cheap
+
+995
+00:50:37,400 --> 00:50:38,360
+services, right?
+Why?
+
+996
+00:50:38,360 --> 00:50:41,920
+Because everybody wants to win
+the AI platform war, so to
+
+997
+00:50:41,920 --> 00:50:43,840
+speak, right?
+And so people are willing to
+
+998
+00:50:43,840 --> 00:50:46,280
+lose a lot of money today on
+inference, right?
+
+999
+00:50:46,320 --> 00:50:50,760
+Just to win the customer, right?
+But over over time, all these
+
+1000
+00:50:50,760 --> 00:50:54,360
+economics need to be figured out
+and things do need to be run
+
+1001
+00:50:54,360 --> 00:50:57,920
+actually efficiently, right?
+And so a manufacturer, because
+
+1002
+00:50:58,480 --> 00:51:01,280
+here say a Tier 1 manufacturer
+and automotive, you're kind of
+
+1003
+00:51:01,280 --> 00:51:04,680
+running your it's like a 510%
+margin business often, right?
+
+1004
+00:51:04,760 --> 00:51:08,080
+And so it's like you already
+have to run really efficiently.
+
+1005
+00:51:08,080 --> 00:51:10,040
+Why that's why IT focus so much
+on TCO.
+
+1006
+00:51:10,040 --> 00:51:12,760
+That's that's why it's like,
+hey, I can run like the system
+
+1007
+00:51:12,760 --> 00:51:15,600
+for like 10 years and divide it,
+you know, like it all makes
+
+1008
+00:51:15,600 --> 00:51:18,280
+sense to me.
+But I think if you think about
+
+1009
+00:51:18,280 --> 00:51:20,400
+the engineering.
+Problems you want to solve if
+
+1010
+00:51:20,400 --> 00:51:24,320
+you're a little bit, you know
+for thinking of like OK, you
+
+1011
+00:51:24,320 --> 00:51:26,720
+know how to get out of being a
+10% margin business as a.
+
+1012
+00:51:27,480 --> 00:51:31,000
+Tier one supplier, right?
+It's I think the way out is
+
+1013
+00:51:31,000 --> 00:51:35,800
+actually using the latest
+technologies, which is, you
+
+1014
+00:51:35,800 --> 00:51:38,600
+know, there's, there's a compute
+layer, but especially your data,
+
+1015
+00:51:38,600 --> 00:51:42,040
+say you're a seat manufacturer.
+I know how to like do seat
+
+1016
+00:51:42,040 --> 00:51:43,880
+design really well.
+And I might be really good at
+
+1017
+00:51:43,880 --> 00:51:46,800
+crash simulation, right?
+And so and so have all this
+
+1018
+00:51:46,800 --> 00:51:49,240
+crash simulation data.
+If I'm like one of the top three
+
+1019
+00:51:49,240 --> 00:51:51,880
+companies in seat manufacturing,
+I probably have some of the best
+
+1020
+00:51:51,880 --> 00:51:54,680
+crash simulation data for seats
+out of anybody, right?
+
+1021
+00:51:54,840 --> 00:51:57,360
+If you can build what we call
+some of these like AI physics
+
+1022
+00:51:57,360 --> 00:51:59,560
+models around that, you can
+build a lot of the intelligence
+
+1023
+00:51:59,560 --> 00:52:01,440
+into a much more compressed
+timeline, right?
+
+1024
+00:52:01,440 --> 00:52:03,600
+So now instead of like trying to
+speed up the algorithm, you're
+
+1025
+00:52:03,600 --> 00:52:06,000
+actually like changing the
+algorithm and going to from
+
+1026
+00:52:06,000 --> 00:52:09,600
+deterministic to probabilistic.
+But then maybe I can serve my
+
+1027
+00:52:09,600 --> 00:52:12,560
+OEM like way faster, like not a
+little bit faster.
+
+1028
+00:52:12,680 --> 00:52:14,640
+Like I can actually say, hey,
+like I, I think I could do that
+
+1029
+00:52:14,640 --> 00:52:19,000
+seat with like 98% confidence
+and I could give you that answer
+
+1030
+00:52:19,080 --> 00:52:23,720
+in maybe an hour instead of like
+2 months of analysis, right?
+
+1031
+00:52:24,680 --> 00:52:28,760
+And so this is, that's, I think
+where the future's headed.
+
+1032
+00:52:28,760 --> 00:52:32,440
+And then like you have, that's
+on the simulation side.
+
+1033
+00:52:32,920 --> 00:52:36,000
+Then there's also this, you
+know, we're working with
+
+1034
+00:52:36,000 --> 00:52:38,240
+customers to build sort of
+engineering agents.
+
+1035
+00:52:38,240 --> 00:52:39,160
+Right.
+It's like.
+
+1036
+00:52:39,240 --> 00:52:42,520
+You, you kind of get this
+capability to this, you're
+
+1037
+00:52:42,520 --> 00:52:44,840
+actually starting for the
+simulation engineers.
+
+1038
+00:52:44,840 --> 00:52:48,680
+They have this this automotive
+company empowering them to just
+
+1039
+00:52:48,680 --> 00:52:52,320
+do their job like way faster.
+So all the mundane tasks you're
+
+1040
+00:52:52,320 --> 00:52:54,000
+starting to sort of automate,
+right?
+
+1041
+00:52:54,680 --> 00:52:57,440
+And that's I think every
+function and every industry
+
+1042
+00:52:57,440 --> 00:53:00,160
+frankly is going to go through
+that sort of process, right.
+
+1043
+00:53:01,160 --> 00:53:04,480
+The nice thing in engineering is
+there is a lot of data and
+
+1044
+00:53:04,480 --> 00:53:07,080
+there's a lot of like
+intelligence already built into
+
+1045
+00:53:07,080 --> 00:53:11,440
+all these processes, etcetera.
+And so it's rescale with our
+
+1046
+00:53:11,440 --> 00:53:12,920
+customers.
+We're in a unique position where
+
+1047
+00:53:12,920 --> 00:53:16,000
+we, I think, have a really good
+understanding of like how the
+
+1048
+00:53:16,000 --> 00:53:18,960
+actual end user engineer or
+scientist runs all these work
+
+1049
+00:53:18,960 --> 00:53:20,560
+flows.
+What are the problems they're
+
+1050
+00:53:20,560 --> 00:53:22,360
+trying to solve?
+It can help them do that, you
+
+1051
+00:53:22,360 --> 00:53:24,560
+know, 10 times better.
+Everybody wants, right?
+
+1052
+00:53:24,840 --> 00:53:28,280
+And this entire compute
+conversation, right, becomes
+
+1053
+00:53:28,280 --> 00:53:31,920
+pretty secondary, right, Because
+it's sort of like, you know,
+
+1054
+00:53:31,920 --> 00:53:34,280
+like that's just it's just
+electricity, right?
+
+1055
+00:53:34,280 --> 00:53:37,480
+It's it's like you're just
+powering the ability for an
+
+1056
+00:53:37,480 --> 00:53:39,560
+engineer or scientist to come up
+with a cool innovation.
+
+1057
+00:53:40,640 --> 00:53:44,520
+Well, that's kind of yeah, a
+good segue to talk about that a
+
+1058
+00:53:44,520 --> 00:53:46,560
+little bit more.
+The you're right, we basically
+
+1059
+00:53:46,560 --> 00:53:52,720
+focused on HPCHPC was pre AI the
+big changer, you know, you have
+
+1060
+00:53:52,720 --> 00:53:55,600
+more HPC run your simulation
+faster and it still is, don't
+
+1061
+00:53:55,600 --> 00:53:57,600
+get me wrong.
+And of course you know, GP us
+
+1062
+00:53:57,600 --> 00:54:04,160
+help that, but the AI feels very
+transformative for engineering.
+
+1063
+00:54:04,160 --> 00:54:09,200
+So I mean, how have you seen
+that convergence on the Rescale
+
+1064
+00:54:09,200 --> 00:54:11,600
+platform and from customers that
+you're speaking to, You know,
+
+1065
+00:54:11,600 --> 00:54:16,120
+are they still just dabbling and
+with their sort of more in the
+
+1066
+00:54:16,120 --> 00:54:21,400
+R&D phase, how much more sort of
+AI training or AI surrogates are
+
+1067
+00:54:21,400 --> 00:54:24,320
+they doing next to their
+traditional CAE?
+
+1068
+00:54:24,320 --> 00:54:27,080
+How are you seeing that you're,
+you're at the front with
+
+1069
+00:54:27,080 --> 00:54:28,920
+customers?
+How is that transition?
+
+1070
+00:54:29,640 --> 00:54:34,680
+The yeah, it's happening really
+fast, you know, are let's say
+
+1071
+00:54:34,680 --> 00:54:37,680
+our most innovative and fast
+adopting customers.
+
+1072
+00:54:37,680 --> 00:54:41,960
+They have AI based automation.
+You called agentic kind of
+
+1073
+00:54:42,440 --> 00:54:44,840
+things built in.
+They have they're definitely
+
+1074
+00:54:44,840 --> 00:54:47,760
+doing AI surrogates.
+They are really thinking ahead
+
+1075
+00:54:47,760 --> 00:54:51,280
+of like what's the sort of let's
+just assume we already have AI
+
+1076
+00:54:51,280 --> 00:54:52,920
+surrogates, right?
+Like what are the next level of
+
+1077
+00:54:52,920 --> 00:54:55,120
+problems we can solve?
+Because once you have AI
+
+1078
+00:54:55,120 --> 00:54:57,880
+surrogates and sort of, you
+know, domain I'm I'm pretty
+
+1079
+00:54:57,880 --> 00:55:00,800
+familiar with is things like in
+the, in the multi physics space,
+
+1080
+00:55:00,800 --> 00:55:02,280
+right?
+Like you're always trying to
+
+1081
+00:55:02,280 --> 00:55:04,320
+kind of to reduce your
+remodeling or some way to
+
+1082
+00:55:04,320 --> 00:55:08,120
+simplify these highly complex
+kind of large scale models?
+
+1083
+00:55:08,120 --> 00:55:10,320
+And sort of.
+If you're say building an
+
+1084
+00:55:10,320 --> 00:55:12,960
+airplane, you have this
+conceptual design chase where
+
+1085
+00:55:12,960 --> 00:55:16,440
+you're like, it's smart to use
+like carbon fiber as a material
+
+1086
+00:55:16,440 --> 00:55:19,320
+system for this airplane where
+all the implications.
+
+1087
+00:55:19,960 --> 00:55:22,800
+The challenge with that is
+always like we get to the
+
+1088
+00:55:22,800 --> 00:55:26,960
+detailed design that that's when
+all the details like it really
+
+1089
+00:55:26,960 --> 00:55:30,160
+matter.
+And it'll be like, you know, at
+
+1090
+00:55:30,160 --> 00:55:32,360
+the at the base of like a
+commercial aircraft, you might
+
+1091
+00:55:32,360 --> 00:55:34,560
+have 100 to 200 plies of carbon
+fiber.
+
+1092
+00:55:34,560 --> 00:55:36,560
+And then you have this like bolt
+that comes through there into
+
+1093
+00:55:36,560 --> 00:55:39,040
+the titanium fitting.
+And there's like a bunch of
+
+1094
+00:55:39,040 --> 00:55:41,360
+rules on like how that bolt
+supposed to interact with the
+
+1095
+00:55:41,360 --> 00:55:43,000
+system and all this kind of
+stuff, right?
+
+1096
+00:55:43,960 --> 00:55:48,320
+And it'll be like, OK, like we
+really need 200 carbon fiber.
+
+1097
+00:55:48,320 --> 00:55:51,880
+Plies at that root, right?
+But then it'll be like, well, we
+
+1098
+00:55:51,880 --> 00:55:55,320
+can't just go from 200 carbon
+fiber plies to like 10 in the
+
+1099
+00:55:55,320 --> 00:55:57,920
+next panel over.
+Like this needs to go very sort
+
+1100
+00:55:57,920 --> 00:56:03,560
+of slowly, like reduce it by 10%
+sort of every panel because you
+
+1101
+00:56:03,560 --> 00:56:06,240
+can't have this disproportionate
+kind of stress situation, right?
+
+1102
+00:56:06,240 --> 00:56:08,280
+And then it's like, oh, well,
+this panel, we need actually be
+
+1103
+00:56:08,280 --> 00:56:11,160
+able to make it.
+And you know, like our tool
+
+1104
+00:56:11,160 --> 00:56:13,880
+forming process can only handle
+XYZ.
+
+1105
+00:56:13,920 --> 00:56:20,160
+So there's a lot more that
+detail drives an enormous amount
+
+1106
+00:56:20,160 --> 00:56:24,040
+of the actual design.
+And the problem has always been
+
+1107
+00:56:24,040 --> 00:56:26,800
+is like in that conceptual
+design phase, how the historic
+
+1108
+00:56:26,840 --> 00:56:29,160
+has been done, you get a lot of
+really smart people in the room.
+
+1109
+00:56:29,400 --> 00:56:31,920
+And you say, yeah, this seems
+like the right decision because
+
+1110
+00:56:31,920 --> 00:56:34,160
+I've seen some test data on
+carbon fiber over here and I've
+
+1111
+00:56:34,160 --> 00:56:35,680
+like run some experiments over
+there.
+
+1112
+00:56:35,720 --> 00:56:39,280
+But what you really want to do
+is kind of take all that really
+
+1113
+00:56:39,280 --> 00:56:43,560
+detailed complex information and
+synthesize it up to help make
+
+1114
+00:56:43,600 --> 00:56:46,440
+one of these kind of higher
+level decisions, right?
+
+1115
+00:56:46,480 --> 00:56:49,800
+And what AI circuits allow you
+to do is to simplify that
+
+1116
+00:56:49,800 --> 00:56:52,880
+compression process.
+I do agree that it is, you know,
+
+1117
+00:56:52,880 --> 00:56:54,680
+the criticism is like, hey, this
+is misleading.
+
+1118
+00:56:54,680 --> 00:56:57,040
+You can, you can run the
+simulation 10,000 times faster,
+
+1119
+00:56:57,040 --> 00:56:58,920
+etcetera.
+I mean, it is, it depends on
+
+1120
+00:56:58,920 --> 00:57:00,920
+your frame of reference whether
+that's true or not.
+
+1121
+00:57:00,920 --> 00:57:06,080
+But like what what is absolutely
+true is that using neural Nets
+
+1122
+00:57:06,200 --> 00:57:10,040
+to compress this highly complex
+information, right and solve
+
+1123
+00:57:10,040 --> 00:57:13,080
+next sort of generation problems
+that you would never even
+
+1124
+00:57:13,080 --> 00:57:15,320
+attempt before, right?
+Are now possible, right?
+
+1125
+00:57:15,320 --> 00:57:19,400
+And and you have this much more
+elegant process to sort of
+
+1126
+00:57:19,400 --> 00:57:21,760
+capture the intelligence of your
+engineering organization.
+
+1127
+00:57:22,680 --> 00:57:25,240
+So and you can look do that at
+the, you know, individual
+
+1128
+00:57:25,240 --> 00:57:28,000
+discipline solver level, right?
+But you can also do that at
+
+1129
+00:57:28,000 --> 00:57:29,480
+higher levels.
+And then you can start
+
+1130
+00:57:29,480 --> 00:57:31,440
+incorporating, you know, these
+sort of things like
+
+1131
+00:57:31,440 --> 00:57:33,520
+manufacturing constraints and
+things like that.
+
+1132
+00:57:33,520 --> 00:57:36,880
+And if you can, you know, the,
+the faster you can do that loop
+
+1133
+00:57:36,880 --> 00:57:40,000
+basically, right, like the
+better design you will get.
+
+1134
+00:57:40,120 --> 00:57:42,040
+Like I think what people are
+usually surprised by is that
+
+1135
+00:57:42,040 --> 00:57:46,120
+that loop, there's exceptions to
+this, but that loop takes a long
+
+1136
+00:57:46,120 --> 00:57:48,960
+time.
+Like in in typical aerospace
+
+1137
+00:57:48,960 --> 00:57:53,120
+company, both Airbus and Bali of
+this sort of like loop of just
+
+1138
+00:57:53,120 --> 00:57:55,720
+like all the different
+engineering disciplines to sort
+
+1139
+00:57:55,720 --> 00:57:58,920
+of say, OK, to have this shape
+wing based on this ship, we're
+
+1140
+00:57:58,920 --> 00:58:01,240
+going to have these like loads
+in the system based on these
+
+1141
+00:58:01,240 --> 00:58:03,480
+loads, like this sort of
+mechanical team is going to like
+
+1142
+00:58:03,480 --> 00:58:06,440
+decide what kind of like
+structure we can do because of
+
+1143
+00:58:06,440 --> 00:58:08,320
+the structure, it's going to
+bend a certain way, which then
+
+1144
+00:58:08,320 --> 00:58:10,680
+comes back to like, OK, that's
+the shape of the wing at cruise,
+
+1145
+00:58:10,680 --> 00:58:12,200
+right?
+And so you have this big loop
+
+1146
+00:58:12,800 --> 00:58:15,400
+and that loop takes like three
+to four months.
+
+1147
+00:58:15,400 --> 00:58:17,240
+It could take like an hour,
+right?
+
+1148
+00:58:17,240 --> 00:58:19,920
+Like if you sort of said, hey,
+I'm not constrained by compute.
+
+1149
+00:58:21,120 --> 00:58:23,000
+You're just running a whole
+bunch of software, right?
+
+1150
+00:58:23,680 --> 00:58:25,560
+You still need some really smart
+people to make some smart
+
+1151
+00:58:25,560 --> 00:58:27,040
+decisions, right?
+Like it doesn't totally
+
+1152
+00:58:27,040 --> 00:58:28,880
+eliminate the engineer.
+No.
+
+1153
+00:58:28,880 --> 00:58:32,920
+But, but I do think that that's
+where the industry is going.
+
+1154
+00:58:33,200 --> 00:58:35,920
+Our customers like the the
+bleeding edge customers, they
+
+1155
+00:58:35,920 --> 00:58:39,840
+are implementing all this stuff
+right now and it's all possible
+
+1156
+00:58:39,840 --> 00:58:41,480
+today.
+Like the exciting thing now is
+
+1157
+00:58:41,480 --> 00:58:43,760
+like, hey, it's right there.
+You just have to do it.
+
+1158
+00:58:44,400 --> 00:58:47,440
+That's exactly that's the way I
+normally describe it to people
+
+1159
+00:58:47,440 --> 00:58:50,400
+is that, you know, 10 years ago
+there used to be this dream of
+
+1160
+00:58:50,600 --> 00:58:55,240
+real time CAE that, you know,
+HPC would become so fast that
+
+1161
+00:58:55,240 --> 00:58:57,120
+you could do the simulation in
+real time.
+
+1162
+00:58:57,200 --> 00:59:00,160
+But it actually is impossible.
+You know, there's various
+
+1163
+00:59:00,160 --> 00:59:03,440
+reasons why a traditional
+structures or fluid solver will
+
+1164
+00:59:03,440 --> 00:59:08,200
+never really become real time.
+And that's where it's, I feel
+
+1165
+00:59:08,200 --> 00:59:11,880
+the AI surrogates, because by
+definition they can be real
+
+1166
+00:59:11,880 --> 00:59:15,400
+time, does allow for the more
+agentic AI.
+
+1167
+00:59:15,400 --> 00:59:18,720
+Because how can you really have
+an agentic AI system when one of
+
+1168
+00:59:18,720 --> 00:59:21,320
+the agents is a solver that
+takes 12 hours to run?
+
+1169
+00:59:21,560 --> 00:59:26,480
+Like, yeah, you can do that, but
+it, it doesn't feel like the end
+
+1170
+00:59:26,480 --> 00:59:29,440
+goal.
+The end goal should be like
+
+1171
+00:59:29,440 --> 00:59:31,800
+Google Gemini just because I
+happen to use that one.
+
+1172
+00:59:32,040 --> 00:59:37,080
+There's others where like I want
+to ask it to do something for
+
+1173
+00:59:37,080 --> 00:59:39,200
+me.
+I don't want to wait 12 hours to
+
+1174
+00:59:39,200 --> 00:59:42,120
+get the answer back.
+It feels like you want it to
+
+1175
+00:59:42,120 --> 00:59:45,720
+come in a short time and I feel
+like the AI surrogates plug into
+
+1176
+00:59:45,720 --> 00:59:49,600
+that AI agent theme more easily
+if you know what I mean.
+
+1177
+00:59:49,600 --> 00:59:53,000
+I don't know if you agree.
+Yeah, it's a good.
+
+1178
+00:59:53,000 --> 00:59:57,440
+It's an interesting way for any
+and I guess the way I look at it
+
+1179
+00:59:57,440 --> 01:00:00,560
+is you have kind of, you know,
+just like you have deep
+
+1180
+01:00:00,560 --> 01:00:02,960
+research, it takes a lot longer
+and then you have also like
+
+1181
+01:00:02,960 --> 01:00:04,840
+quick responses.
+It's just like that, right?
+
+1182
+01:00:04,840 --> 01:00:09,240
+Like where it's like, hey, if I
+am a designer and I just want to
+
+1183
+01:00:09,240 --> 01:00:14,600
+change the shape of a mirror,
+right, I can get an instant
+
+1184
+01:00:14,600 --> 01:00:17,760
+arrow response that's like 99%
+accurate.
+
+1185
+01:00:18,400 --> 01:00:21,400
+That is awesome, right?
+Like before, my alternative was
+
+1186
+01:00:21,480 --> 01:00:24,720
+I changed the design, sent the
+CAD model over to the Arrow
+
+1187
+01:00:24,720 --> 01:00:27,120
+team.
+Three days later they send me
+
+1188
+01:00:27,120 --> 01:00:29,720
+back.
+Hey, that, that create a lot of
+
+1189
+01:00:29,720 --> 01:00:34,480
+drag, right?
+So now you can get like a like a
+
+1190
+01:00:34,480 --> 01:00:37,760
+pretty good answer and and
+pretty good.
+
+1191
+01:00:37,760 --> 01:00:41,520
+Like I've seen cases where this
+is like over 99.9% accurate and
+
+1192
+01:00:41,520 --> 01:00:43,800
+like, of course that depends on
+like the data you train on and
+
+1193
+01:00:43,800 --> 01:00:46,600
+all these kind of things.
+But ultimately you can get these
+
+1194
+01:00:46,600 --> 01:00:50,600
+responses back that dramatically
+reduce the cycle.
+
+1195
+01:00:50,600 --> 01:00:53,600
+So you just eliminated 3 days by
+providing like a rough estimate
+
+1196
+01:00:53,600 --> 01:00:56,480
+that's almost real time.
+I still think that the detailed
+
+1197
+01:00:56,480 --> 01:00:59,400
+simulations do really matter.
+Like that's your training data,
+
+1198
+01:00:59,680 --> 01:01:01,080
+right?
+Like so like, and there's a
+
+1199
+01:01:01,160 --> 01:01:04,000
+couple of parts there, right?
+Like I think there's the, I call
+
+1200
+01:01:04,000 --> 01:01:06,760
+it the SIM to real gap, which is
+a separate discussion.
+
+1201
+01:01:06,760 --> 01:01:09,840
+But that's, it's another, I
+think, interesting element,
+
+1202
+01:01:09,840 --> 01:01:12,920
+which is like, OK, are these
+simulations that we're running,
+
+1203
+01:01:13,400 --> 01:01:15,200
+how accurate are they?
+Because the real ground tooth
+
+1204
+01:01:15,200 --> 01:01:17,480
+data, right?
+It's not even wind tunnel
+
+1205
+01:01:17,480 --> 01:01:19,360
+testing.
+It's actually like the real
+
+1206
+01:01:19,360 --> 01:01:20,960
+data, right?
+And the wind tunnel is a proxy
+
+1207
+01:01:20,960 --> 01:01:22,680
+for that.
+And then your simulation tool is
+
+1208
+01:01:22,680 --> 01:01:25,520
+a proxy for the wind tunnel.
+And yes, all the physics
+
+1209
+01:01:25,520 --> 01:01:27,600
+equations are correct, but
+there's like a lot of little
+
+1210
+01:01:27,600 --> 01:01:30,240
+things that still can, can
+change, like real world
+
+1211
+01:01:30,240 --> 01:01:32,920
+outcomes.
+And so, but from the pure
+
+1212
+01:01:32,920 --> 01:01:37,000
+simulation, you now have the
+ability to generate and ground
+
+1213
+01:01:37,000 --> 01:01:38,920
+all this data like very
+efficiently with these AI
+
+1214
+01:01:38,920 --> 01:01:42,200
+models, right?
+And so like, yes, that designer
+
+1215
+01:01:42,200 --> 01:01:44,720
+doesn't want to wait for like an
+like, yeah, you can give them an
+
+1216
+01:01:44,720 --> 01:01:47,560
+agentic capability spin off a
+simulation, right?
+
+1217
+01:01:47,920 --> 01:01:49,720
+That's not that useful to them,
+right?
+
+1218
+01:01:50,960 --> 01:01:55,680
+Where agentic to me means, and
+you know, it's a kind of a
+
+1219
+01:01:55,680 --> 01:01:57,120
+buzzword.
+So everything's agentic these
+
+1220
+01:01:57,120 --> 01:01:59,960
+days.
+But to me it's more of this kind
+
+1221
+01:01:59,960 --> 01:02:01,600
+of like like proactive thing,
+right?
+
+1222
+01:02:01,600 --> 01:02:04,040
+So where it's like, OK, here,
+here's what happened.
+
+1223
+01:02:04,880 --> 01:02:08,520
+And it'll sort of describe a
+customer scenario, automotive
+
+1224
+01:02:08,600 --> 01:02:11,400
+OEM, right?
+And they have a supplier,
+
+1225
+01:02:11,760 --> 01:02:16,240
+supplier say it's the seat
+manufacturer, they changed the
+
+1226
+01:02:16,240 --> 01:02:19,320
+design of the seat because some
+reason for same
+
+1227
+01:02:19,320 --> 01:02:20,760
+manufacturability on their end,
+right?
+
+1228
+01:02:21,160 --> 01:02:25,160
+That design change is is sort of
+automatically synced this OEM,
+
+1229
+01:02:26,200 --> 01:02:29,600
+this is happening because this
+seat manufacturer is in Europe
+
+1230
+01:02:29,600 --> 01:02:32,560
+and the OEM is in the US.
+You know, this is happening at
+
+1231
+01:02:32,560 --> 01:02:35,320
+like 2:00 AM right now because
+that change happened.
+
+1232
+01:02:36,280 --> 01:02:38,120
+You need to rerun your crash
+analysis.
+
+1233
+01:02:38,120 --> 01:02:40,440
+So you could do an instant
+response of like sort of an AI
+
+1234
+01:02:40,440 --> 01:02:43,760
+surrogate of like, hey, is this
+going to be a is this look great
+
+1235
+01:02:43,800 --> 01:02:45,720
+or is this bad?
+And it's like this might be a
+
+1236
+01:02:45,720 --> 01:02:48,000
+problem.
+OK, now because of that and the
+
+1237
+01:02:48,000 --> 01:02:51,720
+simulation engineer sleeping
+because of that, a spin up like
+
+1238
+01:02:52,240 --> 01:02:55,520
+ALS dyna job to go run the crash
+analysis and I'm just going to
+
+1239
+01:02:55,520 --> 01:02:59,200
+run it for just this component,
+the subcomponents, you know, in
+
+1240
+01:02:59,200 --> 01:03:00,960
+a way that's like pretty
+efficient based on a bunch of
+
+1241
+01:03:00,960 --> 01:03:02,400
+rules.
+I gave that agent right, which
+
+1242
+01:03:02,400 --> 01:03:05,640
+said, hey, you can't spend more
+than $1000 and if it design
+
+1243
+01:03:05,640 --> 01:03:07,720
+change like this comes in,
+always use the AI surrogate
+
+1244
+01:03:07,720 --> 01:03:11,120
+first.
+And now I, I want to, you know,
+
+1245
+01:03:11,120 --> 01:03:13,800
+like failed that test, though,
+right then then run this
+
+1246
+01:03:13,800 --> 01:03:15,240
+simulation.
+So when I come in in the
+
+1247
+01:03:15,240 --> 01:03:19,200
+morning, right open my laptop at
+7 AMI got right there.
+
+1248
+01:03:19,280 --> 01:03:21,640
+I have the simulation results
+right to go review right?
+
+1249
+01:03:21,680 --> 01:03:24,080
+And it's like it's.
+Pre done the proce processing,
+
+1250
+01:03:24,120 --> 01:03:26,240
+this whole like trace of all
+these things that happened is
+
+1251
+01:03:26,240 --> 01:03:27,800
+presented to me in like a simple
+way.
+
+1252
+01:03:27,800 --> 01:03:32,920
+And you know, my job just got so
+much faster and more efficient,
+
+1253
+01:03:32,920 --> 01:03:36,560
+right, Like, like the real way
+this happened before and and
+
+1254
+01:03:36,560 --> 01:03:39,320
+most organizations work this way
+is like, oh, this this CAD file
+
+1255
+01:03:39,320 --> 01:03:41,840
+got zipped up, right, and then
+it's like sat in somebody's
+
+1256
+01:03:41,840 --> 01:03:43,600
+outbox, but they were in Europe,
+so they were actually on
+
+1257
+01:03:43,600 --> 01:03:45,040
+vacation for another week,
+right.
+
+1258
+01:03:45,400 --> 01:03:48,200
+And so like it didn't actually
+get make it over to the OEM
+
+1259
+01:03:48,200 --> 01:03:53,080
+because like whatever random
+human delay, right, then the zip
+
+1260
+01:03:53,080 --> 01:03:54,840
+file comes over and then
+somebody has to do this
+
+1261
+01:03:54,840 --> 01:03:57,760
+analysis, right?
+And then, and then all these
+
+1262
+01:03:57,760 --> 01:04:00,880
+sort of steps happen, right?
+And I think if you can sort of
+
+1263
+01:04:00,880 --> 01:04:04,040
+shorten that entire process now,
+it's not perfect, right?
+
+1264
+01:04:04,040 --> 01:04:07,080
+Like if you look at the tools we
+have today, there's a lot of
+
+1265
+01:04:07,080 --> 01:04:09,720
+expertise to make all these
+judgements and do all these
+
+1266
+01:04:09,720 --> 01:04:11,880
+things.
+But you can already see today
+
+1267
+01:04:11,880 --> 01:04:14,080
+that like our customers are
+already doing this.
+
+1268
+01:04:14,720 --> 01:04:17,040
+They're automating more and more
+of this process, right?
+
+1269
+01:04:18,160 --> 01:04:19,560
+And you're just going to get
+comfortable with it.
+
+1270
+01:04:19,560 --> 01:04:22,200
+It's just like you get
+comfortable with using a Gemini
+
+1271
+01:04:22,200 --> 01:04:25,400
+or ChatGPT or whatever, right?
+And that's the sort of agentic
+
+1272
+01:04:25,400 --> 01:04:28,080
+thing is sort of like.
+Proactively doing all the kind
+
+1273
+01:04:28,080 --> 01:04:29,760
+of like.
+Grunt work that you don't want
+
+1274
+01:04:29,760 --> 01:04:34,040
+to do right?
+Yeah, but I, I seriously, I
+
+1275
+01:04:34,040 --> 01:04:36,280
+don't know if I'm just, you
+know, drinking the Kool-aid or
+
+1276
+01:04:36,280 --> 01:04:41,080
+whatever the phrase is, but I, I
+really can't see how this will
+
+1277
+01:04:41,080 --> 01:04:45,920
+just totally change because.
+Well, the first thing to say
+
+1278
+01:04:46,480 --> 01:04:50,200
+maybe what, what I was
+mentioning before is even if I
+
+1279
+01:04:50,200 --> 01:04:53,760
+believe that you, the AI
+surrogates, make it good enough,
+
+1280
+01:04:54,240 --> 01:04:58,920
+you're still going to have a
+whole load of huge HPC resources
+
+1281
+01:04:58,920 --> 01:05:01,720
+to create training data.
+You know, so even if the
+
+1282
+01:05:01,720 --> 01:05:04,240
+surrogate models become good
+enough, and unless there's some
+
+1283
+01:05:04,240 --> 01:05:06,720
+breakthrough that I'm not aware
+of, you still need all the
+
+1284
+01:05:06,720 --> 01:05:08,680
+traditional stuff to, to
+generate the data.
+
+1285
+01:05:08,680 --> 01:05:13,440
+So actually it's, it's not a,
+it's a replacement in that the
+
+1286
+01:05:13,440 --> 01:05:17,320
+end user may primarily use it,
+but in the back end, somebody's
+
+1287
+01:05:17,320 --> 01:05:19,520
+still having to generate this
+data to go and train the models
+
+1288
+01:05:19,520 --> 01:05:21,760
+so that you're not truly
+replacing it.
+
+1289
+01:05:21,760 --> 01:05:23,520
+It may just be in the
+background, if you know what I
+
+1290
+01:05:23,520 --> 01:05:28,760
+mean, but I really feel that
+the, the AI engineer thing seems
+
+1291
+01:05:28,760 --> 01:05:33,000
+more and more real because what
+you just described to me is
+
+1292
+01:05:33,000 --> 01:05:36,760
+eventually through enough
+training or awareness of
+
+1293
+01:05:36,760 --> 01:05:40,280
+different agents, isn't it just
+that I become like a manager?
+
+1294
+01:05:41,000 --> 01:05:45,240
+So I have I and I have a team of
+people who are not real people
+
+1295
+01:05:45,640 --> 01:05:49,440
+who are doing this analysis for
+me and I'm just looking at it at
+
+1296
+01:05:49,440 --> 01:05:50,960
+the end.
+Yes, and I think it's awesome,
+
+1297
+01:05:50,960 --> 01:05:53,480
+right?
+Like I think it's so so the
+
+1298
+01:05:53,480 --> 01:05:55,640
+other part's like this is
+already happening today.
+
+1299
+01:05:56,680 --> 01:05:59,360
+So hopefully shortly we'll be
+able to share some like maybe
+
+1300
+01:05:59,360 --> 01:06:01,880
+public customer case studies and
+exactly how this works and have
+
+1301
+01:06:01,880 --> 01:06:05,520
+the customers talk about it.
+But I think, you know, there's
+
+1302
+01:06:05,520 --> 01:06:07,600
+no part what I just described,
+right?
+
+1303
+01:06:07,600 --> 01:06:10,800
+Like all all the components that
+we have for any company to go do
+
+1304
+01:06:10,800 --> 01:06:13,760
+that, you don't need a magic AI
+surrogate model, right?
+
+1305
+01:06:13,800 --> 01:06:20,000
+Like it's just like, but I think
+the right framing is more AI
+
+1306
+01:06:20,000 --> 01:06:23,760
+surrogates is 1 module of AI.
+There's many AI modules in the
+
+1307
+01:06:23,760 --> 01:06:26,120
+entire product development
+engineering process, right?
+
+1308
+01:06:26,960 --> 01:06:29,600
+Some of these are more
+leveraging LLMS, right?
+
+1309
+01:06:29,600 --> 01:06:32,000
+Like some of them are more like
+this compute recommendation
+
+1310
+01:06:32,000 --> 01:06:33,440
+engine.
+That's like a totally different
+
+1311
+01:06:33,440 --> 01:06:35,200
+category of AI.
+But it helps solve this like
+
+1312
+01:06:35,200 --> 01:06:36,720
+search problem much more
+efficiently.
+
+1313
+01:06:37,760 --> 01:06:40,640
+You have AI surrogates who do
+these sort of probabilistic
+
+1314
+01:06:40,640 --> 01:06:42,440
+physics analysis much more
+efficiently.
+
+1315
+01:06:42,440 --> 01:06:47,400
+The, the really nice part is the
+productization of these because
+
+1316
+01:06:47,400 --> 01:06:50,160
+like if I tried to steal man,
+sort of the cynics and I've I've
+
+1317
+01:06:50,320 --> 01:06:53,400
+heard many of them in sort of
+the CAE space, right where it's
+
+1318
+01:06:53,400 --> 01:06:55,840
+like, but those are not real
+like engineering calculations.
+
+1319
+01:06:55,840 --> 01:06:58,160
+These are just like
+approximations, etcetera.
+
+1320
+01:06:58,160 --> 01:06:59,480
+Approximations been around
+forever.
+
+1321
+01:06:59,480 --> 01:07:01,560
+We've always done surrogate.
+Modeling right like the.
+
+1322
+01:07:03,240 --> 01:07:05,480
+I think what's really important
+is like, solve the real business
+
+1323
+01:07:05,480 --> 01:07:07,440
+problem, right?
+Like like solve actually what,
+
+1324
+01:07:07,560 --> 01:07:09,840
+why are people even doing this
+kind of work, right?
+
+1325
+01:07:09,840 --> 01:07:11,480
+Like, well, they're just trying
+to figure out the sort of
+
+1326
+01:07:11,480 --> 01:07:14,160
+physics answer for something.
+And almost all simulations that
+
+1327
+01:07:14,160 --> 01:07:18,760
+are run are essentially a waste
+because in the end, there's only
+
+1328
+01:07:18,760 --> 01:07:20,600
+like one or two that really
+matter that go into
+
+1329
+01:07:20,600 --> 01:07:25,360
+certification and like the Arrow
+model for say a Boeing airplane,
+
+1330
+01:07:25,400 --> 01:07:28,000
+right?
+Like they're sort of if you want
+
+1331
+01:07:28,000 --> 01:07:30,080
+the entire way of how did you
+get there, right?
+
+1332
+01:07:30,080 --> 01:07:31,960
+Like, yes, then all those other
+data matters, right?
+
+1333
+01:07:31,960 --> 01:07:35,520
+Like all the other experiments
+that were run, but more than
+
+1334
+01:07:35,760 --> 01:07:38,880
+like 99% of all those
+computations that don't impact
+
+1335
+01:07:38,880 --> 01:07:40,480
+this, like final design is
+great, right?
+
+1336
+01:07:41,440 --> 01:07:42,880
+And so the question is just
+like, how can you go through
+
+1337
+01:07:42,880 --> 01:07:45,280
+that search process as quickly
+and as efficiently as possible?
+
+1338
+01:07:45,440 --> 01:07:47,960
+And what changes everything is,
+I think it's if you can solve
+
+1339
+01:07:47,960 --> 01:07:51,960
+that search problem so much
+faster, it changes how you do
+
+1340
+01:07:51,960 --> 01:07:55,000
+engineering completely, right?
+And not in a negative way,
+
+1341
+01:07:55,000 --> 01:07:57,160
+right?
+Like to me because, because
+
+1342
+01:07:57,160 --> 01:07:59,600
+there's also like the other
+criticism on this is like, OK,
+
+1343
+01:07:59,600 --> 01:08:01,200
+well then we just replace all
+these engineers.
+
+1344
+01:08:01,240 --> 01:08:02,960
+Like I'm an engineer, like why
+are you replacing me?
+
+1345
+01:08:02,960 --> 01:08:07,640
+Right.
+But this is all like, what is
+
+1346
+01:08:07,640 --> 01:08:11,480
+your frame on technology and
+like how the world should kind
+
+1347
+01:08:11,480 --> 01:08:16,680
+of work, etcetera, right?
+But like it's I think right it
+
+1348
+01:08:16,680 --> 01:08:21,560
+it's super important to kind of
+like jump on these waves as like
+
+1349
+01:08:21,560 --> 01:08:23,640
+this is awesome.
+Why is it awesome?
+
+1350
+01:08:23,640 --> 01:08:27,640
+Well, what we just have to grind
+through a whole bunch of CAT and
+
+1351
+01:08:27,640 --> 01:08:31,160
+CAA modeling with like a team of
+12 people for like 6 months to
+
+1352
+01:08:31,160 --> 01:08:34,760
+get to this answer, not to get
+the exact same answer with two
+
+1353
+01:08:34,760 --> 01:08:38,920
+people in a week, right?
+That is a win for everybody.
+
+1354
+01:08:38,960 --> 01:08:42,279
+Those ten other people, right,
+that you may not need any more
+
+1355
+01:08:42,279 --> 01:08:45,680
+can go do five other projects.
+Those ten other people can do
+
+1356
+01:08:46,240 --> 01:08:48,600
+more meaningful things, learn
+other things, right?
+
+1357
+01:08:49,160 --> 01:08:52,479
+If you look at the history of
+like CAD modelling, right?
+
+1358
+01:08:52,640 --> 01:08:55,000
+Like it used to be, we have
+these drafters I'm sure you've
+
+1359
+01:08:55,000 --> 01:08:59,000
+seen these pictures of like, you
+know, yeah, 100 people just
+
+1360
+01:08:59,319 --> 01:09:02,560
+drafting the physical documents,
+right, To be able to build
+
+1361
+01:09:02,560 --> 01:09:06,040
+components.
+I don't think it's a negative
+
+1362
+01:09:06,040 --> 01:09:07,960
+thing that people don't need to
+do this anymore.
+
+1363
+01:09:08,000 --> 01:09:11,520
+Like you press a button in a 3D
+CAD product and spits out like
+
+1364
+01:09:11,520 --> 01:09:13,920
+so.
+It's a productivity argument,
+
+1365
+01:09:13,920 --> 01:09:16,520
+isn't it?
+You know, yeah, you can do more
+
+1366
+01:09:16,520 --> 01:09:18,359
+efficient.
+I mean, there's a debate on
+
+1367
+01:09:18,359 --> 01:09:20,359
+jobs.
+I guess it's maybe the correct
+
+1368
+01:09:20,359 --> 01:09:22,200
+thing to say is it's not the
+job.
+
+1369
+01:09:22,439 --> 01:09:25,279
+There will be people's jobs that
+they don't need to do anymore,
+
+1370
+01:09:25,279 --> 01:09:28,160
+but you'd hope they could trans
+transition to a different job.
+
+1371
+01:09:28,279 --> 01:09:30,399
+I guess is.
+Yes, and like it's.
+
+1372
+01:09:30,800 --> 01:09:35,319
+You know, the USI think the job
+retraining stat is something
+
+1373
+01:09:35,319 --> 01:09:38,640
+like 20 to 30% do rescaling
+every year.
+
+1374
+01:09:38,640 --> 01:09:41,520
+Yeah, yeah.
+So yes, unemployment stays at
+
+1375
+01:09:41,520 --> 01:09:44,680
+like X level, right.
+But like in the US statistic.
+
+1376
+01:09:44,680 --> 01:09:46,080
+But I imagine it's similar
+globally.
+
+1377
+01:09:48,439 --> 01:09:53,359
+And I don't personally find it
+very satisfying if you're like
+
+1378
+01:09:53,359 --> 01:09:57,440
+if your job was like, say, just
+drafting documents, right?
+
+1379
+01:09:57,440 --> 01:09:59,760
+But actually, like, you can just
+automate it with software.
+
+1380
+01:10:01,040 --> 01:10:02,240
+It's right.
+Not a very fun job.
+
+1381
+01:10:02,440 --> 01:10:04,600
+Right.
+Like no, no, no, hadn't.
+
+1382
+01:10:04,720 --> 01:10:08,240
+There's just certain stuff.
+I think that machines or AI now
+
+1383
+01:10:08,240 --> 01:10:10,480
+can do better.
+You know, if I have to manually
+
+1384
+01:10:10,880 --> 01:10:15,920
+go through 50 simulations and
+try and write a report, why this
+
+1385
+01:10:15,920 --> 01:10:20,400
+one moved the vortex here and AI
+could do exactly the same task
+
+1386
+01:10:20,760 --> 01:10:23,920
+in less than a minute.
+And then you can still write the
+
+1387
+01:10:23,920 --> 01:10:25,400
+report and analyze and think
+about it.
+
+1388
+01:10:25,400 --> 01:10:27,920
+But you didn't have to do some
+of that manual stuff that
+
+1389
+01:10:27,920 --> 01:10:31,280
+probably took you half a day.
+To do exactly so we've we've
+
+1390
+01:10:31,280 --> 01:10:32,360
+actually done this with our
+customers.
+
+1391
+01:10:32,360 --> 01:10:34,280
+We survey them, right.
+Let's say what part about your
+
+1392
+01:10:34,280 --> 01:10:37,040
+job do you dislike do or where
+you don't feel like you're
+
+1393
+01:10:37,040 --> 01:10:38,560
+adding value?
+One of the top things that come
+
+1394
+01:10:38,560 --> 01:10:40,560
+up is exactly what you just
+described is write all these
+
+1395
+01:10:40,560 --> 01:10:43,760
+reports.
+Guess what, it's really easy to
+
+1396
+01:10:43,760 --> 01:10:46,240
+take a bunch of like simulation
+files, right?
+
+1397
+01:10:46,240 --> 01:10:48,560
+You've decided, hey, this is the
+right sort of answer and here's
+
+1398
+01:10:48,560 --> 01:10:49,960
+sort of the high level reasons
+why.
+
+1399
+01:10:51,040 --> 01:10:54,560
+And you can just generate a
+report using AI tool that works
+
+1400
+01:10:54,560 --> 01:10:56,680
+today.
+There's no reason not to do
+
+1401
+01:10:56,680 --> 01:10:57,640
+that.
+Now, do you need to review the
+
+1402
+01:10:57,640 --> 01:11:00,360
+report?
+Yes, right, but like you can
+
+1403
+01:11:00,360 --> 01:11:05,160
+shortcut a lot of the process,
+which actually allows the person
+
+1404
+01:11:05,240 --> 01:11:08,040
+or the human to add, you know,
+spend much more time on those
+
+1405
+01:11:08,040 --> 01:11:10,680
+like value added tasks, right.
+And and I kind of think of this
+
+1406
+01:11:10,680 --> 01:11:15,000
+always as like moving up a layer
+of abstraction where now you can
+
+1407
+01:11:15,000 --> 01:11:16,200
+do so much more.
+I think what people
+
+1408
+01:11:16,200 --> 01:11:19,120
+underestimate is like when you
+change something, right, like
+
+1409
+01:11:19,120 --> 01:11:23,400
+say the six month process down
+to a week, that changes
+
+1410
+01:11:23,440 --> 01:11:25,360
+everything, right?
+It changes like industry
+
+1411
+01:11:25,360 --> 01:11:27,640
+dynamics because like you can
+now do product development so
+
+1412
+01:11:27,640 --> 01:11:30,280
+much faster.
+It changes like what kind of
+
+1413
+01:11:30,320 --> 01:11:32,120
+innovations you can actually
+build, right?
+
+1414
+01:11:32,840 --> 01:11:34,720
+It changes like the org
+structures of companies,
+
+1415
+01:11:34,720 --> 01:11:37,800
+obviously, but I think that's
+all, you know, like value added
+
+1416
+01:11:37,800 --> 01:11:41,000
+to society, right?
+Like I think it's great, yeah.
+
+1417
+01:11:41,000 --> 01:11:43,560
+And.
+I guess full circle.
+
+1418
+01:11:43,560 --> 01:11:47,840
+The underpinning of all of this
+is access to compute, basically.
+
+1419
+01:11:47,840 --> 01:11:50,920
+That's right, isn't it?
+I do think, I mean, I, I will
+
+1420
+01:11:50,920 --> 01:11:53,960
+say like, you know, pre AI wave,
+right?
+
+1421
+01:11:53,960 --> 01:11:56,960
+And, and, and I think, yeah,
+that's when you were probably at
+
+1422
+01:11:57,080 --> 01:12:01,400
+AWS, you know, compute was
+really considered like very much
+
+1423
+01:12:01,400 --> 01:12:03,680
+a commodity that's like, yeah,
+like there's all these like
+
+1424
+01:12:03,680 --> 01:12:06,560
+complexities, even HPC, but like
+in the end, it's just like sort
+
+1425
+01:12:06,560 --> 01:12:09,760
+of a means to the end, etcetera.
+I think AI has shown, which is
+
+1426
+01:12:09,760 --> 01:12:12,400
+quite exciting how important
+compute still is, right?
+
+1427
+01:12:13,360 --> 01:12:15,400
+And they're sort of the, the
+high level thing of like, hey,
+
+1428
+01:12:15,400 --> 01:12:17,760
+well, you need this massive
+scale compute to solve this,
+
+1429
+01:12:17,760 --> 01:12:19,720
+specifically this sort of LLM
+trading model.
+
+1430
+01:12:19,720 --> 01:12:21,680
+But I think that analogy applies
+to many other things.
+
+1431
+01:12:21,680 --> 01:12:24,120
+So if you take a typical
+engineering problem at a large
+
+1432
+01:12:24,120 --> 01:12:27,280
+company, a complex problem like
+like like high end aerospace
+
+1433
+01:12:27,280 --> 01:12:31,000
+product, these people doing this
+work are highly compute bound,
+
+1434
+01:12:32,400 --> 01:12:34,640
+right?
+And they're compute bound at
+
+1435
+01:12:34,640 --> 01:12:38,080
+the, you know, I can only run so
+many simulations, but they're
+
+1436
+01:12:38,080 --> 01:12:40,160
+also compute bound at like as
+you move up these layers of
+
+1437
+01:12:40,160 --> 01:12:42,280
+abstraction, right?
+As I sort of like this agentic
+
+1438
+01:12:42,280 --> 01:12:46,520
+engineering, it becomes easier
+and easier to actually like sort
+
+1439
+01:12:46,520 --> 01:12:49,120
+of kick off a simulation, right?
+Add more training data, all
+
+1440
+01:12:49,120 --> 01:12:52,320
+these kind of things, right?
+That's where you need to be
+
+1441
+01:12:52,320 --> 01:12:54,600
+really smart about like, well,
+what are all the, like design
+
+1442
+01:12:54,600 --> 01:12:56,680
+points you want to run?
+Again, AI can help you do all
+
+1443
+01:12:56,680 --> 01:12:59,800
+these things, right?
+But the compute bill sort of
+
+1444
+01:12:59,800 --> 01:13:04,120
+going up and up and up.
+However, in most organizations,
+
+1445
+01:13:04,120 --> 01:13:07,080
+if you look at like, what is
+your R&D spent, the biggest cost
+
+1446
+01:13:07,080 --> 01:13:08,600
+is the people.
+Yeah.
+
+1447
+01:13:08,840 --> 01:13:11,800
+So this opportunity to get much
+more leverage out of an
+
+1448
+01:13:11,800 --> 01:13:14,160
+individual, right?
+Like they can just add much more
+
+1449
+01:13:14,360 --> 01:13:17,080
+value in this cycle is is
+massive.
+
+1450
+01:13:17,320 --> 01:13:19,040
+I think it is underpinned by
+compute.
+
+1451
+01:13:20,280 --> 01:13:22,320
+And if you don't have that
+foundational building block,
+
+1452
+01:13:22,320 --> 01:13:24,400
+right, like you're, you're
+highly constrained.
+
+1453
+01:13:24,400 --> 01:13:26,160
+The good thing is engineers can
+always work around those
+
+1454
+01:13:26,160 --> 01:13:27,560
+constraints.
+You know, they just make do with
+
+1455
+01:13:27,560 --> 01:13:30,800
+whatever you're given.
+But you know, like those
+
+1456
+01:13:30,800 --> 01:13:33,560
+constraints, like really
+constrained also innovation,
+
+1457
+01:13:33,560 --> 01:13:35,200
+right?
+They constrain the ability, like
+
+1458
+01:13:35,200 --> 01:13:38,320
+if you can make it, SpaceX is a
+good example, right?
+
+1459
+01:13:38,320 --> 01:13:40,480
+Like it like sort of back when I
+was working at Boeing, it was
+
+1460
+01:13:40,480 --> 01:13:43,360
+like, hey, there's a SpaceX
+company and, you know, Boeing
+
+1461
+01:13:43,360 --> 01:13:45,440
+thought they were pretty good at
+like launching rockets and
+
+1462
+01:13:45,440 --> 01:13:49,560
+putting satellites in orbit.
+And you know, at SpaceX there
+
+1463
+01:13:49,560 --> 01:13:52,480
+will take the cost.
+I think of like putting a kilo
+
+1464
+01:13:52,480 --> 01:13:57,240
+in space, like down by like 20
+to 50 X depending on like kind
+
+1465
+01:13:57,240 --> 01:14:00,160
+of what metrics you use, but a
+minimum 20X, right?
+
+1466
+01:14:01,040 --> 01:14:03,680
+Once you do that, right?
+Like it opens up this entire
+
+1467
+01:14:03,680 --> 01:14:05,680
+market, right?
+Like it's like, OK, now you can
+
+1468
+01:14:05,680 --> 01:14:08,720
+do Starlink, now you can do all
+kinds of other stuff in space,
+
+1469
+01:14:08,880 --> 01:14:11,680
+right?
+And you want those expansion
+
+1470
+01:14:11,680 --> 01:14:13,280
+opportunities.
+I do feel like a lot of
+
+1471
+01:14:13,280 --> 01:14:17,840
+industries are pretty stuck,
+like the way Boeing builds an
+
+1472
+01:14:17,840 --> 01:14:20,000
+airplane or Airbus for that
+matter, right?
+
+1473
+01:14:20,000 --> 01:14:21,920
+Is pretty stuck in sort of these
+old ways, right?
+
+1474
+01:14:21,920 --> 01:14:24,560
+And I think of the way you can
+get out of that is using all
+
+1475
+01:14:24,560 --> 01:14:27,000
+these new tools where it's sort
+of like something is at least
+
+1476
+01:14:27,000 --> 01:14:30,400
+10X better.
+It totally changes not only like
+
+1477
+01:14:30,400 --> 01:14:32,360
+how fast you can do the product
+development, but also like the
+
+1478
+01:14:32,360 --> 01:14:34,960
+markets you can serve.
+It changes the way you work with
+
+1479
+01:14:34,960 --> 01:14:36,400
+your customers.
+If you're seeing an aircraft
+
+1480
+01:14:36,400 --> 01:14:39,360
+manufacturer right, and that
+pushes society for it, I think
+
+1481
+01:14:39,360 --> 01:14:41,720
+it's great.
+I, I don't know about you, but
+
+1482
+01:14:41,720 --> 01:14:44,400
+the older I get and the more I
+work with enterprise and the
+
+1483
+01:14:44,400 --> 01:14:47,720
+more I work with startups I
+have, and it's probably not
+
+1484
+01:14:47,920 --> 01:14:52,760
+practically possible, but I
+often think, OK, if company A is
+
+1485
+01:14:52,760 --> 01:14:56,840
+a legacy enterprise company and
+they're trying to innovate and
+
+1486
+01:14:56,840 --> 01:15:00,080
+come up with some new product.
+I really do think their best
+
+1487
+01:15:00,080 --> 01:15:04,360
+suggestion is they should go and
+spin off a startup, right?
+
+1488
+01:15:04,480 --> 01:15:07,680
+Because I sometimes feel as if
+they cannot change into they
+
+1489
+01:15:07,680 --> 01:15:11,360
+should literally go and take 50
+super smart people, fund it and
+
+1490
+01:15:11,360 --> 01:15:14,680
+let them do whatever the hell
+they want and then integrate it
+
+1491
+01:15:14,680 --> 01:15:16,280
+back.
+Do you know what I mean?
+
+1492
+01:15:16,280 --> 01:15:19,920
+Some companies are just too
+stiff to really innovate.
+
+1493
+01:15:20,640 --> 01:15:21,200
+Yes.
+I don't.
+
+1494
+01:15:21,200 --> 01:15:22,680
+Disagree.
+I mean, I think it is much
+
+1495
+01:15:22,680 --> 01:15:26,800
+harder to be running like one of
+those companies and like
+
+1496
+01:15:26,800 --> 01:15:29,720
+transform as an organization and
+it's proven through all the
+
+1497
+01:15:29,720 --> 01:15:31,560
+numbers, right?
+Like like sort of the Fortune
+
+1498
+01:15:31,560 --> 01:15:35,720
+500 companies, like, you know,
+the stock market top companies
+
+1499
+01:15:35,720 --> 01:15:38,400
+rotate like very quickly, right?
+Like most companies don't last
+
+1500
+01:15:38,400 --> 01:15:40,920
+like 1520 years as a public
+market company.
+
+1501
+01:15:41,280 --> 01:15:46,680
+So I will say though, like, you
+know, like we as Boom Supersonic
+
+1502
+01:15:46,680 --> 01:15:49,600
+is one of our customers, right,
+man, starting a supersonic jet
+
+1503
+01:15:49,600 --> 01:15:51,960
+company, right?
+I always think Rescale is like a
+
+1504
+01:15:51,960 --> 01:15:55,080
+pretty tough company to run, but
+that is hard, right?
+
+1505
+01:15:55,080 --> 01:15:57,360
+But that really takes a lot of
+courage, right, to do something
+
+1506
+01:15:57,360 --> 01:15:59,200
+like that.
+So it's very admirable for folks
+
+1507
+01:15:59,200 --> 01:16:01,600
+who have the mission and willing
+to kind of take that on.
+
+1508
+01:16:01,600 --> 01:16:05,400
+But what is also true is that
+like, so they're super
+
+1509
+01:16:05,400 --> 01:16:06,680
+innovative.
+They're adopting all these
+
+1510
+01:16:06,680 --> 01:16:08,240
+methods.
+They're going to be way faster
+
+1511
+01:16:08,240 --> 01:16:10,800
+than any other kind of large
+aerospace manufacturer trying to
+
+1512
+01:16:10,800 --> 01:16:13,960
+do a supersonic jet, of course,
+but it's still really hard,
+
+1513
+01:16:14,120 --> 01:16:15,360
+right?
+Like, like startups are just
+
+1514
+01:16:15,360 --> 01:16:20,320
+really hard, right?
+And, you know, I'm, I would say
+
+1515
+01:16:20,320 --> 01:16:22,960
+I'm glad I'm, I work in the like
+field of software, right?
+
+1516
+01:16:22,960 --> 01:16:25,200
+But we, our customers are all
+building hardware pretty much.
+
+1517
+01:16:25,200 --> 01:16:30,320
+So it's, yeah, it's awesome to
+be able to serve them.
+
+1518
+01:16:30,400 --> 01:16:32,720
+But I think it's, well, that's
+the right answer.
+
+1519
+01:16:32,720 --> 01:16:36,080
+It is still like, you know, the,
+the the odds are sort of stacked
+
+1520
+01:16:36,080 --> 01:16:37,720
+against you when you start a
+company, right?
+
+1521
+01:16:37,720 --> 01:16:41,320
+And so even today, like boom
+supersonic, right?
+
+1522
+01:16:41,320 --> 01:16:42,880
+Like they, they, they flew that
+airplane.
+
+1523
+01:16:43,480 --> 01:16:44,920
+It's it's like built with
+rescales.
+
+1524
+01:16:44,920 --> 01:16:48,960
+Awesome, right to test airplane,
+they got to, they build the real
+
+1525
+01:16:48,960 --> 01:16:49,800
+one.
+They got to get all these
+
+1526
+01:16:49,800 --> 01:16:56,040
+customers, you know, and it's,
+it's, it's, it's a tough, yeah,
+
+1527
+01:16:56,040 --> 01:16:58,800
+it's a tough problem to solve as
+a as a small company, right?
+
+1528
+01:17:00,160 --> 01:17:03,120
+So, but, but that is the way
+like I do think cultural change,
+
+1529
+01:17:03,120 --> 01:17:06,160
+like culture really matters.
+So one thing we focus on at
+
+1530
+01:17:06,160 --> 01:17:10,640
+Rescale is like not only making
+sure our customers are adopting
+
+1531
+01:17:10,640 --> 01:17:13,120
+all these capabilities, right,
+but like if you, if you work at
+
+1532
+01:17:13,120 --> 01:17:17,520
+Rescale, we have this.
+So being an AI first company is
+
+1533
+01:17:17,520 --> 01:17:20,040
+completely changes how you run
+the company yourself, right?
+
+1534
+01:17:20,200 --> 01:17:22,520
+And so we're very focused on
+that.
+
+1535
+01:17:22,520 --> 01:17:24,200
+Like this whole thing you were
+talking about, hey, now I'm
+
+1536
+01:17:24,200 --> 01:17:28,000
+managing a bunch of agents.
+So every employee at Rescale is
+
+1537
+01:17:28,000 --> 01:17:31,280
+empowered to kind of like, you
+know, run their agents, right?
+
+1538
+01:17:31,640 --> 01:17:35,360
+And, and we are using every
+single AI framework, right?
+
+1539
+01:17:35,560 --> 01:17:37,960
+Like I'm testing all of them
+usually in parallel at the same
+
+1540
+01:17:37,960 --> 01:17:42,480
+time, very rapidly changing
+landscape.
+
+1541
+01:17:42,480 --> 01:17:45,240
+But I think the way you build a
+company and the way you scale a
+
+1542
+01:17:45,240 --> 01:17:49,240
+company is quite different in
+this like world of when you have
+
+1543
+01:17:49,240 --> 01:17:52,560
+this AI tooling.
+And I do think as a as if you
+
+1544
+01:17:52,560 --> 01:17:54,920
+consider rescale a big or small
+company, but as a 200 person
+
+1545
+01:17:54,920 --> 01:17:58,480
+company versus say a 2000 person
+company, we have a distinct
+
+1546
+01:17:58,480 --> 01:18:01,200
+advantage.
+Our ability to adopt new tooling
+
+1547
+01:18:01,280 --> 01:18:03,960
+for this and sort of like dog
+food and use all these tools
+
+1548
+01:18:03,960 --> 01:18:09,400
+ourselves is, you know, if we
+sort of execute well, is it
+
+1549
+01:18:09,880 --> 01:18:11,680
+really fast, right?
+Like we can, we can adopt new
+
+1550
+01:18:11,680 --> 01:18:14,840
+tools really fast.
+That allows us to understand how
+
+1551
+01:18:14,840 --> 01:18:18,840
+our customers will also need to
+like sort of change and adopt
+
+1552
+01:18:18,840 --> 01:18:20,960
+tooling like this, right?
+And, and it's a very different
+
+1553
+01:18:20,960 --> 01:18:21,960
+business.
+Our business is building
+
+1554
+01:18:21,960 --> 01:18:23,280
+software.
+Their business might be building
+
+1555
+01:18:23,280 --> 01:18:25,680
+a vehicle, but a lot of the
+principles are the same, right?
+
+1556
+01:18:25,720 --> 01:18:28,120
+Like it, it's sort of like you
+have to really rethink how you
+
+1557
+01:18:28,120 --> 01:18:30,640
+do business and how you do
+engineering and all these
+
+1558
+01:18:30,640 --> 01:18:33,080
+things.
+But I think that's also why it's
+
+1559
+01:18:33,080 --> 01:18:35,240
+exciting, right?
+Because it's like it is a new
+
+1560
+01:18:35,240 --> 01:18:38,560
+paradigm.
+These shifts don't happen very
+
+1561
+01:18:38,560 --> 01:18:40,760
+often, right?
+Like I don't know, if you asked
+
+1562
+01:18:40,760 --> 01:18:43,800
+me a decade ago, are we going to
+pass the Turing test, I'd have
+
+1563
+01:18:43,800 --> 01:18:45,200
+been like, I don't think so,
+right?
+
+1564
+01:18:45,560 --> 01:18:49,120
+I would have been very wrong.
+But like I think just like the
+
+1565
+01:18:49,200 --> 01:18:52,720
+cloud shift like opened up these
+like massive, massive markets
+
+1566
+01:18:52,720 --> 01:18:54,800
+and and massive new
+opportunities, right And many
+
+1567
+01:18:54,800 --> 01:18:58,160
+businesses could not exist
+without sort of concept of cloud
+
+1568
+01:18:58,160 --> 01:19:01,880
+etcetera.
+AII do think is even bigger,
+
+1569
+01:19:02,040 --> 01:19:04,240
+right?
+It is sort of like the probably
+
+1570
+01:19:04,240 --> 01:19:05,840
+the biggest one of our
+generation.
+
+1571
+01:19:05,920 --> 01:19:09,400
+And that's awesome because like,
+you know, I don't know if you
+
+1572
+01:19:09,400 --> 01:19:11,640
+think about this, but I'm like,
+man, what was it like when like
+
+1573
+01:19:11,640 --> 01:19:14,640
+the I mean, I was a kid, like
+the Internet sort of first came
+
+1574
+01:19:14,640 --> 01:19:17,760
+out and then you could all of a
+sudden like do this, like, you
+
+1575
+01:19:17,760 --> 01:19:20,040
+know, you could sort of message
+people across the world.
+
+1576
+01:19:20,040 --> 01:19:21,760
+It's like it seemed crazy,
+right?
+
+1577
+01:19:23,160 --> 01:19:25,000
+And it was really a special
+time.
+
+1578
+01:19:26,120 --> 01:19:29,040
+And I think those, you know, you
+go through the high of these
+
+1579
+01:19:29,040 --> 01:19:30,520
+waves.
+I think right now is a really
+
+1580
+01:19:30,520 --> 01:19:33,400
+special time, right where we're
+like the bleeding edge of
+
+1581
+01:19:33,520 --> 01:19:36,440
+applying AI to engineering and
+like how you build companies,
+
+1582
+01:19:36,520 --> 01:19:39,240
+everything's changing and
+that's, I think that's really
+
+1583
+01:19:39,240 --> 01:19:42,000
+fun.
+Yeah, I think we're living in
+
+1584
+01:19:42,000 --> 01:19:47,560
+interesting times where it's
+hard to predict what things will
+
+1585
+01:19:47,560 --> 01:19:49,960
+be like in 10 years time.
+It's hard to.
+
+1586
+01:19:50,400 --> 01:19:52,720
+Yes.
+Is it going to really be
+
+1587
+01:19:52,720 --> 01:19:54,480
+different or is it just going to
+stay the same?
+
+1588
+01:19:54,480 --> 01:19:56,600
+I have a feeling it will
+genuinely be different.
+
+1589
+01:19:56,600 --> 01:20:00,680
+I, I just feel like I I use
+these tools enough and I'm sure
+
+1590
+01:20:00,680 --> 01:20:02,240
+you're the same, that I think
+it's more.
+
+1591
+01:20:02,680 --> 01:20:04,760
+It's more than hype and anybody
+just says that.
+
+1592
+01:20:05,320 --> 01:20:07,840
+I think they need to use these
+tools themselves to see the
+
+1593
+01:20:08,400 --> 01:20:10,080
+potential.
+I mean, one of the key things,
+
+1594
+01:20:10,080 --> 01:20:12,520
+so we work with customers like
+we really encourage all the
+
+1595
+01:20:12,520 --> 01:20:15,520
+executives CEO down, right.
+I mean with a lot of like
+
+1596
+01:20:16,640 --> 01:20:21,680
+CTOSCIOS, but also CEO right,
+very important that they lead by
+
+1597
+01:20:21,680 --> 01:20:23,560
+example like embrace these
+tools, right?
+
+1598
+01:20:23,920 --> 01:20:25,480
+If you want your word, if you
+believe in this, right.
+
+1599
+01:20:26,000 --> 01:20:28,640
+But yeah, like Silicon Valley
+hype cycle is at its all time.
+
+1600
+01:20:29,000 --> 01:20:31,400
+That's right.
+Like it is just crazy times.
+
+1601
+01:20:31,400 --> 01:20:33,880
+But you know, I I've seen these
+waves before.
+
+1602
+01:20:33,880 --> 01:20:35,600
+I you've seen them as well,
+right?
+
+1603
+01:20:35,600 --> 01:20:40,080
+Like I do think things do get
+over hyped, but you know, people
+
+1604
+01:20:40,080 --> 01:20:45,000
+said cloud was over hyped for a
+long time and actually they were
+
+1605
+01:20:45,080 --> 01:20:47,160
+totally wrong.
+It was way under hyped, right?
+
+1606
+01:20:47,160 --> 01:20:50,920
+Like go look at a Gartner report
+from like 2010 about like cloud
+
+1607
+01:20:50,920 --> 01:20:53,200
+computing, right?
+They probably didn't even have a
+
+1608
+01:20:53,200 --> 01:20:55,400
+quadrant, right?
+Like it's just like, but I think
+
+1609
+01:20:56,840 --> 01:20:59,600
+my intuition, like I think as
+you said earlier, and it is hard
+
+1610
+01:20:59,600 --> 01:21:01,760
+to forecast these things, right?
+Especially like 10 years.
+
+1611
+01:21:01,760 --> 01:21:04,360
+That was a long time.
+But from first principles, if
+
+1612
+01:21:04,360 --> 01:21:08,440
+you could pass the Turing test,
+that changes a lot of things
+
+1613
+01:21:08,440 --> 01:21:10,440
+because the way you sort of
+interact and that so that
+
+1614
+01:21:10,440 --> 01:21:15,640
+interacting with a human or an
+AI is similar.
+
+1615
+01:21:16,120 --> 01:21:18,040
+You can say 1's better than the
+other, whatever.
+
+1616
+01:21:18,080 --> 01:21:22,280
+But I think that changes, yeah,
+how entire organization is
+
+1617
+01:21:22,280 --> 01:21:23,840
+built, right?
+Because like, like you said, you
+
+1618
+01:21:23,840 --> 01:21:27,840
+can manage a bunch of agents
+instead of people is also maybe
+
+1619
+01:21:27,840 --> 01:21:30,400
+managing agents is easier than
+managing people, right?
+
+1620
+01:21:30,400 --> 01:21:35,480
+Like, you know, like, but it's
+a, it's a new paradigm.
+
+1621
+01:21:35,480 --> 01:21:37,320
+And then it's like, of course
+things are going to be
+
+1622
+01:21:37,320 --> 01:21:39,280
+overhyped.
+So if you take AI surrogates as
+
+1623
+01:21:39,280 --> 01:21:44,560
+an example, you see somebody
+saying, Hey, you know, you could
+
+1624
+01:21:44,560 --> 01:21:46,840
+do something 10,000 times
+faster.
+
+1625
+01:21:46,880 --> 01:21:48,680
+You know, there's a big.
+Asterisk there that's sort of
+
+1626
+01:21:48,680 --> 01:21:51,520
+hidden about like well, but
+you'd be able to write training
+
+1627
+01:21:51,520 --> 01:21:54,960
+data and like he gets a nine
+9.9% accuracy, yes, but like
+
+1628
+01:21:55,600 --> 01:21:58,520
+even more training data and then
+you know, how does this work
+
+1629
+01:21:58,520 --> 01:22:00,120
+your organization?
+Well, then you need this and
+
+1630
+01:22:00,120 --> 01:22:07,040
+that and so but that's what I
+call example, like sort of over
+
+1631
+01:22:07,040 --> 01:22:09,000
+hyping.
+But then if you look at like the
+
+1632
+01:22:09,000 --> 01:22:11,240
+real implications, right?
+Like now all of a sudden you
+
+1633
+01:22:11,280 --> 01:22:14,160
+take a bunch of tasks that
+engineers were going to do.
+
+1634
+01:22:15,600 --> 01:22:19,280
+And if you compress this, like,
+as we were speaking earlier,
+
+1635
+01:22:19,280 --> 01:22:22,840
+something from three days into
+like an hour or less or like a
+
+1636
+01:22:22,840 --> 01:22:26,520
+second, right?
+It it's a, it's a sort of like
+
+1637
+01:22:26,880 --> 01:22:30,000
+there's a lot of implications to
+how the entire sort of ecosystem
+
+1638
+01:22:30,000 --> 01:22:32,320
+changes.
+I don't think you can challenge
+
+1639
+01:22:32,320 --> 01:22:33,840
+that, right?
+Like, so you can, you can sort
+
+1640
+01:22:33,840 --> 01:22:36,560
+of take this one data point and
+say, like, well, simulations are
+
+1641
+01:22:36,560 --> 01:22:39,440
+not actually 1000 times faster
+today versus like 3 years ago,
+
+1642
+01:22:39,440 --> 01:22:41,960
+right?
+But, you know, on the one hand,
+
+1643
+01:22:41,960 --> 01:22:44,960
+I don't think you can blame the
+marketers because like they're
+
+1644
+01:22:44,960 --> 01:22:46,720
+just doing their job trying to
+grab your attention.
+
+1645
+01:22:46,760 --> 01:22:47,880
+It's hard to get somebody's
+attention.
+
+1646
+01:22:48,280 --> 01:22:52,680
+Yeah, the like, can something
+actually be 1000 times faster,
+
+1647
+01:22:52,720 --> 01:22:54,440
+like given the right conditions?
+Yes, right.
+
+1648
+01:22:54,520 --> 01:22:56,600
+And then and then it's like,
+hey, if you implement this in
+
+1649
+01:22:56,600 --> 01:22:58,960
+the right way, I think the
+benefits are much more
+
+1650
+01:22:58,960 --> 01:23:01,040
+interesting than 1000 times
+faster simulations.
+
+1651
+01:23:01,040 --> 01:23:05,440
+It's like now you have designers
+who can get real time physics
+
+1652
+01:23:05,440 --> 01:23:07,560
+responses.
+Yeah, right.
+
+1653
+01:23:07,560 --> 01:23:11,280
+They're pretty accurate.
+I think you can take this
+
+1654
+01:23:11,280 --> 01:23:15,960
+concept of like at a very high
+level with AI1 sort of frame
+
+1655
+01:23:15,960 --> 01:23:17,960
+that I think is important for
+organizations to think about is
+
+1656
+01:23:17,960 --> 01:23:20,360
+like these engineering
+organizations are highly, highly
+
+1657
+01:23:20,360 --> 01:23:22,360
+complex.
+And one of the big challenges is
+
+1658
+01:23:22,360 --> 01:23:25,640
+the people.
+So at Boeing, right, you go in
+
+1659
+01:23:25,640 --> 01:23:27,480
+for like a detailed design
+review and they're like, oh, we
+
+1660
+01:23:27,480 --> 01:23:32,640
+got to call up like this world
+famous expert who's like 78
+
+1661
+01:23:32,640 --> 01:23:35,680
+years old, right?
+And they sort of come in and
+
+1662
+01:23:35,680 --> 01:23:38,080
+they like pontificate and give
+you advice on like whether this
+
+1663
+01:23:38,080 --> 01:23:39,960
+is going to work or not.
+But the intelligence of the
+
+1664
+01:23:39,960 --> 01:23:42,560
+organization gets sort of lost
+as the people leave the
+
+1665
+01:23:42,560 --> 01:23:44,600
+organization.
+And so like, the problem is if
+
+1666
+01:23:44,600 --> 01:23:48,560
+you like lose the best people
+for say, building an airplane,
+
+1667
+01:23:49,240 --> 01:23:51,880
+if that knowledge was actually
+just like in their heads and
+
+1668
+01:23:51,880 --> 01:23:54,040
+like you can kind of see their
+work, but like you don't really
+
+1669
+01:23:54,040 --> 01:23:56,200
+kind of understand exactly how
+they did that.
+
+1670
+01:23:56,200 --> 01:23:59,040
+And then maybe there was like a
+aerospace industry goes through
+
+1671
+01:23:59,040 --> 01:24:00,720
+many cycles.
+So there's like a time there's
+
+1672
+01:24:00,720 --> 01:24:02,080
+like 10 years didn't hire
+anybody.
+
+1673
+01:24:02,640 --> 01:24:04,720
+So there was no like
+apprenticeship training, right?
+
+1674
+01:24:04,720 --> 01:24:08,120
+And so you, you've lost a lot of
+the ability of the sort of IP of
+
+1675
+01:24:08,120 --> 01:24:11,080
+like how to actually build great
+airplanes can be solved with
+
+1676
+01:24:11,080 --> 01:24:14,360
+AIAI can kind of like sort of
+again, aggregate a lot of this
+
+1677
+01:24:14,360 --> 01:24:18,040
+detailed stuff, synthesize it.
+It's not always going to be
+
+1678
+01:24:18,040 --> 01:24:20,240
+perfect or always going to be
+right, but it can do a much
+
+1679
+01:24:20,240 --> 01:24:23,440
+better job in a much shorter
+amount of time than any person
+
+1680
+01:24:23,440 --> 01:24:25,400
+can really do right.
+And so if you think of AI as
+
+1681
+01:24:25,400 --> 01:24:29,480
+ability to do things like that,
+it's pretty incredible.
+
+1682
+01:24:29,480 --> 01:24:32,560
+And then like the, if you just
+project forward to even like
+
+1683
+01:24:32,560 --> 01:24:35,480
+forget about 10 years, like 6
+months or like 12 months, right?
+
+1684
+01:24:37,280 --> 01:24:39,760
+You know, I will say, like when
+I saw ChatGPT the first time,
+
+1685
+01:24:40,240 --> 01:24:43,040
+right?
+I'm like, like, interesting toy,
+
+1686
+01:24:43,160 --> 01:24:45,480
+right?
+But I didn't actually think at
+
+1687
+01:24:45,480 --> 01:24:48,920
+that time, the first time I used
+it so I could just get a change.
+
+1688
+01:24:48,920 --> 01:24:51,520
+I think it was cool that I could
+give certain answers, but I
+
+1689
+01:24:51,680 --> 01:24:53,600
+didn't think it was going to
+change my like day-to-day
+
+1690
+01:24:53,600 --> 01:24:56,760
+workflow.
+And like today, I don't think an
+
+1691
+01:24:56,760 --> 01:25:00,200
+hour goes by, but I'm not like
+prompting AI models and and
+
+1692
+01:25:00,200 --> 01:25:02,560
+running stuff in the background
+and all kinds of stuff going on,
+
+1693
+01:25:02,560 --> 01:25:05,000
+right?
+And so like, that is a new way
+
+1694
+01:25:05,000 --> 01:25:06,800
+of working.
+And if you talk to new founders
+
+1695
+01:25:06,800 --> 01:25:10,720
+that are building new companies,
+right, that's how they're doing
+
+1696
+01:25:10,720 --> 01:25:14,720
+it.
+And they're just like I was,
+
+1697
+01:25:16,000 --> 01:25:18,160
+there's like the the cloud code
+founder, right?
+
+1698
+01:25:18,840 --> 01:25:23,800
+It's kind of showcasing how he's
+like does software development.
+
+1699
+01:25:24,720 --> 01:25:26,920
+He's got like all these
+different agents and all this
+
+1700
+01:25:26,920 --> 01:25:29,840
+stuff, right?
+And you know, this cloud code
+
+1701
+01:25:29,840 --> 01:25:32,040
+thing was just a hack day
+project for him like a year ago.
+
+1702
+01:25:32,120 --> 01:25:34,480
+And now it's like at I think 400
+million run rate, right?
+
+1703
+01:25:34,480 --> 01:25:38,400
+So like this is no joke, right?
+And that's, I think that same
+
+1704
+01:25:38,400 --> 01:25:41,040
+sort of shift is going to happen
+in for engineers and scientists,
+
+1705
+01:25:41,040 --> 01:25:42,680
+right?
+Like the exact timing of these
+
+1706
+01:25:42,680 --> 01:25:46,640
+things is always really hard to
+predict, but same thing with
+
+1707
+01:25:46,640 --> 01:25:50,680
+like cloud HPC, right?
+Like I think the the it's easy
+
+1708
+01:25:50,680 --> 01:25:53,600
+to be right about sort of the
+secular trends, if you will, at
+
+1709
+01:25:53,600 --> 01:25:55,560
+least from my perspective,
+right, where it's like you're
+
+1710
+01:25:55,560 --> 01:25:57,640
+going to get more processor
+fragmentation, like Moore's law
+
+1711
+01:25:57,640 --> 01:25:59,880
+is going to kind of slow down
+and like got to go to
+
+1712
+01:25:59,880 --> 01:26:01,480
+specialized processors and all
+this stuff, right?
+
+1713
+01:26:01,480 --> 01:26:03,200
+If you want to just get more
+advanced computing, just all
+
+1714
+01:26:03,200 --> 01:26:04,080
+these things are going to
+happen.
+
+1715
+01:26:04,200 --> 01:26:07,080
+It's very hard to say like at
+what exact point in time it's
+
+1716
+01:26:07,080 --> 01:26:10,680
+good this like big shift or
+whatever and sort of the Overton
+
+1717
+01:26:10,680 --> 01:26:12,920
+window of what's acceptable to
+people will shift, right.
+
+1718
+01:26:14,360 --> 01:26:16,240
+But you could be right about the
+trends, right?
+
+1719
+01:26:16,280 --> 01:26:18,600
+And so same thing with AII think
+you can kind of see where this
+
+1720
+01:26:18,600 --> 01:26:21,880
+is going.
+And I think then the timing is
+
+1721
+01:26:21,880 --> 01:26:24,200
+really hard.
+I would say all the AI
+
+1722
+01:26:24,200 --> 01:26:27,280
+predictions I would have made in
+the last 12 months would have
+
+1723
+01:26:27,280 --> 01:26:29,880
+been like, if they were about
+something that happened in the
+
+1724
+01:26:29,880 --> 01:26:32,760
+last 12 months, they would have,
+I would have predicted them over
+
+1725
+01:26:32,760 --> 01:26:35,160
+longer time horizons than they
+actually happened over, right?
+
+1726
+01:26:35,280 --> 01:26:37,640
+Like, and so if everything is
+just happening much faster, I
+
+1727
+01:26:37,640 --> 01:26:40,040
+almost don't even trust my own
+intuition and forecasting too
+
+1728
+01:26:40,040 --> 01:26:41,360
+much, right?
+And so like what?
+
+1729
+01:26:41,360 --> 01:26:45,360
+Well, what can you do to prepare
+for that is like, I think you
+
+1730
+01:26:45,360 --> 01:26:48,200
+got to really lean in to like
+that feature.
+
+1731
+01:26:48,240 --> 01:26:51,720
+And so like, even if right now,
+like an example is like you can
+
+1732
+01:26:51,720 --> 01:26:55,760
+do CAD and CAE modeling through
+natural language prompting
+
+1733
+01:26:56,600 --> 01:26:59,160
+through MCP, right?
+So like this concept of model
+
+1734
+01:26:59,160 --> 01:27:01,360
+context protocol, think of it
+like an API, right?
+
+1735
+01:27:01,360 --> 01:27:05,240
+It's sort of like connect like a
+piece of software with like
+
+1736
+01:27:05,240 --> 01:27:07,800
+your, your favorite AI tooling
+and it can interact.
+
+1737
+01:27:07,800 --> 01:27:10,080
+So we have a rescale MCP.
+You can interact with it.
+
+1738
+01:27:10,120 --> 01:27:12,480
+You can spin up jobs and do all
+the all the things you'd want to
+
+1739
+01:27:12,480 --> 01:27:14,560
+do in the user interface, But
+you can now do it through an
+
+1740
+01:27:14,560 --> 01:27:16,360
+LLM.
+But then you can connect to LLM
+
+1741
+01:27:16,360 --> 01:27:19,280
+to like a cab tool, right.
+And you say, hey, like, you
+
+1742
+01:27:19,280 --> 01:27:21,120
+know, change the angle of this
+like windshield.
+
+1743
+01:27:21,120 --> 01:27:23,400
+You're the author of the driver
+ML data set.
+
+1744
+01:27:23,800 --> 01:27:25,760
+Like create all these models.
+Like you probably did it
+
+1745
+01:27:25,760 --> 01:27:28,520
+manually.
+And so like now you just yeah,
+
+1746
+01:27:29,480 --> 01:27:33,400
+so now you just say, hey, you
+know, like building this design
+
+1747
+01:27:33,400 --> 01:27:36,800
+space here's like the
+parameters, right, to generate
+
+1748
+01:27:36,800 --> 01:27:39,640
+all the cat.
+It can do that today.
+
+1749
+01:27:39,680 --> 01:27:42,920
+Now your cat designer is going
+to say, Oh yeah, it can do that.
+
+1750
+01:27:42,920 --> 01:27:45,040
+But look, look at the
+discontinuity over there.
+
+1751
+01:27:45,040 --> 01:27:46,840
+Like because of this thing and
+like whatever.
+
+1752
+01:27:46,840 --> 01:27:49,760
+Like it's not good enough yet to
+like 100% replace it.
+
+1753
+01:27:49,760 --> 01:27:52,080
+But the whole point is like not
+to 100% replace.
+
+1754
+01:27:52,600 --> 01:27:55,600
+The point is now you can Gen.
+cab like nobody's business,
+
+1755
+01:27:55,600 --> 01:27:57,960
+right?
+Like it's as easy as a prompt
+
+1756
+01:27:58,640 --> 01:28:00,280
+that is just going to get way
+better, right?
+
+1757
+01:28:00,280 --> 01:28:02,920
+Like, so if, if we're talking
+about like, is this going to be
+
+1758
+01:28:02,920 --> 01:28:05,960
+good enough to do the like
+aerospace level carbon fiber
+
+1759
+01:28:05,960 --> 01:28:08,840
+layup design work?
+Absolutely at some point, right?
+
+1760
+01:28:09,040 --> 01:28:12,360
+Is that in like 1 month or is
+that in 12 months?
+
+1761
+01:28:12,360 --> 01:28:14,680
+Or is that in two years?
+I don't know, but it's getting
+
+1762
+01:28:14,680 --> 01:28:17,480
+really, really good, right?
+And so those curves are really
+
+1763
+01:28:17,480 --> 01:28:19,880
+fast and the adoption curves of
+the of the technology are
+
+1764
+01:28:19,880 --> 01:28:21,440
+usually pretty slow in
+enterprise, right?
+
+1765
+01:28:21,440 --> 01:28:23,760
+So like just because it's
+possible doesn't mean people
+
+1766
+01:28:23,760 --> 01:28:29,160
+adopt it, But you know, these
+industry pressures are real,
+
+1767
+01:28:29,160 --> 01:28:31,800
+right?
+Like I, I do think like if you
+
+1768
+01:28:31,800 --> 01:28:36,080
+can just kind of do innovation a
+lot faster in automotive, in
+
+1769
+01:28:36,080 --> 01:28:41,720
+aerospace, in like semiconductor
+and life sciences, they're all
+
+1770
+01:28:41,720 --> 01:28:45,040
+very big R&D spenders, right.
+So if you just get a lot more
+
+1771
+01:28:45,040 --> 01:28:47,400
+leverage out of that investment,
+you know, that's a, that's a
+
+1772
+01:28:47,400 --> 01:28:49,840
+huge leverage for society, I
+think.
+
+1773
+01:28:50,880 --> 01:28:54,320
+So maybe a final question, more
+of a forward-looking question or
+
+1774
+01:28:54,320 --> 01:28:56,840
+advice question.
+Given all that we've said, if
+
+1775
+01:28:56,840 --> 01:29:02,440
+you are a young founder, OK,
+you're coming out of the first
+
+1776
+01:29:02,440 --> 01:29:06,200
+job or a PhD and you, you know,
+you think, what problem can I
+
+1777
+01:29:06,200 --> 01:29:09,520
+try and tackle without giving
+away anything that you you're
+
+1778
+01:29:09,520 --> 01:29:12,080
+working on so you can't get too
+good around.
+
+1779
+01:29:12,080 --> 01:29:16,200
+So I guess what would be like
+the biggest unsolved challenge
+
+1780
+01:29:16,200 --> 01:29:20,360
+that you think the next startup
+should try to tackle?
+
+1781
+01:29:20,360 --> 01:29:22,000
+Yeah, there's a lot of big
+challenges out there.
+
+1782
+01:29:22,960 --> 01:29:25,640
+I think this is going to sound a
+little bit self-serving, but if
+
+1783
+01:29:25,640 --> 01:29:27,720
+you're amazing, you can always
+come work at Rescale.
+
+1784
+01:29:27,720 --> 01:29:32,080
+My e-mail is yours@rescale.com.
+But I think this look, all the
+
+1785
+01:29:32,080 --> 01:29:34,000
+things we've discussed, so
+they're all happening right now,
+
+1786
+01:29:34,120 --> 01:29:35,680
+right?
+And so like I say, so where's
+
+1787
+01:29:35,680 --> 01:29:37,360
+like the sort of next challenge
+lie?
+
+1788
+01:29:38,320 --> 01:29:41,440
+I do think it's in this kind of
+like very buzzwordy word like
+
+1789
+01:29:41,440 --> 01:29:43,920
+digital twin.
+But like there is this, you
+
+1790
+01:29:43,920 --> 01:29:46,320
+know, this concept of digital
+twin, right, which is the the
+
+1791
+01:29:46,320 --> 01:29:49,160
+equivalent of like what's
+happening in the real world in a
+
+1792
+01:29:49,160 --> 01:29:53,240
+digital form.
+That concept is super important.
+
+1793
+01:29:54,760 --> 01:29:59,120
+And this sort of SIM to reel
+gap, like real being reality,
+
+1794
+01:29:59,160 --> 01:30:00,240
+right?
+And the SIM being the kind of
+
+1795
+01:30:00,240 --> 01:30:03,840
+the simulation of that reality,
+the more you can close that gap,
+
+1796
+01:30:03,920 --> 01:30:07,600
+the more powerful products you
+can build, right?
+
+1797
+01:30:07,600 --> 01:30:11,720
+So like a good example I think
+is I don't know if you've been
+
+1798
+01:30:11,720 --> 01:30:13,160
+to San Francisco taking like a
+Waymo.
+
+1799
+01:30:15,000 --> 01:30:16,520
+Oh yeah, that freaks me out.
+Yeah, yeah.
+
+1800
+01:30:16,960 --> 01:30:20,400
+Yeah, Yeah, I, I think Waymo is
+like the coolest thing now.
+
+1801
+01:30:20,400 --> 01:30:24,160
+Why is Waymo so impressive?
+I remember there were self
+
+1802
+01:30:24,160 --> 01:30:29,480
+driving vehicles in San
+Francisco about roughly 10 years
+
+1803
+01:30:29,480 --> 01:30:31,440
+before.
+Like Waymo kind of really went
+
+1804
+01:30:31,440 --> 01:30:34,880
+live for like the sort of
+private data slash real people,
+
+1805
+01:30:34,880 --> 01:30:40,480
+right, consumers that last mile
+of like whether it's regulatory
+
+1806
+01:30:40,480 --> 01:30:42,880
+or like getting the software to
+the right level, etcetera.
+
+1807
+01:30:44,400 --> 01:30:46,480
+Took a long time, the way longer
+than I expected.
+
+1808
+01:30:46,520 --> 01:30:48,680
+At that time I would have said
+like, oh, in a year, if they're
+
+1809
+01:30:48,680 --> 01:30:50,600
+testing it right now, like in a
+year, this is going to be ready,
+
+1810
+01:30:50,600 --> 01:30:51,840
+right?
+And you sort of know all the
+
+1811
+01:30:51,840 --> 01:30:53,720
+technology already works.
+Like you already know, self
+
+1812
+01:30:53,720 --> 01:30:55,640
+driving kind of works.
+There's obviously a lot of
+
+1813
+01:30:55,640 --> 01:30:58,560
+safety and things like that.
+But that I think that's a great
+
+1814
+01:30:58,560 --> 01:31:03,600
+example of like Waymo is able to
+simulate, right, what's
+
+1815
+01:31:03,600 --> 01:31:05,840
+happening in the real world very
+effectively.
+
+1816
+01:31:06,240 --> 01:31:10,640
+Like locally on the edge uses
+enormous amount of AI, right?
+
+1817
+01:31:10,760 --> 01:31:13,080
+Enormous amount of training
+data, right?
+
+1818
+01:31:13,320 --> 01:31:17,200
+And it, it sort of solves this
+transportation problem in a way
+
+1819
+01:31:17,200 --> 01:31:25,080
+that's like awesome, right?
+Like it's, you know, I and I
+
+1820
+01:31:25,080 --> 01:31:28,960
+think that's a great example of
+like what the future looks like.
+
+1821
+01:31:28,960 --> 01:31:30,880
+Then then you have to ask
+yourself like, OK, well, what
+
+1822
+01:31:30,880 --> 01:31:33,200
+are the next set of problems?
+Well, robots is an obvious one,
+
+1823
+01:31:34,080 --> 01:31:35,880
+right?
+So like if you can solve this
+
+1824
+01:31:35,880 --> 01:31:38,360
+sort of simulation problem for
+robots, I don't know if you've
+
+1825
+01:31:38,360 --> 01:31:41,240
+watched these robots like
+folding laundry, but it's like.
+
+1826
+01:31:41,800 --> 01:31:44,320
+I kind of wait.
+You know, it's it's yeah, but
+
+1827
+01:31:44,320 --> 01:31:47,240
+it's it's not pretty when you
+watch them walk or fold laundry
+
+1828
+01:31:47,240 --> 01:31:49,080
+or some of these robot Olympics
+that are going on.
+
+1829
+01:31:49,200 --> 01:31:52,440
+We got a ways to go that said,
+like, we all understand physics,
+
+1830
+01:31:52,440 --> 01:31:53,560
+right?
+So like, this is actually a
+
+1831
+01:31:53,560 --> 01:31:55,680
+solved problem.
+Like we we know how robots
+
+1832
+01:31:55,680 --> 01:31:57,800
+should operate in a sort of real
+world, right?
+
+1833
+01:31:57,800 --> 01:31:59,320
+And I think videos are amazing
+work and.
+
+1834
+01:31:59,320 --> 01:32:02,240
+Like sort of the.
+Developing the software and SDKS
+
+1835
+01:32:02,240 --> 01:32:03,880
+for like the virtual world for
+this, right?
+
+1836
+01:32:03,880 --> 01:32:05,880
+And so you can sort of train
+these models in a virtual way,
+
+1837
+01:32:06,000 --> 01:32:07,920
+but ultimately you want to kind
+of get that match to real,
+
+1838
+01:32:07,920 --> 01:32:08,920
+right?
+Like somebody's going to build
+
+1839
+01:32:08,920 --> 01:32:10,440
+all these robots.
+These robots are going to go do
+
+1840
+01:32:10,440 --> 01:32:11,720
+all the things you don't want to
+do at home.
+
+1841
+01:32:12,280 --> 01:32:14,920
+And that's solving those types
+of problems.
+
+1842
+01:32:14,960 --> 01:32:17,720
+If you're like sort of have a
+simulation background, right, is
+
+1843
+01:32:18,640 --> 01:32:20,400
+I think that's the next
+frontier, right?
+
+1844
+01:32:20,400 --> 01:32:23,240
+And you already have this
+example of Waymo, right?
+
+1845
+01:32:23,600 --> 01:32:28,680
+And to me, like, I think if you
+really the closing the SIM to
+
+1846
+01:32:28,680 --> 01:32:31,000
+reel gap is possible for
+anything you're passionate
+
+1847
+01:32:31,000 --> 01:32:34,360
+about, you can do for airplanes,
+you can do for robots, you can
+
+1848
+01:32:34,360 --> 01:32:36,440
+do for Earth, right?
+Like there's this Earth model
+
+1849
+01:32:36,680 --> 01:32:38,160
+again.
+NVIDIA has done an amazing job
+
+1850
+01:32:38,400 --> 01:32:41,720
+developing this weather
+simulation, you know,
+
+1851
+01:32:41,920 --> 01:32:47,000
+horrendously difficult problem,
+but worth solving, right?
+
+1852
+01:32:47,000 --> 01:32:50,640
+Like if you solve weather
+prediction, you know, a little
+
+1853
+01:32:50,640 --> 01:32:54,680
+bit better or even like say 10X
+better saves a lot of lives,
+
+1854
+01:32:54,680 --> 01:32:55,760
+right?
+It makes it makes a big
+
+1855
+01:32:55,760 --> 01:32:58,640
+difference, right?
+And yeah, I think those are
+
+1856
+01:32:59,040 --> 01:33:02,120
+meaningful missions.
+You know, talk a little bit
+
+1857
+01:33:02,120 --> 01:33:04,640
+about starting a company.
+You join a company, Do you, do
+
+1858
+01:33:04,640 --> 01:33:06,880
+you stay in academia?
+It's I think you have to really
+
+1859
+01:33:06,880 --> 01:33:09,880
+think for yourself what what are
+you motivated by, right?
+
+1860
+01:33:10,040 --> 01:33:11,680
+Like, like, what do you really
+want to do, right?
+
+1861
+01:33:13,040 --> 01:33:16,800
+I personally would encourage
+people to generally like veer
+
+1862
+01:33:16,800 --> 01:33:20,000
+towards where they can make the
+biggest impact and going to
+
+1863
+01:33:20,000 --> 01:33:23,680
+learn the most right.
+And so can be a start up, can be
+
+1864
+01:33:23,680 --> 01:33:27,360
+a big company, could be many
+different sort of platforms can
+
+1865
+01:33:27,360 --> 01:33:32,000
+be in university.
+But I I do think what's what we
+
+1866
+01:33:32,000 --> 01:33:35,600
+need more of is like the people
+to really have the courage to
+
+1867
+01:33:35,600 --> 01:33:38,600
+kind of, I think, solve the
+problems that are really on the
+
+1868
+01:33:38,600 --> 01:33:41,880
+edge, but nobody solved before.
+The problem with academia in my
+
+1869
+01:33:41,880 --> 01:33:44,520
+view is like I spent a lot of
+time in school, right?
+
+1870
+01:33:44,520 --> 01:33:49,280
+A lot too many degrees.
+And it's sort of like, I think
+
+1871
+01:33:49,280 --> 01:33:52,800
+the challenge with school is
+that you start competing on a
+
+1872
+01:33:52,800 --> 01:33:56,320
+dimension that's that's a little
+bit removed from like the
+
+1873
+01:33:56,320 --> 01:33:59,600
+practical reality and you start
+competing.
+
+1874
+01:33:59,600 --> 01:34:01,720
+I'm like, you know, can we solve
+this equation more efficiently,
+
+1875
+01:34:01,720 --> 01:34:04,880
+whether or not Boeing like uses
+this and tops this or anybody
+
+1876
+01:34:04,880 --> 01:34:08,480
+else does, as long as this other
+really smart person thinks it's
+
+1877
+01:34:08,480 --> 01:34:10,040
+smart, right?
+And I get a lot of references,
+
+1878
+01:34:10,040 --> 01:34:11,720
+like I win the game, so to
+speak, right?
+
+1879
+01:34:11,800 --> 01:34:14,040
+But, you know, like it's, I
+think it's like, I think it's
+
+1880
+01:34:14,320 --> 01:34:18,360
+Kissinger quote, which is like
+the battles in academia are so
+
+1881
+01:34:18,360 --> 01:34:20,080
+fierce because the stakes are so
+small.
+
+1882
+01:34:20,080 --> 01:34:24,400
+So, you know, I I think that's a
+yeah, it's, it's, it's
+
+1883
+01:34:24,440 --> 01:34:26,840
+unfortunate because you see a
+lot of really great talent,
+
+1884
+01:34:27,040 --> 01:34:28,800
+right?
+And, you know, I was part of
+
+1885
+01:34:28,800 --> 01:34:31,360
+this as well myself, right?
+You know, Peter Thiel has a good
+
+1886
+01:34:31,360 --> 01:34:34,200
+view on this as well.
+I think where it's like it's
+
+1887
+01:34:34,200 --> 01:34:37,680
+really elite students who are
+super smart and they keep
+
+1888
+01:34:37,680 --> 01:34:39,080
+climbing this sort of academic
+letter.
+
+1889
+01:34:39,080 --> 01:34:40,000
+Why?
+Because these are like the
+
+1890
+01:34:40,000 --> 01:34:42,120
+badges you want to collect.
+I went to Stanford, I went to
+
+1891
+01:34:42,120 --> 01:34:44,000
+Harvard.
+I get to this and that right
+
+1892
+01:34:44,280 --> 01:34:46,360
+have all the sort of
+certifications, but that's sort
+
+1893
+01:34:46,360 --> 01:34:49,080
+of like the status game and like
+signaling to other people,
+
+1894
+01:34:49,120 --> 01:34:49,960
+right?
+I think.
+
+1895
+01:34:49,960 --> 01:34:53,920
+And the problem is, you know,
+he, what he talks about is that
+
+1896
+01:34:53,920 --> 01:34:57,640
+like the sort of the in that
+process, the sort of dreams get
+
+1897
+01:34:57,640 --> 01:35:01,560
+stomped out of you, right?
+And that's his view.
+
+1898
+01:35:01,840 --> 01:35:03,880
+I think that's, that's, that's
+pretty correct.
+
+1899
+01:35:04,280 --> 01:35:06,160
+I also think there's a
+specialization that happens
+
+1900
+01:35:06,160 --> 01:35:08,160
+because like, OK, you want to be
+best in the world at something,
+
+1901
+01:35:08,200 --> 01:35:09,840
+you know, narrow, narrow,
+narrow, narrow, right?
+
+1902
+01:35:10,040 --> 01:35:12,920
+But great innovation actually
+often happens by, you know,
+
+1903
+01:35:12,920 --> 01:35:16,000
+taking concepts from 1 field,
+applying it in another, right?
+
+1904
+01:35:16,000 --> 01:35:18,360
+Like, like it's actually like
+the deep mind folks that sort of
+
+1905
+01:35:18,360 --> 01:35:21,040
+like mesh, graphnet, etcetera.
+Like that's why we have AI
+
+1906
+01:35:21,040 --> 01:35:24,400
+service and they're not all like
+physics experts, right?
+
+1907
+01:35:24,440 --> 01:35:26,840
+Like, in fact, you often need
+somebody from a domain who's
+
+1908
+01:35:26,840 --> 01:35:29,080
+like naive enough to be like,
+hey, let's just try this thing.
+
+1909
+01:35:30,880 --> 01:35:37,560
+And so I do think you want
+people to follow like a mission
+
+1910
+01:35:37,560 --> 01:35:40,680
+and sort of a like, like the
+where they're passionate about,
+
+1911
+01:35:40,680 --> 01:35:42,160
+right?
+It's like, if you're your 20s,
+
+1912
+01:35:42,160 --> 01:35:44,360
+like, like you probably have
+enough life experience to kind
+
+1913
+01:35:44,360 --> 01:35:47,920
+of know what, what you like.
+And there's so much more
+
+1914
+01:35:47,920 --> 01:35:50,560
+possible than people think they
+are capable of themselves,
+
+1915
+01:35:50,920 --> 01:35:52,360
+right?
+Like I personally would have
+
+1916
+01:35:52,360 --> 01:35:54,880
+never thought when I was like an
+engineer, simulation engineer
+
+1917
+01:35:54,880 --> 01:35:58,720
+working at Boeing doing my
+little thing, right, that I
+
+1918
+01:35:58,720 --> 01:36:02,120
+could kind of break out, start
+your own company, get these like
+
+1919
+01:36:02,200 --> 01:36:04,480
+like maybe they sit across the
+table from like some of the
+
+1920
+01:36:04,480 --> 01:36:08,760
+smartest people in Silicon
+Valley and together kind of like
+
+1921
+01:36:08,760 --> 01:36:10,520
+it like build an amazing
+company, right?
+
+1922
+01:36:10,520 --> 01:36:14,360
+And I think it takes you of
+course need the ambition, but
+
+1923
+01:36:14,360 --> 01:36:18,040
+most of all you need the courage
+and the the willingness to kind
+
+1924
+01:36:18,040 --> 01:36:21,360
+of persevere, right?
+Many people give up, like, I
+
+1925
+01:36:21,360 --> 01:36:24,680
+don't know if you see this, but
+like, you know, there's a lot of
+
+1926
+01:36:24,680 --> 01:36:26,600
+people who apply to jobs that
+rescale and I see a lot of
+
+1927
+01:36:26,600 --> 01:36:30,120
+resumes and like you see a lot
+of this, like, hey, 1 1/2 years
+
+1928
+01:36:30,120 --> 01:36:32,400
+here, 1 1/2 years there,
+etcetera.
+
+1929
+01:36:32,400 --> 01:36:33,680
+Right?
+I, I think you got to kind of
+
+1930
+01:36:33,680 --> 01:36:35,840
+find that right, problem that
+you're really passionate about
+
+1931
+01:36:35,840 --> 01:36:42,760
+and then like really pursue that
+with, with all the energy you
+
+1932
+01:36:42,760 --> 01:36:44,560
+have.
+There's a good essay written by
+
+1933
+01:36:44,560 --> 01:36:48,280
+Paul Graham called, it's called
+great work or something like
+
+1934
+01:36:48,280 --> 01:36:50,160
+that.
+It's like how to do great work.
+
+1935
+01:36:50,960 --> 01:36:54,320
+It's kind of a long essay, so it
+might take a while to read, but
+
+1936
+01:36:54,320 --> 01:36:57,400
+one of the things he talks about
+is like, you know, you want to
+
+1937
+01:36:57,400 --> 01:37:00,400
+be on the edges, like sort of
+the he thinks of like knowledge
+
+1938
+01:37:00,400 --> 01:37:02,920
+as this sort of like tree and
+these like fractals basically.
+
+1939
+01:37:02,920 --> 01:37:04,520
+And you're sort of want to be on
+the edge, right?
+
+1940
+01:37:04,520 --> 01:37:06,760
+And then you want to kind of see
+where the gaps are.
+
+1941
+01:37:07,440 --> 01:37:10,200
+And often I, I think I'm not
+sure if he talks about an essay,
+
+1942
+01:37:10,200 --> 01:37:14,080
+but in my view, it's like if you
+take kind of the lessons from a
+
+1943
+01:37:14,080 --> 01:37:15,800
+certain field applying in
+another.
+
+1944
+01:37:15,880 --> 01:37:18,680
+That's where I've seen like
+amazing breakthroughs like that
+
+1945
+01:37:18,680 --> 01:37:22,600
+rescale and like also beyond
+like in places like Boeing and
+
+1946
+01:37:22,600 --> 01:37:24,840
+other places.
+And that requires like the
+
+1947
+01:37:24,840 --> 01:37:26,960
+willingness to kind of learn
+these different things, right?
+
+1948
+01:37:26,960 --> 01:37:28,840
+And, and sort of apply that
+curiosity in different ways.
+
+1949
+01:37:28,840 --> 01:37:33,440
+So, you know, for somebody who
+is just graduating with their,
+
+1950
+01:37:33,480 --> 01:37:36,480
+you know, master's or PhD or
+something like I would look to
+
+1951
+01:37:36,480 --> 01:37:38,400
+the in short, I would go
+somewhere where I think you're
+
+1952
+01:37:38,400 --> 01:37:40,920
+going to learn the most or make
+the biggest impact.
+
+1953
+01:37:42,720 --> 01:37:46,320
+What is hard is that there's a
+lot of like sidle things that
+
+1954
+01:37:46,320 --> 01:37:49,880
+will pressure you to do other
+things, right, Like maybe go
+
+1955
+01:37:49,880 --> 01:37:52,160
+work for the company that has
+the brand that your parents will
+
+1956
+01:37:52,160 --> 01:37:54,640
+be proud of you for, right?
+Like it's a natural thing,
+
+1957
+01:37:54,640 --> 01:37:56,560
+right?
+Like maybe go, you know, like,
+
+1958
+01:37:56,560 --> 01:37:58,760
+for example, if you just start a
+company, it's like, well, like
+
+1959
+01:37:59,080 --> 01:38:00,960
+now you're unemployed is a
+different view of the same
+
+1960
+01:38:00,960 --> 01:38:02,960
+thing, right?
+Like, so I think that some of
+
+1961
+01:38:02,960 --> 01:38:06,960
+these things are hard, but but
+you know, I do think people
+
+1962
+01:38:07,040 --> 01:38:09,640
+could take much more risks than
+they usually think they can,
+
+1963
+01:38:09,800 --> 01:38:12,200
+right?
+And the challenge is a little
+
+1964
+01:38:12,200 --> 01:38:15,120
+bit as if you find that out late
+in life, there are less
+
+1965
+01:38:15,120 --> 01:38:17,520
+opportunities.
+Like we, we all have just time,
+
+1966
+01:38:17,640 --> 01:38:19,400
+right?
+And, and that's the sort of the,
+
+1967
+01:38:19,640 --> 01:38:21,720
+the great equalizer.
+You know, people spend a lot of
+
+1968
+01:38:21,720 --> 01:38:23,480
+time doing work.
+I certainly do.
+
+1969
+01:38:23,480 --> 01:38:27,640
+I think it's like the that time
+that you spent, it should be
+
+1970
+01:38:27,640 --> 01:38:28,760
+something really meaningful to
+you.
+
+1971
+01:38:28,760 --> 01:38:30,440
+I can't just be a mean student,
+right?
+
+1972
+01:38:30,520 --> 01:38:32,960
+Like I love spending time with
+my kids and family and those
+
+1973
+01:38:32,960 --> 01:38:35,960
+things too, right?
+But like, if you're a motivated
+
+1974
+01:38:35,960 --> 01:38:37,600
+individual, you're probably
+going to spend a lot of time
+
+1975
+01:38:37,600 --> 01:38:39,080
+working, right?
+And so that whatever that work
+
+1976
+01:38:39,080 --> 01:38:43,040
+is, it should be, you know, I
+wouldn't compromise that too
+
+1977
+01:38:43,040 --> 01:38:44,960
+much for, say, like a better
+salary.
+
+1978
+01:38:44,960 --> 01:38:48,720
+You're like a mission you're not
+so excited about, right?
+
+1979
+01:38:49,280 --> 01:38:51,840
+A lot of big tech companies that
+have, you know, some missions
+
+1980
+01:38:51,840 --> 01:38:53,520
+are certainly more interesting
+than others, right?
+
+1981
+01:38:54,400 --> 01:38:57,440
+And I think applying yourself to
+kind of make an impact, you
+
+1982
+01:38:57,440 --> 01:38:59,960
+know, move society forward is
+super important.
+
+1983
+01:39:00,600 --> 01:39:03,400
+Yeah, wise words and thank you
+so much for this.
+
+1984
+01:39:03,400 --> 01:39:07,160
+I love this conversation and I
+think what we need to do is
+
+1985
+01:39:07,160 --> 01:39:12,400
+schedule in like a few years
+time and see how close we were,
+
+1986
+01:39:12,720 --> 01:39:15,760
+whether we're all using AI
+engineers or whether we were
+
+1987
+01:39:15,760 --> 01:39:17,200
+wrong.
+I'm sure something completely
+
+1988
+01:39:17,200 --> 01:39:19,920
+different will have come around
+that nine of us predicted, but
+
+1989
+01:39:19,920 --> 01:39:22,360
+it'd be a good thing to see.
+So with with that, thank you
+
+1990
+01:39:22,360 --> 01:39:24,440
+Joris, really, really
+appreciated your time.
+
+1991
+01:39:25,200 --> 01:39:26,840
+Thank you, Neil.
+Thanks for the opportunity.
+
+1992
+01:39:26,840 --> 01:39:29,720
+And yeah, let's let's put it on
+the calendar and pass it back
+
+1993
+01:39:29,720 --> 01:39:31,360
+up.
+Sounds good.
+
+1994
+01:39:31,520 --> 01:39:32,600
+All right.
+Cheers.
+
+1995
+01:39:32,680 --> 01:39:34,000
+Thank you.
+See you.

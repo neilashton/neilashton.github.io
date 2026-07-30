@@ -1,0 +1,5983 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,920
+cycling and Formula One to some
+of the world's top academics to
+
+6
+00:00:16,920 --> 00:00:21,000
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era of
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice.
+
+9
+00:00:27,640 --> 00:00:30,080
+The lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,840
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,840 --> 00:00:41,160
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:41,160 --> 00:00:44,840
+Ashton Podcast.
+Today's episode is one that is
+
+13
+00:00:44,840 --> 00:00:49,720
+focusing on a topic that I think
+is interesting to so many people
+
+14
+00:00:50,080 --> 00:00:53,520
+and that is on supersonic
+flight, supersonic travel.
+
+15
+00:00:54,680 --> 00:01:01,440
+I'm speaking to Peter Cohen, who
+is a who is a legend within NASA
+
+16
+00:01:01,440 --> 00:01:05,360
+for all that he's done for for
+the supersonic program over the
+
+17
+00:01:05,360 --> 00:01:10,800
+past three decades.
+And I wanted to speak to him
+
+18
+00:01:11,360 --> 00:01:14,560
+firstly because when I spoke to
+some to some colleagues and
+
+19
+00:01:14,560 --> 00:01:17,800
+people I work with at NASA, they
+all recommended to speak to
+
+20
+00:01:17,800 --> 00:01:21,320
+Peter as he is a fountain of
+knowledge on this program.
+
+21
+00:01:22,800 --> 00:01:26,800
+We didn't really get into
+actually a focus on him himself.
+
+22
+00:01:27,120 --> 00:01:29,800
+This was more of a topic on the
+NASA program.
+
+23
+00:01:29,800 --> 00:01:34,080
+Although people tell me that he
+is a private pilot and has some
+
+24
+00:01:34,080 --> 00:01:37,080
+amazing stories to tell.
+But in, in this particular
+
+25
+00:01:37,080 --> 00:01:41,000
+episode, we focus more on on the
+actual NASA programs and what
+
+26
+00:01:41,000 --> 00:01:42,840
+they're doing.
+And, and that is absolutely
+
+27
+00:01:42,920 --> 00:01:47,280
+fascinating.
+We start the conversation going
+
+28
+00:01:47,280 --> 00:01:51,920
+back and looking at how, how did
+we get to Concorde, you know,
+
+29
+00:01:51,920 --> 00:01:55,040
+that incredible aircraft that
+was the first to go supersonic
+
+30
+00:01:55,040 --> 00:01:59,640
+for, you know, passenger travel.
+And then talking, you know, why,
+
+31
+00:02:00,000 --> 00:02:02,360
+why did it stop?
+What was the commercial reasons?
+
+32
+00:02:02,360 --> 00:02:05,960
+What was the technical reasons?
+And then we transition into what
+
+33
+00:02:05,960 --> 00:02:08,039
+makes supersonic travel
+difficult?
+
+34
+00:02:08,160 --> 00:02:11,000
+What are the engineering
+challenges from a noise
+
+35
+00:02:11,000 --> 00:02:13,600
+perspective, from a regulatory
+perspective, from an
+
+36
+00:02:13,600 --> 00:02:19,080
+aerodynamics perspective, and
+going through step by step in
+
+37
+00:02:19,080 --> 00:02:22,080
+that process.
+And, and for anybody here who is
+
+38
+00:02:22,240 --> 00:02:24,440
+an engineer, I think you'll find
+that particularly interesting
+
+39
+00:02:24,800 --> 00:02:28,120
+talking about the specifics of
+how they overcame some of the
+
+40
+00:02:28,120 --> 00:02:32,960
+issues with the Sonic boom.
+And then we start to go through
+
+41
+00:02:33,000 --> 00:02:35,640
+and talk on the Pacific Quest
+program.
+
+42
+00:02:35,640 --> 00:02:40,600
+So this is NASA's project to
+develop a prototype, the X59
+
+43
+00:02:41,000 --> 00:02:43,400
+aircraft that is currently in
+the process of being built.
+
+44
+00:02:43,800 --> 00:02:47,520
+That will be a a test to to
+essentially validate all the
+
+45
+00:02:47,520 --> 00:02:51,440
+work that's been done and to
+give data to the aviation
+
+46
+00:02:51,440 --> 00:02:54,560
+authorities to be able to set
+the regulatory environment for
+
+47
+00:02:54,560 --> 00:02:58,080
+commercial entities to go and
+build and hopefully release
+
+48
+00:02:58,080 --> 00:03:01,160
+these aircraft.
+So we're at a really interesting
+
+49
+00:03:01,160 --> 00:03:03,440
+time.
+This project has been going on
+
+50
+00:03:03,440 --> 00:03:05,800
+for quite a while and it feels
+like we're getting very close
+
+51
+00:03:05,800 --> 00:03:09,360
+now to some very key tests that
+will dictate this.
+
+52
+00:03:09,960 --> 00:03:13,280
+And we finish off with some
+discussion around, of course,
+
+53
+00:03:13,280 --> 00:03:15,720
+hypersonic travel.
+Of course, if you can do
+
+54
+00:03:15,720 --> 00:03:18,440
+supersonic, the logical question
+is, couldn't you do hypersonic?
+
+55
+00:03:19,120 --> 00:03:22,440
+And then at the end, as I ask
+most people on this podcast,
+
+56
+00:03:22,440 --> 00:03:25,680
+some sort of words of wisdom, I
+guess, to to people who are
+
+57
+00:03:25,680 --> 00:03:28,320
+aspiring aeronautics
+professionals.
+
+58
+00:03:28,320 --> 00:03:32,160
+So this for me was personally
+one of the really interesting
+
+59
+00:03:32,160 --> 00:03:34,120
+episodes.
+I love the idea of supersonic
+
+60
+00:03:34,120 --> 00:03:38,440
+travel and Peter is such a great
+communicator and it was an honor
+
+61
+00:03:38,440 --> 00:03:41,800
+to to have him on the.
+So sit back and enjoy this
+
+62
+00:03:41,800 --> 00:03:44,640
+episode with Peter Cohen on
+supersonic travel.
+
+63
+00:03:45,160 --> 00:03:49,280
+So maybe we could begin.
+I mean, this is, I think for
+
+64
+00:03:49,280 --> 00:03:53,200
+most people a fascinating topic.
+But probably the one thing that
+
+65
+00:03:53,200 --> 00:03:56,160
+people think of when we talk
+about supersonic travel is
+
+66
+00:03:56,320 --> 00:03:59,360
+Concorde.
+So maybe as a bit of a starter,
+
+67
+00:03:59,360 --> 00:04:03,160
+could you, maybe, I know this is
+difficult, summarize the history
+
+68
+00:04:03,160 --> 00:04:06,840
+of supersonic travel.
+How did we get to the Concorde
+
+69
+00:04:07,720 --> 00:04:09,640
+program?
+Sure.
+
+70
+00:04:09,640 --> 00:04:12,320
+It's it's it's really is it?
+It actually is a fascinating
+
+71
+00:04:12,320 --> 00:04:16,240
+history.
+I mean, question 1947, we had
+
+72
+00:04:16,240 --> 00:04:22,040
+the first supersonic flight, the
+Bell X1 out at what it was in
+
+73
+00:04:22,040 --> 00:04:30,040
+Murak or Edwards Air Force Base.
+And you know, somebody heard of
+
+74
+00:04:30,040 --> 00:04:34,720
+Sonic boom then maybe.
+So that's a little interesting
+
+75
+00:04:34,720 --> 00:04:42,000
+history, but you know, from
+there very rapid development of
+
+76
+00:04:42,280 --> 00:04:45,360
+supersonic military aircraft.
+You know, in the US we had the
+
+77
+00:04:45,840 --> 00:04:49,040
+Century series fighters.
+But you know, in in Britain it
+
+78
+00:04:49,040 --> 00:04:52,920
+was, they were, it was the
+Lightning and other supersonic
+
+79
+00:04:52,920 --> 00:04:55,680
+aircraft.
+And so supersonic flight became
+
+80
+00:04:55,680 --> 00:04:59,040
+pretty common pretty quickly in
+the 1950s.
+
+81
+00:04:59,080 --> 00:05:03,240
+And, you know, pretty much as
+soon as the basics were
+
+82
+00:05:03,240 --> 00:05:05,160
+understood, people started
+thinking about, well, we should
+
+83
+00:05:05,320 --> 00:05:08,480
+have, you know, the next step
+in, in supersonic travel, in
+
+84
+00:05:08,480 --> 00:05:10,160
+travel should be supersonic
+travel.
+
+85
+00:05:11,280 --> 00:05:16,320
+So there were studies done in
+all all over the world, really.
+
+86
+00:05:16,320 --> 00:05:18,240
+But, you know, because there
+were English, the English
+
+87
+00:05:18,240 --> 00:05:21,800
+studies sued and, and British
+Aerospace began working on
+
+88
+00:05:21,800 --> 00:05:27,360
+designs and, you know,
+eventually came to the, the
+
+89
+00:05:27,360 --> 00:05:29,960
+common program, the, the
+English, you know, the British
+
+90
+00:05:29,960 --> 00:05:32,600
+French program to build the
+Concorde.
+
+91
+00:05:34,520 --> 00:05:39,840
+So, you know, along that way,
+along the way, as supersonic
+
+92
+00:05:39,840 --> 00:05:42,600
+flight became more popular, you
+know, initially Sonic booms were
+
+93
+00:05:42,600 --> 00:05:45,600
+kind of a novelty.
+You know, they'd do them at air
+
+94
+00:05:45,600 --> 00:05:48,120
+shows and people would get all
+excited about them.
+
+95
+00:05:48,120 --> 00:05:52,560
+But you know, as cop, as the
+airplanes began to use training
+
+96
+00:05:52,560 --> 00:05:55,320
+more and more often, you started
+having complaints of damage and,
+
+97
+00:05:57,160 --> 00:05:58,800
+you know, noise, noise
+complaints.
+
+98
+00:05:58,800 --> 00:06:02,960
+And you know when people, when
+some people really started to
+
+99
+00:06:02,960 --> 00:06:06,360
+think about.
+You know, regular supersonic
+
+100
+00:06:06,360 --> 00:06:09,040
+operations, I think they were
+thinking of, we really were
+
+101
+00:06:09,040 --> 00:06:12,160
+thinking about, you know, the
+entire air transportation market
+
+102
+00:06:12,160 --> 00:06:15,600
+would become supersonic and
+people would begin to think
+
+103
+00:06:15,600 --> 00:06:18,240
+about the number of overflights
+that that would involve.
+
+104
+00:06:18,240 --> 00:06:21,960
+The number of Sonic boom
+exposures that that people
+
+105
+00:06:21,960 --> 00:06:25,640
+would, you know, would hear
+would become would become a
+
+106
+00:06:25,640 --> 00:06:26,520
+problem.
+So.
+
+107
+00:06:26,840 --> 00:06:32,520
+It led to a number of studies.
+Which involves community tests
+
+108
+00:06:32,560 --> 00:06:35,200
+of people's response to Sonic
+boom.
+
+109
+00:06:35,200 --> 00:06:39,120
+And most notably, there was a, a
+very long test with many, many
+
+110
+00:06:39,680 --> 00:06:44,560
+exposures done in Oklahoma City
+in the mid 1960s, but was
+
+111
+00:06:44,560 --> 00:06:47,560
+actually sponsored by the, by
+the USFAA.
+
+112
+00:06:49,360 --> 00:06:53,120
+And, you know, it became quite
+apparent that regular Sonic boom
+
+113
+00:06:53,120 --> 00:06:59,240
+exposure would not be, would not
+be, you know, you know, would
+
+114
+00:06:59,240 --> 00:07:02,080
+not be tolerable.
+So as Concorde development
+
+115
+00:07:02,080 --> 00:07:05,520
+continued, you know, we also had
+the USSST program and that's
+
+116
+00:07:05,520 --> 00:07:10,480
+really what drove a lot of the
+the Sonic boom testing in the US
+
+117
+00:07:10,480 --> 00:07:14,760
+was trying to understand the.
+Impact of the the USSST which
+
+118
+00:07:14,760 --> 00:07:17,840
+was going to be much bigger and
+and potentially much louder in
+
+119
+00:07:17,840 --> 00:07:19,520
+terms of Sonic boom than the
+Concorde.
+
+120
+00:07:20,720 --> 00:07:25,680
+So eventually, you know,
+Concorde did fly, but in, and I
+
+121
+00:07:25,680 --> 00:07:30,880
+think it was 1968, maybe 1969
+was was first flight commercial
+
+122
+00:07:30,880 --> 00:07:35,240
+service started in 76.
+But in between those two times
+
+123
+00:07:35,240 --> 00:07:40,240
+the FAA put in a ban on
+supersonic flight over land.
+
+124
+00:07:40,640 --> 00:07:44,120
+They couldn't they there was
+that idea that if you could
+
+125
+00:07:44,120 --> 00:07:46,840
+quiet the boom enough, you
+could, you could fly over land
+
+126
+00:07:46,840 --> 00:07:49,760
+supersonic, but they didn't know
+what how quiet it would need to
+
+127
+00:07:49,760 --> 00:07:51,560
+be.
+So eventually they just said,
+
+128
+00:07:51,680 --> 00:07:55,680
+you know, no, no Sonic, no, no
+supersonic flight means no Sonic
+
+129
+00:07:55,680 --> 00:07:57,520
+booms means nobody's going to
+get annoyed.
+
+130
+00:07:57,520 --> 00:08:03,600
+So that, that was in 19, 1973
+that that ban was put in place
+
+131
+00:08:06,000 --> 00:08:08,000
+internationally.
+There are other countries that
+
+132
+00:08:08,000 --> 00:08:10,960
+ban supersonic flight, but
+pretty much everybody sticks to
+
+133
+00:08:10,960 --> 00:08:15,680
+the what the international Civil
+Aviation agreed to was they
+
+134
+00:08:15,680 --> 00:08:19,240
+didn't put in a law, but they
+or, or a standard, but they said
+
+135
+00:08:19,440 --> 00:08:25,600
+nobody should experience a, a
+negative impact, an unacceptable
+
+136
+00:08:25,600 --> 00:08:28,720
+situation as they called it, due
+to Sonic boom noise.
+
+137
+00:08:28,720 --> 00:08:32,679
+So, you know, so by the mid
+1970s we had, we had Concorde
+
+138
+00:08:32,679 --> 00:08:37,679
+operations on a very limited
+scale and we had all the rules
+
+139
+00:08:37,679 --> 00:08:41,919
+put in place and that that, that
+that continued into the two
+
+140
+00:08:41,919 --> 00:08:44,800
+2000s when Concorde operation
+ceased.
+
+141
+00:08:45,280 --> 00:08:50,400
+And but the research and, and
+trying to understand how to
+
+142
+00:08:50,520 --> 00:08:53,720
+affect the Sonic boom, how to
+make it quieter.
+
+143
+00:08:53,840 --> 00:08:56,960
+And you know, that continued all
+along through a number of
+
+144
+00:08:56,960 --> 00:09:02,920
+programs.
+So was it the case that it was
+
+145
+00:09:02,920 --> 00:09:07,240
+almost a shock to the Concorde
+developers to have this ban
+
+146
+00:09:07,600 --> 00:09:12,240
+because from what I guess it was
+imposed after the aircraft had
+
+147
+00:09:12,240 --> 00:09:15,560
+essentially been designed, were
+was the assumption that they
+
+148
+00:09:15,560 --> 00:09:18,360
+would be allowed to fly
+anywhere?
+
+149
+00:09:18,360 --> 00:09:22,600
+And then when they put that ban
+in, it was almost, yeah, too
+
+150
+00:09:22,600 --> 00:09:25,400
+late to really change the
+fundamental design or
+
+151
+00:09:25,400 --> 00:09:28,280
+principles.
+Yeah, there's a lot, There's a
+
+152
+00:09:28,280 --> 00:09:31,280
+lot to that actually.
+You know, I think, I think
+
+153
+00:09:31,280 --> 00:09:35,480
+everybody kind, you know, in the
+early development of supersonic
+
+154
+00:09:35,480 --> 00:09:39,400
+aircraft, you know, there was
+kind of the there was very much
+
+155
+00:09:40,080 --> 00:09:42,600
+kind of this is in the US, but
+as globally as well.
+
+156
+00:09:42,600 --> 00:09:44,880
+You know, people thought, you
+know, technology advancement,
+
+157
+00:09:45,200 --> 00:09:48,440
+all technology advancement was
+good and that in the 60s that
+
+158
+00:09:48,440 --> 00:09:52,040
+changed.
+And Sonic the, the advent of
+
+159
+00:09:52,040 --> 00:09:55,040
+Sonic boom, you know, the
+possibility of, of regular
+
+160
+00:09:55,040 --> 00:09:59,000
+exposure to Sonic boom was a
+part of that, that change.
+
+161
+00:10:00,160 --> 00:10:06,960
+So, you know, certainly the US
+manufacturers and and.
+
+162
+00:10:07,440 --> 00:10:10,960
+British Aerospace and and
+aerospace Yao, you know, they,
+
+163
+00:10:11,000 --> 00:10:13,960
+they, they expected that they
+would fly over land supersonic
+
+164
+00:10:14,360 --> 00:10:16,960
+and that the airplanes would be
+used as.
+
+165
+00:10:17,560 --> 00:10:22,120
+As regular air transport so.
+I don't know if it was a.
+
+166
+00:10:22,120 --> 00:10:26,360
+Shock, you know, but but I'm
+sure they began to realize that
+
+167
+00:10:26,360 --> 00:10:29,640
+sentiment was building against,
+you know, exposing people to
+
+168
+00:10:29,640 --> 00:10:33,080
+this new sound and it
+definitely, you know, it
+
+169
+00:10:33,080 --> 00:10:35,680
+definitely hurt the market, you
+know, for the aircraft.
+
+170
+00:10:36,800 --> 00:10:39,800
+I yeah, I suppose what I'm
+getting to because my second
+
+171
+00:10:39,800 --> 00:10:44,120
+question was really why, Why did
+Concord ultimately stop and and
+
+172
+00:10:44,120 --> 00:10:47,760
+fail in some extent?
+And I'm just wondering to that
+
+173
+00:10:47,760 --> 00:10:51,240
+point, was it an economic
+reason?
+
+174
+00:10:52,040 --> 00:10:56,800
+Was it a technology reason?
+And is there anything that is
+
+175
+00:10:56,800 --> 00:10:59,160
+essentially because they
+couldn't fly over land, they
+
+176
+00:10:59,160 --> 00:11:03,520
+just destroyed the economic
+model and what what caused
+
+177
+00:11:03,520 --> 00:11:08,840
+Concorde essentially to?
+To, you know, not I've, I've
+
+178
+00:11:08,840 --> 00:11:11,680
+studied, I haven't really
+studied the, the marketing of
+
+179
+00:11:11,680 --> 00:11:13,320
+it, but you know, there's a
+couple of things.
+
+180
+00:11:16,600 --> 00:11:18,800
+You know, one of the things that
+that NASA really believes and,
+
+181
+00:11:18,800 --> 00:11:20,920
+and kind of the supersonic
+community believes that if
+
+182
+00:11:20,920 --> 00:11:24,040
+you're going to have regular
+supersonic air transportation,
+
+183
+00:11:24,400 --> 00:11:28,360
+you have to the airlines have to
+be able to operate the airplane
+
+184
+00:11:28,360 --> 00:11:30,000
+as they would any other
+airplane.
+
+185
+00:11:30,000 --> 00:11:35,280
+So limiting it to just certain
+over water routes limits the
+
+186
+00:11:35,280 --> 00:11:37,720
+market and limits the
+effectiveness of the airplane.
+
+187
+00:11:37,720 --> 00:11:42,600
+So that was a definite strike
+against, you know, Concorde.
+
+188
+00:11:44,200 --> 00:11:47,160
+It was, you know, it was a
+marvel, you know, to, you know,
+
+189
+00:11:47,200 --> 00:11:50,760
+again, you know, essentially the
+design was pretty much in place.
+
+190
+00:11:50,880 --> 00:11:54,240
+You know, a few years after the
+first supersonic flight through
+
+191
+00:11:54,240 --> 00:11:56,920
+head of supersonic airliner
+fantastic.
+
+192
+00:11:57,720 --> 00:12:01,000
+But you know, so the technology
+that was incorporated in it in
+
+193
+00:12:01,000 --> 00:12:06,440
+it was was somewhat immature for
+airliner technology.
+
+194
+00:12:07,040 --> 00:12:09,440
+And then we had, you know, we
+had a couple of fuel crises and
+
+195
+00:12:09,440 --> 00:12:12,000
+then, you know, after the, after
+the accident.
+
+196
+00:12:13,000 --> 00:12:15,280
+There was a, there was a
+downturn, another economic
+
+197
+00:12:15,280 --> 00:12:18,800
+downturn, which you know, kind
+of limited the operation.
+
+198
+00:12:18,800 --> 00:12:23,440
+So eventually, you know, being
+able to continue an operation
+
+199
+00:12:23,440 --> 00:12:27,640
+with, with such such a small
+number of aircraft serving such
+
+200
+00:12:27,640 --> 00:12:31,080
+a small market, I think you
+know, the, the airline's best,
+
+201
+00:12:31,080 --> 00:12:34,600
+you know, but basically it was
+not, it was not economically
+
+202
+00:12:34,600 --> 00:12:38,600
+viable for them to continue so.
+There was regulation, there was
+
+203
+00:12:38,600 --> 00:12:40,760
+technology and there was
+economics.
+
+204
+00:12:40,760 --> 00:12:44,400
+That all went into, I think, the
+end of the the Concorde's
+
+205
+00:12:44,400 --> 00:12:46,720
+commercial operation.
+Yeah, it is.
+
+206
+00:12:47,840 --> 00:12:50,640
+I've, I've been on Concorde, not
+when he was flying, but in the
+
+207
+00:12:50,640 --> 00:12:57,680
+museum and I'm always amazed at
+how small it is, how tight the
+
+208
+00:12:57,680 --> 00:13:02,160
+seats are compared now you know,
+to, to to an aircraft how very
+
+209
+00:13:02,160 --> 00:13:04,480
+and obviously how expensive the,
+the tickets were.
+
+210
+00:13:04,480 --> 00:13:10,240
+So it was, yeah, I guess as you
+say it was, it was a novelty for
+
+211
+00:13:10,240 --> 00:13:11,600
+sure.
+And I'm sure that helped for a
+
+212
+00:13:11,600 --> 00:13:14,920
+while.
+But I guess it would be
+
+213
+00:13:14,920 --> 00:13:16,920
+interesting even if it didn't
+stop for that reason.
+
+214
+00:13:16,920 --> 00:13:20,120
+Would, would there be the
+pressure because of the I guess
+
+215
+00:13:20,120 --> 00:13:23,680
+now like first class travel is
+so much about luxury and, and
+
+216
+00:13:23,680 --> 00:13:26,640
+the size of the cabins and all
+this and you go into Concorde
+
+217
+00:13:26,640 --> 00:13:31,120
+and you're in this tiny little.
+Seat well, that's an interesting
+
+218
+00:13:31,120 --> 00:13:35,880
+again, NASA does studies and
+we're we're we talk to companies
+
+219
+00:13:35,880 --> 00:13:40,080
+that do studies and that that's
+a factor.
+
+220
+00:13:40,080 --> 00:13:44,000
+But you know, you look at, you
+know when given the opportunity
+
+221
+00:13:44,000 --> 00:13:50,000
+to get there sooner, most people
+will choose sooner in in the
+
+222
+00:13:50,000 --> 00:13:51,480
+long run, so.
+Yeah.
+
+223
+00:13:52,960 --> 00:13:56,080
+I from NASA's perspective,
+we're, we're NASA's perspective,
+
+224
+00:13:56,160 --> 00:13:59,080
+you know, from the big picture
+for NASA, we're trying to
+
+225
+00:13:59,080 --> 00:14:03,960
+innovate and do things that
+improve air travel for, you
+
+226
+00:14:03,960 --> 00:14:05,880
+know, for the, for the traveling
+public.
+
+227
+00:14:06,360 --> 00:14:09,000
+And so our mantra is kind of,
+you know, yeah, getting there
+
+228
+00:14:09,000 --> 00:14:13,360
+faster, yeah, over long
+distances is, is a marked
+
+229
+00:14:13,360 --> 00:14:17,200
+improvement in the experience of
+the, the, the air traveler.
+
+230
+00:14:17,200 --> 00:14:20,720
+So, you know, that's if we can
+do that in a way that is
+
+231
+00:14:21,320 --> 00:14:25,960
+affordable, sustainable, and,
+you know, acceptable,
+
+232
+00:14:25,960 --> 00:14:29,520
+environmentally acceptable, then
+if if we can put those
+
+233
+00:14:29,520 --> 00:14:32,480
+technologies in place, then you
+know, there's a market there
+
+234
+00:14:33,520 --> 00:14:37,280
+that would definitely be of
+interest to manufacturers.
+
+235
+00:14:38,320 --> 00:14:42,200
+I mean, it's for sure, I mean,
+I, I travel quite a lot to the
+
+236
+00:14:42,320 --> 00:14:45,400
+US for conferences or for
+meetings.
+
+237
+00:14:45,400 --> 00:14:49,240
+And there is no doubt that the
+length of time it takes to
+
+238
+00:14:49,240 --> 00:14:54,920
+travel from Europe to the USI
+think does limit how closely
+
+239
+00:14:54,920 --> 00:14:56,600
+those countries can work
+together.
+
+240
+00:14:56,800 --> 00:14:59,880
+Whereas I know that my US
+colleagues who have to fly from,
+
+241
+00:14:59,880 --> 00:15:03,120
+let's say, California to
+Washington, it's still a six
+
+242
+00:15:03,120 --> 00:15:06,440
+hour flight.
+But anything I think less than 5
+
+243
+00:15:06,440 --> 00:15:11,720
+or 6 hours is a different
+psychological, different jet lag
+
+244
+00:15:11,720 --> 00:15:15,360
+different, just everything
+compared to 10 hours or, you
+
+245
+00:15:15,360 --> 00:15:19,280
+know, 8 or 10 hours.
+So I can totally see why the
+
+246
+00:15:19,880 --> 00:15:23,080
+increasing business or or
+closeness that I'm sure there's
+
+247
+00:15:23,160 --> 00:15:26,800
+economic benefits from making
+air travel faster, you know,
+
+248
+00:15:26,800 --> 00:15:32,200
+promote people to maybe, yeah,
+stay in touch more easily.
+
+249
+00:15:32,880 --> 00:15:35,040
+Yeah, that's, that's, you know,
+again, that's kind of NASA's
+
+250
+00:15:35,160 --> 00:15:38,200
+part of NASA's vision is, you
+know, it it, it makes a smaller
+
+251
+00:15:38,200 --> 00:15:42,560
+world if you can get there in in
+half the time.
+
+252
+00:15:43,120 --> 00:15:47,920
+Yeah.
+So what what the high level as
+
+253
+00:15:47,920 --> 00:15:50,680
+we go towards speaking about
+the, you know, the NASA
+
+254
+00:15:50,680 --> 00:15:54,320
+programs, could you maybe just
+explain to people the high level
+
+255
+00:15:54,320 --> 00:16:01,000
+factors that makes supersonic
+passenger jets technologically
+
+256
+00:16:01,000 --> 00:16:03,560
+challenging?
+What is it about the nature of
+
+257
+00:16:03,560 --> 00:16:06,440
+supersonic travel?
+A challenge from a noise point
+
+258
+00:16:06,440 --> 00:16:10,760
+of view, From a fuel efficiency
+compared to transonic aircraft?
+
+259
+00:16:12,560 --> 00:16:17,040
+Well, I mean the the so yeah, so
+we, we look at we look at as
+
+260
+00:16:17,240 --> 00:16:20,400
+there are barriers, you know,
+that need to be overcome to make
+
+261
+00:16:20,400 --> 00:16:25,160
+supersonic travel, you know, as
+I said, you know, economically
+
+262
+00:16:25,160 --> 00:16:28,680
+viable and and environmentally
+acceptable.
+
+263
+00:16:28,800 --> 00:16:31,200
+So we kind of lumped them into
+categories.
+
+264
+00:16:31,200 --> 00:16:34,240
+One of them is Sonic boom.
+You know, we have to be able to
+
+265
+00:16:34,240 --> 00:16:36,560
+fly over land without disturbing
+people.
+
+266
+00:16:36,560 --> 00:16:41,280
+So we can talk a little bit more
+about about how we do that.
+
+267
+00:16:41,480 --> 00:16:44,560
+But, you know, just right now.
+So the airplane needs to be
+
+268
+00:16:44,560 --> 00:16:49,760
+shaped to to reduce the sound of
+the Sonic boom.
+
+269
+00:16:50,720 --> 00:16:53,640
+And that that's not a whole lot
+different from, you know, the
+
+270
+00:16:53,880 --> 00:16:56,720
+what a supersonic, what Concorde
+would look like.
+
+271
+00:16:56,720 --> 00:17:02,760
+But there are some things, you
+know, to go faster obviously
+
+272
+00:17:02,760 --> 00:17:05,240
+requires more energy.
+So, you know, there's no,
+
+273
+00:17:05,240 --> 00:17:07,839
+there's no getting around the
+fact that it needs more fuel.
+
+274
+00:17:08,400 --> 00:17:14,040
+So but balancing, you know, the
+fuel burn at high speed versus
+
+275
+00:17:14,040 --> 00:17:17,839
+the fuel burn at at low speed
+and getting that that that
+
+276
+00:17:17,839 --> 00:17:21,760
+integrated design that.
+Is efficient as possible, burns
+
+277
+00:17:21,760 --> 00:17:24,640
+as less fuel but as little fuel
+as possible across the speed
+
+278
+00:17:24,640 --> 00:17:27,880
+regime.
+That's, that's a key technology
+
+279
+00:17:27,880 --> 00:17:34,120
+challenge to one of the things
+that that, yeah, is, is maybe
+
+280
+00:17:34,120 --> 00:17:38,120
+people don't realize is, you
+know, current subsonic air
+
+281
+00:17:38,480 --> 00:17:41,240
+airplanes have those great big
+turbofan engines.
+
+282
+00:17:41,520 --> 00:17:46,840
+So they're accelerating a lot of
+air, just a small amount to
+
+283
+00:17:46,840 --> 00:17:49,080
+create the thrust that they
+need.
+
+284
+00:17:49,080 --> 00:17:53,040
+And that's, that's both
+efficient and quiet at subsonic
+
+285
+00:17:53,040 --> 00:17:56,480
+speeds.
+As you get to higher speeds, you
+
+286
+00:17:56,480 --> 00:18:00,800
+need your jet has to be faster,
+you need to accelerate less air
+
+287
+00:18:00,800 --> 00:18:04,600
+more, you know to create the
+thrust that you need to go
+
+288
+00:18:05,480 --> 00:18:09,080
+supersonic speed.
+So you can't have a high bypass
+
+289
+00:18:09,080 --> 00:18:10,960
+turbofan.
+So coming up with an engine
+
+290
+00:18:10,960 --> 00:18:15,280
+design that is again matches the
+the requirements of low speed
+
+291
+00:18:15,280 --> 00:18:19,760
+and high speed, but is also for
+take off and.
+
+292
+00:18:19,760 --> 00:18:24,080
+Landing can can.
+Effectively operate quietly so
+
+293
+00:18:24,080 --> 00:18:27,920
+with the lowest jet velocity you
+know, the, the speed the, the
+
+294
+00:18:27,920 --> 00:18:32,560
+jet coming out of the tailpipe
+as, as you can so that that
+
+295
+00:18:33,000 --> 00:18:38,440
+requires some unique engine
+design emissions is a problem.
+
+296
+00:18:38,960 --> 00:18:42,480
+You know that the, the, the
+Mach, the Mach number of the
+
+297
+00:18:42,480 --> 00:18:44,760
+airplane, the higher the Mach
+number, the higher you fly.
+
+298
+00:18:45,320 --> 00:18:48,240
+Eventually you're, you're up in
+the stratosphere where the
+
+299
+00:18:48,400 --> 00:18:52,960
+emissions of the engine can have
+a magnified effect on, on the
+
+300
+00:18:52,960 --> 00:18:57,920
+ozone layer and the, you know,
+the, the, the, the quality of
+
+301
+00:18:57,920 --> 00:19:02,560
+the atmosphere.
+So paying attention to the, the,
+
+302
+00:19:04,760 --> 00:19:07,640
+how the fuel is burned in the
+engine, the combustion process
+
+303
+00:19:08,480 --> 00:19:11,960
+and making a, a burner, a
+combustor in the airplane that
+
+304
+00:19:11,960 --> 00:19:15,920
+is, that is as creates as little
+emissions as possible.
+
+305
+00:19:15,920 --> 00:19:19,000
+Is, is, is a major challenge for
+supersonic aircraft.
+
+306
+00:19:19,520 --> 00:19:23,600
+If we go back into the 1990s
+when there was the High Speed
+
+307
+00:19:23,600 --> 00:19:27,120
+research program, emissions was
+one of the big focuses.
+
+308
+00:19:28,160 --> 00:19:31,400
+Of that effort and the
+technology that kind of found
+
+309
+00:19:31,400 --> 00:19:40,000
+its start in that program is now
+in a lot of the engines that you
+
+310
+00:19:40,000 --> 00:19:41,440
+see on subsonic.
+Airplanes.
+
+311
+00:19:41,440 --> 00:19:42,920
+So it's kind of made full
+circle.
+
+312
+00:19:42,920 --> 00:19:45,440
+And now we're.
+Looking at it again, can we, can
+
+313
+00:19:45,440 --> 00:19:51,040
+we improve it even more to get a
+big, a bigger impact if we start
+
+314
+00:19:51,040 --> 00:19:55,200
+using those on the, on
+supersonic aircraft again?
+
+315
+00:19:56,000 --> 00:19:59,080
+So there's that and there's
+operations, you know, how do
+
+316
+00:19:59,200 --> 00:20:01,880
+you, you operate the airplane?
+How do you mix the, the fleet
+
+317
+00:20:01,880 --> 00:20:06,200
+together so that supersonic
+aircraft can fly as fast as it
+
+318
+00:20:06,200 --> 00:20:11,200
+can for as long as it can
+without having an impact on, on
+
+319
+00:20:11,200 --> 00:20:13,760
+the, on the subsonic of the
+subsonic traffic.
+
+320
+00:20:15,000 --> 00:20:17,760
+So there's, there's a lot of,
+there's a lot of technology
+
+321
+00:20:17,760 --> 00:20:21,040
+factors.
+You know that that that that
+
+322
+00:20:21,040 --> 00:20:24,200
+need to be addressed airport
+noise.
+
+323
+00:20:24,800 --> 00:20:29,960
+Sonic boom and emissions are
+kind of the three real barriers
+
+324
+00:20:29,960 --> 00:20:33,640
+to actually opening the market.
+I think you know to to even a
+
+325
+00:20:33,760 --> 00:20:37,920
+supersonic business aircraft.
+Well, I'm glad you mentioned
+
+326
+00:20:37,920 --> 00:20:41,280
+that because that was one of the
+things I was to ask you about
+
+327
+00:20:42,120 --> 00:20:45,600
+from a, you know, conceptual
+design point of view.
+
+328
+00:20:45,600 --> 00:20:48,960
+When you do the numbers and you
+figure out the maps on, you
+
+329
+00:20:48,960 --> 00:20:52,200
+know, what's the, the best size
+or how many passengers can you
+
+330
+00:20:52,200 --> 00:20:55,480
+put on this thing?
+What do the, what do the sums
+
+331
+00:20:55,480 --> 00:21:00,640
+ultimately drive you to?
+I, I'm guessing not a 300 person
+
+332
+00:21:00,920 --> 00:21:03,960
+aircraft like you would see now,
+but much smaller.
+
+333
+00:21:03,960 --> 00:21:07,600
+So could you maybe talk about
+how the aircraft design maths
+
+334
+00:21:07,600 --> 00:21:13,240
+work out in that point?
+Of view so you know we're we're
+
+335
+00:21:13,280 --> 00:21:18,080
+doing the X 59 now we didn't
+start out to do a demonstrator.
+
+336
+00:21:18,080 --> 00:21:24,200
+We we started out to in the in
+the early 2000s, we had just
+
+337
+00:21:24,200 --> 00:21:27,320
+flown the shape Sonic boom
+demonstrator and kind of proved
+
+338
+00:21:27,320 --> 00:21:32,560
+that this approach for quieting
+Sonic boom works in a real
+
+339
+00:21:32,560 --> 00:21:36,400
+atmosphere.
+And there was a lot of kind of
+
+340
+00:21:36,400 --> 00:21:39,080
+innovative thinking going on
+then about, you know, how we
+
+341
+00:21:39,120 --> 00:21:43,920
+would, you know, how, how we
+could advance from where our our
+
+342
+00:21:43,920 --> 00:21:46,480
+state of knowledge on, on
+quieting Sonic boom to really
+
+343
+00:21:46,480 --> 00:21:49,400
+getting to something that was
+not only worked well, but was
+
+344
+00:21:49,400 --> 00:21:53,480
+what was practical in a design.
+So we had some ideas.
+
+345
+00:21:54,040 --> 00:21:58,240
+We had new CFD, we had faster
+computers, we had design systems
+
+346
+00:21:58,240 --> 00:22:00,520
+which enable us to do better
+optimization.
+
+347
+00:22:01,000 --> 00:22:05,480
+And we really thought we could
+make a major change in the in
+
+348
+00:22:05,480 --> 00:22:07,440
+the loudness of the supersonic
+aircraft.
+
+349
+00:22:07,440 --> 00:22:12,560
+So what we did is we worked with
+NASA, worked with Boeing and
+
+350
+00:22:12,560 --> 00:22:17,480
+Lockheed in two separate studies
+to say, OK, if we have this
+
+351
+00:22:17,480 --> 00:22:23,640
+technology and we incorporate it
+in a future design, you know,
+
+352
+00:22:23,640 --> 00:22:25,880
+what, what, what's, what's
+practical.
+
+353
+00:22:26,680 --> 00:22:32,640
+And what we wound up with was a
+about 100 passenger airplanes,
+
+354
+00:22:32,640 --> 00:22:37,000
+so something about the same size
+as as Concorde that flies at
+
+355
+00:22:37,000 --> 00:22:45,280
+about Mach 1.82 to 3 engines.
+And, you know, 40. 500 or so
+
+356
+00:22:45,720 --> 00:22:51,880
+miles range, so you know, trans
+Pacific, but but barely that all
+
+357
+00:22:51,880 --> 00:22:55,440
+kind of fit and enabled us to
+make an airplane that met the
+
+358
+00:22:55,440 --> 00:22:59,560
+boom requirements, met the
+landing and take off noise
+
+359
+00:22:59,560 --> 00:23:04,680
+requirements and the admissions
+requirements and was it was was
+
+360
+00:23:04,680 --> 00:23:07,000
+much more efficient at cruise
+than Concord.
+
+361
+00:23:08,200 --> 00:23:17,520
+So the those boom shaping
+technology, the wanting wanting
+
+362
+00:23:17,520 --> 00:23:22,200
+to meet the noise requirements
+all kind of and and trying to
+
+363
+00:23:22,200 --> 00:23:25,080
+make the airplane out of
+materials that that don't have
+
+364
+00:23:25,080 --> 00:23:27,200
+to be, you know, we don't have
+to use special materials for
+
+365
+00:23:27,200 --> 00:23:30,720
+high heat.
+We want we have a propulsion
+
+366
+00:23:30,720 --> 00:23:33,760
+system that's balanced for take
+off the landing and supersonic
+
+367
+00:23:33,760 --> 00:23:39,800
+flight, say about Mach 1.8 is is
+the range that is the speed that
+
+368
+00:23:39,800 --> 00:23:41,920
+you want to go for.
+So it's a little slower than
+
+369
+00:23:41,920 --> 00:23:45,240
+Concorde, but it's still twice
+as fast as current subsonic
+
+370
+00:23:45,240 --> 00:23:51,800
+airliners.
+And is that where still you
+
+371
+00:23:51,840 --> 00:23:58,040
+think the sweet spot is in terms
+of the aircraft, the the most
+
+372
+00:23:58,040 --> 00:24:01,040
+practical aircraft, that's what
+you started off with it is that
+
+373
+00:24:01,040 --> 00:24:06,320
+still the case that around 100
+passengers 1.8 is that, is that
+
+374
+00:24:06,320 --> 00:24:10,080
+really what all the sort of
+analysis studies converge to?
+
+375
+00:24:14,560 --> 00:24:17,800
+There have been more studies,
+more market studies since then
+
+376
+00:24:17,800 --> 00:24:22,240
+and, and well, just recently
+we've actually, you know, so
+
+377
+00:24:22,240 --> 00:24:25,520
+there's actually a kind of
+another community of researchers
+
+378
+00:24:26,400 --> 00:24:30,320
+and, and companies that are
+pushing for faster travel.
+
+379
+00:24:30,320 --> 00:24:36,880
+So Mach 4 or Mach 5.
+And so NASA commissioned some,
+
+380
+00:24:36,880 --> 00:24:41,960
+some more recent studies that,
+you know, since this is kind of
+
+381
+00:24:41,960 --> 00:24:45,080
+being driven by the high speed,
+the higher speed community, we
+
+382
+00:24:45,080 --> 00:24:49,640
+set the Mach range at Mach 2 to
+four and four and a half.
+
+383
+00:24:49,800 --> 00:24:53,000
+You know what, what's the best
+answer in that speed range?
+
+384
+00:24:53,440 --> 00:24:56,200
+Well, all the best designs came
+out to be Mach 2.
+
+385
+00:24:58,200 --> 00:25:00,960
+You know, So what they're kind
+of saying is, you know, and
+
+386
+00:25:00,960 --> 00:25:04,160
+they're, what we really were
+seeing was those, those designs
+
+387
+00:25:04,160 --> 00:25:07,840
+were, were somewhat impractical
+because they were constrained to
+
+388
+00:25:07,840 --> 00:25:12,000
+be Mach 2.
+So we felt confident that, you
+
+389
+00:25:12,000 --> 00:25:16,680
+know, if we had stretched that
+envelope down to Mach 1.7 or so,
+
+390
+00:25:16,680 --> 00:25:20,000
+we would have found even, you
+know, we would kind of confirmed
+
+391
+00:25:20,000 --> 00:25:23,080
+our, our previous results.
+So the answer is yes.
+
+392
+00:25:23,080 --> 00:25:27,080
+I think generally studies still
+seem to point to that, yeah,
+
+393
+00:25:27,320 --> 00:25:29,800
+kind of given what we what we
+know in, in, in terms of
+
+394
+00:25:29,800 --> 00:25:33,160
+technology and and given the the
+challenges of higher speed
+
+395
+00:25:33,160 --> 00:25:38,960
+flight that for the first
+products that that bring kind of
+
+396
+00:25:38,960 --> 00:25:42,960
+bring back supersonic flight
+that 1.71.8 mock range is, is
+
+397
+00:25:42,960 --> 00:25:45,120
+kind of the sweet spot.
+OK.
+
+398
+00:25:45,760 --> 00:25:47,680
+And just to maybe, Oh no, please
+go.
+
+399
+00:25:48,200 --> 00:25:50,760
+Ahead, Oh, take boom.
+You know, Boom Supersonic is is
+
+400
+00:25:50,760 --> 00:25:56,080
+trying to build a essentially a
+successor to Concorde smaller,
+
+401
+00:25:56,080 --> 00:25:59,280
+but you know, it's kind of kind
+of that same mission supersonic
+
+402
+00:25:59,280 --> 00:26:03,160
+overwater flight only they
+started out, you know, talking
+
+403
+00:26:03,160 --> 00:26:06,680
+about Mach 2.4 and their current
+design is Mach 1.7.
+
+404
+00:26:07,480 --> 00:26:11,360
+So.
+That also kind of confirms where
+
+405
+00:26:11,360 --> 00:26:13,200
+where the technology will take
+you.
+
+406
+00:26:13,880 --> 00:26:16,760
+Yeah.
+And just maybe for people's
+
+407
+00:26:17,200 --> 00:26:21,040
+sense, is this actually let
+let's maybe go through.
+
+408
+00:26:21,160 --> 00:26:24,800
+Could you just briefly introduce
+the NASA program?
+
+409
+00:26:24,800 --> 00:26:27,240
+You know, there is a specific
+NASA program with a certain name
+
+410
+00:26:27,240 --> 00:26:29,760
+And so could you maybe just
+briefly introduce, you know,
+
+411
+00:26:29,760 --> 00:26:32,120
+what is that?
+And the X59 I know it there's
+
+412
+00:26:32,120 --> 00:26:35,000
+like a a specific project, isn't
+there?
+
+413
+00:26:35,960 --> 00:26:41,040
+Yes.
+So again, after we, well, we,
+
+414
+00:26:41,040 --> 00:26:43,920
+we, we kind of, we proved this
+technology to us at least.
+
+415
+00:26:43,920 --> 00:26:47,240
+So in, in our Boeing and
+Lockheed studies, we, we did
+
+416
+00:26:47,240 --> 00:26:51,120
+designs, you know, conceptual
+designs, we did a lot of CFD
+
+417
+00:26:51,120 --> 00:26:54,800
+analysis and then eventually we
+tested those designs in wind
+
+418
+00:26:54,800 --> 00:26:57,320
+tunnels.
+So small scale models, really
+
+419
+00:26:57,320 --> 00:27:00,920
+trying to test what we did.
+We did a number of tests, but
+
+420
+00:27:00,920 --> 00:27:05,280
+the focus of the test was, did
+we get the quiet boom design
+
+421
+00:27:06,240 --> 00:27:08,600
+right?
+And we, and lo and behold, we,
+
+422
+00:27:08,600 --> 00:27:11,520
+we've matched our, our
+predictions, our CFD matched our
+
+423
+00:27:11,720 --> 00:27:14,520
+prediction, our, our experiment
+almost perfectly.
+
+424
+00:27:14,520 --> 00:27:17,160
+So we knew that technology could
+work.
+
+425
+00:27:17,760 --> 00:27:19,960
+And so there was, there was a
+lot of excitement about taking
+
+426
+00:27:19,960 --> 00:27:21,920
+the next step.
+Well, let's, let's try and fly
+
+427
+00:27:21,920 --> 00:27:24,080
+it.
+But you know, we were very
+
+428
+00:27:24,080 --> 00:27:27,640
+confident in the CFD.
+So, you know, we weren't going
+
+429
+00:27:27,640 --> 00:27:30,640
+to actually prove the technology
+in flight.
+
+430
+00:27:30,640 --> 00:27:32,960
+We, you know, we could
+demonstrate it in flight, but
+
+431
+00:27:33,000 --> 00:27:38,000
+you know, what we learned from
+flight would be, you know, how
+
+432
+00:27:38,000 --> 00:27:39,640
+robust is it?
+You know, does it change in
+
+433
+00:27:39,640 --> 00:27:42,160
+different weather conditions?
+You know, what speed ranges work
+
+434
+00:27:42,160 --> 00:27:43,080
+best?
+You know, kind of that
+
+435
+00:27:43,080 --> 00:27:46,880
+information like that, which
+was, you know, exciting science
+
+436
+00:27:46,880 --> 00:27:50,200
+to do, but was not.
+A.
+
+437
+00:27:50,200 --> 00:27:55,000
+Program that was getting much
+traction with, with, with NASA
+
+438
+00:27:55,000 --> 00:27:59,240
+or with, you know, our, our, our
+budget people in the, in the
+
+439
+00:27:59,240 --> 00:28:03,760
+government.
+In parallel to all this work, we
+
+440
+00:28:03,760 --> 00:28:09,480
+were doing research on how
+people respond to the sound from
+
+441
+00:28:09,480 --> 00:28:12,440
+supersonic aircraft.
+So we had done laboratory
+
+442
+00:28:12,440 --> 00:28:16,160
+studies where we built these
+simulators which essentially
+
+443
+00:28:16,160 --> 00:28:20,720
+create a Sonic boom or a quiet
+Sonic thump, you know, in a lab
+
+444
+00:28:20,720 --> 00:28:23,480
+situation.
+We had, we had found that, you
+
+445
+00:28:23,480 --> 00:28:26,760
+know, the numbers that we were
+getting in our designs, we were
+
+446
+00:28:26,760 --> 00:28:29,480
+able to get to in our designs
+were kind of at the threshold
+
+447
+00:28:29,480 --> 00:28:32,920
+where people really stopped,
+almost stopped noticing the
+
+448
+00:28:32,920 --> 00:28:36,680
+sound.
+So what, what, what really sold
+
+449
+00:28:36,680 --> 00:28:42,480
+us was we really wanted to
+understand how, how people in a
+
+450
+00:28:42,480 --> 00:28:45,640
+community, you know, going about
+their daily lives would respond
+
+451
+00:28:45,640 --> 00:28:49,400
+to the sound, what level, what
+sound level would be acceptable.
+
+452
+00:28:50,080 --> 00:28:52,120
+And that's where we got the, the
+traction.
+
+453
+00:28:52,120 --> 00:28:54,000
+So that's what became the quest
+mission.
+
+454
+00:28:54,000 --> 00:28:57,280
+That's the the current big NASA
+activity.
+
+455
+00:28:58,200 --> 00:29:01,720
+So what we're doing is, and the
+best way to generate that sound
+
+456
+00:29:01,720 --> 00:29:05,920
+in a community is to use an
+aircraft that creates a
+
+457
+00:29:05,920 --> 00:29:11,080
+representative sound.
+So the Quest mission kind of has
+
+458
+00:29:11,080 --> 00:29:14,520
+three phases.
+The first phase, well, all
+
+459
+00:29:14,520 --> 00:29:17,320
+phases are active now.
+The focus right now is building
+
+460
+00:29:17,320 --> 00:29:20,160
+the X59 aircraft.
+It's a unique.
+
+461
+00:29:21,160 --> 00:29:23,400
+Technology.
+It's a demonstrator aircraft.
+
+462
+00:29:23,400 --> 00:29:26,880
+It's a research aircraft.
+It's not a prototype for, for a
+
+463
+00:29:26,880 --> 00:29:31,760
+supersonic airliner, but it does
+create a sound that's similar to
+
+464
+00:29:31,760 --> 00:29:35,720
+what we think the sounds of the
+future supersonic aircraft will
+
+465
+00:29:35,720 --> 00:29:37,840
+be.
+So we're designing that
+
+466
+00:29:37,840 --> 00:29:39,640
+airplane.
+We've, we've contracted with
+
+467
+00:29:39,640 --> 00:29:42,680
+Lockheed Martin to build the
+airplane for us.
+
+468
+00:29:42,800 --> 00:29:46,080
+Their contract runs through
+getting the airplane in the air,
+
+469
+00:29:46,560 --> 00:29:49,120
+doing all the envelope
+expansion, as we call it, you
+
+470
+00:29:49,120 --> 00:29:51,440
+know, the safety of flight
+checks.
+
+471
+00:29:51,440 --> 00:29:54,280
+And then they'll essentially
+hand us the keys and the
+
+472
+00:29:54,280 --> 00:29:59,520
+airplane will become NASA's
+property in the second phase of
+
+473
+00:29:59,520 --> 00:30:01,840
+the of the effort.
+We're going to take that
+
+474
+00:30:01,840 --> 00:30:04,160
+airplane, we're going to try,
+we'll make sure that the sound
+
+475
+00:30:04,160 --> 00:30:06,440
+that we're getting is what we
+expected.
+
+476
+00:30:06,440 --> 00:30:08,200
+So we call that acoustic
+validation.
+
+477
+00:30:08,720 --> 00:30:10,920
+Is it loud enough?
+Can we vary it enough?
+
+478
+00:30:12,920 --> 00:30:15,040
+You know, does is it affected by
+the atmosphere?
+
+479
+00:30:15,040 --> 00:30:16,720
+Things like that.
+We really want to understand
+
+480
+00:30:16,720 --> 00:30:19,960
+that sound that we make because
+eventually we want people to
+
+481
+00:30:19,960 --> 00:30:21,800
+hear that sound.
+And that's phase three.
+
+482
+00:30:22,280 --> 00:30:27,720
+So phase three, we'll take the X
+59 and we'll go to different
+
+483
+00:30:27,720 --> 00:30:30,680
+communities.
+Right now that we've got 5 or 6
+
+484
+00:30:30,680 --> 00:30:33,080
+tests planned.
+It's something in different
+
+485
+00:30:33,080 --> 00:30:35,680
+places in the United States.
+We haven't picked those places
+
+486
+00:30:35,680 --> 00:30:39,360
+yet, but we're we're, we're
+narrowing it down if you wish.
+
+487
+00:30:39,360 --> 00:30:45,440
+But so the idea is to is to
+expose a community to the sounds
+
+488
+00:30:45,440 --> 00:30:48,840
+of quiet supersonic flight at
+different noise levels, have
+
+489
+00:30:48,840 --> 00:30:51,880
+surveys, have microphones in the
+community to measure the sound,
+
+490
+00:30:51,920 --> 00:30:54,800
+have people taking surveys child
+how they respond to the sound.
+
+491
+00:30:55,280 --> 00:31:01,120
+So we can create a a data set
+that's describes how you know
+
+492
+00:31:01,200 --> 00:31:06,120
+what, at what sound level it is,
+is the sound acceptable and what
+
+493
+00:31:06,120 --> 00:31:10,120
+sound level is it annoying.
+In parallel to that, we're
+
+494
+00:31:10,120 --> 00:31:12,960
+working with the International
+Civil Aviation Organization,
+
+495
+00:31:12,960 --> 00:31:15,400
+particularly their Committee on
+Aviation Environmental
+
+496
+00:31:15,400 --> 00:31:18,880
+Protection, because those are
+the people that write the rules
+
+497
+00:31:18,880 --> 00:31:24,880
+for noise from, from aircraft.
+The current regulations for take
+
+498
+00:31:24,880 --> 00:31:27,560
+off and landing noise all come
+from ICAO.
+
+499
+00:31:27,560 --> 00:31:31,840
+They're implemented by, you
+know, in the UK it's CAA and the
+
+500
+00:31:33,040 --> 00:31:36,160
+US it's FAA.
+But ICAO, all those groups
+
+501
+00:31:36,160 --> 00:31:38,280
+participate in ICAO.
+They set the standard.
+
+502
+00:31:38,280 --> 00:31:42,240
+So the Quest mission, the main
+goal of the Quest mission is to
+
+503
+00:31:42,240 --> 00:31:50,600
+give ICAO the data that they can
+use to set the limit of sound
+
+504
+00:31:50,600 --> 00:31:56,880
+for future supersonic aircraft.
+So to to create that standard
+
+505
+00:31:57,640 --> 00:32:01,520
+that that manufacturers could
+then design airplanes to.
+
+506
+00:32:02,800 --> 00:32:04,920
+OK, I I see that's, that's
+really interesting.
+
+507
+00:32:04,920 --> 00:32:09,320
+So what you're basically saying
+is, you know, they have to be
+
+508
+00:32:09,320 --> 00:32:13,840
+conservative in nature when it
+comes to rules, the rules today
+
+509
+00:32:14,840 --> 00:32:20,080
+that they need, they need as
+realistic data as possible to
+
+510
+00:32:20,080 --> 00:32:25,000
+make an informed decision.
+And So what your project will do
+
+511
+00:32:25,000 --> 00:32:28,160
+is help set the foundations,
+which I then guess when
+
+512
+00:32:28,160 --> 00:32:31,960
+commercial companies like Boom
+or others want to certify their
+
+513
+00:32:31,960 --> 00:32:34,920
+aircraft, they will be
+certifying to those noise levels
+
+514
+00:32:35,440 --> 00:32:38,160
+and I guess a certain distance
+away and a certain height.
+
+515
+00:32:38,160 --> 00:32:41,840
+And it it's all the parameters I
+guess of how they measure.
+
+516
+00:32:41,840 --> 00:32:47,800
+It so the so the the standard.
+Has has a yeah, it's kind of
+
+517
+00:32:47,840 --> 00:32:49,240
+that's three elements.
+It's a metric.
+
+518
+00:32:49,720 --> 00:32:50,760
+So what are you going to
+measure?
+
+519
+00:32:50,920 --> 00:32:54,720
+What, what, what, what, what's
+the best way of measuring the,
+
+520
+00:32:54,880 --> 00:32:57,520
+the, the people's response?
+What, what number?
+
+521
+00:32:57,520 --> 00:33:02,080
+What process is a procedure?
+You know, so everybody who
+
+522
+00:33:02,120 --> 00:33:06,200
+applies for a type certificate,
+you know, has to go through the
+
+523
+00:33:06,200 --> 00:33:08,880
+same procedure.
+So it's consistent and then
+
+524
+00:33:08,880 --> 00:33:11,480
+there's a limit, you know what,
+what's the value of the metric
+
+525
+00:33:11,480 --> 00:33:14,920
+that that you can choose.
+So the quest mission really
+
+526
+00:33:14,920 --> 00:33:18,360
+helps to inform all three of
+those elements.
+
+527
+00:33:18,840 --> 00:33:22,280
+You know, we'll be getting a lot
+of data.
+
+528
+00:33:22,280 --> 00:33:26,760
+So we we've got some candidate
+metrics, you know, we'll be able
+
+529
+00:33:26,760 --> 00:33:30,280
+to test which metric works best
+when we're doing that acoustic
+
+530
+00:33:30,280 --> 00:33:34,720
+validation phase that's kind of
+that kind of mimics what the
+
+531
+00:33:35,000 --> 00:33:36,800
+certification process would look
+like.
+
+532
+00:33:37,120 --> 00:33:38,800
+So we'll get it.
+We'll be getting data that can
+
+533
+00:33:38,800 --> 00:33:42,040
+help the define that
+certification process.
+
+534
+00:33:42,040 --> 00:33:44,240
+And then when we do the
+community testing, we'll be
+
+535
+00:33:44,240 --> 00:33:47,400
+actually getting the data that
+will help support defining the
+
+536
+00:33:47,400 --> 00:33:50,120
+limit.
+You know, because NASA, NASA can
+
+537
+00:33:50,120 --> 00:33:53,240
+give, you know, we've got a good
+reputation as being honest
+
+538
+00:33:53,320 --> 00:33:55,920
+scientific, an honest scientific
+community.
+
+539
+00:33:56,280 --> 00:33:59,200
+We can give that data.
+We're, you know, we're pulling
+
+540
+00:33:59,200 --> 00:34:03,640
+in as much of the international
+community as we can so that they
+
+541
+00:34:03,640 --> 00:34:07,280
+understand what we're doing.
+But, you know, it's, it's
+
+542
+00:34:07,280 --> 00:34:10,719
+essentially creating that data.
+But then again, it's up to ICAO
+
+543
+00:34:10,719 --> 00:34:14,400
+and and the international
+community to define what the the
+
+544
+00:34:14,440 --> 00:34:17,880
+actual limits and the actual
+procedure are going to be.
+
+545
+00:34:19,120 --> 00:34:24,199
+So I'm sure the most difficult
+question is the timeline of of
+
+546
+00:34:24,199 --> 00:34:27,880
+this.
+So when is the when is the
+
+547
+00:34:28,800 --> 00:34:32,040
+aircraft expect to be handed
+over to you from Lockheed to be
+
+548
+00:34:32,040 --> 00:34:35,000
+able to start doing some of that
+validation?
+
+549
+00:34:35,679 --> 00:34:38,639
+Yes, yeah.
+So yeah, we've, we've
+
+550
+00:34:38,639 --> 00:34:43,560
+experienced delays, very
+exciting though we just had our
+
+551
+00:34:43,560 --> 00:34:47,320
+first engine runs.
+So we've started the engine on
+
+552
+00:34:47,320 --> 00:34:51,920
+the airplane for the first time.
+So that's kind of a a big step
+
+553
+00:34:51,920 --> 00:34:55,520
+forward in, in kind of the last
+phase before we fly.
+
+554
+00:34:55,520 --> 00:34:59,160
+We have, we have to do all this,
+this really integrated testing
+
+555
+00:34:59,160 --> 00:35:01,720
+where we're essentially the
+airplane is completely alive and
+
+556
+00:35:01,720 --> 00:35:04,200
+we're running all the systems
+and, and making sure
+
+557
+00:35:04,200 --> 00:35:05,440
+everything's talking to each
+other.
+
+558
+00:35:05,440 --> 00:35:08,720
+So once we got that done, then
+we, you know, of course you, you
+
+559
+00:35:08,720 --> 00:35:12,680
+do taxi test 1st and you drive
+around, you know, gradually
+
+560
+00:35:12,680 --> 00:35:14,720
+increasing speed and then you
+have first flight.
+
+561
+00:35:14,720 --> 00:35:18,560
+So originally we had planned to
+hopefully do first flight this
+
+562
+00:35:18,560 --> 00:35:22,680
+year, but we've had some delays
+in getting, getting to the point
+
+563
+00:35:22,680 --> 00:35:24,200
+where we could do the, the
+engine run.
+
+564
+00:35:24,520 --> 00:35:29,840
+So now we're looking at sometime
+next year for first flight the
+
+565
+00:35:30,000 --> 00:35:36,040
+the phase one, the this envelope
+expansion phases is planned for
+
+566
+00:35:36,040 --> 00:35:40,240
+about a year.
+So, you know, things go well
+
+567
+00:35:40,240 --> 00:35:44,480
+sometime early in 2026, maybe
+we'll get the we'll get the keys
+
+568
+00:35:44,480 --> 00:35:47,640
+to the airplane and.
+We'll be able to start our start
+
+569
+00:35:47,640 --> 00:35:49,800
+our acoustic, you know, our
+acoustic testing.
+
+570
+00:35:51,240 --> 00:35:56,880
+So would it be fair to say that,
+you know, realistically assuming
+
+571
+00:35:57,280 --> 00:36:02,720
+various factors, 20-30 could be
+when the international community
+
+572
+00:36:02,720 --> 00:36:06,640
+would have, could set new rules,
+they've done all the tests,
+
+573
+00:36:06,720 --> 00:36:10,600
+you've given them all the data,
+they've debated it and they've
+
+574
+00:36:10,600 --> 00:36:13,560
+set and written these new rules.
+Is that approximately or you
+
+575
+00:36:13,560 --> 00:36:14,560
+think it?
+Could be faster than that.
+
+576
+00:36:14,560 --> 00:36:18,360
+It's interesting the Kate, this,
+this committee on aviation bio
+
+577
+00:36:18,560 --> 00:36:21,040
+protection, they, they have a
+three-year cycle.
+
+578
+00:36:21,920 --> 00:36:26,200
+So they have a meeting and at
+the meeting all the decisions
+
+579
+00:36:26,200 --> 00:36:29,760
+based on the work that's gone on
+in the previous three years are
+
+580
+00:36:29,840 --> 00:36:34,320
+are finalized and accepted and
+then given to the ICAO Council
+
+581
+00:36:34,320 --> 00:36:42,800
+for final approval.
+So actually the the 13th Cape
+
+582
+00:36:42,800 --> 00:36:46,280
+cycle is just coming to an end
+now.
+
+583
+00:36:46,520 --> 00:36:50,840
+So in February of 2025 will be
+the Cape 13 meeting.
+
+584
+00:36:52,120 --> 00:37:00,080
+So. 2028 is the next one, 2031
+is Cape 15 and that is our
+
+585
+00:37:00,080 --> 00:37:07,200
+target for, well that is that is
+ICAO's target now for bringing
+
+586
+00:37:07,200 --> 00:37:10,240
+the standard forward to the
+council for approval.
+
+587
+00:37:10,360 --> 00:37:14,560
+So we are on a timeline to
+deliver that data.
+
+588
+00:37:16,000 --> 00:37:19,280
+To give in, in, in, in in a
+timely enough manner, to give
+
+589
+00:37:19,280 --> 00:37:22,320
+them plenty of time to review
+it, debate it.
+
+590
+00:37:22,960 --> 00:37:26,240
+And then finish writing the
+standard to bring forward a Cape
+
+591
+00:37:26,240 --> 00:37:30,040
+15 meeting in 2031.
+OK, Yeah.
+
+592
+00:37:30,800 --> 00:37:34,080
+So maybe before we go any
+further, I guess we should
+
+593
+00:37:34,080 --> 00:37:37,640
+actually talk about what
+visually is probably the most
+
+594
+00:37:37,640 --> 00:37:43,360
+distinguishing feature the the
+sort of long nose, which if I
+
+595
+00:37:43,360 --> 00:37:47,360
+understand correctly was one of
+the technologies that has been
+
+596
+00:37:47,360 --> 00:37:50,080
+able to reduce the the Sonic
+boom.
+
+597
+00:37:50,080 --> 00:37:52,520
+Could you maybe talk a little
+bit about the physics and how
+
+598
+00:37:52,520 --> 00:37:55,640
+this helps to reduce the the
+noise?
+
+599
+00:37:55,720 --> 00:37:56,640
+Yeah, sure.
+Yeah.
+
+600
+00:37:58,160 --> 00:38:01,720
+So, you know, of course, Sonic
+boom is the result of of shock
+
+601
+00:38:01,720 --> 00:38:04,600
+waves.
+Shock waves are instantaneous
+
+602
+00:38:04,680 --> 00:38:08,880
+pressure changes that occur when
+an aircraft is flying faster
+
+603
+00:38:08,880 --> 00:38:11,880
+than the speed of sound.
+Essentially, You know, for
+
+604
+00:38:11,880 --> 00:38:14,280
+normal aircraft, the subsonic
+aircraft, it's creating a
+
+605
+00:38:14,280 --> 00:38:17,760
+pressure change and essentially.
+That's being communicated in
+
+606
+00:38:17,760 --> 00:38:20,640
+front of the airplane because.
+Pressure changes like a sound
+
+607
+00:38:20,640 --> 00:38:24,840
+it, it all travels at the speed
+of sound, so that that's racing
+
+608
+00:38:24,840 --> 00:38:27,840
+out in front of the airplane and
+kind of the air is starting to
+
+609
+00:38:27,840 --> 00:38:29,760
+get out of the way.
+Well, if you're going faster
+
+610
+00:38:29,760 --> 00:38:33,120
+than sound, you know the air
+doesn't know the plane is coming
+
+611
+00:38:33,160 --> 00:38:34,160
+essentially.
+So you get.
+
+612
+00:38:34,440 --> 00:38:36,840
+An.
+Instantaneous pressure change
+
+613
+00:38:36,840 --> 00:38:38,920
+called called the shockwave.
+Whether it's created by an
+
+614
+00:38:38,920 --> 00:38:40,840
+airplane or a rifle bullet, it
+doesn't matter.
+
+615
+00:38:41,440 --> 00:38:44,480
+It's it's anything faster than
+sound creates an instantaneous
+
+616
+00:38:44,480 --> 00:38:48,000
+pressure change.
+If you look at an airplane,
+
+617
+00:38:48,080 --> 00:38:51,800
+anytime the flow is going over,
+it has to make a turn.
+
+618
+00:38:52,160 --> 00:38:54,440
+As it goes over some part of the
+airplane, you create a
+
+619
+00:38:54,440 --> 00:38:57,120
+shockwave.
+So there's a shockwave on the
+
+620
+00:38:57,120 --> 00:39:00,000
+nose near the airplane.
+There's a shockwave on the nose
+
+621
+00:39:00,000 --> 00:39:01,840
+is one on the canopy, the engine
+inlets.
+
+622
+00:39:02,120 --> 00:39:05,600
+Anything that sticks out from
+the airplane creates a
+
+623
+00:39:05,600 --> 00:39:09,240
+shockwave.
+So if you can visualize those
+
+624
+00:39:09,240 --> 00:39:11,480
+shock waves, which we can do,
+we've developed some really
+
+625
+00:39:11,480 --> 00:39:13,920
+interesting technology.
+Plus, it's been able to be able
+
+626
+00:39:13,920 --> 00:39:16,800
+to do it in the wind tunnel for
+a while, but now we can do it in
+
+627
+00:39:16,800 --> 00:39:19,840
+flight.
+You can actually see through
+
+628
+00:39:19,840 --> 00:39:23,120
+what's called schlieren imaging.
+You can see the shock waves.
+
+629
+00:39:24,400 --> 00:39:26,240
+And if you could.
+See them, you'll, what you see
+
+630
+00:39:26,240 --> 00:39:30,800
+is they're all different
+strengths and they're all kind
+
+631
+00:39:30,800 --> 00:39:33,840
+of randomly spaced along the
+airplane wherever the components
+
+632
+00:39:33,840 --> 00:39:39,200
+are because of that, because the
+shock waves, the different
+
+633
+00:39:39,200 --> 00:39:41,800
+strengths as that signal.
+And again, that signal travels
+
+634
+00:39:41,800 --> 00:39:45,040
+out in 3 dimensions.
+Some of it travels towards the
+
+635
+00:39:45,040 --> 00:39:46,840
+ground and that's what we're
+most interested in.
+
+636
+00:39:47,200 --> 00:39:50,240
+But as it's as that signal is
+traveling, because those waves
+
+637
+00:39:50,240 --> 00:39:53,400
+of different strength, they're
+actually starting to pile up on
+
+638
+00:39:53,400 --> 00:39:56,360
+each other.
+So in a short distance from the
+
+639
+00:39:56,360 --> 00:40:00,440
+airplane, all those shock waves
+have piled up into two on, you
+
+640
+00:40:00,600 --> 00:40:04,200
+know, no shock, what becomes
+called the no shock, the first
+
+641
+00:40:04,200 --> 00:40:05,840
+leading one and then the tail
+shock.
+
+642
+00:40:06,320 --> 00:40:08,520
+And that's a very stable
+acoustic system.
+
+643
+00:40:09,240 --> 00:40:11,600
+Travels to the ground, it's
+getting attenuated, it's getting
+
+644
+00:40:11,600 --> 00:40:14,000
+weaker and weaker as it reaches
+as as it goes towards the
+
+645
+00:40:14,000 --> 00:40:15,400
+ground.
+But still when it reaches the
+
+646
+00:40:15,400 --> 00:40:21,400
+ground, you hear 2 very rapid
+pressure changes which you hear
+
+647
+00:40:21,400 --> 00:40:24,480
+as Bang Bang.
+You know of, of, of a Sonic
+
+648
+00:40:24,480 --> 00:40:28,720
+boom.
+So what we found is the best
+
+649
+00:40:28,720 --> 00:40:31,640
+approach, the the approach that
+seems to work and and can be
+
+650
+00:40:31,640 --> 00:40:35,160
+integrated into a practical
+airplane is to keep those shock
+
+651
+00:40:35,160 --> 00:40:39,160
+waves from merging.
+So the whole shape of the X 59
+
+652
+00:40:39,160 --> 00:40:45,000
+that long nose is, is it's all
+designed to create a systems of
+
+653
+00:40:45,000 --> 00:40:48,960
+system of shock waves near the
+airplane where the shocks are
+
+654
+00:40:49,680 --> 00:40:55,520
+relatively the same strength and
+relatively evenly spaced along
+
+655
+00:40:55,560 --> 00:40:56,960
+along the length of the
+airplane.
+
+656
+00:40:57,040 --> 00:41:00,080
+So this the initial system has
+all these shock waves in it.
+
+657
+00:41:00,800 --> 00:41:03,760
+And because they're, they're
+similar in strength, they don't
+
+658
+00:41:03,760 --> 00:41:06,160
+merge as the signal travels to
+the ground.
+
+659
+00:41:06,960 --> 00:41:09,400
+They just get the each, each
+individual shock gets
+
+660
+00:41:09,400 --> 00:41:11,840
+attenuated.
+And that's actually more of a
+
+661
+00:41:11,840 --> 00:41:15,320
+benefit because you get in down
+into the denser atmosphere, the
+
+662
+00:41:15,320 --> 00:41:17,880
+shock start to get smeared a
+little bit more.
+
+663
+00:41:17,880 --> 00:41:21,280
+So by the time you get to the
+ground, you're left with kind of
+
+664
+00:41:21,280 --> 00:41:27,120
+this gradual pressurized instead
+of instead of the sharp pressure
+
+665
+00:41:27,120 --> 00:41:29,520
+increase.
+So you hear a thump or, or a
+
+666
+00:41:29,520 --> 00:41:34,680
+thud, thud instead of that, that
+very disturbing bang, bang.
+
+667
+00:41:35,640 --> 00:41:41,120
+So if you look at the the X 59,
+it has a lot of features that we
+
+668
+00:41:41,120 --> 00:41:44,480
+learned about when we did those
+airliner studies that long.
+
+669
+00:41:44,480 --> 00:41:49,200
+The long slender nose sets up
+most of the forward part of of
+
+670
+00:41:49,440 --> 00:41:50,920
+the acoustic signature if you
+wish.
+
+671
+00:41:50,920 --> 00:41:54,560
+And then at the back end you
+wrote you just kind of it, it
+
+672
+00:41:54,560 --> 00:41:56,720
+becomes much more complicated.
+So you're really trying to
+
+673
+00:41:56,720 --> 00:42:01,080
+manage the shocks and there's a
+little bit more than just having
+
+674
+00:42:01,080 --> 00:42:02,720
+them be the strain, same
+strength.
+
+675
+00:42:02,720 --> 00:42:04,920
+You can kind of get them to
+cancel each other a little bit.
+
+676
+00:42:05,440 --> 00:42:08,520
+So integrating the engine, so
+it's like the engine on the X
+
+677
+00:42:08,520 --> 00:42:14,080
+59, it's mounted on top of the
+aircraft.
+
+678
+00:42:15,720 --> 00:42:18,520
+So to prevent the shockwave from
+the engine inlet from kind of
+
+679
+00:42:19,280 --> 00:42:22,800
+impeding, impinging on the
+bottom signature, the signature
+
+680
+00:42:22,800 --> 00:42:27,160
+that travels to the ground, the
+the tail of the airplane is kind
+
+681
+00:42:27,160 --> 00:42:31,200
+of unique on the X59.
+We've got a little canard, we've
+
+682
+00:42:31,200 --> 00:42:34,280
+got a conventional horizontal
+tail and then a little T tail.
+
+683
+00:42:34,280 --> 00:42:38,600
+Each of those features helps us
+generate the lift we need and
+
+684
+00:42:38,600 --> 00:42:42,480
+helps us trim the airplane, but
+minimizes the impact of those
+
+685
+00:42:42,480 --> 00:42:45,160
+features on the on the Sonic
+boom.
+
+686
+00:42:47,000 --> 00:42:49,520
+They just look nice as well.
+I have to say the aircraft
+
+687
+00:42:49,520 --> 00:42:53,120
+actually looks quite nice, which
+always helps, right I.
+
+688
+00:42:53,240 --> 00:42:56,120
+Think yeah, exactly right.
+Well, this is an adage in
+
+689
+00:42:56,120 --> 00:42:59,000
+aircraft design that if it looks
+good, it is good.
+
+690
+00:42:59,520 --> 00:43:05,160
+Yeah, of course, Concord
+famously had to, you know, tweak
+
+691
+00:43:05,160 --> 00:43:09,200
+the nose for visibility.
+How about on on this type of
+
+692
+00:43:09,200 --> 00:43:10,840
+design, what what's the
+visibility?
+
+693
+00:43:10,840 --> 00:43:12,920
+And for the pilots, what's their
+opinion?
+
+694
+00:43:13,600 --> 00:43:16,960
+It's bad.
+We, we, we have, we have a new
+
+695
+00:43:16,960 --> 00:43:20,280
+approach that's it's and thank
+you for asking the question
+
+696
+00:43:20,280 --> 00:43:22,360
+because it's really one of the
+one of the unique features that
+
+697
+00:43:22,360 --> 00:43:26,320
+NASA has contributed to the
+design of the X 59 is our
+
+698
+00:43:26,320 --> 00:43:30,080
+external vision system.
+So rather than having a forward
+
+699
+00:43:30,080 --> 00:43:35,280
+facing window, we have a camera
+that sticks out from the, from
+
+700
+00:43:35,280 --> 00:43:38,240
+the nose, It's just rounded on
+the forward fuselage and it
+
+701
+00:43:38,240 --> 00:43:42,560
+creates a high definitions, high
+definition camera, creates a
+
+702
+00:43:42,560 --> 00:43:46,880
+high definition visual image for
+the pilot that's displayed on a
+
+703
+00:43:46,880 --> 00:43:50,320
+screen in front of the in front
+of his seat.
+
+704
+00:43:51,400 --> 00:43:52,960
+It's a really interesting
+technology.
+
+705
+00:43:52,960 --> 00:43:56,360
+We've, we've, we've flown it in
+kind of demonstration flights on
+
+706
+00:43:56,360 --> 00:44:02,160
+subsonic airplanes.
+And we found that it gives the,
+
+707
+00:44:02,960 --> 00:44:06,480
+the cameras and the screens have
+reached the point where they can
+
+708
+00:44:06,480 --> 00:44:11,320
+give the pilot the same visual
+acuity as they would have with
+
+709
+00:44:11,320 --> 00:44:13,760
+normal, with their eyesight,
+their eyes looking through the,
+
+710
+00:44:14,240 --> 00:44:18,920
+looking through the window.
+We did a study where there was a
+
+711
+00:44:18,920 --> 00:44:21,440
+pilot, you know, flying the
+airplane and then there was a
+
+712
+00:44:21,600 --> 00:44:24,840
+pilot in the, in the back
+looking at the screen.
+
+713
+00:44:26,360 --> 00:44:28,720
+And we flew against opposing
+traffic.
+
+714
+00:44:29,000 --> 00:44:33,520
+And it turned out that the pilot
+in the back could actually, you
+
+715
+00:44:33,520 --> 00:44:37,320
+know, would generally pick out
+the targets faster or earlier
+
+716
+00:44:37,600 --> 00:44:40,520
+further away than the pilot in
+the front.
+
+717
+00:44:40,920 --> 00:44:42,960
+But that's not the end of it.
+I mean, if you've got this
+
+718
+00:44:42,960 --> 00:44:48,120
+screen in front of you, you can
+mix the radar, infrared, you
+
+719
+00:44:48,120 --> 00:44:52,920
+know, other sensor features in
+to really improve situational
+
+720
+00:44:52,920 --> 00:44:55,320
+awareness.
+You know, for people who fly,
+
+721
+00:44:55,320 --> 00:44:58,880
+you might not see an airplane,
+but when when air traffic
+
+722
+00:44:58,880 --> 00:45:02,040
+controller says, you know,
+you've got traffic 12:00, two
+
+723
+00:45:02,040 --> 00:45:04,000
+miles and you look in that
+direction.
+
+724
+00:45:04,480 --> 00:45:06,360
+Your chances of.
+Seeing it are much better than
+
+725
+00:45:06,360 --> 00:45:08,960
+if you just kind of, you know,
+generally looking well, just
+
+726
+00:45:08,960 --> 00:45:11,760
+imagine if if instead of the
+control of saying it, you know,
+
+727
+00:45:11,760 --> 00:45:15,520
+the radar system put a little
+circle on your screen and said,
+
+728
+00:45:15,520 --> 00:45:16,640
+hey, there's an airplane out
+here.
+
+729
+00:45:16,640 --> 00:45:20,320
+You, you, you would always be
+able to, to, to see the traffic.
+
+730
+00:45:20,320 --> 00:45:24,200
+So it's a unique technology.
+It enables the supersonic
+
+731
+00:45:24,200 --> 00:45:30,240
+aircraft to be designed without
+having a complicated heavy nose
+
+732
+00:45:30,240 --> 00:45:34,080
+drooping system.
+But it's also something that you
+
+733
+00:45:34,080 --> 00:45:38,200
+know could have applications in
+other in other types of aircraft
+
+734
+00:45:38,200 --> 00:45:40,320
+as well.
+How much?
+
+735
+00:45:41,920 --> 00:45:46,120
+How much is the pilot or the
+flying experience influencing
+
+736
+00:45:46,120 --> 00:45:49,680
+the design?
+You know, if you're a car, if
+
+737
+00:45:49,680 --> 00:45:53,080
+you were, if you're designing a
+car, you actually think about
+
+738
+00:45:53,360 --> 00:45:57,160
+driver comfort.
+You think about how easy it is
+
+739
+00:45:57,800 --> 00:46:01,200
+to drive the car, to look out
+the window to the experience.
+
+740
+00:46:01,600 --> 00:46:05,360
+I I always got the impression
+that planes were designed almost
+
+741
+00:46:05,360 --> 00:46:08,800
+without any consideration for
+the pilot, but I guess that's
+
+742
+00:46:09,040 --> 00:46:11,840
+maybe not true.
+I'm just wondering for this how
+
+743
+00:46:11,840 --> 00:46:15,400
+much you factor in the pilot's
+feedback and their needs.
+
+744
+00:46:17,520 --> 00:46:24,320
+So, you know, human factors is a
+big part of aircraft design now.
+
+745
+00:46:24,360 --> 00:46:28,680
+And I think, you know, maybe,
+you know, when the first
+
+746
+00:46:28,680 --> 00:46:31,000
+airplanes came out, there was
+less attention to, you know,
+
+747
+00:46:31,000 --> 00:46:33,200
+just give them the instruments.
+But now I think that's a big
+
+748
+00:46:33,200 --> 00:46:36,920
+part of, you know, how do you
+design the, the, the aircraft
+
+749
+00:46:36,920 --> 00:46:39,120
+instrument panel?
+How do you display information
+
+750
+00:46:39,760 --> 00:46:43,200
+so the pilot can make maximum
+use of it?
+
+751
+00:46:45,000 --> 00:46:47,120
+You know in in a in a safe
+manner?
+
+752
+00:46:47,680 --> 00:46:50,720
+You know, one, one thing unique
+about the the X 59 is it's, it's
+
+753
+00:46:50,720 --> 00:46:53,080
+an X plane.
+So you know, with the X-plane
+
+754
+00:46:53,120 --> 00:46:57,920
+approach, the idea is we have.
+We have certain key things that
+
+755
+00:46:57,920 --> 00:47:00,080
+we want to demonstrate and for
+an X plane you really want to
+
+756
+00:47:00,080 --> 00:47:03,760
+make that as small a set of
+things as as possible.
+
+757
+00:47:03,840 --> 00:47:06,440
+So for us, it's.
+It's all about, it's all about
+
+758
+00:47:06,440 --> 00:47:11,000
+the Sonic boom.
+So, you know, besides the shape
+
+759
+00:47:11,000 --> 00:47:12,680
+of the airplane, the airplane is
+kind of a.
+
+760
+00:47:15,160 --> 00:47:18,400
+You know a.
+Mishmash of parts from from
+
+761
+00:47:18,520 --> 00:47:20,840
+other airplanes here.
+We've got F16 landing gear,
+
+762
+00:47:20,840 --> 00:47:23,480
+we've got an engine from an F18,
+etcetera.
+
+763
+00:47:23,480 --> 00:47:25,680
+So the X-plane you know, just
+try and make it work.
+
+764
+00:47:26,360 --> 00:47:32,680
+So we did not spend a lot of a
+lot of energy on, on human
+
+765
+00:47:32,680 --> 00:47:35,480
+factors, but we did, you know,
+look at it.
+
+766
+00:47:35,480 --> 00:47:38,280
+So we got our pilots involved
+early.
+
+767
+00:47:38,280 --> 00:47:42,960
+On, you know, we knew, you know,
+we wouldn't have the screen, but
+
+768
+00:47:42,960 --> 00:47:46,240
+you know, we knew kind of beyond
+that kind of wanted to look
+
+769
+00:47:46,920 --> 00:47:49,640
+pretty much like a, a modern
+fighter aircraft inside as a
+
+770
+00:47:49,640 --> 00:47:52,240
+single seat airplane.
+But you know, the pilots got in.
+
+771
+00:47:52,240 --> 00:47:55,840
+We have a, we have a really very
+sophisticated, we have actually
+
+772
+00:47:55,840 --> 00:47:58,760
+have two, one at Lockheed, one
+at NASA, really very
+
+773
+00:47:58,760 --> 00:48:01,720
+sophisticated simulators.
+So that we put them in the
+
+774
+00:48:01,720 --> 00:48:05,480
+simulators, you know, with,
+with, with, you know, the
+
+775
+00:48:05,480 --> 00:48:08,240
+cockpit design in there and they
+were able to interact with it,
+
+776
+00:48:08,480 --> 00:48:11,080
+give feedback and then, you
+know, the, the design was
+
+777
+00:48:11,080 --> 00:48:14,600
+updated.
+Yeah, as, as we went along.
+
+778
+00:48:14,600 --> 00:48:16,160
+So it's it's, it's it's it's
+it's.
+
+779
+00:48:16,640 --> 00:48:18,680
+It's not a huge factor for the X
+59.
+
+780
+00:48:18,760 --> 00:48:22,480
+It's a big factor for, you know,
+actual commercial aircraft.
+
+781
+00:48:23,600 --> 00:48:27,040
+So I was actually wondering as
+maybe a bit of a tangent,
+
+782
+00:48:29,480 --> 00:48:32,320
+there's obviously a lot of
+discussion about computational
+
+783
+00:48:32,320 --> 00:48:36,320
+fluid dynamics reducing the
+reliance of wind tunnel
+
+784
+00:48:36,320 --> 00:48:37,960
+technology.
+You know, if you can do more in
+
+785
+00:48:37,960 --> 00:48:43,360
+CFD and I believe for this
+program, CFD was a a big factor
+
+786
+00:48:43,400 --> 00:48:46,040
+in being able to, you know,
+iterate quickly and, and
+
+787
+00:48:46,040 --> 00:48:48,240
+visually see what what was going
+on.
+
+788
+00:48:49,120 --> 00:48:52,600
+But I was actually wondering,
+you mentioned about simulators
+
+789
+00:48:52,600 --> 00:48:56,360
+because obviously normally
+there's wind tunnel to CFD, but
+
+790
+00:48:56,360 --> 00:48:58,320
+then you have to do a flight
+test, you know, you actually
+
+791
+00:48:58,320 --> 00:49:02,160
+need to go out and do it.
+How much have simulator
+
+792
+00:49:02,160 --> 00:49:08,360
+technology advanced that you can
+model some of the sort of flight
+
+793
+00:49:08,360 --> 00:49:10,480
+test behavior through a
+simulator?
+
+794
+00:49:10,480 --> 00:49:13,040
+Is that getting also more and
+more accurate?
+
+795
+00:49:13,680 --> 00:49:16,040
+Much.
+More sophisticated, yeah.
+
+796
+00:49:18,800 --> 00:49:25,680
+And, you know, again, for X 59,
+it's, it's, it's, it's, you
+
+797
+00:49:25,720 --> 00:49:28,480
+know, it's a unique airplane
+that, you know, the design will
+
+798
+00:49:28,480 --> 00:49:31,320
+create some interesting, you
+know, some, some flight
+
+799
+00:49:31,320 --> 00:49:35,520
+characteristics that are not
+typical of, of, of fighters or,
+
+800
+00:49:35,600 --> 00:49:37,600
+or transports.
+So we really wanted to
+
+801
+00:49:37,600 --> 00:49:44,680
+understand how, you know, how,
+how those things worked and, and
+
+802
+00:49:44,680 --> 00:49:46,080
+how the pilot would interact
+with them.
+
+803
+00:49:46,080 --> 00:49:49,000
+So getting a simulation.
+So there's, there's so much
+
+804
+00:49:49,000 --> 00:49:52,720
+simulation that goes on now.
+There's, there's simulation
+
+805
+00:49:52,720 --> 00:49:55,280
+without the pilot, there's
+simulation with the pilot,
+
+806
+00:49:55,760 --> 00:50:00,120
+there's simulation without
+hardware, you know, like, like
+
+807
+00:50:00,120 --> 00:50:02,640
+the control actuation and the
+simulation with hardware.
+
+808
+00:50:02,640 --> 00:50:06,360
+So, you know, the whole
+simulation process is, is a huge
+
+809
+00:50:06,360 --> 00:50:10,440
+part of the, the aircraft design
+process right now.
+
+810
+00:50:10,440 --> 00:50:17,640
+So you know, like for X59, we,
+we did a lot of analysis, we did
+
+811
+00:50:17,640 --> 00:50:22,040
+do some wind tunnel testing.
+You know, there's still, there's
+
+812
+00:50:22,040 --> 00:50:24,120
+still design, there's still
+points in the flight envelope
+
+813
+00:50:24,120 --> 00:50:26,200
+where the CFD is not all that
+great.
+
+814
+00:50:26,600 --> 00:50:30,760
+So you like to augment your CFD
+analysis with with testing, but
+
+815
+00:50:30,760 --> 00:50:34,520
+you know, compared to previous
+designs, we didn't do a lot of
+
+816
+00:50:34,680 --> 00:50:37,120
+boom tunnel testing.
+As a matter of fact, we
+
+817
+00:50:37,120 --> 00:50:42,040
+finalized the low boom design,
+the boom, you know, quite boom
+
+818
+00:50:42,040 --> 00:50:47,000
+design of the X59 without doing
+wind tunnel test of the of the
+
+819
+00:50:47,000 --> 00:50:49,880
+geometry.
+So, you know, that's how far the
+
+820
+00:50:49,880 --> 00:50:52,440
+CFD has come.
+We put all this stuff in the in
+
+821
+00:50:52,440 --> 00:50:55,240
+the in the simulator.
+You know, it's been iterated on
+
+822
+00:50:55,520 --> 00:51:00,480
+a few times.
+So, you know, we're, we're,
+
+823
+00:51:01,160 --> 00:51:05,720
+we're, we're going into flight
+test with a very good idea of
+
+824
+00:51:06,800 --> 00:51:11,320
+what, what the pilot will
+experience flying the airplane
+
+825
+00:51:11,320 --> 00:51:15,200
+throughout the flight envelope.
+Yeah, it's, it is amazing how
+
+826
+00:51:15,200 --> 00:51:18,400
+the technology is sort of, yeah,
+moved on from that point of
+
+827
+00:51:18,400 --> 00:51:20,680
+view.
+Just maybe I'm trying to think
+
+828
+00:51:20,680 --> 00:51:23,480
+of a few questions, more
+practical questions.
+
+829
+00:51:23,840 --> 00:51:28,400
+So the noise, as you say, going
+over the the idea is it's a sort
+
+830
+00:51:28,400 --> 00:51:33,760
+of soft thump, which is less.
+It's something like, you know,
+
+831
+00:51:33,760 --> 00:51:37,640
+we used to everyday sounds like,
+you know, I guess drones just.
+
+832
+00:51:38,280 --> 00:51:41,960
+Distant Thunder or, you know,
+somebody's car door closing.
+
+833
+00:51:42,680 --> 00:51:45,480
+And we compare the the sound to
+to sounds like that.
+
+834
+00:51:46,600 --> 00:51:50,040
+But what about take off landing?
+I meant the, you know, you can
+
+835
+00:51:50,040 --> 00:51:53,160
+go on YouTube now and look at
+Concorde, it taking off and you
+
+836
+00:51:53,160 --> 00:51:57,000
+know, it was an absolute racket,
+smoke billowing out of the
+
+837
+00:51:57,000 --> 00:51:59,680
+engines.
+You know, like a real difference
+
+838
+00:52:00,160 --> 00:52:04,640
+to to like a normal aircraft.
+What what what's the not for the
+
+839
+00:52:04,640 --> 00:52:06,480
+X59 now?
+But I mean more just for like
+
+840
+00:52:06,480 --> 00:52:11,200
+theoretical design concepts.
+How much is the the engine
+
+841
+00:52:11,200 --> 00:52:13,200
+noise?
+Because it's, as you say, it's
+
+842
+00:52:13,200 --> 00:52:17,320
+not a conventional engine.
+How much is that different or
+
+843
+00:52:17,320 --> 00:52:20,920
+limiting factor?
+It's, it's again, we talked
+
+844
+00:52:20,920 --> 00:52:22,680
+about it earlier.
+It's one of it's another kind of
+
+845
+00:52:22,680 --> 00:52:29,400
+barrier technology that you know
+that we, we made a lot of
+
+846
+00:52:29,600 --> 00:52:40,160
+advances in the yeah, again, the
+X50 it's not, not an X 59.
+
+847
+00:52:40,160 --> 00:52:43,760
+We're just using existing
+engine, but as part of the, the
+
+848
+00:52:43,760 --> 00:52:48,120
+bigger technology program in, in
+NASA aeronautics, we call it's a
+
+849
+00:52:48,120 --> 00:52:50,600
+commercial supersonic technology
+project.
+
+850
+00:52:51,920 --> 00:52:55,960
+Airport noise is, is one of our,
+one of our, our big efforts.
+
+851
+00:52:56,840 --> 00:53:04,440
+So, you know, we're looking at
+the, the, the engine cycle, you
+
+852
+00:53:04,440 --> 00:53:08,440
+know, so we can't have a super
+high bypass engine, but at Mach
+
+853
+00:53:08,440 --> 00:53:13,280
+1.7 we can have some higher, we
+can have much higher bypass, you
+
+854
+00:53:13,280 --> 00:53:16,520
+know, much more fan component
+than the Concorde did.
+
+855
+00:53:16,520 --> 00:53:21,200
+So that's that's a major help.
+Our jet that you know, the jet
+
+856
+00:53:21,200 --> 00:53:25,640
+coming out of the back of the
+engine at subsonic that take off
+
+857
+00:53:26,000 --> 00:53:29,720
+is actually subsonic.
+It's not like Concorde was the
+
+858
+00:53:29,720 --> 00:53:32,280
+jet was fast coming out faster
+than the speed of sound, which
+
+859
+00:53:32,280 --> 00:53:34,280
+creates noise, you know, of its
+own.
+
+860
+00:53:34,280 --> 00:53:37,440
+So our jet is subsonic.
+We've got nozzle technologies
+
+861
+00:53:37,440 --> 00:53:41,000
+with which mix faster flow with
+slower flow.
+
+862
+00:53:41,000 --> 00:53:44,400
+So the aggregate results coming
+out the back end is slower.
+
+863
+00:53:44,800 --> 00:53:47,120
+And there's a whole idea of, you
+know, the propulsion
+
+864
+00:53:47,120 --> 00:53:50,360
+installation.
+Can you use that to, to help
+
+865
+00:53:50,360 --> 00:53:52,280
+reduce noise?
+So all of those things are being
+
+866
+00:53:52,280 --> 00:53:56,680
+studied and you know, we, we
+think again, we've, we've just,
+
+867
+00:53:56,840 --> 00:53:59,520
+we've done testing, but we think
+we've got a solution that can
+
+868
+00:53:59,520 --> 00:54:05,480
+make subsonic air, supersonic
+aircraft as quiet as the current
+
+869
+00:54:05,800 --> 00:54:09,240
+limits for noise for subsonic
+aircraft.
+
+870
+00:54:10,720 --> 00:54:14,240
+So that's a, that's a big
+improvement relative to where
+
+871
+00:54:14,240 --> 00:54:18,080
+Concorde was.
+So I guess the, the big question
+
+872
+00:54:18,080 --> 00:54:23,640
+on most people's minds is what,
+what do you think is the
+
+873
+00:54:23,640 --> 00:54:28,320
+likelihood of a commercial
+version of this?
+
+874
+00:54:28,520 --> 00:54:33,360
+What is the, there's obviously
+the research going on you're
+
+875
+00:54:33,360 --> 00:54:37,800
+doing, there's companies like
+Boom, but from what I could
+
+876
+00:54:37,800 --> 00:54:42,480
+gather, Boom, that design looked
+more like a traditional or more
+
+877
+00:54:42,480 --> 00:54:46,840
+traditional design than than,
+than what you have, I mean.
+
+878
+00:54:47,080 --> 00:54:48,720
+Yeah.
+So, so boom boom's approach is
+
+879
+00:54:48,720 --> 00:54:50,360
+kind of unique.
+They, they want it.
+
+880
+00:54:50,440 --> 00:54:53,720
+They, they, they, they, they,
+you know, they see that there's
+
+881
+00:54:53,720 --> 00:54:57,160
+a market now that they would
+like to capitalize.
+
+882
+00:54:57,160 --> 00:55:00,680
+They've talked about their next
+generation of airplane
+
+883
+00:55:01,160 --> 00:55:03,320
+incorporating, you know, boom
+shaping again.
+
+884
+00:55:03,320 --> 00:55:08,280
+They, they don't want to commit
+to doing a design for a low boom
+
+885
+00:55:08,280 --> 00:55:12,240
+aircraft without having a
+standard in place.
+
+886
+00:55:12,240 --> 00:55:14,640
+As a matter of fact, if they
+don't want to commit really to,
+
+887
+00:55:14,640 --> 00:55:17,760
+well, they're kind of committed,
+but they're work, They're
+
+888
+00:55:17,760 --> 00:55:23,640
+working with ICAO and the FAA is
+working with ICAO to put a noise
+
+889
+00:55:23,640 --> 00:55:26,680
+rule in place for supersonic
+aircraft landing, a take off
+
+890
+00:55:26,680 --> 00:55:28,760
+noise rule in place for
+supersonic aircraft.
+
+891
+00:55:28,760 --> 00:55:30,800
+So that would give them that
+certainty.
+
+892
+00:55:30,800 --> 00:55:38,200
+The work, the work with ICAO
+really started because there was
+
+893
+00:55:38,200 --> 00:55:42,480
+a group of companies that really
+felt that they could bring to
+
+894
+00:55:42,520 --> 00:55:47,480
+bring a supersonic business jet
+product, business aircraft
+
+895
+00:55:47,480 --> 00:55:53,600
+product to market if they had a
+regulation on on how loud that
+
+896
+00:55:53,720 --> 00:55:56,960
+it needed to be when it flew
+over land or how quiet it needed
+
+897
+00:55:56,960 --> 00:56:01,040
+to be when it flew over land.
+So there's, there's definitely
+
+898
+00:56:01,280 --> 00:56:05,000
+that market out there in the
+near term for a smaller
+
+899
+00:56:05,000 --> 00:56:08,480
+aircraft.
+NASA is still bullish on.
+
+900
+00:56:08,560 --> 00:56:11,800
+You know, if we continue this,
+continue down this path, there
+
+901
+00:56:11,800 --> 00:56:14,840
+are technology solutions out
+there which could make it
+
+902
+00:56:14,840 --> 00:56:20,560
+possible to, to design A, an
+airliner that could, you know,
+
+903
+00:56:20,560 --> 00:56:25,200
+serve a supersonic market.
+So what's what's stopping it?
+
+904
+00:56:25,200 --> 00:56:30,120
+So let's imagine the rules come
+out and they are essentially
+
+905
+00:56:30,120 --> 00:56:34,440
+aligned to what you already know
+from your simulations.
+
+906
+00:56:35,680 --> 00:56:39,000
+I, you know, because I presume
+you already have a, an estimate
+
+907
+00:56:39,320 --> 00:56:42,120
+and all all the flight test is
+doing really is proving it out.
+
+908
+00:56:42,240 --> 00:56:44,480
+I guess you know, you have
+analytical methods.
+
+909
+00:56:44,680 --> 00:56:49,440
+So let's just assume that they
+agree with your numbers.
+
+910
+00:56:50,560 --> 00:56:54,520
+Is it is the technology ready?
+Is it a case that, you know, a
+
+911
+00:56:54,960 --> 00:56:59,200
+Bombardier, a Boeing, or whoever
+the the company is can just
+
+912
+00:57:00,320 --> 00:57:03,000
+basically do it?
+I know, I know.
+
+913
+00:57:03,040 --> 00:57:04,760
+I'm massively oversimplifying
+things here.
+
+914
+00:57:04,960 --> 00:57:07,680
+Or is there still something
+missing that?
+
+915
+00:57:08,120 --> 00:57:16,560
+So I, I think that that for a,
+for a smaller aircraft, a
+
+916
+00:57:16,560 --> 00:57:20,400
+business type aircraft, the
+technology is very close.
+
+917
+00:57:25,080 --> 00:57:30,720
+The, the, the, the, the, the,
+the key challenge really for,
+
+918
+00:57:30,720 --> 00:57:35,440
+for a near term product is the
+engine, because you need, you
+
+919
+00:57:35,440 --> 00:57:37,960
+need something that, that gives
+you the efficiency that need.
+
+920
+00:57:37,960 --> 00:57:42,560
+And, but we'll meet that, that
+new landing and take off noise
+
+921
+00:57:42,560 --> 00:57:45,320
+rule.
+It's possible you could do it
+
+922
+00:57:45,320 --> 00:57:49,280
+with a, with a modification to
+an existing engine, change the,
+
+923
+00:57:49,400 --> 00:57:51,160
+change the front end, change the
+back end.
+
+924
+00:57:51,600 --> 00:57:55,360
+But more than likely you're
+going to need a, a new engine.
+
+925
+00:57:56,120 --> 00:57:59,440
+And and that's even that's
+magnified a little bit more for
+
+926
+00:57:59,440 --> 00:58:03,600
+the, for the larger product.
+You really need kind of a, a, a
+
+927
+00:58:05,040 --> 00:58:10,400
+bigger step in technology, in
+engine technology to to be able
+
+928
+00:58:10,400 --> 00:58:16,840
+to make the airplane meet noise
+and emissions limits.
+
+929
+00:58:17,320 --> 00:58:21,480
+For by big and small are you
+talking small being the hundred
+
+930
+00:58:21,480 --> 00:58:24,840
+person?
+No, I'm talking small being
+
+931
+00:58:25,280 --> 00:58:28,040
+yeah, the next step for
+Gulfstream say, yeah, an
+
+932
+00:58:28,120 --> 00:58:31,880
+airplane that's, you know, room
+for it, maybe 810 passengers or
+
+933
+00:58:31,960 --> 00:58:36,640
+maybe, maybe, maybe up to 50
+like Boom was imagining with 40.
+
+934
+00:58:36,640 --> 00:58:39,240
+I can't remember exactly where
+their target is, but so that's
+
+935
+00:58:39,240 --> 00:58:43,080
+the smaller airplane.
+The the what we're thinking
+
+936
+00:58:43,080 --> 00:58:46,320
+about for the first generation
+of you know, airliner products
+
+937
+00:58:46,320 --> 00:58:49,320
+would be 100 seat around 100
+seat airplane.
+
+938
+00:58:50,240 --> 00:58:51,920
+OK.
+So, So what I understand you're
+
+939
+00:58:51,920 --> 00:58:55,560
+saying that it's, it's the
+engine technology in some ways
+
+940
+00:58:55,560 --> 00:59:01,200
+that is the the more challenging
+technology and it obviously gets
+
+941
+00:59:01,840 --> 00:59:06,360
+a more important or challenging,
+the bigger, the heavier that it
+
+942
+00:59:06,360 --> 00:59:08,640
+becomes.
+Think of it as a business to can
+
+943
+00:59:08,640 --> 00:59:13,440
+be can afford to be a little
+less efficient because there's
+
+944
+00:59:13,440 --> 00:59:16,160
+people willing to pay for speed.
+But the airliner needs
+
+945
+00:59:16,320 --> 00:59:20,280
+efficiency, quiet and low
+emissions, which is a which
+
+946
+00:59:20,280 --> 00:59:23,720
+takes a new set of technologies.
+There there's ideas.
+
+947
+00:59:23,800 --> 00:59:26,960
+Out there, there's technologies.
+That kind of the the infant
+
+948
+00:59:26,960 --> 00:59:29,760
+level, infancy level, but they
+need to be mature.
+
+949
+00:59:30,920 --> 00:59:35,080
+And is there any, you know, how
+the economics work when when
+
+950
+00:59:35,080 --> 00:59:37,840
+something aligns to something
+else, there's double the reason
+
+951
+00:59:37,840 --> 00:59:41,400
+to do it?
+Is there any similar reason,
+
+952
+00:59:41,400 --> 00:59:45,400
+like a military reason or
+another reason that aligns this?
+
+953
+00:59:45,400 --> 00:59:50,800
+Or is this quite unique in some
+ways for a passenger supersonic?
+
+954
+00:59:52,800 --> 00:59:59,640
+The the, the military is not
+really interested in quieting
+
+955
+00:59:59,640 --> 01:00:02,680
+quiet that they they would look
+to have supersonic speeds.
+
+956
+01:00:03,240 --> 01:00:06,560
+They don't, It doesn't seem to
+be a a major requirement for
+
+957
+01:00:06,560 --> 01:00:09,040
+military missions, you know, at
+the moment, because if you look
+
+958
+01:00:09,040 --> 01:00:12,320
+what's out there now, the
+airplanes can go supersonic, but
+
+959
+01:00:12,480 --> 01:00:14,960
+not very supersonic.
+They don't certainly don't
+
+960
+01:00:14,960 --> 01:00:19,400
+cruise supersonic.
+Yeah, if they could do it, would
+
+961
+01:00:19,400 --> 01:00:20,720
+they?
+Yeah, maybe.
+
+962
+01:00:21,760 --> 01:00:25,360
+But yeah, they obviously, you
+know, other tech, other
+
+963
+01:00:25,560 --> 01:00:30,200
+requirements, you know, stealth
+and IR are kind of driving
+
+964
+01:00:30,400 --> 01:00:33,720
+military designs, which you
+know, the intersection between
+
+965
+01:00:33,720 --> 01:00:37,440
+that and low boom design is is
+not is not there.
+
+966
+01:00:39,160 --> 01:00:48,000
+So, so it really is, would you
+say companies are just hedging
+
+967
+01:00:48,000 --> 01:00:51,200
+their bet or waiting because
+they're just they're just not
+
+968
+01:00:51,200 --> 01:00:54,920
+sure when the rules will change.
+So it's almost hard for them to
+
+969
+01:00:54,920 --> 01:00:58,520
+put the investment in to start
+designing something If the
+
+970
+01:00:58,520 --> 01:01:02,320
+unclear is that also one of the
+key barriers to it?
+
+971
+01:01:02,640 --> 01:01:05,080
+Yeah, it comes and goes.
+I mean, there was, there was,
+
+972
+01:01:05,320 --> 01:01:08,560
+there was a lot of work going on
+a few years ago.
+
+973
+01:01:09,920 --> 01:01:12,560
+Some of the companies have, have
+put those efforts on the back
+
+974
+01:01:12,560 --> 01:01:13,320
+burner.
+Essentially.
+
+975
+01:01:13,360 --> 01:01:16,640
+I, I, I would say yes, they're
+waiting for those regulatory
+
+976
+01:01:18,720 --> 01:01:22,160
+guidance, you know, that, that,
+that, you know, understanding of
+
+977
+01:01:22,160 --> 01:01:25,360
+what, of what, what their design
+requirements will need to be
+
+978
+01:01:26,320 --> 01:01:30,160
+before they, before they plunge
+back into to, you know, look
+
+979
+01:01:30,160 --> 01:01:35,720
+into products.
+So maybe, and again, this is
+
+980
+01:01:35,720 --> 01:01:38,000
+always a common question, I must
+admit I'm guilty of sometimes
+
+981
+01:01:38,000 --> 01:01:40,240
+thinking the same.
+And you, you partially answered
+
+982
+01:01:40,240 --> 01:01:45,440
+it before, but maybe we could be
+more explicit if let's say the
+
+983
+01:01:45,440 --> 01:01:48,560
+supersonic 1.8 Mac number is
+solved.
+
+984
+01:01:49,040 --> 01:01:51,960
+So, you know, the new rules come
+out, there is sufficient
+
+985
+01:01:51,960 --> 01:01:55,200
+economic reason for the for the
+engine manufacturers to do it.
+
+986
+01:01:55,440 --> 01:01:58,040
+And a supersonic business jet
+comes out.
+
+987
+01:01:59,680 --> 01:02:03,080
+In your mind, what's the
+technical or economic potential
+
+988
+01:02:03,080 --> 01:02:06,160
+of a hypersonic passenger
+Travel?
+
+989
+01:02:07,040 --> 01:02:10,800
+OK, not 100 people, but you
+know, 20-30 people.
+
+990
+01:02:11,800 --> 01:02:14,720
+Mac 5 maxi Is that science
+fiction?
+
+991
+01:02:15,160 --> 01:02:16,600
+Is it?
+Is it?
+
+992
+01:02:17,040 --> 01:02:19,720
+Is it possible?
+Is it I wouldn't, I wouldn't put
+
+993
+01:02:19,720 --> 01:02:25,000
+it in terms of science fiction,
+but the you know, the challenges
+
+994
+01:02:25,000 --> 01:02:29,240
+are are are much, much greater
+than for for supersonic.
+
+995
+01:02:29,320 --> 01:02:35,280
+You get to you get to very high
+altitudes and you get to very
+
+996
+01:02:35,280 --> 01:02:39,200
+high temperatures when you get
+to Mach 4 and Mach 5.
+
+997
+01:02:39,800 --> 01:02:44,360
+So, you know, being able to
+design something that's
+
+998
+01:02:44,760 --> 01:02:47,640
+reusable, you know that the
+materials that will last for,
+
+999
+01:02:48,240 --> 01:02:49,880
+you know, for thousands of
+flights.
+
+1000
+01:02:51,240 --> 01:02:53,160
+And then so there, you know,
+then some of the safety
+
+1001
+01:02:53,160 --> 01:02:55,600
+considerations, you know, one of
+the things that airplanes are
+
+1002
+01:02:55,600 --> 01:02:59,160
+designed for event of a
+depressurization, you know, the,
+
+1003
+01:02:59,920 --> 01:03:02,840
+the, you know, there's a way to
+keep people, you know, keep up,
+
+1004
+01:03:02,960 --> 01:03:05,240
+keep up people alive until the
+airplane gets down.
+
+1005
+01:03:05,280 --> 01:03:08,320
+When there's when you're up at
+7080 thousand feet, that's a
+
+1006
+01:03:08,560 --> 01:03:18,240
+huge, huge challenge.
+So yeah, I know NASA is NASA is,
+
+1007
+01:03:18,560 --> 01:03:22,520
+we have a hypersonics project.
+They're looking at hypersonics
+
+1008
+01:03:22,520 --> 01:03:26,720
+technology more from the the
+point of view of, you know what,
+
+1009
+01:03:26,720 --> 01:03:30,120
+what would it be for helping
+space launch?
+
+1010
+01:03:30,320 --> 01:03:33,160
+You know, what would its
+applications be in space launch?
+
+1011
+01:03:34,560 --> 01:03:38,120
+But again, we had this whole
+study looking at, you know, is,
+
+1012
+01:03:38,120 --> 01:03:39,840
+is high speed flight a
+possibility?
+
+1013
+01:03:40,640 --> 01:03:44,360
+Peter's opinion is it's going to
+be a very long time before the
+
+1014
+01:03:44,360 --> 01:03:49,040
+technology is ready to even even
+take, you know, 8 or 10 people
+
+1015
+01:03:50,000 --> 01:03:53,240
+into into, into hypersonic
+flight.
+
+1016
+01:03:55,000 --> 01:03:57,240
+Yeah, it seems you.
+Know, maybe, maybe the, you
+
+1017
+01:03:57,240 --> 01:04:01,960
+know, the whole idea of orbital
+transport, you know, will come
+
+1018
+01:04:01,960 --> 01:04:07,720
+before, before hypersonic flight
+cause, and again, you know,
+
+1019
+01:04:07,720 --> 01:04:12,280
+getting, getting people on board
+and making it safe and
+
+1020
+01:04:12,280 --> 01:04:14,760
+economical is a, is a, is a big
+step.
+
+1021
+01:04:15,760 --> 01:04:19,520
+Yeah, I think the overriding
+thing for most people is, and
+
+1022
+01:04:19,520 --> 01:04:22,360
+I'm sure you feel the same being
+so passionately involved in this
+
+1023
+01:04:22,360 --> 01:04:25,240
+project.
+There's always, normally we're
+
+1024
+01:04:25,240 --> 01:04:29,400
+used to technology adoption
+being a linear thing.
+
+1025
+01:04:29,600 --> 01:04:32,400
+You know, something gets faster,
+faster, faster.
+
+1026
+01:04:32,400 --> 01:04:34,000
+And we almost never go
+backwards, do we?
+
+1027
+01:04:34,000 --> 01:04:36,280
+You know, the internet's got
+faster, computers have got
+
+1028
+01:04:36,280 --> 01:04:38,720
+faster.
+It's always a sort of
+
+1029
+01:04:38,720 --> 01:04:43,160
+peculiarity that we did go
+supersonic and we were doing it
+
+1030
+01:04:43,600 --> 01:04:45,520
+and now we've sort of got
+backwards.
+
+1031
+01:04:45,520 --> 01:04:50,200
+And I always, I guess that's why
+for most people, supersonic
+
+1032
+01:04:50,200 --> 01:04:54,040
+travel is such a intriguing
+thing because they know it used
+
+1033
+01:04:54,040 --> 01:04:55,600
+to be.
+And I guess some people have
+
+1034
+01:04:56,000 --> 01:04:59,080
+were lucky enough to fly in
+Concorde and maybe they even
+
+1035
+01:04:59,080 --> 01:05:01,800
+more so wish it were still here.
+But for people like me, it's,
+
+1036
+01:05:01,800 --> 01:05:05,440
+it's just a fascinating thing
+that we did it and now, you
+
+1037
+01:05:05,440 --> 01:05:06,800
+know, I guess it's like going to
+the moon.
+
+1038
+01:05:06,840 --> 01:05:09,360
+You know, we, we did it, but we
+haven't been back for quite a
+
+1039
+01:05:09,360 --> 01:05:12,920
+while.
+And but I guess that's also
+
+1040
+01:05:12,920 --> 01:05:15,120
+changing but.
+You know.
+
+1041
+01:05:15,240 --> 01:05:17,320
+It's it's.
+Yeah.
+
+1042
+01:05:17,360 --> 01:05:19,320
+I mean, you know, spaceflight
+did the same thing.
+
+1043
+01:05:19,320 --> 01:05:21,840
+It was, you know, it was we
+needed that.
+
+1044
+01:05:21,880 --> 01:05:24,280
+We needed that technology.
+There was a space, there was a
+
+1045
+01:05:24,280 --> 01:05:28,560
+space race.
+So, you know, it was a stretch.
+
+1046
+01:05:28,600 --> 01:05:33,800
+You know, the moon, the moon
+landing was a was a big stretch.
+
+1047
+01:05:33,800 --> 01:05:37,840
+Concorde was a big stretch.
+And you know, maybe we stretched
+
+1048
+01:05:37,840 --> 01:05:41,280
+a little too far, you know,
+prove that it was practical.
+
+1049
+01:05:41,280 --> 01:05:44,800
+But for a supersonic flight, for
+example, revealed that there
+
+1050
+01:05:44,800 --> 01:05:50,360
+were some, some things which,
+you know, which you have to, you
+
+1051
+01:05:50,360 --> 01:05:52,840
+have to create a balance.
+You know, we like to go faster,
+
+1052
+01:05:52,840 --> 01:05:54,880
+but we can't disturb people's
+lives.
+
+1053
+01:05:55,360 --> 01:05:56,640
+You know, now we've got
+aircraft.
+
+1054
+01:05:56,640 --> 01:05:58,160
+Aircraft are going to have to be
+sustainable.
+
+1055
+01:05:58,160 --> 01:06:02,080
+They have to, you know, not, not
+contribute to, to, to climate
+
+1056
+01:06:02,080 --> 01:06:05,240
+change.
+So there's more things to weigh
+
+1057
+01:06:05,240 --> 01:06:11,760
+than just speed, which which,
+you know, again, kind of puts
+
+1058
+01:06:11,760 --> 01:06:20,000
+barriers in the way of, of, of
+reaching that goal. 11 quick
+
+1059
+01:06:20,000 --> 01:06:24,920
+question before I'd maybe a
+completely changed topic battery
+
+1060
+01:06:24,920 --> 01:06:33,080
+technology, it's always been I
+remember for cars, there was a
+
+1061
+01:06:33,080 --> 01:06:35,560
+point when people said it was
+never going to be available for
+
+1062
+01:06:35,560 --> 01:06:39,200
+cars electric, you know, they
+have a a little golf buggy and
+
+1063
+01:06:39,200 --> 01:06:41,200
+that's about it.
+There's no way it's ever going
+
+1064
+01:06:41,200 --> 01:06:44,640
+to be for a car.
+And yet suddenly the whole
+
+1065
+01:06:44,640 --> 01:06:47,200
+market started to transform and
+it really felt like there was a
+
+1066
+01:06:47,200 --> 01:06:49,920
+step change in the adoption of
+electric.
+
+1067
+01:06:50,960 --> 01:06:54,160
+I haven't been following it as
+closely, but where do you see
+
+1068
+01:06:54,280 --> 01:06:58,080
+battery?
+Battery technology for aircraft
+
+1069
+01:06:58,080 --> 01:06:59,400
+propulsion?
+I don't mean complete.
+
+1070
+01:07:00,200 --> 01:07:02,200
+Background battery guy.
+But I.
+
+1071
+01:07:03,360 --> 01:07:13,120
+Will say that, you know, in in
+NASA aeronautics, unique new
+
+1072
+01:07:13,120 --> 01:07:19,800
+sustainable propulsion systems
+are, you know, are are, are an
+
+1073
+01:07:19,800 --> 01:07:22,880
+area of intense interest.
+So we have a number of efforts
+
+1074
+01:07:23,720 --> 01:07:31,520
+looking at yeah, battery powered
+electric flight for smaller
+
+1075
+01:07:31,520 --> 01:07:33,640
+aircraft.
+We have something called the
+
+1076
+01:07:34,120 --> 01:07:36,360
+electrified propulsion flight
+demonstration.
+
+1077
+01:07:36,840 --> 01:07:38,280
+It's an effort that's going on
+right now.
+
+1078
+01:07:38,280 --> 01:07:44,200
+There's there's two contractors,
+GE and Magne X Magnex has built
+
+1079
+01:07:44,200 --> 01:07:48,040
+a number of electric powered
+airplanes already investigating,
+
+1080
+01:07:48,040 --> 01:07:50,040
+you know, what it would take to
+get there.
+
+1081
+01:07:50,240 --> 01:07:52,360
+Would it would it be battery?
+Would it be hybrid?
+
+1082
+01:07:53,160 --> 01:07:56,160
+Would it use fuel cells?
+You know, all all those kind of
+
+1083
+01:07:56,160 --> 01:08:01,240
+features towards, you know,
+making essentially non
+
+1084
+01:08:01,240 --> 01:08:05,600
+combustion propulsion a viable
+option.
+
+1085
+01:08:06,640 --> 01:08:09,240
+There's there's a lot of work
+that needs to be done.
+
+1086
+01:08:09,240 --> 01:08:14,360
+But again, you know, like you
+said, I mean, when people, you
+
+1087
+01:08:14,400 --> 01:08:16,399
+know, a few years ago, people
+couldn't imagine an electric
+
+1088
+01:08:16,399 --> 01:08:20,279
+car, people couldn't imagine a a
+rocket that would come back and
+
+1089
+01:08:20,279 --> 01:08:22,359
+land on.
+On.
+
+1090
+01:08:22,840 --> 01:08:24,840
+The ground.
+So, so you know, never say, you
+
+1091
+01:08:24,840 --> 01:08:29,080
+know, it's you try to challenge
+yourself, you know, to be
+
+1092
+01:08:29,080 --> 01:08:32,359
+realistic and think about what
+you know we can do in the near
+
+1093
+01:08:32,359 --> 01:08:34,160
+term, but you really should
+never say never.
+
+1094
+01:08:34,760 --> 01:08:37,200
+Yeah, exactly.
+Yeah, being caught by some
+
+1095
+01:08:37,240 --> 01:08:40,439
+scissors that probably wasn't on
+people's minds a while ago.
+
+1096
+01:08:40,680 --> 01:08:43,920
+So maybe the maybe the final
+question for you, which is
+
+1097
+01:08:44,520 --> 01:08:47,960
+you've worked for NASA for for
+decades now, I guess, you know,
+
+1098
+01:08:48,120 --> 01:08:52,080
+maybe more than 30 years.
+What advice would you give to
+
+1099
+01:08:52,080 --> 01:08:55,720
+people who are looking to start
+a career in aeronautics?
+
+1100
+01:08:55,720 --> 01:08:59,000
+But what I know it's probably a
+question you get a lot, but what
+
+1101
+01:08:59,000 --> 01:09:01,560
+would you be about if you, if
+you're somebody maybe in the
+
+1102
+01:09:01,560 --> 01:09:04,960
+final years of school, thinking
+about university, thinking about
+
+1103
+01:09:04,960 --> 01:09:07,520
+career, what would be your
+advice?
+
+1104
+01:09:07,680 --> 01:09:11,520
+To that, well, I mean, one of
+the things I always tell people
+
+1105
+01:09:11,520 --> 01:09:14,880
+I know I got a degree in
+aerospace, aeronautical
+
+1106
+01:09:14,880 --> 01:09:20,840
+engineering, which you know,
+give me unique set of skills,
+
+1107
+01:09:20,840 --> 01:09:22,880
+obviously, you know which got me
+into the aerospace business.
+
+1108
+01:09:24,200 --> 01:09:27,479
+There are other degrees, you
+know, which you should, you
+
+1109
+01:09:27,479 --> 01:09:30,800
+know, electrical engineering,
+you know, mechanical
+
+1110
+01:09:30,800 --> 01:09:35,040
+engineering, all, you know, all
+of those things can give you an
+
+1111
+01:09:35,040 --> 01:09:39,800
+opportunity to get into an
+aerospace field.
+
+1112
+01:09:39,880 --> 01:09:42,840
+You know, for people in school,
+you know, there's, there's so
+
+1113
+01:09:42,840 --> 01:09:47,319
+many internship opportunities.
+I, I, you know, I say, you know,
+
+1114
+01:09:47,560 --> 01:09:52,920
+take any, any opportunity that
+you have to do that, you know,
+
+1115
+01:09:53,319 --> 01:09:56,520
+take it because it, you know,
+gives you experience to, to help
+
+1116
+01:09:56,520 --> 01:09:58,560
+you, you figure out what you
+really want to do.
+
+1117
+01:09:59,600 --> 01:10:03,560
+It gives you exposure to how
+industry works and you meet
+
+1118
+01:10:03,560 --> 01:10:08,120
+people, you know, who could, you
+know, kind of benefit, get
+
+1119
+01:10:08,120 --> 01:10:09,920
+benefit for you when you start
+your career.
+
+1120
+01:10:11,240 --> 01:10:16,200
+You know, beyond that, when you
+get to work, be a team player.
+
+1121
+01:10:18,360 --> 01:10:23,160
+Be willing to do something that
+puts yourself outside of your
+
+1122
+01:10:23,160 --> 01:10:25,080
+comfort zone.
+I was, you know, pretty much a
+
+1123
+01:10:25,440 --> 01:10:28,440
+technology guy, you know, very
+happy doing my little aircraft
+
+1124
+01:10:28,440 --> 01:10:31,120
+design work.
+My bosses kept pushing me to get
+
+1125
+01:10:31,120 --> 01:10:34,640
+involved more of these
+multidisciplinary studies that
+
+1126
+01:10:34,640 --> 01:10:38,040
+were going on.
+And then, you know, gave me, it
+
+1127
+01:10:38,040 --> 01:10:40,240
+was a challenge for me, you
+know, to get out there and
+
+1128
+01:10:40,280 --> 01:10:41,920
+interact with with people.
+But.
+
+1129
+01:10:42,560 --> 01:10:45,960
+You know.
+Definitely gave me a skill set
+
+1130
+01:10:46,400 --> 01:10:51,120
+which was, you know, really very
+important as I got into the
+
+1131
+01:10:51,120 --> 01:10:55,560
+position where we helped create,
+I helped create the, the, the
+
+1132
+01:10:55,680 --> 01:11:00,000
+program that eventually led to
+creation of the quest mission.
+
+1133
+01:11:00,120 --> 01:11:05,280
+So, you know, by being able to
+work with people and, and, you
+
+1134
+01:11:05,280 --> 01:11:10,920
+know, set common goals and, you
+know, set up an environment
+
+1135
+01:11:10,920 --> 01:11:14,480
+where you can achieve those
+goals that, that was an old part
+
+1136
+01:11:14,480 --> 01:11:18,280
+of the background.
+You know that that exposing
+
+1137
+01:11:18,280 --> 01:11:21,360
+myself to, to just to things
+outside of, you know, just the,
+
+1138
+01:11:21,400 --> 01:11:25,960
+the typical math and science
+help me, you know, help, help
+
+1139
+01:11:25,960 --> 01:11:31,800
+set me on that path.
+And is there any in in now, I
+
+1140
+01:11:31,800 --> 01:11:38,040
+guess as the aerospace industry
+is changing and the start-ups
+
+1141
+01:11:38,040 --> 01:11:41,800
+around and you know, do you
+think how valuable is it for
+
+1142
+01:11:41,800 --> 01:11:46,280
+people to, for example, do a PhD
+and go down the more academic
+
+1143
+01:11:46,280 --> 01:11:50,440
+becoming an expert or how much
+of it is valuable to also gain
+
+1144
+01:11:50,880 --> 01:11:53,240
+sort of industrial experience?
+You know, would you, if you're
+
+1145
+01:11:53,240 --> 01:11:56,000
+looking at employing somebody,
+would you, would you like
+
+1146
+01:11:56,000 --> 01:11:59,800
+somebody who's, you know, worked
+at different smaller aircraft
+
+1147
+01:11:59,800 --> 01:12:02,880
+manufacturers or companies and
+bring diverse skills?
+
+1148
+01:12:02,880 --> 01:12:06,600
+Or would you tend to say to
+people, no, go down the more
+
+1149
+01:12:07,160 --> 01:12:11,040
+academic you know, doing a PhD
+or maybe becoming a research
+
+1150
+01:12:11,040 --> 01:12:12,640
+scientist?
+Is there anything?
+
+1151
+01:12:13,600 --> 01:12:17,720
+You've observed there's, there's
+benefits to, to everything.
+
+1152
+01:12:17,880 --> 01:12:20,880
+Again, I, I talked about being,
+being able to work as part of a
+
+1153
+01:12:20,880 --> 01:12:26,920
+team, you know, so to me, if I'm
+hiring people, someone who's had
+
+1154
+01:12:26,920 --> 01:12:32,880
+that kind of experience would
+be, yeah, would be something
+
+1155
+01:12:32,880 --> 01:12:35,000
+that I would look for, you know,
+to bring forward.
+
+1156
+01:12:36,960 --> 01:12:40,160
+You know, that said, you know,
+we've got, we've got people, you
+
+1157
+01:12:40,160 --> 01:12:44,320
+know, that have come to NASA
+from, from, you know, from
+
+1158
+01:12:44,320 --> 01:12:47,200
+different higher education, you
+know, from PhDs, from, from
+
+1159
+01:12:47,200 --> 01:12:51,040
+master's programs.
+And yeah, they're, they're just,
+
+1160
+01:12:51,240 --> 01:12:54,200
+they're, they're brilliant, you
+know, so that puts them on the
+
+1161
+01:12:54,200 --> 01:12:56,360
+right path to begin with.
+They've kind of honed that
+
+1162
+01:12:56,360 --> 01:12:59,960
+knowledge.
+They've already maybe, you know,
+
+1163
+01:13:00,360 --> 01:13:03,960
+got this idea that they can do
+something new and unique.
+
+1164
+01:13:06,240 --> 01:13:10,240
+And you, you put them with a
+team that addresses all the
+
+1165
+01:13:10,240 --> 01:13:14,320
+other aspects of that, that new
+and unique idea is that, and
+
+1166
+01:13:14,320 --> 01:13:15,520
+that's how you get to
+breakthroughs.
+
+1167
+01:13:15,520 --> 01:13:19,480
+And that's kind of, that's a lot
+of what happened with the the
+
+1168
+01:13:19,480 --> 01:13:21,240
+design that, you know, the
+design that led us to.
+
+1169
+01:13:21,280 --> 01:13:25,560
+X59.
+Well, thank you so much for
+
+1170
+01:13:25,640 --> 01:13:27,760
+taking the time to speak.
+I mean, what I think I'll do is
+
+1171
+01:13:27,760 --> 01:13:31,240
+I'll put a bunch of links for
+people to follow because I know
+
+1172
+01:13:31,240 --> 01:13:35,360
+there's lots of, you know,
+videos and, and, and papers that
+
+1173
+01:13:35,360 --> 01:13:37,880
+have been published on these
+things that maybe people could
+
+1174
+01:13:37,880 --> 01:13:41,120
+dive into.
+And of course, you know, the
+
+1175
+01:13:41,120 --> 01:13:47,320
+NASA, NASA website,
+nasa.gov/quest two s s there's,
+
+1176
+01:13:47,320 --> 01:13:51,200
+there's all kinds of information
+about the, the project there.
+
+1177
+01:13:51,200 --> 01:13:53,760
+People can sign up for our
+boarding pass which your, you
+
+1178
+01:13:53,760 --> 01:13:57,560
+know, your date name will be
+digitally carried aloft on the
+
+1179
+01:13:57,560 --> 01:14:01,800
+1st Friday, the X 59.
+And, you know, again, it's a
+
+1180
+01:14:01,800 --> 01:14:04,520
+great way to interact with with
+with, you know, get information
+
+1181
+01:14:04,520 --> 01:14:08,840
+about what's going on at NASA.
+Great well, I, I certainly hope
+
+1182
+01:14:08,880 --> 01:14:12,160
+that it I'll have the
+opportunity to fly on a
+
+1183
+01:14:12,160 --> 01:14:15,960
+supersonic aircraft and I, I,
+I'm sure that if it does happen
+
+1184
+01:14:16,120 --> 01:14:19,840
+it will most likely be thanks to
+the work that you and your team
+
+1185
+01:14:19,920 --> 01:14:23,720
+has done so anybody listening to
+this should be thankful of the
+
+1186
+01:14:23,720 --> 01:14:26,360
+work that you and your team are
+doing because it might help save
+
+1187
+01:14:26,360 --> 01:14:28,720
+us from 8 hour flights across to
+the US yeah we're.
+
+1188
+01:14:30,840 --> 01:14:33,600
+We're just hoping, you know,
+again, it's, it's important that
+
+1189
+01:14:35,080 --> 01:14:38,840
+yeah, whatever we do, the public
+buys into, you know, so getting
+
+1190
+01:14:38,840 --> 01:14:42,120
+their opinion is all, all about
+all what quest is about.
+
+1191
+01:14:42,120 --> 01:14:46,560
+But we do, you know, for NASA,
+you know, high speed flight is,
+
+1192
+01:14:46,640 --> 01:14:50,840
+is just is, is part of our the
+kind of the, the foundational
+
+1193
+01:14:50,840 --> 01:14:53,000
+things that we're, we're working
+towards.
+
+1194
+01:14:53,680 --> 01:14:55,640
+Yeah.
+Well, thank you again.
+
+1195
+01:14:55,640 --> 01:14:57,480
+Really appreciate.
+It was great to talk to you.
+
+1196
+01:14:57,560 --> 01:14:59,440
+And yeah, good luck for the rest
+of the program.
+
+1197
+01:14:59,440 --> 01:15:00,360
+Pleasure talking to you, Neil.

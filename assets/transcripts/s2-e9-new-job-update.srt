@@ -1,0 +1,729 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,840
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,840 --> 00:00:40,840
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:40,840 --> 00:00:44,440
+Ashton Podcast.
+I'm mainly here to say sorry
+
+13
+00:00:44,440 --> 00:00:47,400
+that I haven't put out an
+episode in quite some time.
+
+14
+00:00:48,000 --> 00:00:51,840
+I've been a bit busy, to be
+completely honest, and that's
+
+15
+00:00:51,840 --> 00:00:57,120
+because I actually changed jobs.
+I left Amazon Web Services, AWS
+
+16
+00:00:57,120 --> 00:01:01,360
+after being there nearly five
+years and I joined NVIDIA about
+
+17
+00:01:01,360 --> 00:01:04,680
+six weeks ago.
+And yeah, I've been, I've been
+
+18
+00:01:04,680 --> 00:01:08,040
+pretty busy.
+It's been a super exciting
+
+19
+00:01:08,040 --> 00:01:11,680
+though past sort of six weeks.
+Probably anybody who changes
+
+20
+00:01:11,680 --> 00:01:15,320
+jobs will say it's, you know,
+stressful time, but I actually
+
+21
+00:01:15,320 --> 00:01:23,040
+found it a a really good time.
+Maybe I'll just briefly say what
+
+22
+00:01:23,040 --> 00:01:25,240
+I'm what I'm doing, just, you
+know, I guess if people are
+
+23
+00:01:25,240 --> 00:01:28,560
+interested.
+So I'm I've joined the video as
+
+24
+00:01:28,560 --> 00:01:32,200
+a distinguished CAE.
+So computer, computer aided
+
+25
+00:01:32,200 --> 00:01:37,400
+engineering architect, which
+enjoyed on the sort of product
+
+26
+00:01:37,440 --> 00:01:39,480
+engineering side of of the
+business.
+
+27
+00:01:39,480 --> 00:01:44,880
+So the side of the company that
+builds the builds, designs the,
+
+28
+00:01:45,040 --> 00:01:49,880
+the, the, the GP US and CPUs and
+also looks after the, the sort
+
+29
+00:01:49,880 --> 00:01:52,600
+of software side of things to
+the CAE platform.
+
+30
+00:01:52,600 --> 00:01:56,000
+And so that's the team that I'm
+joining, but I'll have a
+
+31
+00:01:56,000 --> 00:02:01,240
+reasonably broad remit of trying
+to help, you know, the product
+
+32
+00:02:01,240 --> 00:02:07,240
+teams, the marketing, the sales
+and BI guess the subject matter
+
+33
+00:02:07,240 --> 00:02:12,160
+expert or domain specialist for,
+for, for CAE, which is super
+
+34
+00:02:12,160 --> 00:02:16,840
+exciting because, you know,
+Nvidia's doing a lot in many
+
+35
+00:02:16,840 --> 00:02:19,080
+different areas.
+And it's a chance for me
+
+36
+00:02:19,080 --> 00:02:22,560
+hopefully to contribute to them.
+You know, the things that I've
+
+37
+00:02:22,560 --> 00:02:27,080
+learnt over my career and some
+of the projects that I'm engaged
+
+38
+00:02:27,080 --> 00:02:31,560
+with and, and, you know, help
+them to deliver things, but also
+
+39
+00:02:31,560 --> 00:02:33,480
+the other way around.
+It's really great for me to
+
+40
+00:02:33,480 --> 00:02:36,960
+expand my knowledge,
+particularly obviously as GPUs
+
+41
+00:02:36,960 --> 00:02:41,760
+are becoming more and more
+frequently used and, and also on
+
+42
+00:02:41,760 --> 00:02:44,800
+the software stack.
+So I kind of like to challenge
+
+43
+00:02:44,800 --> 00:02:46,880
+myself.
+And certainly getting more into
+
+44
+00:02:46,880 --> 00:02:52,600
+the the computer science side of
+things, I guess is particularly
+
+45
+00:02:52,600 --> 00:02:56,000
+appealing to me.
+But also it's no secret that
+
+46
+00:02:56,000 --> 00:02:58,360
+I've been doing a lot of work in
+the AI side.
+
+47
+00:02:58,840 --> 00:03:03,120
+And you know, for obvious
+reasons, the videos are pretty
+
+48
+00:03:03,120 --> 00:03:06,240
+good at the AI stuff and is used
+by many people for the AI side
+
+49
+00:03:06,240 --> 00:03:08,640
+of things.
+So it's been great to, yeah, to
+
+50
+00:03:08,640 --> 00:03:13,240
+expand myself there.
+I was lucky enough to go out to
+
+51
+00:03:13,240 --> 00:03:16,480
+the headquarters in Santa Clara
+a couple of weeks ago.
+
+52
+00:03:16,920 --> 00:03:21,920
+So it's kind of funny actually,
+to go back to the Bay Area.
+
+53
+00:03:21,920 --> 00:03:26,200
+The Bay Area, by the way, being
+the place, the Bay to the South
+
+54
+00:03:26,200 --> 00:03:28,520
+of San Francisco.
+I guess all of it's technically
+
+55
+00:03:28,520 --> 00:03:30,360
+the Bay Area.
+But when, whenever I say the Bay
+
+56
+00:03:30,360 --> 00:03:33,800
+Area, it's Silicon Valley,
+although I sort of feel a bit
+
+57
+00:03:33,800 --> 00:03:38,040
+weird saying Silicon Valley
+sounds a bit odd to say it, but
+
+58
+00:03:38,040 --> 00:03:39,920
+they're based there.
+And it's great to go back
+
+59
+00:03:39,920 --> 00:03:46,680
+actually, because, you know, I
+was there 10 years ago, living
+
+60
+00:03:46,680 --> 00:03:48,800
+there for a short time when I
+was at NASA Ames.
+
+61
+00:03:49,400 --> 00:03:52,920
+And I, I remember that was for a
+British person going out to
+
+62
+00:03:52,920 --> 00:03:54,840
+California and going to Silicon
+Valley.
+
+63
+00:03:55,280 --> 00:03:57,920
+I saw all these, you know, tech
+companies and I often did
+
+64
+00:03:57,920 --> 00:04:01,360
+wonder, you know, would I ever
+join a company like that?
+
+65
+00:04:01,440 --> 00:04:04,680
+At that time, it didn't see like
+my path would ever lead me
+
+66
+00:04:04,680 --> 00:04:08,600
+there.
+So it's funny to be back 10
+
+67
+00:04:08,600 --> 00:04:12,160
+years and now be working for one
+of the big companies in that
+
+68
+00:04:12,160 --> 00:04:17,480
+area and be going there, I guess
+more towards the middle of my
+
+69
+00:04:17,480 --> 00:04:20,200
+career.
+It was kind of a funny feeling
+
+70
+00:04:20,200 --> 00:04:22,800
+going, you know, driving around
+that area and walking around.
+
+71
+00:04:22,800 --> 00:04:27,760
+And of course, it's nice to get
+a bit of sun in January because
+
+72
+00:04:27,760 --> 00:04:32,120
+it's been very gloomy in the UK.
+So I went over there and yeah,
+
+73
+00:04:32,120 --> 00:04:35,640
+everyone's been great.
+It's a fantastic company, lots
+
+74
+00:04:35,640 --> 00:04:39,000
+of super talented people and a
+really nice culture.
+
+75
+00:04:39,000 --> 00:04:41,760
+This is not a sales for them.
+This is just my honest opinion.
+
+76
+00:04:41,800 --> 00:04:44,280
+It's, it's genuinely, it's been
+great.
+
+77
+00:04:44,400 --> 00:04:48,080
+Met loads of nice people, you
+know, engaged in customer
+
+78
+00:04:48,080 --> 00:04:50,880
+meetings and things like that.
+So that's why I've been a bit
+
+79
+00:04:50,880 --> 00:04:55,360
+preoccupied.
+And there's quite a big event
+
+80
+00:04:55,720 --> 00:04:57,560
+coming up.
+It's called GTC.
+
+81
+00:04:57,560 --> 00:04:59,600
+So it's Nvidia's main
+conference.
+
+82
+00:04:59,920 --> 00:05:04,640
+I guess a bit like AWS has
+Reinvent and Microsoft has RE
+
+83
+00:05:05,560 --> 00:05:07,320
+ignition or something.
+I can't remember what it's
+
+84
+00:05:07,440 --> 00:05:08,960
+called.
+Every company, you know, Siemens
+
+85
+00:05:08,960 --> 00:05:11,400
+has Siemens realise live ANSYS
+has something else.
+
+86
+00:05:11,800 --> 00:05:13,880
+So this is the NVIDIA thing and
+it's in March.
+
+87
+00:05:13,880 --> 00:05:15,960
+And so it's always a bit crazy
+leading up to it.
+
+88
+00:05:16,600 --> 00:05:19,000
+I'm actually going to be going
+out there again for that.
+
+89
+00:05:19,000 --> 00:05:22,880
+So if anybody listens to this,
+watches this and it's going to
+
+90
+00:05:22,880 --> 00:05:25,040
+be at GTC, then please come and
+say hello.
+
+91
+00:05:25,400 --> 00:05:27,600
+It'd be great to, to, to speak
+to people.
+
+92
+00:05:28,440 --> 00:05:30,040
+But yeah, that's why I've been a
+bit busy.
+
+93
+00:05:30,680 --> 00:05:34,440
+But the good news is I will be
+continuing the podcast and I
+
+94
+00:05:34,440 --> 00:05:37,760
+have already some really
+interesting guests lined up to
+
+95
+00:05:37,760 --> 00:05:42,600
+finish off this season.
+And and I'm going to take a
+
+96
+00:05:42,600 --> 00:05:47,720
+little bit of a break then to
+sort of get re energised and get
+
+97
+00:05:47,720 --> 00:05:52,160
+some stuff recorded and prepared
+for the third season and to make
+
+98
+00:05:52,160 --> 00:05:55,880
+sure that I don't have this
+embarrassing gap of time when I
+
+99
+00:05:55,880 --> 00:05:59,640
+basically was just a bit manic
+to go and record and and
+
+100
+00:05:59,640 --> 00:06:01,960
+interview people.
+So I just, yeah, had to take a
+
+101
+00:06:01,960 --> 00:06:03,720
+bit of a break.
+But I thought I should come on
+
+102
+00:06:03,720 --> 00:06:07,520
+here and at least tell you that
+I'm sorry for not putting in a
+
+103
+00:06:07,520 --> 00:06:09,280
+new episodes.
+And at least, you know that I'm,
+
+104
+00:06:09,480 --> 00:06:11,880
+you know, still around and still
+working.
+
+105
+00:06:13,000 --> 00:06:15,320
+I'm still, you know, going to be
+as engaged with all the
+
+106
+00:06:15,320 --> 00:06:20,000
+community projects that I've
+been really, you know, proud of
+
+107
+00:06:20,000 --> 00:06:23,600
+doing, like the auto CFDS, like
+the high lift workshops, like
+
+108
+00:06:23,600 --> 00:06:27,360
+some of the AI data set stuff.
+These are all activities that I
+
+109
+00:06:27,360 --> 00:06:32,200
+will be continuing at NVIDIA and
+have even more of a remit to,
+
+110
+00:06:32,240 --> 00:06:34,800
+you know, go out there and
+hopefully do some really good
+
+111
+00:06:34,800 --> 00:06:39,080
+things for the community.
+But also very keen to to hear
+
+112
+00:06:39,800 --> 00:06:42,920
+what people think at the next
+topics and engage and try and
+
+113
+00:06:42,920 --> 00:06:45,440
+look what's around the corner.
+That always interests me.
+
+114
+00:06:45,920 --> 00:06:48,880
+That's obviously why I've done
+so many episodes array around
+
+115
+00:06:48,880 --> 00:06:52,800
+the AI side and there'll be some
+more stuff around the quantum
+
+116
+00:06:52,800 --> 00:06:56,200
+side of things as well that I'll
+be talking to some guests on
+
+117
+00:06:57,000 --> 00:06:59,080
+and, and really the rest is down
+to you.
+
+118
+00:06:59,120 --> 00:07:03,240
+I'd love to actually hear what
+episodes and what topics and
+
+119
+00:07:03,240 --> 00:07:05,680
+what sort of things you would
+like to hear.
+
+120
+00:07:06,560 --> 00:07:09,760
+Yeah, Let me know either on
+LinkedIn or YouTube or whatever
+
+121
+00:07:09,760 --> 00:07:12,160
+mechanism you want.
+Yeah.
+
+122
+00:07:12,160 --> 00:07:14,680
+Tell me what sort of stuff
+interests you, what you'd liked,
+
+123
+00:07:14,680 --> 00:07:18,640
+what you didn't like, and I'll
+try to make these episodes as
+
+124
+00:07:18,640 --> 00:07:22,600
+interesting as possible.
+But for now, yeah, Please be
+
+125
+00:07:22,600 --> 00:07:25,160
+patient and and thank you.
+If you are listening to this and
+
+126
+00:07:25,160 --> 00:07:27,880
+you haven't completely stopped
+listening to these podcasts,
+
+127
+00:07:28,240 --> 00:07:31,880
+there is quite a few episodes
+maybe to go back and listen to.
+
+128
+00:07:31,880 --> 00:07:34,080
+I mean that's probably anybody
+who's watched or listened to
+
+129
+00:07:34,080 --> 00:07:37,640
+this will know most of them are
+in the one hour to two hour
+
+130
+00:07:37,640 --> 00:07:41,160
+mark.
+So if you whilst maybe if you're
+
+131
+00:07:41,160 --> 00:07:43,920
+waiting for new episodes to
+come, I'd encourage you to go in
+
+132
+00:07:43,920 --> 00:07:47,280
+the back catalogue and maybe try
+and listen more of those
+
+133
+00:07:47,280 --> 00:07:49,480
+episodes if you didn't get
+listened to the whole thing
+
+134
+00:07:49,880 --> 00:07:53,680
+because yeah, I left them long
+forms so you could really get
+
+135
+00:07:53,680 --> 00:07:55,640
+the full story.
+But I appreciate that there are
+
+136
+00:07:55,640 --> 00:07:57,800
+sometimes a bit difficult to
+listen to all in one go.
+
+137
+00:07:58,200 --> 00:08:00,240
+So maybe this is a good
+opportunity to do it.
+
+138
+00:08:00,640 --> 00:08:03,720
+And like I said this now, there
+will be some more episodes
+
+139
+00:08:03,720 --> 00:08:06,000
+coming soon.
+But in the meantime, yeah,
+
+140
+00:08:06,000 --> 00:08:09,440
+thanks for thanks for listening
+to this and following this
+
+141
+00:08:09,440 --> 00:08:13,440
+podcast.
+I really do appreciate the the
+
+142
+00:08:13,440 --> 00:08:15,680
+fact that you're doing it and
+any, you know, the nice feedback
+
+143
+00:08:15,680 --> 00:08:19,920
+I've had from people.
+But yeah, sorry for not being so
+
+144
+00:08:19,920 --> 00:08:21,840
+good at putting them out, but
+there will be more in the
+
+145
+00:08:21,840 --> 00:08:23,920
+future.
+So with that, hope you had a
+
+146
+00:08:24,080 --> 00:08:28,040
+good start to the year.
+And yeah, speak to you all soon.

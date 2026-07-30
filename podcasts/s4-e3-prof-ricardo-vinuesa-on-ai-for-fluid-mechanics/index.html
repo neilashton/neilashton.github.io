@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prof. Ricardo Vinuesa on AI for Fluid Mechanics | The Neil Ashton Podcast</title>
+<meta name="author" content="Neil Ashton">
+<meta name="description" content="In this episode, Professor Ricardo Vinuesa - Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan -…">
+<meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
+
+<link rel="canonical" href="https://neilashton.co.uk/podcasts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics/">
+
+  <link rel="alternate" type="application/rss+xml" title="The Neil Ashton Podcast" href="https://anchor.fm/s/10a5bf2d8/podcast/rss">
+
+
+
+  <meta property="og:site_name" content="Neil Ashton">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Prof. Ricardo Vinuesa on AI for Fluid Mechanics | The Neil Ashton Podcast">
+  <meta property="og:url" content="https://neilashton.co.uk/podcasts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics/">
+  <meta property="og:description" content="In this episode, Professor Ricardo Vinuesa - Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan -…">
+  <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s4-e3.webp">
+  <meta property="og:image:width" content="320">
+  <meta property="og:image:height" content="180">
+  <meta property="og:image:alt" content="Prof. Ricardo Vinuesa on AI for Fluid Mechanics — The Neil Ashton Podcast">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prof. Ricardo Vinuesa on AI for Fluid Mechanics | The Neil Ashton Podcast">
+  <meta name="twitter:description" content="In this episode, Professor Ricardo Vinuesa - Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan -…">
+  <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s4-e3.webp">
+  <meta name="twitter:image:alt" content="Prof. Ricardo Vinuesa on AI for Fluid Mechanics — The Neil Ashton Podcast">
+
+
+
+  
+    
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PodcastEpisode",
+        "name": "Prof. Ricardo Vinuesa on AI for Fluid Mechanics",
+        "url": "https://neilashton.co.uk/podcasts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics/",
+        "description": "In this episode, Professor Ricardo Vinuesa - Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan -…",
+        "datePublished": "2026-06-25T04:01:10-07:00",
+        "duration": "PT1H5M48S",
+        "episodeNumber": 3,
+        "image": "https://neilashton.co.uk/assets/img/podcast/episodes/s4-e3.webp",
+        "author": {
+          "@type": "Person",
+          "name": "Neil Ashton",
+          "url": "https://neilashton.co.uk"
+        },
+        "partOfSeason": {
+          "@type": "PodcastSeason",
+          "seasonNumber": 4,
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "The Neil Ashton Podcast",
+            "url": "https://neilashton.co.uk/podcasts/",
+            "webFeed": "https://anchor.fm/s/10a5bf2d8/podcast/rss"
+          }
+        },
+        "associatedMedia": {
+          "@type": "MediaObject",
+          "contentUrl": "https://anchor.fm/s/10a5bf2d8/podcast/play/121161121/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-8%2F425716952-44100-2-a908f8b33baf3.mp3",
+          "encodingFormat": "audio/mpeg"
+        },
+        "sameAs": [
+          "https://open.spotify.com/episode/4qWvgJLmZnGtv7d2cXhx1A",
+          "https://podcasters.spotify.com/pod/show/neilashton/episodes/S4-EP3---Prof--Ricardo-Vinuesa-on-AI-for-Fluid-Mechanics-e3kg1v1"
+        ]
+      }
+    </script>
+  
+
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" id="highlight-theme-light">
+<link
+  rel="stylesheet"
+  href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca"
+  media="none"
+  id="highlight-theme-dark"
+>
+<link rel="stylesheet" href="/assets/css/main.css?8fedf69cca7224fdc5ba39c0256c6792">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+
+<script src="/assets/js/theme.js?c8411e7fe60c2a34c85becf1307a9d2d"></script>
+
+  <script>
+    initTheme();
+  </script>
+
+
+  </head>
+  <body class="fixed-top-nav">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Neil Ashton, home">
+        <span class="brand-name">Neil Ashton</span>
+      </a>
+
+      <button
+        class="navbar-toggler collapsed ml-auto"
+        type="button"
+        data-nav-toggle
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav" data-nav-menu>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a
+              class="nav-link"
+              href="/"
+              
+              >About</a
+            >
+          </li>
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/work/"
+                  
+                >
+                  Research
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/publications/"
+                  
+                >
+                  Publications
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/cv/"
+                  
+                >
+                  CV
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/talks/"
+                  
+                >
+                  Talks
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/podcasts/"
+                  
+                >
+                  Podcast
+                </a>
+              </li>
+            
+          
+          
+            <li class="nav-item theme-item">
+              <button
+                id="light-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Theme: system. Activate to switch to light mode."
+                title="Change colour theme"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19">
+                  <path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M16.8 8.4a4.8 4.8 0 0 0 2.8 6.2A5.5 5.5 0 1 1 16.8 8.4Z" fill="currentColor" opacity=".35"/>
+                </svg>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="main-content" class="container site-main" tabindex="-1">
+      <article class="podcast-episode">
+  <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
+    <a href="/podcasts/">Podcast</a>
+    <span aria-hidden="true">/</span>
+    <span>Season 4, episode 3</span>
+  </nav>
+
+  <header class="episode-header">
+    <div class="episode-header-copy">
+      <p class="eyebrow">The Neil Ashton Podcast</p>
+      <h1>Prof. Ricardo Vinuesa on AI for Fluid Mechanics</h1>
+      <p class="episode-meta">
+        <span>Season 4, episode 3</span>
+        <span aria-hidden="true">·</span>
+        <time datetime="2026-06-25T04:01:10-07:00">25 June 2026</time>
+        <span aria-hidden="true">·</span>
+        <span>01:05:48</span>
+      </p>
+    </div>
+    <img
+      class="episode-artwork"
+      src="/assets/img/podcast/episodes/s4-e3.webp"
+      alt="Prof. Ricardo Vinuesa on AI for Fluid Mechanics — The Neil Ashton Podcast"
+      width="320"
+      height="180"
+      decoding="async"
+    >
+  </header>
+
+  <div
+    class="podcast-embed podcast-embed--episode"
+    data-podcast-embed
+    data-embed-src="https://open.spotify.com/embed/episode/4qWvgJLmZnGtv7d2cXhx1A"
+    data-embed-title="Prof. Ricardo Vinuesa on AI for Fluid Mechanics on Spotify"
+    aria-label="Prof. Ricardo Vinuesa on AI for Fluid Mechanics Spotify player"
+  >
+    <div class="podcast-embed-slot" data-podcast-embed-slot>
+      <div class="podcast-embed-poster">
+        <span class="podcast-embed-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <circle cx="24" cy="24" r="23"></circle>
+            <path d="m20 15 14 9-14 9Z"></path>
+          </svg>
+        </span>
+        <div class="podcast-embed-copy">
+          <p class="eyebrow">Spotify player</p>
+          <p class="podcast-embed-title">Prof. Ricardo Vinuesa on AI for Fluid Mechanics</p>
+          <button
+            class="button button-primary podcast-embed-load"
+            type="button"
+            data-load-podcast-player
+            hidden
+          >
+            Load episode player
+          </button>
+          <noscript>
+            <p class="podcast-embed-noscript">The embedded player requires JavaScript. You can still listen directly on Spotify.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <div class="podcast-embed-meta">
+      <p>Spotify is contacted only after you load the player and may then set cookies.</p>
+      <a href="https://open.spotify.com/episode/4qWvgJLmZnGtv7d2cXhx1A">Open in Spotify <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="sr-only" data-podcast-embed-status aria-live="polite"></p>
+  </div>
+
+  <nav class="episode-platform-links academic-links" aria-label="Episode links">
+    <a href="https://open.spotify.com/episode/4qWvgJLmZnGtv7d2cXhx1A">Spotify</a>
+    <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S4-EP3---Prof--Ricardo-Vinuesa-on-AI-for-Fluid-Mechanics-e3kg1v1">Spotify for Creators</a>
+    <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
+    
+      <a href="/assets/transcripts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics.srt" download>Download transcript</a>
+    
+  </nav>
+
+  <div class="episode-content">
+    <!-- Generated by scripts/sync_podcast_episodes.rb. -->
+
+<section class="episode-section" aria-labelledby="episode-overview">
+  <h2 id="episode-overview">Episode overview</h2>
+  <div class="episode-overview">
+    <p>In this episode, Professor Ricardo Vinuesa - Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan - explores with Neil one of the biggest questions in modern fluid mechanics: can AI help us move beyond faster CFD and toward genuine autonomous scientific discovery? Drawing on his work at the intersection of turbulence, machine learning, explainable AI, reduced-order modeling, and flow control, Neil and Prof.</p>
+    <p>Vineusa discusses the promise and limits of foundation models for fluids, why the right latent representations may matter more than simply scaling data, and how agentic AI systems could uncover physical mechanisms that humans might otherwise miss.</p>
+  </div>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-chapters">
+  <h2 id="episode-chapters">Chapters</h2>
+  <ol class="episode-chapters">
+<li>
+  <span class="episode-chapter-time">00:00</span>
+  <span>Podcast Intro</span>
+</li>
+<li>
+  <span class="episode-chapter-time">03:20</span>
+  <span>The Evolution of Foundation Models in Fluid Dynamics</span>
+</li>
+<li>
+  <span class="episode-chapter-time">10:22</span>
+  <span>Understanding Explainable AI in Fluid Mechanics</span>
+</li>
+<li>
+  <span class="episode-chapter-time">15:34</span>
+  <span>Challenges in Data Fidelity for Foundation Models</span>
+</li>
+<li>
+  <span class="episode-chapter-time">20:29</span>
+  <span>Machine Learning vs. Reduced Order Modeling</span>
+</li>
+<li>
+  <span class="episode-chapter-time">24:22</span>
+  <span>The Shift in Focus: Turbulence Modeling to Surrogate Models</span>
+</li>
+<li>
+  <span class="episode-chapter-time">29:48</span>
+  <span>Exploring Agentic Systems for Scientific Discovery</span>
+</li>
+<li>
+  <span class="episode-chapter-time">37:21</span>
+  <span>Exploring Latent Representations in Fluid Dynamics</span>
+</li>
+<li>
+  <span class="episode-chapter-time">40:40</span>
+  <span>The Role of AI in Autonomous Discovery</span>
+</li>
+<li>
+  <span class="episode-chapter-time">41:57</span>
+  <span>Bridging Fluid Mechanics and Computer Science</span>
+</li>
+<li>
+  <span class="episode-chapter-time">45:28</span>
+  <span>Data-Driven vs Physics-Driven Models</span>
+</li>
+<li>
+  <span class="episode-chapter-time">51:34</span>
+  <span>The Role of Academia in AI and Fluid Mechanics</span>
+</li>
+<li>
+  <span class="episode-chapter-time">56:27</span>
+  <span>Optimization and Control in Machine Learning</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:00:28</span>
+  <span>Future of AI in Fluid Dynamics: Beyond ChatGPT</span>
+</li>
+  </ol>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-references">
+  <h2 id="episode-references">References and links</h2>
+  <ul class="episode-references">
+<li>
+  <a href="https://arxiv.org/abs/2604.09584" rel="external noopener">
+    Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations — Abhijeet Vishwasrao et al.
+    <span class="episode-reference-domain">arxiv.org</span>
+  </a>
+</li>
+<li>
+  <a href="https://doi.org/10.1038/s43588-022-00264-7" rel="external noopener">
+    Enhancing computational fluid dynamics with machine learning — Ricardo Vinuesa, Steven L. Brunton
+    <span class="episode-reference-domain">doi.org</span>
+  </a>
+</li>
+<li>
+  <a href="https://doi.org/10.1038/s41467-024-47954-6" rel="external noopener">
+    Identifying regions of importance in wall-bounded turbulence through explainable deep learning — Andrés Cremades et al.
+    <span class="episode-reference-domain">doi.org</span>
+  </a>
+</li>
+<li>
+  <a href="https://doi.org/10.1038/s41467-024-45578-4" rel="external noopener">
+    β-Variational autoencoders and transformers for reduced-order modelling of fluid flows — Alberto Solera-Rico et al.
+    <span class="episode-reference-domain">doi.org</span>
+  </a>
+</li>
+<li>
+  <a href="https://arxiv.org/abs/2504.02354" rel="external noopener">
+    Improving turbulence control through explainable deep learning — Miguel Beneitez et al.
+    <span class="episode-reference-domain">arxiv.org</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.vinuesalab.com/" rel="external noopener">
+    VinuesaLab
+    <span class="episode-reference-domain">vinuesalab.com</span>
+  </a>
+</li>
+<li>
+  <a href="https://aero.engin.umich.edu/people/ricardo-vinuesa/" rel="external noopener">
+    Ricardo Vinuesa — University of Michigan Aerospace Engineering
+    <span class="episode-reference-domain">aero.engin.umich.edu</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.flowthermolab.com/courses/ai-ml-for-fluids/" rel="external noopener">
+    AI and ML for Fluid Dynamics course — Ricardo Vinuesa &amp; Sergio Hoyas
+    <span class="episode-reference-domain">flowthermolab.com</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/@VinuesaLab" rel="external noopener">
+    VinuesaLab YouTube channel
+    <span class="episode-reference-domain">youtube.com</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/watch?v=TOfwf4ffPnU" rel="external noopener">
+    AI for Fluid Mechanics, Sustainability &amp; XAI — Ricardo Vinuesa
+    <span class="episode-reference-domain">youtube.com</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/watch?v=0AOY_agZ8WM" rel="external noopener">
+    Ricardo Vinuesa — Modelling and controlling turbulent flows through deep learning
+    <span class="episode-reference-domain">youtube.com</span>
+  </a>
+</li>
+  </ul>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-transcript">
+  <h2 id="episode-transcript">Transcript</h2>
+  <p class="episode-transcript-intro">
+    This transcript was generated by Spotify and may contain errors.
+    <a href="/assets/transcripts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics.srt" download="">Download the original SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi, and welcome to the Neil Ashton Podcast. In each episode, we explained some of the fascinating ways that science and engineering are changing the world around us. We talked to leading engineers from elite level sports like cycling and Formula One to some of the world&#39;s top academics to understand how fluid dynamics, machine learning, supercomputing are bringing in a new era of discovery. We also hear some of their life stories, their career advice, the lessons they&#39;ve learned on the way that I hope will be helpful to you too. So sit back and enjoy this episode. Hi, and welcome back to the Neil Ashton Podcast. So today&#39;s guest is Professor</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:44</span>
+  <span>Ricardo Vinu Isa. Ricardo is currently a Professor of Aerospace Engineering at the University of Michigan, where he leads research at the intersection of machine learning, fluid mechanics, turbulence, and artificial intelligence. Before joining Michigan, he was a professor at KTH Royal Institute of Technology in Stockholm, one of Europe&#39;s leading engineering universities, and he built a internationally recognized research program focused on turbulent flow control and data-driven methods for fluid mechanics. He&#39;s definitely established himself as one of the leading researchers looking into this. And one of the topics that we</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24</span>
+  <span>bring on today, of course, is around like explainable AI, causality, reinforcement learning, reduced order modelling, and of course the topic of the moment foundation models for fluid mechanics. He&#39;s a long people like Steve Brunton. He&#39;s done a lot to really educate the community, also the public in terms of these fluid mechanics and how machine learning can be used for. It&#39;s really, he&#39;s got some great YouTube videos and explanations. And what I particularly enjoy about his work is he doesn&#39;t just ask whether AI can make predictions faster. He&#39;s looking at the question, can AI help us to understand the mechanics of turbulence and to ultimate accelerate scientific</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:06</span>
+  <span>discovery itself. So, you know, in this discussion, which as with any of them, is never long enough to fully cover everything, you know, we dived into some of the bigger questions facing CFT today. So you know whether fluid mechanics will have its ChatGPT moment, how close are we to foundation models can be generalized across different flow problems, and why he&#39;s actually more optimistic about that possibility than than ever before. As I mentioned before, the explainable AI causality, understanding where they come from. Can you explain how AI is getting to it? And one of the things that we also look about is focusing on the role of reinforcement</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:48</span>
+  <span>learning in terms of optimization and control and not just using AI as a pure predictor. And then towards the end, we, we sort of zoom out and talk about the future of the field, agentic AI, autonomous scientific discovery, and also how universities should be adapting education given that AI is changing the whole landscape. So I, I think this is one of these conversations that, you know, I learned a lot from it and, and I hope you do too. So sit back and enjoy this episode with Professor Vinu Isa. Thanks very much for agreeing to do this. You are definitely on the list. Of people who everyone says, oh, you should be speaking to him. You know, I read the papers, I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:30</span>
+  <span>see stuff. And you&#39;re the sort of person where when I read the paper, I was like, yeah, I really should have thought of that. That&#39;s a really good idea. So, yeah, thank you. No thanks for having me. It&#39;s a real pleasure. And yeah, looking forward to the conversation. So maybe we could get straight into it, which is the, I guess the hot conversation now. Which has only got more intense. Is this foundation models? You know, can we somehow make a model that could? You know, compute any fluid flow, whether it&#39;s, you know, a geometry variation, A boundary condition. Where do you think we are along that journey and how close?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:20</span>
+  <span>How close do you think we are? To to get in there. Yeah, I think few years ago I would have probably given a different answer, but things are changing quickly in a in a good way. And I think we&#39;re getting closer to having and it all depends on the type of question that you want to answer, right. What type of predictions and what level of accuracy do you want to use the systems for design, Do you want to use the systems for, for scientific insight? And of course what quantities do you want to get with what level of accuracy? So there&#39;s many possible questions and directions to go into. But in general, I think that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:00</span>
+  <span>we&#39;re getting pretty close to having systems that can perform very well even for quite complicated quantities and quite some nuanced phenomena on on our system. Especially because depending on how you define your model, and depending on the type of question that you may be interested in answering, you don&#39;t really need to mimic all the physics of the renal system. You might just focus on a subset of questions or a subset of mechanisms that could be represented encapsulated in a smart way. And that&#39;s basically what your model does, and not necessarily all the intricate interscale mechanisms that give rise to those particular phenomena. So yeah, I think we&#39;re getting</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:51</span>
+  <span>closer to having systems that truly can give us the right accuracy, the right performance in in quite challenging problems. Yeah. So I&#39;m intrigued to know what&#39;s changed your mind. We said a few years ago you would have given a different handset. Can you pinpoint anything that has, yeah, changed over the past few years that&#39;s changed that? There&#39;s a couple of things. The first one is we realised that we could identify those key mechanisms pretty well in quite complex systems using causality, explainability. So not just in idealised versions of the whole flow or in reduce order representations, but in really full fidelity high</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:43</span>
+  <span>order versions of the system, we could really interrogate the data, identify what are the mechanisms that are the most important and focus on those for control, for modelling. So I think those almost surprising capabilities of this explain ability and causal frameworks to really characterize the systems has been one big pillar. And the other one, the performance of some of the generative deep learning methods, especially in the last few years, diffusion, flow matching, conditional later diffusion, these systems are really capable of generalizing to an extent that I mean not so long ago I would say that it was not really possible. There&#39;s still quite some more to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:29</span>
+  <span>do and there needs to be some smart way of formulating these problems in order to achieve real generalization, but I would say that that we are really in a stage where things are pretty impressive. Maybe you could explain, pardon the pun, what you mean by explainable AI. Yeah, that&#39;s a, that&#39;s a good a good question. So what we mean with the systems and what constitutes an explanation and even the, the, you know, the, the grammar and the definition changes a little bit depending on the, on the field you have explainable AI, explainable deep learning interpretability. So there&#39;s different kind of flavours to it. But the way that I use this term</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:17</span>
+  <span>explainable deep learning would be kind of assessing for a particular model what features of your input matter the most to the prediction of that model. So really identifying kind of like in a feature attribution sense, what, what, which ones of those components of the input really matter to your output. And why is that interest in the context of high dimensional chaotic engineering systems? Because if you create a model, an input output model, where I&#39;m just going to give you an example. If I have the wing of an aircraft and I really want to see what flow motions are really affecting the most the drag, well, then I can create a model</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:06</span>
+  <span>which given the flow, it just predicts the drag on the wing. And that&#39;s a predictive model that hopefully performs reasonably well. But if I use this explainability methods on that model, then I can go point by point and really identify which points are contributing the most to the drag on that wing. And that idea can really allow us to identify volumes of importance of importance for that particular question, for the drag in this case. And what we have found is 2 interesting things. One is by using these explainability tools, we realize that the classical approaches to study turbulence and people have been looking at vortices, streaks, Rhino stresses, many</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:57</span>
+  <span>other quantities, right? In fact, when people want to show off a bit and they do a very nice CFD visualisation, very colourful visualisation, they will show you Lambda 2, right, or something similar. They show you vortices because it&#39;s very spectacular and it&#39;s very turbulent. And what we realise with our methods is that the vortices don&#39;t matter so much actually, at least for the friction and for the drug. They matter for other things, but not for the stuff that you are trying to show them for. And the reason is the fact that you can see something does not mean that it&#39;s important. You simply can&#39;t see it. And a lot of the turbulence, a lot of the turbulence research</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:39</span>
+  <span>has been a bit misled by what you could see in experiments, which of course it has been very helpful and it has been very illustrative. But sometimes you need to step away a bit from the physical intuition and just simply interrogate the data in a more diagnostic way and let the data tell you what matters and what doesn&#39;t matter. So what we&#39;ve found is the classical approaches to turbulence research. They were only telling a part of the story. So in different regions, close to the wall, the the Renaissance stresses were important. Farther away, the streets were important. Farther away there were all the rhino stresses that were</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:19</span>
+  <span>important. So the classical views were not wrong because obviously, you know, there&#39;s a lot of time and effort. They brought it to it. They were just telling part of the story, right? Like the three blind men and the elephant. They were, you know, giving different partial views of what the elephant look like. But all the classical perspectives together is what actually comes close to what we identify with our explainability methods. And why are we so sure that these methods are giving us something that is interesting and physical? Because when we device control mechanisms, when we manipulate the flow to diminish the presence of these mechanisms</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:00</span>
+  <span>that we identify, that&#39;s when we get the highest track reduction. So it&#39;s not just that purely we can find nice colourful volumes of extractors is that those extractors in a causal way are actually affecting the drug in this case the most. And they are tackling those extractors is really looking at the root cause of the drug, so the disease and not the symptom. And that&#39;s why we think that this is really a good way to look at these mechanisms and not only from kind of controlled perspective or from a satisfactory knowledge point of view, also from a modelling point of view, because those mechanisms are the ones that contain the crucial information</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:49</span>
+  <span>if you want to be a good model for that phenomenon. So how do you see the the challenge that I still be not got my head around which is the following. If we assume that for a foundational model or you know, surrogate model, we&#39;re assuming that we have lots of data of wings of cars, of buildings, etcetera. At least today, you know, most of those have, you know, a decent error to what is the real turbulence, what is the real flow? And you&#39;re asking the model to learn it. And sometimes the data comes from different sources. You know, the wing may have been done with this turbulence model, The car may have done with this.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:39</span>
+  <span>So how do you see the foundation model? Is it ultimately yeah. Do we have to train on DNS? But then we can&#39;t train on DNS because it will just be too expensive. Do you need some DNSI? Still feel like the foundation model is ultimately going to not be as good as people think. Yeah, because no, I totally see your your point. And I think here the key is going back a bit to the one of the first questions, what do we want this model for, right? And I mean, I don&#39;t think that we are trying to build these models to replace DNS, right? I mean we&#39;re not going to because that computationally</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:28</span>
+  <span>would not really make sense, right? So I think that we&#39;re trying to build these models to either accelerate design and optimization and or achieve some sort of scientific insight in our system. So how can we handle data from different fidelities and different modalities? That&#39;s something that in what we&#39;re building in my group, we&#39;re trying to embed the uncertainty quantification with active learning loops in a sense that we know that not all all our data is of the same fidelity. When we are trying to generalize and we&#39;re trying to produce data for new cases, the system will tell us, look for this particular case that you&#39;re</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:14</span>
+  <span>trying to produce data in some latent representation, your uncertainty is very high. So you should probably go back and if you know, if you&#39;re trying to do a helicopters, well, your helicopter data is actually pretty bad. So you should be there, have higher fidelity or, you know, run more experiments or really improve your model there. And I think that&#39;s one strength actually that we can progressively keep improving our model as new data becomes a while. Now your data for helicopters is pretty bad for what, right, Because it depends on what you&#39;re trying to do. And here is when we need to be a bit a bit realistic about the metrics and about the targets</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:58</span>
+  <span>that we want to hit. So if we are trying to get lift and drag, right, that&#39;s one type of accuracy and one type of model. If we&#39;re trying to get the spectrum right and all the interscale mechanisms, right, then that&#39;s a different type of model, right? So I think in that sense, depending on the type of approach and the type of figurative that we want to achieve, we may have to resort to different data sets and different ways of assessing the error and the uncertainty of our systems. Yeah, no, I, I agree. I think the there&#39;ll be probably one side of the community that happily uses, you know, Reynolds averaged or even panel methods</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:40</span>
+  <span>or or or lower and are, you know, quite comfortable with models that are not of DNS accuracy. But yeah, yeah. On the other hand, I, I, I can imagine just as companies spend a fortune constantly trying to get to higher and higher fidelity CFD that maybe the models will, you know, go with it. One question, because I think some of your background, you know, was on, I guess, would it be fair to say like reduced order modelling and and some of that side 2, maybe a more like lay audience? I&#39;m not saying everyone listening to this is a lay audience. That&#39;s quite the opposite. But there are some people who are maybe not as grounded in all the latest common question I get</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:29</span>
+  <span>is, well, machine learning is just reduced order modelling. How would you chart the evolution, you know, from like what people would call ROMs before to machine learning? And what is it about modern machine learning that separates it from reduced automobile? Unless you classify them as to say. Yeah. No, that&#39;s a good question. Depends a little bit on what you&#39;re trying to do with your machine learning, right, Because also machine learning is a quite broad area. So, I mean, and we have some work that we&#39;ve done before on machine learning for CFD. So how should you or what are the areas where machine learning can help CFD?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:18</span>
+  <span>And this is work that I did with my friend Steve Branton some years ago where we found three areas. We found accelerate DNS, improved models, both runs and LES and improve reduce order models or saturate models. And, and, and, and that&#39;s if we are thinking of machine learning for CFD, something that we made quite clear at the time, this is 4 years ago was that machine learning in principle would not replace CFD. It&#39;s not about, and I think that many people when they think machine learning for CFD, they&#39;re thinking automatically replacing CFD, right. I, I don&#39;t think that it&#39;s really about replacing CFD, but rather complementing and helping.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:58</span>
+  <span>So reduce order modelling would be just one area within all the spectrum of possibilities for machine learning can help just within CFD, but we can also think about control and optimization where this fantastic reinforcement learning work, for example, on really finding new controller strategies. So it&#39;s very broad, but I would say that if we focus on on surrogate models, traditional models, one key has been the possibility of hiring well, nonlinearities in your in your model development, right in your surrogate. And of course PODDMDI mean the mostly linear, although you can have nonlinearities in there. But having neural network based compression at scale, which is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:50</span>
+  <span>what you can have now with more, more than out in core architectures that really allows you to have very impressive compression rates, right. So quite some capability to to distill the essential physics of your system. And something that we found also in some of our work is in, I mean, out on corners are good at compressing, right? Compressing anything, images of cats and dogs and images of tool and flows if you wish. But tool and flows, their images, their flow fields, they contain much more information. They&#39;re much richer than cats and dogs, right? There&#39;s a spectrum, there&#39;s a range of scales. So you should somehow, when you compress, you should somehow</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:32</span>
+  <span>disentangle the latent representation, because if you do that and you can use beta AES, you can use hierarchical priors. There&#39;s different ways to do that disentanglement, but that really allows you to encapsulate in different latent representations and different latent vectors, different physical phenomena of your problem. And that&#39;s going to be more effective from the interpretability point of view of your Stargate system, but also from a predictive point of view. If you want to make predictions in in the latent space, that disentanglement is actually going to be quite, quite helpful. So, yeah, I mean, I guess it was a bit of a long answer to your</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:13</span>
+  <span>question, but machine learning is not just reduce order modelling. Let&#39;s say that there&#39;s many other things that one can do and within reduce order modelling that, you know, capability of really having out in colors at scale and disentangling the latent representations has been quite critical. And also Transformers, that&#39;s another, well dimension let&#39;s say, or another topic, which also has helped in building the temporal dynamics of these radio solar systems. I mean, where do you see? At least my impression has been that even though the turbulent modelling started off as being one of the the big focuses of the fluent community, it does seem to have slightly petered</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:02</span>
+  <span>out a little bit and the focus has shifted a little bit more to the surrogate modelling, to the sort of reduced auto modelling. Is that something that you&#39;ve also noticed? And do you think that&#39;s just because of a lack of progress? Do you think it&#39;s because the, you know, the improvements? I&#39;m just wondering if how you&#39;ve seen that? Yeah, no, that&#39;s another good point. I think that so turbulence modelling can be done in different ways. And One Direction that has been adopted by many people has been to start where more classical approaches to turbulence model modelling start. Basically to which in a way is just making an empirical</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:54</span>
+  <span>assumption of how the, you know, the Renaissance stresses need to behave. To some extent. There is some empirical assumption, more or less sophisticated and then try to use machine learning systems to continue from there. So in, in other words, to fit coefficients on classical models, right? And well, that&#39;s not maybe the most revolutionary thing, right? Because if you do that, and that&#39;s what many people have done. And I think that&#39;s why a bit of the ML community could have got a bit disappointed with ML for fluids, because they were using ML to adjust coefficients in two large modelling models that have been around for decades and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:36</span>
+  <span>which have based on assumptions that are a bit crude, perhaps, right. But for a reason, they were crude because there were not other approaches to, to modelling that were, you know, kept possible at that time. So I think that could be why there has been a bit of slow down. But at the same time, I&#39;ve seen some promising approaches. I mean, I&#39;m, I&#39;m a bit of a fan of reinforcement learning. I&#39;ve, I&#39;ve been developing many methods within reinforcement learning for control, for optimization and also for modelling. We have some, some projects on reinforcement learning for modelling and there&#39;s other groups who are doing great</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:16</span>
+  <span>things in this space. And I think that the idea is why start with a model that has been around for, you know, 20305060 years and try to adjust those coefficients when we can maybe take one step back. So instead of asking my machine learning model to say for the Smolensky model, what should be my coefficient, Can you find it to, to, or even say to my machine learning model or just find the subway scale tensor to be able to fit the statistics of this this particular channel or particular flow? Maybe we can be a bit more abstract and say, look, I don&#39;t know what the mean flow or the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:07</span>
+  <span>fluctuations will look like in this particular case. I, I don&#39;t know what happened. I&#39;ve never run this wing or this aircraft, but what I know is that turbulence is characterized by certain energy transfer mechanisms across scales, and that energy goes in this election and there is an inverse cascade. And there&#39;s certain phenomena that need to be true from a spectral point of view. And from a mechanistic point of view, whatever your model is and whatever the forcing term that you get each step from your reinforcement learning or whatever optimizer that you&#39;re using, just respect those physical constraints. Because my flow needs to be physically correct.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:47</span>
+  <span>And physically correct does not mean this is your mean flow. You need to adjust to this mean flow because that&#39;s a circular argument, then you need the mean flow, right? But rather not only a circular argument, it&#39;s some more, it&#39;s a much more constraining goal to fit the statistics right. But something a bit more flexible, such as making sure that the energy fluxes are correct step by step is something that is less impose imposing. And it&#39;s also something that is a bit more manageable for a for a system for an optimization system to to be able to adapt step by step such that those fluxes are OK. So I think the second direction of making statements that are a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:31</span>
+  <span>bit more general and still correct from a physical point of view, that could be more promising to develop more. I mean, one of the things that I&#39;ve started contemplating, and I&#39;m interested to see if you&#39;ve been the same is for for a while I was only thinking about, you know, the machine learning, either in the context of learning what the total and viscosity should be or, or more broadly, what a surrogate model, you know, should be in terms of a transformer based or some neural operator or, or whatever. And the criticism has been that it&#39;s, how can it match the, the brains, you know, the thought</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:20</span>
+  <span>process that, that, that we&#39;ve had. And I saw at an event, I was at the British Library, there was an AI, somebody organized UKTC, the turbans consortium in the UK. And it was Luca Magri from Imperial was organizing with some people. And there was a Professor, Michael Leschiner, who, you know, is a sort of pioneer of turbans modelling developed with Brian Launder, you know, all these renal stress models. And, and he rightly said to me that he was, you know, gently wondering how could these AI models, you know, know, all these things that, that, that they&#39;ve done. And then I started to think, is this really, and I don&#39;t know if</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:05</span>
+  <span>the capabilities today where the agentic thing comes in because in some ways is it more realistic to ask an LLM to reason through the process of how you would develop a turbans model and have links in to software tools to explore it and go through that reasoning process and reinforcement learning. Then just say, hey, try and find me the the latent representation of this. Do you know what I mean? Do you think almost the scientific discovery that piece is the better route rather than just expecting machine that is? So I don&#39;t know if I&#39;ve explained that, but. That makes perfect sense. I think it&#39;s, it&#39;s a very fair question and we are trying to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:56</span>
+  <span>well to really first of all understand the potential of decisioning systems and 2nd, we are learning to ask the right questions to these systems. I think before getting into that, I think that a preliminary point is what is the right way to represent the data that we as engineers and scientists in you know, higher order chaotic complex systems. What is the right, the right way to represent the data and such an exploration from these agents or whatever or, or any scientist, what&#39;s the right platform to represent the data, right? Because there&#39;s quite some work on LLMS to do this and to try to achieve discovery, whatever we</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:42</span>
+  <span>define by discovery. But you know, if we think of the of turbulent flows, of course, this is these are systems that are having the broadband in terms of the spectrum, they have multiple skills, multiple energy fluxes. Perhaps text is not the right way to represent this very complex data, right? And perhaps using LMS directly and text as a platform to try to explore complex questions in this space might not be the the most suitable approach. And what we have been thinking and exploring is what if we can create latent representations that are particularly attuned to represent important properties of these two water flow systems.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:29</span>
+  <span>And, and that&#39;s an approach that we have been developing in our group where we are trying to build a foundation models, kind of latent representations of very broad ranges of cases such that we can use those latent spaces to explore the, the, you know, the, the complexity of these, of these two water flows. One guiding principle has been information, information fluxes, causality. So what if we can create latent spaces where causal relations are maximized or where the disentanglement of the variables is such that I can very easily explore physical mechanisms through that latent space. And I believe and again, this is stuff that we are very excited</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:18</span>
+  <span>about because we are we&#39;re developing it with pretty promising results that using a genetic systems in that latent representation might be a good way to achieve discovery. So in, in other words, I have a data from wings aircraft flows in cities a compressors and these are very different fluid mechanics problems. But if we find smart way to compress all that data and express it in the same latent representation, so now suddenly I don&#39;t have a wing and a city, but everything is expressed in the same language on the same table. And then I can allow this agentic systems to explore this latent space very efficiently. Because of course this AI systems can&#39;t really find one</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:10</span>
+  <span>side compress everything so much. I can find patterns across cases that might not be obvious in in the physical space for us humans and neither for agents, right. Because finding a connection between a wing and a city, I mean, yeah, maybe if I look like that, I see a vortex that looks similar. But you know, it&#39;s, it&#39;s a bit more anecdotal, anecdotal than anything. But when I express everything in that space and then I can do that automatic and autonomous exploration with these agents, then I can try to get inside. Then I can try to find causal relations that are key in that later space. And then our job with explainability tools is to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:52</span>
+  <span>express that insight in the latent space, which is completely non understandable for us back in the physical space and say, look, this is what insight looks like in the latent space. That means that this vortex from the sheer layer of the wing is actually very similar to this vortex from the sheer layer in the separation of that building in the city. So that&#39;s actually a common mechanism. That&#39;s interesting. And I can find that through compressing, expressing in the common space, A autonomously exploring and then going back to the physical representation. Yeah, that&#39;s, I really like the I&#39;ve you&#39;ve hit the really good explanation there because this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:31</span>
+  <span>is something I&#39;ve been thinking in my head is and I I&#39;m not, I need to look into it more to be completely honest. But I almost see 2 slightly different approaches traditionally, which is 1, which is kind of what we wrote in this paper. We put out recently this idea that, oh, you, you know, we&#39;re going to run lots of simulations of planes and cars and cities and turbo machineries and basically every single possible geometry and band of condition that we see in real life, which feels in some ways the more logical and achievable way. It&#39;s just like you just have to have a lot of them. But then the other side is that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:16</span>
+  <span>actually it doesn&#39;t matter whether it&#39;s a plane or a city or whatever, It&#39;s just you&#39;re just trying to learn the flow physics. And actually you may massively have way too much information by trying to do all possible ones. Which then I thought, couldn&#39;t you achieve this? Do you really need wings? Couldn&#39;t you just create lots of random shapes with lots of random boundary conditions? And as long as you take every possible consequence of shear flow and pressure gradients, it doesn&#39;t actually matter if it looks like a plane because you&#39;re just trying to learn the physics. That&#39;s a very good question, I would say. I mean, that can be helpful</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:58</span>
+  <span>because what you want is to be able to explore such a latent representation very broadly, you know, and that you can really investigate many configurations and calculations and so on. At the end, well, we want to revert back to something that we can understand, right? And then probably having some random shapes with some random pressure gradient and curvature distributions would be helpful for the exploration because that would allow us to identify different mechanisms that probably we haven&#39;t seen just because they were not ideal dynamic, but maybe they were helpful for other things. But probably in our data sets, we want to have shapes that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:36</span>
+  <span>we&#39;re familiar with and applications that we&#39;re familiar with just for the kind of interpretation point of view, so such that we can connect it. But from the latent space generation, yes, the most the more diverse and the more crazy, the better. In fact, what what we are doing, what we are building is systems that the agent not only does the exploration but also generates new geometries by itself. So we have this problem that we like very much and we&#39;re having a pre print coming out very soon on this. So it&#39;s basically 2 cylinders to the keep it simple for now, but it&#39;s 2 cylinders with different radii and different separations.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:20</span>
+  <span>And we just want the our system agentic AI with a foundation model system to to explore the wake of this tandem cylinder arrangement and just look at the recovery of the wake. And then what this does is, well, in order to do that, and this is trained on few cases, right? It&#39;s not trained on many cases, but I need to explore the whole space, right? So these agents, what they do is, oh, but I need to look at this configuration and calculate my weight characteristics and internal quantities and you know, displacement thickness, momentum thickness, okay, I know this. But then I need to look at a different case and a different case and a different case.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:00</span>
+  <span>And then it starts to sequentially understand what the scaling of the wake recovery looks like as a function of the parameters of your problem. And you haven&#39;t not had to create hundreds of cases. You only have to create a few cases. But it&#39;s the foundation model combined with the agent that is doing that autonomously is doing the discovery for you by identifying what regions are important and creating and generating new data in those regions. In those regions. I think that&#39;s where we are going so that we can even find a discovery of cases that we don&#39;t even think of because, because we have been looking at patterns influenced by the past history,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:43</span>
+  <span>right? And kind of like the need of applications, but autonomously exploring the whole space as agents can do. They can really multiply the the the insights and new solutions and new mechanisms that we can actually discover. And and that&#39;s why I&#39;d feel and I&#39;m guilty of this myself, that we are still probably too, too much splitting the fluids task or the data generation task from the machine learning task. And so, you know, I&#39;ll be transparent for the data sets that I&#39;ve typically generated, they have been kind of segmented a little bit for practical reasons, for people reasons. So you&#39;re like, right, Well, you know, you have a bunch of meetings, you decide what you&#39;re</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:28</span>
+  <span>going to do. You then kick off the data generation exercise, you generate lots of data, and then you train the model. And where, as you say, what you really want to be doing is constantly them being in a loop together and only generating the data it needs to generate. But I don&#39;t know if you found this in your work, but one of the problems is that even the machine learning frameworks are typically not even written in the same language that the data generation is. And doing that on a big HPC machine and training and translating information, it&#39;s, it&#39;s quite challenging and maybe brings the topic that, you know, we briefly discussed before we started recording, which is this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:11</span>
+  <span>fluid community, computer science, ML community. How have you seen those two communities come closer? Still not close enough, You know, how how have you assessed this? And, and, and to be fair, you have done a great deal. And to be fair with people like who you collaborate, Steve Brunton of of trying to, you know, bring a little bit together. But yeah, how how do you see those two communities at the moment? Well, thank you. Thank you so much. First, I think the problem that has happened for a while and still present, although probably getting a bit better, is that they have been a bit disconnected in really understanding the the depths of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:02</span>
+  <span>the problems in fluid mechanics. And perhaps the fluid mechanics community, when trying to adopt MMM methods, has been sometimes a bit naive in just. Adopting very vanilla architectures and maybe giving up a bit too quickly without fully understanding. So, you know, if the mechanics community is guilty in part, and I think what has happened also from the CS community is that, you know, I mean aerodynamics from I am at the aerospace engineering department right here in Michigan. We train engineers for many years to understand the mechanics, aerodynamics, instructors and many other things. But of course fluid mechanics is a big part of it.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:42</span>
+  <span>So you can&#39;t understand all the complexities of fluid mechanics, you know, in the course of 2-3 months, right? Because there is a lot to look at. These are very entangled problems and sometimes the questions and the problems that we have in fluid mechanics are not what typically the CS community has looked at necessarily. Because you know, the type of data that has been used in the CS community to develop methods is not necessarily of the same characteristics as the fluid mechanics data. And this is very rich data with a very broadband Spectra multi scale. This is really, really complex physics, right? So maybe looking at the MSE is not the right metric, right?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:31</span>
+  <span>Because this only tells you a very, very partial view of the story. And maybe even having a model that predicts the MSC, well, that might be useless in some cases, right? We maybe want other things. Maybe we just want to look at, you know, systems that predict separation, right or that predict certain aspects of the mixing or maybe, you know, certain structures, certain mechanisms as I was mentioning before for, you know, for a drug producing mechanisms. So it could be that for my purpose, if I want to reduce drug, having a good MSE is actually counterproductive because the MSE is going to drive me to certain events, which may be very energetic and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:11</span>
+  <span>they may be contributing a lot to the MSE, but not so relevant towards the drag generation, which is the stuff that I want to, you know, focus on in my application. Therefore, a model with a much worse MSE but getting the error right in the right mechanisms is way better, right? So I think the this type of this type of interaction is what is really going to help us build more useful models, at least from the fluid mechanics community. And of course, this is not just for fluid mechanics. This is applicable to any area of, of science, right? But of course, I can speak, you know, with more depth on the fluid mechanics problems because what you want, and this is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:54</span>
+  <span>another question, you know, let&#39;s build a foundation model. Let&#39;s build a big ML system for fluids, OK. But for fluids for what, right. I mean, within fluids and within aerodynamics and within combustion, I mean, there are so many questions that we can look at and probably the model that you build is going to be quite different for all those questions, right? So I think that&#39;s really understanding in more depth what the fluid mechanics problems require. What are the questions that we have? What are the questions that we don&#39;t have? How to build models that can really effectively tackle those questions, that can be a much</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:36</span>
+  <span>more effective use of everybody&#39;s time, basically. Where do you sit on the debate around a data-driven versus physics driven models? You know, again, the usual criticism from people who are maybe from a fluid background is, you know, any of these data-driven approaches cannot guarantee mass conservation, energy conservation. They can&#39;t guarantee, you know, we should be implicitly or explicitly imposing, which I guess is where some of the pins, you know, things started. But then the successes seem to have been not as strong in the sort of physics informed,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:26</span>
+  <span>inspired, conditioned. So yeah, where where do you sit on that side of the fence? That&#39;s, well, that&#39;s, that&#39;s a big question, right? Of course you need to, you need to use any physical information that you have about your system when building your models, right. But if you just use the equations and nothing else, then you&#39;re building a numerical solver, right, with a data-driven numerical solver. And if you just use data, then you are a problem, you know, be being very wasteful because there&#39;s a lot of information that you have about your system that you need to relearn. Like, you know that your system has certain symmetries, certain conservation properties.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:15</span>
+  <span>If you don&#39;t embed that in your system, well, first of all, your mother will be wrong because you will never be, you know, conservative exactly right or as exactly as possible. But second, even if it&#39;s a very, it&#39;s a system that is very conservative, you have to learn that right. So you need to use data and compute to get to that point. And of course, that&#39;s something that you knew from the beginning. So it&#39;s not very smart to to waste that information. So like with everything in life, right, no extreme is going to be optimal. And I think that both extremes have been explored and we have learned a lot from it. To me, being able to use</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:55</span>
+  <span>symmetries, conservation laws in your problems. If you&#39;re trying to solve for several velocity components, I mean, do you know that there is the flossing compressible, Do you know that you can use incompressibility to get the velocity component or use that in the way that you&#39;re building your system? But also going back to an idea that I like very much, this whole explainability, causality mechanisms. If we know these things, why don&#39;t we try to build systems that are really focused on this? And one example is, let&#39;s imagine that I want to create a system that predicts very well the acoustic feel of an airfoil or a drone, right? Because drones can be very</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:35</span>
+  <span>noisy. I want to be able to control the acoustic feel, the noise produced by this drone. Why don&#39;t I use some of these causality explainability methods to identify and pinpoint the mechanisms producing the noise? And by mechanisms, I&#39;m talking about flow regions interacting with each other in physical space. And then when I build a predictive model, I don&#39;t look at the, you know, trying to get neither just the governing equations like in a pinch way or just use data to predict the flow fields. But rather, why don&#39;t I try to predict just those extractors, those mechanisms that produce the acoustic field in that way, you&#39;re really encapsulating in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:18</span>
+  <span>those structures a lot of information. And that&#39;s where I think that one can have computational savings with respect to, you know, doing a much more resolved simulation. Because those structures producing the acoustic field are the result of a lot of, you know, interscale energy interactions that you need to resolve when you do ADNS. But the model, I mean, once that DNS is run, those structures that are producing the acoustic field and so on, that the result of those interactions, right? So you don&#39;t need to re simulate them all the time. Once you know what the mechanisms are, you can try to develop models that target those physical mechanisms precisely</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:00</span>
+  <span>and not everything else. Of course. That&#39;s why I repeat, sometimes I want a model for what? If your model is for the acoustic field, then my advice would be, well, identify what are the mechanisms producing the acoustic field and try to get those very well, right? Because probably you will not get a perfect model, but you will get something that is pretty accurate and pretty efficient because you don&#39;t need to solve everything. But if your goal is to have something that gets the acoustic field very well and the gusts and the turbulence and the heat transfer well, then you need a multi physics DNS, right? Then, then you need to solve everything.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:36</span>
+  <span>So it depends a little bit on what you want and of course, embedding that physical insight in your model, not as equations, but as mechanisms that you can then, you know, recreate with your system. I think that that&#39;s a pretty promising way to go. And how from a, you know, you&#39;re, you&#39;re obviously a professor at university. What do you think? What&#39;s the role of academia in this, focusing more on like the students in the education side, you know, do you try and team up more with the computer science departments? Is it a matter of swapping people over like, but but then equally, I guess you don&#39;t want to not teach some of your existing content.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:26</span>
+  <span>So how do you balance getting rid of some content, bringing new ones in? That&#39;s that&#39;s a key question. And we&#39;re having many discussions around this. For example, here in Michigan, I mean, we&#39;re having a lot of conversations around our new curriculum and how to well adapt to AI era, LLM base era. So we&#39;re having many conversations around this. So first of all, we have a very good interaction with Los Alamos National Lab. We actually have a bunch of Los Alamos scientists sitting on our campus and working with them daily and interacting with them constantly. So we really get access to that synergy and that cooperation with computer scientists, which</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:15</span>
+  <span>are world class, right? So with with really incredible computational facilities. So I think such an interface and such a close connection is, is essential. But the other thing is from the educational point of view, we need to be of course aware of the fact that students have access to LLMS, right? And and that, you know, the way that we teach, the way that we assess is different from what it used to be. But in a way, and this is conversations that we&#39;re having with my colleagues and I think that there&#39;s quite some interesting, I&#39;m promising directions in here. We, we don&#39;t need to necessarily see this as a disadvantage, but rather as an opportunity to use</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:00</span>
+  <span>these systems to encourage students for more exploration, for deeper, for, for deeper questions and deeper assessments of the content almost in a customized way, right? So, so I think that rather than thinking that students are going to be lazy and just look up their answers and not think, rather use these these systems to help students think in a way. But do you feel that? I guess flicking around the other way, do do computer science students need to learn more about the sciences? You know, there&#39;s a lot of like AI for science. If the engineers are all learning some of the computer science being, then what are the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:44</span>
+  <span>computer scientists doing? Is there, is there an equal thing on the computer science say hey you all need to be learning some science domain because AI is going to do the some of the core CS stuff, you know? I was, well, I&#39;m, I can tell you that there is, I mean, there is an increase of enrollment of students in, in areas like aerospace engineering and, and part of it comes from computer science, although of course the computer science degrees, they&#39;ve been excellent at adapting to, to new technologies and new well, developments within AI for science. But there is more and more overlap and more and more, you know, joint educational programs across systems and across</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:32</span>
+  <span>engineering disciplines. And yes, I would, I would agree completely that if computer scientists are going to be the developing AI for science or AI for engineering methods, then they&#39;re going to need more background in these, in these topics. And that&#39;s something that is really that&#39;s multidisciplinary wealth and and richness is what&#39;s going to bring really stellar research in the next years, right? That 1 is really capable of finding completely new directions like the foundation model and the agent are finding patterns across data sets that you would not imagine, right. When we start to interact in disciplines at a different level, we&#39;re going to find such</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:18</span>
+  <span>connections that maybe we did not expect at the beginning. So one of the things that, you know, you mentioned a few times is on the like control and optimization side of things. And I feel at least myself a little bit guilty that I, I&#39;m always thinking of, you know, the, the impact of machine learning or reduced order models in terms of a predicted capability. You know, we can predict this flow much faster. But I guess for industry or even for scientific discovery, but particularly for industry, it&#39;s almost always a kind of optimization problem in a way isn&#39;t it&#39;s like I need to have the best design or the lowest</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:57</span>
+  <span>drag or the it&#39;s never just a prediction. So, So what progress have you seen with the sort of automatic differentiation, the the ability of machine learning to maybe help advance that optimization process? Yeah, I I think that prediction is important. It&#39;s interesting. It&#39;s not the most impactful application of machine learning. It&#39;s in optimization and control. That&#39;s where we can really have the, the biggest, the biggest impact. So as I mentioned before, I, I worked a lot on reinforcement learning. So that&#39;s an area where we have been able to control cases that were not possible three or four years ago or at least with this degree of control authority.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:47</span>
+  <span>And not only. So I would say not just from a purely design point of view of reducing drag or enhancing mixing. I would argue that for discovery, for really understanding the mechanisms and the building blocks of these physical systems, you can use optimization and, and, and reinforcement only. For example, I mean, imagine a tumulant flow where a made-up turbulent flow where the energy fluxes are restricted to certain scales and to certain work numbers dynamically, right That you do it as the flow is running and, and, and you want to do that in physical space. So you want to really affect certain instructors with a certain forcing.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">55:35</span>
+  <span>Well, you are probably going to have to do it with some optimization technique. And reinforcement learning is good for optimizing systems that are changing dynamically. So you you&#39;re going to end up with a with a modified system or a system where production is minimized and dissipation is maximized. How does a flow like that look like? And let me study, let me study that new flow, right? I mean, I have created a completely made-up flow thanks to optimization. And now I can look at the Spectra, I can look at the structures and learn something about my problem, right. So yes, these capabilities with optimization are key also for</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:12</span>
+  <span>discovery and so for getting insight. And going back to your previous point about how new systems and differential solvers, I mean, we, we are really having the chance of solving problems at scale of this optimization type of system, which was not possible before. And inverse problems where we can, you know, optimal sensing, we can really look at optimal initial conditions and optimal perturbations really for very, very challenging configurations. All of that is possible now thanks to the scale that we can achieve with these systems. So I think that&#39;s, yeah, I mean, prediction is, is good. It&#39;s interesting. It&#39;s only part of the problem. It&#39;s really in the control and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:02</span>
+  <span>optimization and in the explainability of those predictions. Like, OK, I have predicted very well in my system, but why are those predictions happening? And what are the really important physics and effects that I can observe with my system? That&#39;s that&#39;s the stuff that I think is is is actually valuable. So maybe a sort of final question or, or topic looking towards the future a little bit. You, you said right at the beginning that if, if I had asked you a few years ago, you&#39;d have said that we&#39;re, we&#39;re actually, you know, further away. So if you look forward in time and let&#39;s say to 2030, so 4 years out, yeah, four years out, where do you think we&#39;ll be at?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:49</span>
+  <span>Do you perceive there being a a sort of ChatGPT moment in fluid or do you think it&#39;ll be just more incremental improvements? Yeah, that&#39;s a tough question. I think one key to go towards ChatGPT moment in fluids was to realise that we need a good latent representations for our problem. And I think that now there&#39;s several groups of several people working in that direction. So I think we&#39;re probably in the right path. I would not. So I don&#39;t know if we want to aim at being having a ChatGPT situation in fluids, maybe something beyond maybe something more than what chat PT can can do.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">58:39</span>
+  <span>What I think that we are aiming at, and I don&#39;t know if that would be in 20-30, but I think that it&#39;s actually reasonable to think that it should happen in the next years, is more autonomous discovery, a more automatic discovery. So one, I like the, the one example of how big changes in in the paradigm of physics have taken place and of course, well, relativity departing from more classical mechanics. I mean, it takes, if you think about it, a lot of a lot of coincidences to line up in order for that to happen. And you need someone who is smart enough and also crazy enough to propose something very different. And of course, Einstein lacked all the math background to be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:27</span>
+  <span>able to, you know, develop the theory of relativity properly. So he had to learn the math and interact with the right people to be able to do this properly. And then, you know, to have the right experiments of the of the solar eclipse to really look at the deviation of the sand beams. And there&#39;s some fun stories about how those measurements took place because there were several groups doing the experiments at the same time, and they had different types of problems to really get the measurements that eventually corroborated that light was, you know, displaced by the sun in a way consistent with relativity. There&#39;s a lot of certain Dipion discovery, a lot of coincidences</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:09</span>
+  <span>lined up, and a lot of human try and error to achieve truly transformative discovery in science. And I think that the sort of systems where we can line up on the same space, the data from different disciplines and having agents systematically probing and analysing these data sets, that can really be the way in which we can accelerate that. But it&#39;s this acceleration of discovery, which is something that, you know, many people are talking about with different meanings. And I think it&#39;s a little bit shallow the way that it&#39;s been portrayed sometimes. To me, what it means is being able to probe the data and find patterns in a more systematic way than what it takes us as</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:58</span>
+  <span>humans to take those leaps. Because we&#39;re it&#39;s really decades and decades and centuries to line up all those coincidences necessary for that leap to happen. And if we can do this in a way that is much more autonomous and much more systematic in that sense, that can be accelerated, right? And this sort of systems I, you know, I think that we are really getting there actually. And, and, and this is not really about replacing human insight or human input. This is really about accelerating the exploration on the capability of coming up with mechanisms with hypothesis with a really patterns that are non trivial across across disciplines and across cases.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:46</span>
+  <span>So yeah, I think that we&#39;re heading in that direction of really being able to make autonomous discovery thanks to the possibility of compressing data and interrogating it systematically in a way. Yeah, it does seem that there is this, I would say inflection point now where I would largely agree with you, you know, a few years. Ago when I. Started to think about some of like a foundational model, you know, it it did for various reasons just felt quite Yeah, just like impossible almost. It would, you know, may still be, but I I also get the feeling that there is a, a general movement of replicating the sort of chat chi BT success, you know, the the set.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:37</span>
+  <span>And this is broader than just fluids across science, across physics, across all, you know, possible disciplines that, you know, it worked for that which and, and I&#39;m not I haven&#39;t studied a a great deal, but I, you know, I know enough to know that many people thought that it couldn&#39;t be possible, right. You know, people weren&#39;t saying, oh, chat chi BT Oh yeah, we knew that was going to come. You know, it was quite a big impact and, and it, it was done at a scale that was larger than anyone thought possible. And I, I do have a feel that made people more ambitious, you know, and, and think, well, if, if it could work for that, it, it could work.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:03:16</span>
+  <span>But I do like your argument on that. Sometimes you need to look at things a bit differently because I have a funny feeling that the approach that ultimately makes it may not be the one that is mainstream today. You know that that like in all in science, there&#39;s always, it&#39;s always the person who takes a little bit of a, an odd direction at the time which turns out to actually be the one, you know? An agent to come up with that direction, maybe. But that&#39;s what I meant. Like the, I can totally see how with humans sort of in the loop, you know, in, in, in terms of guiding things, that the maybe</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:04</span>
+  <span>it is ultimately the power of ChatGPT to find the next ChatGPT. You know, that those LLM technology and the agents and the way they work together with, of course, the way that you structure the data, you know, may help. And, and then maybe that&#39;s artificial general intelligence. And then we can all just, you know, go and retire and, and, and chill out. But yeah, I really appreciate having the chance to, to, to chat about this. What I&#39;m going to do for people listening or watching is to put a bunch of links into the, the comments because there&#39;s a few papers that you alluded to that are really good, you know, great reads that talk in more detail</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:50</span>
+  <span>about some of that explainable AI and some of the work that, you know, you&#39;ve done. So I&#39;ll, we&#39;ll put them in the link and highly recommend that people read through them to go even deeper than we discussed now. But yeah, I, I really appreciate it. And I think your work is going to be seen as a major contributing factor to hopefully achieving that ChatGPT mode. Well, thank you very much. I appreciate it. Maybe that&#39;s a bit optimistic, the money work, but I appreciate that much. And at the end we, we have fun with what we do. I think that&#39;s kind of like the key, the key idea and we keep learning. So that&#39;s that&#39;s pretty much it. Exactly, exactly.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:32</span>
+  <span>Great. Thank you so much. Thank you so much.</span>
+</p>
+  </div>
+</section>
+
+  </div>
+
+  <nav class="episode-pagination" aria-label="Other podcast episodes">
+    
+      <a class="episode-pagination-link" href="/podcasts/s4-e2-prof-nathan-kutz-on-physics-informed-ai-and-data-driven-modeling/">
+        <span class="episode-pagination-label">Older episode</span>
+        <span>Prof. Nathan Kutz on Physics-Informed AI and Data-Driven Modeling</span>
+      </a>
+    
+    
+      <a class="episode-pagination-link episode-pagination-link--next" href="/podcasts/s4-e4-prof-paola-cinnella-on-ai-for-science-and-fluid-mechanics/">
+        <span class="episode-pagination-label">Newer episode</span>
+        <span>Prof. Paola Cinnella on AI for Science and Fluid Mechanics</span>
+      </a>
+    
+  </nav>
+
+  <p class="episode-archive-link"><a href="/podcasts/">Browse all podcast episodes →</a></p>
+</article>
+
+<script defer src="/assets/js/podcast-embed.js?c51940005518ea34f0b5a8cfcb9fa760"></script>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name">Neil Ashton</p>
+      <p>Computational Engineering</p>
+    </div>
+    <nav class="footer-links" aria-label="Contact and profile links">
+      <a href="/cv/">CV</a>
+      <a href="mailto:%63%6F%6E%74%61%63%74@%6E%65%69%6C%61%73%68%74%6F%6E.%63%6F.%75%6B">Email</a>
+      <a href="https://www.linkedin.com/in/neilashton">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=mtBY0RcAAAAJ">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-9943-2334">ORCID</a>
+    </nav>
+    <p class="footer-meta">&copy; 2026 Neil Ashton. Built with Jekyll and hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+    <script defer src="/assets/js/common.js?1bb6c2519e97f5932c586bc8a69adfc0"></script>
+
+
+    
+
+
+  </body>
+</html>

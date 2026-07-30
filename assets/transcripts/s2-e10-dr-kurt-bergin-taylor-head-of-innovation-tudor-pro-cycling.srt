@@ -1,0 +1,5509 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:41,080
+episode.
+Hi and welcome back to the new
+
+12
+00:00:41,080 --> 00:00:45,520
+Ashton podcast today.
+Super excited about this, this
+
+13
+00:00:45,520 --> 00:00:49,240
+episode.
+I'm a big fan of cycling.
+
+14
+00:00:49,680 --> 00:00:54,560
+I'm a big fan of the use of
+engineering within sports, hence
+
+15
+00:00:54,560 --> 00:00:59,160
+my level sort of of Formula One.
+And I couldn't think of a better
+
+16
+00:00:59,400 --> 00:01:06,160
+person and team to speak to, to
+help people to understand what
+
+17
+00:01:06,160 --> 00:01:09,520
+cycling is all about and why
+engineering and technology is
+
+18
+00:01:09,520 --> 00:01:11,240
+such an important thing for the
+sport.
+
+19
+00:01:11,240 --> 00:01:16,480
+And in some ways, cycling is
+becoming, in my opinion, and
+
+20
+00:01:16,480 --> 00:01:19,720
+growing to become more like
+Formula One in being not only a
+
+21
+00:01:19,720 --> 00:01:23,440
+human sport, but one where
+technology is really making a
+
+22
+00:01:23,440 --> 00:01:28,440
+difference with really exciting
+innovations that that then make
+
+23
+00:01:28,440 --> 00:01:32,080
+their way to to you and I, you
+know, the, the, the public.
+
+24
+00:01:32,960 --> 00:01:38,120
+And so today I'm speaking to to
+Kurt, Kurt Bergen Taylor, who's
+
+25
+00:01:38,120 --> 00:01:40,960
+the head of innovation at Tudor
+Pro Cycling.
+
+26
+00:01:41,560 --> 00:01:47,400
+And I kind of say in a way that
+if you're in the know, you're a
+
+27
+00:01:47,400 --> 00:01:50,280
+bit obsessed with with cycling
+like I am.
+
+28
+00:01:50,880 --> 00:01:54,840
+I think it's pretty universally
+accepted that Tudor are actually
+
+29
+00:01:54,840 --> 00:02:00,840
+one of the up and coming teams
+who I think have a very good
+
+30
+00:02:00,840 --> 00:02:05,680
+chance in the next sort of two
+to five years of winning Grand
+
+31
+00:02:05,680 --> 00:02:07,840
+Tours and some of the biggest
+races.
+
+32
+00:02:09,039 --> 00:02:12,280
+As you'll find from the
+conversation today, you'll see
+
+33
+00:02:12,280 --> 00:02:18,360
+they are taking really an
+amazing long term view of how to
+
+34
+00:02:18,360 --> 00:02:23,840
+take technology and, and really,
+yeah, build up a team and a
+
+35
+00:02:23,840 --> 00:02:28,280
+process and science to to really
+extract the maximum performance
+
+36
+00:02:28,320 --> 00:02:31,280
+out of their riders.
+And of course the equipment
+
+37
+00:02:32,640 --> 00:02:36,760
+based in based in Switzerland
+with a very famous owner in
+
+38
+00:02:36,760 --> 00:02:39,960
+Fabian Cancellara, who of course
+is one of the world's most
+
+39
+00:02:39,960 --> 00:02:46,240
+famous cyclist with amazing
+palmares and and Tudor obviously
+
+40
+00:02:46,240 --> 00:02:49,760
+is one of the world's sort of
+top, top watch brands.
+
+41
+00:02:50,280 --> 00:02:54,200
+It's a, it's a very interesting
+company, but really what we're
+
+42
+00:02:54,360 --> 00:02:59,840
+talking about today is about
+what what is cycling, I suppose
+
+43
+00:02:59,840 --> 00:03:01,880
+a little bit just to start off
+with.
+
+44
+00:03:01,880 --> 00:03:03,360
+That's how we started the
+conversation.
+
+45
+00:03:03,520 --> 00:03:07,320
+But really diving into the areas
+where technology makes a
+
+46
+00:03:07,320 --> 00:03:10,400
+difference, where science makes
+a difference, and ultimately
+
+47
+00:03:10,400 --> 00:03:13,400
+where there is innovation
+potential, which is the whole
+
+48
+00:03:13,400 --> 00:03:17,280
+point of of Kurt's job.
+So we go through, you know,
+
+49
+00:03:17,280 --> 00:03:22,960
+things like nutrition, thermal,
+so how the human body reacts to
+
+50
+00:03:23,000 --> 00:03:25,680
+heat and cold.
+We talk about some of the
+
+51
+00:03:25,720 --> 00:03:28,880
+influence of aerodynamics around
+the development.
+
+52
+00:03:28,880 --> 00:03:32,000
+You hear some of the stuff
+they're doing, their use of CFD
+
+53
+00:03:32,000 --> 00:03:37,360
+in terms of, you know, mannequin
+peddling mannequins, how the
+
+54
+00:03:37,440 --> 00:03:40,600
+strategy happens.
+You hear some about the number
+
+55
+00:03:40,600 --> 00:03:45,480
+of race days that they have, the
+logistical challenges, hopefully
+
+56
+00:03:45,480 --> 00:03:49,040
+all just to give you a better
+sense of why I again, I perceive
+
+57
+00:03:49,040 --> 00:03:52,840
+now cycling as being, if you're
+into Formula One, I always say
+
+58
+00:03:52,840 --> 00:03:56,600
+get into cycling because I
+really do think it's great human
+
+59
+00:03:56,600 --> 00:04:00,200
+and technological sport.
+But at the end we talk about
+
+60
+00:04:00,200 --> 00:04:03,400
+something that again, you, you
+know, it's a common theme of
+
+61
+00:04:03,400 --> 00:04:07,680
+these podcasts is advice for
+people wanting to get into to
+
+62
+00:04:07,680 --> 00:04:10,680
+the sport of cycling.
+But I'd say just in general
+
+63
+00:04:10,680 --> 00:04:13,840
+advice for people wanting to do
+well in engineering and science
+
+64
+00:04:13,920 --> 00:04:16,920
+and in any of the sort of sports
+engineering side.
+
+65
+00:04:16,920 --> 00:04:22,000
+So, yeah, I, I, I really enjoyed
+this conversation.
+
+66
+00:04:22,000 --> 00:04:24,680
+I, I actually learned some
+things from it and I was even
+
+67
+00:04:24,680 --> 00:04:29,120
+more motivated with all the
+latest technological advances.
+
+68
+00:04:29,520 --> 00:04:34,040
+So I, I hope you are too.
+I'm going to put some links in
+
+69
+00:04:34,040 --> 00:04:36,640
+the chat about Tudor and so you
+can learn a little bit more
+
+70
+00:04:36,640 --> 00:04:39,880
+about the team because again, I
+do think it's interesting and
+
+71
+00:04:39,960 --> 00:04:42,400
+hopefully from there you'll make
+your way to learning a little
+
+72
+00:04:42,400 --> 00:04:46,280
+bit also about the sport if
+you're not so familiar with Pro
+
+73
+00:04:46,280 --> 00:04:49,920
+Cycling.
+So yeah, today sit back and
+
+74
+00:04:49,920 --> 00:04:54,600
+enjoy this episode with Kurt
+Picken Taylor of Tudor Pro
+
+75
+00:04:54,600 --> 00:04:56,720
+Cycling.
+Maybe you could tell a little
+
+76
+00:04:56,720 --> 00:05:00,280
+bit more about yourself and
+Tudor Pro Cycling.
+
+77
+00:05:01,120 --> 00:05:04,200
+Some people listening are
+probably really into cycling and
+
+78
+00:05:04,320 --> 00:05:06,640
+proper geeks and know about the
+different teams.
+
+79
+00:05:06,640 --> 00:05:09,240
+But maybe just to level set
+everybody, maybe you could just
+
+80
+00:05:09,240 --> 00:05:13,040
+say a little bit about you, what
+you do at Tudor and who are
+
+81
+00:05:13,040 --> 00:05:16,080
+Tudor Pro Cycling.
+Yeah, absolutely, Neil.
+
+82
+00:05:17,040 --> 00:05:19,680
+So really my background comes
+from from academic.
+
+83
+00:05:20,360 --> 00:05:23,920
+So rather than some people in
+cycling who've come from kind of
+
+84
+00:05:23,920 --> 00:05:26,280
+being a professional athlete
+themselves, mine's more from
+
+85
+00:05:26,280 --> 00:05:30,720
+from an academic background.
+Did a masters and then a PhD at
+
+86
+00:05:30,720 --> 00:05:33,480
+Loughborough University in the
+UK and that was really around
+
+87
+00:05:33,480 --> 00:05:36,960
+kind of Physiology and nutrition
+around cycling really.
+
+88
+00:05:36,960 --> 00:05:40,720
+So understanding kind of from a
+human component and that really
+
+89
+00:05:40,720 --> 00:05:43,880
+kind of enticed me into wanting
+to work within, within cycling.
+
+90
+00:05:44,280 --> 00:05:47,280
+I was really fortunate at that
+point in time to be able to work
+
+91
+00:05:47,280 --> 00:05:52,520
+with people on the track.
+So people like Dan Bigham, who's
+
+92
+00:05:52,520 --> 00:05:54,920
+kind of a performance engineer
+now working with in psych and
+
+93
+00:05:54,920 --> 00:05:57,640
+also and, and doing some really
+interesting things about that
+
+94
+00:05:57,640 --> 00:06:01,480
+human equipment interaction and,
+and looking at how to move
+
+95
+00:06:01,480 --> 00:06:04,600
+forward, performance forward.
+And, and it attracts a really
+
+96
+00:06:04,600 --> 00:06:07,320
+nice environment for that
+because it's, it's measured, you
+
+97
+00:06:07,320 --> 00:06:09,800
+know, it's controlled.
+It's like a science experiment
+
+98
+00:06:09,800 --> 00:06:13,000
+every time you go on the board.
+So it's really has this culture
+
+99
+00:06:13,000 --> 00:06:16,520
+for for innovation and that was
+something that I enjoyed so
+
+100
+00:06:16,520 --> 00:06:18,360
+much.
+I really then decided I wanted
+
+101
+00:06:18,360 --> 00:06:22,280
+to work within within cycling.
+And then I had the opportunity
+
+102
+00:06:22,280 --> 00:06:24,920
+to go to Canada.
+So I worked for the Canadian
+
+103
+00:06:24,920 --> 00:06:28,440
+federation on the track towards
+the Tokyo Olympic Games.
+
+104
+00:06:28,800 --> 00:06:31,120
+And that was a really amazing
+experience in this kind of
+
+105
+00:06:31,200 --> 00:06:34,680
+performance scientist role.
+So sitting in between the human,
+
+106
+00:06:34,680 --> 00:06:38,200
+the equipment, the whole system
+innovation really and looking at
+
+107
+00:06:38,200 --> 00:06:43,560
+that as a as a system and that
+was such a great experience
+
+108
+00:06:43,560 --> 00:06:47,000
+towards that games.
+And yeah, really had a positive
+
+109
+00:06:47,000 --> 00:06:50,280
+impact on on where I saw myself
+moving forward.
+
+110
+00:06:50,800 --> 00:06:53,800
+Then COVID hit and yeah, the
+whole world kind of changed.
+
+111
+00:06:53,800 --> 00:06:58,240
+So that was really a point where
+we decided that we had to come
+
+112
+00:06:58,240 --> 00:07:01,320
+back to Europe and then had an
+opportunity to work within a
+
+113
+00:07:01,320 --> 00:07:05,520
+professional cycling team more
+as a coach, which was Team DSM
+
+114
+00:07:05,520 --> 00:07:07,640
+at the time.
+I worked there for two years,
+
+115
+00:07:07,640 --> 00:07:09,920
+mainly in that physiological
+kind of coaching role.
+
+116
+00:07:09,920 --> 00:07:13,240
+And then the opportunity with
+judo Pro Cycling came up to kind
+
+117
+00:07:13,240 --> 00:07:16,280
+of sit back in that more
+holistic kind of space.
+
+118
+00:07:16,280 --> 00:07:20,120
+So working with the physical and
+technical components of cycling,
+
+119
+00:07:20,120 --> 00:07:25,320
+which is where I kind of see
+myself really as as a scientist,
+
+120
+00:07:25,320 --> 00:07:28,160
+like not as a as an engineer,
+not as a physiologist, but
+
+121
+00:07:28,160 --> 00:07:30,560
+really as a scientist.
+You can kind of, you know, make
+
+122
+00:07:30,560 --> 00:07:33,720
+experiments, understand A versus
+B, and then find the right
+
+123
+00:07:33,720 --> 00:07:36,480
+people with the X-Men team
+knowledge to kind of drive
+
+124
+00:07:36,480 --> 00:07:40,240
+things forward.
+In terms of the team, it's a
+
+125
+00:07:40,240 --> 00:07:42,040
+really, it's a really
+interesting story.
+
+126
+00:07:42,480 --> 00:07:46,440
+It's was really born out of a
+team called Swiss Racing
+
+127
+00:07:46,440 --> 00:07:49,240
+Academy.
+So there was a team in the past,
+
+128
+00:07:49,240 --> 00:07:52,320
+a continental level team, which
+is like the third tier basically
+
+129
+00:07:52,320 --> 00:07:56,840
+of cycling that was there to
+encourage Swiss riders to be
+
+130
+00:07:56,840 --> 00:07:58,480
+able to make it professional
+basically.
+
+131
+00:07:58,480 --> 00:08:02,120
+So it was a team that was made,
+so they had basic conditions to
+
+132
+00:08:02,120 --> 00:08:06,400
+race, to have a salary, to have
+bikes, and that has been there
+
+133
+00:08:06,400 --> 00:08:09,720
+for many years and was really
+kind of a successful pathway for
+
+134
+00:08:09,720 --> 00:08:11,920
+Swiss riders to get into
+professional cycling.
+
+135
+00:08:12,440 --> 00:08:17,120
+And in 2022, essentially that
+was going to close.
+
+136
+00:08:17,120 --> 00:08:21,320
+So they struggled to gain their
+funding and it happened at a
+
+137
+00:08:21,320 --> 00:08:23,400
+really difficult point in terms
+of timing.
+
+138
+00:08:23,800 --> 00:08:27,640
+And basically, the guys who were
+left on that team were not going
+
+139
+00:08:27,640 --> 00:08:29,800
+to be able to find another team
+because all the teams were
+
+140
+00:08:29,800 --> 00:08:32,240
+fulfilled.
+And then the owner of our team,
+
+141
+00:08:32,240 --> 00:08:36,120
+Fabian, Fabian Kanchalara, who's
+a very famous and successful
+
+142
+00:08:36,120 --> 00:08:40,400
+cyclist from, from Switzerland,
+really saw this opportunity as
+
+143
+00:08:40,840 --> 00:08:43,640
+really saving, you know, the
+opportunity and careers of
+
+144
+00:08:43,640 --> 00:08:46,200
+these, these young Swiss riders.
+And he put himself in their
+
+145
+00:08:46,200 --> 00:08:49,280
+shoes and said, well, if I don't
+step in and, and give them this
+
+146
+00:08:49,280 --> 00:08:52,520
+chance to, to ride, like what's
+going to happen to their career?
+
+147
+00:08:52,880 --> 00:08:55,360
+And that's really the, the start
+of that process.
+
+148
+00:08:56,760 --> 00:09:00,280
+Then he found out pretty
+quickly, you need sponsorship,
+
+149
+00:09:00,280 --> 00:09:03,560
+you need help, you need support.
+And that's where Tudor came in.
+
+150
+00:09:04,040 --> 00:09:07,200
+Tudor being the, the watch
+brand, part of the Hans Weld off
+
+151
+00:09:07,200 --> 00:09:11,840
+foundation with Rolex as the
+main sponsor of, of the team.
+
+152
+00:09:12,240 --> 00:09:15,360
+And that started in 2022.
+And now we're we're going into
+
+153
+00:09:15,360 --> 00:09:19,280
+our third year of being a Tudor
+Pro Cycling really, which is
+
+154
+00:09:20,280 --> 00:09:21,560
+it's gone from strength to
+strength.
+
+155
+00:09:21,560 --> 00:09:25,840
+We're a pro team, so second tier
+technically, but with like a
+
+156
+00:09:25,840 --> 00:09:28,320
+world tour mindset.
+So we really see ourselves
+
+157
+00:09:28,320 --> 00:09:31,280
+growing towards being one of the
+biggest teams in the world.
+
+158
+00:09:31,680 --> 00:09:35,800
+And we're investing now in the
+kind of future of the team.
+
+159
+00:09:35,840 --> 00:09:37,400
+We have a really long term
+vision.
+
+160
+00:09:38,040 --> 00:09:40,560
+We invest in the staff, we
+invest in the people, we invest
+
+161
+00:09:40,560 --> 00:09:43,600
+in the science really because we
+know long term that's what's
+
+162
+00:09:43,600 --> 00:09:48,520
+going to make us at the highest
+level in the sport great.
+
+163
+00:09:49,200 --> 00:09:54,880
+Yeah, and I suppose at least
+from, from myself watching it,
+
+164
+00:09:54,880 --> 00:10:00,320
+Tudor's definitely seen as one
+of the top teams that potential
+
+165
+00:10:00,320 --> 00:10:03,280
+will get, you know, promoted, I
+guess, you know, in the in the
+
+166
+00:10:03,280 --> 00:10:06,520
+coming years and gets the
+invitations to the to the sort
+
+167
+00:10:06,520 --> 00:10:10,080
+of Grand Tours.
+So I guess to many people who
+
+168
+00:10:10,080 --> 00:10:12,560
+are not deep into sport, you may
+people may not know the
+
+169
+00:10:12,560 --> 00:10:14,800
+difference between the second
+tier and the top tier because
+
+170
+00:10:15,320 --> 00:10:17,880
+Tudor tends to be in actually
+quite a few of the big races
+
+171
+00:10:17,880 --> 00:10:21,880
+anyway.
+But you know, before maybe we
+
+172
+00:10:21,880 --> 00:10:25,640
+get into some of the more
+detailed topics, what you know,
+
+173
+00:10:25,640 --> 00:10:28,480
+what's it like working for a
+team?
+
+174
+00:10:28,480 --> 00:10:30,720
+I imagine it's a bit like
+Formula One where there's a
+
+175
+00:10:30,720 --> 00:10:34,240
+difference between, you know,
+the races, you know, the Lewis
+
+176
+00:10:34,240 --> 00:10:37,880
+Hamiltons and the Julian Anna
+Philippe's now and the team
+
+177
+00:10:37,880 --> 00:10:40,160
+behind.
+So what what does it look like
+
+178
+00:10:40,160 --> 00:10:43,400
+to to work for a pro team?
+You know, like a typical week,
+
+179
+00:10:43,600 --> 00:10:47,040
+you know, how much are you at
+the races versus back at testing
+
+180
+00:10:47,040 --> 00:10:50,360
+places in factories, just to
+give a sense.
+
+181
+00:10:51,040 --> 00:10:53,680
+Yeah, yeah.
+No, I'd say the first thing is
+
+182
+00:10:53,680 --> 00:10:57,280
+it's not very typical.
+So it's, it's one of them
+
+183
+00:10:57,280 --> 00:11:00,160
+industries where especially my
+role kind of as as head of
+
+184
+00:11:00,160 --> 00:11:02,800
+innovation, it really sits
+across, you know, many different
+
+185
+00:11:02,800 --> 00:11:07,480
+disciplines and, and yeah, with
+with the first thing really with
+
+186
+00:11:07,480 --> 00:11:09,400
+cyclists, the season is so, so
+big.
+
+187
+00:11:09,440 --> 00:11:13,280
+So we race from the middle of
+January until the end of
+
+188
+00:11:13,280 --> 00:11:16,360
+October.
+So we can be racing at three
+
+189
+00:11:16,560 --> 00:11:20,560
+races on the same day all across
+Europe and even across the
+
+190
+00:11:20,560 --> 00:11:22,520
+world.
+So it's a big logistical
+
+191
+00:11:22,520 --> 00:11:24,840
+challenge first of all, where
+where everything occurs.
+
+192
+00:11:25,920 --> 00:11:30,120
+We race roughly around 250 days
+a year in that period.
+
+193
+00:11:30,120 --> 00:11:34,080
+So it's quite a lot of time on
+the ground that's obviously
+
+194
+00:11:34,080 --> 00:11:37,840
+without the preparation before,
+after logistics and things like
+
+195
+00:11:37,840 --> 00:11:40,080
+that.
+So that during that period
+
+196
+00:11:40,080 --> 00:11:43,120
+really most of the time is
+focused on delivery of race
+
+197
+00:11:43,120 --> 00:11:44,560
+delivery of performance
+delivery.
+
+198
+00:11:44,560 --> 00:11:48,280
+So a lot of my support then is
+about optimization of setups,
+
+199
+00:11:48,280 --> 00:11:51,880
+making sure that all the work
+we've done is executed.
+
+200
+00:11:51,960 --> 00:11:54,880
+We, we have a really big push
+on, on the application of
+
+201
+00:11:54,880 --> 00:11:56,560
+innovation.
+I think is really important
+
+202
+00:11:56,560 --> 00:11:59,480
+because we can do a lot of, you
+know, really cool things, but
+
+203
+00:11:59,480 --> 00:12:02,200
+actually to get them to be
+applied at the right time with
+
+204
+00:12:02,200 --> 00:12:05,760
+the right people in the right
+races is massive when you can
+
+205
+00:12:05,760 --> 00:12:08,440
+have 3 or 4 races going on on
+the same day.
+
+206
+00:12:08,920 --> 00:12:10,880
+So that's a big push during the
+season.
+
+207
+00:12:10,920 --> 00:12:14,720
+We still have our innovation
+team that runs basically 24/7
+
+208
+00:12:14,720 --> 00:12:18,280
+throughout the season as well.
+So we have a setup based in
+
+209
+00:12:18,280 --> 00:12:21,720
+Silverstone.
+We have 4 full time engineers,
+
+210
+00:12:22,520 --> 00:12:26,120
+we have a PhD student, we have
+an industrial designer, all
+
+211
+00:12:26,120 --> 00:12:28,480
+working on technological
+development.
+
+212
+00:12:28,480 --> 00:12:32,400
+So we look at all the strands
+which we can approach really and
+
+213
+00:12:32,400 --> 00:12:35,600
+we move them forward.
+And we have 3 strategic themes
+
+214
+00:12:35,600 --> 00:12:38,440
+with all our innovation.
+So we look from aerodynamics
+
+215
+00:12:38,440 --> 00:12:41,040
+because we know that's the
+biggest force that we overcome
+
+216
+00:12:41,160 --> 00:12:43,880
+as a cyclist.
+We look from thermal because we
+
+217
+00:12:43,880 --> 00:12:46,360
+know thermal challenges are
+really, really important.
+
+218
+00:12:46,880 --> 00:12:49,720
+And then we look from safety.
+So everything that we do, we
+
+219
+00:12:49,720 --> 00:12:52,480
+always try and say, can we make
+it faster or economically, can
+
+220
+00:12:52,480 --> 00:12:54,520
+we understand the thermal
+properties and can we ultimately
+
+221
+00:12:54,520 --> 00:12:59,000
+make it safer for the riders
+going into race and competition.
+
+222
+00:12:59,400 --> 00:13:02,600
+And that can be if we're in the
+wind tunnel testing, it can be
+
+223
+00:13:02,640 --> 00:13:05,720
+if we're doing fabric testing in
+the wind tunnel, whole system
+
+224
+00:13:05,920 --> 00:13:07,560
+testing.
+How are we doing bike
+
+225
+00:13:07,560 --> 00:13:09,560
+development?
+How are we doing CFD
+
+226
+00:13:09,560 --> 00:13:11,960
+simulations?
+Are we doing velodrome testing?
+
+227
+00:13:11,960 --> 00:13:15,120
+Are we in the field, doing in
+the field measures of rolling
+
+228
+00:13:15,120 --> 00:13:19,800
+resistance or tire development?
+Are we working with academic or
+
+229
+00:13:19,800 --> 00:13:21,520
+industry partners on different
+projects?
+
+230
+00:13:21,520 --> 00:13:25,200
+So it's really varied depending
+on what we have going on at that
+
+231
+00:13:25,200 --> 00:13:27,560
+point in time.
+Yeah, I always find this
+
+232
+00:13:27,560 --> 00:13:32,720
+fascinating, and I guess This is
+why so many people I know have
+
+233
+00:13:32,720 --> 00:13:37,080
+this love of cycling who also
+tend to be into things like
+
+234
+00:13:37,080 --> 00:13:39,400
+Formula One, because the
+technology is such an
+
+235
+00:13:39,400 --> 00:13:43,680
+interesting part of it.
+But you mentioned something
+
+236
+00:13:43,680 --> 00:13:46,640
+about the thermal side and
+that's something that I
+
+237
+00:13:47,080 --> 00:13:52,240
+personally wasn't as familiar
+with until I personally did the
+
+238
+00:13:52,240 --> 00:13:54,440
+attack the Tour in like very hot
+temperatures.
+
+239
+00:13:54,480 --> 00:13:57,320
+I was like, OK, thermal does
+actually make a lot of
+
+240
+00:13:57,320 --> 00:13:59,040
+difference.
+So maybe could you explain a
+
+241
+00:13:59,040 --> 00:14:02,120
+little bit more because I think
+this may actually be useful for
+
+242
+00:14:02,120 --> 00:14:04,560
+day-to-day cyclists who are
+doing things.
+
+243
+00:14:04,800 --> 00:14:10,240
+What sort of technology or
+learnings do you get about
+
+244
+00:14:10,360 --> 00:14:13,600
+cycling in sort of more extreme
+conditions over, you know, very
+
+245
+00:14:13,600 --> 00:14:16,920
+hot or very, very cold?
+But how does that influence the
+
+246
+00:14:16,920 --> 00:14:20,200
+performance of a cyclist?
+Yeah, it's a really good
+
+247
+00:14:20,200 --> 00:14:23,840
+question and it's something we
+see more and more is integral to
+
+248
+00:14:23,840 --> 00:14:27,960
+the performance.
+I think that too are very
+
+249
+00:14:27,960 --> 00:14:30,080
+different, you know, scenarios
+and situations.
+
+250
+00:14:30,320 --> 00:14:34,320
+If we look at hot weather, we
+know that in Europe, from
+
+251
+00:14:34,600 --> 00:14:40,240
+probably May until the end of
+August, it can be 3540° in some
+
+252
+00:14:40,240 --> 00:14:43,800
+races, which we know is a really
+extreme environment.
+
+253
+00:14:44,120 --> 00:14:46,960
+And we also know that the riders
+are getting fitter and stronger,
+
+254
+00:14:46,960 --> 00:14:49,200
+which means they're putting out
+more power outputs, which
+
+255
+00:14:49,200 --> 00:14:51,040
+ultimately means they're putting
+out more heat as well.
+
+256
+00:14:51,040 --> 00:14:53,920
+Because yeah, what you see on
+the pedals is actually probably
+
+257
+00:14:53,920 --> 00:14:56,680
+only 1/4 of the energy that's
+actually produced.
+
+258
+00:14:56,680 --> 00:14:59,080
+The other 3/4 of that is thermal
+energy as well.
+
+259
+00:14:59,080 --> 00:15:02,160
+So we know that you have these
+guys sitting in really hot
+
+260
+00:15:02,160 --> 00:15:05,880
+environments making a lot of
+thermal energy, and something
+
+261
+00:15:05,920 --> 00:15:07,920
+has to give.
+And ultimately that is
+
+262
+00:15:07,960 --> 00:15:10,480
+performance.
+You know, we see more and more
+
+263
+00:15:10,480 --> 00:15:13,040
+that it can be so critical to
+performance.
+
+264
+00:15:13,040 --> 00:15:17,040
+If you overheat, things start to
+shut down, your body protects
+
+265
+00:15:17,040 --> 00:15:19,760
+you from that and ultimately
+performance is part of a
+
+266
+00:15:20,040 --> 00:15:22,640
+consequence of that.
+So we try and do a lot of
+
+267
+00:15:22,640 --> 00:15:28,320
+research around heat.
+We do probably a few different
+
+268
+00:15:28,320 --> 00:15:30,480
+strands.
+So we do kind of prevention and
+
+269
+00:15:30,480 --> 00:15:32,040
+preparation.
+I would say so.
+
+270
+00:15:32,560 --> 00:15:35,120
+We train the riders to tolerate
+heat demands.
+
+271
+00:15:35,120 --> 00:15:38,760
+We know that that is a trainable
+stimulus like getting fitter.
+
+272
+00:15:39,000 --> 00:15:40,480
+You can also tolerate heat
+better.
+
+273
+00:15:40,480 --> 00:15:43,280
+You get changes with your sweat
+response, you get changes with
+
+274
+00:15:43,280 --> 00:15:46,800
+plasma volume, you get these
+physiological changes which
+
+275
+00:15:46,800 --> 00:15:49,280
+allow you to to basically deal
+better with the heat.
+
+276
+00:15:50,840 --> 00:15:53,440
+So we do a lot of that
+preparation and we've seen more
+
+277
+00:15:53,440 --> 00:15:55,520
+and more in cycling.
+That is probably the thing
+
+278
+00:15:55,520 --> 00:15:58,520
+that's really increased a lot in
+the last year's research around
+
+279
+00:15:58,520 --> 00:16:01,480
+that area, understanding of that
+area, understanding the
+
+280
+00:16:01,480 --> 00:16:03,880
+transients responses that can be
+done there.
+
+281
+00:16:03,880 --> 00:16:07,840
+And then we also see we do a lot
+of prevention stuff.
+
+282
+00:16:07,840 --> 00:16:11,040
+So we look at precooling.
+Can we bring down the
+
+283
+00:16:11,040 --> 00:16:13,560
+temperature prior or even during
+exercise?
+
+284
+00:16:13,560 --> 00:16:16,160
+Can we create a bigger thermal
+sink so that we know there's
+
+285
+00:16:16,160 --> 00:16:19,160
+just more room to drive heat
+into?
+
+286
+00:16:20,360 --> 00:16:22,200
+And there's lots of great
+researchers in that area.
+
+287
+00:16:22,200 --> 00:16:24,760
+We work with partners quite a
+lot on on that.
+
+288
+00:16:25,480 --> 00:16:28,760
+We do a lot of work around
+fabrics and helmet design and
+
+289
+00:16:28,760 --> 00:16:32,360
+things like that to understand
+convective cooling and, and
+
+290
+00:16:32,760 --> 00:16:35,400
+material components and
+properties to really help with
+
+291
+00:16:35,440 --> 00:16:37,320
+with that.
+And we're doing a lot of work
+
+292
+00:16:37,320 --> 00:16:40,720
+around UV radiation because we
+know also this, you know, the
+
+293
+00:16:40,720 --> 00:16:43,480
+radiative effect of sun as well
+and things like that.
+
+294
+00:16:43,480 --> 00:16:46,560
+So there's definitely a lot of
+work to be done from a heat
+
+295
+00:16:46,560 --> 00:16:49,320
+perspective to really allow
+athletes to perform in innate
+
+296
+00:16:49,320 --> 00:16:52,080
+conditions.
+But like you said, also in the
+
+297
+00:16:52,080 --> 00:16:53,960
+cold, it's something we see more
+and more.
+
+298
+00:16:53,960 --> 00:16:55,960
+You know, some of the biggest
+one day races in the world,
+
+299
+00:16:55,960 --> 00:16:59,080
+they're in Belgium in the middle
+of March and April.
+
+300
+00:16:59,760 --> 00:17:02,040
+And I can tell you now from
+being there first hand, you want
+
+301
+00:17:02,040 --> 00:17:05,599
+every layer of clothing you have
+on possible because their
+
+302
+00:17:05,599 --> 00:17:07,640
+conditions can be really quite
+harsh.
+
+303
+00:17:07,640 --> 00:17:10,760
+And that's something we also
+know if riders get cold, if they
+
+304
+00:17:10,760 --> 00:17:14,160
+get wet, it also has a massive
+detriment on their performance.
+
+305
+00:17:14,160 --> 00:17:18,599
+So it's something we work on
+quite a lot to also understand
+
+306
+00:17:19,040 --> 00:17:21,800
+what can we do from a material
+perspective, from an
+
+307
+00:17:21,800 --> 00:17:26,280
+intervention perspective, How do
+we do the logistics around that?
+
+308
+00:17:26,280 --> 00:17:28,840
+You know, there's so many things
+that ultimately come back to
+
+309
+00:17:28,840 --> 00:17:30,200
+logistics.
+How do you make sure you
+
+310
+00:17:30,200 --> 00:17:33,320
+potentially have hot bottles
+that are available on the course
+
+311
+00:17:33,320 --> 00:17:37,360
+when the whole peloton is strung
+out over over a few kilometres
+
+312
+00:17:37,360 --> 00:17:40,960
+or doing clothing development to
+understand how to, you know,
+
+313
+00:17:40,960 --> 00:17:45,600
+improve breathability or
+insulation in them in in them a
+
+314
+00:17:45,600 --> 00:17:48,240
+harsh environment.
+So yeah, we really try and do
+
+315
+00:17:48,240 --> 00:17:52,120
+quite a lot of work around that
+to understand what's going on.
+
+316
+00:17:52,720 --> 00:17:55,280
+And I think on top of that, just
+something we've generally been
+
+317
+00:17:55,280 --> 00:17:58,360
+doing with the team is we do a
+lot of work to understand real
+
+318
+00:17:58,360 --> 00:18:00,720
+world conditions.
+So it's something that's been a
+
+319
+00:18:00,840 --> 00:18:04,040
+big project that we do around
+everything is we have all these
+
+320
+00:18:04,040 --> 00:18:06,960
+tools and techniques to, you
+know, to simulate in science.
+
+321
+00:18:06,960 --> 00:18:10,800
+We try and take out the
+variables to to get answers, but
+
+322
+00:18:10,800 --> 00:18:14,160
+we're trying to also understand
+how we tune them variables to
+
+323
+00:18:14,160 --> 00:18:15,440
+understand things moving
+forward.
+
+324
+00:18:15,440 --> 00:18:19,600
+So thermal being a massive
+piece, but yeah, your wind
+
+325
+00:18:20,160 --> 00:18:22,400
+turbulence intensities, all
+these different things we're
+
+326
+00:18:22,400 --> 00:18:25,440
+trying to understand so we can
+really make more informed
+
+327
+00:18:25,440 --> 00:18:28,560
+decisions with the tools we use
+and the data that we drive out
+
+328
+00:18:28,560 --> 00:18:29,960
+through our through our
+techniques.
+
+329
+00:18:31,120 --> 00:18:37,360
+And maybe linked to that then,
+So what about, you know, we've
+
+330
+00:18:37,480 --> 00:18:40,360
+seen a lot of people now
+tracking and I think there's
+
+331
+00:18:40,360 --> 00:18:46,960
+some brand names that are shown
+on certain TV show commentary,
+
+332
+00:18:46,960 --> 00:18:49,120
+you know, where they talk about
+their recovery, their sleep
+
+333
+00:18:49,120 --> 00:18:51,640
+recovery and nutrition, things
+like that.
+
+334
+00:18:51,640 --> 00:18:57,000
+How much of that do you think
+has contributed or maybe here's
+
+335
+00:18:57,000 --> 00:18:58,160
+the big, here's the big
+question.
+
+336
+00:18:58,800 --> 00:19:02,760
+You look at the current riders
+and look at them breaking
+
+337
+00:19:02,760 --> 00:19:06,200
+records and and seeming to go
+faster and faster.
+
+338
+00:19:07,200 --> 00:19:12,600
+How much of that do you think is
+down to bike technology?
+
+339
+00:19:13,280 --> 00:19:22,320
+So aerodynamics, how much of it
+is down to training and how much
+
+340
+00:19:22,320 --> 00:19:26,880
+of it is down to things like
+nutrition and sleep?
+
+341
+00:19:27,000 --> 00:19:30,720
+Like what?
+Do you see them all equal or do
+
+342
+00:19:30,720 --> 00:19:34,400
+you think some have are more
+important than others?
+
+343
+00:19:35,200 --> 00:19:40,200
+Yeah, I think they've all played
+their part in improving cycling
+
+344
+00:19:40,200 --> 00:19:42,000
+over the last kind of 10 years,
+I would say.
+
+345
+00:19:42,000 --> 00:19:46,680
+I mean, taking them
+individually, nutrition has been
+
+346
+00:19:46,680 --> 00:19:51,040
+a massive driver for sure.
+If you look at where cycling was
+
+347
+00:19:51,040 --> 00:19:53,920
+10 years ago and where it is now
+in terms of definitely all the
+
+348
+00:19:53,920 --> 00:19:57,720
+research around carbohydrate
+intake, how to increase uptake,
+
+349
+00:19:57,720 --> 00:20:01,760
+how to understand fueling,
+that's dramatically changed.
+
+350
+00:20:01,760 --> 00:20:04,240
+And that we really know has
+helped drive performance
+
+351
+00:20:04,240 --> 00:20:05,720
+forward.
+Because if you can have more
+
+352
+00:20:05,720 --> 00:20:08,320
+carbohydrate availability and
+you can oxidize more
+
+353
+00:20:08,320 --> 00:20:10,320
+carbohydrate, you can generate
+more energy.
+
+354
+00:20:10,320 --> 00:20:15,040
+And I think that has been a, a
+big push with performance.
+
+355
+00:20:15,960 --> 00:20:18,960
+And I think you see now that the
+training volumes that are able
+
+356
+00:20:18,960 --> 00:20:22,960
+to be sustained the the physical
+level within racing and and just
+
+357
+00:20:22,960 --> 00:20:24,880
+what you see mainly under
+fatigue.
+
+358
+00:20:24,920 --> 00:20:27,240
+I think that's the biggest thing
+that we've really seen a shift
+
+359
+00:20:27,240 --> 00:20:30,560
+is.
+Not only the fresh capacity of
+
+360
+00:20:30,560 --> 00:20:32,960
+riders, but what they can do
+after four or five, six hours,
+
+361
+00:20:32,960 --> 00:20:35,760
+what they can do after days,
+weeks of stage racing.
+
+362
+00:20:36,120 --> 00:20:38,880
+I think that a lot of that is
+down to really optimizing
+
+363
+00:20:38,880 --> 00:20:41,320
+nutrition.
+And you can see even since I've
+
+364
+00:20:41,320 --> 00:20:44,520
+been working in professional
+cycling, the investment from
+
+365
+00:20:44,520 --> 00:20:47,000
+teams around the area.
+You know, we have two
+
+366
+00:20:47,000 --> 00:20:52,920
+nutritionists, we have 4 chefs,
+we have a food truck, we have
+
+367
+00:20:53,520 --> 00:20:56,400
+nutrition sponsors, we have
+nutrition partners, we have
+
+368
+00:20:56,400 --> 00:20:59,880
+academic nutrition partners.
+We have data scientists that
+
+369
+00:20:59,880 --> 00:21:03,000
+look at all the data that we
+generate around nutrition.
+
+370
+00:21:03,000 --> 00:21:05,440
+Actually, you know, we measure
+hydration status.
+
+371
+00:21:05,440 --> 00:21:10,440
+We look at energy expenditure to
+make sure that we match on a day
+
+372
+00:21:10,440 --> 00:21:14,080
+on day, on a meal, on meal basis
+across, you know, a Grand Tour
+
+373
+00:21:14,080 --> 00:21:16,040
+for instance.
+And a lot of that has really
+
+374
+00:21:16,040 --> 00:21:17,560
+helped drive performance
+forward.
+
+375
+00:21:17,560 --> 00:21:22,720
+We see riders can train more,
+get sick less and perform much
+
+376
+00:21:22,720 --> 00:21:24,160
+better, especially under
+fatigue.
+
+377
+00:21:24,160 --> 00:21:26,680
+And a lot of that I think is
+down to nutrition over the last
+
+378
+00:21:26,680 --> 00:21:32,920
+10 years, definitely
+aerodynamics and equipment
+
+379
+00:21:32,920 --> 00:21:34,400
+development has moved forward a
+lot.
+
+380
+00:21:34,600 --> 00:21:37,960
+You know, I think there was some
+teams early on that kind of
+
+381
+00:21:37,960 --> 00:21:40,600
+clicked this.
+And I think, yeah, you know, it
+
+382
+00:21:40,600 --> 00:21:43,600
+started really on the track.
+I think if you look at equipment
+
+383
+00:21:43,600 --> 00:21:45,960
+development and where you see
+performance, I think British
+
+384
+00:21:45,960 --> 00:21:48,520
+Cycling were kind of the the
+real front runners of that from
+
+385
+00:21:48,880 --> 00:21:51,560
+probably 2000 and four, 2008
+onwards on the track.
+
+386
+00:21:51,560 --> 00:21:54,800
+And then they're starting to
+understand the physics involved.
+
+387
+00:21:55,240 --> 00:21:58,160
+And as you know, there's such
+massive potential there.
+
+388
+00:21:58,160 --> 00:22:02,240
+The rider is, you know, 80% of
+probably the drag in the system.
+
+389
+00:22:02,240 --> 00:22:05,320
+And then what you wrap the rider
+in is a big part of that as
+
+390
+00:22:05,320 --> 00:22:06,840
+well.
+So it's there's a lot of
+
+391
+00:22:06,840 --> 00:22:10,720
+opportunities there that are now
+starting to be more and more
+
+392
+00:22:10,720 --> 00:22:12,880
+understood.
+And we just see that the peloton
+
+393
+00:22:12,880 --> 00:22:17,560
+just goes faster and faster.
+And for me, knowing the
+
+394
+00:22:17,560 --> 00:22:20,720
+relationship between power and
+speed is, is cubic.
+
+395
+00:22:21,160 --> 00:22:24,200
+It can't all come from power.
+You know, it's not that riders
+
+396
+00:22:24,200 --> 00:22:27,920
+are all of a sudden getting to
+the, you know, to the cube more
+
+397
+00:22:27,920 --> 00:22:30,400
+powerful, but actually the, you
+know, the, the demands are
+
+398
+00:22:30,400 --> 00:22:33,160
+coming down as well because
+we're getting more aerodynamic.
+
+399
+00:22:33,160 --> 00:22:35,160
+We're understanding that speed
+relationship.
+
+400
+00:22:35,920 --> 00:22:38,160
+So that's been a big driver
+moving forward.
+
+401
+00:22:38,600 --> 00:22:41,240
+And I'd say because of that,
+that's why as a team we're
+
+402
+00:22:41,240 --> 00:22:43,600
+really, really focused on the
+safety part as well, because we
+
+403
+00:22:43,600 --> 00:22:47,240
+just do so much, so many
+innovations to make our riders
+
+404
+00:22:47,240 --> 00:22:50,240
+faster, fit and stronger, but
+we're also then putting them at
+
+405
+00:22:50,240 --> 00:22:52,240
+more risk.
+You know, if you can go down, if
+
+406
+00:22:52,240 --> 00:22:55,360
+you can go down climbs 10K an
+hour faster now, if you can take
+
+407
+00:22:55,360 --> 00:22:58,680
+corners faster, if you can do
+this faster, that faster, we
+
+408
+00:22:58,680 --> 00:23:00,240
+should also look after the
+riders more.
+
+409
+00:23:00,240 --> 00:23:03,320
+So that's really why every
+innovation we do, we also take
+
+410
+00:23:03,320 --> 00:23:05,520
+on that responsibility to make
+sure that we try and keep them
+
+411
+00:23:05,520 --> 00:23:08,600
+safe as well.
+And I think, yeah, every team
+
+412
+00:23:08,720 --> 00:23:10,200
+should do that.
+But we take that really
+
+413
+00:23:10,200 --> 00:23:14,720
+seriously at Tudor Pro Cycling.
+Yeah, that's a very, yeah.
+
+414
+00:23:14,720 --> 00:23:16,800
+There's definitely a sort of hot
+topic, isn't it, on the
+
+415
+00:23:18,040 --> 00:23:20,520
+equipment versus the rider
+versus everything.
+
+416
+00:23:20,520 --> 00:23:23,760
+It's, yeah, one I guess you
+could dedicate an entire
+
+417
+00:23:24,200 --> 00:23:27,600
+conversation to.
+But one thing I did on that
+
+418
+00:23:27,600 --> 00:23:33,800
+point of maybe training, I was
+listening to Gary Thomas on, you
+
+419
+00:23:33,800 --> 00:23:37,440
+know, on his podcast and I think
+he was talking with Pavel
+
+420
+00:23:37,440 --> 00:23:40,640
+Sivakoff about like the
+different training and they were
+
+421
+00:23:40,640 --> 00:23:43,360
+talking about the sort of Team
+Sky where they basically just
+
+422
+00:23:43,360 --> 00:23:50,440
+starved themselves and and went
+out comparing to now Pavel was
+
+423
+00:23:50,440 --> 00:23:52,960
+talking about the sort of zone
+2.
+
+424
+00:23:53,920 --> 00:23:56,680
+But I always thought it was
+surprising because I assume
+
+425
+00:23:56,680 --> 00:23:58,320
+that, OK, all the team do that
+anyway.
+
+426
+00:23:58,320 --> 00:24:02,920
+But it it sort of made clear
+that he was describing that
+
+427
+00:24:02,920 --> 00:24:06,080
+there was they sent a lot of
+junk miles that people would
+
+428
+00:24:06,080 --> 00:24:07,440
+just go out.
+And because they're chatting
+
+429
+00:24:07,440 --> 00:24:10,240
+with mates and they're drafting
+and they're so strong, the
+
+430
+00:24:10,240 --> 00:24:13,600
+riders that they were probably
+only in zone 1 where now they're
+
+431
+00:24:13,600 --> 00:24:15,840
+trying.
+And he says he was, he almost
+
+432
+00:24:15,840 --> 00:24:18,720
+starts just training on his own
+because it's it's impossible to
+
+433
+00:24:18,720 --> 00:24:20,480
+do.
+Is that something that you've
+
+434
+00:24:20,480 --> 00:24:25,400
+seen as well as a very recent
+shift towards this more rigorous
+
+435
+00:24:26,120 --> 00:24:31,080
+focus on extracting the maximum
+amount of all the time you're on
+
+436
+00:24:31,080 --> 00:24:35,840
+the bike?
+Yeah, it's really interesting
+
+437
+00:24:35,840 --> 00:24:38,800
+with training methodologies,
+there's, there's many ways to do
+
+438
+00:24:38,800 --> 00:24:40,760
+it.
+And I think the longer I've
+
+439
+00:24:40,760 --> 00:24:44,000
+worked in professional cycling,
+the more I've realized that it's
+
+440
+00:24:44,000 --> 00:24:46,560
+really tailoring it to each
+individual rider.
+
+441
+00:24:46,560 --> 00:24:49,560
+That's the most important thing.
+And the reason I say that is
+
+442
+00:24:50,280 --> 00:24:53,280
+it's, you know, they have the
+same demands, you know,
+
+443
+00:24:53,280 --> 00:24:54,840
+relative.
+I mean, a sprinter's obviously
+
+444
+00:24:54,840 --> 00:24:57,000
+different to a climber or a
+classics rider, but they're
+
+445
+00:24:57,000 --> 00:24:59,800
+endurance cyclists first of all.
+So there's this key kind of
+
+446
+00:25:00,280 --> 00:25:02,840
+physiological underpinning of
+what you're trying to achieve to
+
+447
+00:25:02,840 --> 00:25:04,960
+and then you've got these
+specific components on top.
+
+448
+00:25:05,480 --> 00:25:08,560
+But I think we're a lot of or
+where maybe even when I was
+
+449
+00:25:08,560 --> 00:25:13,520
+younger, people see training as
+is, is as you're training the
+
+450
+00:25:13,520 --> 00:25:15,840
+machine, you know, you have
+these inputs and you have an
+
+451
+00:25:15,840 --> 00:25:19,000
+output.
+And what we know now more and
+
+452
+00:25:19,000 --> 00:25:21,840
+more and what I know working
+with with humans is that the
+
+453
+00:25:21,840 --> 00:25:24,120
+input you put in doesn't always
+necessarily end up being the
+
+454
+00:25:24,120 --> 00:25:26,160
+output.
+And the reason being is that,
+
+455
+00:25:26,560 --> 00:25:29,640
+you know, training is the one
+lever we can adjust as a coach
+
+456
+00:25:29,640 --> 00:25:31,440
+or as someone working with in
+cycling.
+
+457
+00:25:31,840 --> 00:25:34,560
+But what we can't adjust is the
+stress on their on their
+
+458
+00:25:34,560 --> 00:25:38,360
+everyday life, their family, did
+they sleep well?
+
+459
+00:25:38,360 --> 00:25:42,160
+What's their nutrition like?
+Are they happy?
+
+460
+00:25:42,160 --> 00:25:43,720
+Are they depressed?
+There's all these different
+
+461
+00:25:43,720 --> 00:25:45,520
+factors that go into a human
+being.
+
+462
+00:25:45,520 --> 00:25:48,960
+And that what we understand more
+is that humans are very
+
+463
+00:25:48,960 --> 00:25:52,000
+complicated systems.
+They're not just, they're not
+
+464
+00:25:52,000 --> 00:25:55,120
+just individual inputs, but they
+have all this, these inputs
+
+465
+00:25:55,120 --> 00:25:56,920
+actually interact with each
+other as well.
+
+466
+00:25:57,880 --> 00:26:02,440
+And I think it's more about, I
+find tailoring the training
+
+467
+00:26:02,640 --> 00:26:04,720
+relative to that.
+So you have your idea, you have
+
+468
+00:26:04,720 --> 00:26:07,800
+your plan, you have your overall
+vision and goals and
+
+469
+00:26:07,800 --> 00:26:11,640
+periodization, things like that.
+But it's been able to to tweak
+
+470
+00:26:11,640 --> 00:26:14,560
+and tailor that relative to
+what's going on within that
+
+471
+00:26:14,560 --> 00:26:16,840
+rider's life.
+Because, you know, you might
+
+472
+00:26:16,840 --> 00:26:18,920
+have the best plan in the world,
+but if they're not eating
+
+473
+00:26:18,920 --> 00:26:22,320
+properly or they're stressed at
+home, or, you know, they're
+
+474
+00:26:22,320 --> 00:26:24,480
+running a second business on the
+side that you don't know about,
+
+475
+00:26:24,480 --> 00:26:27,240
+then actually your optimal
+training might not be correct.
+
+476
+00:26:27,320 --> 00:26:30,320
+Because, yeah, it's good on
+paper and it moves forward.
+
+477
+00:26:30,840 --> 00:26:33,680
+And I would say every training
+methodology can have its
+
+478
+00:26:33,680 --> 00:26:36,320
+benefits.
+It's something that I really
+
+479
+00:26:36,360 --> 00:26:39,320
+reflected on quite a lot.
+Now, working in different
+
+480
+00:26:39,320 --> 00:26:41,960
+environments and different
+teams, you see lots of different
+
+481
+00:26:41,960 --> 00:26:46,080
+ways of achieving success.
+And ultimately I've seen things
+
+482
+00:26:46,080 --> 00:26:49,440
+that, you know, maybe I wouldn't
+actually have done, but I've
+
+483
+00:26:49,440 --> 00:26:51,080
+also seen them be very
+successful.
+
+484
+00:26:51,360 --> 00:26:55,960
+And I've also started to, to, to
+learn and understand from, from
+
+485
+00:26:55,960 --> 00:26:58,600
+them experiences that you can do
+things in many different ways.
+
+486
+00:26:59,960 --> 00:27:03,040
+And yeah, some teams have
+certain philosophies and, and
+
+487
+00:27:03,040 --> 00:27:05,320
+some riders go really, really
+well for them philosophies and
+
+488
+00:27:05,320 --> 00:27:08,520
+other riders don't.
+And my philosophy is always to
+
+489
+00:27:08,520 --> 00:27:10,600
+try and make the individual
+rider better.
+
+490
+00:27:10,760 --> 00:27:15,760
+So I and I think when I look at
+kind of successful coaches or,
+
+491
+00:27:15,800 --> 00:27:18,800
+or people that I really respect,
+it's the ones that make all
+
+492
+00:27:18,800 --> 00:27:20,640
+their riders better, not just
+one.
+
+493
+00:27:20,800 --> 00:27:24,040
+And I think that's where that
+individualisation, that
+
+494
+00:27:24,040 --> 00:27:27,480
+communication with a rider, that
+understanding of where they're
+
+495
+00:27:27,480 --> 00:27:31,400
+at and tailoring their training
+to them is stronger rather than
+
+496
+00:27:31,400 --> 00:27:34,640
+just saying, OK, this is my
+training philosophy, we do it or
+
+497
+00:27:34,640 --> 00:27:37,400
+or you don't.
+Yeah, that's a good point.
+
+498
+00:27:37,400 --> 00:27:40,360
+And I guess this is what's, I
+guess maybe to people listening
+
+499
+00:27:40,360 --> 00:27:42,040
+or to watching this who are into
+cycling.
+
+500
+00:27:42,040 --> 00:27:47,240
+It's always the tricky thing
+because we there's always a
+
+501
+00:27:47,240 --> 00:27:52,240
+temptation to follow a specific
+guide because you hear that
+
+502
+00:27:52,240 --> 00:27:58,840
+somebody else does it, but you
+don't know whether should you
+
+503
+00:27:58,840 --> 00:28:01,440
+just follow it and you just need
+to suck it up and just, you
+
+504
+00:28:01,440 --> 00:28:05,360
+know, deal with the suffering,
+or is it just not well suited to
+
+505
+00:28:05,360 --> 00:28:09,680
+you and you would be better
+doing something else?
+
+506
+00:28:09,680 --> 00:28:12,400
+It's, you know, there's so much
+not misinformation, but there's
+
+507
+00:28:12,400 --> 00:28:14,800
+so many different theories out
+there, isn't there, that it's
+
+508
+00:28:14,800 --> 00:28:20,240
+hard for an amateur cyclist to
+really know what to follow.
+
+509
+00:28:21,360 --> 00:28:22,760
+It's it's.
+Yeah, definitely.
+
+510
+00:28:22,760 --> 00:28:26,640
+Sensationalized as well.
+I think so, especially when you,
+
+511
+00:28:26,760 --> 00:28:29,560
+you know, you have a full time
+job and a family and and
+
+512
+00:28:29,560 --> 00:28:32,240
+everything else and you're
+trying to do this as on the
+
+513
+00:28:32,240 --> 00:28:35,040
+side, it is really difficult.
+You want to try and extract as
+
+514
+00:28:35,040 --> 00:28:38,520
+much as you can out of it.
+And that's where I think it can
+
+515
+00:28:38,520 --> 00:28:41,040
+be difficult because
+professional riders, they ride
+
+516
+00:28:41,040 --> 00:28:42,640
+the bike, that's their full time
+job.
+
+517
+00:28:43,000 --> 00:28:45,520
+And actually the other thing
+they can do is they can recover
+
+518
+00:28:45,520 --> 00:28:48,080
+professionally.
+And a lot of amateurs can't do
+
+519
+00:28:48,080 --> 00:28:49,800
+that.
+And I think that's the the
+
+520
+00:28:49,800 --> 00:28:53,000
+challenge is you want to do what
+the pros are doing, but actually
+
+521
+00:28:53,000 --> 00:28:56,000
+you can't do the recovery part.
+And we know that adaptations,
+
+522
+00:28:56,000 --> 00:28:57,480
+they don't actually occur when
+you're on the bike.
+
+523
+00:28:57,480 --> 00:29:00,640
+The stress happens then, but the
+adaptations happen afterwards.
+
+524
+00:29:00,640 --> 00:29:04,040
+And if you can't have the
+adaptive processes, then maybe
+
+525
+00:29:04,040 --> 00:29:06,440
+the training doesn't fulfill
+what you want it to achieve
+
+526
+00:29:06,440 --> 00:29:08,680
+because you can't do the other
+proportion of that.
+
+527
+00:29:10,560 --> 00:29:12,640
+Yeah, no, that, that makes
+complete sense.
+
+528
+00:29:13,720 --> 00:29:18,440
+So what maybe going a little bit
+more into the, you know, the
+
+529
+00:29:18,440 --> 00:29:21,400
+bike side of things.
+Where do you see the the sort of
+
+530
+00:29:21,400 --> 00:29:26,120
+big performance areas nowadays?
+You know, is it, you know, in
+
+531
+00:29:26,120 --> 00:29:30,320
+the bike, the fabric, you know,
+the tyre choice, you know, where
+
+532
+00:29:30,320 --> 00:29:34,720
+some of the maybe interesting
+areas that that you think have
+
+533
+00:29:34,720 --> 00:29:37,480
+led to some gains and maybe
+where are sort of future areas
+
+534
+00:29:37,480 --> 00:29:39,800
+that people are starting to to
+explore now?
+
+535
+00:29:41,440 --> 00:29:44,000
+I think the biggest thing you
+can look at really is, is the
+
+536
+00:29:44,000 --> 00:29:48,920
+whole system approach.
+Like for me this is really
+
+537
+00:29:48,920 --> 00:29:52,600
+critical looking at the rider
+and all their equipment as a
+
+538
+00:29:52,600 --> 00:29:55,800
+whole system.
+The more kind of information or,
+
+539
+00:29:56,840 --> 00:29:59,280
+or testing I've done, what you
+see is if you change one
+
+540
+00:29:59,280 --> 00:30:02,200
+component of it, it's a cascade
+and everything else is
+
+541
+00:30:02,200 --> 00:30:05,480
+interacting with that.
+And if you can't just say this
+
+542
+00:30:05,480 --> 00:30:08,320
+helmet is fast, this skinsuit is
+fast, this bike is fast.
+
+543
+00:30:08,320 --> 00:30:11,560
+It's in what context with what
+rider, with what demands.
+
+544
+00:30:11,560 --> 00:30:14,760
+I think that that's the really
+kind of where I really see the
+
+545
+00:30:14,760 --> 00:30:18,680
+innovation happening now on that
+individualized level, you know,
+
+546
+00:30:18,920 --> 00:30:22,480
+because there is just such
+different demands on on them
+
+547
+00:30:22,480 --> 00:30:25,000
+individual user cases.
+So, for instance, a sprinter,
+
+548
+00:30:25,000 --> 00:30:29,080
+you know, we know sprinters go
+7080 kilometers an hour in the
+
+549
+00:30:29,080 --> 00:30:32,440
+final and we know they have to
+have very aggressive positions
+
+550
+00:30:32,440 --> 00:30:35,120
+to try and put their heads in
+certain places.
+
+551
+00:30:35,120 --> 00:30:38,320
+And we know because of all that,
+that we need to understand
+
+552
+00:30:38,320 --> 00:30:44,240
+certain flow structures, certain
+stiffness, aerodynamics, we need
+
+553
+00:30:44,240 --> 00:30:47,800
+to understand vision, we need to
+understand how all that
+
+554
+00:30:47,800 --> 00:30:50,400
+interacts with each other.
+And we need to understand
+
+555
+00:30:50,520 --> 00:30:53,320
+fabrics relative to that rider
+at them speeds.
+
+556
+00:30:54,040 --> 00:30:55,360
+Whereas that is completely
+different.
+
+557
+00:30:55,360 --> 00:30:57,360
+If you look at a climber, for
+instance, you know, the demands
+
+558
+00:30:57,360 --> 00:30:59,600
+of a climber are going up, the
+climber probably coming down,
+
+559
+00:30:59,600 --> 00:31:02,720
+the climber on the other side.
+And if we look at the whole
+
+560
+00:31:02,720 --> 00:31:05,600
+system, the position, the
+orientation they're in, it's a
+
+561
+00:31:05,600 --> 00:31:08,960
+completely different system.
+SO1 helmet is not going to be
+
+562
+00:31:09,640 --> 00:31:12,560
+perfect for both. 1 skin suit's
+not going to be perfect for
+
+563
+00:31:12,560 --> 00:31:14,120
+both. 1 bike's not going to be
+perfect for both.
+
+564
+00:31:14,120 --> 00:31:17,520
+So I think what we'll see in the
+industry of cycling is long term
+
+565
+00:31:18,080 --> 00:31:20,120
+is this individualization
+development.
+
+566
+00:31:20,120 --> 00:31:23,600
+So can we build stuff on an
+individualized basis?
+
+567
+00:31:24,360 --> 00:31:27,240
+Can manufacture methods cope
+with that?
+
+568
+00:31:27,240 --> 00:31:29,880
+You know, can we find ways to
+really individualize it?
+
+569
+00:31:30,240 --> 00:31:33,920
+And I think that's where we see
+real benefit in terms of the
+
+570
+00:31:34,000 --> 00:31:37,600
+performance moving forward.
+Yeah, that is so interesting.
+
+571
+00:31:37,720 --> 00:31:41,320
+I, I must admit that that sort
+of aligns to some of the
+
+572
+00:31:41,320 --> 00:31:44,760
+findings that I found, you know,
+when I was working on some of
+
+573
+00:31:44,760 --> 00:31:48,600
+the British Cycling stuff.
+It's almost an unbelievably
+
+574
+00:31:48,640 --> 00:31:53,040
+complicated optimization problem
+because you know that the, the
+
+575
+00:31:53,040 --> 00:31:56,440
+bike, the rider, the wheel, the
+helmet and you, what you really
+
+576
+00:31:56,440 --> 00:31:59,200
+want to do is test every
+combination with every other
+
+577
+00:31:59,200 --> 00:32:03,360
+combination.
+And then whereas I guess a lot
+
+578
+00:32:03,360 --> 00:32:06,800
+of the time because of
+commercial reasons, partnership
+
+579
+00:32:06,800 --> 00:32:09,920
+reasons, you're like, hey,
+helmet manufacturer
+
+580
+00:32:10,320 --> 00:32:15,520
+independently just give me a
+good helmet, but you haven't
+
+581
+00:32:15,520 --> 00:32:18,440
+been involved in that.
+So with that, what you're trying
+
+582
+00:32:18,440 --> 00:32:22,320
+to say that you're trying to be
+more involved with the partners
+
+583
+00:32:22,320 --> 00:32:25,040
+so they can, so you're not just
+buying off the shelf something
+
+584
+00:32:25,040 --> 00:32:27,920
+they've made, but potentially
+it's a little bit more aligned
+
+585
+00:32:28,240 --> 00:32:32,000
+to your needs and how that
+interacts with the other bits
+
+586
+00:32:32,000 --> 00:32:34,320
+you have.
+Yeah, 100%.
+
+587
+00:32:34,320 --> 00:32:36,720
+It's something we've really
+driven forward in the last years
+
+588
+00:32:36,720 --> 00:32:38,160
+and it's still a continual
+process.
+
+589
+00:32:38,160 --> 00:32:42,160
+But we have what we call like
+reciprocal relationships with
+
+590
+00:32:42,160 --> 00:32:44,400
+our partners.
+So we really make sure that when
+
+591
+00:32:44,400 --> 00:32:46,920
+we select our partners, their
+partners that want to go on this
+
+592
+00:32:46,920 --> 00:32:50,520
+innovation process with us
+because it's not easy, you know,
+
+593
+00:32:50,800 --> 00:32:56,800
+it costs money, time, effort and
+we're really, you know demanding
+
+594
+00:32:56,800 --> 00:32:59,360
+of what we want.
+But we're also, which I think is
+
+595
+00:32:59,360 --> 00:33:02,280
+quite unique, we also have the
+capacities in house to actually
+
+596
+00:33:02,720 --> 00:33:05,080
+put time and resource towards
+them problems.
+
+597
+00:33:05,320 --> 00:33:07,560
+So it's not that we just knock
+on the door of our partner and
+
+598
+00:33:07,560 --> 00:33:09,880
+say, OK, we want a new bike or a
+new helmet.
+
+599
+00:33:09,960 --> 00:33:11,880
+We say no, we want to go on this
+project with you.
+
+600
+00:33:11,880 --> 00:33:14,440
+We understand the demands that
+we're aiming towards.
+
+601
+00:33:14,720 --> 00:33:18,360
+Let's do it in a collaboration.
+So, you know, a perfect example
+
+602
+00:33:18,360 --> 00:33:22,400
+could be when we were developing
+a new helmet and we were
+
+603
+00:33:22,400 --> 00:33:26,440
+developing a new helmet with a,
+with a new partner and we had
+
+604
+00:33:26,520 --> 00:33:29,400
+wind tunnel trips happening in,
+in, in their location.
+
+605
+00:33:29,400 --> 00:33:31,920
+Wind tunnel trips with our, with
+ourselves in the UK.
+
+606
+00:33:31,920 --> 00:33:34,960
+We had riders there, we had 3D
+peddling mannequins.
+
+607
+00:33:34,960 --> 00:33:38,880
+We did simulation, we did all
+these collaboration approaches,
+
+608
+00:33:38,920 --> 00:33:43,760
+thermal fit development over
+over over a long period of time
+
+609
+00:33:43,760 --> 00:33:46,520
+to really make sure that the
+initial product we had was as
+
+610
+00:33:46,720 --> 00:33:48,480
+evolved as possible in the time
+we had.
+
+611
+00:33:49,560 --> 00:33:52,400
+And yeah, and we continue to try
+and do that across all the
+
+612
+00:33:52,400 --> 00:33:56,680
+things you said, the bike, the
+tires, the wheels, the clothing.
+
+613
+00:33:56,680 --> 00:33:59,880
+It's something that we're taking
+ownership of internally as a
+
+614
+00:33:59,880 --> 00:34:01,960
+cycling team.
+And I think that's quite
+
+615
+00:34:01,960 --> 00:34:05,400
+different to maybe many other
+cycling teams is we invest
+
+616
+00:34:05,400 --> 00:34:08,760
+resource in that.
+You know, we have engineers, we
+
+617
+00:34:08,760 --> 00:34:13,800
+have an industrial designer, we
+have fabric experts in house
+
+618
+00:34:13,800 --> 00:34:18,000
+that complement the expertise of
+our partners to really make sure
+
+619
+00:34:18,000 --> 00:34:21,080
+that there's investment from our
+side to to tailor the products
+
+620
+00:34:21,080 --> 00:34:23,920
+to exactly what we need.
+So we really start to understand
+
+621
+00:34:23,920 --> 00:34:28,800
+that and move it forward and we
+see that that will really be our
+
+622
+00:34:30,080 --> 00:34:32,639
+way of moving forward and, and
+being at the forefront and it
+
+623
+00:34:32,639 --> 00:34:35,600
+takes time, but I think it's the
+right way to do it.
+
+624
+00:34:35,600 --> 00:34:40,000
+Investing in that innovation
+process is where we see really
+
+625
+00:34:40,000 --> 00:34:42,239
+critical to to our performances
+in the future.
+
+626
+00:34:43,320 --> 00:34:51,920
+And how easy or difficult is it
+or a barrier to get the riders
+
+627
+00:34:51,920 --> 00:34:55,280
+involved because you've said at
+the same time they're off doing
+
+628
+00:34:55,760 --> 00:34:59,880
+6070 race days or however long
+some of them do, How easy is it
+
+629
+00:34:59,880 --> 00:35:02,920
+to get them to come, you know,
+to a test or to go?
+
+630
+00:35:02,920 --> 00:35:05,920
+Is that a limiting factor
+sometimes?
+
+631
+00:35:07,040 --> 00:35:09,000
+Yeah, there's a few things to
+that.
+
+632
+00:35:09,040 --> 00:35:12,640
+I think the first thing we do is
+whenever we speak to new riders,
+
+633
+00:35:12,640 --> 00:35:16,160
+we always tell them about our
+process, that we're, you know,
+
+634
+00:35:16,160 --> 00:35:20,400
+we're an innovative team, that
+we take risks, that we push the
+
+635
+00:35:20,400 --> 00:35:22,240
+boundaries on these things.
+And that ultimately that
+
+636
+00:35:22,240 --> 00:35:24,560
+requires investment of time as
+well.
+
+637
+00:35:24,920 --> 00:35:27,800
+And you know, for some riders,
+maybe that's not what they want
+
+638
+00:35:27,840 --> 00:35:30,840
+from their cycling team.
+And therefore it's a
+
+639
+00:35:30,840 --> 00:35:33,720
+conversation to have early on to
+set expectations.
+
+640
+00:35:34,440 --> 00:35:39,240
+But we've also realized as we
+move forward that still it's,
+
+641
+00:35:39,280 --> 00:35:42,360
+you know, it's impractical to
+expect riders to be available
+
+642
+00:35:42,400 --> 00:35:44,480
+24/7 for the, for these
+learnings.
+
+643
+00:35:44,800 --> 00:35:46,680
+So what we really try and do is
+we try and leverage
+
+644
+00:35:46,680 --> 00:35:48,920
+methodologies that allow us to
+do a lot of the stuff
+
+645
+00:35:48,920 --> 00:35:51,480
+beforehand.
+So we do a lot of simulation.
+
+646
+00:35:51,480 --> 00:35:54,600
+We have 3D scans of the majority
+of our riders.
+
+647
+00:35:55,960 --> 00:35:57,960
+So we can do a lot of
+digitalization.
+
+648
+00:35:57,960 --> 00:35:59,920
+So we can do a lot of CFD
+computation.
+
+649
+00:35:59,920 --> 00:36:04,280
+We can do a lot of clothing
+optimization fit, we can do a
+
+650
+00:36:04,280 --> 00:36:07,960
+lot of understanding external to
+them even being needed.
+
+651
+00:36:08,760 --> 00:36:11,680
+We also create mannequins and we
+have mannequins of, you know,
+
+652
+00:36:12,080 --> 00:36:14,440
+our higher priority riders
+peddling mannequins that allow
+
+653
+00:36:14,440 --> 00:36:17,080
+us to go to the wind tunnel and
+test things without them being
+
+654
+00:36:17,080 --> 00:36:19,320
+there.
+So we have really high
+
+655
+00:36:19,320 --> 00:36:22,600
+repeatability methods.
+You know, it's also what we find
+
+656
+00:36:22,600 --> 00:36:26,680
+is with riders, I'm sure anyone
+working in with humans and doing
+
+657
+00:36:26,680 --> 00:36:29,360
+testing, as you see that it's
+really difficult to get reliable
+
+658
+00:36:29,360 --> 00:36:33,000
+data because naturally you're a
+human, you get tired, you get
+
+659
+00:36:33,000 --> 00:36:35,560
+hungry.
+Whereas if you have a mannequin,
+
+660
+00:36:35,560 --> 00:36:38,240
+you can run them for 10 hours a
+day and get ready for
+
+661
+00:36:38,240 --> 00:36:39,840
+repeatability and not have to
+feed them.
+
+662
+00:36:39,840 --> 00:36:43,000
+So it gives you a lot more scope
+and capacity to do that work.
+
+663
+00:36:43,440 --> 00:36:45,600
+But there always needs to be a
+validation step and that's
+
+664
+00:36:45,600 --> 00:36:47,600
+really important.
+We always make sure that all the
+
+665
+00:36:47,600 --> 00:36:51,640
+work we're doing loops back to
+either field testing or some
+
+666
+00:36:51,640 --> 00:36:56,080
+kind of simulation tool, be it
+wind tunnel track testing in the
+
+667
+00:36:56,080 --> 00:36:59,560
+field to validate the findings
+that we find from doing all this
+
+668
+00:36:59,560 --> 00:37:02,800
+kind of in detailed research.
+And for sure that costs time
+
+669
+00:37:02,800 --> 00:37:06,000
+from the riders.
+But we try and educate our
+
+670
+00:37:06,000 --> 00:37:09,600
+riders on why we're doing that.
+We, we empower them, we show
+
+671
+00:37:09,600 --> 00:37:11,360
+them their data.
+You know, I think we're really
+
+672
+00:37:11,360 --> 00:37:14,360
+open from that perspective.
+We, we give them that
+
+673
+00:37:14,360 --> 00:37:17,680
+information so they understand,
+OK, we're asking you to do this
+
+674
+00:37:17,800 --> 00:37:20,280
+and we've provided you this and
+this is the consequence.
+
+675
+00:37:20,640 --> 00:37:23,240
+And for the majority of riders
+we work with, they're really
+
+676
+00:37:23,240 --> 00:37:26,760
+involved in that process and
+they really understand it.
+
+677
+00:37:27,240 --> 00:37:29,320
+I think it's one of the nice
+things with cycling.
+
+678
+00:37:29,960 --> 00:37:34,400
+It's such a data rich sport that
+actually a lot of the cyclists
+
+679
+00:37:34,400 --> 00:37:36,280
+understand, you know, they
+understand what's they
+
+680
+00:37:36,280 --> 00:37:39,400
+understand what's savings, they
+understand speed gain.
+
+681
+00:37:39,400 --> 00:37:41,680
+You know, they're even some of
+them, you know, they understand
+
+682
+00:37:41,680 --> 00:37:45,080
+aerodynamics and they can quote
+you the equation for XYZ.
+
+683
+00:37:45,760 --> 00:37:48,920
+And yeah, it's definitely
+something that's really powerful
+
+684
+00:37:48,920 --> 00:37:52,760
+in cycling that that you can
+have that conversation and they
+
+685
+00:37:52,760 --> 00:37:55,080
+know how hard they're trained to
+try and gain 10 watts.
+
+686
+00:37:55,080 --> 00:37:57,720
+So when you can tell you can
+find it from something else that
+
+687
+00:37:57,720 --> 00:38:00,080
+they're usually quite grateful
+and willing to invest that time
+
+688
+00:38:00,080 --> 00:38:03,160
+in.
+It and do you see a shift
+
+689
+00:38:03,160 --> 00:38:06,160
+between the younger riders who
+were just coming through from
+
+690
+00:38:06,160 --> 00:38:08,080
+the development squads and the
+older riders?
+
+691
+00:38:08,080 --> 00:38:11,800
+Is there a has has has all of
+this changed?
+
+692
+00:38:11,800 --> 00:38:15,160
+The past 5-10 years meant that
+the younger riders are far more
+
+693
+00:38:15,240 --> 00:38:19,040
+educated than maybe the the
+older generation are.
+
+694
+00:38:20,120 --> 00:38:22,720
+Yeah, it's, that's a really,
+really good question.
+
+695
+00:38:22,720 --> 00:38:26,320
+It's something that we we see
+quite a lot in many different
+
+696
+00:38:26,320 --> 00:38:29,600
+ways.
+So I think generally the younger
+
+697
+00:38:29,600 --> 00:38:32,880
+generation are a lot more, like
+you said, maybe educate on it
+
+698
+00:38:32,880 --> 00:38:35,800
+and, and, and thoughtful of it,
+but I'd say sometimes also
+
+699
+00:38:35,800 --> 00:38:37,880
+obsessed with it, which can be
+quite interesting.
+
+700
+00:38:37,920 --> 00:38:42,400
+You know, it's sometimes they
+think it's a, it's a PlayStation
+
+701
+00:38:42,400 --> 00:38:45,680
+game and, and you know, it's a
+laboratory and, and, and it's,
+
+702
+00:38:45,680 --> 00:38:48,800
+you know, it's only this
+equation of numbers and, and,
+
+703
+00:38:48,800 --> 00:38:50,400
+and clothing and equipment and
+things like that.
+
+704
+00:38:50,400 --> 00:38:52,480
+And what you actually see is,
+you know, you've also got to
+
+705
+00:38:52,480 --> 00:38:56,000
+make decisions within a race.
+You've also got to be able to
+
+706
+00:38:56,000 --> 00:38:59,240
+tactically and technically be
+able to execute on a bike.
+
+707
+00:38:59,240 --> 00:39:03,200
+And there are things that
+sometimes are often overlooked,
+
+708
+00:39:03,200 --> 00:39:05,280
+you know, with the younger
+generation that that that's what
+
+709
+00:39:05,280 --> 00:39:08,560
+also wins your bike races.
+It's not just all this physics,
+
+710
+00:39:08,560 --> 00:39:11,400
+but actually there's a it's a
+sport and there's decisions and
+
+711
+00:39:12,120 --> 00:39:14,720
+it just we had some really
+interesting talks with with
+
+712
+00:39:14,720 --> 00:39:17,200
+Julianne.
+Like Julianne is a has joined
+
+713
+00:39:17,200 --> 00:39:20,280
+the team recently and
+historically, you know, he's not
+
+714
+00:39:20,280 --> 00:39:23,160
+a man who's obsessed with data
+or or insights something for
+
+715
+00:39:23,160 --> 00:39:24,360
+that.
+He's a guy who wants to race his
+
+716
+00:39:24,360 --> 00:39:28,040
+bike, but he also understands
+the value of it and he trusts
+
+717
+00:39:28,040 --> 00:39:30,640
+that if we say, OK, we're going
+to do XYZ, we're going to try to
+
+718
+00:39:30,640 --> 00:39:33,320
+prove it, that we're working on
+that in the background, you
+
+719
+00:39:33,320 --> 00:39:34,600
+know, and he's really open to
+that.
+
+720
+00:39:34,640 --> 00:39:37,360
+But that was one of the things
+that was really important when
+
+721
+00:39:37,360 --> 00:39:39,560
+he joined the team that we do
+this stuff.
+
+722
+00:39:40,000 --> 00:39:43,720
+But he also has that passion
+about racing your bike and, you
+
+723
+00:39:43,720 --> 00:39:47,120
+know, and educating the younger
+riders on tactics, technical
+
+724
+00:39:47,560 --> 00:39:49,560
+positioning.
+There are things that we also
+
+725
+00:39:49,560 --> 00:39:50,800
+know are super important as
+well.
+
+726
+00:39:50,800 --> 00:39:53,480
+So it's definitely an
+interesting time in cycling from
+
+727
+00:39:53,480 --> 00:39:55,280
+that regard.
+Yeah.
+
+728
+00:39:55,280 --> 00:39:57,440
+And I think that's a really good
+point actually, because I feel
+
+729
+00:39:57,440 --> 00:40:04,040
+in some ways that, you know,
+Team Sky arguably were the one
+
+730
+00:40:04,040 --> 00:40:08,280
+that really held at this shift
+to a more like marginal gains
+
+731
+00:40:08,280 --> 00:40:12,720
+obviously in data-driven, but I
+would argue that potentially it
+
+732
+00:40:12,720 --> 00:40:16,080
+turned.
+Maybe it was the personalities
+
+733
+00:40:16,080 --> 00:40:18,600
+who were in the team, but he was
+a little bit mechanical, a
+
+734
+00:40:18,600 --> 00:40:22,120
+little bit the emotion maybe
+went out of it a little bit,
+
+735
+00:40:23,240 --> 00:40:27,080
+which led to a bit of a backlash
+almost on some of that.
+
+736
+00:40:27,200 --> 00:40:33,000
+And but now you've got people
+like today who clearly do a lot
+
+737
+00:40:33,000 --> 00:40:35,640
+of the data stuff where you, you
+know, he does a lot of training
+
+738
+00:40:35,640 --> 00:40:39,320
+and the team.
+But it it it's perceivably seems
+
+739
+00:40:39,320 --> 00:40:44,120
+more impulsive and more
+emotional, a bit like Giuliani
+
+740
+00:40:44,120 --> 00:40:47,520
+Philippe.
+So I guess the sport has to
+
+741
+00:40:47,520 --> 00:40:50,320
+balance both, doesn't it?
+If it becomes too obsessed with
+
+742
+00:40:50,360 --> 00:40:54,200
+all the data and sort of
+mechanical stuff, then the human
+
+743
+00:40:54,200 --> 00:40:58,840
+side and what we love of seeing
+riders may sort of lose that as
+
+744
+00:40:58,840 --> 00:41:01,560
+well.
+So I guess maybe that's the the
+
+745
+00:41:01,560 --> 00:41:04,120
+balance isn't?
+It definitely, it's
+
+746
+00:41:04,120 --> 00:41:08,360
+storytelling, you know, it's
+people, it's, it's, and I think
+
+747
+00:41:08,360 --> 00:41:10,720
+the same thing happened with F1,
+you know, it's, it's, it's
+
+748
+00:41:11,000 --> 00:41:15,040
+finding a way for people to to
+build them emotional
+
+749
+00:41:15,040 --> 00:41:17,800
+relationships, to tell these
+stories, these experiences.
+
+750
+00:41:18,000 --> 00:41:21,360
+That's just as important as all
+the tech that allows for them
+
+751
+00:41:21,360 --> 00:41:23,280
+things to happen, you know.
+So it's definitely this, this
+
+752
+00:41:23,280 --> 00:41:26,080
+balance for sure.
+Yeah, One thing that I would
+
+753
+00:41:26,080 --> 00:41:29,440
+love to see, and I, I assume
+it's been discussed and maybe
+
+754
+00:41:29,440 --> 00:41:33,000
+it's just not happened for
+various reasons, is I find the
+
+755
+00:41:33,000 --> 00:41:40,080
+riders are so good at masking
+their pain that it's, you don't
+
+756
+00:41:40,080 --> 00:41:43,080
+always know.
+And as a sort of more geeky
+
+757
+00:41:43,080 --> 00:41:46,080
+person, I would love, and I know
+they've started to do this a
+
+758
+00:41:46,080 --> 00:41:49,240
+little bit, but I would love to
+have their like body
+
+759
+00:41:49,240 --> 00:41:52,480
+temperature, their heart rate,
+their power, like in real time.
+
+760
+00:41:52,760 --> 00:41:56,320
+So I could sort of see how much
+they're suffering almost, you
+
+761
+00:41:56,320 --> 00:42:01,040
+know, because sometimes you see
+somebody and you think they're
+
+762
+00:42:01,040 --> 00:42:03,320
+doing great and then they
+suddenly just go and you think,
+
+763
+00:42:03,320 --> 00:42:06,600
+surely, you know, he's felt that
+for a while, but he's just
+
+764
+00:42:06,600 --> 00:42:08,280
+hidden it, you know?
+Do you know what I'm talking
+
+765
+00:42:08,280 --> 00:42:08,960
+about?
+I don't know.
+
+766
+00:42:09,320 --> 00:42:12,560
+The data could be.
+Used to make the sport more
+
+767
+00:42:12,600 --> 00:42:16,120
+interactive in a way.
+It's a really good point and
+
+768
+00:42:16,120 --> 00:42:20,200
+it's something, you know, as a,
+as Tudor and, and people I speak
+
+769
+00:42:20,200 --> 00:42:22,600
+to have thought about a lot.
+It's, it's how do you improve
+
+770
+00:42:22,600 --> 00:42:26,080
+that viewer engagement?
+You know, can you give more
+
+771
+00:42:26,080 --> 00:42:30,240
+insights to allow, to allow for
+a better experience?
+
+772
+00:42:30,240 --> 00:42:33,240
+And I think it's something that
+F1 did over the last, you know,
+
+773
+00:42:33,240 --> 00:42:37,680
+5 or 10 years with cameras and,
+and having more of the, the
+
+774
+00:42:37,680 --> 00:42:40,360
+radio on on on the TV and things
+like that.
+
+775
+00:42:40,360 --> 00:42:42,920
+I think them things are that
+they're the really nice insights
+
+776
+00:42:42,920 --> 00:42:45,160
+that you gather and you think,
+oh, OK, yeah, that, you know, I
+
+777
+00:42:45,160 --> 00:42:47,600
+have this unique insight on
+what's happening in the F1 car.
+
+778
+00:42:47,600 --> 00:42:50,680
+And I think cycling can, can
+definitely move forward.
+
+779
+00:42:50,680 --> 00:42:52,560
+There are there are some
+initiatives, there's initiative
+
+780
+00:42:52,560 --> 00:42:56,200
+called Velon, which is kind of a
+set a separate company that kind
+
+781
+00:42:56,200 --> 00:42:59,400
+of is attached to certain races
+and they have like more data
+
+782
+00:42:59,400 --> 00:43:02,640
+insights and they share certain
+insights they have in, you know,
+
+783
+00:43:03,080 --> 00:43:06,400
+in video footage of the races.
+But apart from that, it's quite
+
+784
+00:43:06,400 --> 00:43:08,880
+controlled from the UCI.
+So it's not something a team
+
+785
+00:43:08,880 --> 00:43:11,200
+could do individually.
+You know, it's not like we could
+
+786
+00:43:11,280 --> 00:43:13,880
+put cameras on every bike and
+release it to the world.
+
+787
+00:43:14,280 --> 00:43:16,560
+It's very restrictive from that
+perspective.
+
+788
+00:43:16,560 --> 00:43:20,560
+So it would take a from a UCI
+level from an organization to,
+
+789
+00:43:20,560 --> 00:43:23,080
+to kind of take it forward.
+But for me, it's something that
+
+790
+00:43:23,120 --> 00:43:25,520
+should definitely be done.
+And if it's done on a level
+
+791
+00:43:25,520 --> 00:43:28,160
+playing field, there's no
+negative consequence of that.
+
+792
+00:43:28,160 --> 00:43:31,120
+If everyone has to have a
+camera, then it's the same, you
+
+793
+00:43:31,120 --> 00:43:32,520
+know, and then you get all these
+insights.
+
+794
+00:43:32,520 --> 00:43:34,440
+So no, I will be definitely for
+that.
+
+795
+00:43:35,760 --> 00:43:39,720
+So maybe 1 you, you mentioned a
+little bit and maybe this is
+
+796
+00:43:39,720 --> 00:43:44,840
+teeing a little bit to some of
+the AI or machine learning side
+
+797
+00:43:44,840 --> 00:43:47,640
+of things, but maybe first on
+the strategy side.
+
+798
+00:43:47,640 --> 00:43:52,240
+So you've talked a lot about
+nutrition, bike design, how much
+
+799
+00:43:53,240 --> 00:43:56,560
+data can be used to optimize
+strategy?
+
+800
+00:43:56,560 --> 00:43:59,800
+You know, when someone should
+try, because sometimes I watch a
+
+801
+00:43:59,800 --> 00:44:06,440
+race and I see somebody try to
+break away and I think surely
+
+802
+00:44:06,440 --> 00:44:11,160
+there's an optimum power for
+them to just get that break, you
+
+803
+00:44:11,160 --> 00:44:13,280
+know, to the elastic to get.
+And you think, oh, if they could
+
+804
+00:44:13,280 --> 00:44:16,400
+have just gone for another 10
+seconds, maybe they would have
+
+805
+00:44:16,400 --> 00:44:20,560
+actually made it.
+Is there any way that you can
+
+806
+00:44:20,560 --> 00:44:25,000
+look at that sort of more
+strategy side of things with the
+
+807
+00:44:25,000 --> 00:44:30,200
+data-driven sport as it is now?
+Yeah, it's something I think a
+
+808
+00:44:30,200 --> 00:44:33,240
+lot of teams are are trying to
+do and excited about.
+
+809
+00:44:34,480 --> 00:44:36,680
+Like I said, cyclins are very
+data rich sports.
+
+810
+00:44:36,680 --> 00:44:38,680
+So we have a lot of data.
+You know, we have second by
+
+811
+00:44:38,680 --> 00:44:43,320
+second data on all our riders
+for maybe 1000 hours of training
+
+812
+00:44:43,320 --> 00:44:46,920
+a year for many, many years.
+So we have a lot of data there
+
+813
+00:44:47,000 --> 00:44:49,120
+and I think people are now
+starting to harness it.
+
+814
+00:44:49,720 --> 00:44:53,520
+We definitely have quite a few
+projects that we look at, you
+
+815
+00:44:53,520 --> 00:44:56,480
+know, we try and look at certain
+riders.
+
+816
+00:44:57,000 --> 00:44:59,920
+Can they make it in certain
+races, you know, maybe sprinters
+
+817
+00:44:59,920 --> 00:45:01,760
+for instance, can they pass
+certain climbs?
+
+818
+00:45:01,760 --> 00:45:04,960
+What's the probability of
+chances of success to get to a
+
+819
+00:45:04,960 --> 00:45:07,240
+certain point?
+Yeah.
+
+820
+00:45:07,280 --> 00:45:10,640
+Do we expect a breakaway or not?
+I think it's quite an
+
+821
+00:45:10,640 --> 00:45:14,800
+interesting one.
+Do we expect it to to succeed?
+
+822
+00:45:14,800 --> 00:45:17,440
+Should we should we participate
+in that on certain stages?
+
+823
+00:45:18,720 --> 00:45:20,560
+I think there's, there's lots of
+things that can be done.
+
+824
+00:45:20,560 --> 00:45:26,000
+There's a lot of stuff around
+race choice and, and picking
+
+825
+00:45:26,000 --> 00:45:28,440
+certain races for certain
+riders, understanding where
+
+826
+00:45:28,440 --> 00:45:31,480
+their kind of potential is, you
+know, for, for results.
+
+827
+00:45:32,920 --> 00:45:36,280
+So yeah, there's definitely a
+lot of optimization for, for
+
+828
+00:45:36,280 --> 00:45:38,800
+those kind of data insights from
+data that's driven there.
+
+829
+00:45:39,160 --> 00:45:42,680
+And then I think also with AI
+and, and the other kind of
+
+830
+00:45:42,680 --> 00:45:44,880
+emerging techniques, there's,
+there's lots of stuff to be done
+
+831
+00:45:44,880 --> 00:45:48,560
+around, around all the CFD
+computation stuff that we do.
+
+832
+00:45:48,920 --> 00:45:52,440
+We've found that really in the
+earlier processes of that, but
+
+833
+00:45:53,000 --> 00:45:55,360
+every time we run a simulation,
+every time we generate some
+
+834
+00:45:55,360 --> 00:45:58,760
+data, we know that there could
+be long term potential insights
+
+835
+00:45:58,760 --> 00:46:00,040
+in that data.
+So it's really about
+
+836
+00:46:00,040 --> 00:46:04,680
+understanding how to, to
+sequence the store to, to, to
+
+837
+00:46:04,720 --> 00:46:07,720
+evolve to know that maybe, you
+know, maybe not now, but in one
+
+838
+00:46:07,720 --> 00:46:10,640
+year, 2 year, five years,
+there's, there's insights that
+
+839
+00:46:10,640 --> 00:46:13,560
+can be gathered from that.
+And I think it's, yeah, making
+
+840
+00:46:13,560 --> 00:46:16,360
+sure you're in the the right
+place now to set them things up
+
+841
+00:46:16,480 --> 00:46:19,120
+so that in the future it is
+definitely a possibilities,
+
+842
+00:46:19,120 --> 00:46:21,280
+that's for sure.
+So would it be fair to say that
+
+843
+00:46:21,280 --> 00:46:28,800
+probably cycling has for the
+past, you know, 2-3, four years
+
+844
+00:46:28,800 --> 00:46:32,800
+been moving far more to a
+data-driven attack, But we're,
+
+845
+00:46:32,840 --> 00:46:37,600
+we're only just entering now the
+age of really AI for it.
+
+846
+00:46:37,600 --> 00:46:42,360
+That would it be fair to say
+that most of cycling is probably
+
+847
+00:46:42,360 --> 00:46:44,760
+always just now really getting
+into potential.
+
+848
+00:46:44,760 --> 00:46:48,400
+So that could be something in
+the coming years that that could
+
+849
+00:46:48,400 --> 00:46:50,400
+be used because as we talked
+about that sort of design
+
+850
+00:46:50,400 --> 00:46:52,840
+optimization, you know, you've
+got so many different choices
+
+851
+00:46:52,840 --> 00:46:57,880
+that seems or even logistics, I
+guess AI is a classic tool for
+
+852
+00:46:57,880 --> 00:47:01,680
+optimizing things.
+Yeah, yeah, it definitely is
+
+853
+00:47:01,680 --> 00:47:03,480
+something that I think we'll see
+more and more of.
+
+854
+00:47:03,480 --> 00:47:07,040
+I think the sport itself is
+getting more professional, more
+
+855
+00:47:07,040 --> 00:47:09,560
+funding.
+It's having, you know, more
+
+856
+00:47:10,440 --> 00:47:13,680
+people like myself working
+sport, you know, kind of sitting
+
+857
+00:47:13,680 --> 00:47:16,720
+in between the lines of of
+scientists that are kind of
+
+858
+00:47:16,720 --> 00:47:19,680
+integrated.
+And yeah, I'd say most of the
+
+859
+00:47:19,720 --> 00:47:22,160
+highest level teams now are
+starting to understand that and
+
+860
+00:47:22,160 --> 00:47:25,440
+invest some of their resource in
+that and not just in better
+
+861
+00:47:25,440 --> 00:47:28,480
+riders or, you know, or things
+like that.
+
+862
+00:47:29,520 --> 00:47:34,040
+So what how about for for Tudor
+in particular, what does the,
+
+863
+00:47:34,160 --> 00:47:38,240
+the sort of future hold?
+What, what's the big target, I
+
+864
+00:47:38,240 --> 00:47:42,440
+guess this year and the coming
+years that that is driving all
+
+865
+00:47:42,440 --> 00:47:45,000
+this towards?
+Do you have some very specific
+
+866
+00:47:45,320 --> 00:47:48,600
+things that the team is trying
+to, you know, focus on and and
+
+867
+00:47:48,640 --> 00:47:53,320
+and succeed?
+Yeah, I think as a team, I mean
+
+868
+00:47:53,320 --> 00:47:55,360
+we have, we have quite a lot of
+strategy.
+
+869
+00:47:55,360 --> 00:47:57,160
+I think in terms of where we
+want to go.
+
+870
+00:47:57,160 --> 00:47:59,880
+We're we're really fortunate
+that we're a long term team.
+
+871
+00:47:59,960 --> 00:48:03,440
+We have a long term vision and
+and a sustainable long term
+
+872
+00:48:03,440 --> 00:48:06,400
+vision, which I think is quite
+unique in cycling.
+
+873
+00:48:07,880 --> 00:48:12,240
+I think the first priority of
+the team is really to be in a
+
+874
+00:48:12,240 --> 00:48:14,680
+position to allow us to have the
+full race calendar.
+
+875
+00:48:15,400 --> 00:48:17,080
+So for people who don't
+understand cycling, if you're
+
+876
+00:48:17,080 --> 00:48:20,040
+not a World Tour team, if you
+don't want the top 18 teams,
+
+877
+00:48:20,360 --> 00:48:24,000
+then essentially you're kind of
+at the will of the race
+
+878
+00:48:24,000 --> 00:48:26,440
+organizers to invite you to the
+biggest races.
+
+879
+00:48:27,720 --> 00:48:32,080
+So we know if we achieve a
+certain rating every year, being
+
+880
+00:48:32,080 --> 00:48:35,240
+one of what's called the top 2
+pro teams, then that will allow
+
+881
+00:48:35,240 --> 00:48:37,560
+us to have a full race calendar.
+And then once we have a full
+
+882
+00:48:37,560 --> 00:48:42,240
+race calendar, it then opens up
+all the opportunities in terms
+
+883
+00:48:42,240 --> 00:48:44,000
+of where we want to go and how
+we want to do stuff at the
+
+884
+00:48:44,000 --> 00:48:45,640
+moment.
+Because we're a brand new team,
+
+885
+00:48:46,600 --> 00:48:49,000
+we have to rely on them
+invitations, which can make
+
+886
+00:48:49,000 --> 00:48:51,760
+planning and strategy quite
+challenging sometimes.
+
+887
+00:48:52,320 --> 00:48:56,280
+So that's our first real goal.
+And really the long term goal,
+
+888
+00:48:56,280 --> 00:48:59,320
+especially from my perspective
+is around the innovation team is
+
+889
+00:48:59,320 --> 00:49:02,640
+really to just be a world
+leading innovation team with
+
+890
+00:49:02,640 --> 00:49:07,080
+regards to performance.
+So a safety, aerodynamics,
+
+891
+00:49:07,200 --> 00:49:09,600
+thermal from all the
+opportunities, having this whole
+
+892
+00:49:09,600 --> 00:49:13,320
+system, individualized approach
+around key riders, looking at
+
+893
+00:49:13,320 --> 00:49:17,320
+them as a whole system is really
+where the next, you know, 5-10
+
+894
+00:49:17,320 --> 00:49:20,000
+years look like.
+And we can really do that
+
+895
+00:49:20,000 --> 00:49:23,160
+ultimately, because we have a
+sustainable platform to launch
+
+896
+00:49:23,160 --> 00:49:25,560
+from.
+You know, it's, I can imagine
+
+897
+00:49:25,560 --> 00:49:28,160
+it's quite hard if you're in a
+team that's unstable to think,
+
+898
+00:49:28,280 --> 00:49:30,560
+you know, I'm going to do this
+now and it might not pay off in
+
+899
+00:49:30,560 --> 00:49:34,200
+five years, but we, we're in a
+real good place that we can do
+
+900
+00:49:34,200 --> 00:49:35,640
+that.
+And I think that really allows
+
+901
+00:49:35,640 --> 00:49:39,320
+us to be a front runner in the
+future and really invest in this
+
+902
+00:49:39,320 --> 00:49:42,160
+kind of data-driven science
+driven approach.
+
+903
+00:49:43,640 --> 00:49:48,360
+So maybe turning maybe towards
+the end of the of this chat,
+
+904
+00:49:48,360 --> 00:49:51,080
+towards the top of that, I think
+is I personally am always
+
+905
+00:49:51,080 --> 00:49:54,760
+interested in which is the
+advice for people and engineers
+
+906
+00:49:54,760 --> 00:49:58,960
+wanting to get into the sport.
+You know, you, you came through
+
+907
+00:49:58,960 --> 00:50:02,640
+the PhD route and then you, you
+know, you sort of work towards,
+
+908
+00:50:02,640 --> 00:50:05,200
+you say like different sports
+and then track and then thing,
+
+909
+00:50:05,520 --> 00:50:08,640
+you know, looking back, what
+sort of advice?
+
+910
+00:50:08,960 --> 00:50:12,120
+Maybe let's break it down from a
+is it?
+
+911
+00:50:12,440 --> 00:50:15,320
+Yeah, well, first of all, high
+level advice and then maybe we
+
+912
+00:50:15,360 --> 00:50:20,760
+can pick apart some stuff.
+Yeah, I think about this a lot.
+
+913
+00:50:21,120 --> 00:50:24,920
+I I really try and, yeah, take
+responsibility on myself to, to
+
+914
+00:50:24,920 --> 00:50:27,400
+look back at, you know, when I
+was younger and what were the
+
+915
+00:50:27,560 --> 00:50:30,320
+reasons why I, I'm in the
+fortunate position I am now.
+
+916
+00:50:30,760 --> 00:50:34,440
+And I really try and give back
+to that because for me, some of
+
+917
+00:50:34,440 --> 00:50:37,800
+the things I really reflect on
+is I had really good mentors.
+
+918
+00:50:37,800 --> 00:50:41,400
+Like I had people who went
+through that process and really
+
+919
+00:50:41,400 --> 00:50:45,200
+allowed me to connect, to
+discuss, to learn, to evolve,
+
+920
+00:50:45,200 --> 00:50:48,320
+grow.
+And I think that was fundamental
+
+921
+00:50:48,320 --> 00:50:51,560
+to where I am today, having them
+mentorships.
+
+922
+00:50:51,560 --> 00:50:54,880
+If it's just having a coffee,
+picking the phone up, what do
+
+923
+00:50:54,880 --> 00:50:56,720
+you think about this?
+Oh, I have a friend who does
+
+924
+00:50:56,720 --> 00:50:58,120
+this.
+You know, why don't you have
+
+925
+00:50:58,120 --> 00:51:00,040
+some conversations?
+I think that I'd really
+
+926
+00:51:00,040 --> 00:51:03,640
+encourage that spirit of, you
+know, mentorship is really
+
+927
+00:51:03,640 --> 00:51:06,120
+important and I think it's
+responsible both for young
+
+928
+00:51:06,160 --> 00:51:08,800
+practitioners, but also for
+experienced practitioners like
+
+929
+00:51:08,800 --> 00:51:12,560
+myself to, to also give back, I
+think is really important.
+
+930
+00:51:13,680 --> 00:51:16,840
+I think the other thing is work
+ethic and, and, and doing your
+
+931
+00:51:16,840 --> 00:51:20,720
+time like it's something that I
+really, you know, pride myself
+
+932
+00:51:20,720 --> 00:51:24,240
+on and was something that really
+allowed me to move forward.
+
+933
+00:51:24,240 --> 00:51:27,280
+You know, I was the first person
+to say yes to a volunteer
+
+934
+00:51:27,280 --> 00:51:31,000
+opportunity to fill up bottles
+on the side of a rugby pitch,
+
+935
+00:51:31,000 --> 00:51:35,080
+you know, or if it was to go to
+a swim meet in, in, you know,
+
+936
+00:51:35,200 --> 00:51:39,000
+wherever and at 6:00 AM in the
+morning, just to, to be embedded
+
+937
+00:51:39,000 --> 00:51:42,240
+within sport opportunities.
+And I didn't, and I really tried
+
+938
+00:51:42,240 --> 00:51:45,160
+to take on as many opportunities
+as I could when I was younger
+
+939
+00:51:45,160 --> 00:51:47,800
+just to see and feel and
+understand why I wanted to work
+
+940
+00:51:47,800 --> 00:51:51,120
+in professional sport.
+And that goes a long way because
+
+941
+00:51:51,120 --> 00:51:54,920
+when people see you're just
+willing to, to say yes and, and
+
+942
+00:51:54,920 --> 00:51:58,800
+to, to understand and learn, I
+think can be really valuable.
+
+943
+00:51:58,800 --> 00:52:03,320
+And, and that's a trait that I
+really look for in people.
+
+944
+00:52:03,320 --> 00:52:05,880
+I look for that kind of willing
+spirit.
+
+945
+00:52:05,880 --> 00:52:09,760
+I think a lot of people in my
+experience, you can train them
+
+946
+00:52:09,960 --> 00:52:12,920
+for the, for the skills that you
+need, but actually the, the
+
+947
+00:52:12,920 --> 00:52:16,120
+character and personality of
+someone is kind of ingrained.
+
+948
+00:52:16,120 --> 00:52:18,080
+And I think if you can show
+that, you know, you're willing
+
+949
+00:52:18,080 --> 00:52:22,960
+to, to work, to, to listen to,
+to put, to put effort in, to be
+
+950
+00:52:22,960 --> 00:52:25,920
+passionate about something.
+I, I go for that any day over
+
+951
+00:52:25,920 --> 00:52:28,680
+someone who has, you know, five
+years experience of doing the
+
+952
+00:52:28,680 --> 00:52:30,920
+job already, You know, I really
+look for, for that.
+
+953
+00:52:30,920 --> 00:52:33,720
+So that would be some of the
+things I would say mentorship
+
+954
+00:52:33,720 --> 00:52:36,560
+really and and that kind of
+spirit of just willing to, to
+
+955
+00:52:36,560 --> 00:52:40,440
+do.
+And what about from a practical
+
+956
+00:52:40,440 --> 00:52:44,120
+point of view?
+What sort of are you looking
+
+957
+00:52:44,120 --> 00:52:51,160
+more for like engineers, more
+for sports science, more for
+
+958
+00:52:51,160 --> 00:52:55,400
+like data science?
+Is there certain sort of skill
+
+959
+00:52:55,400 --> 00:52:59,240
+sets and maybe degrees that put
+you, I guess traditionally
+
+960
+00:52:59,240 --> 00:53:03,240
+sports science would have been
+the route in to a sport.
+
+961
+00:53:03,240 --> 00:53:05,440
+Is that still the case or do you
+think it's more about like
+
+962
+00:53:05,440 --> 00:53:07,360
+engineering and data science
+now?
+
+963
+00:53:08,600 --> 00:53:10,080
+I'd say historically you're
+correct.
+
+964
+00:53:10,080 --> 00:53:14,880
+It was sports science and, and
+really probably was, yeah, the
+
+965
+00:53:14,880 --> 00:53:17,280
+first investment I'd say from
+professionals, at least in
+
+966
+00:53:17,280 --> 00:53:21,800
+cycling was sports science and
+understanding sports derived
+
+967
+00:53:21,800 --> 00:53:25,640
+things, physiologists.
+And what you saw is then people
+
+968
+00:53:25,640 --> 00:53:28,640
+generally then sat like myself
+across many spectrums.
+
+969
+00:53:28,640 --> 00:53:31,960
+You know, we did data science,
+we did performance analysis.
+
+970
+00:53:31,960 --> 00:53:35,200
+We kind of did the bits that we
+did some nutrition, maybe we did
+
+971
+00:53:35,200 --> 00:53:39,120
+different things to really allow
+performance to move forward and
+
+972
+00:53:39,120 --> 00:53:41,880
+having that generalized skill
+set was probably the weigh in.
+
+973
+00:53:41,880 --> 00:53:45,960
+I'd say, you know, 5 or 10 years
+ago, I'd say now sport within
+
+974
+00:53:45,960 --> 00:53:48,240
+cycle in particular, there's
+enough investment and
+
+975
+00:53:48,240 --> 00:53:51,400
+understanding that these really
+specified roles are coming in
+
+976
+00:53:51,400 --> 00:53:54,800
+and become really important.
+And I think for people who have
+
+977
+00:53:54,800 --> 00:53:57,720
+them specific skills and their
+passion for sport, there's some
+
+978
+00:53:57,720 --> 00:53:59,400
+really unique opportunities
+growing.
+
+979
+00:53:59,400 --> 00:54:03,360
+So for instance, data science,
+you know, I, I know a bit of, of
+
+980
+00:54:03,360 --> 00:54:06,400
+data science, but not to the
+level of a data scientist.
+
+981
+00:54:06,400 --> 00:54:08,720
+And I think if you can come in
+with them skills, but also the
+
+982
+00:54:08,840 --> 00:54:12,360
+conceptual understanding of
+cycling, you, there's massive
+
+983
+00:54:12,360 --> 00:54:13,560
+potential for that in the
+future.
+
+984
+00:54:13,560 --> 00:54:16,880
+And the same with engineers, you
+know, having aerodynamic
+
+985
+00:54:16,880 --> 00:54:20,680
+engineers, design engineers,
+Mechanical Engineers that have
+
+986
+00:54:20,920 --> 00:54:24,440
+this desire to work in cycling
+and this conceptual
+
+987
+00:54:24,440 --> 00:54:27,240
+understanding of cycling, I see
+more and more opportunities for
+
+988
+00:54:27,240 --> 00:54:30,520
+them either within professional
+teams or within partners that
+
+989
+00:54:30,520 --> 00:54:33,680
+work with teams.
+And you see that's definitely a
+
+990
+00:54:33,680 --> 00:54:36,560
+growing field now really that
+high level science within,
+
+991
+00:54:36,560 --> 00:54:39,200
+within sport and particularly
+with cycling, it's more and more
+
+992
+00:54:39,200 --> 00:54:43,920
+opportunities.
+And is there are there any
+
+993
+00:54:43,920 --> 00:54:47,280
+recommendations?
+You know, when people sometimes
+
+994
+00:54:47,280 --> 00:54:50,760
+ask me about Formula One,
+sometimes I say, OK, well if you
+
+995
+00:54:50,760 --> 00:54:55,480
+can't get into Formula One, try
+and do with a lower quote UN
+
+996
+00:54:55,480 --> 00:54:58,040
+quote, lower formula first just
+to get a practice spin.
+
+997
+00:54:58,520 --> 00:55:00,320
+Is that something people can do
+with cycling?
+
+998
+00:55:00,320 --> 00:55:04,760
+Or is that a slight almost gap
+that you know, it's either
+
+999
+00:55:04,760 --> 00:55:07,280
+you've done a university course
+or you work for a cycling team,
+
+1000
+00:55:07,280 --> 00:55:10,800
+but how do you get the
+experience to know?
+
+1001
+00:55:10,800 --> 00:55:14,120
+Is there any things that you're
+aware of that people can clue
+
+1002
+00:55:14,120 --> 00:55:16,960
+themselves up on?
+Cycling Pacific Knowledge.
+
+1003
+00:55:17,000 --> 00:55:21,120
+Yeah, yes, it's definitely
+difficult to make that bridge
+
+1004
+00:55:21,160 --> 00:55:25,120
+like you said, I'd say 1 The
+thing that I've seen successful
+
+1005
+00:55:25,120 --> 00:55:28,280
+people do is using the
+opportunities they have through
+
+1006
+00:55:28,360 --> 00:55:33,280
+their time as a student to allow
+for opportunities to interact
+
+1007
+00:55:33,280 --> 00:55:36,440
+with with professional sports.
+So, you know, if you're an
+
+1008
+00:55:36,440 --> 00:55:38,440
+undergraduate or a master's
+student and you know, you have
+
+1009
+00:55:38,440 --> 00:55:42,240
+to do a placement or you have to
+do a final year project, trying
+
+1010
+00:55:42,240 --> 00:55:44,680
+to drive that final year project
+in a direction where you can
+
+1011
+00:55:44,680 --> 00:55:47,560
+interact with a professional
+team is a really nice way.
+
+1012
+00:55:47,560 --> 00:55:50,720
+Because if you can approach them
+and say, you know, I need to do
+
+1013
+00:55:51,000 --> 00:55:55,480
+200 hours of XYZI, need to do
+simulation, I need to do winter
+
+1014
+00:55:55,480 --> 00:55:58,800
+tests, I need to do in the field
+research on this topic.
+
+1015
+00:55:58,800 --> 00:56:00,440
+And I think it's really
+interesting for you and we can
+
+1016
+00:56:00,440 --> 00:56:03,080
+shape the question to answer
+your problems.
+
+1017
+00:56:03,680 --> 00:56:05,920
+They're the kind of things that
+would get me really excited, you
+
+1018
+00:56:05,920 --> 00:56:08,120
+know, students that have that
+initiative, that have that
+
+1019
+00:56:08,120 --> 00:56:12,240
+capacity to drive to drive this
+thing forward.
+
+1020
+00:56:12,240 --> 00:56:14,560
+And it's a, you know, it can be
+a three month interview.
+
+1021
+00:56:14,560 --> 00:56:18,000
+And even within our team, we
+have one member that came
+
+1022
+00:56:18,000 --> 00:56:19,760
+directly from that kind of
+process.
+
+1023
+00:56:19,760 --> 00:56:22,680
+You know, was it showed
+initiative, stepped through it
+
+1024
+00:56:22,680 --> 00:56:26,040
+as a as a master's student and
+really secured an opportunity
+
+1025
+00:56:26,040 --> 00:56:28,640
+straight from graduating in, in
+professional sport because he
+
+1026
+00:56:28,640 --> 00:56:33,840
+showed that initiative to yeah
+on, on how to move, move himself
+
+1027
+00:56:33,840 --> 00:56:35,520
+forward.
+So I'd say really try and shape
+
+1028
+00:56:35,520 --> 00:56:40,400
+the experiences you have towards
+sport and, and bring a question
+
+1029
+00:56:40,400 --> 00:56:43,120
+and A and a solution rather than
+just, you know, asking for
+
+1030
+00:56:43,120 --> 00:56:45,040
+experience.
+I think that's something that's
+
+1031
+00:56:45,240 --> 00:56:48,040
+can really help you break into
+professional sport and, and also
+
+1032
+00:56:48,040 --> 00:56:51,520
+don't worry when you get a no,
+you know, I think if I remember
+
+1033
+00:56:51,520 --> 00:56:56,160
+my initial period, I apply for
+so many jobs opportunities and,
+
+1034
+00:56:57,120 --> 00:56:59,240
+and yeah, and, and sometimes
+it's not the right time, the
+
+1035
+00:56:59,240 --> 00:57:01,240
+right place and, and that's
+completely fine.
+
+1036
+00:57:01,240 --> 00:57:05,120
+And, and I really believe they
+shape you to the person you are,
+
+1037
+00:57:05,160 --> 00:57:07,960
+you know, and, and yeah, don't,
+don't give up when it, when it
+
+1038
+00:57:07,960 --> 00:57:10,520
+becomes difficult.
+I think that's just something
+
+1039
+00:57:10,520 --> 00:57:13,320
+that really allows you to to
+break into difficult industry.
+
+1040
+00:57:14,760 --> 00:57:17,760
+No, that's, that's a great piece
+of advice.
+
+1041
+00:57:17,760 --> 00:57:23,960
+And no, I, I actually, I mean
+the big picture, I always, and I
+
+1042
+00:57:23,960 --> 00:57:27,360
+guess the reason why I, we're so
+keen to speak to you and, and
+
+1043
+00:57:27,360 --> 00:57:32,320
+generally talk about cycling is
+I feel like engineering or sort
+
+1044
+00:57:32,320 --> 00:57:36,520
+of sports side of engineering
+almost is some people turn away
+
+1045
+00:57:37,080 --> 00:57:41,040
+from engineering because it's
+almost perceived as not being
+
+1046
+00:57:41,040 --> 00:57:46,080
+exciting or it's not being fun
+and they see football or
+
+1047
+00:57:46,080 --> 00:57:48,120
+whatever or, or second as being
+fun.
+
+1048
+00:57:48,120 --> 00:57:51,240
+And I suppose one of the things
+I've always been a fan of is
+
+1049
+00:57:51,480 --> 00:57:55,960
+that if you can link those two
+things, then it's like you have
+
+1050
+00:57:55,960 --> 00:57:58,360
+the pleasure of working on
+something that you actually
+
+1051
+00:57:58,920 --> 00:58:01,640
+like.
+And I think Formula One was
+
+1052
+00:58:01,640 --> 00:58:06,440
+traditionally always that thing.
+But I think it's it, it has,
+
+1053
+00:58:06,600 --> 00:58:08,720
+it's just hard to get into.
+That's just the one.
+
+1054
+00:58:08,720 --> 00:58:12,440
+And there are so many
+aerodynamicists working in a
+
+1055
+00:58:12,440 --> 00:58:16,800
+team 50, I don't know, maybe 70
+that you're just working on, you
+
+1056
+00:58:16,800 --> 00:58:20,160
+know, the equivalent of
+optimizing a spoke on a wheel,
+
+1057
+00:58:20,160 --> 00:58:23,960
+let's say, where I guess if they
+work for someone like your
+
+1058
+00:58:23,960 --> 00:58:26,960
+company, they're going to be
+working the whole thing
+
+1059
+00:58:26,960 --> 00:58:30,640
+probably.
+So it's like it's more rewarding
+
+1060
+00:58:30,680 --> 00:58:36,120
+maybe actually to sort of go
+into a cycling thing maybe than
+
+1061
+00:58:36,120 --> 00:58:39,640
+Formula One in a way.
+So it's almost, maybe I'm
+
+1062
+00:58:39,760 --> 00:58:42,800
+encouraging if there's people
+listening to maybe consider
+
+1063
+00:58:43,120 --> 00:58:45,440
+getting into the sort of cycling
+side of engineering because it
+
+1064
+00:58:45,440 --> 00:58:48,320
+could be more fulfilling
+potentially than your
+
+1065
+00:58:48,320 --> 00:58:52,320
+traditional Formula One.
+Yeah, it definitely offers that
+
+1066
+00:58:52,320 --> 00:58:55,400
+opportunity to go through the
+whole process as well.
+
+1067
+00:58:55,400 --> 00:58:58,600
+You know, it is a sport.
+We, you know, we're much less
+
+1068
+00:58:58,600 --> 00:59:01,360
+budget, we're more, you know,
+agile with our resource.
+
+1069
+00:59:01,360 --> 00:59:03,960
+And yeah, if you're in error
+analysis within cycling, you
+
+1070
+00:59:03,960 --> 00:59:07,720
+work everything from, you know,
+conceptual CFD all the way to to
+
+1071
+00:59:07,720 --> 00:59:09,520
+real world validation with a
+human being.
+
+1072
+00:59:09,520 --> 00:59:13,080
+And you're you get to have all
+them touch points across that
+
+1073
+00:59:13,080 --> 00:59:14,640
+that piece.
+And I think it makes you a much
+
+1074
+00:59:14,720 --> 00:59:17,000
+better practitioner when it's
+like that, you know, when you
+
+1075
+00:59:17,000 --> 00:59:20,320
+can understand from really
+complex kind of, you know,
+
+1076
+00:59:20,640 --> 00:59:24,160
+fundamentals all the way down to
+convincing a human being of the
+
+1077
+00:59:24,160 --> 00:59:26,400
+work you're doing and getting
+their feedback and having a
+
+1078
+00:59:26,400 --> 00:59:29,680
+holistic approach.
+That to me is what gets me out
+
+1079
+00:59:29,680 --> 00:59:31,320
+of bed every day.
+You know, I get to do this
+
+1080
+00:59:31,320 --> 00:59:34,360
+really complex science, but
+actually apply it and then
+
+1081
+00:59:34,720 --> 00:59:37,920
+ultimately seeing it in in
+competition and, you know,
+
+1082
+00:59:38,280 --> 00:59:40,520
+watching it on TV or be in their
+present.
+
+1083
+00:59:40,520 --> 00:59:43,840
+And, you know, having your heart
+rate at 180 beats a minute when
+
+1084
+00:59:44,280 --> 00:59:46,520
+when they're going into a final
+and thinking, yeah, I've played
+
+1085
+00:59:46,520 --> 00:59:48,440
+a small part in that.
+That's, that's a really nice
+
+1086
+00:59:48,440 --> 00:59:49,920
+feeling.
+And I would definitely encourage
+
+1087
+00:59:50,240 --> 00:59:53,520
+people who are interested to,
+yeah, to reach out and and to
+
+1088
+00:59:53,520 --> 00:59:55,520
+look at opportunities inside
+because it's definitely a
+
+1089
+00:59:55,520 --> 00:59:58,600
+growing space moving forward.
+Great.
+
+1090
+00:59:58,640 --> 01:00:02,040
+Well, yeah, thanks so much Kurt,
+for for for chatting today.
+
+1091
+01:00:02,040 --> 01:00:06,480
+I'm hoping people, you know, got
+the same that I have this, which
+
+1092
+01:00:06,480 --> 01:00:12,160
+is just this excitement, I guess
+for for cycling and you know,
+
+1093
+01:00:12,160 --> 01:00:16,760
+Petuda, I think it's great when
+there's these new relatively new
+
+1094
+01:00:16,760 --> 01:00:19,160
+teams coming in trying to sort
+of shake it up.
+
+1095
+01:00:19,240 --> 01:00:22,200
+And I think it's it's good
+because it makes the more
+
+1096
+01:00:22,200 --> 01:00:24,680
+established teams sort of
+whereas they've got to shake up
+
+1097
+01:00:24,680 --> 01:00:26,840
+and it.
+And it's good also for people
+
+1098
+01:00:26,840 --> 01:00:28,640
+who wanted to get into the
+sport, that there's more
+
+1099
+01:00:28,640 --> 01:00:33,080
+companies, more jobs.
+So yeah, thank you so much for
+
+1100
+01:00:33,080 --> 01:00:37,040
+speaking and educating us all on
+on what it's like to be a Pro
+
+1101
+01:00:37,040 --> 01:00:38,880
+Cycling team.
+Perfect.
+
+1102
+01:00:38,920 --> 01:00:39,360
+Thanks.
+Now.

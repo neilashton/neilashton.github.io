@@ -1,0 +1,1989 @@
+1
+00:00:00,280 --> 00:00:02,400
+Hi, and welcome to the Neil
+Ashton Podcast.
+
+2
+00:00:03,080 --> 00:00:05,920
+In each episode, we explained
+some of the fascinating ways
+
+3
+00:00:05,920 --> 00:00:09,080
+that science and engineering are
+changing the world around us.
+
+4
+00:00:09,800 --> 00:00:12,760
+We talked to leading engineers
+from elite level sports like
+
+5
+00:00:12,840 --> 00:00:16,880
+cycling in Formula One to some
+of the world's top academics to
+
+6
+00:00:16,880 --> 00:00:20,960
+understand how fluid dynamics,
+machine learning, supercomputing
+
+7
+00:00:21,360 --> 00:00:23,000
+are bringing in a new era
+discovery.
+
+8
+00:00:23,960 --> 00:00:27,080
+We also hear some of their life
+stories, their career advice,
+
+9
+00:00:27,640 --> 00:00:30,080
+the lessons they've learned on
+the way that I hope will be
+
+10
+00:00:30,080 --> 00:00:33,800
+helpful to you too.
+So sit back and enjoy this
+
+11
+00:00:33,800 --> 00:00:41,000
+episode.
+Hi, and welcome back to the Neil
+
+12
+00:00:41,000 --> 00:00:45,160
+Ashton Podcast.
+So today I wanted to give 5 tips
+
+13
+00:00:45,320 --> 00:00:49,320
+for CAE engineers in the era of
+AI.
+
+14
+00:00:50,120 --> 00:00:54,640
+Five things that I think will be
+useful for you from a career
+
+15
+00:00:54,640 --> 00:00:58,480
+point of view and from hopefully
+making the most of what I think
+
+16
+00:00:58,480 --> 00:01:01,240
+is quite an exciting new
+technology.
+
+17
+00:01:02,120 --> 00:01:05,640
+You may disagree with some of
+these things, and if you do or
+
+18
+00:01:05,640 --> 00:01:10,240
+have other tips that you think
+people should should adopt, then
+
+19
+00:01:10,520 --> 00:01:13,560
+you know, feel free to leave a
+comment if it's on YouTube or
+
+20
+00:01:13,560 --> 00:01:15,920
+LinkedIn or wherever you're
+listening to this.
+
+21
+00:01:16,600 --> 00:01:21,880
+OK, so let's get started.
+First of all, I'd say an an open
+
+22
+00:01:21,880 --> 00:01:26,800
+mind would be tip one.
+It's very easy to come from a
+
+23
+00:01:27,040 --> 00:01:31,040
+negative judgmental viewpoint
+when it comes to AI and it's
+
+24
+00:01:31,040 --> 00:01:34,080
+natural.
+We as humans often, you know,
+
+25
+00:01:34,480 --> 00:01:38,440
+see things that are pushed at us
+and sometimes we have a
+
+26
+00:01:38,440 --> 00:01:42,200
+temptation to, you know, be
+skeptical of some of this.
+
+27
+00:01:42,800 --> 00:01:48,200
+But I think that is probably the
+the worst attitude you can have.
+
+28
+00:01:48,320 --> 00:01:52,640
+I think having an open mind and
+being willing to look and listen
+
+29
+00:01:53,920 --> 00:01:58,000
+and read is important.
+At the end you may still make
+
+30
+00:01:58,000 --> 00:01:59,680
+the same judgement as you did at
+the beginning.
+
+31
+00:02:00,000 --> 00:02:05,000
+But I think most people who
+actually look into this do end
+
+32
+00:02:05,000 --> 00:02:09,199
+up changing their mind and and
+they understand better where
+
+33
+00:02:09,560 --> 00:02:14,800
+some of maybe the marketing or
+hype is over egged and but where
+
+34
+00:02:14,800 --> 00:02:19,240
+there are actual benefits.
+It is very tempting, of course,
+
+35
+00:02:19,240 --> 00:02:21,920
+if you have 30 years experience,
+you know, like some people have
+
+36
+00:02:21,920 --> 00:02:29,640
+in in CFD or FEA, to almost be
+insulted by some young, you
+
+37
+00:02:29,640 --> 00:02:32,680
+know, 20 year olds doing ML
+research and suggesting that
+
+38
+00:02:32,680 --> 00:02:34,600
+their method, you know, can be
+better.
+
+39
+00:02:35,880 --> 00:02:41,440
+But sometimes that's from a good
+intent place, they're excited
+
+40
+00:02:41,440 --> 00:02:45,000
+and maybe they don't know or
+they're not from the CE domain.
+
+41
+00:02:45,000 --> 00:02:49,520
+And, and so having an open mind,
+and this is true on sort of both
+
+42
+00:02:49,520 --> 00:02:53,080
+sides on the CEA side and the ML
+community is important.
+
+43
+00:02:55,080 --> 00:02:58,920
+The second one, which you sort
+of need the first one to get to
+
+44
+00:02:58,920 --> 00:03:02,040
+the second one is educating
+yourself.
+
+45
+00:03:03,720 --> 00:03:06,280
+You know, a lot of companies
+call this continual professional
+
+46
+00:03:06,280 --> 00:03:09,640
+development.
+And I think this is very
+
+47
+00:03:09,640 --> 00:03:14,800
+important in the era of AI.
+The problem and I which I think
+
+48
+00:03:14,800 --> 00:03:21,880
+creates sometimes this push back
+is because the, the ML community
+
+49
+00:03:21,880 --> 00:03:24,520
+and the CAE community come from
+very different backgrounds.
+
+50
+00:03:24,520 --> 00:03:27,360
+They often have studied
+different courses at university.
+
+51
+00:03:27,360 --> 00:03:30,600
+They, they have a different
+preference in terms of software,
+
+52
+00:03:30,600 --> 00:03:33,280
+in terms of programming.
+They, they're, they're two
+
+53
+00:03:33,280 --> 00:03:38,040
+different communities and the
+challenge for CAE to look at AI
+
+54
+00:03:38,040 --> 00:03:41,120
+is that it all seems quite
+foreign and complex.
+
+55
+00:03:42,080 --> 00:03:45,280
+And This is why I think
+educating yourself is important.
+
+56
+00:03:45,640 --> 00:03:49,120
+Going straight into a journal
+paper describing an ML
+
+57
+00:03:49,120 --> 00:03:51,280
+architecture may be a bit
+overwhelming.
+
+58
+00:03:51,280 --> 00:03:54,040
+It certainly was for me at the
+beginning, but there's a lot of
+
+59
+00:03:54,040 --> 00:03:58,080
+content now that helps you.
+So Coursera is one of those
+
+60
+00:03:58,080 --> 00:04:02,520
+platforms where they have some
+great courses by lots and lots
+
+61
+00:04:02,520 --> 00:04:05,480
+of people from different, you
+know, walks of life and
+
+62
+00:04:05,480 --> 00:04:08,680
+different backgrounds that can
+really help you.
+
+63
+00:04:08,680 --> 00:04:11,680
+Your company may already have a
+subscription or if you don't,
+
+64
+00:04:11,720 --> 00:04:14,840
+you know, like I did it in the
+past, I think paying it yourself
+
+65
+00:04:14,840 --> 00:04:18,680
+is a worthwhile investment.
+But beyond these sort of
+
+66
+00:04:18,680 --> 00:04:22,480
+certifications like ABS does
+them, other tech companies do
+
+67
+00:04:22,480 --> 00:04:26,120
+them.
+A lot of conferences, especially
+
+68
+00:04:26,120 --> 00:04:29,520
+with AI topics, have a real push
+around transparency.
+
+69
+00:04:29,880 --> 00:04:32,520
+And so I found that many of
+those conferences actually
+
+70
+00:04:32,520 --> 00:04:36,480
+published their entire talks
+online, which is fantastic
+
+71
+00:04:36,480 --> 00:04:39,920
+because you can actually watch
+on YouTube or whatever platform
+
+72
+00:04:39,920 --> 00:04:43,040
+you prefer Many of these talks,
+you can speed them up.
+
+73
+00:04:43,040 --> 00:04:47,640
+You know, if you'd want to get
+through quickly, you can also
+
+74
+00:04:47,720 --> 00:04:50,800
+use AI.
+Remember to summarize papers.
+
+75
+00:04:50,800 --> 00:04:56,080
+This is something I do a lot.
+So for example, if you have a,
+
+76
+00:04:56,320 --> 00:04:59,600
+you know, a paper like attention
+is all you need or on
+
+77
+00:04:59,600 --> 00:05:03,480
+Transformers or maybe something
+specifically on CAE related AI.
+
+78
+00:05:04,160 --> 00:05:07,120
+Now, most of these AI large
+language models can do a pretty
+
+79
+00:05:07,120 --> 00:05:11,520
+good job of explaining things.
+And if you say, if you upload
+
+80
+00:05:11,520 --> 00:05:14,200
+the paper and say, please
+summarize the this to a lay
+
+81
+00:05:14,200 --> 00:05:19,400
+audience or explain to me why
+how this bit works.
+
+82
+00:05:19,400 --> 00:05:22,480
+Or can you can you give me more
+examples of this?
+
+83
+00:05:22,720 --> 00:05:28,000
+It's amazing how these AI can
+actually help teach you to learn
+
+84
+00:05:28,480 --> 00:05:33,120
+AI, but you can't get away from
+sometimes speaking to people.
+
+85
+00:05:33,120 --> 00:05:36,480
+And that's one reason I would
+definitely try and broaden
+
+86
+00:05:36,480 --> 00:05:41,120
+yourself and go maybe to even AI
+Pacific conferences like Nurips
+
+87
+00:05:41,360 --> 00:05:44,280
+and others.
+Come and go to some of the
+
+88
+00:05:44,280 --> 00:05:46,560
+workshops, listen in.
+You might not understand
+
+89
+00:05:46,560 --> 00:05:50,400
+everything, but you'll slowly
+get and build the network.
+
+90
+00:05:50,400 --> 00:05:52,800
+You'll start the people
+one-on-one and ask stupid
+
+91
+00:05:52,800 --> 00:05:55,080
+questions.
+People who know me, I often I'm
+
+92
+00:05:55,080 --> 00:05:57,680
+in meetings and I'll say, I'm
+sorry to ask a stupid question,
+
+93
+00:05:57,680 --> 00:06:00,760
+but and often times it maybe
+not.
+
+94
+00:06:01,040 --> 00:06:02,400
+It's a completely stupid
+question.
+
+95
+00:06:02,400 --> 00:06:06,080
+And regardless, they usually
+explain something in a easy to
+
+96
+00:06:06,080 --> 00:06:09,120
+understand manner that it would
+be difficult for me to get.
+
+97
+00:06:09,520 --> 00:06:12,720
+And sometimes all you needed is
+a one or two key concepts.
+
+98
+00:06:12,720 --> 00:06:15,720
+And once you get the concept,
+you're like, OK, I see it now
+
+99
+00:06:16,080 --> 00:06:20,120
+where at the beginning it it,
+yeah, seems a bit foreign.
+
+100
+00:06:20,600 --> 00:06:23,480
+And the final ways podcasts,
+obviously I'm biased, don't make
+
+101
+00:06:23,480 --> 00:06:25,560
+my own, but there's a lot of
+people creating them now,
+
+102
+00:06:25,560 --> 00:06:29,600
+interviewing people and those
+again could be a a great thing.
+
+103
+00:06:30,040 --> 00:06:32,400
+Finally, of course, depending
+on, you know, where you are in
+
+104
+00:06:32,400 --> 00:06:35,040
+your career, going back to
+university or taking the
+
+105
+00:06:35,040 --> 00:06:37,840
+university course could also be
+a worthwhile investment,
+
+106
+00:06:37,840 --> 00:06:40,720
+particularly if you're thinking
+of a, a job change.
+
+107
+00:06:40,720 --> 00:06:44,520
+You know, if you actually want
+to go into AI and say the sort
+
+108
+00:06:44,520 --> 00:06:48,520
+of two roles, you can either be
+the sort of CAE domain specific
+
+109
+00:06:48,520 --> 00:06:51,760
+person, or you might want to be
+more hardcore into the AI
+
+110
+00:06:51,760 --> 00:06:54,400
+itself.
+And probably for that you would
+
+111
+00:06:55,120 --> 00:06:56,840
+value from some of these
+courses.
+
+112
+00:06:57,040 --> 00:07:00,720
+Although many universities now
+do offer these online courses as
+
+113
+00:07:00,720 --> 00:07:02,160
+well, like I think Stanford does
+them.
+
+114
+00:07:02,920 --> 00:07:05,120
+So you know, there's a lot of
+options now.
+
+115
+00:07:05,120 --> 00:07:07,720
+And I don't think there's any
+excuse not to learn.
+
+116
+00:07:08,160 --> 00:07:10,280
+You know, it's not like 40 years
+ago where you have to go to a
+
+117
+00:07:10,280 --> 00:07:12,440
+library where you're in a
+physical thing.
+
+118
+00:07:12,440 --> 00:07:14,880
+The Internet gives you so many
+opportunities now.
+
+119
+00:07:16,160 --> 00:07:19,640
+So if you have an open mind,
+which is 1 and you've, you know,
+
+120
+00:07:19,680 --> 00:07:22,800
+educated yourself, which is
+number 2, and of course they're
+
+121
+00:07:22,800 --> 00:07:28,000
+continual processes, then let's
+talk about the AI physics.
+
+122
+00:07:28,240 --> 00:07:32,840
+And this is probably the most
+common use case or one of the
+
+123
+00:07:32,840 --> 00:07:36,040
+most common use cases for AI in
+the context of of CAE and
+
+124
+00:07:36,040 --> 00:07:39,560
+engineering AI physics, you
+know, referring to the use of AI
+
+125
+00:07:39,560 --> 00:07:44,640
+to create typically some sort of
+surrogate model where you take
+
+126
+00:07:44,640 --> 00:07:47,480
+data to train a model.
+And then once the model's
+
+127
+00:07:47,480 --> 00:07:50,000
+trained that inference, you can
+give it a new condition, a
+
+128
+00:07:50,000 --> 00:07:52,120
+geometry, a binary condition,
+and they'll go and predict it,
+
+129
+00:07:52,360 --> 00:07:58,160
+typically in close to real time.
+There are other use cases people
+
+130
+00:07:58,160 --> 00:08:01,720
+sometimes look at developing
+better models, you know,
+
+131
+00:08:01,720 --> 00:08:05,640
+transition model, the turbulence
+model using AI.
+
+132
+00:08:05,640 --> 00:08:08,520
+But I'd say probably the
+predominant one that you may
+
+133
+00:08:08,520 --> 00:08:11,640
+come across is more of the
+surrogate modelling.
+
+134
+00:08:11,640 --> 00:08:13,600
+And yes, some people say, oh,
+we've been doing that for
+
+135
+00:08:13,600 --> 00:08:17,720
+decades, we've produced all the
+models, but typically those did
+
+136
+00:08:17,720 --> 00:08:22,760
+not have the flexibility like
+modern day ones in terms of the
+
+137
+00:08:23,360 --> 00:08:27,480
+non parametric ability as you
+can just bring any arbitrary
+
+138
+00:08:27,480 --> 00:08:30,520
+geometry or flow condition in,
+if you've trained across it, you
+
+139
+00:08:30,520 --> 00:08:33,600
+can get the results out.
+So things are different today
+
+140
+00:08:34,120 --> 00:08:36,840
+than what they used to be.
+And that common argument of,
+
+141
+00:08:36,840 --> 00:08:39,240
+well, we've just been doing ML
+for 30 years and they've just
+
+142
+00:08:39,240 --> 00:08:43,799
+changed it to something else is
+probably going back to #1 and #2
+
+143
+00:08:43,960 --> 00:08:46,320
+and open minded educating
+yourself to realize, no, no,
+
+144
+00:08:46,480 --> 00:08:50,240
+things have changed.
+Although of course they're based
+
+145
+00:08:50,240 --> 00:08:52,360
+on foundations from from
+earlier.
+
+146
+00:08:52,640 --> 00:08:54,760
+So how do you prepare yourself
+for the air physics?
+
+147
+00:08:54,760 --> 00:08:58,840
+Before we talk about it in more
+detail, I said the first one is,
+
+148
+00:08:59,280 --> 00:09:04,480
+is data Today, the biggest
+difference between your probably
+
+149
+00:09:04,720 --> 00:09:08,920
+common use of AI with Google
+Gemini or ChatGPT or whatever is
+
+150
+00:09:08,920 --> 00:09:11,080
+they're already trained.
+You're essentially just doing a
+
+151
+00:09:11,080 --> 00:09:13,080
+text prompt.
+You're doing inference on a pre
+
+152
+00:09:13,080 --> 00:09:15,480
+trained model.
+The big thing with AI in the
+
+153
+00:09:15,480 --> 00:09:19,200
+context of CAE and CFD and FEA
+is you're probably going to have
+
+154
+00:09:19,200 --> 00:09:22,880
+to train the model yourself.
+That's most likely at least in
+
+155
+00:09:22,880 --> 00:09:27,760
+the short term.
+So you need data and if you have
+
+156
+00:09:27,760 --> 00:09:30,720
+existing data, it's what formats
+it in.
+
+157
+00:09:30,720 --> 00:09:33,160
+Where is it at?
+Can you get it to the model?
+
+158
+00:09:33,160 --> 00:09:35,040
+Have you scrutinized it?
+How?
+
+159
+00:09:35,760 --> 00:09:38,400
+How do you describe it?
+The model needs to know what it
+
+160
+00:09:38,400 --> 00:09:41,960
+was generated with.
+Not all data is identical, and
+
+161
+00:09:41,960 --> 00:09:43,320
+that is often the biggest
+challenge.
+
+162
+00:09:43,840 --> 00:09:46,640
+Did you run two different
+geometries, but one, you change
+
+163
+00:09:46,640 --> 00:09:49,720
+the CFD settings or did you
+change the material properties
+
+164
+00:09:49,720 --> 00:09:53,120
+for that crash test?
+So labeling the data,
+
+165
+00:09:53,120 --> 00:09:57,520
+classifying the data in a format
+that a model could read is
+
+166
+00:09:57,520 --> 00:10:00,160
+important.
+So for example, you know, coming
+
+167
+00:10:00,160 --> 00:10:03,000
+up with some sort of schema,
+some Jason format where you can
+
+168
+00:10:03,000 --> 00:10:07,480
+say, OK, this data was created
+on this day using these settings
+
+169
+00:10:07,760 --> 00:10:10,720
+by this person.
+You may even add security into
+
+170
+00:10:10,720 --> 00:10:13,440
+it.
+I want this to be able to be
+
+171
+00:10:13,440 --> 00:10:16,000
+trained by this model, not to be
+trained, you know, if you have
+
+172
+00:10:16,000 --> 00:10:19,360
+different sorts of data that you
+want the model to know about,
+
+173
+00:10:19,680 --> 00:10:21,920
+you should try and describe as
+well as possible.
+
+174
+00:10:22,360 --> 00:10:25,640
+The other one, and this is
+probably more translating now to
+
+175
+00:10:25,640 --> 00:10:30,280
+new data, is the data that you
+would traditionally keep or
+
+176
+00:10:30,280 --> 00:10:33,440
+destroy should be reconsidered
+in the era of AI.
+
+177
+00:10:34,040 --> 00:10:36,280
+The example I would give is some
+CFD.
+
+178
+00:10:36,840 --> 00:10:41,240
+You may say all I need out of it
+is the drag and the lift and
+
+179
+00:10:41,240 --> 00:10:44,400
+some pictures of the flow.
+And after a certain point, why
+
+180
+00:10:44,400 --> 00:10:47,600
+do I need the full 3D volume
+that's 50 gigabytes.
+
+181
+00:10:47,600 --> 00:10:51,520
+I'm just going to delete that.
+But by deleting it, you've
+
+182
+00:10:51,520 --> 00:10:54,400
+probably lost a lot of
+information that would be needed
+
+183
+00:10:54,400 --> 00:10:57,520
+by the AI model to go and train
+the 3D volume solution.
+
+184
+00:10:58,240 --> 00:11:01,200
+It needs it to be able to learn
+3D field.
+
+185
+00:11:01,960 --> 00:11:04,840
+And if you deleted that, well,
+you are going to have to
+
+186
+00:11:04,840 --> 00:11:08,800
+regenerate it.
+But then how do you regenerate
+
+187
+00:11:08,800 --> 00:11:10,920
+it with that version of the
+software that was done and the,
+
+188
+00:11:11,160 --> 00:11:13,880
+of course, the cost.
+So traditionally this was a
+
+189
+00:11:13,880 --> 00:11:17,400
+balance of storage cost versus
+need.
+
+190
+00:11:17,880 --> 00:11:22,880
+I would argue now, because data
+is the key part of AI, it's the
+
+191
+00:11:22,880 --> 00:11:26,200
+biggest cost of AI when it comes
+to CAE, you need to keep the
+
+192
+00:11:26,200 --> 00:11:27,920
+data.
+So I would argue it's best
+
+193
+00:11:27,920 --> 00:11:31,360
+investing in paying more for
+storage to have the data.
+
+194
+00:11:31,360 --> 00:11:35,920
+Even if you're not today trading
+AI models, you will do, I'm sure
+
+195
+00:11:35,920 --> 00:11:39,960
+at some point.
+So generating data, thinking
+
+196
+00:11:39,960 --> 00:11:43,800
+about how you keep it and maybe
+outputting more information than
+
+197
+00:11:43,800 --> 00:11:48,600
+you think you need because the
+AI model may need it.
+
+198
+00:11:48,600 --> 00:11:51,280
+So if normally you would just
+save the pressure and the
+
+199
+00:11:51,280 --> 00:11:54,000
+velocity, you might think, well,
+what about all the other
+
+200
+00:11:54,200 --> 00:11:58,920
+variables that I might need
+beyond just what I'm
+
+201
+00:11:58,920 --> 00:12:02,120
+traditionally getting out?
+You know, instead of being just
+
+202
+00:12:02,120 --> 00:12:04,360
+the stream wise velocity, maybe
+I need all the components of the
+
+203
+00:12:04,360 --> 00:12:07,240
+velocity, little things like
+that that you would say, well, I
+
+204
+00:12:07,240 --> 00:12:09,280
+don't need it because I don't
+need to explore it.
+
+205
+00:12:09,760 --> 00:12:11,920
+You might need to train a model
+later.
+
+206
+00:12:12,760 --> 00:12:15,800
+Another angle to look at is
+monetizing this.
+
+207
+00:12:16,280 --> 00:12:19,160
+So if you're a business or
+engineering company or even
+
+208
+00:12:19,160 --> 00:12:23,680
+individual, you may find that
+your data is very valuable and
+
+209
+00:12:23,680 --> 00:12:26,920
+you may consider is the way of
+making a value at that.
+
+210
+00:12:26,920 --> 00:12:30,440
+Can you change your business
+around a little bit to offer
+
+211
+00:12:30,440 --> 00:12:33,000
+this data, whether it's
+computational or experimental,
+
+212
+00:12:33,720 --> 00:12:35,400
+to help people train?
+If you're a company that
+
+213
+00:12:35,400 --> 00:12:39,040
+operates a wind tunnel, maybe
+you start to think about using
+
+214
+00:12:39,040 --> 00:12:42,880
+that to generate data or to
+monetize your data.
+
+215
+00:12:43,880 --> 00:12:46,280
+So there's a lot of
+opportunities in the a, in the
+
+216
+00:12:46,400 --> 00:12:50,160
+era of AI physics, which is true
+for AI, for science, that data
+
+217
+00:12:50,160 --> 00:12:52,720
+is key.
+And if you have data, it could
+
+218
+00:12:52,720 --> 00:12:54,280
+be valuable.
+And you really need to have a
+
+219
+00:12:54,280 --> 00:12:56,400
+good strategy of how to deal
+with this.
+
+220
+00:12:57,480 --> 00:13:01,560
+OK, So you have an open mind,
+you've educated yourself, you're
+
+221
+00:13:01,560 --> 00:13:07,240
+preparing for the AI physics.
+Now what about doing it?
+
+222
+00:13:07,400 --> 00:13:10,240
+And I think the argument or the
+thing I would like to discuss
+
+223
+00:13:10,240 --> 00:13:13,720
+now is really about the builders
+buy it's a common question I get
+
+224
+00:13:13,720 --> 00:13:17,720
+when I speak to many people is
+around, you know, is or an off
+
+225
+00:13:17,720 --> 00:13:19,480
+the shelf solution.
+Should I be building this
+
+226
+00:13:19,480 --> 00:13:22,960
+myself?
+Well, obviously linked to #2 you
+
+227
+00:13:22,960 --> 00:13:27,600
+need to educate yourself.
+And I should say sorry on #3
+
+228
+00:13:27,600 --> 00:13:30,440
+actually, one thing I forgot to
+say was staff.
+
+229
+00:13:31,560 --> 00:13:34,560
+You can prepare yourself from a
+technology point of view in
+
+230
+00:13:34,560 --> 00:13:38,280
+terms of getting the data ready,
+processes ready, but you need to
+
+231
+00:13:38,280 --> 00:13:39,760
+prepare yourself in terms of
+hiring.
+
+232
+00:13:40,040 --> 00:13:43,040
+Do you have somebody in your
+business who is it an expert?
+
+233
+00:13:43,200 --> 00:13:46,840
+If you're a manager, if you're
+an individual, the the preparing
+
+234
+00:13:46,840 --> 00:13:49,120
+is to prepare yourself, you
+know, by doing the education.
+
+235
+00:13:49,600 --> 00:13:53,120
+But if you're a company, you
+know, don't expect that people
+
+236
+00:13:53,120 --> 00:13:55,600
+who have been doing CFD for for
+20 years are going to be the
+
+237
+00:13:55,600 --> 00:13:58,000
+best people to do AI and help
+you develop.
+
+238
+00:13:58,000 --> 00:14:01,920
+AI is probably going to be, you
+know, a bunch of graduates who
+
+239
+00:14:01,920 --> 00:14:06,040
+have AI native and are very
+familiar with those programming
+
+240
+00:14:06,040 --> 00:14:08,800
+styles with that, maybe they've
+studied at university.
+
+241
+00:14:10,480 --> 00:14:14,560
+There's just a reality that
+staffing is important.
+
+242
+00:14:14,560 --> 00:14:18,000
+And you may also need to look
+beyond your typical recruiting
+
+243
+00:14:18,000 --> 00:14:22,040
+grounds to get those staff.
+Those people may not come out of
+
+244
+00:14:22,040 --> 00:14:25,120
+the universities that you would
+normally go to, to require to
+
+245
+00:14:25,120 --> 00:14:27,400
+hire engineers.
+And I think this is really
+
+246
+00:14:27,400 --> 00:14:30,760
+interesting blend.
+And it's a career opportunity
+
+247
+00:14:30,760 --> 00:14:34,240
+that AI is needed for
+engineering, but also engineers
+
+248
+00:14:34,240 --> 00:14:36,800
+are needing it are needed at AI
+companies.
+
+249
+00:14:37,920 --> 00:14:41,680
+So OK, let's go to #4 So you've
+don't open mind, educate
+
+250
+00:14:41,680 --> 00:14:43,880
+yourself and you're sort of
+starting to prepare yourself
+
+251
+00:14:43,880 --> 00:14:47,160
+from a data staffing.
+What about the actual doing it
+
+252
+00:14:47,160 --> 00:14:49,560
+now?
+Well, this is the bill versus
+
+253
+00:14:49,560 --> 00:14:51,680
+buy.
+And I would put the analogy to
+
+254
+00:14:52,840 --> 00:14:55,360
+something I'd probably know
+best, which is CFD.
+
+255
+00:14:56,200 --> 00:14:59,840
+And if you looked in the 70s and
+the 80s, there weren't really
+
+256
+00:14:59,840 --> 00:15:04,080
+commercial solutions on the
+market that were the de facto
+
+257
+00:15:04,080 --> 00:15:07,880
+solutions.
+In fact, before the 1970s,
+
+258
+00:15:08,120 --> 00:15:10,040
+people, there was no commercial
+solutions.
+
+259
+00:15:10,280 --> 00:15:12,360
+And so you had to develop the
+code to yourself.
+
+260
+00:15:12,520 --> 00:15:15,440
+And that was a big thing of
+NASA, but not just NASA, but
+
+261
+00:15:15,440 --> 00:15:19,800
+almost all aerospace companies
+at car companies to some point
+
+262
+00:15:20,480 --> 00:15:24,120
+manufacturing, they would
+develop their own codes out of
+
+263
+00:15:24,120 --> 00:15:26,400
+necessity if they needed to.
+There wasn't, you know, there
+
+264
+00:15:26,400 --> 00:15:27,920
+wasn't a commercial solution
+available.
+
+265
+00:15:28,840 --> 00:15:32,880
+It was only in the 70s and the
+80s and certainly going into the
+
+266
+00:15:32,880 --> 00:15:37,040
+90s and the 2000s where
+commercial codes became far more
+
+267
+00:15:37,040 --> 00:15:41,600
+mature.
+Interestingly, if you look today
+
+268
+00:15:41,600 --> 00:15:46,000
+and this is maybe contentious
+opinion, lots of these companies
+
+269
+00:15:46,000 --> 00:15:50,120
+that did traditionally only use
+internal codes are starting to
+
+270
+00:15:50,120 --> 00:15:54,000
+use commercial codes and that
+shift is accelerating because
+
+271
+00:15:54,000 --> 00:15:56,280
+frankly, the commercial codes
+are getting so good.
+
+272
+00:15:56,680 --> 00:15:59,840
+They've hired so many people,
+they've, you know, acquired
+
+273
+00:15:59,840 --> 00:16:04,840
+start-ups that is your code
+really as good as theirs.
+
+274
+00:16:05,640 --> 00:16:08,640
+I think it's a interesting
+debate.
+
+275
+00:16:09,680 --> 00:16:13,600
+So debate of do you see it as
+core to your mission to have
+
+276
+00:16:13,600 --> 00:16:16,880
+your own code or actually is
+your main business to go and
+
+277
+00:16:17,040 --> 00:16:19,600
+build something and the code
+itself should be done by
+
+278
+00:16:19,600 --> 00:16:21,840
+somebody else.
+Most people are starting to
+
+279
+00:16:21,840 --> 00:16:25,480
+shift towards the latter, that
+actually it's better just to buy
+
+280
+00:16:25,480 --> 00:16:27,960
+in the code and have less people
+developing their own code.
+
+281
+00:16:27,960 --> 00:16:31,800
+Now again, I'm not saying that
+is the right approach, I'm just
+
+282
+00:16:31,800 --> 00:16:33,640
+saying that is what I see
+happening.
+
+283
+00:16:34,320 --> 00:16:39,760
+So why am I saying that?
+If you look at AI physics, it's
+
+284
+00:16:39,840 --> 00:16:42,840
+probably the fact that we are in
+the equivalent of the 70s or
+
+285
+00:16:42,840 --> 00:16:45,840
+80s.
+We're in this new phase where
+
+286
+00:16:46,880 --> 00:16:49,920
+there is not the same maturity
+of commercial solutions.
+
+287
+00:16:49,920 --> 00:16:52,200
+It's largely start-ups at the
+moment.
+
+288
+00:16:52,800 --> 00:16:57,400
+And you could argue that
+actually, could I build this
+
+289
+00:16:57,400 --> 00:16:59,360
+myself?
+Does that give me a strategic
+
+290
+00:16:59,360 --> 00:17:01,960
+advantage like it was a
+strategic advantage building
+
+291
+00:17:01,960 --> 00:17:06,480
+your own CFD code?
+I would say I can understand the
+
+292
+00:17:06,480 --> 00:17:10,560
+arguments for both.
+I can today I can see why maybe
+
+293
+00:17:10,839 --> 00:17:13,640
+you think if you hire some, you
+know, smart engineers and build
+
+294
+00:17:13,640 --> 00:17:18,040
+an open source frameworks that
+you, you could do that, but you
+
+295
+00:17:18,040 --> 00:17:23,760
+have to be prepared to keep up.
+And that's my advice or warning
+
+296
+00:17:23,760 --> 00:17:30,120
+that even if today there is a
+split on, oh, it's not so
+
+297
+00:17:30,120 --> 00:17:34,320
+obvious whether to build or buy,
+you should be flexible and
+
+298
+00:17:34,320 --> 00:17:37,400
+prepared that maybe in two
+years, maybe in five years,
+
+299
+00:17:37,680 --> 00:17:41,840
+maybe at the extreme 10 years,
+it's I think it highly like that
+
+300
+00:17:42,000 --> 00:17:45,680
+the commercial solutions will be
+as good or better than what you
+
+301
+00:17:45,680 --> 00:17:48,440
+could do yourself.
+And so just as people are now
+
+302
+00:17:48,640 --> 00:17:51,480
+having to debate whether to
+bring in commercial solutions
+
+303
+00:17:51,480 --> 00:17:54,560
+from a non AI point of view, I
+would say you need to be
+
+304
+00:17:54,560 --> 00:17:58,200
+flexible enough to be able to
+adopt when there is a good off
+
+305
+00:17:58,200 --> 00:18:01,360
+the shelf solution that's maybe
+better than what you could do
+
+306
+00:18:01,760 --> 00:18:03,880
+internally.
+And that's part of the sort of
+
+307
+00:18:03,880 --> 00:18:08,960
+prepare yourself and planning.
+Luckily today most solutions are
+
+308
+00:18:09,240 --> 00:18:13,840
+sort of API driven and therefore
+if done in the right way, you
+
+309
+00:18:13,840 --> 00:18:16,800
+can sort of integrate things
+together a bit like you can use
+
+310
+00:18:16,800 --> 00:18:20,360
+the API of open AI to call that
+model and call the different
+
+311
+00:18:20,360 --> 00:18:23,360
+model.
+I suspect it'll be the case.
+
+312
+00:18:23,360 --> 00:18:29,640
+So I would 100% advocate people
+coding and building stuff
+
+313
+00:18:29,640 --> 00:18:34,080
+themselves, whether they go to
+production with it or they use a
+
+314
+00:18:34,080 --> 00:18:37,160
+start up or or buy something.
+It's very much an individual
+
+315
+00:18:37,160 --> 00:18:39,480
+choice.
+But I do have a strong feeling
+
+316
+00:18:40,000 --> 00:18:44,880
+that given the investment it is
+likely that they'll be so many
+
+317
+00:18:44,880 --> 00:18:47,040
+better and good commercial
+solutions.
+
+318
+00:18:47,040 --> 00:18:51,880
+Given how big this AL market is
+for for CAE, that you may need
+
+319
+00:18:51,880 --> 00:18:55,560
+to be flexible on that choice
+and reassess it and don't get
+
+320
+00:18:55,560 --> 00:18:59,200
+locked in to thinking I can't
+take a commercial because I've,
+
+321
+00:18:59,600 --> 00:19:01,120
+you know, gone down building
+myself.
+
+322
+00:19:01,120 --> 00:19:02,960
+I need to.
+There's nothing wrong with
+
+323
+00:19:03,200 --> 00:19:09,560
+having a mixture.
+And finally, .5, which is
+
+324
+00:19:09,800 --> 00:19:13,520
+probably the newest, I would
+argue in the wave of AI for CAE
+
+325
+00:19:13,560 --> 00:19:17,160
+is agentic AI and a bit like AI
+physics.
+
+326
+00:19:17,160 --> 00:19:19,640
+Sometimes people can get
+people's backs up with the
+
+327
+00:19:19,640 --> 00:19:22,600
+marketing and the way that it's
+bullshit this that AI can
+
+328
+00:19:22,720 --> 00:19:26,800
+automate and do everything.
+Essentially the agentic AI is to
+
+329
+00:19:26,800 --> 00:19:30,360
+sort of next wave of where LLMS
+were.
+
+330
+00:19:30,920 --> 00:19:35,120
+So in the sense what are the
+frustrations of using a
+
+331
+00:19:35,560 --> 00:19:38,480
+traditional LLM is it can't go
+and do things for you.
+
+332
+00:19:38,760 --> 00:19:43,160
+It's very much a, you know, look
+at this document and summarize
+
+333
+00:19:43,160 --> 00:19:45,800
+it for me.
+But what you would really like
+
+334
+00:19:45,800 --> 00:19:49,080
+to do, and to be fair, even now,
+some of the off the shelf that
+
+335
+00:19:49,080 --> 00:19:52,720
+can do it, you'd say, I would
+like you to go and do this for
+
+336
+00:19:52,720 --> 00:19:54,840
+me.
+Go and research something, go go
+
+337
+00:19:54,840 --> 00:19:57,160
+on the Internet, go and search
+for this, then call this, then
+
+338
+00:19:57,160 --> 00:19:59,240
+do this.
+So what does that mean in the
+
+339
+00:19:59,240 --> 00:20:05,360
+context of, of of CAE?
+That means at it's very simplest
+
+340
+00:20:06,080 --> 00:20:09,960
+things like a text prompt to set
+up simulations and run
+
+341
+00:20:09,960 --> 00:20:14,000
+simulations.
+So rather than you clicking
+
+342
+00:20:14,000 --> 00:20:16,200
+buttons and and going and
+setting up a simulation and
+
+343
+00:20:16,200 --> 00:20:19,080
+manually running a bash script.
+It's through a text prompt.
+
+344
+00:20:19,080 --> 00:20:22,080
+You should be able to instruct
+an agent.
+
+345
+00:20:22,080 --> 00:20:24,040
+And usually there's some sort of
+master agent that's then
+
+346
+00:20:24,040 --> 00:20:26,320
+controlling other agents and
+sending that on.
+
+347
+00:20:26,320 --> 00:20:29,000
+And I will do a dedicated
+episode on this because I think
+
+348
+00:20:29,000 --> 00:20:34,480
+it's such a fascinating topic
+that essentially allows you then
+
+349
+00:20:34,480 --> 00:20:39,800
+to quote, UN quote, have a sort
+of AI engineer where that agent
+
+350
+00:20:39,800 --> 00:20:42,480
+would be able to go and call
+other agents.
+
+351
+00:20:42,960 --> 00:20:45,160
+And again, the reason I'll do a
+dedicated episode on this is
+
+352
+00:20:45,160 --> 00:20:47,320
+there's been some good papers
+out there that I'd like to
+
+353
+00:20:47,320 --> 00:20:51,560
+discuss and and talk about.
+But at a very high level, it
+
+354
+00:20:51,640 --> 00:20:55,240
+essentially would be the ability
+through a text prompt for one
+
+355
+00:20:55,240 --> 00:20:58,200
+agent to call another agent,
+which is perhaps a surrogate
+
+356
+00:20:58,200 --> 00:21:03,920
+model to go run a simulation.
+But in importantly, another
+
+357
+00:21:03,920 --> 00:21:09,040
+agent would then perhaps do an
+analysis of that, but in a fully
+
+358
+00:21:09,040 --> 00:21:11,800
+automated way.
+And then finally, another agent
+
+359
+00:21:12,160 --> 00:21:15,680
+may decide to go and then do
+some optimization of the
+
+360
+00:21:15,680 --> 00:21:18,840
+geometry and pass the
+information back to your
+
+361
+00:21:19,120 --> 00:21:23,880
+surrogate model agent.
+Then do more analysis, let's say
+
+362
+00:21:24,200 --> 00:21:27,360
+image analysis through an LLM
+and they may write you APDF.
+
+363
+00:21:27,920 --> 00:21:31,280
+And the important bit that's all
+been kicked off by one prompt
+
+364
+00:21:31,280 --> 00:21:34,680
+from yourself.
+So it's agents that are
+
+365
+00:21:34,680 --> 00:21:37,560
+essentially calling each other.
+And there's a lot of complexity,
+
+366
+00:21:37,560 --> 00:21:41,720
+of course, with this, but it
+really gets much more than just
+
+367
+00:21:41,720 --> 00:21:44,040
+the surrogate.
+The surrogate still relies you
+
+368
+00:21:44,120 --> 00:21:48,400
+as a human to run the
+simulation, a bit like ACFD
+
+369
+00:21:48,400 --> 00:21:52,040
+simulation or FEA simulation.
+The agentic side really starts
+
+370
+00:21:52,040 --> 00:21:55,800
+to get more, I would say, into
+the the vision of AI, where it's
+
+371
+00:21:55,800 --> 00:21:59,160
+more fully automated.
+And if you extract this to its
+
+372
+00:21:59,160 --> 00:22:02,800
+maximum, you can imagine many
+Asians acting almost like their
+
+373
+00:22:02,800 --> 00:22:07,040
+own engineering company.
+That's obviously quite far into
+
+374
+00:22:07,040 --> 00:22:09,760
+the future.
+But I would start preparing for
+
+375
+00:22:09,760 --> 00:22:11,080
+that.
+I would start reading up on
+
+376
+00:22:11,080 --> 00:22:13,360
+that.
+This is very much where the the
+
+377
+00:22:13,520 --> 00:22:17,560
+AI researchers at the moment go
+and read papers, type in into
+
+378
+00:22:17,560 --> 00:22:20,880
+Google agentic AI, go into
+YouTube, watch videos, look for
+
+379
+00:22:20,880 --> 00:22:24,360
+start-ups, speak to them.
+This is definitely a new wave
+
+380
+00:22:24,360 --> 00:22:27,840
+that's coming that AI physics is
+a crucial part of it.
+
+381
+00:22:28,640 --> 00:22:32,880
+But the agentic AI is arguably
+more potentially transformative
+
+382
+00:22:32,920 --> 00:22:35,640
+and more important to to be
+aware of.
+
+383
+00:22:35,640 --> 00:22:38,880
+But there's even, I'd say less
+solutions on the market now,
+
+384
+00:22:38,880 --> 00:22:41,760
+which is why it's really good to
+stay ahead of the curve.
+
+385
+00:22:42,480 --> 00:22:47,520
+So those are just 5 tips being
+open minded, educate yourself,
+
+386
+00:22:47,760 --> 00:22:50,360
+prepare for this sort of AI
+physics revolution.
+
+387
+00:22:51,160 --> 00:22:54,520
+Get involved in the AI visit
+tries to foul build by, you
+
+388
+00:22:54,520 --> 00:22:57,760
+know, kick the tires.
+And then prepare yourself for
+
+389
+00:22:57,760 --> 00:23:02,720
+the agentic AI move, which could
+really blow away and be quite
+
+390
+00:23:02,720 --> 00:23:06,920
+transformative if things live up
+to what people hope for.
+
+391
+00:23:07,640 --> 00:23:09,280
+So I hope this has been
+interesting.
+
+392
+00:23:09,280 --> 00:23:11,280
+I tried to keep it a bit short
+and snappy.
+
+393
+00:23:11,640 --> 00:23:15,400
+I hope you've learned something.
+Agree with at least some of the
+
+394
+00:23:15,400 --> 00:23:18,240
+stuff I said.
+And what I'm going to do is over
+
+395
+00:23:18,240 --> 00:23:21,520
+the course of the the next
+season, we'll, we'll dive into a
+
+396
+00:23:21,520 --> 00:23:27,320
+couple of these topics a little
+bit more and hopefully do #2
+
+397
+00:23:27,440 --> 00:23:30,600
+educate a little bit.
+So with that, thanks very much
+
+398
+00:23:30,600 --> 00:23:33,960
+for listening and hope to see
+you in the next episode.

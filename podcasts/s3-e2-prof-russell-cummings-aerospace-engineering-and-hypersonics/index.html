@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prof. Russell Cummings — Aerospace Engineering and Hypersonics | The Neil Ashton Podcast</title>
+<meta name="author" content="Neil Ashton">
+<meta name="description" content="In this episode of the Neil Ashton podcast, Professor Russell Cummings shares his extensive journey through the fields of aerodynamics, computational fluid…">
+<meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
+
+<link rel="canonical" href="https://neilashton.co.uk/podcasts/s3-e2-prof-russell-cummings-aerospace-engineering-and-hypersonics/">
+
+  <link rel="alternate" type="application/rss+xml" title="The Neil Ashton Podcast" href="https://anchor.fm/s/10a5bf2d8/podcast/rss">
+
+
+
+  <meta property="og:site_name" content="Neil Ashton">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Prof. Russell Cummings — Aerospace Engineering and Hypersonics | The Neil Ashton Podcast">
+  <meta property="og:url" content="https://neilashton.co.uk/podcasts/s3-e2-prof-russell-cummings-aerospace-engineering-and-hypersonics/">
+  <meta property="og:description" content="In this episode of the Neil Ashton podcast, Professor Russell Cummings shares his extensive journey through the fields of aerodynamics, computational fluid…">
+  <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s3-e2.webp">
+  <meta property="og:image:width" content="320">
+  <meta property="og:image:height" content="180">
+  <meta property="og:image:alt" content="Prof. Russell Cummings — Aerospace Engineering and Hypersonics — The Neil Ashton Podcast">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prof. Russell Cummings — Aerospace Engineering and Hypersonics | The Neil Ashton Podcast">
+  <meta name="twitter:description" content="In this episode of the Neil Ashton podcast, Professor Russell Cummings shares his extensive journey through the fields of aerodynamics, computational fluid…">
+  <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s3-e2.webp">
+  <meta name="twitter:image:alt" content="Prof. Russell Cummings — Aerospace Engineering and Hypersonics — The Neil Ashton Podcast">
+
+
+
+  
+    
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PodcastEpisode",
+        "name": "Prof. Russell Cummings — Aerospace Engineering and Hypersonics",
+        "url": "https://neilashton.co.uk/podcasts/s3-e2-prof-russell-cummings-aerospace-engineering-and-hypersonics/",
+        "description": "In this episode of the Neil Ashton podcast, Professor Russell Cummings shares his extensive journey through the fields of aerodynamics, computational fluid…",
+        "datePublished": "2025-08-04T23:00:00-07:00",
+        "duration": "PT1H43M14S",
+        "episodeNumber": 2,
+        "image": "https://neilashton.co.uk/assets/img/podcast/episodes/s3-e2.webp",
+        "author": {
+          "@type": "Person",
+          "name": "Neil Ashton",
+          "url": "https://neilashton.co.uk"
+        },
+        "partOfSeason": {
+          "@type": "PodcastSeason",
+          "seasonNumber": 3,
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "The Neil Ashton Podcast",
+            "url": "https://neilashton.co.uk/podcasts/",
+            "webFeed": "https://anchor.fm/s/10a5bf2d8/podcast/rss"
+          }
+        },
+        "associatedMedia": {
+          "@type": "MediaObject",
+          "contentUrl": "https://anchor.fm/s/10a5bf2d8/podcast/play/109531383/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-11%2F409078122-44100-1-4b5c2309bbbbd1bb.mp3",
+          "encodingFormat": "audio/mpeg"
+        },
+        "sameAs": [
+          "https://open.spotify.com/episode/1Hz1iJ4jZZVCpNeutXrhrq",
+          "https://podcasters.spotify.com/pod/show/neilashton/episodes/S3-EP2---Prof--Russell-Cummings---World-leader-in-Aerospace-Engineering-and-Hypersonics-e39d4pn"
+        ]
+      }
+    </script>
+  
+
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" id="highlight-theme-light">
+<link
+  rel="stylesheet"
+  href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca"
+  media="none"
+  id="highlight-theme-dark"
+>
+<link rel="stylesheet" href="/assets/css/main.css?8fedf69cca7224fdc5ba39c0256c6792">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+
+<script src="/assets/js/theme.js?c8411e7fe60c2a34c85becf1307a9d2d"></script>
+
+  <script>
+    initTheme();
+  </script>
+
+
+  </head>
+  <body class="fixed-top-nav">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Neil Ashton, home">
+        <span class="brand-name">Neil Ashton</span>
+      </a>
+
+      <button
+        class="navbar-toggler collapsed ml-auto"
+        type="button"
+        data-nav-toggle
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav" data-nav-menu>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a
+              class="nav-link"
+              href="/"
+              
+              >About</a
+            >
+          </li>
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/work/"
+                  
+                >
+                  Research
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/publications/"
+                  
+                >
+                  Publications
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/cv/"
+                  
+                >
+                  CV
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/talks/"
+                  
+                >
+                  Talks
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/podcasts/"
+                  
+                >
+                  Podcast
+                </a>
+              </li>
+            
+          
+          
+            <li class="nav-item theme-item">
+              <button
+                id="light-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Theme: system. Activate to switch to light mode."
+                title="Change colour theme"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19">
+                  <path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M16.8 8.4a4.8 4.8 0 0 0 2.8 6.2A5.5 5.5 0 1 1 16.8 8.4Z" fill="currentColor" opacity=".35"/>
+                </svg>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="main-content" class="container site-main" tabindex="-1">
+      <article class="podcast-episode">
+  <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
+    <a href="/podcasts/">Podcast</a>
+    <span aria-hidden="true">/</span>
+    <span>Season 3, episode 2</span>
+  </nav>
+
+  <header class="episode-header">
+    <div class="episode-header-copy">
+      <p class="eyebrow">The Neil Ashton Podcast</p>
+      <h1>Prof. Russell Cummings — Aerospace Engineering and Hypersonics</h1>
+      <p class="episode-meta">
+        <span>Season 3, episode 2</span>
+        <span aria-hidden="true">·</span>
+        <time datetime="2025-08-04T23:00:00-07:00">4 August 2025</time>
+        <span aria-hidden="true">·</span>
+        <span>01:43:14</span>
+      </p>
+    </div>
+    <img
+      class="episode-artwork"
+      src="/assets/img/podcast/episodes/s3-e2.webp"
+      alt="Prof. Russell Cummings — Aerospace Engineering and Hypersonics — The Neil Ashton Podcast"
+      width="320"
+      height="180"
+      decoding="async"
+    >
+  </header>
+
+  <div
+    class="podcast-embed podcast-embed--episode"
+    data-podcast-embed
+    data-embed-src="https://open.spotify.com/embed/episode/1Hz1iJ4jZZVCpNeutXrhrq"
+    data-embed-title="Prof. Russell Cummings — Aerospace Engineering and Hypersonics on Spotify"
+    aria-label="Prof. Russell Cummings — Aerospace Engineering and Hypersonics Spotify player"
+  >
+    <div class="podcast-embed-slot" data-podcast-embed-slot>
+      <div class="podcast-embed-poster">
+        <span class="podcast-embed-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <circle cx="24" cy="24" r="23"></circle>
+            <path d="m20 15 14 9-14 9Z"></path>
+          </svg>
+        </span>
+        <div class="podcast-embed-copy">
+          <p class="eyebrow">Spotify player</p>
+          <p class="podcast-embed-title">Prof. Russell Cummings — Aerospace Engineering and Hypersonics</p>
+          <button
+            class="button button-primary podcast-embed-load"
+            type="button"
+            data-load-podcast-player
+            hidden
+          >
+            Load episode player
+          </button>
+          <noscript>
+            <p class="podcast-embed-noscript">The embedded player requires JavaScript. You can still listen directly on Spotify.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <div class="podcast-embed-meta">
+      <p>Spotify is contacted only after you load the player and may then set cookies.</p>
+      <a href="https://open.spotify.com/episode/1Hz1iJ4jZZVCpNeutXrhrq">Open in Spotify <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="sr-only" data-podcast-embed-status aria-live="polite"></p>
+  </div>
+
+  <nav class="episode-platform-links academic-links" aria-label="Episode links">
+    <a href="https://open.spotify.com/episode/1Hz1iJ4jZZVCpNeutXrhrq">Spotify</a>
+    <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S3-EP2---Prof--Russell-Cummings---World-leader-in-Aerospace-Engineering-and-Hypersonics-e39d4pn">Spotify for Creators</a>
+    <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
+    
+      <a href="/assets/transcripts/s3-e2-prof-russell-cummings-aerospace-engineering-and-hypersonics.srt" download>Download transcript</a>
+    
+  </nav>
+
+  <div class="episode-content">
+    <!-- Generated by scripts/sync_podcast_episodes.rb. -->
+
+<section class="episode-section" aria-labelledby="episode-overview">
+  <h2 id="episode-overview">Episode overview</h2>
+  <div class="episode-overview">
+    <p>In this episode of the Neil Ashton podcast, Professor Russell Cummings shares his extensive journey through the fields of aerodynamics, computational fluid dynamics and hypersonics. He discusses his early inspirations, his early days at University and the Hughes Aircraft Company - a key time during this life. He also talks about the cyclical nature of hypersonics research, and the challenges faced in computational fluid dynamics (CFD).</p>
+    <p>Prof. Cummings emphasizes the importance of perseverance in engineering careers and the need for collaboration between experimental and computational methods. He also shares insights on the role of AI in hypersonics and offers valuable advice for aspiring engineers.</p>
+    <p>Prof. Russ Cummings graduated from California Polytechnic State University (Cal Poly) with a B. S.</p>
+    <p>and M. S. in Aeronautical Engineering, before receiving his Ph.</p>
+    <p>D. in Aerospace Engineering from the University of Southern California; he also received a B. A.</p>
+    <p>in music from Cal Poly. He is currently Professor of Aeronautics at the U. S.</p>
+    <p>Air Force Academy and Director of the Hypersonic Vehicle Simulation Institute. Prior to this he was Professor of Aerospace Engineering at Cal Poly, where he also served as department chairman for four years. He also worked at Hughes Aircraft Company, and completed a National Research Council postdoctoral research fellowship at NASA Ames Research Center, working on the computation of high angle-of-attack flowfields.</p>
+    <p>He is a Fellow of the Royal Aeronautical Society and the American Institute of Aeronautics and Astronautics. Distribution Statement A: approved for public release, PA# USAFA-DF-2025-652. The views expressed in this interview are those of the author and do not necessarily reflect the official policy or position of the United States Air Force Academy, the Air Force, the Department of Defense, or the U.</p>
+    <p>S. Government.</p>
+  </div>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-chapters">
+  <h2 id="episode-chapters">Chapters</h2>
+  <ol class="episode-chapters">
+<li>
+  <span class="episode-chapter-time">00:00</span>
+  <span>Introduction to the Podcast and Guest</span>
+</li>
+<li>
+  <span class="episode-chapter-time">04:56</span>
+  <span>Professor Russell Cummings: A Journey Through Engineering</span>
+</li>
+<li>
+  <span class="episode-chapter-time">31:14</span>
+  <span>The Evolution of Hypersonics Research</span>
+</li>
+<li>
+  <span class="episode-chapter-time">58:26</span>
+  <span>The Role of AI in Hypersonics and CFD</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:37:55</span>
+  <span>Advice for Aspiring Engineers</span>
+</li>
+  </ol>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-references">
+  <h2 id="episode-references">References and links</h2>
+  <ul class="episode-references">
+<li>
+  <a href="https://www.cambridge.org/us/universitypress/subjects/engineering/aerospace-engineering/aerodynamics-engineers-7th-edition?format=HB&amp;isbn=9781009501309" rel="external noopener">
+    Aerodynamics for engineers:
+    <span class="episode-reference-domain">cambridge.org</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.youtube.com/watch?app=desktop&amp;v=lApNzYaZOmk&amp;t=884s" rel="external noopener">
+    RAeS Lanchester Named Lecture 2024: Frederick W. Lanchester and &#39;Aerodynamics&#39;
+    <span class="episode-reference-domain">youtube.com</span>
+  </a>
+</li>
+<li>
+  <a href="https://images.nasa.gov/details/ARC-1989-AC89-0276-6" rel="external noopener">
+    NASA at 50 (Prof Cummings is in the picture):
+    <span class="episode-reference-domain">images.nasa.gov</span>
+  </a>
+</li>
+  </ul>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-transcript">
+  <h2 id="episode-transcript">Transcript</h2>
+  <p class="episode-transcript-intro">
+    This transcript was generated by Spotify and may contain errors.
+    <a href="/assets/transcripts/s3-e2-prof-russell-cummings-aerospace-engineering-and-hypersonics.srt" download="">Download the original SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi, and welcome to the Neil Ashton Podcast. In each episode, we explained some of the fascinating ways that science and engineering are changing the world around us. We talked to leading engineers from elite level sports like cycling in Formula One to some of the world&#39;s top academics to understand how fluid dynamics, machine learning, supercomputing are bringing in a new era discovery. We also hear some of their life stories, their career advice, the lessons they&#39;ve learned on the way that I hope will be helpful to you too. So sit back and enjoy this episode. Hi, and welcome back to the Neil Ashton Podcast. So today&#39;s guest is Professor</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:44</span>
+  <span>Russ Cummings. He is the director of the Hypersonic Vehicle Simulation Institute as part of the United States Air Force Academy and has had an amazing career over the past 40 years. He turned 70 later this year and he&#39;s well known for well, actually many things. He has one of the most popular textbooks, aerodynamics for engineers. There&#39;s a new version coming out this year which just come out, which we we talk about briefly. But he&#39;s he&#39;s had this amazing career where he&#39;s gone from being, you know, in academia. He went into industry, he was a professor, professor for a long time. He&#39;s been key in terms of collaborations with the rest of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:29</span>
+  <span>the world. Notably, we talk about his links with with Oxford. And I got to, I guess know of his work more recently through the United States Air Force Academy and his work in terms of leading the resurgence, I guess of hype of research into hypersonics, CFD, something that is very topical and very challenging. And so we go through his, his motivations, his early days at, at university in California, we talk about him going into industry. We spend some time dwelling, which I really love. You know, the time at NASA Ames. This is a bit of a common theme in a lot of the people that I interview. They&#39;ve often been there, some</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:15</span>
+  <span>of his overlap with some key figures. I will try and post a, a, a picture if I can on YouTube in the, in the, in the comments, because there was a picture that he shared of 50 years of NASA Ames. And I think he was in that photo on the, on the on the field there. And, and yeah, so he, he interacted with a lot of people with, with Mike Giles, who, who&#39;s in this season of the of the podcast, talks about the great time coming over to Oxford. Like I said, the, the college environment, collaborating people, the difference in working habits between the, the UK and the US, some funny stories along that. And then towards the latter part of the episode, we talk more</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:56</span>
+  <span>about hypersonics in particular and some of the challenges compared to low speed, some of the cyclical nature of funding. And really how I have observed him to really have changed that to some extent and pioneered and pushed for a renewed focus on Hypersonic&#39;s research for CFDI. Got to know him partially through that through the, the program that he runs with the DoD High Performance Computing modernization program, this HVSI that we talk about, which is combining experimental and computational research, applied research to solve some of the great challenges of of hypersonic CFD. So we talk a little bit through that and then we go towards the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:41</span>
+  <span>end really advice that he has for for people and, and he&#39;s very inspiring figure actually somebody&#39;s very easy to get along with. You see him at, you know, the AI AA and conferences like that and he is really genuinely, I think being an A influential person in in the community, that someone I personally, you know, really do look up to now. We should say that because of of his role, we wanted to make sure that there were certain things that people understand in terms of, you know, just his opinion essentially. So I did want to I put a little note in the YouTube comments around what around what can be said, but I wanted to just read</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:33</span>
+  <span>out a little bit of AI guess a disclaimer because we don&#39;t want to get in trouble. So basically the disclaimer is that the views expressed in this interview are those of the author and do not necessarily reflect the official policy opposition of the United States Air Force Academy, the Air Force, the department of defends all the US government. So it&#39;s just his opinion and I thought it was a very good and very interesting opinion and I hope you find too. So please sit back and. Enjoyed this episode with Professor Russ Cummings. Yeah, well, firstly, thank you very much for for coming to talk. You know, your name is synonymous with CFD and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:10</span>
+  <span>aerodynamics. Everybody knows who you are, but I still think maybe not everybody knows your full sort of story and and your opinions on things. So it&#39;s. Yeah, great opportunity to speak to you. So thank you very much. And yeah, you&#39;ve, you&#39;ve had an amazing career spanning, you know, decades with so many notable achievements. But maybe we could start by winding back the clock a little bit to your early motivations, aspirations, You know, did you always want to be an engineer? When you&#39;re growing up. Yeah. So, well, first, thanks for having me Neil. It&#39;s great to see you and it&#39;s great to have this opportunity. So the the quick answer to your</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:56</span>
+  <span>question is did I always want to be an engineer is no. I grew up in Santa Cruz, CA. Which is a. Almost like a resort community about 70 miles South of San Francisco, right on the coast. So beaches, mountains with Redwood forests, wonderful place to live and grow up. And I was taking full advantage of that. I was a very busy kid with sports, mainly baseball and Boy Scouts and church and music and all kinds of activities, none of them specifically about airplanes. And so that that was was not there and certainly not, you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:44</span>
+  <span>know, I wasn&#39;t there were kids in my neighborhood who grew up tinkering with cars, making go karts and things like that. That wasn&#39;t me. I, I just wasn&#39;t that kid until I reached the ripe old age of 12. My uncle was a master Sergeant in the Air Force, and I&#39;m going to date myself here now. He was on his way to serve a tour in Vietnam during the Vietnam War. So this is in the late 1960s. So I&#39;m now you can put it together. How old is this guy? I was 12. He decided on his way, he was going to Danang. On his way there, he was going</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:36</span>
+  <span>to stop and visit us. He was he was stationed in Ohio and his family was in Ohio near Columbus. And he decided to come see us on the way for a couple weeks since he was going to have to fly, I think, to Travis Air Force Base, which is in the San Francisco Bay Area. And then from Travis to, you know, eventually to Vietnam. So he came to visit and he started almost immediately going down with me to the local hobby shop and buying models of Air Force fighters. And at that time that was like the Century series of fighters. And then into the F4, It&#39;s still the F100, the F1O2, the F1 O3, the F1 O 4, the F one O 5.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:27</span>
+  <span>And every day it felt like while he was there, he would buy a model and we would sit on the the kitchen table at night and build those models together. And he would tell me stories about those airplanes. And it was just like a light went off. I want to do something related to airplanes that that has been there ever since. It&#39;s interesting. When I when I worked, my first job was at Hughes Aircraft Company in Los Angeles. And we can talk about that more later, but everybody I worked with in the aerodynamic design department loved airplanes. That was the common thread. It wasn&#39;t that I knew how to fix</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:18</span>
+  <span>engines. It wasn&#39;t that I grew up doing one thing or the other. It was there&#39;s something about airplanes that I just love. And that bug hit me when I was 12 because of my uncle. And so even though he then eventually had to leave, those airplanes started finding their ways onto the ceiling of my bedroom. And every night I would look up at at them. And now my bedroom ceiling was pretty full of airplanes. There were, there were many airplanes that we&#39;d built models for and, and I knew I wanted to do something related to that. Probably initially to be a pilot, but not completely sure.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:09</span>
+  <span>That kind of shifted slowly, kind of evolved as I went through middle school and high school. We called it junior high. Some places in the US they call it middle school. And then through high school, I had some good advice from, from high school teachers, math and, and science teachers who who told me, well, if you want to be a pilot or you want to do something related to engineering, you better be taking all the math and science courses you can. So I signed up and made sure I was enrolled in what we called college prep. So, so the the track that was going to lead you to go to university and then spend time thinking about where that would</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:52</span>
+  <span>lead me, which university I would go to. There were many options for that in California. Certainly I also looked out of state, so places like Purdue and the University of Colorado at Boulder, but primarily so that I wouldn&#39;t break my parents Piggy Bank. I chose to go to Cal Poly because it was in state, very low tuition and and very, very affordable. It was also a three hour drive away which I thought was the perfect distance. Not too close. If you were closer than that, your parents could just show up for lunch, but if you were farther than that, it was harder</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:41</span>
+  <span>to go home on a weekend and do your laundry. Right? So I I thought 3 hours was perfect. So that&#39;s about 3 hours South of Santa Cruz and San Luis Obispo, again on the coast in a beautiful. Place. And Cal Poly was just the perfect place to to go. Cal Poly&#39;s motto is to learn by doing. They&#39;re very big on a hands on education. So it was like with every course, with every topic, there were lab experiences, if not outright full laboratory courses. So you we had a hanger and an airstrip on campus at that time. For example, at one point when I was a senior, Burt Rutan flew one of his aircraft in from</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:30</span>
+  <span>Mojave and just landed it there and came and talked to the AI AA student branch and then flew out again. So, so it was pretty exciting to to be there, to be learning about aeronautical engineering. And at that time then the, the pilot evolution kind of concluded and, and I realized I want to be an engineer. That happened sometime in my first or second year at the university, where I shifted from I want to be a pilot to I want to be an engineer. I went to school with many. Kids who became pilots. So it that was definitely a possibility. Probably a third of my graduating class in aeronautical</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:20</span>
+  <span>engineering at Cal Poly were became pilots. In fact, I just saw some of them recently and, and now they&#39;re, they&#39;re retired pilots, but their careers spanned many decades of, of first flying for local regional airliners. Many of went back in that deregulation days, went bankrupt and then they got a job at another one and it went bankrupt. And eventually they, they caught on with one that got bought up by a larger airline, which started to happen like in the 1980s. And they all eventually became pilots for American or United or Delta, you know, the, the big, the big US airlines and then spent the rest of their career flying around the world.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:12</span>
+  <span>So that certainly was an option. But the engineering part of it was what started to attract me. And maybe one of the clinchers was during the junior year, we had our first course in aerodynamics, which perfect didn&#39;t know. That&#39;s what I wanted to do. I was still wasn&#39;t sure. You know, all these topics, structures and propulsion and aerodynamics and design, etcetera. Which thing are you going to spend your career doing? I, I, I wasn&#39;t sure, but I knew one thing. While most of the teachers at Cal Poly were pretty good, the guy who taught us aerodynamics, it wasn&#39;t that he didn&#39;t know it. He he knew it. He he had. This philosophical belief that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:02</span>
+  <span>it was his responsibility to make you figure everything out and not for him to teach it to you. I, I, I hope when I teach that it&#39;s a little bit of both, right? I, I&#39;m explaining and you&#39;re, you&#39;re trying to absorb and learn. He wasn&#39;t that way at all. And so I remember coming out of our classroom one day with these other students and saying, I could teach this better than him. And I don&#39;t even know what this matter. I could just read ahead in the book and and do a better job. And little did I know it was kind of prophetic that that that I was going to spend my entire career doing aerodynamics. I just didn&#39;t know that at the time.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:49</span>
+  <span>So Cal Poly was was a perfect place for me. I then stayed there and got my master&#39;s degree and then did the worst thing that as I was growing up that I could ever imagine doing. And that was to moving to Los Angeles to get a job because I I grew up in in Northern California. And for those of you in the rest of the world, you might not know this, but there is a a fairly intense rivalry between Northern California and Southern California that plays out in sports. For example, I grew up a San Francisco Giants baseball fan. We were trained from a very young age to hate the Los Angeles Dodgers and in fact, forget the, but just the Dodgers</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:36</span>
+  <span>hate anything to do with Los Angeles. So moving to LA to, to go to work was almost like a sin. You just couldn&#39;t believe what people thought of me. What are you doing moving to Los Angeles? It&#39;s like you&#39;re moving to the enemy&#39;s territory. And so I, I moved to LA and to start work at Hughes Aircraft Company. That was interesting. When I started at Cal Poly, everybody, and I mean everybody told me I was making the biggest mistake of my life, not because I was going to Cal Poly, but because I was majoring in aeronautical engineering. And that was because of the timing. I started at Cal Poly as a, as a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:26</span>
+  <span>freshman in 1973. That&#39;s the wind down of Vietnam War, the wind down of the defense industries kind of golden era you could say, and also a number of other factors. There was the oil crisis in 1973. And so oil prices shot up and, you know, gas prices therefore shot up. And so people were just telling me that I was making the worst decision of my life in enrolling in aeronautical engineering. I, I, I didn&#39;t care. It was the airplane thing, right? It didn&#39;t matter. It was the airplane thing. And so by the time I graduated, so that&#39;s 77, I couldn&#39;t have</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:18</span>
+  <span>made a better choice because nobody was majoring in aeronautical engineering then, relatively speaking. And now by the late 70s, defense and aerospace industry is ramping back up. And I literally had people just throwing job offers at me as I, as I graduated, I had about nine job offers from all the companies you could imagine you get job offers from, from government labs, from from the Navy, from the Army, whatever. I&#39;ll never forget the offer I got from Boeing was to work in the group doing the Boeing 767 wing loads and flutter, which that&#39;s pretty cool. Right. Yet I didn&#39;t take that job</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:10</span>
+  <span>because of the job offer I got from Hughes Aircraft Company, which was to be a missile air dynamicist. Not for one missile, not for one part of one missile like the offer I got from other companies, like 1 airplane, one part of 1 airplane, one thing about one part of 1 airplane. And then you wonder, well, what happens when that&#39;s over and what happens next? I wanted to be somewhere where I was going to learn as as much as I could about aerodynamics and more than that, it was the perfect place. Hughes was a unique aerospace defense contractor, to put it mildly. Howard Hughes wholly owned the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:00</span>
+  <span>company back in the the 30&#39;s, the 40&#39;s, the 50s and then eventually donated the company to the Howard Hughes Medical Institute, which he controlled. It took the government decades to prove that that was illegal, but it didn&#39;t matter while while I was there. And of course, Howard Hughes had passed away. But we were a nonprofit defense contractor, which that doesn&#39;t make sense. We. Hughes was known among the other aerospace companies as the Country Club of the aerospace industry. That wasn&#39;t true. We did not have hot tubs in our building, as some people thought, but it was, it was very flexible.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:52</span>
+  <span>It was very open. Hughes had you know, you could. You could sense this from the people who had been there since the days of Howard. Hughes. When it was time to work, you worked. If that meant you went on a wind tunnel test in Tallahoma, Tennessee, out in the middle of what felt like nowhere at the time, and had to be there for weeks, even possibly months, and at times working two or three shifts a day, you did it. But that also meant when you got home after that test and you were exhausted, fine, You know, you show up. But nobody&#39;s going to bug you about what time you arrived or what time you left or what you did at lunch or, or any of that.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:43</span>
+  <span>So it was a very professional. He&#39;s always got the job done. And, and I, I was really proud I got hired to work on AMRAM. So it was the original development of Amram, did all the wind tunnel testing for AMRAM, created the aerodynamic modeling for AMRAM, which was a completely new thing at the time. There was a guy there named Yoon O who had developed this mathematical approach to create a real time aerodynamic model that could be interrogated by a sixth off program, for example, using 4A series and cubic splines and, and, and it was, it was just magical.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:34</span>
+  <span>It was really amazing. I applied that to Amram and created the first digital aerodynamic model for Amram. Before that time, the aerodynamic model was a binder full of graphs that you handed to the controls guys. At this point we were handing them a digital model and that had never been done before. So all those things that I hope for when I, when I went to work at Hughes happened. So, you know, understanding wind tunnel testing and performance analysis and aerodynamic model development and aerodynamics itself. Our, our, our department, the aerodynamic design department was only about 50 people. We were working out in the San Fernando Valley in Canoga Park</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:27</span>
+  <span>and that was Missile Systems Group for Hughes Aircraft Company. That was about 3000 people that worked there. So we&#39;re doing aerodynamics, propulsion, performance, stability and control and ordinance in our department. There was a sister department right next to us that was doing all the mechanical design. So you&#39;d think, wait a minute, what&#39;s left you guys? Are you 2 departments of a total of about 100 people seem to be doing 90% of the missile. Well, the other whatever 2800 people were doing all the electronics. So the autopilots and the seekers and and all of that stuff. And and it. Took it took the majority of people who work there to do</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:18</span>
+  <span>those things, but that meant was like, I&#39;m learning about all kinds of stuff and I loved it, absolutely loved it. Then then Hughes had by far the gold standard for educational programs in the aerospace industry called the Hughes Fellowship, where if you, it was almost like applying to go to to university, you applied for the fellowship. And if you were selected, you could either go full time or part time to either a local or a distant university. So I had a friend, a really good friend at Hughes who got chosen to go full time. He went to MIT and got his PHDI wanted to do the local part time option and went to the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:10</span>
+  <span>University of Southern California in the aerospace engineering department and worked through and and eventually got my PhD. So so it was a industry applied PhD. Some of the faculty at USC didn&#39;t like that. You know, it was like, yo, you should be doing, you know, fundamentals. You know, turbulence, which was a big topic at the time there the, the department head was John Laufer, who was a big turbulence guy. Most of the faculty were in turbulence, not all, but I, I was in this high speed CFD thing that very few of them understood at the time. That&#39;s another thing that Hughes gave me the opportunity to do was essentially being on not the ground floor of CFD, but almost</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:03</span>
+  <span>just behind people like Jamieson, right, who were on the ground floor and and learn all of the different computational simulation approaches that existed. So all the way from semi empirical codes, which there were many of and still are some, to supersonic hypersonic arbitrary body program. That&#39;s been around since the 60s and the 70s. To the initial potential codes using CFD methods and then eventually Euler codes and Rands codes. All of those things were just happening as I was at Hughes and then also at USC.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:53</span>
+  <span>So, so it was, it was the perfect time for that and I just kind of absorbed as much as I could. There were lots of really great and very intelligent people at Hughes and very gracious with their time and mentoring and, and I just, I just love that. So I never regretted going to Hughes and, and even years later after I, I left Hughes, I went to Cal Poly as a, as an academic. I received an AI AA award and the AI AA president at the time was Malcolm Curry, who was the president and CEO of Hughes Aircraft Company. And I was, I was sitting at the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:47</span>
+  <span>table with him, right, having lunch. And it turned out that I was sitting right next to him having lunch. And here I was a Hughes Fellow who had worked at Hughes, so worked for him, who left after he got his PhD. There was no requirements in the fellowship program of, of staying at the company after you graduated. Not one minute was required. And I asked him. So first of all, I told OK I I was at Hughes and went to USC and got my PhD and now I&#39;m at Cal Poly. Why did you let me do that? His answer was fantastic, he said. That and that that happens probably to the majority of people who go through the Hughes Fellowship program.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:35</span>
+  <span>But if you look at the upper echelons within Hughes Aircraft Company of the managers and the directors, they&#39;re almost all Hughes fellows. So we&#39;re creating the the future direction of the company, the future leaders of the company through the fellowship program. And then what about the rest of you? Because what did you say you do? You&#39;re a professor at Cal Poly, teaching undergraduates and graduate students and telling them how much you love Hughes Aircraft Company. What&#39;s wrong with that? That&#39;s a good thing. Very. Slow, Yeah, it it was, it was amazing. So I really enjoyed that time at Hughes. I I ended up being there a total of eight years.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:23</span>
+  <span>After Amram. I worked on hypersonic IR and D projects, but then the. The. Possibility of going to back to Cal Poly as an academic came up and I applied for and got that job. And so I moved back up the coast to San Luis Obispo and became an academic and started then to teach that aerodynamics. Course that I had. Taken as a student. In fact, many of the faculty who had been there when I was an undergraduate were still there, including the guy who had taught me that course. I&#39;d never told him that story. You know, you&#39;re a terrible teacher, but OK. And I hopefully, I hopefully did it better.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:14</span>
+  <span>I don&#39;t want to say anything bad about him, but I I hope that I instilled in the students kind of an enjoyment and a love of learning about aerodynamics because it&#39;s not a simple topic when when you come as an engineering student to university, maybe you grew up tinkering with cars, maybe you grew up doing electronics. You did not grow up doing fluid dynamics probably. And so it&#39;s a whole new thing for most students. And it&#39;s something that typically is like you can&#39;t see, you can&#39;t hold a wrench and and fix it. It&#39;s it&#39;s it&#39;s much more obscure. It&#39;s kind of hidden, but that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:04</span>
+  <span>also makes it kind of interesting. So that was a very long winded answer, but all those things tied back to my uncle coming as a master Sergeant and building me those models with me and, and, and I&#39;ve been doing it ever since. Yeah, I know. It&#39;s incredible. And also the it&#39;s funny how your life takes you in certain directions and you know, you then sometimes come full circle. I mean, sounds like you always had a, a love for the sort of Northern California, Santa Cruz, San Obispo area. I guess that&#39;s part of the desire to come back is you&#39;d sort of spend your time, as you said, in the place where you know, the rivalries were and it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:50</span>
+  <span>was nice to come back. Did you miss that area? I guess a little bit. No. Oh, absolutely. So I would fly regularly up to San Francisco to see my parents, friends while I lived in LA. So LA is an additional 3 hour drive South of San Luis Obispo. So that&#39;s a six hour drive from LA from from Western LA to Santa Cruz. That&#39;s a little bit too much. So I would fly up. In fact, San Francisco, Los Angeles corridor is one of the big busiest flight corridors in the world. And so there were lots of flights and I would I would go up there quite a lot. That does not mean I hated LA the whole time I was there. I learned to love it to some, to some extent.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:40</span>
+  <span>It it&#39;s really funny in Los Angeles when somebody asks you how far is it to that place? They will answer in time. Not in distance, because distance is irrelevant. It only matters how long it takes you to drive there. It does not matter how far away it is. So, so you get used to a whole different perspective on life. Certainly it takes a while to gear up to the the fastness of the freeway system and and life in general. It was completely normal for someone to call up and say, hey, we&#39;re going to Westwood to watch a movie and not even think that&#39;s 30 miles away and will take me 45 minutes to get there.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:30</span>
+  <span>So that&#39;s just normal. And so perspectives changed, but I was kind of glad to go back when when I did. Yeah, yeah, yeah, I, I totally made that mistake recently. I was in Los Angeles or, you know, in the area thinking it&#39;s Los Angeles. It&#39;s like London, it&#39;s the city, you know, you can just get across. And I had a meeting over in Agoura Hills and I needed to get over to Orange County where. Yeah, that&#39;s for us. Yeah, I was stuck in a taxi for like 3 1/2 hours. Oh, you took a taxi? Oh my goodness, I thought. Well, how else do I do it? I mean. I don&#39;t think it was a train. Yeah, yeah, everybody. That&#39;s why everybody drives. So yeah, I was seeing like, OK,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:15</span>
+  <span>it&#39;s quite a big distance, it&#39;s quite a big area. It&#39;s crazy. It&#39;s 100 miles by 100 miles, the LA metropolitan area, and I worked with people at Hughes who lived so we were in the West San Fernando Valley, very close to Agoura Hills. People who lived 2 hour drive in almost every direction from where we were. N you couldn&#39;t, it couldn&#39;t be like Southwest because that would be the Pacific Ocean. WE people who lived all throughout that metropolitan area and commuted to work. I live right next to the the our location, so I had like a 10 minute drive. There was no way I was ever</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:04</span>
+  <span>going to do that. People driving for one to two hours. Each way, each. Day was insane, but that was normal. Yeah, it&#39;s, yeah, it&#39;s definitely a cultural thing. I guess you just have to get used to it just becomes that&#39;s why autonomous vehicles makes complete sense. Or you&#39;d be told to, you know, jump across. There&#39;s one more step that&#39;s connected to all that. Shortly after I got to Cal Poly again for the second time, I was started doing research with the people in NASA Ames Research Center up in the Bay Area. So and and found myself being asked to apply to be ANRC postdoc at NASA Ames. And Cal Poly graciously allowed me to take leave and go do that.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:55</span>
+  <span>And so I spent two years up at NASA Ames. I, I call that my the culmination of my CFD education to some extent, although it never stops it. It really took everything I had been doing up to that point and solidified it when I first got to Ames. The everybody in the chain of command, which they that&#39;s not a word they use, but I&#39;m at a military institution now, was a CFD researcher. I was in the applied CFD branch. The branch chief was Terry Holst, who had developed many full potential methods. The fluid dynamics division director was Paul Cutler. He was now overseeing both experimental and computational, but he was a CFD guy.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:45</span>
+  <span>And the Ames Research Center director was Bill Balhouse, who also was a CFD researcher. And then as I walked down the hall. As I first got there, the names on the office doors. Were people that I, all of them were people that I had studied as, as a graduate student at USCI, had read their papers. I had, you know, so there were, there were multiple CFD branches. There was the basic, they just call it the CFD branch. That was the branch that Lomax started. I had beam and warming and Tom Pulliam and all. The people developing numerical methods, Tim Barth, though they were in that branch, I was in the applied CFD branch.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:32</span>
+  <span>So that was Terry Holtz, Joe Stager, Denny Shawsey, Mccroskey Gershian. It just goes. On and on and on. And I was there to do research with Lou Schiff in the High Angle of Attack research group, which also had some great people that I worked with. There were lots of students there in the summer. One of the people in our branch who was around in the summer was a guy named Eugene, too, who was a intern from UC Berkeley. He was a student at Berkeley. He&#39;s now the NASA Ames Research Center director. The little Eugene is no thank Eugene. And then I started having graduate students who would come up with me to do research.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:23</span>
+  <span>And it&#39;s a long list, but the first one was Ken G and then Donovan, Mathias, Scott. Merman, Scott. Merman, Yeah. Joseph Garcia, It just. Goes on and on and on. And there are many of them are still at Ames, in, in, in Donovan&#39;s the head of the NASA division, which is where the supercomputers are, which is where I worked. Now you were in that building. Then I was in that building, yes, building 258. The the meaning of Nas has changed over the years. When I was there, it was numerical or dynamic simulation and, and that&#39;s where I got my first supercomputer. We when I arrived we had two grade twos and they were named</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:08</span>
+  <span>Navier and Stokes and. So. Jamison talks about that in his talk that that connection between the growth of the computer capability and the growth of the CFD. So if you go back from the 70s. All the way back to like Merman and Cole in the early 70s doing transonic small disturbance CFD where it was essentially 1D and and their results were were just a graph to then as the computers grew then you go to two. D. And to 3D or you go from invisa to viscous. So, so full potential came along and oiler methods and rands</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:57</span>
+  <span>methods and then you would apply it to more and more complicated geometries. So airfoils and then wings and then full aircraft. As that capability developed and that&#39;s when I was there for, for a portion of that, I call it like the, the, the golden age of CFD at NASA Ames. It was, it was amazing to be there and to take part in all that. Yeah, it it&#39;s really is. Seems almost everybody I speak to has some link to that NASA Ames Nas building. I I like the fact I did not know that the name the acronym changed. It did, sorry. The acronym stayed the same, but the definition. The the the meaning change, yeah. But did you, I mean, I guess</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:48</span>
+  <span>notable figures in CFD who I believe if you were there in the late 80s, did you ever come across Philippe Spallard? Was he there? There was that. So he was at Stanford? There was a really close tie between NASA Ames and Stanford, as you might expect. It wasn&#39;t very far between the two. We were at Moffett Field, which was at the time a, a Naval Air station. It was great fun because P threes would be taking off and landing all the time. And, and so there were always airplanes to watch. And then NASA had its own aircraft. So we&#39;d go out and watch the launches of the U2, for example, which is quite a unique thing to watch when it takes off.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:31</span>
+  <span>So, so lots of airplanes and then lots of people who were grad students at Stanford. So Bob McCormick was at Stanford. He had been at Ames. Joe Steger had been at Stanford. He was at Ames and then later went to UC Davis. Just a lot of inner interbreeding, I guess you could say, between the two. And so we would go over to Stanford on a regular basis. For example, NASA had a really great educational program as well. So a lot of the grad students that I brought in from Cal Poly ended up going to Stanford and getting their PhDs after they finished their research projects with their master&#39;s degrees. And so that was just a long line</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:23</span>
+  <span>of people going that route. So it, it, it was, it was just, I didn&#39;t know it at the time, but it was like you, you wanted to pinch yourself. I knew some of it, but you don&#39;t know. There&#39;s this whole layer of senior people who are very famous and well known. But then there were all those quote, UN quote, young guys, so so Stu Rogers and. Tom-tom, I mean Scott Lawrence doing hypersonic CFD, Tom Edwards. We not only work together, we. Played together. So for example, there was a NASA Ames CFD softball team.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:15</span>
+  <span>Tom Pulliam was on it. I. Was on it, Stu Rogers, all these. Guys were on the softball team. So we socialized as well. There was there was sort of like at Hughes again, work hard, play hard was was the name of the game. We played volleyball every day. At lunch out on the lawn of Building 258, weather permitting. So there was there was a lot of fun going on as well. Many of us were San Francisco Giants fans, so we&#39;d go up to Giants games up in San Francisco and, and we, we, we didn&#39;t know who we were. Yeah. Yeah. Yeah. We didn&#39;t know I. Know I didn&#39;t know that, that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:04</span>
+  <span>that all these people would quote UN quote, grow up to become leaders in in CFD for the rest of their careers. Yeah, it&#39;s so nice. And I, I can&#39;t remember if I&#39;ve said this before, but I really appreciate it. I was at Ames for a very brief time and Tom Pulliam was very kind and, you know, cycled with me through Palo Alto to find the place. And, you know, there was that. I think maybe he epitomized that work hard, play hard mindset. He was always such a gentleman and a very, yeah, just California cool. Tom was great. At some point a few years after I was there, he got a major NASA award, not an Ames award, but a NASA award.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:55</span>
+  <span>And their award ceremony was black tie. You had to wear what you would call a dinner jacket, we call a tuxedo. And he got told over and over and over again, you will wear. A tuxedo. So what does he do? He shows up at the award ceremony wearing a tuxedo and tennis shoes. There was always that part of Tom that was like, I don&#39;t care. I will find a way to rebel. You just better hope that it&#39;s not too bad. Yeah, that&#39;s that is funny. So one of the things I would, so then you essentially we&#39;re an academic, but an applied academic. You were interested in solving, you know, real engineering problems. Absolutely. You know, with CFD, one thing that, and I guess it&#39;s how I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:41</span>
+  <span>maybe got to know you a little bit was the the Oxford connection. How did that come? About yeah, yeah. So I had been at Ames, late 80s. I had grad students there all the way through the 90s. But I had my first sabbatical coming up. Being at Ames as a postdoc was not a sabbatical. I was just on a leave. And so I had started to look around many years before. What were some good opportunities for doing a sabbatical? I really wanted it to be. Outside the US if possible and and contacted quite a few people. Not just in in the UK, but but it various places around the world. And one of those places was with</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:33</span>
+  <span>the Oxford University computing lab, which was headed up at the time by Bill Morton and included Mike Giles among many other people. Ian Sobey was there. They had a very vibrant numerical methods group, a numerical analysis group that did CFD, especially Mike Giles. It was interesting. There were two parts to the computing lab at the time. There was the parallel computing group and then the numerical analysis group. The CFD was in numerical analysis. The parallel computing were the computer scientists that that organization, the computing lab eventually split into two</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:22</span>
+  <span>separate organizations. The The computer scientists became the Oxford Computer Science Department, which is one of the premier computer science departments in the world. And the Numerical Analysis Group became a group within the Maths Institute, which has since moved to very nice location in Oxford with, with fantastic they were, they were in a pretty crummy old building when when I was there, but they&#39;re in a wonderful place now. So Mike Giles was had a CFD group in collaboration with Rolls Royce at the time, developing codes and applications.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:11</span>
+  <span>For both Euler and RANS Within 4 Rolls Royce and again I found myself in a place where people worked hard and played hard. Although when I first got there there was some culture shock. I&#39;d been going to England since I was a teenager, so there was no general culture shock, but there was a workplace culture shock in that there was this very structured work day. You started at 9 and at 10:30 there was it. Coffee break and it wasn&#39;t optional. If you sat there, they would come get you and. Say. Come on down to the break room, to the tea room and get your biscuit and have some coffee or</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:01</span>
+  <span>tea. So English. Then you had to go all right, and that lasted about 1/2 an hour. And then so from 11 to about half 12 or one, you&#39;d work some more and then it was lunch. We had a great kind of tradition. We would try to take the CFD guys together for lunch to our colleges, the colleges we&#39;re at. So we would experience the different colleges. So for example, one of the guys was at was at was at Katz, which is a very modern college by Oxford standards. And So what was what? Was it like being a grad student there at Saint Catherine&#39;s compared to I was at St. John&#39;s?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:49</span>
+  <span>What huge difference? But then a lot of of hard. Work and great things getting done. But my point during the work day was well, then there was an afternoon tea break as well. And I felt like when I first got there, how does anybody get anything done? You you&#39;re constantly taking breaks throughout the day. And then I realized first during the breaks, while we weren&#39;t officially working, we were working. That&#39;s when people&#39;s frustrations would come out. I&#39;ve got this thing and it&#39;s not working, you know, And invariably somebody else there would say, oh, I know how to fix that. So you got work done even though</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:38</span>
+  <span>we were having this social event called a tea break and and that that just continued the whole time I was there. So I came for 1/2 year sabbatical in 1995, came back the summers of 96 and 97. I learned that from Gilstrang. Gilstrang was a constant visitor to the numerical analysis group. He of course, very famous numerical methods professor at MIT who only recently retired. He kept teaching well into his 80s and and he taught me that it was very enjoyable to spend your summer in Oxford and. That no matter where you worked</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:26</span>
+  <span>during this the regular part of the academic calendar, you might want to find a way to be at Oxford at the summer and and I have taken his advice I I skipping to the present time. I&#39;m going there in just a few days, no longer with the numerical analysis group, but with the hypersonics team there. I was there last summer for probably six weeks. I&#39;ll be there this summer for about four weeks and hopefully that continues. But anyway, back to Mike Giles. Mike was wonderful. He had, he was, he was English, but he&#39;d gone to MIT to get his PhD. He had stayed there and worked on on coding and and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:15</span>
+  <span>aerodynamics for for many years. Brought that back with him to Oxford, had this vibrant research group while I was there and then later after that. Then he started to go off into computational finance, but also big time proponent of GPUs from from the very beginning. From the very beginning. So. If you go on his website, there&#39;s all kinds of information that he had developed about GPU&#39;s, how to use them, how to understand how they work, You know, it&#39;s all just freely available. He he just posted everything. And so Mike and I have kept in touch off and on through the years. He recently. Became the professor of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:05</span>
+  <span>numerical analysis in the Mass Institute, which meant he got moved to Balliol College that&#39;s Bill Morton&#39;s old position at at Balliol and was named a fellow of the Royal Society just about a a month or two ago when their announcements came out so Mike&#39;s. Still. There and heading up all numerical analysis in the Mass Institute and doing wonderful, wonderful things. Yeah, I can. Just very jealous. And also I think it&#39;s amazing time that you had those, you know, the 90s and the Oxford colleges. I mean, now people make movies about this, don&#39;t they? You know that. Exactly. It&#39;s like an American thing, isn&#39;t It&#39;s quite popular.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:50</span>
+  <span>American is coming to England for the summer and you lived it. You had that? That friend of mine who went to MIT to get his PhD when we were at Hughes came to visit while I was there and said this is your graduate experience, Graduate School experience, because I had been kind of part time at USC, he said. This is your real graduate student experience. The the MCR, the Middle Common Room graduate students at St. John&#39;s adopted me even though I wasn&#39;t. There as a student, I was there as a visiting academic, so the distance from the computing lab to my room at St. John&#39;s was about a 5 minute walk. You know, great commute.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:31</span>
+  <span>Invariably I would leave the lab and be walking back to my room and somebody from the MCR at St. John&#39;s would invite me to something that night because I would just see them as I was walking. Maybe I&#39;d go to my pigeonhole in the college, you know, front rooms and, and check my mail and I would see somebody and there was a BBQ or there was we&#39;re going out for a bike ride or whatever it was. I probably in the, those initial six months only spent 4-5 evenings alone at Oxford. Most of the nights something he came up and, and just got grabbed and, and brought into</span>
+</p>
+<p>
+  <span class="transcript-timestamp">55:21</span>
+  <span>that, that lifestyle at Oxford. So you&#39;re right. It, it, it was like you were in a movie. I was there, like I said last summer and I noticed something that was kind of tragic. I was texting my wife who I happened to meet at St. John&#39;s as well. Had to go to England to meet somebody from Kansas that that I didn&#39;t see the the grad students hanging out doing things in the college. And she texted back one word, cell phones. And she was completely right that there. None of those things that happened to me when I was there were going on. I even talked to some of the MCR members and asked do you guys do</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:11</span>
+  <span>activities together? Do you go, you know, like we would go to Stratford and go see a Shakespeare play or we&#39;d go to London and see a play or we did things all the time. I remember going to Bournemouth once for a bike ride, which is kind of crazy and fun and all kinds of things. None of those things were happening last year because everyone&#39;s friends relations were through their phone and not through the person I live next to. And that&#39;s, that&#39;s sad because we both in the lab and in the college were, were very close and, and I really enjoyed that. Yeah, that is, it is, it really is incredible.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:59</span>
+  <span>And I guess it having that I&#39;m a strong believer in this, experiencing the different cultures of academia and industry and different academia and different industry gives you a more rounded, you know, appreciation, which I, I assume has been very useful for you as you collaborate with different groups around the world. I didn&#39;t realize it at the time, but I was just collecting relationships and I when I look back through my career, that&#39;s what I remember. And, and I still have those relationships and I still interact with those people all the way back to my Hughes days. And even, you know, as an undergrad at Cal Poly by by by</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:39</span>
+  <span>taking advantage of those situations. It it it was. It was. Just kind of magical. I I, I loved it. Yeah, yeah. That&#39;s incredible. And of course you&#39;re learning about CFD and, and we were doing drag extraction from CFD solutions. That&#39;s what Mike and I were working on. You know, could you predict drag using a RANS code? How well could you do it? And so we were. We were working on that while I was there. That was something Rolls Royce was interested in as well. And so, so that those are the kinds of things that that I was doing when I, when I was there in the 90s. Now I&#39;m there working primarily in hypersonics, but that that.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">58:24</span>
+  <span>The another whole. Tale of how that happened but certainly certainly felt like I was just constantly learning and growing in in because I was taking advantages of these opportunities and and not not everybody does that later in life I I spent three years living in London so eventually I left Cal Poly and went to the Air Force Academy. One of the things that came out of that was I got to do an exchange to the AFOSR office in London. I spent three years as a tech director and then through that met academics all over Europe and the UK and Australia I was funding hypersonics research for. For Europe and Australia and so got in on the sort of the ground</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:17</span>
+  <span>floor of what was going on at Oxford with Matt Mcgilvray and his team and and we were one of the first organizations to fund. Research with with Matt and his hypersonics group. There&#39;s a famous story at the AFOSR office, AFOSR office in London. It&#39;s called a org, the European Office of Aerospace Research and Development. We&#39;ve actually in that office over the years, funded a few Nobel Prize winners. And the great story is there was a program officer back around 20. 10 or so 2009 maybe who funded A fledgling research project at the University of Manchester about this weird thing called graphene.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:08</span>
+  <span>And the guys who had that project, and this was one of their first funded projects for their graphene project for their for their lab ended up winning the Nobel Prize in I think it was in chemistry. And invited that program officer to the Nobel ceremony because he was the first one. Now they&#39;ve got this massive building at the University of Manchester and 10s of millions of dollars of research going on. But they still remembered back. That&#39;s how we started. And I think Matt Mcgilvray and Peter Ireland and the people at the Thermofluids Institute at Oxford. Felt that way about AFRL and AFOSR and, and, and not just me,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:00</span>
+  <span>but others as well, having faith in them and supporting them and helping them to get started as they were putting together tunnels and, and developing capabilities and CFD, etcetera. So that was that was a wonderful way to to make that connection while I was at officially working as an academic at the Air Force Academy. Yeah, Well, one of the things we want to pivot to a little bit was, you know, was around hypersonics. But as a link to that, what was how did you start to get into that? What made you then go to the Air Force and, and, and today, I guess mainly focus on hypersonics. How did how did that transition come about?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:41</span>
+  <span>So, so it was there back at Hughes, so way, way back in the 80s with the R&amp;D projects they worked on, but there were no tools like we have today back then. So I was actually using the supersonic hypersonic arbitrary Broady program to analyze aerodynamic shapes, which is just surface impact methods. So Newtonian modified Newtonian tangent wedge tangent cone methods applied to geometries. But then when I went back to Cal Poly, there was very little hypersonics going on. And that that leads to an important if, if you don&#39;t understand this about hypersonics, especially in the US, you don&#39;t understand it.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:31</span>
+  <span>That hypersonics has been very cyclical since the 50s and the 60&#39;s. The funding, if you graph it versus time is a sine wave and the period of that sine wave is about 10 to 12 years. And that&#39;s big projects like what the space shuttle coming and going or Apollo coming and going or the National Aerospace plane coming and going. And in between those major peaks were these massive valleys and, and that meant that. You were I. Mean I I always say you couldn&#39;t plan it. Better to ruin progress than to have 10 to 12 years between the peaks, because that meant halfway between everybody who had done that peak was gone, or almost everybody the people</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:03:22</span>
+  <span>left. Maybe with a bad taste in her mouth about hypersonics. The facilities fell into disrepair perhaps and or were mothballed or even in many cases destroyed. That there&#39;s a report from 1963 that there were 78 hypersonic wind tunnel facilities in the United States at that time. By about 2015, there were about 3578 to 35, and it&#39;s those cycles that led to that. There were many hypersonic tunnels in aerospace companies back in the 60s and there was only like one or two left by 2015 or so. So so those peaks and valleys</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:14</span>
+  <span>really Hanford progress in in hypersonics in general. Certainly hypersonic CFD because it it wasn&#39;t a thing, right? The space shuttle was designed with no CFD. None. Now, people later on did lots of CFD for return to flight and, and different things like that, but there wasn&#39;t any the, the, the things that you expect to happen over time and were happening for CFD weren&#39;t happening for hypersonic CFD and hypersonics in general. I, I like to this, one of the things I, you know, I love to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:05</span>
+  <span>talk about this history to my students because I think, you know, when you go out there in your careers, you&#39;re, you&#39;re going to wonder why is hypersonic so far behind every other part of aerospace and aerodynamics and CFD? In 1992, Bill Clinton ran for president, and his campaign manager was this very colorful guy named James Carville. I don&#39;t know if you&#39;ve heard of him. If you look him up on YouTube, he has this thick Southern accent and and you begin to wonder about his intelligence. Perhaps that&#39;s a common bias in the United States. But he&#39;s a smart guy, but he&#39;s also a little wild and wacky. During the campaign, he put up on the campaign headquarters</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:50</span>
+  <span>wall a sign that said it&#39;s the economy, stupid. He did that to remind everybody who worked there and Clinton, stay to this point. If you don&#39;t understand this and stick to this, we&#39;re going to lose. If you stick to this, we have a chance to win. So what I tell my students is I&#39;m going to use that phrase, but just change one word. Hypersonics. It&#39;s the heat, stupid. If you don&#39;t understand that, then you don&#39;t understand hypersonics. And everything about the challenges in hypersonics and that has to do with experimental testing, with flight testing, and with CFD revolves around that huge heat that has to be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:06:38</span>
+  <span>dealt with on the vehicles. I like to explain that to my students just by using, you know, going to the normal shock tables. And if you&#39;re a Mach 2, look up teat, you know, the temperature change across a normal shock and it&#39;s, you know, OK, it&#39;s, it&#39;s going up, but it&#39;s not going up that much. But if you go up to Mach 5 and Mach 10 and Mach 15, it goes through the roof. It, it&#39;s exponential and that&#39;s all contained within the kinetic energy of the free stream. That&#39;s huge amount of energy in the free stream that then dissipates over a shock in a very small distance to what you go from Mach 20 to Mach .5 within the thickness of a shock. What happened to all that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:07:29</span>
+  <span>kinetic energy? It went into heat. It went into pressure work and and other things as well, but it went into heat. And where did that heat go? It&#39;s trying to go into your vehicle. It&#39;s also trying to change the the chemistry of the air going around the vehicle. It&#39;s affecting everything. It&#39;s absolutely affecting everything. And so you need to understand that. And that along with the cyclical nature of funding hypersonics, essentially meant hypersonic CFD just wasn&#39;t a thing. There were very few people doing that when the national aerospace plane came along. For example, the national</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:08:20</span>
+  <span>aerospace plane started in the early 80s. It was cancelled in 92. I, I keep with me this report on the Defense Science Board report on the National Aerospace plane program because it has an interesting list of issues that needed to be invested in and improved before we would start a new national aerospace plane. So this is kind of like what happened. What happened here? Why did we go from a DARPA design in the early 80s that was like 50,000 lbs and had 22.5% payload which is pretty good for hypersonics. Not good for subsonics, but pretty good for hypersonics to a half £1,000,000 nearly vehicle</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:09:11</span>
+  <span>in 92. The X30, it&#39;s right there that had no payload, 0 payload because of the heat they couldn&#39;t close the design. It just kept getting bigger and bigger and bigger. So the the Defense Science Board kind of post mortem of the national Aerospace plane called out a list of things that needed to be invested in in order to improve the next hypersonic vehicle development. A lot of the things on that list are just like you, you would be able to guess one of them was, well, you need to better define what the application of this vehicle is, not just some esoteric, let&#39;s do it, what is it for?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:09:59</span>
+  <span>What&#39;s it going to do. But then they had a long list of of things that needed to be improved. So structures, materials, those make sense because dealing with the heat propulsion system, so. It was an air breather, you needed a scramjet and they never got a working scramjet design for NASP really. And they had. Concepts and but, but it just never got there. Aerodynamics, OK, aerothermodynamics. And then really, really strange on this bulleted list of things that needed to be invested in was CFD was like which one of these things is different than the others? You know structures and materials and aerodynamics and propulsion are all typical aircraft disciplines, right?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:10:53</span>
+  <span>CFD is not that. It is. It is something you use to do predictions with and simulations. And they went like nuts on CFD. Wasn&#39;t ready for prime time hypersonic CFD. Why? OK, they they just made the list Turbulence models. Almost all turbulence models were developed using low speed wind tunnel data. Yeah. Not subsonic wind tunnel like water tunnel data or you know, 10 meters per second wind tunnel data. And then and then what happens? You put that in ACFD code that&#39;s being developed for subsonic or transonic aircraft and it&#39;s like, well, can I use it at Mach</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:45</span>
+  <span>6? Yeah, you can put in Mach 6 and some altitude and get an answer. But, and I heard Graham Candler say this once, I&#39;m sure the people who developed those turbulence models never in their wildest dreams thought someone would use it at hypersonic speeds, but that&#39;s what happened, perhaps with a compressibility correction, but that&#39;s it. And then transition prediction, you could say on the list of things that killed mass transition was probably up there with them. The inability to predict transition on a flight vehicle was almost notorious. Dennis Bushnell and NASA Langley used to say we&#39;ve been, you know, singularly unsuccessful at</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:12:37</span>
+  <span>predicting transition on just about everything that&#39;s flown hypersonically and then, he added. Or even supersonically. Yeah. The X15 was an example where the wind tunnel test said the flow is going to be mostly laminar while they&#39;re flying and they come back and of course the flow was turbulent. Well, that&#39;s OK that that if you just think about transition and turbulence from a subsonic perspective, it&#39;s like, OK, you have more drag. Yes, you also have 3 to 8 times more heat transfer in a turbulent boundary layer at hypersonic speeds than in a laminar boundary layer. That can kill your design right there. Because what are you going to do as an engineer if I don&#39;t know,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:13:26</span>
+  <span>is it laminar or turbulent? And if it&#39;s turbulent, it&#39;s 3 to 8 times more heat transfer, which means I have to have the thermal protection system, maybe active systems that are on board and doing work like on the X51, you know, cooling systems, etcetera. That could mean I have no payload. And that&#39;s what happened to NASP, no payload. And so, so transition was a big deal and there there were others. So then you talk to talk about the thermal chemistry and its impact on on turbulence. So as you go through that normal shock, the temperatures can go up to easily 4000 Kelvin, 6000 Kelvin, 10,000 Kelvin depending on the Mach number.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:14:17</span>
+  <span>And now you have chemical reactions taking place due. To. You know, dissociation and ionization and all kinds of things. Where&#39;s that modeled in your CFD code, your transonic CFD code? It&#39;s not, it&#39;s not there. You all at best have what? OK, I choose perfect gas law. OK, and, and, and I choose gamma, and that&#39;s it. That is it. So there&#39;s all these traps for using that CFD code that was developed for subsonic transonic flow, but using it in hypersonic speeds, it doesn&#39;t usually work. It just doesn&#39;t.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:15:05</span>
+  <span>And as a designer, then you become conservative. Engineers aren&#39;t typically conservative when it comes to design choices and uncertainty. And if you don&#39;t know you&#39;re going to assume worst case, well, worst case assumption can kill your design. That is assuming that the flow is fully turbulent along the entire length of the vehicle and now you&#39;re in deep trouble. So. So those things make hypersonic CFD difficult. They also make hypersonic ground testing difficult. They also make hypersonic flight testing difficult. I mean, I loved, I was at Oxford last summer and they were showing one of the SpaceX launches and one of the grad</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:15:51</span>
+  <span>students said, what&#39;s what&#39;s happening right there and go? That&#39;s the fin burning off and they&#39;re all cheering because they don&#39;t even know what&#39;s happening. And and. It turned out to be true, so so it impacts everything you do in hypersonic. So ground test facilities typically to get that high of Mach number and that kinetic energy can only run for milliseconds or hundreds of milliseconds. The flight tests have all kinds of issues often to do with the heat that also is like it rolls back on itself because now I don&#39;t have validation data that I I know is good for flight test vehicles. So, so you know what&#39;s?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:16:43</span>
+  <span>Going on when I want to validate my code and I don&#39;t even know what the truth is. I don&#39;t even know, you know, did that tweak I just made to the turbulence model specifically for hypersonics, for example, make it better or worse? I don&#39;t even know. And so, so all of that Hanford, the development of hypersonic CFD, while there was lots of effort being placed in transonic CFD, in fact, I like to say that. If you look at the typical numerical methods developed. In the 70s and the 80s, so now we&#39;re talking about Jameson and, and all these guys that I worked with at Ames, whether they thought about it explicitly or not, were developed for a normal shock in a, in a cell, right.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:17:35</span>
+  <span>And so the upwinding approaches and, you know, Merman and Cole&#39;s just, you know, having the, the switch between elliptic and, and hyperbolic and, and all of that was based on this picture in your mind that that&#39;s what you&#39;re dealing with. Now I&#39;m going hypersonic. The shock&#39;s not normal. Maybe a little portion of it is, it&#39;s highly swept. Is that transonic numerical method working for my hypersonic flight conditions? Does it know what to do when the, the shock is like swept back at A, at a, you know, a Mach angle of 25°? So, so it&#39;s not just the physical models, it&#39;s not just the chemistry, it&#39;s not just</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:18:23</span>
+  <span>turbulence and transition, it&#39;s even the numerical methods. There has been no investment whatsoever in developing hypersonic numerical methods for CFD codes 0. And part of the problem there has just been, you know, everybody kind of pointing at everybody. Else. So well you know, the DoD says well that&#39;s the company&#39;s job. There is no appetite in an aerospace company these days to spend money developing ACFD code. This is 0 because why they did that back in the 70s and the 80s and developed in house codes like Boeing and Lockheed Martin that they&#39;ve been improving and using ever since for a fighter or a cargo airplane.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:19:14</span>
+  <span>Now you use it on a re entry vehicle and it doesn&#39;t work. How do you deal with that? They&#39;re not going to spend money developing hypersonic CFD. The government doesn&#39;t spend money doing that. Very little physical modeling research is done. Lots of basic science research in turbulence and transition for hypersonics, almost none of that going applied right where you. Take what you&#39;ve learned and then make a model out of it. Not not only wasn&#39;t that done, nobody even funded to ask those questions. What would I have to do to make that happen? Just wasn&#39;t happening. So I guess maybe this Tees up</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:20:04</span>
+  <span>then the question. Sort of does. I like what you did there, the HVSI program, maybe you know Hypersonic Vehicle Simulation Institute, maybe you could explain a little bit about that program, What that? Right. So after Cal Poly, I came to the Air Force Academy. They had a great group of people doing CFD. Scott Morton, Doug Blake, Jim Forsythe. I joined with them doing massively separated flows, so high angle of attack flows, which I had done when I was at Ames. So that was a nice connection. What then pushed me into hypersonics was the discipline director for aerodynamics at the Air Force Academy at the time was John Burton, and John Burton</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:20:47</span>
+  <span>had spent his career working in hypersonics. He asked me to become the co-author of his textbook called Aerodynamics for Engineers. By the way, just just by accident, the 7th edition published by Cambridge Press just came out this week. I just got my copies last Friday and. And and so that was not a shameless. Plug. It was just, I&#39;m kind of proud about that because it takes years. It takes years and it&#39;s just kind of magical. John Burton not only asked me to help him with that, but also was heavily involved in doing hypersonic research at the Academy, both experimental and then he was not. ACFD guy but asked me to be his</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:21:35</span>
+  <span>connection to, well, what could? What could different simulation approaches do for these projects? I&#39;m working on and he went all the way back to the Apollo days at at NASA Johnson. And he worked for also Sandia and then was a professor for many years at the University of Texas at Austin before he came to the Air Force Academy. He wrote one of the two. Probably best used textbooks on hypersonic aerothermodynamics along with John Anderson has a book and John Burton have has a book and so that&#39;s what started to get me ramped up doing hypersonics. Like I said, I went to London for three years working as a tech director there, and that experience, so being a program</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:22:22</span>
+  <span>officer as well, funding research at universities in hypersonics, led me when I returned, to be asked to start the Hypersonic Vehicle Simulation Institute for the DoD High Performance Computing Modernization Program. They fund the development of institutes realize that hypersonic CFD was going to be an important thing and that it was not being invested in. And so they wanted me to determine what needed to be invested in, you know, which, which led me to spend many hours on telephone interviews with people, the aerospace companies and government labs and, and find out where were these shortfalls, what were these</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:23:13</span>
+  <span>issues and what do you need to, to do a better job. I was kind of surprised that none of that had taken place. Nobody had ever asked those questions before, at least not that I knew of. Just I kept pinching myself saying how can I be the only person asking these questions about hypersonic CFD? Certainly people like Graham Candler and and and and his gang at Minnesota and other places knew that this was a problem. But who was going to fund research in that area? Applied research, not basic science research and so started funding research and physical model development and also validation data.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24:01</span>
+  <span>So the collection of data that could be used. So for example at Oxford, they&#39;re doing a double cone experiment. They&#39;ve been doing it for quite a few years. There&#39;s, they&#39;ve got another test coming up in, in T5 in, in QLD, they&#39;re all over in Australia right now for a conference. And, and so just so many questions. I mean, that came out of the like 2013, 2014 AI, AA hypersonic CFD blind code study at Kubrick. They did some tests on a variety of basic geometries like the Hall cylinder and a double cone and a cone flare and asked for people to submit their simulations and then at an AI AA meeting in 2014 showed the results and they were terrible.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24:54</span>
+  <span>They were terrible. Not for all cases, not for all geometries, but in general it only led to more questions than answers that did not transcend into funding for trying to accomplish any of those things. So I felt like that&#39;s what HVSI was starting to do. Since then, ONR Eric Marineau has picked up on that and he&#39;s he&#39;s really become kind of a a great supporter of that. AFOSR not so much because they only fund basic science. So developing, you know, turbulence models is not in their ballpark, but but it&#39;s in somebody&#39;s ballpark. I just couldn&#39;t find out who, and so that led to quite a few years of trying to not only</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:25:47</span>
+  <span>determine what the issues were, but then trying to fund applied research. That could help solve them. And that is across, I guess academia. How about industry? What&#39;s the involvement with industry? Are they Co funding or sponsoring or is this? Yeah. How, how do you? Yeah. So, so first they were the people I was asking the questions to, but then kind of a fun thing happened almost by accident as I would fund these projects, people from industry asked if they could participate, not paid, but just as consultants on on these university projects. So for example, I had two transition modeling projects,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:26:35</span>
+  <span>one at the University of Arizona and New Mexico State and one at the University of Tennessee late later Penn State and Texas A&amp;M. And each of those projects had industry partners who were giving advice, looking at what what are they doing and how&#39;s it working and, and maybe we can use this. So Raytheon at the University of Arizona and Lockheed Martin with the one at Tennessee and, and just being there side by side to be involved. But again, they&#39;re not going to get any money to do that on their own when when they get a program like a new hypersonic vehicle, there is 0 money for</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:27:24</span>
+  <span>developing tool tool capabilities. It&#39;s all about getting answers and, and using whatever you have and, and trying to get to where you need it to get. And so they really realized the importance of that. I had somebody at Raytheon tell me this is the first time when the government came to me and asked me questions. And then I realized they actually listened and did what I recommended for them to do. And so that was kind of a, a proud moment that that they realized we, we were trying to do what needed to be done. Now this, you mentioned the context of the high performance computing modernization program, one of the questions I guess is on most people&#39;s lips broader</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:28:16</span>
+  <span>than just hypersonics. But I want to ask you about the hypersonics is the role of AI. As you say decades turbulence models and transition models were done using empirical or semi empirical methods. Are you optimistic, Skeptical. Yeah. What&#39;s your? It&#39;s a hot topic and very opinionated I find, so I&#39;m interested to see your view on this. So AI and or machine learning for some aerodynamic, you know, increase in our capabilities and our knowledge I think will work. I&#39;m not so positive about it working well for hypersonics. And that backs up to what I said about the lack of validation data. AI and machine learning have to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:29:03</span>
+  <span>have information, right? They have to know, hopefully mostly within some error bar what the truth is. And we don&#39;t necessarily know that and, or the things that we have learned historically might be classified. And so they can&#39;t have it. And so the first question I asked when somebody recommends doing some kind of AI machine learning, hypersonic physical model development is where are you going to get your data? How, how is, how is that process going to work when your data is very slim or next to none? And I mean, Steve Schneider at Purdue can probably go through</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:29:53</span>
+  <span>every hypersonic wind tunnel test that&#39;s ever been done and tell you all the problems that happened in that test or with that data, especially if it relates to transition. There are there are always questions about the tests and flight tests too. And so how is it going to work? Because it doesn&#39;t know what the truth is or even what approximate truth is. So I&#39;m kind of skeptical. I think you could use DNS simulations of hypersonic flows to maybe help that. There&#39;s some, some great people working on that, certainly Graham Candler and others around around the world. So you could say, well, let&#39;s</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:30:44</span>
+  <span>let&#39;s start simple, some simple flows, some very expensive. And Graham Candler likes to say, you give me a billion grid points and the computers to solve my code on and I can tell you what&#39;s happening. And I believe him. That&#39;s just not helpful for a design approach other than answering a specific question here or there. And that can absolutely happen in the development of a of a of a program or a vehicle, but it&#39;s not how you&#39;re going to do the design. You can&#39;t afford that as the way to predict your aerodynamic database, for example, for a vehicle. So I&#39;m sceptical. Yeah. No, that&#39;s interesting. And I, I think I understand where you&#39;re coming from.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:31:29</span>
+  <span>I guess the analogy with the lower speed is that over the past decades there has been quite a lot of data. There&#39;s no issue of classification. There is still an issue of data being truly public, but there is an ability to generate that data. And crucially, the experimental data and the flight data is relatively mature. I guess with hypersonics with maybe too early on, like you know, if CFD and experiments get better and better, but then I guess you still have the classification issue and it&#39;s still a niche, a more niche problem than. Low speed flow. Right. So it it, it, it has lots of limitations that may make that something that&#39;s not ready for</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:32:13</span>
+  <span>prime time for for quite a few years. Yeah, Yeah. Well, you know, it&#39;s good for people in CFD jobs, right? That keeps them. That&#39;s right. If there was a solution with AI right now, then we&#39;d all retire. When I first went to work at Hughes, I, I at one point, maybe during my first year and the entire first year, I felt like I was an idiot because everything I did was wrong. Somebody said don&#39;t ever complain about how hard this is because turbulence is going to pay your your paycheck for the rest of your life. And that&#39;s certainly been true. Yeah, yeah. Well, Pete, you know this, that people often in experimental testing, and we&#39;ll say for the past 40 years, CFD has claimed</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:32:55</span>
+  <span>to replace wind tunnels and they&#39;re still, they&#39;re still going. So I am a. Strong believer in the the opposite opinion. I think CFD and wind tunnels and flight tests are should be in a symbiotic relationship that they they can inform each other. You can learn about things from the test using CFDI. Think they should be done in parallel? I don&#39;t think it should be. We ran an experiment and now we have to figure out why it didn&#39;t work. So let&#39;s use some CFD. No, you should be designing the test with CFD. You should be doing the simulations at the same time you&#39;re running the the code. I mean, I had a great experience when I was at Ames working on</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:33:40</span>
+  <span>the high angle tech research vehicle, the F18 flying at very high angles of attack. They were doing flight tests and wind tunnel tests for that. So we had all three legs of the, of the, of the three leg stool and I did CFD simulations of what the pressure distribution would be on the F18 for a certain flight condition and sent it down to NASA Dryden. And then they did the flight tests and sent back the comparisons. And I, I was, I was in, I was like. Wow. I mean very few grid points at the time, cells whatever relatively speaking compared to today.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:34:29</span>
+  <span>Yet we were pretty much nailing those, especially a high angle of attack where you get flow separation and vortices and everything else with Rands codes using algebraic turbulence models with corrections for a high angle of attack that the Ghanian shift did. We were were doing a really good job and I had predicted that before the the flight test that was that was a great feeling, a true prediction and and then comparison with flight test data that that doesn&#39;t happen, but I think it should be happening all the time. Well, someone told me this and I can&#39;t remember who it was now, but they were commenting that part of the issue is maybe</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:35:12</span>
+  <span>previously when CFT was less mature for for whatever reasons, people would often do an experiment and CFT, they they would be doing both. So they would naturally where now because the fields have grown and expanded, very few people do the CFD and the experiment themselves, do they? They tend to be siloed into an experimental person or CFD, so maybe that makes them separate if you know what I mean. So I think that&#39;s a mistake. I think when you&#39;re doing experiments, you should have, maybe they&#39;re not in your research group, but they&#39;re in your organization or your lab. People doing CFD. They&#39;re doing that at Oxford.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:35:53</span>
+  <span>So you&#39;ve got Matt and Luca Demara running the CFD group now. He came from Imperial College and is at Oxford doing a great job. Matt&#39;s done marvels with the experimental facilities. He&#39;s got a whole army, not only of, of regular graduate students, but we send, we send graduates from the Air Force Academy there on a regular basis to get their degrees, their graduate degrees. And so I think that&#39;s essential. I mean, that&#39;s one of the things I&#39;ll be working on this summer is comparing for a reflected shock to the conditions with CFD and with from from the tunnel itself, the operation of the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:36:42</span>
+  <span>tunnel itself to to then understand what are the. Conditions in the test section. You think that would be a simple question, right? If I, if I&#39;m down in the low speed tunnel in the aeronautics lab here at the Academy, I don&#39;t ask what is the Mach number in the test section, I or the Reynolds number. I don&#39;t ask that question. But you have to ask that question when you&#39;re doing hypersonic ground testing. And how you answer that question could mean your results are are it&#39;s not your results are bad, you&#39;ve collected good data, but you don&#39;t know the conditions that data is for. So when you report it, you say this for a Mach number and a rounds number of such and such.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:37:27</span>
+  <span>How did you get that? And nobody or very few people ever say that in their papers. OK, I&#39;ve got a Mach 6 Ludwig tube and I can, I can do some measurements and I can tell you that it&#39;s OK, it&#39;s 5.93. And that&#39;s pretty typical. And, but what&#39;s the Reynolds number? How do I know the Reynolds number? What do I have to measure to figure that out? And and in a test that lasts for a millisecond. So those those are really interesting things that are that that that I&#39;m still learning from and and having enjoyment in in doing. Yeah. Well, our time is nearly up. I appreciate we, you know, we could probably talk for hours on this and it would be great to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:38:14</span>
+  <span>have that opportunity. But one last question I had for you was, you know, you&#39;ve worked in the aeronautics industry, both in academia, now industry, government. What advice would you give to people who are maybe your younger self, who are looking for a career to follow you? You know, what advice would you give them? So because I was involved in student activities at a AA for many years, I&#39;ve had, I&#39;ve had people ask that question before, what&#39;s, what&#39;s the thing that that led to all this? Well, first of all, I didn&#39;t plan any of this, but I would say in one word, perseverance. Don&#39;t give up. So I think back to that kid coming out of high school who</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:38:56</span>
+  <span>was being told you&#39;re making the worst decision of your life. And all I could say was I love airplanes. I&#39;m going to do this because I love airplanes. And if it means I have a career where it&#39;s up and down and bumpy, and it was for many people, that&#39;s fine, but it hasn&#39;t been for me. Just don&#39;t give up. If this is something you really enjoy. Like they say, you&#39;ll never work a day in your life. You&#39;ll you&#39;ll be enjoying what you do. You&#39;ll be learning, you&#39;ll be teaching, you&#39;ll be helping others to understand. You&#39;ll be writing textbooks. Whoever thought when I was taking that erroneous? Class as an. Undergraduate that not only</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:39:36</span>
+  <span>would I teach erroneous, but I would write the textbook. It&#39;s like, that&#39;s crazy talk. Just just keep going. Do what what&#39;s interesting, do what you&#39;re interested in and you enjoy and and and and don&#39;t don&#39;t necessarily listen to what everybody else is saying. I I remember what Dustin Hoffman. In what&#39;s that movie where the guy comes up to him and says the future is plastics, right? That that was a famous lineback that was in, in like in the early 70&#39;s. The future is plastic. It&#39;s like, all right, Do I really want to listen to a guy who told me that at a party when I graduated? No, Do what you really are interested in and and don&#39;t let</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:40:21</span>
+  <span>other people. You know, you, you want to grow, you want to expand, you want to evolve, but just keep going. I, I saw many people along the path who were I, I absolutely believe this much smarter than I am who crashed and burned on the side of the road for whatever reason, I I was not the instant you know, I figured it out. I understand it. I know what I&#39;m doing person as I went through my studies and, and maybe that helped because I was just going, I have to work, I have to, I have to spend time, I have to try to understand this and I&#39;m going to put that time in and, and get that done.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:41:09</span>
+  <span>And then, like I said, couple that with meeting people as you go, and not just at that moment, but making those relationships, the relationships of a lifetime, because those people aren&#39;t just colleagues, they&#39;re friends. And there&#39;s hundreds of them. My, my kids are that, you know, dad, you don&#39;t have any friends. You go, no, I have friends all over the world. It&#39;s just. It&#39;s just. You know, I go to Oxford and they&#39;re there. I go to Germany to DLR and they&#39;re there. I already go to Australia and they&#39;re there. It it really is. More than just the thing you&#39;re doing, it&#39;s and we said that what for Hughes and for Oxford</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:41:55</span>
+  <span>and you know, all the way through, just enjoy it and, and you&#39;ll make it work. Yeah, great piece of advice. I completely agree with you. Perseverance and doing a job that you&#39;ll love and you&#39;re passionate about makes it feel less like a job. Of course there&#39;s always times when it will feel like a job and they&#39;ll be stressed and everything. But if, if you love what you do, then yeah, it makes it all a lot easier. So, yeah, thank you again. This was, you know, really I learnt a lot and I love your, your life story and your we obviously there&#39;s so many things that you&#39;ve done more in the specifics at which we didn&#39;t get time.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:42:35</span>
+  <span>We kept this a little bit more high level. But I will put some links to, you know, the textbooks and papers and and things that you&#39;ve done so people can, you know, investigate in their own time. But yeah, thank you again, Russ, This was this was great. My absolute pleasure and thank you, Neil, for, for doing this, for not, not just for this podcast, but for all the ones you&#39;ve done. They&#39;re they&#39;re really interesting and, and I&#39;ve enjoyed watching them. Great. Thank you.</span>
+</p>
+  </div>
+</section>
+
+  </div>
+
+  <nav class="episode-pagination" aria-label="Other podcast episodes">
+    
+      <a class="episode-pagination-link" href="/podcasts/s3-e1-prof-mike-giles-a-cfd-and-computational-finance-pioneer/">
+        <span class="episode-pagination-label">Older episode</span>
+        <span>Prof. Mike Giles — A CFD and Computational Finance Pioneer</span>
+      </a>
+    
+    
+      <a class="episode-pagination-link episode-pagination-link--next" href="/podcasts/s3-e3-prof-johannes-brandstetter-on-ai-for-computational-fluid-dynamics/">
+        <span class="episode-pagination-label">Newer episode</span>
+        <span>Prof. Johannes Brandstetter on AI for Computational Fluid Dynamics</span>
+      </a>
+    
+  </nav>
+
+  <p class="episode-archive-link"><a href="/podcasts/">Browse all podcast episodes →</a></p>
+</article>
+
+<script defer src="/assets/js/podcast-embed.js?c51940005518ea34f0b5a8cfcb9fa760"></script>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name">Neil Ashton</p>
+      <p>Computational Engineering</p>
+    </div>
+    <nav class="footer-links" aria-label="Contact and profile links">
+      <a href="/cv/">CV</a>
+      <a href="mailto:%63%6F%6E%74%61%63%74@%6E%65%69%6C%61%73%68%74%6F%6E.%63%6F.%75%6B">Email</a>
+      <a href="https://www.linkedin.com/in/neilashton">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=mtBY0RcAAAAJ">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-9943-2334">ORCID</a>
+    </nav>
+    <p class="footer-meta">&copy; 2026 Neil Ashton. Built with Jekyll and hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+    <script defer src="/assets/js/common.js?1bb6c2519e97f5932c586bc8a69adfc0"></script>
+
+
+    
+
+
+  </body>
+</html>

@@ -1,0 +1,915 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prof. Brian Launder — CFD and Turbulence Modelling Pioneer | The Neil Ashton Podcast</title>
+<meta name="author" content="Neil Ashton">
+<meta name="description" content="In this episode, Professor Brian Launder (Professor at the University of Manchester and Fellow of the Royal Society and Royal Academy of Engineers) shares…">
+<meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
+
+<link rel="canonical" href="https://neilashton.co.uk/podcasts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer/">
+
+  <link rel="alternate" type="application/rss+xml" title="The Neil Ashton Podcast" href="https://anchor.fm/s/10a5bf2d8/podcast/rss">
+
+
+
+  <meta property="og:site_name" content="Neil Ashton">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer | The Neil Ashton Podcast">
+  <meta property="og:url" content="https://neilashton.co.uk/podcasts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer/">
+  <meta property="og:description" content="In this episode, Professor Brian Launder (Professor at the University of Manchester and Fellow of the Royal Society and Royal Academy of Engineers) shares…">
+  <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s3-e6.webp">
+  <meta property="og:image:width" content="320">
+  <meta property="og:image:height" content="180">
+  <meta property="og:image:alt" content="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer — The Neil Ashton Podcast">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer | The Neil Ashton Podcast">
+  <meta name="twitter:description" content="In this episode, Professor Brian Launder (Professor at the University of Manchester and Fellow of the Royal Society and Royal Academy of Engineers) shares…">
+  <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s3-e6.webp">
+  <meta name="twitter:image:alt" content="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer — The Neil Ashton Podcast">
+
+
+
+  
+    
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PodcastEpisode",
+        "name": "Prof. Brian Launder — CFD and Turbulence Modelling Pioneer",
+        "url": "https://neilashton.co.uk/podcasts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer/",
+        "description": "In this episode, Professor Brian Launder (Professor at the University of Manchester and Fellow of the Royal Society and Royal Academy of Engineers) shares…",
+        "datePublished": "2025-09-30T05:00:00-07:00",
+        "duration": "PT1H28M23S",
+        "episodeNumber": 6,
+        "image": "https://neilashton.co.uk/assets/img/podcast/episodes/s3-e6.webp",
+        "author": {
+          "@type": "Person",
+          "name": "Neil Ashton",
+          "url": "https://neilashton.co.uk"
+        },
+        "partOfSeason": {
+          "@type": "PodcastSeason",
+          "seasonNumber": 3,
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "The Neil Ashton Podcast",
+            "url": "https://neilashton.co.uk/podcasts/",
+            "webFeed": "https://anchor.fm/s/10a5bf2d8/podcast/rss"
+          }
+        },
+        "associatedMedia": {
+          "@type": "MediaObject",
+          "contentUrl": "https://anchor.fm/s/10a5bf2d8/podcast/play/109531368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-11%2F409080062-44100-2-349304b3d7589.mp3",
+          "encodingFormat": "audio/mpeg"
+        },
+        "sameAs": [
+          "https://open.spotify.com/episode/3aVxDk3xsRl3ywUIHVgjPg",
+          "https://podcasters.spotify.com/pod/show/neilashton/episodes/S3-EP6-Prof--Brian-Launder---CFD-and-Turbulence-Modelling-Pioneer-e39d4p8"
+        ]
+      }
+    </script>
+  
+
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" id="highlight-theme-light">
+<link
+  rel="stylesheet"
+  href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca"
+  media="none"
+  id="highlight-theme-dark"
+>
+<link rel="stylesheet" href="/assets/css/main.css?8fedf69cca7224fdc5ba39c0256c6792">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+
+<script src="/assets/js/theme.js?c8411e7fe60c2a34c85becf1307a9d2d"></script>
+
+  <script>
+    initTheme();
+  </script>
+
+
+  </head>
+  <body class="fixed-top-nav">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Neil Ashton, home">
+        <span class="brand-name">Neil Ashton</span>
+      </a>
+
+      <button
+        class="navbar-toggler collapsed ml-auto"
+        type="button"
+        data-nav-toggle
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav" data-nav-menu>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a
+              class="nav-link"
+              href="/"
+              
+              >About</a
+            >
+          </li>
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/work/"
+                  
+                >
+                  Research
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/publications/"
+                  
+                >
+                  Publications
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/cv/"
+                  
+                >
+                  CV
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/talks/"
+                  
+                >
+                  Talks
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/podcasts/"
+                  
+                >
+                  Podcast
+                </a>
+              </li>
+            
+          
+          
+            <li class="nav-item theme-item">
+              <button
+                id="light-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Theme: system. Activate to switch to light mode."
+                title="Change colour theme"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19">
+                  <path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M16.8 8.4a4.8 4.8 0 0 0 2.8 6.2A5.5 5.5 0 1 1 16.8 8.4Z" fill="currentColor" opacity=".35"/>
+                </svg>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="main-content" class="container site-main" tabindex="-1">
+      <article class="podcast-episode">
+  <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
+    <a href="/podcasts/">Podcast</a>
+    <span aria-hidden="true">/</span>
+    <span>Season 3, episode 6</span>
+  </nav>
+
+  <header class="episode-header">
+    <div class="episode-header-copy">
+      <p class="eyebrow">The Neil Ashton Podcast</p>
+      <h1>Prof. Brian Launder — CFD and Turbulence Modelling Pioneer</h1>
+      <p class="episode-meta">
+        <span>Season 3, episode 6</span>
+        <span aria-hidden="true">·</span>
+        <time datetime="2025-09-30T05:00:00-07:00">30 September 2025</time>
+        <span aria-hidden="true">·</span>
+        <span>01:28:23</span>
+      </p>
+    </div>
+    <img
+      class="episode-artwork"
+      src="/assets/img/podcast/episodes/s3-e6.webp"
+      alt="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer — The Neil Ashton Podcast"
+      width="320"
+      height="180"
+      decoding="async"
+    >
+  </header>
+
+  <div
+    class="podcast-embed podcast-embed--episode"
+    data-podcast-embed
+    data-embed-src="https://open.spotify.com/embed/episode/3aVxDk3xsRl3ywUIHVgjPg"
+    data-embed-title="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer on Spotify"
+    aria-label="Prof. Brian Launder — CFD and Turbulence Modelling Pioneer Spotify player"
+  >
+    <div class="podcast-embed-slot" data-podcast-embed-slot>
+      <div class="podcast-embed-poster">
+        <span class="podcast-embed-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <circle cx="24" cy="24" r="23"></circle>
+            <path d="m20 15 14 9-14 9Z"></path>
+          </svg>
+        </span>
+        <div class="podcast-embed-copy">
+          <p class="eyebrow">Spotify player</p>
+          <p class="podcast-embed-title">Prof. Brian Launder — CFD and Turbulence Modelling Pioneer</p>
+          <button
+            class="button button-primary podcast-embed-load"
+            type="button"
+            data-load-podcast-player
+            hidden
+          >
+            Load episode player
+          </button>
+          <noscript>
+            <p class="podcast-embed-noscript">The embedded player requires JavaScript. You can still listen directly on Spotify.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <div class="podcast-embed-meta">
+      <p>Spotify is contacted only after you load the player and may then set cookies.</p>
+      <a href="https://open.spotify.com/episode/3aVxDk3xsRl3ywUIHVgjPg">Open in Spotify <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="sr-only" data-podcast-embed-status aria-live="polite"></p>
+  </div>
+
+  <nav class="episode-platform-links academic-links" aria-label="Episode links">
+    <a href="https://open.spotify.com/episode/3aVxDk3xsRl3ywUIHVgjPg">Spotify</a>
+    <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S3-EP6-Prof--Brian-Launder---CFD-and-Turbulence-Modelling-Pioneer-e39d4p8">Spotify for Creators</a>
+    <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
+    
+      <a href="/assets/transcripts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer.srt" download>Download transcript</a>
+    
+  </nav>
+
+  <div class="episode-content">
+    <!-- Generated by scripts/sync_podcast_episodes.rb. -->
+
+<section class="episode-section" aria-labelledby="episode-overview">
+  <h2 id="episode-overview">Episode overview</h2>
+  <div class="episode-overview">
+    <p>In this episode, Professor Brian Launder (Professor at the University of Manchester and Fellow of the Royal Society and Royal Academy of Engineers) shares his remarkable journey through academia, detailing his early fascination with heat transfer, his transition to MIT, and his significant contributions to turbulence modeling and computational fluid dynamics (CFD). We touch upon the key role that Professor Brian Spalding had on his career as well as work that led to the breakthrough k-epilson turbulence model as well as the pioneering work on second-moment closure model.</p>
+    <p>Prof Launder highlights the key role of collaborators and ex students such as Professors Hector Iacovides, Tim Craft, Bill Jones, Kemal Hanjalić and many more. He ends with advice for early-stage researchers and reflections on more than 50 years worth of academic research.</p>
+  </div>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-chapters">
+  <h2 id="episode-chapters">Chapters</h2>
+  <ol class="episode-chapters">
+<li>
+  <span class="episode-chapter-time">00:30</span>
+  <span>Introduction</span>
+</li>
+<li>
+  <span class="episode-chapter-time">05:00</span>
+  <span>Early Academic Journey</span>
+</li>
+<li>
+  <span class="episode-chapter-time">10:06</span>
+  <span>Transition to MIT and Research Focus</span>
+</li>
+<li>
+  <span class="episode-chapter-time">16:21</span>
+  <span>Return to Imperial College and Early Career</span>
+</li>
+<li>
+  <span class="episode-chapter-time">21:06</span>
+  <span>Research Projects and PhD Students</span>
+</li>
+<li>
+  <span class="episode-chapter-time">27:46</span>
+  <span>Development of the k-epilson model</span>
+</li>
+<li>
+  <span class="episode-chapter-time">33:18</span>
+  <span>CHAM and Career Changes</span>
+</li>
+<li>
+  <span class="episode-chapter-time">36:24</span>
+  <span>Move to UC Davis and New Research Directions</span>
+</li>
+<li>
+  <span class="episode-chapter-time">44:05</span>
+  <span>Challenges and Opportunities in Research</span>
+</li>
+<li>
+  <span class="episode-chapter-time">47:07</span>
+  <span>The Interview Experience</span>
+</li>
+<li>
+  <span class="episode-chapter-time">51:14</span>
+  <span>Transition to Manchester University</span>
+</li>
+<li>
+  <span class="episode-chapter-time">52:23</span>
+  <span>Research Innovations in Turbulence Modeling</span>
+</li>
+<li>
+  <span class="episode-chapter-time">57:45</span>
+  <span>The Development of the TCL Model</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:03:15</span>
+  <span>Nonlinear Eddy Viscosity Models</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:05:58</span>
+  <span>Advanced Wall Functions and Their Applications</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:10:09</span>
+  <span>Reflections on Career and Contributions</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:15:49</span>
+  <span>Legacy and Impact on Turbulence Modeling Top Turbulence Modelling contributions (</span>
+</li>
+  </ol>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-references">
+  <h2 id="episode-references">References and links</h2>
+  <ul class="episode-references">
+<li>
+  <a href="https://scholar.google.com/citations?user=Y3JbAK8AAAAJ" rel="external noopener">
+    Top Turbulence Modelling contributions (
+    <span class="episode-reference-domain">scholar.google.com</span>
+  </a>
+</li>
+  </ul>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-transcript">
+  <h2 id="episode-transcript">Transcript</h2>
+  <p class="episode-transcript-intro">
+    This transcript was generated by Spotify and may contain errors.
+    <a href="/assets/transcripts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer.srt" download="">Download the original SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi, and welcome to the Neil Ashton Podcast. In each episode, we explained some of the fascinating ways that science and engineering are changing the world around us. We talked to leading engineers from elite level sports like cycling in Formula One to some of the world&#39;s top academics to understand how fluid dynamics, machine learning, supercomputing are bringing in a new era discovery. We also hear some of their life stories, their career advice, the lessons they&#39;ve learned on the way that I hope will be helpful to you too. So sit back and enjoy this episode. Hi, and welcome back to the Neil Ashton Podcast. I just finished recording</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:43</span>
+  <span>today&#39;s episode with Professor Brian Launder, the incredible person who has truly been one of The Pioneers and legends of computational fluid dynamics and fluid dynamics more broadly. He is most well known for the Kepps Island model, for the LLR mental stress model. And I would argue, and I didn&#39;t fully appreciate it until after actually speaking to him, just the number of people that he supervised, mentored and brought, you know, these people like Bill Jones and Kimo and Mike Leschina and Tim Kraft and Hector Acuvides, who are people that themselves have gone on to supervise people. You know, this is the thing with academia.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:29</span>
+  <span>One of the core roles I believe of of as a professor is research, of course, but the people that they nurture and then bring on to go into industry, go into academia is the real credit. And so many people have benefited from from what he&#39;s done. It&#39;s hard to believe that most of this stuff was done in the 1970s, fifty years ago. Today we are still using the K epsilon model. If you&#39;re doing ACFD simulation of many different objects, whether you know heat transfer cars, engines, you&#39;re probably using what the Kepson or some variant of it or, or Reynolds stress model. And the fact that that was done in the 70s when computers, you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:08</span>
+  <span>know, he was telling us that you have to walk up to the building. There was no SSH remote access punch cards, you know, the codes were just being written. It was incredible. I genuinely in awe of the development that happened back then and it we we went through essentially his life story from his undergraduate years moving across to the US from Imperial to then MIT coming back to Imperial, the role of Brian Spaulding, a key interesting one that we reflect on at the beginning and the end, you know, incredible at that time, the turbulent time of how the Champ Code came about and some of the tensions around that. His ultimate move to you missed</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:50</span>
+  <span>now the University of Manchester. And as I said, the the key developments around the Eddie viscosity model, second moment closure models, but also things like the wall functions that I mentioned to him is now even more relevant in the context of Walmart, LS etcetera. And just yeah, an incredible person. And I think some of the advice and lessons you get from it, it reminds you even the greatest people have some of the challenges that that we have. And, and they don&#39;t realize at the time the amazing work that they&#39;re doing. But yeah, really, really special person. And someone I really liked speaking to, you know, he&#39;s a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:27</span>
+  <span>fellow with the Royal Society. He&#39;s he&#39;s done so many things. He&#39;s you know, how many good citations, you know, 10s of thousands, super high hate index, all of all of the things, of course, that a top professor would have. So if you&#39;re looking for the pinnacle of people in the simulation world, quite a few of his people he supervised and worked with have now gone off into some of these major multibillion dollar companies. In fact, if you use these big simulation codes, many of them are the foundations are on the work that the professor Brian Launder was part of or, or or leading. And so, yeah, really interesting story as as we&#39;ve ever. There was lots of things that I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:06</span>
+  <span>could have asked him. We did talk a little bit about some of the rivalry with Spallard and and mentor and Wilcox and of course, you know, Professor Launder&#39;s gentleman. And then I genuinely think his focus was more on the research. But it&#39;s always interesting to us who used turbans models to understand, you know, what was the difference between these these key figures, I guess at the time. But so I hope you enjoy this episode. I genuinely really did. I, I mentioned that I studied the University of Manchester. I was taught by Professor Laundus. So it was one of my good friends, Alistair W, who was also his last PhD student.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:39</span>
+  <span>And yeah, it&#39;s it was an honor to speak to him. And I hope you enjoyed this as much as I did speaking to him. So sit back and enjoy this episode with Professor Brian Lauder. Thank you very much for agreeing to do this. I really appreciate you taking the time to speak to me today. And I thought maybe it would be good for the people listening to, you know, hear about your early days, where it all began and you starting off, you know, what did you do at university? What was your undergraduate studies? OK, well that doesn&#39;t sound a bad place to start. Let&#39;s let&#39;s begin with early 1961. I was in the final year of my bachelor&#39;s program at Imperial College.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:21</span>
+  <span>I found a topic that really interested me, convective heat transfer, and I was doing a final year project on flows related to boiling. When I heard that the new professor of heat transfer was going to talk about postgraduate opportunities, I was quite excited. I made sure to attend because I knew by then that I would like to do postgraduate work. So I went along to the meeting that he was to address, and he probably did talk about the range of opportunities that there might be. But what I remembered were a particular sentence or two that he presented us with. He said, you well know that the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:10</span>
+  <span>college is being rebuilt, and they&#39;re rebuilding it on the same site as the present building. This will inevitably mean interruptions and delays. So if you&#39;re looking for a fast PhD, you ought to go elsewhere. This was a very deflating statement from him. A day or two later, I asked my closest friend in the course guy called Hugh Kendrick what he planned to do. He chuckled, looked at me and said I&#39;ll probably go to America. I fancy doing a master&#39;s program at Yale or Princeton. Which time I interrupted him and said, you&#39;re talking rubbish. What would a top American University do having a thick O like Q?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:01</span>
+  <span>We both chuckled at that point and moved on to other things. But you know, when I was alone reflecting on this in the evening, I thought that&#39;s, that&#39;s a pretty neat idea. So I wrote to a half dozen universities in the USA seeking graduate or postgraduate engagement there, together with funding. Nothing happened for several weeks, of course, but then responses started to come in and I was absolutely delighted. Princeton offered me a name scholarship that would cover my tuition fees, my living costs to do research on whatever I wanted to do. There was a second offer from MIT that was specifically to work in boiling heat transfer, which was a subject that I I was</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:53</span>
+  <span>really interested in. However, the downsize was that I had to earn my keep as a teaching assistant, that I&#39;d spend maybe 1520 even 20 hours a week tutoring students probably brighter than me on on the various courses they&#39;d be taking. So I knew where my preference was, but I thought I&#39;d go back and ask her for an appointment with Brian Spaulding to confirm my choice. His secretary graciously gave me a 5 minute interview slot. I went in and took perhaps a minute describing my fortunate pair of choices and he said Princeton. Huh. Well, Princeton&#39;s Princeton. Scott Drake, who&#39;s just co-authored a heat transfer</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:46</span>
+  <span>textbook with Professor Eckert. But you know, from my meetings with him, Drake hasn&#39;t had an original idea in his life. Go to MIT with Rose now and do boiling heat transfer. This response somewhat deflated me again, but equally I felt I had to take take his advice and reluctantly declined the Princeton scholarship. But before I got to write to MIT, a counter offer came in from their gas turbine laboratory and the important difference was that they offered me not a teaching assistantship, but a research assistantship. This meant that I would do research on one of their</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:35</span>
+  <span>projects, which would also become my thesis. This was a no brainer for me at any rate. So I accepted that offer. I declined the heat transfer offer, and I&#39;m afraid that from there on in my life, boiling heat transfer had sunk beneath my horizon. OK, Well, before I talk about my research at MIT and thereafter, let me just switch back for a minute to Hugh Kendrick. We were talking one day and I said to him, hey, I have accepted a postgraduate position at MIT, where are you going? You&#39;d talked about going to Princeton or Yale. I suddenly realized I was talking that someone with the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:24</span>
+  <span>blood draining from his face. He was literally dumbfounded at what I told him. Eventually he muttered that he had a he had a graduate apprenticeship, signed up with Vickers, that he hadn&#39;t even been looking at other opportunities. He&#39;d go and complete his postgraduate apprenticeship with them. But then I could almost see the wheels turning around in his brain. He said with you could see growing confidence, he said, But I was under 21 when I signed that contract. It&#39;s not enforceable. And I&#39;m sure MIT will take in a thick O like you, They&#39;ll, they&#39;ll find a place for me. Well, he was right. They did find a place for him, but by then it was two or three</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:13</span>
+  <span>months after I&#39;d been in touch with them. They&#39;d allocated all their funding for the year. However, not to be deterred, he applied to Caltech on the other side of America and was offered a teaching assistantship. And that was in August 1961. He and I sailed across in a very tiny cabin on the Queen Mary together. Thereafter I caught the train up to MIT, or rather to Boston. But then Boston is just across the Charles River in Cambridge and not a just a short distance. He flew out to Los Angeles and indeed made the rest of his life in America that. That&#39;s that&#39;s amazing. And I I&#39;m more interested and I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:02</span>
+  <span>don&#39;t know if other people hearing this is the comment about sailing across from the Queen Mary, mainly because now if I go to America and it&#39;ll probably the same for you, you know, it&#39;s a flight. How long did it take on the boat? It was it was a five day flight. It was convenient because we worked on 25 hour days so that so that we are on the right time. When we finally arrived in New York, it was fine, fine sea journeys, a bit boring, you know, try to amuse oneself. We had a tiny cabin, but we would sneak through into the, I&#39;m not sure if it was first class or second class areas and were able to watch films and and and so on in their luxury,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:48</span>
+  <span>luxury cinemas. And so that they had on. It was an interesting experience to do once. The other thing I remember was that as we got close to New York, you close to? Yeah, the final destination, the air became more and more humid. So now I remember a site sailing past the Statue of Liberty. Of course. But it was absolutely 9090% humidity by then it it was difficult. Anyway, that must have been a moment, though, to see the Statue of Liberty coming to America with your friend. Yeah, that&#39;s a that&#39;s a great point. So what happened then when you got to to MIT? How did you decide what research projects to welcome? Well, I was simply checked in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:39</span>
+  <span>there and they gave me a folder with perhaps 15 research projects summarized in there, the sufficient amount of background that one could make a decision, and I knew pretty much straight away what my choice would be. At Imperial I&#39;d learned the rudiments of boundary layer transition. That is to say, a boundary layer developed initially was laminar, but then when the Reynolds number got high enough, conditions were right for a transition to a turbulent boundary layer and there and turbulent it remained. But this this outline description that I was reading said that couple of Soviet scientists had found that in supersonic flow, if a turbulent</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:29</span>
+  <span>boundary layer was passed around what is called a a prantlemyer expansion, essentially that&#39;s a series of waves that one might go through in turning a corner and the flow is through that expansion greatly accelerated. They found that downstream they had a laminar boundary layer growing again. So this project outlines said you will determine whether in subsonic flow a boundary layer that&#39;s strongly accelerated also can revert back to turbulent. So sorry to Lamina and I knew I had to take that it, it just seemed very a very interesting topic and it occupied the next three years of my life doing doing research there. And the outcome was that yes,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:21</span>
+  <span>you could make a turbulent boundary layer go back to laminar or at least towards laminar. I established the acceleration parameter, dimensionless acceleration parameter that would determine when that would take place and how roughly how big the parameter was. I even developed what would be called a simple integral profile method of predicting the phenomenon based on the idea that whilst the viscous stresses were greatly increased by the acceleration, that happened too quickly for the turbulent stresses to respond. So I just left those as they were and doing calculations based on that idea pretty much imitate mimic the experiments that I&#39;d.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:10</span>
+  <span>OK, so now having finished my work at MIT, what next? There were there were jobs available for PhD graduates from MIT offering $14,000 or so a year, but I wasn&#39;t eligible to apply for those. I&#39;d taken a a Fulbright travel grant to come across to the US, but remember that at the end of it, I had to go back. So finding a job back in England, I&#39;d had one or two offers came in for postgraduate research studentships. Not studentships, postgraduate employment at government laboratories like the National Gas Turbine Establishment, central electricity research</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:00</span>
+  <span>labs, and so on. They were. They weren&#39;t uninteresting, but they didn&#39;t quite tick all the boxes. So I decided to write to Brian Spalding again and wondering whether there was a post and he said send ACV. So I send ACV of what I&#39;d accomplished and I just was working on proofs of the 1st paper that I&#39;d written and I decided to send those along too for good measure. It may sound a long time. Everything was roughly 2 weeks between writing and getting. I was just. Going to say yeah. It wasn&#39;t. E-mail. Yeah, yeah, there wasn&#39;t the e-mail response. So anyway, 2 weeks later I I got a note from Spaulding saying I could expect the offer of a lectureship shortly, and sure</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:53</span>
+  <span>enough, two or three days later there was a formal note from the Registrar&#39;s department offering me a position as a lecturer at the bottom of the lecturer scale, which at the time was 1400 lbs a year. It didn&#39;t compare very well with what I could have earned in the USA if I&#39;d been eligible, but I forget this was Imperial College in London. I was also awarded London Allowance and this was an extra £60 a year. So I, I accepted like a shot and my early years at Imperial College were, were were just delightful. I&#39;d really a very light teaching load, but an interesting teaching load.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:41</span>
+  <span>It was a master&#39;s level course. I was asked to take in fluid mechanics. I had plenty of time free to try and get research students. Sorry, research funding, but then I mentioned research students. There was also an important element there, Bran Spaulding said. Would I take over as my administrative load the process of research student admissions? It meant that I, I looked at all the proposals that came in, collected further references if these weren&#39;t provided, distributed the applications to members of staff that I thought might be interested in taking them and so on. But naturally I got first sight of all of the students, and it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:30</span>
+  <span>was from that site that I was able to recruit both Bill Jones and Kim Mohanulich the projects as my first PhD students. Now, viewers may well have heard of these names because they&#39;ve they&#39;ve both gone on to very successful academic careers and published extensively in Turbulence Modelling. Can I just ask you a question at that point? Sure. How? How did it feel to go back to London? Because you&#39;ve gone to Boston, you&#39;ve gone to MIT. Was it almost a nice feeling to come back now as a lecturer, not as a student be teaching? You know, how did it feel to come back there? Did it feel like progression with Spaulding now as a fellow member of the academic staff?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:20</span>
+  <span>I don&#39;t think I I felt was terribly conscious of a change of status. What I was aware of didn&#39;t, doesn&#39;t relate directly to your question, but was that some of the research students whom I got to know a bit while I was doing my final undergraduate year experimental special tasks, they were still there working on their pitch. So it very much brought home to me sporting his comment that if you want a quick PhD, go elsewhere. Yeah. OK. OK. So you sort of skipped ahead a little bit, almost, yeah. Yeah. So how so how about, you know, the research sort of project? How about with with Bill? Jones, Bill Jones I basically</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:10</span>
+  <span>continued PhD research, only we arranged that he would simply look at one particular configuration of acceleration and that was flow between converging planes. What I mean by converging planes is we measured the boundary layer developing on that surface and the and the other wall just sloped like this. It&#39;s a very special geometry so far as accelerating boundary layers is concerned because the thickness of the boundary layer goes down strictly in proportion to the velocity going up. So the Reynolds number of the flow reaches an equilibrium in which it stays constant thereafter and also the acceleration parameter determining the reversion to laminar flow that also stays</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:01</span>
+  <span>constant. And what we discovered there that there wasn&#39;t just a single point first of all for various levels of the acceleration parameter, you actually got a frozen boundary layer was dissimilar from a turbulent boundary layer. And this the viscous sub layer was getting progressively thicker and thicker in what was still a turbulent flow, a self preserving turbulent flow until you reached a critical acceleration. And at that level it you had a complete collapsed to turbulent flow. So a a lot more came out from from Bill Jones&#39;s study than I had I had achieved. As for chemo, we actually looked at a project sponsored by the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:50</span>
+  <span>Berkeley Nuclear Labs. They asked us to determine whether for flying a duct, whether the position where the velocity reached its maximum would coincide with where the turbulent shear stress fell to 0. They&#39;d been doing tests themselves in flow through annually with a rough inner core tube and a smooth outer containing tube and had assumed that there was this coincidence and it gave them very hard to understand values for the respective shear stresses on the rough and the smooth surface. Could we sort it out, Judy? We did we he didn&#39;t look at an annulus, we looked at parallel flow between parallel plates and found there was a huge difference.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:40</span>
+  <span>That was a thesis very well, very well completed by Kimo. Now I think the next point I should mention was research that Brian Spalding and his brilliant student Suhas Patanka had done. They produced a very efficient, very easy to use boundary layer code. The only thing that it was weak on was its model of turbulence. It it had the mixing length hypothesis. Prandtl&#39;s 1925 paper In There Sporting realised that what he needed was a much more sophisticated model, one that had individual velocity and length scales of turbulence available, and not only the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:29</span>
+  <span>these scales would be affected by diffusion, convection and various source and sync terms. So he&#39;d obviously chosen the turbulence energy as one of them. But then there was the issue of what would you use to get the turbulent length scale didn&#39;t have to be the length scale itself because you already were solving a transport equation for the kinetic energy K. So any combination of K with L would be a possibility. Indeed. Golf gang Rody Sporting student adopted the product of K * L where whereas Brian Sporting himself had an individual project underway and he chose something he called you, which</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:18</span>
+  <span>basically amounted to K divided by the square of length scale. OK, well one day Spaulding said to me, hey, would you like to join our group? I put it to Bill and Kimmo and they thought that sounded a neat idea. By then we&#39;d started to explore elaborations of the mixing length hypothesis, but although we&#39;ve published several papers on the topic, it clearly wasn&#39;t going to get anywhere. So one thing I should say though, is that Kimohaneilich came from Yugoslavia and Yugoslavia was a communist country at the time. Naturally then he had learned Russian in school and that meant he could, he could have ready access to the Russian literature and came across a paper by</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:06</span>
+  <span>somebody called Davidoff, which advocated in an otherwise totally unusable turbulence model, but it advocated the use of epsilon, the energy dissipation rate, OK, of, of turbulence that appealed to us just physically. It was something that one could put one&#39;s hand on and hopefully one day be able to measure accurately. And thus that was what we chose. We produced that, I say we, but I was sitting back, it was my research students that that were doing the computation. We produced the version of that and we&#39;re delighted to discover that precisely the same model</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:56</span>
+  <span>enabled us to compute both the free flows, that is to say of of mixing layer or a plane jet, but with the same model that we used to compute flow along a flat plate. Neither of the options that Spalding and Rhody were using achieved that. So it it was indeed real progress. And fairly soon thereafter, Brian Spalding advocated that the group&#39;s work should focus on what he called the K epsilon model rather than either of the alternatives. Of course, this model that we arrived at, the K epsilon Eddy viscosity model, wasn&#39;t any good as it stood for either Bill or Kimo&#39;s research.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:45</span>
+  <span>It needed great extension. For example, in Bill&#39;s case, he had to deal with situations where one started with a turbulent boundary layer and it went back to or towards lamina. And so with the inner boundary condition that was being used next to the wall wasn&#39;t strictly a wall boundary condition. It assumed that across the viscous sub layer there was a universal velocity profile. And so we didn&#39;t need to go actually to the wall. We&#39;d make our boundary condition out in the fully turbulent region just a millimetre or so from the wall. That meant that he had to develop and extend his model and it it was a major task so that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:32</span>
+  <span>it included all semi viscous effects that would modify both kinetic energy that that wasn&#39;t that difficult, but also also energy dissipation rate. And this one was flying blind. There was no experience in this. So he, he did a very good job and I&#39;m glad to say that the paper he and I produced describing it as being cited a large number of times over 6000. I think likewise for chemo, he had been asked by sponsors to explain or indeed provide a model for situations where the position of maximum velocity did not coincide with the position of 0 shear stress. But of course with an Eddy viscosity model, you can&#39;t do that.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:21</span>
+  <span>They&#39;re linked by the definitive link interlinkage between the mean field velocity gradient and the turbulent shear stress. So there what we did was provide an additional independent transport equation for the turbulent stress. Again, that paper has been reasonably widely cited. I think both Kimmo and Bill and I felt at the times, though, that Eddie viscosity modelling wasn&#39;t the way to go for most cases. We felt that you really needed to solve transport equations for all the Reynolds stresses independently of the velocity field. And curiously enough, Brian Spalding was the agent enabling</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:11</span>
+  <span>me to pursue that work. Golf Gang Roadie by then had completed all his computations, but he was in the throes of trying to write a thesis that met his supervisors very exacting standards in English. His scholarship had run out by then and so I was able to hire him as a a quasi postdoctoral fellow and together we worked on developing a full stress transport model. And in the time available that also went very, very well. We produced a solver that nowadays known as the LRR model Londores and Roadie in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:00</span>
+  <span>alphabetical order. I&#39;d I didn&#39;t so, and that too has been quite widely cited. I think that&#39;s a little bit of an understatement. I think they&#39;re quite widely used. And maybe you just forward maybe getting on to the next point, just on this chapter, I guess would it be fair to say for people to realize that all of the work prior to Spalding&#39;s finite volume code was essentially experimental and you were mainly deriving relationships from the experimental data, There wasn&#39;t as much coding or numerical simulation work. Is that correct? It was I&#39;d say 80 to 90% correct there. There was work on developing solvers people in the in the the USA was were on to on to that a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:54</span>
+  <span>group at Los Alamos. There were others in England. You mustn&#39;t forget Peter Bradshaw also, although he was out and out an experimentalist. He worked with a group at the National Physical Laboratory that included some numerical fluid mechanisms and they developed a scheme usually called Bradshaw&#39;s method that indeed at the 1968 Stanford conference was rather more successful than sporting and Patanka scheme with that had used the mixing length hypothesis, of course. OK, So the this bringing together, how did it work in practice at that point? Was Spalding still essentially running the department? And and so in some ways was that the slight you still had your</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:42</span>
+  <span>individual research groups, but you were sort of merging in one, you know, what was that? Because I can imagine he is the senior professor here. You you&#39;re the How did that relationship at that point? Well, well, Sporting was never a head of department. He was happy to be head of the heat transfer section, OK, really the next, and he was happy doing that. The next major change in my own career also arose indirectly from Brian Spaulding with the success of this new boundary layer code. And he had another code that handled recirculating flows too. There was a lot of interest outside of the university in getting consultancy help on applying these new schemes to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:34</span>
+  <span>flows that were of interest to the people in question. Sporting initially tried handling that internally by sharing tasks with trusted members of staff and they&#39;re research students. But after a year or so, he he just felt that wasn&#39;t working. He&#39;d find somewhere outside of the university. So he established an independent company, Concentration, Heat and Momentum, or Cham for short. It established headquarters in Wimbledon and then he had the enormous task of recruiting staff, completing the various consultancy requests that were coming in. And inevitably, even for someone as able as him, the activity</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:25</span>
+  <span>within the university itself, his academic role, they&#39;d they very much were on hold and this this produced unhappiness with within the department. Now, as it happened, one of the Spalding&#39;s group had also been made a professor by then. His name was Jim Whitelaw. He was an experimentalist in fluid mechanics mainly, but the idea developed that since he was a professor, he was eligible to basically to lead a group of staff. Maybe the head of department would form something called the fluid section, and those who wanted would transfer their affinity from the heat transfer</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:13</span>
+  <span>section to the fluid section. What was the outcome of that? You can guess absolute turmoil. I won&#39;t go into the details of the battling, but essentially it brought research to a halt. Then one day I had a telephone call from the USA. It was from the head of department at the University of California, Davis. He&#39;d been on sabbatical leave within Spalding&#39;s Group A couple of years before. He and I had got to know each other somewhat. So he called and he said something like, hey, Bran, I really sorry to hear about the problems that you guys have got in the department at the moment. I&#39;ve been talking with the Dean and he said to me that if I wanted to offer you a full</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:05</span>
+  <span>professorship to come here to Davis, that was that. Would you be interested? I heard these words and just just seemed like someone had I was drowning and that someone had dropped a lifeline from a helicopter to pull me out of the So we I said yes without hesitation. It took maybe well, we didn&#39;t get, didn&#39;t arrive in Davis until, well, I think it was 96, the summer of 1976, but we were very pleased to get there at the time. What was it, what was it like though with your family, children? Was that and that was a big move, you know, big thing to move to the US, to leave London. Was it an excitement to do it in a way?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:56</span>
+  <span>Was it a challenge to convince your wife and family to to go with you? With my, my wife, she&#39;s Danish and moving away from moving away from Europe was a big thing for her. And I softened that by buying, buying a property in France. My contractor Davis was for nine months, that is to say just just just until June and then you were free completely over the summer. And I&#39;d have to say also that unlike, unlike Imperial College that I just come out of staff didn&#39;t have administrative work to do. There was other other workers that handled all the administration academics were</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:44</span>
+  <span>there just to teach and do research. So it did make sense having this nine month contract. So what I agreed we do was in in the summer months, we, we come to Europe entirely, which would give her more opportunity to interact with friends and and so on. Yes, we bought a rundown. We bought a rundown farmhouse just north of Lyon and in the in the summer I would would drop in two or three times a week to the acre Santral Polytechnique in Lyon in enjoying doing research with new colleagues there.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:33</span>
+  <span>My wife was happy at our our rather dilapidated farmhouse, but that was that was a different life. So, so yes, we will make that. But what about UC Davis then? What was it like there? Well, the department was about half the size of Imperial College. Colleges staff did a lot more teaching. They didn&#39;t have administration to do, but they certainly did a lot more teaching. And some of them treated research really like a hobby, something that they&#39;d squeeze in when time allowed. Luckily I struck up a very good working relationship with two staff there that really they were experimentalists in various aspects of heat transfer and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:20</span>
+  <span>they they invited me to join them to add a computational side to their activity. Probably the main thing though that I should should mention is that Onira, which is the French equivalent of NASA Onira, sent a post doc who had done his doctorate in in turbulence modelling to work with me for a year. I guess they thought that the interaction of the two of us might be useful. What he had done was produce an equation, sorry, a turbulence model not with one length scale, but two effectively length scale equations that are used in different ways in his model. I didn&#39;t find the model as presented in his thesis exactly coherent. But we work together and agreed</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:09</span>
+  <span>that what we do would be to develop what&#39;s known as a multi scale model. That is to say, we&#39;d effectively cut the turbulent spectrum in half with a large scale part in which eddies would capture mean energy from the from the flow and a medium and fine scale part that received energy from the large scale turbulence and finally dissipated it. That is so we had separate transport equations for the two parts of turbulence. Davis didn&#39;t have a great computing system. We could only look at simple flows, which also suited very well the background of the French visitor. So we looked at sudden contractions, sudden distortions.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:58</span>
+  <span>They were just, these were just one-dimensional flows. You could almost calculate them by hand rather than using the computer. Well anyway, the outcome of this was I felt quite spectacular. The simple flows which we did a so so job on with previous models were now much better predicted. You got a delayed response when you put new energy in. You didn&#39;t get the dissipation rate occurring straight away. There was a delayed response and that mimicked very well the experiments that more or less brought us to the end of his year. But I wanted to continue the research to include really the sorts of flows that in engineering 1 is dealing with</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:47</span>
+  <span>boundary layers, mixing layers, jets, wakes this, that and the other. But in order to do that, the Davis system wasn&#39;t really suitable. That is to say, the computer gave too slow turn around for model development. Also, well, I needed to get funding if I was to get anyone else. I couldn&#39;t easily recruit research students at Davis. They didn&#39;t seem to want to do research in turbulence modelling. But Kimo Hanielich, I knew, was struggling with the administration that had hit him. And having got funding from NASA, I invited him to come over for a year and join me. Now, as I say, the Davis computing system wasn&#39;t up to it, but it wasn&#39;t difficult to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:36</span>
+  <span>obtain computing resources at the the Lawrence Berkeley labs. Now in those days, we&#39;re still talking about the 1970s. You&#39;ve you&#39;ve got computing resources. Laptops weren&#39;t invented and you sure didn&#39;t have anything called remote access. In order to use these, one had to get in one&#39;s car and drive the 60 miles or so down to the Lawrence Berkeley labs, which had brilliant facilities at the time. Well, Kimo mainly, but I, I in joined in as well, worked on this problem for the best part of a year. And I have to say the outcome was disappointing. We made one or two improvements that applied equally to single scale models.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:25</span>
+  <span>But there was really in you, you&#39;re looking at flows like a mixing layer where so much energy is captured from the mean flow into the turbulence that the medium and fine scale part of the spectrum hardly had a look in. So the results that we got for these flows were only marginally better than we had obtained with a single scale model. End of story. I thought it worth mentioning that because this brings home that what looked like very good research directions sometimes don&#39;t don&#39;t work. Which is, which is a good lesson for people, I guess. Maybe you&#39;re well known for your successes with the KEP silent model and the LLR. But I guess if the point is not</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:14</span>
+  <span>all research comes out in success. But maybe that&#39;s the point of research, isn&#39;t it? Some stuff works. Indeed doesn&#39;t. Yes. Well, there was something else that arose from these trips down to Berkeley, because I got to know the head of department at the University of California, Berkeley. And one day he he said to me, listen, I see you&#39;re down here quite regularly. We need someone to teach turbulence modelling to our our students here. And there are students asking to do research in that area, but we really don&#39;t have anyone that could provide that role. What if we, we&#39;re in the same university system as Davis? What if we arrange to hire you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:02</span>
+  <span>for, let&#39;s say, one day a week? It would be very easy to arrange. And then when you&#39;re down here at the LBL, you could also call in here at the department, see students, give a lecture or two. And it seemed to me that that that would work well. Again, I was delighted at this suggestion. Couldn&#39;t wait to get back to Davis to break the good news to the head of department so he could then just sign whatever forms were needed to bring the change about. I told him and he said absolutely not. If students know they can work with you by going to Berkeley, they&#39;re not going to come to Davis. I said to him, Alan, that that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:45</span>
+  <span>doesn&#39;t make sense, it&#39;s because they won&#39;t come to Davis. But I can. I can see great opportunities from recruiting students in in Berkeley. However, he was implacably opposed and I accepted it. I liked life in California. It was was a bitter pill, but I could swallow it. But then not very long later, I got a phone call from England. It was the principle of humis, that is to say Manchester&#39;s Institute of Science and Technology. He said the head of thermofluids here has died and we&#39;re looking to recruit his replacement. A few people I&#39;ve asked have suggested you might be interested. I disabused him of of that idea.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:31</span>
+  <span>I said listen, I&#39;ve only been here for 2 1/2 years, I put in a lot of effort. I haven&#39;t started reaping the rewards of being here so it&#39;s it&#39;s too early for me to consider coming. However, he kept persisting and in the end I thought I&#39;ll take a short back trip back to England, see my parents, haven&#39;t seen them for a while, then I&#39;ll go up to Manchester, have the interview and I&#39;ll politely decline if they offer me a position and life will return to normal. And that was the plan that I put into motion. Spent a pleasant weekend with my parents, travelled to Manchester and had a whole day before the interview to be exposed to what you miss could offer.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:19</span>
+  <span>And I have to say Neil, I was just blown away. First of all, Thermo fluids research had its own building all through itself. It had 15 academic staff that I would generally have responsibility for, but not just academic staff. There must have been at least 30 technician staff and what are called experimental officers to basically help push research along. There were around computing staff, of course, at the end. At this point in time everyone was using card decks and it needed it, needed quite a lot of support. But four or five full time positions, That was amazing.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:09</span>
+  <span>Finally, at the end of the day, I had an interview with the principal himself. It was a relaxed chat really over a glass of Sherry I recall. And he said, of course, if you do come here, there will be administrative work you won&#39;t need to get involved in. And to make it easier for you, you&#39;ll have a dowry appointment. Meaning that I could choose anyone that I thought was would going to be helpful to come and work as a lecturer. No interview, no anything. It was just me saying I want to have him. It probably runs counter to to in nowadays, but it didn&#39;t at that time. So at the end of that I had to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:00</span>
+  <span>say I really wanted the interview the next day to go as well. And it was a disaster. I was taken into the room itself where the interview was conducted. In front of me was a huge Oval table. I was sat on one side of the table and ranged all around the other side were the questioners. There were about 10 or 12 there. The principal was there. He introduced me, welcomed me, introduced me to the other. Other people on the panel think he maybe even asked me a couple of soft questions which I dealt with. But then he stepped back and turned me loose to these hyenas</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:49</span>
+  <span>that ravaged me for the next 50 minutes or so. They were obsessed with something called the Finniston Report, a report, a government produced report by Lord Finniston or whoever that looked at potential changes in the training and development of engineers. I think by then it had been recognized that Britain didn&#39;t recognize engineers to the extent that someone somewhere like Germany or Japan did. And of course these these countries, despite the set back of the Second World War, were already very advanced and overtaking other European countries. I honestly, I&#39;ve been in America for 2 1/2 years. I didn&#39;t have a clue about what</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:38</span>
+  <span>my reactions should be. Likewise, and I could have anticipated this, there were a lot of questions related to what management style I would apply if I had the post. I hadn&#39;t been talking about management. I&#39;d I wanted to do research and do some creative teaching. So again, my my questions were were very weak. I felt at the end of an hour they released me to catch the plane back to California. I remember my wife meeting me and she was quite excited. She said, well, how was it? Did it did it meet your hopes? We will we be going there? And I held my hand up and said the job looked fantastic and I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:29</span>
+  <span>made it a real terrible job of the interview. That&#39;s the end. So I mentally got back to my work in Davis. But you know, a week later the principal phoned again and said the job was mine. It may have been a a fine decision because usually they don&#39;t take that long in reaching a decision. But anyway, I did accept the position and well, by the time I got loose from Davis, there were various entanglements that slowed my departure. It was spring 1980. After I&#39;d accepted the appointment, the principal pointed out that I wouldn&#39;t be really responsible for the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:18</span>
+  <span>engine testing work that my predecessor had specialized in. He had a right hand man for that work. And if I was agreeable, he could be promoted to professor to thus removing me from any responsibility. And then that&#39;s what I very much agreed to and form my dowry lectureship, I recruited Michael Leshina. Michael had been my final PhD student before I left Imperial College. In interim, he&#39;d gone to work with Wolfgang Rodie in Karlsruhe. But when I suggested that he might rejoin me as a lecturer at Manchester, he was very happy to come. So I was able to get off to a very good start there because I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:08</span>
+  <span>could delegate to Mike Leschziner responsibility for the developing software and generally looking after the turbulence related work while I got experimental work going. In fact, I was very lucky in that while I was in Davis I&#39;d negotiated a contract with the Office of Naval Research, ONR as it&#39;s known. The person behind that was someone who was very sceptical of CFD, of what CFD codes could do at that time. In particular, he was interested in flow through heat exchangers, in particular, flow through a tube, but in a tube that went in a series of U bends as you get</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:59</span>
+  <span>in a heat exchanger. He said he didn&#39;t believe that current CFD software could accurately predict what heat transfer coefficients would arise from the complications that the swirling flow that was generated by these U bends would create. Fine, I accepted that there was no problem transferring the contract to Manchester. So we got under way and after we&#39;d got a very nice set of results, not just for a circular U bend, circular section U bend, we actually also produced experimental results for a square section U bend. Real heat exchangers don&#39;t have a square section pipes, of course, but it was easier to do</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:48</span>
+  <span>the experiments using laser Doppler anemometry going through a plain surface rather than a circular surface at a time. It took us a little while to work out how to do that. Anyway, when we went to apply software to that we&#39;ve we found very poor agreement. The contract monitor was delighted he&#39;d been proof correct. We carried on as well as we could refining the model. We found in that case that that taking the calculation all the way to the wall was highly beneficial. We at that point just put in the mixing length hypothesis across the sub layer. Remember this, these were</span>
+</p>
+<p>
+  <span class="transcript-timestamp">55:38</span>
+  <span>three-dimensional flow calculations and although computers were getting more and more capable, the calculation like flow 3 dimensional flow through a a succession of U bends stretch the resources available. OK, well we then went experimentally on to rotating U bends. Now rotating U bends. Heat exchangers don&#39;t rotate, but this configuration also arises in tubes 1 millimetre in diameter that are inside gas turbine blades and because of the pressure there and other other factors. So for Rolls Royce for several years we continued looking at the impact that swirl has on in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:28</span>
+  <span>that particular configuration. I think on the research computing side rather we&#39;d for my money, I&#39;d more or less run out of Rd. The there didn&#39;t seem to me much scope within the stress transport models or algebraic simplifications thereof that we could exploit. And then one day in a reflective mode, I recalled a paper that John Lumley had published in 1978. He made what I then asserted was a absurd suggestion that turbulence should comply with what he called the two component limit. Turbulence, as you know, is 3 dimensional, John said. However, if you have a situation</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:21</span>
+  <span>where the fluctuations just lie in a plane, that is a state that you should insist on your turbulence model agreeing with. Indeed, he worked out a parameter that automatically went to zero whenever you did have that two component state, and thus it would be a useful parameter to use in one&#39;s turbulence model. Well, in reflecting on this that day, I suddenly realised that as you went closer and closer to a wall, the presence of the wall damped out fluctuations normal to the wall, so that then as you get close enough to the wall, you indeed did have turbulence that was essentially 2</span>
+</p>
+<p>
+  <span class="transcript-timestamp">58:10</span>
+  <span>dimensional. At that instant I went from being a critic to an enthusiastic supporter. It was, it really was an overnight night thing. I had two other students at the time but worked on this. I&#39;m happy to mention the My name 1 was Dimitri Selikodakis and the other was Songfu. Anyway, they made important first steps, but then their names aren&#39;t linked with the TCL modelling simply because they were in at the development stage at the exploiting level. Though Li Xiaoping, another Chinese student who now works for Fluent in the USA, He applied the scheme both to flows along a flat plate, but also to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:03</span>
+  <span>riblet flows in order to reduce the drag. The results from his computations came out well. And then especially a little afterwards, Tim Kraft looking at a whole range of turbulent flows found that that this two component limit, the TCL model as we called it, did a brilliant job of imitating, mimicking the effects of buoyancy stratification on the behaviour of the turbulent stresses much better than the other the earlier LRR model that everyone still uses. Maybe I can ask a quick question. Actually on the TCL model, it strikes me that from my understanding, that has probably the most, that was the peak of the most sophistication, the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:53</span>
+  <span>most complexity in a turbans model in, in terms of the number of equations, the completeness. And yet if I look at fluent or, you know, other codes today, it&#39;s probably still the case that people use their LR, you know, LRR or SSG. Is there a reason you think that the TCL wasn&#39;t adopted more wisely? Was it just too difficult to implement? Do you have any? Yeah, thoughts. On that, I think it may well be certainly what you suggest was a contributor. Maybe maybe I didn&#39;t get involved myself in trying to promote the model. I don&#39;t know. Dave Wilcox I think has has done a better job in in in advocacy. Florian Mentor&#39;s another name that is, is is an advocating</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:40</span>
+  <span>that approach. But well, I don&#39;t know. It&#39;s a it&#39;s a thing of history. My philosophy is often, and I just wonder whether that&#39;s why the K epsilon is still today one of the most widely used is there is a simplicity is often preferred because it&#39;s it&#39;s easier to implement, it&#39;s easier to debug, it&#39;s easier to get right. And so sometimes I wonder whether people are inherently favouring simpler models. And so the K epsilon it&#39;s probably an easier model to implement and test and use than the TCL model that is has more places to make a mistake. I don&#39;t know if that&#39;s the reason, it could be war. I I think as well you, you touched on it, simplicity is a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:23</span>
+  <span>very key point. But nowadays 1 is, is looking at a situation where computers have developed so much that if K epsilon isn&#39;t good enough, perhaps you should use a hybrid K epsilon LES approach. Yeah, and LES is conceptually quite simple. K epsilon is also pretty simple. I think people can live with that package, maybe more easily than solving rather obscure looking models for the pressure strain hypothesis in the in the TC. Yeah, but how about, you know, Tim Kraft, somebody who actually taught me when I was at university?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:11</span>
+  <span>He went further, right? You went on to move to look at what I would consider I guess a blend or a theoretical blend of trying to bring some of the concept of an ice to be into simpler models. So this was the non linear cubic models, right? That was this the next stage, I guess, of the turbans modelling work. Very much so. Toyota had contacted me wanting to send one of their staff at the time, Kazuyi Kosuga, to work on me and I&#39;ve I&#39;d figured that they wouldn&#39;t be interested in TCL modelling. It really would be a step too far for this car manufacturer. But we did agree to look at non linear Eddy viscosity models. There had already been half a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:59</span>
+  <span>dozen schemes that brought in quadratic terms in addition to the principal linear term of an Eddy viscosity model. We started off looking at those five schemes that already come forward and what we concluded was that because these five models were also very different, different magnitudes of coefficients for different terms, these models had been designed so that they cope with one particular class of flow that a linearity viscosity model didn&#39;t get right. We concluded that since the models weren&#39;t anything like the same, we would be wasting our time to continue research at the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:03:47</span>
+  <span>quadratic level. So for the first time then, we we explored modelling at cubic level. Cubic level of course brought in many more potential terms, each with empirical coefficients to tune. But Kazuhikosuga very patiently and very thoroughly looked at a whole wide range of flows that were difficult or couldn&#39;t be predicted with a linear Eddy viscosity model, and we ended up with a version that perhaps wasn&#39;t the final word in cubic Eddy viscosity modelling at at least did a hell of a lot better for a large number of flows than than the quadratic models.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:38</span>
+  <span>So he was content. I&#39;d say after returning to Japan, he worked for a few years with Toyota. But then this is interesting. He got permission from Toyota to move to a university position. Oh nice. You could you could see that as, as you&#39;ve just said Neil, a simplification from from the pinnacle of TCL modelling. And I guess the next step I took in research went a step further. What really bugged me was that still in commercial CFD, people so frequently use wall functions based on this old idea and very</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:27</span>
+  <span>limited, a very limited idea that the near wall velocity profile was universal. What could we do with that? Well, I worked on this with Tim Craft, who had become a lecturer at the time, and Hector Yaccapedes, an earlier student that had worked on flow around Benz with me, who was now a professor. In fact, we decided we&#39;d figure out a better way of building a wall function. Indeed, we worked on 2 schemes. There was a analytical approach. We took the view that although the near wall velocity profile wasn&#39;t universal in most of the flows that one would want to look at, maybe the turbulent Eddy viscosity would be much</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:06:19</span>
+  <span>more nearly universal, Particularly as we agreed to allow the viscous sub layer where there was 0 turbulent mixing. According to our model, we could vary that in thickness depending upon the gradient of shear stress across the layer. Well, this we worked on with a Russian student. My only Russian student, Alexi Gorasimov, was just fun to work with and I&#39;m glad to say that the model he came up with, what was called the analytical wall function, did pretty well. It&#39;s widely used at Manchester now and and is at least incorporated in some of the commercial software. It&#39;s a lot, lot better than log</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:07:10</span>
+  <span>roll wall functions. They should be made illegal, but we also developed a second scheme in situations where you have the velocity vector changing direction across the viscous layer, such as a rises in those flow around U bends, very tight U bends. We developed a numerical scheme. I I won&#39;t attempt to go into any detail on that, but the key thing was that just as in a boundary layer solver, if you think of a but 2D boundary layer solver, you treat the static pressure as though it is uniform across the layer. We applied the same slight approximation, but only to the very near wall region covered by the wall function.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:08:02</span>
+  <span>And I won&#39;t go into the details. Indeed I&#39;ve forgotten some of the details by now. It&#39;s a while ago. But that permitted us to very much reduce the cost of using quite advanced models. I mean, Bill Jones&#39;s Paul Reynolds number model could be put in or or any any other other model and it reduced the computing time by something between 80% and 90%. So it represents a huge saving. I should just maybe add a point and maybe you&#39;re not even aware of this, that I have seen a resurgence of the interest in the work that you did with Tim and Hector for advanced war functions in the context actually of LES.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:08:51</span>
+  <span>That now because there is a resurgence of interest in the war modelled LES, there is a realization that the model used to approximate the near war behaviour. Can we look at more advanced ways of calculating that? And I I&#39;ve seen now people reference and look at that work not in the context of Rams, but actually in the context of LES, which I thought is quite interesting how work that was done, you know, 30 years ago is now being re looked at in a in a different context, but still. Yeah. So anyway, just a. Thank you Neil. I, I was not aware of this resurgence of interest. Long may it continue, but I, I have to say that that having got</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:09:37</span>
+  <span>that far, what I found was that turbulence models was looked on as what might be called a mature subject. People weren&#39;t interested in looking for radical changes in in modelling. It was applications that were very much to the flock for I didn&#39;t feel that that was what I was perhaps best at at doing, though I, I did, I did supervise one PhD student by a friend of yours, Alistair, and that was very successful. He was looking at in nine tube banks and it was quite extraordinary. We found the the sorts of deviations from from going straight through of N92 bank heat exchanger tended to develop</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:10:28</span>
+  <span>a diagonal path through that. I should maybe just interrupt you slightly. I, I was mean to say it before, but maybe this is a good time to say it that almost as a, an observation or to people listening that I studied at Manchester University with Alistair as well. And we did our undergraduate PhDs and, and you taught us and so did Tim craft and so did hectic Yakovides and these folk. Not Michael, I guess Michael, I think moved to Imperial then and but we didn&#39;t know who you were. We didn&#39;t know who Tim was. We didn&#39;t know. And I, I know Alastair and I talk about this now that we feel bad in a way. And I&#39;m sure others are like that.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:07</span>
+  <span>They see some professor come in, teach a subject, second year something and you all, you don&#39;t mean to be disrespectful, but you know, you don&#39;t know who they are. And it&#39;s only later you look back and think, oh wow, I was, you know, taught by this person or supervised. And I, I wonder, I think you mentioned to me this happens sometimes that people come or want to take a selfie with you or something. Because now with social media, I guess people know who people are more. But at the time we had no clue. And it was an honour to be taught by you. But I feel guilty that we didn&#39;t say it at the time. Well, I have no thoughts on</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:42</span>
+  <span>that. Indeed you mentioned people coming in to have selfies with me. I I was just amazed and thought they were slightly crazy but complied with their request to to be photographed. Well, I suppose the one of the reasons that slightly steered me away from continuing too deeply in basically CFD applications. Much as there were very interesting things to explore, I would in fact mention another application case. We were looking at trailing vortices behind a wing. There was a good set of experimental data, and we computed that with a Eddy viscosity model, and as we knew it would, the swirl died out far too quickly.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:12:34</span>
+  <span>Now the trailing vortices behind a wing in practice are known to persist a long time, so that a big aircraft landing at an airport would make it really dangerous for a plane coming in a minute or so after them on the same track because the swirl persisted and persisted. The Eddie Viscosity model said don&#39;t worry folks, the swirl dies out very quickly. But experiments that Peter Bradshaw had done said, no, it doesn&#39;t die out. It hangs around an awful long time. And I&#39;m happy to say that one of the applications that I did with Tim Craft at Manchester was to look at this with the TCL model. And the TCL model was the only</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:13:23</span>
+  <span>one of four schemes that we looked at that in any way mimicked the observed experimental behavior. I will just add if you don&#39;t mind a quick again interesting thing that you may or may not be aware of and it&#39;s probably one of the reasons that Alistair works where he does now at the Formula One team, is that use case of RANS turbans modelling for highly vortex driven flows is a key use case in Formula One. And actually from when I was working and even recently, I still see people looking at non linearity viscosity models and all stress models because the flow around a Formula One chi is driven by 10s or more of individual vortices and they find that they need these non</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:14:06</span>
+  <span>linear terms to capture it more nicely. So even today, I think that&#39;s one of the industries that still are very much indeterminate modelling. So yeah, yeah, that&#39;s that, that wing tip exact test case I&#39;ve seen used internally at in F1 teams to investigate different terms models. So. Gosh. Well, thank you. I hadn&#39;t supposed that that ground based object like a racing car would encounter the same problems. Yeah, that&#39;s because all the wings, they generate the tips and there&#39;s so many of those individual wings, there&#39;s, there&#39;s probably 40 different vortices I guess on the car all touching each other. You need a pretty fine.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:14:51</span>
+  <span>It&#39;s a result, yes. Well, yeah, there&#39;s like a billion grid points nowadays, so things have moved on. But yes, sorry I interrupted you. I think you were talking more about the Osborne Reynolds and and some of that work. Yeah, well, I&#39;ve really reached the end of the end of the line. I thought I was also getting a bit old and so I was interested that the Royal Society announced that they had the original copies of referees reports from some of the early papers. Now I was quite interested in Osborne Reynolds, of course. He&#39;d been a professor at Manchester, forerunner of Manchester University, but also he his paper on Reynolds averaging.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:15:34</span>
+  <span>Whilst it didn&#39;t actually get into the problems of modelling the Reynolds stresses, at least it marked a starting point for the subject that I&#39;d been involved in for most of my professional career. So he asked whether they had copies of Reynolds papers. Judy travelled down to London to see them. And again was I was just blown away. I was blown away in much the same way that first coming to you Miss had had done for me. You got communications from Horace Lamb, George Stokes, from Reynolds of course, really from from all of these people that were involved in refereeing or acting as editor of of the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:16:26</span>
+  <span>manuscripts that Reynolds had submitted. So I said, well, can I have a copy of these? Yes. The Royal Society said no, I could not Xerox them. They wouldn&#39;t allow me to Xerox them, but they could arrange for their photographer to come in and copy them for me, which they duly did. I was charged 75 lbs for the privilege which I the other day I looked up as to what that would be today. It was a little over £200 but I happily paid that in order to get get the photographs and subsequently then I wrote a paper on how despite crushing referees reports, nevertheless</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:17:16</span>
+  <span>Osborne Reynolds did publish his paper on Reynolds averaging. Well that&#39;s a lesson on even the famous and well known people like Osborne Reynolds can get very harsh reviews, so maybe that&#39;s reassuring for everybody else who probably also has had those. I&#39;m sure it wouldn&#39;t have been published except that the earlier paper that he&#39;d published in which he discovered that transition occurred at a particular of what we call today a particular critical Reynolds number. If he hadn&#39;t published that experimental paper first because the referees were saying things like the previous work he did was very good. Maybe there&#39;s something in this, but I can&#39;t see it that that was</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:18:03</span>
+  <span>probably the reason it got published. Of course, having having published one paper, you get a request from conference organiser, could I give a paper just like that one? And of course my response is I couldn&#39;t bear to give the same paper twice. But what I discovered was that at Manchester they had all of the archive material from Reynolds applying for a his chair. Retired colleague of mine had also been following up on Reynolds&#39;s life, a person called Derek Jackson. And so we collaborated in producing a much fuller paper on Reynolds&#39;s life as a whole that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:18:52</span>
+  <span>was was published in a book that I forget. Let me find the name of the book here. It is A Voyage Through Turbulence that was edited by Keith Moffat and others from Cambridge. Anyway, I don&#39;t know whether it was connected with these papers when colleagues in the Royal Society died. It&#39;s the practice of the Royal Society to produce a 25 or 30 page memoir on their lives, their achievements. So I was when my friend Jim Whitelaw passed away, I was asked to write his. And you know, that is, that is really an interesting branch of research that was quite like looking at looking at Osborne Reynolds&#39;s past life because Jim</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:19:42</span>
+  <span>had produced a huge catalog of what he&#39;d done. And so as a matter of sifting through that, pulling out the aspects that would be particularly important to stress, plus any personal views I might have. So that started following Bron Spaulding&#39;s death. I I also. Contributed to his memoir and now most recently, Peter Bradshaw, who died last year. I&#39;ve written his article. So life in my retirement hasn&#39;t, hasn&#39;t by any means been without involvement with turbulence. Bryant Spalding, When we started off in the earlier discussions about the beginning of your career, you had the initial chat about where to study, then the offer of coming back to Imperial</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:20:34</span>
+  <span>and obviously then there was a a sort of falling out and then leaving to UC Davis. What was your relationship like later on in in your career? Did you stay in touch? Did you? Yeah. How was your relationship when you came back to you missed? Well, when I came back to you missed it was. It was static. Nothing had moved by then, but then when in 1994 received a note notice that I was to be admitted to the Royal Society, I got a warm, very brief but brief brevity is certainly sporting style. A brief note congratulating me. I didn&#39;t respond to that. I think in as generous a way as I could.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:21:23</span>
+  <span>We, we might have developed much closer linkages again when he was when he was reaching his 90th birthday, there was a, a celebration for him and I, I was distantly involved in helping to organize that. And of course we met there and exchanged pleasantries between us. I I guess there was still slightly a feeling of the tension. I think the last time I saw him was when I was giving, We were both giving, in fact invited lectures at a meeting in Sarajevo. I would by then had worked into the area of climate change and that was the topic of my lecture, really suggesting how engineers with their experience and now of being able to predict</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:22:15</span>
+  <span>turbulent swirling flows could actually contribute to the modelling of hurricanes, perhaps devising methods to diminish the intensity of a hurricane. I think the paper went over the heads of those there. There was, I think, no question at all from the floor except from Brian Spalding. He was sad in the front row of the audience. We did mend our defences between us. I didn&#39;t do as much as I should have done, and I&#39;m sorry, but I hope in contributing to his bio memoir, I&#39;m forgiven. My other question, I&#39;m kind of see how you saw it from the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:23:04</span>
+  <span>outside. Often the turbulent modelling, particularly in a Rands context, it&#39;s often seen as a almost a competition between Philippe&#39;s Ballade, you know, Florio Mentor yourself, Wilcox, how much did you see it that way in the night? And I guess you had done it a little bit before, but in the Seventies, 80s and 90s, were you aware of this almost papers always comparing the different turbans modelling approaches and which one was better? Was that something you aware of or was it not? Yeah, part of your thinking. I guess one could say I was dimly aware of, but I was so interested, you might say obsessed with tackling the problems in research that I felt</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:23:56</span>
+  <span>I needed to deal with. I I wasn&#39;t looking over my shoulder all the time. Looking over one shoulder in implies people are behind me. Maybe some some of. Do you think it&#39;s ultimately though, just a matter of where you studied and what your funding was, new use cases, If you&#39;re in at Stanford and you&#39;re in the US, you have close links with NASA and the aerospace industry, you&#39;re going to be solving airplane cases. And so I wonder whether that motivated the Sparta, Maris and those. And if you had, instead of being funded by, you know, Boeing or or Rolls Royce, sorry, or Airbus, or would you have naturally pivoted and maybe come up with a slightly different</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24:45</span>
+  <span>terms model? Is it ultimately that you were driven a little bit by the problems you were trying to solve? I haven&#39;t. I haven&#39;t really thought of it that way, but I think I think that&#39;s it&#39;s correct. Had I, had I been at Stanford, say yes, NASA Ames would be the natural point of collaboration in research. Who knows? I don&#39;t. Well, I I say, I don&#39;t think I would have gone for A1 equation model as Philippe Spella. Yeah. And it&#39;s interesting, I think now if you look, even with the Spallitomaris, there&#39;s a lot of modifications to try and add some of these non linear terms. So I, I think ultimately people come from different directions</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:25:31</span>
+  <span>and you know, I guess you can argue which one&#39;s correct and which one&#39;s not. But yeah, it, it&#39;s just a curiosity to us externally, because if you open up antis Fluent or Star CCM or one of these commercial packages, you are almost, you know, this, I didn&#39;t tell you, but you have radio buttons on which turbans model to pick. Do I pick the K silent? Do I pick the K Omega? And in some ways, if you have no context of the background, it is in some ways just which one do you pick? And that&#39;s why people often find it so interesting that there&#39;s these different options and how did they come about and what was their motivation. So that ends the question.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:26:07</span>
+  <span>So maybe to finish off, what if you were to now, you know, you&#39;re speaking to your 20 year old self, what advice would you give having all of what you&#39;ve learned through your amazing career? What? What words of wisdom would you impart? Gosh, it&#39;s hard to imagine a 20 year old who would sit and listen to somebody closer to 90 than 80I. I suppose looking back over my life, what I can see is that changes have come about. Really not of my own driving, but I&#39;ve somehow been thrust upon me. And I think I would say that people should be ready to accept change, not be downcast by it nor overly ill related, but to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:26:58</span>
+  <span>be inquisitive of of change. And I think making changes constructively has, in a sense, reflects my approach to modelling. When we&#39;d reached the stage where it was just a matter of pushing a button to, as you had alluded to, to choose which model is applicable, that&#39;s when I think it&#39;s time for me to say thanks but no thanks, I&#39;ll do something else. Great words of wisdom and thank you so much for sharing your stories and your work. I&#39;m sure I speak for everybody to say that the impact of, you know, the K Epsilon, the LLR and the wolf function work is today used by hundreds of thousands of engineers across the globe to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:27:48</span>
+  <span>design the things that we and you, the listener use it every day. So the impact, even though some of that work was 50 years ago, it is still impacting today, which is I think an incredible testament to the work you&#39;ve done. So thank you for being on today and it was great to speak to you. Well, thank you, Neil. It&#39;s been fun. Bye bye.</span>
+</p>
+  </div>
+</section>
+
+  </div>
+
+  <nav class="episode-pagination" aria-label="Other podcast episodes">
+    
+      <a class="episode-pagination-link" href="/podcasts/s3-e5-joris-poort-ceo-and-founder-of-rescale/">
+        <span class="episode-pagination-label">Older episode</span>
+        <span>Joris Poort — CEO and Founder of Rescale</span>
+      </a>
+    
+    
+      <a class="episode-pagination-link episode-pagination-link--next" href="/podcasts/s3-e7-five-key-trends-for-cfd-revisited/">
+        <span class="episode-pagination-label">Newer episode</span>
+        <span>Five key trends for CFD revisited</span>
+      </a>
+    
+  </nav>
+
+  <p class="episode-archive-link"><a href="/podcasts/">Browse all podcast episodes →</a></p>
+</article>
+
+<script defer src="/assets/js/podcast-embed.js?c51940005518ea34f0b5a8cfcb9fa760"></script>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name">Neil Ashton</p>
+      <p>Computational Engineering</p>
+    </div>
+    <nav class="footer-links" aria-label="Contact and profile links">
+      <a href="/cv/">CV</a>
+      <a href="mailto:%63%6F%6E%74%61%63%74@%6E%65%69%6C%61%73%68%74%6F%6E.%63%6F.%75%6B">Email</a>
+      <a href="https://www.linkedin.com/in/neilashton">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=mtBY0RcAAAAJ">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-9943-2334">ORCID</a>
+    </nav>
+    <p class="footer-meta">&copy; 2026 Neil Ashton. Built with Jekyll and hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+    <script defer src="/assets/js/common.js?1bb6c2519e97f5932c586bc8a69adfc0"></script>
+
+
+    
+
+
+  </body>
+</html>
