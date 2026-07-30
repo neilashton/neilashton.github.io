@@ -20,6 +20,7 @@ podcast_same_as:
     <a href="{{ site.spotify_show_url }}">Spotify</a>
     <a href="{{ site.apple_podcasts_url }}">Apple Podcasts</a>
     <a href="{{ site.youtube_podcast_url }}">YouTube</a>
+    <a href="{{ site.podcast_rss_url }}" rel="alternate" type="application/rss+xml">RSS</a>
   </nav>
 </div>
 
