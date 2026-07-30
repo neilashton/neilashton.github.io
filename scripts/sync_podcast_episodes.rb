@@ -35,6 +35,12 @@ SECTION_MARKERS = [
   "Keywords",
 ].freeze
 
+CURRENT_REFERENCE_URLS = {
+  "http://tensorlab.cms.caltech.edu/users/anima/" => "https://neuroscience.caltech.edu/people/anima-anandkumar",
+  "https://brandstetter-johannes.github.io" => "https://research.jku.at/en/persons/johannes-brandstetter-3/",
+  "https://staff.fnwi.uva.nl/m.welling/" => "https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html",
+}.freeze
+
 def fetch(url)
   URI.open(
     url,
@@ -199,6 +205,7 @@ def extract_links(text)
     raw_segment = text[start_position...next_start]
     url = clean_url(raw_segment)
     next unless url
+    url = CURRENT_REFERENCE_URLS.fetch(url, url)
 
     label_segment = text[previous_url_end...start_position]
     label = clean_link_label(label_segment, url)

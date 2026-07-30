@@ -109,9 +109,9 @@ last_modified_at: '2026-07-30'
   </a>
 </li>
 <li>
-  <a href="http://tensorlab.cms.caltech.edu/users/anima/" rel="external noopener">
+  <a href="https://neuroscience.caltech.edu/people/anima-anandkumar" rel="external noopener">
     Lab page:
-    <span class="episode-reference-domain">tensorlab.cms.caltech.edu</span>
+    <span class="episode-reference-domain">neuroscience.caltech.edu</span>
   </a>
 </li>
   </ul>

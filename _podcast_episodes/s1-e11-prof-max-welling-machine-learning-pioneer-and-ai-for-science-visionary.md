@@ -105,14 +105,14 @@ last_modified_at: '2026-07-30'
   </a>
 </li>
 <li>
-  <a href="https://staff.fnwi.uva.nl/m.welling/" rel="external noopener">
+  <a href="https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html" rel="external noopener">
     University website:
-    <span class="episode-reference-domain">staff.fnwi.uva.nl</span>
+    <span class="episode-reference-domain">uva.nl</span>
   </a>
 </li>
 <li>
   <a href="https://scholar.google.com/citations?user=8200InoAAAAJ" rel="external noopener">
-    Google scholar:
+    scholar.google.com: citations
     <span class="episode-reference-domain">scholar.google.com</span>
   </a>
 </li>

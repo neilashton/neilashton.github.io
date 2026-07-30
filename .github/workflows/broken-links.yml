@@ -63,4 +63,9 @@ jobs:
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           fail: true
-          args: --base './_site' --verbose --no-progress './_site/**/*.html'
+          args: >-
+            --base '${{ github.workspace }}/_site'
+            --remap '^https://neilashton\.co\.uk file://${{ github.workspace }}/_site'
+            --verbose
+            --no-progress
+            './_site/**/*.html'

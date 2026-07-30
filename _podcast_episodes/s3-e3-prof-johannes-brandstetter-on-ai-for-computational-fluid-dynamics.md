@@ -124,14 +124,14 @@ last_modified_at: '2026-07-30'
   <h2 id="episode-references">References and links</h2>
   <ul class="episode-references">
 <li>
-  <a href="https://brandstetter-johannes.github.io" rel="external noopener">
+  <a href="https://research.jku.at/en/persons/johannes-brandstetter-3/" rel="external noopener">
     Github:
-    <span class="episode-reference-domain">brandstetter-johannes.github.io</span>
+    <span class="episode-reference-domain">research.jku.at</span>
   </a>
 </li>
 <li>
   <a href="https://www.emmi.ai" rel="external noopener">
-    Emmi AI:
+    emmi.ai
     <span class="episode-reference-domain">emmi.ai</span>
   </a>
 </li>
