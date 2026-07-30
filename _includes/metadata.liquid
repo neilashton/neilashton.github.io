@@ -20,6 +20,9 @@
 <meta name="keywords" content="{{ page.keywords | default: site.keywords | escape }}">
 {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
 <link rel="canonical" href="{{ canonical_url }}">
+{% if site.podcast_rss_url %}
+  <link rel="alternate" type="application/rss+xml" title="The Neil Ashton Podcast" href="{{ site.podcast_rss_url }}">
+{% endif %}
 
 {% if site.serve_og_meta %}
   <meta property="og:site_name" content="{{ site.title | escape }}">
@@ -72,6 +75,7 @@
         "name": "The Neil Ashton Podcast",
         "url": {{ canonical_url | jsonify }},
         "description": {{ meta_description | jsonify }},
+        "webFeed": {{ site.podcast_rss_url | jsonify }},
         "author": {
           "@type": "Person",
           "name": {{ author_name | jsonify }},
