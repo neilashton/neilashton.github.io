@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://neilashton.co.uk/sitemap.xml
+Sitemap: https://neilashton.co.uk/video-sitemap.xml
