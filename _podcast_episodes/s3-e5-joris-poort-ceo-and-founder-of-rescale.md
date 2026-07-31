@@ -3,9 +3,8 @@ layout: podcast_episode
 title: Joris Poort — CEO and Founder of Rescale
 youtube_title: 'Cloud HPC for Engineering: Building Rescale | CEO Joris Poort'
 meta_title: 'Cloud HPC for Engineering: Building Rescale | CEO Joris Poort'
-description: In this episode, Joris Poort, CEO and founder of Rescale, shares his
-  personal journey on founding Rescale as well as his thoughts on the future of CAE.
-  He…
+description: Rescale founder Joris Poort explains cloud HPC for engineering, startup
+  growth, enterprise adoption and how AI agents may reshape simulation workflows.
 permalink: "/podcasts/s3-e5-joris-poort-ceo-and-founder-of-rescale/"
 date: '2025-09-17T15:00:00Z'
 season: 3
@@ -17,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e5.webp"
 og_image_alt: Joris Poort — CEO and Founder of Rescale — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e5.webp"
 episode_image_alt: Joris Poort — CEO and Founder of Rescale — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/4DcEdTEp1Z9AHBORvpTc2x

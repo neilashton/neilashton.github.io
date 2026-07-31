@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Five key trends for CFD revisited
 youtube_title: 'The Future of CFD: 5 Key Trends Revisited'
 meta_title: 'The Future of CFD: 5 Key Trends Revisited'
-description: In this episode of the Neil Ashton podcast, the host revisits key trends
-  in Computational Fluid Dynamics (CFD) from the past year, focusing on the rise of…
+description: Neil Ashton revisits five trends shaping CFD, assessing progress in GPUs,
+  AI, cloud computing, digital certification and simulation-industry consolidation.
 permalink: "/podcasts/s3-e7-five-key-trends-for-cfd-revisited/"
 date: '2025-10-15T07:38:20Z'
 season: 3
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e7.webp"
 og_image_alt: Five key trends for CFD revisited — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e7.webp"
 episode_image_alt: Five key trends for CFD revisited — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/3luGYZg7YBlzEUWClGc3Rb

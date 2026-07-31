@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Paola Cinnella on AI for Science and Fluid Mechanics
 youtube_title: Can AI Fix Turbulence Models? AI for Fluid Mechanics | Paola Cinnella
 meta_title: Can AI Fix Turbulence Models? AI for Fluid Mechanics | Paola Cinnella
-description: In this episode, Professor Paola Cinnella - Professor of Fluid Mechanics
-  at Sorbonne University and Director of the Sorbonne Cluster for Artificial…
+description: Paola Cinnella explores AI for fluid mechanics, turbulence-model uncertainty,
+  AirfRANS, Bayesian methods and the need for rigorous scientific standards.
 permalink: "/podcasts/s4-e4-prof-paola-cinnella-on-ai-for-science-and-fluid-mechanics/"
 date: '2026-07-09T05:50:54Z'
 season: 4
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s4-e4.webp"
 og_image_alt: Prof. Paola Cinnella on AI for Science and Fluid Mechanics — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s4-e4.webp"
 episode_image_alt: Prof. Paola Cinnella on AI for Science and Fluid Mechanics — The
   Neil Ashton Podcast

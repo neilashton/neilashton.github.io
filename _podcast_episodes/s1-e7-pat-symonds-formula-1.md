@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Pat Symonds — Formula 1
 youtube_title: 'Formula 1 Engineering: Inside a Legendary Career | Pat Symonds'
 meta_title: 'Formula 1 Engineering: Inside a Legendary Career | Pat Symonds'
-description: In this episode, Neil interviews Pat Symonds, one of the most well known
-  and respected engineers in Formula One. They discuss Pat's career in engineering,…
+description: Pat Symonds reflects on a legendary Formula 1 career, exploring engineering
+  leadership, team culture, cost caps and the sport’s technological future.
 permalink: "/podcasts/s1-e7-pat-symonds-formula-1/"
 date: '2024-06-11T06:00:00Z'
 season: 1
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e7.webp"
 og_image_alt: Pat Symonds — Formula 1 — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e7.webp"
 episode_image_alt: Pat Symonds — Formula 1 — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/3USHfCZZAuAV3YvokYWVvg

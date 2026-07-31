@@ -3,9 +3,8 @@ layout: podcast_episode
 title: Five tips for CAE engineers in the era of AI
 youtube_title: 5 Skills CAE Engineers Need in the AI Era
 meta_title: 5 Skills CAE Engineers Need in the AI Era
-description: In this episode of the Neil Ashton podcast, Neil discusses the impact
-  of AI on CAE engineering, providing five essential tips for engineers to thrive
-  in this…
+description: Neil Ashton sets out five skills CAE engineers need in the AI era, from
+  technical learning and data readiness to judgement about building or buying tools.
 permalink: "/podcasts/s3-e4-five-tips-for-cae-engineers-in-the-era-of-ai/"
 date: '2025-09-02T12:00:00Z'
 season: 3
@@ -17,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e4.webp"
 og_image_alt: Five tips for CAE engineers in the era of AI — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e4.webp"
 episode_image_alt: Five tips for CAE engineers in the era of AI — The Neil Ashton
   Podcast

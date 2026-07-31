@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Juan Alonso — The future of computational science
 youtube_title: The Future of CFD and Computational Science | Juan Alonso
 meta_title: The Future of CFD and Computational Science | Juan Alonso
-description: In this episode I speak to Prof Juan J. Alonso on his vision of the future
-  of computational science as well as his journey from academia to entrepreneurship…
+description: Juan Alonso explores the future of CFD and computational science, from
+  GPUs and cloud computing to machine learning, open source and digital twins.
 permalink: "/podcasts/s1-e6-prof-juan-alonso-the-future-of-computational-science/"
 date: '2024-06-04T06:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e6.webp"
 og_image_alt: Prof. Juan Alonso — The future of computational science — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e6.webp"
 episode_image_alt: Prof. Juan Alonso — The future of computational science — The Neil
   Ashton Podcast

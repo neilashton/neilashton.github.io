@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Dr. Prith Banerjee — Ansys CTO
 youtube_title: The Future of Engineering Simulation and AI | Ansys CTO Prith Banerjee
 meta_title: The Future of Engineering Simulation and AI | Ansys CTO Prith Banerjee
-description: In this episode of the Neil Ashton Podcast, Dr. Prith Banerjee, CTO of
-  Ansys, shares his extensive journey from academia to the corporate world, discussing…
+description: Ansys CTO Prith Banerjee explores the future of engineering simulation,
+  examining AI, foundation models, open source, quantum computing and innovation.
 permalink: "/podcasts/s2-e6-dr-prith-banerjee-ansys-cto/"
 date: '2024-12-16T07:00:00Z'
 season: 2
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e6.webp"
 og_image_alt: Dr. Prith Banerjee — Ansys CTO — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e6.webp"
 episode_image_alt: Dr. Prith Banerjee — Ansys CTO — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/4AiARcFCwZJMWGZiIV2aX2

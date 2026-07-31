@@ -3,9 +3,8 @@ layout: podcast_episode
 title: Prof. Michael Mahoney — Perspectives on AI for Science
 youtube_title: 'AI for Science: What Machine Learning Must Get Right | Michael Mahoney'
 meta_title: 'AI for Science: What Machine Learning Must Get Right | Michael Mahoney'
-description: In this episode of the Neil Ashton podcast, Professor Michael Mahoney
-  discusses the intersection of machine learning, mathematics, and computer science.
-  The…
+description: Michael Mahoney examines what machine learning must get right for science,
+  from data and licensing to foundation models and commercial viability.
 permalink: "/podcasts/s2-e7-prof-michael-mahoney-perspectives-on-ai-for-science/"
 date: '2024-12-26T08:00:00Z'
 season: 2
@@ -18,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e7.webp"
 og_image_alt: Prof. Michael Mahoney — Perspectives on AI for Science — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e7.webp"
 episode_image_alt: Prof. Michael Mahoney — Perspectives on AI for Science — The Neil
   Ashton Podcast

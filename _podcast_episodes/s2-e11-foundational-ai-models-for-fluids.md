@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Foundational AI Models for Fluids
 youtube_title: 'Foundation Models for CFD: What They Are and Why They Matter'
 meta_title: 'Foundation Models for CFD: What They Are and Why They Matter'
-description: In this episode of the Neil Ashton podcast, the discussion revolves around
-  foundational models in fluid dynamics, particularly in the context of…
+description: Neil Ashton explains foundation models for CFD, how they differ from
+  conventional surrogates, and why data, scale and industry dynamics matter today.
 permalink: "/podcasts/s2-e11-foundational-ai-models-for-fluids/"
 date: '2025-04-24T19:00:00Z'
 season: 2
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e11.webp"
 og_image_alt: Foundational AI Models for Fluids — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e11.webp"
 episode_image_alt: Foundational AI Models for Fluids — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/4grTiR42vwNdPc7NEgRrUe

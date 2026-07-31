@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Neil Ashton — Career advice for engineers
 youtube_title: 'Engineering Career Advice: Lessons I Wish I Knew Earlier'
 meta_title: 'Engineering Career Advice: Lessons I Wish I Knew Earlier'
-description: In this episode of the Neil Ashton podcast, Neil discusses career advice
-  for aspiring engineers, focusing on the differences between various types of…
+description: Neil Ashton shares engineering career lessons, mapping roles across industry,
+  consulting and technology while explaining how software and AI change the field.
 permalink: "/podcasts/s2-e8-neil-ashton-career-advice-for-engineers/"
 date: '2025-01-09T10:00:00Z'
 season: 2
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e8.webp"
 og_image_alt: Neil Ashton — Career advice for engineers — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e8.webp"
 episode_image_alt: Neil Ashton — Career advice for engineers — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/1zr6O3gCyqCkC3IeQihWo4

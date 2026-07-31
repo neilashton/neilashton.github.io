@@ -110,6 +110,40 @@ layout: default
     {{ content }}
   </div>
 
+  {% assign related_episode_keys = site.data.podcast_related[episode_video_key] %}
+  {% if related_episode_keys %}
+    <section class="episode-related" aria-labelledby="related-episodes-title">
+      <h2 id="related-episodes-title">Related episodes</h2>
+      <div class="episode-related-grid">
+        {% for related_key in related_episode_keys %}
+          {% assign related_key_parts = related_key | split: '-' %}
+          {% assign related_season = related_key_parts[0] | remove: 's' | plus: 0 %}
+          {% assign related_episode_number = related_key_parts[1] | remove: 'e' | plus: 0 %}
+          {% assign related_season_pages = site.podcast_episodes | where: 'season', related_season %}
+          {% assign related_episode = related_season_pages | where: 'episode', related_episode_number | first %}
+          {% if related_episode %}
+            <article class="episode-related-card">
+              <a href="{{ related_episode.url | relative_url }}">
+                <img
+                  src="{{ '/assets/img/podcast/episodes/' | append: related_key | append: '.webp' | relative_url }}"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span class="episode-related-copy">
+                  <span class="episode-related-meta">Season {{ related_season }}, episode {{ related_episode_number }}</span>
+                  <span class="episode-related-title">{{ related_episode.title | escape }}</span>
+                </span>
+              </a>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
   <nav class="episode-pagination" aria-label="Other podcast episodes">
     {% if page.older_url %}
       <a class="episode-pagination-link" href="{{ page.older_url | relative_url }}">

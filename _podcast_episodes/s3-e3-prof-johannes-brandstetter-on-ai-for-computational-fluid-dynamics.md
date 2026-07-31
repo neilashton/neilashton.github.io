@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Johannes Brandstetter on AI for Computational Fluid Dynamics
 youtube_title: Can We Build a Foundation Model for CFD? | Johannes Brandstetter
 meta_title: Can We Build a Foundation Model for CFD? | Johannes Brandstetter
-description: In this conversation, Neil Ashton interviews Prof. Johannes Brandstetter,
-  a physicist turned machine learning expert, about his journey from academia to…
+description: Johannes Brandstetter explains the path toward foundation models for
+  CFD, covering transformers, meshes, temporal dynamics, scaling and physical insight.
 permalink: "/podcasts/s3-e3-prof-johannes-brandstetter-on-ai-for-computational-fluid-dynamics/"
 date: '2025-08-19T06:00:00Z'
 season: 3
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e3.webp"
 og_image_alt: Prof. Johannes Brandstetter on AI for Computational Fluid Dynamics —
   The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e3.webp"
 episode_image_alt: Prof. Johannes Brandstetter on AI for Computational Fluid Dynamics
   — The Neil Ashton Podcast

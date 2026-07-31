@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Max Welling — Machine Learning Pioneer and AI for Science Visionary
 youtube_title: How Machine Learning Can Transform Science | Max Welling
 meta_title: How Machine Learning Can Transform Science | Max Welling
-description: 'In this episode, Neil interviews Professor Max Welling, one of the foremost
-  experts in Machine Learning about AI4Science: the use of machine learning and AI…'
+description: Max Welling explores how machine learning can transform science, discussing
+  foundation models, open research, sustainability and responsible innovation.
 permalink: "/podcasts/s1-e11-prof-max-welling-machine-learning-pioneer-and-ai-for-science-visionary/"
 date: '2024-07-09T07:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e11.webp"
 og_image_alt: Prof. Max Welling — Machine Learning Pioneer and AI for Science Visionary
   — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e11.webp"
 episode_image_alt: Prof. Max Welling — Machine Learning Pioneer and AI for Science
   Visionary — The Neil Ashton Podcast

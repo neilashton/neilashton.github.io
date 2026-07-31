@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Nathan Kutz on Physics-Informed AI and Data-Driven Modeling
 youtube_title: 'Physics-Informed AI: What Actually Works? | Nathan Kutz'
 meta_title: 'Physics-Informed AI: What Actually Works? | Nathan Kutz'
-description: In this in-depth conversation, Professor J. Nathan Kutz — Director of
-  Physics-Informed AI at Autodesk and one of the leading figures in data-driven modeling,…
+description: Nathan Kutz explains what works in physics-informed AI, comparing data-driven
+  models, reduced-order methods, human expertise and responsible deployment.
 permalink: "/podcasts/s4-e2-prof-nathan-kutz-on-physics-informed-ai-and-data-driven-modeling/"
 date: '2026-06-11T13:50:49Z'
 season: 4
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s4-e2.webp"
 og_image_alt: Prof. Nathan Kutz on Physics-Informed AI and Data-Driven Modeling —
   The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s4-e2.webp"
 episode_image_alt: Prof. Nathan Kutz on Physics-Informed AI and Data-Driven Modeling
   — The Neil Ashton Podcast

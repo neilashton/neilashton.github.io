@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Dr. Florian Menter — Turbulence Modelling Pioneer
 youtube_title: The k-ω SST Model, RANS and the Future of CFD | Florian Menter
 meta_title: The k-ω SST Model, RANS and the Future of CFD | Florian Menter
-description: Florian Menter discusses his journey in the field of computational fluid
-  dynamics (CFD) and the development of the K-Omega SST model. He shares his…
+description: Florian Menter explains the origins of the k-ω SST turbulence model,
+  the future of RANS and LES, and how machine learning could reshape practical CFD.
 permalink: "/podcasts/s1-e2-dr-florian-menter-turbulence-modelling-pioneer/"
 date: '2024-05-07T10:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e2.webp"
 og_image_alt: Dr. Florian Menter — Turbulence Modelling Pioneer — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e2.webp"
 episode_image_alt: Dr. Florian Menter — Turbulence Modelling Pioneer — The Neil Ashton
   Podcast

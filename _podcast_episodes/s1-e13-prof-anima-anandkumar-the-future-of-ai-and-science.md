@@ -5,8 +5,8 @@ youtube_title: 'AI + Science: Building the Next Generation of Scientific Models 
   Anima Anandkumar'
 meta_title: 'AI + Science: Building the Next Generation of Scientific Models | Anima
   Anandkumar'
-description: Professor Anima Anandkumar is one of the worlds leading scientists in
-  the field of AI & ML with more than 30k citations, a h-index of 80 and numerous…
+description: Anima Anandkumar explores AI for science, neural operators and weather
+  prediction, explaining how scientific knowledge can guide scalable learning systems.
 permalink: "/podcasts/s1-e13-prof-anima-anandkumar-the-future-of-ai-and-science/"
 date: '2024-07-30T07:00:00Z'
 season: 1
@@ -19,8 +19,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e13.webp"
 og_image_alt: Prof. Anima Anandkumar — The future of AI and science — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e13.webp"
 episode_image_alt: Prof. Anima Anandkumar — The future of AI and science — The Neil
   Ashton Podcast

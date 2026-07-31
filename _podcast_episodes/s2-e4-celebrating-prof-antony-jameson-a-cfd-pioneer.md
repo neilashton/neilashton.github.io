@@ -3,8 +3,8 @@ layout: podcast_episode
 title: 'Celebrating Prof. Antony Jameson: A CFD Pioneer'
 youtube_title: The Algorithms That Transformed CFD | Antony Jameson
 meta_title: The Algorithms That Transformed CFD | Antony Jameson
-description: In this episode of the Neil Ashton podcast, we celebrate the life and
-  contributions of Professor Antony Jameson, a pioneer in Computational Fluid Dynamics…
+description: Antony Jameson recounts the algorithms and flow codes that transformed
+  CFD, connecting numerical methods, aerodynamic design and decades of innovation.
 permalink: "/podcasts/s2-e4-celebrating-prof-antony-jameson-a-cfd-pioneer/"
 date: '2024-11-20T09:00:00Z'
 season: 2
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e4.webp"
 og_image_alt: 'Celebrating Prof. Antony Jameson: A CFD Pioneer — The Neil Ashton Podcast'
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e4.webp"
 episode_image_alt: 'Celebrating Prof. Antony Jameson: A CFD Pioneer — The Neil Ashton
   Podcast'

@@ -3,8 +3,8 @@ layout: podcast_episode
 title: New job update
 youtube_title: 'Why I Joined NVIDIA: A New Chapter in AI, CFD and Engineering'
 meta_title: 'Why I Joined NVIDIA: A New Chapter in AI, CFD and Engineering'
-description: A short episode to give a brief update on what I've been doing and to
-  say sorry for not putting out episodes recently. I've joined NVIIDA as a Distinguished…
+description: Neil Ashton explains why he joined NVIDIA as a Distinguished CAE Architect,
+  what the role covers, and how the move connects AI with engineering simulation.
 permalink: "/podcasts/s2-e9-new-job-update/"
 date: '2025-02-21T18:00:00Z'
 season: 2
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e9.webp"
 og_image_alt: New job update — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e9.webp"
 episode_image_alt: New job update — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/5qNiZfSOzWtZcTNaq6ivKM
@@ -40,7 +40,7 @@ last_modified_at: '2026-07-31'
 <section class="episode-section" aria-labelledby="episode-overview">
   <h2 id="episode-overview">Episode overview</h2>
   <div class="episode-overview">
-    <p>A short episode to give a brief update on what I&#39;ve been doing and to say sorry for not putting out episodes recently. I&#39;ve joined NVIIDA as a Distinguished CAE Architect and have been rather busy! New episodes will be coming soon!</p>
+    <p>A short episode to give a brief update on what I&#39;ve been doing and to say sorry for not putting out episodes recently. I&#39;ve joined NVIDIA as a Distinguished CAE Architect and have been rather busy! New episodes will be coming soon!</p>
     <p>Listen to the episode to learn more.</p>
   </div>
 </section>

@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Are AI Agents and Foundation Models About to Rewrite CAE?
 youtube_title: 'Agentic AI for CAE/EDA: Are Foundation Models Rewriting Engineering?'
 meta_title: 'Agentic AI for CAE/EDA: Are Foundation Models Rewriting Engineering?'
-description: In this episode, Neil explores how agents, foundation models, and AI
-  are set to transform the Computer-Aided Engineering (CAE) and Electronic Design…
+description: Neil Ashton examines how AI agents and foundation models could rewrite
+  CAE/EDA, from automated simulation workflows to ownership, licensing and trust.
 permalink: "/podcasts/s4-e1-are-ai-agents-and-foundation-models-about-to-rewrite-cae/"
 date: '2026-06-01T15:48:29Z'
 season: 4
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s4-e1.webp"
 og_image_alt: Are AI Agents and Foundation Models About to Rewrite CAE? — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s4-e1.webp"
 episode_image_alt: Are AI Agents and Foundation Models About to Rewrite CAE? — The
   Neil Ashton Podcast

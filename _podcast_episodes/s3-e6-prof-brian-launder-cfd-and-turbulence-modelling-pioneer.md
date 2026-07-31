@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Brian Launder — CFD and Turbulence Modelling Pioneer
 youtube_title: Turbulence Modelling and the Origins of Modern CFD | Brian Launder
 meta_title: Turbulence Modelling and the Origins of Modern CFD | Brian Launder
-description: In this episode, Professor Brian Launder (Professor at the University
-  of Manchester and Fellow of the Royal Society and Royal Academy of Engineers) shares…
+description: Brian Launder recounts the origins of modern turbulence modelling, including
+  the k-ε model, wall functions and a career that helped shape practical CFD.
 permalink: "/podcasts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer/"
 date: '2025-09-30T12:00:00Z'
 season: 3
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e6.webp"
 og_image_alt: Prof. Brian Launder — CFD and Turbulence Modelling Pioneer — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e6.webp"
 episode_image_alt: Prof. Brian Launder — CFD and Turbulence Modelling Pioneer — The
   Neil Ashton Podcast

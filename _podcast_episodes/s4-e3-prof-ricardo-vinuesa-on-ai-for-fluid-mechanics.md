@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Ricardo Vinuesa on AI for Fluid Mechanics
 youtube_title: Can AI Discover New Fluid Mechanics? | Ricardo Vinuesa
 meta_title: Can AI Discover New Fluid Mechanics? | Ricardo Vinuesa
-description: In this episode, Professor Ricardo Vinuesa - Associate Chair for Research
-  and Associate Professor of Aerospace Engineering at the University of Michigan -…
+description: Ricardo Vinuesa explores AI for fluid mechanics, explainable learning,
+  latent representations, flow control and agents for autonomous scientific discovery.
 permalink: "/podcasts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics/"
 date: '2026-06-25T11:01:10Z'
 season: 4
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s4-e3.webp"
 og_image_alt: Prof. Ricardo Vinuesa on AI for Fluid Mechanics — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s4-e3.webp"
 episode_image_alt: Prof. Ricardo Vinuesa on AI for Fluid Mechanics — The Neil Ashton
   Podcast

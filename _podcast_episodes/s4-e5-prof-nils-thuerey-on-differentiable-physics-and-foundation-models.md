@@ -5,9 +5,8 @@ youtube_title: Can AI Learn Physics? Differentiable Simulation & Foundation Mode
   | Nils Thuerey
 meta_title: Can AI Learn Physics? Differentiable Simulation & Foundation Models |
   Nils Thuerey
-description: In this episode, Professor Nils Thuerey - Associate Professor at the
-  Technical University of Munich (TUM) and head of its Physics-based Simulation group
-  -…
+description: Nils Thuerey explores differentiable physics and foundation models, from
+  PhiFlow and neural emulators to online training, open data and simulation agents.
 permalink: "/podcasts/s4-e5-prof-nils-thuerey-on-differentiable-physics-and-foundation-models/"
 date: '2026-07-23T12:22:37Z'
 season: 4
@@ -20,8 +19,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s4-e5.webp"
 og_image_alt: Prof. Nils Thuerey on Differentiable Physics and Foundation Models —
   The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s4-e5.webp"
 episode_image_alt: Prof. Nils Thuerey on Differentiable Physics and Foundation Models
   — The Neil Ashton Podcast

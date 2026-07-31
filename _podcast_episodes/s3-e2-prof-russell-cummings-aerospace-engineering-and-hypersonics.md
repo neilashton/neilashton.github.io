@@ -4,8 +4,8 @@ title: Prof. Russell Cummings — Aerospace Engineering and Hypersonics
 youtube_title: Hypersonics, Aircraft Design and the Future of Aerospace | Russell
   Cummings
 meta_title: Hypersonics, Aircraft Design and the Future of Aerospace | Russell Cummings
-description: In this episode of the Neil Ashton podcast, Professor Russell Cummings
-  shares his extensive journey through the fields of aerodynamics, computational fluid…
+description: Russell Cummings explores hypersonics, aircraft design and aerospace
+  education, discussing CFD, artificial intelligence and advice for future engineers.
 permalink: "/podcasts/s3-e2-prof-russell-cummings-aerospace-engineering-and-hypersonics/"
 date: '2025-08-05T06:00:00Z'
 season: 3
@@ -18,8 +18,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e2.webp"
 og_image_alt: Prof. Russell Cummings — Aerospace Engineering and Hypersonics — The
   Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e2.webp"
 episode_image_alt: Prof. Russell Cummings — Aerospace Engineering and Hypersonics
   — The Neil Ashton Podcast

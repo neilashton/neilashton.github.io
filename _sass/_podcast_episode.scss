@@ -241,6 +241,83 @@
   font-weight: 650;
 }
 
+.episode-related {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  > h2 {
+    margin: 0 0 1.4rem;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: clamp(1.65rem, 3.5vw, 2.35rem);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+}
+
+.episode-related-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.episode-related-card {
+  min-width: 0;
+
+  a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--global-theme-color);
+      outline-offset: 3px;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-bottom: 1px solid var(--global-divider-color);
+    background: var(--surface-soft);
+    object-fit: cover;
+  }
+}
+
+.episode-related-copy {
+  display: block;
+  padding: 1rem;
+}
+
+.episode-related-meta {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--global-text-color-light);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.episode-related-title {
+  display: block;
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
 .episode-pagination {
   display: grid;
   gap: 1rem;
@@ -307,6 +384,10 @@
 
   .episode-artwork {
     max-width: 24rem;
+  }
+
+  .episode-related-grid {
+    grid-template-columns: 1fr;
   }
 
   .episode-pagination {

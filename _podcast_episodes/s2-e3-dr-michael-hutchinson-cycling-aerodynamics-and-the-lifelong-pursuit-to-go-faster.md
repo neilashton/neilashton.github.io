@@ -4,8 +4,8 @@ title: Dr. Michael Hutchinson — Cycling aerodynamics and the lifelong pursuit 
   faster
 youtube_title: 'Cycling Aerodynamics: The Lifelong Pursuit of Speed | Michael Hutchinson'
 meta_title: 'Cycling Aerodynamics: The Lifelong Pursuit of Speed | Michael Hutchinson'
-description: In this episode of the Neil Ashton podcast, we delve into the fascinating
-  world of cycling, focusing on the critical role of aerodynamics and the evolution…
+description: Michael Hutchinson explores cycling aerodynamics, training, equipment
+  and regulation, sharing a lifelong pursuit of speed as a rider, writer and engineer.
 permalink: "/podcasts/s2-e3-dr-michael-hutchinson-cycling-aerodynamics-and-the-lifelong-pursuit-to-go-faster/"
 date: '2024-11-08T11:00:00Z'
 season: 2
@@ -18,8 +18,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e3.webp"
 og_image_alt: Dr. Michael Hutchinson — Cycling aerodynamics and the lifelong pursuit
   to go faster — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e3.webp"
 episode_image_alt: Dr. Michael Hutchinson — Cycling aerodynamics and the lifelong
   pursuit to go faster — The Neil Ashton Podcast

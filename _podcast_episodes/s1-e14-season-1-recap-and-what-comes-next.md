@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Season 1 recap and what comes next
 youtube_title: 14 Lessons on AI, CFD and Engineering—and What Comes Next
 meta_title: 14 Lessons on AI, CFD and Engineering—and What Comes Next
-description: The first season of the Neil Ashton podcast comes to a close with a recap
-  of the episodes and a glimpse into what's to come in the next season. Look out for…
+description: Neil Ashton revisits Season 1’s lessons across CFD, AI, Formula 1, cycling
+  and HPC, then previews the engineering questions planned for Season 2.
 permalink: "/podcasts/s1-e14-season-1-recap-and-what-comes-next/"
 date: '2024-08-08T17:00:00Z'
 season: 1
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e14.webp"
 og_image_alt: Season 1 recap and what comes next — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e14.webp"
 episode_image_alt: Season 1 recap and what comes next — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/4pUCfoft2PPy71Kuvz8vCM

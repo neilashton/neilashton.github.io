@@ -1,0 +1,161 @@
+# Curated topical relationships between podcast episodes.
+# Each source episode must list exactly three distinct target episode keys.
+s1-e1:
+  - s1-e14
+  - s2-e2
+  - s1-e10
+s1-e2:
+  - s3-e6
+  - s1-e9
+  - s4-e4
+s1-e3:
+  - s1-e7
+  - s1-e5
+  - s2-e1
+s1-e4:
+  - s2-e8
+  - s3-e4
+  - s2-e9
+s1-e5:
+  - s2-e3
+  - s2-e10
+  - s1-e3
+s1-e6:
+  - s2-e2
+  - s1-e8
+  - s2-e4
+s1-e7:
+  - s2-e1
+  - s1-e3
+  - s1-e9
+s1-e8:
+  - s3-e5
+  - s3-e8
+  - s1-e6
+s1-e9:
+  - s1-e2
+  - s2-e5
+  - s3-e6
+s1-e10:
+  - s1-e11
+  - s2-e7
+  - s4-e2
+s1-e11:
+  - s1-e13
+  - s2-e7
+  - s1-e10
+s1-e12:
+  - s2-e11
+  - s3-e3
+  - s3-e9
+s1-e13:
+  - s1-e11
+  - s2-e7
+  - s1-e12
+s1-e14:
+  - s1-e1
+  - s2-e2
+  - s2-e11
+
+s2-e1:
+  - s1-e7
+  - s1-e3
+  - s3-e2
+s2-e2:
+  - s3-e7
+  - s1-e6
+  - s2-e6
+s2-e3:
+  - s1-e5
+  - s2-e10
+  - s1-e3
+s2-e4:
+  - s3-e1
+  - s3-e6
+  - s1-e6
+s2-e5:
+  - s3-e2
+  - s1-e9
+  - s1-e6
+s2-e6:
+  - s3-e4
+  - s4-e1
+  - s2-e2
+s2-e7:
+  - s1-e10
+  - s1-e11
+  - s4-e2
+s2-e8:
+  - s1-e4
+  - s3-e4
+  - s2-e9
+s2-e9:
+  - s2-e8
+  - s3-e4
+  - s4-e1
+s2-e10:
+  - s1-e5
+  - s2-e3
+  - s1-e3
+s2-e11:
+  - s1-e12
+  - s3-e3
+  - s3-e9
+
+s3-e1:
+  - s2-e4
+  - s1-e6
+  - s1-e8
+s3-e2:
+  - s2-e5
+  - s1-e9
+  - s2-e1
+s3-e3:
+  - s3-e9
+  - s2-e11
+  - s4-e5
+s3-e4:
+  - s2-e8
+  - s1-e4
+  - s4-e1
+s3-e5:
+  - s1-e8
+  - s3-e8
+  - s2-e6
+s3-e6:
+  - s1-e2
+  - s1-e9
+  - s4-e4
+s3-e7:
+  - s2-e2
+  - s4-e1
+  - s3-e8
+s3-e8:
+  - s3-e5
+  - s3-e7
+  - s1-e8
+s3-e9:
+  - s3-e3
+  - s2-e11
+  - s4-e5
+
+s4-e1:
+  - s3-e4
+  - s2-e6
+  - s3-e7
+s4-e2:
+  - s4-e3
+  - s4-e4
+  - s4-e5
+s4-e3:
+  - s4-e4
+  - s4-e2
+  - s3-e3
+s4-e4:
+  - s1-e2
+  - s3-e6
+  - s4-e3
+s4-e5:
+  - s3-e3
+  - s3-e9
+  - s4-e2

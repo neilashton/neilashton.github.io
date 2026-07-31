@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Karthik Duraisamy — Scientific foundation models
 youtube_title: Can AI Build Foundation Models for Engineering? | Karthik Duraisamy
 meta_title: Can AI Build Foundation Models for Engineering? | Karthik Duraisamy
-description: Prof. Karthik Duraisamy is a Professor at the University of Michigan,
-  the Director of the Michigan Institute for Computational Discovery and Engineering…
+description: Karthik Duraisamy explains how foundation models, neural operators and
+  specialised agents could transform CFD, turbulence modelling and engineering.
 permalink: "/podcasts/s1-e12-prof-karthik-duraisamy-scientific-foundation-models/"
 date: '2024-07-23T06:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e12.webp"
 og_image_alt: Prof. Karthik Duraisamy — Scientific foundation models — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e12.webp"
 episode_image_alt: Prof. Karthik Duraisamy — Scientific foundation models — The Neil
   Ashton Podcast

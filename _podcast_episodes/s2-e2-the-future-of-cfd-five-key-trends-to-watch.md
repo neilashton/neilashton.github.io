@@ -3,8 +3,8 @@ layout: podcast_episode
 title: 'The Future of CFD: Five Key Trends to Watch'
 youtube_title: 'The Future of CFD: 5 Key Trends Every Engineer Should Watch'
 meta_title: 'The Future of CFD: 5 Key Trends Every Engineer Should Watch'
-description: In this episode, Neil discusses five key trends in Computational Fluid
-  Dynamics (CFD) that are shaping the industry now and in the coming years. He…
+description: 'Neil Ashton identifies five forces reshaping CFD: GPUs, AI, cloud computing,
+  higher-fidelity certification and consolidation across simulation software.'
 permalink: "/podcasts/s2-e2-the-future-of-cfd-five-key-trends-to-watch/"
 date: '2024-10-24T07:00:00Z'
 season: 2
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e2.webp"
 og_image_alt: 'The Future of CFD: Five Key Trends to Watch — The Neil Ashton Podcast'
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e2.webp"
 episode_image_alt: 'The Future of CFD: Five Key Trends to Watch — The Neil Ashton
   Podcast'

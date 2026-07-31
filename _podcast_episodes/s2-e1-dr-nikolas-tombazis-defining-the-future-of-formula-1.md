@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Dr. Nikolas Tombazis — Defining the future of Formula 1
 youtube_title: 'The Future of Formula 1: Rules, Safety and Engineering | Nikolas Tombazis'
 meta_title: 'The Future of Formula 1: Rules, Safety and Engineering | Nikolas Tombazis'
-description: In this episode of the Neil Ashton podcast, Nikolas Tombazis discusses
-  his journey into engineering and Formula One, starting from his passion for…
+description: Nikolas Tombazis explores Formula 1’s rules, safety and engineering,
+  explaining how aerodynamics, technology and team dynamics shape the sport’s future.
 permalink: "/podcasts/s2-e1-dr-nikolas-tombazis-defining-the-future-of-formula-1/"
 date: '2024-10-10T09:00:00Z'
 season: 2
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e1.webp"
 og_image_alt: Dr. Nikolas Tombazis — Defining the future of Formula 1 — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e1.webp"
 episode_image_alt: Dr. Nikolas Tombazis — Defining the future of Formula 1 — The Neil
   Ashton Podcast

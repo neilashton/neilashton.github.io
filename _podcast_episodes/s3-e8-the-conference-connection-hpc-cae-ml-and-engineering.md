@@ -3,8 +3,8 @@ layout: podcast_episode
 title: The Conference Connection (HPC, CAE, ML & Engineering)
 youtube_title: What HPC and CAE Conferences Reveal About AI in Engineering
 meta_title: What HPC and CAE Conferences Reveal About AI in Engineering
-description: In this episode, Neil Ashton discusses various conferences and workshops
-  in the automotive, aerospace, and machine learning fields. He highlights the…
+description: Neil Ashton maps the conferences connecting HPC, CAE, machine learning
+  and engineering, explaining where specialists meet, learn and build collaborations.
 permalink: "/podcasts/s3-e8-the-conference-connection-hpc-cae-ml-and-engineering/"
 date: '2025-11-01T23:25:53Z'
 season: 3
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e8.webp"
 og_image_alt: The Conference Connection (HPC, CAE, ML & Engineering) — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e8.webp"
 episode_image_alt: The Conference Connection (HPC, CAE, ML & Engineering) — The Neil
   Ashton Podcast

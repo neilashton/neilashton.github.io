@@ -3,9 +3,8 @@ layout: podcast_episode
 title: Dr. Chris Rumsey — NASA and Computational Fluid Dynamics
 youtube_title: NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey
 meta_title: NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey
-description: In this episode of the Neil Ashton podcast, Neil interviews Dr. Chris
-  Rumsey, Research Scientist at NASA Langley Research Center. Chris is one of the
-  main…
+description: NASA’s Chris Rumsey explores CFD validation, turbulence modelling, high-lift
+  prediction and certification by analysis, alongside lessons from his career.
 permalink: "/podcasts/s1-e9-dr-chris-rumsey-nasa-and-computational-fluid-dynamics/"
 date: '2024-06-25T08:00:00Z'
 season: 1
@@ -18,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e9.webp"
 og_image_alt: Dr. Chris Rumsey — NASA and Computational Fluid Dynamics — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e9.webp"
 episode_image_alt: Dr. Chris Rumsey — NASA and Computational Fluid Dynamics — The
   Neil Ashton Podcast

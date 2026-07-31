@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Academia or industry? PhD or no PhD? Career advice
 youtube_title: PhD or Industry? 4 Career Questions Every Engineer Should Ask
 meta_title: PhD or Industry? 4 Career Questions Every Engineer Should Ask
-description: In this episode, Neil discusses four key career questions that you should
-  think about. He explores the pros and cons of pursuing a PhD, the path to becoming…
+description: Neil Ashton answers four career questions for engineers, comparing PhDs,
+  academia, industry and technology roles while sharing lessons from Formula 1.
 permalink: "/podcasts/s1-e4-academia-or-industry-phd-or-no-phd-career-advice/"
 date: '2024-05-21T06:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e4.webp"
 og_image_alt: Academia or industry? PhD or no PhD? Career advice — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e4.webp"
 episode_image_alt: Academia or industry? PhD or no PhD? Career advice — The Neil Ashton
   Podcast

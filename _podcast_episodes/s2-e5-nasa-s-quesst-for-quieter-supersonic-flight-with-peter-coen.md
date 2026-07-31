@@ -3,9 +3,8 @@ layout: podcast_episode
 title: NASA's Quesst for Quieter Supersonic Flight with Peter Coen
 youtube_title: 'NASA X-59: Engineering Quieter Supersonic Flight | Peter Coen'
 meta_title: 'NASA X-59: Engineering Quieter Supersonic Flight | Peter Coen'
-description: In this episode of the Neil Ashton podcast, Peter Coen from NASA discusses
-  the evolution and future of supersonic travel, focusing on the challenges faced
-  by…
+description: NASA’s Peter Coen explains how the X-59 could enable quieter supersonic
+  flight, covering sonic booms, aircraft design, simulation and future regulation.
 permalink: "/podcasts/s2-e5-nasa-s-quesst-for-quieter-supersonic-flight-with-peter-coen/"
 date: '2024-12-04T08:00:00Z'
 season: 2
@@ -18,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e5.webp"
 og_image_alt: NASA's Quesst for Quieter Supersonic Flight with Peter Coen — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e5.webp"
 episode_image_alt: NASA's Quesst for Quieter Supersonic Flight with Peter Coen — The
   Neil Ashton Podcast

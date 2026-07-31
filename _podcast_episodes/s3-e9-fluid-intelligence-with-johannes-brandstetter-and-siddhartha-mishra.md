@@ -5,8 +5,8 @@ youtube_title: 'Fluid Intelligence: Can AI Learn the Physics of Fluids? | Brands
   & Mishra'
 meta_title: 'Fluid Intelligence: Can AI Learn the Physics of Fluids? | Brandstetter
   & Mishra'
-description: In this conversation, Neil Ashton and Prof. Siddhartha Mishra, and Prof.
-  Johannes Brandstetter discuss their recent paper on AI foundation models in…
+description: Johannes Brandstetter and Siddhartha Mishra examine whether AI can learn
+  fluid physics, covering CFD data, scaling laws, inductive bias and model training.
 permalink: "/podcasts/s3-e9-fluid-intelligence-with-johannes-brandstetter-and-siddhartha-mishra/"
 date: '2025-12-02T08:23:31Z'
 season: 3
@@ -19,8 +19,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e9.webp"
 og_image_alt: Fluid Intelligence with Johannes Brandstetter and Siddhartha Mishra
   — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e9.webp"
 episode_image_alt: Fluid Intelligence with Johannes Brandstetter and Siddhartha Mishra
   — The Neil Ashton Podcast

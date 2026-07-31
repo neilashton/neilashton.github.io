@@ -3,9 +3,8 @@ layout: podcast_episode
 title: AI for Science — Personal thoughts and perspectives
 youtube_title: 'AI for Science: What It Can—and Cannot—Do'
 meta_title: 'AI for Science: What It Can—and Cannot—Do'
-description: This episode sets the scene for upcoming discussions on AI4Science with
-  world renowned experts on machine learning. The focus is on using machine learning
-  to…
+description: Neil Ashton examines what AI for science can and cannot do, comparing
+  data-driven and physics-informed methods for simulation and discovery.
 permalink: "/podcasts/s1-e10-ai-for-science-personal-thoughts-and-perspectives/"
 date: '2024-07-02T07:00:00Z'
 season: 1
@@ -18,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e10.webp"
 og_image_alt: AI for Science — Personal thoughts and perspectives — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e10.webp"
 episode_image_alt: AI for Science — Personal thoughts and perspectives — The Neil
   Ashton Podcast

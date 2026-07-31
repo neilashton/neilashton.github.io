@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Dimitris Katsanis — Designing the world's fastest bikes
 youtube_title: How to Design the World’s Fastest Bikes | Dimitris Katsanis
 meta_title: How to Design the World’s Fastest Bikes | Dimitris Katsanis
-description: In this conversation, Neil interviews Dimitris Katsanis, one of the world
-  leading experts in bike design. They discuss the UCI regulations that govern bike…
+description: Dimitris Katsanis explains how aerodynamics, materials, rider interaction
+  and UCI rules shape the design of the world’s fastest racing bicycles.
 permalink: "/podcasts/s1-e5-dimitris-katsanis-designing-the-world-s-fastest-bikes/"
 date: '2024-05-28T06:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e5.webp"
 og_image_alt: Dimitris Katsanis — Designing the world's fastest bikes — The Neil Ashton
   Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e5.webp"
 episode_image_alt: Dimitris Katsanis — Designing the world's fastest bikes — The Neil
   Ashton Podcast

@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Jack Dongarra — High-Performance Computing Pioneer
 youtube_title: The Past and Future of High-Performance Computing | Jack Dongarra
 meta_title: The Past and Future of High-Performance Computing | Jack Dongarra
-description: In this episode, Neil speaks to Professor Jack Dongarra, a renowned figure
-  in the supercomputing and high-performance computing (HPC) world. He is a…
+description: Jack Dongarra charts the evolution of high-performance computing, explaining
+  its scientific impact, global competition and the technologies ahead.
 permalink: "/podcasts/s1-e8-prof-jack-dongarra-high-performance-computing-pioneer/"
 date: '2024-06-18T07:00:00Z'
 season: 1
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e8.webp"
 og_image_alt: Prof. Jack Dongarra — High-Performance Computing Pioneer — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e8.webp"
 episode_image_alt: Prof. Jack Dongarra — High-Performance Computing Pioneer — The
   Neil Ashton Podcast

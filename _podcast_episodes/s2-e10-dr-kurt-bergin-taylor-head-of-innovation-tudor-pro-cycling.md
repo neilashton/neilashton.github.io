@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Dr. Kurt Bergin-Taylor — Head of Innovation, Tudor Pro Cycling
 youtube_title: Engineering Innovation in Pro Cycling | Kurt Bergin-Taylor
 meta_title: Engineering Innovation in Pro Cycling | Kurt Bergin-Taylor
-description: In this episode of the Neil Ashton podcast, Neil discusses the intersection
-  of cycling and engineering with Kurt Bergin-Taylor, head of innovation at Tudor…
+description: Kurt Bergin-Taylor reveals how Tudor Pro Cycling approaches engineering
+  innovation, from aerodynamics and equipment to data, nutrition and performance.
 permalink: "/podcasts/s2-e10-dr-kurt-bergin-taylor-head-of-innovation-tudor-pro-cycling/"
 date: '2025-03-10T21:00:00Z'
 season: 2
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s2-e10.webp"
 og_image_alt: Dr. Kurt Bergin-Taylor — Head of Innovation, Tudor Pro Cycling — The
   Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s2-e10.webp"
 episode_image_alt: Dr. Kurt Bergin-Taylor — Head of Innovation, Tudor Pro Cycling
   — The Neil Ashton Podcast

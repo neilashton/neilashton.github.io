@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Podcast introduction
 youtube_title: Why I Started an AI, CFD and Engineering Podcast | Neil Ashton
 meta_title: Why I Started an AI, CFD and Engineering Podcast | Neil Ashton
-description: In this short first episode Neil will explain why he's created the podcast,
-  the guests he'll be interviewing and the topics that will be covered.
+description: Neil Ashton introduces his podcast on AI, CFD and computational engineering,
+  outlining its expert guests, technical themes and practical career insights.
 permalink: "/podcasts/s1-e1-podcast-introduction/"
 date: '2024-05-07T09:00:00Z'
 season: 1
@@ -16,8 +16,8 @@ schema_type: PodcastEpisode
 og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e1.webp"
 og_image_alt: Podcast introduction — The Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e1.webp"
 episode_image_alt: Podcast introduction — The Neil Ashton Podcast
 spotify_url: https://open.spotify.com/episode/2vQvBMFexhUXExayddC4eK

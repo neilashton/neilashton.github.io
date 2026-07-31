@@ -5,8 +5,8 @@ youtube_title: 'From Formula 1 to British Cycling: Engineering High Performance 
   Tony Purnell'
 meta_title: 'From Formula 1 to British Cycling: Engineering High Performance | Tony
   Purnell'
-description: Professor Tony Purnell discusses his journey from a passion for motor
-  racing and engineering in his youth to founding and leading Pi Research, a company…
+description: Tony Purnell traces a career spanning Formula 1, Jaguar, the FIA and
+  British Cycling, revealing how engineering and leadership drive elite performance.
 permalink: "/podcasts/s1-e3-prof-tony-purnell-formula-1-british-cycling-and-pi-research/"
 date: '2024-05-14T06:00:00Z'
 season: 1
@@ -19,8 +19,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s1-e3.webp"
 og_image_alt: Prof. Tony Purnell — Formula 1, British Cycling, and PI Research — The
   Neil Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s1-e3.webp"
 episode_image_alt: Prof. Tony Purnell — Formula 1, British Cycling, and PI Research
   — The Neil Ashton Podcast

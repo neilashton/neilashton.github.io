@@ -3,8 +3,8 @@ layout: podcast_episode
 title: Prof. Mike Giles — A CFD and Computational Finance Pioneer
 youtube_title: 'From CFD to Computational Finance: A Pioneer’s Journey | Mike Giles'
 meta_title: 'From CFD to Computational Finance: A Pioneer’s Journey | Mike Giles'
-description: In this episode of the Neil Ashton podcast, Professor Mike Giles shares
-  his extensive journey through the fields of computational fluid dynamics (CFD),…
+description: Mike Giles traces a pioneering journey from CFD and Rolls-Royce to computational
+  finance, explaining algorithms, HPC and the choices behind career reinvention.
 permalink: "/podcasts/s3-e1-prof-mike-giles-a-cfd-and-computational-finance-pioneer/"
 date: '2025-07-21T12:00:00Z'
 season: 3
@@ -17,8 +17,8 @@ og_type: article
 og_image: "/assets/img/podcast/episodes/s3-e1.webp"
 og_image_alt: Prof. Mike Giles — A CFD and Computational Finance Pioneer — The Neil
   Ashton Podcast
-og_image_width: 320
-og_image_height: 180
+og_image_width: 1280
+og_image_height: 720
 episode_image: "/assets/img/podcast/episodes/s3-e1.webp"
 episode_image_alt: Prof. Mike Giles — A CFD and Computational Finance Pioneer — The
   Neil Ashton Podcast

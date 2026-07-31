@@ -23,6 +23,7 @@ PROFILE_URL = "https://creators.spotify.com/pod/profile/neilashton"
 EPISODES_DIR = File.join(ROOT, "_podcast_episodes")
 TRANSCRIPTS_DIR = File.join(ROOT, "assets", "transcripts")
 YOUTUBE_DATA_FILE = File.join(ROOT, "_data", "podcast_youtube.yml")
+META_DESCRIPTIONS_FILE = File.join(ROOT, "_data", "podcast_meta_descriptions.yml")
 
 SECTION_MARKERS = [
   "Main Topics:",
@@ -79,6 +80,7 @@ end
 
 def normalise_sentence_spacing(text)
   text
+    .gsub(/\bNVIIDA\b/, "NVIDIA")
     .gsub(/([.!?])(?=[A-Z])/, "\\1 ")
     .gsub(/([a-z0-9)])(?=(?:Main Topics|Key topics|Papers|Links|Chapters|Timestamps|Keywords)\b)/, "\\1 ")
     .gsub(/\s+/, " ")
@@ -99,14 +101,6 @@ def overview_text(text)
   end
 
   overview
-end
-
-def description_for_meta(text, max_length = 158)
-  normalised = normalise_sentence_spacing(text)
-  return normalised if normalised.length <= max_length
-
-  shortened = normalised[0...max_length].sub(/\s+\S*\z/, "")
-  "#{shortened}…"
 end
 
 def paragraph_html(text)
@@ -399,6 +393,25 @@ end
 
 seasons = YAML.load_file(File.join(ROOT, "_data", "podcast_seasons.yml"))
 youtube_episodes = YAML.load_file(YOUTUBE_DATA_FILE)
+meta_descriptions = YAML.load_file(META_DESCRIPTIONS_FILE)
+expected_meta_keys = youtube_episodes.keys.sort
+missing_meta_keys = expected_meta_keys - meta_descriptions.keys
+unexpected_meta_keys = meta_descriptions.keys - expected_meta_keys
+abort "Missing curated meta descriptions: #{missing_meta_keys.join(", ")}" if missing_meta_keys.any?
+abort "Unexpected curated meta descriptions: #{unexpected_meta_keys.join(", ")}" if unexpected_meta_keys.any?
+
+meta_descriptions.each do |episode_key, description|
+  abort "Meta description for #{episode_key} must be text" unless description.is_a?(String)
+  abort "Meta description for #{episode_key} is #{description.length} characters; expected 140–160" unless (140..160).cover?(description.length)
+  abort "Meta description for #{episode_key} must end as a complete sentence" unless description.match?(/[.!?]\z/)
+  abort "Meta description for #{episode_key} contains an ellipsis" if description.include?("…") || description.include?("...")
+  abort "Meta description for #{episode_key} must lead with its subject" if description.match?(/\A(?:In this|This episode|The episode)\b/i)
+end
+
+duplicate_meta_descriptions = meta_descriptions.group_by { |_episode_key, description| description }
+  .select { |_description, entries| entries.length > 1 }
+abort "Duplicate curated meta descriptions: #{duplicate_meta_descriptions.keys.join(" | ")}" if duplicate_meta_descriptions.any?
+
 curated = seasons.each_with_object({}) do |season, result|
   season.fetch("episodes").each do |episode|
     result[[season.fetch("number").to_i, episode.fetch("number").to_i]] = episode
@@ -454,6 +467,7 @@ episodes = rss_episodes.map do |episode|
   episode.merge(
     "title" => title,
     "youtube_title" => youtube_episode.fetch("title"),
+    "meta_description" => meta_descriptions.fetch(episode_key),
     "transcript_corrected" => youtube_episode["transcript_corrected"] == true,
     "slug" => slug,
     "permalink" => "/podcasts/#{slug}/",
@@ -506,7 +520,7 @@ episodes.each_with_index do |episode, index|
     "title" => episode.fetch("title"),
     "youtube_title" => episode.fetch("youtube_title"),
     "meta_title" => episode.fetch("youtube_title"),
-    "description" => description_for_meta(overview),
+    "description" => episode.fetch("meta_description"),
     "permalink" => episode.fetch("permalink"),
     "date" => episode.fetch("published_at"),
     "season" => episode.fetch("season"),
@@ -518,8 +532,8 @@ episodes.each_with_index do |episode, index|
     "og_type" => "article",
     "og_image" => episode.fetch("episode_image"),
     "og_image_alt" => "#{episode.fetch("title")} — The Neil Ashton Podcast",
-    "og_image_width" => 320,
-    "og_image_height" => 180,
+    "og_image_width" => 1280,
+    "og_image_height" => 720,
     "episode_image" => episode.fetch("episode_image"),
     "episode_image_alt" => "#{episode.fetch("title")} — The Neil Ashton Podcast",
     "spotify_url" => episode.fetch("spotify_url"),
