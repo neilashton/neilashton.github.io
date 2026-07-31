@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,080 --> 00:00:05,920
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,800 --> 00:00:12,760
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,840 --> 00:00:16,880
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,880 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,960 --> 00:00:27,080
@@ -196,7 +195,7 @@ intent place, they're excited
 40
 00:02:41,440 --> 00:02:45,000
 and maybe they don't know or
-they're not from the CE domain.
+they're not from the CAE domain.
 
 41
 00:02:45,000 --> 00:02:49,520
@@ -205,7 +204,7 @@ and this is true on sort of both
 
 42
 00:02:49,520 --> 00:02:53,080
-sides on the CEA side and the ML
+sides on the CAE side and the ML
 community is important.
 
 43
@@ -325,8 +324,7 @@ But beyond these sort of
 
 66
 00:04:18,680 --> 00:04:22,480
-certifications like ABS does
-them, other tech companies do
+certifications like AWS does them, other tech companies do
 
 67
 00:04:22,480 --> 00:04:26,120
@@ -425,8 +423,7 @@ definitely try and broaden
 
 86
 00:05:36,480 --> 00:05:41,120
-yourself and go maybe to even AI
-Pacific conferences like Nurips
+yourself and go maybe to even AI-specific conferences like NeurIPS
 
 87
 00:05:41,360 --> 00:05:44,280
@@ -445,8 +442,7 @@ get and build the network.
 
 90
 00:05:50,400 --> 00:05:52,800
-You'll start the people
-one-on-one and ask stupid
+You'll start to speak to people one-on-one and ask stupid
 
 91
 00:05:52,800 --> 00:05:55,080
@@ -495,8 +491,8 @@ yeah, seems a bit foreign.
 
 100
 00:06:20,600 --> 00:06:23,480
-And the final ways podcasts,
-obviously I'm biased, don't make
+And the final way is podcasts,
+obviously I'm biased, I make
 
 101
 00:06:23,480 --> 00:06:25,560
@@ -550,7 +546,7 @@ And probably for that you would
 
 111
 00:06:55,120 --> 00:06:56,840
-value from some of these
+benefit from some of these
 courses.
 
 112
@@ -580,8 +576,7 @@ ago where you have to go to a
 
 117
 00:07:10,280 --> 00:07:12,440
-library where you're in a
-physical thing.
+library or read a physical thing.
 
 118
 00:07:12,440 --> 00:07:14,880
@@ -635,7 +630,7 @@ give it a new condition, a
 
 128
 00:07:50,000 --> 00:07:52,120
-geometry, a binary condition,
+geometry, a boundary condition,
 and they'll go and predict it,
 
 129
@@ -670,8 +665,7 @@ we've been doing that for
 
 135
 00:08:13,600 --> 00:08:17,720
-decades, we've produced all the
-models, but typically those did
+decades, we've produced reduced-order models, but typically those did
 
 136
 00:08:17,720 --> 00:08:22,760
@@ -726,7 +720,7 @@ earlier.
 146
 00:08:52,640 --> 00:08:54,760
 So how do you prepare yourself
-for the air physics?
+for the AI physics?
 
 147
 00:08:54,760 --> 00:08:58,840
@@ -831,7 +825,7 @@ So for example, you know, coming
 167
 00:10:00,160 --> 00:10:03,000
 up with some sort of schema,
-some Jason format where you can
+some JSON format where you can
 
 168
 00:10:03,000 --> 00:10:07,480
@@ -965,8 +959,7 @@ storage to have the data.
 
 194
 00:11:31,360 --> 00:11:35,920
-Even if you're not today trading
-AI models, you will do, I'm sure
+Even if you're not today training AI models, you will do, I'm sure
 
 195
 00:11:35,920 --> 00:11:39,960
@@ -1005,7 +998,7 @@ You know, instead of being just
 
 202
 00:12:02,120 --> 00:12:04,360
-the stream wise velocity, maybe
+the streamwise velocity, maybe
 I need all the components of the
 
 203
@@ -1041,7 +1034,7 @@ your data is very valuable and
 209
 00:12:23,680 --> 00:12:26,920
 you may consider is the way of
-making a value at that.
+making value out of that.
 
 210
 00:12:26,920 --> 00:12:30,440
@@ -1071,7 +1064,7 @@ monetize your data.
 215
 00:12:43,880 --> 00:12:46,280
 So there's a lot of
-opportunities in the a, in the
+opportunities in the
 
 216
 00:12:46,400 --> 00:12:50,160
@@ -1110,17 +1103,16 @@ thing I would like to discuss
 
 223
 00:13:10,240 --> 00:13:13,720
-now is really about the builders
-buy it's a common question I get
+now is really about the build-versus-buy it's a common question I get
 
 224
 00:13:13,720 --> 00:13:17,720
 when I speak to many people is
-around, you know, is or an off
+around, you know, is there an off-
 
 225
 00:13:17,720 --> 00:13:19,480
-the shelf solution.
+the-shelf solution.
 Should I be building this
 
 226
@@ -1156,7 +1148,7 @@ hiring.
 232
 00:13:40,040 --> 00:13:43,040
 Do you have somebody in your
-business who is it an expert?
+business who is an AI expert?
 
 233
 00:13:43,200 --> 00:13:46,840
@@ -1190,7 +1182,7 @@ know, a bunch of graduates who
 
 239
 00:14:01,920 --> 00:14:06,040
-have AI native and are very
+are AI-native and are very
 familiar with those programming
 
 240
@@ -1216,11 +1208,11 @@ Those people may not come out of
 244
 00:14:22,040 --> 00:14:25,120
 the universities that you would
-normally go to, to require to
+normally go to, to recruit
 
 245
 00:14:25,120 --> 00:14:27,400
-hire engineers.
+engineers.
 And I think this is really
 
 246
@@ -1240,8 +1232,7 @@ companies.
 
 249
 00:14:37,920 --> 00:14:41,680
-So OK, let's go to #4 So you've
-don't open mind, educate
+So OK, let's go to #4 So you've got an open mind, educate
 
 250
 00:14:41,680 --> 00:14:43,880
@@ -1250,7 +1241,7 @@ starting to prepare yourself
 
 251
 00:14:43,880 --> 00:14:47,160
-from a data staffing.
+from a data and staffing point of view.
 What about the actual doing it
 
 252
@@ -1290,8 +1281,7 @@ solutions.
 
 259
 00:15:10,280 --> 00:15:12,360
-And so you had to develop the
-code to yourself.
+And so you had to develop the code yourself.
 
 260
 00:15:12,520 --> 00:15:15,440
@@ -1301,7 +1291,7 @@ NASA, but not just NASA, but
 261
 00:15:15,440 --> 00:15:19,800
 almost all aerospace companies
-at car companies to some point
+and car companies, and to some extent
 
 262
 00:15:20,480 --> 00:15:24,120
@@ -1465,7 +1455,7 @@ know, smart engineers and build
 
 294
 00:17:13,640 --> 00:17:18,040
-an open source frameworks that
+on open-source frameworks that
 you, you could do that, but you
 
 295
@@ -1491,7 +1481,7 @@ years, maybe in five years,
 299
 00:17:37,680 --> 00:17:41,840
 maybe at the extreme 10 years,
-it's I think it highly like that
+I think it's highly likely that
 
 300
 00:17:42,000 --> 00:17:45,680
@@ -1545,7 +1535,7 @@ together a bit like you can use
 
 310
 00:18:16,800 --> 00:18:20,360
-the API of open AI to call that
+the API of OpenAI to call that
 model and call the different
 
 311
@@ -1585,7 +1575,7 @@ solutions.
 
 318
 00:18:47,040 --> 00:18:51,880
-Given how big this AL market is
+Given how big this AI market is
 for for CAE, that you may need
 
 319
@@ -1630,8 +1620,7 @@ people's backs up with the
 
 327
 00:19:19,640 --> 00:19:22,600
-marketing and the way that it's
-bullshit this that AI can
+marketing and the way that it's pushed, that AI can
 
 328
 00:19:22,720 --> 00:19:26,800
@@ -1640,7 +1629,7 @@ Essentially the agentic AI is to
 
 329
 00:19:26,800 --> 00:19:30,360
-sort of next wave of where LLMS
+sort of next wave of where LLMs
 were.
 
 330
@@ -1740,7 +1729,7 @@ that essentially allows you then
 
 349
 00:20:34,480 --> 00:20:39,800
-to quote, UN quote, have a sort
+to quote-unquote, have a sort
 of AI engineer where that agent
 
 350
@@ -1776,7 +1765,7 @@ which is perhaps a surrogate
 356
 00:20:58,200 --> 00:21:03,920
 model to go run a simulation.
-But in importantly, another
+But importantly, another
 
 357
 00:21:03,920 --> 00:21:09,040
@@ -1806,7 +1795,7 @@ Then do more analysis, let's say
 362
 00:21:24,200 --> 00:21:27,360
 image analysis through an LLM
-and they may write you APDF.
+and they may write you a PDF.
 
 363
 00:21:27,920 --> 00:21:31,280
@@ -1836,7 +1825,7 @@ The surrogate still relies you
 368
 00:21:44,120 --> 00:21:48,400
 as a human to run the
-simulation, a bit like ACFD
+simulation, a bit like a CFD
 
 369
 00:21:48,400 --> 00:21:52,040
@@ -1851,12 +1840,11 @@ the the vision of AI, where it's
 371
 00:21:55,800 --> 00:21:59,160
 more fully automated.
-And if you extract this to its
+And if you extrapolate this to its
 
 372
 00:21:59,160 --> 00:22:02,800
-maximum, you can imagine many
-Asians acting almost like their
+maximum, you can imagine many agents acting almost like their
 
 373
 00:22:02,800 --> 00:22:07,040
@@ -1930,8 +1918,7 @@ physics revolution.
 
 387
 00:22:51,160 --> 00:22:54,520
-Get involved in the AI visit
-tries to foul build by, you
+Get involved in the AI physics, try stuff out, build, buy, you
 
 388
 00:22:54,520 --> 00:22:57,760

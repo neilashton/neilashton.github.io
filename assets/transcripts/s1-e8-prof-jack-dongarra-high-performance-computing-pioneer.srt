@@ -1,0 +1,5547 @@
+1
+00:00:00,000 --> 00:00:01,760
+Hi and welcome to the Neil Ashton
+
+2
+00:00:01,760 --> 00:00:04,720
+podcast. In each episode we explain some
+
+3
+00:00:04,720 --> 00:00:06,600
+of the fascinating ways that science and
+
+4
+00:00:06,600 --> 00:00:08,440
+engineering are changing the world
+
+5
+00:00:08,440 --> 00:00:09,680
+around us.
+
+6
+00:00:09,680 --> 00:00:11,680
+We talk to leading engineers from elite
+
+7
+00:00:11,680 --> 00:00:14,800
+level sports like cycling and Formula 1
+
+8
+00:00:14,800 --> 00:00:16,840
+to some of the world's top academics to
+
+9
+00:00:16,840 --> 00:00:19,120
+understand how fluid dynamics, machine
+
+10
+00:00:19,120 --> 00:00:21,880
+learning, supercomputing are bringing in
+
+11
+00:00:21,880 --> 00:00:23,840
+a new era of discovery.
+
+12
+00:00:23,840 --> 00:00:26,080
+We also hear some of their life stories,
+
+13
+00:00:26,080 --> 00:00:27,600
+their career advice,
+
+14
+00:00:27,600 --> 00:00:29,080
+and lessons they've learned on the way
+
+15
+00:00:29,080 --> 00:00:32,000
+that I hope will be helpful to you, too.
+
+16
+00:00:32,000 --> 00:00:36,400
+So, sit back and enjoy this episode.
+
+17
+00:00:39,760 --> 00:00:42,440
+Welcome back to the Neil Ashton podcast.
+
+18
+00:00:42,440 --> 00:00:44,960
+I talked in the intro of this podcast
+
+19
+00:00:44,960 --> 00:00:46,320
+that we would talk about things like
+
+20
+00:00:46,320 --> 00:00:48,360
+fluid dynamics, we would talk about
+
+21
+00:00:48,360 --> 00:00:50,160
+aerodynamics, but one of the things I
+
+22
+00:00:50,160 --> 00:00:53,480
+also said was supercomputing and
+
+23
+00:00:53,480 --> 00:00:55,080
+high-performance computing. And I said
+
+24
+00:00:55,080 --> 00:00:56,840
+that because
+
+25
+00:00:56,840 --> 00:01:00,440
+nowadays with the huge increase in using
+
+26
+00:01:00,440 --> 00:01:02,680
+these simulation tools to simulate a car
+
+27
+00:01:02,680 --> 00:01:05,560
+or a plane or wind turbine, or develop
+
+28
+00:01:05,560 --> 00:01:07,360
+machine learning models like the ones
+
+29
+00:01:07,360 --> 00:01:09,080
+that you probably use day in day out now
+
+30
+00:01:09,080 --> 00:01:11,120
+with large language models, you need
+
+31
+00:01:11,120 --> 00:01:14,240
+computers to run them or to train them.
+
+32
+00:01:14,240 --> 00:01:16,880
+And that is what is known when it's done
+
+33
+00:01:16,880 --> 00:01:18,000
+in a very large scale and
+
+34
+00:01:18,000 --> 00:01:19,960
+high-performing way, high-performance
+
+35
+00:01:19,960 --> 00:01:23,400
+computing or supercomputing. And so I I
+
+36
+00:01:23,400 --> 00:01:25,480
+really wanted to have an episode that
+
+37
+00:01:25,480 --> 00:01:28,480
+discussed this so people who are very
+
+38
+00:01:28,480 --> 00:01:30,120
+familiar with this maybe got some extra
+
+39
+00:01:30,120 --> 00:01:32,160
+details and more insights in where the
+
+40
+00:01:32,160 --> 00:01:34,160
+future lies, or for people who are are
+
+41
+00:01:34,160 --> 00:01:36,360
+really not familiar at all just to make
+
+42
+00:01:36,360 --> 00:01:38,840
+you aware of this very important thing
+
+43
+00:01:38,840 --> 00:01:40,520
+in the world around us and that is so
+
+44
+00:01:40,520 --> 00:01:42,920
+important for scientific discovery.
+
+45
+00:01:42,920 --> 00:01:45,040
+So, I was very lucky that Professor Jack
+
+46
+00:01:45,040 --> 00:01:46,880
+Dongarra was willing to speak to me
+
+47
+00:01:46,880 --> 00:01:49,920
+because he is arguably one of the, you
+
+48
+00:01:49,920 --> 00:01:51,960
+know, most distinguished and and famous
+
+49
+00:01:51,960 --> 00:01:53,440
+people in the supercomputing and
+
+50
+00:01:53,440 --> 00:01:55,720
+high-performance computing world.
+
+51
+00:01:55,720 --> 00:01:56,480
+Um
+
+52
+00:01:56,480 --> 00:01:58,960
+that's because he
+
+53
+00:01:58,960 --> 00:02:00,920
+started
+
+54
+00:02:00,920 --> 00:02:03,600
+and really pushed this supercomputing
+
+55
+00:02:03,600 --> 00:02:05,000
+world, you know, he was there sort of in
+
+56
+00:02:05,000 --> 00:02:07,640
+the in the early days and is most well
+
+57
+00:02:07,640 --> 00:02:09,759
+known for two things. One is the
+
+58
+00:02:09,759 --> 00:02:12,360
+LINPACK, which is a software library
+
+59
+00:02:12,360 --> 00:02:14,800
+essentially for doing linear algebra,
+
+60
+00:02:14,800 --> 00:02:17,080
+but what it's used for is a way to
+
+61
+00:02:17,080 --> 00:02:19,720
+benchmark systems hardware. And still
+
+62
+00:02:19,720 --> 00:02:21,880
+today it is one of the main benchmarks
+
+63
+00:02:21,880 --> 00:02:23,800
+that are used to assess the TOP500
+
+64
+00:02:23,800 --> 00:02:26,480
+list, what are the TOP500 most powerful
+
+65
+00:02:26,480 --> 00:02:29,080
+supercomputers in the world. And we talk
+
+66
+00:02:29,080 --> 00:02:31,600
+about that in the episode. He has done
+
+67
+00:02:31,600 --> 00:02:33,680
+many other things, but he was also one
+
+68
+00:02:33,680 --> 00:02:35,680
+of the key contributors that developed
+
+69
+00:02:35,680 --> 00:02:38,160
+MPI, Message Passing Interface. And this
+
+70
+00:02:38,160 --> 00:02:40,640
+is a, you know, a function that is used
+
+71
+00:02:40,640 --> 00:02:43,400
+to program the majority of simulation
+
+72
+00:02:43,400 --> 00:02:46,640
+methods like CFD, like weather modeling.
+
+73
+00:02:46,640 --> 00:02:49,080
+But I think what he's also got to is
+
+74
+00:02:49,080 --> 00:02:52,520
+that point where he's been so aware and
+
+75
+00:02:52,520 --> 00:02:56,280
+been on so many advisory boards and
+
+76
+00:02:56,280 --> 00:02:58,480
+and also being, you know, a professor at
+
+77
+00:02:58,480 --> 00:03:00,120
+at Tennessee
+
+78
+00:03:00,120 --> 00:03:04,000
+and also at Oak Ridge National Lab, he's
+
+79
+00:03:04,000 --> 00:03:05,400
+so aware of what's going on in the
+
+80
+00:03:05,400 --> 00:03:07,240
+world. He's In recent years I found some
+
+81
+00:03:07,240 --> 00:03:09,360
+of his papers and commentary to be
+
+82
+00:03:09,360 --> 00:03:11,160
+incredibly insightful and very
+
+83
+00:03:11,160 --> 00:03:12,480
+interesting. And we talked through a
+
+84
+00:03:12,480 --> 00:03:14,040
+couple of those
+
+85
+00:03:14,040 --> 00:03:15,840
+in the interview with him. Really
+
+86
+00:03:15,840 --> 00:03:18,720
+focusing on a couple of key topics. One,
+
+87
+00:03:18,720 --> 00:03:20,360
+what is HPC?
+
+88
+00:03:20,360 --> 00:03:22,320
+What is the impact of machine learning
+
+89
+00:03:22,320 --> 00:03:24,440
+and AI on HPC?
+
+90
+00:03:24,440 --> 00:03:26,760
+Some of the discussions around the
+
+91
+00:03:26,760 --> 00:03:29,120
+leadership of the United States in
+
+92
+00:03:29,120 --> 00:03:31,200
+supercomputing, which for people who are
+
+93
+00:03:31,200 --> 00:03:33,200
+into this world is a sort of a hot topic
+
+94
+00:03:33,200 --> 00:03:34,320
+with the rise of China and other
+
+95
+00:03:34,320 --> 00:03:37,320
+countries. Um we also talk about just
+
+96
+00:03:37,320 --> 00:03:38,920
+the challenges and opportunities, what's
+
+97
+00:03:38,920 --> 00:03:40,480
+coming next.
+
+98
+00:03:40,480 --> 00:03:43,440
+And we finish with some more reflecting
+
+99
+00:03:43,440 --> 00:03:45,600
+on his career and advice to to people,
+
+100
+00:03:45,600 --> 00:03:47,440
+which is I think always a an important
+
+101
+00:03:47,440 --> 00:03:50,280
+thing. So, um we didn't have a huge
+
+102
+00:03:50,280 --> 00:03:51,720
+amount of time to discuss and so there
+
+103
+00:03:51,720 --> 00:03:53,640
+were many topics and and we didn't
+
+104
+00:03:53,640 --> 00:03:55,760
+really get into his whole career and his
+
+105
+00:03:55,760 --> 00:03:57,200
+life story, which, you know, I would
+
+106
+00:03:57,200 --> 00:03:59,280
+love to have done, but I'm hoping you
+
+107
+00:03:59,280 --> 00:04:01,360
+still find it um an interesting
+
+108
+00:04:01,360 --> 00:04:03,440
+discussion to listen to. So, yeah, sit
+
+109
+00:04:03,440 --> 00:04:05,360
+back and enjoy this discussion with
+
+110
+00:04:05,360 --> 00:04:07,080
+Professor Jack Dongarra.
+
+111
+00:04:07,080 --> 00:04:09,520
+I would start with maybe a very
+
+112
+00:04:09,520 --> 00:04:11,920
+high-level question that it seems
+
+113
+00:04:11,920 --> 00:04:13,800
+deceptively difficult for some people to
+
+114
+00:04:13,800 --> 00:04:16,680
+answer, which is how would you define
+
+115
+00:04:16,680 --> 00:04:18,720
+HPC?
+
+116
+00:04:18,720 --> 00:04:20,840
+So, high-performance computing, what is
+
+117
+00:04:20,840 --> 00:04:25,160
+it? High-performance computing is about
+
+118
+00:04:25,160 --> 00:04:28,360
+using the fastest computers that we have
+
+119
+00:04:28,360 --> 00:04:31,480
+to solve our problems, whatever problems
+
+120
+00:04:31,480 --> 00:04:34,000
+they are. So, high-performance computing
+
+121
+00:04:34,000 --> 00:04:36,640
+uses supercomputers
+
+122
+00:04:36,640 --> 00:04:40,040
+to help solve scientific problems as an
+
+123
+00:04:40,040 --> 00:04:42,200
+example. So, what's a supercomputer?
+
+124
+00:04:42,200 --> 00:04:44,120
+Supercomputers again would be the
+
+125
+00:04:44,120 --> 00:04:47,120
+fastest computer
+
+126
+00:04:47,120 --> 00:04:51,400
+that we have available to us for
+
+127
+00:04:51,400 --> 00:04:53,440
+for doing a computation. And now we have
+
+128
+00:04:53,440 --> 00:04:56,000
+to think about what's a computation.
+
+129
+00:04:56,000 --> 00:04:58,720
+So, in this context I would say if we're
+
+130
+00:04:58,720 --> 00:05:01,040
+thinking about scientific computations,
+
+131
+00:05:01,040 --> 00:05:03,520
+we're generally talking about doing
+
+132
+00:05:03,520 --> 00:05:06,280
+64-bit floating-point arithmetic.
+
+133
+00:05:06,280 --> 00:05:08,840
+Sometimes it's 32-bit floating-point
+
+134
+00:05:08,840 --> 00:05:10,120
+arithmetic.
+
+135
+00:05:10,120 --> 00:05:13,880
+With the advent of machine learning, we
+
+136
+00:05:13,880 --> 00:05:16,840
+have hardware now that can do 16-bit
+
+137
+00:05:16,840 --> 00:05:19,000
+floating point. They don't need as much
+
+138
+00:05:19,000 --> 00:05:21,680
+precision in terms of um
+
+139
+00:05:21,680 --> 00:05:25,200
+the computations they're doing. And we
+
+140
+00:05:25,200 --> 00:05:27,400
+even see the emergence of
+
+141
+00:05:27,400 --> 00:05:30,600
+8-bit floating-point arithmetic. And
+
+142
+00:05:30,600 --> 00:05:32,880
+maybe even less than that for some for
+
+143
+00:05:32,880 --> 00:05:34,680
+some machine learning. Now, those kind
+
+144
+00:05:34,680 --> 00:05:36,640
+of computations are hard to fit into
+
+145
+00:05:36,640 --> 00:05:39,120
+what I would call traditional scientific
+
+146
+00:05:39,120 --> 00:05:40,320
+computing,
+
+147
+00:05:40,320 --> 00:05:42,040
+but, you know, there is attempts being
+
+148
+00:05:42,040 --> 00:05:43,920
+made to do that. There's attempts being
+
+149
+00:05:43,920 --> 00:05:45,200
+made to
+
+150
+00:05:45,200 --> 00:05:47,800
+let's call it get an approximation to a
+
+151
+00:05:47,800 --> 00:05:50,360
+solution in a lower precision and then
+
+152
+00:05:50,360 --> 00:05:53,280
+do some do
+
+153
+00:05:53,280 --> 00:05:54,320
+some
+
+154
+00:05:54,320 --> 00:05:58,160
+mathematics to improve the accuracy and
+
+155
+00:05:58,160 --> 00:05:59,880
+come up with a solution that hopefully
+
+156
+00:05:59,880 --> 00:06:02,800
+is as good as what you would have gotten
+
+157
+00:06:02,800 --> 00:06:04,920
+doing 64-bit. Of course,
+
+158
+00:06:04,920 --> 00:06:07,600
+doing 64-bit is more expensive than
+
+159
+00:06:07,600 --> 00:06:09,880
+doing 32-bits and 32-bit is more
+
+160
+00:06:09,880 --> 00:06:12,400
+expensive than 16-bit. And that has to
+
+161
+00:06:12,400 --> 00:06:13,600
+do
+
+162
+00:06:13,600 --> 00:06:16,720
+with in some sense moving data and also
+
+163
+00:06:16,720 --> 00:06:19,400
+the hardware that's inherent in in the
+
+164
+00:06:19,400 --> 00:06:22,080
+floating-point units that are there.
+
+165
+00:06:22,080 --> 00:06:24,440
+It's been said that um
+
+166
+00:06:24,440 --> 00:06:27,280
+the one who has the fastest computer can
+
+167
+00:06:27,280 --> 00:06:30,160
+do the best science. Now, that's that's
+
+168
+00:06:30,160 --> 00:06:32,520
+perhaps an overreach, but there is some
+
+169
+00:06:32,520 --> 00:06:34,800
+truth in that.
+
+170
+00:06:34,800 --> 00:06:36,840
+Faster computer, the the supercomputers
+
+171
+00:06:36,840 --> 00:06:39,000
+that we have are
+
+172
+00:06:39,000 --> 00:06:41,240
+today in the
+
+173
+00:06:41,240 --> 00:06:44,080
+what's considered exascale range. So, we
+
+174
+00:06:44,080 --> 00:06:47,120
+have two examples of those that we know
+
+175
+00:06:47,120 --> 00:06:50,240
+about that are doing exascale computing.
+
+176
+00:06:50,240 --> 00:06:53,720
+So, exascale is defined as 10 to the 18
+
+177
+00:06:53,720 --> 00:06:56,320
+floating-point operations per second.
+
+178
+00:06:56,320 --> 00:06:58,960
+And that's 64-bit floating-point
+
+179
+00:06:58,960 --> 00:07:00,440
+operations.
+
+180
+00:07:00,440 --> 00:07:02,480
+So, that's that's a big that's a big
+
+181
+00:07:02,480 --> 00:07:06,000
+number, 10 to the 10 to the 18.
+
+182
+00:07:06,000 --> 00:07:07,600
+Yeah, um
+
+183
+00:07:07,600 --> 00:07:09,760
+there's two
+
+184
+00:07:09,760 --> 00:07:12,760
+two sides that I think people or at
+
+185
+00:07:12,760 --> 00:07:13,760
+least
+
+186
+00:07:13,760 --> 00:07:16,160
+myself, I'm always interested in where
+
+187
+00:07:16,160 --> 00:07:17,960
+the future lies a little bit. I I want
+
+188
+00:07:17,960 --> 00:07:19,600
+to know where the where things came
+
+189
+00:07:19,600 --> 00:07:21,880
+from, but I'm also always interested to
+
+190
+00:07:21,880 --> 00:07:24,480
+sort of see where things are going in
+
+191
+00:07:24,480 --> 00:07:26,280
+we've talked in in some other
+
+192
+00:07:26,280 --> 00:07:28,640
+discussions I've had with people around
+
+193
+00:07:28,640 --> 00:07:30,240
+the pure science. So, what's the future
+
+194
+00:07:30,240 --> 00:07:32,680
+of CFD or what's the future?
+
+195
+00:07:32,680 --> 00:07:34,280
+But it's interesting to maybe look at
+
+196
+00:07:34,280 --> 00:07:39,480
+that from a from a HPC point of view. Um
+
+197
+00:07:39,480 --> 00:07:42,560
+I saw I I really enjoyed the article
+
+198
+00:07:42,560 --> 00:07:45,240
+that you wrote, Reinventing HPC, the
+
+199
+00:07:45,240 --> 00:07:48,840
+challenges and opportunities. Um I I
+
+200
+00:07:48,840 --> 00:07:51,040
+know it's difficult task to summarize
+
+201
+00:07:51,040 --> 00:07:53,400
+that in a few minutes, but but what what
+
+202
+00:07:53,400 --> 00:07:55,200
+do you kind of see as the current
+
+203
+00:07:55,200 --> 00:07:57,680
+challenges but the opportunities
+
+204
+00:07:57,680 --> 00:08:00,640
+for for HPC over the coming years?
+
+205
+00:08:00,640 --> 00:08:02,960
+Right. So, let's see, the challenges.
+
+206
+00:08:02,960 --> 00:08:04,440
+Well, um
+
+207
+00:08:04,440 --> 00:08:06,640
+if we take a look at the computers that
+
+208
+00:08:06,640 --> 00:08:09,240
+we have today, they're
+
+209
+00:08:09,240 --> 00:08:13,080
+they're incredible devices, but
+
+210
+00:08:13,080 --> 00:08:14,720
+you know, they they suffer from the
+
+211
+00:08:14,720 --> 00:08:17,560
+standpoint of moving data. So, data
+
+212
+00:08:17,560 --> 00:08:19,600
+movement is the most expensive thing
+
+213
+00:08:19,600 --> 00:08:22,720
+that uh that we do on a computer today.
+
+214
+00:08:22,720 --> 00:08:24,960
+So, moving data from one part of the
+
+215
+00:08:24,960 --> 00:08:26,480
+machine to another part of the machine
+
+216
+00:08:26,480 --> 00:08:28,360
+where it's going to be used is very
+
+217
+00:08:28,360 --> 00:08:30,280
+expensive. So, it's much more expensive
+
+218
+00:08:30,280 --> 00:08:31,200
+than
+
+219
+00:08:31,200 --> 00:08:35,120
+doing floating-point operations. And
+
+220
+00:08:35,120 --> 00:08:37,240
+floating-point operations
+
+221
+00:08:37,240 --> 00:08:39,479
+today on our computers are really
+
+222
+00:08:39,479 --> 00:08:41,640
+over-provisioned, I feel. So, we have
+
+223
+00:08:41,640 --> 00:08:44,800
+too much floating-point capacity and we
+
+224
+00:08:44,800 --> 00:08:48,320
+have a hard time effectively using the
+
+225
+00:08:48,320 --> 00:08:51,120
+floating-point units because of passing
+
+226
+00:08:51,120 --> 00:08:53,200
+data to them. So, we spend most of the
+
+227
+00:08:53,200 --> 00:08:55,520
+time passing data. So, the challenge
+
+228
+00:08:55,520 --> 00:08:58,720
+would be to design a system that um
+
+229
+00:08:58,720 --> 00:09:01,960
+that can overcome some of that uh
+
+230
+00:09:01,960 --> 00:09:05,040
+some of that resistance in passing data.
+
+231
+00:09:05,040 --> 00:09:06,960
+You know, our our computers today, our
+
+232
+00:09:06,960 --> 00:09:08,960
+supercomputers today are bought or
+
+233
+00:09:08,960 --> 00:09:11,320
+purchased or acquired in a sort of a
+
+234
+00:09:11,320 --> 00:09:12,840
+strange way.
+
+235
+00:09:12,840 --> 00:09:15,680
+So, what we do is we we say we have a
+
+236
+00:09:15,680 --> 00:09:17,520
+desire to have a machine at this level
+
+237
+00:09:17,520 --> 00:09:19,000
+of performance
+
+238
+00:09:19,000 --> 00:09:23,520
+and we have this much money. So, then we
+
+239
+00:09:23,520 --> 00:09:25,800
+we tell the vendors we need a machine
+
+240
+00:09:25,800 --> 00:09:29,240
+that matches that performance with this
+
+241
+00:09:29,240 --> 00:09:30,480
+this um
+
+242
+00:09:30,480 --> 00:09:32,880
+this cap on it. So, I'm being very crude
+
+243
+00:09:32,880 --> 00:09:34,760
+in terms of the the the the parameters
+
+244
+00:09:34,760 --> 00:09:36,960
+here, but it's sort of like this. And
+
+245
+00:09:36,960 --> 00:09:39,200
+then a a vendor goes off and cobbles
+
+246
+00:09:39,200 --> 00:09:41,880
+together a machine usually out of
+
+247
+00:09:41,880 --> 00:09:44,480
+commodity parts and
+
+248
+00:09:44,480 --> 00:09:47,160
+bids that machine. And if they win the
+
+249
+00:09:47,160 --> 00:09:48,680
+bid, and you know, there's a lot of
+
+250
+00:09:48,680 --> 00:09:50,400
+things that go into winning a bid and
+
+251
+00:09:50,400 --> 00:09:53,800
+making making things work, then they put
+
+252
+00:09:53,800 --> 00:09:55,800
+together a machine and it basically gets
+
+253
+00:09:55,800 --> 00:09:57,600
+thrown over the fence.
+
+254
+00:09:57,600 --> 00:10:01,240
+and we on the other side of that fence
+
+255
+00:10:01,240 --> 00:10:03,080
+the people who who are intended to use
+
+256
+00:10:03,080 --> 00:10:05,200
+that computer sort of scramble for the
+
+257
+00:10:05,200 --> 00:10:07,440
+next three or four years to figure out
+
+258
+00:10:07,440 --> 00:10:09,200
+how to use it effectively.
+
+259
+00:10:09,200 --> 00:10:11,600
+And that that scrambling, you know, is
+
+260
+00:10:11,600 --> 00:10:14,480
+an incredibly intensive process of
+
+261
+00:10:14,480 --> 00:10:16,160
+optimizing
+
+262
+00:10:16,160 --> 00:10:18,920
+redoing algorithms and redesigning
+
+263
+00:10:18,920 --> 00:10:20,880
+algorithms, creating new algorithms that
+
+264
+00:10:20,880 --> 00:10:21,680
+can
+
+265
+00:10:21,680 --> 00:10:25,160
+effectively function in the parameters
+
+266
+00:10:25,160 --> 00:10:26,840
+of that new machine.
+
+267
+00:10:26,840 --> 00:10:28,480
+So, we're doing you know, in some sense
+
+268
+00:10:28,480 --> 00:10:30,840
+we're doing that incorrectly. So, we're
+
+269
+00:10:30,840 --> 00:10:33,040
+not we're not designing a machine that's
+
+270
+00:10:33,040 --> 00:10:36,720
+suited for the scientific problems that
+
+271
+00:10:36,720 --> 00:10:38,960
+we have. We're designing a machine based
+
+272
+00:10:38,960 --> 00:10:40,160
+on
+
+273
+00:10:40,160 --> 00:10:41,960
+how much money we have and what the
+
+274
+00:10:41,960 --> 00:10:44,000
+expected performance could be in terms
+
+275
+00:10:44,000 --> 00:10:47,360
+of peak performance of all things. So,
+
+276
+00:10:47,360 --> 00:10:50,120
+we end up with a computer that um
+
+277
+00:10:50,120 --> 00:10:52,640
+you know, for for some
+
+278
+00:10:52,640 --> 00:10:56,160
+for some outdated benchmark perhaps can
+
+279
+00:10:56,160 --> 00:10:58,840
+reach the highest levels we asked for,
+
+280
+00:10:58,840 --> 00:11:02,000
+but for realistic problems we run we run
+
+281
+00:11:02,000 --> 00:11:04,839
+much less than that. And the example
+
+282
+00:11:04,839 --> 00:11:06,440
+that I usually
+
+283
+00:11:06,440 --> 00:11:08,800
+drag out is something perhaps I'm
+
+284
+00:11:08,800 --> 00:11:10,480
+responsible for
+
+285
+00:11:10,480 --> 00:11:12,960
+is is the LINPACK benchmark. So, LINPACK
+
+286
+00:11:12,960 --> 00:11:15,760
+benchmark is is solving a dense system
+
+287
+00:11:15,760 --> 00:11:17,560
+of linear equations
+
+288
+00:11:17,560 --> 00:11:20,200
+using a standard algorithm. The
+
+289
+00:11:20,200 --> 00:11:21,560
+algorithm is Gaussian elimination with
+
+290
+00:11:21,560 --> 00:11:23,839
+partial pivoting. It's the algorithm I
+
+291
+00:11:23,839 --> 00:11:25,200
+learned when I was in high school for
+
+292
+00:11:25,200 --> 00:11:27,440
+solving a system of linear equations.
+
+293
+00:11:27,440 --> 00:11:29,320
+And the benchmark is to use that
+
+294
+00:11:29,320 --> 00:11:31,640
+algorithm to solve a dense matrix
+
+295
+00:11:31,640 --> 00:11:35,920
+problem and to look at the performance
+
+296
+00:11:35,920 --> 00:11:38,360
+with 64-bit accuracy.
+
+297
+00:11:38,360 --> 00:11:39,880
+So,
+
+298
+00:11:39,880 --> 00:11:43,040
+you know, that problem is at its core
+
+299
+00:11:43,040 --> 00:11:45,480
+doing a matrix multiply. So, if your
+
+300
+00:11:45,480 --> 00:11:47,360
+hardware can do matrix multiply well,
+
+301
+00:11:47,360 --> 00:11:48,880
+that algorithm is going to run very
+
+302
+00:11:48,880 --> 00:11:52,560
+well. Now, that that that algorithm
+
+303
+00:11:52,560 --> 00:11:56,120
+is not is not very relevant to today's
+
+304
+00:11:56,120 --> 00:11:58,960
+scientific computations. That is to say,
+
+305
+00:11:58,960 --> 00:12:00,800
+the computations we do on
+
+306
+00:12:00,800 --> 00:12:02,880
+supercomputers, they usually don't look
+
+307
+00:12:02,880 --> 00:12:06,160
+like matrix multiply. They look like
+
+308
+00:12:06,160 --> 00:12:08,280
+something with a sparse data structure.
+
+309
+00:12:08,280 --> 00:12:10,480
+So, it's solving the same problem by the
+
+310
+00:12:10,480 --> 00:12:13,080
+way. So,
+
+311
+00:12:13,080 --> 00:12:15,320
+solving a solving this LINPACK benchmark
+
+312
+00:12:15,320 --> 00:12:16,600
+solves
+
+313
+00:12:16,600 --> 00:12:19,760
+a system of linear equations Ax = b. So,
+
+314
+00:12:19,760 --> 00:12:21,480
+you're given A and you're given B and
+
+315
+00:12:21,480 --> 00:12:23,480
+you're asked to compute X and you're
+
+316
+00:12:23,480 --> 00:12:24,920
+told to use Gaussian elimination with
+
+317
+00:12:24,920 --> 00:12:27,200
+partial pivoting and that matrix A is
+
+318
+00:12:27,200 --> 00:12:29,280
+dense. So, all the elements are filled
+
+319
+00:12:29,280 --> 00:12:31,839
+in with nonzero
+
+320
+00:12:31,839 --> 00:12:34,720
+element nonzero components and you're
+
+321
+00:12:34,720 --> 00:12:36,560
+asked to use that algorithm. We have
+
+322
+00:12:36,560 --> 00:12:38,920
+another benchmark
+
+323
+00:12:38,920 --> 00:12:40,520
+that's called the high performance
+
+324
+00:12:40,520 --> 00:12:43,640
+conjugate gradients benchmark HPCG.
+
+325
+00:12:43,640 --> 00:12:45,200
+And that benchmark again solves that
+
+326
+00:12:45,200 --> 00:12:47,920
+same problem Ax = b, but the data
+
+327
+00:12:47,920 --> 00:12:50,040
+structures are different for the matrix
+
+328
+00:12:50,040 --> 00:12:52,280
+A. The data is sparse. So, we have a
+
+329
+00:12:52,280 --> 00:12:55,080
+sparse matrix representation for the
+
+330
+00:12:55,080 --> 00:12:58,720
+problem. And that sparse matrix is
+
+331
+00:12:58,720 --> 00:13:01,839
+similar the way in which it's formed is
+
+332
+00:13:01,839 --> 00:13:04,800
+similar to what we typically use
+
+333
+00:13:04,800 --> 00:13:09,520
+supercomputers to to do and that's
+
+334
+00:13:09,760 --> 00:13:11,160
+solve a three-dimensional partial
+
+335
+00:13:11,160 --> 00:13:12,640
+differential equation. So, when we
+
+336
+00:13:12,640 --> 00:13:15,600
+discretize that that differential
+
+337
+00:13:15,600 --> 00:13:18,200
+equation, we end up with a matrix
+
+338
+00:13:18,200 --> 00:13:21,960
+problem. That matrix problem is sparse.
+
+339
+00:13:21,960 --> 00:13:25,080
+And we use an iterative method to solve
+
+340
+00:13:25,080 --> 00:13:27,920
+it. So, it's not solved in the in the
+
+341
+00:13:27,920 --> 00:13:30,320
+sense that we solve that dense problem.
+
+342
+00:13:30,320 --> 00:13:32,200
+It's using a different approach to
+
+343
+00:13:32,200 --> 00:13:35,240
+solving it and that that approach does
+
+344
+00:13:35,240 --> 00:13:39,360
+not have matrix multiply at its core. It
+
+345
+00:13:39,360 --> 00:13:43,880
+has a sparse matrix vector product which
+
+346
+00:13:43,880 --> 00:13:48,360
+requires you to move data and get get it
+
+347
+00:13:48,360 --> 00:13:51,000
+gets very little reuse of the data. So,
+
+348
+00:13:51,000 --> 00:13:53,600
+the data is basically passed into the
+
+349
+00:13:53,600 --> 00:13:55,240
+functional units,
+
+350
+00:13:55,240 --> 00:13:58,040
+computations done and then
+
+351
+00:13:58,040 --> 00:13:59,680
+there's no reuse of that data and you
+
+352
+00:13:59,680 --> 00:14:01,680
+have to do it again for the next for the
+
+353
+00:14:01,680 --> 00:14:05,839
+next iteration. And just in terms of um
+
+354
+00:14:05,839 --> 00:14:08,200
+raw numbers,
+
+355
+00:14:08,200 --> 00:14:11,360
+the the dense matrix problem, we can get
+
+356
+00:14:11,360 --> 00:14:15,079
+probably 70 to 80% of the theoretical
+
+357
+00:14:15,079 --> 00:14:18,680
+peak performance in 64-bit precision.
+
+358
+00:14:18,680 --> 00:14:22,120
+For the sparse problem unfortunately
+
+359
+00:14:22,120 --> 00:14:25,600
+we get less than 3% of the theoretical
+
+360
+00:14:25,600 --> 00:14:27,959
+peak performance. So, problems that we
+
+361
+00:14:27,959 --> 00:14:30,600
+are intending to solve on these
+
+362
+00:14:30,600 --> 00:14:33,959
+supercomputers, we're ending up with 3%
+
+363
+00:14:33,959 --> 00:14:34,720
+of
+
+364
+00:14:34,720 --> 00:14:38,079
+of efficiency, let's call it. And
+
+365
+00:14:38,079 --> 00:14:39,360
+you know, is that is that a good or a
+
+366
+00:14:39,360 --> 00:14:41,600
+bad thing? Well, I would say that's not
+
+367
+00:14:41,600 --> 00:14:43,600
+a very good use of the resources that we
+
+368
+00:14:43,600 --> 00:14:45,920
+have. And you know, why is that the
+
+369
+00:14:45,920 --> 00:14:48,040
+case? Why do we only get 3%? It's
+
+370
+00:14:48,040 --> 00:14:49,720
+because we're we're we don't have a good
+
+371
+00:14:49,720 --> 00:14:51,640
+way to pass data around. And we've
+
+372
+00:14:51,640 --> 00:14:53,880
+cobbled together a machine based on
+
+373
+00:14:53,880 --> 00:14:55,839
+commodity parts
+
+374
+00:14:55,839 --> 00:14:59,320
+CPUs, commodity GPUs, commodity
+
+375
+00:14:59,320 --> 00:15:01,400
+interconnects,
+
+376
+00:15:01,400 --> 00:15:04,320
+commodity memory and all of that comes
+
+377
+00:15:04,320 --> 00:15:05,920
+together to give us a machine with a
+
+378
+00:15:05,920 --> 00:15:08,079
+very high theoretical peak performance,
+
+379
+00:15:08,079 --> 00:15:11,000
+but very very inefficient in terms of
+
+380
+00:15:11,000 --> 00:15:12,760
+how it's used.
+
+381
+00:15:12,760 --> 00:15:15,320
+How much I I guess you're alluding to
+
+382
+00:15:15,320 --> 00:15:17,600
+that all of one of the conclusions
+
+383
+00:15:17,600 --> 00:15:19,880
+around co-design. Are you essentially
+
+384
+00:15:19,880 --> 00:15:21,680
+saying that really the hardware and the
+
+385
+00:15:21,680 --> 00:15:24,240
+software should be more tightly sort of
+
+386
+00:15:24,240 --> 00:15:27,280
+coupled together rather than being
+
+387
+00:15:27,280 --> 00:15:29,000
+I mean, how how can that be addressed I
+
+388
+00:15:29,000 --> 00:15:32,000
+suppose pragmatically or practically?
+
+389
+00:15:32,000 --> 00:15:34,320
+Right. So, we had a mantra with some of
+
+390
+00:15:34,320 --> 00:15:37,160
+the Department of Energy projects. For
+
+391
+00:15:37,160 --> 00:15:39,079
+the mantra was to to do co-design. What
+
+392
+00:15:39,079 --> 00:15:41,600
+is co-design? Well, it's to get the
+
+393
+00:15:41,600 --> 00:15:44,839
+hardware people together with the with
+
+394
+00:15:44,839 --> 00:15:47,520
+the with the computational scientists
+
+395
+00:15:47,520 --> 00:15:49,120
+together with the guys designing
+
+396
+00:15:49,120 --> 00:15:50,920
+algorithms that will solve those
+
+397
+00:15:50,920 --> 00:15:53,280
+computational problems along with the
+
+398
+00:15:53,280 --> 00:15:55,200
+software people that are going to write
+
+399
+00:15:55,200 --> 00:15:57,839
+software for doing those for doing those
+
+400
+00:15:57,839 --> 00:15:59,760
+algorithms. So, it gets the
+
+401
+00:15:59,760 --> 00:16:01,600
+the architects together with the
+
+402
+00:16:01,600 --> 00:16:03,720
+scientists together with the computer
+
+403
+00:16:03,720 --> 00:16:04,800
+people
+
+404
+00:16:04,800 --> 00:16:06,600
+who are doing things. And that's they're
+
+405
+00:16:06,600 --> 00:16:09,800
+going to do co-design a machine based on
+
+406
+00:16:09,800 --> 00:16:13,240
+the aspects of the applications that
+
+407
+00:16:13,240 --> 00:16:15,160
+they have, how to make those
+
+408
+00:16:15,160 --> 00:16:17,200
+applications run as efficiently as
+
+409
+00:16:17,200 --> 00:16:20,360
+possible on some architecture. And
+
+410
+00:16:20,360 --> 00:16:22,360
+working with the architects come up with
+
+411
+00:16:22,360 --> 00:16:25,920
+a piece of hardware that can satisfy
+
+412
+00:16:25,920 --> 00:16:27,280
+that problem.
+
+413
+00:16:27,280 --> 00:16:29,280
+So, that's the mantra. In the end what
+
+414
+00:16:29,280 --> 00:16:30,800
+we got is somebody throwing a machine
+
+415
+00:16:30,800 --> 00:16:33,160
+over the fence and the computational
+
+416
+00:16:33,160 --> 00:16:34,600
+people scramble
+
+417
+00:16:34,600 --> 00:16:36,640
+for the next three years trying to
+
+418
+00:16:36,640 --> 00:16:39,160
+figure out how to use it. And there is
+
+419
+00:16:39,160 --> 00:16:41,680
+no real co-design of that machine. So,
+
+420
+00:16:41,680 --> 00:16:43,640
+again, we're stuck using commodity
+
+421
+00:16:43,640 --> 00:16:49,079
+processors. We've lost in some sense the
+
+422
+00:16:49,079 --> 00:16:51,120
+you know, I can remember back when I was
+
+423
+00:16:51,120 --> 00:16:52,800
+in school,
+
+424
+00:16:52,800 --> 00:16:54,920
+there were many universities doing
+
+425
+00:16:54,920 --> 00:16:57,240
+architectural work in terms of building
+
+426
+00:16:57,240 --> 00:16:59,320
+experimental machines
+
+427
+00:16:59,320 --> 00:17:00,600
+that
+
+428
+00:17:00,600 --> 00:17:02,880
+potentially could could solve
+
+429
+00:17:02,880 --> 00:17:05,079
+challenging problems. And I think we've
+
+430
+00:17:05,079 --> 00:17:06,640
+lost some of that. So, we've lost some
+
+431
+00:17:06,640 --> 00:17:09,240
+of the ability to do that
+
+432
+00:17:09,240 --> 00:17:11,880
+fundamental research in terms of
+
+433
+00:17:11,880 --> 00:17:13,800
+designing architectures
+
+434
+00:17:13,800 --> 00:17:15,439
+that would meet the needs of the
+
+435
+00:17:15,439 --> 00:17:17,560
+computational science community. So,
+
+436
+00:17:17,560 --> 00:17:20,199
+maybe we should go back
+
+437
+00:17:20,199 --> 00:17:21,560
+and
+
+438
+00:17:21,560 --> 00:17:25,360
+invest I'll say in that in that effort.
+
+439
+00:17:25,360 --> 00:17:27,040
+That is um
+
+440
+00:17:27,040 --> 00:17:28,880
+invest in terms of allowing those
+
+441
+00:17:28,880 --> 00:17:30,760
+universities to do architectural
+
+442
+00:17:30,760 --> 00:17:33,000
+research that would benefit scientific
+
+443
+00:17:33,000 --> 00:17:35,080
+computing. Architectural research is
+
+444
+00:17:35,080 --> 00:17:36,880
+being done of course in in universities,
+
+445
+00:17:36,880 --> 00:17:37,840
+but
+
+446
+00:17:37,840 --> 00:17:39,400
+with the focus being on scientific
+
+447
+00:17:39,400 --> 00:17:40,840
+computing I think is the thing that
+
+448
+00:17:40,840 --> 00:17:42,200
+we've lost.
+
+449
+00:17:42,200 --> 00:17:44,720
+Do you think um
+
+450
+00:17:44,720 --> 00:17:45,640
+that
+
+451
+00:17:45,640 --> 00:17:48,120
+you know, AI machine learning has been a
+
+452
+00:17:48,120 --> 00:17:51,920
+force for good for HPC in the sense that
+
+453
+00:17:51,920 --> 00:17:55,040
+it's obviously a user of HPC and has
+
+454
+00:17:55,040 --> 00:17:57,760
+driven huge new investment or has it
+
+455
+00:17:57,760 --> 00:18:01,120
+been negative because it's sort of
+
+456
+00:18:01,120 --> 00:18:03,679
+diverted that to from computational
+
+457
+00:18:03,679 --> 00:18:06,160
+science towards a different discipline
+
+458
+00:18:06,160 --> 00:18:09,880
+that maybe doesn't suit it, you know?
+
+459
+00:18:09,880 --> 00:18:12,400
+So, I would say AI is and machine
+
+460
+00:18:12,400 --> 00:18:14,720
+learning are are causing a revolution to
+
+461
+00:18:14,720 --> 00:18:17,160
+take place in how we look at scientific
+
+462
+00:18:17,160 --> 00:18:18,560
+problems.
+
+463
+00:18:18,560 --> 00:18:21,920
+Almost every scientific application that
+
+464
+00:18:21,920 --> 00:18:25,320
+I see today is embedding machine
+
+465
+00:18:25,320 --> 00:18:27,520
+learning and artificial intelligence in
+
+466
+00:18:27,520 --> 00:18:29,560
+it. And it's having a very positive
+
+467
+00:18:29,560 --> 00:18:32,640
+effect in terms of
+
+468
+00:18:32,640 --> 00:18:35,520
+allowing those applications to get a
+
+469
+00:18:35,520 --> 00:18:37,840
+better solution, better time to
+
+470
+00:18:37,840 --> 00:18:40,440
+solution, a more accurate solution. And
+
+471
+00:18:40,440 --> 00:18:42,200
+I'm not saying that they they replace
+
+472
+00:18:42,200 --> 00:18:45,080
+the traditional classical approaches.
+
+473
+00:18:45,080 --> 00:18:46,520
+What they do is they augment them.
+
+474
+00:18:46,520 --> 00:18:48,760
+They're a tool that's being used now by
+
+475
+00:18:48,760 --> 00:18:51,120
+the computational scientists. So, it's a
+
+476
+00:18:51,120 --> 00:18:54,760
+it's a tremendous positive influence in
+
+477
+00:18:54,760 --> 00:18:57,880
+terms of how we solve problems and that
+
+478
+00:18:57,880 --> 00:19:00,000
+that's going to be a great benefit as we
+
+479
+00:19:00,000 --> 00:19:02,040
+go forward and really understand how we
+
+480
+00:19:02,040 --> 00:19:07,720
+can use the uh the technology
+
+481
+00:19:07,720 --> 00:19:09,800
+and use it as a tool
+
+482
+00:19:09,800 --> 00:19:12,760
+to to solve our problems much better
+
+483
+00:19:12,760 --> 00:19:14,240
+than we uh
+
+484
+00:19:14,240 --> 00:19:16,960
+than we're doing today. So, it's it's
+
+485
+00:19:16,960 --> 00:19:18,560
+really a um
+
+486
+00:19:18,560 --> 00:19:21,159
+it's a thing which will help us amplify
+
+487
+00:19:21,159 --> 00:19:24,440
+our ability to solve these problems.
+
+488
+00:19:24,440 --> 00:19:26,720
+But do you um
+
+489
+00:19:26,720 --> 00:19:28,960
+I'm I'm apologies if I'm wrong on this
+
+490
+00:19:28,960 --> 00:19:30,520
+one, but
+
+491
+00:19:30,520 --> 00:19:32,679
+is there therefore a logic that some of
+
+492
+00:19:32,679 --> 00:19:34,000
+the
+
+493
+00:19:34,000 --> 00:19:37,960
+methods to evaluate the TOP500 should
+
+494
+00:19:37,960 --> 00:19:40,840
+be more skewed to include machine
+
+495
+00:19:40,840 --> 00:19:42,520
+learning given that increasingly a lot
+
+496
+00:19:42,520 --> 00:19:45,760
+of these supercomputers will run more
+
+497
+00:19:45,760 --> 00:19:47,520
+and more machine learning workloads with
+
+498
+00:19:47,520 --> 00:19:50,159
+different algorithms and methods?
+
+499
+00:19:50,159 --> 00:19:52,960
+So, so I guess you know, as a as a
+
+500
+00:19:52,960 --> 00:19:55,560
+person who has developed
+
+501
+00:19:55,560 --> 00:19:58,360
+accidentally benchmarks that have that
+
+502
+00:19:58,360 --> 00:20:00,720
+have gotten getting gotten take up in
+
+503
+00:20:00,720 --> 00:20:03,120
+the community, I'll say that we should
+
+504
+00:20:03,120 --> 00:20:04,480
+have a lot of benchmarks. We shouldn't
+
+505
+00:20:04,480 --> 00:20:06,360
+just have one or two benchmarks. We
+
+506
+00:20:06,360 --> 00:20:07,880
+should have a bunch of benchmarks. The
+
+507
+00:20:07,880 --> 00:20:09,960
+benchmarks should have should
+
+508
+00:20:09,960 --> 00:20:13,160
+reflect the applications that were going
+
+509
+00:20:13,160 --> 00:20:15,920
+to use these machines for. So, having
+
+510
+00:20:15,920 --> 00:20:17,560
+many benchmarks
+
+511
+00:20:17,560 --> 00:20:20,720
+allows us maybe to dial up
+
+512
+00:20:20,720 --> 00:20:23,080
+something
+
+513
+00:20:23,080 --> 00:20:25,120
+these benchmarks to get a handle on what
+
+514
+00:20:25,120 --> 00:20:28,880
+our what our application will look like
+
+515
+00:20:28,880 --> 00:20:30,760
+when run on these machines. So, we
+
+516
+00:20:30,760 --> 00:20:33,320
+should of course keep the existing
+
+517
+00:20:33,320 --> 00:20:35,160
+benchmarks. There is a lot of historical
+
+518
+00:20:35,160 --> 00:20:36,600
+information,
+
+519
+00:20:36,600 --> 00:20:38,720
+trends, and other things that we get out
+
+520
+00:20:38,720 --> 00:20:39,760
+of them.
+
+521
+00:20:39,760 --> 00:20:42,520
+So, it's been very informative and and
+
+522
+00:20:42,520 --> 00:20:44,880
+has been beneficial.
+
+523
+00:20:44,880 --> 00:20:46,840
+So, I would advocate keeping them, not
+
+524
+00:20:46,840 --> 00:20:48,800
+throwing them away, but I would say we
+
+525
+00:20:48,800 --> 00:20:50,320
+should augment them and you know, we've
+
+526
+00:20:50,320 --> 00:20:52,280
+tried to do that. I've tried to do that
+
+527
+00:20:52,280 --> 00:20:54,960
+just as as I go through trying to
+
+528
+00:20:54,960 --> 00:20:56,760
+understand how effectively they use the
+
+529
+00:20:56,760 --> 00:20:59,760
+machines. So, HPL was something that was
+
+530
+00:20:59,760 --> 00:21:01,400
+done, you know, to be honest, it was
+
+531
+00:21:01,400 --> 00:21:03,680
+done in the late 70s. So, we've got
+
+532
+00:21:03,680 --> 00:21:05,360
+something that has
+
+533
+00:21:05,360 --> 00:21:08,640
+you know, almost a what is that? 50-year
+
+534
+00:21:08,640 --> 00:21:11,080
+horizon here and
+
+535
+00:21:11,080 --> 00:21:13,920
+the TOP500's been around 30 plus years.
+
+536
+00:21:13,920 --> 00:21:16,600
+So, that that's an historical snapshot
+
+537
+00:21:16,600 --> 00:21:18,560
+of that that information in some sense
+
+538
+00:21:18,560 --> 00:21:20,680
+for high-performance computing. And now
+
+539
+00:21:20,680 --> 00:21:24,160
+we have this HPCG benchmark, which is
+
+540
+00:21:24,160 --> 00:21:25,720
+you know, again, looking at something a
+
+541
+00:21:25,720 --> 00:21:27,280
+little bit different but more relevant
+
+542
+00:21:27,280 --> 00:21:30,160
+perhaps to the applications that we do.
+
+543
+00:21:30,160 --> 00:21:32,080
+And you know, there are other machine
+
+544
+00:21:32,080 --> 00:21:34,680
+learning benchmarks that I think um
+
+545
+00:21:34,680 --> 00:21:38,320
+need to be understood and explored.
+
+546
+00:21:38,320 --> 00:21:40,440
+But you know, with these benchmarks, you
+
+547
+00:21:40,440 --> 00:21:41,800
+know, we want to keep them around for a
+
+548
+00:21:41,800 --> 00:21:43,560
+long period. We want to make sure they
+
+549
+00:21:43,560 --> 00:21:45,560
+reflect really what's going on in the
+
+550
+00:21:45,560 --> 00:21:48,360
+applications and what we should what we
+
+551
+00:21:48,360 --> 00:21:49,840
+can expect.
+
+552
+00:21:49,840 --> 00:21:51,120
+So,
+
+553
+00:21:51,120 --> 00:21:52,960
+some of that is unknown unknown
+
+554
+00:21:52,960 --> 00:21:54,280
+territory
+
+555
+00:21:54,280 --> 00:21:55,800
+today. So, I would say you know, we're
+
+556
+00:21:55,800 --> 00:21:57,480
+in a learning process and it'll take
+
+557
+00:21:57,480 --> 00:21:59,480
+some time for the right
+
+558
+00:21:59,480 --> 00:22:01,480
+benchmarks to um
+
+559
+00:22:01,480 --> 00:22:04,040
+perhaps to emerge. But I think you know,
+
+560
+00:22:04,040 --> 00:22:05,960
+we should be working towards a
+
+561
+00:22:05,960 --> 00:22:07,200
+whole
+
+562
+00:22:07,200 --> 00:22:09,080
+suite of benchmarks that can be used to
+
+563
+00:22:09,080 --> 00:22:11,240
+evaluate a system rather than just
+
+564
+00:22:11,240 --> 00:22:13,760
+focusing on one. We've tried to address
+
+565
+00:22:13,760 --> 00:22:15,960
+that in my group. We tried to address
+
+566
+00:22:15,960 --> 00:22:20,920
+that by um by tweaking, I'll say, um,
+
+567
+00:22:20,920 --> 00:22:23,560
+the HPL benchmark. So, the benchmark
+
+568
+00:22:23,560 --> 00:22:26,080
+that does a dense matrix computation.
+
+569
+00:22:26,080 --> 00:22:28,080
+Tweaking in the sense that we're trying
+
+570
+00:22:28,080 --> 00:22:31,160
+to understand what we can get out of
+
+571
+00:22:31,160 --> 00:22:33,520
+using mixed precision. So, the mixed
+
+572
+00:22:33,520 --> 00:22:36,360
+precision is can we get
+
+573
+00:22:36,360 --> 00:22:38,280
+can we get by with
+
+574
+00:22:38,280 --> 00:22:40,120
+low precision
+
+575
+00:22:40,120 --> 00:22:43,040
+start to the problem and then do some
+
+576
+00:22:43,040 --> 00:22:45,880
+mathematics to improve the solution
+
+577
+00:22:45,880 --> 00:22:47,480
+to the same that we would have gotten
+
+578
+00:22:47,480 --> 00:22:50,600
+had we done everything in 64-bit. So,
+
+579
+00:22:50,600 --> 00:22:51,800
+there's
+
+580
+00:22:51,800 --> 00:22:53,160
+there's a benchmark that goes by the
+
+581
+00:22:53,160 --> 00:22:56,000
+name of HPL-MxP.
+
+582
+00:22:56,000 --> 00:22:58,679
+MxP is for mixed precision. So, it it
+
+583
+00:22:58,679 --> 00:23:00,920
+allows the use of 16-bit 32-bit
+
+584
+00:23:00,920 --> 00:23:03,240
+arithmetic. It has a problem a dense
+
+585
+00:23:03,240 --> 00:23:04,640
+matrix problem that you're asked to
+
+586
+00:23:04,640 --> 00:23:08,280
+solve and there's a technique that we
+
+587
+00:23:08,280 --> 00:23:11,360
+have as a reference implementation which
+
+588
+00:23:11,360 --> 00:23:13,360
+uses a
+
+589
+00:23:13,360 --> 00:23:16,679
+iteration. It it constructs a
+
+590
+00:23:16,679 --> 00:23:19,080
+approximate solution in lower precision
+
+591
+00:23:19,080 --> 00:23:21,760
+and then uses an iterative technique on
+
+592
+00:23:21,760 --> 00:23:24,280
+that dense matrix problem to
+
+593
+00:23:24,280 --> 00:23:26,600
+converge to a much higher
+
+594
+00:23:26,600 --> 00:23:30,440
+accuracy result. And
+
+595
+00:23:30,440 --> 00:23:32,840
+we can show you know, very effective
+
+596
+00:23:32,840 --> 00:23:36,000
+very efficient speedups over time based
+
+597
+00:23:36,000 --> 00:23:38,080
+on that. And that's one of the
+
+598
+00:23:38,080 --> 00:23:41,080
+benchmarks that the guys at Argonne and
+
+599
+00:23:41,080 --> 00:23:43,520
+and also at Oak Ridge ran and a bunch of
+
+600
+00:23:43,520 --> 00:23:45,320
+other places have run
+
+601
+00:23:45,320 --> 00:23:47,080
+to show
+
+602
+00:23:47,080 --> 00:23:49,400
+significant speedups. So, there's
+
+603
+00:23:49,400 --> 00:23:51,640
+there's a need for many benchmarks and
+
+604
+00:23:51,640 --> 00:23:53,000
+those benchmarks should reflect the
+
+605
+00:23:53,000 --> 00:23:54,800
+applications that we're going to be
+
+606
+00:23:54,800 --> 00:23:56,800
+using on the machines.
+
+607
+00:23:56,800 --> 00:23:58,640
+But that's an interesting point about
+
+608
+00:23:58,640 --> 00:24:01,560
+the precision because um
+
+609
+00:24:01,560 --> 00:24:04,160
+that was kind of my question before a
+
+610
+00:24:04,160 --> 00:24:06,480
+little bit in terms of
+
+611
+00:24:06,480 --> 00:24:08,400
+the positivity, the negativity, the
+
+612
+00:24:08,400 --> 00:24:10,400
+direction with machine learning in the
+
+613
+00:24:10,400 --> 00:24:12,320
+sense
+
+614
+00:24:12,320 --> 00:24:15,240
+for many computational things, mixed
+
+615
+00:24:15,240 --> 00:24:17,120
+precision or double
+
+616
+00:24:17,120 --> 00:24:19,560
+seems to be what's required and and it
+
+617
+00:24:19,560 --> 00:24:21,400
+but it's good obviously there's been
+
+618
+00:24:21,400 --> 00:24:23,960
+work to see if there's a way around it.
+
+619
+00:24:23,960 --> 00:24:25,800
+But obviously a lot of machine learning
+
+620
+00:24:25,800 --> 00:24:27,000
+methods
+
+621
+00:24:27,000 --> 00:24:29,160
+can get huge speedups from using lower
+
+622
+00:24:29,160 --> 00:24:30,360
+precision
+
+623
+00:24:30,360 --> 00:24:32,200
+and there's a lot of money in that for
+
+624
+00:24:32,200 --> 00:24:33,920
+the chip vendors and the hyperscalers.
+
+625
+00:24:33,920 --> 00:24:36,200
+So, I guess
+
+626
+00:24:36,200 --> 00:24:38,080
+is there a slight
+
+627
+00:24:38,080 --> 00:24:39,960
+is there a need to sort of not get
+
+628
+00:24:39,960 --> 00:24:41,800
+overhyped by machine learning in the
+
+629
+00:24:41,800 --> 00:24:43,320
+sense you still have to remember that
+
+630
+00:24:43,320 --> 00:24:46,040
+there are some things that require
+
+631
+00:24:46,040 --> 00:24:47,640
+um
+
+632
+00:24:47,640 --> 00:24:49,640
+one chip cannot solve it all, I guess is
+
+633
+00:24:49,640 --> 00:24:50,720
+the
+
+634
+00:24:50,720 --> 00:24:53,960
+is that the right way?
+
+635
+00:24:53,960 --> 00:24:56,120
+Well, I'm I'm thankful that NVIDIA still
+
+636
+00:24:56,120 --> 00:24:58,600
+does 64-bit arithmetic in their in their
+
+637
+00:24:58,600 --> 00:25:00,400
+accelerators. So, that's that's the
+
+638
+00:25:00,400 --> 00:25:02,360
+first thing. Thank you very much for
+
+639
+00:25:02,360 --> 00:25:05,600
+keeping that real estate there
+
+640
+00:25:05,600 --> 00:25:07,560
+as opposed to selling out totally and
+
+641
+00:25:07,560 --> 00:25:10,000
+just doing 16-bit arithmetic, which is
+
+642
+00:25:10,000 --> 00:25:11,480
+what machine learning
+
+643
+00:25:11,480 --> 00:25:14,840
+needs to to do its to its problem. So,
+
+644
+00:25:14,840 --> 00:25:16,920
+yeah, I think that there's there's room
+
+645
+00:25:16,920 --> 00:25:20,000
+there to you know, I I think we're
+
+646
+00:25:20,000 --> 00:25:21,760
+we're trying to understand how we can
+
+647
+00:25:21,760 --> 00:25:25,920
+push the precision, the the accuracy,
+
+648
+00:25:25,920 --> 00:25:27,760
+and what we can do to enhance the
+
+649
+00:25:27,760 --> 00:25:31,800
+accuracy once we've gotten a result and
+
+650
+00:25:31,800 --> 00:25:34,440
+that's that's current research. So,
+
+651
+00:25:34,440 --> 00:25:36,080
+there's a lot of activity there. There's
+
+652
+00:25:36,080 --> 00:25:38,800
+a there's a
+
+653
+00:25:38,800 --> 00:25:40,920
+cottage industry, I'll call it,
+
+654
+00:25:40,920 --> 00:25:43,800
+trying to use mixed mixed precision
+
+655
+00:25:43,800 --> 00:25:46,560
+to solve scientific problems, trying to
+
+656
+00:25:46,560 --> 00:25:49,440
+exploit that 16-bit arithmetic as much
+
+657
+00:25:49,440 --> 00:25:51,880
+as possible. And and I've I've seen some
+
+658
+00:25:51,880 --> 00:25:54,520
+some reasonable results from that. So,
+
+659
+00:25:54,520 --> 00:25:57,960
+so I would say that's a positive thing
+
+660
+00:25:57,960 --> 00:25:59,480
+to exploit.
+
+661
+00:25:59,480 --> 00:26:01,960
+You know, again, I'm I want I'm thankful
+
+662
+00:26:01,960 --> 00:26:04,160
+that that we have 64-bit. And I saw a
+
+663
+00:26:04,160 --> 00:26:05,520
+paper recently which was quite
+
+664
+00:26:05,520 --> 00:26:08,760
+interesting. They were using um
+
+665
+00:26:08,760 --> 00:26:10,760
+integer arithmetic. So,
+
+666
+00:26:10,760 --> 00:26:14,560
+the NVIDIA GPUs have the ability to do
+
+667
+00:26:14,560 --> 00:26:18,240
+fixed-point arithmetic very fast.
+
+668
+00:26:18,240 --> 00:26:19,720
+So, it's you know, much faster than
+
+669
+00:26:19,720 --> 00:26:22,640
+floating-point 16-bit fixed-point
+
+670
+00:26:22,640 --> 00:26:25,560
+arithmetic, which gets you a 32-bit
+
+671
+00:26:25,560 --> 00:26:29,360
+result. Fixed-point
+
+672
+00:26:29,360 --> 00:26:32,480
+integer arithmetic and that's being used
+
+673
+00:26:32,480 --> 00:26:35,800
+to actually implement
+
+674
+00:26:35,800 --> 00:26:38,120
+the procedure for doing floating-point
+
+675
+00:26:38,120 --> 00:26:40,800
+matrix multiply. So, they essentially
+
+676
+00:26:40,800 --> 00:26:42,800
+think of you have two matrices you want
+
+677
+00:26:42,800 --> 00:26:44,920
+to multiply together and the algorithm
+
+678
+00:26:44,920 --> 00:26:48,080
+basically separates the numbers and bins
+
+679
+00:26:48,080 --> 00:26:50,080
+them in a certain way so that they can
+
+680
+00:26:50,080 --> 00:26:52,240
+do fixed-point arithmetic on those bins
+
+681
+00:26:52,240 --> 00:26:55,440
+of numbers and then
+
+682
+00:26:55,440 --> 00:26:58,560
+upscale that to floating-point and get a
+
+683
+00:26:58,560 --> 00:27:00,600
+get a floating-point result as a as a
+
+684
+00:27:00,600 --> 00:27:03,080
+result of that very efficiently. And it
+
+685
+00:27:03,080 --> 00:27:06,280
+can be encapsulated so that the user
+
+686
+00:27:06,280 --> 00:27:08,160
+doesn't even know that's happening. So,
+
+687
+00:27:08,160 --> 00:27:09,800
+it's under the covers. They're they
+
+688
+00:27:09,800 --> 00:27:12,520
+basically do a matrix multiply and they
+
+689
+00:27:12,520 --> 00:27:15,160
+they're expecting a 64-bit result and
+
+690
+00:27:15,160 --> 00:27:17,120
+under the covers it's being done in
+
+691
+00:27:17,120 --> 00:27:19,360
+integer arithmetic with the correct
+
+692
+00:27:19,360 --> 00:27:22,400
+precision with the correct ability to
+
+693
+00:27:22,400 --> 00:27:24,800
+detect errors in it with all the
+
+694
+00:27:24,800 --> 00:27:26,240
+floating-point
+
+695
+00:27:26,240 --> 00:27:27,880
+things we we would like to see from my
+
+696
+00:27:27,880 --> 00:27:29,840
+triple E arithmetic. In the end they get
+
+697
+00:27:29,840 --> 00:27:32,240
+a result which is done much faster but
+
+698
+00:27:32,240 --> 00:27:35,040
+using that energy unit. There are some
+
+699
+00:27:35,040 --> 00:27:36,560
+there are some hiccups along the way but
+
+700
+00:27:36,560 --> 00:27:38,440
+that's a that's a that's a very
+
+701
+00:27:38,440 --> 00:27:41,600
+interesting approach to dealing with
+
+702
+00:27:41,600 --> 00:27:43,640
+the situation of the hardware providing
+
+703
+00:27:43,640 --> 00:27:45,560
+a capability and exploiting that
+
+704
+00:27:45,560 --> 00:27:47,880
+hardware capability to get a results
+
+705
+00:27:47,880 --> 00:27:50,240
+that can be used.
+
+706
+00:27:50,240 --> 00:27:52,840
+Two questions for you. One,
+
+707
+00:27:52,840 --> 00:27:55,360
+is it really necessary
+
+708
+00:27:55,360 --> 00:27:57,679
+in the current age to have
+
+709
+00:27:57,679 --> 00:28:00,240
+a single system
+
+710
+00:28:00,240 --> 00:28:01,560
+with
+
+711
+00:28:01,560 --> 00:28:04,520
+50,000 GPUs or 100,000 GPUs? Does
+
+712
+00:28:04,520 --> 00:28:07,320
+anybody actually use the full system?
+
+713
+00:28:07,320 --> 00:28:08,440
+Or
+
+714
+00:28:08,440 --> 00:28:10,080
+is it actually
+
+715
+00:28:10,080 --> 00:28:13,320
+more economical or more effective to
+
+716
+00:28:13,320 --> 00:28:15,080
+have multiple systems, whether it's a
+
+717
+00:28:15,080 --> 00:28:16,800
+cloud or not,
+
+718
+00:28:16,800 --> 00:28:18,400
+because nobody runs on the full system
+
+719
+00:28:18,400 --> 00:28:20,800
+anyway. And or is it is there a bigger
+
+720
+00:28:20,800 --> 00:28:22,720
+picture of politics and and needing to
+
+721
+00:28:22,720 --> 00:28:24,720
+hit numbers? I'm I'd be interested to
+
+722
+00:28:24,720 --> 00:28:26,679
+get your take on the sort of
+
+723
+00:28:26,679 --> 00:28:29,960
+the need for just one massive machine.
+
+724
+00:28:29,960 --> 00:28:31,000
+Right.
+
+725
+00:28:31,000 --> 00:28:32,600
+So, right. So,
+
+726
+00:28:32,600 --> 00:28:34,040
+so the question is should I should I
+
+727
+00:28:34,040 --> 00:28:37,120
+build one exascale machine or get a
+
+728
+00:28:37,120 --> 00:28:39,600
+thousand petascale machines? That's the
+
+729
+00:28:39,600 --> 00:28:42,280
+equivalent of that question perhaps.
+
+730
+00:28:42,280 --> 00:28:43,400
+Yeah. So,
+
+731
+00:28:43,400 --> 00:28:45,280
+so let me say that the Department of
+
+732
+00:28:45,280 --> 00:28:47,159
+Energy is investing in exascale
+
+733
+00:28:47,159 --> 00:28:51,800
+computing and they've um they've
+
+734
+00:28:51,800 --> 00:28:54,040
+you know, put together a program called
+
+735
+00:28:54,040 --> 00:28:55,800
+the Exascale Computing
+
+736
+00:28:55,800 --> 00:28:59,240
+program, the ECP, along with
+
+737
+00:28:59,240 --> 00:29:02,480
+the Exascale Computing Initiative
+
+738
+00:29:02,480 --> 00:29:05,800
+and it's a it's a it's a program that
+
+739
+00:29:05,800 --> 00:29:09,000
+was over seven years and it was designed
+
+740
+00:29:09,000 --> 00:29:12,000
+to produce the those exascale computers.
+
+741
+00:29:12,000 --> 00:29:14,320
+So, they get three exascale computers.
+
+742
+00:29:14,320 --> 00:29:17,679
+The price tag is $600 million for each
+
+743
+00:29:17,679 --> 00:29:21,880
+one of those and the whole program is $4
+
+744
+00:29:21,880 --> 00:29:25,320
+billion. So, $4 billion over seven years
+
+745
+00:29:25,320 --> 00:29:28,880
+to get to exascale. That clock was set a
+
+746
+00:29:28,880 --> 00:29:31,280
+little over six seven years ago. The
+
+747
+00:29:31,280 --> 00:29:34,480
+program has run its course. It's spent
+
+748
+00:29:34,480 --> 00:29:36,840
+those $4 billion and we have three
+
+749
+00:29:36,840 --> 00:29:39,960
+exascale machines. One is at Oak Ridge
+
+750
+00:29:39,960 --> 00:29:42,400
+National Lab called Frontier. Another is
+
+751
+00:29:42,400 --> 00:29:44,840
+at Argonne National Laboratory that's
+
+752
+00:29:44,840 --> 00:29:47,760
+called Aurora. And uh third one is a
+
+753
+00:29:47,760 --> 00:29:49,960
+machine that's uh being constructed
+
+754
+00:29:49,960 --> 00:29:52,360
+today at Lawrence Livermore National Lab
+
+755
+00:29:52,360 --> 00:29:54,080
+called El Capitan. So, those are
+
+756
+00:29:54,080 --> 00:29:55,760
+hardware machines
+
+757
+00:29:55,760 --> 00:29:58,120
+uh that all have exascale plus
+
+758
+00:29:58,120 --> 00:30:02,120
+capabilities. And the uh the the uh the
+
+759
+00:30:02,120 --> 00:30:04,520
+purpose of those machines are to solve
+
+760
+00:30:04,520 --> 00:30:07,560
+some very challenging problems. So, uh
+
+761
+00:30:07,560 --> 00:30:09,560
+the Department of Energy in this program
+
+762
+00:30:09,560 --> 00:30:13,440
+defined, I think it was 20 uh 21 or 24
+
+763
+00:30:13,440 --> 00:30:15,760
+applications that they were going to
+
+764
+00:30:15,760 --> 00:30:18,680
+target to use the exascale machine. And
+
+765
+00:30:18,680 --> 00:30:20,720
+in the course of uh solving those
+
+766
+00:30:20,720 --> 00:30:22,840
+problems, not solving them, but using
+
+767
+00:30:22,840 --> 00:30:24,680
+those exascale machines to push the
+
+768
+00:30:24,680 --> 00:30:27,760
+boundaries for those problems forward,
+
+769
+00:30:27,760 --> 00:30:31,160
+um it's intended for those exascale
+
+770
+00:30:31,160 --> 00:30:34,400
+machines to be used at some point uh
+
+771
+00:30:34,400 --> 00:30:37,680
+during during the course of um its life
+
+772
+00:30:37,680 --> 00:30:40,160
+to be used the whole machine to be used
+
+773
+00:30:40,160 --> 00:30:42,480
+uh to solve or to be used in the
+
+774
+00:30:42,480 --> 00:30:45,080
+solution for some aspects of those 21
+
+775
+00:30:45,080 --> 00:30:47,680
+problems. So, yes, those machines are
+
+776
+00:30:47,680 --> 00:30:51,520
+intended to be used at uh at um at their
+
+777
+00:30:51,520 --> 00:30:52,560
+full
+
+778
+00:30:52,560 --> 00:30:53,800
+uh scale
+
+779
+00:30:53,800 --> 00:30:56,600
+um to solve one problem uh to help solve
+
+780
+00:30:56,600 --> 00:30:59,120
+that one problem. And um
+
+781
+00:30:59,120 --> 00:31:00,520
+uh when it's not being used to solve
+
+782
+00:31:00,520 --> 00:31:02,280
+that one problem, of course, it's being
+
+783
+00:31:02,280 --> 00:31:04,280
+used to solve many problems uh
+
+784
+00:31:04,280 --> 00:31:06,480
+simultaneously through a time-shared uh
+
+785
+00:31:06,480 --> 00:31:08,520
+through a uh system of using that
+
+786
+00:31:08,520 --> 00:31:10,640
+machine. And um
+
+787
+00:31:10,640 --> 00:31:12,840
+uh so, first So, that says there is a
+
+788
+00:31:12,840 --> 00:31:14,800
+need for the exascale machine. We
+
+789
+00:31:14,800 --> 00:31:16,160
+couldn't get by with a thousand
+
+790
+00:31:16,160 --> 00:31:18,440
+petascale machines uh to solve those
+
+791
+00:31:18,440 --> 00:31:20,320
+very challenging problems, which have
+
+792
+00:31:20,320 --> 00:31:23,040
+been designated as challenging problems.
+
+793
+00:31:23,040 --> 00:31:27,120
+Um uh the other um part of your uh
+
+794
+00:31:27,120 --> 00:31:29,240
+question, I think, is something that I
+
+795
+00:31:29,240 --> 00:31:31,800
+feel very envious about. So, the
+
+796
+00:31:31,800 --> 00:31:34,360
+hyperscalers can go off and build the
+
+797
+00:31:34,360 --> 00:31:37,640
+machine which is co-designed. It's it is
+
+798
+00:31:37,640 --> 00:31:39,280
+co-designed, you know, there Here's the
+
+799
+00:31:39,280 --> 00:31:40,520
+problem that we want to solve. We're
+
+800
+00:31:40,520 --> 00:31:42,280
+going to build hardware to help us solve
+
+801
+00:31:42,280 --> 00:31:44,400
+that problem. And they build hardware to
+
+802
+00:31:44,400 --> 00:31:46,200
+do that. So, you know, you go down the
+
+803
+00:31:46,200 --> 00:31:47,480
+list. Um
+
+804
+00:31:47,480 --> 00:31:50,200
+uh A- Amazon has their own hardware.
+
+805
+00:31:50,200 --> 00:31:52,520
+Microsoft has their hardware. Uh Google
+
+806
+00:31:52,520 --> 00:31:54,640
+has their hardware. So, they've invested
+
+807
+00:31:54,640 --> 00:31:56,320
+in that. They're They have enough
+
+808
+00:31:56,320 --> 00:31:59,120
+resources that they can do that. So, uh
+
+809
+00:31:59,120 --> 00:32:00,480
+you know, the statement that we make, I
+
+810
+00:32:00,480 --> 00:32:02,480
+think, in in one of the papers is the
+
+811
+00:32:02,480 --> 00:32:05,720
+exascale; hyperscalers uh hyperscalers uh
+
+812
+00:32:05,720 --> 00:32:08,679
+they're uh they have resources.
+
+813
+00:32:08,679 --> 00:32:10,160
+Uh they have tremendous amount of
+
+814
+00:32:10,160 --> 00:32:12,440
+resources, so they're exothermic. They
+
+815
+00:32:12,440 --> 00:32:15,480
+can they can do that investment in terms
+
+816
+00:32:15,480 --> 00:32:17,960
+of building hardware to help them solve
+
+817
+00:32:17,960 --> 00:32:20,160
+the specific problems that they have.
+
+818
+00:32:20,160 --> 00:32:21,960
+Where in the in the high-performance
+
+819
+00:32:21,960 --> 00:32:24,760
+computing scientific domain, which is uh
+
+820
+00:32:24,760 --> 00:32:27,800
+the research side with the DOE, NSF,
+
+821
+00:32:27,800 --> 00:32:29,840
+we're we're not we're endothermic. We
+
+822
+00:32:29,840 --> 00:32:32,040
+don't have enough resources to solve our
+
+823
+00:32:32,040 --> 00:32:34,000
+problems. And that leads us down that
+
+824
+00:32:34,000 --> 00:32:35,560
+path which says we're going to cobble
+
+825
+00:32:35,560 --> 00:32:37,720
+together a machine based on commodity
+
+826
+00:32:37,720 --> 00:32:41,120
+parts that are available and hopefully
+
+827
+00:32:41,120 --> 00:32:43,880
+get something that can be used to help
+
+828
+00:32:43,880 --> 00:32:46,520
+us solve our high-performance computing
+
+829
+00:32:46,520 --> 00:32:49,080
+problems. And um
+
+830
+00:32:49,080 --> 00:32:50,560
+you know, the machine is not co-designed
+
+831
+00:32:50,560 --> 00:32:53,000
+in the sense that the hyperscalers go
+
+832
+00:32:53,000 --> 00:32:55,360
+off and co-design a machine with very
+
+833
+00:32:55,360 --> 00:32:58,000
+specific requirements to solve the kind
+
+834
+00:32:58,000 --> 00:33:00,720
+of problem that they have. So, again,
+
+835
+00:33:00,720 --> 00:33:03,920
+I'm envious that we can't do that in the
+
+836
+00:33:03,920 --> 00:33:05,400
+high-performance computing. I think we
+
+837
+00:33:05,400 --> 00:33:10,160
+should uh invest in terms of making uh
+
+838
+00:33:10,160 --> 00:33:12,200
+allowing research to take place so that
+
+839
+00:33:12,200 --> 00:33:14,440
+we can investigate what architectures
+
+840
+00:33:14,440 --> 00:33:16,040
+would be the right
+
+841
+00:33:16,040 --> 00:33:18,120
+Is the US still the leader
+
+842
+00:33:18,120 --> 00:33:21,000
+in in HPC? I found it very interesting
+
+843
+00:33:21,000 --> 00:33:23,520
+the anal- I can't Sorry, I I will put
+
+844
+00:33:23,520 --> 00:33:26,240
+the a copy of it in the in the comments
+
+845
+00:33:26,240 --> 00:33:27,880
+of this whole thing, but but you you
+
+846
+00:33:27,880 --> 00:33:28,880
+were the
+
+847
+00:33:28,880 --> 00:33:30,480
+um I think the main author along with
+
+848
+00:33:30,480 --> 00:33:32,480
+some collaborators who who defined this.
+
+849
+00:33:32,480 --> 00:33:33,200
+I
+
+850
+00:33:33,200 --> 00:33:34,480
+I I think you know what I'm talking
+
+851
+00:33:34,480 --> 00:33:35,280
+about. I'm interested to get your
+
+852
+00:33:35,280 --> 00:33:36,880
+perspective Um
+
+853
+00:33:36,880 --> 00:33:39,320
+Yeah. on that and what should be done to
+
+854
+00:33:39,320 --> 00:33:39,640
+address
+
+855
+00:33:39,640 --> 00:33:41,760
+Right. So, so, so, this is AI was part
+
+856
+00:33:41,760 --> 00:33:44,840
+of a Department of Energy uh
+
+857
+00:33:44,840 --> 00:33:46,400
+uh study that was done for the Office of
+
+858
+00:33:46,400 --> 00:33:49,240
+Science on uh uh
+
+859
+00:33:49,240 --> 00:33:52,120
+US competi- competitiveness in this in
+
+860
+00:33:52,120 --> 00:33:53,440
+this area. So,
+
+861
+00:33:53,440 --> 00:33:55,240
+So, there's a number of issues there,
+
+862
+00:33:55,240 --> 00:33:57,640
+some of which we've touched on, uh but
+
+863
+00:33:57,640 --> 00:34:00,240
+the elephant in the room is
+
+864
+00:34:00,240 --> 00:34:01,120
+uh
+
+865
+00:34:01,120 --> 00:34:04,400
+does the US have uh the same or greater
+
+866
+00:34:04,400 --> 00:34:07,000
+capabilities than China uh in terms of
+
+867
+00:34:07,000 --> 00:34:09,440
+high-performance computing? Uh so, I
+
+868
+00:34:09,440 --> 00:34:11,399
+think we can say that um you know,
+
+869
+00:34:11,399 --> 00:34:13,679
+Europe is developing high-performance
+
+870
+00:34:13,679 --> 00:34:14,960
+computing, you know, they have a lot of
+
+871
+00:34:14,960 --> 00:34:17,520
+programs in place. Uh they're
+
+872
+00:34:17,520 --> 00:34:20,120
+European-centric in some sense. Uh they
+
+873
+00:34:20,120 --> 00:34:22,440
+want to use RISC-V. They have Arm
+
+874
+00:34:22,440 --> 00:34:24,679
+processors that are they're looking at.
+
+875
+00:34:24,679 --> 00:34:25,840
+They have a number of things that are
+
+876
+00:34:25,840 --> 00:34:29,560
+based on uh things which are more um
+
+877
+00:34:29,560 --> 00:34:30,159
+uh
+
+878
+00:34:30,159 --> 00:34:31,800
+things that that that would benefit the
+
+879
+00:34:31,800 --> 00:34:33,560
+European uh
+
+880
+00:34:33,560 --> 00:34:36,600
+Commission the European Union. And um
+
+881
+00:34:36,600 --> 00:34:38,040
+and I think that's fine. That's a great
+
+882
+00:34:38,040 --> 00:34:39,320
+thing, and you know, we'll we'll learn a
+
+883
+00:34:39,320 --> 00:34:41,760
+little bit from what they're we'll learn
+
+884
+00:34:41,760 --> 00:34:42,840
+from what they're doing. So, that's a
+
+885
+00:34:42,840 --> 00:34:44,600
+good thing. Japan, you know, has their
+
+886
+00:34:44,600 --> 00:34:46,760
+own hardware that they've developed very
+
+887
+00:34:46,760 --> 00:34:49,520
+impressive uh systems. Uh the Fugaku
+
+888
+00:34:49,520 --> 00:34:52,080
+system is their top-tier machine, which
+
+889
+00:34:52,080 --> 00:34:55,240
+has very uh very strong capabilities.
+
+890
+00:34:55,240 --> 00:34:57,160
+You know, it's one of the it's one of
+
+891
+00:34:57,160 --> 00:34:59,320
+the machines in the top 10
+
+892
+00:34:59,320 --> 00:35:02,640
+that are not using GPUs. So, they have
+
+893
+00:35:02,640 --> 00:35:04,359
+vector architecture uh at their
+
+894
+00:35:04,359 --> 00:35:06,440
+disposal, and uh they're using an Arm
+
+895
+00:35:06,440 --> 00:35:08,400
+processor. They've augmented it with
+
+896
+00:35:08,400 --> 00:35:10,880
+vector instructions, but their uh secret
+
+897
+00:35:10,880 --> 00:35:13,000
+sauce is the is their interconnect
+
+898
+00:35:13,000 --> 00:35:16,440
+network is very efficient. And um it's
+
+899
+00:35:16,440 --> 00:35:18,480
+through that efficiency uh that they can
+
+900
+00:35:18,480 --> 00:35:20,280
+get very good performance, and they can
+
+901
+00:35:20,280 --> 00:35:23,280
+out, you know, on tops for things that
+
+902
+00:35:23,280 --> 00:35:25,720
+matter in terms of data movement. Uh the
+
+903
+00:35:25,720 --> 00:35:28,640
+other one is China. China um
+
+904
+00:35:28,640 --> 00:35:29,720
+is interesting, you know, they've
+
+905
+00:35:29,720 --> 00:35:31,120
+developed
+
+906
+00:35:31,120 --> 00:35:32,640
+They They have been forced into
+
+907
+00:35:32,640 --> 00:35:34,920
+developing their own hardware. So, that
+
+908
+00:35:34,920 --> 00:35:37,040
+the forcing was the US putting sanctions
+
+909
+00:35:37,040 --> 00:35:38,280
+on
+
+910
+00:35:38,280 --> 00:35:40,560
+technology going to China. So, it was
+
+911
+00:35:40,560 --> 00:35:43,520
+initially processors, then GPUs, and now
+
+912
+00:35:43,520 --> 00:35:46,520
+uh you know, the the ability to use TSMC
+
+913
+00:35:46,520 --> 00:35:47,600
+for
+
+914
+00:35:47,600 --> 00:35:50,320
+uh for for fabric for fabrication is is
+
+915
+00:35:50,320 --> 00:35:52,000
+taken out of their hands.
+
+916
+00:35:52,000 --> 00:35:54,560
+Uh so, China, uh perhaps in a reaction
+
+917
+00:35:54,560 --> 00:35:56,359
+to that, has um
+
+918
+00:35:56,359 --> 00:35:59,000
+stopped uh submitting
+
+919
+00:35:59,000 --> 00:36:01,920
+uh benchmark numbers for uh Top500. So,
+
+920
+00:36:01,920 --> 00:36:05,680
+the So, we've seen no no new machines um
+
+921
+00:36:05,680 --> 00:36:07,520
+coming um
+
+922
+00:36:07,520 --> 00:36:10,520
+out of the out of the uh China
+
+923
+00:36:10,520 --> 00:36:13,400
+uh that are no new entries coming uh
+
+924
+00:36:13,400 --> 00:36:16,160
+from uh submitting uh numbers uh to the
+
+925
+00:36:16,160 --> 00:36:18,720
+Top500. So, that's um
+
+926
+00:36:18,720 --> 00:36:20,720
+you know, that's a that's a bit
+
+927
+00:36:20,720 --> 00:36:23,200
+you know, they're taking a very strong
+
+928
+00:36:23,200 --> 00:36:25,400
+uh stance, I would say, on that. And you
+
+929
+00:36:25,400 --> 00:36:26,760
+know, what's the reason for that? Well,
+
+930
+00:36:26,760 --> 00:36:28,840
+they're afraid the US will take more
+
+931
+00:36:28,840 --> 00:36:30,960
+action is the only thing I can think of.
+
+932
+00:36:30,960 --> 00:36:32,560
+Uh so, again, it's a situation where
+
+933
+00:36:32,560 --> 00:36:35,000
+they're reacting in that way. And you
+
+934
+00:36:35,000 --> 00:36:36,480
+know, again, China's pivoted, and
+
+935
+00:36:36,480 --> 00:36:38,240
+they're designing their own hardware for
+
+936
+00:36:38,240 --> 00:36:40,280
+their high-performance machines. They
+
+937
+00:36:40,280 --> 00:36:42,520
+have uh you know, their own chips that
+
+938
+00:36:42,520 --> 00:36:44,680
+they're designing. Uh question is, where
+
+939
+00:36:44,680 --> 00:36:46,680
+are those chips fabricated? Uh I would
+
+940
+00:36:46,680 --> 00:36:49,000
+guess they're fabricated in Taiwan, but
+
+941
+00:36:49,000 --> 00:36:50,560
+you know, they have fabrication
+
+942
+00:36:50,560 --> 00:36:52,800
+facilities in China now, which are, you
+
+943
+00:36:52,800 --> 00:36:54,440
+know, a little bit below what what one
+
+944
+00:36:54,440 --> 00:36:57,920
+can do in at TSMC. And uh those chips
+
+945
+00:36:57,920 --> 00:36:59,520
+will probably be fabricated there for
+
+946
+00:36:59,520 --> 00:37:02,760
+the next uh generation of uh hardware
+
+947
+00:37:02,760 --> 00:37:04,040
+that they're producing. So, it's
+
+948
+00:37:04,040 --> 00:37:06,120
+unfortunate that they've shut the
+
+949
+00:37:06,120 --> 00:37:08,200
+window, so we can't really see what's
+
+950
+00:37:08,200 --> 00:37:09,720
+going on. You know, occasionally they
+
+951
+00:37:09,720 --> 00:37:11,440
+write a scientific paper which describes
+
+952
+00:37:11,440 --> 00:37:13,359
+the hardware, so we get a glimpse of
+
+953
+00:37:13,359 --> 00:37:15,680
+what that hardware looks like, uh but we
+
+954
+00:37:15,680 --> 00:37:17,720
+don't have a real good uh benchmark
+
+955
+00:37:17,720 --> 00:37:20,440
+associated with it. We can't see how
+
+956
+00:37:20,440 --> 00:37:23,359
+well it does provide. So, so, that's a
+
+957
+00:37:23,359 --> 00:37:26,120
+that's a bit unfortunate, uh but that's
+
+958
+00:37:26,120 --> 00:37:27,280
+uh that's life. You know, we have this
+
+959
+00:37:27,280 --> 00:37:29,640
+thing called the Gordon Bell Prize. So,
+
+960
+00:37:29,640 --> 00:37:31,800
+Gordon Bell Pri- Gordon Bell passed away
+
+961
+00:37:31,800 --> 00:37:34,720
+just recently. Gordon uh set up this uh
+
+962
+00:37:34,720 --> 00:37:36,960
+prize that would uh uh set up a
+
+963
+00:37:36,960 --> 00:37:40,480
+competition to see who can improve on
+
+964
+00:37:40,480 --> 00:37:42,760
+real applications using high-performance
+
+965
+00:37:42,760 --> 00:37:45,160
+computing. It's sort of the the short
+
+966
+00:37:45,160 --> 00:37:48,120
+version of what the prize is about. And
+
+967
+00:37:48,120 --> 00:37:50,720
+uh it's uh you know, it's competed, and
+
+968
+00:37:50,720 --> 00:37:53,359
+uh people submit a paper that describes
+
+969
+00:37:53,359 --> 00:37:55,000
+the application and the results that
+
+970
+00:37:55,000 --> 00:37:56,760
+they got on their
+
+971
+00:37:56,760 --> 00:38:00,880
+uh supercomputer. Um and um we're now
+
+972
+00:38:00,880 --> 00:38:03,880
+looking at uh the current uh entries
+
+973
+00:38:03,880 --> 00:38:06,359
+that are being submitted. So, I'm I'm
+
+974
+00:38:06,359 --> 00:38:07,840
+one of the uh
+
+975
+00:38:07,840 --> 00:38:09,880
+uh judges who are looking at the entries
+
+976
+00:38:09,880 --> 00:38:12,000
+there. And you know, China's submitting
+
+977
+00:38:12,000 --> 00:38:12,760
+uh
+
+978
+00:38:12,760 --> 00:38:15,080
+results for uh applications that are
+
+979
+00:38:15,080 --> 00:38:16,600
+running on their current generation of
+
+980
+00:38:16,600 --> 00:38:18,840
+supercomputers. Those supercomputers are
+
+981
+00:38:18,840 --> 00:38:21,720
+described in the machine to some extent,
+
+982
+00:38:21,720 --> 00:38:23,600
+and uh we can see the performance that
+
+983
+00:38:23,600 --> 00:38:25,640
+they're getting on those applications,
+
+984
+00:38:25,640 --> 00:38:27,240
+not on a standard benchmark where we
+
+985
+00:38:27,240 --> 00:38:31,280
+have uh perhaps uh equal uh
+
+986
+00:38:31,280 --> 00:38:33,600
+understanding of what was done and how
+
+987
+00:38:33,600 --> 00:38:35,480
+it was done. So, so, you know, they're
+
+988
+00:38:35,480 --> 00:38:37,400
+they're making progress. Um they have
+
+989
+00:38:37,400 --> 00:38:40,280
+high-performance machines. The US is uh
+
+990
+00:38:40,280 --> 00:38:43,320
+certainly competitive uh to some extent.
+
+991
+00:38:43,320 --> 00:38:44,400
+Uh you know, there's claims that the
+
+992
+00:38:44,400 --> 00:38:46,560
+Chinese machines are faster for some of
+
+993
+00:38:46,560 --> 00:38:48,320
+these benchmarks. Uh you know, that may
+
+994
+00:38:48,320 --> 00:38:50,960
+be the case. Uh but uh you know, the
+
+995
+00:38:50,960 --> 00:38:53,920
+China's is competitive with uh what what
+
+996
+00:38:53,920 --> 00:38:56,440
+we see from the US systems. And if you
+
+997
+00:38:56,440 --> 00:38:58,720
+fast-forward, you mentioned before about
+
+998
+00:38:58,720 --> 00:39:00,760
+the exascale project. You know, it was a
+
+999
+00:39:00,760 --> 00:39:02,640
+seven-year project to to sort of reach
+
+1000
+00:39:02,640 --> 00:39:05,240
+these frontier El Capitan, etc. If you
+
+1001
+00:39:05,240 --> 00:39:07,680
+were to fast-forward seven years
+
+1002
+00:39:07,680 --> 00:39:08,800
+from now,
+
+1003
+00:39:08,800 --> 00:39:12,400
+is there the investment in place to make
+
+1004
+00:39:12,400 --> 00:39:14,280
+an equal leap?
+
+1005
+00:39:14,280 --> 00:39:16,720
+Or is it
+
+1006
+00:39:16,720 --> 00:39:18,440
+the scenario that
+
+1007
+00:39:18,440 --> 00:39:20,520
+we won't make the same progression that
+
+1008
+00:39:20,520 --> 00:39:22,080
+we made, and other countries that have
+
+1009
+00:39:22,080 --> 00:39:24,560
+doubled down will make a bigger
+
+1010
+00:39:24,560 --> 00:39:25,440
+gain?
+
+1011
+00:39:25,440 --> 00:39:27,480
+Right. So, one has to make an investment
+
+1012
+00:39:27,480 --> 00:39:31,200
+to to get the advances in in hardware,
+
+1013
+00:39:31,200 --> 00:39:34,200
+applications, algorithms, and software.
+
+1014
+00:39:34,200 --> 00:39:36,840
+Um uh the ECP project was a wonderful
+
+1015
+00:39:36,840 --> 00:39:40,040
+project. It uh it was uh seven years of
+
+1016
+00:39:40,040 --> 00:39:43,600
+long-term funding. It in- involved 800
+
+1017
+00:39:43,600 --> 00:39:46,040
+people uh working on high-performance
+
+1018
+00:39:46,040 --> 00:39:48,600
+computing from applications, from
+
+1019
+00:39:48,600 --> 00:39:51,800
+software, from algorithms, all received
+
+1020
+00:39:51,800 --> 00:39:55,440
+funding to to advance things to further
+
+1021
+00:39:55,440 --> 00:39:57,320
+as well as the hardware being purchased.
+
+1022
+00:39:57,320 --> 00:39:59,320
+So, half the money went for
+
+1023
+00:39:59,320 --> 00:40:00,880
+hardware and the other half went for
+
+1024
+00:40:00,880 --> 00:40:02,680
+algorithms and software and and
+
+1025
+00:40:02,680 --> 00:40:04,960
+applications. So, that was a interesting
+
+1026
+00:40:04,960 --> 00:40:08,440
+split of that of that funding. But, it
+
+1027
+00:40:08,440 --> 00:40:10,320
+ended. The project ended. And the the
+
+1028
+00:40:10,320 --> 00:40:12,240
+sad part about that
+
+1029
+00:40:12,240 --> 00:40:15,200
+is there's no follow-on project. So, we
+
+1030
+00:40:15,200 --> 00:40:17,400
+had 800 people working on this this
+
+1031
+00:40:17,400 --> 00:40:19,880
+effort and it ended. It ended in
+
+1032
+00:40:19,880 --> 00:40:23,400
+December of last year and
+
+1033
+00:40:23,400 --> 00:40:25,040
+those 800 people are scrambling for
+
+1034
+00:40:25,040 --> 00:40:27,880
+jobs. So, we have very highly trained
+
+1035
+00:40:27,880 --> 00:40:29,640
+people who understand high-performance
+
+1036
+00:40:29,640 --> 00:40:33,080
+computing at various levels who are now
+
+1037
+00:40:33,080 --> 00:40:35,280
+maybe out of a job and so they're
+
+1038
+00:40:35,280 --> 00:40:38,160
+scrambling still to find find its way.
+
+1039
+00:40:38,160 --> 00:40:39,480
+So, I think it's
+
+1040
+00:40:39,480 --> 00:40:42,280
+it's a sad day for Department of Energy
+
+1041
+00:40:42,280 --> 00:40:45,680
+who invested in in the
+
+1042
+00:40:45,680 --> 00:40:48,360
+algorithm software applications as well
+
+1043
+00:40:48,360 --> 00:40:50,720
+as the hardware and now those people who
+
+1044
+00:40:50,720 --> 00:40:52,960
+designed those algorithms, applications,
+
+1045
+00:40:52,960 --> 00:40:54,320
+and software
+
+1046
+00:40:54,320 --> 00:40:57,400
+may be looking for a job. And you know,
+
+1047
+00:40:57,400 --> 00:40:59,760
+I know that many of the people are being
+
+1048
+00:40:59,760 --> 00:41:01,320
+sucked up by
+
+1049
+00:41:01,320 --> 00:41:03,960
+the hyperscalers
+
+1050
+00:41:03,960 --> 00:41:06,760
+companies like NVIDIA to develop their
+
+1051
+00:41:06,760 --> 00:41:08,800
+their technology. So, that's a that's a
+
+1052
+00:41:08,800 --> 00:41:11,520
+loss I would say for the community
+
+1053
+00:41:11,520 --> 00:41:14,680
+and that loss is hard to replace. You
+
+1054
+00:41:14,680 --> 00:41:17,280
+can't just spin that up overnight. If
+
+1055
+00:41:17,280 --> 00:41:18,880
+you wanted to restart a program, you
+
+1056
+00:41:18,880 --> 00:41:22,120
+can't restart the program. So, it's it's
+
+1057
+00:41:22,120 --> 00:41:23,200
+a it's a
+
+1058
+00:41:23,200 --> 00:41:26,560
+situation where we would have to follow
+
+1059
+00:41:26,560 --> 00:41:28,000
+on. And you know, there there's an
+
+1060
+00:41:28,000 --> 00:41:30,800
+attempt to follow on with AI for science
+
+1061
+00:41:30,800 --> 00:41:32,800
+and you know, that that process is
+
+1062
+00:41:32,800 --> 00:41:35,800
+undergoing and getting off the ground
+
+1063
+00:41:35,800 --> 00:41:37,520
+now
+
+1064
+00:41:37,520 --> 00:41:39,760
+but it it wasn't a clear follow-on. It
+
+1065
+00:41:39,760 --> 00:41:41,760
+wasn't something that was dovetailed
+
+1066
+00:41:41,760 --> 00:41:45,160
+into by the by the shutdown of the ECP
+
+1067
+00:41:45,160 --> 00:41:47,480
+project. So, you know, I think it's
+
+1068
+00:41:47,480 --> 00:41:49,280
+important. I think the investment needs
+
+1069
+00:41:49,280 --> 00:41:51,840
+to be made. We need to have people who
+
+1070
+00:41:51,840 --> 00:41:53,760
+can guarantee a job long-term. The
+
+1071
+00:41:53,760 --> 00:41:56,880
+talents that they bring with them are
+
+1072
+00:41:56,880 --> 00:41:59,200
+are hard to replace if they if they go
+
+1073
+00:41:59,200 --> 00:42:01,640
+away and we're seeing some of that drain
+
+1074
+00:42:01,640 --> 00:42:02,800
+today
+
+1075
+00:42:02,800 --> 00:42:03,800
+in
+
+1076
+00:42:03,800 --> 00:42:05,880
+in going to the in going to the
+
+1077
+00:42:05,880 --> 00:42:08,280
+hyperscaler companies. You know, I I
+
+1078
+00:42:08,280 --> 00:42:10,040
+feel DOE shouldn't be a minor league
+
+1079
+00:42:10,040 --> 00:42:12,720
+team for the for the hyperscaler guys.
+
+1080
+00:42:12,720 --> 00:42:14,400
+They they should be the major leagues as
+
+1081
+00:42:14,400 --> 00:42:16,920
+well. The people should be funded for
+
+1082
+00:42:16,920 --> 00:42:19,360
+doing that in the long-term.
+
+1083
+00:42:19,360 --> 00:42:20,400
+Yeah.
+
+1084
+00:42:20,400 --> 00:42:21,600
+Um
+
+1085
+00:42:21,600 --> 00:42:22,800
+One
+
+1086
+00:42:22,800 --> 00:42:24,480
+question
+
+1087
+00:42:24,480 --> 00:42:26,960
+I guess still on the future
+
+1088
+00:42:26,960 --> 00:42:29,080
+peering into the future a little bit is
+
+1089
+00:42:29,080 --> 00:42:30,560
+obviously
+
+1090
+00:42:30,560 --> 00:42:31,720
+depending on where you are in the
+
+1091
+00:42:31,720 --> 00:42:34,200
+computer science or HPC world, either
+
+1092
+00:42:34,200 --> 00:42:36,320
+you're very
+
+1093
+00:42:36,320 --> 00:42:38,400
+full-on with GPUs and you've known about
+
+1094
+00:42:38,400 --> 00:42:40,360
+it for decades like yourself or or it
+
+1095
+00:42:40,360 --> 00:42:42,960
+still seems quite new.
+
+1096
+00:42:42,960 --> 00:42:46,640
+But, that I guess will come to an end as
+
+1097
+00:42:46,640 --> 00:42:49,120
+in the sense of the acceleration, the
+
+1098
+00:42:49,120 --> 00:42:51,480
+performance improvement, the new Are
+
+1099
+00:42:51,480 --> 00:42:54,320
+there any technologies that you see
+
+1100
+00:42:54,320 --> 00:42:57,520
+coming that would just as GPUs has oddly
+
+1101
+00:42:57,520 --> 00:42:59,360
+given a big boost from the traditional
+
+1102
+00:42:59,360 --> 00:43:01,560
+x86 CPU? Do you see a new technology
+
+1103
+00:43:01,560 --> 00:43:03,880
+around the horizon that people should be
+
+1104
+00:43:03,880 --> 00:43:05,560
+sort of reading up about or being more
+
+1105
+00:43:05,560 --> 00:43:08,160
+aware of than they currently are?
+
+1106
+00:43:08,160 --> 00:43:09,720
+Right. So, if you look back and and look
+
+1107
+00:43:09,720 --> 00:43:11,960
+at where we've been, you know, we've had
+
+1108
+00:43:11,960 --> 00:43:13,600
+we've had originally we had machines
+
+1109
+00:43:13,600 --> 00:43:15,680
+which were special purpose machines for
+
+1110
+00:43:15,680 --> 00:43:17,640
+doing scientific computing. You go look
+
+1111
+00:43:17,640 --> 00:43:20,560
+at companies like Cray, CDC,
+
+1112
+00:43:20,560 --> 00:43:23,880
+Hitachi, Fujitsu
+
+1113
+00:43:23,880 --> 00:43:25,360
+you know, built machines which were
+
+1114
+00:43:25,360 --> 00:43:27,080
+specific for that but the market
+
+1115
+00:43:27,080 --> 00:43:28,800
+couldn't sustain them. And we had
+
+1116
+00:43:28,800 --> 00:43:31,080
+microprocessors come up and and be more
+
+1117
+00:43:31,080 --> 00:43:33,560
+powerful. So, we had special purpose
+
+1118
+00:43:33,560 --> 00:43:35,920
+machines, vector computers,
+
+1119
+00:43:35,920 --> 00:43:38,080
+then we had multi-core computers which
+
+1120
+00:43:38,080 --> 00:43:41,400
+was the architecture that sort of led to
+
+1121
+00:43:41,400 --> 00:43:43,320
+the downfall of those vector-based
+
+1122
+00:43:43,320 --> 00:43:45,200
+systems, the attack of the killer
+
+1123
+00:43:45,200 --> 00:43:48,040
+micros. And then we had
+
+1124
+00:43:48,040 --> 00:43:51,080
+parallel computing come into place and
+
+1125
+00:43:51,080 --> 00:43:52,560
+then we had
+
+1126
+00:43:52,560 --> 00:43:54,640
+GPUs. I'm sort of simplifying this but
+
+1127
+00:43:54,640 --> 00:43:56,400
+that's sort of the the progression that
+
+1128
+00:43:56,400 --> 00:43:58,600
+we had in terms of getting to the point
+
+1129
+00:43:58,600 --> 00:44:00,320
+where we are now. So, what's next is
+
+1130
+00:44:00,320 --> 00:44:02,280
+your question and you know, my crystal
+
+1131
+00:44:02,280 --> 00:44:04,720
+ball isn't that good to to predict
+
+1132
+00:44:04,720 --> 00:44:06,640
+what's the next big thing. But, you
+
+1133
+00:44:06,640 --> 00:44:08,000
+know, machine learning comes into it.
+
+1134
+00:44:08,000 --> 00:44:09,240
+It's a tool that we're going to use to
+
+1135
+00:44:09,240 --> 00:44:11,480
+help us solve the problems but it's not
+
+1136
+00:44:11,480 --> 00:44:13,720
+architectural um
+
+1137
+00:44:13,720 --> 00:44:16,240
+uh advancement that we have. You know,
+
+1138
+00:44:16,240 --> 00:44:17,960
+we think about
+
+1139
+00:44:17,960 --> 00:44:19,760
+uh what what are the changes in the
+
+1140
+00:44:19,760 --> 00:44:21,880
+architecture that we might envision we
+
+1141
+00:44:21,880 --> 00:44:23,160
+can see
+
+1142
+00:44:23,160 --> 00:44:25,359
+we can see things like um
+
+1143
+00:44:25,359 --> 00:44:26,600
+uh
+
+1144
+00:44:26,600 --> 00:44:28,400
+you know, neuromorphic computing. We see
+
+1145
+00:44:28,400 --> 00:44:31,000
+things like um uh
+
+1146
+00:44:31,000 --> 00:44:32,760
+you know, optical computing. We see
+
+1147
+00:44:32,760 --> 00:44:34,600
+things like um
+
+1148
+00:44:34,600 --> 00:44:35,880
+uh
+
+1149
+00:44:35,880 --> 00:44:37,520
+you know, we see things like potentially
+
+1150
+00:44:37,520 --> 00:44:39,440
+way in the future quantum-based
+
+1151
+00:44:39,440 --> 00:44:41,280
+computing. Those are all things which
+
+1152
+00:44:41,280 --> 00:44:44,080
+could could make you know, perhaps
+
+1153
+00:44:44,080 --> 00:44:47,200
+make improvements where we get that leap
+
+1154
+00:44:47,200 --> 00:44:49,160
+uh which we gotten
+
+1155
+00:44:49,160 --> 00:44:50,880
+we've had in the past with those
+
+1156
+00:44:50,880 --> 00:44:53,480
+generations of things. So, but you know,
+
+1157
+00:44:53,480 --> 00:44:55,040
+quantum computing's way off into the
+
+1158
+00:44:55,040 --> 00:44:57,240
+future is my my feeling. You know, a lot
+
+1159
+00:44:57,240 --> 00:44:59,400
+of So, so it's a it's an important
+
+1160
+00:44:59,400 --> 00:45:01,240
+topic. We should invest in the research
+
+1161
+00:45:01,240 --> 00:45:02,880
+into it. It's something which you know,
+
+1162
+00:45:02,880 --> 00:45:04,760
+has promise of course
+
+1163
+00:45:04,760 --> 00:45:07,160
+but it's not going to replace replace
+
+1164
+00:45:07,160 --> 00:45:09,680
+our existing machines in the near term
+
+1165
+00:45:09,680 --> 00:45:12,040
+or not in my lifetime. So, it's it's
+
+1166
+00:45:12,040 --> 00:45:14,480
+something which needs to be
+
+1167
+00:45:14,480 --> 00:45:16,880
+worked on and figured out how we can
+
+1168
+00:45:16,880 --> 00:45:19,240
+effectively use them. And it's not it's
+
+1169
+00:45:19,240 --> 00:45:20,600
+not going to be the thing that that
+
+1170
+00:45:20,600 --> 00:45:22,680
+replaces our high-performance machines.
+
+1171
+00:45:22,680 --> 00:45:25,040
+It's going to be something that we add
+
+1172
+00:45:25,040 --> 00:45:29,080
+to the to the ensemble that we use
+
+1173
+00:45:29,080 --> 00:45:31,880
+to attack problems. So, again, we have
+
+1174
+00:45:31,880 --> 00:45:34,520
+CPUs and GPUs and optical and
+
+1175
+00:45:34,520 --> 00:45:36,400
+neuromorphic and
+
+1176
+00:45:36,400 --> 00:45:38,760
+DNA-based stuff maybe and you know,
+
+1177
+00:45:38,760 --> 00:45:40,400
+going going
+
+1178
+00:45:40,400 --> 00:45:42,840
+adding quantum to that mix is something
+
+1179
+00:45:42,840 --> 00:45:45,120
+that perhaps can happen and that would
+
+1180
+00:45:45,120 --> 00:45:47,720
+then lead to
+
+1181
+00:45:47,720 --> 00:45:52,120
+problems that could use those devices
+
+1182
+00:45:52,120 --> 00:45:54,040
+perhaps giving a boost in terms of how
+
+1183
+00:45:54,040 --> 00:45:55,160
+they
+
+1184
+00:45:55,160 --> 00:45:58,280
+how they solve their problems. Mhm.
+
+1185
+00:45:58,280 --> 00:45:59,800
+I I did want to change track a little
+
+1186
+00:45:59,800 --> 00:46:02,120
+bit because you've um
+
+1187
+00:46:02,120 --> 00:46:05,040
+you've had a an amazing
+
+1188
+00:46:05,040 --> 00:46:07,880
+career. Obviously, you're very modest
+
+1189
+00:46:07,880 --> 00:46:09,520
+in when you mentioned about oh, you
+
+1190
+00:46:09,520 --> 00:46:11,320
+know, I kind of involved a little bit
+
+1191
+00:46:11,320 --> 00:46:13,480
+with some benchmarking obviously with
+
+1192
+00:46:13,480 --> 00:46:16,000
+LINPACK and and MPI and many other
+
+1193
+00:46:16,000 --> 00:46:18,120
+things that you contributed to. I know
+
+1194
+00:46:18,120 --> 00:46:19,640
+it's a difficult question to ask but do
+
+1195
+00:46:19,640 --> 00:46:21,760
+you have any standout
+
+1196
+00:46:21,760 --> 00:46:23,880
+sort of memorable things from your
+
+1197
+00:46:23,880 --> 00:46:25,840
+career that were sort of a
+
+1198
+00:46:25,840 --> 00:46:27,280
+wow, I
+
+1199
+00:46:27,280 --> 00:46:29,440
+even just a day or a moment standing on
+
+1200
+00:46:29,440 --> 00:46:31,520
+a stage or doing Is there anything that
+
+1201
+00:46:31,520 --> 00:46:33,480
+you know, you sit when you
+
+1202
+00:46:33,480 --> 00:46:34,960
+are having a drink and you sort of think
+
+1203
+00:46:34,960 --> 00:46:36,640
+about what you've been doing? Is there
+
+1204
+00:46:36,640 --> 00:46:39,240
+anything that stands out? Uh yes, that's
+
+1205
+00:46:39,240 --> 00:46:40,640
+a hard question to answer.
+
+1206
+00:46:40,640 --> 00:46:42,960
+You know, I like
+
+1207
+00:46:42,960 --> 00:46:45,040
+I like to think I was I I've contributed
+
+1208
+00:46:45,040 --> 00:46:46,960
+to three three things. And one thing is
+
+1209
+00:46:46,960 --> 00:46:49,720
+developing software and algorithms for
+
+1210
+00:46:49,720 --> 00:46:50,920
+solving
+
+1211
+00:46:50,920 --> 00:46:52,800
+some standard problems in linear
+
+1212
+00:46:52,800 --> 00:46:54,280
+algebra. So, that's that's something I
+
+1213
+00:46:54,280 --> 00:46:57,720
+think I've I've contributed to.
+
+1214
+00:46:57,720 --> 00:47:00,120
+And along with that goes portability and
+
+1215
+00:47:00,120 --> 00:47:04,000
+performance. And the second thing is
+
+1216
+00:47:04,000 --> 00:47:05,960
+tools for doing distributed computing.
+
+1217
+00:47:05,960 --> 00:47:09,160
+So, there I'm I put in the basket
+
+1218
+00:47:09,160 --> 00:47:11,800
+you know, MPI. So, I didn't I wasn't
+
+1219
+00:47:11,800 --> 00:47:14,120
+solely around to do MPI. There was a
+
+1220
+00:47:14,120 --> 00:47:15,680
+group of people of course who
+
+1221
+00:47:15,680 --> 00:47:17,240
+contributed to the standard but you
+
+1222
+00:47:17,240 --> 00:47:19,320
+know, we were all there together at
+
+1223
+00:47:19,320 --> 00:47:21,920
+ground zero. And
+
+1224
+00:47:21,920 --> 00:47:23,680
+the third thing is about performance
+
+1225
+00:47:23,680 --> 00:47:27,080
+evaluation. And there again it's an
+
+1226
+00:47:27,080 --> 00:47:28,760
+accident in some sense. So, the way I
+
+1227
+00:47:28,760 --> 00:47:30,120
+think of this is
+
+1228
+00:47:30,120 --> 00:47:33,320
+my true passion is with linear algebra
+
+1229
+00:47:33,320 --> 00:47:35,480
+and developing software
+
+1230
+00:47:35,480 --> 00:47:38,080
+that is portable and can be run
+
+1231
+00:47:38,080 --> 00:47:40,800
+efficiently. So, that's that's the goal
+
+1232
+00:47:40,800 --> 00:47:42,920
+and along the way we needed tools to
+
+1233
+00:47:42,920 --> 00:47:45,160
+make that happen. So, we needed tools to
+
+1234
+00:47:45,160 --> 00:47:46,720
+do the evaluation. So, that's where the
+
+1235
+00:47:46,720 --> 00:47:48,600
+benchmarking comes in. So, we developed
+
+1236
+00:47:48,600 --> 00:47:51,120
+tools which exposed how well that
+
+1237
+00:47:51,120 --> 00:47:52,840
+software would would run on these
+
+1238
+00:47:52,840 --> 00:47:55,560
+systems. And then we needed as the
+
+1239
+00:47:55,560 --> 00:47:58,400
+architectures changed, went from
+
+1240
+00:47:58,400 --> 00:48:01,280
+sequential to vector to parallel, we
+
+1241
+00:48:01,280 --> 00:48:03,080
+needed some way to to engage with
+
+1242
+00:48:03,080 --> 00:48:04,920
+parallel processing. You know, when we
+
+1243
+00:48:04,920 --> 00:48:07,440
+started doing MPI, it was the wild west
+
+1244
+00:48:07,440 --> 00:48:09,840
+in terms of message passing. Each vendor
+
+1245
+00:48:09,840 --> 00:48:12,200
+had their own way of doing it. And we we
+
+1246
+00:48:12,200 --> 00:48:13,480
+recognized there was a community that
+
+1247
+00:48:13,480 --> 00:48:15,000
+recognized
+
+1248
+00:48:15,000 --> 00:48:17,040
+we needed to standardize it. And it
+
+1249
+00:48:17,040 --> 00:48:18,880
+wasn't going to happen by the vendors.
+
+1250
+00:48:18,880 --> 00:48:21,200
+It was going to happen in a organic way
+
+1251
+00:48:21,200 --> 00:48:23,600
+from the ground up. And we formed a
+
+1252
+00:48:23,600 --> 00:48:26,400
+committee to a de facto committee to
+
+1253
+00:48:26,400 --> 00:48:31,280
+look at what would we need in terms of
+
+1254
+00:48:31,280 --> 00:48:33,720
+mechanisms for doing message passing on
+
+1255
+00:48:33,720 --> 00:48:36,720
+those systems that could be portable and
+
+1256
+00:48:36,720 --> 00:48:39,280
+efficient. And out of that came came
+
+1257
+00:48:39,280 --> 00:48:42,080
+MPI. So, those are the those are sort of
+
+1258
+00:48:42,080 --> 00:48:44,400
+the mixes. So, if I if I was saying my
+
+1259
+00:48:44,400 --> 00:48:46,520
+contribution, what was I
+
+1260
+00:48:46,520 --> 00:48:48,640
+what did I feel most proud about,
+
+1261
+00:48:48,640 --> 00:48:50,320
+it must be the linear algebra software
+
+1262
+00:48:50,320 --> 00:48:52,320
+and then these benchmarking things and
+
+1263
+00:48:52,320 --> 00:48:54,760
+and the message passing stuff comes
+
+1264
+00:48:54,760 --> 00:48:56,000
+along
+
+1265
+00:48:56,000 --> 00:48:58,880
+as a necessity to doing that linear
+
+1266
+00:48:58,880 --> 00:49:01,359
+algebra stuff.
+
+1267
+00:49:01,359 --> 00:49:03,000
+What about
+
+1268
+00:49:03,000 --> 00:49:05,480
+I don't want to say regrets but are
+
+1269
+00:49:05,480 --> 00:49:07,600
+there anything you really wish I'd done
+
+1270
+00:49:07,600 --> 00:49:10,080
+that or I missed that opportunity or you
+
+1271
+00:49:10,080 --> 00:49:11,520
+know, is there anything where you look
+
+1272
+00:49:11,520 --> 00:49:13,840
+back and you wish you'd done?
+
+1273
+00:49:13,840 --> 00:49:16,000
+I wish I'd done. So, I don't I don't
+
+1274
+00:49:16,000 --> 00:49:18,000
+have regrets in that context. I mean,
+
+1275
+00:49:18,000 --> 00:49:20,960
+everything I have to say, you know, I
+
+1276
+00:49:20,960 --> 00:49:22,359
+people come up and ask me I want to do
+
+1277
+00:49:22,359 --> 00:49:23,560
+what you did. How did you do it? And I
+
+1278
+00:49:23,560 --> 00:49:25,280
+say, well, it was serendipitous. I can't
+
+1279
+00:49:25,280 --> 00:49:27,120
+give you a formula for it. You know, I
+
+1280
+00:49:27,120 --> 00:49:28,840
+wanted to be a high school science
+
+1281
+00:49:28,840 --> 00:49:30,920
+teacher. So, that was my ambition
+
+1282
+00:49:30,920 --> 00:49:33,720
+when I started and then things changed
+
+1283
+00:49:33,720 --> 00:49:35,200
+along the way and I can't reproduce
+
+1284
+00:49:35,200 --> 00:49:37,840
+those changes. It just happened. I
+
+1285
+00:49:37,840 --> 00:49:40,320
+happened to be chosen to work at Argonne
+
+1286
+00:49:40,320 --> 00:49:42,760
+National Lab, spend a semester with a
+
+1287
+00:49:42,760 --> 00:49:44,880
+scientist. And you know, that was
+
+1288
+00:49:44,880 --> 00:49:47,920
+transformational. In terms of
+
+1289
+00:49:47,920 --> 00:49:49,760
+looking at or following, you know, it
+
+1290
+00:49:49,760 --> 00:49:52,520
+really opened my eyes and I saw passion
+
+1291
+00:49:52,520 --> 00:49:55,080
+for doing these things and you know, I
+
+1292
+00:49:55,080 --> 00:49:56,920
+changed the course of what I wanted to
+
+1293
+00:49:56,920 --> 00:49:59,960
+do based on that. And I think I was in
+
+1294
+00:49:59,960 --> 00:50:01,400
+the right place at the right time for
+
+1295
+00:50:01,400 --> 00:50:04,240
+many many of the events that that have
+
+1296
+00:50:04,240 --> 00:50:06,280
+occurred. So it's hard to
+
+1297
+00:50:06,280 --> 00:50:08,320
+replicate that.
+
+1298
+00:50:08,320 --> 00:50:10,680
+You know, I tell people
+
+1299
+00:50:10,680 --> 00:50:13,720
+I tell people, you know, in research we
+
+1300
+00:50:13,720 --> 00:50:15,640
+should expect to fail. So that's that's
+
+1301
+00:50:15,640 --> 00:50:18,440
+an important lesson that everybody in
+
+1302
+00:50:18,440 --> 00:50:20,760
+research should
+
+1303
+00:50:20,760 --> 00:50:22,480
+going into research should understand.
+
+1304
+00:50:22,480 --> 00:50:24,240
+You know, it's a process where I I don't
+
+1305
+00:50:24,240 --> 00:50:26,880
+know the solution at a time. I can't I
+
+1306
+00:50:26,880 --> 00:50:28,880
+can't give you what what it's going to
+
+1307
+00:50:28,880 --> 00:50:31,000
+be, but I'm going to try things and
+
+1308
+00:50:31,000 --> 00:50:33,360
+through that experiment experimental
+
+1309
+00:50:33,360 --> 00:50:35,360
+process, I I may hit on something which
+
+1310
+00:50:35,360 --> 00:50:38,400
+is going to lead to the right thing. So
+
+1311
+00:50:38,400 --> 00:50:39,920
+you know, expect to fail if you're going
+
+1312
+00:50:39,920 --> 00:50:41,760
+to do research. You know, follow your
+
+1313
+00:50:41,760 --> 00:50:43,840
+passion, do something that you feel
+
+1314
+00:50:43,840 --> 00:50:46,720
+passionate about
+
+1315
+00:50:46,720 --> 00:50:49,960
+and and take take that forward. You
+
+1316
+00:50:49,960 --> 00:50:50,960
+should
+
+1317
+00:50:50,960 --> 00:50:52,480
+you know, networking is an important
+
+1318
+00:50:52,480 --> 00:50:53,520
+thing.
+
+1319
+00:50:53,520 --> 00:50:55,080
+Talking to other people, interacting
+
+1320
+00:50:55,080 --> 00:51:00,040
+with people trying to
+
+1321
+00:51:00,040 --> 00:51:01,880
+in solving a problem, we often need some
+
+1322
+00:51:01,880 --> 00:51:04,120
+other stimulus and talking to people is
+
+1323
+00:51:04,120 --> 00:51:06,240
+a good way to to get that. You know,
+
+1324
+00:51:06,240 --> 00:51:07,760
+throw something up against the wall and
+
+1325
+00:51:07,760 --> 00:51:09,800
+let other people see it and and how how
+
+1326
+00:51:09,800 --> 00:51:12,720
+they react is is going to be important.
+
+1327
+00:51:12,720 --> 00:51:14,120
+And I guess the other thing is you know,
+
+1328
+00:51:14,120 --> 00:51:18,240
+aim high. Try not to solve try to solve
+
+1329
+00:51:18,240 --> 00:51:19,720
+challenging problems. Try to solve
+
+1330
+00:51:19,720 --> 00:51:21,160
+problems which
+
+1331
+00:51:21,160 --> 00:51:23,200
+are stretching what you can do and what
+
+1332
+00:51:23,200 --> 00:51:26,400
+others have tried to do. So it again
+
+1333
+00:51:26,400 --> 00:51:28,560
+gives you an opportunity to
+
+1334
+00:51:28,560 --> 00:51:30,320
+to advance the field and to do that. So
+
+1335
+00:51:30,320 --> 00:51:31,840
+those are my recommendations I tell my
+
+1336
+00:51:31,840 --> 00:51:33,280
+students. This for
+
+1337
+00:51:33,280 --> 00:51:34,320
+And are you
+
+1338
+00:51:34,320 --> 00:51:36,440
+are you optimistic about the future of
+
+1339
+00:51:36,440 --> 00:51:38,640
+HPC and scientific computing?
+
+1340
+00:51:38,640 --> 00:51:40,160
+Oh, absolutely. Yeah, this is a great
+
+1341
+00:51:40,160 --> 00:51:42,120
+time. So um
+
+1342
+00:51:42,120 --> 00:51:44,840
+and it's been a great time for a while.
+
+1343
+00:51:44,840 --> 00:51:46,400
+So it continues to be a great time I
+
+1344
+00:51:46,400 --> 00:51:48,040
+guess I should say. And it's a great
+
+1345
+00:51:48,040 --> 00:51:51,000
+time because of all of the things that
+
+1346
+00:51:51,000 --> 00:51:53,960
+that are happening in the field in high
+
+1347
+00:51:53,960 --> 00:51:56,800
+performance computing and um
+
+1348
+00:51:56,800 --> 00:51:59,840
+you know, AI is part of that.
+
+1349
+00:51:59,840 --> 00:52:03,280
+Machine learning is certainly there.
+
+1350
+00:52:03,280 --> 00:52:05,360
+You know, looking for the next big
+
+1351
+00:52:05,360 --> 00:52:07,080
+advance in terms of architectural
+
+1352
+00:52:07,080 --> 00:52:09,240
+features. That's a that's an important
+
+1353
+00:52:09,240 --> 00:52:10,160
+thing.
+
+1354
+00:52:10,160 --> 00:52:11,680
+For my standpoint, you know, how can I
+
+1355
+00:52:11,680 --> 00:52:12,760
+bring
+
+1356
+00:52:12,760 --> 00:52:14,560
+all this mathematical knowledge that's
+
+1357
+00:52:14,560 --> 00:52:17,640
+been accumulated over time in solving
+
+1358
+00:52:17,640 --> 00:52:20,160
+the next set of problems on the current
+
+1359
+00:52:20,160 --> 00:52:22,720
+on the next
+
+1360
+00:52:22,720 --> 00:52:24,440
+the problems that we have on the next
+
+1361
+00:52:24,440 --> 00:52:26,440
+generation of architectures.
+
+1362
+00:52:26,440 --> 00:52:28,200
+So that requires innovation and some of
+
+1363
+00:52:28,200 --> 00:52:30,520
+that innovation comes about because of
+
+1364
+00:52:30,520 --> 00:52:33,520
+not not creating something, but using
+
+1365
+00:52:33,520 --> 00:52:35,640
+something that people have created in
+
+1366
+00:52:35,640 --> 00:52:38,800
+the past and bringing it forward to to
+
+1367
+00:52:38,800 --> 00:52:42,560
+be used on today's environment.
+
+1368
+00:52:42,560 --> 00:52:44,760
+Well, thank you. I know that
+
+1369
+00:52:44,760 --> 00:52:46,520
+you're a very busy person, so I want to
+
+1370
+00:52:46,520 --> 00:52:48,240
+be respectful of your time, but I really
+
+1371
+00:52:48,240 --> 00:52:50,840
+appreciate you coming to speak. I think
+
+1372
+00:52:50,840 --> 00:52:53,520
+you very eloquently are They always say
+
+1373
+00:52:53,520 --> 00:52:55,360
+Someone told me that you're a true
+
+1374
+00:52:55,360 --> 00:52:57,520
+expert when you can explain things
+
+1375
+00:52:57,520 --> 00:53:00,080
+simply. What I really like is that
+
+1376
+00:53:00,080 --> 00:53:02,280
+you're Anytime I ask you a question, you
+
+1377
+00:53:02,280 --> 00:53:05,280
+very I love how you you simplified it in
+
+1378
+00:53:05,280 --> 00:53:07,800
+such a way and that's a real sign of of
+
+1379
+00:53:07,800 --> 00:53:09,840
+expertise. So I know you're a university
+
+1380
+00:53:09,840 --> 00:53:13,040
+professor explaining.
+
+1381
+00:53:13,040 --> 00:53:14,720
+But thank you very much and Well, thank
+
+1382
+00:53:14,720 --> 00:53:16,200
+you for that compliment. It was it was
+
+1383
+00:53:16,200 --> 00:53:18,480
+fun to to talk to you and I look look
+
+1384
+00:53:18,480 --> 00:53:21,120
+forward to to seeing seeing what what
+
+1385
+00:53:21,120 --> 00:53:23,640
+you produce.
+
+1386
+00:53:23,640 --> 00:53:26,400
+All right. Cheers.
+
+1387
+00:53:48,960 --> 00:53:51,120
+Yeah.

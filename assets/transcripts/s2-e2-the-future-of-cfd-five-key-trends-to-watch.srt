@@ -15,7 +15,7 @@ changing the world around us.
 
 4
 00:00:09,800 --> 00:00:12,760
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
@@ -26,7 +26,7 @@ of the world's top academics to
 6
 00:00:16,920 --> 00:00:21,000
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
@@ -175,8 +175,7 @@ like in in important order, but
 
 36
 00:02:09,360 --> 00:02:16,920
-number one for me is GPUs and
-based processes.
+number one for me is GPUs and ARM-based processors.
 
 37
 00:02:17,600 --> 00:02:22,400
@@ -186,7 +185,7 @@ It was the case when I let's say
 38
 00:02:22,400 --> 00:02:26,200
 back in 2013 or something like
-that, I remember going to a path
+that, I remember going to a Parallel
 
 39
 00:02:26,200 --> 00:02:29,200
@@ -215,13 +214,12 @@ great venue right on the
 
 44
 00:02:40,600 --> 00:02:43,120
-Ramblers sort of strip.
+Las Ramblas strip.
 Anyone who's listening who went
 
 45
 00:02:43,120 --> 00:02:45,600
-there will know it was great
-conference organised by the
+there will know it was a great conference organised by the
 
 46
 00:02:45,600 --> 00:02:49,520
@@ -295,7 +293,7 @@ be possible, whether there'd be
 
 60
 00:03:42,360 --> 00:03:46,960
-enough memory on the GPU's.
+enough memory on the GPUs.
 Was it really possible to
 
 61
@@ -316,7 +314,7 @@ Fast forward to now and I would
 64
 00:03:56,840 --> 00:04:05,800
 say for me it's incredibly clear
-that GPU's are going to be the
+that GPUs are going to be the
 
 65
 00:04:06,680 --> 00:04:11,280
@@ -326,7 +324,7 @@ for CFD.
 66
 00:04:13,560 --> 00:04:17,200
 But as I'll say later, things
-move very slowly, especially the
+move very slowly, especially in
 
 67
 00:04:17,200 --> 00:04:20,360
@@ -340,8 +338,7 @@ But I have seen enough to make
 
 69
 00:04:24,400 --> 00:04:26,400
-me believe that and I'll give
-for several reasons.
+me believe that and I'll give several reasons.
 
 70
 00:04:27,120 --> 00:04:32,400
@@ -355,13 +352,12 @@ I've certainly showed it in
 
 72
 00:04:33,520 --> 00:04:38,080
-public settings and it's the
-Isvs and software companies have
+public settings and the ISVs and software companies have
 
 73
 00:04:38,080 --> 00:04:40,480
 done it.
-And in fact just for auto CFD,
+And in fact just for AutoCFD,
 
 74
 00:04:40,560 --> 00:04:45,280
@@ -370,7 +366,7 @@ that I created back in 2018 in
 
 75
 00:04:45,280 --> 00:04:48,160
-19 with Gary Page Loughborough
+19 with Gary Page at Loughborough
 and now it's in its fourth
 
 76
@@ -381,11 +377,11 @@ I think the slides are now up
 77
 00:04:50,360 --> 00:04:53,520
 and the video is on the website.
-So if if you go to autocfd.org
+So if if you go to AutoCFD.org
 
 78
 00:04:54,120 --> 00:04:59,280
-and you Scroll down and you go
+and you scroll down and you go
 to the HPC presentation, Herbert
 
 79
@@ -465,17 +461,17 @@ GPUs were more cost effective,
 
 94
 00:05:58,680 --> 00:06:03,000
-at least 23510.
+at least 2×, 3×, 5× or 10×.
 It depended on the code or even
 
 95
 00:06:03,000 --> 00:06:10,680
-more cheaper than an equivalent
+cheaper than an equivalent
 CPU at the scale that it was
 
 96
 00:06:10,680 --> 00:06:13,240
-being one for a realistic
+being run for a realistic
 problem, not sort of toy
 
 97
@@ -501,7 +497,7 @@ Whereas the cost, you know,
 101
 00:06:27,520 --> 00:06:30,200
 obviously it's going to change a
-little bit on linear regime.
+little bit in a nonlinear regime.
 
 102
 00:06:30,200 --> 00:06:32,920
@@ -536,7 +532,7 @@ I can only speak what I've seen
 108
 00:06:53,040 --> 00:06:55,760
 and personally, so I'll speak
-more, let's say in plain design,
+more, let's say in plane design,
 
 109
 00:06:55,760 --> 00:06:59,200
@@ -586,11 +582,11 @@ run for, you know, it's easier
 118
 00:07:24,600 --> 00:07:27,360
 like I said, to calculate with
-cloud because it paid, pays you
+cloud because of pay-as-you-go
 
 119
 00:07:27,360 --> 00:07:32,800
-good pricing, it is cheaper, and
+pricing, it is cheaper, and
 as soon as something is cheaper
 
 120
@@ -601,7 +597,7 @@ is going to gain widespread
 121
 00:07:38,480 --> 00:07:42,280
 industrial adoption.
-Now where's the new ones to this
+Now where's the nuance to this
 
 122
 00:07:42,800 --> 00:07:50,080
@@ -620,17 +616,16 @@ you know, certain precision,
 
 125
 00:08:02,480 --> 00:08:05,840
-lower precision ultimately than
-what most CFD codes would need.
+lower precision, ultimately, than most CFD codes would need.
 
 126
 00:08:07,000 --> 00:08:10,200
 And so you're going, you know,
-from A1 hundreds to H1 hundreds,
+from A100s to H100s,
 
 127
 00:08:10,200 --> 00:08:13,480
-H2 hundreds, etcetera to
+H200s, etcetera to
 Blackwell that are driving up,
 
 128
@@ -661,7 +656,7 @@ quite often are more designed
 133
 00:08:31,840 --> 00:08:38,400
 for inference, but these sort of
-L40SR TX type cards that
+L40S- or RTX-type cards that
 
 134
 00:08:38,400 --> 00:08:43,600
@@ -685,8 +680,7 @@ performance.
 
 138
 00:08:55,720 --> 00:08:57,880
-And that's what we showed of
-this, this auto CFD.
+And that's what we showed at AutoCFD.
 
 139
 00:08:58,960 --> 00:09:02,840
@@ -725,7 +719,7 @@ generation on GPUs than there is
 
 146
 00:09:29,040 --> 00:09:32,440
-on the X86 CPUs.
+on the x86 CPUs.
 And the fact that there is
 
 147
@@ -746,7 +740,7 @@ only going to drive more and
 150
 00:09:42,800 --> 00:09:47,440
 more focus.
-Now, I say ARM 64 as well
+Now, I say ARM64 as well
 
 151
 00:09:47,640 --> 00:09:54,040
@@ -760,8 +754,7 @@ get people to convince.
 
 153
 00:09:57,240 --> 00:10:00,840
-And I know speaking from being
-AWS, we have our Graviton ones
+And I know speaking from being at AWS, we have our Graviton processors
 
 154
 00:10:00,840 --> 00:10:03,440
@@ -770,8 +763,7 @@ people to think, well, why
 
 155
 00:10:03,440 --> 00:10:06,680
-should I bother to pull my code,
-you know, to, to harm.
+should I bother to port my code, you know, to ARM.
 
 156
 00:10:07,320 --> 00:10:10,440
@@ -780,12 +772,11 @@ companies with, you know, the
 
 157
 00:10:10,440 --> 00:10:13,520
-other hyperscalers also
-releasing obviously with video,
+other hyperscalers also releasing them, and obviously NVIDIA,
 
 158
 00:10:13,520 --> 00:10:17,200
-with the Gray system sort of
+with the Grace system sort of
 linking the two, there is far
 
 159
@@ -840,7 +831,7 @@ But what I can see is every
 
 169
 00:10:58,760 --> 00:11:04,880
-single one of the major Isvs has
+single one of the major ISVs has
 or is porting their codes.
 
 170
@@ -880,32 +871,30 @@ codes.
 
 177
 00:11:30,160 --> 00:11:33,840
-And these are more the start-ups
-like luminary or Volcano or Flex
+And these are more the startups like Luminary Cloud, Volcano Platforms or
 
 178
 00:11:33,840 --> 00:11:37,360
-compute.
+Flexcompute.
 And there are others who are
 
 179
 00:11:37,440 --> 00:11:42,080
 really who have really focused
-on a GPU native code.
+on GPU-native code.
 
 180
 00:11:43,680 --> 00:11:49,480
 And in the case of, for example,
-Volcano taking advantage of GP
+Volcano Platforms taking advantage of GPUs
 
 181
 00:11:49,520 --> 00:11:52,880
-US like designing it for GP us
-Cartesian methods and there's
+by designing for GPUs, Cartesian methods and immersed
 
 182
 00:11:52,880 --> 00:11:55,880
-boundary, etcetera.
+boundaries, etcetera.
 And there are others as well
 
 183
@@ -945,8 +934,7 @@ last point.
 
 190
 00:12:21,200 --> 00:12:26,240
-This emergence of new start up
-codes is also invigorating
+This emergence of new startup codes is also invigorating
 
 191
 00:12:26,800 --> 00:12:32,120
@@ -981,7 +969,7 @@ so none of them, let's say five
 197
 00:12:52,560 --> 00:12:54,880
 years ago, six years ago, OK,
-none of them are moving to GPS.
+none of them are moving to GPUs.
 
 198
 00:12:54,880 --> 00:12:56,440
@@ -1040,7 +1028,7 @@ And you've seen that with, you
 
 209
 00:13:29,280 --> 00:13:32,120
-know, with ancestors sort of
+know, with Ansys sort of
 rewriting their their solver and
 
 210
@@ -1050,8 +1038,8 @@ strong performance.
 
 211
 00:13:35,640 --> 00:13:39,320
-And at the auto CFD workshop, we
-saw pretty much all of the Isvs
+And at the AutoCFD workshop, we
+saw pretty much all of the ISVs
 
 212
 00:13:40,280 --> 00:13:43,600
@@ -1080,8 +1068,7 @@ So is are the third party
 
 217
 00:13:58,640 --> 00:14:00,880
-meshing tools going to work on
-GPS?
+meshing tools going to work on GPUs?
 
 218
 00:14:01,440 --> 00:14:04,560
@@ -1100,8 +1087,7 @@ procure a cluster, if one code
 
 221
 00:14:13,160 --> 00:14:16,280
-works amazing on GPUs, but all
-the restaurant CPUs, you then
+works amazing on GPUs, but all the rest are on CPUs, you then
 
 222
 00:14:16,280 --> 00:14:19,880
@@ -1140,7 +1126,6 @@ and you're attracting
 
 229
 00:14:49,440 --> 00:14:52,480
-entrepreneurial
 entrepreneurialism,
 
 230
@@ -1180,13 +1165,12 @@ You know the the sort of exaflop
 
 237
 00:15:18,080 --> 00:15:20,040
-race to try and get an ex scale
-computing.
+race to try and get an exascale computing.
 
 238
 00:15:21,560 --> 00:15:26,160
 A lot of this has driven to
-GPU's because the total
+GPUs because the total
 
 239
 00:15:26,160 --> 00:15:31,160
@@ -1195,7 +1179,7 @@ much higher for a given power
 
 240
 00:15:31,160 --> 00:15:38,080
-output with GPU's, and arguably
+output with GPUs, and arguably
 it is also newer technology.
 
 241
@@ -1230,12 +1214,12 @@ And so if you're a national
 
 247
 00:15:55,520 --> 00:15:58,800
-super computing centre, you want
+supercomputing centre, you want
 to be able to do ML research and
 
 248
 00:15:58,800 --> 00:16:01,440
-you want GPU's.
+you want GPUs.
 What does that mean?
 
 249
@@ -1296,7 +1280,7 @@ But there's also a push because
 260
 00:16:41,000 --> 00:16:42,920
 the system they want to run on
-has GPS.
+has GPUs.
 
 261
 00:16:43,320 --> 00:16:47,560
@@ -1306,7 +1290,7 @@ been the drive towards GPUs.
 262
 00:16:47,720 --> 00:16:51,320
 There is a, once a decision is
-made that the big supercomputer
+made that the big supercomputers
 
 263
 00:16:51,320 --> 00:16:54,440
@@ -1315,7 +1299,7 @@ almost are then having to, well,
 
 264
 00:16:54,600 --> 00:16:57,560
-I'll just put my code, you know,
+I'll just port my code, you know,
 to, to go to it.
 
 265
@@ -1356,7 +1340,7 @@ investing in helping people to
 272
 00:17:23,400 --> 00:17:26,079
 understand CUDA and helping them
-to pull their codes.
+to port their codes.
 
 273
 00:17:26,520 --> 00:17:28,640
@@ -1381,12 +1365,12 @@ There's an interesting sort of
 277
 00:17:37,200 --> 00:17:47,040
 ecosystem and flywheel effect.
-So the next one is on AIML And
+So the next one is on AI/ML. And
 
 278
 00:17:47,040 --> 00:17:50,880
 you know, again, you're, you're
-typically really for AIML or
+typically really for AI/ML or
 
 279
 00:17:50,880 --> 00:17:54,360
@@ -1400,7 +1384,7 @@ The reason I'm more bullish on
 
 281
 00:18:00,000 --> 00:18:03,720
-AML and that's through my own
+AI/ML and that's through my own
 personal experience actually, at
 
 282
@@ -1425,8 +1409,7 @@ similar to the way that I saw
 
 286
 00:18:18,800 --> 00:18:22,840
-GPUs back in, let's say the 2000
-and 10s, where again, I saw a
+GPUs back in, let's say the 2010s, where again, I saw a
 
 287
 00:18:22,840 --> 00:18:27,000
@@ -1445,7 +1428,7 @@ I'm not going to be able to
 
 290
 00:18:31,200 --> 00:18:32,880
-pull.
+port.
 It's not, you know, the
 
 291
@@ -1555,17 +1538,16 @@ release it.
 
 312
 00:19:49,240 --> 00:19:52,960
-That's means that there's a lot
+That means that there's a lot
 of sort of R&D and focus within
 
 313
 00:19:52,960 --> 00:19:55,680
-these major CFD and CE
-companies.
+these major CFD and CAE companies.
 
 314
 00:19:57,760 --> 00:20:02,560
-But this is also fed a lot of
+But this has also fed a lot of
 startup market.
 
 315
@@ -1576,21 +1558,21 @@ many of the startups and there
 316
 00:20:10,200 --> 00:20:15,280
 are many many to list, you know
-the Navistos, the Physics X
+Navasto, PhysicsX and
 
 317
 00:20:15,280 --> 00:20:17,920
-beyond math.
+BeyondMath.
 I'm probably going to insult
 
 318
 00:20:17,920 --> 00:20:20,840
 people by not mentioning them.
-I can't think I'll probably list
+I can't think—I'll probably list
 
 319
 00:20:20,840 --> 00:20:25,040
-them more out newer concepts.
+them all out: Monolith, Neural Concept.
 Yeah, I can't remember.
 
 320
@@ -1601,7 +1583,7 @@ So I, I, I'm sure I'm offending
 321
 00:20:27,800 --> 00:20:32,040
 some of them.
-The point is that or keyword as
+The point is that or Key Ward as
 
 322
 00:20:32,040 --> 00:20:34,880
@@ -1625,18 +1607,17 @@ thing?
 
 326
 00:20:46,440 --> 00:20:50,440
-And so there are to my Alaska at
+And so there are to my last count at
 least 10 start-ups looking at
 
 327
 00:20:50,440 --> 00:20:54,000
-doing AIML specifically for CFD.
+doing AI/ML specifically for CFD.
 And quite often for things like
 
 328
 00:20:54,000 --> 00:20:55,680
-I spoke about card design or
-plate design.
+I spoke about car design or plane design.
 
 329
 00:20:57,120 --> 00:20:59,920
@@ -1690,8 +1671,7 @@ commercial point where you may
 
 339
 00:21:27,120 --> 00:21:32,640
-essentially not need the CFT
-solver during the solve step.
+essentially not need the CFD solver during the solve step.
 
 340
 00:21:32,960 --> 00:21:36,600
@@ -1705,7 +1685,7 @@ that's completely outside the
 
 342
 00:21:38,520 --> 00:21:43,680
-CFT code, which obviously is
+CFD code, which obviously is
 worrying for an ISV that thinks
 
 343
@@ -1730,7 +1710,7 @@ commercially now that means
 
 347
 00:21:58,880 --> 00:22:02,120
-those IS VS really need to
+those ISVs really need to
 figure out is this an important
 
 348
@@ -1761,7 +1741,7 @@ Why economically does it work as
 353
 00:22:19,560 --> 00:22:25,800
 well is because on the one hand,
-the end user just as GPUs.
+the end user, just as with GPUs.
 
 354
 00:22:26,000 --> 00:22:28,200
@@ -1770,8 +1750,7 @@ end user to be interested in
 
 355
 00:22:28,200 --> 00:22:32,440
-AIML for GPUs?
-The main reason was lower cost
+AI/ML? For GPUs, the main reason was lower cost
 
 356
 00:22:32,880 --> 00:22:38,840
@@ -1785,7 +1764,7 @@ we're going to see potential of
 
 358
 00:22:41,880 --> 00:22:45,040
-the next five years 5 to 10X
+the next five years 5–10×
 speed up in in stuff.
 
 359
@@ -1795,13 +1774,12 @@ and also talk a minute about
 
 360
 00:22:48,880 --> 00:22:51,640
-this leads to more like high
-fidelity transit methods to
+this leads to more high-fidelity transient methods to
 
 361
 00:22:51,640 --> 00:22:57,400
 become possible even in a day or
-less than a day for AIML.
+less than a day for AI/ML.
 
 362
 00:22:57,640 --> 00:23:03,240
@@ -1820,7 +1798,7 @@ real time CFD has long been
 
 365
 00:23:13,240 --> 00:23:17,440
-spoken about and GPU's were sort
+spoken about and GPUs were sort
 of billed as potentially
 
 366
@@ -1860,7 +1838,7 @@ for accuracy purposes.
 
 373
 00:23:39,760 --> 00:23:43,760
-OK you could do maybe a Rand or
+OK you could do maybe a RANS simulation or
 lower fidelity, but truly real
 
 374
@@ -1880,7 +1858,7 @@ worth the sort of the balance.
 
 377
 00:23:56,520 --> 00:24:01,000
-The AIML is the interesting bit
+The AI/ML is the interesting bit
 because the inference itself
 
 378
@@ -1916,7 +1894,7 @@ designer, closer to digital
 384
 00:24:27,040 --> 00:24:31,160
 twins, more into, you know, like
-Nvidia's doing with Omniverse,
+NVIDIA's doing with Omniverse,
 
 385
 00:24:31,160 --> 00:24:35,040
@@ -1926,12 +1904,11 @@ where you could be simulating
 386
 00:24:35,040 --> 00:24:39,480
 things almost in real time.
-The class example is the car
+The classic example is the car
 
 387
 00:24:39,480 --> 00:24:43,000
-designer, you know who's not
-ACFD specialist who wants to
+designer, you know who's not a CFD specialist who wants to
 
 388
 00:24:43,000 --> 00:24:48,280
@@ -1980,12 +1957,12 @@ acquisitions or mergers from
 
 397
 00:25:24,280 --> 00:25:28,560
-some of the big Isvs or they
+some of the big ISVs or they
 could simply become big codes.
 
 398
 00:25:28,560 --> 00:25:33,960
-And the CA market is five, $10
+And the CAE market is five, $10
 billion at least and growing.
 
 399
@@ -2001,7 +1978,7 @@ There's a desire to go more into
 401
 00:25:41,560 --> 00:25:44,400
 the virtual world because it's
-cheaper and faster than winter
+cheaper and faster than wind-tunnel
 
 402
 00:25:44,400 --> 00:25:49,920
@@ -2061,12 +2038,11 @@ physics or the modelling were
 413
 00:26:30,000 --> 00:26:33,320
 sort of done 20 years ago.
-You know, most of the warmer LES
+You know, most of the wall-modelled LES
 
 414
 00:26:33,320 --> 00:26:36,560
-or hybrid random LES or random
-modelling, it's actually 20
+or hybrid RANS–LES or RANS modelling, it's actually 20
 
 415
 00:26:36,560 --> 00:26:39,440
@@ -2076,7 +2052,7 @@ And what's the novel bit is more
 416
 00:26:40,000 --> 00:26:43,000
 the computer science, the use of
-GPU's, etcetera.
+GPUs, etcetera.
 
 417
 00:26:43,000 --> 00:26:46,280
@@ -2095,7 +2071,7 @@ developments, but most people,
 
 420
 00:26:52,320 --> 00:26:55,920
-if you're using DDS, you know,
+if you're using DES, you know,
 what's that 2004 or something,
 
 421
@@ -2105,8 +2081,7 @@ you're using of it.
 
 422
 00:26:58,120 --> 00:27:02,240
-If you're using K Omega, SST
-RANS, it's 1994.
+If you're using k–omega SST RANS, it's 1994.
 
 423
 00:27:02,240 --> 00:27:06,920
@@ -2125,8 +2100,7 @@ I'm thinking that's it.
 
 426
 00:27:11,800 --> 00:27:15,360
-I think we're in similar time,
-the AML that yes, there are many
+I think we're in a similar time with AI/ML: yes, there are many
 
 427
 00:27:15,360 --> 00:27:18,040
@@ -2196,7 +2170,7 @@ from just sort of marketing.
 440
 00:27:55,240 --> 00:28:00,200
 And the big question, of course,
-is around foundational models.
+is around foundation models.
 
 441
 00:28:00,200 --> 00:28:04,040
@@ -2215,7 +2189,7 @@ essentially, and then you do
 
 444
 00:28:12,200 --> 00:28:17,400
-imprints on it as opposed to
+inference on it as opposed to
 ChatGPT like methods that take
 
 445
@@ -2255,8 +2229,7 @@ The future is could there be a
 
 452
 00:28:40,520 --> 00:28:43,240
-way of a company pre training
-model, then you just do
+way of a company pretraining a model, then you just do
 
 453
 00:28:43,240 --> 00:28:45,800
@@ -2315,17 +2288,17 @@ a super exciting space.
 
 464
 00:29:16,640 --> 00:29:20,480
-So, so the second one is AML.
+So, so the second one is AI/ML.
 And of course, why do I mention
 
 465
 00:29:20,480 --> 00:29:21,600
-AML?
+AI/ML?
 Because it's linked.
 
 466
 00:29:21,600 --> 00:29:26,840
-The first AIML needs GPUs and as
+The first AI/ML needs GPUs and as
 a company if you're being asked
 
 467
@@ -2355,7 +2328,7 @@ from these first 2 is cloud
 
 472
 00:29:51,400 --> 00:29:59,720
-computing or SAS type products.
+computing or SaaS-type products.
 And again, I have to be, you
 
 473
@@ -2415,7 +2388,7 @@ If you already have, you know, a
 
 484
 00:30:45,840 --> 00:30:51,000
-lot of on Prem work, then maybe
+lot of on-premises work, then maybe
 the cloud for you is a sort of a
 
 485
@@ -2461,7 +2434,7 @@ a lot of the biggest
 493
 00:31:22,280 --> 00:31:25,520
 misconception of the cloud is
-that it's just service to rent.
+that it's just servers to rent.
 
 494
 00:31:26,440 --> 00:31:29,560
@@ -2540,7 +2513,7 @@ really pushing this.
 
 509
 00:32:23,920 --> 00:32:28,240
-So the CI OS driving this.
+So the CIOs driving this.
 And so it's becoming, you know,
 
 510
@@ -2626,12 +2599,12 @@ linking that to the others is
 526
 00:33:21,600 --> 00:33:24,760
 there was also a time when many
-of the Isvs and companies
+of the ISVs and companies
 
 527
 00:33:24,760 --> 00:33:26,960
 start-ups said, oh, the cloud,
-you know, it's just fad.
+you know, it's just a fad.
 
 528
 00:33:28,120 --> 00:33:31,960
@@ -2645,8 +2618,8 @@ software to you.
 
 530
 00:33:35,200 --> 00:33:37,760
-And this is where the SAS comes
-in, Software as a service.
+And this is where the SaaS comes
+in, software as a service.
 
 531
 00:33:38,040 --> 00:33:40,440
@@ -2675,8 +2648,7 @@ computer or you can go on to
 
 536
 00:33:56,320 --> 00:33:59,160
-something like, you know, over
-leaf I use for like writing
+something like, you know, Overleaf I use for like writing
 
 537
 00:33:59,160 --> 00:34:01,920
@@ -2685,7 +2657,7 @@ It's a web-based platform where
 
 538
 00:34:01,920 --> 00:34:04,640
-you can write Latex documents
+you can write LaTeX documents
 and it's all stored there in the
 
 539
@@ -2776,7 +2748,7 @@ You never needed to worry about
 556
 00:34:59,320 --> 00:35:04,120
 that.
-That is the value of the SAS and
+That is the value of the SaaS and
 
 557
 00:35:04,120 --> 00:35:06,120
@@ -2830,7 +2802,7 @@ And you don't really notice it.
 
 567
 00:35:38,080 --> 00:35:41,040
-You just SSH one to machine.
+You just SSH onto a machine.
 You don't know whether it's in
 
 568
@@ -2861,7 +2833,7 @@ all your data's in there.
 573
 00:35:52,800 --> 00:35:57,240
 You're a big enterprise, but you
-have to know how to use Atbus,
+have to know how to use AWS,
 
 574
 00:35:57,240 --> 00:35:58,680
@@ -2880,8 +2852,8 @@ A that's just, I'm going to say,
 
 577
 00:36:04,920 --> 00:36:08,320
-let's say, you know, star CCM
-has a SAS like, you know, a
+let's say, you know, STAR-CCM+
+has a SaaS-like, you know, a
 
 578
 00:36:08,320 --> 00:36:13,200
@@ -2906,7 +2878,7 @@ they provision it for you.
 582
 00:36:23,360 --> 00:36:26,400
 And so you've not had to know
-any ADDF knowledge to get access
+any AWS knowledge to get access
 
 583
 00:36:26,400 --> 00:36:33,360
@@ -2915,8 +2887,7 @@ become more and more the
 
 584
 00:36:33,360 --> 00:36:36,360
-mechanic you look at luminary
-cloud cloud is in the offering,
+mechanism. Look at Luminary Cloud—cloud is in the offering,
 
 585
 00:36:36,400 --> 00:36:40,120
@@ -2936,17 +2907,17 @@ without having to worry about
 588
 00:36:46,920 --> 00:36:49,560
 the compute.
-There are many of like SIM scale
+There are many of like SimScale
 
 589
 00:36:49,560 --> 00:36:53,040
-or flex compute or there's,
+or Flexcompute or there's,
 there's more and more, whether
 
 590
 00:36:53,040 --> 00:36:57,360
 it's startup or an ISV that are
-offering cloud based back end.
+offering cloud-based backend.
 
 591
 00:36:57,360 --> 00:37:03,480
@@ -2960,7 +2931,7 @@ forget about the commercials.
 
 593
 00:37:06,600 --> 00:37:09,680
-I want you an academic code.
+if you have an academic code.
 If you want someone to use your
 
 594
@@ -2970,8 +2941,7 @@ actually it might be great if
 
 595
 00:37:13,400 --> 00:37:17,040
-you build your own sort of SAS
-platform, you can give people
+you build your own sort of SaaS platform, you can give people
 
 596
 00:37:17,040 --> 00:37:18,760
@@ -3010,7 +2980,7 @@ people without being a sort of
 
 603
 00:37:36,720 --> 00:37:39,160
-delivering ACD to someone, you
+delivering a CD to someone, you
 know, that they have to install
 
 604
@@ -3031,7 +3001,7 @@ date not fully embraced.
 607
 00:37:51,360 --> 00:37:55,200
 But that is something a bit like
-GPS and AML, which will only
+GPUs and AI/ML, which will only
 
 608
 00:37:55,200 --> 00:38:00,000
@@ -3060,17 +3030,16 @@ continue, but I think the
 
 613
 00:38:14,200 --> 00:38:18,040
-percentage and the data shows us
-out that the growth of HPC for
+percentage and the data bears out that the growth of HPC for
 
 614
 00:38:18,040 --> 00:38:22,320
 the cloud is something like 15%
-year over year, whereas HPC on
+year over year, whereas HPC
 
 615
 00:38:22,320 --> 00:38:25,040
-premise like 8%.
+on-premises like 8%.
 And I think that's Hyperion
 
 616
@@ -3101,7 +3070,7 @@ emerging now.
 621
 00:38:41,400 --> 00:38:46,480
 What do these three things mean?
-GPU technology, AIML cloud.
+GPU technology, AI/ML, cloud.
 
 622
 00:38:47,320 --> 00:38:54,800
@@ -3130,8 +3099,7 @@ it could mean running the
 
 627
 00:39:14,000 --> 00:39:16,520
-simulation for longer conversion
-to even tighter tolerance.
+simulation for longer, converging to an even tighter tolerance.
 
 628
 00:39:16,520 --> 00:39:19,680
@@ -3165,8 +3133,7 @@ The biggest problem for CFD and
 
 634
 00:39:35,760 --> 00:39:41,960
-trust for CFD by very senior
-peoples, people in companies or
+trust for CFD by very senior people in companies or
 
 635
 00:39:41,960 --> 00:39:45,440
@@ -3260,8 +3227,7 @@ So, you know, DNS can be done at
 
 653
 00:40:47,640 --> 00:40:51,720
-much better resolutions largely
-simulations can be done for more
+much better resolutions; large-eddy simulations can be done for more
 
 654
 00:40:51,720 --> 00:40:54,600
@@ -3270,8 +3236,7 @@ You can add more, you know,
 
 655
 00:40:54,720 --> 00:40:57,320
-multi physics modelling inside
-case because you have more
+multi physics modelling inside a case because you have more
 
 656
 00:40:57,320 --> 00:41:01,960
@@ -3285,8 +3250,7 @@ physics or just simply things
 
 658
 00:41:08,640 --> 00:41:11,520
-like small time steps, laws and
-meshes, all of this will be more
+like smaller time steps, larger meshes, all of this will mean more
 
 659
 00:41:11,520 --> 00:41:16,240
@@ -3295,13 +3259,12 @@ that is going to drive greater
 
 660
 00:41:16,240 --> 00:41:20,600
-use of CFD and CE.
+use of CFD and CAE.
 So I think those markets are
 
 661
 00:41:20,600 --> 00:41:24,840
-only going to increase because
-of 1-2 and three the adoption.
+only going to increase because of the adoption of one, two and three.
 
 662
 00:41:24,840 --> 00:41:26,440
@@ -3311,7 +3274,7 @@ static.
 663
 00:41:26,440 --> 00:41:29,600
 This is a growing and will
-continue to grow because it's
+continue to grow because its
 
 664
 00:41:29,600 --> 00:41:33,760
@@ -3350,13 +3313,12 @@ this is interesting for any
 
 671
 00:42:00,160 --> 00:42:03,480
-people who are looking to find
-start-ups or you know, people
+people who are looking to fund startups or you know, people
 
 672
 00:42:03,480 --> 00:42:06,560
-interesting inside of space.
-Whenever you have destructive
+interested in the space.
+Whenever you have disruptive
 
 673
 00:42:06,600 --> 00:42:09,440
@@ -3366,12 +3328,11 @@ you have the option of new tech,
 674
 00:42:09,440 --> 00:42:13,800
 new hardware, the emergence of
-AIML, the emergence of SAS
+AI/ML, the emergence of SaaS
 
 675
 00:42:13,800 --> 00:42:17,840
-providing and the the thing that
-has and high fidelity transit
+provisioning and high-fidelity transient
 
 676
 00:42:17,840 --> 00:42:22,400
@@ -3385,12 +3346,12 @@ Why now in the past two years
 
 678
 00:42:25,640 --> 00:42:28,720
-what why didn't we see you know,
-alumina cloud of volcano
+why didn't we see you know,
+Luminary Cloud, Volcano Platforms or
 
 679
 00:42:28,720 --> 00:42:31,600
-effects, compute, etcetera 5-7
+Flexcompute, et cetera, five to seven
 years ago?
 
 680
@@ -3406,7 +3367,7 @@ environment.
 682
 00:42:37,880 --> 00:42:41,000
 Why are we seeing 10 start-ups
-now with AIML methods?
+now with AI/ML methods?
 
 683
 00:42:41,440 --> 00:42:43,560
@@ -3416,7 +3377,7 @@ technology, but it's also the
 684
 00:42:43,560 --> 00:42:46,160
 environment because of the huge
-Gen.
+generative
 
 685
 00:42:46,160 --> 00:42:50,800
@@ -3465,18 +3426,18 @@ I don't know which one it is
 
 694
 00:43:21,400 --> 00:43:27,000
-because the to date you know the
+because, to date, you know the
 large companies like Cadence and
 
 695
 00:43:27,000 --> 00:43:31,040
-Synopsis, the big EDA companies
+Synopsys, the big EDA companies
 and people don't know EDA is
 
 696
 00:43:31,480 --> 00:43:33,840
 probably even bigger market than
-than the CAE.
+than CAE.
 
 697
 00:43:34,160 --> 00:43:37,400
@@ -3486,7 +3447,7 @@ So you know Cadence have
 698
 00:43:37,400 --> 00:43:40,680
 acquired a number of companies,
-Synopsis have acquired Ansys and
+Synopsys have acquired Ansys and
 
 699
 00:43:40,680 --> 00:43:43,800
@@ -3495,7 +3456,7 @@ companies, Siemens obviously
 
 700
 00:43:44,520 --> 00:43:48,640
-Dasseau.
+Dassault Systèmes.
 So you have these players who
 
 701
@@ -3526,7 +3487,7 @@ of the big picture that there is
 706
 00:44:10,160 --> 00:44:15,640
 A, it's a fantastic time in my
-opinion, to be in CFD and C it's
+opinion, to be in CFD; and B, it's
 
 707
 00:44:15,640 --> 00:44:19,520
@@ -3565,7 +3526,7 @@ they've always done.
 
 714
 00:44:37,760 --> 00:44:39,320
-But I see it's true, it doesn't
+But that's the honest truth, it doesn't
 matter.
 
 715
@@ -3576,7 +3537,7 @@ the same sort of modelling they
 716
 00:44:41,760 --> 00:44:44,920
 did 10 years ago.
-And fine, if there is a listing
+And fine, if there is all this new
 
 717
 00:44:44,920 --> 00:44:46,960
@@ -3620,13 +3581,11 @@ and be corrected if I was wrong
 
 725
 00:45:11,640 --> 00:45:13,440
-and some.
-But I hope you found this
+in some way. But I hope you found this
 
 726
 00:45:14,040 --> 00:45:16,880
-interested and interesting and
-it's got some of your brain, you
+interesting and it's got your brain, you
 
 727
 00:45:16,880 --> 00:45:20,800

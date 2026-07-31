@@ -266,12 +266,12 @@ And, and ultimately those are
 54
 00:03:20,240 --> 00:03:24,880
 the, the lineage, the lineage of
-where Abacus comes from, where
+where Abaqus comes from, where
 
 55
 00:03:24,880 --> 00:03:27,520
 Fluent comes from, where
-Openfront comes from.
+OpenFOAM comes from.
 
 56
 00:03:28,920 --> 00:03:33,480
@@ -291,7 +291,7 @@ a, a niche application.
 59
 00:03:42,720 --> 00:03:46,040
 HPC facilities, you know,
-Beowulf cluster decided to
+Beowulf clusters started to
 
 60
 00:03:46,040 --> 00:03:51,280
@@ -315,7 +315,7 @@ having competitions between, you
 
 64
 00:04:00,560 --> 00:04:04,200
-know, the CD adapt Cos and the,
+know, the CD-adapcos and the,
 and what what is now the, the
 
 65
@@ -490,13 +490,13 @@ many simulations in the theory
 
 99
 00:06:12,920 --> 00:06:17,160
-of the ultimate SAS, then it is
+of the ultimate SaaS, then it is
 fully scalable.
 
 100
 00:06:17,160 --> 00:06:21,520
 So if you're running, you know,
-star CCM or fluent or power flow
+STAR-CCM+ or Fluent or PowerFLOW
 
 101
 00:06:21,520 --> 00:06:26,200
@@ -515,7 +515,7 @@ in the back end.
 
 104
 00:06:32,200 --> 00:06:37,760
-So that sassification was, was
+So that SaaSification was, was
 something started maybe 6-7
 
 105
@@ -531,11 +531,11 @@ first to do that at a cross
 107
 00:06:44,160 --> 00:06:46,760
 software level.
-And there's others like Total,
+And there's others like TotalCAE,
 
 108
 00:06:46,760 --> 00:06:49,960
-CAE, etcetera who tried to, to
+etcetera who tried to, to
 bring it together.
 
 109
@@ -615,8 +615,8 @@ get advantage.
 
 124
 00:07:49,400 --> 00:07:52,200
-This is where flex compute, this
-is where luminary cloud started
+This is where Flexcompute, this
+is where Luminary Cloud started
 
 125
 00:07:52,200 --> 00:07:54,680
@@ -671,11 +671,11 @@ are not all correct, but you
 135
 00:08:31,520 --> 00:08:37,679
 know Siemens and Altair, Ansys
-and Synopsys, Cadence and Beta
+and Synopsys, Cadence and BETA
 
 136
 00:08:37,679 --> 00:08:40,600
-CAE and point wise are future
+CAE and Pointwise or Future
 facilities.
 
 137
@@ -690,7 +690,7 @@ Well actually so those companies
 
 139
 00:08:51,600 --> 00:08:55,600
-then wanted to start quiet and
+then wanted to start acquiring and
 of course this is where one of
 
 140
@@ -715,7 +715,7 @@ of ChatGPT moment in the early
 
 144
 00:09:14,720 --> 00:09:19,720
-twenty 20s, 2021-2022 that
+2020s, 2021-2022 that
 brought this to life.
 
 145
@@ -725,12 +725,12 @@ some new startups to really get
 
 146
 00:09:24,920 --> 00:09:30,640
-hold and the newer concept, the
-Physics X, the Navisto Extraity
+hold and the Neural Concept, the
+PhysicsX, the NAVASTO Extrality
 
 147
 00:09:31,720 --> 00:09:36,400
-MEAI, these companies started to
+Emmi AI, these companies started to
 come about offering the
 
 148
@@ -825,13 +825,13 @@ So Ansys bought Extrality, which
 
 166
 00:10:36,920 --> 00:10:40,080
-is now SIM AI.
-Autodesk bought Navistone,
+is now SimAI.
+Autodesk bought NAVASTO,
 
 167
 00:10:40,920 --> 00:10:44,880
 Siemens, you could argue and
-some part of it was the Alta
+some part of it was the Altair
 
 168
 00:10:44,960 --> 00:10:48,720
@@ -850,8 +850,8 @@ modelling.
 
 171
 00:10:55,760 --> 00:11:00,320
-So Lumia Cloud or Lumia AI now
-and Flex compute, both of you
+So Luminary Cloud or Luminary AI now
+and Flexcompute, both of you
 
 172
 00:11:00,320 --> 00:11:02,520
@@ -940,13 +940,13 @@ going to replace CFD or FEA or
 
 189
 00:12:12,040 --> 00:12:14,640
-Eva, you're just really creating
+EDA, you're just really creating
 an additional tool.
 
 190
 00:12:15,320 --> 00:12:18,800
 So in that sense you can
-understand why the larger Isvs
+understand why the larger ISVs
 
 191
 00:12:18,800 --> 00:12:23,200
@@ -1006,11 +1006,11 @@ agents?
 202
 00:13:09,240 --> 00:13:14,240
 Well, first of all, let's tie it
-back to the usefulness of Chachi
+back to the usefulness of ChatGPT
 
 203
 00:13:14,240 --> 00:13:17,720
-PT or Gemini.
+or Gemini.
 We have all found them to be
 
 204
@@ -1055,12 +1055,12 @@ some ask Gemini to do something
 
 212
 00:13:47,600 --> 00:13:49,920
-for me or, or codecs or
+for me or, or Codex or
 whatever.
 
 213
 00:13:50,280 --> 00:13:53,080
-Although the use of codecs now
+Although the use of Codex now
 is sort of murky in the waters a
 
 214
@@ -1131,7 +1131,7 @@ So can you also create some
 227
 00:14:39,840 --> 00:14:42,680
 Python graphs using, you know,
-map pot, Lib, etcetera.
+Matplotlib, etcetera.
 
 228
 00:14:43,240 --> 00:14:46,560
@@ -1145,13 +1145,13 @@ is absolutely achievable right
 
 230
 00:14:51,480 --> 00:14:53,880
-this second using cloud code or
-codecs.
+this second using Claude Code or
+Codex.
 
 231
 00:14:55,200 --> 00:15:00,920
 It is also possible for the
-tools that that that that NLM is
+tools that that that that LLM is
 
 232
 00:15:00,920 --> 00:15:04,280
@@ -1191,11 +1191,11 @@ collaborators.
 239
 00:15:27,880 --> 00:15:31,840
 Not just write the paper, but
-will you go and set up an open
+will you go and set up an OpenFOAM
 
 240
 00:15:31,840 --> 00:15:35,680
-phone simulation that that tries
+simulation that that tries
 out some of those ideas we
 
 241
@@ -1230,12 +1230,12 @@ The main thing it's not is it
 
 247
 00:15:57,640 --> 00:16:02,240
-because actually codecs or
-clawed or vibe code now with
+because actually Codex or
+Claude or Vibe Code now with
 
 248
 00:16:02,240 --> 00:16:05,600
-mistrial entering as a new sort
+Mistral entering as a new sort
 of player in this field from
 
 249
@@ -1245,7 +1245,7 @@ AI angle, European angle.
 
 250
 00:16:09,440 --> 00:16:13,680
-So codecs clawed or or vibe,
+So Codex, Claude or Vibe,
 they can actually go and do that
 
 251
@@ -1255,7 +1255,7 @@ And you don't have to be an
 
 252
 00:16:16,040 --> 00:16:21,840
-expert user of Open phone
+expert user of OpenFOAM
 because most likely those models
 
 253
@@ -1265,7 +1265,7 @@ sufficient smart data that
 
 254
 00:16:25,000 --> 00:16:28,000
-included Open Phone
+included OpenFOAM
 documentation and various
 
 255
@@ -1305,7 +1305,7 @@ At that point, the stickiness or
 
 262
 00:16:53,840 --> 00:16:59,240
-the the difficulty of using ACFD
+the the difficulty of using a CFD
 code is no longer there, which
 
 263
@@ -1326,7 +1326,7 @@ very well validated.
 266
 00:17:11,400 --> 00:17:15,280
 If agent starts to come in and
-very powerful LLMS come in that
+very powerful LLMs come in that
 
 267
 00:17:15,280 --> 00:17:19,839
@@ -1360,8 +1360,8 @@ relationship will be more with
 
 273
 00:17:43,120 --> 00:17:47,640
-the open AIS, the mistrials, the
-anthropics, etcetera.
+the OpenAIs, the Mistrals, the
+Anthropics, etcetera.
 
 274
 00:17:48,400 --> 00:17:53,360
@@ -1380,7 +1380,7 @@ this, but you have companies
 
 277
 00:17:58,040 --> 00:18:02,240
-like Prometheus, I think Jeff
+like Project Prometheus, I think Jeff
 Bezos put out some announcement
 
 278
@@ -1401,11 +1401,11 @@ capability like that.
 281
 00:18:13,440 --> 00:18:17,800
 You see the recent acquisition
-of Meai by Mistral and you see a
+of Emmi AI by Mistral and you see a
 
 282
 00:18:17,800 --> 00:18:21,600
-huge interest from open AI and
+huge interest from OpenAI and
 Anthropic in general, AI for
 
 283
@@ -1455,7 +1455,7 @@ You would have to learn how to
 
 292
 00:18:58,800 --> 00:19:02,760
-use NX or CTIA or SolidWorks,
+use NX or CATIA or SolidWorks,
 and frankly, if you didn't know
 
 293
@@ -1501,7 +1501,7 @@ code or I don't have to script
 301
 00:19:25,960 --> 00:19:29,040
 it or whatever.
-As long as the Asian knows how
+As long as the agent knows how
 
 302
 00:19:29,040 --> 00:19:32,600
@@ -1510,7 +1510,7 @@ I can say, you know, create this
 
 303
 00:19:32,680 --> 00:19:37,200
-in this scan package, set up the
+in this CAD package, set up the
 simulation, this tool.
 
 304
@@ -1575,7 +1575,7 @@ like a just a power session like
 
 316
 00:20:22,640 --> 00:20:24,960
-like Star has with his POD
+like STAR-CCM+ has with its POD
 license.
 
 317
@@ -1605,7 +1605,7 @@ coding agents and the power of
 
 322
 00:20:43,320 --> 00:20:48,840
-LLMS that these codes actually
+LLMs that these codes actually
 could become very capable and
 
 323
@@ -1745,7 +1745,7 @@ Are you really good at using
 
 350
 00:22:28,280 --> 00:22:29,200
-Openfox?
+OpenFOAM?
 No.
 
 351
@@ -1770,7 +1770,7 @@ higher up.
 
 355
 00:22:42,000 --> 00:22:45,760
-If it's so easy to run ACFD
+If it's so easy to run a CFD
 code, why don't why don't I
 
 356
@@ -1781,7 +1781,7 @@ well?
 357
 00:22:47,680 --> 00:22:51,720
 Many companies are you are split
-if you are ACFD person or an FEA
+if you are a CFD person or an FEA
 
 358
 00:22:51,720 --> 00:22:53,400
@@ -1846,7 +1846,7 @@ It raises many interesting
 370
 00:23:29,160 --> 00:23:33,240
 questions.
-Therefore, on the if the LLMS
+Therefore, on the if the LLMs
 
 371
 00:23:33,240 --> 00:23:35,680
@@ -1920,13 +1920,13 @@ optimization workflows will
 
 385
 00:24:28,800 --> 00:24:34,200
-ultimately be massively Hanford
+ultimately be massively hampered
 by the actual tool itself.
 
 386
 00:24:34,800 --> 00:24:39,720
 If the tool can match the speed
-of the agent, the LM, then that
+of the agent, the LLM, then that
 
 387
 00:24:39,720 --> 00:24:41,680
@@ -1991,7 +1991,7 @@ You don't know what to pick.
 399
 00:25:20,160 --> 00:25:23,240
 It's a challenging time to be an
-established ISP, but it's also a
+established ISV, but it's also a
 
 400
 00:25:23,240 --> 00:25:28,080
@@ -2001,11 +2001,11 @@ can potentially help drive your
 401
 00:25:28,080 --> 00:25:32,480
 company to bring out the next,
-you know, industry 4 point O or
+you know, Industry 4.0 or
 
 402
 00:25:32,480 --> 00:25:35,160
-five point O or whatever the the
+5.0 or whatever the the
 number is today.
 
 403
@@ -2066,7 +2066,7 @@ listening, if you are one of
 414
 00:26:22,000 --> 00:26:24,880
 these people who are still
-sceptic of AII would
+sceptic of AI, I would
 
 415
 00:26:25,360 --> 00:26:28,040
@@ -2121,7 +2121,7 @@ sets is that desire to do it.
 425
 00:26:59,000 --> 00:27:02,000
 The reason for doing these
-workshops or do CFD and others
+workshops or AutoCFD and others
 
 426
 00:27:02,000 --> 00:27:05,240

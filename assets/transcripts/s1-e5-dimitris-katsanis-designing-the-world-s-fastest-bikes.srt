@@ -1,0 +1,8823 @@
+1
+00:00:00,100 --> 00:00:02,480
+hi and welcome to the Neil Ashton podcast.
+
+2
+00:00:03,019 --> 00:00:03,839
+In each episode,
+
+3
+00:00:03,849 --> 00:00:07,309
+we explained some of the fascinating ways that science and engineering
+
+4
+00:00:07,469 --> 00:00:09,159
+are changing the world around us.
+
+5
+00:00:09,699 --> 00:00:14,170
+We talk to leading engineers from elite level sports like cycling and Formula One
+
+6
+00:00:14,760 --> 00:00:16,670
+to some of the world's top academics.
+
+7
+00:00:16,680 --> 00:00:21,069
+To understand how fluid dynamics, machine learning and supercomputing
+
+8
+00:00:21,229 --> 00:00:22,729
+are bringing in a new era of discovery.
+
+9
+00:00:23,790 --> 00:00:27,149
+We also hear some of their life stories, their career advice
+
+10
+00:00:27,540 --> 00:00:31,590
+and lessons they've learned on the way that I hope will be helpful to you too.
+
+11
+00:00:31,959 --> 00:00:34,330
+So sit back and enjoy this episode.
+
+12
+00:00:40,119 --> 00:00:42,040
+Welcome back to the Neil Ashen podcast.
+
+13
+00:00:42,529 --> 00:00:45,750
+So today's episode is all about cycling.
+
+14
+00:00:46,049 --> 00:00:50,380
+Uh, I said in the intro to the podcast that there were gonna be certain themes.
+
+15
+00:00:50,709 --> 00:00:53,139
+Uh, and cycling is definitely one of them.
+
+16
+00:00:53,770 --> 00:00:55,880
+I hope I'm not the only person who
+
+17
+00:00:56,130 --> 00:00:59,909
+has this sort of mixed interest of
+
+18
+00:01:00,830 --> 00:01:02,130
+fluid dynamics,
+
+19
+00:01:02,520 --> 00:01:05,970
+engineering, Formula One and cycling.
+
+20
+00:01:07,269 --> 00:01:09,760
+I think, though it is more common, I think there's a
+
+21
+00:01:10,099 --> 00:01:13,169
+an interesting overlap between those disciplines.
+
+22
+00:01:13,360 --> 00:01:14,349
+There is
+
+23
+00:01:14,699 --> 00:01:17,489
+obviously a huge focus in
+
+24
+00:01:17,629 --> 00:01:21,809
+aerodynamics, which is one of the things that we'll we'll talk about today.
+
+25
+00:01:22,580 --> 00:01:24,379
+Formula One and cycling
+
+26
+00:01:24,839 --> 00:01:27,959
+have a lot of crossovers from a technology point of view.
+
+27
+00:01:28,459 --> 00:01:32,260
+But I would also say, from a people point of view, a lot of the people that I know
+
+28
+00:01:32,550 --> 00:01:33,959
+that work in
+
+29
+00:01:34,129 --> 00:01:36,470
+elite level cycling people who are, you know,
+
+30
+00:01:36,480 --> 00:01:39,169
+working on bike design or working with the teams,
+
+31
+00:01:39,610 --> 00:01:42,269
+um, have come from from Formula One.
+
+32
+00:01:42,660 --> 00:01:44,209
+And there are another, uh,
+
+33
+00:01:44,220 --> 00:01:48,190
+a number of actual Formula One teams that have partnerships,
+
+34
+00:01:48,610 --> 00:01:49,419
+uh, things like Inos,
+
+35
+00:01:49,769 --> 00:01:50,529
+of course.
+
+36
+00:01:50,760 --> 00:01:51,319
+So
+
+37
+00:01:51,949 --> 00:01:55,610
+it's It's a topic that I hope will be interesting, and again,
+
+38
+00:01:55,620 --> 00:01:57,279
+it sort of complements each other.
+
+39
+00:01:57,290 --> 00:01:57,879
+In a way,
+
+40
+00:01:58,839 --> 00:02:01,139
+I'm speaking to Dimitris Katsanis
+
+41
+00:02:01,470 --> 00:02:02,089
+today,
+
+42
+00:02:02,330 --> 00:02:03,690
+who is one of these?
+
+43
+00:02:03,889 --> 00:02:03,900
+A
+
+44
+00:02:04,220 --> 00:02:05,690
+bit like Tony Purnell,
+
+45
+00:02:06,339 --> 00:02:09,910
+I would say unspoken heroes of of the field.
+
+46
+00:02:10,839 --> 00:02:12,729
+In fact, there's a link between, uh,
+
+47
+00:02:12,889 --> 00:02:15,000
+Dimitris Katsanis and and and Tony and I,
+
+48
+00:02:15,009 --> 00:02:20,399
+which is that we all worked on the British cycling project to design the
+
+49
+00:02:20,649 --> 00:02:25,110
+track bike for the Tokyo Olympics in 2020.
+
+50
+00:02:25,300 --> 00:02:26,929
+Now we don't a
+
+51
+00:02:27,070 --> 00:02:29,460
+bit like with Tony, which is in Episode three.
+
+52
+00:02:29,470 --> 00:02:31,789
+If you haven't listened to it, I, I suggest you go back.
+
+53
+00:02:31,800 --> 00:02:34,029
+We we talk about far more than just cycling. In fact,
+
+54
+00:02:34,259 --> 00:02:37,050
+we mainly discuss things outside of cycling.
+
+55
+00:02:37,300 --> 00:02:37,880
+Um,
+
+56
+00:02:39,000 --> 00:02:41,800
+but because of various NDAs agreements and things, uh,
+
+57
+00:02:41,809 --> 00:02:46,240
+some of the stuff that we did for that actual Tokyo Olympics project
+
+58
+00:02:46,460 --> 00:02:51,399
+can't actually be spoken about until after the next Olympics, which is coming up,
+
+59
+00:02:51,410 --> 00:02:52,820
+uh, in in in Paris.
+
+60
+00:02:54,009 --> 00:02:54,470
+But
+
+61
+00:02:54,929 --> 00:02:55,710
+today, I.
+
+62
+00:02:55,720 --> 00:02:59,910
+I really wanted to talk to him because Dimitris Katsanis is he's actually, um,
+
+63
+00:02:59,919 --> 00:03:01,449
+was a professional cyclist.
+
+64
+00:03:01,460 --> 00:03:03,449
+We don't really get to talk about that too much,
+
+65
+00:03:03,460 --> 00:03:06,529
+but he he comes from someone who was actually a very good cyclist,
+
+66
+00:03:07,570 --> 00:03:12,210
+and he's made his name known as one of the top designers of of Bikes.
+
+67
+00:03:12,220 --> 00:03:13,869
+He has his own company, Metron,
+
+68
+00:03:14,440 --> 00:03:15,979
+but he's a a sort of guy
+
+69
+00:03:16,619 --> 00:03:19,220
+that really has a system level understanding,
+
+70
+00:03:19,529 --> 00:03:21,389
+uh, and works, you know,
+
+71
+00:03:21,800 --> 00:03:27,350
+with a number of of companies. Uh, but what we talk about today is his partnership
+
+72
+00:03:27,729 --> 00:03:28,850
+with Pinarello,
+
+73
+00:03:29,279 --> 00:03:32,750
+which is probably a bike brand that is synonymous with
+
+74
+00:03:33,559 --> 00:03:37,570
+team sky. All those wins with, you know, Bradley Wiggins and Chris Froome.
+
+75
+00:03:37,580 --> 00:03:38,850
+And now with Ineos,
+
+76
+00:03:39,210 --> 00:03:41,740
+it's it's a it's a bike. It's a very premium bike.
+
+77
+00:03:41,750 --> 00:03:43,600
+Anyone who's into bikes know that Pinarello is
+
+78
+00:03:43,610 --> 00:03:45,660
+probably one of the most expensive bikes out there.
+
+79
+00:03:46,220 --> 00:03:49,380
+And so anybody who has a Pinarello or
+
+80
+00:03:49,690 --> 00:03:52,190
+aspires to have one or just has an interest.
+
+81
+00:03:52,309 --> 00:03:55,779
+You're speaking to the guy who has been a central part
+
+82
+00:03:55,789 --> 00:03:59,850
+of designing those bikes for for more than a decade now,
+
+83
+00:04:00,380 --> 00:04:03,419
+um, someone who deeply understands it. So we cover
+
+84
+00:04:04,009 --> 00:04:07,509
+we do. We try and start from the top about UCI I regulations.
+
+85
+00:04:07,520 --> 00:04:09,039
+What governs bike design
+
+86
+00:04:09,300 --> 00:04:13,309
+and then really trying to get into this question of what's more important?
+
+87
+00:04:13,320 --> 00:04:16,000
+Is it aerodynamics? Is it weight? Is it stiffness?
+
+88
+00:04:16,829 --> 00:04:19,100
+I think he goes into some interesting discussions
+
+89
+00:04:19,108 --> 00:04:21,209
+about you know how the rules are interpreted,
+
+90
+00:04:21,220 --> 00:04:23,119
+where we should, where we should go with it.
+
+91
+00:04:23,390 --> 00:04:27,119
+So it's really a deep dive conversation. It's, uh,
+
+92
+00:04:27,640 --> 00:04:29,109
+it's a bit like with Tony, you know,
+
+93
+00:04:29,119 --> 00:04:32,799
+it's it's more than an hour 40 so it's definitely a long form one.
+
+94
+00:04:32,809 --> 00:04:35,279
+It may take a few goes to to get through it.
+
+95
+00:04:35,730 --> 00:04:40,730
+But like with other episodes, I wanted to keep it in its entirety because I think
+
+96
+00:04:41,320 --> 00:04:45,679
+to do justice to him and the topics that we're discussing it it's
+
+97
+00:04:45,950 --> 00:04:47,380
+Yeah, I'm not a fan of
+
+98
+00:04:47,549 --> 00:04:50,649
+trying to make, uh, you know, Clickbait or or sound bites?
+
+99
+00:04:50,660 --> 00:04:52,809
+I wanted to leave the the the whole thing
+
+100
+00:04:52,940 --> 00:04:53,570
+out there.
+
+101
+00:04:54,170 --> 00:04:59,089
+I think we still have many topics that we could have gone in, you know, into more depth
+
+102
+00:04:59,359 --> 00:05:03,500
+and, uh, interested to hear from you, whether you like this episode, whether you'd
+
+103
+00:05:03,600 --> 00:05:05,399
+like us to go back in and And
+
+104
+00:05:05,540 --> 00:05:09,510
+what around cycling would you be interested in hearing about?
+
+105
+00:05:09,519 --> 00:05:13,029
+So this is today about, like I said, aerodynamics and stiffness,
+
+106
+00:05:13,239 --> 00:05:15,570
+but there's lots of other topics that we could
+
+107
+00:05:15,790 --> 00:05:19,029
+that we could dive into. So, yeah, I hope you find this interesting.
+
+108
+00:05:19,239 --> 00:05:19,790
+Um,
+
+109
+00:05:20,350 --> 00:05:23,809
+I'm told that I I'm I'm supposed to tell you to like and subscribe.
+
+110
+00:05:24,040 --> 00:05:27,850
+Uh, I must confess I'm the worst at doing this.
+
+111
+00:05:27,859 --> 00:05:31,690
+Normally, when someone says that to me, uh, it almost makes me not want to do it.
+
+112
+00:05:31,980 --> 00:05:34,390
+But there are good reasons because, you know,
+
+113
+00:05:34,399 --> 00:05:38,089
+all the algorithms of YouTube and Spotify are all based on basically people
+
+114
+00:05:38,250 --> 00:05:42,029
+giving ratings and subscribing and stuff like that. So if you
+
+115
+00:05:42,130 --> 00:05:45,519
+didn't find this particularly interesting, of course. No need to do it.
+
+116
+00:05:45,709 --> 00:05:48,779
+But if you do like this podcast and you found it,
+
+117
+00:05:48,790 --> 00:05:51,549
+useful it It does help others to find it.
+
+118
+00:05:51,779 --> 00:05:55,910
+Um, if you like and subscribe. So, yeah, I'll I'll do the classic thing of saying it.
+
+119
+00:05:56,989 --> 00:05:58,410
+I hope you'll do it too.
+
+120
+00:05:58,739 --> 00:06:01,690
+So, yeah, sit back. And hopefully you enjoy this episode. Um,
+
+121
+00:06:02,739 --> 00:06:03,779
+one small caveat.
+
+122
+00:06:03,790 --> 00:06:08,589
+As I mentioned on previous ones, this was actually recorded quite a few months ago,
+
+123
+00:06:08,600 --> 00:06:11,470
+right at the beginning of this sort of podcasting journey.
+
+124
+00:06:11,690 --> 00:06:13,549
+And so I Now that I hear it,
+
+125
+00:06:13,559 --> 00:06:15,910
+I'm a little bit disappointed that the audio quality
+
+126
+00:06:15,920 --> 00:06:17,630
+isn't as good as I'd like it to be.
+
+127
+00:06:17,640 --> 00:06:22,420
+So please bear that in mind for future episodes. Hopefully that will be
+
+128
+00:06:22,559 --> 00:06:26,540
+rectified. But for this particular one, yeah, it's it's still not perfect.
+
+129
+00:06:26,549 --> 00:06:30,709
+But hopefully the main point is the conversation rather, rather than the, uh,
+
+130
+00:06:30,720 --> 00:06:32,070
+the audio quality.
+
+131
+00:06:32,079 --> 00:06:35,899
+So, yeah, Please enjoy this discussion with Dimitris Katsanis.
+
+132
+00:06:37,450 --> 00:06:42,470
+People watch the Tour de France. People watch, You know, the classics that are on now
+
+133
+00:06:43,989 --> 00:06:45,500
+what regulates
+
+134
+00:06:46,890 --> 00:06:48,359
+how the road bikes look.
+
+135
+00:06:48,369 --> 00:06:50,839
+How could you explain to people the sort of UCI
+
+136
+00:06:50,850 --> 00:06:53,059
+I regulation like from a road bike point of view?
+
+137
+00:06:53,079 --> 00:06:55,100
+What? What's the limiting factor?
+
+138
+00:06:55,890 --> 00:06:56,440
+So
+
+139
+00:06:56,760 --> 00:07:02,019
+the UCIUC I stands for Union Cycliste Internationale, which is the
+
+140
+00:07:02,529 --> 00:07:05,500
+the world's governing body for
+
+141
+00:07:05,760 --> 00:07:06,940
+the sport of cycling.
+
+142
+00:07:07,540 --> 00:07:08,149
+And it
+
+143
+00:07:08,440 --> 00:07:12,480
+it covers everything from BMX and mountain biking to,
+
+144
+00:07:12,730 --> 00:07:14,760
+uh, road bikes, track bikes. Pretty
+
+145
+00:07:14,920 --> 00:07:16,769
+much anything has to do with this motorcycle.
+
+146
+00:07:17,239 --> 00:07:17,959
+So
+
+147
+00:07:18,559 --> 00:07:19,450
+there is a
+
+148
+00:07:19,720 --> 00:07:23,649
+There's a quite a thick book of rules and regulations that they govern
+
+149
+00:07:23,980 --> 00:07:25,040
+the the sport.
+
+150
+00:07:25,869 --> 00:07:29,160
+A lot of that has to do with how you run the sport, meaning
+
+151
+00:07:29,480 --> 00:07:31,959
+the start to finish the organisation and so on.
+
+152
+00:07:31,970 --> 00:07:35,570
+And there is also quite a large, quite detailed technical,
+
+153
+00:07:35,769 --> 00:07:36,250
+uh,
+
+154
+00:07:36,809 --> 00:07:37,929
+side also,
+
+155
+00:07:38,239 --> 00:07:43,829
+which defines, um how the bike, um, would look like.
+
+156
+00:07:44,059 --> 00:07:49,029
+So it has, like minimums and maximums like minimum and maximum length of the bike,
+
+157
+00:07:49,130 --> 00:07:53,170
+the size of the handlebars and, uh, the cross section of the tubes and so on.
+
+158
+00:07:53,959 --> 00:07:59,019
+And, uh, as the years they go by, more and more detail is being added
+
+159
+00:07:59,500 --> 00:08:03,209
+because in the past, when you were talking about a bicycle,
+
+160
+00:08:03,220 --> 00:08:04,940
+you were talking about a bike with
+
+161
+00:08:05,269 --> 00:08:07,380
+round steel tubes. Primarily,
+
+162
+00:08:08,399 --> 00:08:09,970
+it was probably 50 years ago
+
+163
+00:08:10,420 --> 00:08:11,290
+and then
+
+164
+00:08:11,730 --> 00:08:15,980
+aluminium came in and things started changing, and then carbon fibre came in,
+
+165
+00:08:15,989 --> 00:08:18,130
+and things they changed quite a lot.
+
+166
+00:08:19,130 --> 00:08:25,980
+Uh, so as the time was going by, UCI. Was adding more detail on these kind of bikes.
+
+167
+00:08:26,619 --> 00:08:27,260
+Um,
+
+168
+00:08:27,420 --> 00:08:33,369
+there was a time in the early nineties, early to mid to early nineties
+
+169
+00:08:33,599 --> 00:08:36,169
+that the regulations that were relaxed, but, um,
+
+170
+00:08:36,179 --> 00:08:39,510
+the regulations around the shape of the frame,
+
+171
+00:08:39,520 --> 00:08:41,919
+they were actually relaxed quite significantly.
+
+172
+00:08:42,539 --> 00:08:47,190
+And we saw the bikes, like this famous lotus bike and a few others
+
+173
+00:08:47,450 --> 00:08:50,549
+that they had a frame that was no triangular
+
+174
+00:08:50,830 --> 00:08:52,260
+and a few other innovations.
+
+175
+00:08:53,289 --> 00:08:58,140
+And, uh, but then, since then, UCI I, um, tried to put more, uh,
+
+176
+00:08:58,150 --> 00:09:00,669
+control about what is happening because
+
+177
+00:09:00,890 --> 00:09:04,309
+things that run away maybe a little bit too fast for what
+
+178
+00:09:04,320 --> 00:09:07,150
+it was the understanding of the UCI I at the time.
+
+179
+00:09:08,210 --> 00:09:09,039
+So
+
+180
+00:09:09,340 --> 00:09:10,809
+the governing body,
+
+181
+00:09:11,020 --> 00:09:12,640
+uh, has to con
+
+182
+00:09:12,820 --> 00:09:15,400
+to control the sport. You cannot really
+
+183
+00:09:16,070 --> 00:09:18,229
+let let leave it completely free
+
+184
+00:09:18,750 --> 00:09:21,969
+because, uh, you know the moment you have a,
+
+185
+00:09:22,989 --> 00:09:26,570
+uh, no, the rider and the machine. Then what stops you from? I don't know.
+
+186
+00:09:26,580 --> 00:09:28,900
+Start putting engines on and stuff like this,
+
+187
+00:09:28,909 --> 00:09:30,950
+and then you're ending up with a motorbike
+
+188
+00:09:31,260 --> 00:09:33,950
+and then you're ending up with a rocket or ending up.
+
+189
+00:09:33,960 --> 00:09:36,929
+I know going, you know that that that's not a sport anymore.
+
+190
+00:09:37,179 --> 00:09:42,289
+So every sport has to have regulations, Uh, the regulations in general,
+
+191
+00:09:42,789 --> 00:09:47,130
+and now they do change a lot slower comparing to what they were.
+
+192
+00:09:47,780 --> 00:09:52,950
+So these regulations is worth saying that these regulations that are primarily
+
+193
+00:09:54,119 --> 00:09:56,909
+for the road bikes and for the track bikes.
+
+194
+00:09:56,919 --> 00:10:02,320
+So there's a lot of detail on what you may call the road. What is a road racing bike is,
+
+195
+00:10:02,609 --> 00:10:05,140
+and what is a truck racing bike is
+
+196
+00:10:05,580 --> 00:10:10,710
+when you're going into other categories like, uh, mountain bike and BMX,
+
+197
+00:10:10,849 --> 00:10:12,940
+there's a lot less regulation.
+
+198
+00:10:13,419 --> 00:10:17,739
+That's why you also see a lot larger variety.
+
+199
+00:10:18,780 --> 00:10:24,489
+Um, regulation. Of course it it can be seen as a good and a bad thing, in my opinion is
+
+200
+00:10:24,890 --> 00:10:26,479
+you have to have a regulation,
+
+201
+00:10:26,859 --> 00:10:29,200
+Uh, but you also have to be able to,
+
+202
+00:10:30,059 --> 00:10:31,039
+uh, keep
+
+203
+00:10:32,289 --> 00:10:36,909
+modifying the regulation as time is going by to allow for development.
+
+204
+00:10:37,549 --> 00:10:41,409
+I don't think we're going to see bikes as they were
+
+205
+00:10:41,719 --> 00:10:47,380
+in the late 18 hundreds, with the huge front wheel and the tiny
+
+206
+00:10:47,489 --> 00:10:48,599
+rear wheel like the P
+
+207
+00:10:48,890 --> 00:10:48,940
+Far
+
+208
+00:10:49,090 --> 00:10:49,510
+things.
+
+209
+00:10:49,869 --> 00:10:53,609
+Uh, because if at the time, they were saying, This is the bike,
+
+210
+00:10:53,619 --> 00:10:55,640
+how we know it and we stick with that,
+
+211
+00:10:55,869 --> 00:10:58,729
+then that's all we would know even today.
+
+212
+00:10:59,250 --> 00:11:01,809
+So thank God for that. They haven't stuck to that.
+
+213
+00:11:02,869 --> 00:11:06,619
+Uh then, as I said earlier on, by necessity,
+
+214
+00:11:06,630 --> 00:11:09,549
+the technology was developing quite slowly
+
+215
+00:11:09,869 --> 00:11:11,890
+till about, um,
+
+216
+00:11:12,020 --> 00:11:14,770
+sometime around the eighties or so,
+
+217
+00:11:15,510 --> 00:11:17,650
+and then things start moving
+
+218
+00:11:17,909 --> 00:11:18,950
+on in aerodynamics.
+
+219
+00:11:19,070 --> 00:11:22,059
+They were brought in, and then you had, like, uh
+
+220
+00:11:22,450 --> 00:11:25,570
+uh, some shapes. And so on the bike start changing
+
+221
+00:11:25,859 --> 00:11:30,690
+and disc wheels, they they start appearing and aerodynamic helmets and all that.
+
+222
+00:11:32,039 --> 00:11:35,390
+And that was primarily the outcome of
+
+223
+00:11:35,830 --> 00:11:38,989
+national teams and professional level cyclists,
+
+224
+00:11:39,390 --> 00:11:42,349
+uh, national teams at the time,
+
+225
+00:11:42,669 --> 00:11:45,549
+primarily the likes of the
+
+226
+00:11:45,979 --> 00:11:48,640
+East Germans and, uh, the ex
+
+227
+00:11:48,750 --> 00:11:50,229
+Soviet Union and
+
+228
+00:11:50,539 --> 00:11:51,390
+block,
+
+229
+00:11:51,750 --> 00:11:54,590
+uh, they started it, probably in the late seventies.
+
+230
+00:11:55,419 --> 00:11:57,400
+Then in the early eighties,
+
+231
+00:11:57,409 --> 00:12:00,719
+the Americans they start taking over with the Los Angeles Olympics,
+
+232
+00:12:00,729 --> 00:12:01,750
+and they had all these
+
+233
+00:12:01,890 --> 00:12:06,440
+bikes with different wheel diameters and aerodynamic helmets and so on.
+
+234
+00:12:07,210 --> 00:12:10,270
+And then more innovation, uh, start coming in.
+
+235
+00:12:10,280 --> 00:12:13,919
+Um, in the early eighties was also the disc wheels,
+
+236
+00:12:14,289 --> 00:12:16,940
+and when they came in uh, Francesco Moser
+
+237
+00:12:17,080 --> 00:12:17,989
+was the first one
+
+238
+00:12:18,109 --> 00:12:20,229
+who actually used the Hour Record that he did.
+
+239
+00:12:20,690 --> 00:12:25,030
+Can't remember the exact year. I think it was 8382. Something like that.
+
+240
+00:12:25,830 --> 00:12:27,090
+And, uh,
+
+241
+00:12:27,539 --> 00:12:30,859
+then, uh, this started going, uh,
+
+242
+00:12:31,349 --> 00:12:34,969
+more for a for a time that you I tried to restrict it.
+
+243
+00:12:35,760 --> 00:12:42,020
+Uh, but then it was in 91. If I remember correctly that UCI I they open up the rules,
+
+244
+00:12:42,559 --> 00:12:45,460
+they removed the requirements for the triangular frame.
+
+245
+00:12:46,030 --> 00:12:47,190
+That's when Lotus,
+
+246
+00:12:47,590 --> 00:12:48,599
+which, in fact,
+
+247
+00:12:49,219 --> 00:12:49,859
+uh,
+
+248
+00:12:50,849 --> 00:12:54,440
+it was a lotus, uh, that actually designed the bike.
+
+249
+00:12:54,570 --> 00:12:59,229
+Uh, but Lotus actually manufactured it and actually did the improvements.
+
+250
+00:12:59,669 --> 00:13:01,909
+Uh, so, um,
+
+251
+00:13:02,650 --> 00:13:06,380
+the bike that Chris Boardman rode in 92 it was
+
+252
+00:13:07,210 --> 00:13:09,320
+very different compared to the previous bikes.
+
+253
+00:13:09,330 --> 00:13:11,440
+But it was not the only the only bike that was very different.
+
+254
+00:13:11,450 --> 00:13:15,789
+The the Germans, they had, like, a a version of a triangular FRA frame,
+
+255
+00:13:16,489 --> 00:13:18,830
+Uh, which it was, like, an unusual shape.
+
+256
+00:13:19,280 --> 00:13:20,150
+And then after that,
+
+257
+00:13:20,159 --> 00:13:22,869
+everybody started coming up with their weird and wonderful things.
+
+258
+00:13:23,530 --> 00:13:25,500
+And then I think it was, um,
+
+259
+00:13:26,669 --> 00:13:30,659
+97 or 98 if I remember correctly UCI. They said
+
+260
+00:13:31,419 --> 00:13:32,590
+we have to stop this.
+
+261
+00:13:32,599 --> 00:13:36,489
+And, uh, from the first of January 2000, the bikes,
+
+262
+00:13:36,500 --> 00:13:40,750
+they still have to go back to the original two triangles,
+
+263
+00:13:41,460 --> 00:13:43,400
+minimums and maximums and so on.
+
+264
+00:13:44,849 --> 00:13:48,590
+There was a bit of a quiet period, but then
+
+265
+00:13:48,820 --> 00:13:51,989
+the engineers that were working with the companies, they
+
+266
+00:13:52,890 --> 00:13:55,830
+start realising they start pushing the envelope a
+
+267
+00:13:55,840 --> 00:13:57,489
+bit and pushing it a little bit more,
+
+268
+00:13:57,500 --> 00:13:58,750
+pushing it a little bit more.
+
+269
+00:13:59,059 --> 00:14:04,989
+And at the time you may say UCI. I got a little bit, um
+
+270
+00:14:06,059 --> 00:14:06,900
+uh, sleeping,
+
+271
+00:14:06,909 --> 00:14:12,919
+if I can say because they didn't really have a technical expert to be able to
+
+272
+00:14:13,219 --> 00:14:16,599
+measure all these things and enforce the regulations.
+
+273
+00:14:18,150 --> 00:14:20,049
+So then, uh,
+
+274
+00:14:20,210 --> 00:14:21,469
+I think it was, uh,
+
+275
+00:14:21,479 --> 00:14:25,890
+after the 2008 Olympics that they usually they put a lot more detail
+
+276
+00:14:26,330 --> 00:14:30,090
+and, uh, the regulations, they became more or less what we know today.
+
+277
+00:14:30,099 --> 00:14:32,090
+A lot of things change. Also since
+
+278
+00:14:32,440 --> 00:14:33,340
+2010,
+
+279
+00:14:33,690 --> 00:14:39,960
+uh, but, uh, the basic, um, idea of all these measurements and so on.
+
+280
+00:14:39,969 --> 00:14:42,210
+Although it started in 97
+
+281
+00:14:43,119 --> 00:14:44,479
+98 I think it was.
+
+282
+00:14:44,700 --> 00:14:46,700
+It started in 98. Um,
+
+283
+00:14:47,489 --> 00:14:48,669
+then, uh, it
+
+284
+00:14:49,340 --> 00:14:52,359
+pretty much like, uh developed to what we know today,
+
+285
+00:14:52,770 --> 00:14:53,520
+um,
+
+286
+00:14:54,989 --> 00:15:00,219
+somewhere between 4010 and then today there is a lot of regulation,
+
+287
+00:15:00,489 --> 00:15:04,770
+and today UCI I is a lot more technically capable. If I can say
+
+288
+00:15:05,700 --> 00:15:07,030
+so, if you
+
+289
+00:15:07,270 --> 00:15:11,150
+come up with a design, you have to register that design, which
+
+290
+00:15:11,330 --> 00:15:11,659
+I
+
+291
+00:15:12,820 --> 00:15:18,280
+you have to give them a 3D, uh, file that represents the entire frame.
+
+292
+00:15:19,330 --> 00:15:23,570
+And, uh, they have a laser scanner that they can come to the race and
+
+293
+00:15:24,150 --> 00:15:25,309
+they can scan it
+
+294
+00:15:25,450 --> 00:15:28,669
+and compare it to what you told them it will be.
+
+295
+00:15:29,729 --> 00:15:30,630
+So,
+
+296
+00:15:30,919 --> 00:15:31,710
+uh,
+
+297
+00:15:32,140 --> 00:15:35,020
+that, uh, laser scanning technology is very accurate.
+
+298
+00:15:35,030 --> 00:15:39,229
+We talk about two microns, no less than thickness of a piece of paper.
+
+299
+00:15:39,739 --> 00:15:40,549
+And, uh,
+
+300
+00:15:41,559 --> 00:15:45,190
+the tolerance that they have with this is like plus or minus a millimetre.
+
+301
+00:15:45,630 --> 00:15:49,780
+So you don't really have much room to play. You know, you can easily just
+
+302
+00:15:49,900 --> 00:15:52,219
+go a little bit aggressive with your paint
+
+303
+00:15:52,320 --> 00:15:54,150
+and paint a little bit too thick,
+
+304
+00:15:54,609 --> 00:15:57,289
+and you can start coming out of the the tolerances.
+
+305
+00:15:57,429 --> 00:15:57,590
+And it's
+
+306
+00:15:57,750 --> 00:15:58,179
+not for road
+
+307
+00:15:58,289 --> 00:15:59,729
+bikes as well. So you mean
+
+308
+00:16:00,200 --> 00:16:00,309
+Yeah.
+
+309
+00:16:00,869 --> 00:16:01,150
+Yeah,
+
+310
+00:16:01,919 --> 00:16:02,239
+yeah.
+
+311
+00:16:02,520 --> 00:16:05,409
+Although the regulation is supposed to be for everything in
+
+312
+00:16:05,659 --> 00:16:10,700
+effect right now is specifically talking about road bikes
+
+313
+00:16:11,090 --> 00:16:14,330
+and, uh, track bikes, road time trial,
+
+314
+00:16:14,340 --> 00:16:17,219
+and must start so the likes and museum to the front
+
+315
+00:16:17,659 --> 00:16:20,619
+and the same thing for the truck. So you have the
+
+316
+00:16:20,739 --> 00:16:24,099
+the bikes and racing say individual pursuit and so on.
+
+317
+00:16:25,229 --> 00:16:27,859
+And also the kind of bikes that you're racing like a
+
+318
+00:16:28,169 --> 00:16:28,190
+no
+
+319
+00:16:28,419 --> 00:16:30,869
+points race and sprint and stuff like that.
+
+320
+00:16:30,900 --> 00:16:33,929
+All these are under these very strict regulations
+
+321
+00:16:34,460 --> 00:16:38,489
+and probably you and I, we are responsible for that
+
+322
+00:16:40,159 --> 00:16:41,210
+party at least.
+
+323
+00:16:42,780 --> 00:16:45,599
+Yeah, which we'll we'll definitely get into. Um,
+
+324
+00:16:46,030 --> 00:16:48,809
+so the other key thing if I'm not mistaken,
+
+325
+00:16:49,289 --> 00:16:50,090
+is
+
+326
+00:16:50,969 --> 00:16:52,429
+any bike
+
+327
+00:16:52,719 --> 00:16:54,030
+that is used
+
+328
+00:16:54,650 --> 00:16:57,280
+at a UCI event. Let's say
+
+329
+00:16:58,020 --> 00:17:00,950
+at, um, on loop last week or in,
+
+330
+00:17:01,169 --> 00:17:02,429
+you have to be able to buy it.
+
+331
+00:17:02,570 --> 00:17:03,210
+Is that right?
+
+332
+00:17:03,640 --> 00:17:05,868
+Uh, public has to be able to buy that bike.
+
+333
+00:17:06,630 --> 00:17:07,848
+Yes. Yes. So
+
+334
+00:17:08,368 --> 00:17:10,930
+the regulation was always there,
+
+335
+00:17:12,449 --> 00:17:14,739
+at least as far as I remember since the nineties,
+
+336
+00:17:14,750 --> 00:17:17,189
+or even before there was a line in there that
+
+337
+00:17:17,199 --> 00:17:20,050
+was saying that the bike should be commercially available,
+
+338
+00:17:22,358 --> 00:17:23,459
+and, uh,
+
+339
+00:17:24,229 --> 00:17:29,119
+the although these things they were supposed to be commercially available.
+
+340
+00:17:29,598 --> 00:17:29,609
+Uh,
+
+341
+00:17:29,619 --> 00:17:32,448
+there are plenty of examples out there
+
+342
+00:17:32,458 --> 00:17:35,298
+that they were actually not commercially available.
+
+343
+00:17:35,848 --> 00:17:41,729
+Uh, there were There were prices. Uh, you could, in theory ask, uh but,
+
+344
+00:17:42,379 --> 00:17:45,389
+uh, I'm not I'm not aware of anybody getting forsake
+
+345
+00:17:46,109 --> 00:17:48,739
+the bike the Americans they had in, uh,
+
+346
+00:17:49,088 --> 00:17:52,418
+1984 in Los Angeles or in 96 in Atlanta
+
+347
+00:17:52,890 --> 00:17:56,530
+or the, um, the FES, the Germans. They had,
+
+348
+00:17:57,030 --> 00:18:01,709
+uh, they still have, uh, or all sorts of other special projects that people do,
+
+349
+00:18:02,359 --> 00:18:03,859
+including the the British team.
+
+350
+00:18:03,869 --> 00:18:10,619
+Although nowadays it specifically stipulates that there is a specific timescale
+
+351
+00:18:10,959 --> 00:18:13,219
+that the bike has to go to the market.
+
+352
+00:18:14,030 --> 00:18:19,410
+And, uh, you do see today people, they are buying those bikes. I know
+
+353
+00:18:19,640 --> 00:18:24,010
+there are at least a small number of the bikes that, uh,
+
+354
+00:18:24,670 --> 00:18:29,790
+we did for the Tokyo Olympics, and I saw private riders knowing private,
+
+355
+00:18:29,819 --> 00:18:31,609
+private individuals racing them
+
+356
+00:18:31,939 --> 00:18:34,969
+on, I don't know, masters categories and stuff like that.
+
+357
+00:18:35,930 --> 00:18:38,430
+And it is the bike that it was the
+
+358
+00:18:38,780 --> 00:18:40,089
+2020
+
+359
+00:18:40,739 --> 00:18:42,640
+Olympic Games bike, the British C
+
+360
+00:18:42,979 --> 00:18:43,150
+card.
+
+361
+00:18:43,660 --> 00:18:50,140
+Having said all that, I'm not aware of any of the FES, uh, bikes. Anybody else racing?
+
+362
+00:18:50,150 --> 00:18:52,630
+Maybe they do. But II, I just don't know.
+
+363
+00:18:53,140 --> 00:18:54,430
+But yes, you're right about it.
+
+364
+00:18:54,439 --> 00:18:59,270
+The bike has to be commercially available, and that is policed a lot more nowadays.
+
+365
+00:19:00,420 --> 00:19:03,829
+So if you designing. So I guess one of the things that
+
+366
+00:19:03,939 --> 00:19:05,020
+you, um
+
+367
+00:19:06,130 --> 00:19:06,949
+your
+
+368
+00:19:07,189 --> 00:19:10,630
+well, people may not know, but I think it has been one of the big things.
+
+369
+00:19:10,640 --> 00:19:12,069
+Is your work with Pinarello? So
+
+370
+00:19:13,140 --> 00:19:14,069
+when did that?
+
+371
+00:19:14,250 --> 00:19:16,290
+When did that start? That
+
+372
+00:19:17,089 --> 00:19:18,969
+you mean my collaboration with Pinarello?
+
+373
+00:19:20,810 --> 00:19:21,189
+Uh,
+
+374
+00:19:22,880 --> 00:19:27,540
+depending on how far back you want to go. But properly,
+
+375
+00:19:28,500 --> 00:19:31,000
+properly, it started
+
+376
+00:19:31,380 --> 00:19:32,949
+as in, Um
+
+377
+00:19:33,800 --> 00:19:35,780
+uh, hold on a minute. Let me think a little bit.
+
+378
+00:19:36,349 --> 00:19:39,739
+I did the first full bike for Pinarello,
+
+379
+00:19:40,310 --> 00:19:43,530
+and it was released in 2013. Which it was the Pinarello
+
+380
+00:19:43,750 --> 00:19:43,869
+Bo
+
+381
+00:19:44,140 --> 00:19:46,219
+the the the time trial bike.
+
+382
+00:19:47,189 --> 00:19:50,849
+But, uh uh, Bradley Wiggins rode that year.
+
+383
+00:19:51,290 --> 00:19:54,209
+And, um, later on, Chris Froome and so on.
+
+384
+00:19:55,099 --> 00:19:59,719
+Uh, before that, uh, there were some minor things that I've done for Pinarello
+
+385
+00:19:59,839 --> 00:20:03,239
+RLO, but it was very much like an on off, uh, relationship before that.
+
+386
+00:20:04,500 --> 00:20:06,140
+But since 2013,
+
+387
+00:20:06,420 --> 00:20:08,750
+uh, like, um, I collaborate with
+
+388
+00:20:09,150 --> 00:20:11,400
+gulo in countless projects.
+
+389
+00:20:11,839 --> 00:20:14,800
+Uh, there are always projects in the pipeline.
+
+390
+00:20:14,810 --> 00:20:17,160
+Uh, please don't ask me to tell you the future projects,
+
+391
+00:20:18,550 --> 00:20:18,569
+I.
+
+392
+00:20:18,780 --> 00:20:21,910
+I can I can talk about the old ones because, you know,
+
+393
+00:20:21,920 --> 00:20:24,199
+they're in the public domain and you can find those,
+
+394
+00:20:24,689 --> 00:20:26,170
+uh, and, uh,
+
+395
+00:20:26,479 --> 00:20:27,439
+like, uh
+
+396
+00:20:27,699 --> 00:20:27,910
+for
+
+397
+00:20:28,520 --> 00:20:31,660
+Pinarello. Um, did the time trial bikes like the B
+
+398
+00:20:31,959 --> 00:20:32,770
+series
+
+399
+00:20:33,489 --> 00:20:35,670
+and, uh, did also the Dogma
+
+400
+00:20:35,839 --> 00:20:36,949
+F series
+
+401
+00:20:37,390 --> 00:20:40,430
+like, uh, F 8 1012 dog,
+
+402
+00:20:40,569 --> 00:20:41,430
+my F and all that.
+
+403
+00:20:42,140 --> 00:20:43,079
+So
+
+404
+00:20:43,569 --> 00:20:44,469
+And they may.
+
+405
+00:20:44,479 --> 00:20:50,920
+They got quite a lot of, um, significant improvements that we had on, uh, on those.
+
+406
+00:20:51,959 --> 00:20:52,859
+Um,
+
+407
+00:20:53,479 --> 00:20:55,140
+Do you want me to go through those?
+
+408
+00:20:55,380 --> 00:20:57,400
+I was more interested to know.
+
+409
+00:20:58,040 --> 00:20:58,640
+Um,
+
+410
+00:20:59,520 --> 00:21:00,239
+so I think
+
+411
+00:21:00,530 --> 00:21:02,859
+people think like aerodynamics.
+
+412
+00:21:03,140 --> 00:21:03,489
+Yeah,
+
+413
+00:21:03,979 --> 00:21:05,540
+People think about weight.
+
+414
+00:21:05,680 --> 00:21:05,969
+Yeah,
+
+415
+00:21:06,599 --> 00:21:07,770
+And stiffness.
+
+416
+00:21:08,239 --> 00:21:11,160
+How do you for a modern day bike
+
+417
+00:21:11,290 --> 00:21:12,459
+that I've got one?
+
+418
+00:21:12,750 --> 00:21:13,540
+Well, I haven't got Pinarello
+
+419
+00:21:13,900 --> 00:21:14,739
+here. It's another brand.
+
+420
+00:21:15,660 --> 00:21:17,040
+It's dirty. So I'm not gonna
+
+421
+00:21:18,300 --> 00:21:18,550
+um
+
+422
+00:21:19,349 --> 00:21:21,780
+what what is the actual influence of each?
+
+423
+00:21:24,180 --> 00:21:28,069
+Yeah, that That's a very good question. Which, actually that summarises
+
+424
+00:21:28,400 --> 00:21:31,439
+pretty much my collaboration with Pinarello.
+
+425
+00:21:31,900 --> 00:21:32,550
+Like, uh,
+
+426
+00:21:34,079 --> 00:21:37,150
+I, uh I delivered the the bo
+
+427
+00:21:37,790 --> 00:21:38,729
+uh, the first bo
+
+428
+00:21:38,959 --> 00:21:39,400
+to Pinarello
+
+429
+00:21:40,430 --> 00:21:42,739
+and the early 2013
+
+430
+00:21:43,660 --> 00:21:49,760
+And then, uh, not long after that, started working on what later became the Dogma
+
+431
+00:21:50,010 --> 00:21:50,760
+F eight.
+
+432
+00:21:51,920 --> 00:21:55,969
+And I remember we had this meeting at Pinarello
+
+433
+00:21:56,319 --> 00:21:58,380
+and we were sitting over there. We were planning,
+
+434
+00:21:59,689 --> 00:22:05,439
+uh, how to try and do it. And at the time, it was very common that, uh,
+
+435
+00:22:06,069 --> 00:22:08,989
+all major brands, uh, like, Cervelo
+
+436
+00:22:09,479 --> 00:22:12,920
+track specialised pretty much anybody who was anybody,
+
+437
+00:22:13,270 --> 00:22:14,790
+uh, had two
+
+438
+00:22:15,140 --> 00:22:15,689
+top
+
+439
+00:22:15,859 --> 00:22:18,599
+level bikes, had a a lightweight bike,
+
+440
+00:22:18,920 --> 00:22:20,349
+an aerodynamic bike.
+
+441
+00:22:21,160 --> 00:22:22,329
+And, uh, I
+
+442
+00:22:22,439 --> 00:22:24,229
+remember that, uh, I had
+
+443
+00:22:24,459 --> 00:22:26,380
+when we were discussing all this, I had to,
+
+444
+00:22:26,829 --> 00:22:27,660
+um,
+
+445
+00:22:27,930 --> 00:22:29,780
+stand up and tell, uh
+
+446
+00:22:30,400 --> 00:22:31,060
+uh, the Pinarello
+
+447
+00:22:31,270 --> 00:22:34,219
+guys and also the team sky guys as they
+
+448
+00:22:34,349 --> 00:22:35,099
+was at the time.
+
+449
+00:22:35,890 --> 00:22:39,569
+But in my opinion, it should be one bike
+
+450
+00:22:39,839 --> 00:22:40,829
+that does it all,
+
+451
+00:22:41,589 --> 00:22:46,739
+Uh, because you cannot really have, uh, a different bike
+
+452
+00:22:46,979 --> 00:22:48,130
+for
+
+453
+00:22:48,420 --> 00:22:49,930
+you're racing a race.
+
+454
+00:22:49,939 --> 00:22:54,329
+Most of the races they have, uh, Mountain, Beach, Beach and Flat Beach.
+
+455
+00:22:55,290 --> 00:22:59,790
+Quite a few times the mountain stages. They are quite distinct.
+
+456
+00:22:59,800 --> 00:23:06,459
+But nowadays they start going more and more a blend of between flat and mountains.
+
+457
+00:23:07,880 --> 00:23:09,150
+So, uh,
+
+458
+00:23:09,380 --> 00:23:10,869
+you cannot really have
+
+459
+00:23:11,359 --> 00:23:16,060
+some people they doing it, but, uh, thank God, Not much. They changing bike
+
+460
+00:23:16,439 --> 00:23:19,319
+on, uh, like, uh, on the foot of a mountain.
+
+461
+00:23:19,900 --> 00:23:22,280
+They primarily do that on time trials. And so
+
+462
+00:23:22,699 --> 00:23:24,550
+but nobody is doing it. Thank God for that.
+
+463
+00:23:24,560 --> 00:23:28,150
+Nobody is doing it on the must start when you have 100 naked riders,
+
+464
+00:23:28,550 --> 00:23:30,790
+uh, starting, you know, trying to change bikes.
+
+465
+00:23:30,800 --> 00:23:32,069
+So that would be an absolute nightmare.
+
+466
+00:23:32,800 --> 00:23:38,969
+So I said it has to be a good balance between strength, stiffness,
+
+467
+00:23:39,060 --> 00:23:40,959
+aerodynamics and lightweight.
+
+468
+00:23:41,839 --> 00:23:46,550
+So there will be, of course, a bit of a weight penalty
+
+469
+00:23:46,880 --> 00:23:50,270
+if you try to do a bike. But it is,
+
+470
+00:23:50,599 --> 00:23:51,270
+um,
+
+471
+00:23:52,270 --> 00:23:54,630
+have reasonable aerodynamics
+
+472
+00:23:54,760 --> 00:23:58,390
+comparing to an all out lightweight bike.
+
+473
+00:23:59,140 --> 00:23:59,920
+Uh,
+
+474
+00:24:00,160 --> 00:24:02,459
+but actually, the difference is not much.
+
+475
+00:24:02,469 --> 00:24:05,260
+The difference is somewhere in the region of about
+
+476
+00:24:05,920 --> 00:24:07,680
+100 to 100 and 50 grammes.
+
+477
+00:24:07,839 --> 00:24:11,819
+Some people, they may argue. Oh, you can do it light. And you can do 600 gramme frame.
+
+478
+00:24:11,829 --> 00:24:12,790
+But we talk about
+
+479
+00:24:13,150 --> 00:24:16,280
+frames that they can last, and they're not gonna just,
+
+480
+00:24:16,459 --> 00:24:16,469
+uh,
+
+481
+00:24:17,180 --> 00:24:20,859
+start taking damage. The moment I know something minor happens.
+
+482
+00:24:21,699 --> 00:24:28,280
+So the idea was always you need a bike that it will take you from a to B
+
+483
+00:24:29,459 --> 00:24:30,900
+multiple times,
+
+484
+00:24:31,579 --> 00:24:33,520
+so it has to be durable. Also,
+
+485
+00:24:33,770 --> 00:24:35,599
+it has to be relatively
+
+486
+00:24:36,729 --> 00:24:41,060
+relatively speaking, simple to work. Also, if there is a damage
+
+487
+00:24:41,250 --> 00:24:44,300
+or if there is a you need to change the wheel or something like this,
+
+488
+00:24:44,310 --> 00:24:45,550
+it is relatively speaking, easy.
+
+489
+00:24:46,270 --> 00:24:50,640
+And it also has to be aerodynamic enough that it doesn't really hold you back.
+
+490
+00:24:50,650 --> 00:24:52,010
+Uh, anything significant
+
+491
+00:24:53,359 --> 00:24:56,219
+and also lightweight enough.
+
+492
+00:24:56,979 --> 00:25:02,890
+So the the Dogma F8 It was the first one that, uh, I did for Pinarello
+
+493
+00:25:03,170 --> 00:25:06,910
+that was actually taking all this philosophy and putting it on to one bike.
+
+494
+00:25:08,050 --> 00:25:13,430
+And, uh, I'm quite proud to say that pretty much today not far from every major brand,
+
+495
+00:25:13,439 --> 00:25:14,709
+is going down this route
+
+496
+00:25:15,530 --> 00:25:16,469
+because
+
+497
+00:25:16,609 --> 00:25:21,290
+they all came up to more or less the same conclusion that we did at the time that the
+
+498
+00:25:22,319 --> 00:25:26,329
+you'd make a bike actually pretty good for aerodynamics.
+
+499
+00:25:27,300 --> 00:25:28,040
+Uh,
+
+500
+00:25:28,530 --> 00:25:28,979
+and, uh,
+
+501
+00:25:28,989 --> 00:25:34,439
+the weight penalties as I said something in the region of about 100 250 grammes
+
+502
+00:25:35,800 --> 00:25:40,560
+and, uh, with the minimum weight of UCI, I
+
+503
+00:25:40,920 --> 00:25:42,760
+actually that works very well.
+
+504
+00:25:43,280 --> 00:25:46,400
+If you didn't have this minimum weight limit,
+
+505
+00:25:46,410 --> 00:25:49,060
+then you would probably have everybody going for light weight
+
+506
+00:25:49,369 --> 00:25:52,140
+because in cycling, everybody is obsessed with the weight
+
+507
+00:25:52,260 --> 00:25:53,760
+because you can measure it very easily.
+
+508
+00:25:54,160 --> 00:25:57,599
+But aerodynamics is something you cannot measure very easily.
+
+509
+00:25:57,989 --> 00:26:01,250
+You have to have wind tunnel testing or
+
+510
+00:26:01,459 --> 00:26:05,449
+nowadays they have these little pods they can measure these speeds.
+
+511
+00:26:05,459 --> 00:26:07,189
+But again, you really need to know what you're doing.
+
+512
+00:26:07,780 --> 00:26:11,609
+You cannot just put on your bike and go out right and find out where it is.
+
+513
+00:26:12,260 --> 00:26:15,880
+Uh, and all these measurements as we know they do have, um,
+
+514
+00:26:16,069 --> 00:26:17,959
+quite a lot of tolerances.
+
+515
+00:26:18,130 --> 00:26:20,000
+When you start going into the,
+
+516
+00:26:20,319 --> 00:26:24,920
+I don't know, 1% difference or below things start going a little bit unstable.
+
+517
+00:26:26,160 --> 00:26:26,979
+So
+
+518
+00:26:28,160 --> 00:26:30,060
+to give you an idea the
+
+519
+00:26:32,430 --> 00:26:35,760
+the F eight, the first dogma that I did for Pinarello
+
+520
+00:26:37,219 --> 00:26:39,540
+Uh, we did quite a lot of development, uh,
+
+521
+00:26:39,550 --> 00:26:42,640
+about the different sizes and shapes of the tubes,
+
+522
+00:26:42,910 --> 00:26:46,560
+both for the frame of the fork location of the water bottles. And
+
+523
+00:26:46,849 --> 00:26:48,560
+also, how do you
+
+524
+00:26:49,119 --> 00:26:52,839
+partially integrate, uh, parts onto the bike?
+
+525
+00:26:52,900 --> 00:26:56,369
+So in effect, Although at the time that this breaks there,
+
+526
+00:26:56,380 --> 00:26:58,199
+they were not what we know today.
+
+527
+00:26:58,209 --> 00:27:00,209
+They were just the rim brakes in the standard
+
+528
+00:27:00,329 --> 00:27:00,680
+ones
+
+529
+00:27:01,369 --> 00:27:03,270
+uh, the bike was designed
+
+530
+00:27:03,560 --> 00:27:04,859
+that you have,
+
+531
+00:27:04,979 --> 00:27:06,359
+uh, rim brakes on,
+
+532
+00:27:07,390 --> 00:27:10,859
+but specifically that you have rim brakes on. If you don't design it,
+
+533
+00:27:11,199 --> 00:27:13,439
+you design a bike and you put the rim brake on.
+
+534
+00:27:13,650 --> 00:27:15,680
+But, you know, this is the rim brake.
+
+535
+00:27:15,689 --> 00:27:18,339
+How can you design the rest of the bike that
+
+536
+00:27:18,349 --> 00:27:21,319
+you do not present to the airflow to different bits?
+
+537
+00:27:21,329 --> 00:27:22,099
+You don't have the the
+
+538
+00:27:22,219 --> 00:27:25,500
+brake over here, the fork over there. But you put one behind the other
+
+539
+00:27:26,750 --> 00:27:28,859
+very simple things, actually, to be fair.
+
+540
+00:27:29,390 --> 00:27:32,699
+But, uh, it seems to me that before that time, nobody thought of it.
+
+541
+00:27:33,500 --> 00:27:34,479
+So
+
+542
+00:27:34,599 --> 00:27:38,000
+the outcome of that one, you may say, OK, what was the outcome?
+
+543
+00:27:38,339 --> 00:27:40,920
+So the outcome of all that and this is not
+
+544
+00:27:40,930 --> 00:27:43,439
+marketing because this is like old news you talking about?
+
+545
+00:27:43,449 --> 00:27:45,660
+The pipeline was on the market
+
+546
+00:27:45,839 --> 00:27:47,280
+over 10 years ago by now.
+
+547
+00:27:48,199 --> 00:27:55,130
+Uh, so the outcome of that one, that bike, uh, the previous, uh, frame was over a kilo.
+
+548
+00:27:55,780 --> 00:27:58,619
+I don't remember the exact numbers. I think it was something like
+
+549
+00:27:58,760 --> 00:28:00,439
+the range of 1 kg. 100.
+
+550
+00:28:01,589 --> 00:28:05,939
+Uh, the F8 was around 850 grammes the frame,
+
+551
+00:28:06,650 --> 00:28:09,060
+so there was a significant difference in the rate
+
+552
+00:28:10,469 --> 00:28:15,060
+the stiffness go went up because we did a lot of FE
+
+553
+00:28:15,069 --> 00:28:19,339
+a or what is the optimum size and shape of individual tubes?
+
+554
+00:28:19,869 --> 00:28:20,329
+Uh,
+
+555
+00:28:20,589 --> 00:28:23,290
+down tube change, the AC tube and all that stuff,
+
+556
+00:28:23,609 --> 00:28:28,239
+uh, of what is the optimum size and shape and location of that tube,
+
+557
+00:28:29,589 --> 00:28:34,569
+which gave us a lot of you may call it free stiffness. If I could say
+
+558
+00:28:35,069 --> 00:28:38,290
+which also is translated on the reduction of weight
+
+559
+00:28:39,229 --> 00:28:42,449
+and, uh, also in terms of aerodynamics
+
+560
+00:28:42,750 --> 00:28:45,170
+on frame and fork level,
+
+561
+00:28:46,119 --> 00:28:47,319
+at least on CFD,
+
+562
+00:28:47,510 --> 00:28:51,040
+which is the simulation, uh, on the
+
+563
+00:28:51,550 --> 00:28:53,400
+on aerodynamics, um,
+
+564
+00:28:53,660 --> 00:28:55,780
+on CFD frame and four was
+
+565
+00:28:56,180 --> 00:28:58,239
+47%
+
+566
+00:28:58,569 --> 00:29:01,160
+lower drug than the previous version,
+
+567
+00:29:01,989 --> 00:29:03,430
+Which you may say,
+
+568
+00:29:04,189 --> 00:29:05,689
+that sounds like a very big number.
+
+569
+00:29:06,729 --> 00:29:08,290
+And then I think it was
+
+570
+00:29:09,420 --> 00:29:12,510
+it was on the bike level, something that is,
+
+571
+00:29:12,969 --> 00:29:17,160
+I may be slightly wrong on these numbers, but you can check it. There is a white paper
+
+572
+00:29:17,369 --> 00:29:17,459
+Pinarello
+
+573
+00:29:17,810 --> 00:29:18,619
+they had about the dog
+
+574
+00:29:18,849 --> 00:29:20,109
+by fate. And I think it's still,
+
+575
+00:29:20,979 --> 00:29:21,329
+uh, uh,
+
+576
+00:29:21,729 --> 00:29:23,939
+available somewhere if you If you dig enough,
+
+577
+00:29:24,689 --> 00:29:28,349
+uh, I think on bike level it was something in the region of about
+
+578
+00:29:29,040 --> 00:29:32,760
+17 or 18% difference if I remember correctly
+
+579
+00:29:33,790 --> 00:29:36,780
+and on on bike and rider level.
+
+580
+00:29:36,790 --> 00:29:40,989
+Remember, this is only changing frame and fork, bike and rider level.
+
+581
+00:29:41,000 --> 00:29:43,969
+It was something in the region of about
+
+582
+00:29:44,550 --> 00:29:47,209
+4%. 4 or 4.5% better.
+
+583
+00:29:48,420 --> 00:29:51,699
+And this is you. You change this frame and four only.
+
+584
+00:29:51,839 --> 00:29:54,939
+So you hop from this bike to that bike. The same wheels,
+
+585
+00:29:55,170 --> 00:29:58,280
+same handlebars, Same. I don't know everything else.
+
+586
+00:29:58,849 --> 00:30:04,040
+And, uh, all of a sudden you're finding, um, about 4.5% better.
+
+587
+00:30:05,430 --> 00:30:10,810
+Which this is on CFD, you may say, Yeah. How mu How much do we want to believe? CFD.
+
+588
+00:30:11,369 --> 00:30:15,329
+So we actually did that. After that, we did some wind tunnel testing,
+
+589
+00:30:16,319 --> 00:30:19,520
+and, uh, one important thing over here to, uh,
+
+590
+00:30:19,530 --> 00:30:22,349
+to point out before I go into more detail is
+
+591
+00:30:22,780 --> 00:30:24,579
+that both the CFD and the wind and the
+
+592
+00:30:24,729 --> 00:30:26,540
+testing was trying to replicate
+
+593
+00:30:26,869 --> 00:30:27,560
+the
+
+594
+00:30:27,939 --> 00:30:32,260
+road conditions that the air doesn't only come straight on,
+
+595
+00:30:32,500 --> 00:30:35,000
+but it comes from all sorts of different angles.
+
+596
+00:30:35,109 --> 00:30:36,780
+So we worked out
+
+597
+00:30:37,569 --> 00:30:38,219
+a
+
+598
+00:30:39,010 --> 00:30:42,829
+a probability of encountering different wind, uh,
+
+599
+00:30:42,839 --> 00:30:44,640
+angles and different wind conditions.
+
+600
+00:30:44,869 --> 00:30:47,829
+So we had the formula that we were applying on all those
+
+601
+00:30:47,839 --> 00:30:52,989
+that was giving higher or lower weight to its different wind direction.
+
+602
+00:30:53,719 --> 00:30:55,819
+So we've done this also on the wind tunnel.
+
+603
+00:30:55,829 --> 00:31:00,030
+And remember, on the CFD, on average, it was giving something like about 4.5%
+
+604
+00:31:00,719 --> 00:31:05,699
+Sorry, the CFD was giving 4.5%; the wind tunnel
+
+605
+00:31:05,920 --> 00:31:08,750
+Uh was giving us around 6% but
+
+606
+00:31:09,199 --> 00:31:10,739
+And this is frame and fork only.
+
+607
+00:31:11,380 --> 00:31:13,760
+Same wheel, same handlebar, same everything else.
+
+608
+00:31:14,449 --> 00:31:17,569
+So, in effect, you're hopping from this bike to this bike,
+
+609
+00:31:17,579 --> 00:31:19,199
+which is the only difference is frame and four.
+
+610
+00:31:19,650 --> 00:31:22,560
+And, uh, you need, uh, 6%
+
+611
+00:31:22,869 --> 00:31:24,920
+less power to push you through the air,
+
+612
+00:31:26,020 --> 00:31:26,390
+which,
+
+613
+00:31:26,400 --> 00:31:28,540
+if you are the rolling resistance and all that
+
+614
+00:31:28,550 --> 00:31:32,500
+stuff probably the overall potential improvement it was maybe,
+
+615
+00:31:32,510 --> 00:31:34,119
+let's call it four or 5%
+
+616
+00:31:35,439 --> 00:31:37,599
+but four or 5% of that.
+
+617
+00:31:37,609 --> 00:31:41,880
+All of a sudden, it's almost like if you're producing, say, four or 5% more power
+
+618
+00:31:42,310 --> 00:31:44,079
+when you are already on high level.
+
+619
+00:31:45,170 --> 00:31:47,550
+To find another 5% of power,
+
+620
+00:31:47,949 --> 00:31:51,630
+you can be training the rest of your life and not find this 5% of power,
+
+621
+00:31:52,040 --> 00:31:55,959
+and you could do it simply by just getting off this bike and getting onto this bike.
+
+622
+00:31:56,560 --> 00:31:58,550
+And this was before
+
+623
+00:31:59,000 --> 00:32:03,709
+we, uh, start looking into things like handlebars and so on.
+
+624
+00:32:03,819 --> 00:32:05,020
+Since that time,
+
+625
+00:32:05,319 --> 00:32:09,989
+um, we also found handlebars and so on. They make, like, a large contribution.
+
+626
+00:32:11,150 --> 00:32:17,079
+Uh, that is why, uh, from about 2015 onwards, you still have.
+
+627
+00:32:17,089 --> 00:32:18,859
+You have pretty much every top
+
+628
+00:32:18,969 --> 00:32:19,739
+level bike, has
+
+629
+00:32:20,140 --> 00:32:23,680
+integrated integrated handlebars with aeroc cross sections and so on.
+
+630
+00:32:24,619 --> 00:32:29,439
+Now you may ask the question of, uh, W. How far can you push?
+
+631
+00:32:30,219 --> 00:32:33,339
+How far can you push that aerodynamics
+
+632
+00:32:33,449 --> 00:32:34,890
+within the regulations?
+
+633
+00:32:36,859 --> 00:32:38,170
+Probably
+
+634
+00:32:39,069 --> 00:32:42,640
+23 or four years later after that. So we've done the F eight.
+
+635
+00:32:42,650 --> 00:32:44,839
+Then a couple of years later, we've done the F 10,
+
+636
+00:32:45,589 --> 00:32:47,930
+and sometime around that time,
+
+637
+00:32:47,939 --> 00:32:50,810
+we were looking of where is the next potential improvement?
+
+638
+00:32:52,300 --> 00:32:56,609
+And we did a full a bike with whatever we could do at the time.
+
+639
+00:32:56,619 --> 00:32:58,310
+Within the regulations of the time
+
+640
+00:33:00,089 --> 00:33:03,790
+and the difference on what you may call a full
+
+641
+00:33:03,939 --> 00:33:05,630
+arrow road bike
+
+642
+00:33:06,170 --> 00:33:08,109
+to whatever it was the
+
+643
+00:33:09,339 --> 00:33:11,709
+whatever was a current dogma at the time.
+
+644
+00:33:13,130 --> 00:33:16,869
+The difference on bike and rider level
+
+645
+00:33:17,400 --> 00:33:21,390
+was something in the 0.0 something percent.
+
+646
+00:33:21,939 --> 00:33:26,099
+So we pretty much decided it's not worth trying to do
+
+647
+00:33:26,109 --> 00:33:28,780
+a more a frame for as it was at the time,
+
+648
+00:33:28,790 --> 00:33:30,250
+be careful as it was at the time,
+
+649
+00:33:30,310 --> 00:33:32,729
+because the regulations they changed since that time
+
+650
+00:33:32,969 --> 00:33:35,229
+and now you can do a little bit more.
+
+651
+00:33:36,239 --> 00:33:36,989
+So
+
+652
+00:33:37,920 --> 00:33:39,939
+we realised at the time that
+
+653
+00:33:40,849 --> 00:33:43,910
+all these very slim, very aero tubes and so on.
+
+654
+00:33:44,310 --> 00:33:46,270
+Actually, they were not really giving you
+
+655
+00:33:46,589 --> 00:33:48,189
+any kind of significant improvement.
+
+656
+00:33:49,589 --> 00:33:52,250
+That was the time that, uh, we realised that, uh,
+
+657
+00:33:52,260 --> 00:33:54,160
+this is what they call the truncated I of
+
+658
+00:33:54,369 --> 00:33:54,930
+oil tubes.
+
+659
+00:33:55,719 --> 00:33:58,449
+They actually give a better
+
+660
+00:33:58,579 --> 00:34:00,130
+overall performance,
+
+661
+00:34:00,270 --> 00:34:02,510
+especially when the wind comes from the side
+
+662
+00:34:03,219 --> 00:34:06,239
+because they create significantly more lift.
+
+663
+00:34:06,599 --> 00:34:10,429
+Therefore, some of this lift is acting like pulling you forward.
+
+664
+00:34:10,850 --> 00:34:11,629
+Therefore,
+
+665
+00:34:11,909 --> 00:34:13,810
+uh, it was dropping the overall drought,
+
+666
+00:34:14,719 --> 00:34:15,399
+whereas
+
+667
+00:34:15,600 --> 00:34:17,188
+the bikes with a very slim,
+
+668
+00:34:17,290 --> 00:34:19,780
+pointy trailing edge
+
+669
+00:34:20,020 --> 00:34:20,820
+uh, tubes,
+
+670
+00:34:21,500 --> 00:34:22,510
+uh, they got sty
+
+671
+00:34:23,129 --> 00:34:23,820
+quite deadly.
+
+672
+00:34:25,050 --> 00:34:25,969
+So anyway,
+
+673
+00:34:26,629 --> 00:34:28,639
+so your sensitivity, basically,
+
+674
+00:34:29,010 --> 00:34:32,540
+you're saying that because I'm just looking at my bike now, and it's true
+
+675
+00:34:32,860 --> 00:34:33,360
+that
+
+676
+00:34:33,790 --> 00:34:34,120
+the a
+
+677
+00:34:34,530 --> 00:34:39,580
+section on it it is not the classic sort of teardrop going into a finite edge.
+
+678
+00:34:39,590 --> 00:34:41,770
+But it's actually got quite a thick
+
+679
+00:34:42,879 --> 00:34:45,739
+edge, which intuitively you think is less aerodynamic.
+
+680
+00:34:46,080 --> 00:34:48,879
+But I guess your point is more when the flow is coming in
+
+681
+00:34:49,310 --> 00:34:51,040
+from the right or the left. It's
+
+682
+00:34:51,560 --> 00:34:56,770
+Yeah. Not only that, not only that, but also on a road bike. You have other things.
+
+683
+00:34:56,780 --> 00:35:01,870
+You have, uh, brakes. Uh, you have, uh, water bottles and stuff like this.
+
+684
+00:35:02,389 --> 00:35:03,179
+So
+
+685
+00:35:03,510 --> 00:35:04,580
+looking back,
+
+686
+00:35:04,590 --> 00:35:06,840
+like when I start doing bikes like this I was
+
+687
+00:35:06,850 --> 00:35:09,780
+doing like I designed a couple of time trial bikes
+
+688
+00:35:09,969 --> 00:35:11,459
+in the early two thousands,
+
+689
+00:35:11,879 --> 00:35:13,439
+and it had like, a nice
+
+690
+00:35:13,659 --> 00:35:14,239
+arow tubes.
+
+691
+00:35:14,250 --> 00:35:19,580
+I was standing up, maybe not in a point, but a relatively narrow trailing edge.
+
+692
+00:35:20,379 --> 00:35:22,439
+And then you stick a big water bottle behind it,
+
+693
+00:35:23,320 --> 00:35:25,310
+so you're channelling the air onto the water
+
+694
+00:35:25,500 --> 00:35:25,659
+bottle.
+
+695
+00:35:26,189 --> 00:35:30,179
+So we found that, uh, it's much better to shape the tube
+
+696
+00:35:30,520 --> 00:35:33,479
+to actually partially cover the bottle,
+
+697
+00:35:34,050 --> 00:35:34,919
+and the
+
+698
+00:35:35,149 --> 00:35:37,620
+total drug goes down
+
+699
+00:35:38,840 --> 00:35:41,770
+because you are going to have water bottles.
+
+700
+00:35:41,800 --> 00:35:42,229
+Now,
+
+701
+00:35:42,239 --> 00:35:45,100
+if you are going to raise a four kilometre
+
+702
+00:35:45,110 --> 00:35:46,860
+or five kilometre race or something like this,
+
+703
+00:35:46,870 --> 00:35:48,060
+you don't have water bottles.
+
+704
+00:35:48,070 --> 00:35:48,719
+Fine. But
+
+705
+00:35:48,899 --> 00:35:52,060
+in the vast majority of cases you are carrying water bottles,
+
+706
+00:35:52,070 --> 00:35:53,939
+even on time trial bikes.
+
+707
+00:35:55,300 --> 00:35:55,540
+Yeah. Yeah.
+
+708
+00:35:55,879 --> 00:35:57,780
+So what is it now, then? Because I'm
+
+709
+00:35:58,560 --> 00:36:03,709
+one. I think thing that maybe confuses people or they don't know is
+
+710
+00:36:03,919 --> 00:36:07,010
+if you and this is nothing to do with this is more general now, not just Pinarello
+
+711
+00:36:07,139 --> 00:36:08,899
+Rla, but just any bike brand.
+
+712
+00:36:09,540 --> 00:36:11,199
+Every time a new bike comes out,
+
+713
+00:36:11,419 --> 00:36:16,139
+there is some statistic of X. More stiffness. Yes. Let's drive. Like
+
+714
+00:36:16,340 --> 00:36:17,629
+at what point
+
+715
+00:36:18,100 --> 00:36:23,389
+is it still the case that bikes are legitimately getting better and better?
+
+716
+00:36:23,399 --> 00:36:25,360
+How much runway is there?
+
+717
+00:36:25,649 --> 00:36:26,050
+Yeah, or
+
+718
+00:36:26,250 --> 00:36:28,350
+is it a massaging of maths?
+
+719
+00:36:28,639 --> 00:36:28,919
+Yeah.
+
+720
+00:36:29,600 --> 00:36:30,250
+Um,
+
+721
+00:36:30,479 --> 00:36:30,510
+I,
+
+722
+00:36:30,919 --> 00:36:37,100
+I cannot talk about others. Uh, I can only talk about the designs that, uh,
+
+723
+00:36:37,399 --> 00:36:39,830
+I do myself and my guys and
+
+724
+00:36:40,129 --> 00:36:41,209
+the ones that we got
+
+725
+00:36:41,439 --> 00:36:41,939
+on with Pinarello
+
+726
+00:36:42,500 --> 00:36:45,310
+because you have to think about it When, uh when, uh,
+
+727
+00:36:46,159 --> 00:36:49,610
+myself and my guys, we do that we don't do it in vacuum. We're working.
+
+728
+00:36:49,620 --> 00:36:50,770
+Of course with Pinarello,
+
+729
+00:36:51,429 --> 00:36:51,550
+they
+
+730
+00:36:51,719 --> 00:36:52,209
+have
+
+731
+00:36:52,409 --> 00:36:54,570
+They also are contributing massively to that.
+
+732
+00:36:54,679 --> 00:36:57,100
+And we're also working with the riders and so on.
+
+733
+00:36:57,820 --> 00:36:58,610
+So
+
+734
+00:37:00,010 --> 00:37:03,850
+the main, the main thing that is happening usually is.
+
+735
+00:37:03,860 --> 00:37:07,989
+You are restricted by number one time and budget.
+
+736
+00:37:09,429 --> 00:37:13,649
+So usually you only have so much time, and you have to finish the project,
+
+737
+00:37:13,659 --> 00:37:15,870
+deliver it and it has to be manufactured.
+
+738
+00:37:15,879 --> 00:37:16,139
+And
+
+739
+00:37:16,939 --> 00:37:19,330
+start selling some of those so you can get
+
+740
+00:37:19,340 --> 00:37:22,489
+money and go and do your next development round.
+
+741
+00:37:23,510 --> 00:37:26,479
+So, as an engineer, whenever you design something,
+
+742
+00:37:26,489 --> 00:37:28,679
+you try to push the envelope as far as you can.
+
+743
+00:37:28,689 --> 00:37:29,209
+Uh,
+
+744
+00:37:29,320 --> 00:37:31,770
+you never really reaching perfection. The moment
+
+745
+00:37:32,080 --> 00:37:35,209
+you say this is finished, I send you to production.
+
+746
+00:37:36,610 --> 00:37:38,280
+You wake up the next day and you go like ha.
+
+747
+00:37:40,340 --> 00:37:42,179
+If I do this, it might be better.
+
+748
+00:37:42,949 --> 00:37:46,939
+And, uh, if I do that, it might be better. So it's quite common
+
+749
+00:37:47,149 --> 00:37:47,899
+that,
+
+750
+00:37:47,909 --> 00:37:53,260
+uh the moment the design leaves the drawing board or the computer screen Nowadays,
+
+751
+00:37:53,770 --> 00:37:54,419
+uh,
+
+752
+00:37:54,770 --> 00:37:58,350
+you have ideas on how to do it better, but you have to stop it and deliver it.
+
+753
+00:37:58,929 --> 00:37:59,739
+So
+
+754
+00:38:00,250 --> 00:38:07,699
+it is true. The big gains, at least as we knew them in the past, they all gone
+
+755
+00:38:08,659 --> 00:38:13,040
+and new ones, they start appearing as you know,
+
+756
+00:38:13,360 --> 00:38:16,629
+with, like moving the seat station and the fors
+
+757
+00:38:16,840 --> 00:38:17,979
+around, and so on.
+
+758
+00:38:18,370 --> 00:38:20,250
+so the classic
+
+759
+00:38:20,909 --> 00:38:24,439
+aerodynamics of just reducing the drag
+
+760
+00:38:24,860 --> 00:38:26,439
+of the bike itself.
+
+761
+00:38:26,929 --> 00:38:28,360
+It hasn't completely run,
+
+762
+00:38:29,260 --> 00:38:29,879
+but
+
+763
+00:38:30,159 --> 00:38:32,780
+it's close to pretty much that.
+
+764
+00:38:33,800 --> 00:38:35,929
+Mm. So that I was actually gonna ask you about that.
+
+765
+00:38:35,939 --> 00:38:38,179
+So maybe for the history of people listening
+
+766
+00:38:38,560 --> 00:38:40,770
+we worked together on, um,
+
+767
+00:38:41,510 --> 00:38:43,229
+on British cycling? Yeah.
+
+768
+00:38:43,879 --> 00:38:44,659
+And
+
+769
+00:38:45,120 --> 00:38:46,159
+I. I think
+
+770
+00:38:47,050 --> 00:38:50,709
+it was a novelty, which was the idea of
+
+771
+00:38:51,419 --> 00:38:54,320
+looking at a more system level, Um,
+
+772
+00:38:54,330 --> 00:38:57,979
+the bike and the rider and that if you took the bike on its own,
+
+773
+00:38:58,510 --> 00:38:59,270
+you would
+
+774
+00:38:59,929 --> 00:39:02,169
+only minimise that. But it may not affect the rider.
+
+775
+00:39:02,179 --> 00:39:04,530
+And one of the things that we looked at was this
+
+776
+00:39:04,669 --> 00:39:08,590
+wider seat stays and, um, wider, wider forks.
+
+777
+00:39:08,810 --> 00:39:10,830
+Uh, have you seen that now
+
+778
+00:39:11,610 --> 00:39:12,750
+translate
+
+779
+00:39:12,959 --> 00:39:16,929
+slowly into the road. This philosophy of R Is that what you're alluding to?
+
+780
+00:39:16,939 --> 00:39:19,580
+The rider bike sort of as a system
+
+781
+00:39:20,000 --> 00:39:20,989
+drag reduction.
+
+782
+00:39:21,699 --> 00:39:23,320
+Yeah, definitely.
+
+783
+00:39:23,739 --> 00:39:24,320
+OK,
+
+784
+00:39:25,129 --> 00:39:28,189
+you may say truck is a very individual category,
+
+785
+00:39:28,469 --> 00:39:33,229
+because on the track, you pretty much only hitting the wind head on.
+
+786
+00:39:34,439 --> 00:39:37,189
+Although I think there is still something to be gained
+
+787
+00:39:37,360 --> 00:39:39,770
+by doing it for the corners.
+
+788
+00:39:40,139 --> 00:39:44,830
+And, uh, I have some ideas that were partially tried in the past, but again,
+
+789
+00:39:44,840 --> 00:39:46,250
+you're running out of time in the budget.
+
+790
+00:39:46,260 --> 00:39:46,590
+So
+
+791
+00:39:47,050 --> 00:39:47,300
+next time.
+
+792
+00:39:48,300 --> 00:39:49,719
+So, um,
+
+793
+00:39:50,750 --> 00:39:52,110
+on the track
+
+794
+00:39:52,290 --> 00:39:55,909
+is relatively speaking, easy. The wind comes only from the front.
+
+795
+00:39:56,209 --> 00:40:00,409
+Therefore, you have now these elements which is like the, um, the
+
+796
+00:40:00,560 --> 00:40:02,290
+six days and the change days,
+
+797
+00:40:02,679 --> 00:40:05,070
+which, by the way, in the upcoming Olympics,
+
+798
+00:40:05,489 --> 00:40:07,300
+there are quite a few
+
+799
+00:40:07,540 --> 00:40:09,790
+different teams. They have these,
+
+800
+00:40:09,969 --> 00:40:12,570
+the Japanese, they have it. The French, they have it.
+
+801
+00:40:12,889 --> 00:40:13,850
+Um,
+
+802
+00:40:14,060 --> 00:40:17,929
+factor came up with a bike for the Aussies, which is something similar
+
+803
+00:40:18,320 --> 00:40:20,820
+even before we did it.
+
+804
+00:40:21,120 --> 00:40:25,120
+Um, Avanti from New Zealand had something similar
+
+805
+00:40:26,939 --> 00:40:29,620
+you can argue of. Was it right? Was it wrong?
+
+806
+00:40:29,790 --> 00:40:31,620
+Maybe the general direction was right.
+
+807
+00:40:31,629 --> 00:40:35,340
+Maybe the execution, uh, needed a bit of improvement, but, uh,
+
+808
+00:40:36,250 --> 00:40:40,139
+on the track, because it's a single condition is relatively speaking.
+
+809
+00:40:40,149 --> 00:40:42,750
+Easy to If you are good with your CFD,
+
+810
+00:40:43,050 --> 00:40:44,469
+you can just find something
+
+811
+00:40:45,939 --> 00:40:46,959
+on the road.
+
+812
+00:40:48,040 --> 00:40:49,489
+We actually did look
+
+813
+00:40:49,770 --> 00:40:50,189
+on that
+
+814
+00:40:51,479 --> 00:40:52,830
+in the short
+
+815
+00:40:53,250 --> 00:40:55,570
+span of time that we looked at it,
+
+816
+00:40:55,949 --> 00:40:59,340
+we couldn't find any significant improvement,
+
+817
+00:40:59,560 --> 00:41:06,320
+primarily because you have to make it work for a quite a wide range of angles of
+
+818
+00:41:07,550 --> 00:41:14,149
+Y. I don't say it's impossible. I am saying that this probably needs more R and D.
+
+819
+00:41:14,459 --> 00:41:16,729
+Actually, I am convinced that, uh,
+
+820
+00:41:17,129 --> 00:41:21,239
+the only significant way that you can go
+
+821
+00:41:21,250 --> 00:41:24,790
+forward on this is to work on the interactions
+
+822
+00:41:25,260 --> 00:41:26,899
+between the bike and the rider
+
+823
+00:41:27,479 --> 00:41:28,469
+because
+
+824
+00:41:28,679 --> 00:41:31,580
+the drag reduction of individual parts
+
+825
+00:41:31,889 --> 00:41:36,070
+there is still a little bit of, uh, um, room to go, but not huge.
+
+826
+00:41:36,850 --> 00:41:40,209
+So interactions between the two is definitely something.
+
+827
+00:41:40,610 --> 00:41:43,229
+Another thing that happened recently on the track.
+
+828
+00:41:44,689 --> 00:41:47,989
+There was always this idea that people they start making things, you know,
+
+829
+00:41:48,000 --> 00:41:49,189
+like on the handlebar.
+
+830
+00:41:49,429 --> 00:41:51,219
+And you had, like, two bits they people,
+
+831
+00:41:51,229 --> 00:41:53,429
+they start making the holding it like on the on the top.
+
+832
+00:41:54,679 --> 00:41:55,659
+And, uh,
+
+833
+00:41:56,070 --> 00:41:58,639
+I am partially responsible for that
+
+834
+00:41:58,860 --> 00:42:01,969
+because in 2016, we've done some small version of this for karlo
+
+835
+00:42:02,429 --> 00:42:04,340
+than other people. They pushed forward more,
+
+836
+00:42:04,669 --> 00:42:06,929
+and now we actually did one that
+
+837
+00:42:07,080 --> 00:42:09,520
+instead of having those things up there
+
+838
+00:42:09,870 --> 00:42:10,260
+in
+
+839
+00:42:11,100 --> 00:42:16,389
+which then it brings your hands closer. So you are on a normal drop handlebar,
+
+840
+00:42:16,540 --> 00:42:19,510
+and you are almost like if you are on ATT bar
+
+841
+00:42:19,850 --> 00:42:26,399
+and you can also rest your arm on the bar So you're racing with a normal handlebar,
+
+842
+00:42:26,590 --> 00:42:28,840
+but you are in a position which is almost
+
+843
+00:42:29,189 --> 00:42:31,919
+a a position, which is a time trial position.
+
+844
+00:42:33,010 --> 00:42:35,149
+And this is not that the bike is more.
+
+845
+00:42:35,729 --> 00:42:39,629
+We have to remember something like around 80% of the drag is the rider.
+
+846
+00:42:40,120 --> 00:42:42,189
+So if you can put the rider in a good position,
+
+847
+00:42:42,919 --> 00:42:45,620
+we can talk about skin suits and all that stuff.
+
+848
+00:42:45,629 --> 00:42:47,659
+But let's say it's the same skin suit, the same
+
+849
+00:42:47,860 --> 00:42:50,989
+everything else. But you can put the rider in a better position.
+
+850
+00:42:51,330 --> 00:42:52,310
+You can get a
+
+851
+00:42:52,500 --> 00:42:53,979
+significant,
+
+852
+00:42:54,399 --> 00:42:56,709
+uh, aerodynamic reductions. Uh,
+
+853
+00:42:57,389 --> 00:42:58,669
+from that only,
+
+854
+00:42:58,840 --> 00:42:59,649
+Like, uh,
+
+855
+00:42:59,780 --> 00:43:01,340
+a classic case is
+
+856
+00:43:01,510 --> 00:43:02,860
+you R in the sprint
+
+857
+00:43:03,320 --> 00:43:04,139
+and, uh,
+
+858
+00:43:05,360 --> 00:43:08,060
+we know from the wind tunnel, you need to put your elbows in,
+
+859
+00:43:08,750 --> 00:43:11,270
+and that significantly improves the the drag.
+
+860
+00:43:12,020 --> 00:43:14,439
+And when you're riding a screen with
+
+861
+00:43:14,610 --> 00:43:18,959
+another rider next to you, a classic classic thing is that you go what
+
+862
+00:43:19,070 --> 00:43:22,110
+you open your elbows like this, you defend your space.
+
+863
+00:43:22,739 --> 00:43:27,389
+This is something like in in the region of about 25% more
+
+864
+00:43:28,159 --> 00:43:28,800
+adynamic ground.
+
+865
+00:43:29,570 --> 00:43:31,810
+So then you wonder why the other guy he
+
+866
+00:43:32,350 --> 00:43:32,899
+overtake it,
+
+867
+00:43:33,649 --> 00:43:36,669
+Whereas if you keep your nerve. You keep your elbows in,
+
+868
+00:43:37,290 --> 00:43:41,070
+your drug doesn't go up and the other guy might run out of steam.
+
+869
+00:43:41,879 --> 00:43:45,959
+I I was actually gonna ask you, though, on going back to the bike design bit.
+
+870
+00:43:45,969 --> 00:43:49,540
+I had one before you. You were talking about lightweight versus Aero
+
+871
+00:43:50,489 --> 00:43:52,870
+and, um, that most people
+
+872
+00:43:53,070 --> 00:43:57,189
+obsess about lightweight, you know, And and there's been this eternal debate.
+
+873
+00:43:57,679 --> 00:44:00,429
+Just This is more of a topical question, I guess. But
+
+874
+00:44:00,899 --> 00:44:05,550
+it seems now there is a trend in the past couple of years for riders
+
+875
+00:44:06,050 --> 00:44:07,030
+to attack
+
+876
+00:44:07,669 --> 00:44:10,659
+50 K to go and solo
+
+877
+00:44:11,320 --> 00:44:15,489
+rather than staying in a peloton. I Is there any evidence or thought that therefore,
+
+878
+00:44:15,780 --> 00:44:19,689
+the importance of arrow is even more because they're basically on their own for
+
+879
+00:44:21,469 --> 00:44:22,639
+absolutely. I mean, uh
+
+880
+00:44:22,959 --> 00:44:26,909
+uh again, you know, people they have the the question of,
+
+881
+00:44:27,360 --> 00:44:31,489
+um, wait versus say, Oh, that is totally the wrong question.
+
+882
+00:44:32,239 --> 00:44:33,939
+Because, uh, uh,
+
+883
+00:44:33,949 --> 00:44:39,169
+the question needs to be Where is the right balance between those two?
+
+884
+00:44:39,379 --> 00:44:41,580
+In fact, where is the right balance between,
+
+885
+00:44:41,959 --> 00:44:44,540
+uh, weight, arrow stiffness?
+
+886
+00:44:45,179 --> 00:44:45,760
+And, uh,
+
+887
+00:44:45,770 --> 00:44:49,300
+let's not forget the reliability because it doesn't matter how error
+
+888
+00:44:49,310 --> 00:44:52,429
+or lightweight is if it goes bound and it breaks.
+
+889
+00:44:52,439 --> 00:44:53,899
+No, it doesn't matter. Really?
+
+890
+00:44:54,570 --> 00:44:55,340
+So,
+
+891
+00:44:55,989 --> 00:45:00,350
+yes, when you're gonna be on your own to try to break away,
+
+892
+00:45:00,360 --> 00:45:02,469
+and then everybody is chasing you behind
+
+893
+00:45:03,709 --> 00:45:08,320
+Arrow is mega important, especially on a flat road. If it is, the
+
+894
+00:45:08,699 --> 00:45:09,850
+there is
+
+895
+00:45:09,979 --> 00:45:13,760
+for pro level the the tipping point.
+
+896
+00:45:14,330 --> 00:45:15,979
+Um, because probably
+
+897
+00:45:16,100 --> 00:45:19,479
+going up the mountain probably faster than I when I go down here.
+
+898
+00:45:19,929 --> 00:45:21,110
+Uh, but, um,
+
+899
+00:45:21,500 --> 00:45:25,550
+for pros, I think it is Somebody did the calculation a few years back,
+
+900
+00:45:25,560 --> 00:45:27,850
+it was something about the region of about
+
+901
+00:45:28,040 --> 00:45:31,550
+7%. If I remember correctly of inclination
+
+902
+00:45:31,770 --> 00:45:34,310
+before seven or 8% before
+
+903
+00:45:34,540 --> 00:45:35,199
+weight
+
+904
+00:45:35,439 --> 00:45:37,449
+was becoming more important than
+
+905
+00:45:38,510 --> 00:45:42,540
+therefore anything below that which most races, even mountain.
+
+906
+00:45:42,550 --> 00:45:45,290
+Uh, when you have mountains, you are below that.
+
+907
+00:45:45,300 --> 00:45:48,209
+There are not many sections that they going more than
+
+908
+00:45:48,219 --> 00:45:51,620
+that there are they they go 10 and 15.
+
+909
+00:45:51,820 --> 00:45:55,199
+There are some crazy sections of, uh, 20% inclination, But
+
+910
+00:45:55,300 --> 00:45:56,469
+forget about those.
+
+911
+00:45:56,889 --> 00:45:57,560
+So
+
+912
+00:45:58,729 --> 00:46:01,699
+when you are out on the front and everybody is chasing you,
+
+913
+00:46:01,780 --> 00:46:05,800
+arrow is number one by a long, long way.
+
+914
+00:46:06,060 --> 00:46:09,959
+And when I see people racing with, uh although nowadays not much,
+
+915
+00:46:09,969 --> 00:46:12,870
+they're racing with helmets with big holes and so on.
+
+916
+00:46:13,830 --> 00:46:18,250
+Uh, a helmet with, uh, big holes comparing to a helmet which is
+
+917
+00:46:18,379 --> 00:46:21,689
+nice and smooth with minimum ventilation for the road.
+
+918
+00:46:22,370 --> 00:46:25,340
+Uh, the difference is depending on what is your starting point.
+
+919
+00:46:25,350 --> 00:46:28,919
+And so on somewhere between five and 8% of overall drug.
+
+920
+00:46:29,469 --> 00:46:32,560
+Just your helmet. If you say I like a lot of ventilation,
+
+921
+00:46:32,699 --> 00:46:34,330
+Yeah, the air also likes it. It
+
+922
+00:46:34,739 --> 00:46:35,909
+slows you down.
+
+923
+00:46:36,530 --> 00:46:40,459
+So arrow is mega important. And this when the moment you talk a
+
+924
+00:46:41,429 --> 00:46:45,729
+your helmet matters how well your skin suit, how well,
+
+925
+00:46:45,739 --> 00:46:50,310
+what you wearing is actually is attached to your body the moment you racing.
+
+926
+00:46:50,429 --> 00:46:53,560
+I see sometimes I despair Sometimes, you see,
+
+927
+00:46:53,929 --> 00:46:54,379
+probably
+
+928
+00:46:54,489 --> 00:46:54,669
+VR
+
+929
+00:46:55,679 --> 00:46:58,919
+on the biggest race of the world, like in the, uh, the,
+
+930
+00:46:59,030 --> 00:46:59,050
+uh
+
+931
+00:46:59,429 --> 00:47:01,489
+to the front. And they're racing.
+
+932
+00:47:01,649 --> 00:47:03,729
+You see this thing over here going like this on the air
+
+933
+00:47:05,520 --> 00:47:07,229
+and you go for Christ's sake, any
+
+934
+00:47:07,330 --> 00:47:07,469
+Arodys
+
+935
+00:47:07,870 --> 00:47:10,419
+will tell you that this is creating drug.
+
+936
+00:47:11,560 --> 00:47:17,159
+So what a pro level. What stops you from having better fitting, uh, clothing.
+
+937
+00:47:18,110 --> 00:47:18,939
+So
+
+938
+00:47:19,229 --> 00:47:22,250
+socks, shoes, wheels.
+
+939
+00:47:22,530 --> 00:47:25,330
+I have an example to bring you, uh,
+
+940
+00:47:25,570 --> 00:47:29,929
+I'm not gonna go into the detail or who was and all that. But, uh,
+
+941
+00:47:30,350 --> 00:47:31,530
+I was in a meeting a
+
+942
+00:47:31,770 --> 00:47:32,860
+few years back.
+
+943
+00:47:33,340 --> 00:47:37,770
+We were talking about a rider, that it was quite a small size rider.
+
+944
+00:47:38,479 --> 00:47:40,340
+So he was obsessed with the weight.
+
+945
+00:47:41,469 --> 00:47:45,899
+So, uh, he was making his bike as light as possible.
+
+946
+00:47:45,909 --> 00:47:48,620
+Putting the lightest wheels and the light is this and light as that
+
+947
+00:47:49,520 --> 00:47:53,699
+and his weight. Because he was a small size rider, his bike was going below
+
+948
+00:47:53,939 --> 00:47:54,649
+the
+
+949
+00:47:55,139 --> 00:47:56,340
+6.8 limit.
+
+950
+00:48:00,010 --> 00:48:02,459
+So then they were adding weight on the bike
+
+951
+00:48:03,459 --> 00:48:05,229
+to bring it back to UCI. I limit.
+
+952
+00:48:05,709 --> 00:48:10,590
+And I was in this meeting and I was saying, Why don't you do something with this weight
+
+953
+00:48:11,080 --> 00:48:14,239
+instead of carrying dead weight that that's really nothing
+
+954
+00:48:15,030 --> 00:48:18,520
+for argument's sake from the lightweight wheels
+
+955
+00:48:19,000 --> 00:48:20,659
+that they were using to the
+
+956
+00:48:21,189 --> 00:48:24,030
+aero wheels? The difference was, I know, 250 grammes,
+
+957
+00:48:25,560 --> 00:48:27,979
+which was about the amount of weight they were putting on.
+
+958
+00:48:28,800 --> 00:48:30,350
+So it's not that bike.
+
+959
+00:48:30,510 --> 00:48:32,330
+The bike is gonna still be the same weight,
+
+960
+00:48:32,850 --> 00:48:37,800
+but you have an extra advantage, which is more aerodynamics with aerodynamics.
+
+961
+00:48:37,810 --> 00:48:38,800
+They will still a pro
+
+962
+00:48:39,429 --> 00:48:41,770
+when it goes up an inclination of 5%.
+
+963
+00:48:42,060 --> 00:48:46,139
+It still goes up at 35 kilometres an hour or 40 almost 40 kilometres an hour.
+
+964
+00:48:46,439 --> 00:48:48,209
+So aerodynamics, they are important.
+
+965
+00:48:48,659 --> 00:48:50,179
+So then
+
+966
+00:48:50,530 --> 00:48:54,060
+since that time they changed their minds. That was Team Sky at the time.
+
+967
+00:48:54,560 --> 00:48:55,679
+And they
+
+968
+00:48:55,959 --> 00:48:56,659
+don't
+
+969
+00:48:56,840 --> 00:49:01,580
+use that weight. They will put it the lightest they can for that rider
+
+970
+00:49:01,879 --> 00:49:03,860
+with a weight that is usable,
+
+971
+00:49:04,500 --> 00:49:06,669
+not adding lead weight on.
+
+972
+00:49:09,169 --> 00:49:11,129
+So weight is important
+
+973
+00:49:11,929 --> 00:49:14,790
+and aerodynamics important. You have to have the balance.
+
+974
+00:49:15,080 --> 00:49:18,149
+We did a calculation like this once.
+
+975
+00:49:18,520 --> 00:49:19,350
+I think it was
+
+976
+00:49:20,550 --> 00:49:23,810
+if I remember correctly, it was 2017.
+
+977
+00:49:25,219 --> 00:49:28,379
+Yeah, I'm pretty sure it was 2017. Uh, Tour de France.
+
+978
+00:49:32,860 --> 00:49:35,360
+So 2017, Tour de France. And
+
+979
+00:49:36,659 --> 00:49:39,300
+there was AI think there were two time trials
+
+980
+00:49:39,310 --> 00:49:41,620
+and one of them was a very mountainous time trial.
+
+981
+00:49:41,629 --> 00:49:42,310
+There is this
+
+982
+00:49:42,919 --> 00:49:47,260
+picture of Chris Froome going up. This, uh uh, very steep
+
+983
+00:49:47,379 --> 00:49:48,000
+hill.
+
+984
+00:49:49,110 --> 00:49:49,719
+Uh,
+
+985
+00:49:50,100 --> 00:49:55,620
+with the small, uh, changing of the front. I'm not quite sure if that was a 42 or 39.
+
+986
+00:49:55,629 --> 00:49:56,360
+Something like this
+
+987
+00:49:57,050 --> 00:49:57,719
+and a
+
+988
+00:49:58,340 --> 00:50:03,840
+29 or 30 teeth, uh, gear on the back, standing on the pedals.
+
+989
+00:50:04,070 --> 00:50:07,870
+So you had, like, a top of the world level rider
+
+990
+00:50:08,320 --> 00:50:13,159
+that he that hill was so steep that he actually had to go like time trailing up,
+
+991
+00:50:13,169 --> 00:50:14,229
+standing on the pedals.
+
+992
+00:50:15,659 --> 00:50:16,439
+But
+
+993
+00:50:17,050 --> 00:50:19,120
+that bike on the starting line,
+
+994
+00:50:19,850 --> 00:50:24,189
+it was 7.2 kg or something like this
+
+995
+00:50:26,060 --> 00:50:29,330
+with time trial bars, this wheel on the back and three spoke wheel on the front.
+
+996
+00:50:30,139 --> 00:50:31,199
+And, uh,
+
+997
+00:50:31,479 --> 00:50:35,719
+the reason for that is we've done a lot of maths behind this
+
+998
+00:50:35,969 --> 00:50:39,760
+of what is that? What if What if you use a
+
+999
+00:50:40,110 --> 00:50:41,719
+time travel bike on the flats
+
+1000
+00:50:42,379 --> 00:50:47,290
+and then you use a normal bike up the mountain with normal wheels so
+
+1001
+00:50:47,300 --> 00:50:49,459
+you can stop in the pedals and do whatever you want to do?
+
+1002
+00:50:50,270 --> 00:50:55,090
+And we found that if the weight difference is less than a kilo,
+
+1003
+00:50:55,330 --> 00:50:57,449
+the aero bike was winning every time.
+
+1004
+00:50:58,570 --> 00:50:59,699
+Because
+
+1005
+00:50:59,830 --> 00:51:01,489
+you will be, uh, a
+
+1006
+00:51:01,669 --> 00:51:03,590
+fair bit faster on the flood.
+
+1007
+00:51:04,810 --> 00:51:08,129
+And you don't have the penalty of changing over,
+
+1008
+00:51:08,139 --> 00:51:11,030
+plus the potential potential of something going wrong.
+
+1009
+00:51:11,929 --> 00:51:15,669
+And we did the calculation, and the calculation was showing that,
+
+1010
+00:51:16,409 --> 00:51:17,110
+um,
+
+1011
+00:51:17,260 --> 00:51:23,149
+the overall benefit will be roughly the 20 seconds mark. Comparing to
+
+1012
+00:51:23,520 --> 00:51:27,909
+changing bikes and stopping over and changing, going from one bike to the other.
+
+1013
+00:51:28,520 --> 00:51:31,689
+And actually, uh, I think that time trial,
+
+1014
+00:51:31,699 --> 00:51:37,060
+if I remember correctly from he won it over the Mulan for 21 seconds
+
+1015
+00:51:38,959 --> 00:51:41,979
+There. There is another example I can give you of something like this,
+
+1016
+00:51:42,419 --> 00:51:45,709
+which again is not so much only verse weight only.
+
+1017
+00:51:45,810 --> 00:51:48,139
+But this is actually an example that concentrates
+
+1018
+00:51:48,149 --> 00:51:50,300
+on the weight but also includes the air.
+
+1019
+00:51:51,600 --> 00:51:53,399
+In 2002,
+
+1020
+00:51:54,979 --> 00:51:57,570
+I did the very first frames for British cycling,
+
+1021
+00:51:58,330 --> 00:52:02,909
+and they raced in the Commonwealth Games. They was struck in July that year,
+
+1022
+00:52:03,350 --> 00:52:05,229
+and it was only frames. No, no fort.
+
+1023
+00:52:06,629 --> 00:52:09,189
+And they said, Can we do a fork about this one, please?
+
+1024
+00:52:09,199 --> 00:52:13,570
+And so I did one fork because the time available, I could only do one fork,
+
+1025
+00:52:13,580 --> 00:52:14,770
+and Chris Coy erased it.
+
+1026
+00:52:15,629 --> 00:52:20,330
+That fork it was around 300 grammes. If I remember correctly,
+
+1027
+00:52:20,830 --> 00:52:22,929
+the previous fork it was something in the region
+
+1028
+00:52:22,939 --> 00:52:25,959
+of about 500 grammes or 200 grammes difference.
+
+1029
+00:52:27,000 --> 00:52:31,139
+It was also significantly slimmer. So the aerodynamics, they will also be better.
+
+1030
+00:52:31,429 --> 00:52:35,770
+But at the time, we never really tested one against the other.
+
+1031
+00:52:35,780 --> 00:52:37,260
+So I don't really know how much better.
+
+1032
+00:52:37,850 --> 00:52:40,879
+Let's assume that it was only the weight in this case,
+
+1033
+00:52:40,889 --> 00:52:44,110
+although I'm pretty sure the error difference was also significant.
+
+1034
+00:52:46,070 --> 00:52:47,320
+200 grammes.
+
+1035
+00:52:47,750 --> 00:52:48,050
+Chris
+
+1036
+00:52:48,219 --> 00:52:51,050
+Coy at the time was like 95 kg or something like this,
+
+1037
+00:52:51,429 --> 00:52:54,000
+plus the bike. So over 100 kg.
+
+1038
+00:52:54,409 --> 00:52:56,169
+So let's call it 100 kg.
+
+1039
+00:52:56,750 --> 00:53:00,530
+200 grammes is a 0.2% weight difference
+
+1040
+00:53:00,679 --> 00:53:02,439
+which you go like. That's pretty small
+
+1041
+00:53:02,760 --> 00:53:05,290
+on the kilometre, which, where he used it
+
+1042
+00:53:06,770 --> 00:53:07,379
+flat,
+
+1043
+00:53:08,340 --> 00:53:09,669
+you don't take it up. The mountain
+
+1044
+00:53:10,290 --> 00:53:12,540
+weight only matters in the acceleration phase,
+
+1045
+00:53:12,550 --> 00:53:16,320
+which is usually the first lap roughly 250 metres or so.
+
+1046
+00:53:17,399 --> 00:53:20,000
+After that, it doesn't really matter, because after that is flat,
+
+1047
+00:53:20,010 --> 00:53:21,219
+you don't accelerate anymore.
+
+1048
+00:53:21,270 --> 00:53:22,860
+If anything, your speed goes down.
+
+1049
+00:53:23,489 --> 00:53:24,750
+So, um
+
+1050
+00:53:25,520 --> 00:53:29,790
+so we calculate, uh, maybe slightly wrong on the numbers because, uh,
+
+1051
+00:53:29,800 --> 00:53:32,340
+tw 2002 is a long time ago.
+
+1052
+00:53:32,929 --> 00:53:35,820
+Uh, so we calculated and the
+
+1053
+00:53:36,100 --> 00:53:40,340
+improvement It was something in the region, maybe
+
+1054
+00:53:43,239 --> 00:53:48,500
+to I think it was about 18,000 of a second. Let's call it
+
+1055
+00:53:48,669 --> 00:53:52,370
+0.02 of a second. Let's keep it simple.
+
+1056
+00:53:53,479 --> 00:53:56,050
+So let's call it two hundreds of a second.
+
+1057
+00:53:56,639 --> 00:54:00,820
+Let's assume that the calculation was wrong and you were only getting half of that.
+
+1058
+00:54:00,830 --> 00:54:06,699
+Let's call it that it was 0.01 of a second, meaning 1/100 of a second.
+
+1059
+00:54:08,479 --> 00:54:09,250
+Um,
+
+1060
+00:54:10,689 --> 00:54:12,709
+Chris Coy. He won that event
+
+1061
+00:54:13,199 --> 00:54:15,389
+for 1000.
+
+1062
+00:54:17,379 --> 00:54:20,310
+So even if the calculation was way out of it,
+
+1063
+00:54:20,840 --> 00:54:24,290
+1/1000 of a second was the winning margin.
+
+1064
+00:54:24,780 --> 00:54:29,419
+So the 200 grammes in the particular case, even if you exclude the
+
+1065
+00:54:29,669 --> 00:54:30,669
+aerodynamics benefit,
+
+1066
+00:54:31,320 --> 00:54:33,850
+it was more than enough to
+
+1067
+00:54:34,189 --> 00:54:35,840
+take some Take
+
+1068
+00:54:36,000 --> 00:54:36,340
+a world
+
+1069
+00:54:36,489 --> 00:54:37,860
+class rider. OK?
+
+1070
+00:54:38,610 --> 00:54:39,709
+Because if I was
+
+1071
+00:54:39,820 --> 00:54:40,800
+anything that would win it.
+
+1072
+00:54:41,739 --> 00:54:42,679
+So take a world
+
+1073
+00:54:42,800 --> 00:54:46,139
+class rider from this position to that position, and that's what you need.
+
+1074
+00:54:47,250 --> 00:54:49,250
+You don't Nobody remembers who was second,
+
+1075
+00:54:50,850 --> 00:54:51,520
+If you ask who
+
+1076
+00:54:51,699 --> 00:54:52,860
+was second on the Tour de France
+
+1077
+00:54:53,000 --> 00:54:54,100
+last year, very few people
+
+1078
+00:54:56,439 --> 00:54:56,659
+that
+
+1079
+00:54:59,439 --> 00:54:59,449
+I
+
+1080
+00:54:59,639 --> 00:54:59,790
+didn't ask
+
+1081
+00:55:00,040 --> 00:55:00,199
+you about
+
+1082
+00:55:00,600 --> 00:55:00,770
+stiffness
+
+1083
+00:55:01,139 --> 00:55:01,370
+because I
+
+1084
+00:55:01,600 --> 00:55:01,770
+feel that
+
+1085
+00:55:02,050 --> 00:55:02,189
+are
+
+1086
+00:55:02,989 --> 00:55:03,169
+kind
+
+1087
+00:55:03,280 --> 00:55:03,370
+of,
+
+1088
+00:55:04,000 --> 00:55:06,300
+well, not well understood, but it's kind of very thin.
+
+1089
+00:55:06,750 --> 00:55:08,020
+But even for me, like
+
+1090
+00:55:08,790 --> 00:55:09,560
+thickness,
+
+1091
+00:55:10,090 --> 00:55:13,429
+do you have any way of explaining if you have someone like a Van der
+
+1092
+00:55:13,709 --> 00:55:17,199
+Paal or Bernard where they they seem to have this unbelievable
+
+1093
+00:55:17,610 --> 00:55:19,000
+power. How would
+
+1094
+00:55:19,489 --> 00:55:22,560
+the different stiffness of a bike translate?
+
+1095
+00:55:24,439 --> 00:55:29,020
+That's a very interesting question, because this is something that so far, um,
+
+1096
+00:55:29,060 --> 00:55:31,979
+I only have experience
+
+1097
+00:55:32,620 --> 00:55:37,050
+and quite a lot of circumstantial evidence, but not significant.
+
+1098
+00:55:37,060 --> 00:55:38,580
+No scientific proof.
+
+1099
+00:55:39,760 --> 00:55:40,419
+Um,
+
+1100
+00:55:40,649 --> 00:55:44,179
+earlier on early on, when I was cycling and so on, um,
+
+1101
+00:55:44,360 --> 00:55:48,090
+when I was riding my bike, I realised you're standing on the pedals
+
+1102
+00:55:48,340 --> 00:55:51,229
+on a steep hill and you do that
+
+1103
+00:55:51,350 --> 00:55:52,179
+as you're pedalling
+
+1104
+00:55:52,979 --> 00:55:54,600
+and you can hear some noise and
+
+1105
+00:55:56,469 --> 00:55:58,300
+which is the tyres
+
+1106
+00:55:58,649 --> 00:55:59,610
+as you
+
+1107
+00:55:59,989 --> 00:56:01,340
+leaning the bike
+
+1108
+00:56:01,800 --> 00:56:05,020
+and the tyres they scrubbing on the on the ground.
+
+1109
+00:56:05,040 --> 00:56:07,540
+So in reality, your bike goes that way.
+
+1110
+00:56:08,229 --> 00:56:11,729
+But your tyres, they going that one that way and one that way,
+
+1111
+00:56:12,770 --> 00:56:14,520
+and they do this in effect.
+
+1112
+00:56:15,239 --> 00:56:18,659
+You can see that on on the FE A. On the stress analysis.
+
+1113
+00:56:18,919 --> 00:56:22,729
+As you apply the laws on the pedals, the frame always distorts.
+
+1114
+00:56:23,280 --> 00:56:28,020
+And actually the frame always distorts more towards the left
+
+1115
+00:56:28,709 --> 00:56:29,399
+and L.
+
+1116
+00:56:29,770 --> 00:56:30,739
+Thor was right
+
+1117
+00:56:31,370 --> 00:56:33,610
+Because of the reaction of the chain.
+
+1118
+00:56:34,520 --> 00:56:36,449
+The chain is on the right hand side.
+
+1119
+00:56:36,919 --> 00:56:39,879
+So when you apply the load in the right pedal,
+
+1120
+00:56:40,080 --> 00:56:42,459
+the chain is also trying to squeeze
+
+1121
+00:56:42,770 --> 00:56:44,290
+the uh, right
+
+1122
+00:56:44,409 --> 00:56:44,790
+hand chain
+
+1123
+00:56:45,060 --> 00:56:45,090
+thing
+
+1124
+00:56:45,469 --> 00:56:49,159
+and the bike moves, the bottom bracket moves more to the left. And
+
+1125
+00:56:49,600 --> 00:56:52,020
+then what you do on the left pedal
+
+1126
+00:56:52,510 --> 00:56:54,350
+it goes, I try to move the other way,
+
+1127
+00:56:54,360 --> 00:56:57,260
+but the chain tension is actually trying to counteract this.
+
+1128
+00:56:58,340 --> 00:57:01,530
+So all bikes. When you apply the pedals, they
+
+1129
+00:57:02,070 --> 00:57:05,090
+they move more to the left and less to the right.
+
+1130
+00:57:05,669 --> 00:57:08,929
+Now, as your bottom bracket moves to the left,
+
+1131
+00:57:09,459 --> 00:57:11,729
+your rear wheel moves with it because
+
+1132
+00:57:11,870 --> 00:57:15,060
+the chain stays, uh, directly on the bottom bracket,
+
+1133
+00:57:15,110 --> 00:57:16,810
+and then they're holding the rear wheel.
+
+1134
+00:57:16,860 --> 00:57:21,199
+So you apply the the the load in the pedal and the wheel
+
+1135
+00:57:21,209 --> 00:57:24,239
+goes more to the right and a little bit to the left.
+
+1136
+00:57:24,250 --> 00:57:28,010
+Sorry, more to the left and a bit on the right, more to the left and a bit on the right.
+
+1137
+00:57:28,379 --> 00:57:30,189
+So every time the wheel is doing this,
+
+1138
+00:57:30,479 --> 00:57:31,649
+the wheel is scrubbing
+
+1139
+00:57:33,600 --> 00:57:35,540
+and you're losing some power.
+
+1140
+00:57:36,649 --> 00:57:40,979
+The nearest I came up with any kind of number for this one
+
+1141
+00:57:41,649 --> 00:57:45,750
+is that there is a study that I found
+
+1142
+00:57:46,100 --> 00:57:48,580
+that it was calculating on, uh,
+
+1143
+00:57:48,949 --> 00:57:50,790
+if you have, um,
+
+1144
+00:57:52,139 --> 00:57:55,060
+CERs or the wings they are actually pointing in or pointing out
+
+1145
+00:57:55,340 --> 00:57:58,409
+how the rolling resistance changes.
+
+1146
+00:57:59,280 --> 00:58:01,129
+The rolling resistance change is
+
+1147
+00:58:02,419 --> 00:58:04,699
+roughly, I mean, it would depend on the tyre.
+
+1148
+00:58:04,709 --> 00:58:07,949
+What is the surface of the road and all sorts of numbers?
+
+1149
+00:58:08,689 --> 00:58:09,709
+For
+
+1150
+00:58:09,979 --> 00:58:15,229
+one degree, in or out, you have roughly 50% increase on the rolling resistance.
+
+1151
+00:58:15,610 --> 00:58:19,510
+Two degrees, 100% increase on rolling resistance.
+
+1152
+00:58:21,050 --> 00:58:26,300
+Uh, then you may ask the question How much the wheels they're coming out
+
+1153
+00:58:26,719 --> 00:58:29,629
+the wheels, they're coming out, depending on
+
+1154
+00:58:29,909 --> 00:58:34,530
+two things. How flexible the bike is, which is primarily the frame
+
+1155
+00:58:34,709 --> 00:58:36,179
+and, to an extent, the wheels
+
+1156
+00:58:37,719 --> 00:58:38,820
+and, uh,
+
+1157
+00:58:39,050 --> 00:58:46,860
+how heavy the rider is and how symmetric is. Some people are nice, smooth riders,
+
+1158
+00:58:47,820 --> 00:58:51,810
+some people, they just pounding on the pedals and they go boom, boom, boom.
+
+1159
+00:58:52,449 --> 00:58:53,219
+So
+
+1160
+00:58:53,790 --> 00:58:54,979
+it depends
+
+1161
+00:58:55,149 --> 00:58:58,989
+on the amount of power and how you put the power down and the weight of the R.
+
+1162
+00:58:59,780 --> 00:59:02,959
+So bigger, heavier riders, as you said
+
+1163
+00:59:03,199 --> 00:59:08,000
+Van art or a big sprinter on the truck, or or something like this
+
+1164
+00:59:08,800 --> 00:59:12,129
+will benefit more from a stiff frame.
+
+1165
+00:59:12,909 --> 00:59:15,570
+What I say 50 kg Rider
+
+1166
+00:59:16,310 --> 00:59:19,889
+will benefit less maybe for a 50 kg rider
+
+1167
+00:59:20,139 --> 00:59:22,790
+that is a smooth pedal and running small gears
+
+1168
+00:59:24,270 --> 00:59:25,959
+that will make not much of a difference.
+
+1169
+00:59:26,929 --> 00:59:30,310
+So it very much depends on the rider.
+
+1170
+00:59:30,320 --> 00:59:33,060
+And in general, the bigger the more powerful you are,
+
+1171
+00:59:33,120 --> 00:59:35,060
+the more you're gonna benefit out of Steve Frame.
+
+1172
+00:59:35,879 --> 00:59:37,290
+So how do you
+
+1173
+00:59:38,179 --> 00:59:39,610
+How do you achieve that then?
+
+1174
+00:59:39,620 --> 00:59:43,300
+So when we get all the details, you're designing a bike, let's say just for now,
+
+1175
+00:59:43,310 --> 00:59:44,250
+it's a road bike.
+
+1176
+00:59:44,449 --> 00:59:49,570
+How do you practically engineer in stiffness? And the second question to that is,
+
+1177
+00:59:49,939 --> 00:59:51,389
+What about comfort?
+
+1178
+00:59:52,129 --> 00:59:52,510
+Yeah,
+
+1179
+00:59:52,719 --> 00:59:54,429
+uh, stiffness
+
+1180
+00:59:54,870 --> 00:59:56,149
+on a bike frame.
+
+1181
+00:59:57,820 --> 01:00:00,439
+Let's let's look at on the bike frame for the time being. Because
+
+1182
+01:00:00,540 --> 01:00:01,280
+for argument's sake,
+
+1183
+01:00:01,290 --> 01:00:05,669
+comfort on the road bike to a very significant extent is actually the tyres.
+
+1184
+01:00:07,540 --> 01:00:12,100
+Yeah, especially nowadays that people just start going bigger and bigger tyres,
+
+1185
+01:00:12,600 --> 01:00:15,229
+uh, is not far from,
+
+1186
+01:00:15,629 --> 01:00:20,800
+if not 100%. Probably 95% of what you're feeling as comfort is the tyres
+
+1187
+01:00:21,639 --> 01:00:26,719
+in. In the old days, when the tyres, they were like very thin like 2123 millimetres
+
+1188
+01:00:27,030 --> 01:00:29,050
+and pumped up, pumped up quite high,
+
+1189
+01:00:29,729 --> 01:00:34,110
+uh, then the frame and the wings that were playing a bigger role,
+
+1190
+01:00:34,800 --> 01:00:36,659
+But now that, uh,
+
+1191
+01:00:36,760 --> 01:00:40,870
+23 millimetre tyres is considered to be a very skinny tyre
+
+1192
+01:00:41,479 --> 01:00:42,620
+and people they are
+
+1193
+01:00:42,840 --> 01:00:48,719
+running 28 millimetre tyres or 30 millimetre tyres. So on on low pressures,
+
+1194
+01:00:49,020 --> 01:00:51,070
+comfort comes.
+
+1195
+01:00:51,570 --> 01:00:54,149
+The vast majority comes from the tyre,
+
+1196
+01:00:54,959 --> 01:00:59,719
+the wheel itself. In terms of like how much it will absorb vertically,
+
+1197
+01:00:59,879 --> 01:01:01,229
+you can pretty much ignore it.
+
+1198
+01:01:02,570 --> 01:01:06,870
+The frames they are, at least for the frames that
+
+1199
+01:01:07,820 --> 01:01:08,679
+I do. For Pinarello,
+
+1200
+01:01:10,270 --> 01:01:14,060
+it may look a bit just a fancy shape that the seat stays on the back.
+
+1201
+01:01:14,070 --> 01:01:15,080
+They are not straight,
+
+1202
+01:01:15,219 --> 01:01:16,830
+but they have like a little bit of a zigzag
+
+1203
+01:01:16,949 --> 01:01:17,409
+shape
+
+1204
+01:01:18,260 --> 01:01:21,020
+that is primarily for soccer Georgia.
+
+1205
+01:01:21,830 --> 01:01:26,530
+So they they give you a little bit of an a smoother ride because
+
+1206
+01:01:26,800 --> 01:01:28,969
+they can allow a little bit of flex.
+
+1207
+01:01:30,070 --> 01:01:32,850
+That actually came from the time that the
+
+1208
+01:01:32,860 --> 01:01:36,250
+thicker tyres and the thin tyres were prevalent.
+
+1209
+01:01:36,659 --> 01:01:40,360
+Nowadays, with the thicker tyres, it probably makes no real difference.
+
+1210
+01:01:41,550 --> 01:01:46,000
+OK, but, uh, this is like what is comfort and how stiffness is related to that.
+
+1211
+01:01:46,010 --> 01:01:46,729
+And also,
+
+1212
+01:01:47,350 --> 01:01:52,209
+when you're designing a bike, when they're talking about the stiffness of the bike,
+
+1213
+01:01:52,949 --> 01:01:58,250
+they primarily refer to the stiffness of what you may call the power transfer.
+
+1214
+01:01:58,659 --> 01:02:00,570
+So in effect you have it
+
+1215
+01:02:01,580 --> 01:02:02,560
+from the shed tube
+
+1216
+01:02:03,739 --> 01:02:06,000
+to the bottom bracket to the rear wheel.
+
+1217
+01:02:06,610 --> 01:02:08,729
+So when you're designing a bike,
+
+1218
+01:02:09,120 --> 01:02:11,629
+if you do a straight line between the,
+
+1219
+01:02:12,350 --> 01:02:15,110
+um the rear, the centre of the rear wheel
+
+1220
+01:02:15,399 --> 01:02:19,310
+to the top of the head tube, anything below that
+
+1221
+01:02:19,580 --> 01:02:22,669
+it has to be designed for primarily torsional stiffness.
+
+1222
+01:02:22,699 --> 01:02:25,350
+Because it's the bit that actually matters when you're pedalling.
+
+1223
+01:02:25,810 --> 01:02:29,070
+And anything above that is designed to be more
+
+1224
+01:02:29,080 --> 01:02:32,120
+compliant so it can actually reduce the shock absorption.
+
+1225
+01:02:32,129 --> 01:02:33,870
+Sorry, increase the shock abjunction.
+
+1226
+01:02:34,889 --> 01:02:37,199
+So the lower part of the frame.
+
+1227
+01:02:37,209 --> 01:02:43,050
+That's why you see large down tubes and large, uh, change days
+
+1228
+01:02:43,360 --> 01:02:46,850
+and, relatively speaking large and lower part of the CT.
+
+1229
+01:02:47,540 --> 01:02:50,429
+Because by doing this, what you're ending up with
+
+1230
+01:02:50,840 --> 01:02:55,939
+you minimising the relative move relative movement of the bottom bracket,
+
+1231
+01:02:55,949 --> 01:02:56,830
+trying to
+
+1232
+01:02:56,979 --> 01:02:57,739
+wander
+
+1233
+01:02:57,840 --> 01:02:59,229
+left and right as you pedal it.
+
+1234
+01:02:59,649 --> 01:03:03,100
+And the way you do it is, you do your stress analysis.
+
+1235
+01:03:03,459 --> 01:03:06,639
+You see where your stress is and your flex is generated,
+
+1236
+01:03:06,649 --> 01:03:08,199
+and you try to put material over there.
+
+1237
+01:03:08,949 --> 01:03:09,739
+And, uh,
+
+1238
+01:03:10,560 --> 01:03:14,939
+you can do this either by adding material or increasing the cross sections.
+
+1239
+01:03:16,379 --> 01:03:17,909
+OK, so you are
+
+1240
+01:03:18,129 --> 01:03:21,439
+just for people to understand. So you're saying essentially
+
+1241
+01:03:22,229 --> 01:03:24,510
+the difference between
+
+1242
+01:03:25,060 --> 01:03:28,500
+a very stiff bike or a not very stiff bike
+
+1243
+01:03:28,659 --> 01:03:31,330
+The way that it translates essentially into your speed
+
+1244
+01:03:31,810 --> 01:03:34,649
+is partially that as you stamp down on the pedals
+
+1245
+01:03:35,209 --> 01:03:37,330
+and a bike that's not very stiff,
+
+1246
+01:03:37,340 --> 01:03:40,719
+Will will basically cause a lot more sort of lateral movement
+
+1247
+01:03:42,060 --> 01:03:43,129
+in the tyre,
+
+1248
+01:03:45,020 --> 01:03:49,360
+and therefore the rolling resistance would kind of increase,
+
+1249
+01:03:49,370 --> 01:03:52,520
+whereas a very stiff bike is going to stay a lot more true.
+
+1250
+01:03:52,530 --> 01:03:52,780
+And,
+
+1251
+01:03:53,800 --> 01:03:54,159
+yeah,
+
+1252
+01:03:54,580 --> 01:03:56,739
+be careful a stiff bike
+
+1253
+01:03:56,919 --> 01:04:01,810
+on the drive train side. No, you should not compare stiff bike on the feeling
+
+1254
+01:04:02,429 --> 01:04:03,909
+or comfortable
+
+1255
+01:04:04,060 --> 01:04:04,300
+is,
+
+1256
+01:04:05,129 --> 01:04:05,199
+uh,
+
+1257
+01:04:05,590 --> 01:04:09,830
+there are quite a lot of misconceptions about this one. Like, uh,
+
+1258
+01:04:09,979 --> 01:04:12,530
+for argument's sake, in the
+
+1259
+01:04:13,399 --> 01:04:15,790
+in the early days of aluminium frames,
+
+1260
+01:04:16,909 --> 01:04:19,689
+people they were saying, Oh, aluminium frames are very flexible.
+
+1261
+01:04:19,959 --> 01:04:22,929
+I know that because I was riding one in the eighties
+
+1262
+01:04:24,129 --> 01:04:25,879
+and actually, I liked it to be fair, and
+
+1263
+01:04:26,000 --> 01:04:28,379
+they were saying, it's too flexible and, uh,
+
+1264
+01:04:29,290 --> 01:04:32,669
+yeah, you're losing power. But I was still beating everybody in the spring,
+
+1265
+01:04:34,399 --> 01:04:37,350
+but anyway, so, uh, Then later on,
+
+1266
+01:04:37,360 --> 01:04:41,020
+somebody realised the likes of Klein and Canon Dale.
+
+1267
+01:04:41,030 --> 01:04:41,989
+They were like the
+
+1268
+01:04:42,149 --> 01:04:44,110
+the ones that they came up with the idea,
+
+1269
+01:04:44,510 --> 01:04:45,919
+but a large diameter,
+
+1270
+01:04:46,110 --> 01:04:46,139
+an
+
+1271
+01:04:46,639 --> 01:04:46,979
+tube.
+
+1272
+01:04:47,709 --> 01:04:51,689
+It can make the bike both lighter and stiffer.
+
+1273
+01:04:53,550 --> 01:04:56,199
+So they start making these bikes with a large
+
+1274
+01:04:56,209 --> 01:04:59,169
+down tubes and large tubes here and there.
+
+1275
+01:04:59,419 --> 01:05:03,290
+And the way it went down like an old steel frame
+
+1276
+01:05:04,110 --> 01:05:06,169
+if you were going below 2 kg,
+
+1277
+01:05:06,610 --> 01:05:08,699
+Uh, we're talking about the good quality, like a
+
+1278
+01:05:09,060 --> 01:05:09,139
+Columbus
+
+1279
+01:05:09,560 --> 01:05:12,090
+Lakes, which you can still buy today if you want to.
+
+1280
+01:05:12,310 --> 01:05:15,810
+If you go below 2 kg, you were actually pretty good, actually,
+
+1281
+01:05:16,469 --> 01:05:20,090
+uh, and, uh, the aluminium frames of the day.
+
+1282
+01:05:20,120 --> 01:05:22,320
+Uh, they were just hardly any lighter,
+
+1283
+01:05:22,330 --> 01:05:24,250
+maybe 100 grammes lighter or something like that.
+
+1284
+01:05:25,409 --> 01:05:27,790
+Then when they found out that you can
+
+1285
+01:05:27,800 --> 01:05:30,610
+do lightweight aluminium frames with large diameters,
+
+1286
+01:05:30,620 --> 01:05:32,110
+the weight dropped dramatically.
+
+1287
+01:05:32,449 --> 01:05:38,629
+And, uh, you could buy an aluminium frame at 1.3 kg or even 1.2 kg.
+
+1288
+01:05:38,750 --> 01:05:41,350
+And for a period, you could buy a sub
+
+1289
+01:05:41,669 --> 01:05:43,270
+1 kg frame.
+
+1290
+01:05:44,149 --> 01:05:48,330
+But, uh, that was before the IO testing that, uh, uh,
+
+1291
+01:05:48,719 --> 01:05:53,080
+mandated you need to do a lot of fatigue and stuff like that. So then the sub
+
+1292
+01:05:53,479 --> 01:05:55,429
+1 kg aluminium frames disappeared.
+
+1293
+01:05:56,280 --> 01:06:00,229
+But the way they were doing this is they were going very large diameter, say,
+
+1294
+01:06:00,239 --> 01:06:02,399
+6070 millimetre diameter tubes.
+
+1295
+01:06:02,409 --> 01:06:03,129
+They were like sub
+
+1296
+01:06:03,250 --> 01:06:06,060
+millimetre wall thickness, which makes it very stiff,
+
+1297
+01:06:06,270 --> 01:06:08,469
+very light and pretty strong, actually.
+
+1298
+01:06:08,659 --> 01:06:09,300
+But,
+
+1299
+01:06:10,179 --> 01:06:10,790
+uh
+
+1300
+01:06:11,199 --> 01:06:11,340
+uh,
+
+1301
+01:06:11,540 --> 01:06:13,350
+comfort suffered,
+
+1302
+01:06:13,649 --> 01:06:15,550
+and there was this myth that
+
+1303
+01:06:15,770 --> 01:06:18,479
+Oh, aluminium is stiffer than steel.
+
+1304
+01:06:19,469 --> 01:06:22,649
+Anybody who's a little bit into engineering
+
+1305
+01:06:22,899 --> 01:06:23,889
+will tell you
+
+1306
+01:06:24,679 --> 01:06:28,350
+for the same cross section. Aluminium is one third of the weight
+
+1307
+01:06:28,600 --> 01:06:30,179
+and one third of the stiffness.
+
+1308
+01:06:30,919 --> 01:06:34,889
+So if you make something exactly the same, it will not be stiffer.
+
+1309
+01:06:34,899 --> 01:06:37,949
+It will be actually a lot less stiff,
+
+1310
+01:06:38,550 --> 01:06:41,629
+but it was purely the large diameter that was making it.
+
+1311
+01:06:42,649 --> 01:06:44,449
+So stiffness
+
+1312
+01:06:45,219 --> 01:06:49,429
+is something that I think is still a bit overlooked.
+
+1313
+01:06:50,139 --> 01:06:54,199
+Um, I only have circumstantial evidence. I know there are some people.
+
+1314
+01:06:54,209 --> 01:06:56,649
+They try to put some science behind it.
+
+1315
+01:06:57,649 --> 01:07:01,070
+I don't really know the results yet. I hope they manage to find something.
+
+1316
+01:07:01,080 --> 01:07:01,790
+I'll be very interested.
+
+1317
+01:07:03,399 --> 01:07:06,030
+So one of the things that, um,
+
+1318
+01:07:06,729 --> 01:07:08,830
+I was wondering about is that on the material side,
+
+1319
+01:07:08,840 --> 01:07:11,659
+there's obviously something where I think you've done a lot of innovation.
+
+1320
+01:07:11,719 --> 01:07:13,469
+But if you look back Steel,
+
+1321
+01:07:13,580 --> 01:07:14,209
+aluminium,
+
+1322
+01:07:14,500 --> 01:07:15,909
+carbon fibre.
+
+1323
+01:07:16,679 --> 01:07:19,550
+So where does the link between
+
+1324
+01:07:20,010 --> 01:07:23,699
+carbon fibre titanium 3D printing? What?
+
+1325
+01:07:23,709 --> 01:07:27,189
+Where Where are we at now and where are things kind of
+
+1326
+01:07:27,469 --> 01:07:30,989
+going towards? Is that an area of sort of innovation?
+
+1327
+01:07:32,290 --> 01:07:32,909
+So
+
+1328
+01:07:33,669 --> 01:07:36,600
+if we look if we live, um,
+
+1329
+01:07:37,629 --> 01:07:39,090
+carbon fibre out for a minute,
+
+1330
+01:07:39,850 --> 01:07:45,540
+if you look on the you make all the three main materials like steel,
+
+1331
+01:07:46,020 --> 01:07:47,709
+aluminium and titanium,
+
+1332
+01:07:48,340 --> 01:07:50,239
+and we can go to carbon fibre a bit later.
+
+1333
+01:07:51,750 --> 01:07:56,330
+These materials, uh, they're actually quite interesting because
+
+1334
+01:07:58,090 --> 01:07:59,469
+if we say,
+
+1335
+01:07:59,760 --> 01:08:00,550
+um,
+
+1336
+01:08:00,739 --> 01:08:04,870
+aluminium is roughly one third the weight of, uh uh, steel
+
+1337
+01:08:05,229 --> 01:08:06,949
+and roughly one third
+
+1338
+01:08:07,360 --> 01:08:10,739
+the stiffness and the strength, Uh, maybe not the strength, but the stiffness,
+
+1339
+01:08:11,739 --> 01:08:15,399
+different alloys. They will have different strengths and all that stiff.
+
+1340
+01:08:15,409 --> 01:08:17,640
+One important thing to understand is also
+
+1341
+01:08:17,959 --> 01:08:24,759
+stiffness stays relatively unchanged within that group of material.
+
+1342
+01:08:24,770 --> 01:08:28,450
+So more or less all steel will have a very similar stiffness.
+
+1343
+01:08:28,459 --> 01:08:30,560
+Not exactly the same, but very similar.
+
+1344
+01:08:31,220 --> 01:08:33,120
+Maybe within a 5% range,
+
+1345
+01:08:33,470 --> 01:08:35,259
+and the same thing for all aluminums.
+
+1346
+01:08:35,270 --> 01:08:38,609
+Between the lowest stiffness to the highest stiffness,
+
+1347
+01:08:38,620 --> 01:08:41,060
+it will be something in the region of about 5%.
+
+1348
+01:08:41,509 --> 01:08:41,890
+Titanium
+
+1349
+01:08:42,609 --> 01:08:45,200
+sits pretty much between. Those two
+
+1350
+01:08:45,839 --> 01:08:48,479
+is about, uh, a third
+
+1351
+01:08:48,649 --> 01:08:50,759
+lighter than steel, but a third,
+
+1352
+01:08:50,859 --> 01:08:52,609
+but, uh, heavier than Albi.
+
+1353
+01:08:53,950 --> 01:08:55,500
+The strength. Sorry.
+
+1354
+01:08:55,509 --> 01:09:00,209
+The stiffness of, uh, uh, titanium again is like halfway between those two.
+
+1355
+01:09:01,269 --> 01:09:03,167
+The strength of titanium
+
+1356
+01:09:03,429 --> 01:09:04,999
+is close air
+
+1357
+01:09:05,377 --> 01:09:09,358
+to, um, steel than what aluminium is.
+
+1358
+01:09:10,450 --> 01:09:13,399
+So in theory you can make it a lighter bike,
+
+1359
+01:09:13,410 --> 01:09:15,759
+but you will end up with a more flexible bike
+
+1360
+01:09:17,069 --> 01:09:18,439
+now, carbon fibre.
+
+1361
+01:09:19,379 --> 01:09:21,160
+It is a very interesting material
+
+1362
+01:09:21,770 --> 01:09:26,669
+because carbon fibre can have a really vast range of properties.
+
+1363
+01:09:26,939 --> 01:09:28,160
+It can be,
+
+1364
+01:09:28,660 --> 01:09:29,359
+uh,
+
+1365
+01:09:30,559 --> 01:09:31,457
+less.
+
+1366
+01:09:32,629 --> 01:09:34,169
+I'm sorry. The main
+
+1367
+01:09:34,439 --> 01:09:36,950
+thing about carbon fibre, it is actually very light.
+
+1368
+01:09:36,959 --> 01:09:42,689
+It's significantly lighter than aluminium it. It's not halfway down, it's not.
+
+1369
+01:09:42,700 --> 01:09:44,330
+It's not half the aluminium,
+
+1370
+01:09:44,680 --> 01:09:48,569
+but, uh, for equal thickness and so on. If aluminium is 10,
+
+1371
+01:09:48,910 --> 01:09:49,379
+uh, for
+
+1372
+01:09:49,490 --> 01:09:49,500
+I
+
+1373
+01:09:49,680 --> 01:09:51,450
+say, carbon fibre will be six.
+
+1374
+01:09:52,879 --> 01:09:56,419
+Uh, whereas if aluminium is 10, carbon fibre is six.
+
+1375
+01:09:56,830 --> 01:09:59,459
+Titanium will be 20 still will be 30
+
+1376
+01:10:00,500 --> 01:10:01,020
+OK.
+
+1377
+01:10:02,310 --> 01:10:06,560
+And also in terms of strength and stiffness, there is a very large, uh, varia
+
+1378
+01:10:06,779 --> 01:10:07,850
+variation,
+
+1379
+01:10:08,509 --> 01:10:14,370
+and you have like, uh, you can have carbon fibre, which is less stiff
+
+1380
+01:10:15,000 --> 01:10:16,169
+than aluminium,
+
+1381
+01:10:17,270 --> 01:10:18,229
+up to
+
+1382
+01:10:19,549 --> 01:10:22,169
+about, um, three times
+
+1383
+01:10:23,040 --> 01:10:24,100
+the stiffness of steam.
+
+1384
+01:10:24,939 --> 01:10:25,419
+Wow.
+
+1385
+01:10:25,810 --> 01:10:29,080
+And if you're gonna go on maybe more than three times, actually, uh,
+
+1386
+01:10:29,089 --> 01:10:31,080
+maybe four times, uh,
+
+1387
+01:10:31,370 --> 01:10:33,359
+depending on how you look at the numbers, you know,
+
+1388
+01:10:33,370 --> 01:10:36,140
+if you look at just pure fibres over five times,
+
+1389
+01:10:36,459 --> 01:10:37,149
+but, uh,
+
+1390
+01:10:37,500 --> 01:10:41,279
+if you the moment you take the fibre, you make it into a composite,
+
+1391
+01:10:42,160 --> 01:10:46,069
+you are because what we normally call carbon fibre. In reality, it is
+
+1392
+01:10:46,580 --> 01:10:50,620
+what the word says carbon fibre. So it's like strings of material.
+
+1393
+01:10:50,629 --> 01:10:53,479
+You cannot make much with strings. And if you're making rocks or
+
+1394
+01:10:53,589 --> 01:10:53,970
+garments,
+
+1395
+01:10:56,129 --> 01:10:58,109
+so what you do with that is
+
+1396
+01:10:58,259 --> 01:11:01,649
+you're putting it into a matrix, as they call it with in effect,
+
+1397
+01:11:02,270 --> 01:11:06,229
+uh, you know, in in the simple terms, you're painting it with a bit of glue
+
+1398
+01:11:07,000 --> 01:11:10,490
+and you let the glue go off, so it holds the fibres in position.
+
+1399
+01:11:10,990 --> 01:11:14,109
+So what we call in carbon fibre bikes nowadays is, uh,
+
+1400
+01:11:14,120 --> 01:11:16,560
+primarily carbon fibre and epoxy resin
+
+1401
+01:11:16,950 --> 01:11:18,540
+that actually holds the fibres together.
+
+1402
+01:11:19,600 --> 01:11:20,479
+So
+
+1403
+01:11:20,629 --> 01:11:24,540
+by the time you do this, if you put all the fibres in the same direction.
+
+1404
+01:11:24,959 --> 01:11:28,700
+You're getting very good properties in the direction of the fibre,
+
+1405
+01:11:29,830 --> 01:11:30,359
+but
+
+1406
+01:11:30,770 --> 01:11:34,950
+90 degrees to the fibre. You're only getting the properties of the re in effect.
+
+1407
+01:11:35,410 --> 01:11:36,779
+So imagine it
+
+1408
+01:11:36,910 --> 01:11:39,319
+along the fibres, properties of steel
+
+1409
+01:11:40,569 --> 01:11:42,870
+across the fibres, properties of plastic.
+
+1410
+01:11:44,819 --> 01:11:48,379
+Of course, you cannot do much with this kind of material.
+
+1411
+01:11:48,390 --> 01:11:51,479
+So that's why when what we call a carbon fibre,
+
+1412
+01:11:51,839 --> 01:11:55,250
+usually there are multiple orientations of the
+
+1413
+01:11:55,259 --> 01:11:58,200
+material that they going in different directions.
+
+1414
+01:11:58,990 --> 01:12:01,259
+In the early days of carbon fibre,
+
+1415
+01:12:01,459 --> 01:12:04,689
+the engineers they were using it almost like black alumi.
+
+1416
+01:12:05,509 --> 01:12:07,250
+So they had, like equal
+
+1417
+01:12:07,439 --> 01:12:08,830
+number of fibres on
+
+1418
+01:12:09,040 --> 01:12:12,779
+0 90 plus 45 and minus 45.
+
+1419
+01:12:13,750 --> 01:12:17,299
+It wasn't really significantly better than aluminium.
+
+1420
+01:12:17,310 --> 01:12:19,490
+So then engineers, they got a bit more clever.
+
+1421
+01:12:19,899 --> 01:12:24,680
+You do all your analysis and you put more on this direction and less on the other.
+
+1422
+01:12:25,220 --> 01:12:29,410
+And this is really how today's bikes, they ending up being
+
+1423
+01:12:29,790 --> 01:12:31,890
+lighter than aluminium.
+
+1424
+01:12:32,379 --> 01:12:35,580
+If you were only doing them that you put the same number of fibres,
+
+1425
+01:12:35,589 --> 01:12:38,410
+the same amount of fibres in every direction,
+
+1426
+01:12:38,770 --> 01:12:40,569
+you will not really get anything lighter.
+
+1427
+01:12:42,140 --> 01:12:46,680
+And then there is a whole science on how you mix in different fibres
+
+1428
+01:12:46,939 --> 01:12:49,450
+and different grades of fibre that the
+
+1429
+01:12:49,950 --> 01:12:54,399
+strength goes up or the stiffness goes up. Usually your carbon fibre,
+
+1430
+01:12:55,200 --> 01:12:57,000
+if you remember or not, the other materials.
+
+1431
+01:12:57,009 --> 01:13:00,629
+We said the strength varies, but the stiffness stays very similar.
+
+1432
+01:13:00,640 --> 01:13:01,569
+It doesn't change that much,
+
+1433
+01:13:01,970 --> 01:13:05,350
+whereas on the carbon fibre both the strength and the stiffness,
+
+1434
+01:13:05,359 --> 01:13:06,310
+they vary quite a lot.
+
+1435
+01:13:07,009 --> 01:13:10,580
+And you do have the high end bikes quite a few times. You may
+
+1436
+01:13:10,790 --> 01:13:14,299
+hear that they're using more than one grade of material,
+
+1437
+01:13:14,709 --> 01:13:16,620
+and they're putting stiffer grades where is
+
+1438
+01:13:16,629 --> 01:13:19,279
+needed and different grades somewhere else.
+
+1439
+01:13:19,729 --> 01:13:24,859
+And that is actually a sign of somebody who sat down and thought about it properly
+
+1440
+01:13:25,450 --> 01:13:29,000
+and try to do something good. This is really how you make these extreme
+
+1441
+01:13:29,259 --> 01:13:30,569
+lightweight bikes.
+
+1442
+01:13:30,580 --> 01:13:33,970
+And they are like, I know 700 grammes for a frame and stuff like that. Yeah.
+
+1443
+01:13:35,149 --> 01:13:40,120
+So where does the, um, I was reading, you know, the idea of
+
+1444
+01:13:41,209 --> 01:13:44,310
+3D printing and additive manufacturing, is it
+
+1445
+01:13:44,540 --> 01:13:48,930
+so that it sounds like carbon fibre is the perfect material? So where's the
+
+1446
+01:13:49,629 --> 01:13:53,220
+yeah downsides or or where things could be improved?
+
+1447
+01:13:53,399 --> 01:13:53,689
+Yeah,
+
+1448
+01:13:53,790 --> 01:13:54,500
+So
+
+1449
+01:13:54,899 --> 01:13:57,620
+let me go back a little bit of that.
+
+1450
+01:13:58,430 --> 01:14:04,799
+So you make a a flat piece of steel or carbon fibre or aluminium or whatever you do.
+
+1451
+01:14:04,810 --> 01:14:05,490
+Some testing
+
+1452
+01:14:07,049 --> 01:14:12,490
+carbon fibre will probably come and win hands down on pretty much everything,
+
+1453
+01:14:12,500 --> 01:14:14,109
+especially if its intention,
+
+1454
+01:14:15,129 --> 01:14:17,779
+like one important point to remember
+
+1455
+01:14:18,089 --> 01:14:21,100
+carbon fibre, is pretty damn good intention.
+
+1456
+01:14:22,120 --> 01:14:22,830
+But
+
+1457
+01:14:22,979 --> 01:14:23,859
+especially,
+
+1458
+01:14:23,870 --> 01:14:25,620
+you need directional carbon fibre where you
+
+1459
+01:14:25,629 --> 01:14:27,430
+have all the fibres going in one direction
+
+1460
+01:14:28,439 --> 01:14:30,140
+is not very good in compression.
+
+1461
+01:14:31,259 --> 01:14:32,080
+So,
+
+1462
+01:14:33,080 --> 01:14:35,140
+uh, when you start making
+
+1463
+01:14:35,259 --> 01:14:35,450
+AAA
+
+1464
+01:14:35,770 --> 01:14:38,419
+bike frame that it takes
+
+1465
+01:14:38,970 --> 01:14:42,859
+loads in quite a few different ways because you have the pedalling loads,
+
+1466
+01:14:43,069 --> 01:14:45,930
+you have the loads. When you apply the brakes, you have different loads.
+
+1467
+01:14:45,939 --> 01:14:47,140
+When you ordering,
+
+1468
+01:14:47,319 --> 01:14:49,959
+you have different loads when you have your weight on the saddle,
+
+1469
+01:14:50,040 --> 01:14:52,660
+as opposed to all you pedalling standing up and so on.
+
+1470
+01:14:53,040 --> 01:14:57,419
+So you have to design the bike to be able to take loads in many different directions.
+
+1471
+01:14:58,339 --> 01:15:01,149
+So you start having every tube
+
+1472
+01:15:01,640 --> 01:15:05,569
+you need to have, like some fibres in this direction, that they do whatever they do.
+
+1473
+01:15:05,580 --> 01:15:08,830
+But then when you have different direction, the the load in different directions,
+
+1474
+01:15:08,839 --> 01:15:09,839
+they don't do very much
+
+1475
+01:15:10,660 --> 01:15:16,200
+so This is why, for argument's sake, carbon fibre frames, they are not
+
+1476
+01:15:16,680 --> 01:15:17,959
+400 grammes
+
+1477
+01:15:18,950 --> 01:15:21,680
+because you have to carry the extra weight to
+
+1478
+01:15:21,790 --> 01:15:23,660
+to counteract very different loads.
+
+1479
+01:15:24,419 --> 01:15:26,520
+And these very extreme lightweight bikes,
+
+1480
+01:15:26,529 --> 01:15:31,390
+they have primarily either round tubes or very nearly round tubes, like some stuff,
+
+1481
+01:15:32,009 --> 01:15:33,390
+you know, slightly swish
+
+1482
+01:15:33,770 --> 01:15:35,080
+tubes and stuff like that
+
+1483
+01:15:36,399 --> 01:15:39,770
+carbon fibre. Also, when you start going around corners,
+
+1484
+01:15:40,370 --> 01:15:41,750
+he doesn't like it very much
+
+1485
+01:15:42,229 --> 01:15:45,149
+because what you have is you have,
+
+1486
+01:15:45,620 --> 01:15:48,189
+uh how can I demonstrate this? Uh,
+
+1487
+01:15:48,399 --> 01:15:48,439
+I
+
+1488
+01:15:48,729 --> 01:15:49,350
+find
+
+1489
+01:15:49,819 --> 01:15:51,660
+something like that.
+
+1490
+01:15:52,700 --> 01:15:53,959
+So you have this.
+
+1491
+01:15:54,479 --> 01:15:57,839
+This is just a normal book or you have all the different pages.
+
+1492
+01:15:58,759 --> 01:15:59,279
+And
+
+1493
+01:15:59,589 --> 01:16:02,500
+when you're pushing it and pulling it, not much is happening, OK?
+
+1494
+01:16:02,720 --> 01:16:05,339
+When you do it and it goes around the corner,
+
+1495
+01:16:06,779 --> 01:16:10,040
+if you have a force that is trying to open up this
+
+1496
+01:16:11,060 --> 01:16:11,410
+you
+
+1497
+01:16:11,770 --> 01:16:15,979
+I'm not doing it very well. Let me do it a bit better. Hopefully, this will work now
+
+1498
+01:16:16,490 --> 01:16:17,359
+live demo.
+
+1499
+01:16:17,660 --> 01:16:20,750
+So you do it like this and you try to open it. You can see
+
+1500
+01:16:21,799 --> 01:16:22,609
+Ah yeah, yeah.
+
+1501
+01:16:23,399 --> 01:16:24,430
+So this
+
+1502
+01:16:24,899 --> 01:16:26,500
+is creating, uh,
+
+1503
+01:16:26,600 --> 01:16:30,450
+every time you go around the corner and this is time to do that
+
+1504
+01:16:30,930 --> 01:16:32,479
+is creating this.
+
+1505
+01:16:32,609 --> 01:16:35,109
+What you call through thickness forces
+
+1506
+01:16:37,049 --> 01:16:38,350
+and through thickness.
+
+1507
+01:16:38,629 --> 01:16:41,229
+You only have the resin resisting it.
+
+1508
+01:16:42,500 --> 01:16:43,649
+There are
+
+1509
+01:16:44,149 --> 01:16:47,939
+3D stitched carbon fibres and so on. But
+
+1510
+01:16:48,160 --> 01:16:49,700
+there are still a rarity.
+
+1511
+01:16:49,959 --> 01:16:54,279
+It's It's a well known technology, probably more than 50 years old technology
+
+1512
+01:16:54,560 --> 01:16:57,080
+but putting fibres through the thickness,
+
+1513
+01:16:58,350 --> 01:16:59,549
+it is hardly ever used.
+
+1514
+01:17:00,470 --> 01:17:05,049
+So because of that again, you have to carry extra weight.
+
+1515
+01:17:05,200 --> 01:17:09,509
+So then your benefit from the carbon fibre comes down and
+
+1516
+01:17:09,520 --> 01:17:11,450
+comes down and it comes down and it comes down.
+
+1517
+01:17:13,299 --> 01:17:15,919
+Now where 3D printing is coming in
+
+1518
+01:17:16,220 --> 01:17:19,720
+is you can do all sorts of weird and wonderful shapes.
+
+1519
+01:17:20,129 --> 01:17:22,359
+You can also do internal structures.
+
+1520
+01:17:22,370 --> 01:17:26,759
+Let's say one of the problems that, uh, we realised quite a few times in carbon fibre.
+
+1521
+01:17:27,729 --> 01:17:32,439
+If you if you go to any modern bike, uh, lightweight carbon fibre bike,
+
+1522
+01:17:32,560 --> 01:17:36,709
+you take the top tube and you pinch it like this. You will feel it moving
+
+1523
+01:17:37,600 --> 01:17:40,910
+in the middle of the top tube or in the middle of the down tube. You do it like this.
+
+1524
+01:17:41,049 --> 01:17:42,109
+You can feel it moving
+
+1525
+01:17:42,470 --> 01:17:44,169
+because it's less than a millimetre thick.
+
+1526
+01:17:45,790 --> 01:17:47,979
+This doesn't matter very much in the middle of the down
+
+1527
+01:17:48,089 --> 01:17:51,910
+cube. But when you're going close to the corners where it needs to turn
+
+1528
+01:17:52,509 --> 01:17:53,890
+the walls that do this.
+
+1529
+01:17:54,160 --> 01:17:57,129
+So to counteract these, you're putting extra material and so on.
+
+1530
+01:17:57,930 --> 01:18:01,540
+With 3D printing, you can have a wall that is, you know,
+
+1531
+01:18:01,549 --> 01:18:02,669
+a structure which is like this.
+
+1532
+01:18:02,680 --> 01:18:04,509
+And if when the walls try to do this
+
+1533
+01:18:04,990 --> 01:18:06,390
+as you apply the forces,
+
+1534
+01:18:06,700 --> 01:18:08,339
+you can have another wall there
+
+1535
+01:18:09,689 --> 01:18:10,060
+when you say
+
+1536
+01:18:10,209 --> 01:18:12,490
+3D printing just so people can start. What
+
+1537
+01:18:12,680 --> 01:18:15,000
+what material are you speaking about? Now?
+
+1538
+01:18:15,470 --> 01:18:16,779
+3D printing.
+
+1539
+01:18:17,000 --> 01:18:18,290
+I mean, you can do it in plastic,
+
+1540
+01:18:18,299 --> 01:18:21,129
+but you're not going to ride the plastic bike very far.
+
+1541
+01:18:21,970 --> 01:18:27,250
+Uh, the most commonly used material is titanium.
+
+1542
+01:18:28,419 --> 01:18:33,890
+Somehow, um, Ti-6Al-4V, as they call it, is six aluminium for
+
+1543
+01:18:34,200 --> 01:18:34,600
+vanadium.
+
+1544
+01:18:35,080 --> 01:18:38,990
+Uh, it is a material that actually is a very well known material.
+
+1545
+01:18:39,000 --> 01:18:40,439
+It's a high strength material,
+
+1546
+01:18:41,410 --> 01:18:42,100
+uh,
+
+1547
+01:18:42,250 --> 01:18:45,080
+that you can actually 3D print pretty well.
+
+1548
+01:18:45,549 --> 01:18:49,029
+So the vast majority of, um
+
+1549
+01:18:49,750 --> 01:18:49,770
+uh,
+
+1550
+01:18:49,830 --> 01:18:54,970
+the vast majority of 3D printed structures out there that they have to do with high
+
+1551
+01:18:55,189 --> 01:18:56,490
+trenches. And so on
+
+1552
+01:18:56,720 --> 01:18:56,870
+that
+
+1553
+01:18:57,080 --> 01:18:57,169
+time,
+
+1554
+01:18:58,470 --> 01:18:59,629
+and, uh,
+
+1555
+01:19:00,160 --> 01:19:02,589
+again, when you have a thin wall like this.
+
+1556
+01:19:02,600 --> 01:19:07,330
+We had this a number of times, Like, uh, because we do a lot of 3D printing in, uh,
+
+1557
+01:19:07,350 --> 01:19:08,799
+in titanium these days.
+
+1558
+01:19:08,810 --> 01:19:12,089
+Uh, we have this Sometimes that you have some
+
+1559
+01:19:12,470 --> 01:19:17,020
+you have a tube that it may be whatever shape it is, and as you apply the forces,
+
+1560
+01:19:17,209 --> 01:19:18,009
+it does that.
+
+1561
+01:19:19,709 --> 01:19:22,649
+So to counteract this, you can put a mesh in there,
+
+1562
+01:19:22,660 --> 01:19:25,859
+or you can put some extra beam or two or whatever it may be
+
+1563
+01:19:26,339 --> 01:19:27,709
+and that can actually,
+
+1564
+01:19:28,459 --> 01:19:29,910
+uh, eliminate this
+
+1565
+01:19:30,640 --> 01:19:35,660
+to the extent that, uh uh, you can end up with a structure which is lighter
+
+1566
+01:19:36,169 --> 01:19:37,149
+than the carbon fibre.
+
+1567
+01:19:38,040 --> 01:19:38,839
+And,
+
+1568
+01:19:38,970 --> 01:19:38,979
+uh,
+
+1569
+01:19:39,410 --> 01:19:41,500
+when I first came across this,
+
+1570
+01:19:41,959 --> 01:19:43,259
+I'll tell you a story.
+
+1571
+01:19:44,169 --> 01:19:46,189
+Uh, which is go something like this.
+
+1572
+01:19:47,759 --> 01:19:50,859
+We did some handlebars for British cycling for 2016.
+
+1573
+01:19:51,859 --> 01:19:56,759
+Uh, British cycling came back and said, um, can we have a few more of those, please?
+
+1574
+01:19:57,109 --> 01:19:59,560
+I think it was around 2018 if I remember correctly.
+
+1575
+01:20:01,359 --> 01:20:02,279
+And, uh,
+
+1576
+01:20:02,290 --> 01:20:07,979
+I said at the time the manufacturer of those candle bars is gone out of business,
+
+1577
+01:20:08,759 --> 01:20:10,149
+so we couldn't do that.
+
+1578
+01:20:10,729 --> 01:20:12,930
+So I said to them, Uh oh,
+
+1579
+01:20:13,169 --> 01:20:17,229
+sorry. The guys are closed down, so it cannot be done.
+
+1580
+01:20:17,580 --> 01:20:17,589
+Uh,
+
+1581
+01:20:17,609 --> 01:20:21,310
+either we can try and find somebody else with starting a new
+
+1582
+01:20:21,319 --> 01:20:24,580
+manufacturer is always difficult because there's a massive amount of detail.
+
+1583
+01:20:25,729 --> 01:20:28,870
+Or we can 3D print them for you in the time if you want.
+
+1584
+01:20:29,479 --> 01:20:31,589
+But don't expect it to be lighter
+
+1585
+01:20:31,879 --> 01:20:33,709
+in the fact that I was telling them it's gonna be heavier.
+
+1586
+01:20:36,759 --> 01:20:38,189
+So I thought, uh,
+
+1587
+01:20:38,540 --> 01:20:43,200
+we cannot appear to be complete idiots over here. We need to try and do the best we can.
+
+1588
+01:20:43,959 --> 01:20:45,649
+So we took the safe,
+
+1589
+01:20:45,750 --> 01:20:50,140
+uh, modified it a little bit for some modifications they wanted, but not much.
+
+1590
+01:20:50,149 --> 01:20:52,649
+Very little. The same was basically the same.
+
+1591
+01:20:54,279 --> 01:20:55,140
+And, uh,
+
+1592
+01:20:57,879 --> 01:20:59,939
+excuse me. So we modified the shape
+
+1593
+01:21:00,939 --> 01:21:04,839
+and we tried to do everything we could with the analysis,
+
+1594
+01:21:05,669 --> 01:21:07,950
+put the minimum amount of material everywhere.
+
+1595
+01:21:07,959 --> 01:21:10,930
+Use a lot of these internal structures that I told you and so on
+
+1596
+01:21:12,089 --> 01:21:16,799
+we print the thing, it comes out, and it was lighter than the carbon fibre handle bar.
+
+1597
+01:21:18,799 --> 01:21:20,979
+I thought Oh, all right. OK, I wasn't expecting this.
+
+1598
+01:21:20,990 --> 01:21:26,350
+Remember, by that time, I had 25 years plus experience in carbon fibre.
+
+1599
+01:21:26,750 --> 01:21:27,229
+And
+
+1600
+01:21:27,919 --> 01:21:29,370
+if you were asking me,
+
+1601
+01:21:29,830 --> 01:21:32,069
+Can you make a part
+
+1602
+01:21:32,229 --> 01:21:34,890
+lighter in titanium comparing to carbon fibre?
+
+1603
+01:21:35,649 --> 01:21:38,509
+Straight answer is no. Forget about it. You just can't.
+
+1604
+01:21:38,520 --> 01:21:40,830
+The material properties are just not there.
+
+1605
+01:21:41,589 --> 01:21:42,200
+Uh,
+
+1606
+01:21:42,339 --> 01:21:46,370
+but that was the first time that I started realising, Oh, there is something in it.
+
+1607
+01:21:47,669 --> 01:21:52,850
+Since that time, we actually did quite a few handlebars of similar kind.
+
+1608
+01:21:53,640 --> 01:21:58,069
+The most dramatic example that I have is for a time trial handle
+
+1609
+01:21:58,259 --> 01:21:58,290
+bar,
+
+1610
+01:21:58,600 --> 01:22:00,540
+You know, where you have the base bar
+
+1611
+01:22:00,770 --> 01:22:04,979
+and the risers and the extensions and the arm caps
+
+1612
+01:22:05,390 --> 01:22:07,939
+and, uh, also the computer arm and so on.
+
+1613
+01:22:09,049 --> 01:22:12,270
+So there was this handlebar that goes for this rider.
+
+1614
+01:22:12,870 --> 01:22:16,509
+They came in, and we just had to scan it to replicate the geometry.
+
+1615
+01:22:17,359 --> 01:22:18,180
+Uh,
+
+1616
+01:22:18,430 --> 01:22:22,649
+we scanned it and we start designing it. And all that stuff that handle bar was
+
+1617
+01:22:23,180 --> 01:22:27,759
+1 kg and 100 grammes. They're quite heavy beasts. Those things,
+
+1618
+01:22:27,910 --> 01:22:31,580
+because they have connections, they have bolts, they have this. They have that.
+
+1619
+01:22:31,589 --> 01:22:33,009
+So all these things are great.
+
+1620
+01:22:33,709 --> 01:22:35,419
+So we made a 3D prin
+
+1621
+01:22:35,609 --> 01:22:39,649
+titanium base bar and a set of extensions which they were actually removable,
+
+1622
+01:22:40,479 --> 01:22:41,419
+and, uh,
+
+1623
+01:22:41,660 --> 01:22:46,240
+the weight of that handlebar when we delivered it. That was for a road time trial.
+
+1624
+01:22:46,509 --> 01:22:46,569
+Handle
+
+1625
+01:22:47,209 --> 01:22:48,020
+the weight of the
+
+1626
+01:22:48,129 --> 01:22:50,549
+handlebar when we deliver it with the computer arm,
+
+1627
+01:22:50,729 --> 01:22:52,689
+including the extensions and everything else
+
+1628
+01:22:53,180 --> 01:22:55,620
+was 670 grammes.
+
+1629
+01:22:55,979 --> 01:22:56,500
+So
+
+1630
+01:22:56,779 --> 01:22:58,529
+about 400 grammes lighter
+
+1631
+01:22:59,330 --> 01:23:01,870
+and the lightest we made of that kind.
+
+1632
+01:23:02,270 --> 01:23:04,220
+It goes below 600 grammes,
+
+1633
+01:23:05,080 --> 01:23:07,259
+so it was like half a kilo light.
+
+1634
+01:23:08,509 --> 01:23:09,970
+So the
+
+1635
+01:23:10,299 --> 01:23:11,620
+improvement
+
+1636
+01:23:11,990 --> 01:23:13,439
+on the weight front
+
+1637
+01:23:14,209 --> 01:23:18,979
+it comes from partially the elimination of unnecessary bits
+
+1638
+01:23:20,359 --> 01:23:24,779
+partially because of the customization. So you only keep the bits that you need
+
+1639
+01:23:25,459 --> 01:23:29,169
+and partially because you can do internal structures.
+
+1640
+01:23:29,410 --> 01:23:31,160
+That is very difficult to do it.
+
+1641
+01:23:31,459 --> 01:23:32,359
+And also
+
+1642
+01:23:33,089 --> 01:23:35,189
+you can design it on your computer today.
+
+1643
+01:23:35,669 --> 01:23:39,189
+Put on the machine tomorrow. A couple of days later, it's out of the machine
+
+1644
+01:23:40,049 --> 01:23:43,310
+and another couple of days later you have it on your bike.
+
+1645
+01:23:44,229 --> 01:23:44,290
+So
+
+1646
+01:23:44,859 --> 01:23:44,879
+to
+
+1647
+01:23:44,979 --> 01:23:45,229
+do this,
+
+1648
+01:23:45,479 --> 01:23:47,879
+if you try to do this on carbon fibre you're talking about,
+
+1649
+01:23:49,439 --> 01:23:50,120
+so do you think this
+
+1650
+01:23:50,220 --> 01:23:51,970
+is gonna be something? Then
+
+1651
+01:23:52,410 --> 01:23:55,540
+that will start to become more mainstream because as far as I
+
+1652
+01:23:55,830 --> 01:23:57,149
+understand, like a normal road,
+
+1653
+01:23:57,720 --> 01:24:00,430
+you are still just seeing carbon fibre.
+
+1654
+01:24:01,160 --> 01:24:03,540
+It's not 3D printed titanium. Is that
+
+1655
+01:24:03,640 --> 01:24:06,490
+Is there a Is there a reason it could happen? Or is there some?
+
+1656
+01:24:07,890 --> 01:24:10,549
+Yeah, I think. Ok, le Let's think of it this way.
+
+1657
+01:24:10,979 --> 01:24:11,470
+Uh,
+
+1658
+01:24:11,629 --> 01:24:14,709
+titanium is a material which is very commonly used Today
+
+1659
+01:24:16,229 --> 01:24:19,529
+is not the only material in terms of structural parts.
+
+1660
+01:24:19,540 --> 01:24:23,819
+There are other materials coming up like there are some high strength, aluminium
+
+1661
+01:24:24,089 --> 01:24:24,240
+alloy
+
+1662
+01:24:24,859 --> 01:24:26,629
+like material that we use called skal
+
+1663
+01:24:27,080 --> 01:24:28,580
+MAOI, which is a scandium aluminium
+
+1664
+01:24:28,879 --> 01:24:29,990
+magnesium alloy.
+
+1665
+01:24:30,740 --> 01:24:33,509
+Uh, so that's a high strength aluminium. And
+
+1666
+01:24:33,660 --> 01:24:37,040
+there are other aluminums, but they are not actually as good.
+
+1667
+01:24:37,500 --> 01:24:38,080
+Uh,
+
+1668
+01:24:38,259 --> 01:24:39,200
+so
+
+1669
+01:24:39,819 --> 01:24:41,200
+there are also plastics,
+
+1670
+01:24:42,109 --> 01:24:48,009
+and actually they are commercially available components today that you can buy it.
+
+1671
+01:24:48,020 --> 01:24:51,709
+It's not today, I think probably they're out for at least two years, maybe longer.
+
+1672
+01:24:52,270 --> 01:24:54,100
+Which there are these 3D printed saddle.
+
+1673
+01:24:54,109 --> 01:24:57,720
+So the saddle itself, it is more or less the normal one. But it's not.
+
+1674
+01:24:57,729 --> 01:25:00,160
+Instead of having a spongy cover
+
+1675
+01:25:01,740 --> 01:25:02,669
+and, uh uh,
+
+1676
+01:25:02,919 --> 01:25:07,100
+sorry a spongy something on the top floor where you're sitting and then
+
+1677
+01:25:07,250 --> 01:25:08,500
+let's call it leather cover.
+
+1678
+01:25:08,509 --> 01:25:10,819
+It's not leather now, that's why let's call it leather cover
+
+1679
+01:25:10,939 --> 01:25:15,410
+is the whole thing on the top is 3D printed in some sort of soft plastic.
+
+1680
+01:25:15,419 --> 01:25:16,390
+And it's like a mesh.
+
+1681
+01:25:17,160 --> 01:25:20,830
+There are at least two manufacturers. They do that, um,
+
+1682
+01:25:21,750 --> 01:25:24,299
+specialise. They do that. And I think she
+
+1683
+01:25:24,540 --> 01:25:25,209
+Italia,
+
+1684
+01:25:25,859 --> 01:25:27,640
+I'm not quite sure if they sell Italia I.
+
+1685
+01:25:27,649 --> 01:25:30,879
+I said it is at least one Italian manufacturer that is doing it.
+
+1686
+01:25:32,009 --> 01:25:36,029
+And this is not new. This is at least two, maybe three years.
+
+1687
+01:25:36,430 --> 01:25:37,979
+So there are already 3D printed
+
+1688
+01:25:38,569 --> 01:25:39,750
+parts out there.
+
+1689
+01:25:40,609 --> 01:25:46,299
+There are already small 3D printed parts. Uh, that, uh we did, uh, for Pinarello
+
+1690
+01:25:46,410 --> 01:25:49,069
+RLO in the past, actually, the current
+
+1691
+01:25:49,680 --> 01:25:50,000
+Pinarello
+
+1692
+01:25:50,910 --> 01:25:51,450
+Dogma
+
+1693
+01:25:51,689 --> 01:25:52,540
+F that you buy
+
+1694
+01:25:53,069 --> 01:25:55,229
+the beats, the holding, the saddle.
+
+1695
+01:25:56,169 --> 01:26:00,359
+So you have the the seatpost, and you have the bits that they hold in the seat rails.
+
+1696
+01:26:00,509 --> 01:26:02,140
+These are actually 3D printed,
+
+1697
+01:26:04,740 --> 01:26:06,200
+so it's already out there
+
+1698
+01:26:06,890 --> 01:26:07,629
+now
+
+1699
+01:26:08,270 --> 01:26:09,709
+an entire frame,
+
+1700
+01:26:10,689 --> 01:26:12,069
+an entire frame.
+
+1701
+01:26:12,250 --> 01:26:16,729
+Um, I'm sure you are familiar with the bike that Filippo Ganna
+
+1702
+01:26:16,879 --> 01:26:19,660
+rode in the Hour Record in 22.
+
+1703
+01:26:20,129 --> 01:26:20,620
+Uh, the Pinarello
+
+1704
+01:26:21,000 --> 01:26:21,680
+bike.
+
+1705
+01:26:21,959 --> 01:26:22,689
+Uh,
+
+1706
+01:26:23,120 --> 01:26:24,390
+to my knowledge,
+
+1707
+01:26:25,339 --> 01:26:27,259
+I mean, we we did this bike for Pinarello,
+
+1708
+01:26:27,799 --> 01:26:29,279
+and to my knowledge,
+
+1709
+01:26:30,589 --> 01:26:32,290
+this is the first
+
+1710
+01:26:32,589 --> 01:26:34,890
+fully 3D printed frame and fork,
+
+1711
+01:26:35,359 --> 01:26:37,689
+but raised on the highest level.
+
+1712
+01:26:41,689 --> 01:26:43,259
+So why was that?
+
+1713
+01:26:43,939 --> 01:26:44,160
+So, I mean,
+
+1714
+01:26:44,370 --> 01:26:44,509
+that
+
+1715
+01:26:44,879 --> 01:26:45,609
+was a very
+
+1716
+01:26:45,979 --> 01:26:47,160
+well, um,
+
+1717
+01:26:47,959 --> 01:26:50,560
+I mean, him breaking, you know, the record was well seen,
+
+1718
+01:26:50,569 --> 01:26:52,229
+but that's interesting on the technology side.
+
+1719
+01:26:52,240 --> 01:26:53,089
+So why
+
+1720
+01:26:53,680 --> 01:26:55,660
+Why did you go for 3D Printed?
+
+1721
+01:26:56,020 --> 01:26:56,040
+Um,
+
+1722
+01:26:56,500 --> 01:26:56,950
+there are similarities.
+
+1723
+01:27:00,080 --> 01:27:01,830
+One of them. It was
+
+1724
+01:27:02,899 --> 01:27:09,089
+at the time there was a new innovation that we, uh, found that it was these
+
+1725
+01:27:09,339 --> 01:27:14,439
+circles, uh, which is, uh, saw the seatpost and the C tube. They have this zigzag
+
+1726
+01:27:14,649 --> 01:27:16,180
+saw tooth leading edge.
+
+1727
+01:27:17,069 --> 01:27:17,859
+Uh, at
+
+1728
+01:27:18,229 --> 01:27:22,770
+the time when we realise that this actually can have a potential benefit,
+
+1729
+01:27:23,680 --> 01:27:25,819
+the technology,
+
+1730
+01:27:26,180 --> 01:27:30,060
+the technology to do it in carbon fibre wasn't quite there yet,
+
+1731
+01:27:30,500 --> 01:27:33,620
+so there was no I. I don't say it cannot be done,
+
+1732
+01:27:34,319 --> 01:27:36,100
+but it needed some development.
+
+1733
+01:27:36,200 --> 01:27:39,339
+And when we found this with, um, I don't know,
+
+1734
+01:27:39,350 --> 01:27:41,859
+less than three months ago for the world record,
+
+1735
+01:27:43,000 --> 01:27:46,899
+there was no time to develop the technology
+
+1736
+01:27:47,149 --> 01:27:48,770
+into the manufacturing
+
+1737
+01:27:48,950 --> 01:27:50,459
+and put it on the starting line.
+
+1738
+01:27:51,220 --> 01:27:54,080
+So that was part of the reason. So
+
+1739
+01:27:54,529 --> 01:28:00,879
+the 3D printing was used over there because it could enable this sawtooth pattern.
+
+1740
+01:28:02,950 --> 01:28:07,169
+Uh, I'm sure that carbon fibre uh, can do that at some point soon.
+
+1741
+01:28:07,620 --> 01:28:09,979
+Uh, if I'm not mistaken, Pinarello
+
+1742
+01:28:10,509 --> 01:28:11,750
+they already offer a seed
+
+1743
+01:28:11,930 --> 01:28:12,259
+post
+
+1744
+01:28:12,500 --> 01:28:14,209
+that is carbon fibre with that pattern.
+
+1745
+01:28:14,939 --> 01:28:20,399
+And then you have I don't know what is happening with the frame, but for the frame,
+
+1746
+01:28:20,410 --> 01:28:23,250
+the ones with the show tooth pattern,
+
+1747
+01:28:23,529 --> 01:28:24,490
+uh, they are actually
+
+1748
+01:28:24,700 --> 01:28:25,169
+printed.
+
+1749
+01:28:26,250 --> 01:28:28,589
+Uh, so in that particular case,
+
+1750
+01:28:28,600 --> 01:28:31,950
+the time element was important because short period of time,
+
+1751
+01:28:32,990 --> 01:28:33,399
+Uh,
+
+1752
+01:28:33,410 --> 01:28:37,100
+the being able to do it was also
+
+1753
+01:28:37,109 --> 01:28:40,189
+important because the carbon fibre technology at the time
+
+1754
+01:28:40,450 --> 01:28:42,000
+wasn't quite well developed.
+
+1755
+01:28:42,810 --> 01:28:45,029
+If we had another year, I'm sure we could do it.
+
+1756
+01:28:45,529 --> 01:28:48,870
+And, uh, also, if you look at the overall budget,
+
+1757
+01:28:49,729 --> 01:28:50,819
+how much
+
+1758
+01:28:51,270 --> 01:28:52,350
+will it cost
+
+1759
+01:28:53,359 --> 01:28:54,129
+to
+
+1760
+01:28:54,899 --> 01:28:58,799
+design the bike design? The bike was more or less the same, but then you have to do
+
+1761
+01:28:59,240 --> 01:29:02,040
+the stress analysis again. Let's call it more or less the same.
+
+1762
+01:29:02,479 --> 01:29:04,850
+But then you have on the carbon bike,
+
+1763
+01:29:05,009 --> 01:29:10,000
+you have to design and manufacture a big metal mould.
+
+1764
+01:29:11,259 --> 01:29:14,229
+This will have both cost and time implication.
+
+1765
+01:29:14,950 --> 01:29:19,850
+So we will have a fair few thousands of pounds for the mould and about a month
+
+1766
+01:29:20,120 --> 01:29:20,879
+to make it
+
+1767
+01:29:21,200 --> 01:29:21,850
+so
+
+1768
+01:29:22,319 --> 01:29:26,970
+you take this one month, and it completely disappears from your your schedule.
+
+1769
+01:29:27,689 --> 01:29:31,080
+And, uh, you also had the money spent on this one point.
+
+1770
+01:29:31,640 --> 01:29:36,799
+So if you were putting together all the budget that it was, uh, spent
+
+1771
+01:29:37,220 --> 01:29:38,950
+for the 3D printed frame,
+
+1772
+01:29:39,750 --> 01:29:43,120
+it was very comparable to the one
+
+1773
+01:29:43,310 --> 01:29:46,850
+that it would be spent if it was carbon fibre
+
+1774
+01:29:48,680 --> 01:29:49,660
+minus
+
+1775
+01:29:49,870 --> 01:29:53,240
+one month minus 4 to 6 weeks
+
+1776
+01:29:53,370 --> 01:29:54,020
+of time.
+
+1777
+01:29:55,140 --> 01:29:55,649
+So
+
+1778
+01:29:55,830 --> 01:29:59,609
+money wasn't very much of a difference on the overall scheme of things
+
+1779
+01:29:59,939 --> 01:30:01,290
+for the number of bikes.
+
+1780
+01:30:02,040 --> 01:30:03,939
+Uh, the time element,
+
+1781
+01:30:04,180 --> 01:30:06,259
+uh, was also significantly better.
+
+1782
+01:30:06,580 --> 01:30:10,529
+And, uh, at the time, you could do this with 3D PD. You could do it with karma.
+
+1783
+01:30:12,020 --> 01:30:16,770
+OK, so this was, um one of the question I had for you was,
+
+1784
+01:30:18,359 --> 01:30:21,750
+and I guess this goes to more where things may go in the future. But
+
+1785
+01:30:22,229 --> 01:30:28,020
+the work that, you know we did at least the suggestion I got was any game you have
+
+1786
+01:30:28,470 --> 01:30:33,169
+is ultimately very dependent on the rider because they contribute so much.
+
+1787
+01:30:34,000 --> 01:30:36,299
+And if you just produce a bike,
+
+1788
+01:30:38,029 --> 01:30:41,509
+I mean, as far as I'm aware, if you go on a website now with any manufacturer,
+
+1789
+01:30:41,520 --> 01:30:43,640
+you're basically picking the size of
+
+1790
+01:30:43,790 --> 01:30:43,919
+it.
+
+1791
+01:30:44,419 --> 01:30:47,919
+And maybe you can change the width of the handlebars potentially.
+
+1792
+01:30:48,399 --> 01:30:50,450
+But do you see that with
+
+1793
+01:30:50,620 --> 01:30:51,899
+things like
+
+1794
+01:30:52,160 --> 01:30:53,609
+3D printing or
+
+1795
+01:30:53,859 --> 01:30:56,370
+other technologies that we could start to,
+
+1796
+01:30:57,229 --> 01:30:57,750
+I don't know,
+
+1797
+01:30:58,359 --> 01:31:01,020
+customised the bit more at a more mass level. Yeah, I
+
+1798
+01:31:03,750 --> 01:31:09,169
+think, uh, the the time of mass customization is coming, and it cannot.
+
+1799
+01:31:09,180 --> 01:31:12,600
+Currently as we know it, it can only be realised with 3D printing.
+
+1800
+01:31:13,830 --> 01:31:14,729
+So
+
+1801
+01:31:15,200 --> 01:31:19,600
+I spoke with, uh uh, there there is a particular company that, uh,
+
+1802
+01:31:19,930 --> 01:31:22,250
+they have a software that, uh,
+
+1803
+01:31:23,180 --> 01:31:26,919
+if we manage to put the money together to develop it, we should be able to,
+
+1804
+01:31:27,770 --> 01:31:28,970
+in theory, at least
+
+1805
+01:31:30,569 --> 01:31:33,589
+take a video from the television or you film somebody with
+
+1806
+01:31:33,600 --> 01:31:35,779
+your phone or take a few pictures with your phone.
+
+1807
+01:31:35,790 --> 01:31:37,629
+You put it on that piece of software
+
+1808
+01:31:38,149 --> 01:31:41,910
+and it will make a frame to fit your size.
+
+1809
+01:31:42,680 --> 01:31:44,419
+It can even do, in theory,
+
+1810
+01:31:44,430 --> 01:31:48,060
+the stress analysis to put the material in the right positions,
+
+1811
+01:31:48,319 --> 01:31:51,859
+segment it in the right way and put it on the build plate,
+
+1812
+01:31:52,000 --> 01:31:54,220
+and you can click the button to go on the machine,
+
+1813
+01:31:54,479 --> 01:31:57,379
+print it, come on. The other side. Assemble it. And here it is.
+
+1814
+01:31:57,569 --> 01:32:00,540
+And you can have individually tailored
+
+1815
+01:32:00,990 --> 01:32:06,060
+frames, forks, handlebars or whatever that individual might need to be.
+
+1816
+01:32:06,879 --> 01:32:11,250
+I think this is still a little bit. Although the technology exists today.
+
+1817
+01:32:12,680 --> 01:32:13,700
+I know
+
+1818
+01:32:13,850 --> 01:32:16,200
+how we can do that today.
+
+1819
+01:32:17,549 --> 01:32:20,850
+Of course. Where is the money and the time to do that?
+
+1820
+01:32:21,569 --> 01:32:25,040
+So the technology is there is a matter of, uh,
+
+1821
+01:32:25,049 --> 01:32:27,470
+somebody having the willingness to go and do it.
+
+1822
+01:32:27,680 --> 01:32:30,979
+And, of course, it's not gonna go from nothing to here it is.
+
+1823
+01:32:31,370 --> 01:32:34,959
+It will have probably the development. Gradual. Gradual, Gradual.
+
+1824
+01:32:35,060 --> 01:32:38,509
+But this is happening already. I mean, we already manufacturing.
+
+1825
+01:32:39,040 --> 01:32:39,669
+Uh
+
+1826
+01:32:40,439 --> 01:32:42,680
+uh, 3D print 4 3D print frames.
+
+1827
+01:32:42,810 --> 01:32:45,020
+Actually, we just assembled one today,
+
+1828
+01:32:46,049 --> 01:32:49,040
+uh, which, uh, you will see it in the Olympics.
+
+1829
+01:32:49,509 --> 01:32:50,459
+And, uh,
+
+1830
+01:32:50,890 --> 01:32:51,799
+then
+
+1831
+01:32:52,299 --> 01:32:56,640
+now, taking this technology and spreading it out is entirely possible.
+
+1832
+01:32:57,040 --> 01:32:58,359
+Uh, and I think,
+
+1833
+01:32:58,560 --> 01:33:00,640
+how long will that be? I think
+
+1834
+01:33:00,810 --> 01:33:05,970
+we will probably see more and more of this technology of the highest level in the next
+
+1835
+01:33:06,160 --> 01:33:07,560
+45 years.
+
+1836
+01:33:08,390 --> 01:33:09,450
+And, uh,
+
+1837
+01:33:09,720 --> 01:33:11,640
+we probably gonna see.
+
+1838
+01:33:12,089 --> 01:33:14,129
+I wouldn't say down to everyday bikes,
+
+1839
+01:33:14,259 --> 01:33:18,169
+but I'm sure we're gonna see more to the high end bikes.
+
+1840
+01:33:18,709 --> 01:33:22,649
+Maybe even in the next four or five years. I'm not gonna be surprised at all.
+
+1841
+01:33:22,660 --> 01:33:24,479
+I mean, if you only look today
+
+1842
+01:33:25,810 --> 01:33:26,209
+on,
+
+1843
+01:33:26,950 --> 01:33:32,180
+you know, the idea with the white seat station and so on, which is not that new.
+
+1844
+01:33:32,189 --> 01:33:33,080
+Actually,
+
+1845
+01:33:33,250 --> 01:33:35,810
+we actually did something like this. One of the,
+
+1846
+01:33:36,029 --> 01:33:37,930
+uh, patents, Uh, that, uh,
+
+1847
+01:33:37,939 --> 01:33:40,779
+this patent application was referring to was some
+
+1848
+01:33:40,790 --> 01:33:43,939
+work that we did with the original secret squirrel
+
+1849
+01:33:44,109 --> 01:33:44,569
+club
+
+1850
+01:33:44,990 --> 01:33:47,200
+sometime around 2008.
+
+1851
+01:33:47,540 --> 01:33:51,410
+But at the time, the regulations, they were not really allowing this.
+
+1852
+01:33:51,899 --> 01:33:52,759
+So a
+
+1853
+01:33:53,060 --> 01:33:56,520
+lot of these things is the stop is UCI I regulations.
+
+1854
+01:33:56,910 --> 01:33:59,649
+So now, with the 3D printing,
+
+1855
+01:34:00,500 --> 01:34:06,040
+we know that interactions between bike and rider are actually very important.
+
+1856
+01:34:07,529 --> 01:34:11,770
+If we only look at it from an aerodynamics perspective, can we do something, uh,
+
+1857
+01:34:11,879 --> 01:34:17,100
+individualistic individual per rider? Yes, we can. How are you going to do it?
+
+1858
+01:34:18,470 --> 01:34:19,919
+3D printing completely leads
+
+1859
+01:34:20,149 --> 01:34:21,520
+itself for that.
+
+1860
+01:34:22,240 --> 01:34:24,029
+So that is the way to do it.
+
+1861
+01:34:24,100 --> 01:34:27,830
+You're not going to make a mould to go and make one of another M to make one off.
+
+1862
+01:34:29,419 --> 01:34:31,089
+So and then from there,
+
+1863
+01:34:31,640 --> 01:34:32,990
+the Holy Grail is
+
+1864
+01:34:33,509 --> 01:34:35,129
+you're making the bike
+
+1865
+01:34:36,939 --> 01:34:38,339
+for that rider
+
+1866
+01:34:39,250 --> 01:34:43,560
+for specifically, meaning for the amount of power that rider is producing
+
+1867
+01:34:43,750 --> 01:34:45,240
+and the weight of this rider.
+
+1868
+01:34:45,930 --> 01:34:47,229
+Because right now,
+
+1869
+01:34:47,529 --> 01:34:49,319
+the bikes they have to be
+
+1870
+01:34:50,529 --> 01:34:54,709
+design and test it to a is a standard, which is a good thing.
+
+1871
+01:34:55,500 --> 01:34:57,040
+But that is a standard,
+
+1872
+01:34:57,259 --> 01:34:57,560
+Uh,
+
+1873
+01:35:00,379 --> 01:35:02,279
+that I understand that assumes
+
+1874
+01:35:03,020 --> 01:35:03,490
+a,
+
+1875
+01:35:04,379 --> 01:35:06,439
+um a certain amount of power
+
+1876
+01:35:06,859 --> 01:35:07,640
+and weight.
+
+1877
+01:35:09,029 --> 01:35:12,209
+So which it is probably OK for a
+
+1878
+01:35:12,770 --> 01:35:16,890
+70 kg rider or an 80 kg rider or 100 kg rider.
+
+1879
+01:35:17,330 --> 01:35:20,970
+But when you're gonna have a 60 kg rider, a 50 kg rider,
+
+1880
+01:35:21,609 --> 01:35:24,830
+you carry more weight because you need to pass the standard,
+
+1881
+01:35:26,009 --> 01:35:26,660
+which
+
+1882
+01:35:26,830 --> 01:35:29,379
+from the safety perspective, is a good thing.
+
+1883
+01:35:29,390 --> 01:35:33,299
+Because at the end of the day, you cannot really have an infinite number.
+
+1884
+01:35:35,140 --> 01:35:39,189
+Can we get a bit more clever and classified a bit better?
+
+1885
+01:35:40,540 --> 01:35:41,240
+Maybe.
+
+1886
+01:35:42,890 --> 01:35:45,060
+OK, so you mean that in theory,
+
+1887
+01:35:45,520 --> 01:35:46,950
+if I was to put in,
+
+1888
+01:35:47,529 --> 01:35:52,189
+you know, I weigh this amount, I generate this much power maximum on average,
+
+1889
+01:35:52,419 --> 01:35:55,640
+you could go and design me a bike. That probably would be
+
+1890
+01:35:56,229 --> 01:35:59,649
+lighter or better performing, because it would be completely
+
+1891
+01:35:59,759 --> 01:36:00,000
+custom
+
+1892
+01:36:00,160 --> 01:36:02,500
+for me rather than just a generic human.
+
+1893
+01:36:03,870 --> 01:36:05,270
+We are already doing this,
+
+1894
+01:36:06,569 --> 01:36:09,100
+Uh, probably for the last 20 years or so,
+
+1895
+01:36:09,549 --> 01:36:14,069
+but it's going the other way because the the standard,
+
+1896
+01:36:14,899 --> 01:36:15,200
+the
+
+1897
+01:36:15,330 --> 01:36:18,120
+ISO standard is primarily for a road bike.
+
+1898
+01:36:19,870 --> 01:36:22,419
+So a road bike? Um,
+
+1899
+01:36:22,689 --> 01:36:26,049
+it doesn't really see the some of the forces that you have
+
+1900
+01:36:26,290 --> 01:36:28,930
+the big 100 kg sprinters
+
+1901
+01:36:29,410 --> 01:36:30,649
+that they can produce.
+
+1902
+01:36:30,850 --> 01:36:31,569
+So
+
+1903
+01:36:32,589 --> 01:36:33,899
+what we actually do
+
+1904
+01:36:34,100 --> 01:36:36,060
+is we use the
+
+1905
+01:36:36,439 --> 01:36:37,779
+road standard
+
+1906
+01:36:37,910 --> 01:36:38,740
+for the road.
+
+1907
+01:36:39,279 --> 01:36:41,540
+We use the the road standard.
+
+1908
+01:36:42,759 --> 01:36:44,549
+Excuse me for some, even on
+
+1909
+01:36:44,649 --> 01:36:45,220
+the truck.
+
+1910
+01:36:46,910 --> 01:36:49,930
+Then we're using 1.5 times the road standard
+
+1911
+01:36:50,370 --> 01:36:52,390
+for some other events on the truck
+
+1912
+01:36:52,520 --> 01:36:53,529
+and double
+
+1913
+01:36:54,029 --> 01:36:54,370
+the
+
+1914
+01:36:54,490 --> 01:36:55,229
+is a standard
+
+1915
+01:36:55,720 --> 01:36:57,229
+for the big sprinters.
+
+1916
+01:36:57,330 --> 01:36:59,770
+Because when you have a 100 kg sprinter
+
+1917
+01:37:00,180 --> 01:37:03,879
+that is producing over 2.5 1000 watts on the standing start,
+
+1918
+01:37:04,520 --> 01:37:07,100
+it is not the same as, say,
+
+1919
+01:37:07,620 --> 01:37:10,250
+a 60 kg rider that is pedalling alone.
+
+1920
+01:37:11,049 --> 01:37:11,660
+OK,
+
+1921
+01:37:11,790 --> 01:37:14,060
+so we are already doing it towards the upper
+
+1922
+01:37:14,069 --> 01:37:18,069
+level to counteract the kind of forces that uh
+
+1923
+01:37:18,250 --> 01:37:19,120
+uh the world
+
+1924
+01:37:19,229 --> 01:37:20,629
+class riders are producing.
+
+1925
+01:37:21,029 --> 01:37:25,319
+But, uh, when you gonna go down for argument's sake,
+
+1926
+01:37:25,459 --> 01:37:29,229
+you have lightweight riders and so on. They don't produce that much power.
+
+1927
+01:37:29,879 --> 01:37:32,629
+They are ending up like carrying a bit of extra weight.
+
+1928
+01:37:33,620 --> 01:37:36,009
+And how much is that extra weight? Probably not.
+
+1929
+01:37:36,020 --> 01:37:39,250
+Huge amount, Probably, I don't know around a kilo or so.
+
+1930
+01:37:40,270 --> 01:37:42,899
+So could you do it better? Yes.
+
+1931
+01:37:44,339 --> 01:37:49,919
+The amount of money and time and effort you need to spend is pretty large
+
+1932
+01:37:51,399 --> 01:37:54,870
+because somebody has to build this technology.
+
+1933
+01:37:55,080 --> 01:37:57,950
+And somebody Not only has somebody has to build this technology,
+
+1934
+01:37:57,959 --> 01:37:59,390
+somebody has to test it
+
+1935
+01:38:00,270 --> 01:38:03,399
+and guarantee that rider, that lightweight rider.
+
+1936
+01:38:03,410 --> 01:38:06,649
+But yes, Although you are lighter and the bike is lighter,
+
+1937
+01:38:07,100 --> 01:38:08,240
+you are OK on it.
+
+1938
+01:38:09,419 --> 01:38:12,770
+And of course, the responsibility for something like this is very large.
+
+1939
+01:38:13,350 --> 01:38:17,350
+Because if something goes wrong and then whose fault it is and so on,
+
+1940
+01:38:17,540 --> 01:38:19,569
+you really have to have that
+
+1941
+01:38:20,020 --> 01:38:21,160
+Well guarded.
+
+1942
+01:38:21,479 --> 01:38:22,629
+So, uh,
+
+1943
+01:38:23,180 --> 01:38:26,049
+to do this, I think going down
+
+1944
+01:38:27,310 --> 01:38:29,970
+I cannot see that happening in the foreseeable future.
+
+1945
+01:38:31,459 --> 01:38:32,319
+So, um,
+
+1946
+01:38:32,689 --> 01:38:35,330
+I, I had one last question for you,
+
+1947
+01:38:35,629 --> 01:38:37,240
+and you don't have to give.
+
+1948
+01:38:37,629 --> 01:38:43,080
+I'm gonna purposely make this a longer time period to get away from you, giving away
+
+1949
+01:38:43,620 --> 01:38:45,689
+the details of the next bike. So
+
+1950
+01:38:45,819 --> 01:38:49,279
+if you look back. So, W, when are we recording? It's 2024 now.
+
+1951
+01:38:49,609 --> 01:38:51,149
+So 2014.
+
+1952
+01:38:51,720 --> 01:38:53,970
+If you looked at the bike in 2014,
+
+1953
+01:38:54,220 --> 01:38:58,279
+it was like a tube handle bar. I think the cables were still showing it.
+
+1954
+01:38:58,290 --> 01:39:02,720
+If you look at it now, compared to the bikes, that it looks pretty basic, doesn't it?
+
+1955
+01:39:03,419 --> 01:39:06,919
+What do you think the bike will look like in 2034?
+
+1956
+01:39:08,350 --> 01:39:09,540
+Well, that's an interesting one.
+
+1957
+01:39:10,450 --> 01:39:14,640
+I think this mass customization we were talking about it will be there by then.
+
+1958
+01:39:15,799 --> 01:39:20,299
+Uh, maybe not the entire bike, but definitely, uh, more,
+
+1959
+01:39:20,910 --> 01:39:25,299
+um, custom, things like, you know, as I said, these saddles, you can go and buy them.
+
+1960
+01:39:25,819 --> 01:39:28,490
+I'm not gonna be surprised if these manufacturers,
+
+1961
+01:39:28,500 --> 01:39:31,020
+at some point soon they're gonna start offering a custom,
+
+1962
+01:39:31,419 --> 01:39:32,140
+Um,
+
+1963
+01:39:32,700 --> 01:39:36,419
+saddle for you know, the way you're riding the bike and all that.
+
+1964
+01:39:36,950 --> 01:39:40,379
+Uh, so I definitely see mass customization.
+
+1965
+01:39:41,180 --> 01:39:46,200
+The major factor that actually changes the bike significantly
+
+1966
+01:39:46,750 --> 01:39:48,149
+is the regulations.
+
+1967
+01:39:48,919 --> 01:39:54,100
+If for argument's sake, UCI is gonna make a decision, is going to say,
+
+1968
+01:39:54,979 --> 01:39:55,750
+let's
+
+1969
+01:39:56,549 --> 01:40:01,169
+change the regulations. And I don't know that tube saves. It can be whatever you want
+
+1970
+01:40:02,020 --> 01:40:05,120
+or the or the wheel size can be whatever you want.
+
+1971
+01:40:05,299 --> 01:40:07,959
+This will have a huge effect
+
+1972
+01:40:09,629 --> 01:40:11,700
+if the regulations around the sport
+
+1973
+01:40:11,819 --> 01:40:15,080
+be careful Over here. We're talking about like a high end sport,
+
+1974
+01:40:16,180 --> 01:40:17,850
+so it's controlled by regulations.
+
+1975
+01:40:17,859 --> 01:40:21,529
+OK, if it is not that and you don't have regulations, it's a different ball
+
+1976
+01:40:21,660 --> 01:40:21,919
+game.
+
+1977
+01:40:22,709 --> 01:40:26,669
+But if it is controlled by regulations, the regulations,
+
+1978
+01:40:26,680 --> 01:40:29,500
+they have a huge impact on how the bikes they look like
+
+1979
+01:40:30,250 --> 01:40:34,799
+to a very significant extent. The bikes, they look like the way they do today
+
+1980
+01:40:35,490 --> 01:40:37,109
+because of the regulations.
+
+1981
+01:40:37,799 --> 01:40:41,669
+So if the regulations they do not change
+
+1982
+01:40:43,540 --> 01:40:47,399
+I other than the 3D printing like bringing in some
+
+1983
+01:40:47,810 --> 01:40:49,490
+some I wouldn't call it revolutionary.
+
+1984
+01:40:49,660 --> 01:40:51,799
+In reality, there is hardly ever a revolution.
+
+1985
+01:40:52,339 --> 01:40:54,600
+OK, in reality, it's an evolution.
+
+1986
+01:40:55,390 --> 01:40:59,060
+Somebody decided to make the wheel and make I know a car,
+
+1987
+01:40:59,069 --> 01:41:00,669
+and then somebody put two wheels in front of
+
+1988
+01:41:00,680 --> 01:41:02,549
+the other with another stick and start riding it,
+
+1989
+01:41:02,779 --> 01:41:04,169
+and then you call it the bike
+
+1990
+01:41:04,750 --> 01:41:05,689
+and, uh
+
+1991
+01:41:05,890 --> 01:41:06,770
+but, uh,
+
+1992
+01:41:08,270 --> 01:41:09,870
+if the regulations that don't change,
+
+1993
+01:41:09,879 --> 01:41:12,810
+I think 3D printing it can bring the customization
+
+1994
+01:41:13,109 --> 01:41:17,850
+both in aerodynamics and in comfort and in functionality. So That's three or two.
+
+1995
+01:41:18,580 --> 01:41:20,209
+Uh, so
+
+1996
+01:41:21,229 --> 01:41:23,950
+that definitely will come from the 3D reading.
+
+1997
+01:41:24,129 --> 01:41:26,080
+If everything else stays the same,
+
+1998
+01:41:26,620 --> 01:41:27,529
+uh, I
+
+1999
+01:41:27,819 --> 01:41:32,799
+cannot see myself Aerodynamics. I think we beat about the bush quite a lot.
+
+2000
+01:41:32,990 --> 01:41:37,180
+Uh, can it be better? Yes. Can it be significantly better?
+
+2001
+01:41:38,319 --> 01:41:38,919
+Maybe
+
+2002
+01:41:39,910 --> 01:41:41,250
+so. That's interesting what you say.
+
+2003
+01:41:41,259 --> 01:41:45,589
+So, yeah, I This goes, I guess full circle to my first question, which is
+
+2004
+01:41:45,939 --> 01:41:49,850
+I guess you're right. Like the bike that I'm looking at here or most people have
+
+2005
+01:41:50,209 --> 01:41:55,740
+that sort of like forks and handlebar and tube is essentially because
+
+2006
+01:41:55,979 --> 01:41:59,990
+all the bike manufacturers wanna build a bike that a team could also
+
+2007
+01:42:00,000 --> 01:42:02,549
+race cos I guess it's marketing and all the rest of it.
+
+2008
+01:42:02,870 --> 01:42:06,129
+So you're saying if it keeps the way it is, it's largely gonna be the same.
+
+2009
+01:42:06,140 --> 01:42:08,410
+But I guess if they just totally said, Well, you could have
+
+2010
+01:42:09,299 --> 01:42:12,750
+a fork with, you know, any cross sexual area, the tube,
+
+2011
+01:42:13,089 --> 01:42:16,020
+I guess. Then it's like an open design space. So
+
+2012
+01:42:16,319 --> 01:42:20,470
+maybe the final final question is, if it was an open design space,
+
+2013
+01:42:21,319 --> 01:42:23,700
+could you see it being dramatically,
+
+2014
+01:42:24,479 --> 01:42:26,560
+you know, more aerodynamic lighter.
+
+2015
+01:42:26,910 --> 01:42:29,609
+Has anybody done that? You know, like it just total
+
+2016
+01:42:30,069 --> 01:42:31,330
+free for all design.
+
+2017
+01:42:31,990 --> 01:42:32,279
+Yeah.
+
+2018
+01:42:32,290 --> 01:42:37,970
+I mean, you can actually take a good glimpse of that, uh, for the early to mid nineties
+
+2019
+01:42:38,959 --> 01:42:44,370
+when, the early to mid nineties, UCI I removed the regulation about the frame
+
+2020
+01:42:44,839 --> 01:42:49,569
+there were the lotus frame is the lotus bike is the most famous one.
+
+2021
+01:42:49,870 --> 01:42:53,129
+But there was no end of variant of that
+
+2022
+01:42:53,310 --> 01:42:54,419
+from the
+
+2023
+01:42:54,899 --> 01:43:00,600
+Pinarello Espada to the butter clean bike that they they made to the
+
+2024
+01:43:01,140 --> 01:43:06,259
+Zipp bike. The Americans made Softride or I can't remember how many
+
+2025
+01:43:06,790 --> 01:43:08,290
+I mean is
+
+2026
+01:43:08,410 --> 01:43:13,370
+is amazing in a small number of years because this era lasted between
+
+2027
+01:43:13,640 --> 01:43:14,319
+about
+
+2028
+01:43:14,549 --> 01:43:18,080
+92 when we saw the the Portman bike.
+
+2029
+01:43:18,089 --> 01:43:20,009
+You know, the largest bike that Chris Boardman rode
+
+2030
+01:43:20,620 --> 01:43:22,120
+to about
+
+2031
+01:43:22,500 --> 01:43:23,580
+97
+
+2032
+01:43:24,299 --> 01:43:26,680
+when UCI came out and said no more.
+
+2033
+01:43:27,850 --> 01:43:29,910
+So we talk about five years because,
+
+2034
+01:43:30,040 --> 01:43:32,529
+yes, the rules, they changed before 92.
+
+2035
+01:43:32,540 --> 01:43:36,009
+But most people that they didn't either didn't understand it or
+
+2036
+01:43:36,229 --> 01:43:38,930
+they didn't bother doing anything because everything was already done.
+
+2037
+01:43:38,939 --> 01:43:41,549
+So the only glaring example was a lot to spike.
+
+2038
+01:43:42,250 --> 01:43:45,229
+So when everybody saw you can do something different,
+
+2039
+01:43:45,589 --> 01:43:49,299
+everybody started doing something different. And in five short years
+
+2040
+01:43:49,839 --> 01:43:54,919
+there were the huge, huge variation. There was this but a clean bike. No, the tells
+
+2041
+01:43:55,040 --> 01:43:57,430
+they made, they had the front wheel. I don't know if you ever saw it,
+
+2042
+01:43:57,930 --> 01:43:58,430
+but
+
+2043
+01:43:58,930 --> 01:44:03,419
+you have the tyre, and then it goes more or less at the width of the tyre.
+
+2044
+01:44:03,430 --> 01:44:06,470
+And then it goes a huge ball in the middle
+
+2045
+01:44:07,200 --> 01:44:10,740
+before it goes down again. So the fork comes down and
+
+2046
+01:44:11,399 --> 01:44:15,740
+it opens up, I think, to about 250 millimetres wide or something like this.
+
+2047
+01:44:15,750 --> 01:44:18,790
+It's literally a round ball in the middle of the week.
+
+2048
+01:44:20,229 --> 01:44:22,450
+Was that better? What? What? What was that?
+
+2049
+01:44:23,750 --> 01:44:23,979
+Yeah,
+
+2050
+01:44:26,069 --> 01:44:27,979
+I don't know. But there were a lot of these.
+
+2051
+01:44:27,990 --> 01:44:33,020
+A lot of those and this They only came in this just five years
+
+2052
+01:44:34,240 --> 01:44:37,850
+of opening up the the regulations between in effect, OK, the rules.
+
+2053
+01:44:37,859 --> 01:44:39,459
+They opened up before 92
+
+2054
+01:44:39,680 --> 01:44:43,109
+but 92 is when everybody got a good sniff about it When, uh, Palma
+
+2055
+01:44:43,310 --> 01:44:44,620
+turned up with this lotus bike
+
+2056
+01:44:45,259 --> 01:44:46,970
+and then it was, uh
+
+2057
+01:44:47,080 --> 01:44:50,169
+uh I think it was spring 97 that UCI I came out
+
+2058
+01:44:50,180 --> 01:44:54,479
+and said the regulations they changed from the first of January 2000.
+
+2059
+01:44:54,600 --> 01:44:56,549
+So in effect in that time, we know
+
+2060
+01:44:56,799 --> 01:44:59,149
+there were no end of weird and wonderful things.
+
+2061
+01:44:59,259 --> 01:45:02,470
+So if there was no regulations Oh, absolutely.
+
+2062
+01:45:02,770 --> 01:45:02,970
+And
+
+2063
+01:45:03,580 --> 01:45:04,279
+before that,
+
+2064
+01:45:04,479 --> 01:45:05,759
+would you like it to be
+
+2065
+01:45:06,189 --> 01:45:06,879
+absolutely.
+
+2066
+01:45:08,149 --> 01:45:08,500
+Oh, yeah.
+
+2067
+01:45:08,600 --> 01:45:09,049
+Oh, yeah.
+
+2068
+01:45:11,209 --> 01:45:12,049
+Oh, I'd love that.
+
+2069
+01:45:12,879 --> 01:45:15,129
+It it It feels almost that, um,
+
+2070
+01:45:15,390 --> 01:45:17,939
+that, like this is like the analogy with Formula One. I guess
+
+2071
+01:45:18,129 --> 01:45:20,069
+there's always this tension between
+
+2072
+01:45:20,299 --> 01:45:24,740
+we just want it to be about racing. And I guess a cycling equivalent would be
+
+2073
+01:45:25,109 --> 01:45:27,750
+Everybody should have the same bike. It's just about the human
+
+2074
+01:45:28,100 --> 01:45:31,270
+then versus the innovation of the bike itself
+
+2075
+01:45:31,799 --> 01:45:34,589
+and how it could translate to everybody on the street,
+
+2076
+01:45:34,870 --> 01:45:35,370
+you know?
+
+2077
+01:45:36,379 --> 01:45:39,600
+But I have a good point, I. I think it's a good point on that.
+
+2078
+01:45:40,200 --> 01:45:43,060
+You remember that? The Hour Record,
+
+2079
+01:45:43,479 --> 01:45:45,149
+uh, used to be,
+
+2080
+01:45:45,470 --> 01:45:45,500
+uh,
+
+2081
+01:45:45,629 --> 01:45:51,220
+Borman did the Hour Record in 96 to whatever he did it, Uh
+
+2082
+01:45:52,040 --> 01:45:54,370
+um at the time 56 something.
+
+2083
+01:45:55,109 --> 01:45:56,169
+And, uh
+
+2084
+01:45:57,600 --> 01:45:59,229
+then they changed the regulations.
+
+2085
+01:45:59,240 --> 01:46:00,229
+And in effect, they said,
+
+2086
+01:46:00,240 --> 01:46:03,640
+you have to race with the 19 seventies bike because Eddie Merck raised,
+
+2087
+01:46:04,700 --> 01:46:06,890
+which is fine. Eddie Merck raced with that.
+
+2088
+01:46:06,899 --> 01:46:10,129
+But it was the highest possible technology of the time.
+
+2089
+01:46:10,339 --> 01:46:10,689
+Eddie Mer.
+
+2090
+01:46:10,839 --> 01:46:11,819
+He didn't race
+
+2091
+01:46:12,189 --> 01:46:14,629
+with a bike from 19 thirties or with a penny-farthing.
+
+2092
+01:46:14,879 --> 01:46:19,299
+He raced with whatever it was the pinnacle of technology of that time.
+
+2093
+01:46:20,350 --> 01:46:21,529
+And, uh
+
+2094
+01:46:22,279 --> 01:46:24,229
+so UCI I they changed the regulations.
+
+2095
+01:46:24,240 --> 01:46:27,500
+They say you have to raise With the 19 seventies spike in effect, they specified the
+
+2096
+01:46:27,779 --> 01:46:30,339
+the diameter of the tubes and the handle bars
+
+2097
+01:46:30,350 --> 01:46:32,180
+and the spokes and the wings and all that.
+
+2098
+01:46:34,029 --> 01:46:38,970
+I worked for UCI I for about a year and a half
+
+2099
+01:46:39,399 --> 01:46:44,819
+as a technology and innovation consult. And then my main job was actually
+
+2100
+01:46:45,180 --> 01:46:49,680
+to look at the rules and see what can we do and what do we change?
+
+2101
+01:46:49,990 --> 01:46:50,000
+Uh,
+
+2102
+01:46:50,009 --> 01:46:53,169
+a number of things from the regulations that they change
+
+2103
+01:46:53,180 --> 01:46:55,759
+is because of not because only because of me,
+
+2104
+01:46:55,770 --> 01:46:56,000
+but
+
+2105
+01:46:56,149 --> 01:46:57,959
+they actually started around that time.
+
+2106
+01:46:58,939 --> 01:47:03,879
+So my first day that I arrived at UCI I
+
+2107
+01:47:04,640 --> 01:47:09,970
+I go to UCI I and, uh, we're sitting down for a dinner for for lunch,
+
+2108
+01:47:10,339 --> 01:47:14,859
+uh, with some of the top brass of UCI I and next to me over here sits
+
+2109
+01:47:15,149 --> 01:47:17,140
+uh, Brian, that he was the,
+
+2110
+01:47:17,569 --> 01:47:19,169
+uh, UCI president.
+
+2111
+01:47:19,600 --> 01:47:21,580
+Uh, we were talking about this and that or the other.
+
+2112
+01:47:22,319 --> 01:47:23,529
+And, um,
+
+2113
+01:47:23,979 --> 01:47:26,060
+he says, um, Dimitris,
+
+2114
+01:47:28,470 --> 01:47:29,819
+what do you think?
+
+2115
+01:47:30,680 --> 01:47:31,850
+Uh, the
+
+2116
+01:47:32,020 --> 01:47:34,580
+bikes, uh, that should be today.
+
+2117
+01:47:35,879 --> 01:47:37,129
+I said, uh,
+
+2118
+01:47:37,589 --> 01:47:40,540
+look, Brian, uh, I think, uh, the
+
+2119
+01:47:41,089 --> 01:47:42,020
+it should be
+
+2120
+01:47:42,990 --> 01:47:46,290
+Today's riders with today's bikes,
+
+2121
+01:47:47,419 --> 01:47:50,080
+not the bikes of yesteryear.
+
+2122
+01:47:51,250 --> 01:47:55,600
+So today's bikes, Uh, by, uh, uh, riders with today's bikes
+
+2123
+01:47:56,450 --> 01:48:01,310
+and Brian, he said, I think that's a good idea. And this is really the time that,
+
+2124
+01:48:02,009 --> 01:48:06,839
+uh, the Hour Record, uh, regulations. They changed and they went to, in
+
+2125
+01:48:07,029 --> 01:48:10,700
+effect, the Hour Record regulations. They changed to go to whatever
+
+2126
+01:48:10,919 --> 01:48:14,879
+they were the legal UCI bikes of the time.
+
+2127
+01:48:15,580 --> 01:48:18,240
+So in effect, today's riders with today's bikes
+
+2128
+01:48:18,720 --> 01:48:23,470
+and also a number of other things, they started going. The 3 to 1 rule is gone
+
+2129
+01:48:23,830 --> 01:48:25,750
+and a few other small things here and there.
+
+2130
+01:48:26,520 --> 01:48:27,180
+So
+
+2131
+01:48:28,359 --> 01:48:32,700
+I strongly believe today's riders with today's bikes, which also means,
+
+2132
+01:48:32,910 --> 01:48:35,600
+as today's technology
+
+2133
+01:48:36,009 --> 01:48:40,379
+is being improved and created as we're going along,
+
+2134
+01:48:41,419 --> 01:48:43,799
+this is done by today's people
+
+2135
+01:48:43,919 --> 01:48:46,120
+with some of them are actually also the riders.
+
+2136
+01:48:46,439 --> 01:48:49,700
+So as the things are progressing. We need to progress with them.
+
+2137
+01:48:50,049 --> 01:48:52,720
+Otherwise, we're gonna just stay. I go
+
+2138
+01:48:53,040 --> 01:48:56,200
+back in the caves. Can you imagine? When we were in the caves
+
+2139
+01:48:56,459 --> 01:48:59,279
+and we were thinking should I go out there or the tiger will eat me?
+
+2140
+01:48:59,669 --> 01:49:00,629
+And it just seems
+
+2141
+01:49:00,899 --> 01:49:03,740
+as if, uh, I have seen it. Don't know if it's just in the past year, but,
+
+2142
+01:49:04,060 --> 01:49:04,069
+uh,
+
+2143
+01:49:04,740 --> 01:49:09,250
+like an interest from Formula One teams, you know, getting back into cycling again,
+
+2144
+01:49:09,259 --> 01:49:09,759
+and and
+
+2145
+01:49:10,069 --> 01:49:13,799
+and with the Netflix and these sort of documentaries, it seems that
+
+2146
+01:49:14,459 --> 01:49:18,759
+there's more and more budget Red Bull coming in that, you know,
+
+2147
+01:49:18,979 --> 01:49:19,750
+obviously I
+
+2148
+01:49:19,970 --> 01:49:23,910
+yours still a major, you know, uh, play. But, you know, vis a Lisa bike
+
+2149
+01:49:24,169 --> 01:49:26,439
+Seems like if the technology doesn't
+
+2150
+01:49:27,100 --> 01:49:27,540
+it,
+
+2151
+01:49:27,750 --> 01:49:29,250
+if it restricts,
+
+2152
+01:49:29,629 --> 01:49:32,680
+those people won't be interested. Cos they want it to be.
+
+2153
+01:49:33,000 --> 01:49:35,870
+They want to differentiate, don't they? They don't want everybody to be the same.
+
+2154
+01:49:35,879 --> 01:49:38,000
+Or why would they be coming in?
+
+2155
+01:49:38,370 --> 01:49:38,450
+Yeah,
+
+2156
+01:49:39,310 --> 01:49:39,629
+yeah, I
+
+2157
+01:49:39,759 --> 01:49:42,129
+think what makes the the sport interesting.
+
+2158
+01:49:42,140 --> 01:49:44,649
+Of course, the athletic performance is number one,
+
+2159
+01:49:45,779 --> 01:49:46,779
+and that's what I'm saying.
+
+2160
+01:49:46,790 --> 01:49:49,979
+You have to have regulations and you have to be able to enforce it.
+
+2161
+01:49:50,470 --> 01:49:52,810
+UCI. I had a bit of a problem
+
+2162
+01:49:52,939 --> 01:49:55,970
+on the enforcement at some point. Now they are much better.
+
+2163
+01:49:56,620 --> 01:49:57,399
+So
+
+2164
+01:49:57,629 --> 01:50:00,319
+having the regulations and being able to enforce it is
+
+2165
+01:50:00,549 --> 01:50:01,799
+you make sure that
+
+2166
+01:50:01,959 --> 01:50:05,600
+you don't go from where you are. And somebody has a brilliant idea.
+
+2167
+01:50:05,609 --> 01:50:06,879
+It goes up here somewhere
+
+2168
+01:50:07,200 --> 01:50:10,000
+and nobody else wins for the next 10 years.
+
+2169
+01:50:10,529 --> 01:50:11,770
+Because then
+
+2170
+01:50:12,240 --> 01:50:16,580
+the the public is going to lose the interest. You go there to watch a race,
+
+2171
+01:50:16,740 --> 01:50:20,649
+you have your favourite. But, uh, your favourite hopefully will win.
+
+2172
+01:50:20,830 --> 01:50:23,720
+But if your favourite wins all the time, where is the interest?
+
+2173
+01:50:23,729 --> 01:50:25,959
+You got to go over there? You know the guy is going to win.
+
+2174
+01:50:26,870 --> 01:50:27,160
+What?
+
+2175
+01:50:27,299 --> 01:50:28,529
+Why should I go there?
+
+2176
+01:50:29,740 --> 01:50:32,529
+So the competition makes a difference. So
+
+2177
+01:50:32,930 --> 01:50:35,970
+UCI I needs to do the regulations.
+
+2178
+01:50:35,979 --> 01:50:40,410
+It goes like from here to there to there, to there, to there, to there.
+
+2179
+01:50:40,740 --> 01:50:45,209
+So you keep modifying us new things that are coming in.
+
+2180
+01:50:45,439 --> 01:50:48,990
+And of course, you need to keep pace with the new things.
+
+2181
+01:50:49,000 --> 01:50:51,029
+Usually the problem with these kind of things is
+
+2182
+01:50:51,620 --> 01:50:54,759
+the technology outpaces
+
+2183
+01:50:55,100 --> 01:50:56,810
+the people. They check it
+
+2184
+01:50:57,250 --> 01:50:59,600
+usually the ones they create the technology.
+
+2185
+01:50:59,609 --> 01:51:02,229
+They are, like, years ahead of the ones that they try to check it.
+
+2186
+01:51:02,680 --> 01:51:04,959
+And it's like a cat and mouse, you know,
+
+2187
+01:51:05,919 --> 01:51:06,640
+And, uh, to
+
+2188
+01:51:07,470 --> 01:51:10,950
+be fair to UCI I nowadays, they are very good, very open.
+
+2189
+01:51:11,189 --> 01:51:16,750
+And, uh, they they do take a good view of innovation
+
+2190
+01:51:17,120 --> 01:51:19,240
+much better than a few years back. That, uh
+
+2191
+01:51:19,549 --> 01:51:19,560
+uh,
+
+2192
+01:51:19,569 --> 01:51:22,450
+the number I should be on the black list of UCI I of at
+
+2193
+01:51:22,549 --> 01:51:26,669
+least in the past on how many innovations that I applied and they said no,
+
+2194
+01:51:28,819 --> 01:51:32,879
+that Yeah, that's funny. Well, thank you so much for taking the time to speak.
+
+2195
+01:51:32,890 --> 01:51:33,899
+I mean, I think
+
+2196
+01:51:34,609 --> 01:51:36,450
+it would be good to talk again some
+
+2197
+01:51:36,580 --> 01:51:36,950
+of the future.
+
+2198
+01:51:36,959 --> 01:51:38,649
+I know there's certain stuff we worked on and
+
+2199
+01:51:38,660 --> 01:51:40,140
+stuff you're working on now that I guess,
+
+2200
+01:51:40,470 --> 01:51:41,250
+in certain,
+
+2201
+01:51:41,799 --> 01:51:42,149
+you know,
+
+2202
+01:51:42,370 --> 01:51:45,140
+months and and after Olympics, you may be
+
+2203
+01:51:45,529 --> 01:51:49,220
+able to talk about things, but yeah, I really enjoyed this. And
+
+2204
+01:51:49,709 --> 01:51:50,750
+yeah, thanks so much.
+
+2205
+01:51:51,390 --> 01:51:51,700
+Thanks, Neil.
+
+2206
+01:52:14,129 --> 01:52:14,160
+That

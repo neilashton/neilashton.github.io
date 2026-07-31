@@ -1,0 +1,1539 @@
+1
+00:00:00,100 --> 00:00:02,480
+Hi and welcome to the Neil Ashton podcast.
+
+2
+00:00:03,019 --> 00:00:03,839
+In each episode,
+
+3
+00:00:03,849 --> 00:00:07,309
+we explained some of the fascinating ways that science and engineering
+
+4
+00:00:07,469 --> 00:00:09,159
+are changing the world around us.
+
+5
+00:00:09,699 --> 00:00:14,170
+We talk to leading engineers from elite level sports like cycling and Formula One
+
+6
+00:00:14,760 --> 00:00:16,670
+to some of the world's top academics.
+
+7
+00:00:16,680 --> 00:00:21,069
+To understand how fluid dynamics, machine learning and supercomputing
+
+8
+00:00:21,229 --> 00:00:22,729
+are bringing in a new era of discovery.
+
+9
+00:00:23,790 --> 00:00:27,149
+We also hear some of their life stories, their career advice
+
+10
+00:00:27,540 --> 00:00:31,590
+and lessons they've learned on the way that I hope will be helpful to you too.
+
+11
+00:00:31,959 --> 00:00:34,330
+So sit back and enjoy this episode.
+
+12
+00:00:39,790 --> 00:00:42,319
+Hi, and welcome back to the Neil Ashton podcast.
+
+13
+00:00:43,180 --> 00:00:46,720
+Today's episode is really setting the scene for
+
+14
+00:00:46,729 --> 00:00:49,229
+what are gonna be a couple of really interesting
+
+15
+00:00:49,860 --> 00:00:51,479
+interviews and discussions
+
+16
+00:00:52,169 --> 00:00:53,139
+with some
+
+17
+00:00:53,380 --> 00:00:56,630
+world leading experts on machine learning.
+
+18
+00:00:58,080 --> 00:01:03,060
+What the next month's episodes are really gonna be focusing on
+
+19
+00:01:03,400 --> 00:01:08,089
+is this topic of AI for science or how artificial intelligence,
+
+20
+00:01:08,099 --> 00:01:09,160
+how machine learning
+
+21
+00:01:09,540 --> 00:01:12,730
+can be used to solve scientific problems
+
+22
+00:01:14,529 --> 00:01:18,839
+in addition to the way that machine learning is now increasingly being used, uh,
+
+23
+00:01:18,849 --> 00:01:20,989
+for generative AI for these
+
+24
+00:01:21,610 --> 00:01:24,470
+large language models that you can go in
+
+25
+00:01:24,709 --> 00:01:27,709
+and you can ask questions. You can generate images.
+
+26
+00:01:27,720 --> 00:01:30,059
+Increasingly, you can generate short clips.
+
+27
+00:01:30,839 --> 00:01:31,529
+How
+
+28
+00:01:32,349 --> 00:01:37,400
+or is it possible for some of those to also solve some of the scientific problems like
+
+29
+00:01:37,610 --> 00:01:41,660
+computational fluid dynamics, weather modelling, material design,
+
+30
+00:01:41,669 --> 00:01:43,120
+drug discovery, et cetera,
+
+31
+00:01:43,889 --> 00:01:46,209
+And I just wanted to set the scene. Really?
+
+32
+00:01:46,220 --> 00:01:50,120
+Today is going to be a bit of a shorter episode, and I wanted to maybe,
+
+33
+00:01:50,519 --> 00:01:51,040
+um,
+
+34
+00:01:51,900 --> 00:01:55,540
+discuss some of the fundamentals in terms of why this is
+
+35
+00:01:55,739 --> 00:01:57,410
+becoming interesting.
+
+36
+00:01:57,669 --> 00:02:02,449
+And I'm gonna talk through the lens of Of of CFD of computational fluid dynamics,
+
+37
+00:02:02,760 --> 00:02:06,309
+um such that hopefully the next few episodes when you
+
+38
+00:02:06,319 --> 00:02:09,190
+listen to them with some of these world leading experts,
+
+39
+00:02:09,199 --> 00:02:09,288
+uh,
+
+40
+00:02:09,300 --> 00:02:12,050
+you'll get a little bit of another context because
+
+41
+00:02:12,059 --> 00:02:15,320
+we may dive in straight away in those conversations.
+
+42
+00:02:15,330 --> 00:02:17,110
+So I thought this one might be useful to
+
+43
+00:02:17,869 --> 00:02:21,639
+to really explain some of the high level concepts. So
+
+44
+00:02:22,809 --> 00:02:24,190
+the way I would say it is this.
+
+45
+00:02:24,199 --> 00:02:27,759
+So let's let's look at, uh, computational fluid dynamics. Let's look at
+
+46
+00:02:27,970 --> 00:02:32,570
+what the previous you know, nine episodes have essentially been about, which is
+
+47
+00:02:32,720 --> 00:02:37,309
+OK. I want to design a car or a plane or a wind turbine or a jet engine.
+
+48
+00:02:37,779 --> 00:02:40,259
+And, uh, I could do it physically,
+
+49
+00:02:40,800 --> 00:02:42,070
+as in, you know, I could
+
+50
+00:02:42,690 --> 00:02:46,669
+build it, fly it and test it, but most of the time that's too expensive.
+
+51
+00:02:46,679 --> 00:02:51,190
+So so people don't do it. That's that's really left, right? You know, to the end.
+
+52
+00:02:51,479 --> 00:02:53,699
+It's not really a development thing. Sorry.
+
+53
+00:02:53,710 --> 00:02:57,020
+I think I've got a bit of a cold or something. So my voice is going a bit,
+
+54
+00:02:57,470 --> 00:02:57,990
+Um,
+
+55
+00:02:58,919 --> 00:03:03,070
+what is increasingly used more are either
+
+56
+00:03:03,520 --> 00:03:04,789
+wind tunnel tests.
+
+57
+00:03:04,800 --> 00:03:09,929
+So some sort of artificial environment that mimics the real world.
+
+58
+00:03:09,940 --> 00:03:15,740
+But let's say in a very large warehouse where you blow air over like an object or you
+
+59
+00:03:15,750 --> 00:03:19,449
+do some sort of lab test where you maybe have like a jet engine in S in,
+
+60
+00:03:19,460 --> 00:03:21,960
+in inside a building which is detached from
+
+61
+00:03:21,970 --> 00:03:24,080
+a plane and you do some experimental tests.
+
+62
+00:03:24,479 --> 00:03:25,029
+Um,
+
+63
+00:03:25,270 --> 00:03:30,779
+but even those are are are arguably still quite slow. And,
+
+64
+00:03:31,020 --> 00:03:35,130
+um, limit the number of designs you can explore, and hence why?
+
+65
+00:03:35,199 --> 00:03:39,860
+Simulation is so, uh, widely done now. And hence why?
+
+66
+00:03:39,869 --> 00:03:41,789
+Computational fluid dynamics is this
+
+67
+00:03:42,000 --> 00:03:46,619
+important area that is continues to grow in terms of its applicability.
+
+68
+00:03:47,440 --> 00:03:51,089
+And that's why I constantly talk about CFD because it really is used
+
+69
+00:03:51,100 --> 00:03:53,660
+in so many of the things that that you're used to doing.
+
+70
+00:03:54,110 --> 00:03:54,589
+But
+
+71
+00:03:54,949 --> 00:03:57,490
+if you're doing uh, CFD
+
+72
+00:03:57,770 --> 00:04:00,300
+and this applies also to, let's say,
+
+73
+00:04:00,419 --> 00:04:03,539
+drug discovery or weather modelling or materials design.
+
+74
+00:04:03,899 --> 00:04:06,639
+Typically you're solving some, you know,
+
+75
+00:04:06,649 --> 00:04:10,460
+partial differential equations using some numerical methods
+
+76
+00:04:11,020 --> 00:04:13,610
+that essentially have typically,
+
+77
+00:04:13,740 --> 00:04:13,750
+uh,
+
+78
+00:04:14,080 --> 00:04:19,970
+a quasi linear relationship between the accuracy
+
+79
+00:04:20,548 --> 00:04:22,600
+of your simulation
+
+80
+00:04:23,160 --> 00:04:25,850
+and the amount of time it takes to run
+
+81
+00:04:26,359 --> 00:04:26,809
+it.
+
+82
+00:04:26,820 --> 00:04:29,940
+I in general and different methods have different order, uh,
+
+83
+00:04:29,950 --> 00:04:33,260
+of of of computational cost versus accuracy.
+
+84
+00:04:33,269 --> 00:04:33,549
+But
+
+85
+00:04:33,720 --> 00:04:36,769
+you know, in general, let's say, for the simulation of a car,
+
+86
+00:04:37,239 --> 00:04:37,769
+um,
+
+87
+00:04:38,470 --> 00:04:40,739
+the to make it more accurate.
+
+88
+00:04:41,109 --> 00:04:45,209
+I need to reduce the error in these numerical schemes by having
+
+89
+00:04:45,570 --> 00:04:46,269
+um,
+
+90
+00:04:46,279 --> 00:04:49,929
+less dissipation smaller digitalization to these sort of
+
+91
+00:04:49,940 --> 00:04:51,890
+mesh points that you have more of them
+
+92
+00:04:52,339 --> 00:04:54,929
+to be able to capture more of what's really going on.
+
+93
+00:04:55,829 --> 00:04:58,170
+And as you add more of that fidelity
+
+94
+00:04:58,970 --> 00:05:00,970
+in space and time,
+
+95
+00:05:01,250 --> 00:05:05,600
+because most of the time these turbulent structures have a very small you know,
+
+96
+00:05:05,609 --> 00:05:09,649
+time scale, and particularly true if we start getting into Multiphase and,
+
+97
+00:05:10,000 --> 00:05:10,070
+uh,
+
+98
+00:05:10,079 --> 00:05:12,950
+and combustion and things like that the time
+
+99
+00:05:12,959 --> 00:05:14,989
+it takes you the number of iterations you
+
+100
+00:05:15,000 --> 00:05:18,529
+need to run and the amount of memory and compute goes up and up and up.
+
+101
+00:05:19,679 --> 00:05:24,700
+So, um, that's why high-performance computing is such an important discussion.
+
+102
+00:05:24,709 --> 00:05:28,549
+It's why I kind of link them together. Fluid dynamics HPC
+
+103
+00:05:29,040 --> 00:05:31,410
+because they are inherently linked.
+
+104
+00:05:32,399 --> 00:05:34,549
+But the third topic
+
+105
+00:05:35,029 --> 00:05:38,440
+that I mentioned, I think, in the intro to every podcast
+
+106
+00:05:38,609 --> 00:05:40,109
+is machine learning.
+
+107
+00:05:40,890 --> 00:05:45,540
+And that's why I wanted these next few episodes to really dive in and help
+
+108
+00:05:46,290 --> 00:05:49,190
+to be honest Me, I learn every time I speak to somebody, uh,
+
+109
+00:05:49,200 --> 00:05:51,829
+but also yourselves to to get this sense of why
+
+110
+00:05:51,839 --> 00:05:54,890
+I think machine learning has a strong potential in this area
+
+111
+00:05:55,170 --> 00:05:59,230
+of, uh, Formula One and cycling and engineering and fluid dynamics.
+
+112
+00:06:00,410 --> 00:06:00,869
+So
+
+113
+00:06:01,829 --> 00:06:04,209
+what I said before was, in general,
+
+114
+00:06:04,220 --> 00:06:06,609
+all these simulations are getting more and more accurate,
+
+115
+00:06:06,809 --> 00:06:08,970
+but they're also requiring more and more compute
+
+116
+00:06:10,140 --> 00:06:10,679
+Now.
+
+117
+00:06:11,540 --> 00:06:12,579
+Interestingly,
+
+118
+00:06:13,630 --> 00:06:16,130
+machine learning has
+
+119
+00:06:16,410 --> 00:06:19,170
+developed over the past decade,
+
+120
+00:06:19,420 --> 00:06:20,320
+I would argue,
+
+121
+00:06:20,609 --> 00:06:24,250
+but certainly has ramped up in the past
+
+122
+00:06:24,859 --> 00:06:26,399
+23 years,
+
+123
+00:06:29,029 --> 00:06:31,329
+to the point that actually,
+
+124
+00:06:31,450 --> 00:06:34,730
+and I'm gonna speak it at a high level because these next um,
+
+125
+00:06:34,739 --> 00:06:37,600
+interviews are gonna be the chance where we can go in a little bit deeper.
+
+126
+00:06:37,609 --> 00:06:39,250
+So this this is like, I guess, the
+
+127
+00:06:39,730 --> 00:06:41,279
+sort of 101 class
+
+128
+00:06:41,980 --> 00:06:44,480
+they developed to the point that, in theory,
+
+129
+00:06:45,369 --> 00:06:48,260
+machine learning is all essentially about inputs and outputs, isn't it?
+
+130
+00:06:48,269 --> 00:06:50,910
+You know, essentially, you've got some input, some data
+
+131
+00:06:51,239 --> 00:06:52,589
+that you can train
+
+132
+00:06:53,100 --> 00:06:56,709
+a machine learning model, some sort of, you know, neural network, usually
+
+133
+00:06:57,649 --> 00:07:01,600
+to come up with some weights, et cetera that then once it's trained,
+
+134
+00:07:01,609 --> 00:07:03,029
+you can give something
+
+135
+00:07:03,440 --> 00:07:06,029
+some new, unseen task
+
+136
+00:07:06,670 --> 00:07:11,369
+that it can predict the output for. And to do that, you need some inputs and you need
+
+137
+00:07:11,609 --> 00:07:12,619
+some outputs.
+
+138
+00:07:12,980 --> 00:07:16,070
+So in the context of computational fluid dynamics,
+
+139
+00:07:16,269 --> 00:07:21,130
+the inputs could be lots of cars or planes or wind turbines.
+
+140
+00:07:22,309 --> 00:07:25,529
+It could be their geometries. It could be their volume measures.
+
+141
+00:07:25,540 --> 00:07:28,950
+It could be a a variety of things, but essentially the inputs are usually
+
+142
+00:07:29,089 --> 00:07:31,049
+the simulations of many
+
+143
+00:07:31,380 --> 00:07:32,690
+cars or planes,
+
+144
+00:07:33,040 --> 00:07:34,170
+or it could be
+
+145
+00:07:34,660 --> 00:07:37,440
+more the same plane or the same car.
+
+146
+00:07:37,450 --> 00:07:39,700
+But lots of different boundary conditions,
+
+147
+00:07:39,709 --> 00:07:42,250
+so different wind speeds different your angles
+
+148
+00:07:43,010 --> 00:07:44,250
+and the outputs
+
+149
+00:07:44,760 --> 00:07:45,760
+could be
+
+150
+00:07:46,019 --> 00:07:47,640
+their lifts and drags,
+
+151
+00:07:47,649 --> 00:07:50,600
+or it could be their flow fields of the lost
+
+152
+00:07:50,690 --> 00:07:53,149
+and the pressure and the nodal points on the mesh.
+
+153
+00:07:53,820 --> 00:07:55,850
+And the model is essentially learning that
+
+154
+00:07:55,859 --> 00:07:58,320
+link between those out inputs and outputs
+
+155
+00:07:59,459 --> 00:08:02,399
+such that now because it's learned that mapping.
+
+156
+00:08:03,369 --> 00:08:07,119
+I can give it an input, let's say a new car or plane
+
+157
+00:08:07,600 --> 00:08:09,709
+and it can go and predict me
+
+158
+00:08:10,250 --> 00:08:11,149
+that output.
+
+159
+00:08:12,739 --> 00:08:16,589
+But the real reason I guess that it's so
+
+160
+00:08:16,690 --> 00:08:17,609
+appealing
+
+161
+00:08:18,359 --> 00:08:19,380
+is because
+
+162
+00:08:20,179 --> 00:08:22,799
+that actual prediction step
+
+163
+00:08:23,239 --> 00:08:24,730
+that inference step
+
+164
+00:08:25,619 --> 00:08:28,350
+is essentially nearly real time
+
+165
+00:08:29,100 --> 00:08:31,200
+seconds, typically less than a minute.
+
+166
+00:08:32,270 --> 00:08:34,539
+And if you just focus on that pure
+
+167
+00:08:34,690 --> 00:08:37,520
+imprint, step that pure prediction step
+
+168
+00:08:38,239 --> 00:08:41,379
+and you say it's, let's say, worst case, let's say a minute
+
+169
+00:08:42,558 --> 00:08:43,308
+a minute
+
+170
+00:08:43,640 --> 00:08:44,929
+on what's often,
+
+171
+00:08:45,179 --> 00:08:48,770
+uh, you know, a single GP, U or even AC PU at this inference step
+
+172
+00:08:49,090 --> 00:08:50,390
+compared to
+
+173
+00:08:51,400 --> 00:08:52,140
+I don't know,
+
+174
+00:08:52,309 --> 00:08:54,059
+um, 48 hours
+
+175
+00:08:54,219 --> 00:08:55,099
+on
+
+176
+00:08:56,200 --> 00:08:58,070
+1,000 CPU cores
+
+177
+00:08:58,979 --> 00:09:00,880
+48 hours to a minute
+
+178
+00:09:01,169 --> 00:09:05,679
+is a dramatic change, and that's why you're seeing many companies many papers
+
+179
+00:09:06,289 --> 00:09:07,229
+claim
+
+180
+00:09:07,500 --> 00:09:11,630
+10,000 times faster and strictly That is true. It's 10,000 times faster.
+
+181
+00:09:11,640 --> 00:09:12,429
+I think if you do the maths
+
+182
+00:09:13,380 --> 00:09:18,520
+now, people will say rightly so. Well, what about the time to train the model?
+
+183
+00:09:19,130 --> 00:09:21,659
+Well, the time to train the model
+
+184
+00:09:21,919 --> 00:09:24,989
+depending on what What methods you're using. And if you look in the literature
+
+185
+00:09:25,619 --> 00:09:30,150
+is probably still in the in the hours, maybe maximum a day.
+
+186
+00:09:31,119 --> 00:09:34,440
+So the training cost of time is is actually,
+
+187
+00:09:34,559 --> 00:09:36,630
+um, for these sort of, um,
+
+188
+00:09:37,020 --> 00:09:39,390
+methods typically not actually
+
+189
+00:09:39,809 --> 00:09:40,830
+that long
+
+190
+00:09:41,070 --> 00:09:45,739
+compared to the cost of a CFD. Um, simulation.
+
+191
+00:09:46,820 --> 00:09:49,450
+Now I'm talking at a very high level here. I appreciate it.
+
+192
+00:09:49,460 --> 00:09:50,700
+I'm just trying to set the scene. Really?
+
+193
+00:09:50,710 --> 00:09:52,520
+There's nuances and there's different approaches,
+
+194
+00:09:52,530 --> 00:09:55,400
+and that's what we're gonna explore over the next few episodes.
+
+195
+00:09:56,299 --> 00:09:57,239
+But in general,
+
+196
+00:09:59,229 --> 00:10:01,609
+the cost of training and the cost of inference
+
+197
+00:10:01,900 --> 00:10:03,070
+is actually
+
+198
+00:10:03,840 --> 00:10:04,979
+relatively cheap.
+
+199
+00:10:06,039 --> 00:10:08,940
+The big one, of course, is you have to have the training data,
+
+200
+00:10:09,469 --> 00:10:11,929
+and this is the interesting similarities and
+
+201
+00:10:11,940 --> 00:10:15,429
+differences between machine learning for scientific problems
+
+202
+00:10:15,859 --> 00:10:18,450
+and machine learning for, um,
+
+203
+00:10:18,640 --> 00:10:21,299
+I'm not sure how you would phrase it, but for large language models,
+
+204
+00:10:21,309 --> 00:10:24,049
+for the stuff that what you use in these, uh, chat G,
+
+205
+00:10:24,059 --> 00:10:27,450
+BT or Amazon Titan or Bard or or or Llama model
+
+206
+00:10:28,690 --> 00:10:29,869
+in those scenarios
+
+207
+00:10:31,070 --> 00:10:32,530
+the training data
+
+208
+00:10:33,059 --> 00:10:37,219
+is widely available because it it's and maybe it's getting harder now.
+
+209
+00:10:37,229 --> 00:10:38,849
+But previously it was simply
+
+210
+00:10:39,030 --> 00:10:43,210
+scraping off the Internet lots and lots of of texts and documents, et cetera.
+
+211
+00:10:43,219 --> 00:10:45,559
+Now many of these companies have signed deals
+
+212
+00:10:45,809 --> 00:10:51,130
+with, um, magazines or newspapers or various other entities to get the data.
+
+213
+00:10:51,770 --> 00:10:54,190
+But it's I would say, it's largely available
+
+214
+00:10:54,599 --> 00:11:00,390
+and, um, not huge in size. So if you look at these models, the actual data itself is,
+
+215
+00:11:00,559 --> 00:11:03,229
+you know, gigabytes or terabytes. It's not in the petabytes
+
+216
+00:11:04,830 --> 00:11:08,340
+and the real cost of training these large language
+
+217
+00:11:08,349 --> 00:11:10,409
+models that many of you are starting to use
+
+218
+00:11:10,710 --> 00:11:15,690
+it is not the data collection per se, although there is work to do that, you know,
+
+219
+00:11:15,700 --> 00:11:17,190
+labelling and preprocessing,
+
+220
+00:11:17,369 --> 00:11:20,489
+but more the actual training time. So you know you might need
+
+221
+00:11:20,719 --> 00:11:26,809
+4000 or 10,000 GPUs running for weeks, and this is what's driven this huge boom in AI,
+
+222
+00:11:27,030 --> 00:11:30,070
+uh, chips, because the training time is so massive.
+
+223
+00:11:31,679 --> 00:11:34,260
+If you contrast that with, um,
+
+224
+00:11:35,099 --> 00:11:38,229
+this is why we jump into so many rabbit holes. So
+
+225
+00:11:38,409 --> 00:11:39,320
+bear with me
+
+226
+00:11:40,770 --> 00:11:43,130
+for many people at the moment.
+
+227
+00:11:43,950 --> 00:11:45,950
+The big difference is that
+
+228
+00:11:46,760 --> 00:11:50,489
+for scientific problems? Many people are not talking about
+
+229
+00:11:50,780 --> 00:11:52,710
+foundational models,
+
+230
+00:11:53,119 --> 00:11:56,340
+and I'll explain what I believe that stands for in a moment,
+
+231
+00:11:56,719 --> 00:11:59,169
+but more that you are training a model
+
+232
+00:11:59,429 --> 00:12:01,080
+each time, essentially,
+
+233
+00:12:01,400 --> 00:12:02,059
+so
+
+234
+00:12:02,780 --> 00:12:08,059
+the training time is for your specific 50 cars or 100 cars, or or your specific, um,
+
+235
+00:12:08,070 --> 00:12:10,640
+Earth model or your specific drug discovery.
+
+236
+00:12:11,479 --> 00:12:15,349
+And so the training time is actually not that much and not that expensive.
+
+237
+00:12:15,359 --> 00:12:19,210
+What is the real challenge is collecting the training data
+
+238
+00:12:20,320 --> 00:12:21,590
+foundational models.
+
+239
+00:12:21,599 --> 00:12:26,289
+The whole point of a foundational model is it's meant to be so foundational
+
+240
+00:12:26,690 --> 00:12:27,179
+that
+
+241
+00:12:27,460 --> 00:12:31,020
+you should train it once essentially, and then you can just
+
+242
+00:12:31,359 --> 00:12:32,099
+use it,
+
+243
+00:12:33,169 --> 00:12:36,109
+with the exception being that maybe you need to fine tune it.
+
+244
+00:12:36,119 --> 00:12:40,330
+But when you go and use any of these commercially available large language models,
+
+245
+00:12:40,549 --> 00:12:44,229
+you are only doing a prediction step. You are not training the model.
+
+246
+00:12:44,239 --> 00:12:48,719
+It has already been trained on so much data that is considered almost foundational.
+
+247
+00:12:49,700 --> 00:12:52,000
+There is a current debate in the scientific community,
+
+248
+00:12:52,010 --> 00:12:55,200
+but I think it's fair to say that most of the stuff that's been done
+
+249
+00:12:55,619 --> 00:12:56,479
+to date
+
+250
+00:12:56,659 --> 00:12:59,479
+in the scientific side, whether it's weather modelling, or CFD
+
+251
+00:12:59,700 --> 00:13:01,770
+are not foundational models
+
+252
+00:13:01,960 --> 00:13:05,080
+because they only work for quite a specific,
+
+253
+00:13:05,849 --> 00:13:06,640
+um,
+
+254
+00:13:07,159 --> 00:13:09,320
+use case that it has been trained for.
+
+255
+00:13:09,330 --> 00:13:14,059
+So it's not able to predict any fluid dynamics or any weather scenario.
+
+256
+00:13:14,440 --> 00:13:17,960
+It is still within the confines of a particular thing.
+
+257
+00:13:18,469 --> 00:13:20,460
+One of the debates is.
+
+258
+00:13:20,659 --> 00:13:23,849
+Could we build foundational models for science?
+
+259
+00:13:23,859 --> 00:13:26,809
+And that's one of the topics I'll be discussing with some of my guest.
+
+260
+00:13:28,940 --> 00:13:32,539
+And I'm purposely not saying the names of the, um of the guest to keep it.
+
+261
+00:13:32,549 --> 00:13:36,179
+I'll I'll, I'll sort of leak that information, Um, once they're actually recorded.
+
+262
+00:13:36,190 --> 00:13:38,190
+But the but the it's quite exciting,
+
+263
+00:13:38,200 --> 00:13:41,140
+and I'm really pleased who I've managed to convince to
+
+264
+00:13:41,429 --> 00:13:43,820
+to have a chat and share their their wisdom.
+
+265
+00:13:44,090 --> 00:13:44,520
+Um,
+
+266
+00:13:46,150 --> 00:13:46,650
+so
+
+267
+00:13:48,309 --> 00:13:51,390
+the all of that was to essentially say, Why is it so interesting?
+
+268
+00:13:51,400 --> 00:13:53,440
+It's interesting because ultimately
+
+269
+00:13:53,979 --> 00:13:58,669
+the promise is that you can get a method that, once trained, can run
+
+270
+00:13:58,909 --> 00:14:00,489
+in quasi real time.
+
+271
+00:14:00,580 --> 00:14:04,049
+So if you are a car manufacturer, a plane manufacturer wind turbine,
+
+272
+00:14:04,940 --> 00:14:05,880
+you can
+
+273
+00:14:06,099 --> 00:14:07,229
+design
+
+274
+00:14:07,530 --> 00:14:11,239
+and explore thousands of designs in in in minutes.
+
+275
+00:14:11,640 --> 00:14:14,190
+Now that all sounds too good to be true doesn't it? Well,
+
+276
+00:14:14,609 --> 00:14:16,909
+the the truth is that, um
+
+277
+00:14:17,440 --> 00:14:21,729
+at the moment, there is still a, um, active debate
+
+278
+00:14:21,869 --> 00:14:25,340
+on how accurate are these methods? Uh, and what can they actually do?
+
+279
+00:14:25,349 --> 00:14:26,590
+So there's been lots of
+
+280
+00:14:26,710 --> 00:14:28,570
+I would say fundamental work,
+
+281
+00:14:28,580 --> 00:14:32,320
+and there are various start ups in the space who are claiming they can do more,
+
+282
+00:14:32,330 --> 00:14:35,159
+but it's it's It's a very active area of research that,
+
+283
+00:14:35,270 --> 00:14:35,770
+I would say,
+
+284
+00:14:35,780 --> 00:14:39,929
+is nowhere near as mature as some of these large language models that have
+
+285
+00:14:39,940 --> 00:14:42,940
+that people are using every day and you can actually see their usefulness.
+
+286
+00:14:43,330 --> 00:14:45,109
+But there was a huge amount of promise.
+
+287
+00:14:45,119 --> 00:14:48,090
+And so what I want to do over the next few episodes is tease in
+
+288
+00:14:48,340 --> 00:14:51,039
+where these industry experts think we're at
+
+289
+00:14:51,239 --> 00:14:52,669
+and and where we could go to.
+
+290
+00:14:54,479 --> 00:14:57,179
+One of the things that you're probably
+
+291
+00:14:57,549 --> 00:14:58,299
+thinking,
+
+292
+00:14:59,119 --> 00:15:01,580
+and I just want to briefly explain and mention
+
+293
+00:15:01,590 --> 00:15:03,929
+again as a context to these upcoming ones,
+
+294
+00:15:05,090 --> 00:15:05,830
+is
+
+295
+00:15:06,570 --> 00:15:07,190
+physics.
+
+296
+00:15:09,049 --> 00:15:11,510
+When you're training these large language models,
+
+297
+00:15:11,520 --> 00:15:13,489
+one of the interesting thing is that
+
+298
+00:15:14,229 --> 00:15:17,989
+when it when you ask it a question, you ask it to write a sentence.
+
+299
+00:15:18,510 --> 00:15:23,130
+You have not told it explicitly. What are the laws of the English language
+
+300
+00:15:23,750 --> 00:15:28,809
+I If we're talking about English now, you haven't told it these. These are the AL.
+
+301
+00:15:28,820 --> 00:15:31,489
+This is specifically the alphabet. These are the rules.
+
+302
+00:15:31,500 --> 00:15:32,820
+These are the grammar rules.
+
+303
+00:15:33,340 --> 00:15:35,950
+Instead, it's actually learned it essentially from the data.
+
+304
+00:15:37,859 --> 00:15:39,359
+When it comes to,
+
+305
+00:15:39,599 --> 00:15:40,840
+let's say, fluid dynamics.
+
+306
+00:15:41,349 --> 00:15:43,400
+There is one argument
+
+307
+00:15:44,330 --> 00:15:44,789
+that,
+
+308
+00:15:45,539 --> 00:15:49,340
+and this is typically called sort of data driven approaches that
+
+309
+00:15:49,489 --> 00:15:51,520
+if you give it enough data,
+
+310
+00:15:52,409 --> 00:15:54,840
+it inherently learns
+
+311
+00:15:55,049 --> 00:15:58,559
+the laws of physics through the data that it ingests,
+
+312
+00:15:58,570 --> 00:16:00,510
+similar to how a larger language model is able to
+
+313
+00:16:00,520 --> 00:16:05,239
+essentially learn the language without explicitly knowing the rules.
+
+314
+00:16:05,530 --> 00:16:08,830
+And you could argue this is a little bit how a child learns
+
+315
+00:16:09,229 --> 00:16:09,260
+at
+
+316
+00:16:09,539 --> 00:16:10,309
+the beginning.
+
+317
+00:16:10,320 --> 00:16:12,150
+They're speaking the language through sort of
+
+318
+00:16:12,159 --> 00:16:14,729
+just observation through trial and error,
+
+319
+00:16:14,820 --> 00:16:17,039
+without explicitly knowing the rules.
+
+320
+00:16:17,299 --> 00:16:20,359
+Whereas an adult, maybe then you actually have to learn the rules.
+
+321
+00:16:20,369 --> 00:16:22,159
+And that's a whole other topic, how the brain
+
+322
+00:16:22,520 --> 00:16:23,159
+works.
+
+323
+00:16:23,169 --> 00:16:26,570
+And anyone who learns a foreign language knows it's much harder when you're older
+
+324
+00:16:26,950 --> 00:16:29,119
+to do it when you're, um, when you're younger.
+
+325
+00:16:30,690 --> 00:16:31,750
+But um,
+
+326
+00:16:33,070 --> 00:16:35,489
+when it comes to through dynamics,
+
+327
+00:16:35,789 --> 00:16:37,789
+there is the opposite viewpoint,
+
+328
+00:16:37,909 --> 00:16:38,840
+which is that?
+
+329
+00:16:39,359 --> 00:16:42,570
+No, we must include somehow
+
+330
+00:16:42,859 --> 00:16:44,789
+these physical laws
+
+331
+00:16:45,270 --> 00:16:47,809
+in the machine learning model in the loss function
+
+332
+00:16:48,260 --> 00:16:49,809
+it some mechanism
+
+333
+00:16:51,119 --> 00:16:56,929
+to force it to abide by these foundational physical laws,
+
+334
+00:16:56,940 --> 00:16:59,299
+the conservation of mass conservation of energy
+
+335
+00:16:59,750 --> 00:17:03,969
+that we know are real and and help us.
+
+336
+00:17:04,219 --> 00:17:05,890
+And that is typically what are called
+
+337
+00:17:05,900 --> 00:17:08,699
+more physics driven or physics informed approaches.
+
+338
+00:17:09,448 --> 00:17:11,548
+And it's very interesting debate,
+
+339
+00:17:11,558 --> 00:17:16,409
+I would say still a very ongoing debate in the literature on which one of these
+
+340
+00:17:16,798 --> 00:17:18,428
+is essentially the winner.
+
+341
+00:17:18,868 --> 00:17:21,038
+Um, which is the most correct? Or
+
+342
+00:17:21,388 --> 00:17:25,558
+is it somehow something in the middle where, um, it's a
+
+343
+00:17:25,888 --> 00:17:27,989
+little bit of data, a little bit of physics?
+
+344
+00:17:28,310 --> 00:17:31,849
+This, um, in my mind is very interesting,
+
+345
+00:17:32,109 --> 00:17:33,619
+and it's still not clear,
+
+346
+00:17:33,920 --> 00:17:33,949
+uh,
+
+347
+00:17:33,959 --> 00:17:36,859
+whether it will be one of these sort of models that have
+
+348
+00:17:36,869 --> 00:17:39,890
+been coming out Or is it going to be something completely different?
+
+349
+00:17:41,359 --> 00:17:41,859
+So
+
+350
+00:17:43,069 --> 00:17:47,609
+I hope that I've maybe just framed a little bit of what's coming.
+
+351
+00:17:47,849 --> 00:17:52,310
+What really I want to tease out in the next few months is to hear from these people,
+
+352
+00:17:52,319 --> 00:17:53,219
+first of all,
+
+353
+00:17:53,530 --> 00:17:56,469
+where they see the current state of the art
+
+354
+00:17:56,660 --> 00:17:57,530
+where
+
+355
+00:17:57,839 --> 00:18:03,619
+things are going and their optimism to what a future will look like in 5 to 10 years.
+
+356
+00:18:04,150 --> 00:18:08,449
+Will we ever be able to have these foundational models of science
+
+357
+00:18:08,619 --> 00:18:12,560
+where we could essentially almost ask it in a prompt like fashion?
+
+358
+00:18:12,770 --> 00:18:15,849
+Solve these equations and it can go off and do it
+
+359
+00:18:16,020 --> 00:18:19,930
+just as I can tell it. Now write me a script that does this.
+
+360
+00:18:19,939 --> 00:18:22,609
+Is it theoretically possible that if it could learn it,
+
+361
+00:18:22,869 --> 00:18:27,199
+that we could actually be solving some of these fantastic problems just in
+
+362
+00:18:27,349 --> 00:18:32,939
+a A you know, a few, um, types of a keyboard. It's for me. It's super fascinating one.
+
+363
+00:18:32,949 --> 00:18:35,130
+And I know it divides many people.
+
+364
+00:18:35,329 --> 00:18:39,709
+Some people see machine learning as just a huge hype that is marketing.
+
+365
+00:18:39,900 --> 00:18:41,000
+Um I.
+
+366
+00:18:41,300 --> 00:18:44,319
+I felt that way a little bit at the beginning.
+
+367
+00:18:44,329 --> 00:18:49,089
+Now I'm convinced, actually that it there are huge potential changes,
+
+368
+00:18:49,550 --> 00:18:50,189
+Um,
+
+369
+00:18:50,229 --> 00:18:53,369
+and something that everybody should be far more aware of
+
+370
+00:18:53,380 --> 00:18:57,079
+because I think it has a potentially transformative effect,
+
+371
+00:18:57,089 --> 00:18:58,650
+particularly in the engineering,
+
+372
+00:18:58,920 --> 00:19:01,829
+um, industry that, um just as
+
+373
+00:19:01,979 --> 00:19:06,660
+computers and simulation transform the sector from the previous
+
+374
+00:19:06,819 --> 00:19:09,819
+days of sort of trial and error, physically making things
+
+375
+00:19:09,979 --> 00:19:11,410
+that the the question is,
+
+376
+00:19:11,420 --> 00:19:15,849
+how much can machine learning bring out a new revolution in those industries?
+
+377
+00:19:15,859 --> 00:19:16,619
+So, yeah,
+
+378
+00:19:16,900 --> 00:19:17,329
+um,
+
+379
+00:19:17,859 --> 00:19:20,520
+that's this episode. We're gonna keep it sweet. Gonna keep it short.
+
+380
+00:19:20,670 --> 00:19:23,699
+And, um, please watch out, please subscribe, please.
+
+381
+00:19:23,709 --> 00:19:27,510
+Like, look out at the next few interesting, uh, episodes I think you're gonna like.
+
+382
+00:19:27,520 --> 00:19:28,819
+I think you're gonna learn a lot from
+
+383
+00:19:29,099 --> 00:19:34,089
+And, um, I. I hope you'll join me for those. So thanks very much for listening to this
+
+384
+00:19:34,270 --> 00:19:37,599
+and, uh, yeah, hopefully, uh, you'll join us for the next few ones too.
+
+385
+00:20:00,550 --> 00:20:00,579
+That

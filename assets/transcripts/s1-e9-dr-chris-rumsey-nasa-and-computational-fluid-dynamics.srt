@@ -1,0 +1,6303 @@
+1
+00:00:00,000 --> 00:00:01,760
+Hi, and welcome to the Neil Ashton
+
+2
+00:00:01,760 --> 00:00:04,520
+podcast. In each episode, we explain
+
+3
+00:00:04,520 --> 00:00:06,080
+some of the fascinating ways that
+
+4
+00:00:06,080 --> 00:00:08,200
+science and engineering are changing the
+
+5
+00:00:08,200 --> 00:00:09,680
+world around us.
+
+6
+00:00:09,680 --> 00:00:11,720
+We talk to leading engineers from elite
+
+7
+00:00:11,720 --> 00:00:14,800
+level sports like cycling and Formula 1
+
+8
+00:00:14,800 --> 00:00:16,880
+to some of the world's top academics to
+
+9
+00:00:16,880 --> 00:00:19,120
+understand how fluid dynamics, machine
+
+10
+00:00:19,120 --> 00:00:21,880
+learning, supercomputing are bringing in
+
+11
+00:00:21,880 --> 00:00:23,840
+a new era of discovery.
+
+12
+00:00:23,840 --> 00:00:26,080
+We also hear some of their life stories,
+
+13
+00:00:26,080 --> 00:00:27,600
+their career advice,
+
+14
+00:00:27,600 --> 00:00:29,080
+and lessons they've learned on the way
+
+15
+00:00:29,080 --> 00:00:32,000
+that I hope will be helpful to you, too.
+
+16
+00:00:32,000 --> 00:00:36,400
+So, sit back and enjoy this episode.
+
+17
+00:00:39,480 --> 00:00:42,040
+Welcome back to the Neil Ashton podcast.
+
+18
+00:00:42,040 --> 00:00:44,520
+Today's episode is with Chris Rumsey,
+
+19
+00:00:44,520 --> 00:00:46,640
+who is a research scientist at NASA
+
+20
+00:00:46,640 --> 00:00:48,720
+Langley Research Center.
+
+21
+00:00:48,720 --> 00:00:50,520
+This is another one of these episodes
+
+22
+00:00:50,520 --> 00:00:53,360
+that is going to get quite focused into
+
+23
+00:00:53,360 --> 00:00:55,080
+computational fluid dynamics and
+
+24
+00:00:55,080 --> 00:00:57,920
+turbulence modelling. So, um
+
+25
+00:00:57,920 --> 00:01:00,040
+I'm hoping if you're interested in that,
+
+26
+00:01:00,040 --> 00:01:01,960
+this is, you know, great for you and
+
+27
+00:01:01,960 --> 00:01:03,600
+diving into a topic and speaking to
+
+28
+00:01:03,600 --> 00:01:05,199
+somebody who I think is,
+
+29
+00:01:05,199 --> 00:01:07,040
+you know, has played a key role in this
+
+30
+00:01:07,040 --> 00:01:10,520
+industry and this community. Um but, uh
+
+31
+00:01:10,520 --> 00:01:12,680
+just just a caveat that if you are maybe
+
+32
+00:01:12,680 --> 00:01:15,040
+outside of CFD and you've been watching
+
+33
+00:01:15,040 --> 00:01:16,720
+or listening to some of the episodes on
+
+34
+00:01:16,720 --> 00:01:18,520
+Formula 1 or cycling,
+
+35
+00:01:18,520 --> 00:01:21,240
+uh just be prepared this does get quite
+
+36
+00:01:21,240 --> 00:01:23,240
+deep. So, I just put that as a warning
+
+37
+00:01:23,240 --> 00:01:25,600
+out there. Um
+
+38
+00:01:25,600 --> 00:01:27,960
+a quick thing as well I should say if
+
+39
+00:01:27,960 --> 00:01:30,080
+you're listening to this podcast, there
+
+40
+00:01:30,080 --> 00:01:32,760
+is also a YouTube version where we have
+
+41
+00:01:32,760 --> 00:01:34,160
+the full video.
+
+42
+00:01:34,160 --> 00:01:36,200
+Just type Neil Ashton podcast. Uh but,
+
+43
+00:01:36,200 --> 00:01:37,560
+equally if you're watching this on
+
+44
+00:01:37,560 --> 00:01:39,240
+YouTube right now, and actually
+
+45
+00:01:39,240 --> 00:01:41,320
+sometimes you prefer just to listen to a
+
+46
+00:01:41,320 --> 00:01:44,320
+podcast, it's also available on uh
+
+47
+00:01:44,320 --> 00:01:46,800
+Spotify and Apple. And uh
+
+48
+00:01:46,800 --> 00:01:48,160
+thanks to those who have already
+
+49
+00:01:48,160 --> 00:01:49,760
+listening. I I can't believe there's
+
+50
+00:01:49,760 --> 00:01:52,520
+over now 15,000 subscribers on YouTube,
+
+51
+00:01:52,520 --> 00:01:53,600
+which
+
+52
+00:01:53,600 --> 00:01:55,680
+yeah, I thought it'd be, you know, five
+
+53
+00:01:55,680 --> 00:01:57,560
+people and a few of their mates. So, I'm
+
+54
+00:01:57,560 --> 00:01:58,680
+pleased that at least some people are
+
+55
+00:01:58,680 --> 00:02:00,520
+finding this interesting, but yeah, so
+
+56
+00:02:00,520 --> 00:02:02,680
+if you do like this, I hate saying this
+
+57
+00:02:02,680 --> 00:02:05,280
+thing, but I'm told I should say it, the
+
+58
+00:02:05,280 --> 00:02:07,160
+whole like and subscribe, just because
+
+59
+00:02:07,160 --> 00:02:09,399
+then if a new episode comes out, you
+
+60
+00:02:09,399 --> 00:02:11,160
+you know about it.
+
+61
+00:02:11,160 --> 00:02:12,160
+So,
+
+62
+00:02:12,160 --> 00:02:15,120
+today's thing is, like I said, about
+
+63
+00:02:15,120 --> 00:02:18,840
+Chris Rumsey from from NASA. Um
+
+64
+00:02:18,840 --> 00:02:21,600
+I have to say that
+
+65
+00:02:21,600 --> 00:02:24,760
+I have a personal
+
+66
+00:02:24,760 --> 00:02:26,760
+I I just I really like Chris as an
+
+67
+00:02:26,760 --> 00:02:28,959
+individual, and I hope many other people
+
+68
+00:02:28,959 --> 00:02:30,560
+who know him will agree with me, and and
+
+69
+00:02:30,560 --> 00:02:31,959
+after watching this, you'll also agree
+
+70
+00:02:31,959 --> 00:02:33,840
+if you didn't know him before, because
+
+71
+00:02:33,840 --> 00:02:37,360
+he's just such a nice guy. He's just
+
+72
+00:02:37,360 --> 00:02:39,040
+such a pleasure
+
+73
+00:02:39,040 --> 00:02:41,440
+to talk to. He has
+
+74
+00:02:41,440 --> 00:02:44,800
+no ego, he's very modest, he he
+
+75
+00:02:44,800 --> 00:02:47,760
+but he has so much awareness, and and we
+
+76
+00:02:47,760 --> 00:02:49,400
+discussed many of the things that he's
+
+77
+00:02:49,400 --> 00:02:51,840
+he's done.
+
+78
+00:02:51,840 --> 00:02:55,640
+He's created and shared so much like his
+
+79
+00:02:55,640 --> 00:02:57,520
+his role of sort of public
+
+80
+00:02:57,520 --> 00:02:59,320
+dissemination, the papers he's written,
+
+81
+00:02:59,320 --> 00:03:00,680
+the websites he looked after, the
+
+82
+00:03:00,680 --> 00:03:02,680
+workshop he's done, so many of these
+
+83
+00:03:02,680 --> 00:03:05,040
+things that I genuinely think have had a
+
+84
+00:03:05,040 --> 00:03:07,760
+huge impact on every person out there
+
+85
+00:03:07,760 --> 00:03:11,160
+who develops a method, a code. And this
+
+86
+00:03:11,160 --> 00:03:14,280
+is particularly true in the aeronautical
+
+87
+00:03:14,280 --> 00:03:16,280
+sphere and things like drag prediction
+
+88
+00:03:16,280 --> 00:03:18,080
+or high-lift prediction
+
+89
+00:03:18,080 --> 00:03:20,680
+of aircraft, Chris has really played a
+
+90
+00:03:20,680 --> 00:03:22,600
+huge role.
+
+91
+00:03:22,600 --> 00:03:24,360
+But what the one of the some of the
+
+92
+00:03:24,360 --> 00:03:25,959
+things that I found interesting and that
+
+93
+00:03:25,959 --> 00:03:28,480
+we get into is um
+
+94
+00:03:28,480 --> 00:03:30,320
+I didn't know Chris was an artist. So,
+
+95
+00:03:30,320 --> 00:03:31,800
+we talk a little bit about some of his
+
+96
+00:03:31,800 --> 00:03:35,280
+early passions for that, how that he he
+
+97
+00:03:35,280 --> 00:03:38,200
+actually interviewed for the CIA. Again,
+
+98
+00:03:38,200 --> 00:03:41,800
+I had no clue about that. But I guess
+
+99
+00:03:41,800 --> 00:03:44,400
+the conversation is split into two.
+
+100
+00:03:44,400 --> 00:03:47,040
+The first half is a little bit about his
+
+101
+00:03:47,040 --> 00:03:49,840
+career, how he got into CFD,
+
+102
+00:03:49,840 --> 00:03:53,160
+some of the early days at Langley.
+
+103
+00:03:53,160 --> 00:03:55,440
+Talking a little bit about the
+
+104
+00:03:55,440 --> 00:03:57,480
+turbulence modelling website that he was
+
+105
+00:03:57,480 --> 00:03:59,040
+one of the the founders for. And if you
+
+106
+00:03:59,040 --> 00:04:01,440
+look in the um the caption notes or the
+
+107
+00:04:01,440 --> 00:04:02,960
+the show notes, there's a link to that
+
+108
+00:04:02,960 --> 00:04:04,000
+website if you're not aware. It
+
+109
+00:04:04,000 --> 00:04:05,800
+basically lists almost every single
+
+110
+00:04:05,800 --> 00:04:07,400
+turbulence model
+
+111
+00:04:07,400 --> 00:04:09,800
+that CFD has so that you can implement
+
+112
+00:04:09,800 --> 00:04:11,160
+it and you can verify that you've
+
+113
+00:04:11,160 --> 00:04:12,640
+implemented it correctly and then you
+
+114
+00:04:12,640 --> 00:04:15,080
+can validate it against some test cases.
+
+115
+00:04:15,080 --> 00:04:16,200
+This is
+
+116
+00:04:16,200 --> 00:04:18,320
+widely used as he said as you know more
+
+117
+00:04:18,320 --> 00:04:20,239
+than 40,000 visitors a month because it
+
+118
+00:04:20,239 --> 00:04:23,560
+is one of the central places um for for
+
+119
+00:04:23,560 --> 00:04:24,960
+these models. And that's not just
+
+120
+00:04:24,960 --> 00:04:26,880
+low-speed aerodynamics. Almost anybody
+
+121
+00:04:26,880 --> 00:04:29,520
+who's doing any turbulence modelling um
+
+122
+00:04:29,520 --> 00:04:31,360
+quite often goes to this website to find
+
+123
+00:04:31,360 --> 00:04:34,240
+the formulation and the papers.
+
+124
+00:04:34,240 --> 00:04:36,440
+Um and if you're writing a new code, uh
+
+125
+00:04:36,440 --> 00:04:38,120
+I mean hundreds or thousands of papers
+
+126
+00:04:38,120 --> 00:04:40,800
+reference this site to verify that
+
+127
+00:04:40,800 --> 00:04:42,800
+they've implemented the model correctly.
+
+128
+00:04:42,800 --> 00:04:44,200
+So we talk about some of the origins of
+
+129
+00:04:44,200 --> 00:04:46,800
+that. Um we talk about the high-lift
+
+130
+00:04:46,800 --> 00:04:49,000
+prediction workshop which um is a
+
+131
+00:04:49,000 --> 00:04:50,440
+workshop that's trying to advance the
+
+132
+00:04:50,440 --> 00:04:52,120
+state of the art for high-lift
+
+133
+00:04:52,120 --> 00:04:54,440
+aerodynamics. Uh again, I'll put a link
+
+134
+00:04:54,440 --> 00:04:57,000
+in the in the chat. Um and we talk about
+
+135
+00:04:57,000 --> 00:04:59,040
+how how some of those came about, some
+
+136
+00:04:59,040 --> 00:05:01,080
+of his thoughts on the role of machine
+
+137
+00:05:01,080 --> 00:05:02,960
+learning for CFD and for turbulence
+
+138
+00:05:02,960 --> 00:05:04,400
+modelling. Again, something that he's
+
+139
+00:05:04,400 --> 00:05:07,200
+been part of uh arranging with other
+
+140
+00:05:07,200 --> 00:05:09,360
+symposiums and and workshops to try and
+
+141
+00:05:09,360 --> 00:05:13,000
+explore this place. Um we also um get
+
+142
+00:05:13,000 --> 00:05:14,960
+into some discussion of certification by
+
+143
+00:05:14,960 --> 00:05:17,360
+analysis uh and some of the challenges
+
+144
+00:05:17,360 --> 00:05:19,600
+of machine learning applied to that, uh
+
+145
+00:05:19,600 --> 00:05:22,400
+how reproducibility, etc.
+
+146
+00:05:22,400 --> 00:05:25,120
+Um and then we shift a little bit
+
+147
+00:05:25,120 --> 00:05:27,160
+because one of the things I
+
+148
+00:05:27,160 --> 00:05:30,160
+wanted people listening to this to get a
+
+149
+00:05:30,160 --> 00:05:32,280
+feel of is
+
+150
+00:05:32,280 --> 00:05:33,919
+uh what is it what is it like to work at
+
+151
+00:05:33,919 --> 00:05:36,880
+NASA? What was that journey like? Um
+
+152
+00:05:36,880 --> 00:05:38,320
+I'm always jealous of people who work
+
+153
+00:05:38,320 --> 00:05:40,040
+for NASA. It was a dream of mine to to
+
+154
+00:05:40,040 --> 00:05:41,400
+work for NASA. And even though I did
+
+155
+00:05:41,400 --> 00:05:42,880
+spend a little bit of time there, I was
+
+156
+00:05:42,880 --> 00:05:45,240
+you know, never a civil servant like
+
+157
+00:05:45,240 --> 00:05:47,000
+like Chris is. So we dive a little bit
+
+158
+00:05:47,000 --> 00:05:49,480
+into how he got in, how other people,
+
+159
+00:05:49,480 --> 00:05:51,640
+the differences in the roles,
+
+160
+00:05:51,640 --> 00:05:53,480
+and then maybe a few more light-hearted
+
+161
+00:05:53,480 --> 00:05:55,240
+things around
+
+162
+00:05:55,240 --> 00:05:57,200
+some of the conferences that he the most
+
+163
+00:05:57,200 --> 00:06:00,440
+memorable times he's had at conferences
+
+164
+00:06:00,440 --> 00:06:01,960
+and events that he's done. And then a
+
+165
+00:06:01,960 --> 00:06:03,480
+little bit of discussion at the end
+
+166
+00:06:03,480 --> 00:06:05,320
+around
+
+167
+00:06:05,320 --> 00:06:07,480
+whether it's best to pursue your hobby
+
+168
+00:06:07,480 --> 00:06:10,200
+as a job or do your job and have a hobby
+
+169
+00:06:10,200 --> 00:06:12,760
+afterwards. So, hopefully an interesting
+
+170
+00:06:12,760 --> 00:06:16,600
+explanation or exploration of someone
+
+171
+00:06:16,600 --> 00:06:18,600
+who I think has made it a really key
+
+172
+00:06:18,600 --> 00:06:21,800
+role for CFD. And and just someone, like
+
+173
+00:06:21,800 --> 00:06:23,720
+I said, it's just such a a lovely and
+
+174
+00:06:23,720 --> 00:06:26,680
+nice individual that I hope um
+
+175
+00:06:26,680 --> 00:06:28,280
+if you haven't met him, that you have
+
+176
+00:06:28,280 --> 00:06:30,080
+the opportunity to meet him because he's
+
+177
+00:06:30,080 --> 00:06:32,560
+just a pleasure to speak to. So, yeah,
+
+178
+00:06:32,560 --> 00:06:35,240
+please sit back and enjoy this episode
+
+179
+00:06:35,240 --> 00:06:36,919
+with Chris Rumsey.
+
+180
+00:06:36,919 --> 00:06:39,720
+I I think most people have a dream.
+
+181
+00:06:39,720 --> 00:06:41,480
+At least I did.
+
+182
+00:06:41,480 --> 00:06:44,960
+Of working for NASA. It's sort of like
+
+183
+00:06:44,960 --> 00:06:46,120
+when you're growing up, there's this
+
+184
+00:06:46,120 --> 00:06:47,600
+certainly doesn't almost matter what
+
+185
+00:06:47,600 --> 00:06:49,480
+country you grow up in. You know, you
+
+186
+00:06:49,480 --> 00:06:51,800
+you think about NASA. You actually do
+
+187
+00:06:51,800 --> 00:06:53,320
+work for NASA.
+
+188
+00:06:53,320 --> 00:06:55,560
+So, did you always actually want to work
+
+189
+00:06:55,560 --> 00:06:57,040
+for NASA? Was that sort of a childhood
+
+190
+00:06:57,040 --> 00:06:59,320
+dream?
+
+191
+00:06:59,320 --> 00:07:03,280
+No, not not really.
+
+192
+00:07:03,280 --> 00:07:04,600
+When I was in
+
+193
+00:07:04,600 --> 00:07:05,919
+in college at
+
+194
+00:07:05,919 --> 00:07:09,880
+Rensselaer Polytechnic Institute, RPI,
+
+195
+00:07:09,880 --> 00:07:13,520
+they just had interviews and I actually
+
+196
+00:07:13,520 --> 00:07:16,560
+interviewed for the CIA. And then I
+
+197
+00:07:16,560 --> 00:07:17,600
+interviewed
+
+198
+00:07:17,600 --> 00:07:19,320
+interviewed for NASA.
+
+199
+00:07:19,320 --> 00:07:21,680
+And it just it just struck me at the
+
+200
+00:07:21,680 --> 00:07:23,919
+time that it would be
+
+201
+00:07:23,919 --> 00:07:25,520
+a good place to work and it sounded cool
+
+202
+00:07:25,520 --> 00:07:26,960
+then, but I hadn't thought of it before
+
+203
+00:07:26,960 --> 00:07:28,919
+before that time. Just that they had an
+
+204
+00:07:28,919 --> 00:07:30,280
+opening and
+
+205
+00:07:30,280 --> 00:07:32,760
+and it sounded really interesting.
+
+206
+00:07:32,760 --> 00:07:35,760
+Okay, I need to back up there cuz
+
+207
+00:07:35,760 --> 00:07:37,840
+I wasn't expecting that answer.
+
+208
+00:07:37,840 --> 00:07:40,240
+Is that because of where you
+
+209
+00:07:40,240 --> 00:07:43,400
+were living? I mean, was this
+
+210
+00:07:43,400 --> 00:07:44,680
+When you said the CIA or NASA, they're
+
+211
+00:07:44,680 --> 00:07:46,040
+quite different things. Were these
+
+212
+00:07:46,040 --> 00:07:49,000
+graduate programs essentially or
+
+213
+00:07:49,000 --> 00:07:50,800
+No, it was just at the time they just
+
+214
+00:07:50,800 --> 00:07:51,720
+had
+
+215
+00:07:51,720 --> 00:07:55,120
+the school had job fairs and
+
+216
+00:07:55,120 --> 00:07:56,840
+it was just random companies would come
+
+217
+00:07:56,840 --> 00:07:59,200
+in, you know, all from all over and and
+
+218
+00:07:59,200 --> 00:08:00,440
+you just signed up for the ones that you
+
+219
+00:08:00,440 --> 00:08:02,560
+were potentially interested in and just
+
+220
+00:08:02,560 --> 00:08:04,120
+had
+
+221
+00:08:04,120 --> 00:08:05,760
+It was almost like practice interviews
+
+222
+00:08:05,760 --> 00:08:07,840
+where you could could talk and not you
+
+223
+00:08:07,840 --> 00:08:09,360
+know, not worry so much about it because
+
+224
+00:08:09,360 --> 00:08:10,480
+you were just kind of trying to get a
+
+225
+00:08:10,480 --> 00:08:12,680
+feel for what was out there and
+
+226
+00:08:12,680 --> 00:08:15,280
+and I just remember those two.
+
+227
+00:08:15,280 --> 00:08:16,760
+Did you ever think what would happen if
+
+228
+00:08:16,760 --> 00:08:18,080
+you'd gone down the other route, I
+
+229
+00:08:18,080 --> 00:08:18,600
+guess?
+
+230
+00:08:18,600 --> 00:08:21,120
+I'd be a spy, I think. Well, we wouldn't
+
+231
+00:08:21,120 --> 00:08:22,560
+be having this conversation, that's for
+
+232
+00:08:22,560 --> 00:08:24,840
+sure. That's right, yeah.
+
+233
+00:08:24,840 --> 00:08:27,840
+Um but hold on, so you What did you
+
+234
+00:08:27,840 --> 00:08:30,720
+study then in university? What? I went
+
+235
+00:08:30,720 --> 00:08:33,039
+into aeronautical engineering. So I
+
+236
+00:08:33,039 --> 00:08:35,880
+started I I went directly from
+
+237
+00:08:35,880 --> 00:08:37,680
+directly into the aero aeronautical
+
+238
+00:08:37,680 --> 00:08:39,719
+engineering program.
+
+239
+00:08:39,719 --> 00:08:42,599
+And so I was always interested in in
+
+240
+00:08:42,599 --> 00:08:44,800
+aeronautics and aeronautical engineering
+
+241
+00:08:44,800 --> 00:08:46,080
+and
+
+242
+00:08:46,080 --> 00:08:47,880
+mathematics, that type of thing. But the
+
+243
+00:08:47,880 --> 00:08:49,160
+the aero
+
+244
+00:08:49,160 --> 00:08:53,320
+appealed to me I guess because of uh
+
+245
+00:08:53,320 --> 00:08:56,080
+airplanes and space, I've always
+
+246
+00:08:56,080 --> 00:08:57,640
+just found them fascinating that they
+
+247
+00:08:57,640 --> 00:08:59,160
+even work. So, you know, when I was a
+
+248
+00:08:59,160 --> 00:09:01,000
+kid it was like, "Wow, look at look at
+
+249
+00:09:01,000 --> 00:09:03,120
+that thing. How's that even working?"
+
+250
+00:09:03,120 --> 00:09:05,480
+So, just always always fascinated me and
+
+251
+00:09:05,480 --> 00:09:06,920
+and interested me. So, just wanted to
+
+252
+00:09:06,920 --> 00:09:08,640
+get into that field.
+
+253
+00:09:08,640 --> 00:09:10,480
+And did you Were you the sort of child
+
+254
+00:09:10,480 --> 00:09:13,040
+who was very
+
+255
+00:09:13,040 --> 00:09:15,240
+like obsessed with planes and fighter
+
+256
+00:09:15,240 --> 00:09:17,800
+jets and all that or were you more just
+
+257
+00:09:17,800 --> 00:09:20,040
+yeah? Yeah, not not really. Actually, I
+
+258
+00:09:20,040 --> 00:09:22,000
+was more into um
+
+259
+00:09:22,000 --> 00:09:25,640
+art and artistic things. I was In fact,
+
+260
+00:09:25,640 --> 00:09:26,240
+I
+
+261
+00:09:26,240 --> 00:09:28,280
+almost went that direction instead of
+
+262
+00:09:28,280 --> 00:09:29,800
+engineering
+
+263
+00:09:29,800 --> 00:09:31,240
+because I was
+
+264
+00:09:31,240 --> 00:09:33,720
+good at art, good at drawing and
+
+265
+00:09:33,720 --> 00:09:35,560
+painting and things like that.
+
+266
+00:09:35,560 --> 00:09:38,400
+But um, teachers convinced me that it
+
+267
+00:09:38,400 --> 00:09:39,720
+would be better to go into something
+
+268
+00:09:39,720 --> 00:09:41,160
+more lucrative
+
+269
+00:09:41,160 --> 00:09:42,360
+and
+
+270
+00:09:42,360 --> 00:09:44,200
+that where you have a definite type of
+
+271
+00:09:44,200 --> 00:09:45,680
+income and then
+
+272
+00:09:45,680 --> 00:09:48,600
+keep the art for a hobby or something to
+
+273
+00:09:48,600 --> 00:09:50,040
+do on the side
+
+274
+00:09:50,040 --> 00:09:52,360
+uh or or to do when you retire type of
+
+275
+00:09:52,360 --> 00:09:54,680
+thing. But, that's also partly why I was
+
+276
+00:09:54,680 --> 00:09:56,640
+interested in in aeronautics because of
+
+277
+00:09:56,640 --> 00:09:58,520
+the sleekness of the airplanes and how
+
+278
+00:09:58,520 --> 00:10:00,880
+they were shaped and
+
+279
+00:10:00,880 --> 00:10:02,800
+the design aspect of it was was
+
+280
+00:10:02,800 --> 00:10:04,200
+fascinating.
+
+281
+00:10:04,200 --> 00:10:06,800
+interesting. So, Oh, so I see behind
+
+282
+00:10:06,800 --> 00:10:08,640
+you. Are these some of your works that
+
+283
+00:10:08,640 --> 00:10:11,320
+you Oh, yeah. have that that one
+
+284
+00:10:11,320 --> 00:10:12,080
+uh
+
+285
+00:10:12,080 --> 00:10:13,560
+uh went to yeah, those are mine. Yeah.
+
+286
+00:10:13,560 --> 00:10:14,760
+Mhm.
+
+287
+00:10:14,760 --> 00:10:17,080
+But, see, you said before we started,
+
+288
+00:10:17,080 --> 00:10:18,360
+"Oh, I've got nothing interesting." I'm
+
+289
+00:10:18,360 --> 00:10:21,400
+already this is something I did not
+
+290
+00:10:21,400 --> 00:10:22,680
+know at all. Okay, that's interesting.
+
+291
+00:10:22,680 --> 00:10:25,040
+So, you were always Did Were you tempted
+
+292
+00:10:25,040 --> 00:10:26,720
+to go into architecture then at all that
+
+293
+00:10:26,720 --> 00:10:29,040
+side or was it more the drawing like uh
+
+294
+00:10:29,040 --> 00:10:32,040
+proper art like Yeah, maybe a little bit
+
+295
+00:10:32,040 --> 00:10:32,640
+um
+
+296
+00:10:32,640 --> 00:10:34,280
+the architecture I
+
+297
+00:10:34,280 --> 00:10:35,920
+um
+
+298
+00:10:35,920 --> 00:10:37,640
+Yeah, it doesn't move though. So, maybe
+
+299
+00:10:37,640 --> 00:10:39,400
+it wasn't quite as interesting me to be
+
+300
+00:10:39,400 --> 00:10:41,320
+from that perspective. A- And actually,
+
+301
+00:10:41,320 --> 00:10:42,960
+when when I was when I was at RPI, they
+
+302
+00:10:42,960 --> 00:10:44,920
+had an architecture program and some of
+
+303
+00:10:44,920 --> 00:10:48,240
+my roommate one of my roommates was a in
+
+304
+00:10:48,240 --> 00:10:50,600
+that. And it sa- he was just miserable.
+
+305
+00:10:50,600 --> 00:10:52,440
+It was awful because
+
+306
+00:10:52,440 --> 00:10:54,280
+the mathematics part of it, you know,
+
+307
+00:10:54,280 --> 00:10:55,400
+was always very definite. You're either
+
+308
+00:10:55,400 --> 00:10:57,120
+right or you're wrong. But, the art part
+
+309
+00:10:57,120 --> 00:10:59,320
+of it is very subjective. And if you
+
+310
+00:10:59,320 --> 00:11:01,680
+happen to have a teacher who is just
+
+311
+00:11:01,680 --> 00:11:03,240
+doesn't like you for some reason, he can
+
+312
+00:11:03,240 --> 00:11:05,200
+just say, "I don't like that because
+
+313
+00:11:05,200 --> 00:11:06,839
+it's not good." And it And it's very
+
+314
+00:11:06,839 --> 00:11:09,360
+subjective. So, he he was driven crazy
+
+315
+00:11:09,360 --> 00:11:10,520
+by that.
+
+316
+00:11:10,520 --> 00:11:12,200
+So, you did
+
+317
+00:11:12,200 --> 00:11:15,440
+your um undergraduate, but then you went
+
+318
+00:11:15,440 --> 00:11:18,040
+on to do a PhD. Is that correct? W-
+
+319
+00:11:18,040 --> 00:11:20,720
+Yeah, at RPI, I stayed at RPI for the
+
+320
+00:11:20,720 --> 00:11:23,520
+undergraduate and a master's. Did those
+
+321
+00:11:23,520 --> 00:11:25,440
+kind of together. Okay.
+
+322
+00:11:25,440 --> 00:11:27,000
+Yeah. So, it went fairly quickly and
+
+323
+00:11:27,000 --> 00:11:30,000
+then came to uh NASA.
+
+324
+00:11:30,000 --> 00:11:32,480
+And then I got my PhD through NASA. NASA
+
+325
+00:11:32,480 --> 00:11:34,440
+has a has a nice program. Well, they
+
+326
+00:11:34,440 --> 00:11:35,760
+they will
+
+327
+00:11:35,760 --> 00:11:38,080
+pay for you to get your degree,
+
+328
+00:11:38,080 --> 00:11:39,880
+you know, because it benefits them to
+
+329
+00:11:39,880 --> 00:11:41,360
+have someone who's
+
+330
+00:11:41,360 --> 00:11:42,960
+smarter working for them.
+
+331
+00:11:42,960 --> 00:11:45,480
+Okay. So, what did you do your PhD in
+
+332
+00:11:45,480 --> 00:11:48,160
+then? What was the um It It was in uh
+
+333
+00:11:48,160 --> 00:11:49,920
+aeronautical or aerospace engineering.
+
+334
+00:11:49,920 --> 00:11:52,000
+It It was at the University of Michigan,
+
+335
+00:11:52,000 --> 00:11:54,440
+and it was numerical methods
+
+336
+00:11:54,440 --> 00:11:56,520
+uh under Bram van Leer.
+
+337
+00:11:56,520 --> 00:11:58,800
+And that was uh he was my advisor.
+
+338
+00:11:58,800 --> 00:12:00,680
+Okay. And that connection came about
+
+339
+00:12:00,680 --> 00:12:02,720
+because of NASA, because
+
+340
+00:12:02,720 --> 00:12:05,600
+at NASA we had the ICASE program. I
+
+341
+00:12:05,600 --> 00:12:07,680
+don't know if you've heard of that.
+
+342
+00:12:07,680 --> 00:12:09,960
+But it's it's a it's a it was a a really
+
+343
+00:12:09,960 --> 00:12:12,760
+nice institute, kind of like the uh
+
+344
+00:12:12,760 --> 00:12:14,320
+there are other institutes like this
+
+345
+00:12:14,320 --> 00:12:16,440
+elsewhere. Um
+
+346
+00:12:16,440 --> 00:12:18,960
+ICASE, what does it stand for? I don't
+
+347
+00:12:18,960 --> 00:12:21,320
+remember what it even stands for. It's
+
+348
+00:12:21,320 --> 00:12:22,800
+not around anymore.
+
+349
+00:12:22,800 --> 00:12:24,800
+But it was a a small institute that was
+
+350
+00:12:24,800 --> 00:12:27,120
+independently run within NASA, and it
+
+351
+00:12:27,120 --> 00:12:29,320
+was actually housed in the building
+
+352
+00:12:29,320 --> 00:12:31,880
+where my branch was located.
+
+353
+00:12:31,880 --> 00:12:33,480
+And it would bring in mostly in the
+
+354
+00:12:33,480 --> 00:12:36,040
+summers bring in all these professors
+
+355
+00:12:36,040 --> 00:12:37,920
+from all over the world, Bram van Leer,
+
+356
+00:12:37,920 --> 00:12:40,680
+Phil Roe, I mean, all these all these
+
+357
+00:12:40,680 --> 00:12:43,800
+really uh great CFD guys. Mhm. And
+
+358
+00:12:43,800 --> 00:12:46,360
+turbulence folks as well. Uh to to come
+
+359
+00:12:46,360 --> 00:12:48,080
+and work um
+
+360
+00:12:48,080 --> 00:12:50,480
+uh for the summer or or other times. And
+
+361
+00:12:50,480 --> 00:12:51,400
+they would also bring in young
+
+362
+00:12:51,400 --> 00:12:53,560
+undergraduates and uh
+
+363
+00:12:53,560 --> 00:12:55,040
+build up
+
+364
+00:12:55,040 --> 00:12:57,080
+the science that that way.
+
+365
+00:12:57,080 --> 00:12:58,680
+And so, being housed with them, you
+
+366
+00:12:58,680 --> 00:12:59,960
+know, we got to know all these folks.
+
+367
+00:12:59,960 --> 00:13:02,360
+And it was really a a great
+
+368
+00:13:02,360 --> 00:13:03,960
+relationship. And because of that is
+
+369
+00:13:03,960 --> 00:13:05,280
+what why
+
+370
+00:13:05,280 --> 00:13:08,360
+then work for Bram for the PhD.
+
+371
+00:13:08,360 --> 00:13:11,280
+Ah, okay. But did you Did you always
+
+372
+00:13:11,280 --> 00:13:13,520
+want to go into the more
+
+373
+00:13:13,520 --> 00:13:15,760
+uh CFD side rather than wind tunnel
+
+374
+00:13:15,760 --> 00:13:17,600
+testing? Was Was there a reason for
+
+375
+00:13:17,600 --> 00:13:19,760
+going in, or was it just that was the
+
+376
+00:13:19,760 --> 00:13:22,720
+choice of PhD that was available?
+
+377
+00:13:22,720 --> 00:13:25,240
+Well, the branch that I joined was a it
+
+378
+00:13:25,240 --> 00:13:27,800
+was a This was the time when CFD was
+
+379
+00:13:27,800 --> 00:13:29,720
+kind of getting
+
+380
+00:13:29,720 --> 00:13:31,720
+started. So, it was a new branch that
+
+381
+00:13:31,720 --> 00:13:34,160
+had just uh gotten underway maybe a year
+
+382
+00:13:34,160 --> 00:13:35,640
+or two previous.
+
+383
+00:13:35,640 --> 00:13:36,720
+And I was
+
+384
+00:13:36,720 --> 00:13:39,200
+hired into that branch uh
+
+385
+00:13:39,200 --> 00:13:41,240
+despite knowing very little about
+
+386
+00:13:41,240 --> 00:13:43,360
+numerical methods at the you know, from
+
+387
+00:13:43,360 --> 00:13:44,520
+my uh
+
+388
+00:13:44,520 --> 00:13:45,880
+from my
+
+389
+00:13:45,880 --> 00:13:46,560
+uh
+
+390
+00:13:46,560 --> 00:13:48,680
+undergraduate and and master's work. I
+
+391
+00:13:48,680 --> 00:13:51,160
+didn't do that much with with com- with
+
+392
+00:13:51,160 --> 00:13:53,560
+computer science. But, the branch was
+
+393
+00:13:53,560 --> 00:13:54,840
+all numerical methods. In fact, when I
+
+394
+00:13:54,840 --> 00:13:56,680
+first got there, one of the first things
+
+395
+00:13:56,680 --> 00:13:59,120
+they do is they sit you down
+
+396
+00:13:59,120 --> 00:14:01,240
+and and they Each person in the branch
+
+397
+00:14:01,240 --> 00:14:02,440
+who was already there would talk to you
+
+398
+00:14:02,440 --> 00:14:03,840
+about what they did. And I just remember
+
+399
+00:14:03,840 --> 00:14:05,240
+sitting there going,
+
+400
+00:14:05,240 --> 00:14:06,680
+"What the heck? I didn't even know I
+
+401
+00:14:06,680 --> 00:14:08,520
+didn't know what a vortex was." I mean,
+
+402
+00:14:08,520 --> 00:14:10,000
+they they were just talking like
+
+403
+00:14:10,000 --> 00:14:12,400
+gibberish. So, I was
+
+404
+00:14:12,400 --> 00:14:14,240
+brought in and really trained on the job
+
+405
+00:14:14,240 --> 00:14:17,320
+to to do the the numerical methods.
+
+406
+00:14:17,320 --> 00:14:20,200
+Wow. So, what was the state that's This
+
+407
+00:14:20,200 --> 00:14:22,160
+is NASA Langley. It was NASA Langley,
+
+408
+00:14:22,160 --> 00:14:22,920
+yeah.
+
+409
+00:14:22,920 --> 00:14:24,720
+I And so, what was the
+
+410
+00:14:24,720 --> 00:14:25,880
+um
+
+411
+00:14:25,880 --> 00:14:27,400
+What was it like at that stage? Was
+
+412
+00:14:27,400 --> 00:14:29,240
+there any major projects going on at
+
+413
+00:14:29,240 --> 00:14:32,280
+that time? I mean, the space shuttle Am
+
+414
+00:14:32,280 --> 00:14:33,720
+I getting the dates wrong now? When
+
+415
+00:14:33,720 --> 00:14:36,320
+would that have been? I'm sure that that
+
+416
+00:14:36,320 --> 00:14:38,600
+was going on, but we weren't at least to
+
+417
+00:14:38,600 --> 00:14:39,839
+my knowledge that involved in that. It
+
+418
+00:14:39,839 --> 00:14:42,360
+was more uh fundamental development of
+
+419
+00:14:42,360 --> 00:14:47,800
+the of CFD codes for doing um
+
+420
+00:14:47,800 --> 00:14:49,560
+analyzing wings, you know, starting out
+
+421
+00:14:49,560 --> 00:14:52,640
+with the Euler and then moving fairly
+
+422
+00:14:52,640 --> 00:14:54,240
+quickly after I got there into the
+
+423
+00:14:54,240 --> 00:14:57,720
+Navier–Stokes and and started up these
+
+424
+00:14:57,720 --> 00:14:58,920
+codes. I don't know if you remember any
+
+425
+00:14:58,920 --> 00:14:59,839
+of the names of the codes, you know,
+
+426
+00:14:59,839 --> 00:15:03,120
+CFL3D and TLNS3D. They were very old
+
+427
+00:15:03,120 --> 00:15:04,560
+codes that were
+
+428
+00:15:04,560 --> 00:15:06,960
+uh and and worked with uh you know, Tony
+
+429
+00:15:06,960 --> 00:15:09,960
+Jameson was someone involved too, or he
+
+430
+00:15:09,960 --> 00:15:13,360
+was in in the same cadre of
+
+431
+00:15:13,360 --> 00:15:15,080
+of folks that that
+
+432
+00:15:15,080 --> 00:15:17,400
+that came to ICASE. And so, everyone was
+
+433
+00:15:17,400 --> 00:15:20,320
+working on the same um
+
+434
+00:15:20,320 --> 00:15:22,120
+uh in the same area trying to build up
+
+435
+00:15:22,120 --> 00:15:24,840
+the the CFD methods. When did you start
+
+436
+00:15:24,840 --> 00:15:27,000
+to transition more into turbulence
+
+437
+00:15:27,000 --> 00:15:29,440
+modelling compared to pure numerical
+
+438
+00:15:29,440 --> 00:15:31,080
+methods? Was there a sort of turning
+
+439
+00:15:31,080 --> 00:15:32,640
+point when that happened or particular
+
+440
+00:15:32,640 --> 00:15:34,840
+project? Yeah, it was kind of a gradual
+
+441
+00:15:34,840 --> 00:15:38,600
+shift toward that. Uh, part of it was
+
+442
+00:15:38,600 --> 00:15:40,400
+that we had, um,
+
+443
+00:15:40,400 --> 00:15:41,560
+some
+
+444
+00:15:41,560 --> 00:15:43,360
+to turbulence, you know, the turbulence
+
+445
+00:15:43,360 --> 00:15:46,040
+work was going on at ICASE and then, uh,
+
+446
+00:15:46,040 --> 00:15:47,800
+we had some folks in the branch who who
+
+447
+00:15:47,800 --> 00:15:50,040
+were more turbulence modelers and I just
+
+448
+00:15:50,040 --> 00:15:52,040
+started to work with them
+
+449
+00:15:52,040 --> 00:15:53,000
+uh,
+
+450
+00:15:53,000 --> 00:15:54,400
+a little over time and and of course our
+
+451
+00:15:54,400 --> 00:15:56,840
+codes, starting out with just
+
+452
+00:15:56,840 --> 00:15:57,960
+laminar Navier–Stokes, but then we
+
+453
+00:15:57,960 --> 00:15:59,520
+needed turbulence models, so we put in
+
+454
+00:15:59,520 --> 00:16:01,800
+this the Cebeci-Smith and the
+
+455
+00:16:01,800 --> 00:16:03,920
+Baldwin-Lomax. And then, of course, in
+
+456
+00:16:03,920 --> 00:16:05,480
+the early '90s,
+
+457
+00:16:05,480 --> 00:16:08,240
+uh, Philippe Spalart and, uh, Florian
+
+458
+00:16:08,240 --> 00:16:09,800
+Menter, who who you've interviewed
+
+459
+00:16:09,800 --> 00:16:11,960
+already here, their models came out and
+
+460
+00:16:11,960 --> 00:16:13,680
+and we worked with them to put them in
+
+461
+00:16:13,680 --> 00:16:15,720
+our codes as well. And then that it just
+
+462
+00:16:15,720 --> 00:16:17,640
+kind of built from there.
+
+463
+00:16:17,640 --> 00:16:19,720
+Yeah, what was I was trying to when I
+
+464
+00:16:19,720 --> 00:16:21,560
+was asking Florian about that, what was
+
+465
+00:16:21,560 --> 00:16:24,480
+it like that time? Because looking back,
+
+466
+00:16:24,480 --> 00:16:26,560
+it seems like that must have been this
+
+467
+00:16:26,560 --> 00:16:28,240
+really,
+
+468
+00:16:28,240 --> 00:16:30,120
+you know, fast-paced development all
+
+469
+00:16:30,120 --> 00:16:31,839
+these models. Did it feel like that or
+
+470
+00:16:31,839 --> 00:16:33,280
+at the time did it
+
+471
+00:16:33,280 --> 00:16:35,120
+did it not? Do you know what I mean? Did
+
+472
+00:16:35,120 --> 00:16:38,000
+it feel like you were onto something
+
+473
+00:16:38,000 --> 00:16:40,160
+momentous with these new models coming
+
+474
+00:16:40,160 --> 00:16:42,120
+in that gave better accuracy than before
+
+475
+00:16:42,120 --> 00:16:45,760
+or was it Did it just feel like a normal
+
+476
+00:16:45,760 --> 00:16:47,800
+No, I don't think it felt normal. It was
+
+477
+00:16:47,800 --> 00:16:50,560
+It was I think we we we saw this as as
+
+478
+00:16:50,560 --> 00:16:53,120
+major developments. I mean, Mhm. uh,
+
+479
+00:16:53,120 --> 00:16:54,280
+because with the ones we were working
+
+480
+00:16:54,280 --> 00:16:56,920
+with before were just, um,
+
+481
+00:16:56,920 --> 00:16:57,600
+uh,
+
+482
+00:16:57,600 --> 00:17:00,520
+I don't know. So, so, um, touchy and,
+
+483
+00:17:00,520 --> 00:17:02,200
+um, I don't know what the word is, but,
+
+484
+00:17:02,200 --> 00:17:05,000
+ad hoc ad hoc, yeah. And then to have
+
+485
+00:17:05,000 --> 00:17:06,400
+these, uh,
+
+486
+00:17:06,400 --> 00:17:08,920
+well actually the even before Philippe
+
+487
+00:17:08,920 --> 00:17:10,160
+Spalart's,
+
+488
+00:17:10,160 --> 00:17:12,079
+uh, model, there was the Johnson-King
+
+489
+00:17:12,079 --> 00:17:14,319
+model, you know, and that that one I
+
+490
+00:17:14,319 --> 00:17:16,480
+spent a lot of time working with Dennis
+
+491
+00:17:16,480 --> 00:17:18,640
+Johnson and NASA Ames to put that in our
+
+492
+00:17:18,640 --> 00:17:19,680
+code.
+
+493
+00:17:19,680 --> 00:17:21,920
+And and that was a very difficult model
+
+494
+00:17:21,920 --> 00:17:24,240
+to to implement.
+
+495
+00:17:24,240 --> 00:17:25,280
+I'd say
+
+496
+00:17:25,280 --> 00:17:26,839
+in fact if we had to do verification on
+
+497
+00:17:26,839 --> 00:17:28,600
+that model now, I think most codes would
+
+498
+00:17:28,600 --> 00:17:30,040
+all be giving different answers cuz it
+
+499
+00:17:30,040 --> 00:17:30,960
+was
+
+500
+00:17:30,960 --> 00:17:32,920
+you know, searching along lines to find
+
+501
+00:17:32,920 --> 00:17:34,520
+thing I don't know. It's just
+
+502
+00:17:34,520 --> 00:17:36,160
+not very easy.
+
+503
+00:17:36,160 --> 00:17:37,920
+Mhm. And in fact it was kind of a funny
+
+504
+00:17:37,920 --> 00:17:40,200
+story with that. We had two codes in in
+
+505
+00:17:40,200 --> 00:17:43,200
+our branch, CFL3D and FUN3D and and we
+
+506
+00:17:43,200 --> 00:17:45,480
+started comparing against each other.
+
+507
+00:17:45,480 --> 00:17:46,840
+And at one point we were getting
+
+508
+00:17:46,840 --> 00:17:49,120
+different answers with that model.
+
+509
+00:17:49,120 --> 00:17:50,080
+And
+
+510
+00:17:50,080 --> 00:17:52,440
+the TLNS3D answers were better compared
+
+511
+00:17:52,440 --> 00:17:54,520
+to certain experiments
+
+512
+00:17:54,520 --> 00:17:56,200
+when we were comparing. But it turned
+
+513
+00:17:56,200 --> 00:17:58,720
+out that that there was a a factor of
+
+514
+00:17:58,720 --> 00:18:01,600
+two error in in their coding. So putting
+
+515
+00:18:01,600 --> 00:18:03,960
+in that factor of two
+
+516
+00:18:03,960 --> 00:18:05,560
+just happened to give a better answer.
+
+517
+00:18:05,560 --> 00:18:06,960
+This is a this is a story of turbulence
+
+518
+00:18:06,960 --> 00:18:09,360
+modelling, right? Yeah.
+
+519
+00:18:09,360 --> 00:18:10,880
+There's always a two missing or a half
+
+520
+00:18:10,880 --> 00:18:14,000
+missing. Yeah, yeah.
+
+521
+00:18:14,000 --> 00:18:17,000
+Ah, okay. Just so for people to
+
+522
+00:18:17,000 --> 00:18:19,600
+understand, so CFL3D, am I correct that
+
+523
+00:18:19,600 --> 00:18:22,360
+was the structured focused code, is that
+
+524
+00:18:22,360 --> 00:18:25,840
+right? Well, both TLNS3D and CFL3D are
+
+525
+00:18:25,840 --> 00:18:27,400
+both structured codes. Yeah, they just
+
+526
+00:18:27,400 --> 00:18:30,040
+kind of developed side by side. Um
+
+527
+00:18:30,040 --> 00:18:31,400
+Okay.
+
+528
+00:18:31,400 --> 00:18:33,520
+within the same same branch. And then
+
+529
+00:18:33,520 --> 00:18:36,400
+FUN3D came along. This is also within
+
+530
+00:18:36,400 --> 00:18:38,800
+our branch, came along the unstructured
+
+531
+00:18:38,800 --> 00:18:40,240
+uh
+
+532
+00:18:40,240 --> 00:18:41,600
+code came along around that time,
+
+533
+00:18:41,600 --> 00:18:43,560
+started to build up.
+
+534
+00:18:43,560 --> 00:18:45,760
+Okay, so were you quite involved with
+
+535
+00:18:45,760 --> 00:18:48,640
+FUN3D as well or was it more CFL
+
+536
+00:18:48,640 --> 00:18:49,520
+focused?
+
+537
+00:18:49,520 --> 00:18:51,720
+Yeah, for me it was more CFL3D. Uh the
+
+538
+00:18:51,720 --> 00:18:53,960
+FUN3D I wasn't too involved in until
+
+539
+00:18:53,960 --> 00:18:55,040
+later.
+
+540
+00:18:55,040 --> 00:18:57,960
+Yeah, maybe in the 2000s I started to
+
+541
+00:18:57,960 --> 00:19:00,240
+get more involved on that team.
+
+542
+00:19:00,240 --> 00:19:01,560
+Now, one of the thing that I was really
+
+543
+00:19:01,560 --> 00:19:03,560
+interested to know
+
+544
+00:19:03,560 --> 00:19:05,920
+the turbulence modelling website Mhm. has
+
+545
+00:19:05,920 --> 00:19:07,480
+become a
+
+546
+00:19:07,480 --> 00:19:08,720
+I mean, almost everybody who's
+
+547
+00:19:08,720 --> 00:19:11,200
+developing turbulence models or
+
+548
+00:19:11,200 --> 00:19:12,640
+or not even developing them, testing
+
+549
+00:19:12,640 --> 00:19:14,440
+them, verifying them, validating them.
+
+550
+00:19:14,440 --> 00:19:16,720
+So, if you go to that website now, but
+
+551
+00:19:16,720 --> 00:19:19,000
+how did it all begin? What How did that
+
+552
+00:19:19,000 --> 00:19:20,920
+even start?
+
+553
+00:19:20,920 --> 00:19:23,040
+Yeah, that um
+
+554
+00:19:23,040 --> 00:19:26,880
+during the early 2000s, I guess. Uh
+
+555
+00:19:26,880 --> 00:19:27,440
+uh
+
+556
+00:19:27,440 --> 00:19:29,800
+Brian Smith from Lockheed Martin and
+
+557
+00:19:29,800 --> 00:19:32,240
+George Wang from um
+
+558
+00:19:32,240 --> 00:19:34,480
+Where is he now? Ohio
+
+559
+00:19:34,480 --> 00:19:36,240
+State One of the One of the universities
+
+560
+00:19:36,240 --> 00:19:36,960
+in
+
+561
+00:19:36,960 --> 00:19:37,880
+up there.
+
+562
+00:19:37,880 --> 00:19:38,440
+Uh
+
+563
+00:19:38,440 --> 00:19:39,720
+we got together and we were talking
+
+564
+00:19:39,720 --> 00:19:41,840
+about this um
+
+565
+00:19:41,840 --> 00:19:44,000
+how it would be nice to have
+
+566
+00:19:44,000 --> 00:19:45,440
+uh
+
+567
+00:19:45,440 --> 00:19:48,160
+a website or a a place where people
+
+568
+00:19:48,160 --> 00:19:51,000
+could go to um
+
+569
+00:19:51,000 --> 00:19:52,600
+see
+
+570
+00:19:52,600 --> 00:19:55,440
+how models behave for basic problems,
+
+571
+00:19:55,440 --> 00:19:57,280
+right? That was the the first idea was
+
+572
+00:19:57,280 --> 00:19:59,520
+to say, "Okay, well, if I want to run a
+
+573
+00:19:59,520 --> 00:20:01,520
+case that's really dominated by, you
+
+574
+00:20:01,520 --> 00:20:03,880
+know, shear or or
+
+575
+00:20:03,880 --> 00:20:06,480
+a jet an axisymmetric
+
+576
+00:20:06,480 --> 00:20:08,360
+you know, different type If I have this
+
+577
+00:20:08,360 --> 00:20:10,080
+this dominant
+
+578
+00:20:10,080 --> 00:20:11,920
+basic problem, what is the best model
+
+579
+00:20:11,920 --> 00:20:13,400
+for it?" And to have a place where
+
+580
+00:20:13,400 --> 00:20:14,720
+people could just go and look it up and
+
+581
+00:20:14,720 --> 00:20:16,320
+say like a little library. Say, "Oh, you
+
+582
+00:20:16,320 --> 00:20:18,040
+know, for this type of
+
+583
+00:20:18,040 --> 00:20:20,080
+flow, this is the best model."
+
+584
+00:20:20,080 --> 00:20:22,680
+Uh or or whatever. Or or this is the
+
+585
+00:20:22,680 --> 00:20:24,800
+the flaws of the model here. And uh so,
+
+586
+00:20:24,800 --> 00:20:26,920
+we created this team
+
+587
+00:20:26,920 --> 00:20:28,600
+uh the turbulence model benchmark
+
+588
+00:20:28,600 --> 00:20:31,040
+working group, which still exists today
+
+589
+00:20:31,040 --> 00:20:34,080
+and still meets fairly regularly. Um
+
+590
+00:20:34,080 --> 00:20:36,240
+to to talk about to get together and
+
+591
+00:20:36,240 --> 00:20:37,640
+talk about these things and maybe start
+
+592
+00:20:37,640 --> 00:20:40,720
+to formulate uh plans for that.
+
+593
+00:20:40,720 --> 00:20:42,120
+So, that's really the where it started.
+
+594
+00:20:42,120 --> 00:20:43,560
+And there were some special sessions at
+
+595
+00:20:43,560 --> 00:20:46,320
+early AIAA meetings where we uh brought
+
+596
+00:20:46,320 --> 00:20:48,040
+up the ideas and talked to people about
+
+597
+00:20:48,040 --> 00:20:49,080
+it.
+
+598
+00:20:49,080 --> 00:20:51,160
+But then, the part of the But the part
+
+599
+00:20:51,160 --> 00:20:53,840
+of the website
+
+600
+00:20:53,840 --> 00:20:55,960
+the verification part, which which I
+
+601
+00:20:55,960 --> 00:20:57,800
+think is maybe had a little bit more
+
+602
+00:20:57,800 --> 00:20:59,960
+impact now. That was actually something
+
+603
+00:20:59,960 --> 00:21:02,800
+that I came up with as a total fluke
+
+604
+00:21:02,800 --> 00:21:04,560
+result of what what I would call
+
+605
+00:21:04,560 --> 00:21:06,080
+serendipity.
+
+606
+00:21:06,080 --> 00:21:08,080
+You know, I just something that just
+
+607
+00:21:08,080 --> 00:21:10,280
+happened at a workshop I went to and it
+
+608
+00:21:10,280 --> 00:21:13,520
+was it was something in um
+
+609
+00:21:13,520 --> 00:21:15,200
+it was a workshop in Europe. They used
+
+610
+00:21:15,200 --> 00:21:16,480
+to have these
+
+611
+00:21:16,480 --> 00:21:18,080
+uh I can't remember the names of the
+
+612
+00:21:18,080 --> 00:21:19,600
+workshops, but they were
+
+613
+00:21:19,600 --> 00:21:20,600
+they would get together kind of like
+
+614
+00:21:20,600 --> 00:21:22,600
+they do now and they everyone would run
+
+615
+00:21:22,600 --> 00:21:24,320
+their codes with
+
+616
+00:21:24,320 --> 00:21:26,480
+certain models certain small ones.
+
+617
+00:21:26,480 --> 00:21:27,840
+um a cough tech maybe?
+
+618
+00:21:27,840 --> 00:21:28,800
+It was in a cough tech. It was in a
+
+619
+00:21:28,800 --> 00:21:31,600
+cough tech. Yeah, sponsored event.
+
+620
+00:21:31,600 --> 00:21:33,240
+And then they would compare results. You
+
+621
+00:21:33,240 --> 00:21:34,320
+know, and usually it was something with
+
+622
+00:21:34,320 --> 00:21:36,520
+separation because no one could do that.
+
+623
+00:21:36,520 --> 00:21:38,840
+Mhm. And then they would um draw
+
+624
+00:21:38,840 --> 00:21:41,440
+conclusions from them or not which is
+
+625
+00:21:41,440 --> 00:21:43,560
+maybe more often what happened. And and
+
+626
+00:21:43,560 --> 00:21:46,280
+at at this at this workshop at one point
+
+627
+00:21:46,280 --> 00:21:47,920
+there was um
+
+628
+00:21:47,920 --> 00:21:49,880
+they were showing results and I was I
+
+629
+00:21:49,880 --> 00:21:52,200
+was using CFL3D with a Spalart–Allmaras
+
+630
+00:21:52,200 --> 00:21:53,320
+model.
+
+631
+00:21:53,320 --> 00:21:55,280
+And it turns out that another
+
+632
+00:21:55,280 --> 00:21:57,600
+group, I think it was ONERA
+
+633
+00:21:57,600 --> 00:21:58,880
+was using
+
+634
+00:21:58,880 --> 00:22:00,520
+I believe it was ELSA, but one of their
+
+635
+00:22:00,520 --> 00:22:02,600
+codes using the same model
+
+636
+00:22:02,600 --> 00:22:03,880
+and there were all these results, but
+
+637
+00:22:03,880 --> 00:22:06,640
+these two results right dead on top of
+
+638
+00:22:06,640 --> 00:22:08,560
+each other. And it was it was these two
+
+639
+00:22:08,560 --> 00:22:10,680
+code results and I realized then that
+
+640
+00:22:10,680 --> 00:22:11,920
+said, you know, this is a good way to
+
+641
+00:22:11,920 --> 00:22:13,760
+determine whether
+
+642
+00:22:13,760 --> 00:22:15,280
+you're um
+
+643
+00:22:15,280 --> 00:22:17,440
+you've coded it correctly. If two people
+
+644
+00:22:17,440 --> 00:22:19,960
+because it's so much more likely
+
+645
+00:22:19,960 --> 00:22:22,200
+that if you get the same answer what's
+
+646
+00:22:22,200 --> 00:22:24,680
+the what are the chances of
+
+647
+00:22:24,680 --> 00:22:26,600
+of of a coding error
+
+648
+00:22:26,600 --> 00:22:28,840
+if two are absolutely dead on top of
+
+649
+00:22:28,840 --> 00:22:30,280
+each other like that.
+
+650
+00:22:30,280 --> 00:22:31,600
+Mhm. And so it just struck me that that
+
+651
+00:22:31,600 --> 00:22:33,320
+was a way of
+
+652
+00:22:33,320 --> 00:22:34,800
+um
+
+653
+00:22:34,800 --> 00:22:37,120
+doing a kind of cheap verification, you
+
+654
+00:22:37,120 --> 00:22:38,960
+know, without
+
+655
+00:22:38,960 --> 00:22:40,840
+you know, the formal
+
+656
+00:22:40,840 --> 00:22:42,720
+method of manufactured solutions or or
+
+657
+00:22:42,720 --> 00:22:45,360
+other methodology, but just just
+
+658
+00:22:45,360 --> 00:22:46,960
+you know, the the on the more codes you
+
+659
+00:22:46,960 --> 00:22:48,400
+compare and the more the degree the more
+
+660
+00:22:48,400 --> 00:22:50,480
+confidence you have in that this is
+
+661
+00:22:50,480 --> 00:22:51,880
+right.
+
+662
+00:22:51,880 --> 00:22:54,400
+And um do you have any stats on that? Do
+
+663
+00:22:54,400 --> 00:22:55,520
+you know how many people actually go to
+
+664
+00:22:55,520 --> 00:22:57,160
+that website?
+
+665
+00:22:57,160 --> 00:22:59,480
+Do you have a ton of any Yeah, I mean
+
+666
+00:22:59,480 --> 00:23:01,320
+I've it's that's hard to say because
+
+667
+00:23:01,320 --> 00:23:04,080
+they have these, you know, Google um
+
+668
+00:23:04,080 --> 00:23:05,160
+has a
+
+669
+00:23:05,160 --> 00:23:07,760
+a way of uh tracking these things, but I
+
+670
+00:23:07,760 --> 00:23:08,880
+don't know what these numbers actually
+
+671
+00:23:08,880 --> 00:23:11,200
+mean because it's is I don't know
+
+672
+00:23:11,200 --> 00:23:12,800
+whether it's actually people going to it
+
+673
+00:23:12,800 --> 00:23:15,600
+or or robots going to it. I I don't know
+
+674
+00:23:15,600 --> 00:23:16,800
+what it is.
+
+675
+00:23:16,800 --> 00:23:19,800
+But uh yeah, it's it's it's quite a bit.
+
+676
+00:23:19,800 --> 00:23:22,200
+I can't remember maybe 40,000 a month or
+
+677
+00:23:22,200 --> 00:23:24,560
+something like that at the most, yeah.
+
+678
+00:23:24,560 --> 00:23:26,800
+It's a lot. I'm sure it is cuz everybody
+
+679
+00:23:26,800 --> 00:23:28,440
+seems to go there.
+
+680
+00:23:28,440 --> 00:23:31,040
+It's um I mean, it is a credit that you
+
+681
+00:23:31,040 --> 00:23:33,480
+know, Brian himself and the rest still
+
+682
+00:23:33,480 --> 00:23:35,960
+keep this going because uh
+
+683
+00:23:35,960 --> 00:23:38,080
+I I used it in my PhD. I think most
+
+684
+00:23:38,080 --> 00:23:40,720
+people do it. It's it's such a But I
+
+685
+00:23:40,720 --> 00:23:42,240
+always feel bad for you cuz it seems
+
+686
+00:23:42,240 --> 00:23:45,240
+like I your website coding skills quite
+
+687
+00:23:45,240 --> 00:23:46,800
+good now because you always seem to be
+
+688
+00:23:46,800 --> 00:23:50,320
+updating websites. Oh, yeah.
+
+689
+00:23:50,320 --> 00:23:51,680
+That that's happened. And then one
+
+690
+00:23:51,680 --> 00:23:53,280
+unintended consequence of the website,
+
+691
+00:23:53,280 --> 00:23:55,280
+too, was just I didn't realize this at
+
+692
+00:23:55,280 --> 00:23:57,240
+the time, but having one place just to
+
+693
+00:23:57,240 --> 00:23:59,600
+go for information like that is really
+
+694
+00:23:59,600 --> 00:24:00,520
+it's I mean, I do it all the time
+
+695
+00:24:00,520 --> 00:24:02,120
+myself. Like instead of
+
+696
+00:24:02,120 --> 00:24:03,520
+having to say, "Okay, well, I got to
+
+697
+00:24:03,520 --> 00:24:05,480
+look up this thing in in the Broughton's
+
+698
+00:24:05,480 --> 00:24:07,360
+model." So, you have to find the paper
+
+699
+00:24:07,360 --> 00:24:08,480
+and you have to remember where the paper
+
+700
+00:24:08,480 --> 00:24:09,560
+was. You have to remember which year it
+
+701
+00:24:09,560 --> 00:24:12,520
+was published. And this way it's just
+
+702
+00:24:12,520 --> 00:24:14,200
+one it takes you 10 seconds and you're
+
+703
+00:24:14,200 --> 00:24:15,840
+and you're there. One of the things that
+
+704
+00:24:15,840 --> 00:24:18,480
+stood out in that 2030 report was the
+
+705
+00:24:18,480 --> 00:24:20,400
+lack of machine learning.
+
+706
+00:24:20,400 --> 00:24:22,400
+It it's kind of incredible in a way. If
+
+707
+00:24:22,400 --> 00:24:24,240
+I'm not mistaken, there was very little
+
+708
+00:24:24,240 --> 00:24:26,160
+mention if if at all Yeah.
+
+709
+00:24:26,160 --> 00:24:28,520
+about machine learning and fast forward
+
+710
+00:24:28,520 --> 00:24:32,040
+to now and it's So, is that What Where
+
+711
+00:24:32,040 --> 00:24:33,400
+do you
+
+712
+00:24:33,400 --> 00:24:35,120
+I mean, this is a big topic, but so
+
+713
+00:24:35,120 --> 00:24:37,120
+let's say first of all, the turbulence
+
+714
+00:24:37,120 --> 00:24:40,400
+modelling, where do you see
+
+715
+00:24:40,400 --> 00:24:42,560
+the role of machine learning? Are Are
+
+716
+00:24:42,560 --> 00:24:46,480
+you positive about? Are you thinking
+
+717
+00:24:46,480 --> 00:24:49,560
+there's over hype in this area around
+
+718
+00:24:49,560 --> 00:24:51,480
+turbulence modelling to begin with?
+
+719
+00:24:51,480 --> 00:24:53,200
+Yeah, I think there's a little bit of
+
+720
+00:24:53,200 --> 00:24:55,400
+over hype and it's coming back down to
+
+721
+00:24:55,400 --> 00:24:57,720
+ground now a little bit because I think
+
+722
+00:24:57,720 --> 00:24:59,840
+at the time well first of all I think
+
+723
+00:24:59,840 --> 00:25:02,160
+when the when the 2014 report came out
+
+724
+00:25:02,160 --> 00:25:03,680
+there wasn't much machine learning out
+
+725
+00:25:03,680 --> 00:25:05,440
+there. I mean there it was there but not
+
+726
+00:25:05,440 --> 00:25:07,240
+so much in our field. So I it wasn't
+
+727
+00:25:07,240 --> 00:25:09,280
+even in the the authors
+
+728
+00:25:09,280 --> 00:25:13,280
+brains at that point. But um
+
+729
+00:25:13,280 --> 00:25:15,960
+I think then that that the thought there
+
+730
+00:25:15,960 --> 00:25:17,320
+was a lot of thought that oh well this
+
+731
+00:25:17,320 --> 00:25:18,600
+is going to answer everything within a
+
+732
+00:25:18,600 --> 00:25:20,360
+few years we'll have all the answers and
+
+733
+00:25:20,360 --> 00:25:21,320
+and that
+
+734
+00:25:21,320 --> 00:25:23,360
+did not pan out and now I think maybe
+
+735
+00:25:23,360 --> 00:25:24,680
+the thinking more is that machine
+
+736
+00:25:24,680 --> 00:25:26,880
+learning
+
+737
+00:25:26,880 --> 00:25:29,560
+in conjunction with someone who
+
+738
+00:25:29,560 --> 00:25:31,880
+understands turbulence like a turbulence
+
+739
+00:25:31,880 --> 00:25:33,240
+model developer
+
+740
+00:25:33,240 --> 00:25:35,240
+somehow working hand in hand and maybe
+
+741
+00:25:35,240 --> 00:25:36,960
+it like another tool that could be used
+
+742
+00:25:36,960 --> 00:25:39,240
+to help the turbulence modeler develop
+
+743
+00:25:39,240 --> 00:25:41,120
+something but that the machine learning
+
+744
+00:25:41,120 --> 00:25:42,600
+itself
+
+745
+00:25:42,600 --> 00:25:44,720
+it is it's it's not going to do it on
+
+746
+00:25:44,720 --> 00:25:45,920
+its own.
+
+747
+00:25:45,920 --> 00:25:47,880
+So yeah we were talking um before about
+
+748
+00:25:47,880 --> 00:25:51,240
+the high-lift. So where did um
+
+749
+00:25:51,240 --> 00:25:52,640
+I guess similar to the turbulence
+
+750
+00:25:52,640 --> 00:25:53,800
+modelling
+
+751
+00:25:53,800 --> 00:25:56,840
+website high-lift workshop among some of
+
+752
+00:25:56,840 --> 00:25:59,080
+the other workshop as
+
+753
+00:25:59,080 --> 00:26:01,640
+I would say been responsible for pushing
+
+754
+00:26:01,640 --> 00:26:03,320
+a lot of the innovation particularly
+
+755
+00:26:03,320 --> 00:26:06,160
+around scale resolving methods. I think
+
+756
+00:26:06,160 --> 00:26:08,120
+the past few years
+
+757
+00:26:08,120 --> 00:26:10,320
+um there's been a lot of advances on
+
+758
+00:26:10,320 --> 00:26:12,320
+that but what where did that actually
+
+759
+00:26:12,320 --> 00:26:13,600
+start
+
+760
+00:26:13,600 --> 00:26:15,480
+the the high-lift workshop? Do you
+
+761
+00:26:15,480 --> 00:26:17,760
+remember the origins?
+
+762
+00:26:17,760 --> 00:26:19,840
+Well I mean I guess the drag prediction
+
+763
+00:26:19,840 --> 00:26:22,800
+workshop came first and became the the
+
+764
+00:26:22,800 --> 00:26:25,280
+source for a lot of ideas for for
+
+765
+00:26:25,280 --> 00:26:28,160
+workshop subsequently but um
+
+766
+00:26:28,160 --> 00:26:30,600
+yeah the high-lift workshop was uh I
+
+767
+00:26:30,600 --> 00:26:33,080
+guess it was a the brainchild of uh the
+
+768
+00:26:33,080 --> 00:26:35,480
+NASA collaboration with folks at uh
+
+769
+00:26:35,480 --> 00:26:37,880
+Boeing and um another
+
+770
+00:26:37,880 --> 00:26:38,840
+uh
+
+771
+00:26:38,840 --> 00:26:41,560
+of the commercial companies that where
+
+772
+00:26:41,560 --> 00:26:44,080
+high-lift was the the solution or the
+
+773
+00:26:44,080 --> 00:26:46,680
+need to solve high-lift accurately with
+
+774
+00:26:46,680 --> 00:26:49,360
+CFD it was seen as a major stumbling
+
+775
+00:26:49,360 --> 00:26:51,960
+block and and it's you know still is
+
+776
+00:26:51,960 --> 00:26:54,480
+today, you know, that's not not really
+
+777
+00:26:54,480 --> 00:26:57,200
+known exactly how to confidently do
+
+778
+00:26:57,200 --> 00:27:00,600
+that. And so the workshops were they saw
+
+779
+00:27:00,600 --> 00:27:01,920
+the drag prediction workshops and said,
+
+780
+00:27:01,920 --> 00:27:03,280
+"Well, we should do this for high-lift
+
+781
+00:27:03,280 --> 00:27:04,840
+and really bring the community together
+
+782
+00:27:04,840 --> 00:27:06,600
+to to try to
+
+783
+00:27:06,600 --> 00:27:08,840
+put our brains in one place and get get
+
+784
+00:27:08,840 --> 00:27:10,680
+something working better."
+
+785
+00:27:10,680 --> 00:27:13,680
+And where do you see it from then
+
+786
+00:27:13,680 --> 00:27:14,920
+to now?
+
+787
+00:27:14,920 --> 00:27:17,240
+How how have you seen the progression
+
+788
+00:27:17,240 --> 00:27:19,440
+being in terms of accuracy, in terms of
+
+789
+00:27:19,440 --> 00:27:21,600
+capability?
+
+790
+00:27:21,600 --> 00:27:24,960
+Well, I guess the first three workshops
+
+791
+00:27:24,960 --> 00:27:26,640
+were almost all Reynolds average
+
+792
+00:27:26,640 --> 00:27:28,560
+Navier–Stokes.
+
+793
+00:27:28,560 --> 00:27:30,760
+And one of our big conclusions so far
+
+794
+00:27:30,760 --> 00:27:32,320
+has been that Reynolds average
+
+795
+00:27:32,320 --> 00:27:35,360
+Navier–Stokes cannot
+
+796
+00:27:35,360 --> 00:27:37,520
+consistently and accurately predict
+
+797
+00:27:37,520 --> 00:27:39,440
+separated flow. So, it consist it cannot
+
+798
+00:27:39,440 --> 00:27:41,680
+consistently and accurately predict high
+
+799
+00:27:41,680 --> 00:27:43,120
+lift
+
+800
+00:27:43,120 --> 00:27:45,520
+uh the high-lift flows.
+
+801
+00:27:45,520 --> 00:27:49,600
+So, for a lot of it, it was uh
+
+802
+00:27:49,600 --> 00:27:51,040
+not much progression other than just
+
+803
+00:27:51,040 --> 00:27:52,960
+confirmation every time that, you know,
+
+804
+00:27:52,960 --> 00:27:55,640
+we can't do it or we have this issue.
+
+805
+00:27:55,640 --> 00:27:57,840
+And then very slowly over the last
+
+806
+00:27:57,840 --> 00:28:00,680
+couple of workshops, we've had more of
+
+807
+00:28:00,680 --> 00:28:02,840
+the scale resolving type of simulations
+
+808
+00:28:02,840 --> 00:28:04,040
+enter into the
+
+809
+00:28:04,040 --> 00:28:05,080
+picture.
+
+810
+00:28:05,080 --> 00:28:06,720
+And we're seeing now the the push in
+
+811
+00:28:06,720 --> 00:28:09,040
+that direction and seeing how
+
+812
+00:28:09,040 --> 00:28:11,480
+it it's still not perfect, but those and
+
+813
+00:28:11,480 --> 00:28:13,960
+those methods still have a lot of
+
+814
+00:28:13,960 --> 00:28:15,160
+There's so many out there, so many
+
+815
+00:28:15,160 --> 00:28:16,440
+different ways of
+
+816
+00:28:16,440 --> 00:28:17,960
+approaching it.
+
+817
+00:28:17,960 --> 00:28:20,360
+But we see that the the flow physics is
+
+818
+00:28:20,360 --> 00:28:22,960
+better captured by those methods. We see
+
+819
+00:28:22,960 --> 00:28:23,760
+the
+
+820
+00:28:23,760 --> 00:28:24,920
+um
+
+821
+00:28:24,920 --> 00:28:27,760
+uh the separation patterns and the
+
+822
+00:28:27,760 --> 00:28:30,440
+the reasons for the stall that happened
+
+823
+00:28:30,440 --> 00:28:33,600
+near near maximum lift
+
+824
+00:28:33,600 --> 00:28:35,480
+are being captured by those methods. But
+
+825
+00:28:35,480 --> 00:28:37,480
+do you think therefore we're close to
+
+826
+00:28:37,480 --> 00:28:39,320
+solving this problem? Where do you see
+
+827
+00:28:39,320 --> 00:28:42,080
+as the
+
+828
+00:28:43,840 --> 00:28:45,200
+Well, I think it's it's certainly
+
+829
+00:28:45,200 --> 00:28:48,160
+closer, you know,
+
+830
+00:28:48,160 --> 00:28:50,280
+in projects we often have, you know,
+
+831
+00:28:50,280 --> 00:28:52,720
+milestones and uh
+
+832
+00:28:52,720 --> 00:28:56,120
+and points where we declare success.
+
+833
+00:28:56,120 --> 00:28:58,120
+And it's it's it it's maybe almost too
+
+834
+00:28:58,120 --> 00:29:00,320
+easy to say, "Yeah, we've solved it."
+
+835
+00:29:00,320 --> 00:29:02,240
+When really there's
+
+836
+00:29:02,240 --> 00:29:03,680
+it just made a step in the right
+
+837
+00:29:03,680 --> 00:29:05,320
+direction and it's it's certainly
+
+838
+00:29:05,320 --> 00:29:07,040
+getting it better, but there's
+
+839
+00:29:07,040 --> 00:29:09,240
+still a ways to go. I saw you just
+
+840
+00:29:09,240 --> 00:29:11,240
+recently did um
+
+841
+00:29:11,240 --> 00:29:13,400
+a paper which which I guess all of this
+
+842
+00:29:13,400 --> 00:29:15,040
+is sort of leading to, isn't it? Which
+
+843
+00:29:15,040 --> 00:29:17,760
+is this certification by analysis.
+
+844
+00:29:17,760 --> 00:29:19,360
+Um
+
+845
+00:29:19,360 --> 00:29:21,480
+where do you see that being and maybe
+
+846
+00:29:21,480 --> 00:29:23,960
+you could explain just this terminology.
+
+847
+00:29:23,960 --> 00:29:25,320
+I guess some people call it digital
+
+848
+00:29:25,320 --> 00:29:26,720
+certification, some people call it
+
+849
+00:29:26,720 --> 00:29:28,160
+certification.
+
+850
+00:29:28,160 --> 00:29:30,800
+How would you explain it and why is it
+
+851
+00:29:30,800 --> 00:29:33,720
+an important thing for for NASA and and
+
+852
+00:29:33,720 --> 00:29:35,040
+others?
+
+853
+00:29:35,040 --> 00:29:36,520
+Yeah, well well it's important thing
+
+854
+00:29:36,520 --> 00:29:38,520
+especially for the aircraft industry. I
+
+855
+00:29:38,520 --> 00:29:40,800
+guess NASA is hoping to support that
+
+856
+00:29:40,800 --> 00:29:43,360
+that goal. But it's um the idea that
+
+857
+00:29:43,360 --> 00:29:46,080
+right now when they design airplanes,
+
+858
+00:29:46,080 --> 00:29:48,720
+there's a lot of uh wind tunnel and
+
+859
+00:29:48,720 --> 00:29:51,080
+flight tests that are very expensive
+
+860
+00:29:51,080 --> 00:29:52,880
+that take place during the certification
+
+861
+00:29:52,880 --> 00:29:54,280
+process.
+
+862
+00:29:54,280 --> 00:29:59,120
+And the hope is that some aspects of the
+
+863
+00:29:59,120 --> 00:30:01,360
+certification testing could be done by
+
+864
+00:30:01,360 --> 00:30:03,000
+CFD
+
+865
+00:30:03,000 --> 00:30:04,640
+in combination with
+
+866
+00:30:04,640 --> 00:30:06,280
+uh with the others.
+
+867
+00:30:06,280 --> 00:30:08,720
+That would lessen the the need for all
+
+868
+00:30:08,720 --> 00:30:10,960
+of the expensive
+
+869
+00:30:10,960 --> 00:30:13,520
+uh especially the flight flight testing,
+
+870
+00:30:13,520 --> 00:30:15,840
+but all to reduce the expense of of the
+
+871
+00:30:15,840 --> 00:30:17,040
+testing.
+
+872
+00:30:17,040 --> 00:30:18,760
+So to get to that point though, there
+
+873
+00:30:18,760 --> 00:30:22,280
+has to be a extremely high trust in the
+
+874
+00:30:22,280 --> 00:30:25,760
+CFD that that what it's doing is
+
+875
+00:30:25,760 --> 00:30:27,240
+as good
+
+876
+00:30:27,240 --> 00:30:28,680
+as the um
+
+877
+00:30:28,680 --> 00:30:30,760
+the other type of testing.
+
+878
+00:30:30,760 --> 00:30:32,440
+And so that's the hope.
+
+879
+00:30:32,440 --> 00:30:34,120
+At this point
+
+880
+00:30:34,120 --> 00:30:36,080
+I think it's not there, but uh that's
+
+881
+00:30:36,080 --> 00:30:37,800
+that's the idea of
+
+882
+00:30:37,800 --> 00:30:39,280
+push toward that goal.
+
+883
+00:30:39,280 --> 00:30:41,160
+I I think that's the one where I find
+
+884
+00:30:41,160 --> 00:30:42,600
+particularly interesting around machine
+
+885
+00:30:42,600 --> 00:30:44,920
+learning because
+
+886
+00:30:44,920 --> 00:30:47,000
+I guess if you're going to do
+
+887
+00:30:47,000 --> 00:30:48,000
+the way I see it, certification by
+
+888
+00:30:48,000 --> 00:30:50,760
+analysis makes sense. It takes a you
+
+889
+00:30:50,760 --> 00:30:53,760
+know, billions of dollars, years to do a
+
+890
+00:30:53,760 --> 00:30:55,840
+lot of the wind tunnel and flight tests
+
+891
+00:30:55,840 --> 00:30:56,960
+that
+
+892
+00:30:56,960 --> 00:30:58,880
+will still need to be done, but it I
+
+893
+00:30:58,880 --> 00:31:00,520
+guess it's just reducing the number of
+
+894
+00:31:00,520 --> 00:31:01,720
+them
+
+895
+00:31:01,720 --> 00:31:03,880
+um such that the ones that they do do
+
+896
+00:31:03,880 --> 00:31:06,080
+could maybe be more high fidelity or you
+
+897
+00:31:06,080 --> 00:31:06,800
+know,
+
+898
+00:31:06,800 --> 00:31:08,320
+more detailed.
+
+899
+00:31:08,320 --> 00:31:10,400
+Um and it seems like scale resolving
+
+900
+00:31:10,400 --> 00:31:12,040
+methods are
+
+901
+00:31:12,040 --> 00:31:13,800
+the sort of methods that could help in
+
+902
+00:31:13,800 --> 00:31:15,760
+that. But then this is where the
+
+903
+00:31:15,760 --> 00:31:17,280
+interest in machine learning comes in
+
+904
+00:31:17,280 --> 00:31:20,000
+cuz there's a lot of a lot of talk of of
+
+905
+00:31:20,000 --> 00:31:21,920
+machine learning, but
+
+906
+00:31:21,920 --> 00:31:24,000
+the issue then is the reproducibility
+
+907
+00:31:24,000 --> 00:31:26,680
+and can you explain it? I guess if you
+
+908
+00:31:26,680 --> 00:31:29,120
+take a scale resolving, you can say it's
+
+909
+00:31:29,120 --> 00:31:30,520
+solving these equations with this
+
+910
+00:31:30,520 --> 00:31:32,600
+numerical scheme. You can sort of
+
+911
+00:31:32,600 --> 00:31:34,440
+there's a theory
+
+912
+00:31:34,440 --> 00:31:36,480
+how you get to the answer, isn't there?
+
+913
+00:31:36,480 --> 00:31:38,000
+Where
+
+914
+00:31:38,000 --> 00:31:41,240
+most people cannot exactly explain how a
+
+915
+00:31:41,240 --> 00:31:43,160
+machine learning model gets to the
+
+916
+00:31:43,160 --> 00:31:45,480
+answer. You know what I mean? Like how
+
+917
+00:31:45,480 --> 00:31:46,800
+The computer can't even tell you how it
+
+918
+00:31:46,800 --> 00:31:49,240
+gets the Yeah, so I do kind of wonder
+
+919
+00:31:49,240 --> 00:31:51,480
+whether there's a bit of an opposing
+
+920
+00:31:51,480 --> 00:31:53,240
+challenge here that machine learning may
+
+921
+00:31:53,240 --> 00:31:55,120
+offer the challenge to do things faster
+
+922
+00:31:55,120 --> 00:31:56,800
+and cheaper,
+
+923
+00:31:56,800 --> 00:31:58,800
+but does it meet the test of being fully
+
+924
+00:31:58,800 --> 00:32:02,000
+explainable and reproducible
+
+925
+00:32:02,000 --> 00:32:03,160
+such that
+
+926
+00:32:03,160 --> 00:32:07,400
+you can use it to do Right. Um cuz
+
+927
+00:32:07,400 --> 00:32:09,080
+there's a lot of
+
+928
+00:32:09,080 --> 00:32:11,240
+I think the reason I'm saying this is
+
+929
+00:32:11,240 --> 00:32:12,800
+you know how it is, there's always when
+
+930
+00:32:12,800 --> 00:32:14,760
+it comes to funding
+
+931
+00:32:14,760 --> 00:32:15,960
+there's buzzwords, isn't there? There's
+
+932
+00:32:15,960 --> 00:32:17,280
+there's there's things that attract
+
+933
+00:32:17,280 --> 00:32:19,200
+funding. So for a while RANS was it. I
+
+934
+00:32:19,200 --> 00:32:20,800
+think now it's almost the opposite where
+
+935
+00:32:20,800 --> 00:32:23,320
+if you put RANS in your funding proposal
+
+936
+00:32:23,320 --> 00:32:25,040
+This is what a lot of academics tell me.
+
+937
+00:32:25,040 --> 00:32:26,560
+They say that is a guaranteed way for it
+
+938
+00:32:26,560 --> 00:32:29,080
+not to be funded because they say it's
+
+939
+00:32:29,080 --> 00:32:30,080
+all been done.
+
+940
+00:32:30,080 --> 00:32:30,440
+Yeah.
+
+941
+00:32:30,440 --> 00:32:31,240
+Yeah.
+
+942
+00:32:31,240 --> 00:32:32,600
+And then it was all about scale
+
+943
+00:32:32,600 --> 00:32:35,080
+resolving. And that was the way to get
+
+944
+00:32:35,080 --> 00:32:37,720
+things funded, but it feels like now
+
+945
+00:32:37,720 --> 00:32:38,960
+if you just say you're doing scale
+
+946
+00:32:38,960 --> 00:32:41,480
+resolving, that's not considered novel
+
+947
+00:32:41,480 --> 00:32:42,920
+enough. That's what everyone does it
+
+948
+00:32:42,920 --> 00:32:44,400
+now. Yeah. You see, you have to do
+
+949
+00:32:44,400 --> 00:32:47,000
+machine learning. Mhm. And uh the sort
+
+950
+00:32:47,000 --> 00:32:49,200
+of concern is if all the money is put
+
+951
+00:32:49,200 --> 00:32:51,080
+into the machine learning
+
+952
+00:32:51,080 --> 00:32:53,400
+for partially good reason,
+
+953
+00:32:53,400 --> 00:32:55,760
+does it actually take money away
+
+954
+00:32:55,760 --> 00:32:57,600
+from perhaps some of the methods
+
+955
+00:32:57,600 --> 00:32:59,560
+that ultimately may
+
+956
+00:32:59,560 --> 00:33:01,120
+need to be used because of this
+
+957
+00:33:01,120 --> 00:33:02,840
+reproduce You know what
+
+958
+00:33:02,840 --> 00:33:05,120
+Do you see that? Do you see many of the
+
+959
+00:33:05,120 --> 00:33:07,160
+NASA project or not just NASA, but just
+
+960
+00:33:07,160 --> 00:33:08,040
+projects you're involved in?
+
+961
+00:33:08,040 --> 00:33:09,480
+Well, in general, yeah, I think so. It's
+
+962
+00:33:09,480 --> 00:33:11,160
+like It's like buzzword funding. Yeah,
+
+963
+00:33:11,160 --> 00:33:12,840
+you you
+
+964
+00:33:12,840 --> 00:33:14,680
+you almost have to have to do that to to
+
+965
+00:33:14,680 --> 00:33:16,320
+get funding. And this is one of the
+
+966
+00:33:16,320 --> 00:33:17,800
+concerns about the turbulence model
+
+967
+00:33:17,800 --> 00:33:19,600
+benchmarking working group. It's a big
+
+968
+00:33:19,600 --> 00:33:22,120
+mouthful to say. They um
+
+969
+00:33:22,120 --> 00:33:23,960
+you know, that group in general feels
+
+970
+00:33:23,960 --> 00:33:25,120
+that that
+
+971
+00:33:25,120 --> 00:33:26,400
+RANS, you know, because
+
+972
+00:33:26,400 --> 00:33:27,960
+Reynolds-averaged Navier–Stokes will be around
+
+973
+00:33:27,960 --> 00:33:30,000
+for a long time. It's It's a very useful
+
+974
+00:33:30,000 --> 00:33:32,400
+and usable method. We shouldn't
+
+975
+00:33:32,400 --> 00:33:33,480
+just
+
+976
+00:33:33,480 --> 00:33:35,080
+fix it in time and stagnate it. There
+
+977
+00:33:35,080 --> 00:33:37,120
+should be continued development. And so,
+
+978
+00:33:37,120 --> 00:33:38,320
+there's there
+
+979
+00:33:38,320 --> 00:33:40,080
+It would be nice to have continued
+
+980
+00:33:40,080 --> 00:33:41,920
+funding to some degree to some level for
+
+981
+00:33:41,920 --> 00:33:43,080
+that effort.
+
+982
+00:33:43,080 --> 00:33:45,040
+Mhm. Yeah.
+
+983
+00:33:45,040 --> 00:33:47,000
+I guess this is always the challenge of
+
+984
+00:33:47,000 --> 00:33:48,760
+um
+
+985
+00:33:48,760 --> 00:33:51,080
+existing method versus new methods. You
+
+986
+00:33:51,080 --> 00:33:52,880
+know, you have to sort of keep things
+
+987
+00:33:52,880 --> 00:33:53,960
+going,
+
+988
+00:33:53,960 --> 00:33:56,000
+but if you lose the older methods, yeah,
+
+989
+00:33:56,000 --> 00:33:58,840
+it's it's tricky. Um
+
+990
+00:33:58,840 --> 00:34:00,880
+I I was keen to to take a slightly
+
+991
+00:34:00,880 --> 00:34:05,440
+different turn. Um Uh-oh.
+
+992
+00:34:05,440 --> 00:34:09,000
+No, in a in a positive way. Um
+
+993
+00:34:09,000 --> 00:34:10,240
+Okay.
+
+994
+00:34:10,240 --> 00:34:12,280
+What's the best conference you've ever
+
+995
+00:34:12,280 --> 00:34:14,840
+been to?
+
+996
+00:34:15,520 --> 00:34:18,120
+Okay, the best conference I've ever been
+
+997
+00:34:18,120 --> 00:34:20,159
+to.
+
+998
+00:34:20,159 --> 00:34:23,240
+That's uh not a question I was expecting
+
+999
+00:34:23,240 --> 00:34:25,600
+to
+
+1000
+00:34:26,000 --> 00:34:28,360
+Well, I've been to so many AIAA
+
+1001
+00:34:28,360 --> 00:34:30,480
+conferences, right? I mean, I've been to
+
+1002
+00:34:30,480 --> 00:34:32,800
+Reno probably eight times.
+
+1003
+00:34:32,800 --> 00:34:34,919
+Uh Uh
+
+1004
+00:34:35,760 --> 00:34:38,440
+maybe maybe 50 AIAA conferences in my
+
+1005
+00:34:38,440 --> 00:34:42,320
+life. Um so, it's hard to say if if if
+
+1006
+00:34:42,320 --> 00:34:43,840
+they're I mean, I always enjoy them and
+
+1007
+00:34:43,840 --> 00:34:45,280
+they're and they're very good. So, I
+
+1008
+00:34:45,280 --> 00:34:47,200
+have to think of a novel conference
+
+1009
+00:34:47,200 --> 00:34:50,120
+that's something out of the ordinary
+
+1010
+00:34:50,120 --> 00:34:54,040
+that I've been to. Um
+
+1011
+00:34:54,480 --> 00:34:56,159
+well, I would have to say probably one
+
+1012
+00:34:56,159 --> 00:34:58,200
+of one of the workshop that one of the
+
+1013
+00:34:58,200 --> 00:35:00,280
+first workshops I went to in Europe
+
+1014
+00:35:00,280 --> 00:35:02,880
+where this idea for the
+
+1015
+00:35:02,880 --> 00:35:04,480
+turbulence model
+
+1016
+00:35:04,480 --> 00:35:06,080
+verification
+
+1017
+00:35:06,080 --> 00:35:09,000
+came about. That I think that was a
+
+1018
+00:35:09,000 --> 00:35:10,360
+I always think back fondly on that
+
+1019
+00:35:10,360 --> 00:35:11,520
+workshop. First of all, because it was
+
+1020
+00:35:11,520 --> 00:35:13,120
+in France. Okay.
+
+1021
+00:35:13,120 --> 00:35:14,920
+And uh you know, I hadn't been there
+
+1022
+00:35:14,920 --> 00:35:16,240
+before.
+
+1023
+00:35:16,240 --> 00:35:19,000
+And they had wine for lunch. See, there
+
+1024
+00:35:19,000 --> 00:35:21,280
+we go.
+
+1025
+00:35:22,120 --> 00:35:23,880
+But I just think fondly on it just from
+
+1026
+00:35:23,880 --> 00:35:26,800
+the fact that that was where
+
+1027
+00:35:26,800 --> 00:35:28,560
+you know, the idea first came to me for
+
+1028
+00:35:28,560 --> 00:35:31,960
+the for the turbulence modelling website.
+
+1029
+00:35:31,960 --> 00:35:35,640
+Did the wine help the idea of I don't
+
+1030
+00:35:35,640 --> 00:35:38,320
+think so, no.
+
+1031
+00:35:38,960 --> 00:35:40,280
+Do you remember where in France that
+
+1032
+00:35:40,280 --> 00:35:41,240
+was?
+
+1033
+00:35:41,240 --> 00:35:44,120
+Uh that I think that was in Poitiers.
+
+1034
+00:35:44,120 --> 00:35:45,360
+Okay. Yeah.
+
+1035
+00:35:45,360 --> 00:35:45,760
+Okay.
+
+1036
+00:35:45,760 --> 00:35:48,200
+Yeah. Where Joan of Arc was
+
+1037
+00:35:48,200 --> 00:35:49,960
+tried or burned or something. I don't
+
+1038
+00:35:49,960 --> 00:35:50,440
+know.
+
+1039
+00:35:50,440 --> 00:35:53,200
+Okay. It was part of the tour there.
+
+1040
+00:35:53,200 --> 00:35:56,560
+Yeah, I mean, I love the AIAA, but um
+
+1041
+00:35:56,560 --> 00:35:59,520
+you know, there is something nice. I see
+
+1042
+00:35:59,520 --> 00:36:01,280
+the value The AIAA
+
+1043
+00:36:01,280 --> 00:36:02,720
+conferences are fantastic as a
+
+1044
+00:36:02,720 --> 00:36:04,880
+networking event to see everybody in one
+
+1045
+00:36:04,880 --> 00:36:07,200
+place. It sort of saves you
+
+1046
+00:36:07,200 --> 00:36:08,520
+the you know everyone's going to be
+
+1047
+00:36:08,520 --> 00:36:10,840
+there. That's right. To a certain point.
+
+1048
+00:36:10,840 --> 00:36:12,920
+Um but
+
+1049
+00:36:12,920 --> 00:36:15,120
+there is a value to sometimes these
+
+1050
+00:36:15,120 --> 00:36:17,760
+smaller workshops that have a
+
+1051
+00:36:17,760 --> 00:36:21,280
+a very targeted focus. Um and I must
+
+1052
+00:36:21,280 --> 00:36:23,440
+admit I do kind of like
+
+1053
+00:36:23,440 --> 00:36:25,600
+these ones. Um
+
+1054
+00:36:25,600 --> 00:36:27,640
+I'm a bit of I'm obviously a bit biased
+
+1055
+00:36:27,640 --> 00:36:29,400
+being in Europe myself, but there tends
+
+1056
+00:36:29,400 --> 00:36:30,720
+to be a sort of
+
+1057
+00:36:30,720 --> 00:36:34,280
+a large social aspect to it, which is
+
+1058
+00:36:34,280 --> 00:36:36,440
+quite helpful to to sort of start
+
+1059
+00:36:36,440 --> 00:36:38,720
+ideating ideas. Um
+
+1060
+00:36:38,720 --> 00:36:40,720
+Yeah, and you meet new people because
+
+1061
+00:36:40,720 --> 00:36:42,520
+it's a place you don't ordinarily go and
+
+1062
+00:36:42,520 --> 00:36:44,720
+it's out of your normal wheelhouse. So,
+
+1063
+00:36:44,720 --> 00:36:46,840
+that's always nice, too.
+
+1064
+00:36:46,840 --> 00:36:48,080
+Okay, so
+
+1065
+00:36:48,080 --> 00:36:49,360
+the um
+
+1066
+00:36:49,360 --> 00:36:50,520
+maybe we can find the name. It was
+
+1067
+00:36:50,520 --> 00:36:52,200
+probably in a cough tech thing. I think
+
+1068
+00:36:52,200 --> 00:36:52,800
+I may
+
+1069
+00:36:52,800 --> 00:36:54,720
+I think it was, yeah. That
+
+1070
+00:36:54,720 --> 00:36:57,880
+That reminds me. I've seen some reports.
+
+1071
+00:36:57,880 --> 00:36:59,200
+I can try and find I can maybe put in
+
+1072
+00:36:59,200 --> 00:37:00,920
+the show comments. Okay, what was the
+
+1073
+00:37:00,920 --> 00:37:04,120
+worst conference?
+
+1074
+00:37:05,560 --> 00:37:07,800
+Uh The worst location for a conference.
+
+1075
+00:37:07,800 --> 00:37:11,440
+Uh the worst conference
+
+1076
+00:37:13,480 --> 00:37:16,160
+Well, maybe the uh the one that was held
+
+1077
+00:37:16,160 --> 00:37:18,760
+here in uh in Norfolk. There was an AIAA
+
+1078
+00:37:18,760 --> 00:37:20,520
+held in Norfolk, so it was so close that
+
+1079
+00:37:20,520 --> 00:37:23,160
+we just had to drive to and from it.
+
+1080
+00:37:23,160 --> 00:37:24,640
+And you couldn't even stay. You couldn't
+
+1081
+00:37:24,640 --> 00:37:26,720
+justify Couldn't even justify staying.
+
+1082
+00:37:26,720 --> 00:37:29,160
+You just had to drive from home, yeah.
+
+1083
+00:37:29,160 --> 00:37:31,640
+What about Didn't they used to go um
+
+1084
+00:37:31,640 --> 00:37:33,360
+This was before I think So, what's the
+
+1085
+00:37:33,360 --> 00:37:35,680
+history of Reno? Was it always in Reno?
+
+1086
+00:37:35,680 --> 00:37:37,120
+Was that the thing?
+
+1087
+00:37:37,120 --> 00:37:39,240
+And someone told me that there was like
+
+1088
+00:37:39,240 --> 00:37:40,800
+but it was there for many, many years. I
+
+1089
+00:37:40,800 --> 00:37:44,080
+think AIAA had a nice deal there. Maybe
+
+1090
+00:37:44,080 --> 00:37:45,200
+that was the reason, but it was also
+
+1091
+00:37:45,200 --> 00:37:46,960
+very inexpensive place to stay. I
+
+1092
+00:37:46,960 --> 00:37:50,200
+remember $55 a night was the uh
+
+1093
+00:37:50,200 --> 00:37:52,120
+the cost of the the room for many, many
+
+1094
+00:37:52,120 --> 00:37:54,520
+years.
+
+1095
+00:37:54,720 --> 00:37:55,800
+Wow. Okay.
+
+1096
+00:37:55,800 --> 00:37:57,240
+hard to get to. That was the hard part
+
+1097
+00:37:57,240 --> 00:37:59,600
+because it was in in January.
+
+1098
+00:37:59,600 --> 00:38:01,320
+And then, of course, in Reno depends on
+
+1099
+00:38:01,320 --> 00:38:02,680
+the weather, you know, and it was often
+
+1100
+00:38:02,680 --> 00:38:04,200
+fogged in.
+
+1101
+00:38:04,200 --> 00:38:05,760
+It was one time we had to drive through
+
+1102
+00:38:05,760 --> 00:38:08,080
+a snowstorm from San Francisco to get
+
+1103
+00:38:08,080 --> 00:38:09,600
+there because the flights weren't
+
+1104
+00:38:09,600 --> 00:38:11,320
+weren't going in.
+
+1105
+00:38:11,320 --> 00:38:13,520
+Wow. That's crazy. Yeah,
+
+1106
+00:38:13,520 --> 00:38:15,680
+I think one of my um
+
+1107
+00:38:15,680 --> 00:38:17,200
+favorite conference I don't know if they
+
+1108
+00:38:17,200 --> 00:38:19,200
+still have this philosophy. I think they
+
+1109
+00:38:19,200 --> 00:38:21,800
+did, which was um
+
+1110
+00:38:21,800 --> 00:38:23,920
+ETMM.
+
+1111
+00:38:23,920 --> 00:38:27,560
+This is the European Turbulence
+
+1112
+00:38:27,560 --> 00:38:30,800
+modelling and
+
+1113
+00:38:31,240 --> 00:38:32,960
+I should know what the acronym is. And
+
+1114
+00:38:32,960 --> 00:38:34,320
+something measurement, something like
+
+1115
+00:38:34,320 --> 00:38:35,520
+that.
+
+1116
+00:38:35,520 --> 00:38:38,000
+And someone told me that the if you
+
+1117
+00:38:38,000 --> 00:38:40,480
+wanted to be an organizer, one of the
+
+1118
+00:38:40,480 --> 00:38:43,080
+requirements they had is that ETMM must
+
+1119
+00:38:43,080 --> 00:38:45,680
+always be by the a beach.
+
+1120
+00:38:45,680 --> 00:38:48,560
+That's right. I think I heard that, too.
+
+1121
+00:38:48,560 --> 00:38:49,880
+Yeah. And
+
+1122
+00:38:49,880 --> 00:38:53,480
+but it did make it a very nice
+
+1123
+00:38:53,480 --> 00:38:54,880
+event
+
+1124
+00:38:54,880 --> 00:38:56,680
+to do. So that I think there was one in
+
+1125
+00:38:56,680 --> 00:38:58,600
+I'm not sure if you were there.
+
+1126
+00:38:58,600 --> 00:38:59,960
+Yeah, I went to I went to the one recent
+
+1127
+00:38:59,960 --> 00:39:01,640
+I've I've never been to any of those,
+
+1128
+00:39:01,640 --> 00:39:03,080
+but I went to one recently. I think that
+
+1129
+00:39:03,080 --> 00:39:04,440
+was the one in
+
+1130
+00:39:04,440 --> 00:39:06,640
+near Barcelona. Was that the one in
+
+1131
+00:39:06,640 --> 00:39:08,640
+there was one in Marbella
+
+1132
+00:39:08,640 --> 00:39:11,160
+that I I think I went to. Okay.
+
+1133
+00:39:11,160 --> 00:39:12,560
+That was one. The only one that I'm
+
+1134
+00:39:12,560 --> 00:39:15,000
+jealous of is every time the AIAA seems
+
+1135
+00:39:15,000 --> 00:39:17,120
+to have something in Hawaii. Which is
+
+1136
+00:39:17,120 --> 00:39:19,440
+not very often nowadays. I've never been
+
+1137
+00:39:19,440 --> 00:39:21,560
+able to make but I do seem to remember
+
+1138
+00:39:21,560 --> 00:39:24,440
+that about 10 years ago it was in Hawaii
+
+1139
+00:39:24,440 --> 00:39:26,280
+and all the European people I knew were
+
+1140
+00:39:26,280 --> 00:39:28,120
+trying to desperately put together
+
+1141
+00:39:28,120 --> 00:39:30,240
+abstracts to justify
+
+1142
+00:39:30,240 --> 00:39:32,800
+going. Yeah. Going to Hawaii.
+
+1143
+00:39:32,800 --> 00:39:34,240
+There was a big flak when they first had
+
+1144
+00:39:34,240 --> 00:39:37,320
+it in Hawaii. Some of the NASA managers
+
+1145
+00:39:37,320 --> 00:39:39,440
+were saying this doesn't this isn't
+
+1146
+00:39:39,440 --> 00:39:41,360
+right because it's like you're going to
+
+1147
+00:39:41,360 --> 00:39:43,480
+a resort. It doesn't
+
+1148
+00:39:43,480 --> 00:39:44,400
+you know,
+
+1149
+00:39:44,400 --> 00:39:45,920
+it's not right for a government person
+
+1150
+00:39:45,920 --> 00:39:49,760
+to go to a resort. We have to be
+
+1151
+00:39:49,760 --> 00:39:52,160
+Yeah. Yeah, no, no, no. I especially
+
+1152
+00:39:52,160 --> 00:39:53,520
+whenever there's times of sort of
+
+1153
+00:39:53,520 --> 00:39:56,840
+economic crunch. I guess those uh
+
+1154
+00:39:56,840 --> 00:39:59,120
+those get more challenging. Um
+
+1155
+00:39:59,120 --> 00:40:00,560
+how about
+
+1156
+00:40:00,560 --> 00:40:02,760
+one of the things that I've
+
+1157
+00:40:02,760 --> 00:40:03,800
+I've always
+
+1158
+00:40:03,800 --> 00:40:05,240
+keen to do and I guess part of the
+
+1159
+00:40:05,240 --> 00:40:06,760
+reason for you been doing this podcast
+
+1160
+00:40:06,760 --> 00:40:07,800
+was
+
+1161
+00:40:07,800 --> 00:40:09,440
+to help people who are maybe a bit
+
+1162
+00:40:09,440 --> 00:40:11,240
+earlier in their careers and they're not
+
+1163
+00:40:11,240 --> 00:40:15,480
+so clear sort of you know, how to
+
+1164
+00:40:15,480 --> 00:40:17,360
+progress in you know, throughout
+
+1165
+00:40:17,360 --> 00:40:19,400
+throughout career. Mhm. What would be
+
+1166
+00:40:19,400 --> 00:40:21,280
+your advice, and I don't know if you do
+
+1167
+00:40:21,280 --> 00:40:24,400
+mentor people or help people in terms of
+
+1168
+00:40:24,400 --> 00:40:26,840
+working for NASA? Do you What are the
+
+1169
+00:40:26,840 --> 00:40:29,080
+routes? So, if you're, let's say, an
+
+1170
+00:40:29,080 --> 00:40:32,360
+undergraduate or school um kid in the
+
+1171
+00:40:32,360 --> 00:40:33,400
+US,
+
+1172
+00:40:33,400 --> 00:40:36,880
+what routes are there to ultimately get
+
+1173
+00:40:36,880 --> 00:40:39,720
+to to NASA?
+
+1174
+00:40:40,120 --> 00:40:41,760
+Well, I think part of part of working
+
+1175
+00:40:41,760 --> 00:40:43,680
+for NASA is is
+
+1176
+00:40:43,680 --> 00:40:45,960
+being lucky because they don't hire very
+
+1177
+00:40:45,960 --> 00:40:48,560
+often and and it's it's very competitive
+
+1178
+00:40:48,560 --> 00:40:51,000
+to get in, but um
+
+1179
+00:40:51,000 --> 00:40:52,960
+uh the job itself is great, you know,
+
+1180
+00:40:52,960 --> 00:40:54,320
+because there's a certain amount of a
+
+1181
+00:40:54,320 --> 00:40:57,160
+autonomy. It's probably similar to being
+
+1182
+00:40:57,160 --> 00:40:59,520
+uh in in a university to some degree,
+
+1183
+00:40:59,520 --> 00:41:01,360
+although maybe a little less
+
+1184
+00:41:01,360 --> 00:41:03,880
+pressure from the point of view of
+
+1185
+00:41:03,880 --> 00:41:04,960
+Having to get
+
+1186
+00:41:04,960 --> 00:41:08,480
+get funding, yeah. Yeah. Yeah. But uh
+
+1187
+00:41:08,480 --> 00:41:10,000
+yeah, I mean, I guess
+
+1188
+00:41:10,000 --> 00:41:10,800
+I
+
+1189
+00:41:10,800 --> 00:41:12,440
+the kind of advice I would give would be
+
+1190
+00:41:12,440 --> 00:41:14,600
+I mean, to always say
+
+1191
+00:41:14,600 --> 00:41:15,880
+at least when you're young, to always
+
+1192
+00:41:15,880 --> 00:41:18,680
+say yes, you know, to anything and sign
+
+1193
+00:41:18,680 --> 00:41:20,440
+up for things and and try new things
+
+1194
+00:41:20,440 --> 00:41:21,920
+that are um
+
+1195
+00:41:21,920 --> 00:41:23,680
+that are challenging that
+
+1196
+00:41:23,680 --> 00:41:24,680
+uh
+
+1197
+00:41:24,680 --> 00:41:26,400
+no one else wants to do because you
+
+1198
+00:41:26,400 --> 00:41:29,080
+you'll always learn something from it.
+
+1199
+00:41:29,080 --> 00:41:31,200
+And then also, I think hook on to things
+
+1200
+00:41:31,200 --> 00:41:34,240
+that happen by chance and and
+
+1201
+00:41:34,240 --> 00:41:35,720
+if if you see something that happens by
+
+1202
+00:41:35,720 --> 00:41:37,720
+chance, then it's uh
+
+1203
+00:41:37,720 --> 00:41:40,680
+a potential route to follow, you know,
+
+1204
+00:41:40,680 --> 00:41:42,320
+follow it if you can.
+
+1205
+00:41:42,320 --> 00:41:44,760
+Mhm. But, do you have Are you aware of
+
+1206
+00:41:44,760 --> 00:41:46,680
+like even in Langley, do they do
+
+1207
+00:41:46,680 --> 00:41:48,360
+internships? Do you You know, if you're
+
+1208
+00:41:48,360 --> 00:41:50,920
+like an undergraduate, can you come over
+
+1209
+00:41:50,920 --> 00:41:52,640
+to do Are there those sort of programs?
+
+1210
+00:41:52,640 --> 00:41:53,720
+Yeah, they do have they do have
+
+1211
+00:41:53,720 --> 00:41:55,440
+internships. Um
+
+1212
+00:41:55,440 --> 00:41:57,960
+there's a it's an official site I mean,
+
+1213
+00:41:57,960 --> 00:41:59,080
+it's changed over the years how they've
+
+1214
+00:41:59,080 --> 00:42:02,760
+done it. Uh but but there's a a
+
+1215
+00:42:02,760 --> 00:42:04,240
+uh internship program where they bring
+
+1216
+00:42:04,240 --> 00:42:07,040
+in even high school students, college
+
+1217
+00:42:07,040 --> 00:42:09,280
+students, various different levels.
+
+1218
+00:42:09,280 --> 00:42:10,120
+Mhm.
+
+1219
+00:42:10,120 --> 00:42:12,280
+And how does it I think I know the
+
+1220
+00:42:12,280 --> 00:42:13,360
+answer to this, but maybe it's
+
+1221
+00:42:13,360 --> 00:42:15,720
+interesting for others to know. So,
+
+1222
+00:42:15,720 --> 00:42:17,400
+you join at NASA,
+
+1223
+00:42:17,400 --> 00:42:19,680
+correct? And
+
+1224
+00:42:19,680 --> 00:42:21,720
+am I right in that
+
+1225
+00:42:21,720 --> 00:42:24,960
+when you first join, you either
+
+1226
+00:42:24,960 --> 00:42:26,840
+you quite often join
+
+1227
+00:42:26,840 --> 00:42:28,960
+as um
+
+1228
+00:42:28,960 --> 00:42:30,480
+like a contractor almost? Would that be
+
+1229
+00:42:30,480 --> 00:42:33,160
+right to say that that there's a sort of
+
+1230
+00:42:33,160 --> 00:42:34,280
+Do you Do you know what I'm getting at?
+
+1231
+00:42:34,280 --> 00:42:34,440
+And
+
+1232
+00:42:34,440 --> 00:42:36,360
+Right. Right. Yeah. Yeah. Could you
+
+1233
+00:42:36,360 --> 00:42:37,000
+explain maybe
+
+1234
+00:42:37,000 --> 00:42:38,600
+have civil servants and they have
+
+1235
+00:42:38,600 --> 00:42:40,440
+contractors, yeah. Now, the civil
+
+1236
+00:42:40,440 --> 00:42:42,400
+servants are the are the difficult the
+
+1237
+00:42:42,400 --> 00:42:43,960
+ones that don't open up so often. There
+
+1238
+00:42:43,960 --> 00:42:46,000
+aren't often uh positions or the
+
+1239
+00:42:46,000 --> 00:42:48,320
+positions are very few and far between.
+
+1240
+00:42:48,320 --> 00:42:49,880
+Uh so often
+
+1241
+00:42:49,880 --> 00:42:50,520
+uh
+
+1242
+00:42:50,520 --> 00:42:52,160
+they'll have contractor positions. And I
+
+1243
+00:42:52,160 --> 00:42:54,040
+think even now they've even changed the
+
+1244
+00:42:54,040 --> 00:42:55,680
+positions uh
+
+1245
+00:42:55,680 --> 00:42:57,600
+maybe not to not be a lifetime position.
+
+1246
+00:42:57,600 --> 00:42:59,760
+They'll be like term hires.
+
+1247
+00:42:59,760 --> 00:43:01,600
+As a way of um
+
+1248
+00:43:01,600 --> 00:43:04,000
+trying to limit the
+
+1249
+00:43:04,000 --> 00:43:06,200
+the the number of
+
+1250
+00:43:06,200 --> 00:43:07,120
+civil servants.
+
+1251
+00:43:07,120 --> 00:43:09,200
+civil servants, yeah. So, term hires or
+
+1252
+00:43:09,200 --> 00:43:10,640
+which would be you know, it'll be a
+
+1253
+00:43:10,640 --> 00:43:13,160
+5-year position, renewable depending on
+
+1254
+00:43:13,160 --> 00:43:15,480
+your uh
+
+1255
+00:43:15,480 --> 00:43:17,280
+Ah, okay.
+
+1256
+00:43:17,280 --> 00:43:19,840
+how how well you do or you know, your
+
+1257
+00:43:19,840 --> 00:43:23,040
+the needs for the pro- of the projects.
+
+1258
+00:43:23,040 --> 00:43:24,280
+I don't I guess this must be very
+
+1259
+00:43:24,280 --> 00:43:26,040
+difficult across NASA, but I you
+
+1260
+00:43:26,040 --> 00:43:27,200
+mentioned that and I've always wondered
+
+1261
+00:43:27,200 --> 00:43:28,400
+myself
+
+1262
+00:43:28,400 --> 00:43:31,080
+like with a university. So, is it meant
+
+1263
+00:43:31,080 --> 00:43:33,880
+Is it essentially that
+
+1264
+00:43:33,880 --> 00:43:36,000
+as a
+
+1265
+00:43:36,000 --> 00:43:37,360
+you're sort of treated as your own
+
+1266
+00:43:37,360 --> 00:43:39,360
+specialist where you sort of have a a
+
+1267
+00:43:39,360 --> 00:43:41,000
+freedom
+
+1268
+00:43:41,000 --> 00:43:44,320
+to work on your own projects as well as
+
+1269
+00:43:44,320 --> 00:43:46,320
+you're assigned projects to work on? Is
+
+1270
+00:43:46,320 --> 00:43:47,760
+that kind of how it is? There's a bit of
+
+1271
+00:43:47,760 --> 00:43:49,680
+a blend between the two. There's some
+
+1272
+00:43:49,680 --> 00:43:51,840
+independent work and there's some
+
+1273
+00:43:51,840 --> 00:43:53,880
+some project work?
+
+1274
+00:43:53,880 --> 00:43:55,800
+Yeah, well, I think the way it it
+
+1275
+00:43:55,800 --> 00:43:58,560
+optimally works is well, 50% of your
+
+1276
+00:43:58,560 --> 00:44:00,320
+time is spent reading emails, right?
+
+1277
+00:44:00,320 --> 00:44:02,680
+Like but nowadays.
+
+1278
+00:44:02,680 --> 00:44:04,240
+But among the among the time when you
+
+1279
+00:44:04,240 --> 00:44:05,720
+actually do work,
+
+1280
+00:44:05,720 --> 00:44:06,280
+uh
+
+1281
+00:44:06,280 --> 00:44:08,480
+so the projects, you know,
+
+1282
+00:44:08,480 --> 00:44:09,720
+when you're first hired especially, you
+
+1283
+00:44:09,720 --> 00:44:11,160
+know, you you're you're given a project
+
+1284
+00:44:11,160 --> 00:44:12,280
+and you're you're expected to work on
+
+1285
+00:44:12,280 --> 00:44:13,920
+the project. I think as you become more
+
+1286
+00:44:13,920 --> 00:44:15,600
+and more senior, you you have more of a
+
+1287
+00:44:15,600 --> 00:44:18,160
+say in contributing to what the projects
+
+1288
+00:44:18,160 --> 00:44:19,920
+are doing, right? Cuz projects often get
+
+1289
+00:44:19,920 --> 00:44:22,040
+their ideas from the
+
+1290
+00:44:22,040 --> 00:44:23,600
+the the people that work there, you
+
+1291
+00:44:23,600 --> 00:44:25,360
+know, the senior members will help
+
+1292
+00:44:25,360 --> 00:44:27,680
+define what the project's
+
+1293
+00:44:27,680 --> 00:44:29,080
+goals are.
+
+1294
+00:44:29,080 --> 00:44:32,080
+Uh, but then every individual also is
+
+1295
+00:44:32,080 --> 00:44:33,400
+given
+
+1296
+00:44:33,400 --> 00:44:36,240
+I mean, again, this is in theory, given
+
+1297
+00:44:36,240 --> 00:44:38,440
+like 15% of their time to do whatever
+
+1298
+00:44:38,440 --> 00:44:40,440
+they want, you know, this is a white
+
+1299
+00:44:40,440 --> 00:44:43,280
+space type of activity where they
+
+1300
+00:44:43,280 --> 00:44:45,800
+encourage you to go try something that
+
+1301
+00:44:45,800 --> 00:44:47,480
+that you saw that you
+
+1302
+00:44:47,480 --> 00:44:49,720
+didn't you know, it's not necessarily a
+
+1303
+00:44:49,720 --> 00:44:51,280
+project
+
+1304
+00:44:51,280 --> 00:44:53,000
+goal, but something that you think might
+
+1305
+00:44:53,000 --> 00:44:55,520
+turn out good and give give something.
+
+1306
+00:44:55,520 --> 00:44:57,120
+So, the problem, of course, is finding
+
+1307
+00:44:57,120 --> 00:44:59,040
+that 15% sometimes,
+
+1308
+00:44:59,040 --> 00:45:00,120
+especially with the with the all the
+
+1309
+00:45:00,120 --> 00:45:02,160
+emails.
+
+1310
+00:45:02,160 --> 00:45:04,200
+Yeah, I know I can
+
+1311
+00:45:04,200 --> 00:45:05,160
+I can imagine.
+
+1312
+00:45:05,160 --> 00:45:07,560
+Did you ever
+
+1313
+00:45:07,560 --> 00:45:10,160
+There's often a debate, academia,
+
+1314
+00:45:10,160 --> 00:45:12,720
+industry, government. Mhm.
+
+1315
+00:45:12,720 --> 00:45:16,360
+Were you ever tempted to go to an
+
+1316
+00:45:16,360 --> 00:45:18,920
+industry position, you know, to to leave
+
+1317
+00:45:18,920 --> 00:45:21,480
+NASA?
+
+1318
+00:45:21,560 --> 00:45:23,800
+Yeah, I'd say you know,
+
+1319
+00:45:23,800 --> 00:45:25,440
+throughout my career I've had several
+
+1320
+00:45:25,440 --> 00:45:27,360
+times when I thought, well, I've done
+
+1321
+00:45:27,360 --> 00:45:29,120
+this long enough, I should I should do
+
+1322
+00:45:29,120 --> 00:45:31,840
+something different and thought about
+
+1323
+00:45:31,840 --> 00:45:33,640
+what if I worked at Pixar, you know, I
+
+1324
+00:45:33,640 --> 00:45:33,920
+mean
+
+1325
+00:45:33,920 --> 00:45:36,280
+Oh, wow.
+
+1326
+00:45:36,600 --> 00:45:38,120
+or or Tesla or something, you know.
+
+1327
+00:45:38,120 --> 00:45:40,800
+Yeah. Yeah, but never got beyond the
+
+1328
+00:45:40,800 --> 00:45:43,640
+point of just kind of thinking about it.
+
+1329
+00:45:43,640 --> 00:45:45,760
+But, uh,
+
+1330
+00:45:45,760 --> 00:45:48,120
+yeah, yeah, and then at one point so
+
+1331
+00:45:48,120 --> 00:45:49,720
+some folks have left NASA and worked at
+
+1332
+00:45:49,720 --> 00:45:51,960
+universities, um, and then sometimes
+
+1333
+00:45:51,960 --> 00:45:54,120
+they come back and or they've
+
+1334
+00:45:54,120 --> 00:45:56,160
+migrated from universities to NASA. It's
+
+1335
+00:45:56,160 --> 00:45:57,520
+very different. I mean, we're we're
+
+1336
+00:45:57,520 --> 00:45:59,800
+similar to university. I think we're
+
+1337
+00:45:59,800 --> 00:46:01,520
+there's a lot
+
+1338
+00:46:01,520 --> 00:46:04,320
+uh, it's kind of an academic feel to
+
+1339
+00:46:04,320 --> 00:46:06,640
+working at NASA. Very very academic
+
+1340
+00:46:06,640 --> 00:46:08,800
+environment in general.
+
+1341
+00:46:08,800 --> 00:46:12,440
+But we do have very definitive project
+
+1342
+00:46:12,440 --> 00:46:15,480
+goals and project thrusts.
+
+1343
+00:46:15,480 --> 00:46:18,240
+So therefore there's milestones and and
+
+1344
+00:46:18,240 --> 00:46:20,880
+needs you know NASA type
+
+1345
+00:46:20,880 --> 00:46:22,880
+you know
+
+1346
+00:46:22,880 --> 00:46:25,640
+thrust and goals that that that define
+
+1347
+00:46:25,640 --> 00:46:27,040
+you where which where you may not have
+
+1348
+00:46:27,040 --> 00:46:29,040
+that in in a in university environment
+
+1349
+00:46:29,040 --> 00:46:30,040
+but then of course university
+
+1350
+00:46:30,040 --> 00:46:31,560
+environment there's other pressures of
+
+1351
+00:46:31,560 --> 00:46:34,080
+trying to get funding from places like
+
+1352
+00:46:34,080 --> 00:46:35,160
+NASA.
+
+1353
+00:46:35,160 --> 00:46:35,600
+Yeah.
+
+1354
+00:46:35,600 --> 00:46:36,920
+of course industry there's always the
+
+1355
+00:46:36,920 --> 00:46:38,080
+worry of
+
+1356
+00:46:38,080 --> 00:46:40,760
+the ups and down swings in the in the in
+
+1357
+00:46:40,760 --> 00:46:42,440
+the industry.
+
+1358
+00:46:42,440 --> 00:46:44,280
+So what's kept you is there a certain
+
+1359
+00:46:44,280 --> 00:46:45,400
+thing of
+
+1360
+00:46:45,400 --> 00:46:47,720
+are you over the NASA thing or do you
+
+1361
+00:46:47,720 --> 00:46:49,680
+have any moments like I don't know if
+
+1362
+00:46:49,680 --> 00:46:52,080
+you ever work then wear the NASA t-shirt
+
+1363
+00:46:52,080 --> 00:46:53,880
+when you go through are there any times
+
+1364
+00:46:53,880 --> 00:46:55,520
+when you you sort of have that moment
+
+1365
+00:46:55,520 --> 00:46:56,680
+you go oh actually this is pretty cool
+
+1366
+00:46:56,680 --> 00:46:58,280
+that I work. Is there anything that
+
+1367
+00:46:58,280 --> 00:47:01,040
+keeps you basically at NASA like that?
+
+1368
+00:47:01,040 --> 00:47:02,720
+Yeah I think that there's that that
+
+1369
+00:47:02,720 --> 00:47:03,960
+factor.
+
+1370
+00:47:03,960 --> 00:47:05,560
+There there's been a lot of a lot of
+
+1371
+00:47:05,560 --> 00:47:06,960
+times where you run into people and you
+
+1372
+00:47:06,960 --> 00:47:09,040
+say you work at NASA and they all go woo
+
+1373
+00:47:09,040 --> 00:47:10,800
+you know. And then you say well that's
+
+1374
+00:47:10,800 --> 00:47:12,320
+the aeronautical side of NASA and they
+
+1375
+00:47:12,320 --> 00:47:14,040
+say the what?
+
+1376
+00:47:14,040 --> 00:47:16,560
+I was going to ask you about
+
+1377
+00:47:16,560 --> 00:47:18,200
+Yeah everyone thinks of the the space
+
+1378
+00:47:18,200 --> 00:47:20,280
+space part of it. But I I think I I've
+
+1379
+00:47:20,280 --> 00:47:22,640
+really enjoyed working here. It's been a
+
+1380
+00:47:22,640 --> 00:47:23,880
+you know
+
+1381
+00:47:23,880 --> 00:47:25,240
+it's nothing's perfect and there's
+
+1382
+00:47:25,240 --> 00:47:26,720
+always you know the grass is greener
+
+1383
+00:47:26,720 --> 00:47:27,880
+thoughts.
+
+1384
+00:47:27,880 --> 00:47:29,800
+But but overall I'd say it's been a a
+
+1385
+00:47:29,800 --> 00:47:31,800
+really good place to work. You said
+
+1386
+00:47:31,800 --> 00:47:33,040
+right at the beginning that you
+
+1387
+00:47:33,040 --> 00:47:36,480
+attempted to to go into art. So have you
+
+1388
+00:47:36,480 --> 00:47:37,960
+managed to
+
+1389
+00:47:37,960 --> 00:47:40,800
+keep that balance? Do do you still draw?
+
+1390
+00:47:40,800 --> 00:47:42,160
+Do you
+
+1391
+00:47:42,160 --> 00:47:43,480
+have you managed to sort of keep that
+
+1392
+00:47:43,480 --> 00:47:44,960
+hobby
+
+1393
+00:47:44,960 --> 00:47:46,840
+alive?
+
+1394
+00:47:46,840 --> 00:47:50,040
+Yes and no. It's it's gone in cycles
+
+1395
+00:47:50,040 --> 00:47:52,840
+like anything. It it it's it's energy
+
+1396
+00:47:52,840 --> 00:47:55,000
+right? I mean if if I have
+
+1397
+00:47:55,000 --> 00:47:56,440
+Uh been a time in my life when I had a
+
+1398
+00:47:56,440 --> 00:47:59,080
+lot of energy and every night I would do
+
+1399
+00:47:59,080 --> 00:48:00,080
+um
+
+1400
+00:48:00,080 --> 00:48:02,600
+some kind of art project or or something
+
+1401
+00:48:02,600 --> 00:48:04,680
+just just for fun. Try to enter in
+
+1402
+00:48:04,680 --> 00:48:07,600
+shows. At one point I was a a member of
+
+1403
+00:48:07,600 --> 00:48:08,400
+uh
+
+1404
+00:48:08,400 --> 00:48:10,480
+art alliance from the Hampton Roads
+
+1405
+00:48:10,480 --> 00:48:12,800
+area. So I would be constantly going to
+
+1406
+00:48:12,800 --> 00:48:15,040
+and from there. But then, you know,
+
+1407
+00:48:15,040 --> 00:48:17,280
+you get tired of that and
+
+1408
+00:48:17,280 --> 00:48:18,840
+the cycle cycles
+
+1409
+00:48:18,840 --> 00:48:20,160
+cycle out of that and then everything
+
+1410
+00:48:20,160 --> 00:48:21,520
+gets packed up and put on a shelf
+
+1411
+00:48:21,520 --> 00:48:23,320
+somewhere and you don't do much.
+
+1412
+00:48:23,320 --> 00:48:25,800
+Mhm. But
+
+1413
+00:48:25,800 --> 00:48:27,880
+Do you think that advice is right though
+
+1414
+00:48:27,880 --> 00:48:29,680
+about
+
+1415
+00:48:29,680 --> 00:48:31,720
+art you know, a job that pays well and
+
+1416
+00:48:31,720 --> 00:48:33,360
+not do art? Cuz I
+
+1417
+00:48:33,360 --> 00:48:34,960
+I've heard this a lot that some people
+
+1418
+00:48:34,960 --> 00:48:37,840
+are encouraged away from the arts
+
+1419
+00:48:37,840 --> 00:48:40,080
+to go to a safe job like being a doctor
+
+1420
+00:48:40,080 --> 00:48:42,000
+or being a thing. I mean, when you look,
+
+1421
+00:48:42,000 --> 00:48:44,160
+do you think that was the right choice
+
+1422
+00:48:44,160 --> 00:48:46,480
+or do you know friends and family who
+
+1423
+00:48:46,480 --> 00:48:47,360
+have
+
+1424
+00:48:47,360 --> 00:48:49,880
+you know, made a living out of
+
+1425
+00:48:49,880 --> 00:48:51,480
+uh art?
+
+1426
+00:48:51,480 --> 00:48:53,600
+My sister's made a living out of art.
+
+1427
+00:48:53,600 --> 00:48:55,880
+She's she's um done very well. She's
+
+1428
+00:48:55,880 --> 00:48:58,320
+actually a professor of art up at uh
+
+1429
+00:48:58,320 --> 00:49:01,120
+Oh, wow. in in your your in a college.
+
+1430
+00:49:01,120 --> 00:49:03,920
+Yeah, it's um
+
+1431
+00:49:03,920 --> 00:49:04,840
+I don't know if that was the right
+
+1432
+00:49:04,840 --> 00:49:06,360
+decision or not. I mean, the the the
+
+1433
+00:49:06,360 --> 00:49:08,480
+professor that I I trusted the professor
+
+1434
+00:49:08,480 --> 00:49:10,280
+who who told me that and I felt that
+
+1435
+00:49:10,280 --> 00:49:12,520
+that was the right decision at the time.
+
+1436
+00:49:12,520 --> 00:49:14,320
+I you know, obviously if I had if I had
+
+1437
+00:49:14,320 --> 00:49:15,880
+made a different decision everything
+
+1438
+00:49:15,880 --> 00:49:16,840
+would you know, wouldn't have the same
+
+1439
+00:49:16,840 --> 00:49:19,600
+family and wouldn't be you know, So it's
+
+1440
+00:49:19,600 --> 00:49:20,960
+right from that perspective that what I
+
+1441
+00:49:20,960 --> 00:49:22,800
+did.
+
+1442
+00:49:22,800 --> 00:49:24,840
+But yeah, I I don't know. It's it's
+
+1443
+00:49:24,840 --> 00:49:27,680
+really hard to hard back in time and
+
+1444
+00:49:27,680 --> 00:49:29,800
+Mhm. and say You know, you contributed a
+
+1445
+00:49:29,800 --> 00:49:31,040
+lot. You've done a huge amount of
+
+1446
+00:49:31,040 --> 00:49:32,960
+things. Is there anything that you still
+
+1447
+00:49:32,960 --> 00:49:35,000
+feel is unfinished? Is there Is there
+
+1448
+00:49:35,000 --> 00:49:37,000
+anything that you like I really I have
+
+1449
+00:49:37,000 --> 00:49:38,840
+certain things I really would like to go
+
+1450
+00:49:38,840 --> 00:49:42,640
+and do or achieve that I haven't yet
+
+1451
+00:49:42,640 --> 00:49:44,000
+done?
+
+1452
+00:49:44,000 --> 00:49:46,480
+No, I don't think so. I mean,
+
+1453
+00:49:46,480 --> 00:49:50,080
+when I was younger, I would be um
+
+1454
+00:49:50,080 --> 00:49:51,640
+uh of course there's always the dream to
+
+1455
+00:49:51,640 --> 00:49:55,360
+become uh another uh Brown Van Lear or
+
+1456
+00:49:55,360 --> 00:49:56,760
+you know
+
+1457
+00:49:56,760 --> 00:49:58,040
+some
+
+1458
+00:49:58,040 --> 00:49:58,600
+surname
+
+1459
+00:49:58,600 --> 00:50:00,560
+Einstein or something.
+
+1460
+00:50:00,560 --> 00:50:02,640
+Yeah. You know, but that that eventually
+
+1461
+00:50:02,640 --> 00:50:04,440
+you say, "Okay, this this is what I'm
+
+1462
+00:50:04,440 --> 00:50:05,680
+good at. I
+
+1463
+00:50:05,680 --> 00:50:08,040
+I'm well organized. I can figure out how
+
+1464
+00:50:08,040 --> 00:50:11,520
+to do do these certain things and and
+
+1465
+00:50:11,520 --> 00:50:12,680
+you know, I I
+
+1466
+00:50:12,680 --> 00:50:14,520
+I'll just enjoy what I'm able to do as
+
+1467
+00:50:14,520 --> 00:50:17,120
+best I can do it, but
+
+1468
+00:50:17,120 --> 00:50:18,520
+I'm not going to solve turbulence
+
+1469
+00:50:18,520 --> 00:50:21,080
+modelling.
+
+1470
+00:50:21,160 --> 00:50:22,400
+That was also a dream, too, at one
+
+1471
+00:50:22,400 --> 00:50:24,480
+point. Like, "Oh, this model is going to
+
+1472
+00:50:24,480 --> 00:50:26,240
+Everyone's going to use it. It'll be the
+
+1473
+00:50:26,240 --> 00:50:28,720
+best thing to come along." But now, it's
+
+1474
+00:50:28,720 --> 00:50:30,120
+it's um
+
+1475
+00:50:30,120 --> 00:50:33,200
+So, just just
+
+1476
+00:50:33,520 --> 00:50:35,440
+bow out gracefully at some point, say,
+
+1477
+00:50:35,440 --> 00:50:38,560
+"Oh, well, this this is
+
+1478
+00:50:38,640 --> 00:50:40,360
+Yeah, no, it's it's it's true, isn't it?
+
+1479
+00:50:40,360 --> 00:50:42,280
+It's like almost
+
+1480
+00:50:42,280 --> 00:50:44,960
+That's why I enjoy speaking to people
+
+1481
+00:50:44,960 --> 00:50:46,040
+like
+
+1482
+00:50:46,040 --> 00:50:47,880
+Florian or Philippe who
+
+1483
+00:50:47,880 --> 00:50:50,840
+who are the rare individuals that you
+
+1484
+00:50:50,840 --> 00:50:52,600
+could say have
+
+1485
+00:50:52,600 --> 00:50:55,960
+done that thing of having a surname
+
+1486
+00:50:55,960 --> 00:50:58,160
+after a model, but I guess the sad
+
+1487
+00:50:58,160 --> 00:51:00,280
+reality is that for most people that is
+
+1488
+00:51:00,280 --> 00:51:01,920
+never the case. And I I remember the
+
+1489
+00:51:01,920 --> 00:51:03,960
+same thing during my PhD thing, "Oh,
+
+1490
+00:51:03,960 --> 00:51:06,040
+yeah, well, if I sort of move this
+
+1491
+00:51:06,040 --> 00:51:07,920
+equation around, if I can fit this line,
+
+1492
+00:51:07,920 --> 00:51:09,480
+maybe this could be a new model." And
+
+1493
+00:51:09,480 --> 00:51:10,320
+you know,
+
+1494
+00:51:10,320 --> 00:51:12,040
+this could this could be it, but it's
+
+1495
+00:51:12,040 --> 00:51:13,560
+actually much harder than you realize,
+
+1496
+00:51:13,560 --> 00:51:14,480
+isn't it,
+
+1497
+00:51:14,480 --> 00:51:14,720
+to do it?
+
+1498
+00:51:14,720 --> 00:51:16,920
+Oh, yeah. Yeah, definitely.
+
+1499
+00:51:16,920 --> 00:51:18,920
+And you know, it's respect to those
+
+1500
+00:51:18,920 --> 00:51:20,920
+people, but I don't think whilst it's
+
+1501
+00:51:20,920 --> 00:51:22,960
+amazing what they've done, I think
+
+1502
+00:51:22,960 --> 00:51:26,920
+actually what you've done, which not to
+
+1503
+00:51:26,920 --> 00:51:28,720
+uh put what you've done just in one
+
+1504
+00:51:28,720 --> 00:51:30,400
+circle, but I think
+
+1505
+00:51:30,400 --> 00:51:31,840
+where I genuinely think you've done a
+
+1506
+00:51:31,840 --> 00:51:32,960
+lot of
+
+1507
+00:51:32,960 --> 00:51:35,320
+help to the community is the curation of
+
+1508
+00:51:35,320 --> 00:51:36,480
+knowledge.
+
+1509
+00:51:36,480 --> 00:51:38,080
+You know, you can have the best models
+
+1510
+00:51:38,080 --> 00:51:39,800
+in the world. You can do the best
+
+1511
+00:51:39,800 --> 00:51:41,280
+research,
+
+1512
+00:51:41,280 --> 00:51:42,920
+but I don't know if you've consciously
+
+1513
+00:51:42,920 --> 00:51:45,320
+focused on this or not,
+
+1514
+00:51:45,320 --> 00:51:46,880
+but you've seemed to have done a lot
+
+1515
+00:51:46,880 --> 00:51:49,240
+about documenting it.
+
+1516
+00:51:49,240 --> 00:51:50,200
+You know,
+
+1517
+00:51:50,200 --> 00:51:51,720
+like when I look at what you've done
+
+1518
+00:51:51,720 --> 00:51:53,080
+with the turbulence modelling website,
+
+1519
+00:51:53,080 --> 00:51:55,760
+with the high-lift, with CGNS, with the
+
+1520
+00:51:55,760 --> 00:51:59,480
+codes, like you seem to be very good at
+
+1521
+00:51:59,480 --> 00:52:02,480
+documenting and curating that knowledge
+
+1522
+00:52:02,480 --> 00:52:04,560
+and almost that public dissemination
+
+1523
+00:52:04,560 --> 00:52:06,880
+knowledge. Is that a conscious
+
+1524
+00:52:06,880 --> 00:52:09,560
+thing you do or you just sort of slipped
+
+1525
+00:52:09,560 --> 00:52:11,840
+in to the to the
+
+1526
+00:52:11,840 --> 00:52:13,320
+Probably probably just slipped slipped
+
+1527
+00:52:13,320 --> 00:52:15,440
+in. Yeah. I mean, I saw the need for it
+
+1528
+00:52:15,440 --> 00:52:17,960
+maybe and just did it because it it
+
+1529
+00:52:17,960 --> 00:52:19,760
+seemed like the right thing to do. But,
+
+1530
+00:52:19,760 --> 00:52:22,240
+I I I think kudos to you for that cuz
+
+1531
+00:52:22,240 --> 00:52:25,200
+genuinely, if I look at all these
+
+1532
+00:52:25,200 --> 00:52:27,240
+new methods, these new startups, new
+
+1533
+00:52:27,240 --> 00:52:30,280
+methods, they almost all are showing
+
+1534
+00:52:30,280 --> 00:52:31,600
+that they've validated their thing
+
+1535
+00:52:31,600 --> 00:52:34,080
+against some basic turbulence modelling
+
+1536
+00:52:34,080 --> 00:52:35,640
+website case.
+
+1537
+00:52:35,640 --> 00:52:38,560
+They've almost all taken some high-lift
+
+1538
+00:52:38,560 --> 00:52:40,320
+case and running it. And I know it's a
+
+1539
+00:52:40,320 --> 00:52:43,080
+team effort, but a lot of that has been
+
+1540
+00:52:43,080 --> 00:52:45,440
+basically put on a website, curated,
+
+1541
+00:52:45,440 --> 00:52:46,960
+organized
+
+1542
+00:52:46,960 --> 00:52:49,280
+by you and a few others. So, I would
+
+1543
+00:52:49,280 --> 00:52:52,120
+argue whilst your surname may not be on
+
+1544
+00:52:52,120 --> 00:52:53,920
+a particular turbulence model, I think
+
+1545
+00:52:53,920 --> 00:52:55,280
+you've still actually had AI think you
+
+1546
+00:52:55,280 --> 00:52:58,280
+can have a tap on the back for
+
+1547
+00:52:58,280 --> 00:53:00,120
+for contributing. That's That's nice of
+
+1548
+00:53:00,120 --> 00:53:02,000
+you to say that.
+
+1549
+00:53:02,000 --> 00:53:03,680
+And I I think others would would agree
+
+1550
+00:53:03,680 --> 00:53:06,680
+with me, too. So, I Yeah, I really um I
+
+1551
+00:53:06,680 --> 00:53:09,480
+really appreciate you speaking and um I
+
+1552
+00:53:09,480 --> 00:53:10,880
+have certainly learned something new. I
+
+1553
+00:53:10,880 --> 00:53:14,040
+had no idea about the arc connection. I
+
+1554
+00:53:14,040 --> 00:53:16,560
+didn't know that maybe you could have
+
+1555
+00:53:16,560 --> 00:53:20,200
+been a spy. That's
+
+1556
+00:53:20,440 --> 00:53:21,240
+Never too late.
+
+1557
+00:53:21,240 --> 00:53:24,080
+Not a good one, though.
+
+1558
+00:53:24,360 --> 00:53:27,840
+Um but, yeah, and uh I hope we can um
+
+1559
+00:53:27,840 --> 00:53:30,040
+uh have a good chance to catch up at the
+
+1560
+00:53:30,040 --> 00:53:31,920
+uh at the high-lift workshop.
+
+1561
+00:53:31,920 --> 00:53:32,360
+Coming up.
+
+1562
+00:53:32,360 --> 00:53:34,120
+a nice way to sort of I don't know about
+
+1563
+00:53:34,120 --> 00:53:36,480
+you, but I'm after that, I feel like I
+
+1564
+00:53:36,480 --> 00:53:38,480
+need to have a break. I think August
+
+1565
+00:53:38,480 --> 00:53:39,960
+will be a a good time for Yeah, this
+
+1566
+00:53:39,960 --> 00:53:43,200
+next month is not going to be fun for
+
+1567
+00:53:43,200 --> 00:53:43,480
+Yeah.
+
+1568
+00:53:43,480 --> 00:53:45,160
+collecting everything and
+
+1569
+00:53:45,160 --> 00:53:46,160
+getting it ready.
+
+1570
+00:53:46,160 --> 00:53:47,160
+Yeah.
+
+1571
+00:53:47,160 --> 00:53:48,280
+Brilliant. Thanks Chris. Really
+
+1572
+00:53:48,280 --> 00:53:50,080
+appreciate it.
+
+1573
+00:53:50,080 --> 00:53:51,120
+Sure Neil.
+
+1574
+00:53:51,120 --> 00:53:52,120
+Cheers.
+
+1575
+00:53:52,120 --> 00:53:54,400
+Cheers.
+
+1576
+00:54:16,920 --> 00:54:19,120
+Yeah.

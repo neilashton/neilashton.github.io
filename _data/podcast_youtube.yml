@@ -1,83 +1,164 @@
 # YouTube videos corresponding to the 39 full podcast episodes.
 # Keys match the season and episode fields used by the podcast episode collection.
+# `title` is the search-focused video/page metadata title; the podcast H1 remains
+# the editorial title in podcast_seasons.yml. `transcript_corrected` marks the
+# matching assets/transcripts SRT as the protected local transcript master.
 s1-e1:
   id: elVX780AdMU
+  title: "Why I Started an AI, CFD and Engineering Podcast | Neil Ashton"
+  transcript_corrected: true
 s1-e2:
   id: M7ul3sa2wiE
+  title: "The k-ω SST Model, RANS and the Future of CFD | Florian Menter"
+  transcript_corrected: true
 s1-e3:
   id: DfmPgpw6NL4
+  title: "From Formula 1 to British Cycling: Engineering High Performance | Tony Purnell"
+  transcript_corrected: true
 s1-e4:
   id: B1Wj8x14wV8
+  title: "PhD or Industry? 4 Career Questions Every Engineer Should Ask"
+  transcript_corrected: true
 s1-e5:
   id: rGjce1qUBT8
+  title: "How to Design the World’s Fastest Bikes | Dimitris Katsanis"
+  transcript_corrected: true
 s1-e6:
   id: KKNWYtaLWWY
+  title: "The Future of CFD and Computational Science | Juan Alonso"
+  transcript_corrected: true
 s1-e7:
   id: vMoIgfHtJHc
+  title: "Formula 1 Engineering: Inside a Legendary Career | Pat Symonds"
+  transcript_corrected: true
 s1-e8:
   id: DgQt6rktdzw
+  title: "The Past and Future of High-Performance Computing | Jack Dongarra"
+  transcript_corrected: true
 s1-e9:
   id: RsGdzzQOGvM
+  title: "NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey"
+  transcript_corrected: true
 s1-e10:
   id: T-ddFBJgITo
+  title: "AI for Science: What It Can—and Cannot—Do"
+  transcript_corrected: true
 s1-e11:
   id: mN8dnkZmczc
+  title: "How Machine Learning Can Transform Science | Max Welling"
+  transcript_corrected: true
 s1-e12:
   id: VnISBGD6T14
+  title: "Can AI Build Foundation Models for Engineering? | Karthik Duraisamy"
+  transcript_corrected: true
 s1-e13:
   id: Mamxev0IcZM
+  title: "AI + Science: Building the Next Generation of Scientific Models | Anima Anandkumar"
+  transcript_corrected: true
 s1-e14:
   id: xDUcHxTD9Nw
+  title: "14 Lessons on AI, CFD and Engineering—and What Comes Next"
+  transcript_corrected: true
 
 s2-e1:
   id: gnWGUgmA4gc
+  title: "The Future of Formula 1: Rules, Safety and Engineering | Nikolas Tombazis"
+  transcript_corrected: true
 s2-e2:
   id: ayJKToUhp3Y
+  title: "The Future of CFD: 5 Key Trends Every Engineer Should Watch"
+  transcript_corrected: true
 s2-e3:
   id: hdRn4AvCvhQ
+  title: "Cycling Aerodynamics: The Lifelong Pursuit of Speed | Michael Hutchinson"
+  transcript_corrected: true
 s2-e4:
   id: DnRdE7tqIRw
+  title: "The Algorithms That Transformed CFD | Antony Jameson"
+  transcript_corrected: true
 s2-e5:
   id: liem50iWhkw
+  title: "NASA X-59: Engineering Quieter Supersonic Flight | Peter Coen"
+  transcript_corrected: true
 s2-e6:
   id: 9Ic5xgJt6BQ
+  title: "The Future of Engineering Simulation and AI | Ansys CTO Prith Banerjee"
+  transcript_corrected: true
 s2-e7:
   id: lk4lvKQsqWU
+  title: "AI for Science: What Machine Learning Must Get Right | Michael Mahoney"
+  transcript_corrected: true
 s2-e8:
   id: Si_B47m9w2Q
+  title: "Engineering Career Advice: Lessons I Wish I Knew Earlier"
+  transcript_corrected: true
 s2-e9:
   id: Ljf9BuzN-NA
+  title: "Why I Joined NVIDIA: A New Chapter in AI, CFD and Engineering"
+  transcript_corrected: true
 s2-e10:
   id: el2Q1-ijBVw
+  title: "Engineering Innovation in Pro Cycling | Kurt Bergin-Taylor"
+  transcript_corrected: true
 s2-e11:
   id: aF140tpENN8
+  title: "Foundation Models for CFD: What They Are and Why They Matter"
+  transcript_corrected: true
 
 s3-e1:
   id: bTleW1-8aTE
+  title: "From CFD to Computational Finance: A Pioneer’s Journey | Mike Giles"
+  transcript_corrected: true
 s3-e2:
   id: _POUsKP9H4s
+  title: "Hypersonics, Aircraft Design and the Future of Aerospace | Russell Cummings"
+  transcript_corrected: true
 s3-e3:
   id: 5oB1FC5VjTc
+  title: "Can We Build a Foundation Model for CFD? | Johannes Brandstetter"
+  transcript_corrected: true
 s3-e4:
   id: h9isQ5Ov4Co
+  title: "5 Skills CAE Engineers Need in the AI Era"
+  transcript_corrected: true
 s3-e5:
   id: k9OMhc9-uXI
+  title: "Cloud HPC for Engineering: Building Rescale | CEO Joris Poort"
+  transcript_corrected: true
 s3-e6:
   id: Eqv0bK7HVnE
+  title: "Turbulence Modelling and the Origins of Modern CFD | Brian Launder"
+  transcript_corrected: true
 s3-e7:
   id: dWkZYU77A04
+  title: "The Future of CFD: 5 Key Trends Revisited"
+  transcript_corrected: true
 s3-e8:
   id: FB4nlB6MMEc
+  title: "What HPC and CAE Conferences Reveal About AI in Engineering"
+  transcript_corrected: true
 s3-e9:
   id: M5R-jyti-bE
+  title: "Fluid Intelligence: Can AI Learn the Physics of Fluids? | Brandstetter & Mishra"
+  transcript_corrected: true
 
 s4-e1:
   id: yp9CONycDR8
+  title: "Agentic AI for CAE/EDA: Are Foundation Models Rewriting Engineering?"
+  transcript_corrected: true
 s4-e2:
   id: kdlE5q8yHpw
+  title: "Physics-Informed AI: What Actually Works? | Nathan Kutz"
+  transcript_corrected: true
 s4-e3:
   id: 7S-7aQR8HJg
+  title: "Can AI Discover New Fluid Mechanics? | Ricardo Vinuesa"
+  transcript_corrected: true
 s4-e4:
   id: qWFlaEeCwdY
+  title: "Can AI Fix Turbulence Models? AI for Fluid Mechanics | Paola Cinnella"
+  transcript_corrected: true
 s4-e5:
   id: h42plIdxDSM
+  title: "Can AI Learn Physics? Differentiable Simulation & Foundation Models | Nils Thuerey"
+  transcript_corrected: true

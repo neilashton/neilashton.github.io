@@ -94,6 +94,7 @@
     {% capture episode_video_key %}s{{ page.season }}-e{{ page.episode }}{% endcapture %}
     {% assign youtube_video = site.data.podcast_youtube[episode_video_key] %}
     {% if youtube_video %}
+      {% assign youtube_title = youtube_video.title | default: page.youtube_title | default: page.title %}
       {% capture youtube_watch_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}{% endcapture %}
       {% capture youtube_embed_url %}https://www.youtube.com/embed/{{ youtube_video.id }}{% endcapture %}
       {% capture youtube_thumbnail_url %}https://i.ytimg.com/vi/{{ youtube_video.id }}/maxresdefault.jpg{% endcapture %}
@@ -142,7 +143,7 @@
         {
           "@context": "https://schema.org",
           "@type": "VideoObject",
-          "name": {{ page.title | jsonify }},
+          "name": {{ youtube_title | jsonify }},
           "description": {{ meta_description | jsonify }},
           "thumbnailUrl": [
             {{ youtube_thumbnail_url | jsonify }}

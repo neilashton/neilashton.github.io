@@ -1,0 +1,4137 @@
+1
+00:00:00,354 --> 00:00:02,895
+Hi and welcome to the Neil Ashton Podcast.
+
+2
+00:00:02,975 --> 00:00:09,538
+In each episode, we explain some of the fascinating ways that science and engineering are
+changing the world around us.
+
+3
+00:00:09,738 --> 00:00:19,942
+We talk to leading engineers from elite level sports like cycling and Formula One, to some
+of the world's top academics to understand how fluid dynamics, machine learning,
+
+4
+00:00:19,942 --> 00:00:23,583
+and supercomputing are bringing in a new era of discovery.
+
+5
+00:00:23,904 --> 00:00:29,112
+We also hear some of their life stories, their career advice, and lessons they've learned
+on the way.
+
+6
+00:00:29,112 --> 00:00:32,036
+That I hope will be helpful to you too.
+
+7
+00:00:32,036 --> 00:00:34,716
+So sit back and enjoy this episode.
+
+8
+00:00:39,822 --> 00:00:42,422
+Welcome back to the Neil Ashton Podcast.
+
+9
+00:00:42,562 --> 00:00:52,362
+So this is, um, I guess a special episode, um, that I did because I've just published a
+paper with Sid and Johannes.
+
+10
+00:00:52,662 --> 00:00:54,202
+They'll give their full intros later.
+
+11
+00:00:54,202 --> 00:01:05,142
+So I want to keep it a bit short, which is called Fluid Intelligence: A Forward Look on AI Foundation Models in Computational Fluid Dynamics.
+
+12
+00:01:05,142 --> 00:01:06,482
+Bit of a long title.
+
+13
+00:01:06,482 --> 00:01:09,842
+I had to look exactly what we call the title now, so I didn't say it wrong.
+
+14
+00:01:10,050 --> 00:01:20,947
+But it's, it's something I'm quite proud of because it's been a real collaborative work to
+try and give a vision of how you could build a foundational model for CFD.
+
+15
+00:01:20,947 --> 00:01:31,423
+And just to set the context, what that means and the way I described it some people is
+like a ChatGPT for fluids, you know, that, that dream of a model that could predict any possible
+
+16
+00:01:31,423 --> 00:01:36,986
+scenario of any plane, of any car or of any data center or of any pipe flow or anything.
+
+17
+00:01:38,452 --> 00:01:44,105
+And, and not that our paper has the full answer to it, but we tried to look at the scaling
+laws.
+
+18
+00:01:44,105 --> 00:01:50,869
+I mean, like what's the, what's the bottleneck to doing this from a compute, from a data
+point of view.
+
+19
+00:01:50,869 --> 00:01:54,661
+Um, it is still a scientific piece of work.
+
+20
+00:01:54,661 --> 00:01:56,512
+It's a piece of research.
+
+21
+00:01:56,723 --> 00:02:05,778
+It has hypotheses, but it's something we deeply thought about, researched, discussed with
+people in the field, you know, to get their feedback.
+
+22
+00:02:05,814 --> 00:02:13,138
+And something that I think the three of us do stand behind as a combination of CFD, ML and applied maths.
+
+23
+00:02:13,218 --> 00:02:14,589
+And the paper's quite long.
+
+24
+00:02:14,589 --> 00:02:16,000
+It's nearly 40 pages.
+
+25
+00:02:16,000 --> 00:02:26,219
+And so the point of this episode was to have the three of us talk through it really, so
+that hopefully if you're reading it, you understand it um a bit more and you understand
+
+26
+00:02:26,219 --> 00:02:30,327
+where we came from and some of the decisions we made, what we put in, what we didn't put
+in.
+
+27
+00:02:31,328 --> 00:02:33,440
+And so, yeah, I hope, I hope you enjoy this.
+
+28
+00:02:33,440 --> 00:02:34,430
+This discussion
+
+29
+00:02:34,562 --> 00:02:40,664
+does get into the weeds, but it's a topic that anyone who's listened to this podcast for a
+while has been a key theme, right?
+
+30
+00:02:40,664 --> 00:02:43,794
+All the questions I've been asking guests have been about foundational models.
+
+31
+00:02:43,794 --> 00:02:47,545
+It's been about can AI, what can AI do for CFD?
+
+32
+00:02:47,545 --> 00:02:52,967
+What can it do for things like Formula One, the cycling, for aircraft design, for space.
+
+33
+00:02:52,967 --> 00:03:03,170
+So it's a combination of some of that work, you know, over the past couple of years,
+thinking in my head and Johannes and Sid had similar sort of thought processes and we all
+
+34
+00:03:03,170 --> 00:03:04,750
+came together to.
+
+35
+00:03:04,750 --> 00:03:06,550
+to write this paper.
+
+36
+00:03:06,610 --> 00:03:10,850
+I'll put a link in the notes so you can get this paper on arXiv.
+
+37
+00:03:10,850 --> 00:03:20,410
+It's a pre-print or if you just Google something like Fluid Intelligence and if you put in
+Neil Ashton and I mean, that'll bring it up, but you could put any of other co-authors.
+
+38
+00:03:20,410 --> 00:03:22,190
+So I hope you enjoy this paper.
+
+39
+00:03:22,190 --> 00:03:24,670
+I hope you found it useful.
+
+40
+00:03:25,190 --> 00:03:31,130
+It's been a fun piece of work and I hope this helps to explain some of the logic behind
+it.
+
+41
+00:03:31,130 --> 00:03:34,466
+So yeah, sit back and listen to this special episode.
+
+42
+00:03:34,466 --> 00:03:36,858
+Thanks, Sid, Johannes, for, for joining.
+
+43
+00:03:36,858 --> 00:03:48,738
+This is, I guess a special episode because we put out a paper recently that I think has,
+you know, resonated well with people.
+
+44
+00:03:48,738 --> 00:03:51,841
+And we said, why don't we actually talk about it?
+
+45
+00:03:51,841 --> 00:04:03,010
+Talk about the journey, how we got to this point, some of the technical details, um, so
+that people, yeah, understand a little bit more, um, than, just reading the paper alone.
+
+46
+00:04:03,010 --> 00:04:11,693
+But maybe before we begin, why don't we just set the background and for the two of you
+just to give a brief overview, you know, who you are, where you work, what you're doing
+
+47
+00:04:11,693 --> 00:04:15,739
+and, and yeah, your background, I guess, and then we can get into the paper.
+
+48
+00:04:15,739 --> 00:04:19,103
+So, Sid, did you want to go first?
+
+49
+00:04:19,126 --> 00:04:20,577
+Yes, I can go first.
+
+50
+00:04:20,577 --> 00:04:21,536
+I'm Sid Mishra.
+
+51
+00:04:21,536 --> 00:04:26,930
+I'm a professor for computational applied mathematics at ETH Zurich in Switzerland.
+
+52
+00:04:27,251 --> 00:04:30,673
+And I run the computational applied mathematics laboratory here.
+
+53
+00:04:30,673 --> 00:04:35,325
+And what I do is my basic background is in physics and math.
+
+54
+00:04:35,325 --> 00:04:37,976
+I did my undergraduate degrees in those subjects.
+
+55
+00:04:37,977 --> 00:04:41,638
+Then I shifted more or less to applied and computational math.
+
+56
+00:04:41,799 --> 00:04:48,000
+Then after my PhD, a lot of the research was on numerical methods, numerical analysis,
+scientific computing.
+
+57
+00:04:48,000 --> 00:04:55,492
+applied it to different areas, astrophysics, fluid dynamics, um material science,
+different topics.
+
+58
+00:04:55,492 --> 00:05:04,574
+And for the last five, six years, I've been working on using AI for solving physics
+problems and with some success.
+
+59
+00:05:04,935 --> 00:05:12,498
+First with physics-informed neural networks, and now for the last several years with
+neural operators, diffusion models, foundation models, and so on.
+
+60
+00:05:12,498 --> 00:05:14,068
+So it's been a lot of fun.
+
+61
+00:05:14,306 --> 00:05:16,256
+Yeah, nice.
+
+62
+00:05:16,302 --> 00:05:17,344
+Johannes?
+
+63
+00:05:17,944 --> 00:05:19,595
+Hi, I'm Johannes Brandstetter.
+
+64
+00:05:19,595 --> 00:05:26,374
+I am a professor at JKU in Linz and I'm also a co-founder and chief scientist
+of Emmi AI.
+
+65
+00:05:26,542 --> 00:05:35,589
+I've been in the field of surrogates for uh engineering, if you want to call it like that,
+for approximately three years.
+
+66
+00:05:35,589 --> 00:05:43,095
+I'm thinking about how to build these surrogates that they really fit to industrial scale
+problems, industrial size problems.
+
+67
+00:05:43,136 --> 00:05:46,262
+That is where I met uh
+
+68
+00:05:46,262 --> 00:05:53,225
+you Neil, think, approximately two years ago, and also where the paths of me and and Sid
+were overlapping.
+
+69
+00:05:53,225 --> 00:06:00,608
+And it's a tremendous pleasure for me to have a paper with both of you because it was
+very high up on the bucket list to have a paper with each of you.
+
+70
+00:06:00,608 --> 00:06:04,640
+But to have it combined is like really true honor for me.
+
+71
+00:06:05,516 --> 00:06:06,616
+Yeah, I think,
+
+72
+00:06:09,260 --> 00:06:13,590
+think we met because you gave it a finger and like an eye clear workshop.
+
+73
+00:06:13,590 --> 00:06:28,505
+I think I was organizing, but I remember where we really spoke was at a, um, what was the
+restaurant was it pizza or Italian or something in, um, in Silicon Valley, um, where we,
+
+74
+00:06:28,505 --> 00:06:29,696
+where we met up.
+
+75
+00:06:29,696 --> 00:06:33,217
+And that was where I think we first were like properly getting into this topic.
+
+76
+00:06:33,217 --> 00:06:34,577
+And that was actually.
+
+77
+00:06:34,717 --> 00:06:37,550
+Whilst I was still at AWS and I think I was just.
+
+78
+00:06:37,550 --> 00:06:39,972
+Was it like Christmas time or something or January time?
+
+79
+00:06:39,972 --> 00:06:41,392
+I can't remember what it was.
+
+80
+00:06:41,412 --> 00:06:47,896
+So actually when I look back, we'd sort of started having some of these discussions almost
+like a year ago, um, on this.
+
+81
+00:06:47,896 --> 00:06:57,022
+And maybe what I thought we could do is each of us maybe can set the scene in what
+prerequisite knowledge we brought, right?
+
+82
+00:06:57,022 --> 00:07:04,426
+What, before we really started to interact and, I guess, you know, um,
+
+83
+00:07:04,546 --> 00:07:08,929
+blend this knowledge together, which is, think ultimately what the paper was.
+
+84
+00:07:08,929 --> 00:07:11,731
+Maybe we can set the scene of like what our thoughts were before.
+
+85
+00:07:11,731 --> 00:07:17,195
+So maybe if I can start it a little bit, I am not a machine learning specialist.
+
+86
+00:07:17,195 --> 00:07:19,577
+That's the first thing I'll put my hand up and admit.
+
+87
+00:07:19,577 --> 00:07:31,866
+am not anywhere like the two of you really are like super deep in the knowledge, but I was
+always intrigued on the, on how far AI could go.
+
+88
+00:07:32,526 --> 00:07:38,006
+And I sort of was thinking more from a very applied point of view.
+
+89
+00:07:38,326 --> 00:07:41,926
+You know, you, you start to build these surrogates, you have like 500 cases.
+
+90
+00:07:41,926 --> 00:07:44,706
+It has a, you know, a certain accuracy.
+
+91
+00:07:45,286 --> 00:07:48,605
+I like all of these ideas of scaling a little bit.
+
+92
+00:07:48,605 --> 00:07:56,566
+So like, if you take a, a solver, you know, it works well for a simple problem, but will
+that same method work for a really big problem?
+
+93
+00:07:56,566 --> 00:08:01,166
+And we know if we do like a DNS simulation, it works really well for a small problem.
+
+94
+00:08:01,208 --> 00:08:06,599
+But the scaling means you can never really do it with a full aircraft, regardless of how
+good it is.
+
+95
+00:08:06,599 --> 00:08:12,501
+And so with the AI, I was always like tempted of, well, is this just a matter of scale?
+
+96
+00:08:12,501 --> 00:08:16,562
+You know, if you just throw more stuff at it, is that the solution?
+
+97
+00:08:16,562 --> 00:08:20,523
+Just more compute or is there something that ultimately stops it?
+
+98
+00:08:20,523 --> 00:08:31,476
+And I guess, um, the second bit was when I did go to ICLR or NeurIPS, I was sort of
+amazed by the amazing talent.
+
+99
+00:08:32,238 --> 00:08:42,897
+But at the same time, the sense that they were two different worlds, that you were
+speaking to these people who didn't have that practical sense of like using CFD for
+
+100
+00:08:42,897 --> 00:08:47,671
+engineering, you know, like actually designing something, but we're looking more
+theoretical.
+
+101
+00:08:47,671 --> 00:08:55,376
+And then you have the CFD side that were really good at that stuff, but just had no clue
+about all this amazing work that was going on.
+
+102
+00:08:55,417 --> 00:09:02,422
+And I think that's why I was, I'm always excited when I speak to people like you two who
+have much more of the
+
+103
+00:09:02,786 --> 00:09:09,054
+So applied math ML side and you can educate me.
+
+104
+00:09:09,075 --> 00:09:10,657
+I feel like I'm absorbing off you.
+
+105
+00:09:10,657 --> 00:09:12,620
+Um, but how about you, Johannes?
+
+106
+00:09:12,620 --> 00:09:14,483
+Where did you come into this?
+
+107
+00:09:14,483 --> 00:09:20,000
+What was your, before we really started to go in this sort of three way thing, what was
+your thoughts?
+
+108
+00:09:20,192 --> 00:09:30,211
+Yeah, approximately, think, no, not approximately, pretty much exactly three years ago,
+ChatGPT came out and at the very same time I was at Microsoft research and there I pushed
+
+109
+00:09:30,211 --> 00:09:32,474
+really, really hard for these foundation models.
+
+110
+00:09:32,474 --> 00:09:35,956
+First, it was the ClimaX model and then it was this Aurora model.
+
+111
+00:09:36,197 --> 00:09:46,030
+And the gist of it was basically throwing as much data as possible into the mix and trying
+to see what comes out, which worked very well.
+
+112
+00:09:46,030 --> 00:09:51,091
+um and which was a big motivation for me to go into this engineering.
+
+113
+00:09:51,091 --> 00:09:55,022
+However, there's a lot of uh difficulties, uh differences.
+
+114
+00:09:55,022 --> 00:10:04,155
+First of all, um Aurora worked so well because it was all based on vision transformers,
+which everyone at that point understood how they work and how to scale and how to operate.
+
+115
+00:10:04,695 --> 00:10:13,437
+And there is not a lot of control of the weather data because in the end, you download
+some weather data from different uh offices at different simulations and they kind of all
+
+116
+00:10:13,437 --> 00:10:14,958
+model their similar physics.
+
+117
+00:10:14,958 --> 00:10:15,896
+So they have
+
+118
+00:10:15,896 --> 00:10:22,411
+different discretization schemes, but they all try to have the same turbulence modeling
+schemes baked in.
+
+119
+00:10:22,471 --> 00:10:27,225
+However, when you go to engineering, you encounter two problems on this axis.
+
+120
+00:10:27,225 --> 00:10:37,403
+First, there is no scalable architecture available for doing a 200 million surface mesh,
+volume mesh, Formula One car simulation.
+
+121
+00:10:38,344 --> 00:10:45,504
+So you have to build the scalable architectures and there is a big, big difference on the
+data regime because data can have so many
+
+122
+00:10:45,504 --> 00:10:58,266
+aspects how you discretize what turbulence model you use, what machine you use, what
+numerical scheme you use and so on and so forth which makes this very very fragile and
+
+123
+00:10:58,266 --> 00:11:10,538
+very hard to understand and on both of these fronts I tried to do my research and I tried
+to move forward and that's where from my side the discussion started.
+
+124
+00:11:11,694 --> 00:11:12,365
+How about you, Sid?
+
+125
+00:11:12,365 --> 00:11:21,690
+mean, obviously you've been working on this for a while and there was like the Poseidon
+paper and you've had these thoughts of foundational models, I guess.
+
+126
+00:11:22,966 --> 00:11:28,310
+Yeah, so I come from it from sort of similar viewpoint as Johannes.
+
+127
+00:11:28,310 --> 00:11:31,411
+That's why we discuss in general very well.
+
+128
+00:11:31,552 --> 00:11:42,499
+So my perspective in the beginning was more I'm a mathematician, so I wanted to
+essentially understand if possible, rigorously prove how much of data is necessary for and
+
+129
+00:11:42,499 --> 00:11:51,875
+what is the model size that is necessary for an ML model or an AI model for that matter to
+learn certain tasks, to excel at certain tasks, to generalize well.
+
+130
+00:11:51,875 --> 00:11:52,790
+So this was
+
+131
+00:11:52,790 --> 00:12:02,713
+And I was not looking at vision and text like what most people look at, but I was looking
+at scientific data sets, physics, could be chemistry, and certainly engineering, because
+
+132
+00:12:02,773 --> 00:12:04,974
+this is what I've worked on for long time.
+
+133
+00:12:04,974 --> 00:12:07,044
+And this was sort of the foundational question.
+
+134
+00:12:07,044 --> 00:12:15,657
+And uh we already, some years ago, had some theoretical results, which essentially said
+that, OK, things scale if you have enough data.
+
+135
+00:12:15,657 --> 00:12:18,698
+But as Johannes just expressed, you never have enough data.
+
+136
+00:12:18,698 --> 00:12:20,418
+mean, this is the...
+
+137
+00:12:20,834 --> 00:12:24,916
+There's a challenge in some sense, also the opportunity in this field.
+
+138
+00:12:24,916 --> 00:12:27,767
+And then this is where foundation models took sense.
+
+139
+00:12:27,767 --> 00:12:33,540
+The idea was that, you have a large corpus of pre-trained data, and then maybe you can
+fine tune it.
+
+140
+00:12:33,540 --> 00:12:46,045
+And I have been working on this topic from different perspectives, just interested in the
+fact that can AI systems generalize to unseen circumstances, to unseen physics in
+
+141
+00:12:46,045 --> 00:12:48,556
+particular, because that's my interest.
+
+142
+00:12:48,854 --> 00:12:54,877
+And then of course, I discussed a little bit, Johannes approximately a year back, I think
+he was in Zurich.
+
+143
+00:12:54,877 --> 00:13:05,062
+And uh then to his credit, he's the one who somehow brought the two of us together because
+Neil, I know your work very well from the past, but I never had the opportunity to sort of
+
+144
+00:13:05,062 --> 00:13:07,544
+meet you in person or interact with you before.
+
+145
+00:13:07,544 --> 00:13:11,436
+So I think it is Johannes who sort of deserves the credit.
+
+146
+00:13:11,436 --> 00:13:12,666
+Because you know,
+
+147
+00:13:12,818 --> 00:13:16,661
+In a way, our knowledge base intersects pretty well.
+
+148
+00:13:16,661 --> 00:13:18,072
+I know a little bit of CFD.
+
+149
+00:13:18,072 --> 00:13:20,044
+You are the real CFD expert.
+
+150
+00:13:20,044 --> 00:13:21,715
+Johannes is a real ML expert.
+
+151
+00:13:21,715 --> 00:13:23,036
+I also know a little bit of ML.
+
+152
+00:13:23,036 --> 00:13:26,479
+So we sort of complement each other very well.
+
+153
+00:13:26,479 --> 00:13:33,504
+But I think the questions that sort of motivate us, drive us are very similar, I would
+say, to some extent.
+
+154
+00:13:34,156 --> 00:13:44,041
+So I thought maybe, um, we're useful for people listening to this paper, Fluid Intelligence: A Forward Look on AI Foundation Models in Computational Fluid Dynamics, which by the way, I think it
+
+155
+00:13:44,041 --> 00:13:48,754
+took us a while to figure out what title we should have. We had quite a few different titles.
+
+156
+00:13:49,875 --> 00:13:54,877
+you know, maybe what we should do is kind of go through it, section by section.
+
+157
+00:13:55,018 --> 00:14:03,372
+Obviously we're not going to be able to go in full depth, but just describing maybe why,
+you know, we had some, some of the things, and.
+
+158
+00:14:03,372 --> 00:14:07,664
+And hopefully then by the end of it, people will get more like how we came to this
+conclusion.
+
+159
+00:14:07,664 --> 00:14:11,506
+Um, I think it's fair to say, isn't it that we.
+
+160
+00:14:12,307 --> 00:14:17,930
+Our, way the papers turned out was not exactly how we went into it.
+
+161
+00:14:17,930 --> 00:14:23,193
+It wasn't really the idea to do it this way.
+
+162
+00:14:24,174 --> 00:14:29,356
+but I think it's sort of organically, we kept having meetings and then we would be like,
+yes, for sure.
+
+163
+00:14:29,356 --> 00:14:32,460
+This is how, you know, yes, we've done it.
+
+164
+00:14:32,460 --> 00:14:32,840
+Okay.
+
+165
+00:14:32,840 --> 00:14:36,853
+And then you're like, actually the data showing something different.
+
+166
+00:14:36,974 --> 00:14:43,419
+And, um, yeah, so it definitely has been a bit of a journey, which is what all good
+research should be.
+
+167
+00:14:43,419 --> 00:14:44,040
+Right.
+
+168
+00:14:44,040 --> 00:14:49,424
+It was sort of live research over WhatsApp, essentially.
+
+169
+00:14:51,226 --> 00:15:01,704
+but yeah, maybe just, uh, I guess the first section, the whole CFD process, I think was
+born out a little bit.
+
+170
+00:15:02,578 --> 00:15:12,561
+Um, or at least partially when, you know, Johannes and I were talking originally, and I
+think there was this little bit of sad, and I don't want to put words in your mouth hands,
+
+171
+00:15:12,561 --> 00:15:17,162
+but I guess you don't come from a traditional CFD background.
+
+172
+00:15:17,162 --> 00:15:24,784
+So some of the stuff, you know, you, you kind of knew, but you wasn't as obvious like the
+industrial side to it.
+
+173
+00:15:24,784 --> 00:15:32,598
+And I think that's when we realized that it might be useful for people to have almost that
+little bit of a, yeah, a go-to reference.
+
+174
+00:15:32,598 --> 00:15:39,163
+that highlighted this idea that it isn't just uh a single PDE that you just somehow need
+to model.
+
+175
+00:15:39,484 --> 00:15:48,962
+And so it is difficult and probably some people who are reading this and they look at the
+geometry, the physics modeling, the meshing, people I'm sure will find holes or will find
+
+176
+00:15:48,962 --> 00:15:50,633
+bits that couldn't be covered.
+
+177
+00:15:50,633 --> 00:15:55,256
+You would sort of need to write a textbook and people have wrote textbooks, right, on
+this.
+
+178
+00:15:55,677 --> 00:16:02,112
+But I think what we were trying to get across is just how broad the input space is.
+
+179
+00:16:02,306 --> 00:16:12,718
+And I think that's where you, Johannes and Sid like this sort of distributional way of
+looking at this, like trying to look at it in a way that would set it up to have some link
+
+180
+00:16:12,999 --> 00:16:16,304
+to the LLMs, right?
+
+181
+00:16:16,304 --> 00:16:18,826
+That was the way you wanted it, was it right, Johannes?
+
+182
+00:16:19,222 --> 00:16:21,423
+Yeah, fully 100%.
+
+183
+00:16:21,423 --> 00:16:28,969
+I think that for machine learning people, the most important equation of the first half of the paper is equation nine.
+
+184
+00:16:28,969 --> 00:16:40,987
+So what equation nine is, we are basically saying you can deconstruct the CFD process into
+an input vector, which uh well, which has the turbulence model, the geometry, the meshing
+
+185
+00:16:40,987 --> 00:16:42,539
+and all these parts in it.
+
+186
+00:16:42,539 --> 00:16:47,778
+And this input vector you can use to have a look at the input output relations.
+
+187
+00:16:47,778 --> 00:16:55,474
+which makes it very clear that if you want to have a foundation model, it surely needs to
+capture all these variations in the input vector.
+
+188
+00:16:55,474 --> 00:17:06,662
+It also makes it clear that if you fix a few of these conditions, for example, if you use
+same inflow condition or same boundary condition, that the space of variation gets just
+
+189
+00:17:06,662 --> 00:17:08,152
+much smaller.
+
+190
+00:17:08,313 --> 00:17:15,362
+And the first section, uh which was mostly written by Neil, is actually really, um
+
+191
+00:17:15,362 --> 00:17:25,485
+thought to explain for machine learning people how to come to this input vector, which
+makes a lot of sense because suddenly you don't think of complex CFD simulation anymore.
+
+192
+00:17:25,485 --> 00:17:36,468
+You think of input output relations and that makes it also easier to compare existing data
+sets and to understand which data sets can be actually mixed and which they're mixing is
+
+193
+00:17:36,608 --> 00:17:39,928
+resulting to very disjoint distributions.
+
+194
+00:17:40,649 --> 00:17:45,470
+And the distribution point of view is Sid's way of thinking, I got from him.
+
+195
+00:17:45,632 --> 00:17:50,363
+Yeah, so maybe just to add to the mix, actually engineers like this thinking, right?
+
+196
+00:17:50,363 --> 00:17:51,434
+A systemic thinking.
+
+197
+00:17:51,434 --> 00:18:00,566
+So you can imagine that there is a system and to a certain system we feed some inputs and
+we have some outputs at the end of the system's work, right?
+
+198
+00:18:00,566 --> 00:18:11,369
+So if you think of machine learning or learning in particular, it's sort of task specific
+in that sense that a learning system has an input or a set of inputs, input vectors, and a
+
+199
+00:18:11,369 --> 00:18:15,820
+set of outputs, the output vector, output functions, fields, whatever you call it.
+
+200
+00:18:15,820 --> 00:18:18,672
+And equation nine is sort of providing that, right?
+
+201
+00:18:18,672 --> 00:18:25,187
+Where the distributional perspective comes in is that you cannot sort of have everything
+under the sun, right?
+
+202
+00:18:25,187 --> 00:18:27,839
+Means you have to sample from a distribution.
+
+203
+00:18:27,839 --> 00:18:30,821
+You can make this distribution as broad as possible.
+
+204
+00:18:30,821 --> 00:18:39,087
+But once you sample from an input distribution, then in some sense, your output
+distribution is highly conditioned on it, right?
+
+205
+00:18:39,087 --> 00:18:44,300
+Because you might add some noise at the time of measurement of your system.
+
+206
+00:18:44,300 --> 00:18:55,393
+So it's a very natural sort of mathematical perhaps or algorithmic thinking about machine
+learning that you think of sampling from a distribution, take the samples, feed the inputs
+
+207
+00:18:55,393 --> 00:19:03,696
+into system, observe its output, and then all the AI system does is try to learn how the
+system sort of propagates or evolves.
+
+208
+00:19:03,696 --> 00:19:11,618
+And this was sort of the thinking that I always keep and I also teach it to my students in
+class that think of everything in terms of systems.
+
+209
+00:19:11,618 --> 00:19:12,368
+What's your input?
+
+210
+00:19:12,368 --> 00:19:13,189
+What's your output?
+
+211
+00:19:13,189 --> 00:19:14,479
+What's your input distribution?
+
+212
+00:19:14,479 --> 00:19:16,060
+What's your output distribution?
+
+213
+00:19:16,060 --> 00:19:22,170
+And then there's a lot of clarity because without this clarity, then we don't know what
+you're talking about, right?
+
+214
+00:19:22,170 --> 00:19:23,463
+It becomes vague.
+
+215
+00:19:23,463 --> 00:19:26,484
+And this is what we, I want that mathematical precision.
+
+216
+00:19:26,484 --> 00:19:31,596
+And this is, think useful to have so that we know what our target is.
+
+217
+00:19:32,138 --> 00:19:42,771
+And probably, maybe I'll use this point to jump forward a little bit, just cause it seems
+an opportune time around the appendix B and the whole notion.
+
+218
+00:19:42,771 --> 00:19:48,903
+Cause as soon as, just to say appendix B is this idea of FLOPS per cell per step.
+
+219
+00:19:49,143 --> 00:19:58,346
+And I felt that was important because one of the objectives coming into this was to some
+way quantify the, you know, if you're generating a data set.
+
+220
+00:19:58,838 --> 00:20:00,759
+Or you're trying to calculate the costs.
+
+221
+00:20:00,759 --> 00:20:02,059
+How do you do it?
+
+222
+00:20:02,399 --> 00:20:07,081
+And it is obviously massively dependent on those CFD inputs, you know, that equation nine.
+
+223
+00:20:07,081 --> 00:20:12,563
+But one of the things that it is as well is the code itself.
+
+224
+00:20:12,644 --> 00:20:16,125
+And this is a, I still don't think we have it perfect.
+
+225
+00:20:16,125 --> 00:20:28,940
+Um, but it was an attempt to say, right, if you are running a RANS solver, you are going
+to pick certain inputs to match.
+
+226
+00:20:29,272 --> 00:20:31,183
+Like they're not, they're never done in isolation.
+
+227
+00:20:31,183 --> 00:20:39,445
+If you pick RANS, you're probably going to pick an unstructured grid because you're
+probably going to be doing complex geometries that you need to run fast.
+
+228
+00:20:39,865 --> 00:20:45,206
+And because it's a steady state, you're probably going to go implicit and because it's
+unstructured.
+
+229
+00:20:45,206 --> 00:20:46,457
+So there's these sort of secrets.
+
+230
+00:20:46,457 --> 00:20:51,768
+Yes, you could technically pick a different combination, but then they're more extreme.
+
+231
+00:20:51,828 --> 00:20:55,639
+So the idea was to say, well, if you do that, you're more likely to do that.
+
+232
+00:20:55,639 --> 00:20:58,230
+So let's clump that as one category.
+
+233
+00:20:58,306 --> 00:21:02,399
+which was how we had that sort of implicit RANS unstructured.
+
+234
+00:21:02,399 --> 00:21:08,855
+It's sort of, if you look at many of the ISV codes out today, they have sort of centered
+around that choice.
+
+235
+00:21:09,055 --> 00:21:20,926
+But then if you're going to be doing like a half a billion cell LES, whilst you could do
+it within an implicit unstructured code, it's not the optimum way of doing it.
+
+236
+00:21:20,926 --> 00:21:23,828
+And it would have massively misrepresented it.
+
+237
+00:21:23,888 --> 00:21:26,094
+So we thought, let's pick.
+
+238
+00:21:26,094 --> 00:21:36,094
+You know, and there are examples of companies out there who do have, you know, an
+explicit, because now you are trying to time resolve.
+
+239
+00:21:36,194 --> 00:21:38,134
+So using implicit doesn't make as much sense.
+
+240
+00:21:38,134 --> 00:21:41,534
+You're probably going to do Cartesian because in this we picked wall-modelled LES.
+
+241
+00:21:41,534 --> 00:21:42,954
+So you don't need to resolve the boundary layer.
+
+242
+00:21:42,954 --> 00:21:46,994
+So it's fine to use Cartesian and it's a GPU solver.
+
+243
+00:21:46,994 --> 00:21:52,714
+we, we, know, and again, they're categorical choice in a way they're picking which inputs
+and clumping them.
+
+244
+00:21:52,714 --> 00:21:54,974
+And so there's a million other combinations.
+
+245
+00:21:55,118 --> 00:21:59,658
+But the idea was to say, and maybe we'll get onto that in a minute.
+
+246
+00:22:00,718 --> 00:22:09,898
+A time step and a cell is not equivalent because in the explicit, you're doing hundreds of
+thousands of time steps and yet in the steady state, you may be just doing hundreds or low
+
+247
+00:22:09,898 --> 00:22:19,058
+thousands, but that flops per step per cell, which is like how much it costs to do it is
+the important multiplier in this.
+
+248
+00:22:19,258 --> 00:22:24,952
+And, um, it's one that I think there's lots of holes in it.
+
+249
+00:22:24,952 --> 00:22:29,602
+And you could calculate it in different ways, but I still think it at least gives you a
+picture.
+
+250
+00:22:29,602 --> 00:22:31,765
+And I'm, I'm hoping that people listen to it.
+
+251
+00:22:31,765 --> 00:22:38,808
+I'd love to see people test that theory, you know, like how close are we to it?
+
+252
+00:22:39,068 --> 00:22:47,591
+And it'd be good to get feedback, you know, if there's certain things people disagree with
+or, know, which is, guess, part of the point of putting a pre-print out, isn't it?
+
+253
+00:22:47,591 --> 00:22:53,846
+It's to say, here's something give us feedback, but we got to that bit.
+
+254
+00:22:53,846 --> 00:23:03,711
+CFD and I was pushing for this more and saying, I still think we need to explain AI, you
+know, to the AI people reading this, they're like, I know that.
+
+255
+00:23:03,892 --> 00:23:16,238
+So that fundamentals bit, how did you sort of think about framing the whole, I think the,
+um, maybe the sentence that depicts it the most is CFD is not a language.
+
+256
+00:23:16,779 --> 00:23:20,052
+I can't remember which of you wrote that, but I that was quite.
+
+257
+00:23:20,052 --> 00:23:21,176
+I did, but...
+
+258
+00:23:24,498 --> 00:23:26,840
+Maybe let me add before we jump to that.
+
+259
+00:23:26,840 --> 00:23:29,021
+Let me add one thing for the ML community.
+
+260
+00:23:29,021 --> 00:23:42,150
+So important to understand and this is also when I started to realize this, I don't know,
+one, two years ago in engineering and CFD, it's not that you make choices on fidelity and
+
+261
+00:23:42,150 --> 00:23:44,692
+that basically results in everything what Neil just said.
+
+262
+00:23:44,692 --> 00:23:46,393
+It also problem specific.
+
+263
+00:23:46,393 --> 00:23:52,777
+So if you try to simulate the plane, which is in cruise condition, certain CFD choices are
+okay.
+
+264
+00:23:52,777 --> 00:23:54,158
+So you don't need
+
+265
+00:23:54,392 --> 00:24:05,891
+higher resolution or better turbulence model because certain turbulence model are
+capturing what you actually want to have captured and then you can do all the results in
+
+266
+00:24:05,891 --> 00:24:08,574
+your parameter vector is sort of limited.
+
+267
+00:24:08,574 --> 00:24:11,536
+it's the, it really depends on the problem.
+
+268
+00:24:11,536 --> 00:24:23,085
+It's very different than what we usually know from machine learning that you have, well,
+my high quality data and my low quality data, there is quality always comes with the
+
+269
+00:24:23,085 --> 00:24:23,938
+problem set up.
+
+270
+00:24:23,938 --> 00:24:31,162
+And this is very important to convey to the machine learning community that it really
+depends on the problem what you're using.
+
+271
+00:24:31,623 --> 00:24:37,066
+And that is, yeah, that's already the going to the ML part of things.
+
+272
+00:24:37,066 --> 00:24:43,090
+um I think it was a quite eye-opener discussing these LLMs.
+
+273
+00:24:43,090 --> 00:24:47,043
+uh what token means for LLMs?
+
+274
+00:24:47,043 --> 00:24:49,514
+I in LLM, everything is so...
+
+275
+00:24:50,196 --> 00:24:57,471
+straightforward in a way you have your documents and your documents you have your tokens
+you have a bunch of documents you have many tokens this is how you construct your learning
+
+276
+00:24:57,471 --> 00:25:10,420
+tasks and then we tried to map that to CFD which was much harder because you have this
+data sets where you have suddenly this huge geometries with half a billion meshes or
+
+277
+00:25:10,420 --> 00:25:19,386
+whatever so is this like one data point is this uh should you count the tokens but then
+the
+
+278
+00:25:20,325 --> 00:25:25,046
+Additionally, can subsample many different input combinations from this data point.
+
+279
+00:25:25,046 --> 00:25:27,366
+So how is this all coming together?
+
+280
+00:25:27,366 --> 00:25:36,046
+And at that point, we were really saying, okay, let's really write down what people do in
+language and then make the connection why CFD is not language.
+
+281
+00:25:36,046 --> 00:25:39,306
+And this is, think, where we're making a Sid-should-comment.
+
+282
+00:25:40,086 --> 00:25:42,448
+Yeah, so why is CFD not language?
+
+283
+00:25:42,448 --> 00:25:47,342
+Well, for starters, I think uh there are so many obvious differences, right?
+
+284
+00:25:47,342 --> 00:25:55,940
+So in language modeling, you have this entire notion of tokenization, which is a very sort
+of clear paradigm, right?
+
+285
+00:25:55,940 --> 00:26:03,946
+So what you have is you have these words or pieces of words, and then you convert them
+into vectors through the process of tokenization.
+
+286
+00:26:03,946 --> 00:26:08,640
+And in fact, you convert them into entries of a codebook through what is called
+
+287
+00:26:08,738 --> 00:26:10,149
+quantized tokenization.
+
+288
+00:26:10,149 --> 00:26:18,585
+So your tokens are essentially living in some very large codebook and they are sort of
+entries on that register, right?
+
+289
+00:26:18,585 --> 00:26:27,901
+And then all that we do in language model is given a distribution on tokens, you sort of
+sample from the distribution, conditional distribution of the next token, right?
+
+290
+00:26:27,901 --> 00:26:32,264
+So it's very sort of uh mathematically clear cut in some sense.
+
+291
+00:26:32,264 --> 00:26:38,158
+In a way, it's very non-mathematical because language, but thanks to tokenization, we have
+been able to push that into a very sort of
+
+292
+00:26:38,158 --> 00:26:39,998
+occurred learning objective.
+
+293
+00:26:40,019 --> 00:26:51,652
+This is different in CFD or in physics in general, right, because for us the learning
+task, you everything is in equation nine in some sense, that is our master equation and so
+
+294
+00:26:51,652 --> 00:26:51,832
+on.
+
+295
+00:26:51,832 --> 00:27:03,155
+And what does it say that when you sample, let's say that we fixed the categorical
+variables, this is always the case you have RANS or LES or the structured unstructured
+
+296
+00:27:03,155 --> 00:27:05,125
+these sort of categorical choices.
+
+297
+00:27:05,125 --> 00:27:07,374
+Once you fix the categorical choice,
+
+298
+00:27:07,374 --> 00:27:13,096
+uh Then you condition that distribution, input distribution upon this category.
+
+299
+00:27:13,096 --> 00:27:22,310
+And then when you sample from this, you are essentially sampling functions, the shape, for
+instance, right, of your object, or the flow conditions, which could be vectors or even
+
+300
+00:27:22,310 --> 00:27:25,751
+single parameters, boundary conditions and so on and so forth.
+
+301
+00:27:25,751 --> 00:27:31,904
+And your output could be a solution field, could be a sort of quantity of interest, drag,
+lift, and so on.
+
+302
+00:27:31,904 --> 00:27:34,385
+So the learning objective is very different.
+
+303
+00:27:34,385 --> 00:27:36,236
+Just looking at equation number nine.
+
+304
+00:27:36,236 --> 00:27:37,556
+So we cannot
+
+305
+00:27:38,318 --> 00:27:47,365
+Maybe someday we will be able to quantize everything so that everything is just written in
+terms of distributions of tokens and we can do some next token prediction.
+
+306
+00:27:47,365 --> 00:27:56,351
+But this is unclear to me at least and I have worked quite a bit on this whether we have
+the accuracy because you know it's not enough that the word is close enough to what
+
+307
+00:27:56,351 --> 00:28:04,347
+because as humans we have a lot of slack in how we understand right, but if the drag is 20
+% off we are finished.
+
+308
+00:28:04,347 --> 00:28:05,798
+So we have to be
+
+309
+00:28:06,126 --> 00:28:17,646
+So to me, think it's very important to remember that the sort of input-output setting, the
+learning task is very different and that leads to a very different kind of formulation,
+
+310
+00:28:17,646 --> 00:28:20,048
+which is what there are many similarities, right?
+
+311
+00:28:20,048 --> 00:28:26,223
+Means, after all, means there are more similarities and differences, but the differences
+here are very, very important.
+
+312
+00:28:26,223 --> 00:28:32,428
+And I think the biggest difference is that our distributions, our inputs, our outputs are
+very different.
+
+313
+00:28:32,428 --> 00:28:34,648
+And just to keep that spirit is,
+
+314
+00:28:34,648 --> 00:28:38,219
+Because as Johannes argued means, what does it mean?
+
+315
+00:28:38,219 --> 00:28:45,121
+See, if you take a huge corpus in language, you have a lot of tokens.
+
+316
+00:28:45,121 --> 00:28:49,082
+But if you look at the flow field, a lot of it is going to be void, right?
+
+317
+00:28:49,082 --> 00:28:51,162
+So it's not very useful information.
+
+318
+00:28:51,162 --> 00:28:56,524
+So you need that sort of global coupling, which is uh probably different from language.
+
+319
+00:28:56,524 --> 00:29:02,525
+Maybe one day when you have very good tokenization for physics, this might change.
+
+320
+00:29:02,525 --> 00:29:04,926
+But at the moment, we are not yet there.
+
+321
+00:29:05,162 --> 00:29:08,072
+I don't know if we ever get there, we are not yet there.
+
+322
+00:29:08,878 --> 00:29:17,482
+And then I guess the next section was, again, it's impossible for us to do a complete job
+of it because our paper's dedicated to just this.
+
+323
+00:29:17,483 --> 00:29:30,490
+But really that review of, I mean, should say, I mean, we put a, we had a much longer
+version of this at one point, but then we cut it down, which was the different use cases
+
+324
+00:29:30,490 --> 00:29:31,680
+of AI.
+
+325
+00:29:31,680 --> 00:29:38,818
+And I think we were conscious that we are focusing on the, I guess, surrogate use case.
+
+326
+00:29:38,818 --> 00:29:51,145
+But it is fair to say that there are other use cases of AI for CFD around like, you know,
+post-processing vision stuff, you know, trying to automatically find patterns or
+
+327
+00:29:51,145 --> 00:30:01,610
+initializing solutions, or that I think the most famous one in the CFD world that I'm not
+sure if both of you have tracked much, but in some ways I feel has hurt AI, which was the
+
+328
+00:30:01,610 --> 00:30:02,811
+turbulence modelling.
+
+329
+00:30:02,811 --> 00:30:08,704
+I think there was this idea that, and I think, like Chris Rumsey and Spalart and people
+from NASA.
+
+330
+00:30:08,910 --> 00:30:14,350
+I had some of these turbulence-modelling workshops and, Karthik Duraisamy was one of the
+first for this.
+
+331
+00:30:14,350 --> 00:30:18,910
+think Turbulence Modeling in the Age of Data or I think it was that title, something like
+that.
+
+332
+00:30:18,970 --> 00:30:30,790
+And, um, really great piece of work and it sort of made sense that a turbulence model being so
+empirical in some ways tuned, hand tuned to coefficients that ML could do a better job.
+
+333
+00:30:31,190 --> 00:30:38,124
+And, um, you know, for years people tried it and I think even today it never really
+generalized and.
+
+334
+00:30:38,124 --> 00:30:49,622
+And when I speak to people who are maybe not deep ML people, that sits in their mind as
+like almost AI thought that it could build the ultimate turbulence model.
+
+335
+00:30:49,622 --> 00:31:01,600
+And so I think that's why, at least personally, and I think you both agree, it's, steered
+it towards a surrogate modeling side because it felt like a well-defined problem that has
+
+336
+00:31:01,600 --> 00:31:04,872
+got probably the most to gain.
+
+337
+00:31:04,872 --> 00:31:08,244
+know, like the, idea, like we say, if you build a surrogate,
+
+338
+00:31:08,290 --> 00:31:11,451
+The inference is in what seconds or less than second.
+
+339
+00:31:11,671 --> 00:31:15,893
+Nowadays it can give you full volume, full surface prediction.
+
+340
+00:31:16,714 --> 00:31:26,678
+and making an improved turbulence model is great, but you're still going to be bound by the
+same time constraints that a CFD simulation gives you.
+
+341
+00:31:26,678 --> 00:31:30,719
+Um, so I think it's just, we, it's probably, we want to make that clear.
+
+342
+00:31:30,719 --> 00:31:36,122
+This is not a, of all AI for CFD, this is in some way a subset.
+
+343
+00:31:36,122 --> 00:31:37,422
+Um,
+
+344
+00:31:37,514 --> 00:31:41,131
+of the surrogate modeling, which is, guess, the foundation model question.
+
+345
+00:31:42,158 --> 00:31:47,040
+Could I say something because since you raised this, maybe I get this off my chest.
+
+346
+00:31:47,040 --> 00:31:53,443
+I've always wondered or often wondered why don't turbulence closure models with AI work so
+well.
+
+347
+00:31:53,443 --> 00:31:57,065
+And there is probably an obvious reason for that.
+
+348
+00:31:57,065 --> 00:32:01,908
+And let me sort of state what I believe could be a reason, right?
+
+349
+00:32:01,908 --> 00:32:07,030
+So the reason is that this mapping that takes data
+
+350
+00:32:07,662 --> 00:32:15,948
+to a turbulence closure model is a very, badly behaved operator if it's a map, very, very
+badly behaved map.
+
+351
+00:32:15,948 --> 00:32:23,123
+There are many, choices that you can make, many knobs that you can tune in the turbulence
+model that can give you the same flow outcome, right?
+
+352
+00:32:23,123 --> 00:32:26,475
+So I think it's extremely ill-behaved operator.
+
+353
+00:32:26,475 --> 00:32:32,859
+And in a sense, is not making use of, because eventually people are learning like three,
+four parameters, right?
+
+354
+00:32:32,859 --> 00:32:35,481
+Or five, six parameters in these models.
+
+355
+00:32:36,982 --> 00:32:39,023
+Machine learning is about big things.
+
+356
+00:32:39,023 --> 00:32:46,006
+If you use neural networks to learn a one-dimensional function, it will always do very
+poorly compared to its competition.
+
+357
+00:32:46,006 --> 00:32:48,667
+You can just take a polynomial and get a better fit.
+
+358
+00:32:48,667 --> 00:32:53,469
+So machine learning only works in very large dimensions, large scale.
+
+359
+00:32:53,469 --> 00:33:03,083
+And this is why I think the bad behavior of the underlying map and the fact that you're
+trying to solve a low or an artificially low, I think the problem is really high
+
+360
+00:33:03,083 --> 00:33:06,390
+dimensional, but you're trying to solve it in this low dimensional setting.
+
+361
+00:33:06,390 --> 00:33:12,012
+meant that the chances of it generalizing beyond the specific flow regime are very, very
+low.
+
+362
+00:33:12,272 --> 00:33:14,352
+perhaps that's one of the reasons.
+
+363
+00:33:14,352 --> 00:33:19,134
+Whereas in a surrogate model, on the other hand, it's a really high dimensional problem.
+
+364
+00:33:19,134 --> 00:33:23,075
+Your input vector could be millions of dimensions.
+
+365
+00:33:23,075 --> 00:33:25,716
+Your output vector could be a billion dimensions, Neil.
+
+366
+00:33:25,716 --> 00:33:32,854
+In your DrivAerML data set, for instance, if you learn the volume field, this is over a
+billion points in principle.
+
+367
+00:33:32,854 --> 00:33:38,404
+And this is where I think AI or ML models can excel compared to turbulence modeling.
+
+368
+00:33:38,404 --> 00:33:44,924
+So our choice was perhaps based more on pragmatism, but I think there is a deeper
+underlying reason behind that.
+
+369
+00:33:45,805 --> 00:33:46,542
+Yeah, I am.
+
+370
+00:33:46,542 --> 00:33:50,382
+And there's two more things which we did not consider.
+
+371
+00:33:50,382 --> 00:33:56,922
+So we were always in all our learning tasks, we were always in the large data limit.
+
+372
+00:33:56,922 --> 00:34:07,922
+So basically, the model shouldn't learn any spurious correlation, but it should really
+generalize because it has enough data, which is usually in this surrogate tasks where you
+
+373
+00:34:07,922 --> 00:34:12,162
+have 100 samples, 50 samples, and then you should learn to generalize across geometry.
+
+374
+00:34:12,362 --> 00:34:14,638
+That's quite hard for me.
+
+375
+00:34:14,638 --> 00:34:15,749
+from a machine learning point of view.
+
+376
+00:34:15,749 --> 00:34:17,680
+it's really in the large data limit.
+
+377
+00:34:17,680 --> 00:34:29,466
+It is fully um Transformer-based in a sense that we train with a simple MSE loss and no
+physics information is added, just really standard training.
+
+378
+00:34:29,466 --> 00:34:30,896
+And it's in distribution.
+
+379
+00:34:30,896 --> 00:34:34,109
+So no out of distribution questions are asked.
+
+380
+00:34:34,109 --> 00:34:35,910
+This is the setup.
+
+381
+00:34:35,910 --> 00:34:41,333
+And in this setup, one can formalize things, otherwise it gets very, very tricky.
+
+382
+00:34:41,333 --> 00:34:43,277
+And we got a lot of questions in how
+
+383
+00:34:43,277 --> 00:34:45,786
+How do you think out of distribution works and so on and so forth.
+
+384
+00:34:45,786 --> 00:34:50,570
+think this is beyond the scope and this is also where experiments are needed.
+
+385
+00:34:51,777 --> 00:34:52,717
+Yeah.
+
+386
+00:34:52,717 --> 00:35:08,260
+And I think, again, the point of the paper was really, this is on the, every meeting I
+have with every commercial company or research company is just trying to get a sense of if
+
+387
+00:35:08,260 --> 00:35:12,181
+is, is a foundational model possible.
+
+388
+00:35:12,181 --> 00:35:14,631
+And that's where you start to get into the numbers game.
+
+389
+00:35:14,631 --> 00:35:18,766
+Um, and that's where things did seem quite ill defined.
+
+390
+00:35:18,766 --> 00:35:21,726
+You know, people may read this and say, oh yeah, that's obvious.
+
+391
+00:35:21,726 --> 00:35:26,406
+Or I knew that, but I don't think it was even obvious to us before.
+
+392
+00:35:26,626 --> 00:35:38,286
+And we kept sort of changing things around and we weren't fully aware of the, yeah, until
+you put pen to paper and start to do some of the maths, it's not obvious.
+
+393
+00:35:38,286 --> 00:35:45,226
+And I think, um, you know, I think it's fair to say that Sid, this was the bit where I
+really learned from you.
+
+394
+00:35:45,226 --> 00:35:46,790
+And I think is the
+
+395
+00:35:46,944 --> 00:35:55,661
+strength of the papers that Johannes and I, when we were talking on the side, we were
+like, wanted to it, to bring some of the maths, you know, to actually bring some of the
+
+396
+00:35:55,661 --> 00:36:04,189
+rigor, because you can do, you know, some back of the envelope calculations, but, you need
+to try to formalize it more.
+
+397
+00:36:04,189 --> 00:36:14,397
+So how did you go, you know, if we go into like the section on the actual scaling laws, so
+section five, so what, was your sort of process?
+
+398
+00:36:14,397 --> 00:36:15,858
+How did you come up?
+
+399
+00:36:16,074 --> 00:36:17,538
+with these scales.
+
+400
+00:36:17,538 --> 00:36:18,358
+Yeah.
+
+401
+00:36:18,598 --> 00:36:20,619
+Okay, this is a very, very good question.
+
+402
+00:36:20,619 --> 00:36:32,473
+Actually, this is a disclaimer, we know this, but I think our listeners and viewers should
+also know this, that till the night before the final submission, we were still working out
+
+403
+00:36:32,473 --> 00:36:34,284
+the final numbers and so on.
+
+404
+00:36:34,284 --> 00:36:36,244
+So it was a very iterative process.
+
+405
+00:36:36,244 --> 00:36:37,515
+Nothing was set in stone.
+
+406
+00:36:37,515 --> 00:36:39,475
+And I myself, I was surprised.
+
+407
+00:36:39,475 --> 00:36:42,216
+And the whole point of research is to be surprised, right?
+
+408
+00:36:42,444 --> 00:36:50,737
+No, I have, as I said, I have worked on a mathematical formulation of some of these
+questions in different uh domains before.
+
+409
+00:36:50,777 --> 00:36:57,620
+So for me to understand, well, we should also say that these are hypothesis, right?
+
+410
+00:36:57,620 --> 00:37:00,391
+We don't have end to end proofs.
+
+411
+00:37:00,391 --> 00:37:10,946
+have not yet built such a foundation model, but we believe that these are very reasonable
+hypothesis because they hold for small scale models, they hold for language models perhaps
+
+412
+00:37:10,946 --> 00:37:11,946
+and so on.
+
+413
+00:37:12,024 --> 00:37:24,625
+So the basic formulation we had very quickly, if you remember the first equations, how it
+scales with model size and how it scales with data size, this hypothesis we had pretty
+
+414
+00:37:24,625 --> 00:37:25,446
+quickly.
+
+415
+00:37:25,446 --> 00:37:33,874
+I think what was fun was to sort of try out different implications of these ideas, of
+these exponents and so on.
+
+416
+00:37:33,874 --> 00:37:38,257
+The fact that you get power laws has been known for a while.
+
+417
+00:37:38,257 --> 00:37:39,170
+m
+
+418
+00:37:39,170 --> 00:37:48,218
+You can show something with statistical learning theory, but in the LLMs you have the
+Kaplan et al., you know, the famous scaling paper, have the Chinchilla scaling laws.
+
+419
+00:37:48,218 --> 00:37:52,151
+So there is quite a bit of work also in the domain that we work on.
+
+420
+00:37:52,151 --> 00:37:56,015
+It's much less, you know, um this is surprising.
+
+421
+00:37:56,015 --> 00:37:59,908
+Johannes and I are among the very few people who even discuss this question.
+
+422
+00:37:59,908 --> 00:38:07,454
+If you look at some of the foundational texts for scientific machine learning, this
+question of scaling is not even there.
+
+423
+00:38:07,686 --> 00:38:11,589
+If you look at some of original papers, there's no scaling.
+
+424
+00:38:11,589 --> 00:38:22,618
+You have a table where you have at certain resolution or at a certain scale of data, these
+are our errors and we compare with 10 different models.
+
+425
+00:38:22,618 --> 00:38:28,663
+Without any understanding that if you change the data or you change the model size, the
+picture can be very, very different.
+
+426
+00:38:28,663 --> 00:38:32,625
+So I have been investigating this both theoretically and empirically.
+
+427
+00:38:33,154 --> 00:38:39,438
+to do it at this scale with a proper foundation model to sort of have different scenarios,
+right?
+
+428
+00:38:39,438 --> 00:38:45,162
+In the paper we have a low fidelity, probably not the best way to express it.
+
+429
+00:38:45,623 --> 00:38:51,356
+But I think the key was to be able to formulate everything in terms of a common quantity.
+
+430
+00:38:51,356 --> 00:38:53,968
+So in the beginning we were looking at the model error.
+
+431
+00:38:53,968 --> 00:38:56,970
+If you remember, we had an epsilon, which is the model error.
+
+432
+00:38:56,970 --> 00:39:02,978
+We formulated all the complexity estimates in terms of the model error so that the theory
+can give us some predictions.
+
+433
+00:39:02,978 --> 00:39:08,222
+But at the last moment, I shifted it to the number of samples so that everyone
+understands.
+
+434
+00:39:08,382 --> 00:39:16,018
+No one understands what's model error, but everyone understands how much of data that you
+have so that you have a common dictionary to compare different things.
+
+435
+00:39:16,018 --> 00:39:18,250
+And we had these three scenarios.
+
+436
+00:39:18,250 --> 00:39:22,274
+We had this, let's say, RANS, steady state RANS.
+
+437
+00:39:22,274 --> 00:39:25,376
+We have an LES, but we only look at the time average.
+
+438
+00:39:26,117 --> 00:39:31,781
+And finally, we did this full transient uh LES, and we compared the three.
+
+439
+00:39:31,781 --> 00:39:33,002
+And we came up with.
+
+440
+00:39:33,002 --> 00:39:35,543
+I would say some surprising conclusions.
+
+441
+00:39:35,543 --> 00:39:38,303
+uh Perhaps we are going to talk more about it.
+
+442
+00:39:38,303 --> 00:39:48,306
+But what really surprised me later on, it was obvious, but in the beginning, what is not
+obvious is I maintain that data generation was going to be the dominant cost.
+
+443
+00:39:48,306 --> 00:39:50,467
+I think all three of us believe that.
+
+444
+00:39:50,467 --> 00:39:54,258
+And we wanted our theory to show that, and our numbers to show that.
+
+445
+00:39:54,258 --> 00:40:03,052
+But it's only by this iterative process of discussing that we realized that, in the small
+data regime and small model regime,
+
+446
+00:40:03,052 --> 00:40:11,422
+You have this actually holds true, but there is this crossover point, there is this
+critical limit, and that's why the paper is really, really interesting.
+
+447
+00:40:11,422 --> 00:40:13,586
+Perhaps we should talk more about that.
+
+448
+00:40:13,830 --> 00:40:23,056
+Maybe let me add here one thing because Sid you mentioned that people don't look at
+scaling laws so they try everything at low scale or with one resolution.
+
+449
+00:40:23,157 --> 00:40:32,343
+And then there's actually the other extreme where people say, okay, we just burn millions
+and millions of dollars and we get lots of different data, we bunch them together and what
+
+450
+00:40:32,343 --> 00:40:34,584
+we get out is a model which solves it all.
+
+451
+00:40:34,804 --> 00:40:39,017
+And that was my entry point into this whole area.
+
+452
+00:40:39,017 --> 00:40:43,394
+That's why I pushed so hard to write everything as a composite vector.
+
+453
+00:40:43,394 --> 00:40:48,575
+because that makes it very clear that it just doesn't work if you throw data together.
+
+454
+00:40:48,575 --> 00:41:06,801
+um And therefore, we had set up this RANS versus LES type of things because we all agreed
+that you probably cannot mix RANS and LES simulation so easily and that the choice you
+
+455
+00:41:06,801 --> 00:41:12,422
+make on this has a tremendous impact in the data generation and in everything you do.
+
+456
+00:41:12,602 --> 00:41:16,435
+and all comes down to modeling error you take into account.
+
+457
+00:41:16,435 --> 00:41:26,603
+basically so before doing that, you already take a modeling error into account, which has
+the consequence of all your future steps and all your scaling loss and everything you
+
+458
+00:41:26,603 --> 00:41:27,394
+obtain.
+
+459
+00:41:27,394 --> 00:41:33,659
+And this is something which is not clear to the machine learning community, which is very,
+very different than how machine learning people think.
+
+460
+00:41:33,659 --> 00:41:38,574
+So that's why we have these three different setups of this modeling paradigms.
+
+461
+00:41:38,574 --> 00:41:39,514
+Yeah.
+
+462
+00:41:39,634 --> 00:41:41,934
+And I mean, we can come to that a bit later as well.
+
+463
+00:41:41,934 --> 00:41:49,314
+Some of the open questions and I think definitely the mixing of fidelities was something
+we kept going back and forth on, but maybe we should leave that a little bit towards the
+
+464
+00:41:49,314 --> 00:41:49,434
+end.
+
+465
+00:41:49,434 --> 00:41:52,354
+Cause I think that's definitely the open question.
+
+466
+00:41:52,554 --> 00:42:06,394
+One thing that I did want to highlight is, that transient one and maybe to explain a
+little bit more because, and again, it's true what Sid and you said as well, Johannes,
+
+467
+00:42:06,394 --> 00:42:08,582
+about our assumption going in.
+
+468
+00:42:09,292 --> 00:42:22,219
+I think I've even said it on this podcast in a few opinion things where I said, I, it felt
+to me that data generation was the biggest bottleneck and the idea that you could use
+
+469
+00:42:22,219 --> 00:42:26,191
+transient data felt like intractable.
+
+470
+00:42:26,932 --> 00:42:38,258
+Um, but I changed my tune a little bit when I speak into the two of you, because I think
+one, we started to realize that you run a RANS simulation.
+
+471
+00:42:39,182 --> 00:42:52,582
+And you in some ways use all the information that the simulation gives you because you
+can't take an early mid simulation checkpoint because it doesn't have any physical sense.
+
+472
+00:42:52,582 --> 00:42:57,142
+The solution is converging to a steady state with the transient.
+
+473
+00:42:57,142 --> 00:43:04,662
+On the other hand, we spend, you know, five times more, 10 times more, depending on the
+solver to generate this data.
+
+474
+00:43:04,722 --> 00:43:08,962
+But we only use the time average checkpoint.
+
+475
+00:43:09,190 --> 00:43:12,072
+All this data with, you know, was sticking out.
+
+476
+00:43:12,072 --> 00:43:13,392
+don't use.
+
+477
+00:43:13,533 --> 00:43:22,548
+And one, some of the early papers, I guess, uh, on like MeshGraphNets, you know, had
+this idea that you would train on the time steps, you know, cause it was like, know, a
+
+478
+00:43:22,548 --> 00:43:25,019
+cylinder flow or something.
+
+479
+00:43:25,019 --> 00:43:26,410
+And that was always intractable.
+
+480
+00:43:26,410 --> 00:43:28,321
+Cause you said, I can't store all that data.
+
+481
+00:43:28,321 --> 00:43:29,922
+I can't use all that data.
+
+482
+00:43:29,922 --> 00:43:38,092
+And so I think it's to be fair today, all the state of the art work in an industrial way
+has always just been a steady state.
+
+483
+00:43:38,092 --> 00:43:39,024
+or some time average.
+
+484
+00:43:39,024 --> 00:43:44,318
+Um, and I thought, okay, you'd need petabytes of storage, unbelievable amount.
+
+485
+00:43:45,942 --> 00:44:01,191
+And, but I think one of the findings, uh there's nuance is the idea that if we do run a
+transient simulation, can we take, let's say, you know, a 50th or, you know, or some of
+
+486
+00:44:01,191 --> 00:44:05,583
+the intermediate data, which can be extra samples.
+
+487
+00:44:05,583 --> 00:44:15,078
+And I think that was something you both mentioned, but Sid in particular, I remember you
+mentioned that from some of your earlier work and that does seem to
+
+488
+00:44:15,768 --> 00:44:17,540
+be key finding.
+
+489
+00:44:18,903 --> 00:44:23,529
+We're not sure how much you could use, but more than one.
+
+490
+00:44:24,056 --> 00:44:26,838
+Yeah, well, I can talk about it a little bit.
+
+491
+00:44:26,838 --> 00:44:31,582
+Again, I think a distributional perspective gives you some insight here, right?
+
+492
+00:44:31,582 --> 00:44:41,100
+Because what we're learning when we are learning a time-dependent process is that we are
+learning the evolution of the time-dependent operator, how things vary in time.
+
+493
+00:44:41,100 --> 00:44:49,698
+And in principle, we are learning, given a snapshot of the current state, what would be a
+future state given the lead time.
+
+494
+00:44:49,698 --> 00:44:50,809
+This can be done directly.
+
+495
+00:44:50,809 --> 00:44:52,340
+This can be done autoregressively.
+
+496
+00:44:52,340 --> 00:44:54,421
+That's a detail, right?
+
+497
+00:44:54,421 --> 00:44:59,824
+But essentially what you do is that you sample the data distribution in different ways.
+
+498
+00:44:59,844 --> 00:45:08,709
+Of course, if you just have very, very tiny time steps, if you learn every single time
+step, this is useless because essentially you're learning the identity then, right?
+
+499
+00:45:08,709 --> 00:45:15,934
+But if you learn large time steps, which is what surrogates allow you to do, you're really
+sampling the distribution at different ways.
+
+500
+00:45:15,934 --> 00:45:17,034
+And I think
+
+501
+00:45:17,150 --> 00:45:19,482
+that makes a lot of intuitive sense.
+
+502
+00:45:19,482 --> 00:45:30,288
+my previous work, we had demonstrated, think others have also demonstrated, you just
+imagine that you're learning the steady state from some inputs and just uh using this
+
+503
+00:45:30,288 --> 00:45:35,241
+training where you learn the transient information too, adds value.
+
+504
+00:45:35,241 --> 00:45:39,083
+You can reduce the number of samples, you can increase the accuracy and so on.
+
+505
+00:45:39,103 --> 00:45:41,845
+I think Johannes likes the perspective of data augmentation.
+
+506
+00:45:41,845 --> 00:45:44,608
+This is one valid way to think about it.
+
+507
+00:45:44,608 --> 00:45:51,301
+I would just think that you are just getting more data from sampling more data from the
+underlying distribution.
+
+508
+00:45:51,301 --> 00:45:54,483
+And because of that, then you have this behavior.
+
+509
+00:45:54,483 --> 00:45:59,685
+Of course, what happens is you cannot, means you lose information if you sample too much.
+
+510
+00:46:01,026 --> 00:46:09,922
+But if you sample too little, down sample too much, if you down sample too little, then
+it's too much in terms of training and storage and so on.
+
+511
+00:46:09,922 --> 00:46:20,489
+So the golden mean, which we don't know, could be problem dependent, is to sample a few of
+the things, 50th or whatever we said 50th, based on some ballpark.
+
+512
+00:46:20,489 --> 00:46:21,970
+And then you do have some gain.
+
+513
+00:46:21,970 --> 00:46:27,333
+And this is not 50 times better, but it's perhaps square root of 50, which is seven times
+better.
+
+514
+00:46:27,333 --> 00:46:31,716
+This is what we put the number five, which is based on some previous work.
+
+515
+00:46:31,716 --> 00:46:33,857
+But I think it makes a lot of sense.
+
+516
+00:46:33,857 --> 00:46:35,242
+ah
+
+517
+00:46:35,242 --> 00:46:40,919
+intuitively as well as mathematically and I think it's a very important, well one
+shouldn't throw away the transient information.
+
+518
+00:46:40,919 --> 00:46:43,893
+I'm pretty confident that it will help you.
+
+519
+00:46:43,893 --> 00:46:45,254
+uh
+
+520
+00:46:47,030 --> 00:46:50,912
+For me, it was very eye-opening because we always had this discussion.
+
+521
+00:46:50,912 --> 00:46:57,934
+um In LLM, you basically assume you see each token once.
+
+522
+00:46:57,934 --> 00:46:59,454
+every token is seen once.
+
+523
+00:46:59,454 --> 00:47:00,864
+And what does this mean in CFD?
+
+524
+00:47:00,864 --> 00:47:06,096
+That means every data point should be seen once if you go for large scale limits.
+
+525
+00:47:06,096 --> 00:47:14,264
+But if you have 20,000 simulations, which is already a pretty big data set, that's kind of
+not possible.
+
+526
+00:47:14,264 --> 00:47:21,521
+But then this traversing in time, what Sid mentioned that you need this time dimension is
+actually also what happens in space.
+
+527
+00:47:21,521 --> 00:47:27,166
+So just sub-sampling one uh data point is not giving you the whole information.
+
+528
+00:47:27,607 --> 00:47:38,507
+So therefore you can see the data points multiple times and that's the same of traversing
+in space in time is the traversing in space and that still corresponds to this LLM
+
+529
+00:47:38,507 --> 00:47:39,404
+paradigm.
+
+530
+00:47:39,404 --> 00:47:40,346
+in the infinite data.
+
+531
+00:47:40,346 --> 00:47:47,230
+this was quite enlightening for me when I understood this by the explanation of Sid over
+the temporal domain.
+
+532
+00:47:48,014 --> 00:47:55,559
+I think the other one that maybe is a key thing is the, which comes later when we showed
+the numbers is the down sampling.
+
+533
+00:47:55,819 --> 00:48:07,667
+And I think this matters from the training, but also the storage side that, you know, when
+I was generating the DrivAerML or Ahmed or whatever data sets, you know, we, we provided
+
+534
+00:48:07,667 --> 00:48:11,450
+the full data, the full volume, the full surface.
+
+535
+00:48:11,450 --> 00:48:17,730
+And that was partially because even at the time we were just unsure of like, it felt like
+we were down sampling just
+
+536
+00:48:17,730 --> 00:48:19,051
+because of memory limits.
+
+537
+00:48:19,051 --> 00:48:23,162
+And that was probably more because of the graph neural net approaches that we were trying
+at the time.
+
+538
+00:48:23,162 --> 00:48:35,568
+Um, but it, it seems like the, and I think you have this, Johannes, in a couple of your
+recent papers where there's like a saturation point of like how many tokens in this case
+
+539
+00:48:35,568 --> 00:48:36,778
+do you need?
+
+540
+00:48:36,919 --> 00:48:41,001
+Where if you go beyond it or lower, if you go beyond it, you don't gain anything.
+
+541
+00:48:41,001 --> 00:48:42,741
+And so I think, you know, what, what was that?
+
+542
+00:48:42,741 --> 00:48:43,476
+come up with a number now.
+
+543
+00:48:43,476 --> 00:48:44,812
+What was it like on a
+
+544
+00:48:45,516 --> 00:48:55,863
+hundred million cell case with three million surface, you know, you're only needing
+hundreds of thousands of tokens rather than the tokens equals the number of cells.
+
+545
+00:48:55,863 --> 00:49:01,057
+And that is a massive, um, difference, right?
+
+546
+00:49:01,057 --> 00:49:09,022
+It fundamentally alters the cost of training versus if you had to take everyone.
+
+547
+00:49:09,022 --> 00:49:15,406
+How much of that was, how important do you think that is that, that down sampling
+essentially?
+
+548
+00:49:16,776 --> 00:49:25,148
+I see it again more from the perspective of a person who does not come from a CFD uh PhD.
+
+549
+00:49:25,148 --> 00:49:32,310
+um CFD needs this fine resolution because otherwise simulations just don't converge.
+
+550
+00:49:32,310 --> 00:49:42,844
+um We artificially have this fine mesh because we have to enforce physics onto the
+computer and we as humans cannot do that with a mesh which a machine learning model would
+
+551
+00:49:42,844 --> 00:49:43,324
+understand.
+
+552
+00:49:43,324 --> 00:49:44,614
+So we need this.
+
+553
+00:49:44,738 --> 00:49:46,739
+fine resolution for the CFD to converge.
+
+554
+00:49:46,739 --> 00:49:51,761
+I mean, this is a bit bluntly put, but in a way.
+
+555
+00:49:51,761 --> 00:49:56,713
+So the machine learning model does not need this fine resolution to understand the
+problem.
+
+556
+00:49:56,713 --> 00:50:00,165
+in fact, the machine learning model is not solving the CFD.
+
+557
+00:50:00,165 --> 00:50:01,546
+It's not about convergence.
+
+558
+00:50:01,546 --> 00:50:04,687
+It's not about uh implicit time stepping or whatnot.
+
+559
+00:50:04,687 --> 00:50:06,768
+It's just about getting the information.
+
+560
+00:50:06,768 --> 00:50:10,790
+And information is not the same as a CFD convergence criteria.
+
+561
+00:50:10,790 --> 00:50:11,894
+um
+
+562
+00:50:11,894 --> 00:50:21,928
+I have not understood this at the first, but I think it boils down to this that you can
+have the full information m in a down sampled case.
+
+563
+00:50:21,928 --> 00:50:31,722
+And therefore I would assume that if you do a RANS or an LES simulation, it would need
+approximately the same number of tokens.
+
+564
+00:50:31,722 --> 00:50:38,145
+However, you're modeling different physics and for the CFD, you need much more, finer
+resolution for the LES.
+
+565
+00:50:38,145 --> 00:50:42,066
+So this is a very big difference between uh simulation and machine learning.
+
+566
+00:50:43,438 --> 00:50:44,934
+Sid, is that how you say
+
+567
+00:50:45,912 --> 00:50:46,583
+more or less.
+
+568
+00:50:46,583 --> 00:50:53,203
+But from a purely mathematical perspective, I just uh formalize a little bit of what
+Johannes exactly said, right?
+
+569
+00:50:53,203 --> 00:51:01,376
+So the reason why we have extreme grids in space as well as very tiny time steps with
+explicit methods is because of
+
+570
+00:51:01,376 --> 00:51:03,457
+accuracy and stability requirements.
+
+571
+00:51:03,457 --> 00:51:10,420
+That's why we need extremely fine grids so that we can resolve small vortices, we can resolve and
+in time you have the CFL conditions.
+
+572
+00:51:10,420 --> 00:51:17,813
+So if you have a very small spacing in space, mesh size in space, you have consequently a
+small time step.
+
+573
+00:51:17,813 --> 00:51:30,060
+Now, once you have generated the simulation and I urge everyone to do this experiment,
+they can themselves down sample and then they can down sample, they can put it aside.
+
+574
+00:51:30,060 --> 00:51:33,401
+And then they can up sample using some simple interpolant, right?
+
+575
+00:51:33,401 --> 00:51:35,512
+It you don't even need a fancy interpolant.
+
+576
+00:51:35,512 --> 00:51:40,833
+And you'll see that the errors that you make in this process are tiny compared to your
+modeling error.
+
+577
+00:51:40,833 --> 00:51:47,035
+Your modeling error is, of course, if you just down sample at 10 points, when you have 10
+million points, you make a huge error.
+
+578
+00:51:47,035 --> 00:51:56,978
+But as long as it is reasonable, and that's what we sort of uh argued in our exact
+numbers, I think we said that we down sampled to like 8 million, and then we do something
+
+579
+00:51:56,978 --> 00:51:57,738
+more.
+
+580
+00:51:57,778 --> 00:51:59,609
+And so we had some concrete numbers.
+
+581
+00:51:59,609 --> 00:52:03,340
+The interpolation errors are so tiny that no information is lost.
+
+582
+00:52:03,340 --> 00:52:11,684
+And this is the big difference because in a CFD setting, you sort of simulate it at that
+resolution, you get nothing, right?
+
+583
+00:52:11,684 --> 00:52:16,776
+But once you have simulated, you can always down sample both in space as well as in time.
+
+584
+00:52:17,302 --> 00:52:26,093
+Sid, you should probably explain what you tell your PhD students what they should do with
+a data set because this is something I found very interesting and which I learned from
+
+585
+00:52:26,093 --> 00:52:26,813
+you.
+
+586
+00:52:27,282 --> 00:52:40,994
+My students, my students in my class, I always say when you get a sort of scientific data
+set, what you should really do is to first see what is the essential spatial scale that
+
+587
+00:52:40,994 --> 00:52:44,677
+you need and what is the essential time scale that you need, right?
+
+588
+00:52:44,677 --> 00:52:53,364
+And the best way you can do this is that you take your data, you keep on downsampling it
+till you can arrive at 1 % error.
+
+589
+00:52:53,364 --> 00:52:55,296
+1 % is a number that I've plucked out here.
+
+590
+00:52:55,296 --> 00:52:57,928
+It could be 0.5 or 0.2 % error.
+
+591
+00:52:57,928 --> 00:52:59,910
+And that is the information.
+
+592
+00:52:59,910 --> 00:53:01,451
+You don't need more than that.
+
+593
+00:53:01,451 --> 00:53:02,713
+That's an extremis.
+
+594
+00:53:02,713 --> 00:53:03,934
+It's the same with time.
+
+595
+00:53:03,934 --> 00:53:06,156
+You don't need every single time step.
+
+596
+00:53:06,156 --> 00:53:08,237
+How much can you down sample?
+
+597
+00:53:08,237 --> 00:53:12,061
+And then you have an idea of the spatial and temporal scales of your problem.
+
+598
+00:53:12,061 --> 00:53:15,363
+I also tell them to look at the sort of variation of the data.
+
+599
+00:53:15,363 --> 00:53:18,166
+So compute things like mean and the variance.
+
+600
+00:53:18,166 --> 00:53:23,298
+Say what is sort of the noise to signal ratio, what is standard deviation over mean so
+that
+
+601
+00:53:23,298 --> 00:53:30,308
+They understand what the data has and it is very useful, but uh as always, students don't
+always do it.
+
+602
+00:53:31,631 --> 00:53:34,775
+They want to take the data and they want to run a model and yeah.
+
+603
+00:53:34,775 --> 00:53:37,158
+m
+
+604
+00:53:37,624 --> 00:53:54,405
+So if we go, you know, into maybe the numbers a little bit, and if we, think what was,
+it's true what Sid said and, um, it's true, things were changing, but it was almost a uh
+
+605
+00:53:54,405 --> 00:54:03,330
+good thing that we were doing that because we were trying, there's always a temptation of,
+um, like group think where you all sort of
+
+606
+00:54:03,618 --> 00:54:05,029
+don't want to challenge each other.
+
+607
+00:54:05,029 --> 00:54:08,300
+You've sort of got to a conclusion and nobody wants to challenge it.
+
+608
+00:54:08,300 --> 00:54:14,503
+Where I think we were all open to challenging each other's perceptions.
+
+609
+00:54:14,503 --> 00:54:24,667
+And I know I, as you described, definitely came into this thinking the dataset was the
+biggest and that seemed to be true in the early numbers we had.
+
+610
+00:54:25,227 --> 00:54:32,690
+but then, so if we go through, so we have this low fidelity, high fidelity transient, but
+maybe the more interesting one is the table for.
+
+611
+00:54:32,718 --> 00:54:38,238
+which is this large, extra large, extra, extra large, and then the graphs in figure three.
+
+612
+00:54:38,518 --> 00:54:40,757
+And, um, yeah, what we were basically trying to show.
+
+613
+00:54:40,757 --> 00:54:48,178
+So maybe for the data generation, I can go over some of the numbers and maybe Sid, you and Johannes can talk a little bit on the model training.
+
+614
+00:54:49,498 --> 00:54:52,338
+The, they all, they are by definition.
+
+615
+00:54:53,058 --> 00:55:01,676
+We did try to give some estimate based on the sort of error floor, I guess, but, but it is
+still tricky to estimate the number of samples.
+
+616
+00:55:01,676 --> 00:55:03,948
+And that's why we did try a couple of approaches.
+
+617
+00:55:03,948 --> 00:55:09,051
+One was, I guess, the more statistical, more mathematical way of doing it.
+
+618
+00:55:09,051 --> 00:55:20,099
+And then the second way, which is Appendix C was, I guess, the way that I think more
+CFD people have looked at it, which is just simply this sense of, well, how can my model
+
+619
+00:55:20,099 --> 00:55:23,201
+predict a plane if it's only trained on cars?
+
+620
+00:55:23,381 --> 00:55:25,823
+You know, doesn't matter how many cars you give it.
+
+621
+00:55:25,823 --> 00:55:27,625
+It's never going to be able to predict a plane, right?
+
+622
+00:55:27,625 --> 00:55:28,745
+I mean, that's just common sense.
+
+623
+00:55:28,745 --> 00:55:30,846
+Um, so.
+
+624
+00:55:31,778 --> 00:55:37,079
+And one of the challenging theories of CFD and it's an interesting intellectual exercise.
+
+625
+00:55:37,100 --> 00:55:40,641
+CFD is very broad, very broad.
+
+626
+00:55:41,221 --> 00:55:47,522
+you know, the possible geometries and flows and physics that you can do with CFD is quite
+extreme.
+
+627
+00:55:47,522 --> 00:55:57,026
+And so if you look at like appendix C, I'm sure I missed out some, but it is amazing when
+you start to go to thing and you think, okay, it's cars, right.
+
+628
+00:55:57,026 --> 00:55:58,690
+But then it's also lorries.
+
+629
+00:55:58,690 --> 00:56:06,432
+and trains and planes and space planes and rockets and engines, data centers, buildings,
+combustion.
+
+630
+00:56:06,432 --> 00:56:09,550
+And then what's really interesting is some of that chemical side.
+
+631
+00:56:09,550 --> 00:56:18,115
+There's a huge industry all doing these like multi-phase flows, multi-physics, cement
+mixing, ice cream making.
+
+632
+00:56:18,936 --> 00:56:21,656
+there's just so many and each of those.
+
+633
+00:56:22,117 --> 00:56:27,858
+The input, you know, that we described, which is essentially boundary conditions, initial
+conditions.
+
+634
+00:56:28,014 --> 00:56:35,234
+physics modeling, we, we purposely summarized it in the sort of turbulence model, because
+turbulence model is one of the biggest impacts.
+
+635
+00:56:35,534 --> 00:56:44,314
+But once you get into these chemical and process, the, the additional source terms you
+need to model some of the physical processes, just get it big.
+
+636
+00:56:44,454 --> 00:56:50,714
+So, you know, with those numbers, you can easily reach into the millions of samples.
+
+637
+00:56:50,934 --> 00:56:57,102
+Um, now what I think is not entirely clear to me is just how much
+
+638
+00:56:57,102 --> 00:57:10,930
+cross learning there is between, you know, there is obviously a, you could argue a low
+speed plane shares quite a lot with a car in some ways, but an ice cream is quite
+
+639
+00:57:10,930 --> 00:57:11,750
+different.
+
+640
+00:57:11,750 --> 00:57:17,433
+So there's obviously some, you know, learning, but anyway, that's how we got into the
+millions.
+
+641
+00:57:17,433 --> 00:57:20,485
+we said 200,000, a million and 2 million.
+
+642
+00:57:21,436 --> 00:57:23,757
+we purposely gave the Python code to this.
+
+643
+00:57:23,757 --> 00:57:25,966
+So you could change these numbers yourself.
+
+644
+00:57:25,966 --> 00:57:31,786
+Um, because they will change if you went to now 20 million, it would change the numbers.
+
+645
+00:57:32,126 --> 00:57:37,386
+Um, we went for the 500 million cells.
+
+646
+00:57:37,386 --> 00:57:53,306
+This is based on some work that I've been doing, um, for, for an upcoming data set, which
+was on an aircraft and the 500 million is sort of at the, it's a, it's a number that
+
+647
+00:57:53,306 --> 00:57:54,426
+encompasses
+
+648
+00:57:55,374 --> 00:58:07,480
+quite a lot of cases in terms of, you know, the Reynolds numbers, the sort of structures
+you get, know, 500 million is quite a good number to represent anything in the, let's say,
+
+649
+00:58:07,901 --> 00:58:17,606
+LES of buildings or planes of cars, or it, you could obviously change the number, but it
+is representative of that sort of case.
+
+650
+00:58:17,606 --> 00:58:24,790
+Steps is tricky because it depends on the mesh size, the total convective time you'd want
+to go for.
+
+651
+00:58:25,230 --> 00:58:27,810
+But we have to pick some numbers to base it in.
+
+652
+00:58:27,810 --> 00:58:29,470
+So that was a 200,000.
+
+653
+00:58:29,470 --> 00:58:32,010
+The flops per cell per step is quite aggressive.
+
+654
+00:58:32,010 --> 00:58:41,850
+If you do the maths on your own code, if anyone's listening to this, you'll probably find
+that that represents the ultimate today of efficiency of a code.
+
+655
+00:58:41,850 --> 00:58:47,570
+You're probably fine if you run, I don't know, OpenFOAM, you'll definitely not be at that
+flops per cell per step.
+
+656
+00:58:47,570 --> 00:58:49,150
+It'll be quite a bit higher.
+
+657
+00:58:49,150 --> 00:58:53,810
+But if you go through the maths, it's not unreasonable, but it is quite aggressive.
+
+658
+00:58:53,934 --> 00:59:01,017
+Um, so I say that because the number of hours you may need would be more if your code
+wasn't that well optimized.
+
+659
+00:59:02,377 --> 00:59:09,440
+then in terms of just to finish off some of the logic of this, the, we got to the hours.
+
+660
+00:59:09,960 --> 00:59:23,924
+Now this is tricky and does get into a bit of the HPC side, but we essentially took the
+flops and then worked out if you were using FP 32, which is reasonable for like
+
+661
+00:59:23,924 --> 00:59:25,245
+modern day CFD.
+
+662
+00:59:25,245 --> 00:59:30,797
+There are some cases that would need FP64, but quite a lot use FP32.
+
+663
+00:59:30,817 --> 00:59:41,762
+So we took the flops that was available on the system, but we realized that because many
+of these codes are memory bandwidth bound, the actual flops they can use on the system is
+
+664
+00:59:41,762 --> 00:59:43,102
+still relatively low.
+
+665
+00:59:43,102 --> 00:59:45,334
+So let's say 15%.
+
+666
+00:59:45,334 --> 00:59:51,586
+em And that's ultimately then once you take a cost,
+
+667
+00:59:51,650 --> 00:59:52,640
+And I took these costs.
+
+668
+00:59:52,640 --> 00:59:59,092
+you go across all different cloud vendors, all the cloud computing vendors give their
+costs publicly.
+
+669
+00:59:59,212 --> 01:00:04,764
+So I think $8 was like probably the best price with a reserved instance.
+
+670
+01:00:04,764 --> 01:00:07,574
+You know, if you sign up and you buy them upfront for three years.
+
+671
+01:00:07,574 --> 01:00:12,953
+So, but my logic was if you're spending a hundred million dollars, you're probably going
+to do that sort of deal.
+
+672
+01:00:12,953 --> 01:00:16,017
+You're not just going to pay like an off the shelf price.
+
+673
+01:00:16,017 --> 01:00:17,377
+You are going to commit.
+
+674
+01:00:17,377 --> 01:00:18,867
+And then the storage was the same.
+
+675
+01:00:18,867 --> 01:00:21,230
+was like a one of cheapest.
+
+676
+01:00:21,230 --> 01:00:23,350
+cloud pricing for storage.
+
+677
+01:00:23,550 --> 01:00:28,070
+And so that's how you got to these 10, 50, a hundred million.
+
+678
+01:00:28,210 --> 01:00:46,130
+And just to finish off on the data generation side, what we did do is we put into Figure 3 in, think the sub figures around D, E and F that if you did change the amount of
+
+679
+01:00:46,130 --> 01:00:51,290
+flops or the size of the mesh or the cell size,
+
+680
+01:00:51,534 --> 01:00:53,034
+how that would change.
+
+681
+01:00:53,154 --> 01:00:58,214
+And so those numbers could go to 200 million to 500 million.
+
+682
+01:00:58,214 --> 01:01:03,514
+Um, but they sort of set a ballpark of where we're at.
+
+683
+01:01:03,614 --> 01:01:13,634
+then for the model training, mean, one of the things that we were working on till the last
+moment was like the, the FLOPS question, right?
+
+684
+01:01:13,634 --> 01:01:15,142
+That was a tricky one.
+
+685
+01:01:16,450 --> 01:01:17,631
+Yeah, you want me to take it.
+
+686
+01:01:17,631 --> 01:01:29,416
+But before that, maybe this is some people have commented on this to me privately is that
+our assumption is that they, so some of the practitioners, they claim that our numbers are
+
+687
+01:01:29,416 --> 01:01:37,169
+too aggressive because most of the codes at the moment, or many of the codes don't have
+the sort of GPU capacity yet.
+
+688
+01:01:37,169 --> 01:01:38,000
+Right.
+
+689
+01:01:38,000 --> 01:01:43,672
+And if you're doing this on a CPU, then this numbers change dramatically or
+
+690
+01:01:43,672 --> 01:01:44,763
+they will change, right?
+
+691
+01:01:44,763 --> 01:01:47,884
+So perhaps, maybe Neil, you are the expert in this.
+
+692
+01:01:47,884 --> 01:01:49,485
+What's your thinking about this?
+
+693
+01:01:49,485 --> 01:02:01,072
+We have made a big assumption, a big bet here that everything can be generated on a GPU at
+FP32 with a very aggressive flops per cell, which we don't vary much in figure three.
+
+694
+01:02:01,072 --> 01:02:05,100
+So what happens if you are stuck with a CPU code?
+
+695
+01:02:05,100 --> 01:02:07,071
+Well, yeah, interesting question.
+
+696
+01:02:07,071 --> 01:02:13,292
+And, know, obviously I have to, as you do in papers, put like, uh, what's your conflicting
+thing.
+
+697
+01:02:13,292 --> 01:02:15,953
+work for NVIDIA, a GPU company, right?
+
+698
+01:02:15,953 --> 01:02:17,013
+Obviously.
+
+699
+01:02:17,013 --> 01:02:23,935
+But, you know, people hopefully will know that I'm not in any, this is not a marketing or
+sales exercise.
+
+700
+01:02:23,956 --> 01:02:33,078
+I think it's pretty defensible to say that if you look across all of the supercomputing
+centers, all of the people developing codes, any new code.
+
+701
+01:02:33,088 --> 01:02:36,569
+If you're going to start a code from today, are you going to write it on the CPU?
+
+702
+01:02:36,569 --> 01:02:37,159
+No.
+
+703
+01:02:37,159 --> 01:02:38,760
+I mean, that's, that's just the case.
+
+704
+01:02:38,760 --> 01:02:44,942
+Um, so, but you are absolutely right, which is sort of the comment on open foam.
+
+705
+01:02:44,942 --> 01:02:50,353
+If you were to run with like a CPU code, I'm pretty sure those numbers would be 10 times
+higher.
+
+706
+01:02:50,353 --> 01:02:54,524
+Um, which would basically make it.
+
+707
+01:02:55,044 --> 01:02:56,265
+You couldn't do it.
+
+708
+01:02:56,265 --> 01:03:00,366
+That's sort of my logic, which is a little bit why the,
+
+709
+01:03:00,914 --> 01:03:04,487
+It is irrelevant for the, for the GPU topic here.
+
+710
+01:03:05,459 --> 01:03:13,065
+and, yeah, but you're right, probably in the revised version, we probably should give a
+bit of a caveat of it.
+
+711
+01:03:13,065 --> 01:03:18,730
+I just take it as an obvious thing, but maybe I'm a bit like surrounded by this data for
+me as a no-brainer that you do it.
+
+712
+01:03:18,730 --> 01:03:22,673
+Um, but we could definitely add, but it would make the numbers quite scary.
+
+713
+01:03:23,571 --> 01:03:26,232
+This is the point that I wanted to make.
+
+714
+01:03:26,232 --> 01:03:30,295
+maybe I can walk and Johannes can just add.
+
+715
+01:03:30,295 --> 01:03:36,999
+I can walk us through the choices we made regarding the model training and what are the
+different things that come in.
+
+716
+01:03:36,999 --> 01:03:46,705
+So before that, regarding the number of samples, so it does turn out that it was a
+fortuitous coincidence that this 2 million is roughly, 2.5 million is what
+
+717
+01:03:47,466 --> 01:03:58,689
+Neil arrived at by just sampling this entire data set of, you know, chemical reactors and
+rockets and cars and everything in between, right?
+
+718
+01:03:58,689 --> 01:04:05,721
+But independently, because we have some or we have some clue about what is this.
+
+719
+01:04:05,721 --> 01:04:13,193
+So there are two key numbers of exponents here, beta in table four, if someone has to look
+at the paper, and alpha.
+
+720
+01:04:13,193 --> 01:04:17,166
+So beta is a coefficient by which things scale with respect to data.
+
+721
+01:04:17,166 --> 01:04:26,986
+And more or less central limit theorem that we learn law of large numbers that we learn at
+an undergraduate level tells us that this is no better than 0.5.
+
+722
+01:04:26,986 --> 01:04:29,286
+There's usually a logarithmic correction.
+
+723
+01:04:29,306 --> 01:04:32,966
+And so far, we looked at the literature, including my own work.
+
+724
+01:04:32,966 --> 01:04:39,706
+we put the number 0.43 because this was sort of a representative of several test cases.
+
+725
+01:04:39,706 --> 01:04:44,270
+So it turns out that by using some nominal errors, if you want to arrive at
+
+726
+01:04:44,270 --> 01:04:54,570
+below 1 % error in the field, not in the integral quantities, then you would need 2.7
+million samples, which is very, close to the number that you also arrived at, Neel.
+
+727
+01:04:54,570 --> 01:04:59,910
+So this was not totally unscientific that these two things sort of coincide.
+
+728
+01:04:59,910 --> 01:05:11,510
+So remember that we have this, the scale at which, or the exponent at which, power law at
+which, model size contributes, sorry, the data set size contributes to the error.
+
+729
+01:05:11,510 --> 01:05:13,144
+So that's an important thing.
+
+730
+01:05:13,144 --> 01:05:17,495
+The other thing is, of course, the scaling exponent with respect to model size.
+
+731
+01:05:17,495 --> 01:05:27,158
+Now, is a fact that you need to grow the models a lot more to be able to ingest the data
+that you provide to them.
+
+732
+01:05:27,158 --> 01:05:33,540
+So because there is a slower decay with respect to model size than with respect to data
+set size.
+
+733
+01:05:33,540 --> 01:05:37,931
+So that's why you see some of the big numbers when it comes to model size in the paper.
+
+734
+01:05:37,931 --> 01:05:40,922
+So these were the two key numbers that we fit in.
+
+735
+01:05:40,930 --> 01:05:46,453
+We also added something like the number of copies that you want to see in transient
+training.
+
+736
+01:05:46,453 --> 01:05:48,815
+What is the compression ratio that you are going to see?
+
+737
+01:05:48,815 --> 01:05:51,156
+We put some reasonable numbers there.
+
+738
+01:05:51,236 --> 01:05:53,717
+And the important thing was the flops.
+
+739
+01:05:53,717 --> 01:05:55,358
+This is a similar question.
+
+740
+01:05:55,358 --> 01:05:57,600
+This is a training flops per step.
+
+741
+01:05:57,600 --> 01:06:06,765
+And this was finally we put, I think, very, very aggressive numbers based on some use case
+that we had in the lab on some GH200s.
+
+742
+01:06:06,765 --> 01:06:08,684
+We have assumed GB200s.
+
+743
+01:06:08,684 --> 01:06:11,696
+And we assumed a very, very sort of aggressive scaling.
+
+744
+01:06:11,696 --> 01:06:23,653
+In general, if someone is interested in figure three, I think we have provided where we,
+no, we didn't provide this, probably in the next revision we can provide that.
+
+745
+01:06:23,653 --> 01:06:25,204
+But this is also a caveat.
+
+746
+01:06:25,204 --> 01:06:26,645
+We were very aggressive.
+
+747
+01:06:26,645 --> 01:06:29,006
+So these numbers could grow.
+
+748
+01:06:29,006 --> 01:06:32,328
+And also the values of alpha and beta are not set in stone.
+
+749
+01:06:32,328 --> 01:06:36,270
+Again, if you look at figures three, A, B,
+
+750
+01:06:36,718 --> 01:06:41,578
+We sort of vary alpha, keeping beta fixed, vary beta, keeping alpha fixed.
+
+751
+01:06:41,578 --> 01:06:44,938
+And then you can see how these different numbers change.
+
+752
+01:06:44,938 --> 01:06:53,858
+And the important thing is whatever you do asymptotically, at some point for large enough
+amounts of data, the model size has to be very big.
+
+753
+01:06:53,858 --> 01:07:01,878
+So training the model will be very expensive, and it will overtake or dominate the cost of
+data generation.
+
+754
+01:07:01,878 --> 01:07:03,394
+And this is sort of the...
+
+755
+01:07:03,394 --> 01:07:08,486
+We have a theoretical demonstration of this and we also see this empirically.
+
+756
+01:07:08,568 --> 01:07:10,272
+So this was sort of the logic.
+
+757
+01:07:10,272 --> 01:07:12,476
+Maybe, Johannes, you wanted to add something?
+
+758
+01:07:12,664 --> 01:07:13,704
+mean, this was perfect.
+
+759
+01:07:13,704 --> 01:07:17,156
+It's just one thing to underline.
+
+760
+01:07:17,156 --> 01:07:20,218
+um All these coefficients can change.
+
+761
+01:07:20,618 --> 01:07:22,419
+Change is not even the right word.
+
+762
+01:07:22,419 --> 01:07:27,402
+They need to be um determined scientifically, experimentally.
+
+763
+01:07:27,542 --> 01:07:30,874
+But what we are quite certain is the slopes of these two curves.
+
+764
+01:07:30,874 --> 01:07:39,349
+And that is, we were quite um surprised that data generation is a different slope than the
+model training.
+
+765
+01:07:39,349 --> 01:07:42,070
+And the model training at some point, the slope
+
+766
+01:07:42,284 --> 01:07:44,320
+overtakes the data-generation slope.
+
+767
+01:07:44,320 --> 01:07:49,033
+And this has big impact in many, many ways.
+
+768
+01:07:49,033 --> 01:07:51,358
+And this is one of the big findings, I would say.
+
+769
+01:07:51,490 --> 01:07:57,654
+Yes, so just to paraphrase, data generation scales linearly with data set size.
+
+770
+01:07:57,654 --> 01:07:59,725
+Model training scales superlinearly.
+
+771
+01:07:59,725 --> 01:08:10,061
+How superlinear depends on this alpha and beta, but it will always go superlinearly
+because the model is always going to be slower ah in scaling than the data.
+
+772
+01:08:10,061 --> 01:08:12,732
+And then eventually you'll have a crossover point.
+
+773
+01:08:13,472 --> 01:08:13,742
+Yeah.
+
+774
+01:08:13,742 --> 01:08:18,994
+That's kind of the real teaser, I guess, because you're right.
+
+775
+01:08:18,994 --> 01:08:25,686
+Nobody or, you know, publicly anyway, is doing the sort of huge data set generation.
+
+776
+01:08:25,686 --> 01:08:40,920
+So it's kind of hard for us to, to put it out, but as soon as that does happen, it'd be
+very interesting to compare because as you say, if you take all you're doing is delaying
+
+777
+01:08:40,920 --> 01:08:41,580
+it.
+
+778
+01:08:41,592 --> 01:08:46,763
+So let's say, imagine the data generations on a CPU and all those numbers are 10 times
+higher.
+
+779
+01:08:46,944 --> 01:08:54,006
+It just means from our prediction that the crossover point will come later, but it will
+come at some point.
+
+780
+01:08:54,006 --> 01:09:04,349
+And so it's almost then the question is, well, from a usefulness point of view, how big
+does the model need to be to give a low enough error and a broad enough generalization?
+
+781
+01:09:04,849 --> 01:09:09,226
+And depending on that, will determine
+
+782
+01:09:09,226 --> 01:09:19,511
+where the biggest cost on investment is, but also, um, maybe this is a good segue
+into some of the open questions.
+
+783
+01:09:20,072 --> 01:09:29,227
+One of the topics that I went into writing this paper thinking would be a bigger one, but
+I think in the end, the scaling laws more dominated the discussion.
+
+784
+01:09:29,227 --> 01:09:34,540
+And I think we agree that we just didn't have enough information to write on it was some
+of the online training.
+
+785
+01:09:34,540 --> 01:09:39,082
+You know, that sense that the data-generation cost is so big.
+
+786
+01:09:39,692 --> 01:09:45,426
+that you want and the cost of storing the data is so high that you need some way of doing
+it online.
+
+787
+01:09:47,112 --> 01:09:51,445
+And I still sort of get that feeling, but the time scales difference.
+
+788
+01:09:51,565 --> 01:10:04,194
+We assume that the model training is super fast and generating the data takes ages, but at
+some crossover point, when the model training takes forever or very long time in the day,
+
+789
+01:10:04,194 --> 01:10:07,827
+you you sort of wonder where these are going to come in.
+
+790
+01:10:09,418 --> 01:10:15,112
+and it is interesting that the, I should also caveat.
+
+791
+01:10:15,320 --> 01:10:18,532
+The storage numbers assume very heavy compression.
+
+792
+01:10:18,532 --> 01:10:29,148
+Um, so we should put a sort of caveat out there that the storage may still be quite a
+large cost.
+
+793
+01:10:29,148 --> 01:10:38,413
+also the storage I'm picking here is, you know, quite a cheap object, based storage
+system.
+
+794
+01:10:38,413 --> 01:10:41,364
+This is not a like a Lustre file system that you're dumping on.
+
+795
+01:10:41,364 --> 01:10:44,085
+That would be like seven times more expensive.
+
+796
+01:10:44,106 --> 01:10:44,946
+So.
+
+797
+01:10:45,434 --> 01:10:54,994
+Um, I don't know what, what did, what did you go, what did you feel as the key opening,
+uh, the open questions, you know, maybe comment on the online training.
+
+798
+01:10:54,994 --> 01:10:59,974
+Um, how much do you see that as being important, overblown?
+
+799
+01:11:00,364 --> 01:11:02,375
+I just add one thing to the storage.
+
+800
+01:11:02,375 --> 01:11:11,879
+um So there is this very interesting phenomenon that we're training surrogates and
+surrogates always make errors, right?
+
+801
+01:11:11,879 --> 01:11:21,683
+So usually in compression, if you do um text or images or videos, you basically want to go
+for lossless compression.
+
+802
+01:11:21,683 --> 01:11:28,066
+But if your surrogate is, your model is making an error anyways, that means your
+compression can also
+
+803
+01:11:28,066 --> 01:11:35,233
+have an error, this error just needs to be smaller than the error the surrogate is making,
+which opens a huge field of research.
+
+804
+01:11:35,233 --> 01:11:40,197
+I shouldn't probably say that loud, but I think that there's a lot of potential in that.
+
+805
+01:11:40,197 --> 01:11:44,140
+And the second point, which is super intriguing to me is the data mixing.
+
+806
+01:11:44,281 --> 01:11:54,890
+I don't think what we did in Aurora that punching data together and just uh doing the mix
+is the way forward.
+
+807
+01:11:55,662 --> 01:12:08,482
+I think that having a clever formulation of how you can leverage different fidelities in
+that sense, or different that you stay as cheap as possible in the data generation side,
+
+808
+01:12:08,582 --> 01:12:21,942
+while being as performant as possible with the highest fidelity on the modeling side is
+one of the key open research points to discuss, which is super, super hard because that
+
+809
+01:12:21,942 --> 01:12:23,902
+means you have to operate on scale.
+
+810
+01:12:25,198 --> 01:12:26,938
+bring these communities together.
+
+811
+01:12:26,938 --> 01:12:29,918
+You cannot do that in a machine learning lab without CFD expertise.
+
+812
+01:12:29,918 --> 01:12:31,278
+You probably cannot do that.
+
+813
+01:12:31,898 --> 01:12:34,598
+But that's where the fun begins, I would say.
+
+814
+01:12:35,402 --> 01:12:40,386
+Yeah, and I don't know whether I'm allowed to say this aloud, but we discussed this quite
+a bit.
+
+815
+01:12:40,386 --> 01:12:48,083
+We even had different versions of the write-up where we had different models on how we can
+sort of combine data and so on.
+
+816
+01:12:48,083 --> 01:12:49,304
+We different strategies.
+
+817
+01:12:49,304 --> 01:12:52,417
+Maybe that should be a separate paper altogether at some point.
+
+818
+01:12:52,417 --> 01:13:00,054
+But I agree with you, Johannes, that this is a super interesting question and also this
+question of cross-learning that you raised, Neil, right?
+
+819
+01:13:00,054 --> 01:13:02,526
+So how much of information can be
+
+820
+01:13:03,022 --> 01:13:06,204
+In my day job as an academic, I'm very, very interested in that.
+
+821
+01:13:06,204 --> 01:13:09,346
+How much of physics can be learned from other physical effects?
+
+822
+01:13:09,346 --> 01:13:11,688
+Can you learn diffusion from fluid flows?
+
+823
+01:13:11,688 --> 01:13:16,310
+With Poseidon, we showed that this can be done because somehow it is hidden inside.
+
+824
+01:13:16,310 --> 01:13:27,157
+So these are the sort of scientific questions which will be hopefully answered in the year
+or two, But uh we cannot wait for things to...
+
+825
+01:13:27,157 --> 01:13:29,526
+So the best way to generalize is to...
+
+826
+01:13:29,526 --> 01:13:34,210
+make your distribution so large that everything is more or less an indistribution problem.
+
+827
+01:13:34,210 --> 01:13:36,272
+We have seen that with language modeling, right?
+
+828
+01:13:36,272 --> 01:13:45,740
+So I think putting these numbers out, telling people that, hey, look, this can be done
+provided that there are these, and people can make their own choices.
+
+829
+01:13:45,740 --> 01:13:47,782
+Maybe I don't scale my model at all.
+
+830
+01:13:47,782 --> 01:13:53,347
+And I simply say that my model has 50 billion parameters come what may.
+
+831
+01:13:53,347 --> 01:13:56,982
+And then at some level, as you generate more and more and more data,
+
+832
+01:13:56,982 --> 01:14:02,154
+All that it does is that the model doesn't improve because it's dominated by your modeling
+error, right?
+
+833
+01:14:02,154 --> 01:14:04,485
+So the model error, not the modeling error.
+
+834
+01:14:04,485 --> 01:14:13,198
+So these are choices that people can make and they will make pragmatic choices, but at
+least it gives a ballpark of what people should aim for.
+
+835
+01:14:13,198 --> 01:14:18,120
+So I think that's what is very interesting outcome of this project.
+
+836
+01:14:18,540 --> 01:14:24,955
+And I think, at least from my perspective, that that still feels like the unanswered
+question.
+
+837
+01:14:24,955 --> 01:14:38,766
+We were hoping, or at least I was hoping that we would have a little bit more of a
+definitive answer on this topic, which is, you know, if I train the model with the RANS
+
+838
+01:14:39,687 --> 01:14:48,108
+with a certain level of error, and then I also give it some LES with a similar error, how
+can the ML model know that one was RANS?
+
+839
+01:14:48,108 --> 01:15:00,228
+And one was LES and we touched this a little bit in the paper, but this, we have, I feel
+set the question right with the equation nine, but we haven't still fully answered how you
+
+840
+01:15:00,228 --> 01:15:04,412
+would use and mix all those different inputs.
+
+841
+01:15:04,412 --> 01:15:15,111
+Um, that for me feels we, tried it and I think we felt it was just, we didn't have enough
+data to fully answer that question, but that feels like you're right.
+
+842
+01:15:15,111 --> 01:15:16,992
+Cause the point being is that.
+
+843
+01:15:17,682 --> 01:15:24,045
+Um, you may not have the luxury of generating all this data from scratch.
+
+844
+01:15:24,045 --> 01:15:33,150
+It may be pre-existing data where it has had a certain modeling error or a certain
+boundary conditions or a certain fidelity.
+
+845
+01:15:33,150 --> 01:15:42,854
+And you need a way of the model knowing that rather than saying, everything will be an LES
+and everything will be, that still feels like, uh
+
+846
+01:15:44,462 --> 01:15:50,562
+Yeah, a key thing which is not clear, right?
+
+847
+01:15:51,266 --> 01:15:54,047
+My take is, so there's two opinions on that.
+
+848
+01:15:54,047 --> 01:16:05,753
+take is, and I think I agree here with Sid, that you had to get rid of categorical
+distributions because categorical distributions is the arch enemy of generalization.
+
+849
+01:16:05,753 --> 01:16:16,838
+On the other hand, people say, okay, it's basically a multi-task learning because the
+model learns two different tasks and the weights share across these two tasks.
+
+850
+01:16:16,838 --> 01:16:18,118
+um
+
+851
+01:16:18,176 --> 01:16:31,962
+I cannot comment because it needs experiments, needs large scale experiments but I'm just
+convinced that categorical formalization is just very very hard because you never get then
+
+852
+01:16:31,962 --> 01:16:35,336
+out of this distribution problem.
+
+853
+01:16:36,172 --> 01:16:36,662
+Yeah.
+
+854
+01:16:36,662 --> 01:16:53,064
+But the reason we did some of this scaling laws or example was even if you could make the
+data generation half the cost, would still at some point have the training to be
+
+855
+01:16:53,064 --> 01:16:53,904
+the biggest, right?
+
+856
+01:16:53,904 --> 01:16:56,646
+So we're, there's no free lunch in that sense.
+
+857
+01:16:56,646 --> 01:17:05,362
+You know, there's, if you do it all with RANS, yes, compared to the estimate we had,
+maybe it's half the price of the data generation, but
+
+858
+01:17:05,362 --> 01:17:10,364
+Um, if you still believe that you need millions of samples, then you're just shifting it
+more to the model training.
+
+859
+01:17:10,364 --> 01:17:22,820
+Um, but then how do you fix the, ultimate issue that the RANS error, you know, unless you
+come up, which is where the full circle is interesting in my, and we didn't talk about too
+
+860
+01:17:22,820 --> 01:17:24,130
+much in the paper.
+
+861
+01:17:24,290 --> 01:17:29,852
+There is still a reason to come up with the ultimate RANS model.
+
+862
+01:17:30,413 --> 01:17:33,366
+If you could use AI to go with the ultimate RANS model.
+
+863
+01:17:33,366 --> 01:17:42,521
+You would alternate the data generation costs quite a bit lower, but, the reality of that
+happening, as you said, is a much harder problem, ironically.
+
+864
+01:17:42,521 --> 01:17:46,083
+Um, but there is, there is some motivation for it.
+
+865
+01:17:46,083 --> 01:17:55,748
+Um, maybe one of the other final topics that we should cover, maybe we should come back,
+um, and have another discussion on this when we've had more feedback from the community,
+
+866
+01:17:55,748 --> 01:17:59,220
+um, is the inductive bias one.
+
+867
+01:17:59,220 --> 01:18:03,042
+I think we were quite deliberate in saying.
+
+868
+01:18:03,202 --> 01:18:14,355
+We'd already stretched ourselves with making hypotheses and making assumptions that I
+think we didn't feel this was the right time to have too much of dedicated opinions of
+
+869
+01:18:14,355 --> 01:18:15,525
+including physics.
+
+870
+01:18:15,525 --> 01:18:21,897
+We wanted this to be a little bit more of a, like a data driven, like how much data do you
+need?
+
+871
+01:18:21,897 --> 01:18:23,667
+What's the scaling law?
+
+872
+01:18:23,968 --> 01:18:25,798
+It's still an open question, right?
+
+873
+01:18:25,798 --> 01:18:32,652
+Um, but it feels one way you would need quite a lot more paper space to, get into this.
+
+874
+01:18:32,652 --> 01:18:34,419
+I don't know what you both think.
+
+875
+01:18:35,239 --> 01:18:38,878
+I answer because I would burn if I answer here.
+
+876
+01:18:39,787 --> 01:18:44,141
+Okay, to put it as politely as possible, we don't know, right?
+
+877
+01:18:44,141 --> 01:18:46,552
+This is a reality.
+
+878
+01:18:46,553 --> 01:18:55,240
+I think the belief that one way to put physics is just to know what the governing
+equations are and stick them into the loss function.
+
+879
+01:18:55,240 --> 01:18:58,743
+We know that there are some difficulties in training this.
+
+880
+01:18:58,743 --> 01:19:00,235
+The training is ill-conditioned.
+
+881
+01:19:00,235 --> 01:19:01,906
+You have to precondition it somehow.
+
+882
+01:19:01,906 --> 01:19:06,670
+There are some ways out there, but this is far from what
+
+883
+01:19:06,670 --> 01:19:09,672
+we are already able to do with the data-driven approach.
+
+884
+01:19:09,672 --> 01:19:10,703
+Far from it, right?
+
+885
+01:19:10,703 --> 01:19:19,719
+With the data-driven approach, we are able to predict the weather now, which is a
+physics-based problem, and it's completely done in a data-driven approach.
+
+886
+01:19:19,719 --> 01:19:31,666
+So I don't think the question of how to add physics has been answered yet, even in an
+academic setting, let alone in a large-scale setting, right?
+
+887
+01:19:31,672 --> 01:19:35,854
+So you could argue that maybe we can put in conservation laws, symmetries.
+
+888
+01:19:35,854 --> 01:19:39,225
+I think there are some comments about that also on the post.
+
+889
+01:19:39,426 --> 01:19:41,366
+Yes, that could be.
+
+890
+01:19:41,366 --> 01:19:44,008
+We could use that as data augmentation and so on.
+
+891
+01:19:44,008 --> 01:19:47,109
+But I think it would still be a low ball.
+
+892
+01:19:47,109 --> 01:19:55,583
+It's not going to change things dramatically because maybe the physics has lot of hidden,
+explicit symmetries, but the boundary conditions break it, right?
+
+893
+01:19:55,583 --> 01:19:57,634
+And then, where do you go?
+
+894
+01:19:57,634 --> 01:19:58,870
+And so I...
+
+895
+01:19:58,870 --> 01:20:11,218
+And sticking the sort of physics equation based laws may so far has not been able to be
+shown to scale at this limits, but maybe it's possible.
+
+896
+01:20:11,218 --> 01:20:17,323
+I think the question of how to add physics into these models is a very interesting one.
+
+897
+01:20:17,323 --> 01:20:20,264
+In my opinion, it has not been answered yet.
+
+898
+01:20:22,668 --> 01:20:34,651
+And I think one of the points of this paper, which I was keen and I think maybe sets it
+apart from some other recent papers talking about foundational models is it is unashamedly
+
+899
+01:20:34,651 --> 01:20:49,014
+a more industrial focused, like, you know, if you want to build a model that could predict
+a car or a plane or a data center using the architectures available today.
+
+900
+01:20:49,762 --> 01:20:50,362
+would you do that?
+
+901
+01:20:50,362 --> 01:20:55,244
+And so that is why it doesn't focus on stuff that could be around.
+
+902
+01:20:55,324 --> 01:20:59,966
+It is essentially saying there are architectures available today.
+
+903
+01:21:00,086 --> 01:21:05,209
+How much compute and data would you need to throw at it to build the model?
+
+904
+01:21:05,209 --> 01:21:08,270
+That is essentially the like summary, isn't it?
+
+905
+01:21:08,270 --> 01:21:15,733
+Um, and, and what is undeniable is there will be future architectures and future ways of
+doing things that could incorporate it.
+
+906
+01:21:15,733 --> 01:21:18,624
+But I think what we're setting out is if you've got enough.
+
+907
+01:21:18,926 --> 01:21:22,167
+you know, compute budget and data budget.
+
+908
+01:21:22,167 --> 01:21:24,348
+feels like this could be done, right?
+
+909
+01:21:24,348 --> 01:21:40,955
+I mean, that's the sort of takeaway I'm getting from this paper is that if you have a
+efficient enough data generation code and a scalable architecture, the only limitation is
+
+910
+01:21:41,635 --> 01:21:42,756
+compute.
+
+911
+01:21:43,996 --> 01:21:48,206
+And, uh, I think because of that, I
+
+912
+01:21:48,206 --> 01:22:00,386
+would make a prediction that we will see people try and build these models because those
+numbers are not so high that they are beyond, especially in the age of AI, you know,
+
+913
+01:22:00,386 --> 01:22:01,106
+stuff.
+
+914
+01:22:01,186 --> 01:22:10,166
+I hopefully that formalizes a little bit that at least from our numbers, this, and I say
+this, maybe this is the final point.
+
+915
+01:22:10,166 --> 01:22:11,626
+It'd be good to get your final.
+
+916
+01:22:11,626 --> 01:22:17,762
+There was an early version of the paper where I wrote the bottom of the abstract,
+something like.
+
+917
+01:22:17,762 --> 01:22:23,588
+And we conclude that this is an intractable problem that you cannot actually build it.
+
+918
+01:22:23,728 --> 01:22:32,597
+And, and I had to completely change it, you know, to basically the other way around
+because I believe now it is a tractable problem.
+
+919
+01:22:33,218 --> 01:22:34,450
+We don't know how accurate it will be.
+
+920
+01:22:34,450 --> 01:22:36,101
+Right.
+
+921
+01:22:36,101 --> 01:22:38,823
+So I, so I think it can be done.
+
+922
+01:22:38,962 --> 01:22:40,525
+What's your final thoughts?
+
+923
+01:22:41,302 --> 01:22:44,484
+Yeah, that's a beautiful ending and not much to add.
+
+924
+01:22:44,484 --> 01:22:50,367
+Just saying um it can be done, but not for all CFD.
+
+925
+01:22:50,868 --> 01:23:02,454
+So not for all the cases you listed in appendix C together, but for certain specified um
+set of cases either together or separately.
+
+926
+01:23:02,454 --> 01:23:04,535
+It depends on what you're looking at.
+
+927
+01:23:04,615 --> 01:23:08,638
+Industry doesn't need a model which works for all CFD.
+
+928
+01:23:08,638 --> 01:23:09,774
+Industry needs
+
+929
+01:23:09,774 --> 01:23:12,854
+a model which works for the type of problems they're looking at.
+
+930
+01:23:12,874 --> 01:23:20,474
+This does not only apply for CFD, it applies for all sorts of other problems,
+semiconductors, crash testing, blah, blah, blah.
+
+931
+01:23:22,082 --> 01:23:32,265
+Yeah, being a sort of the more the scientist here, maybe I can say that, yeah, the
+scientist dream is to have this large scale model.
+
+932
+01:23:32,265 --> 01:23:33,645
+I think we are close.
+
+933
+01:23:33,645 --> 01:23:40,387
+Maybe we, because our main assumption in terms of data generation, I think we have laid
+the case very well.
+
+934
+01:23:40,387 --> 01:23:51,074
+In terms of model architecture, we have made the hypothesis very clear that your model has
+to scale in a certain manner with respect to data and with respect to model size, right?
+
+935
+01:23:51,074 --> 01:23:54,135
+There are architectures out there which can do that.
+
+936
+01:23:54,135 --> 01:23:58,956
+And they can certainly do it in sort of specific domains, as Johannes rightly said.
+
+937
+01:23:58,956 --> 01:24:03,698
+Whether they can do it cross-domain or not, this is essentially my research.
+
+938
+01:24:03,698 --> 01:24:06,058
+I'm occupied with that question all the time.
+
+939
+01:24:06,058 --> 01:24:15,701
+I think uh hopefully the answer is yes, but uh certainly in a sort of restricted setting
+that Johannes said, I think our numbers clearly show that this can certainly be done.
+
+940
+01:24:15,701 --> 01:24:18,656
+But let's be optimistic and say that at least
+
+941
+01:24:18,656 --> 01:24:22,656
+in some cross-domain settings, can still do it.
+
+942
+01:24:22,656 --> 01:24:26,102
+Soon, soon enough, rather than waiting for five years.
+
+943
+01:24:26,102 --> 01:24:26,914
+It's been a pleasure.
+
+944
+01:24:26,914 --> 01:24:30,274
+Um, we'll have to, do this again.
+
+945
+01:24:30,274 --> 01:24:32,213
+So thanks guys.
+
+946
+01:24:32,213 --> 01:24:32,819
+Thanks.
+
+947
+01:24:32,819 --> 01:24:37,386
+It was an absolute pleasure not only writing this paper but also having the podcast with
+you.
+
+948
+01:24:37,496 --> 01:24:38,293
+Yeah.
+
+949
+01:24:38,293 --> 01:24:38,797
+Awesome.
+
+950
+01:24:38,797 --> 01:24:40,042
+Hi, thanks.

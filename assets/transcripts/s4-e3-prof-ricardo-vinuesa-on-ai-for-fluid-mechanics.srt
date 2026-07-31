@@ -60,7 +60,7 @@ So today's guest is Professor
 
 13
 00:00:44,040 --> 00:00:48,040
-Ricardo Vinu Isa.
+Ricardo Vinuesa.
 Ricardo is currently a Professor
 
 14
@@ -195,7 +195,7 @@ know, we dived into some of the
 
 40
 00:02:15,520 --> 00:02:17,760
-bigger questions facing CFT
+bigger questions facing CFD
 today.
 
 41
@@ -286,7 +286,7 @@ and, and I hope you do too.
 58
 00:03:17,040 --> 00:03:20,920
 So sit back and enjoy this
-episode with Professor Vinu Isa.
+episode with Professor Vinuesa.
 
 59
 00:03:21,280 --> 00:03:23,080
@@ -455,7 +455,7 @@ don't really need to mimic all
 
 92
 00:05:27,080 --> 00:05:31,800
-the physics of the renal system.
+the physics of the real system.
 You might just focus on a subset
 
 93
@@ -510,7 +510,7 @@ would have given a different
 
 103
 00:06:08,920 --> 00:06:11,160
-handset.
+answer.
 Can you pinpoint anything that
 
 104
@@ -540,7 +540,7 @@ versions of the whole flow or in
 
 109
 00:06:38,080 --> 00:06:43,040
-reduce order representations,
+reduced-order representations,
 but in really full fidelity high
 
 110
@@ -565,7 +565,7 @@ surprising capabilities of this
 
 114
 00:06:58,680 --> 00:07:01,440
-explain ability and causal
+explainability and causal
 frameworks to really
 
 115
@@ -586,7 +586,7 @@ methods, especially in the last
 118
 00:07:13,040 --> 00:07:16,280
 few years, diffusion, flow
-matching, conditional later
+matching, conditional latent
 
 119
 00:07:16,280 --> 00:07:21,080
@@ -776,7 +776,7 @@ study turbulence and people have
 156
 00:09:52,640 --> 00:09:57,160
 been looking at vortices,
-streaks, Rhino stresses, many
+streaks, Reynolds stresses, many
 
 157
 00:09:57,160 --> 00:10:01,360
@@ -791,7 +791,7 @@ very nice CFD visualisation,
 159
 00:10:06,840 --> 00:10:09,840
 very colourful visualisation,
-they will show you Lambda 2,
+they will show you lambda-2,
 
 160
 00:10:09,840 --> 00:10:12,280
@@ -815,7 +815,7 @@ at least for the friction and
 
 164
 00:10:21,920 --> 00:10:23,800
-for the drug.
+for the drag.
 They matter for other things,
 
 165
@@ -885,18 +885,18 @@ So in different regions, close
 
 178
 00:11:11,560 --> 00:11:15,000
-to the wall, the the Renaissance
+to the wall, the the Reynolds
 stresses were important.
 
 179
 00:11:15,160 --> 00:11:16,960
-Farther away, the streets were
+Farther away, the streaks were
 important.
 
 180
 00:11:17,080 --> 00:11:19,240
 Farther away there were all the
-rhino stresses that were
+Reynolds stresses that were
 
 181
 00:11:19,240 --> 00:11:22,840
@@ -955,7 +955,7 @@ and physical?
 
 192
 00:11:52,080 --> 00:11:55,560
-Because when we device control
+Because when we devise control
 mechanisms, when we manipulate
 
 193
@@ -966,7 +966,7 @@ presence of these mechanisms
 194
 00:12:00,120 --> 00:12:03,000
 that we identify, that's when we
-get the highest track reduction.
+get the highest drag reduction.
 
 195
 00:12:03,720 --> 00:12:09,880
@@ -975,22 +975,22 @@ can find nice colourful volumes
 
 196
 00:12:09,880 --> 00:12:13,840
-of extractors is that those
-extractors in a causal way are
+of structures is that those
+structures in a causal way are
 
 197
 00:12:13,880 --> 00:12:16,960
-actually affecting the drug in
+actually affecting the drag in
 this case the most.
 
 198
 00:12:17,280 --> 00:12:23,120
 And they are tackling those
-extractors is really looking at
+structures is really looking at
 
 199
 00:12:23,120 --> 00:12:28,480
-the root cause of the drug, so
+the root cause of the drag, so
 the disease and not the symptom.
 
 200
@@ -1231,11 +1231,11 @@ actually that we can
 247
 00:15:38,680 --> 00:15:42,240
 progressively keep improving our
-model as new data becomes a
+model as new data becomes
 
 248
 00:15:42,240 --> 00:15:47,280
-while.
+available.
 Now your data for helicopters is
 
 249
@@ -1400,7 +1400,7 @@ machine learning that separates
 
 281
 00:17:47,800 --> 00:17:52,920
-it from reduced automobile?
+it from reduced-order modelling?
 Unless you classify them as to
 
 282
@@ -1441,7 +1441,7 @@ can help CFD?
 289
 00:18:18,080 --> 00:18:21,000
 And this is work that I did with
-my friend Steve Branton some
+my friend Steve Brunton some
 
 290
 00:18:21,000 --> 00:18:23,880
@@ -1451,12 +1451,12 @@ areas.
 291
 00:18:23,880 --> 00:18:28,520
 We found accelerate DNS,
-improved models, both runs and
+improve models, both RANS and
 
 292
 00:18:28,520 --> 00:18:32,960
-LES and improve reduce order
-models or saturate models.
+LES and improve reduced-order
+models or surrogate models.
 
 293
 00:18:33,120 --> 00:18:36,360
@@ -1500,7 +1500,7 @@ helping.
 
 301
 00:18:58,680 --> 00:19:03,760
-So reduce order modelling would
+So reduced-order modelling would
 be just one area within all the
 
 302
@@ -1536,7 +1536,7 @@ surrogate models, traditional
 308
 00:19:26,480 --> 00:19:34,120
 models, one key has been the
-possibility of hiring well,
+possibility of handling well,
 
 309
 00:19:34,120 --> 00:19:36,800
@@ -1546,7 +1546,7 @@ model development, right in your
 310
 00:19:36,800 --> 00:19:41,960
 surrogate.
-And of course PODDMDI mean the
+And of course POD, DMD, I mean, they're
 
 311
 00:19:42,320 --> 00:19:45,080
@@ -1560,8 +1560,8 @@ compression at scale, which is
 
 313
 00:19:50,960 --> 00:19:53,600
-what you can have now with more,
-more than out in core
+what you can have now with
+modern autoencoder
 
 314
 00:19:53,600 --> 00:19:58,440
@@ -1585,18 +1585,18 @@ in some of our work is in, I
 
 318
 00:20:10,640 --> 00:20:12,680
-mean, out on corners are good at
+mean, autoencoders are good at
 compressing, right?
 
 319
 00:20:12,760 --> 00:20:16,400
 Compressing anything, images of
-cats and dogs and images of tool
+cats and dogs and images of turbulent
 
 320
 00:20:16,400 --> 00:20:20,160
-and flows if you wish.
-But tool and flows, their
+flows if you wish.
+But turbulent flows, they're
 
 321
 00:20:20,160 --> 00:20:23,480
@@ -1625,8 +1625,8 @@ representation, because if you
 
 326
 00:20:36,360 --> 00:20:39,640
-do that and you can use beta
-AES, you can use hierarchical
+do that and you can use beta-
+VAEs, you can use hierarchical
 
 327
 00:20:39,640 --> 00:20:41,720
@@ -1660,7 +1660,7 @@ interpretability point of view
 
 333
 00:20:58,120 --> 00:21:01,640
-of your Stargate system, but
+of your surrogate system, but
 also from a predictive point of
 
 334
@@ -1686,7 +1686,7 @@ a bit of a long answer to your
 338
 00:21:13,200 --> 00:21:15,800
 question, but machine learning
-is not just reduce order
+is not just reduced-order
 
 339
 00:21:15,800 --> 00:21:17,200
@@ -1696,12 +1696,12 @@ Let's say that there's many
 340
 00:21:17,240 --> 00:21:21,080
 other things that one can do and
-within reduce order modelling
+within reduced-order modelling
 
 341
 00:21:21,080 --> 00:21:25,920
 that, you know, capability of
-really having out in colors at
+really having autoencoders at
 
 342
 00:21:25,920 --> 00:21:29,240
@@ -1721,11 +1721,11 @@ say, or another topic, which
 345
 00:21:37,400 --> 00:21:40,280
 also has helped in building the
-temporal dynamics of these radio
+temporal dynamics of these reduced-order
 
 346
 00:21:40,280 --> 00:21:43,440
-solar systems.
+systems.
 I mean, where do you see?
 
 347
@@ -1740,7 +1740,7 @@ one of the the big focuses of
 
 349
 00:21:57,040 --> 00:22:02,480
-the fluent community, it does
+the fluids community, it does
 seem to have slightly petered
 
 350
@@ -1751,7 +1751,7 @@ has shifted a little bit more to
 351
 00:22:07,400 --> 00:22:09,920
 the surrogate modelling, to the
-sort of reduced auto modelling.
+sort of reduced-order modelling.
 
 352
 00:22:10,280 --> 00:22:12,640
@@ -1806,7 +1806,7 @@ just making an empirical
 362
 00:22:54,680 --> 00:22:57,680
 assumption of how the, you know,
-the Renaissance stresses need to
+the Reynolds stresses need to
 
 363
 00:22:57,680 --> 00:22:59,680
@@ -1860,7 +1860,7 @@ ML to adjust coefficients in two
 
 373
 00:23:33,880 --> 00:23:36,600
-large modelling models that have
+turbulence models that have
 been around for decades and
 
 374
@@ -1881,7 +1881,7 @@ other approaches to, to
 377
 00:23:46,320 --> 00:23:49,760
 modelling that were, you know,
-kept possible at that time.
+computationally possible at that time.
 
 378
 00:23:51,240 --> 00:23:54,720
@@ -1946,7 +1946,7 @@ So instead of asking my machine
 390
 00:24:38,360 --> 00:24:42,760
 learning model to say for the
-Smolensky model, what should be
+Smagorinsky model, what should be
 
 391
 00:24:42,760 --> 00:24:48,400
@@ -1956,7 +1956,7 @@ to, to, or even say to my
 392
 00:24:48,400 --> 00:24:54,080
 machine learning model or just
-find the subway scale tensor to
+find the subgrid-scale tensor to
 
 393
 00:24:54,080 --> 00:24:58,520
@@ -1996,7 +1996,7 @@ mechanisms across scales, and
 400
 00:25:21,240 --> 00:25:24,000
 that energy goes in this
-election and there is an inverse
+direction and there is an inverse
 
 401
 00:25:24,000 --> 00:25:26,280
@@ -2121,7 +2121,7 @@ know, the machine learning,
 425
 00:26:57,280 --> 00:27:01,560
 either in the context of
-learning what the total and
+learning what the turbulent
 
 426
 00:27:01,560 --> 00:27:04,960
@@ -2156,7 +2156,7 @@ the British Library, there was
 432
 00:27:27,680 --> 00:27:32,720
 an AI, somebody organized UKTC,
-the turbans consortium in the
+the Turbulence Consortium in the
 
 433
 00:27:32,720 --> 00:27:36,440
@@ -2171,17 +2171,17 @@ some people.
 435
 00:27:39,160 --> 00:27:42,720
 And there was a Professor,
-Michael Leschiner, who, you
+Michael Leschziner, who, you
 
 436
 00:27:42,720 --> 00:27:46,160
 know, is a sort of pioneer of
-turbans modelling developed with
+turbulence modelling developed with
 
 437
 00:27:46,160 --> 00:27:48,280
 Brian Launder, you know, all
-these renal stress models.
+these Reynolds-stress models.
 
 438
 00:27:48,680 --> 00:27:52,840
@@ -2216,7 +2216,7 @@ realistic to ask an LLM to
 444
 00:28:16,920 --> 00:28:21,960
 reason through the process of
-how you would develop a turbans
+how you would develop a turbulence
 
 445
 00:28:21,960 --> 00:28:29,400
@@ -2270,7 +2270,7 @@ understand the potential of
 
 455
 00:28:59,320 --> 00:29:05,160
-decisioning systems and 2nd, we
+agentic systems and 2nd, we
 are learning to ask the right
 
 456
@@ -2315,7 +2315,7 @@ Because there's quite some work
 
 464
 00:29:37,960 --> 00:29:42,120
-on LLMS to do this and to try to
+on LLMs to do this and to try to
 achieve discovery, whatever we
 
 465
@@ -2335,7 +2335,7 @@ terms of the spectrum, they have
 
 468
 00:29:55,440 --> 00:29:57,800
-multiple skills, multiple energy
+multiple scales, multiple energy
 fluxes.
 
 469
@@ -2346,7 +2346,7 @@ way to represent this very
 470
 00:30:00,520 --> 00:30:06,040
 complex data, right?
-And perhaps using LMS directly
+And perhaps using LLMs directly
 
 471
 00:30:06,400 --> 00:30:10,360
@@ -2371,7 +2371,7 @@ that are particularly attuned to
 475
 00:30:26,160 --> 00:30:28,920
 represent important properties
-of these two water flow systems.
+of these turbulent-flow systems.
 
 476
 00:30:29,680 --> 00:30:32,240
@@ -2396,7 +2396,7 @@ spaces to explore the, the, you
 480
 00:30:49,160 --> 00:30:51,840
 know, the, the complexity of
-these, of these two water flows.
+these, of these turbulent flows.
 
 481
 00:30:52,920 --> 00:30:58,080
@@ -2436,7 +2436,7 @@ developing it with pretty
 488
 00:31:22,400 --> 00:31:26,880
 promising results that using a
-genetic systems in that latent
+agentic systems in that latent
 
 489
 00:31:26,880 --> 00:31:31,800
@@ -2535,13 +2535,13 @@ exploration with these agents,
 
 508
 00:32:41,200 --> 00:32:44,640
-then I can try to get inside.
+then I can try to get insight.
 Then I can try to find causal
 
 509
 00:32:44,640 --> 00:32:46,880
 relations that are key in that
-later space.
+latent space.
 
 510
 00:32:47,480 --> 00:32:52,480
@@ -2570,12 +2570,12 @@ That means that this vortex from
 
 515
 00:33:05,800 --> 00:33:08,120
-the sheer layer of the wing is
+the shear layer of the wing is
 actually very similar to this
 
 516
 00:33:08,120 --> 00:33:10,800
-vortex from the sheer layer in
+vortex from the shear layer in
 the separation of that building
 
 517
@@ -2646,7 +2646,7 @@ and turbo machineries and
 530
 00:33:57,680 --> 00:34:01,560
 basically every single possible
-geometry and band of condition
+geometry and boundary condition
 
 531
 00:34:01,560 --> 00:34:07,240
@@ -2825,7 +2825,7 @@ on this.
 
 566
 00:36:12,160 --> 00:36:16,680
-So it's basically 2 cylinders to
+So it's basically two cylinders, to
 the keep it simple for now, but
 
 567
@@ -2875,7 +2875,7 @@ this configuration and calculate
 
 576
 00:36:50,600 --> 00:36:53,640
-my weight characteristics and
+my wake characteristics and
 internal quantities and you
 
 577
@@ -3146,7 +3146,7 @@ And perhaps the fluid mechanics
 630
 00:40:06,040 --> 00:40:09,640
 community, when trying to adopt
-MMM methods, has been sometimes
+ML methods, has been sometimes
 
 631
 00:40:09,640 --> 00:40:14,280
@@ -3190,7 +3190,7 @@ mechanics, aerodynamics,
 
 639
 00:40:38,280 --> 00:40:39,640
-instructors and many other
+structures and many other
 things.
 
 640
@@ -3250,7 +3250,7 @@ And this is very rich data with
 
 651
 00:41:20,080 --> 00:41:23,320
-a very broadband Spectra multi
+a very broadband spectrum, multi-
 scale.
 
 652
@@ -3275,7 +3275,7 @@ And maybe even having a model
 
 656
 00:41:36,120 --> 00:41:39,400
-that predicts the MSC, well,
+that predicts the MSE, well,
 that might be useless in some
 
 657
@@ -3301,7 +3301,7 @@ certain structures, certain
 661
 00:41:52,040 --> 00:41:56,640
 mechanisms as I was mentioning
-before for, you know, for a drug
+before for, you know, for a drag
 
 662
 00:41:56,880 --> 00:42:00,760
@@ -3311,7 +3311,7 @@ So it could be that for my
 663
 00:42:00,760 --> 00:42:04,640
 purpose, if I want to reduce
-drug, having a good MSE is
+drag, having a good MSE is
 
 664
 00:42:04,640 --> 00:42:07,600
@@ -3481,7 +3481,7 @@ we should be implicitly or
 697
 00:44:09,160 --> 00:44:13,400
 explicitly imposing, which I
-guess is where some of the pins,
+guess is where some of the PINNs,
 
 698
 00:44:13,720 --> 00:44:21,080
@@ -3560,7 +3560,7 @@ system, well, first of all, your
 
 713
 00:45:19,480 --> 00:45:22,560
-mother will be wrong because you
+model will be wrong because you
 will never be, you know,
 
 714
@@ -3626,7 +3626,7 @@ several velocity components, I
 726
 00:46:02,000 --> 00:46:04,480
 mean, do you know that there is
-the flossing compressible, Do
+the flow is incompressible, Do
 
 727
 00:46:04,480 --> 00:46:06,760
@@ -3666,7 +3666,7 @@ imagine that I want to create a
 734
 00:46:29,200 --> 00:46:33,800
 system that predicts very well
-the acoustic feel of an airfoil
+the acoustic field of an airfoil
 
 735
 00:46:33,800 --> 00:46:35,760
@@ -3680,7 +3680,7 @@ I want to be able to control the
 
 737
 00:46:37,600 --> 00:46:40,600
-acoustic feel, the noise
+acoustic field, the noise
 produced by this drone.
 
 738
@@ -3715,7 +3715,7 @@ neither just the governing
 
 744
 00:47:04,640 --> 00:47:08,080
-equations like in a pinch way or
+equations like in a PINN way or
 just use data to predict the
 
 745
@@ -3725,7 +3725,7 @@ But rather, why don't I try to
 
 746
 00:47:10,400 --> 00:47:13,640
-predict just those extractors,
+predict just those structures,
 those mechanisms that produce
 
 747
@@ -3765,7 +3765,7 @@ interactions that you need to
 
 754
 00:47:36,240 --> 00:47:42,880
-resolve when you do ADNS.
+resolve when you do a DNS.
 But the model, I mean, once that
 
 755
@@ -3940,7 +3940,7 @@ curriculum and how to well adapt
 
 789
 00:49:46,160 --> 00:49:51,920
-to AI era, LLM base era.
+to AI era, LLM-based era.
 So we're having many
 
 790
@@ -4000,7 +4000,7 @@ the fact that students have
 
 801
 00:50:35,480 --> 00:50:38,800
-access to LLMS, right?
+access to LLMs, right?
 And and that, you know, the way
 
 802
@@ -4356,12 +4356,12 @@ physical systems, you can use
 872
 00:55:07,520 --> 00:55:09,960
 optimization and, and, and
-reinforcement only.
+reinforcement learning.
 
 873
 00:55:09,960 --> 00:55:16,000
 For example, I mean, imagine a
-tumulant flow where a made-up
+turbulent flow where a made-up
 
 874
 00:55:16,000 --> 00:55:21,800
@@ -4370,7 +4370,7 @@ fluxes are restricted to certain
 
 875
 00:55:22,480 --> 00:55:26,240
-scales and to certain work
+scales and to certain wave
 numbers dynamically, right That
 
 876
@@ -4385,7 +4385,7 @@ So you want to really affect
 
 878
 00:55:32,920 --> 00:55:35,040
-certain instructors with a
+certain structures with a
 certain forcing.
 
 879
@@ -4460,7 +4460,7 @@ point about how new systems and
 
 893
 00:56:18,040 --> 00:56:22,760
-differential solvers, I mean,
+differentiable solvers, I mean,
 we, we are really having the
 
 894
@@ -4625,7 +4625,7 @@ something beyond maybe something
 
 926
 00:58:35,000 --> 00:58:37,800
-more than what chat PT can can
+more than what ChatGPT can can
 do.
 
 927
@@ -4635,7 +4635,7 @@ at, and I don't know if that
 
 928
 00:58:43,120 --> 00:58:46,760
-would be in 20-30, but I think
+would be in 2030, but I think
 that it's actually reasonable to
 
 929
@@ -4710,7 +4710,7 @@ solar eclipse to really look at
 
 943
 00:59:42,320 --> 00:59:46,240
-the deviation of the sand beams.
+the deviation of the sunbeams.
 And there's some fun stories
 
 944
@@ -4740,12 +4740,12 @@ way consistent with relativity.
 
 949
 01:00:03,720 --> 01:00:09,240
-There's a lot of certain Dipion
+There's a lot of serendipity in
 discovery, a lot of coincidences
 
 950
 01:00:09,240 --> 01:00:14,360
-lined up, and a lot of human try
+lined up, and a lot of human trial
 and error to achieve truly
 
 951
@@ -4920,7 +4920,7 @@ movement of replicating the sort
 
 985
 01:02:34,200 --> 01:02:37,000
-of chat chi BT success, you
+of ChatGPT success, you
 know, the the set.
 
 986
@@ -4951,7 +4951,7 @@ couldn't be possible, right.
 991
 01:02:55,600 --> 01:02:57,960
 You know, people weren't saying,
-oh, chat chi BT Oh yeah, we knew
+oh, ChatGPT Oh yeah, we knew
 
 992
 01:02:57,960 --> 01:03:00,280
@@ -5126,7 +5126,7 @@ to be seen as a major
 1026
 01:05:10,280 --> 01:05:14,280
 contributing factor to hopefully
-achieving that ChatGPT mode.
+achieving that ChatGPT moment.
 
 1027
 01:05:14,480 --> 01:05:15,960

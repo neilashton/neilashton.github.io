@@ -13,11 +13,12 @@ sitemap: false
     {% capture episode_video_key %}s{{ podcast_episode.season }}-e{{ podcast_episode.episode }}{% endcapture %}
     {% assign youtube_video = site.data.podcast_youtube[episode_video_key] %}
     {% if youtube_video %}
+      {% assign youtube_title = youtube_video.title | default: podcast_episode.youtube_title | default: podcast_episode.title %}
       <url>
         <loc>{{ podcast_episode.url | absolute_url | xml_escape }}</loc>
         <video:video>
           <video:thumbnail_loc>https://i.ytimg.com/vi/{{ youtube_video.id }}/maxresdefault.jpg</video:thumbnail_loc>
-          <video:title>{{ podcast_episode.title | xml_escape }}</video:title>
+          <video:title>{{ youtube_title | xml_escape }}</video:title>
           <video:description>{{ podcast_episode.description | xml_escape }}</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/{{ youtube_video.id }}</video:player_loc>
           <video:publication_date>{{ podcast_episode.date | date_to_xmlschema }}</video:publication_date>

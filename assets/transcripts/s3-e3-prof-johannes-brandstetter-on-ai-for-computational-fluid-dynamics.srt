@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,000 --> 00:00:05,880
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,760 --> 00:00:12,720
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,800 --> 00:00:16,840
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,840 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:22,960
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,920 --> 00:00:27,040
@@ -65,7 +64,7 @@ really enjoyed getting to know
 
 14
 00:00:47,840 --> 00:00:52,520
-better and chatting it various
+better and chatting at various
 conferences that we've attended
 
 15
@@ -75,13 +74,13 @@ that we've done, which is
 
 16
 00:00:56,160 --> 00:00:59,120
-Johannes brand set up.
+Johannes Brandstetter.
 So he's got an interesting
 
 17
 00:00:59,120 --> 00:01:04,760
 profile because not only is he a
-professor at England's at EU
+professor in Linz at JKU,
 
 18
 00:01:05,040 --> 00:01:09,960
@@ -91,7 +90,7 @@ Austria, but he also founded or
 19
 00:01:10,040 --> 00:01:13,000
 Co founded a startup recently
-called MEAI.
+called Emmi AI.
 
 20
 00:01:14,520 --> 00:01:20,600
@@ -140,13 +139,13 @@ It is one thing that I always do
 
 29
 00:01:46,880 --> 00:01:50,200
-when I speak to Yanis.
+when I speak to Johannes.
 And he has an interesting
 
 30
 00:01:50,200 --> 00:01:55,760
 background because whilst he has
-AI guess a high energy physics
+I guess a high energy physics
 
 31
 00:01:55,800 --> 00:02:01,640
@@ -176,7 +175,7 @@ I don't think I know that he was
 36
 00:02:17,360 --> 00:02:19,720
 then at Microsoft Research where
-Max was also out.
+Max was also at.
 
 37
 00:02:19,720 --> 00:02:21,720
@@ -190,7 +189,7 @@ Max Welling is, well, first
 
 39
 00:02:25,280 --> 00:02:27,520
-Google, his name is one of The
+Google his name. He's one of The
 Pioneers of machine learning.
 
 40
@@ -226,7 +225,7 @@ because whilst he was at
 46
 00:02:47,040 --> 00:02:51,560
 Microsoft, he also worked on the
-Aurora machine learning for web
+Aurora machine learning for weather
 
 47
 00:02:51,560 --> 00:02:55,840
@@ -336,7 +335,7 @@ of fresh air and definitely will
 68
 00:04:06,800 --> 00:04:09,880
 help the community to, to
-involve, to evolve.
+evolve.
 
 69
 00:04:10,800 --> 00:04:12,240
@@ -365,7 +364,7 @@ some of his thoughts around the
 
 74
 00:04:25,320 --> 00:04:28,280
-similarities to null operators,
+similarities to neural operators,
 some of the slight differences,
 
 75
@@ -441,7 +440,7 @@ enjoy what I found an extremely
 89
 00:05:15,000 --> 00:05:17,480
 interesting episode with
-Johannes Bransetta.
+Johannes Brandstetter.
 
 90
 00:05:18,720 --> 00:05:22,440
@@ -495,7 +494,7 @@ It's it's a great pleasure
 
 100
 00:05:49,520 --> 00:05:53,680
-finally seeing this guitars here
+finally sitting here with you
 in a one to one setting, so to
 
 101
@@ -510,7 +509,7 @@ some say a failed physicist.
 
 103
 00:06:01,000 --> 00:06:05,080
-But after my PHDI switched to
+But after my PhD, I switched to
 machine learning, as many people
 
 104
@@ -520,8 +519,8 @@ I have spent time with
 
 105
 00:06:07,560 --> 00:06:11,320
-Sepulchreiter and three years in
-Amsterdam with Maxwelling.
+Sepp Hochreiter and three years in
+Amsterdam with Max Welling.
 
 106
 00:06:11,320 --> 00:06:13,880
@@ -590,7 +589,7 @@ It also happened that I founded
 
 119
 00:06:59,640 --> 00:07:03,320
-a start up MEII where we do this
+a start up Emmi AI where we do this
 simulations at scale and where
 
 120
@@ -616,7 +615,7 @@ project.
 124
 00:07:21,440 --> 00:07:27,000
 I guess this is maybe it, it was
-subtaneously both a motivation,
+simultaneously both a motivation,
 
 125
 00:07:27,000 --> 00:07:29,520
@@ -665,8 +664,8 @@ I mean, all the credits to to
 
 134
 00:07:57,640 --> 00:08:02,360
-Chris Bodner versus Pransma,
-Megan Stanley and a Lucic who
+Cristian Bodnar, Wessel Bruinsma,
+Megan Stanley and Ana Lucic who
 
 135
 00:08:02,360 --> 00:08:05,840
@@ -695,12 +694,11 @@ scientific application.
 
 140
 00:08:21,160 --> 00:08:24,880
-In the end it was a swing
-transformer trained in in a 3D
+In the end it was a Swin Transformer trained in in a 3D
 
 141
 00:08:25,040 --> 00:08:28,560
-swing transformer.
+Swin Transformer.
 Secondly that the the data
 
 142
@@ -870,7 +868,7 @@ congested space with different
 
 175
 00:10:51,640 --> 00:10:54,920
-opinions, you know, with pins on
+opinions, you know, with PINNs on
 one side and then these sort of
 
 176
@@ -891,7 +889,7 @@ the state-of-the-art?
 179
 00:11:04,800 --> 00:11:09,400
 What what's been your journey
-from the sort of mesh graph Nets
+from the sort of MeshGraphNets
 
 180
 00:11:09,800 --> 00:11:15,120
@@ -930,13 +928,13 @@ I would say that NVIDIA was the
 
 187
 00:11:35,840 --> 00:11:40,040
-first with the forecast net
+first with the FourCastNet
 paper to to bring out a model
 
 188
 00:11:40,040 --> 00:11:43,200
 which worked that was trained on
-error 5, which is a publicly
+ERA5, which is a publicly
 
 189
 00:11:43,200 --> 00:11:47,120
@@ -990,13 +988,12 @@ this data set.
 
 199
 00:12:19,920 --> 00:12:21,760
-We don't have an error five data
+We don't have an ERA5 data
 set.
 
 200
 00:12:22,200 --> 00:12:25,040
-And even if you had an error
-five data set, I mean, there are
+And even if you had an ERA5 data set, I mean, there are
 
 201
 00:12:25,040 --> 00:12:30,920
@@ -1006,7 +1003,7 @@ available CFD data sets.
 202
 00:12:30,920 --> 00:12:35,600
 Needless to say that my favorite
-one is the Tri ML data set which
+one is the DrivAerML data set which
 
 203
 00:12:35,600 --> 00:12:40,120
@@ -1090,7 +1087,7 @@ end every pixel on the Earth
 
 219
 00:13:37,960 --> 00:13:43,120
-gets mapped to but with pixel on
+gets mapped to to a pixel on
 the earth like a time time point
 
 220
@@ -1205,8 +1202,7 @@ hard multi scale problems we are
 
 242
 00:15:03,880 --> 00:15:06,520
-already able to model and which
-we can able better than
+already able to model and which we can model better than
 
 243
 00:15:06,520 --> 00:15:09,080
@@ -1295,7 +1291,7 @@ introduction with, you know,
 
 260
 00:16:10,840 --> 00:16:14,440
-what the Deep Mind team did with
+what the DeepMind team did with
 with mesh graph Nets.
 
 261
@@ -1320,8 +1316,7 @@ It's always hard to to to judge.
 
 265
 00:16:34,440 --> 00:16:39,480
-But I think that the, the mesh
-craft net and, and, and and and
+But I think that the, the MeshGraphNets and, and, and and and
 
 266
 00:16:39,480 --> 00:16:42,720
@@ -1456,7 +1451,7 @@ which tells you where is mass,
 292
 00:18:09,160 --> 00:18:11,480
 where is no mass.
-It can be assigned distance
+It can be signed distance
 
 293
 00:18:11,480 --> 00:18:13,480
@@ -1481,7 +1476,7 @@ step if you think of this whole
 297
 00:18:24,840 --> 00:18:28,320
 scientific machine learning and
-no operator and, and, and so on
+neural operator and, and, and so on
 
 298
 00:18:28,320 --> 00:18:31,280
@@ -1595,12 +1590,11 @@ transformer based approach, what
 
 320
 00:19:51,160 --> 00:19:53,920
-you call it anchor based
-universal physics.
+you call it Anchor-Based Universal Physics.
 
 321
 00:19:53,920 --> 00:19:54,800
-Trump What?
+Transformer What?
 What?
 
 322
@@ -1615,22 +1609,22 @@ of 1 is which we call Universal
 
 324
 00:20:03,680 --> 00:20:05,960
-Physics transformer.
+Physics Transformer.
 That's basically how we do
 
 325
 00:20:05,960 --> 00:20:08,200
 latent space modelling of
-logical system.
+physical systems.
 
 326
 00:20:08,600 --> 00:20:11,080
 Then we did something which is
-called Neural DM where we
+called NeuralDEM where we
 
 327
 00:20:11,080 --> 00:20:14,640
-applied those to to multi flows
+applied those to to multiphase flows
 and and and multi.
 
 328
@@ -1645,7 +1639,7 @@ framework, similar approach,
 
 330
 00:20:24,680 --> 00:20:27,520
-which we call anchored branched
+which we call Anchored-Branched
 because these are the two
 
 331
@@ -1716,7 +1710,7 @@ sort of graph based thing where
 344
 00:21:21,360 --> 00:21:24,320
 it's more like point to point.
-Then you've got a new operator
+Then you've got a neural operator
 
 345
 00:21:24,320 --> 00:21:27,600
@@ -1735,8 +1729,7 @@ And yet you see some people who
 
 348
 00:21:34,440 --> 00:21:37,120
-say, well, everything is a new
-operator if you do the maths or
+say, well, everything is a neural operator if you do the maths or
 
 349
 00:21:37,120 --> 00:21:41,720
@@ -1750,8 +1743,7 @@ that concept of solution mapping
 
 351
 00:21:45,280 --> 00:21:47,880
-or field mapping and then how it
-lakes transforms?
+or field mapping and then how it links to Transformers?
 
 352
 00:21:47,880 --> 00:21:50,960
@@ -1770,7 +1762,7 @@ in the context of let's say this
 
 355
 00:21:58,280 --> 00:22:00,680
-drive air, ML or car, however
+DrivAerML or car, however
 you want to explain it.
 
 356
@@ -1816,7 +1808,7 @@ function, this has to be
 364
 00:22:30,240 --> 00:22:32,960
 fulfilled.
-Meaning that if a sample 10
+Meaning that if I sample 10
 
 365
 00:22:32,960 --> 00:22:36,760
@@ -1835,7 +1827,7 @@ output function.
 
 368
 00:22:41,960 --> 00:22:46,760
-If a sample with the same
+If I sample with the same
 network with the same operator 6
 
 369
@@ -1855,7 +1847,7 @@ Obviously there is a limit.
 
 372
 00:22:56,400 --> 00:22:59,800
-If a sample to little input
+If I sample too few input
 points, then obviously the
 
 373
@@ -1865,7 +1857,7 @@ able to really get the
 
 374
 00:23:02,600 --> 00:23:06,920
-information needs.
+information it needs.
 But if if this this this
 
 375
@@ -1900,7 +1892,7 @@ can do with convolutions, with
 
 381
 00:23:28,120 --> 00:23:31,040
-full node operators, with
+Fourier neural operators, with
 Transformers and so on and so
 
 382
@@ -1971,7 +1963,7 @@ out, I was I think it was billed
 395
 00:24:16,600 --> 00:24:22,240
 as a resolution independent.
-So it which always to ACFD
+So it which always to a CFD
 
 396
 00:24:22,240 --> 00:24:27,160
@@ -2106,11 +2098,11 @@ amount of points, but the
 422
 00:25:53,280 --> 00:25:56,760
 performance stagnates.
-So if it's, it's for for tribe
+So if it's, it's for for DrivAer
 
 423
 00:25:56,760 --> 00:26:04,480
-ML, this is roughly 128 Ki think
+ML, this is roughly 128K, I think
 or 256 I, I, I don't know by
 
 424
@@ -2225,7 +2217,7 @@ points as you want because
 
 446
 00:27:13,040 --> 00:27:16,840
-that's the new operator, right?
+that's the neural operator, right?
 That you can really get every
 
 447
@@ -2325,8 +2317,7 @@ And so a lot of people take an
 
 466
 00:28:30,880 --> 00:28:35,520
-8,000,000 cell can't fit in AGP
-memory and take 500,000 but
+8,000,000 cell can't fit in a GPU's memory and take 500,000 but
 
 467
 00:28:35,520 --> 00:28:40,320
@@ -2340,7 +2331,7 @@ distribution or if they give a
 
 469
 00:28:44,040 --> 00:28:47,080
-different mesh distribute.
+different mesh distribution.
 Do do you know what I'm getting?
 
 470
@@ -2436,7 +2427,7 @@ nevertheless it will give you
 488
 00:29:47,120 --> 00:29:50,840
 the same answer in the output.
-So you can trustically reduce
+So you can drastically reduce
 
 489
 00:29:50,840 --> 00:29:53,960
@@ -2501,7 +2492,7 @@ most people know conceptually,
 501
 00:30:36,640 --> 00:30:40,480
 you know, tokens, etcetera,
-LLMS, but maybe not in the
+LLMs, but maybe not in the
 
 502
 00:30:40,480 --> 00:30:44,960
@@ -2516,11 +2507,11 @@ tremendously optimised and and
 504
 00:30:50,840 --> 00:30:55,480
 and tremendously well understood
-powerhouse power work, power
+powerhouse, workhorse
 
 505
 00:30:55,480 --> 00:30:57,320
-horse in, in, in deep learning,
+in, in, in deep learning,
 right.
 
 506
@@ -2565,8 +2556,7 @@ And then they have this how to
 
 514
 00:31:31,840 --> 00:31:35,920
-say so I call it discretization
-conversion.
+say so I call it discretisation convergence.
 
 515
 00:31:35,920 --> 00:31:41,280
@@ -2590,8 +2580,7 @@ obviously extremely valid,
 
 519
 00:31:52,400 --> 00:31:55,800
-important property for this new
-operator paradigm.
+important property for this neural operator paradigm.
 
 520
 00:31:57,400 --> 00:32:00,880
@@ -2740,7 +2729,7 @@ But in in language, it's the
 
 549
 00:33:50,480 --> 00:33:55,080
-token's words in, in envision,
+token's words in, in in vision,
 the tokens is small patches of
 
 550
@@ -2825,7 +2814,7 @@ tokens, they represent different
 
 566
 00:34:56,840 --> 00:34:59,800
-physic objects or physic parts
+physical objects or physical parts
 of the physics.
 
 567
@@ -2840,7 +2829,7 @@ other.
 
 569
 00:35:04,600 --> 00:35:09,640
-You like, like this volume
+You link these volume
 tokens between each other and
 
 570
@@ -2855,7 +2844,7 @@ of concepts from computer vision
 
 572
 00:35:16,600 --> 00:35:23,160
-because that's what it works.
+because that's what works.
 So if I understand it correctly,
 
 573
@@ -2950,7 +2939,7 @@ geometry individually.
 
 591
 00:36:33,440 --> 00:36:38,760
-It turns out this, this drive ML
+It turns out this, this DrivAerML
 data set and so on so forth.
 
 592
@@ -2995,7 +2984,7 @@ as your points, but it makes
 
 600
 00:37:07,920 --> 00:37:11,880
-sense to pull them before.
+sense to pool them before.
 And the same in the volume,
 
 601
@@ -3156,7 +3145,7 @@ questions, I have to say.
 632
 00:39:10,040 --> 00:39:13,680
 So I would my argument is, and I
-mean you tell me you're the CFT
+mean you tell me you're the CFD
 
 633
 00:39:13,680 --> 00:39:19,040
@@ -3181,7 +3170,7 @@ and in the volume.
 637
 00:39:27,400 --> 00:39:30,440
 And this is not only cars, it
-should be hold for airplanes and
+should hold for airplanes and
 
 638
 00:39:30,440 --> 00:39:33,120
@@ -3196,12 +3185,12 @@ points and where this is #1
 640
 00:39:38,600 --> 00:39:42,080
 condition, we cannot, we cannot
-use paralisation here because
+use parallelisation here because
 
 641
 00:39:42,080 --> 00:39:45,480
 then we end up using thousand
-GPU's and this is not scaling
+GPUs and this is not scaling
 
 642
 00:39:45,480 --> 00:39:48,080
@@ -3240,7 +3229,7 @@ However, you have to make sure
 
 649
 00:40:10,360 --> 00:40:14,320
-with null operator learning with
+with neural operator learning with
 function approximation that
 
 650
@@ -3255,17 +3244,17 @@ Able to give you the full answer
 
 652
 00:40:20,160 --> 00:40:22,960
-on the full simulation measure.
+on the full simulation mesh.
 I think this is the true CFD
 
 653
 00:40:22,960 --> 00:40:27,400
 problem or the true learning
-problem similar to the error 5
+problem similar to the ERA5
 
 654
 00:40:27,400 --> 00:40:30,960
-setup in Feather modelling which
+setup in weather modelling which
 we have to do in CFD.
 
 655
@@ -3276,7 +3265,7 @@ interesting point that I it's
 656
 00:40:37,720 --> 00:40:40,680
 good to maybe briefly discuss
-which is at imprint time.
+which is at inference time.
 
 657
 00:40:41,000 --> 00:40:45,000
@@ -3316,7 +3305,7 @@ So normally if you are running a
 664
 00:41:12,480 --> 00:41:15,480
 normal CFD problem or you're
-taking the driver ML data set,
+taking the DrivAerML data set,
 
 665
 00:41:15,480 --> 00:41:20,680
@@ -3345,8 +3334,7 @@ And the question is, do I have
 
 670
 00:41:33,600 --> 00:41:37,880
-to mesh it like I would mesh
-ACFD problem or can I just take
+to mesh it like I would mesh a CFD problem or can I just take
 
 671
 00:41:37,880 --> 00:41:42,240
@@ -3411,12 +3399,12 @@ it's very important that the
 683
 00:42:36,840 --> 00:42:40,640
 algorithm we are developing
-works for for cat geometry.
+works for for CAD geometry.
 
 684
 00:42:40,640 --> 00:42:44,560
-So if you input interference
-only the cat geometry, you're
+So if you input inference
+only the CAD geometry, you're
 
 685
 00:42:44,560 --> 00:42:49,520
@@ -3431,7 +3419,7 @@ and volume mesh in inference.
 687
 00:42:53,320 --> 00:42:56,360
 The only thing the model gets
-the CFD input.
+the CAD input.
 
 688
 00:42:57,320 --> 00:43:01,240
@@ -3475,7 +3463,7 @@ on the on the surface such that
 
 696
 00:43:25,280 --> 00:43:28,240
-interference it's the model is
+inference it's the model is
 able to deal without any of
 
 697
@@ -3516,7 +3504,7 @@ the prediction.
 704
 00:43:52,080 --> 00:43:56,280
 But you can also do that from
-pure COD inputs.
+pure CAD inputs.
 
 705
 00:43:56,720 --> 00:44:00,560
@@ -3585,7 +3573,7 @@ challenge in people's heads is
 
 718
 00:44:46,840 --> 00:44:50,800
-if you do ACFD simulation, you
+if you do a CFD simulation, you
 would expect there to be a
 
 719
@@ -3595,8 +3583,8 @@ It it should give a difference
 
 720
 00:44:55,040 --> 00:44:59,240
-if I run that driver ML with a a
-grid that's half as course or
+if I run that DrivAerML with a a
+grid that's half as coarse or
 
 721
 00:44:59,240 --> 00:45:02,200
@@ -3605,8 +3593,7 @@ I want it to give a difference
 
 722
 00:45:02,520 --> 00:45:05,960
-because by having a course of
-mesh I have higher numerical
+because by having a coarser mesh I have higher numerical
 
 723
 00:45:05,960 --> 00:45:08,520
@@ -3655,8 +3642,7 @@ it should be different because I
 
 732
 00:45:35,560 --> 00:45:39,760
-I'm expecting in my normal PD
-solver for it to be different
+I'm expecting in my normal PDE solver for it to be different
 
 733
 00:45:40,240 --> 00:45:43,440
@@ -3715,8 +3701,7 @@ self attention everything on
 
 744
 00:46:15,080 --> 00:46:16,840
-Transformers and in fear and
-cyber.
+Transformers and inference side.
 
 745
 00:46:17,520 --> 00:46:19,520
@@ -3821,7 +3806,7 @@ but it's it's not the full
 765
 00:47:26,520 --> 00:47:30,600
 accuracy.
-If you go to 32,064 thousand at
+If you go to 32,000, 64,000 at
 
 766
 00:47:30,600 --> 00:47:33,560
@@ -3835,8 +3820,7 @@ And then with these, with these
 
 768
 00:47:36,800 --> 00:47:41,160
-points, you can get arbitrary
-find resolution and similar to
+points, you can get arbitrarily fine resolution and similar to
 
 769
 00:47:41,160 --> 00:47:44,480
@@ -3870,13 +3854,13 @@ to cover the full mesh.
 
 775
 00:48:02,120 --> 00:48:05,480
-Is is trusted different?
+Is is drastically different?
 But it's just because AI is
 
 776
 00:48:05,480 --> 00:48:07,800
-trusted different, different
-than the Mac simulation.
+drastically different, different
+than the numerical simulation.
 
 777
 00:48:09,000 --> 00:48:11,680
@@ -3976,7 +3960,7 @@ picked.
 796
 00:49:32,720 --> 00:49:36,280
 If I then go and change that CFD
-method and regenerate the driver
+method and regenerate the DrivAerML
 
 797
 00:49:36,280 --> 00:49:39,760
@@ -4005,7 +3989,7 @@ So ideally it should really be
 
 802
 00:50:02,880 --> 00:50:06,400
-like experimental date should be
+like experimental data should be
 the, the, the real ground truth.
 
 803
@@ -4131,7 +4115,7 @@ the data is trained on.
 827
 00:51:39,560 --> 00:51:43,760
 The question is then always how
-to interact with numeric.
+to interact with numerics.
 
 828
 00:51:43,760 --> 00:51:48,320
@@ -4155,7 +4139,7 @@ Maybe I should also say to that
 
 832
 00:51:59,160 --> 00:52:03,560
-we were doing this drive ML data
+we were doing this DrivAerML data
 set now for I don't know 10
 
 833
@@ -4211,7 +4195,7 @@ looking off to the side because
 843
 00:52:35,160 --> 00:52:39,560
 I was just double checking if I
-was correct that the error five
+was correct that the ERA5
 
 844
 00:52:39,560 --> 00:52:45,280
@@ -4235,7 +4219,7 @@ literally got what the
 
 848
 00:52:55,760 --> 00:52:59,120
-satellites is seeing.
+satellites are seeing.
 Therefore you could argue is the
 
 849
@@ -4265,13 +4249,13 @@ when it comes to data.
 
 854
 00:53:24,800 --> 00:53:28,280
-This is a bit of a segment into
+This is a bit of a segue into
 a next question to you, which
 
 855
 00:53:28,280 --> 00:53:36,200
 has long been the argument of
-the pins people, which is are we
+the PINNs people, which is are we
 
 856
 00:53:36,200 --> 00:53:40,400
@@ -4315,8 +4299,7 @@ conundrum of just generating
 
 864
 00:54:13,160 --> 00:54:17,560
-more data and let the models of
-the data or do we need to
+more data and let the models learn off the data or do we need to
 
 865
 00:54:17,560 --> 00:54:21,120
@@ -4356,7 +4339,7 @@ is.
 872
 00:54:37,720 --> 00:54:41,080
 Because you don't want to talk
-about the physics in form neural
+about the physics-informed neural
 
 873
 00:54:41,080 --> 00:54:44,120
@@ -4366,7 +4349,7 @@ it between loading gigabytes of
 874
 00:54:44,120 --> 00:54:46,720
 data for one data point on the
-GPO and what to do.
+GPU and what to do.
 
 875
 00:54:46,720 --> 00:54:50,200
@@ -4390,18 +4373,18 @@ really run simulations.
 
 879
 00:55:01,560 --> 00:55:04,440
-It's scale.
+At scale.
 And I'm not talking about 10,000
 
 880
 00:55:04,440 --> 00:55:06,280
 cells.
-I'm not talking about shape net,
+I'm not talking about ShapeNet,
 
 881
 00:55:06,280 --> 00:55:09,640
 I'm not talking about even
-driving at the drive ML.
+even the DrivAerML.
 
 882
 00:55:09,640 --> 00:55:13,720
@@ -4446,7 +4429,7 @@ not because, I mean, we, we also
 890
 00:55:38,520 --> 00:55:45,040
 showed that in our paper, it's
-very easy to build a diversions
+very easy to build a divergence
 
 891
 00:55:45,040 --> 00:55:49,080
@@ -4455,13 +4438,13 @@ because you can bake in the, the
 
 892
 00:55:49,080 --> 00:55:51,280
-diversions free constraint,
+divergence free constraint,
 their construction a hard
 
 893
 00:55:51,280 --> 00:55:54,640
 constraint.
-We try the pin loss for the, for
+We try the PINN loss for the, for
 
 894
 00:55:54,640 --> 00:55:58,520
@@ -4470,7 +4453,7 @@ much harder to just take the
 
 895
 00:55:58,520 --> 00:56:01,040
-great performance.
+degrades performance.
 It in principle works.
 
 896
@@ -4555,7 +4538,7 @@ full time history and would that
 
 912
 00:57:01,200 --> 00:57:03,600
-help hindrance not make a
+help, hinder or not make a
 difference?
 
 913
@@ -4685,8 +4668,7 @@ know, is there, is there a sort
 
 938
 00:58:39,760 --> 00:58:47,240
-of equivalency in terms of AD
-inference?
+of equivalency in terms of at inference?
 
 939
 00:58:47,680 --> 00:58:52,920
@@ -4705,7 +4687,7 @@ know, do I need to generate a
 
 942
 00:59:01,880 --> 00:59:04,680
-million times steps of data so
+million time steps of data so
 that you can learn the million?
 
 943
@@ -4836,7 +4818,7 @@ out problem that, you know, I
 968
 01:00:29,280 --> 01:00:34,400
 guess if you do inference
-inference, inference imprints,
+inference, inference inference,
 
 969
 01:00:35,640 --> 01:00:38,560
@@ -4930,7 +4912,7 @@ past they considered that there
 
 987
 01:01:33,120 --> 01:01:35,760
-is a tension across the right
+is attention across the right
 axis and so on and so forth, we
 
 988
@@ -5026,11 +5008,11 @@ step is so huge from information
 1006
 01:02:29,880 --> 01:02:32,880
 content that every
-autoaggressive model, every
+autoregressive model, every
 
 1007
 01:02:33,280 --> 01:02:36,760
-every autoaggressive trick you
+every autoregressive trick you
 you had before is just not
 
 1008
@@ -5055,7 +5037,7 @@ forth.
 
 1012
 01:02:51,600 --> 01:02:56,600
-This guess really a lot of lot
+This gets really a lot of lot
 of progress.
 
 1013
@@ -5171,7 +5153,7 @@ What's that analogy there?
 1035
 01:04:13,800 --> 01:04:18,400
 But for, for, for, for all this
-alpha fold and so on so forth.
+AlphaFold and so on so forth.
 
 1036
 01:04:18,400 --> 01:04:22,920
@@ -5185,8 +5167,7 @@ about engineering you, you have
 
 1038
 01:04:25,880 --> 01:04:28,680
-problems which are so hard to
-correct that you need the top
+problems which are so hard to crack that you need the top
 
 1039
 01:04:28,680 --> 01:04:31,160
@@ -5310,8 +5291,7 @@ I, I have to know, I have to say
 
 1063
 01:05:47,560 --> 01:05:50,680
-that the people like Benedict
-Alkin and and Tobiascon Lachner
+that the people like Benedikt Alkin and and Tobias Kronlachner
 
 1064
 01:05:50,680 --> 01:05:53,640
@@ -5321,7 +5301,7 @@ the efforts, they have been with
 1065
 01:05:53,640 --> 01:05:58,240
 me from, from day one actually.
-Also people like Stefan Berka
+Also people like Stefan Pirker
 
 1066
 01:05:58,240 --> 01:06:02,400
@@ -5355,7 +5335,7 @@ We were at a different company
 
 1072
 01:06:18,840 --> 01:06:22,720
-and XCI where at some point it
+and NXAI where at some point it
 was clear that the simulation
 
 1073
@@ -5366,11 +5346,11 @@ working well, should branch off.
 1074
 01:06:27,720 --> 01:06:31,640
 I was also lucky to to have met
-people like Dennis Houston mix
+people like Dennis Just and Miks
 
 1075
 01:06:31,640 --> 01:06:35,400
-Mickelson's who who did this
+Mikelsons who who did this
 before graded startups, very
 
 1076
@@ -5615,7 +5595,7 @@ ivory tower.
 
 1124
 01:09:26,200 --> 01:09:29,240
-I wouldn't, I wouldn't stand
+I wouldn't, I couldn't stand
 doing things where I know people
 
 1125
@@ -5646,7 +5626,7 @@ community the urgency that that
 1130
 01:09:47,319 --> 01:09:50,720
 they really look at the hard
-data sets and not a shape, no
+data sets and not a ShapeNet
 
 1131
 01:09:50,720 --> 01:09:53,720
@@ -5706,7 +5686,7 @@ interested, but maybe it is the
 1142
 01:10:35,120 --> 01:10:39,240
 data that's the issue.
-Maybe it's the Era 5 was such a
+Maybe it's the ERA5 was such a
 
 1143
 01:10:39,240 --> 01:10:43,440
@@ -5725,12 +5705,12 @@ been quite a lot of advances in
 
 1146
 01:10:50,320 --> 01:10:52,720
-let's say Rd. car external
+let's say road-car external
 aerodynamics.
 
 1147
 01:10:53,600 --> 01:10:56,480
-But Rd. car external
+But road-car external
 aerodynamics, I don't know
 
 1148
@@ -5825,7 +5805,7 @@ People are still reluctant
 
 1166
 01:11:57,840 --> 01:12:00,760
-because getting a nervous paper
+because getting a NeurIPS paper
 easier on a smaller data set
 
 1167
@@ -5866,7 +5846,7 @@ gets progress.
 1174
 01:12:30,880 --> 01:12:33,640
 I mean, we we see that the whole
-progress in LLM due to open
+progress in LLMs due to open
 
 1175
 01:12:33,640 --> 01:12:35,440
@@ -5915,7 +5895,7 @@ where the tradition came from.
 
 1184
 01:13:09,520 --> 01:13:13,440
-If you develop a turbans model
+If you develop a turbulence model
 or you develop a numerical
 
 1185
@@ -5931,7 +5911,7 @@ model to make itself into a
 1187
 01:13:23,040 --> 01:13:26,920
 large commercial, even, you
-know, ISVCFD code and not to
+know, ISV CFD code and not to
 
 1188
 01:13:26,920 --> 01:13:28,280
@@ -5951,11 +5931,11 @@ the code.
 1191
 01:13:38,320 --> 01:13:43,840
 That's sort of been the like
-thing like open foam or star CCM
+thing like OpenFOAM or STAR-CCM+
 
 1192
 01:13:43,840 --> 01:13:47,480
-or anti fluid to others,
+or Ansys Fluent to others,
 typically the models themselves.
 
 1193
@@ -6066,7 +6046,7 @@ even the biggest barrier is just
 1214
 01:15:06,360 --> 01:15:10,960
 an understanding barrier that,
-you know, if you're ACFD person,
+you know, if you're a CFD person,
 
 1215
 01:15:11,760 --> 01:15:14,280
@@ -6135,8 +6115,7 @@ that when you speak to customers
 
 1228
 01:15:58,640 --> 01:16:02,640
-that sometimes they're just
-knowledge of ML is part of the
+that sometimes their knowledge of ML is part of the
 
 1229
 01:16:02,640 --> 01:16:05,400

@@ -20,18 +20,18 @@ from elite level sports like
 
 5
 00:00:12,840 --> 00:00:16,880
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,880 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
 are bringing in a new era
-discovery.
+of discovery.
 
 8
 00:00:23,960 --> 00:00:27,080
@@ -95,8 +95,8 @@ dynamics conference, which was
 
 20
 00:01:10,680 --> 00:01:14,240
-on a cough tac euromech thing
-that was done at Imperial Carter
+an ERCOFTAC Euromech thing
+that was done at Imperial College
 
 21
 00:01:14,240 --> 00:01:16,920
@@ -110,7 +110,7 @@ And it's a great initiative that
 
 23
 00:01:20,000 --> 00:01:24,080
-has tried to bring the fluid
+has tried to bring the fluids
 community and I guess the AI
 
 24
@@ -161,11 +161,11 @@ the audience some of the
 33
 00:02:06,480 --> 00:02:10,240
 questions and there was a couple
-of 100 people in the audience.
+of hundred people in the audience.
 
 34
 00:02:10,240 --> 00:02:13,120
-And so we use this Menti meter
+And so we use this Mentimeter
 app that I have to confess I
 
 35
@@ -175,7 +175,7 @@ it's great because you can
 
 36
 00:02:15,520 --> 00:02:17,960
-essentially do real time polling
+essentially do real-time polling
 of people.
 
 37
@@ -201,11 +201,11 @@ first thing I did ask was what's
 41
 00:02:31,040 --> 00:02:34,880
 your favorite British food?
-Bit of a tongue in chic really.
+Bit of a tongue-in-cheek really.
 
 42
 00:02:34,880 --> 00:02:39,400
-And people for fish and chips
+And fish and chips
 won, followed secondly by the
 
 43
@@ -231,7 +231,7 @@ models, I basically said, will
 47
 00:02:55,800 --> 00:02:58,440
 you know, can we get
-foundational morphin fluids?
+foundational model for fluids?
 
 48
 00:02:58,560 --> 00:03:01,480
@@ -246,7 +246,7 @@ provide instantaneous pressure,
 50
 00:03:06,880 --> 00:03:09,520
 velocity for any boundary
-conditional geometry?
+condition or geometry?
 
 51
 00:03:10,080 --> 00:03:13,880
@@ -265,7 +265,7 @@ velocity?
 
 54
 00:03:18,840 --> 00:03:21,560
-A bit like ACFD solver.
+A bit like a CFD solver.
 Now you give it a geometry, you
 
 55
@@ -315,7 +315,7 @@ learn.
 
 64
 00:03:49,280 --> 00:03:55,240
-And interestingly the out of the
+And interestingly, out of the
 scores it was 38 and this is out
 
 65
@@ -331,7 +331,7 @@ use case. 38 people close 2nd.
 67
 00:04:04,280 --> 00:04:08,960
 37 was provide time average to
-any bound addition and geometry
+any boundary condition or geometry
 
 68
 00:04:09,880 --> 00:04:12,040
@@ -400,13 +400,13 @@ different groups.
 
 81
 00:04:54,680 --> 00:04:58,400
-So I'd like to and, and go to
+So I like to go to
 conferences.
 
 82
 00:04:58,400 --> 00:05:00,640
 And I'd like to say I'd
-therefore have a, a reasonable
+therefore have a reasonably
 
 83
 00:05:00,640 --> 00:05:02,880
@@ -435,7 +435,7 @@ foundational model is simply a
 
 88
 00:05:19,880 --> 00:05:23,040
-pre train model.
+pretrained model.
 So what most people were looking
 
 89
@@ -471,12 +471,12 @@ focus probably five years ago or
 95
 00:05:42,080 --> 00:05:44,920
 four years ago.
-And there was some Seminole work
+And there was some seminal work
 
 96
 00:05:44,920 --> 00:05:48,040
-done with things like mesh,
-graphnet and others which took a
+done with things like Mesh-
+GraphNets and others which took a
 
 97
 00:05:48,040 --> 00:05:51,080
@@ -510,12 +510,12 @@ start-ups that that formed over
 
 103
 00:06:09,920 --> 00:06:14,080
-the time, the sort of Navastos,
-Nora concepts and others who
+the time, the sort of NAVASTO,
+Neural Concept and others who
 
 104
 00:06:14,080 --> 00:06:17,480
-took some of these work or
+took some of this work or
 pioneered things themselves and,
 
 105
@@ -561,11 +561,11 @@ that against what you would
 113
 00:06:55,240 --> 00:07:00,080
 typically see in the LLM space
-where maturity of us are not
+where the majority of us are not
 
 114
 00:07:00,080 --> 00:07:04,280
-training our own LLMS, but we
+training our own LLMs, but we
 are simply doing a prompt and
 
 115
@@ -585,7 +585,7 @@ model and then just provide it
 
 118
 00:07:15,160 --> 00:07:16,920
-to people as a pre trained
+to people as a pretrained
 model?
 
 119
@@ -600,7 +600,7 @@ potentially very large impact on
 
 121
 00:07:28,200 --> 00:07:32,280
-the CFT community.
+the CFD community.
 Now, there are some of you out
 
 122
@@ -610,7 +610,7 @@ negative opinions of AI and sort
 
 123
 00:07:35,520 --> 00:07:37,360
-of C as a fad, and it will come
+of seeing it as a fad, and it will come
 and go.
 
 124
@@ -630,7 +630,7 @@ Only, like I said, five years
 
 127
 00:07:50,200 --> 00:07:52,920
-ago with this was basically not
+ago this was basically not
 happening.
 
 128
@@ -661,12 +661,12 @@ They just thought of this as
 133
 00:08:10,640 --> 00:08:15,360
 like reduced order modelling
-ROMs, real, no sense of what was
+ROMs, really no sense of what was
 
 134
 00:08:15,360 --> 00:08:18,040
 going on, didn't know what
-architecture would work.
+architectures would work.
 
 135
 00:08:18,880 --> 00:08:21,640
@@ -726,7 +726,7 @@ technologies.
 146
 00:09:03,040 --> 00:09:06,800
 Automotive companies today use
-sort of hybrid around scale
+hybrid RANS, scale-
 
 147
 00:09:06,800 --> 00:09:10,120
@@ -760,7 +760,7 @@ And interestingly, I see the
 
 153
 00:09:22,840 --> 00:09:25,920
-same thing with the AII, see
+same thing with AI. I see
 that the automotive companies
 
 154
@@ -796,7 +796,7 @@ genuine, this is not influenced
 160
 00:09:46,120 --> 00:09:49,840
 by the company I work for.
-I've I've these all sort of
+These are all sort of
 
 161
 00:09:49,840 --> 00:09:53,880
@@ -876,7 +876,7 @@ trusted enough to be a dominant
 176
 00:10:45,080 --> 00:10:49,120
 design tool.
-Sai is still in that sense where
+I'd say AI is still in that sense where
 
 177
 00:10:49,880 --> 00:10:52,680
@@ -900,8 +900,7 @@ growing month on month.
 
 181
 00:11:04,560 --> 00:11:08,280
-And the interest from the big is
-VS is also growing month on
+And the interest from the big ISVs is also growing month on
 
 182
 00:11:08,280 --> 00:11:15,560
@@ -921,7 +920,7 @@ foundational model, as probably
 185
 00:11:23,960 --> 00:11:27,120
 people know, you know, the
-reason that these LMS and others
+reason that these LLMs and others
 
 186
 00:11:27,440 --> 00:11:31,000
@@ -991,7 +990,7 @@ available.
 199
 00:12:07,440 --> 00:12:10,600
 If you want to do combustion
-modelling or multi phase or
+modelling or multiphase or
 
 200
 00:12:10,600 --> 00:12:13,920
@@ -1021,7 +1020,7 @@ for a company to independently
 205
 00:12:31,920 --> 00:12:37,280
 run lots and lots of simulations
-to the fact that they can pre
+to the point that they can pre-
 
 206
 00:12:37,280 --> 00:12:41,960
@@ -1040,7 +1039,7 @@ You know, there's a start up
 
 209
 00:12:49,280 --> 00:12:51,960
-luminary cloud.
+Luminary Cloud.
 Some people know that I spoke to
 
 210
@@ -1050,7 +1049,7 @@ they recently released a sort of
 
 211
 00:12:56,320 --> 00:13:00,000
-foundational model for Rd. cars
+foundational model for road cars
 where they'd, you know, run a
 
 212
@@ -1060,12 +1059,12 @@ themselves in collaboration with
 
 213
 00:13:03,480 --> 00:13:08,080
-an end with an end customer of
+an end customer of
 theirs and and then released
 
 214
 00:13:08,080 --> 00:13:12,360
-that and pre trained the model.
+that and pretrained the model.
 Now that it's probably too early
 
 215
@@ -1075,13 +1074,13 @@ successful that that that will
 
 216
 00:13:15,160 --> 00:13:19,200
-be, But it's it's they've sort
+be. But they've sort
 of fired the starting gun, so to
 
 217
 00:13:19,200 --> 00:13:23,320
 speak, on an actual company
-releasing a sort of pre trained
+releasing a sort of pretrained
 
 218
 00:13:23,320 --> 00:13:25,120
@@ -1100,8 +1099,8 @@ barrier for a company to to
 
 221
 00:13:33,040 --> 00:13:36,240
-collect all the day, to find all
-the day to have the expertise to
+collect all the data, find all
+the data to have the expertise to
 
 222
 00:13:36,240 --> 00:13:39,040
@@ -1110,7 +1109,7 @@ It's much easier just to do
 
 223
 00:13:39,080 --> 00:13:43,080
-inference on a pre trade model.
+inference on a pretrained model.
 So I think that's the first
 
 224
@@ -1125,8 +1124,8 @@ Many more companies will will,
 
 226
 00:13:50,480 --> 00:13:55,280
-will do that both I think from a
-start up and a nice fee space.
+will do that both I think from the
+startup and ISV space.
 
 227
 00:13:57,600 --> 00:14:03,040
@@ -1140,8 +1139,8 @@ Well, one interesting thing,
 
 229
 00:14:06,440 --> 00:14:10,320
-when I spoke with Priff, who's
-the CTO of ANSYS, he said in one
+when I spoke with Prith, who's
+the CTO of Ansys, he said in one
 
 230
 00:14:10,320 --> 00:14:13,920
@@ -1160,7 +1159,7 @@ interesting proposition that,
 
 233
 00:14:20,840 --> 00:14:24,320
-you know, what if you would take
+you know, what if you would tick
 a box that was to say, well, you
 
 234
@@ -1186,7 +1185,7 @@ interesting proposition.
 238
 00:14:38,040 --> 00:14:41,200
 And I'm, I'm, I'm keen to see if
-some of the Isvs go down that
+some of the ISVs go down that
 
 239
 00:14:41,200 --> 00:14:45,640
@@ -1196,17 +1195,17 @@ And this actually links why I've
 240
 00:14:45,640 --> 00:14:50,680
 often spoken about the cloud
-being an important Ave. and the
+being an important avenue and the
 
 241
 00:14:50,680 --> 00:14:54,720
-cloud being an important Ave.
-links to this because of the SAS
+cloud being an important avenue
+links to this because of the SaaS
 
 242
 00:14:54,760 --> 00:14:59,400
 bit.
-If you give somebody a on Prem
+If you give somebody a on-prem
 
 243
 00:14:59,400 --> 00:15:04,120
@@ -1235,7 +1234,7 @@ It's not practical where with a
 
 248
 00:15:15,480 --> 00:15:19,960
-SAS solution, it's much easier
+SaaS solution, it's much easier
 because it's by definition
 
 249
@@ -1261,7 +1260,7 @@ motivation and I think we'll see
 253
 00:15:30,920 --> 00:15:34,680
 an acceleration of the
-sassification is to make this
+SaaSification is to make this
 
 254
 00:15:34,680 --> 00:15:39,120
@@ -1270,7 +1269,7 @@ easier both.
 
 255
 00:15:39,120 --> 00:15:42,280
-If you're an existing AI start
+If you're an existing AI start-
 up, you know, you could say,
 
 256
@@ -1316,7 +1315,7 @@ Or for the same budget, you
 264
 00:16:15,680 --> 00:16:20,760
 could run twice as many cases.
-So if we assume that people to
+So if we assume that, to
 
 265
 00:16:20,760 --> 00:16:24,160
@@ -1351,7 +1350,7 @@ independent from the AI code.
 271
 00:16:46,640 --> 00:16:49,200
 But as anybody knows anything
-about, for example, in situ
+about, for example, in-situ
 
 272
 00:16:49,200 --> 00:16:52,720
@@ -1385,7 +1384,7 @@ it's known that I think there'll
 
 278
 00:17:07,280 --> 00:17:10,319
-be a big increase in the Ori is
+be a big increase, and there already is,
 certainly in the academic world
 
 279
@@ -1400,7 +1399,7 @@ Some groups are doing this in
 
 281
 00:17:16,480 --> 00:17:18,560
-Pytorch, you know, how do I
+PyTorch, you know, how do I
 write a code in there?
 
 282
@@ -1425,8 +1424,7 @@ will be important because if you
 
 286
 00:17:31,920 --> 00:17:35,880
-are trying to build some pre
-trained model, some sort of
+are trying to build some pretrained model, some sort of
 
 287
 00:17:35,880 --> 00:17:39,720
@@ -1450,7 +1448,7 @@ not having to be, you know,
 
 291
 00:17:50,640 --> 00:17:54,000
-bound by IO issues, having to
+bound by I/O issues, having to
 keep the data.
 
 292
@@ -1481,7 +1479,7 @@ just the amount of data, I mean
 297
 00:18:11,240 --> 00:18:14,760
 having created with colleagues,
-you know the driver ML data set,
+you know the DrivAerML dataset,
 
 298
 00:18:15,360 --> 00:18:20,040
@@ -1510,7 +1508,7 @@ were passing that data to a
 
 303
 00:18:36,160 --> 00:18:40,400
-model to train, then the cost we
+model to train, then, of course,
 we don't need to save the time
 
 304
@@ -1525,7 +1523,7 @@ it because we were running the
 
 306
 00:18:44,720 --> 00:18:47,080
-simulations time after time
+simulations time-
 dependent anyway.
 
 307
@@ -1570,7 +1568,7 @@ Because if this could be made
 
 315
 00:19:19,040 --> 00:19:21,880
-and there's so many debates on
+and there's so many debates on whether it
 should be open source, should be
 
 316
@@ -1641,7 +1639,7 @@ models is becoming interesting.
 329
 00:20:08,320 --> 00:20:11,600
 I believe at the beginning it
-will be for Pacific use cases as
+will be for specific use cases as
 
 330
 00:20:11,600 --> 00:20:18,600
@@ -1651,7 +1649,7 @@ perceive that there will be a
 331
 00:20:18,600 --> 00:20:22,320
 bit of an arms race between the
-highest fees and startups to
+ISVs and startups to
 
 332
 00:20:22,320 --> 00:20:25,200
@@ -1730,13 +1728,13 @@ So it, I still suspect that most
 
 347
 00:21:04,440 --> 00:21:08,640
-of this work, these foundations
+of this work, these foundation models
 will still make their way into
 
 348
 00:21:08,640 --> 00:21:13,000
 commercial sort of big software
-companies IS VS.
+companies, ISVs.
 
 349
 00:21:13,840 --> 00:21:18,720

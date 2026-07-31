@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,000 --> 00:00:05,880
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,760 --> 00:00:12,720
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,800 --> 00:00:16,840
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,840 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:22,960
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,920 --> 00:00:27,040
@@ -51,11 +50,11 @@ So sit back and enjoy this
 11
 00:00:33,800 --> 00:00:40,600
 episode.
-Hi, welcome back to the new
+Hi, welcome back to the Neil
 
 12
 00:00:40,600 --> 00:00:43,240
-Ashton podcast.
+Ashton Podcast.
 I thought I'd do something
 
 13
@@ -90,7 +89,7 @@ So what I had as the five were
 
 19
 00:01:12,800 --> 00:01:18,480
-the rise of GP, us in CFDAI and
+the rise of GPUs in CFD, AI and
 machine learning, shift to cloud
 
 20
@@ -111,7 +110,7 @@ NVIDIA.
 23
 00:01:29,760 --> 00:01:32,960
 Oh, I should just say.
-So obviously Nvidia's you know,
+So obviously NVIDIA's you know,
 
 24
 00:01:33,680 --> 00:01:37,040
@@ -130,8 +129,7 @@ Basically, there has been an
 
 27
 00:01:47,200 --> 00:01:49,560
-unbelievable rise in GPS for
-CFDI.
+unbelievable rise in GPUs for CFD. I.
 
 28
 00:01:49,560 --> 00:01:52,040
@@ -175,7 +173,7 @@ saying, OK, it's 10 times faster
 
 36
 00:02:15,200 --> 00:02:18,000
-on a GPUI did not get involved
+on a GPU. I did not get involved
 in that study whatsoever.
 
 37
@@ -220,13 +218,13 @@ and better.
 
 45
 00:02:41,320 --> 00:02:44,480
-The pace of GP us, because
+The pace of GPUs, because
 obviously AI has helped.
 
 46
 00:02:44,480 --> 00:02:47,640
 This is far out pacing.
-CP US in terms of like
+CPUs in terms of like
 
 47
 00:02:47,640 --> 00:02:50,400
@@ -236,7 +234,7 @@ know, like the improvement that
 48
 00:02:50,400 --> 00:02:54,040
 you get each generation is, is
-like this compared to CP US,
+like this compared to CPUs,
 
 49
 00:02:54,120 --> 00:02:55,480
@@ -261,7 +259,7 @@ healthy competition between
 53
 00:03:08,720 --> 00:03:12,680
 different CFD companies each
-seeing GP used to be part of
+seeing GPUs to be part of
 
 54
 00:03:12,680 --> 00:03:17,160
@@ -275,7 +273,7 @@ because there's one vendor
 
 56
 00:03:20,080 --> 00:03:22,840
-releases AGP version number one
+releases a GPU version, everyone
 wants to make sure they also
 
 57
@@ -311,7 +309,7 @@ commented on is there's a lot of
 63
 00:03:40,280 --> 00:03:45,280
 start-ups now who are
-specifically focusing their on
+specifically focusing entirely on being
 
 64
 00:03:46,160 --> 00:03:49,160
@@ -320,13 +318,12 @@ And that has also definitely
 
 65
 00:03:49,160 --> 00:03:52,480
-played a ship because no
+created a shift because no
 surprise if you write code from
 
 66
 00:03:52,480 --> 00:03:56,840
-scratch with a sort of software,
-hardware code design, you're
+scratch with a sort of software–hardware co-design, you're
 
 67
 00:03:56,840 --> 00:03:58,600
@@ -340,7 +337,7 @@ start-ups, they have shown in
 
 69
 00:04:04,520 --> 00:04:09,960
-some ways the like most optimum
+some ways the like most optimal
 solution and has really shown
 
 70
@@ -365,7 +362,7 @@ Is that the most optimum
 
 74
 00:04:26,400 --> 00:04:34,840
-numerical approach on GPS?
+numerical approach on GPUs?
 It could be, but because they're
 
 75
@@ -396,21 +393,21 @@ previously wasn't maybe the
 80
 00:04:54,760 --> 00:04:58,000
 optimum way of doing it, but now
-with the GP it is.
+with the GPU it is.
 
 81
 00:04:58,840 --> 00:05:02,600
 And then maybe could I do a, a
-war modelled approach if I'm
+wall-modelled approach if I'm
 
 82
 00:05:02,600 --> 00:05:05,120
-doing a war model, LES, and does
+doing a wall-modelled LES, and does
 that mean I should maybe use the
 
 83
 00:05:05,120 --> 00:05:07,400
-most boundary method because I
+immersed-boundary method because I
 don't need to resolve the wall?
 
 84
@@ -440,7 +437,7 @@ there's some interesting stuff
 
 89
 00:05:24,960 --> 00:05:26,600
-around like tensor cords,
+around like tensor cores,
 etcetera.
 
 90
@@ -451,12 +448,12 @@ coming back in to play.
 91
 00:05:31,480 --> 00:05:36,680
 So yeah, was my prediction of
-key trends for CFT correct, GPUs
+key trends for CFD correct, GPUs
 
 92
 00:05:36,680 --> 00:05:41,840
-and CFT, I'd say yes.
-And is it still for 20/25/26?
+and CFD, I'd say yes.
+And is it still for 2025/26?
 
 93
 00:05:42,480 --> 00:05:46,480
@@ -500,7 +497,7 @@ low Y plus RANS where you wanted
 
 101
 00:06:16,280 --> 00:06:18,400
-to resolve the ball and where
+to resolve the wall and where
 you need a certain gridding
 
 102
@@ -526,7 +523,7 @@ to explicit.
 106
 00:06:30,240 --> 00:06:33,240
 But if you go to the next stage,
-which is the war resolved Elias,
+which is the wall-resolved LES,
 
 107
 00:06:33,600 --> 00:06:36,640
@@ -535,8 +532,8 @@ now my gridding paradigm that
 
 108
 00:06:36,640 --> 00:06:41,280
-was good for war modeled LES may
-not be good for war resolved
+was good for wall-modelled LES may
+not be good for wall-resolved
 
 109
 00:06:41,280 --> 00:06:42,640
@@ -561,12 +558,12 @@ is a year ago or two years ago,
 113
 00:06:52,680 --> 00:06:56,240
 the most bold predictions was
-more towards Hybridrans, Elias,
+more towards hybrid RANS/LES,
 
 114
 00:06:56,240 --> 00:06:59,480
-war modeled and everyone said
-our war resolved is too far
+wall-modelled and everyone said
+oh, wall-resolved is too far
 
 115
 00:06:59,480 --> 00:07:01,920
@@ -576,11 +573,11 @@ I'm actually seeing now people
 116
 00:07:01,920 --> 00:07:04,960
 be a bit bolder and say, well,
-you know what with the latest GP
+you know what with the latest GPUs,
 
 117
 00:07:04,960 --> 00:07:09,120
-us maybe a war resolved Elias,
+maybe wall-resolved LES,
 it started to become possible.
 
 118
@@ -630,8 +627,7 @@ breakthroughs I personally seen
 
 127
 00:07:37,240 --> 00:07:41,240
-is probably a year ago or a
-little bit four year ago, one of
+is probably a year ago or a little before a year ago, one of
 
 128
 00:07:41,240 --> 00:07:45,560
@@ -660,13 +656,13 @@ with some colleagues was to
 
 133
 00:07:57,800 --> 00:08:01,600
-create that drive ML data set,
+create that DrivAerML data set,
 which was really put out there
 
 134
 00:08:01,600 --> 00:08:07,760
 as a data set to give
-realistically size meshes and
+realistically sized meshes and
 
 135
 00:08:08,360 --> 00:08:10,120
@@ -705,7 +701,7 @@ What I found was breakthrough in
 
 142
 00:08:30,440 --> 00:08:34,600
-the past year is peep various
+the past year is that various
 methods have come out and I
 
 143
@@ -750,7 +746,7 @@ And yeah, that transition from
 
 151
 00:09:02,880 --> 00:09:07,240
-like graphs to maybe neural
+from graph networks to maybe neural
 operators and Transformers for
 
 152
@@ -830,8 +826,7 @@ those data and even if it was
 
 167
 00:09:47,680 --> 00:09:50,720
-with a hybrid brand or well
-modelled, you'll just take a
+with a hybrid RANS or wall-modelled LES, you'll just take a
 
 168
 00:09:50,720 --> 00:09:52,720
@@ -871,7 +866,7 @@ So let's say you've got
 175
 00:10:16,520 --> 00:10:20,080
 surrogates that's in one market
-and you've got LLMS for just
+and you've got LLMs for just
 
 176
 00:10:20,080 --> 00:10:22,720
@@ -880,7 +875,7 @@ coding on the other.
 
 177
 00:10:23,400 --> 00:10:26,720
-I put a gentic AI somewhere in
+I put agentic AI somewhere in
 the middle, which is how can you
 
 178
@@ -950,8 +945,7 @@ And the point being is that you
 
 191
 00:11:10,720 --> 00:11:12,480
-have to kick that all off with a
-textbook.
+have to kick that all off with a text prompt.
 
 192
 00:11:13,360 --> 00:11:16,040
@@ -976,11 +970,11 @@ I feel that's probably one of
 196
 00:11:25,200 --> 00:11:28,240
 the big next steps.
-I should add, by the way, for GP
+I should add, by the way, for GPUs
 
 197
 00:11:28,240 --> 00:11:31,800
-US, I didn't mention, I think
+ I didn't mention, I think
 precision is a very interesting
 
 198
@@ -995,13 +989,13 @@ for obvious reasons, you know,
 
 200
 00:11:39,880 --> 00:11:45,280
-that the so much flops in in the
+that there's so many FLOPS in in the
 lower precision because of AI
 
 201
 00:11:45,280 --> 00:11:48,160
 generally only needs, you know,
-48 or 16.
+FP8 or FP16.
 
 202
 00:11:48,560 --> 00:11:52,400
@@ -1015,7 +1009,7 @@ power, then you can really
 
 204
 00:11:56,200 --> 00:12:00,480
-unlock the next big accelerate.
+unlock the next big accelerator.
 So the first one I had was the
 
 205
@@ -1030,7 +1024,7 @@ know that you know, I currently
 
 207
 00:12:07,640 --> 00:12:10,280
-work from video, but I used to
+work from NVIDIA, but I used to
 work for Amazon Web Services,
 
 208
@@ -1050,7 +1044,7 @@ the HPC sector.
 
 211
 00:12:22,080 --> 00:12:27,560
-When I left AWSI definitely saw
+When I left AWS. I definitely saw
 an increasing momentum in people
 
 212
@@ -1090,8 +1084,8 @@ the cloud, you know, through
 
 219
 00:13:03,600 --> 00:13:06,680
-ADBS or GCP or Microsoft or you
-know, all the cloud plates.
+AWS or GCP or Microsoft or you
+know, all the cloud players.
 
 220
 00:13:07,120 --> 00:13:08,760
@@ -1100,17 +1094,15 @@ interesting angle now with all
 
 221
 00:13:08,760 --> 00:13:13,400
-these neo clouds like core
-weave, etcetera, which is mainly
+these neoclouds like CoreWeave, etcetera, which is mainly
 
 222
 00:13:13,400 --> 00:13:18,400
-I guess to the AI some GPU
-angle, but I'm still seeing a
+I guess to the AI and GPU angle, but I'm still seeing a
 
 223
 00:13:19,280 --> 00:13:21,000
-hybrid used.
+hybrid use.
 You know, there's still quite a
 
 224
@@ -1126,11 +1118,11 @@ the way to access cloud
 226
 00:13:30,760 --> 00:13:35,200
 resources.
-You know, I think SAS from ACFD
+You know, I think SaaS from a CFD
 
 227
 00:13:35,240 --> 00:13:38,440
-point of view now SAS products
+point of view now SaaS products
 are still not fully there.
 
 228
@@ -1146,7 +1138,7 @@ No, they may use the cloud to
 230
 00:13:45,680 --> 00:13:49,120
 have a cluster, but are they
-doing it in a true SAS like
+doing it in a true SaaS like
 
 231
 00:13:49,120 --> 00:13:52,880
@@ -1175,7 +1167,7 @@ decades of engineers being used
 
 236
 00:14:10,040 --> 00:14:14,240
-to just SSH ING and stuff and
+to just SSH-ing and stuff and
 and having like, yeah, running
 
 237
@@ -1235,7 +1227,7 @@ positive and success stories at
 
 248
 00:14:56,440 --> 00:14:59,760
-ADBS and maybe I was not hearing
+AWS and maybe I was not hearing
 the bits where people weren't,
 
 249
@@ -1245,8 +1237,7 @@ The 4th 1 I had was on digital
 
 250
 00:15:07,640 --> 00:15:12,440
-certification to a higher
-fidelity methods that, as I
+certification through higher-fidelity methods that, as I
 
 251
 00:15:12,440 --> 00:15:15,480
@@ -1291,26 +1282,26 @@ I think now, like I said,
 259
 00:15:39,120 --> 00:15:42,240
 they're, they're looking how can
-I go from hybrid RANS to war
+I go from hybrid RANS to wall-
 
 260
 00:15:42,240 --> 00:15:44,760
-resolved earlier.
+resolved LES.
 I think the aerospace sector is
 
 261
 00:15:44,760 --> 00:15:49,240
 probably still trying to get
-from RANS, you know, to hybrid
+from RANS, you know, to hybrid RANS or
 
 262
 00:15:49,240 --> 00:15:52,240
-random warm up LES and the work
+wall-modelled LES and the work
 that you know, we did in the
 
 263
 00:15:52,240 --> 00:15:55,840
-last high lift pitch workshop
+last High Lift Prediction Workshop
 has definitely helped to push
 
 264
@@ -1325,7 +1316,7 @@ push it even further again to
 
 266
 00:16:00,920 --> 00:16:04,160
-like more resolved LES.
+like wall-resolved LES.
 But I see that continually, you
 
 267
@@ -1376,22 +1367,22 @@ transition.
 276
 00:16:31,760 --> 00:16:34,880
 Certainly I'm speaking more from
-ACFD and external aero point of
+a CFD and external aero point of
 
 277
 00:16:34,880 --> 00:16:38,760
 view, but one of the challenges
-still with even going to war
+still with even going to wall
 
 278
 00:16:38,760 --> 00:16:41,120
-monthly yes to hybrid is
+-modelled LES to hybrid is
 transition modelling.
 
 279
 00:16:41,760 --> 00:16:45,160
 And I, I feel that that's why
-the war resolved LES is still
+the wall-resolved LES is still
 
 280
 00:16:45,160 --> 00:16:48,200
@@ -1410,7 +1401,7 @@ but I would look more at how do
 
 283
 00:16:54,200 --> 00:16:58,160
-we make war resolved LES
+we make wall-resolved LES
 approaches more, more
 
 284
@@ -1431,7 +1422,7 @@ I do realise that this podcast
 287
 00:17:07,359 --> 00:17:10,000
 just tend to be a little bit
-focused on external arrow.
+focused on external aero.
 
 288
 00:17:10,200 --> 00:17:14,119
@@ -1460,13 +1451,12 @@ going.
 
 293
 00:17:31,120 --> 00:17:37,480
-We have seen ANSYS and Synopsys,
+We have seen Ansys and Synopsys,
 so two big companies merge.
 
 294
 00:17:38,080 --> 00:17:45,680
-We have seen, you know Siemens,
-Altair, Cadence, Beta, CAE.
+We have seen, you know Siemens, Altair, Cadence, BETA CAE.
 
 295
 00:17:46,000 --> 00:17:50,440
@@ -1480,7 +1470,7 @@ so much interest in the
 
 297
 00:17:55,400 --> 00:17:58,760
-community aid in engineering and
+community and engineering and
 semiconductor businesses that,
 
 298
@@ -1521,7 +1511,7 @@ You know, it has consolidated a
 305
 00:18:21,760 --> 00:18:27,280
 little bit to Cadence, Siemens
-and, and synopsis, but where I
+and, and Synopsys, but where I
 
 306
 00:18:27,280 --> 00:18:30,560
@@ -1620,8 +1610,7 @@ customers get to use them.
 
 325
 00:19:22,440 --> 00:19:23,560
-So I think they also still
-continue.
+So I think that will also still continue.
 
 326
 00:19:24,600 --> 00:19:28,000

@@ -51,17 +51,17 @@ So sit back and enjoy this
 11
 00:00:33,800 --> 00:00:40,840
 episode.
-Hi, and welcome back to the New
+Hi, and welcome back to the Neil
 
 12
 00:00:40,840 --> 00:00:43,160
-Russian Podcast.
+Ashton Podcast.
 So today I'm delighted to be
 
 13
 00:00:43,160 --> 00:00:45,240
 joined by Professor Paola
-Chinella.
+Cinnella.
 
 14
 00:00:45,440 --> 00:00:48,240
@@ -91,7 +91,7 @@ through the usual, you know,
 19
 00:01:02,360 --> 00:01:05,000
 computer science route.
-She is very much panel
+She is very much mechanical
 
 20
 00:01:05,000 --> 00:01:07,760
@@ -195,23 +195,23 @@ You know, she's an editorial and
 
 40
 00:02:15,200 --> 00:02:18,520
-chief of computers and fluids
+chief of Computers & Fluids
 associate editor for
 
 41
 00:02:18,520 --> 00:02:20,200
-International Journal heat and
-fluid flow.
+International Journal of Heat and
+Fluid Flow.
 
 42
 00:02:20,600 --> 00:02:23,840
 And she also helps to coordinate
-the Akof Tak special interest
+the ERCOFTAC special interest
 
 43
 00:02:23,840 --> 00:02:27,640
-group on machine learning and
-fluids fluid dynamics, which has
+group on Machine Learning in
+Fluid Dynamics, which has
 
 44
 00:02:28,040 --> 00:02:30,640
@@ -261,7 +261,7 @@ about is, you know, the
 53
 00:03:01,160 --> 00:03:03,880
 differences between surrogate
-modelling and turbans modelling
+modelling and turbulence modelling
 
 54
 00:03:03,880 --> 00:03:05,520
@@ -301,7 +301,7 @@ this conversation.
 61
 00:03:25,640 --> 00:03:28,640
 So sit back and enjoy this
-conversation with Paula.
+conversation with Paola.
 
 62
 00:03:28,800 --> 00:03:31,440
@@ -391,7 +391,7 @@ So be an engineer.
 79
 00:04:23,920 --> 00:04:27,320
 So good for engineering.
-And then I started to do serial
+And then I started to do mechanical
 
 80
 00:04:27,440 --> 00:04:31,720
@@ -411,7 +411,7 @@ mathematics.
 83
 00:04:38,400 --> 00:04:44,080
 And well, a friend of mine said,
-you know, I'm doing free
+you know, I'm doing fluid
 
 84
 00:04:44,080 --> 00:04:45,680
@@ -426,7 +426,7 @@ some physics.
 86
 00:04:47,720 --> 00:04:51,600
 So, right.
-And that's how I went to free
+And that's how I went to fluid
 
 87
 00:04:51,600 --> 00:04:55,960
@@ -435,18 +435,18 @@ Actually, my my professor in
 
 88
 00:04:55,960 --> 00:05:00,360
-Italy is Michela Napolitano.
+Italy is Michele Napolitano.
 He was, he worked with NASA.
 
 89
 00:05:00,360 --> 00:05:04,680
-He was, he had a PhD with Sally
+He was, he had a PhD with Stanley
 Rubin, who was actually the one
 
 90
 00:05:04,680 --> 00:05:07,320
 of the first editors in chief of
-computers and suites.
+Computers & Fluids.
 
 91
 00:05:08,000 --> 00:05:11,280
@@ -635,12 +635,12 @@ vorticity formulation of the
 
 128
 00:07:35,080 --> 00:07:38,840
-nagastric equation.
-So that was my master tests, but
+Navier–Stokes equation.
+So that was my master's thesis, but
 
 129
 00:07:38,840 --> 00:07:43,800
-then when I was looking for a pH
+then when I was looking for a PhD
 for a PhD in France, actually
 
 130
@@ -656,7 +656,7 @@ for the PhD in France.
 132
 00:07:50,920 --> 00:07:56,200
 But anyway, so my, my supervisor
-in Italy knew Professor Alano,
+in Italy knew Professor Alain Lerat,
 
 133
 00:07:56,720 --> 00:08:00,280
@@ -705,7 +705,7 @@ options were to go to the
 
 142
 00:08:24,840 --> 00:08:29,560
-Fonkerman Institute, to go to
+von Kármán Institute, to go to
 the US or to go to Paris.
 
 143
@@ -716,7 +716,7 @@ have to go to Paris.
 144
 00:08:34,240 --> 00:08:39,000
 And so I arrived here and
-another proposed to me to work
+Alain Lerat proposed to me to work
 
 145
 00:08:39,000 --> 00:08:43,440
@@ -756,11 +756,11 @@ flows because at the, you know,
 152
 00:09:00,600 --> 00:09:04,560
 at that time people were mostly
-doing steady oiler or steady
+doing steady Euler or steady
 
 153
 00:09:04,560 --> 00:09:08,120
-Navy spokes.
+Navier–Stokes.
 And so, well, I started a PhD
 
 154
@@ -770,12 +770,12 @@ steady phenomena, even if it was
 
 155
 00:09:12,080 --> 00:09:16,760
-only runs at the time.
+only RANS at the time.
 And, and, and yes, it was a high
 
 156
 00:09:16,760 --> 00:09:19,680
-order finding volume schemes.
+order finite-volume schemes.
 And then I spent quite a lot of
 
 157
@@ -930,12 +930,12 @@ Apulia.
 
 187
 00:11:28,200 --> 00:11:32,240
-And I went to Leche, which is
-even even more S you know, it's
+And I went to Lecce, which is
+even even more south you know, it's
 
 188
 00:11:32,760 --> 00:11:39,000
-the very tip of the hill.
+the very tip of the heel.
 And, and there I got the
 
 189
@@ -965,7 +965,7 @@ you know, when did this move to
 
 194
 00:12:02,640 --> 00:12:06,600
-the the Rands modelling and
+the the RANS modelling and
 certainty quantification and
 
 195
@@ -980,8 +980,8 @@ Actually when I arrived in
 
 197
 00:12:11,000 --> 00:12:16,480
-lecture, I was, as I said, I was
-the only free mechanicist and I
+Lecce, I was, as I said, I was
+the only fluid mechanician and I
 
 198
 00:12:16,480 --> 00:12:21,400
@@ -1016,7 +1016,7 @@ Compressible flows of organic
 204
 00:12:43,560 --> 00:12:47,040
 fluids, which are governed by
-complex equations of states
+complex equations of state
 
 205
 00:12:47,040 --> 00:12:50,640
@@ -1046,12 +1046,12 @@ refrigeration cycles, but also
 210
 00:13:11,040 --> 00:13:14,880
 direct cycles, which means, for
-instance, organic Franklin
+instance, organic Rankine
 
 211
 00:13:14,880 --> 00:13:17,920
 cycles, which are like the
-ranking cycle, which works with
+Rankine cycle, which works with
 
 212
 00:13:17,920 --> 00:13:20,400
@@ -1095,7 +1095,7 @@ because at some point I
 
 220
 00:13:49,560 --> 00:13:52,440
-discovered polynomial care stuff
+discovered polynomial chaos stuff
 and so on.
 
 221
@@ -1136,7 +1136,7 @@ to uncertainty quantification.
 228
 00:14:17,200 --> 00:14:21,080
 But at the beginning was not
-runs, it was even Euler, you
+RANS, it was even Euler, you
 
 229
 00:14:21,080 --> 00:14:26,440
@@ -1230,7 +1230,7 @@ called the non ideal
 
 247
 00:15:28,680 --> 00:15:31,800
-compressible pseudo dynamics
+compressible fluid dynamics
 community, which has spent
 
 248
@@ -1250,13 +1250,13 @@ So the first one to postulate
 
 251
 00:15:44,960 --> 00:15:47,440
-that is Hans Bitte.
+that is Hans Bethe.
 So the the physician, the
 
 252
 00:15:47,520 --> 00:15:53,800
-physicist Hans Bitte, Nobel
-Prize who showed that for Vander
+physicist Hans Bethe, Nobel
+Prize who showed that for van der
 
 253
 00:15:53,800 --> 00:16:00,720
@@ -1300,7 +1300,7 @@ work on that.
 
 261
 00:16:27,120 --> 00:16:32,920
-Thompson, Michael Kramer at at
+Thompson, Michael Cramer at at
 Virginia Tech and so on.
 
 262
@@ -1346,7 +1346,7 @@ challenge the experiment and
 270
 00:17:01,680 --> 00:17:05,240
 said no, this is impossible,
-Probably it was to face and so
+Probably it was two-phase and so
 
 271
 00:17:05,240 --> 00:17:07,680
@@ -1356,7 +1356,7 @@ And then in depth there was a
 272
 00:17:07,680 --> 00:17:09,960
 group.
-So the group of Piero Corona,
+So the group of Piero Colonna,
 
 273
 00:17:10,200 --> 00:17:14,920
@@ -1366,11 +1366,11 @@ who tried to reproduce an
 274
 00:17:14,920 --> 00:17:18,680
 experiment with different gases.
-Also you have Alberto Guardo,
+Also you have Alberto Guardone,
 
 275
 00:17:18,680 --> 00:17:22,000
-name Milan.
+in Milan.
 He, he got an ERC actually on
 
 276
@@ -2155,7 +2155,7 @@ early on looking at learning and
 
 432
 00:27:35,640 --> 00:27:38,320
-data-driven turbines models and
+data-driven turbulence models and
 and machine learning.
 
 433
@@ -2201,12 +2201,12 @@ of Trieste, and they had a sort
 441
 00:28:08,480 --> 00:28:12,560
 of startup, I don't know if you
-know this startup called Esteco.
+know this startup called ESTECO.
 
 442
 00:28:12,640 --> 00:28:17,480
 They produce software called
-Mode Frontier.
+modeFRONTIER.
 
 443
 00:28:18,080 --> 00:28:20,440
@@ -2240,7 +2240,7 @@ And they said, OK, but you could
 
 449
 00:28:40,480 --> 00:28:42,840
-try to solve a numerous problem
+try to solve an inverse problem
 and so on.
 
 450
@@ -2305,13 +2305,13 @@ actually has sort of, you know,
 
 462
 00:29:33,240 --> 00:29:37,320
-establish Noahu saying OK, for
+established know-how saying OK, for
 this problem, you should use the
 
 463
 00:29:37,360 --> 00:29:41,240
-KE Omega SST for this problem,
-you should use the Sphalatalmers
+k-ω SST for this problem,
+you should use the Spalart–Allmaras
 
 464
 00:29:41,240 --> 00:29:42,960
@@ -2330,7 +2330,7 @@ in internal combustion engine
 
 467
 00:29:51,320 --> 00:29:56,840
-used to recalibrate KE epsilon
+used to recalibrate k-ε
 for for having better results
 
 468
@@ -2365,8 +2365,8 @@ you know, try to do the the
 
 474
 00:30:20,400 --> 00:30:22,440
-backward uncertainty
-verification.
+inverse uncertainty
+quantification.
 
 475
 00:30:23,320 --> 00:30:26,680
@@ -2540,8 +2540,8 @@ I know you you kicked off, for
 
 509
 00:32:35,360 --> 00:32:40,200
-example, with the extrality and
-Air, Air France data sets.
+example, with the Extrality and
+AirfRANS data sets.
 
 510
 00:32:40,200 --> 00:32:43,600
@@ -2620,8 +2620,8 @@ the university and we got
 
 525
 00:33:37,280 --> 00:33:39,200
-founded.
-So we had this learned fluid
+funded.
+So we had this LearnFluidS
 
 526
 00:33:39,400 --> 00:33:42,480
@@ -2651,16 +2651,16 @@ CFD.
 531
 00:33:58,640 --> 00:34:02,840
 So we want to, but we have no
-databases machine learning.
+databases. In machine learning.
 
 532
 00:34:02,840 --> 00:34:09,440
-We, we have minis.
+We, we have MNIST.
 We have, you know, many famous
 
 533
 00:34:09,440 --> 00:34:13,120
-databases, but there are not bad
+databases, but there are no good
 databases in CFD.
 
 534
@@ -2671,12 +2671,12 @@ we don't know exactly how to do
 535
 00:34:16,800 --> 00:34:20,679
 the meshes because they were
-trying to use, you know, open
+trying to use, you know, Open
 
 536
 00:34:20,679 --> 00:34:25,880
-phone and we're using, you know,
-as not PX.
+FOAM and we're using, you know,
+snappyHexMesh.
 
 537
 00:34:25,880 --> 00:34:28,760
@@ -2706,7 +2706,7 @@ about the criteria we had to use
 542
 00:34:41,960 --> 00:34:44,600
 to evaluate the results.
-Not only the MSC we have
+Not only the MSE we have
 
 543
 00:34:44,600 --> 00:34:49,400
@@ -2715,7 +2715,7 @@ that's how well eventually they
 
 544
 00:34:49,400 --> 00:34:53,480
-produce this Air France.
+produce this AirfRANS.
 Of course, the well, the
 
 545
@@ -2781,7 +2781,7 @@ LES.
 557
 00:35:33,840 --> 00:35:37,520
 So this times is not steady
-runs, it's more LES and it's
+RANS, it's more LES and it's
 
 558
 00:35:37,560 --> 00:35:43,160
@@ -2961,7 +2961,7 @@ calibrations of of turbulence
 593
 00:37:56,560 --> 00:38:00,520
 model was not a community of
-turbulence models was a
+turbulence modellers was a
 
 594
 00:38:00,640 --> 00:38:03,840
@@ -2976,7 +2976,7 @@ general.
 596
 00:38:07,200 --> 00:38:13,160
 And so we didn't have the right
-codes for provenance modelling,
+codes for turbulence modelling,
 
 597
 00:38:13,480 --> 00:38:17,200
@@ -3015,7 +3015,7 @@ beginning, which, you know, it's
 
 604
 00:38:36,320 --> 00:38:39,280
-it's non Galilean invariants and
+it's not Galilean invariant and
 so on.
 
 605
@@ -3066,7 +3066,7 @@ flows.
 614
 00:39:08,480 --> 00:39:12,440
 But OK, so at some point, well
-you had Chris Ramsey, which you
+you had Chris Rumsey, which you
 
 615
 00:39:12,440 --> 00:39:19,600
@@ -3115,12 +3115,12 @@ So it was a in honor of the 60th
 
 624
 00:39:48,040 --> 00:39:51,440
-birthday of Lips Palat, who is a
+birthday of Philippe Spalart, who is a
 great guy by the way.
 
 625
 00:39:52,000 --> 00:39:56,600
-And you had, you know, Phillip,
+And you had, you know, Philippe,
 you had Paul Durbin, you had all
 
 626
@@ -3226,7 +3226,7 @@ I think that for a European
 646
 00:41:16,880 --> 00:41:19,000
 project, if you said you're
-going to work on turbans
+going to work on turbulence
 
 647
 00:41:19,000 --> 00:41:21,640
@@ -3270,7 +3270,7 @@ Use of machine learning for
 
 655
 00:41:51,200 --> 00:41:55,440
-turbans modeling was a little
+turbulence modeling was a little
 bit early and the expectation
 
 656
@@ -3306,7 +3306,7 @@ Ironically, if you could use
 662
 00:42:21,080 --> 00:42:24,440
 machine learning to come up with
-the ultimate turbots model, you
+the ultimate turbulence model, you
 
 663
 00:42:24,440 --> 00:42:29,520
@@ -3321,7 +3321,7 @@ So I feel like now there is
 665
 00:42:33,080 --> 00:42:39,160
 maybe a little bit more economic
-or relevant again of the turbots
+or relevant again of the turbulence
 
 666
 00:42:39,160 --> 00:42:45,840
@@ -3341,7 +3341,7 @@ but I saw in CFD anyway that
 669
 00:42:55,800 --> 00:42:58,760
 initially everybody was focused
-on machine learning for turbans
+on machine learning for turbulence
 
 670
 00:42:58,760 --> 00:43:04,920
@@ -3356,7 +3356,7 @@ And that seems to be much more
 672
 00:43:10,800 --> 00:43:15,120
 focused on and you don't hear as
-much on maybe the terms
+much on maybe the turbulence
 
 673
 00:43:15,120 --> 00:43:18,360
@@ -3416,7 +3416,7 @@ in aerospace where we have what
 684
 00:44:06,520 --> 00:44:11,200
 you would like to have is a high
-fidelity model, so like Elias
+fidelity model, so like LES
 
 685
 00:44:11,200 --> 00:44:13,960
@@ -3426,11 +3426,11 @@ optimization with that.
 686
 00:44:13,960 --> 00:44:16,120
 Why?
-Because we know that France has
+Because we know that RANS has
 
 687
 00:44:16,120 --> 00:44:20,960
-flows, because we want to
+flaws, because we want to
 explore extreme, extreme
 
 688
@@ -3476,7 +3476,7 @@ And the problem is that even if
 696
 00:44:52,000 --> 00:44:55,760
 right now with the, the, the,
-the Portage to GPUs and so on,
+the porting to GPUs and so on,
 
 697
 00:44:56,760 --> 00:45:00,720
@@ -3496,7 +3496,7 @@ of LES.
 700
 00:45:08,840 --> 00:45:13,120
 And even if you can run a
-complex world model LES on on a
+complex wall-modelled LES on on a
 
 701
 00:45:13,160 --> 00:45:18,960
@@ -3541,7 +3541,7 @@ environmental reasons.
 709
 00:45:46,600 --> 00:45:51,080
 I mean, OK, so for that you
-cannot rely on MES alone.
+cannot rely on LES alone.
 
 710
 00:45:51,080 --> 00:45:55,480
@@ -3551,7 +3551,7 @@ distill the knowledge of this
 711
 00:45:55,480 --> 00:45:58,440
 high fidelity method into lower
-order modes.
+order models.
 
 712
 00:45:59,000 --> 00:46:03,040
@@ -3561,12 +3561,12 @@ That's the way I tried to do it.
 713
 00:46:03,400 --> 00:46:08,360
 One possibility is to distill
-this into augmented runs models.
+this into augmented RANS models.
 
 714
 00:46:08,480 --> 00:46:12,160
 And then once you have augmented
-your runs model, you use that
+your RANS model, you use that
 
 715
 00:46:12,160 --> 00:46:15,360
@@ -3601,11 +3601,11 @@ OK, but the problem with
 721
 00:46:35,840 --> 00:46:40,520
 surrogate model is that you will
-never have enough NES to train a
+never have enough LES to train a
 
 722
 00:46:40,520 --> 00:46:44,000
-surrogate model on it on NES.
+surrogate model on it on LES.
 So you are trying to do that
 
 723
@@ -3670,8 +3670,8 @@ plenty of low fidelity data like
 
 735
 00:47:30,480 --> 00:47:32,840
-runs.
-So that's where having a runs,
+RANS.
+So that's where having a RANS,
 
 736
 00:47:32,840 --> 00:47:35,520
@@ -3681,7 +3681,7 @@ useful.
 737
 00:47:36,240 --> 00:47:40,840
 And then you try to learn the
-gap between the runs and the
+gap between the RANS and the
 
 738
 00:47:41,120 --> 00:47:43,720
@@ -3696,7 +3696,7 @@ not yet so used in the surrogate
 740
 00:47:49,560 --> 00:47:56,080
 modelling community because they
-either use plenty runs data or
+either use plenty of RANS data or
 
 741
 00:47:56,120 --> 00:47:59,720
@@ -3766,7 +3766,7 @@ computationally efficient codes.
 754
 00:48:46,080 --> 00:48:51,160
 But that is kind of the whole
-point of turbans modelling in
+point of turbulence modelling in
 
 755
 00:48:51,160 --> 00:48:54,560
@@ -3791,7 +3791,7 @@ I, I did want to ask you on the,
 759
 00:49:05,600 --> 00:49:09,080
 I mean, you're an editor in
-chief of Computers and fluids.
+chief of Computers & Fluids.
 
 760
 00:49:09,080 --> 00:49:13,800
@@ -3845,8 +3845,8 @@ Yeah, what we are.
 
 770
 00:49:40,960 --> 00:49:46,120
-Doing right now in computers and
-fluids is to ask to motivate
+Doing right now in Computers &
+Fluids is to ask to motivate
 
 771
 00:49:46,120 --> 00:49:51,320
@@ -3875,7 +3875,7 @@ generated a database of 10,000
 
 776
 00:50:10,160 --> 00:50:14,040
-run simulations and then I
+RANS simulations and then I
 trained the surrogate and then
 
 777
@@ -3891,7 +3891,7 @@ But if you have the
 779
 00:50:24,160 --> 00:50:29,680
 computational power to run
-10,000 runs, you can do brute
+10,000 RANS, you can do brute
 
 780
 00:50:29,680 --> 00:50:32,880
@@ -3930,7 +3930,7 @@ are making up for some failure
 
 787
 00:51:00,600 --> 00:51:04,720
-of the plastical model because
+of the classical model because
 otherwise showing OK, I train
 
 788
@@ -3960,22 +3960,22 @@ For instance, in some cases we
 
 793
 00:51:24,080 --> 00:51:28,920
-have tested some business on Air
-Force, you can generate an Air
+have tested some baselines on
+airfoils, you can generate an airfoil
 
 794
 00:51:28,920 --> 00:51:31,960
-Force solution of full sealed
-runs in 5 minutes.
+solution of full-field
+RANS in 5 minutes.
 
 795
 00:51:31,960 --> 00:51:34,240
-You know using free FAM or any
+You know using FreeFEM or any
 any code.
 
 796
 00:51:34,400 --> 00:51:42,800
-OK to train some farrogates you
+OK to train some surrogates you
 need 20 or 25 or 30 hours of of
 
 797
@@ -3986,7 +3986,7 @@ So in 20 hours I have largely
 798
 00:51:46,840 --> 00:51:49,800
 finished my optimization with my
-old runs code.
+old RANS code.
 
 799
 00:51:50,080 --> 00:51:54,760
@@ -4000,7 +4000,7 @@ fastly.
 
 801
 00:51:57,120 --> 00:52:00,600
-So you have, you know, each run
+So you have, you know, each RANS
 simulation would take, I don't
 
 802
@@ -4080,7 +4080,7 @@ I, I don't, I think if you look
 
 817
 00:52:53,520 --> 00:53:00,960
-at like Nurips or those papers
+at like NeurIPS or those papers
 conferences, they mandate like a
 
 818
@@ -4140,7 +4140,7 @@ these models are amazing and
 
 829
 00:53:45,160 --> 00:53:50,480
-standard CF DS gone rather than
+standard CFD's gone rather than
 pointing out they're positives
 
 830
@@ -4220,7 +4220,7 @@ have a, a clear signal on the
 
 845
 00:54:52,680 --> 00:54:55,120
-MSC.
+MSE.
 But you see it if you plot
 
 846
@@ -4361,7 +4361,7 @@ results are presented today,
 873
 00:56:43,120 --> 00:56:48,360
 where an R-squared value or even
-l ^2 gives such low errors, it
+L2 gives such low errors, it
 
 874
 00:56:48,400 --> 00:56:51,200
@@ -4440,7 +4440,7 @@ more and more in higher impact
 
 889
 00:57:38,320 --> 00:57:44,280
-in juveniles and so on, in the
+in journals and so on, in the
 end is increasing in the, the
 
 890
@@ -4456,7 +4456,7 @@ They just read reviews of paper
 892
 00:57:53,640 --> 00:57:56,240
 which are automatically
-generated by AIS.
+generated by AIs.
 
 893
 00:57:56,520 --> 00:57:59,640
@@ -4540,7 +4540,7 @@ This is the, the good and the
 
 909
 00:59:04,480 --> 00:59:07,840
-bad thing of things like archive
+bad thing of things like arXiv
 where there's almost a sense of
 
 910
@@ -4670,7 +4670,7 @@ the quality of the papers and
 
 935
 01:00:42,320 --> 01:00:47,120
-what in, in free mechanics,
+what in, in fluid mechanics,
 things are becoming difficult,
 
 936
@@ -4686,7 +4686,7 @@ But you have seen the examples
 938
 01:00:53,960 --> 01:00:58,280
 of these big conferences like
-Europe's where they have 10s of
+NeurIPS where they have 10s of
 
 939
 01:00:58,280 --> 01:01:03,120
@@ -4760,8 +4760,8 @@ And if you are in the hype, you
 
 953
 01:01:54,400 --> 01:01:58,080
-are in, let's say, famous
-scheme, very visible and so on,
+are in, let's say, a famous
+team, very visible and so on,
 
 954
 01:01:58,080 --> 01:02:01,960
@@ -4771,7 +4771,7 @@ will read your paper because
 955
 01:02:01,960 --> 01:02:04,520
 it's you.
-So we are lifting from
+So we are shifting from
 
 956
 01:02:04,520 --> 01:02:08,320
@@ -4796,7 +4796,7 @@ what are your trying to achieve
 960
 01:02:19,440 --> 01:02:23,560
 with with, you know, the new
-position that Sobhan the AI
+position at Sorbonne AI
 
 961
 01:02:23,560 --> 01:02:24,840
@@ -4826,7 +4826,7 @@ world in into this side?
 966
 01:02:41,320 --> 01:02:43,320
 That'd be.
-I love your shiny new Offit So I
+I love your shiny new office So I
 
 967
 01:02:43,320 --> 01:02:46,760
@@ -4840,7 +4840,7 @@ Sorbonne we have this centre,
 
 969
 01:02:50,440 --> 01:02:53,080
-Sky Sorbonne.
+SCAI Sorbonne.
 The beginning, the name was
 
 970
@@ -4865,7 +4865,7 @@ So basically at the beginning,
 
 974
 01:03:11,240 --> 01:03:17,040
-Sky has been created by applied
+SCAI has been created by applied
 mathematicians and and computer
 
 975
@@ -4905,7 +4905,7 @@ as clusters.
 
 982
 01:03:42,400 --> 01:03:45,320
-So now the sea in sky stands for
+So now the C in SCAI stands for
 cluster.
 
 983
@@ -4975,8 +4975,8 @@ know, models for, you know, for,
 
 996
 01:04:48,280 --> 01:04:53,800
-for automatizing lab,
-automatizing labs, AI agents
+for automating labs,
+automating labs, AI agents
 
 997
 01:04:53,800 --> 01:04:56,800
@@ -4990,7 +4990,7 @@ when you apply this to science,
 
 999
 01:05:00,640 --> 01:05:03,240
-you have several promos.
+you have several problems.
 First of all, you are not
 
 1000
@@ -5021,7 +5021,7 @@ data.
 1005
 01:05:22,480 --> 01:05:26,240
 But if you don't have a
-chemistry by you to explain, if
+chemist by you to explain, if
 
 1006
 01:05:26,240 --> 01:05:30,840
@@ -5056,7 +5056,7 @@ foundations.
 1012
 01:05:47,080 --> 01:05:50,520
 What I dream about of is the
-equivalence, you know, LACS
+equivalence, you know, Lax
 
 1013
 01:05:50,520 --> 01:05:52,760
@@ -5065,7 +5065,7 @@ learning.
 
 1014
 01:05:52,760 --> 01:05:55,520
-That would be the growl, you
+That would be the grail, you
 know, something that ensures
 
 1015
@@ -5141,7 +5141,7 @@ lice or something as law.
 1029
 01:06:42,440 --> 01:06:46,520
 And then you have causalities of
-turbulent, of lamina structures
+turbulent, of laminar structures
 
 1030
 01:06:46,520 --> 01:06:48,480
@@ -5216,7 +5216,7 @@ I don't know in high energy in
 1044
 01:07:29,240 --> 01:07:32,960
 the energy physics community can
-be useful for free mechanics and
+be useful for fluid mechanics and
 
 1045
 01:07:32,960 --> 01:07:36,800
@@ -5240,8 +5240,8 @@ because they cannot resolve all
 
 1049
 01:07:46,880 --> 01:07:49,840
-the scales they need to cause
-brain models.
+the scales they need to coarse-
+grained models.
 
 1050
 01:07:49,840 --> 01:07:54,760
@@ -5251,7 +5251,7 @@ and maybe something of what we
 1051
 01:07:54,760 --> 01:07:57,920
 are doing with turbulence
-modeling can be reduced in that
+modeling can be reused in that
 
 1052
 01:07:57,920 --> 01:07:59,400
@@ -5265,7 +5265,7 @@ volcanoes you need to
 
 1054
 01:08:02,280 --> 01:08:05,960
-characterize the biology of
+characterize the rheology of
 magmas and you cannot measure it
 
 1055
@@ -5315,7 +5315,7 @@ And we have a seminar now called
 
 1064
 01:08:43,319 --> 01:08:47,520
-the EI for Science.
+the AI for Science.
 And hopefully we are trying to
 
 1065
@@ -5360,7 +5360,7 @@ multidisciplinary centres,
 
 1073
 01:09:13,439 --> 01:09:16,800
-particularly in the age of AII
+particularly in the age of AI. I
 think it makes complete sense.
 
 1074
@@ -5460,7 +5460,7 @@ now who are going to vote for
 
 1093
 01:10:46,320 --> 01:10:50,400
-the first time are asking AIS
+the first time are asking AIs
 what should they vote?
 
 1094
@@ -5495,7 +5495,7 @@ they know how to, you know, to
 
 1100
 01:11:11,680 --> 01:11:14,920
-use AI to solve their trade
+use AI to solve their fluid
 mechanics problems, to solve
 
 1101
@@ -5635,7 +5635,7 @@ considerable modification of our
 
 1128
 01:13:05,320 --> 01:13:07,480
-teaching problems and new
+teaching programs and new
 teaching approaches.
 
 1129
@@ -5646,7 +5646,7 @@ in large universities as we
 1130
 01:13:10,920 --> 01:13:16,560
 have, I, we have courses with,
-you know, 5500 students.
+you know, 500 students.
 
 1131
 01:13:16,840 --> 01:13:21,760
@@ -5691,7 +5691,7 @@ are 9, I say 8000 or 99900.
 1139
 01:13:58,040 --> 01:14:01,840
 Ninety, 100% of the time you are
-going to use the automatic pipe.
+going to use the automatic pilot.
 
 1140
 01:14:02,200 --> 01:14:07,080
@@ -5731,7 +5731,7 @@ But if we have methodology, we
 1147
 01:14:32,160 --> 01:14:38,080
 know how to analyze if what the,
-the, the, the LMM is saying is
+the, the, the LLM is saying is
 
 1148
 01:14:38,080 --> 01:14:41,680
@@ -5925,12 +5925,12 @@ As a mate you know because you
 
 1186
 01:17:04,120 --> 01:17:11,560
-can no say tell the EI ask me
+can no say tell the AI ask me
 questions and give the answer
 
 1187
 01:17:11,560 --> 01:17:14,000
-and then the EI can analyze the
+and then the AI can analyze the
 tutor.
 
 1188
@@ -6150,7 +6150,7 @@ fields.
 
 1231
 01:19:52,000 --> 01:19:56,280
-So I don't think that the EI has
+So I don't think that the AI has
 been trained enough.
 
 1232
@@ -6270,7 +6270,7 @@ But but yes, I guess, I guess
 
 1255
 01:21:29,560 --> 01:21:33,200
-that's the front here.
+that's the frontier.
 And I, well, I want to believe
 
 1256
@@ -6285,8 +6285,8 @@ and potentially they could even
 
 1258
 01:21:39,360 --> 01:21:43,720
-won a Nobel Prize at some point
-if you think about alpha fold
+win a Nobel Prize at some point
+if you think about AlphaFold
 
 1259
 01:21:43,720 --> 01:21:46,880
@@ -6325,7 +6325,7 @@ know, just with with with these
 
 1266
 01:22:12,720 --> 01:22:17,000
-AR.
+AI.
 So what was new was the fact of
 
 1267
@@ -6430,18 +6430,18 @@ Well, and that instead of being
 
 1287
 01:23:29,840 --> 01:23:35,000
-replaced by these AIS, well, one
+replaced by these AIs, well, one
 of the person who participates,
 
 1288
 01:23:35,000 --> 01:23:38,480
-a Jesse Taylor, he's a, he's a
+a Jesse Thaler, he's a, he's a
 physicist from MIT and he
 
 1289
 01:23:38,480 --> 01:23:41,640
 participated to our AI for
-science launch play.
+science launch day.
 
 1290
 01:23:41,920 --> 01:23:45,560

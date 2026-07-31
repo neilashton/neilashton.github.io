@@ -55,12 +55,12 @@ Hi, and welcome back to the Neil
 
 12
 00:00:41,760 --> 00:00:44,160
-Ashton pod guest.
+Ashton Podcast.
 So my guest today is Professor
 
 13
 00:00:44,160 --> 00:00:48,520
-Nathan Coots, our true pioneer
+Nathan Kutz, our true pioneer
 at the intersection of machine
 
 14
@@ -81,7 +81,7 @@ many of the key sort of advances
 17
 00:01:02,480 --> 00:01:06,560
 and now actually has moved on to
-play to behind a key role at one
+play a key role at one
 
 18
 00:01:06,560 --> 00:01:10,040
@@ -115,12 +115,12 @@ of the applied mathematics
 
 24
 00:01:23,520 --> 00:01:26,760
-department and was also Co
+department and was also co-
 directing the AI Institute in
 
 25
 00:01:26,760 --> 00:01:30,560
-dynamic systems.
+Dynamic Systems.
 He's probably best known for his
 
 26
@@ -135,7 +135,7 @@ time, one of his postdocs,
 
 28
 00:01:40,000 --> 00:01:43,260
-Stephen Brunton on the Cindy
+Steven Brunton on the SINDy
 sparse identification of non
 
 29
@@ -145,7 +145,7 @@ was part of the breakthrough in
 
 30
 00:01:48,440 --> 00:01:52,960
-the push in the mid 220 tens
+the push in the mid-2010s,
 2016.
 
 31
@@ -240,7 +240,7 @@ moving over and becoming the
 
 49
 00:02:55,440 --> 00:02:59,520
-director of physics informed AI
+director of Physics-Informed AI
 at Autodesk Research.
 
 50
@@ -285,7 +285,7 @@ achievable and interpretable?
 
 58
 00:03:29,480 --> 00:03:33,280
-We we also pivoted and taught
+We we also pivoted and talked
 quite a lot on the, the agents
 
 59
@@ -415,7 +415,7 @@ conversation with Professor
 
 84
 00:04:55,960 --> 00:04:58,920
-Nathan Cuts.
+Nathan Kutz.
 Well, thank you, Nathan, for for
 
 85
@@ -440,7 +440,7 @@ You know, your name is very high
 
 89
 00:05:12,040 --> 00:05:18,040
-up the list, some Seminole
+up the list, some seminal
 pieces of work and arguably you,
 
 90
@@ -516,11 +516,11 @@ I was working a lot in atomic
 104
 00:06:09,080 --> 00:06:12,000
 and optical physics.
-So I was doing theory for mode
+So I was doing theory for mode-locked
 
 105
 00:06:12,000 --> 00:06:14,960
-block lasers, lots of
+lasers, lots of
 computation, lots of modeling,
 
 106
@@ -636,7 +636,7 @@ the room knew more than me about
 128
 00:07:35,520 --> 00:07:38,120
 neuroscience.
-But they out this odd doc, which
+But they thought, this odd duck, who's
 
 129
 00:07:38,120 --> 00:07:42,080
@@ -766,7 +766,7 @@ And we just started building
 154
 00:09:03,400 --> 00:09:08,320
 these data-driven models back in
-that time frame, 2000, 2008, 78.
+that time frame, 2007, 2008.
 
 155
 00:09:08,800 --> 00:09:12,000
@@ -806,12 +806,12 @@ what was coming in 10 years,
 162
 00:09:34,440 --> 00:09:36,600
 right.
-I mean, it's, it's money.
+I mean, it's, it's funny.
 
 163
 00:09:36,600 --> 00:09:37,600
 You know, you can always
-bracken.
+brag and.
 
 164
 00:09:37,600 --> 00:09:41,680
@@ -945,7 +945,7 @@ How did, how did the years come
 
 190
 00:11:08,000 --> 00:11:11,000
-up to that sort of Seminole
+up to that sort of seminal
 piece of work?
 
 191
@@ -955,7 +955,7 @@ So I the academic year starting
 
 192
 00:11:18,480 --> 00:11:23,200
-2012 I had brought on Steve is
+2012 I had brought on Steve as
 my postdoc.
 
 193
@@ -1000,13 +1000,13 @@ doing some of the data-driven
 
 201
 00:11:50,840 --> 00:11:53,440
-money, especially things like
+modeling, especially things like
 dynamic mode decomposition.
 
 202
 00:11:53,440 --> 00:11:57,960
 I had started working on already
-in 20/12/2013.
+in 2012/2013.
 
 203
 00:11:58,880 --> 00:12:02,080
@@ -1051,7 +1051,7 @@ But back then it was still
 211
 00:12:29,760 --> 00:12:33,040
 pretty early on in the sciences.
-You know, we have Imagenet,
+You know, we have ImageNet,
 
 212
 00:12:33,040 --> 00:12:37,560
@@ -1065,7 +1065,7 @@ I think that would more like
 
 214
 00:12:40,280 --> 00:12:43,600
-20181920 like where they were
+2018, '19, '20 like where they were
 really getting into it.
 
 215
@@ -1081,16 +1081,16 @@ And we just started doing some
 217
 00:12:54,120 --> 00:12:56,520
 stuff there.
-And I think obviously Cindy came
+And I think obviously SINDy came
 
 218
 00:12:56,520 --> 00:13:00,680
 out of that time period and some
-PD finders the dynamic mode
+PDE-FIND, there's the dynamic mode
 
 219
 00:13:00,680 --> 00:13:05,640
-decomposition for and then tying
+decomposition work and then tying
 all that together with what was
 
 220
@@ -1141,7 +1141,7 @@ So maybe for people who are not
 229
 00:13:35,480 --> 00:13:39,760
 so familiar, how would you, how
-would you describe Cindy and the
+would you describe SINDy and the
 
 230
 00:13:39,760 --> 00:13:42,440
@@ -1290,7 +1290,7 @@ system relationships.
 
 259
 00:15:23,840 --> 00:15:28,760
-And so the Cindy part really
+And so the SINDy part really
 comes from this idea that if we
 
 260
@@ -1381,7 +1381,7 @@ time derivative.
 277
 00:16:31,080 --> 00:16:35,840
 And it's, so I think the
-motivation for Cindy was this
+motivation for SINDy was this
 
 278
 00:16:35,840 --> 00:16:42,440
@@ -1395,7 +1395,7 @@ relationships among derivatives.
 
 280
 00:16:48,240 --> 00:16:52,240
-And so the Cindy algorithm goes
+And so the SINDy algorithm goes
 directly after that says, well,
 
 281
@@ -1580,7 +1580,7 @@ we'll sort of say, ah, this
 
 317
 00:19:11,920 --> 00:19:15,240
-whole fuzz now about machine.
+whole buzz now about machine.
 It's just basically reduced
 
 318
@@ -1700,7 +1700,7 @@ because we kind of knew what
 
 341
 00:20:47,600 --> 00:20:51,120
-cosines and Sonic were.
+cosines and sines were.
 We followed that up even with
 
 342
@@ -1786,11 +1786,11 @@ computational revolution, which
 358
 00:21:45,120 --> 00:21:50,320
 was, oh, I could just throw that
-PD on the computer and it's good
+PDE on the computer and discretize
 
 359
 00:21:50,320 --> 00:21:55,520
-ties and start simulating.
+and start simulating.
 And so, so I feel like when I
 
 360
@@ -1806,7 +1806,7 @@ generation where there was an
 362
 00:22:02,440 --> 00:22:06,280
 expectation you're going to
-simulate PDS and ODS in your
+simulate PDEs and ODEs in your
 
 363
 00:22:06,280 --> 00:22:12,240
@@ -1821,7 +1821,7 @@ lab.
 365
 00:22:14,840 --> 00:22:19,320
 It wasn't like there's some
-central computer, a deck machine
+central computer, a DEC machine
 
 366
 00:22:19,320 --> 00:22:22,400
@@ -1845,7 +1845,7 @@ are actually starting able to
 
 370
 00:22:32,080 --> 00:22:36,160
-solve non linear PD ES because
+solve nonlinear PDEs because
 we could just numerically
 
 371
@@ -1891,7 +1891,7 @@ asymptotic reductions in two
 379
 00:23:00,120 --> 00:23:03,400
 corners of parameter space where
-you could linear eyes and say
+you could linearize and say
 
 380
 00:23:03,400 --> 00:23:05,920
@@ -1920,12 +1920,12 @@ still had some interpretation
 
 385
 00:23:23,320 --> 00:23:26,600
-like I'm expanding in 40 basis
+like I'm expanding in Fourier basis
 or I'm doing finite differences,
 
 386
 00:23:27,080 --> 00:23:29,480
-my elements.
+finite elements.
 And then, and then from there,
 
 387
@@ -2096,7 +2096,7 @@ What if we did this?
 420
 00:25:22,560 --> 00:25:28,080
 And and that fearlessness has
-LED them to unbelievable
+led them to unbelievable
 
 421
 00:25:28,080 --> 00:25:31,360
@@ -2575,7 +2575,7 @@ really do this?
 
 516
 00:31:19,920 --> 00:31:22,960
-I, I love also Maxwelling wrote
+I, I love also Max Welling wrote
 a response to this, which was
 
 517
@@ -2660,7 +2660,7 @@ there, they were like had them
 
 533
 00:32:14,560 --> 00:32:19,520
-MCL 3839, which were openers.
+MCL38/39, which were winners.
 You know, you're, you're working
 
 534
@@ -2696,7 +2696,7 @@ viable, you know, they have $150
 540
 00:32:44,040 --> 00:32:47,480
 million a year budget.
-I don't know, whatever the app
+I don't know, whatever the cap
 
 541
 00:32:47,480 --> 00:32:48,840
@@ -2900,7 +2900,7 @@ which is basically enterprise
 
 581
 00:35:28,320 --> 00:35:34,480
-AI, but CFDI don't think it's a
+AI, but CFD, I don't think it's a
 trillion dollar market.
 
 582
@@ -2995,7 +2995,7 @@ of these zero failure
 
 600
 00:36:46,000 --> 00:36:50,440
-environments where the site
+environments where the tight
 tolerance is absolutely king.
 
 601
@@ -3031,11 +3031,11 @@ failure environments.
 607
 00:37:11,920 --> 00:37:19,320
 And I, you know, when, when a
-prompt goes bad like unchat GPT
+prompt goes bad like on ChatGPT
 
 608
 00:37:19,320 --> 00:37:23,000
-or Gemini or quad, nobody gets
+or Gemini or Claude, nobody gets
 hurt, right?
 
 609
@@ -3110,7 +3110,7 @@ really what happens is I think
 
 623
 00:38:12,800 --> 00:38:15,720
-the agenic system should come
+the agentic system should come
 back to you and say, hey, Neil,
 
 624
@@ -3250,7 +3250,7 @@ we've had this debate, I'd be
 
 651
 00:39:58,880 --> 00:40:01,600
-interested to know your fault.
+interested to know your thought.
 So if we take like a standard
 
 652
@@ -3276,7 +3276,7 @@ Has a certain ground truth baked
 656
 00:40:16,040 --> 00:40:19,040
 into it because it was done with
-a random model and LES model.
+a RANS model and LES model.
 
 657
 00:40:19,040 --> 00:40:22,800
@@ -3360,7 +3360,7 @@ either point sensors or you're
 
 673
 00:41:15,840 --> 00:41:21,640
-measuring thumb observables, but
+measuring some observables, but
 you never have the full state
 
 674
@@ -3620,8 +3620,8 @@ So in the 1970s, growing up a
 
 725
 00:44:13,520 --> 00:44:16,880
-kid in Brazil at Emerson,
-Filipaldi was a Formula One
+kid in Brazil, Emerson
+Fittipaldi was a Formula One
 
 726
 00:44:16,880 --> 00:44:19,320
@@ -3630,7 +3630,7 @@ So every Brazilian loved
 
 727
 00:44:19,320 --> 00:44:22,040
-Filipaldi.
+Fittipaldi.
 But then I started watching in
 
 728
@@ -3640,7 +3640,7 @@ Formula One race I watched was a
 
 729
 00:44:26,920 --> 00:44:31,040
-Tonsena, and I was just some
+Ayrton Senna, and I was just some
 Sunday morning early.
 
 730
@@ -3651,7 +3651,7 @@ It was on ESPN and there was
 731
 00:44:34,880 --> 00:44:39,480
 this young Brazilian kid.
-I told Senna won that race and I
+Ayrton Senna won that race and I
 
 732
 00:44:39,480 --> 00:44:41,480
@@ -3695,8 +3695,8 @@ engineering, one of his former
 
 740
 00:45:03,360 --> 00:45:07,880
-PhD students is head of CFT,
-Julian Hosler.
+PhD students is head of CFD,
+Julien Hoessler.
 
 741
 00:45:08,160 --> 00:45:13,480
@@ -3705,7 +3705,7 @@ then I was was out there and it
 
 742
 00:45:13,480 --> 00:45:18,800
-taught me two things. 22 really
+taught me two things. Two really
 big take home messages that
 
 743
@@ -3716,7 +3716,7 @@ actually shaped part of why I
 744
 00:45:22,200 --> 00:45:25,360
 even came to London to come to
-auto desk number one.
+Autodesk number one.
 
 745
 00:45:26,280 --> 00:45:29,560
@@ -3931,7 +3931,7 @@ car, which is, let's call it a
 787
 00:48:06,680 --> 00:48:10,440
 billion parameter mesh.
-How do you how do you do grading
+How do you how do you do gradient
 
 788
 00:48:10,440 --> 00:48:12,760
@@ -4015,13 +4015,13 @@ problem can't help with and and
 
 804
 00:49:15,720 --> 00:49:17,680
-it really stucked with me
+it really stuck with me
 afterwards.
 
 805
 00:49:17,680 --> 00:49:21,360
 Like, how do I get into this
-geometry grain and understand
+geometry regime and understand
 
 806
 00:49:21,360 --> 00:49:23,840
@@ -4155,8 +4155,8 @@ the.
 
 832
 00:50:51,080 --> 00:50:55,600
-And even to see Santa's car, his
-MP4 four from when he, I think
+And even to see Senna's car, his
+MP4/4 from when he, I think
 
 833
 00:50:55,600 --> 00:51:00,080
@@ -4201,7 +4201,7 @@ you, you just need to do this
 841
 00:51:25,560 --> 00:51:28,800
 or, or you know, like you need
-to use this better turbans model
+to use this better turbulence model
 
 842
 00:51:28,800 --> 00:51:31,600
@@ -4295,7 +4295,7 @@ think about what AI is largely
 
 860
 00:52:33,960 --> 00:52:37,800
-trained on, RMSERMSE is sort of
+trained on, RMSE. RMSE is sort of
 a blunt instrument.
 
 861
@@ -4331,7 +4331,7 @@ Like I got the big stuff right.
 867
 00:52:59,160 --> 00:53:02,080
 All the small stuff doesn't
-really contribute to that RMSC
+really contribute to that RMSE
 
 868
 00:53:02,080 --> 00:53:04,800
@@ -4590,12 +4590,12 @@ And then when you're down on the
 
 919
 00:56:15,600 --> 00:56:18,480
-design arrow side, you see
+design aero side, you see
 basically people have the double
 
 920
 00:56:18,480 --> 00:56:21,760
-screen like they do a very tough
+screen like they do at every tech
 company and what they're got
 
 921
@@ -4665,7 +4665,7 @@ years, I'd almost want to, you
 
 934
 00:57:03,360 --> 00:57:08,280
-know, copyright my skills dot MD
+know, copyright my skills.md
 or something or, or monetize it.
 
 935
@@ -4675,7 +4675,7 @@ imagine, like once that person's
 
 936
 00:57:11,320 --> 00:57:15,120
-described F4 process and you put
+described F1 process and you put
 it into some skills file or
 
 937
@@ -5066,11 +5066,11 @@ agent that manages all of that,
 1014
 01:01:54,920 --> 01:01:56,480
 right?
-So it feels to me like this, a
+So it feels to me like this
 
 1015
 01:01:56,480 --> 01:01:58,800
-genic push is quite a real
+agentic push is quite a real
 thing.
 
 1016
@@ -5080,7 +5080,7 @@ higher level, like with a
 
 1017
 01:02:02,160 --> 01:02:04,400
-something like Kiln, just in
+something like Cline, just in
 terms of the workflow.
 
 1018
@@ -5130,8 +5130,8 @@ because they built this code.
 
 1027
 01:02:32,240 --> 01:02:36,120
-But it's like genic part, the
-genic part of that.
+But it's like agentic part, the
+agentic part of that.
 
 1028
 01:02:36,120 --> 01:02:43,040
@@ -5251,11 +5251,11 @@ these these guys wrote from sort
 1051
 01:04:13,360 --> 01:04:19,000
 of a largely a Oxford Cambridge
-collaboration called Art of
+collaboration called Arti
 
 1052
 01:04:19,000 --> 01:04:20,440
-Craft.
+craft.
 Maybe you saw this one.
 
 1053
@@ -5636,7 +5636,7 @@ You know, what would you
 1128
 01:09:10,279 --> 01:09:14,880
 recommend that they would focus,
-let's say, APHD on or what
+let's say, a PhD on or what
 
 1129
 01:09:14,880 --> 01:09:18,840
@@ -5891,12 +5891,12 @@ And of course for them, they
 1179
 01:12:13,800 --> 01:12:16,960
 just have to adopt these tools
-like Clot.
+like Claude.
 
 1180
 01:12:16,960 --> 01:12:19,680
-If they're not using Clot code
-or something like Kilner or
+If they're not using Claude Code
+or something like Cline or
 
 1181
 01:12:19,680 --> 01:12:24,240
@@ -6036,7 +6036,7 @@ not, you won't learn it.
 1208
 01:13:50,040 --> 01:13:54,600
 And then as you transition into,
-let's say, APHD, it starts to
+let's say, a PhD, it starts to
 
 1209
 01:13:54,600 --> 01:14:00,040
@@ -6311,7 +6311,7 @@ That sounds good to me.
 1263
 01:16:56,840 --> 01:16:58,960
 But yeah, all the best.
-It's Alteredesk.
+It's Autodesk.
 
 1264
 01:16:58,960 --> 01:17:01,920
