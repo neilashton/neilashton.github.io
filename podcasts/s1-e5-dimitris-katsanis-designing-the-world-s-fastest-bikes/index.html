@@ -15,7 +15,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dimitris Katsanis — Designing the world&#39;s fastest bikes | The Neil Ashton Podcast</title>
+<title>How to Design the World’s Fastest Bikes | Dimitris Katsanis</title>
 <meta name="author" content="Neil Ashton">
 <meta name="description" content="In this conversation, Neil interviews Dimitris Katsanis, one of the world leading experts in bike design. They discuss the UCI regulations that govern bike…">
 <meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
@@ -28,7 +28,7 @@
 
   <meta property="og:site_name" content="Neil Ashton">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Dimitris Katsanis — Designing the world&#39;s fastest bikes | The Neil Ashton Podcast">
+  <meta property="og:title" content="How to Design the World’s Fastest Bikes | Dimitris Katsanis">
   <meta property="og:url" content="https://neilashton.co.uk/podcasts/s1-e5-dimitris-katsanis-designing-the-world-s-fastest-bikes/">
   <meta property="og:description" content="In this conversation, Neil interviews Dimitris Katsanis, one of the world leading experts in bike design. They discuss the UCI regulations that govern bike…">
   <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e5.webp">
@@ -38,7 +38,7 @@
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dimitris Katsanis — Designing the world&#39;s fastest bikes | The Neil Ashton Podcast">
+  <meta name="twitter:title" content="How to Design the World’s Fastest Bikes | Dimitris Katsanis">
   <meta name="twitter:description" content="In this conversation, Neil interviews Dimitris Katsanis, one of the world leading experts in bike design. They discuss the UCI regulations that govern bike…">
   <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e5.webp">
   <meta name="twitter:image:alt" content="Dimitris Katsanis — Designing the world&#39;s fastest bikes — The Neil Ashton Podcast">
@@ -94,7 +94,7 @@
         {
           "@context": "https://schema.org",
           "@type": "VideoObject",
-          "name": "Dimitris Katsanis — Designing the world's fastest bikes",
+          "name": "How to Design the World’s Fastest Bikes | Dimitris Katsanis",
           "description": "In this conversation, Neil interviews Dimitris Katsanis, one of the world leading experts in bike design. They discuss the UCI regulations that govern bike…",
           "thumbnailUrl": [
             "https://i.ytimg.com/vi/rGjce1qUBT8/maxresdefault.jpg"
@@ -381,6 +381,8 @@
     <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S1--EP5---Dimitris-Katsanis---Designing-the-Worlds-Fastest-Bikes-e39d4pp">Spotify for Creators</a>
     <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
     
+      <a href="/assets/transcripts/s1-e5-dimitris-katsanis-designing-the-world-s-fastest-bikes.srt" download>Download transcript</a>
+    
   </nav>
 
   <div class="episode-content">
@@ -500,7 +502,583 @@
 
 <section class="episode-section" aria-labelledby="episode-transcript">
   <h2 id="episode-transcript">Transcript</h2>
-  <p class="episode-transcript-unavailable">A public transcript is not currently available for this episode.</p>
+  <p class="episode-transcript-intro">
+    This transcript was created from the corrected YouTube captions, with names and technical terminology reviewed. <a href="/assets/transcripts/s1-e5-dimitris-katsanis-designing-the-world-s-fastest-bikes.srt" download="">Download the corrected SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>hi and welcome to the Neil Ashton podcast. In each episode, we explained some of the fascinating ways that science and engineering are changing the world around us. We talk to leading engineers from elite level sports like cycling and Formula One to some of the world&#39;s top academics. To understand how fluid dynamics, machine learning and supercomputing are bringing in a new era of discovery. We also hear some of their life stories, their career advice and lessons they&#39;ve learned on the way that I hope will be helpful to you too. So sit back and enjoy this episode. Welcome back to the Neil Ashen podcast. So today&#39;s episode is all about cycling.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:46</span>
+  <span>Uh, I said in the intro to the podcast that there were gonna be certain themes. Uh, and cycling is definitely one of them. I hope I&#39;m not the only person who has this sort of mixed interest of fluid dynamics, engineering, Formula One and cycling. I think, though it is more common, I think there&#39;s a an interesting overlap between those disciplines. There is obviously a huge focus in aerodynamics, which is one of the things that we&#39;ll we&#39;ll talk about today. Formula One and cycling have a lot of crossovers from a technology point of view. But I would also say, from a people point of view, a lot of the people that I know</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:32</span>
+  <span>that work in elite level cycling people who are, you know, working on bike design or working with the teams, um, have come from from Formula One. And there are another, uh, a number of actual Formula One teams that have partnerships, uh, things like Inos, of course. So it&#39;s It&#39;s a topic that I hope will be interesting, and again, it sort of complements each other. In a way, I&#39;m speaking to Dimitris Katsanis today, who is one of these? A bit like Tony Purnell, I would say unspoken heroes of of the field. In fact, there&#39;s a link between, uh, Dimitris Katsanis and and and Tony and I, which is that we all worked on the British cycling project to design the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:20</span>
+  <span>track bike for the Tokyo Olympics in 2020. Now we don&#39;t a bit like with Tony, which is in Episode three. If you haven&#39;t listened to it, I, I suggest you go back. We we talk about far more than just cycling. In fact, we mainly discuss things outside of cycling. Um, but because of various NDAs agreements and things, uh, some of the stuff that we did for that actual Tokyo Olympics project can&#39;t actually be spoken about until after the next Olympics, which is coming up, uh, in in in Paris. But today, I. I really wanted to talk to him because Dimitris Katsanis is he&#39;s actually, um, was a professional cyclist. We don&#39;t really get to talk about that too much,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:03</span>
+  <span>but he he comes from someone who was actually a very good cyclist, and he&#39;s made his name known as one of the top designers of of Bikes. He has his own company, Metron, but he&#39;s a a sort of guy that really has a system level understanding, uh, and works, you know, with a number of of companies. Uh, but what we talk about today is his partnership with Pinarello, which is probably a bike brand that is synonymous with team sky. All those wins with, you know, Bradley Wiggins and Chris Froome. And now with Ineos, it&#39;s it&#39;s a it&#39;s a bike. It&#39;s a very premium bike. Anyone who&#39;s into bikes know that Pinarello is probably one of the most expensive bikes out there.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:46</span>
+  <span>And so anybody who has a Pinarello or aspires to have one or just has an interest. You&#39;re speaking to the guy who has been a central part of designing those bikes for for more than a decade now, um, someone who deeply understands it. So we cover we do. We try and start from the top about UCI I regulations. What governs bike design and then really trying to get into this question of what&#39;s more important? Is it aerodynamics? Is it weight? Is it stiffness? I think he goes into some interesting discussions about you know how the rules are interpreted, where we should, where we should go with it. So it&#39;s really a deep dive conversation. It&#39;s, uh,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:27</span>
+  <span>it&#39;s a bit like with Tony, you know, it&#39;s it&#39;s more than an hour 40 so it&#39;s definitely a long form one. It may take a few goes to to get through it. But like with other episodes, I wanted to keep it in its entirety because I think to do justice to him and the topics that we&#39;re discussing it it&#39;s Yeah, I&#39;m not a fan of trying to make, uh, you know, Clickbait or or sound bites? I wanted to leave the the the whole thing out there. I think we still have many topics that we could have gone in, you know, into more depth and, uh, interested to hear from you, whether you like this episode, whether you&#39;d like us to go back in and And</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:05</span>
+  <span>what around cycling would you be interested in hearing about? So this is today about, like I said, aerodynamics and stiffness, but there&#39;s lots of other topics that we could that we could dive into. So, yeah, I hope you find this interesting. Um, I&#39;m told that I I&#39;m I&#39;m supposed to tell you to like and subscribe. Uh, I must confess I&#39;m the worst at doing this. Normally, when someone says that to me, uh, it almost makes me not want to do it. But there are good reasons because, you know, all the algorithms of YouTube and Spotify are all based on basically people giving ratings and subscribing and stuff like that. So if you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:42</span>
+  <span>didn&#39;t find this particularly interesting, of course. No need to do it. But if you do like this podcast and you found it, useful it It does help others to find it. Um, if you like and subscribe. So, yeah, I&#39;ll I&#39;ll do the classic thing of saying it. I hope you&#39;ll do it too. So, yeah, sit back. And hopefully you enjoy this episode. Um, one small caveat. As I mentioned on previous ones, this was actually recorded quite a few months ago, right at the beginning of this sort of podcasting journey. And so I Now that I hear it, I&#39;m a little bit disappointed that the audio quality isn&#39;t as good as I&#39;d like it to be. So please bear that in mind for future episodes. Hopefully that will be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:22</span>
+  <span>rectified. But for this particular one, yeah, it&#39;s it&#39;s still not perfect. But hopefully the main point is the conversation rather, rather than the, uh, the audio quality. So, yeah, Please enjoy this discussion with Dimitris Katsanis. People watch the Tour de France. People watch, You know, the classics that are on now what regulates how the road bikes look. How could you explain to people the sort of UCI I regulation like from a road bike point of view? What? What&#39;s the limiting factor? So the UCIUC I stands for Union Cycliste Internationale, which is the the world&#39;s governing body for the sport of cycling. And it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:08</span>
+  <span>it covers everything from BMX and mountain biking to, uh, road bikes, track bikes. Pretty much anything has to do with this motorcycle. So there is a There&#39;s a quite a thick book of rules and regulations that they govern the the sport. A lot of that has to do with how you run the sport, meaning the start to finish the organisation and so on. And there is also quite a large, quite detailed technical, uh, side also, which defines, um how the bike, um, would look like. So it has, like minimums and maximums like minimum and maximum length of the bike, the size of the handlebars and, uh, the cross section of the tubes and so on.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:53</span>
+  <span>And, uh, as the years they go by, more and more detail is being added because in the past, when you were talking about a bicycle, you were talking about a bike with round steel tubes. Primarily, it was probably 50 years ago and then aluminium came in and things started changing, and then carbon fibre came in, and things they changed quite a lot. Uh, so as the time was going by, UCI. Was adding more detail on these kind of bikes. Um, there was a time in the early nineties, early to mid to early nineties that the regulations that were relaxed, but, um, the regulations around the shape of the frame, they were actually relaxed quite significantly.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:42</span>
+  <span>And we saw the bikes, like this famous lotus bike and a few others that they had a frame that was no triangular and a few other innovations. And, uh, but then, since then, UCI I, um, tried to put more, uh, control about what is happening because things that run away maybe a little bit too fast for what it was the understanding of the UCI I at the time. So the governing body, uh, has to con to control the sport. You cannot really let let leave it completely free because, uh, you know the moment you have a, uh, no, the rider and the machine. Then what stops you from? I don&#39;t know. Start putting engines on and stuff like this,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:28</span>
+  <span>and then you&#39;re ending up with a motorbike and then you&#39;re ending up with a rocket or ending up. I know going, you know that that that&#39;s not a sport anymore. So every sport has to have regulations, Uh, the regulations in general, and now they do change a lot slower comparing to what they were. So these regulations is worth saying that these regulations that are primarily for the road bikes and for the track bikes. So there&#39;s a lot of detail on what you may call the road. What is a road racing bike is, and what is a truck racing bike is when you&#39;re going into other categories like, uh, mountain bike and BMX, there&#39;s a lot less regulation.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:13</span>
+  <span>That&#39;s why you also see a lot larger variety. Um, regulation. Of course it it can be seen as a good and a bad thing, in my opinion is you have to have a regulation, Uh, but you also have to be able to, uh, keep modifying the regulation as time is going by to allow for development. I don&#39;t think we&#39;re going to see bikes as they were in the late 18 hundreds, with the huge front wheel and the tiny rear wheel like the P Far things. Uh, because if at the time, they were saying, This is the bike, how we know it and we stick with that, then that&#39;s all we would know even today. So thank God for that. They haven&#39;t stuck to that.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:02</span>
+  <span>Uh then, as I said earlier on, by necessity, the technology was developing quite slowly till about, um, sometime around the eighties or so, and then things start moving on in aerodynamics. They were brought in, and then you had, like, uh uh, some shapes. And so on the bike start changing and disc wheels, they they start appearing and aerodynamic helmets and all that. And that was primarily the outcome of national teams and professional level cyclists, uh, national teams at the time, primarily the likes of the East Germans and, uh, the ex Soviet Union and block,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:51</span>
+  <span>uh, they started it, probably in the late seventies. Then in the early eighties, the Americans they start taking over with the Los Angeles Olympics, and they had all these bikes with different wheel diameters and aerodynamic helmets and so on. And then more innovation, uh, start coming in. Um, in the early eighties was also the disc wheels, and when they came in uh, Francesco Moser was the first one who actually used the Hour Record that he did. Can&#39;t remember the exact year. I think it was 8382. Something like that. And, uh, then, uh, this started going, uh, more for a for a time that you I tried to restrict it.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:35</span>
+  <span>Uh, but then it was in 91. If I remember correctly that UCI I they open up the rules, they removed the requirements for the triangular frame. That&#39;s when Lotus, which, in fact, uh, it was a lotus, uh, that actually designed the bike. Uh, but Lotus actually manufactured it and actually did the improvements. Uh, so, um, the bike that Chris Boardman rode in 92 it was very different compared to the previous bikes. But it was not the only the only bike that was very different. The the Germans, they had, like, a a version of a triangular FRA frame, Uh, which it was, like, an unusual shape. And then after that, everybody started coming up with their weird and wonderful things.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:23</span>
+  <span>And then I think it was, um, 97 or 98 if I remember correctly UCI. They said we have to stop this. And, uh, from the first of January 2000, the bikes, they still have to go back to the original two triangles, minimums and maximums and so on. There was a bit of a quiet period, but then the engineers that were working with the companies, they start realising they start pushing the envelope a bit and pushing it a little bit more, pushing it a little bit more. And at the time you may say UCI. I got a little bit, um uh, sleeping, if I can say because they didn&#39;t really have a technical expert to be able to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:13</span>
+  <span>measure all these things and enforce the regulations. So then, uh, I think it was, uh, after the 2008 Olympics that they usually they put a lot more detail and, uh, the regulations, they became more or less what we know today. A lot of things change. Also since 2010, uh, but, uh, the basic, um, idea of all these measurements and so on. Although it started in 97 98 I think it was. It started in 98. Um, then, uh, it pretty much like, uh developed to what we know today, um, somewhere between 4010 and then today there is a lot of regulation, and today UCI I is a lot more technically capable. If I can say</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:05</span>
+  <span>so, if you come up with a design, you have to register that design, which I you have to give them a 3D, uh, file that represents the entire frame. And, uh, they have a laser scanner that they can come to the race and they can scan it and compare it to what you told them it will be. So, uh, that, uh, laser scanning technology is very accurate. We talk about two microns, no less than thickness of a piece of paper. And, uh, the tolerance that they have with this is like plus or minus a millimetre. So you don&#39;t really have much room to play. You know, you can easily just go a little bit aggressive with your paint and paint a little bit too thick,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:54</span>
+  <span>and you can start coming out of the the tolerances. And it&#39;s not for road bikes as well. So you mean Yeah. Yeah, yeah. Although the regulation is supposed to be for everything in effect right now is specifically talking about road bikes and, uh, track bikes, road time trial, and must start so the likes and museum to the front and the same thing for the truck. So you have the the bikes and racing say individual pursuit and so on. And also the kind of bikes that you&#39;re racing like a no points race and sprint and stuff like that. All these are under these very strict regulations and probably you and I, we are responsible for that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:40</span>
+  <span>party at least. Yeah, which we&#39;ll we&#39;ll definitely get into. Um, so the other key thing if I&#39;m not mistaken, is any bike that is used at a UCI event. Let&#39;s say at, um, on loop last week or in, you have to be able to buy it. Is that right? Uh, public has to be able to buy that bike. Yes. Yes. So the regulation was always there, at least as far as I remember since the nineties, or even before there was a line in there that was saying that the bike should be commercially available, and, uh, the although these things they were supposed to be commercially available.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:29</span>
+  <span>Uh, there are plenty of examples out there that they were actually not commercially available. Uh, there were There were prices. Uh, you could, in theory ask, uh but, uh, I&#39;m not I&#39;m not aware of anybody getting forsake the bike the Americans they had in, uh, 1984 in Los Angeles or in 96 in Atlanta or the, um, the FES, the Germans. They had, uh, they still have, uh, or all sorts of other special projects that people do, including the the British team. Although nowadays it specifically stipulates that there is a specific timescale that the bike has to go to the market. And, uh, you do see today people, they are buying those bikes. I know</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:19</span>
+  <span>there are at least a small number of the bikes that, uh, we did for the Tokyo Olympics, and I saw private riders knowing private, private individuals racing them on, I don&#39;t know, masters categories and stuff like that. And it is the bike that it was the 2020 Olympic Games bike, the British C card. Having said all that, I&#39;m not aware of any of the FES, uh, bikes. Anybody else racing? Maybe they do. But II, I just don&#39;t know. But yes, you&#39;re right about it. The bike has to be commercially available, and that is policed a lot more nowadays. So if you designing. So I guess one of the things that you, um your well, people may not know, but I think it has been one of the big things.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:10</span>
+  <span>Is your work with Pinarello? So when did that? When did that start? That you mean my collaboration with Pinarello? Uh, depending on how far back you want to go. But properly, properly, it started as in, Um uh, hold on a minute. Let me think a little bit. I did the first full bike for Pinarello, and it was released in 2013. Which it was the Pinarello Bo the the the time trial bike. But, uh uh, Bradley Wiggins rode that year. And, um, later on, Chris Froome and so on. Uh, before that, uh, there were some minor things that I&#39;ve done for Pinarello</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:59</span>
+  <span>RLO, but it was very much like an on off, uh, relationship before that. But since 2013, uh, like, um, I collaborate with gulo in countless projects. Uh, there are always projects in the pipeline. Uh, please don&#39;t ask me to tell you the future projects, I. I can I can talk about the old ones because, you know, they&#39;re in the public domain and you can find those, uh, and, uh, like, uh for Pinarello. Um, did the time trial bikes like the B series and, uh, did also the Dogma F series like, uh, F 8 1012 dog, my F and all that. So And they may. They got quite a lot of, um, significant improvements that we had on, uh, on those.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:51</span>
+  <span>Um, Do you want me to go through those? I was more interested to know. Um, so I think people think like aerodynamics. Yeah, People think about weight. Yeah, And stiffness. How do you for a modern day bike that I&#39;ve got one? Well, I haven&#39;t got Pinarello here. It&#39;s another brand. It&#39;s dirty. So I&#39;m not gonna um what what is the actual influence of each? Yeah, that That&#39;s a very good question. Which, actually that summarises pretty much my collaboration with Pinarello. Like, uh, I, uh I delivered the the bo uh, the first bo to Pinarello</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:40</span>
+  <span>and the early 2013 And then, uh, not long after that, started working on what later became the Dogma F eight. And I remember we had this meeting at Pinarello and we were sitting over there. We were planning, uh, how to try and do it. And at the time, it was very common that, uh, all major brands, uh, like, Cervelo track specialised pretty much anybody who was anybody, uh, had two top level bikes, had a a lightweight bike, an aerodynamic bike. And, uh, I remember that, uh, I had when we were discussing all this, I had to, um, stand up and tell, uh</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:30</span>
+  <span>uh, the Pinarello guys and also the team sky guys as they was at the time. But in my opinion, it should be one bike that does it all, Uh, because you cannot really have, uh, a different bike for you&#39;re racing a race. Most of the races they have, uh, Mountain, Beach, Beach and Flat Beach. Quite a few times the mountain stages. They are quite distinct. But nowadays they start going more and more a blend of between flat and mountains. So, uh, you cannot really have some people they doing it, but, uh, thank God, Not much. They changing bike on, uh, like, uh, on the foot of a mountain.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:19</span>
+  <span>They primarily do that on time trials. And so but nobody is doing it. Thank God for that. Nobody is doing it on the must start when you have 100 naked riders, uh, starting, you know, trying to change bikes. So that would be an absolute nightmare. So I said it has to be a good balance between strength, stiffness, aerodynamics and lightweight. So there will be, of course, a bit of a weight penalty if you try to do a bike. But it is, um, have reasonable aerodynamics comparing to an all out lightweight bike. Uh, but actually, the difference is not much. The difference is somewhere in the region of about 100 to 100 and 50 grammes.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:07</span>
+  <span>Some people, they may argue. Oh, you can do it light. And you can do 600 gramme frame. But we talk about frames that they can last, and they&#39;re not gonna just, uh, start taking damage. The moment I know something minor happens. So the idea was always you need a bike that it will take you from a to B multiple times, so it has to be durable. Also, it has to be relatively relatively speaking, simple to work. Also, if there is a damage or if there is a you need to change the wheel or something like this, it is relatively speaking, easy. And it also has to be aerodynamic enough that it doesn&#39;t really hold you back. Uh, anything significant</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:53</span>
+  <span>and also lightweight enough. So the the Dogma F8 It was the first one that, uh, I did for Pinarello that was actually taking all this philosophy and putting it on to one bike. And, uh, I&#39;m quite proud to say that pretty much today not far from every major brand, is going down this route because they all came up to more or less the same conclusion that we did at the time that the you&#39;d make a bike actually pretty good for aerodynamics. Uh, and, uh, the weight penalties as I said something in the region of about 100 250 grammes and, uh, with the minimum weight of UCI, I actually that works very well.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:43</span>
+  <span>If you didn&#39;t have this minimum weight limit, then you would probably have everybody going for light weight because in cycling, everybody is obsessed with the weight because you can measure it very easily. But aerodynamics is something you cannot measure very easily. You have to have wind tunnel testing or nowadays they have these little pods they can measure these speeds. But again, you really need to know what you&#39;re doing. You cannot just put on your bike and go out right and find out where it is. Uh, and all these measurements as we know they do have, um, quite a lot of tolerances. When you start going into the,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:20</span>
+  <span>I don&#39;t know, 1% difference or below things start going a little bit unstable. So to give you an idea the the F eight, the first dogma that I did for Pinarello Uh, we did quite a lot of development, uh, about the different sizes and shapes of the tubes, both for the frame of the fork location of the water bottles. And also, how do you partially integrate, uh, parts onto the bike? So in effect, Although at the time that this breaks there, they were not what we know today. They were just the rim brakes in the standard ones uh, the bike was designed that you have, uh, rim brakes on, but specifically that you have rim brakes on. If you don&#39;t design it,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:11</span>
+  <span>you design a bike and you put the rim brake on. But, you know, this is the rim brake. How can you design the rest of the bike that you do not present to the airflow to different bits? You don&#39;t have the the brake over here, the fork over there. But you put one behind the other very simple things, actually, to be fair. But, uh, it seems to me that before that time, nobody thought of it. So the outcome of that one, you may say, OK, what was the outcome? So the outcome of all that and this is not marketing because this is like old news you talking about? The pipeline was on the market over 10 years ago by now. Uh, so the outcome of that one, that bike, uh, the previous, uh, frame was over a kilo.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:55</span>
+  <span>I don&#39;t remember the exact numbers. I think it was something like the range of 1 kg. 100. Uh, the F8 was around 850 grammes the frame, so there was a significant difference in the rate the stiffness go went up because we did a lot of FE a or what is the optimum size and shape of individual tubes? Uh, down tube change, the AC tube and all that stuff, uh, of what is the optimum size and shape and location of that tube, which gave us a lot of you may call it free stiffness. If I could say which also is translated on the reduction of weight and, uh, also in terms of aerodynamics on frame and fork level,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:46</span>
+  <span>at least on CFD, which is the simulation, uh, on the on aerodynamics, um, on CFD frame and four was 47% lower drug than the previous version, Which you may say, that sounds like a very big number. And then I think it was it was on the bike level, something that is, I may be slightly wrong on these numbers, but you can check it. There is a white paper Pinarello they had about the dog by fate. And I think it&#39;s still, uh, uh, available somewhere if you If you dig enough, uh, I think on bike level it was something in the region of about 17 or 18% difference if I remember correctly and on on bike and rider level.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:36</span>
+  <span>Remember, this is only changing frame and fork, bike and rider level. It was something in the region of about 4%. 4 or 4.5% better. And this is you. You change this frame and four only. So you hop from this bike to that bike. The same wheels, same handlebars, Same. I don&#39;t know everything else. And, uh, all of a sudden you&#39;re finding, um, about 4.5% better. Which this is on CFD, you may say, Yeah. How mu How much do we want to believe? CFD. So we actually did that. After that, we did some wind tunnel testing, and, uh, one important thing over here to, uh, to point out before I go into more detail is that both the CFD and the wind and the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:24</span>
+  <span>testing was trying to replicate the road conditions that the air doesn&#39;t only come straight on, but it comes from all sorts of different angles. So we worked out a a probability of encountering different wind, uh, angles and different wind conditions. So we had the formula that we were applying on all those that was giving higher or lower weight to its different wind direction. So we&#39;ve done this also on the wind tunnel. And remember, on the CFD, on average, it was giving something like about 4.5% Sorry, the CFD was giving 4.5%; the wind tunnel Uh was giving us around 6% but And this is frame and fork only. Same wheel, same handlebar, same everything else.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:14</span>
+  <span>So, in effect, you&#39;re hopping from this bike to this bike, which is the only difference is frame and four. And, uh, you need, uh, 6% less power to push you through the air, which, if you are the rolling resistance and all that stuff probably the overall potential improvement it was maybe, let&#39;s call it four or 5% but four or 5% of that. All of a sudden, it&#39;s almost like if you&#39;re producing, say, four or 5% more power when you are already on high level. To find another 5% of power, you can be training the rest of your life and not find this 5% of power, and you could do it simply by just getting off this bike and getting onto this bike.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:56</span>
+  <span>And this was before we, uh, start looking into things like handlebars and so on. Since that time, um, we also found handlebars and so on. They make, like, a large contribution. Uh, that is why, uh, from about 2015 onwards, you still have. You have pretty much every top level bike, has integrated integrated handlebars with aeroc cross sections and so on. Now you may ask the question of, uh, W. How far can you push? How far can you push that aerodynamics within the regulations? Probably 23 or four years later after that. So we&#39;ve done the F eight. Then a couple of years later, we&#39;ve done the F 10,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:45</span>
+  <span>and sometime around that time, we were looking of where is the next potential improvement? And we did a full a bike with whatever we could do at the time. Within the regulations of the time and the difference on what you may call a full arrow road bike to whatever it was the whatever was a current dogma at the time. The difference on bike and rider level was something in the 0.0 something percent. So we pretty much decided it&#39;s not worth trying to do a more a frame for as it was at the time, be careful as it was at the time, because the regulations they changed since that time and now you can do a little bit more.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:36</span>
+  <span>So we realised at the time that all these very slim, very aero tubes and so on. Actually, they were not really giving you any kind of significant improvement. That was the time that, uh, we realised that, uh, this is what they call the truncated I of oil tubes. They actually give a better overall performance, especially when the wind comes from the side because they create significantly more lift. Therefore, some of this lift is acting like pulling you forward. Therefore, uh, it was dropping the overall drought, whereas the bikes with a very slim, pointy trailing edge uh, tubes, uh, they got sty quite deadly.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:25</span>
+  <span>So anyway, so your sensitivity, basically, you&#39;re saying that because I&#39;m just looking at my bike now, and it&#39;s true that the a section on it it is not the classic sort of teardrop going into a finite edge. But it&#39;s actually got quite a thick edge, which intuitively you think is less aerodynamic. But I guess your point is more when the flow is coming in from the right or the left. It&#39;s Yeah. Not only that, not only that, but also on a road bike. You have other things. You have, uh, brakes. Uh, you have, uh, water bottles and stuff like this. So looking back, like when I start doing bikes like this I was doing like I designed a couple of time trial bikes</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:09</span>
+  <span>in the early two thousands, and it had like, a nice arow tubes. I was standing up, maybe not in a point, but a relatively narrow trailing edge. And then you stick a big water bottle behind it, so you&#39;re channelling the air onto the water bottle. So we found that, uh, it&#39;s much better to shape the tube to actually partially cover the bottle, and the total drug goes down because you are going to have water bottles. Now, if you are going to raise a four kilometre or five kilometre race or something like this, you don&#39;t have water bottles. Fine. But in the vast majority of cases you are carrying water bottles, even on time trial bikes.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:55</span>
+  <span>Yeah. Yeah. So what is it now, then? Because I&#39;m one. I think thing that maybe confuses people or they don&#39;t know is if you and this is nothing to do with this is more general now, not just Pinarello Rla, but just any bike brand. Every time a new bike comes out, there is some statistic of X. More stiffness. Yes. Let&#39;s drive. Like at what point is it still the case that bikes are legitimately getting better and better? How much runway is there? Yeah, or is it a massaging of maths? Yeah. Um, I, I cannot talk about others. Uh, I can only talk about the designs that, uh, I do myself and my guys and the ones that we got</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:41</span>
+  <span>on with Pinarello because you have to think about it When, uh when, uh, myself and my guys, we do that we don&#39;t do it in vacuum. We&#39;re working. Of course with Pinarello, they have They also are contributing massively to that. And we&#39;re also working with the riders and so on. So the main, the main thing that is happening usually is. You are restricted by number one time and budget. So usually you only have so much time, and you have to finish the project, deliver it and it has to be manufactured. And start selling some of those so you can get money and go and do your next development round. So, as an engineer, whenever you design something,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:26</span>
+  <span>you try to push the envelope as far as you can. Uh, you never really reaching perfection. The moment you say this is finished, I send you to production. You wake up the next day and you go like ha. If I do this, it might be better. And, uh, if I do that, it might be better. So it&#39;s quite common that, uh the moment the design leaves the drawing board or the computer screen Nowadays, uh, you have ideas on how to do it better, but you have to stop it and deliver it. So it is true. The big gains, at least as we knew them in the past, they all gone and new ones, they start appearing as you know, with, like moving the seat station and the fors</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:16</span>
+  <span>around, and so on. so the classic aerodynamics of just reducing the drag of the bike itself. It hasn&#39;t completely run, but it&#39;s close to pretty much that. Mm. So that I was actually gonna ask you about that. So maybe for the history of people listening we worked together on, um, on British cycling? Yeah. And I. I think it was a novelty, which was the idea of looking at a more system level, Um, the bike and the rider and that if you took the bike on its own, you would only minimise that. But it may not affect the rider. And one of the things that we looked at was this wider seat stays and, um, wider, wider forks.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:08</span>
+  <span>Uh, have you seen that now translate slowly into the road. This philosophy of R Is that what you&#39;re alluding to? The rider bike sort of as a system drag reduction. Yeah, definitely. OK, you may say truck is a very individual category, because on the track, you pretty much only hitting the wind head on. Although I think there is still something to be gained by doing it for the corners. And, uh, I have some ideas that were partially tried in the past, but again, you&#39;re running out of time in the budget. So next time. So, um, on the track is relatively speaking, easy. The wind comes only from the front. Therefore, you have now these elements which is like the, um, the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:00</span>
+  <span>six days and the change days, which, by the way, in the upcoming Olympics, there are quite a few different teams. They have these, the Japanese, they have it. The French, they have it. Um, factor came up with a bike for the Aussies, which is something similar even before we did it. Um, Avanti from New Zealand had something similar you can argue of. Was it right? Was it wrong? Maybe the general direction was right. Maybe the execution, uh, needed a bit of improvement, but, uh, on the track, because it&#39;s a single condition is relatively speaking. Easy to If you are good with your CFD, you can just find something on the road.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:48</span>
+  <span>We actually did look on that in the short span of time that we looked at it, we couldn&#39;t find any significant improvement, primarily because you have to make it work for a quite a wide range of angles of Y. I don&#39;t say it&#39;s impossible. I am saying that this probably needs more R and D. Actually, I am convinced that, uh, the only significant way that you can go forward on this is to work on the interactions between the bike and the rider because the drag reduction of individual parts there is still a little bit of, uh, um, room to go, but not huge.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:36</span>
+  <span>So interactions between the two is definitely something. Another thing that happened recently on the track. There was always this idea that people they start making things, you know, like on the handlebar. And you had, like, two bits they people, they start making the holding it like on the on the top. And, uh, I am partially responsible for that because in 2016, we&#39;ve done some small version of this for karlo than other people. They pushed forward more, and now we actually did one that instead of having those things up there in which then it brings your hands closer. So you are on a normal drop handlebar, and you are almost like if you are on ATT bar</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:19</span>
+  <span>and you can also rest your arm on the bar So you&#39;re racing with a normal handlebar, but you are in a position which is almost a a position, which is a time trial position. And this is not that the bike is more. We have to remember something like around 80% of the drag is the rider. So if you can put the rider in a good position, we can talk about skin suits and all that stuff. But let&#39;s say it&#39;s the same skin suit, the same everything else. But you can put the rider in a better position. You can get a significant, uh, aerodynamic reductions. Uh, from that only, Like, uh, a classic case is you R in the sprint and, uh,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:05</span>
+  <span>we know from the wind tunnel, you need to put your elbows in, and that significantly improves the the drag. And when you&#39;re riding a screen with another rider next to you, a classic classic thing is that you go what you open your elbows like this, you defend your space. This is something like in in the region of about 25% more adynamic ground. So then you wonder why the other guy he overtake it, Whereas if you keep your nerve. You keep your elbows in, your drug doesn&#39;t go up and the other guy might run out of steam. I I was actually gonna ask you, though, on going back to the bike design bit. I had one before you. You were talking about lightweight versus Aero</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:50</span>
+  <span>and, um, that most people obsess about lightweight, you know, And and there&#39;s been this eternal debate. Just This is more of a topical question, I guess. But it seems now there is a trend in the past couple of years for riders to attack 50 K to go and solo rather than staying in a peloton. I Is there any evidence or thought that therefore, the importance of arrow is even more because they&#39;re basically on their own for absolutely. I mean, uh uh again, you know, people they have the the question of, um, wait versus say, Oh, that is totally the wrong question. Because, uh, uh, the question needs to be Where is the right balance between those two?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:39</span>
+  <span>In fact, where is the right balance between, uh, weight, arrow stiffness? And, uh, let&#39;s not forget the reliability because it doesn&#39;t matter how error or lightweight is if it goes bound and it breaks. No, it doesn&#39;t matter. Really? So, yes, when you&#39;re gonna be on your own to try to break away, and then everybody is chasing you behind Arrow is mega important, especially on a flat road. If it is, the there is for pro level the the tipping point. Um, because probably going up the mountain probably faster than I when I go down here. Uh, but, um, for pros, I think it is Somebody did the calculation a few years back,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:25</span>
+  <span>it was something about the region of about 7%. If I remember correctly of inclination before seven or 8% before weight was becoming more important than therefore anything below that which most races, even mountain. Uh, when you have mountains, you are below that. There are not many sections that they going more than that there are they they go 10 and 15. There are some crazy sections of, uh, 20% inclination, But forget about those. So when you are out on the front and everybody is chasing you, arrow is number one by a long, long way. And when I see people racing with, uh although nowadays not much, they&#39;re racing with helmets with big holes and so on.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:13</span>
+  <span>Uh, a helmet with, uh, big holes comparing to a helmet which is nice and smooth with minimum ventilation for the road. Uh, the difference is depending on what is your starting point. And so on somewhere between five and 8% of overall drug. Just your helmet. If you say I like a lot of ventilation, Yeah, the air also likes it. It slows you down. So arrow is mega important. And this when the moment you talk a your helmet matters how well your skin suit, how well, what you wearing is actually is attached to your body the moment you racing. I see sometimes I despair Sometimes, you see, probably VR on the biggest race of the world, like in the, uh, the,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:59</span>
+  <span>uh to the front. And they&#39;re racing. You see this thing over here going like this on the air and you go for Christ&#39;s sake, any Arodys will tell you that this is creating drug. So what a pro level. What stops you from having better fitting, uh, clothing. So socks, shoes, wheels. I have an example to bring you, uh, I&#39;m not gonna go into the detail or who was and all that. But, uh, I was in a meeting a few years back. We were talking about a rider, that it was quite a small size rider. So he was obsessed with the weight. So, uh, he was making his bike as light as possible. Putting the lightest wheels and the light is this and light as that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:49</span>
+  <span>and his weight. Because he was a small size rider, his bike was going below the 6.8 limit. So then they were adding weight on the bike to bring it back to UCI. I limit. And I was in this meeting and I was saying, Why don&#39;t you do something with this weight instead of carrying dead weight that that&#39;s really nothing for argument&#39;s sake from the lightweight wheels that they were using to the aero wheels? The difference was, I know, 250 grammes, which was about the amount of weight they were putting on. So it&#39;s not that bike. The bike is gonna still be the same weight, but you have an extra advantage, which is more aerodynamics with aerodynamics.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:37</span>
+  <span>They will still a pro when it goes up an inclination of 5%. It still goes up at 35 kilometres an hour or 40 almost 40 kilometres an hour. So aerodynamics, they are important. So then since that time they changed their minds. That was Team Sky at the time. And they don&#39;t use that weight. They will put it the lightest they can for that rider with a weight that is usable, not adding lead weight on. So weight is important and aerodynamics important. You have to have the balance. We did a calculation like this once. I think it was if I remember correctly, it was 2017. Yeah, I&#39;m pretty sure it was 2017. Uh, Tour de France.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:32</span>
+  <span>So 2017, Tour de France. And there was AI think there were two time trials and one of them was a very mountainous time trial. There is this picture of Chris Froome going up. This, uh uh, very steep hill. Uh, with the small, uh, changing of the front. I&#39;m not quite sure if that was a 42 or 39. Something like this and a 29 or 30 teeth, uh, gear on the back, standing on the pedals. So you had, like, a top of the world level rider that he that hill was so steep that he actually had to go like time trailing up, standing on the pedals. But that bike on the starting line, it was 7.2 kg or something like this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:26</span>
+  <span>with time trial bars, this wheel on the back and three spoke wheel on the front. And, uh, the reason for that is we&#39;ve done a lot of maths behind this of what is that? What if What if you use a time travel bike on the flats and then you use a normal bike up the mountain with normal wheels so you can stop in the pedals and do whatever you want to do? And we found that if the weight difference is less than a kilo, the aero bike was winning every time. Because you will be, uh, a fair bit faster on the flood. And you don&#39;t have the penalty of changing over, plus the potential potential of something going wrong. And we did the calculation, and the calculation was showing that,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:16</span>
+  <span>um, the overall benefit will be roughly the 20 seconds mark. Comparing to changing bikes and stopping over and changing, going from one bike to the other. And actually, uh, I think that time trial, if I remember correctly from he won it over the Mulan for 21 seconds There. There is another example I can give you of something like this, which again is not so much only verse weight only. But this is actually an example that concentrates on the weight but also includes the air. In 2002, I did the very first frames for British cycling, and they raced in the Commonwealth Games. They was struck in July that year, and it was only frames. No, no fort.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:06</span>
+  <span>And they said, Can we do a fork about this one, please? And so I did one fork because the time available, I could only do one fork, and Chris Coy erased it. That fork it was around 300 grammes. If I remember correctly, the previous fork it was something in the region of about 500 grammes or 200 grammes difference. It was also significantly slimmer. So the aerodynamics, they will also be better. But at the time, we never really tested one against the other. So I don&#39;t really know how much better. Let&#39;s assume that it was only the weight in this case, although I&#39;m pretty sure the error difference was also significant.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:46</span>
+  <span>200 grammes. Chris Coy at the time was like 95 kg or something like this, plus the bike. So over 100 kg. So let&#39;s call it 100 kg. 200 grammes is a 0.2% weight difference which you go like. That&#39;s pretty small on the kilometre, which, where he used it flat, you don&#39;t take it up. The mountain weight only matters in the acceleration phase, which is usually the first lap roughly 250 metres or so. After that, it doesn&#39;t really matter, because after that is flat, you don&#39;t accelerate anymore. If anything, your speed goes down. So, um so we calculate, uh, maybe slightly wrong on the numbers because, uh, tw 2002 is a long time ago.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:32</span>
+  <span>Uh, so we calculated and the improvement It was something in the region, maybe to I think it was about 18,000 of a second. Let&#39;s call it 0.02 of a second. Let&#39;s keep it simple. So let&#39;s call it two hundreds of a second. Let&#39;s assume that the calculation was wrong and you were only getting half of that. Let&#39;s call it that it was 0.01 of a second, meaning 1/100 of a second. Um, Chris Coy. He won that event for 1000. So even if the calculation was way out of it, 1/1000 of a second was the winning margin.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:24</span>
+  <span>So the 200 grammes in the particular case, even if you exclude the aerodynamics benefit, it was more than enough to take some Take a world class rider. OK? Because if I was anything that would win it. So take a world class rider from this position to that position, and that&#39;s what you need. You don&#39;t Nobody remembers who was second, If you ask who was second on the Tour de France last year, very few people that I didn&#39;t ask you about stiffness because I feel that are kind of, well, not well understood, but it&#39;s kind of very thin. But even for me, like thickness, do you have any way of explaining if you have someone like a Van der</span>
+</p>
+<p>
+  <span class="transcript-timestamp">55:13</span>
+  <span>Paal or Bernard where they they seem to have this unbelievable power. How would the different stiffness of a bike translate? That&#39;s a very interesting question, because this is something that so far, um, I only have experience and quite a lot of circumstantial evidence, but not significant. No scientific proof. Um, earlier on early on, when I was cycling and so on, um, when I was riding my bike, I realised you&#39;re standing on the pedals on a steep hill and you do that as you&#39;re pedalling and you can hear some noise and which is the tyres as you leaning the bike</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:01</span>
+  <span>and the tyres they scrubbing on the on the ground. So in reality, your bike goes that way. But your tyres, they going that one that way and one that way, and they do this in effect. You can see that on on the FE A. On the stress analysis. As you apply the laws on the pedals, the frame always distorts. And actually the frame always distorts more towards the left and L. Thor was right Because of the reaction of the chain. The chain is on the right hand side. So when you apply the load in the right pedal, the chain is also trying to squeeze the uh, right hand chain thing and the bike moves, the bottom bracket moves more to the left. And</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:49</span>
+  <span>then what you do on the left pedal it goes, I try to move the other way, but the chain tension is actually trying to counteract this. So all bikes. When you apply the pedals, they they move more to the left and less to the right. Now, as your bottom bracket moves to the left, your rear wheel moves with it because the chain stays, uh, directly on the bottom bracket, and then they&#39;re holding the rear wheel. So you apply the the the load in the pedal and the wheel goes more to the right and a little bit to the left. Sorry, more to the left and a bit on the right, more to the left and a bit on the right. So every time the wheel is doing this,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:30</span>
+  <span>the wheel is scrubbing and you&#39;re losing some power. The nearest I came up with any kind of number for this one is that there is a study that I found that it was calculating on, uh, if you have, um, CERs or the wings they are actually pointing in or pointing out how the rolling resistance changes. The rolling resistance change is roughly, I mean, it would depend on the tyre. What is the surface of the road and all sorts of numbers? For one degree, in or out, you have roughly 50% increase on the rolling resistance. Two degrees, 100% increase on rolling resistance.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">58:21</span>
+  <span>Uh, then you may ask the question How much the wheels they&#39;re coming out the wheels, they&#39;re coming out, depending on two things. How flexible the bike is, which is primarily the frame and, to an extent, the wheels and, uh, how heavy the rider is and how symmetric is. Some people are nice, smooth riders, some people, they just pounding on the pedals and they go boom, boom, boom. So it depends on the amount of power and how you put the power down and the weight of the R. So bigger, heavier riders, as you said Van art or a big sprinter on the truck, or or something like this will benefit more from a stiff frame.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:12</span>
+  <span>What I say 50 kg Rider will benefit less maybe for a 50 kg rider that is a smooth pedal and running small gears that will make not much of a difference. So it very much depends on the rider. And in general, the bigger the more powerful you are, the more you&#39;re gonna benefit out of Steve Frame. So how do you How do you achieve that then? So when we get all the details, you&#39;re designing a bike, let&#39;s say just for now, it&#39;s a road bike. How do you practically engineer in stiffness? And the second question to that is, What about comfort? Yeah, uh, stiffness on a bike frame. Let&#39;s let&#39;s look at on the bike frame for the time being. Because</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:00</span>
+  <span>for argument&#39;s sake, comfort on the road bike to a very significant extent is actually the tyres. Yeah, especially nowadays that people just start going bigger and bigger tyres, uh, is not far from, if not 100%. Probably 95% of what you&#39;re feeling as comfort is the tyres in. In the old days, when the tyres, they were like very thin like 2123 millimetres and pumped up, pumped up quite high, uh, then the frame and the wings that were playing a bigger role, But now that, uh, 23 millimetre tyres is considered to be a very skinny tyre and people they are running 28 millimetre tyres or 30 millimetre tyres. So on on low pressures,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:49</span>
+  <span>comfort comes. The vast majority comes from the tyre, the wheel itself. In terms of like how much it will absorb vertically, you can pretty much ignore it. The frames they are, at least for the frames that I do. For Pinarello, it may look a bit just a fancy shape that the seat stays on the back. They are not straight, but they have like a little bit of a zigzag shape that is primarily for soccer Georgia. So they they give you a little bit of an a smoother ride because they can allow a little bit of flex. That actually came from the time that the thicker tyres and the thin tyres were prevalent. Nowadays, with the thicker tyres, it probably makes no real difference.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:41</span>
+  <span>OK, but, uh, this is like what is comfort and how stiffness is related to that. And also, when you&#39;re designing a bike, when they&#39;re talking about the stiffness of the bike, they primarily refer to the stiffness of what you may call the power transfer. So in effect you have it from the shed tube to the bottom bracket to the rear wheel. So when you&#39;re designing a bike, if you do a straight line between the, um the rear, the centre of the rear wheel to the top of the head tube, anything below that it has to be designed for primarily torsional stiffness. Because it&#39;s the bit that actually matters when you&#39;re pedalling.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:25</span>
+  <span>And anything above that is designed to be more compliant so it can actually reduce the shock absorption. Sorry, increase the shock abjunction. So the lower part of the frame. That&#39;s why you see large down tubes and large, uh, change days and, relatively speaking large and lower part of the CT. Because by doing this, what you&#39;re ending up with you minimising the relative move relative movement of the bottom bracket, trying to wander left and right as you pedal it. And the way you do it is, you do your stress analysis. You see where your stress is and your flex is generated, and you try to put material over there. And, uh,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:03:10</span>
+  <span>you can do this either by adding material or increasing the cross sections. OK, so you are just for people to understand. So you&#39;re saying essentially the difference between a very stiff bike or a not very stiff bike The way that it translates essentially into your speed is partially that as you stamp down on the pedals and a bike that&#39;s not very stiff, Will will basically cause a lot more sort of lateral movement in the tyre, and therefore the rolling resistance would kind of increase, whereas a very stiff bike is going to stay a lot more true. And, yeah, be careful a stiff bike on the drive train side. No, you should not compare stiff bike on the feeling</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:02</span>
+  <span>or comfortable is, uh, there are quite a lot of misconceptions about this one. Like, uh, for argument&#39;s sake, in the in the early days of aluminium frames, people they were saying, Oh, aluminium frames are very flexible. I know that because I was riding one in the eighties and actually, I liked it to be fair, and they were saying, it&#39;s too flexible and, uh, yeah, you&#39;re losing power. But I was still beating everybody in the spring, but anyway, so, uh, Then later on, somebody realised the likes of Klein and Canon Dale. They were like the the ones that they came up with the idea, but a large diameter, an tube. It can make the bike both lighter and stiffer.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:53</span>
+  <span>So they start making these bikes with a large down tubes and large tubes here and there. And the way it went down like an old steel frame if you were going below 2 kg, Uh, we&#39;re talking about the good quality, like a Columbus Lakes, which you can still buy today if you want to. If you go below 2 kg, you were actually pretty good, actually, uh, and, uh, the aluminium frames of the day. Uh, they were just hardly any lighter, maybe 100 grammes lighter or something like that. Then when they found out that you can do lightweight aluminium frames with large diameters, the weight dropped dramatically. And, uh, you could buy an aluminium frame at 1.3 kg or even 1.2 kg.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:38</span>
+  <span>And for a period, you could buy a sub 1 kg frame. But, uh, that was before the IO testing that, uh, uh, mandated you need to do a lot of fatigue and stuff like that. So then the sub 1 kg aluminium frames disappeared. But the way they were doing this is they were going very large diameter, say, 6070 millimetre diameter tubes. They were like sub millimetre wall thickness, which makes it very stiff, very light and pretty strong, actually. But, uh uh, comfort suffered, and there was this myth that Oh, aluminium is stiffer than steel. Anybody who&#39;s a little bit into engineering will tell you for the same cross section. Aluminium is one third of the weight</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:06:28</span>
+  <span>and one third of the stiffness. So if you make something exactly the same, it will not be stiffer. It will be actually a lot less stiff, but it was purely the large diameter that was making it. So stiffness is something that I think is still a bit overlooked. Um, I only have circumstantial evidence. I know there are some people. They try to put some science behind it. I don&#39;t really know the results yet. I hope they manage to find something. I&#39;ll be very interested. So one of the things that, um, I was wondering about is that on the material side, there&#39;s obviously something where I think you&#39;ve done a lot of innovation.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:07:11</span>
+  <span>But if you look back Steel, aluminium, carbon fibre. So where does the link between carbon fibre titanium 3D printing? What? Where Where are we at now and where are things kind of going towards? Is that an area of sort of innovation? So if we look if we live, um, carbon fibre out for a minute, if you look on the you make all the three main materials like steel, aluminium and titanium, and we can go to carbon fibre a bit later. These materials, uh, they&#39;re actually quite interesting because if we say,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:07:59</span>
+  <span>um, aluminium is roughly one third the weight of, uh uh, steel and roughly one third the stiffness and the strength, Uh, maybe not the strength, but the stiffness, different alloys. They will have different strengths and all that stiff. One important thing to understand is also stiffness stays relatively unchanged within that group of material. So more or less all steel will have a very similar stiffness. Not exactly the same, but very similar. Maybe within a 5% range, and the same thing for all aluminums. Between the lowest stiffness to the highest stiffness, it will be something in the region of about 5%. Titanium</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:08:42</span>
+  <span>sits pretty much between. Those two is about, uh, a third lighter than steel, but a third, but, uh, heavier than Albi. The strength. Sorry. The stiffness of, uh, uh, titanium again is like halfway between those two. The strength of titanium is close air to, um, steel than what aluminium is. So in theory you can make it a lighter bike, but you will end up with a more flexible bike now, carbon fibre. It is a very interesting material because carbon fibre can have a really vast range of properties. It can be, uh, less.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:09:32</span>
+  <span>I&#39;m sorry. The main thing about carbon fibre, it is actually very light. It&#39;s significantly lighter than aluminium it. It&#39;s not halfway down, it&#39;s not. It&#39;s not half the aluminium, but, uh, for equal thickness and so on. If aluminium is 10, uh, for I say, carbon fibre will be six. Uh, whereas if aluminium is 10, carbon fibre is six. Titanium will be 20 still will be 30 OK. And also in terms of strength and stiffness, there is a very large, uh, varia variation, and you have like, uh, you can have carbon fibre, which is less stiff than aluminium, up to about, um, three times</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:10:23</span>
+  <span>the stiffness of steam. Wow. And if you&#39;re gonna go on maybe more than three times, actually, uh, maybe four times, uh, depending on how you look at the numbers, you know, if you look at just pure fibres over five times, but, uh, if you the moment you take the fibre, you make it into a composite, you are because what we normally call carbon fibre. In reality, it is what the word says carbon fibre. So it&#39;s like strings of material. You cannot make much with strings. And if you&#39;re making rocks or garments, so what you do with that is you&#39;re putting it into a matrix, as they call it with in effect, uh, you know, in in the simple terms, you&#39;re painting it with a bit of glue</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:07</span>
+  <span>and you let the glue go off, so it holds the fibres in position. So what we call in carbon fibre bikes nowadays is, uh, primarily carbon fibre and epoxy resin that actually holds the fibres together. So by the time you do this, if you put all the fibres in the same direction. You&#39;re getting very good properties in the direction of the fibre, but 90 degrees to the fibre. You&#39;re only getting the properties of the re in effect. So imagine it along the fibres, properties of steel across the fibres, properties of plastic. Of course, you cannot do much with this kind of material. So that&#39;s why when what we call a carbon fibre,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:51</span>
+  <span>usually there are multiple orientations of the material that they going in different directions. In the early days of carbon fibre, the engineers they were using it almost like black alumi. So they had, like equal number of fibres on 0 90 plus 45 and minus 45. It wasn&#39;t really significantly better than aluminium. So then engineers, they got a bit more clever. You do all your analysis and you put more on this direction and less on the other. And this is really how today&#39;s bikes, they ending up being lighter than aluminium. If you were only doing them that you put the same number of fibres, the same amount of fibres in every direction,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:12:38</span>
+  <span>you will not really get anything lighter. And then there is a whole science on how you mix in different fibres and different grades of fibre that the strength goes up or the stiffness goes up. Usually your carbon fibre, if you remember or not, the other materials. We said the strength varies, but the stiffness stays very similar. It doesn&#39;t change that much, whereas on the carbon fibre both the strength and the stiffness, they vary quite a lot. And you do have the high end bikes quite a few times. You may hear that they&#39;re using more than one grade of material, and they&#39;re putting stiffer grades where is needed and different grades somewhere else.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:13:19</span>
+  <span>And that is actually a sign of somebody who sat down and thought about it properly and try to do something good. This is really how you make these extreme lightweight bikes. And they are like, I know 700 grammes for a frame and stuff like that. Yeah. So where does the, um, I was reading, you know, the idea of 3D printing and additive manufacturing, is it so that it sounds like carbon fibre is the perfect material? So where&#39;s the yeah downsides or or where things could be improved? Yeah, So let me go back a little bit of that. So you make a a flat piece of steel or carbon fibre or aluminium or whatever you do. Some testing</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:14:07</span>
+  <span>carbon fibre will probably come and win hands down on pretty much everything, especially if its intention, like one important point to remember carbon fibre, is pretty damn good intention. But especially, you need directional carbon fibre where you have all the fibres going in one direction is not very good in compression. So, uh, when you start making AAA bike frame that it takes loads in quite a few different ways because you have the pedalling loads, you have the loads. When you apply the brakes, you have different loads. When you ordering, you have different loads when you have your weight on the saddle, as opposed to all you pedalling standing up and so on.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:14:53</span>
+  <span>So you have to design the bike to be able to take loads in many different directions. So you start having every tube you need to have, like some fibres in this direction, that they do whatever they do. But then when you have different direction, the the load in different directions, they don&#39;t do very much so This is why, for argument&#39;s sake, carbon fibre frames, they are not 400 grammes because you have to carry the extra weight to to counteract very different loads. And these very extreme lightweight bikes, they have primarily either round tubes or very nearly round tubes, like some stuff, you know, slightly swish</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:15:33</span>
+  <span>tubes and stuff like that carbon fibre. Also, when you start going around corners, he doesn&#39;t like it very much because what you have is you have, uh how can I demonstrate this? Uh, I find something like that. So you have this. This is just a normal book or you have all the different pages. And when you&#39;re pushing it and pulling it, not much is happening, OK? When you do it and it goes around the corner, if you have a force that is trying to open up this you I&#39;m not doing it very well. Let me do it a bit better. Hopefully, this will work now live demo. So you do it like this and you try to open it. You can see</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:16:21</span>
+  <span>Ah yeah, yeah. So this is creating, uh, every time you go around the corner and this is time to do that is creating this. What you call through thickness forces and through thickness. You only have the resin resisting it. There are 3D stitched carbon fibres and so on. But there are still a rarity. It&#39;s It&#39;s a well known technology, probably more than 50 years old technology but putting fibres through the thickness, it is hardly ever used. So because of that again, you have to carry extra weight. So then your benefit from the carbon fibre comes down and comes down and it comes down and it comes down.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:17:13</span>
+  <span>Now where 3D printing is coming in is you can do all sorts of weird and wonderful shapes. You can also do internal structures. Let&#39;s say one of the problems that, uh, we realised quite a few times in carbon fibre. If you if you go to any modern bike, uh, lightweight carbon fibre bike, you take the top tube and you pinch it like this. You will feel it moving in the middle of the top tube or in the middle of the down tube. You do it like this. You can feel it moving because it&#39;s less than a millimetre thick. This doesn&#39;t matter very much in the middle of the down cube. But when you&#39;re going close to the corners where it needs to turn</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:17:52</span>
+  <span>the walls that do this. So to counteract these, you&#39;re putting extra material and so on. With 3D printing, you can have a wall that is, you know, a structure which is like this. And if when the walls try to do this as you apply the forces, you can have another wall there when you say 3D printing just so people can start. What what material are you speaking about? Now? 3D printing. I mean, you can do it in plastic, but you&#39;re not going to ride the plastic bike very far. Uh, the most commonly used material is titanium. Somehow, um, Ti-6Al-4V, as they call it, is six aluminium for vanadium. Uh, it is a material that actually is a very well known material.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:18:39</span>
+  <span>It&#39;s a high strength material, uh, that you can actually 3D print pretty well. So the vast majority of, um uh, the vast majority of 3D printed structures out there that they have to do with high trenches. And so on that time, and, uh, again, when you have a thin wall like this. We had this a number of times, Like, uh, because we do a lot of 3D printing in, uh, in titanium these days. Uh, we have this Sometimes that you have some you have a tube that it may be whatever shape it is, and as you apply the forces, it does that. So to counteract this, you can put a mesh in there, or you can put some extra beam or two or whatever it may be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:19:26</span>
+  <span>and that can actually, uh, eliminate this to the extent that, uh uh, you can end up with a structure which is lighter than the carbon fibre. And, uh, when I first came across this, I&#39;ll tell you a story. Uh, which is go something like this. We did some handlebars for British cycling for 2016. Uh, British cycling came back and said, um, can we have a few more of those, please? I think it was around 2018 if I remember correctly. And, uh, I said at the time the manufacturer of those candle bars is gone out of business, so we couldn&#39;t do that. So I said to them, Uh oh, sorry. The guys are closed down, so it cannot be done.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:20:17</span>
+  <span>Uh, either we can try and find somebody else with starting a new manufacturer is always difficult because there&#39;s a massive amount of detail. Or we can 3D print them for you in the time if you want. But don&#39;t expect it to be lighter in the fact that I was telling them it&#39;s gonna be heavier. So I thought, uh, we cannot appear to be complete idiots over here. We need to try and do the best we can. So we took the safe, uh, modified it a little bit for some modifications they wanted, but not much. Very little. The same was basically the same. And, uh, excuse me. So we modified the shape and we tried to do everything we could with the analysis,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:21:05</span>
+  <span>put the minimum amount of material everywhere. Use a lot of these internal structures that I told you and so on we print the thing, it comes out, and it was lighter than the carbon fibre handle bar. I thought Oh, all right. OK, I wasn&#39;t expecting this. Remember, by that time, I had 25 years plus experience in carbon fibre. And if you were asking me, Can you make a part lighter in titanium comparing to carbon fibre? Straight answer is no. Forget about it. You just can&#39;t. The material properties are just not there. Uh, but that was the first time that I started realising, Oh, there is something in it. Since that time, we actually did quite a few handlebars of similar kind.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:21:53</span>
+  <span>The most dramatic example that I have is for a time trial handle bar, You know, where you have the base bar and the risers and the extensions and the arm caps and, uh, also the computer arm and so on. So there was this handlebar that goes for this rider. They came in, and we just had to scan it to replicate the geometry. Uh, we scanned it and we start designing it. And all that stuff that handle bar was 1 kg and 100 grammes. They&#39;re quite heavy beasts. Those things, because they have connections, they have bolts, they have this. They have that. So all these things are great. So we made a 3D prin titanium base bar and a set of extensions which they were actually removable,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:22:40</span>
+  <span>and, uh, the weight of that handlebar when we delivered it. That was for a road time trial. Handle the weight of the handlebar when we deliver it with the computer arm, including the extensions and everything else was 670 grammes. So about 400 grammes lighter and the lightest we made of that kind. It goes below 600 grammes, so it was like half a kilo light. So the improvement on the weight front it comes from partially the elimination of unnecessary bits partially because of the customization. So you only keep the bits that you need and partially because you can do internal structures.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:23:29</span>
+  <span>That is very difficult to do it. And also you can design it on your computer today. Put on the machine tomorrow. A couple of days later, it&#39;s out of the machine and another couple of days later you have it on your bike. So to do this, if you try to do this on carbon fibre you&#39;re talking about, so do you think this is gonna be something? Then that will start to become more mainstream because as far as I understand, like a normal road, you are still just seeing carbon fibre. It&#39;s not 3D printed titanium. Is that Is there a Is there a reason it could happen? Or is there some? Yeah, I think. Ok, le Let&#39;s think of it this way.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24:10</span>
+  <span>Uh, titanium is a material which is very commonly used Today is not the only material in terms of structural parts. There are other materials coming up like there are some high strength, aluminium alloy like material that we use called skal MAOI, which is a scandium aluminium magnesium alloy. Uh, so that&#39;s a high strength aluminium. And there are other aluminums, but they are not actually as good. Uh, so there are also plastics, and actually they are commercially available components today that you can buy it. It&#39;s not today, I think probably they&#39;re out for at least two years, maybe longer. Which there are these 3D printed saddle.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24:54</span>
+  <span>So the saddle itself, it is more or less the normal one. But it&#39;s not. Instead of having a spongy cover and, uh uh, sorry a spongy something on the top floor where you&#39;re sitting and then let&#39;s call it leather cover. It&#39;s not leather now, that&#39;s why let&#39;s call it leather cover is the whole thing on the top is 3D printed in some sort of soft plastic. And it&#39;s like a mesh. There are at least two manufacturers. They do that, um, specialise. They do that. And I think she Italia, I&#39;m not quite sure if they sell Italia I. I said it is at least one Italian manufacturer that is doing it. And this is not new. This is at least two, maybe three years.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:25:36</span>
+  <span>So there are already 3D printed parts out there. There are already small 3D printed parts. Uh, that, uh we did, uh, for Pinarello RLO in the past, actually, the current Pinarello Dogma F that you buy the beats, the holding, the saddle. So you have the the seatpost, and you have the bits that they hold in the seat rails. These are actually 3D printed, so it&#39;s already out there now an entire frame, an entire frame. Um, I&#39;m sure you are familiar with the bike that Filippo Ganna rode in the Hour Record in 22. Uh, the Pinarello bike. Uh, to my knowledge,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:26:25</span>
+  <span>I mean, we we did this bike for Pinarello, and to my knowledge, this is the first fully 3D printed frame and fork, but raised on the highest level. So why was that? So, I mean, that was a very well, um, I mean, him breaking, you know, the record was well seen, but that&#39;s interesting on the technology side. So why Why did you go for 3D Printed? Um, there are similarities. One of them. It was at the time there was a new innovation that we, uh, found that it was these circles, uh, which is, uh, saw the seatpost and the C tube. They have this zigzag</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:27:14</span>
+  <span>saw tooth leading edge. Uh, at the time when we realise that this actually can have a potential benefit, the technology, the technology to do it in carbon fibre wasn&#39;t quite there yet, so there was no I. I don&#39;t say it cannot be done, but it needed some development. And when we found this with, um, I don&#39;t know, less than three months ago for the world record, there was no time to develop the technology into the manufacturing and put it on the starting line. So that was part of the reason. So the 3D printing was used over there because it could enable this sawtooth pattern.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:28:02</span>
+  <span>Uh, I&#39;m sure that carbon fibre uh, can do that at some point soon. Uh, if I&#39;m not mistaken, Pinarello they already offer a seed post that is carbon fibre with that pattern. And then you have I don&#39;t know what is happening with the frame, but for the frame, the ones with the show tooth pattern, uh, they are actually printed. Uh, so in that particular case, the time element was important because short period of time, Uh, the being able to do it was also important because the carbon fibre technology at the time wasn&#39;t quite well developed. If we had another year, I&#39;m sure we could do it. And, uh, also, if you look at the overall budget,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:28:49</span>
+  <span>how much will it cost to design the bike design? The bike was more or less the same, but then you have to do the stress analysis again. Let&#39;s call it more or less the same. But then you have on the carbon bike, you have to design and manufacture a big metal mould. This will have both cost and time implication. So we will have a fair few thousands of pounds for the mould and about a month to make it so you take this one month, and it completely disappears from your your schedule. And, uh, you also had the money spent on this one point. So if you were putting together all the budget that it was, uh, spent for the 3D printed frame,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:29:39</span>
+  <span>it was very comparable to the one that it would be spent if it was carbon fibre minus one month minus 4 to 6 weeks of time. So money wasn&#39;t very much of a difference on the overall scheme of things for the number of bikes. Uh, the time element, uh, was also significantly better. And, uh, at the time, you could do this with 3D PD. You could do it with karma. OK, so this was, um one of the question I had for you was, and I guess this goes to more where things may go in the future. But the work that, you know we did at least the suggestion I got was any game you have</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:30:28</span>
+  <span>is ultimately very dependent on the rider because they contribute so much. And if you just produce a bike, I mean, as far as I&#39;m aware, if you go on a website now with any manufacturer, you&#39;re basically picking the size of it. And maybe you can change the width of the handlebars potentially. But do you see that with things like 3D printing or other technologies that we could start to, I don&#39;t know, customised the bit more at a more mass level. Yeah, I think, uh, the the time of mass customization is coming, and it cannot. Currently as we know it, it can only be realised with 3D printing. So I spoke with, uh uh, there there is a particular company that, uh,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:31:19</span>
+  <span>they have a software that, uh, if we manage to put the money together to develop it, we should be able to, in theory, at least take a video from the television or you film somebody with your phone or take a few pictures with your phone. You put it on that piece of software and it will make a frame to fit your size. It can even do, in theory, the stress analysis to put the material in the right positions, segment it in the right way and put it on the build plate, and you can click the button to go on the machine, print it, come on. The other side. Assemble it. And here it is. And you can have individually tailored</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:32:00</span>
+  <span>frames, forks, handlebars or whatever that individual might need to be. I think this is still a little bit. Although the technology exists today. I know how we can do that today. Of course. Where is the money and the time to do that? So the technology is there is a matter of, uh, somebody having the willingness to go and do it. And, of course, it&#39;s not gonna go from nothing to here it is. It will have probably the development. Gradual. Gradual, Gradual. But this is happening already. I mean, we already manufacturing. Uh uh, 3D print 4 3D print frames. Actually, we just assembled one today, uh, which, uh, you will see it in the Olympics.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:32:49</span>
+  <span>And, uh, then now, taking this technology and spreading it out is entirely possible. Uh, and I think, how long will that be? I think we will probably see more and more of this technology of the highest level in the next 45 years. And, uh, we probably gonna see. I wouldn&#39;t say down to everyday bikes, but I&#39;m sure we&#39;re gonna see more to the high end bikes. Maybe even in the next four or five years. I&#39;m not gonna be surprised at all. I mean, if you only look today on, you know, the idea with the white seat station and so on, which is not that new. Actually, we actually did something like this. One of the, uh, patents, Uh, that, uh,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:33:37</span>
+  <span>this patent application was referring to was some work that we did with the original secret squirrel club sometime around 2008. But at the time, the regulations, they were not really allowing this. So a lot of these things is the stop is UCI I regulations. So now, with the 3D printing, we know that interactions between bike and rider are actually very important. If we only look at it from an aerodynamics perspective, can we do something, uh, individualistic individual per rider? Yes, we can. How are you going to do it? 3D printing completely leads itself for that. So that is the way to do it. You&#39;re not going to make a mould to go and make one of another M to make one off.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:34:29</span>
+  <span>So and then from there, the Holy Grail is you&#39;re making the bike for that rider for specifically, meaning for the amount of power that rider is producing and the weight of this rider. Because right now, the bikes they have to be design and test it to a is a standard, which is a good thing. But that is a standard, Uh, that I understand that assumes a, um a certain amount of power and weight. So which it is probably OK for a 70 kg rider or an 80 kg rider or 100 kg rider. But when you&#39;re gonna have a 60 kg rider, a 50 kg rider,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:35:21</span>
+  <span>you carry more weight because you need to pass the standard, which from the safety perspective, is a good thing. Because at the end of the day, you cannot really have an infinite number. Can we get a bit more clever and classified a bit better? Maybe. OK, so you mean that in theory, if I was to put in, you know, I weigh this amount, I generate this much power maximum on average, you could go and design me a bike. That probably would be lighter or better performing, because it would be completely custom for me rather than just a generic human. We are already doing this, Uh, probably for the last 20 years or so, but it&#39;s going the other way because the the standard,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:36:14</span>
+  <span>the ISO standard is primarily for a road bike. So a road bike? Um, it doesn&#39;t really see the some of the forces that you have the big 100 kg sprinters that they can produce. So what we actually do is we use the road standard for the road. We use the the road standard. Excuse me for some, even on the truck. Then we&#39;re using 1.5 times the road standard for some other events on the truck and double the is a standard for the big sprinters. Because when you have a 100 kg sprinter that is producing over 2.5 1000 watts on the standing start,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:37:04</span>
+  <span>it is not the same as, say, a 60 kg rider that is pedalling alone. OK, so we are already doing it towards the upper level to counteract the kind of forces that uh uh the world class riders are producing. But, uh, when you gonna go down for argument&#39;s sake, you have lightweight riders and so on. They don&#39;t produce that much power. They are ending up like carrying a bit of extra weight. And how much is that extra weight? Probably not. Huge amount, Probably, I don&#39;t know around a kilo or so. So could you do it better? Yes. The amount of money and time and effort you need to spend is pretty large because somebody has to build this technology.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:37:55</span>
+  <span>And somebody Not only has somebody has to build this technology, somebody has to test it and guarantee that rider, that lightweight rider. But yes, Although you are lighter and the bike is lighter, you are OK on it. And of course, the responsibility for something like this is very large. Because if something goes wrong and then whose fault it is and so on, you really have to have that Well guarded. So, uh, to do this, I think going down I cannot see that happening in the foreseeable future. So, um, I, I had one last question for you, and you don&#39;t have to give. I&#39;m gonna purposely make this a longer time period to get away from you, giving away</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:38:43</span>
+  <span>the details of the next bike. So if you look back. So, W, when are we recording? It&#39;s 2024 now. So 2014. If you looked at the bike in 2014, it was like a tube handle bar. I think the cables were still showing it. If you look at it now, compared to the bikes, that it looks pretty basic, doesn&#39;t it? What do you think the bike will look like in 2034? Well, that&#39;s an interesting one. I think this mass customization we were talking about it will be there by then. Uh, maybe not the entire bike, but definitely, uh, more, um, custom, things like, you know, as I said, these saddles, you can go and buy them. I&#39;m not gonna be surprised if these manufacturers,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:39:28</span>
+  <span>at some point soon they&#39;re gonna start offering a custom, Um, saddle for you know, the way you&#39;re riding the bike and all that. Uh, so I definitely see mass customization. The major factor that actually changes the bike significantly is the regulations. If for argument&#39;s sake, UCI is gonna make a decision, is going to say, let&#39;s change the regulations. And I don&#39;t know that tube saves. It can be whatever you want or the or the wheel size can be whatever you want. This will have a huge effect if the regulations around the sport be careful Over here. We&#39;re talking about like a high end sport, so it&#39;s controlled by regulations.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:40:17</span>
+  <span>OK, if it is not that and you don&#39;t have regulations, it&#39;s a different ball game. But if it is controlled by regulations, the regulations, they have a huge impact on how the bikes they look like to a very significant extent. The bikes, they look like the way they do today because of the regulations. So if the regulations they do not change I other than the 3D printing like bringing in some some I wouldn&#39;t call it revolutionary. In reality, there is hardly ever a revolution. OK, in reality, it&#39;s an evolution. Somebody decided to make the wheel and make I know a car, and then somebody put two wheels in front of the other with another stick and start riding it,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:41:02</span>
+  <span>and then you call it the bike and, uh but, uh, if the regulations that don&#39;t change, I think 3D printing it can bring the customization both in aerodynamics and in comfort and in functionality. So That&#39;s three or two. Uh, so that definitely will come from the 3D reading. If everything else stays the same, uh, I cannot see myself Aerodynamics. I think we beat about the bush quite a lot. Uh, can it be better? Yes. Can it be significantly better? Maybe so. That&#39;s interesting what you say. So, yeah, I This goes, I guess full circle to my first question, which is I guess you&#39;re right. Like the bike that I&#39;m looking at here or most people have</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:41:50</span>
+  <span>that sort of like forks and handlebar and tube is essentially because all the bike manufacturers wanna build a bike that a team could also race cos I guess it&#39;s marketing and all the rest of it. So you&#39;re saying if it keeps the way it is, it&#39;s largely gonna be the same. But I guess if they just totally said, Well, you could have a fork with, you know, any cross sexual area, the tube, I guess. Then it&#39;s like an open design space. So maybe the final final question is, if it was an open design space, could you see it being dramatically, you know, more aerodynamic lighter. Has anybody done that? You know, like it just total</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:42:30</span>
+  <span>free for all design. Yeah. I mean, you can actually take a good glimpse of that, uh, for the early to mid nineties when, the early to mid nineties, UCI I removed the regulation about the frame there were the lotus frame is the lotus bike is the most famous one. But there was no end of variant of that from the Pinarello Espada to the butter clean bike that they they made to the Zipp bike. The Americans made Softride or I can&#39;t remember how many I mean is is amazing in a small number of years because this era lasted between about 92 when we saw the the Portman bike.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:43:18</span>
+  <span>You know, the largest bike that Chris Boardman rode to about 97 when UCI came out and said no more. So we talk about five years because, yes, the rules, they changed before 92. But most people that they didn&#39;t either didn&#39;t understand it or they didn&#39;t bother doing anything because everything was already done. So the only glaring example was a lot to spike. So when everybody saw you can do something different, everybody started doing something different. And in five short years there were the huge, huge variation. There was this but a clean bike. No, the tells they made, they had the front wheel. I don&#39;t know if you ever saw it,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:43:57</span>
+  <span>but you have the tyre, and then it goes more or less at the width of the tyre. And then it goes a huge ball in the middle before it goes down again. So the fork comes down and it opens up, I think, to about 250 millimetres wide or something like this. It&#39;s literally a round ball in the middle of the week. Was that better? What? What? What was that? Yeah, I don&#39;t know. But there were a lot of these. A lot of those and this They only came in this just five years of opening up the the regulations between in effect, OK, the rules. They opened up before 92 but 92 is when everybody got a good sniff about it When, uh, Palma</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:44:43</span>
+  <span>turned up with this lotus bike and then it was, uh uh I think it was spring 97 that UCI I came out and said the regulations they changed from the first of January 2000. So in effect in that time, we know there were no end of weird and wonderful things. So if there was no regulations Oh, absolutely. And before that, would you like it to be absolutely. Oh, yeah. Oh, yeah. Oh, I&#39;d love that. It it It feels almost that, um, that, like this is like the analogy with Formula One. I guess there&#39;s always this tension between we just want it to be about racing. And I guess a cycling equivalent would be Everybody should have the same bike. It&#39;s just about the human</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:45:28</span>
+  <span>then versus the innovation of the bike itself and how it could translate to everybody on the street, you know? But I have a good point, I. I think it&#39;s a good point on that. You remember that? The Hour Record, uh, used to be, uh, Borman did the Hour Record in 96 to whatever he did it, Uh um at the time 56 something. And, uh then they changed the regulations. And in effect, they said, you have to race with the 19 seventies bike because Eddie Merck raised, which is fine. Eddie Merck raced with that. But it was the highest possible technology of the time. Eddie Mer. He didn&#39;t race with a bike from 19 thirties or with a penny-farthing.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:46:14</span>
+  <span>He raced with whatever it was the pinnacle of technology of that time. And, uh so UCI I they changed the regulations. They say you have to raise With the 19 seventies spike in effect, they specified the the diameter of the tubes and the handle bars and the spokes and the wings and all that. I worked for UCI I for about a year and a half as a technology and innovation consult. And then my main job was actually to look at the rules and see what can we do and what do we change? Uh, a number of things from the regulations that they change is because of not because only because of me, but they actually started around that time.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:46:58</span>
+  <span>So my first day that I arrived at UCI I I go to UCI I and, uh, we&#39;re sitting down for a dinner for for lunch, uh, with some of the top brass of UCI I and next to me over here sits uh, Brian, that he was the, uh, UCI president. Uh, we were talking about this and that or the other. And, um, he says, um, Dimitris, what do you think? Uh, the bikes, uh, that should be today. I said, uh, look, Brian, uh, I think, uh, the it should be Today&#39;s riders with today&#39;s bikes,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:47:47</span>
+  <span>not the bikes of yesteryear. So today&#39;s bikes, Uh, by, uh, uh, riders with today&#39;s bikes and Brian, he said, I think that&#39;s a good idea. And this is really the time that, uh, the Hour Record, uh, regulations. They changed and they went to, in effect, the Hour Record regulations. They changed to go to whatever they were the legal UCI bikes of the time. So in effect, today&#39;s riders with today&#39;s bikes and also a number of other things, they started going. The 3 to 1 rule is gone and a few other small things here and there. So I strongly believe today&#39;s riders with today&#39;s bikes, which also means, as today&#39;s technology</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:48:36</span>
+  <span>is being improved and created as we&#39;re going along, this is done by today&#39;s people with some of them are actually also the riders. So as the things are progressing. We need to progress with them. Otherwise, we&#39;re gonna just stay. I go back in the caves. Can you imagine? When we were in the caves and we were thinking should I go out there or the tiger will eat me? And it just seems as if, uh, I have seen it. Don&#39;t know if it&#39;s just in the past year, but, uh, like an interest from Formula One teams, you know, getting back into cycling again, and and and with the Netflix and these sort of documentaries, it seems that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:49:14</span>
+  <span>there&#39;s more and more budget Red Bull coming in that, you know, obviously I yours still a major, you know, uh, play. But, you know, vis a Lisa bike Seems like if the technology doesn&#39;t it, if it restricts, those people won&#39;t be interested. Cos they want it to be. They want to differentiate, don&#39;t they? They don&#39;t want everybody to be the same. Or why would they be coming in? Yeah, yeah, I think what makes the the sport interesting. Of course, the athletic performance is number one, and that&#39;s what I&#39;m saying. You have to have regulations and you have to be able to enforce it. UCI. I had a bit of a problem on the enforcement at some point. Now they are much better.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:49:56</span>
+  <span>So having the regulations and being able to enforce it is you make sure that you don&#39;t go from where you are. And somebody has a brilliant idea. It goes up here somewhere and nobody else wins for the next 10 years. Because then the the public is going to lose the interest. You go there to watch a race, you have your favourite. But, uh, your favourite hopefully will win. But if your favourite wins all the time, where is the interest? You got to go over there? You know the guy is going to win. What? Why should I go there? So the competition makes a difference. So UCI I needs to do the regulations. It goes like from here to there to there, to there, to there, to there.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:50:40</span>
+  <span>So you keep modifying us new things that are coming in. And of course, you need to keep pace with the new things. Usually the problem with these kind of things is the technology outpaces the people. They check it usually the ones they create the technology. They are, like, years ahead of the ones that they try to check it. And it&#39;s like a cat and mouse, you know, And, uh, to be fair to UCI I nowadays, they are very good, very open. And, uh, they they do take a good view of innovation much better than a few years back. That, uh uh, the number I should be on the black list of UCI I of at least in the past on how many innovations that I applied and they said no,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:51:28</span>
+  <span>that Yeah, that&#39;s funny. Well, thank you so much for taking the time to speak. I mean, I think it would be good to talk again some of the future. I know there&#39;s certain stuff we worked on and stuff you&#39;re working on now that I guess, in certain, you know, months and and after Olympics, you may be able to talk about things, but yeah, I really enjoyed this. And yeah, thanks so much. Thanks, Neil. That</span>
+</p>
+  </div>
 </section>
 
   </div>

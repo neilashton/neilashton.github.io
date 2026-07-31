@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,000 --> 00:00:05,880
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,760 --> 00:00:12,720
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,800 --> 00:00:16,840
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,840 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:22,960
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,920 --> 00:00:27,040
@@ -76,11 +75,11 @@ fluid dynamics more broadly.
 16
 00:00:57,280 --> 00:01:03,760
 He is most well known for the
-Kepps Island model, for the LLR
+k-epsilon model, for the LRR
 
 17
 00:01:03,920 --> 00:01:07,000
-mental stress model.
+Reynolds-stress model.
 And I would argue, and I didn't
 
 18
@@ -96,12 +95,12 @@ supervised, mentored and
 20
 00:01:16,200 --> 00:01:19,800
 brought, you know, these people
-like Bill Jones and Kimo and
+like Bill Jones and Kemal Hanjalić and
 
 21
 00:01:20,120 --> 00:01:24,920
-Mike Leschina and Tim Kraft and
-Hector Acuvides, who are people
+Michael Leschziner and Tim Craft and
+Hector Iacovides, who are people
 
 22
 00:01:24,920 --> 00:01:27,480
@@ -151,7 +150,7 @@ Today we are still using the K
 31
 00:01:53,080 --> 00:01:55,840
 epsilon model.
-If you're doing ACFD simulation
+If you're doing a CFD simulation
 
 32
 00:01:55,840 --> 00:01:58,840
@@ -161,7 +160,7 @@ whether you know heat transfer
 33
 00:01:58,840 --> 00:02:03,320
 cars, engines, you're probably
-using what the Kepson or some
+using what the k-epsilon or some
 
 34
 00:02:03,320 --> 00:02:05,520
@@ -210,7 +209,7 @@ Imperial, the role of Brian
 
 43
 00:02:36,440 --> 00:02:39,800
-Spaulding, a key interesting one
+Spalding, a key interesting one
 that we reflect on at the
 
 44
@@ -220,13 +219,12 @@ incredible at that time, the
 
 45
 00:02:42,840 --> 00:02:45,720
-turbulent time of how the Champ
-Code came about and some of the
+turbulent time of how the CHAM code came about and some of the
 
 46
 00:02:45,720 --> 00:02:50,000
 tensions around that.
-His ultimate move to you missed
+His ultimate move to UMIST
 
 47
 00:02:50,280 --> 00:02:51,800
@@ -236,7 +234,7 @@ Manchester.
 48
 00:02:52,600 --> 00:02:56,240
 And as I said, the the key
-developments around the Eddie
+developments around the eddy
 
 49
 00:02:56,920 --> 00:02:59,480
@@ -251,7 +249,7 @@ mentioned to him is now even
 51
 00:03:02,680 --> 00:03:06,080
 more relevant in the context of
-Walmart, LS etcetera.
+wall-modelled LES etcetera.
 
 52
 00:03:06,080 --> 00:03:08,320
@@ -300,8 +298,7 @@ citations, you know, 10s of
 
 61
 00:03:34,440 --> 00:03:37,720
-thousands, super high hate
-index, all of all of the things,
+thousands, super high h-index, all of all of the things,
 
 62
 00:03:37,720 --> 00:03:39,680
@@ -356,7 +353,7 @@ We did talk a little bit about
 72
 00:04:08,240 --> 00:04:11,760
 some of the rivalry with
-Spallard and and mentor and
+Spalart, Menter and
 
 73
 00:04:11,760 --> 00:04:14,720
@@ -371,7 +368,7 @@ focus was more on the research.
 75
 00:04:17,839 --> 00:04:20,600
 But it's always interesting to
-us who used turbans models to
+us who used turbulence models to
 
 76
 00:04:20,640 --> 00:04:23,760
@@ -400,12 +397,12 @@ I was taught by Professor
 
 81
 00:04:34,360 --> 00:04:35,480
-Laundus.
+Launder's.
 So it was one of my good
 
 82
 00:04:35,480 --> 00:04:39,000
-friends, Alistair W, who was
+friends, Alastair West, who was
 also his last PhD student.
 
 83
@@ -425,7 +422,7 @@ episode with Professor Brian
 
 86
 00:04:49,720 --> 00:04:51,880
-Lauder.
+Launder.
 Thank you very much for agreeing
 
 87
@@ -660,7 +657,7 @@ teaching assistant, that I'd
 
 133
 00:08:04,200 --> 00:08:10,160
-spend maybe 1520 even 20 hours a
+spend maybe 15, 20 even 20 hours a
 week tutoring students probably
 
 134
@@ -680,7 +677,7 @@ and ask her for an appointment
 
 137
 00:08:21,000 --> 00:08:25,560
-with Brian Spaulding to confirm
+with Brian Spalding to confirm
 my choice.
 
 138
@@ -705,7 +702,7 @@ Well, Princeton's Princeton.
 
 142
 00:08:41,440 --> 00:08:46,960
-Scott Drake, who's just
+Bob Drake, who's just
 co-authored a heat transfer
 
 143
@@ -720,7 +717,7 @@ original idea in his life.
 
 145
 00:08:54,400 --> 00:08:58,040
-Go to MIT with Rose now and do
+Go to MIT with Rohsenow and do
 boiling heat transfer.
 
 146
@@ -956,7 +953,7 @@ How long did it take on the
 192
 00:12:15,320 --> 00:12:17,520
 boat?
-It was it was a five day flight.
+It was it was a five-day voyage.
 
 193
 00:12:17,520 --> 00:12:22,360
@@ -1121,7 +1118,7 @@ supersonic flow, if a turbulent
 225
 00:14:29,520 --> 00:14:34,120
 boundary layer was passed around
-what is called a a prantlemyer
+what is called a a Prandtl–Meyer
 
 226
 00:14:34,120 --> 00:14:39,360
@@ -1155,8 +1152,7 @@ that's strongly accelerated also
 
 232
 00:15:03,520 --> 00:15:08,920
-can revert back to turbulent.
-So sorry to Lamina and I knew I
+can revert back to turbulent—sorry, to laminar and I knew I
 
 233
 00:15:08,920 --> 00:15:12,800
@@ -1305,8 +1301,8 @@ whether there was a post and he
 
 262
 00:17:15,760 --> 00:17:20,680
-said send ACV.
-So I send ACV of what I'd
+said send a CV.
+So I sent a CV of what I'd
 
 263
 00:17:20,920 --> 00:17:25,440
@@ -1346,7 +1342,7 @@ e-mail response.
 270
 00:17:41,080 --> 00:17:48,720
 So anyway, 2 weeks later I I got
-a note from Spaulding saying I
+a note from Spalding saying I
 
 271
 00:17:48,720 --> 00:17:53,920
@@ -1431,7 +1427,7 @@ students.
 287
 00:18:56,880 --> 00:19:00,640
 There was also an important
-element there, Bran Spaulding
+element there, Brian Spalding
 
 288
 00:19:00,640 --> 00:19:03,320
@@ -1475,7 +1471,7 @@ able to recruit both Bill Jones
 
 296
 00:19:37,960 --> 00:19:43,120
-and Kim Mohanulich the projects
+and Kemal Hanjalić the projects
 as my first PhD students.
 
 297
@@ -1566,7 +1562,7 @@ their pitch.
 314
 00:20:47,360 --> 00:20:52,520
 So it very much brought home to
-me sporting his comment that if
+me Spalding his comment that if
 
 315
 00:20:52,520 --> 00:20:54,960
@@ -1715,12 +1711,12 @@ had I had achieved.
 
 344
 00:22:45,280 --> 00:22:50,400
-As for chemo, we actually looked
+As for Kemal, we actually looked
 at a project sponsored by the
 
 345
 00:22:50,400 --> 00:22:54,160
-Berkeley Nuclear Labs.
+Berkeley Nuclear Laboratories.
 They asked us to determine
 
 346
@@ -1745,7 +1741,7 @@ themselves in flow through
 
 350
 00:23:10,560 --> 00:23:14,360
-annually with a rough inner core
+an annulus with a rough inner core
 tube and a smooth outer
 
 351
@@ -1791,7 +1787,7 @@ should mention was research that
 359
 00:23:50,120 --> 00:23:56,080
 Brian Spalding and his brilliant
-student Suhas Patanka had done.
+student Suhas Patankar had done.
 
 360
 00:23:56,440 --> 00:24:02,000
@@ -1815,7 +1811,7 @@ Prandtl's 1925 paper In There
 
 364
 00:24:15,800 --> 00:24:19,920
-Sporting realised that what he
+Spalding realised that what he
 needed was a much more
 
 365
@@ -1835,7 +1831,7 @@ by diffusion, convection and
 
 368
 00:24:35,040 --> 00:24:40,200
-various source and sync terms.
+various source and sink terms.
 So he'd obviously chosen the
 
 369
@@ -1870,18 +1866,18 @@ Indeed.
 
 375
 00:25:02,680 --> 00:25:08,840
-Golf gang Rody Sporting student
+Wolfgang Rodi, Spalding's student
 adopted the product of K * L
 
 376
 00:25:08,840 --> 00:25:12,920
-where whereas Brian Sporting
+where whereas Brian Spalding
 himself had an individual
 
 377
 00:25:12,920 --> 00:25:17,680
 project underway and he chose
-something he called you, which
+something he called W, which
 
 378
 00:25:18,400 --> 00:25:22,600
@@ -1921,7 +1917,7 @@ going to get anywhere.
 385
 00:25:44,600 --> 00:25:48,360
 So one thing I should say
-though, is that Kimohaneilich
+though, is that Kemal Hanjalić
 
 386
 00:25:49,320 --> 00:25:53,280
@@ -2011,7 +2007,7 @@ plate.
 403
 00:27:11,320 --> 00:27:17,280
 Neither of the options that
-Spalding and Rhody were using
+Spalding and Rodi were using
 
 404
 00:27:17,920 --> 00:27:22,280
@@ -2151,7 +2147,7 @@ not coincide with the position
 431
 00:29:16,320 --> 00:29:19,200
 of 0 shear stress.
-But of course with an Eddy
+But of course with an eddy
 
 432
 00:29:19,200 --> 00:29:21,440
@@ -2190,7 +2186,7 @@ I felt at the times, though,
 
 439
 00:29:50,600 --> 00:29:55,960
-that Eddie viscosity modelling
+that eddy viscosity modelling
 wasn't the way to go for most
 
 440
@@ -2216,7 +2212,7 @@ Spalding was the agent enabling
 444
 00:30:11,680 --> 00:30:17,600
 me to pursue that work.
-Golf Gang Roadie by then had
+Wolfgang Rodi by then had
 
 445
 00:30:17,600 --> 00:30:23,160
@@ -2255,8 +2251,7 @@ We produced a solver that
 
 452
 00:30:55,360 --> 00:31:00,120
-nowadays known as the LRR model
-Londores and Roadie in
+nowadays known as the LRR model: Launder, Reece and Rodi in
 
 453
 00:31:00,120 --> 00:31:05,800
@@ -2345,7 +2340,7 @@ that included some numerical
 
 470
 00:32:08,960 --> 00:32:13,680
-fluid mechanisms and they
+fluid mechanicians and they
 developed a scheme usually
 
 471
@@ -2356,11 +2351,11 @@ indeed at the 1968 Stanford
 472
 00:32:19,000 --> 00:32:23,800
 conference was rather more
-successful than sporting and
+successful than Spalding and
 
 473
 00:32:23,800 --> 00:32:27,200
-Patanka scheme with that had
+Patankar scheme with that had
 used the mixing length
 
 474
@@ -2401,7 +2396,7 @@ You you're the How did that
 481
 00:32:52,080 --> 00:32:55,600
 relationship at that point?
-Well, well, Sporting was never a
+Well, well, Spalding was never a
 
 482
 00:32:55,600 --> 00:32:58,640
@@ -2450,7 +2445,7 @@ the people in question.
 
 491
 00:33:37,960 --> 00:33:41,280
-Sporting initially tried
+Spalding initially tried
 handling that internally by
 
 492
@@ -2475,8 +2470,7 @@ So he established an independent
 
 496
 00:33:59,240 --> 00:34:04,440
-company, Concentration, Heat and
-Momentum, or Cham for short.
+company, Concentration, Heat and Momentum, or CHAM for short.
 
 497
 00:34:04,440 --> 00:34:09,320
@@ -2591,7 +2585,7 @@ other somewhat.
 519
 00:35:45,600 --> 00:35:50,720
 So he called and he said
-something like, hey, Bran, I
+something like, hey, Brian, I
 
 520
 00:35:51,000 --> 00:35:56,160
@@ -2761,7 +2755,7 @@ the summer I would would drop in
 553
 00:38:22,440 --> 00:38:27,600
 two or three times a week to the
-acre Santral Polytechnique in
+École Centrale de
 
 554
 00:38:27,840 --> 00:38:33,840
@@ -2841,11 +2835,11 @@ Probably the main thing though
 569
 00:39:28,400 --> 00:39:32,680
 that I should should mention is
-that Onira, which is the French
+that ONERA, which is the French
 
 570
 00:39:32,680 --> 00:39:38,640
-equivalent of NASA Onira, sent a
+equivalent of NASA ONERA, sent a
 post doc who had done his
 
 571
@@ -3051,7 +3045,7 @@ research in turbulence
 611
 00:42:14,640 --> 00:42:19,080
 modelling.
-But Kimo Hanielich, I knew, was
+But Kemal Hanjalić, I knew, was
 
 612
 00:42:19,080 --> 00:42:22,280
@@ -3186,11 +3180,11 @@ for people, I guess.
 638
 00:44:08,120 --> 00:44:11,920
 Maybe you're well known for your
-successes with the KEP silent
+successes with the k-epsilon
 
 639
 00:44:11,920 --> 00:44:14,440
-model and the LLR.
+model and the LRR.
 But I guess if the point is not
 
 640
@@ -3351,7 +3345,7 @@ But then not very long later, I
 671
 00:46:09,040 --> 00:46:14,920
 got a phone call from England.
-It was the principle of humis,
+It was the principle of UMIST,
 
 672
 00:46:14,920 --> 00:46:18,000
@@ -3436,7 +3430,7 @@ and had a whole day before the
 688
 00:47:14,000 --> 00:47:19,360
 interview to be exposed to what
-you miss could offer.
+UMIST could offer.
 
 689
 00:47:19,360 --> 00:47:23,280
@@ -3445,7 +3439,7 @@ just blown away.
 
 690
 00:47:24,200 --> 00:47:28,400
-First of all, Thermo fluids
+First of all, Thermofluids
 research had its own building
 
 691
@@ -3796,12 +3790,11 @@ responsibility.
 760
 00:52:36,120 --> 00:52:41,920
 And then that's what I very much
-agreed to and form my dowry
+agreed to and for my dowry
 
 761
 00:52:41,920 --> 00:52:45,680
-lectureship, I recruited Michael
-Leshina.
+lectureship, I recruited Michael Leschziner.
 
 762
 00:52:46,560 --> 00:52:51,000
@@ -3815,7 +3808,7 @@ In interim, he'd gone to work
 
 764
 00:52:54,080 --> 00:52:56,120
-with Wolfgang Rodie in
+with Wolfgang Rodi in
 Karlsruhe.
 
 765
@@ -3965,8 +3958,7 @@ The contract monitor was
 
 794
 00:55:11,000 --> 00:55:13,200
-delighted he'd been proof
-correct.
+delighted he'd been proved correct.
 
 795
 00:55:13,560 --> 00:55:18,120
@@ -4060,7 +4052,7 @@ my money, I'd more or less run
 
 813
 00:56:38,960 --> 00:56:43,320
-out of Rd.
+out of road.
 The there didn't seem to me much
 
 814
@@ -4176,11 +4168,11 @@ time but worked on this.
 836
 00:58:27,640 --> 00:58:32,520
 I'm happy to mention the My name
-1 was Dimitri Selikodakis and
+1 was Dimitri Tselepidakis and
 
 837
 00:58:32,520 --> 00:58:36,360
-the other was Songfu.
+the other was Song Fu.
 Anyway, they made important
 
 838
@@ -4221,7 +4213,7 @@ computations came out well.
 845
 00:59:09,680 --> 00:59:15,000
 And then especially a little
-afterwards, Tim Kraft looking at
+afterwards, Tim Craft looking at
 
 846
 00:59:15,000 --> 00:59:18,840
@@ -4270,7 +4262,7 @@ the most sophistication, the
 
 855
 00:59:53,880 --> 00:59:57,720
-most complexity in a turbans
+most complexity in a turbulence
 model in, in terms of the number
 
 856
@@ -4295,7 +4287,7 @@ the TCL wasn't adopted more
 
 860
 01:00:11,880 --> 01:00:14,400
-wisely?
+widely?
 Was it just too difficult to
 
 861
@@ -4330,7 +4322,7 @@ a better job in in in advocacy.
 
 867
 01:00:35,840 --> 01:00:40,640
-Florian Mentor's another name
+Florian Menter's another name
 that is, is is an advocating
 
 868
@@ -4346,7 +4338,7 @@ My philosophy is often, and I
 870
 01:00:47,280 --> 01:00:50,360
 just wonder whether that's why
-the K epsilon is still today one
+the k-epsilon is still today one
 
 871
 01:00:50,360 --> 01:00:55,120
@@ -4431,12 +4423,12 @@ looking models for the pressure
 887
 01:02:00,760 --> 01:02:03,560
 strain hypothesis in the in the
-TC.
+TCL.
 
 888
 01:02:04,240 --> 01:02:08,280
 Yeah, but how about, you know,
-Tim Kraft, somebody who actually
+Tim Craft, somebody who actually
 
 889
 01:02:08,280 --> 01:02:10,560
@@ -4456,7 +4448,7 @@ blend or a theoretical blend of
 892
 01:02:20,760 --> 01:02:25,440
 trying to bring some of the
-concept of an ice to be into
+concepts of anisotropy into
 
 893
 01:02:26,120 --> 01:02:28,920
@@ -4470,7 +4462,7 @@ That was this the next stage, I
 
 895
 01:02:31,600 --> 01:02:33,160
-guess, of the turbans modelling
+guess, of the turbulence modelling
 work.
 
 896
@@ -4481,7 +4473,7 @@ Toyota had contacted me wanting
 897
 01:02:38,080 --> 01:02:43,280
 to send one of their staff at
-the time, Kazuyi Kosuga, to work
+the time, Kazuhiko Suga, to work
 
 898
 01:02:43,280 --> 01:02:47,000
@@ -4500,7 +4492,7 @@ But we did agree to look at non
 
 901
 01:02:54,860 --> 01:02:59,680
-linear Eddy viscosity models.
+linear eddy viscosity models.
 There had already been half a
 
 902
@@ -4511,7 +4503,7 @@ quadratic terms in addition to
 903
 01:03:05,760 --> 01:03:09,680
 the principal linear term of an
-Eddy viscosity model.
+eddy viscosity model.
 
 904
 01:03:09,760 --> 01:03:15,680
@@ -4575,7 +4567,7 @@ tune.
 
 916
 01:04:03,240 --> 01:04:09,400
-But Kazuhikosuga very patiently
+But Kazuhiko Suga very patiently
 and very thoroughly looked at a
 
 917
@@ -4585,7 +4577,7 @@ were difficult or couldn't be
 
 918
 01:04:13,960 --> 01:04:19,720
-predicted with a linear Eddy
+predicted with a linear eddy
 viscosity model, and we ended up
 
 919
@@ -4595,7 +4587,7 @@ wasn't the final word in cubic
 
 920
 01:04:26,360 --> 01:04:30,840
-Eddy viscosity modelling at at
+eddy viscosity modelling at at
 least did a hell of a lot better
 
 921
@@ -4665,13 +4657,12 @@ Craft, who had become a lecturer
 
 934
 01:05:40,240 --> 01:05:44,520
-at the time, and Hector
-Yaccapedes, an earlier student
+at the time, and Hector Iacovides, an earlier student
 
 935
 01:05:44,520 --> 01:05:48,720
 that had worked on flow around
-Benz with me, who was now a
+bends with me, who was now a
 
 936
 01:05:48,720 --> 01:05:52,840
@@ -4731,11 +4722,11 @@ Well, this we worked on with a
 947
 01:06:42,640 --> 01:06:46,160
 Russian student.
-My only Russian student, Alexi
+My only Russian student, Aleksey
 
 948
 01:06:46,160 --> 01:06:51,120
-Gorasimov, was just fun to work
+Gerasimov, was just fun to work
 with and I'm glad to say that
 
 949
@@ -4760,7 +4751,7 @@ It's a lot, lot better than log
 
 953
 01:07:10,960 --> 01:07:16,760
-roll wall functions.
+law wall functions.
 They should be made illegal, but
 
 954
@@ -4831,11 +4822,11 @@ much reduce the cost of using
 967
 01:08:16,200 --> 01:08:19,600
 quite advanced models.
-I mean, Bill Jones's Paul
+I mean, Bill Jones's low-
 
 968
 01:08:19,600 --> 01:08:24,520
-Reynolds number model could be
+Reynolds-number model could be
 put in or or any any other other
 
 969
@@ -4861,7 +4852,7 @@ resurgence of the interest in
 973
 01:08:42,640 --> 01:08:47,439
 the work that you did with Tim
-and Hector for advanced war
+and Hector for advanced wall
 
 974
 01:08:47,439 --> 01:08:50,680
@@ -4875,12 +4866,12 @@ resurgence of interest in the
 
 976
 01:08:54,920 --> 01:09:01,439
-war modelled LES, there is a
+wall-modelled LES, there is a
 realization that the model used
 
 977
 01:09:01,960 --> 01:09:04,000
-to approximate the near war
+to approximate the near wall
 behaviour.
 
 978
@@ -4895,7 +4886,7 @@ reference and look at that work
 
 980
 01:09:12,880 --> 01:09:15,560
-not in the context of Rams, but
+not in the context of RANS, but
 actually in the context of LES,
 
 981
@@ -4950,7 +4941,7 @@ It was applications that were
 
 991
 01:09:55,400 --> 01:09:59,240
-very much to the flock for I
+very much to the fore for I
 didn't feel that that was what I
 
 992
@@ -4961,12 +4952,12 @@ though I, I did, I did supervise
 993
 01:10:06,320 --> 01:10:11,800
 one PhD student by a friend of
-yours, Alistair, and that was
+yours, Alastair, and that was
 
 994
 01:10:11,800 --> 01:10:14,280
 very successful.
-He was looking at in nine tube
+He was looking at in-line tube
 
 995
 01:10:14,280 --> 01:10:16,760
@@ -4980,7 +4971,7 @@ deviations from from going
 
 997
 01:10:22,440 --> 01:10:28,360
-straight through of N92 bank
+straight through an in-line tube-bank
 heat exchanger tended to develop
 
 998
@@ -5010,13 +5001,12 @@ Alistair as well.
 
 1003
 01:10:45,120 --> 01:10:49,000
-And we did our undergraduate
-PhDs and, and you taught us and
+And we did our undergraduate degrees and, and you taught us and
 
 1004
 01:10:49,000 --> 01:10:52,040
-so did Tim craft and so did
-hectic Yakovides and these folk.
+so did Tim Craft and so did
+Hector Iacovides and these folk.
 
 1005
 01:10:52,040 --> 01:10:57,120
@@ -5246,7 +5236,7 @@ works where he does now at the
 1050
 01:13:40,360 --> 01:13:44,400
 Formula One team, is that use
-case of RANS turbans modelling
+case of RANS turbulence modelling
 
 1051
 01:13:44,440 --> 01:13:48,160
@@ -5261,16 +5251,16 @@ And actually from when I was
 1053
 01:13:51,320 --> 01:13:54,700
 working and even recently, I
-still see people looking at non
+still see people looking at nonlinear eddy-
 
 1054
 01:13:54,700 --> 01:13:58,840
-linearity viscosity models and
-all stress models because the
+viscosity models and
+Reynolds-stress models because the
 
 1055
 01:13:58,840 --> 01:14:03,120
-flow around a Formula One chi is
+flow around a Formula One car is
 driven by 10s or more of
 
 1056
@@ -5290,8 +5280,7 @@ one of the industries that still
 
 1059
 01:14:14,360 --> 01:14:16,640
-are very much indeterminate
-modelling.
+is very much into turbulence modelling.
 
 1060
 01:14:16,640 --> 01:14:21,000
@@ -5305,7 +5294,7 @@ teams to investigate different
 
 1062
 01:14:24,680 --> 01:14:25,760
-terms models.
+turbulence models.
 So.
 
 1063
@@ -5441,12 +5430,12 @@ I was blown away in much the
 1089
 01:16:04,760 --> 01:16:09,200
 same way that first coming to
-you Miss had had done for me.
+UMIST had had done for me.
 
 1090
 01:16:09,560 --> 01:16:17,280
 You got communications from
-Horace Lamb, George Stokes, from
+Horace Lambb, George Stokes, from
 
 1091
 01:16:17,280 --> 01:16:21,600
@@ -5645,7 +5634,7 @@ Turbulence that was edited by
 
 1130
 01:19:00,440 --> 01:19:03,000
-Keith Moffat and others from
+Keith Moffatt and others from
 Cambridge.
 
 1131
@@ -5710,7 +5699,7 @@ I might have.
 
 1143
 01:19:57,080 --> 01:20:00,400
-So that started following Bron
+So that started following Brian
 Spaulding's death.
 
 1144
@@ -5735,7 +5724,7 @@ involvement with turbulence.
 
 1148
 01:20:21,040 --> 01:20:25,280
-Bryant Spalding, When we started
+Brian Spalding, When we started
 off in the earlier discussions
 
 1149
@@ -5771,12 +5760,11 @@ Yeah.
 1155
 01:20:48,480 --> 01:20:52,040
 How was your relationship when
-you came back to you missed?
+you came back to UMIST?
 
 1156
 01:20:52,400 --> 01:20:55,640
-Well, when I came back to you
-missed it was.
+Well, when I came back to UMIST it was.
 
 1157
 01:20:55,880 --> 01:20:59,880
@@ -5795,7 +5783,7 @@ got a warm, very brief but brief
 
 1160
 01:21:12,880 --> 01:21:15,280
-brevity is certainly sporting
+brevity is certainly Spalding
 style.
 
 1161
@@ -5895,12 +5883,12 @@ from Brian Spalding.
 
 1180
 01:22:41,120 --> 01:22:44,160
-He was sad in the front row of
+He was sat in the front row of
 the audience.
 
 1181
 01:22:44,400 --> 01:22:47,320
-We did mend our defences between
+We did mend our fences between
 us.
 
 1182
@@ -5925,13 +5913,12 @@ Often the turbulent modelling,
 
 1186
 01:23:09,240 --> 01:23:12,640
-particularly in a Rands context,
+particularly in a RANS context,
 it's often seen as a almost a
 
 1187
 01:23:12,640 --> 01:23:19,120
-competition between Philippe's
-Ballade, you know, Florio Mentor
+competition between Philippe Spalart, you know, Florian Menter
 
 1188
 01:23:19,360 --> 01:23:23,320
@@ -5955,7 +5942,7 @@ always comparing the different
 
 1192
 01:23:33,200 --> 01:23:35,920
-turbans modelling approaches and
+turbulence modelling approaches and
 which one was better?
 
 1193
@@ -6020,7 +6007,7 @@ And so I wonder whether that
 
 1205
 01:24:29,520 --> 01:24:31,640
-motivated the Sparta, Maris and
+motivated the Spalart–Allmaras and
 those.
 
 1206
@@ -6080,8 +6067,8 @@ Well, I I say, I don't think I
 
 1217
 01:25:12,520 --> 01:25:17,080
-would have gone for A1 equation
-model as Philippe Spella.
+would have gone for a one-equation
+model as Philippe Spalart.
 
 1218
 01:25:17,640 --> 01:25:19,480
@@ -6091,7 +6078,7 @@ And it's interesting, I think
 1219
 01:25:19,480 --> 01:25:22,600
 now if you look, even with the
-Spallitomaris, there's a lot of
+Spalart–Allmaras, there's a lot of
 
 1220
 01:25:22,600 --> 01:25:26,800
@@ -6116,11 +6103,11 @@ But yeah, it, it's just a
 1224
 01:25:36,120 --> 01:25:39,680
 curiosity to us externally,
-because if you open up antis
+because if you open up Ansys
 
 1225
 01:25:39,680 --> 01:25:44,000
-Fluent or Star CCM or one of
+Fluent or STAR-CCM+ or one of
 these commercial packages, you
 
 1226
@@ -6130,13 +6117,13 @@ didn't tell you, but you have
 
 1227
 01:25:47,200 --> 01:25:50,120
-radio buttons on which turbans
+radio buttons on which turbulence
 model to pick.
 
 1228
 01:25:50,440 --> 01:25:52,840
-Do I pick the K silent?
-Do I pick the K Omega?
+Do I pick the k-epsilon?
+Do I pick the k-omega?
 
 1229
 01:25:53,280 --> 01:25:56,440
@@ -6270,8 +6257,7 @@ to say that the impact of, you
 
 1255
 01:27:40,200 --> 01:27:44,840
-know, the K Epsilon, the LLR and
-the wolf function work is today
+know, the k-epsilon, the LRR and the wall-function work is today
 
 1256
 01:27:44,840 --> 01:27:48,760

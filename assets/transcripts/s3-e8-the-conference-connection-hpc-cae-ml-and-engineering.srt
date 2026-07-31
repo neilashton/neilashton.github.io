@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,000 --> 00:00:05,880
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,760 --> 00:00:12,720
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,800 --> 00:00:16,840
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,840 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:22,960
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,920 --> 00:00:27,040
@@ -95,7 +94,7 @@ Hopefully look at it from the
 
 20
 00:01:13,800 --> 00:01:19,080
-pure engineering CAECFD sort of
+pure engineering, CAE/CFD sort of
 angle and maybe also more on the
 
 21
@@ -125,7 +124,7 @@ And I do get this asked a
 
 26
 00:01:33,920 --> 00:01:39,040
-reasonable ad time who yeah,
+reasonable amount of time who yeah,
 maybe don't quite so often go to
 
 27
@@ -166,7 +165,7 @@ but I know that they can be
 34
 00:02:00,760 --> 00:02:02,560
 quite hard to get through in
-more in Mongo.
+more in one go.
 
 35
 00:02:03,280 --> 00:02:06,600
@@ -185,7 +184,7 @@ episodes I've got, but put them
 
 38
 00:02:13,200 --> 00:02:15,160
-out as like 1020 minute
+out as like 10–20-minute
 versions.
 
 39
@@ -221,12 +220,11 @@ happening in space systems,
 45
 00:02:37,480 --> 00:02:42,480
 what's happening in aeronautics,
-you can't get away from the AI
+you can't get away from the AIAA
 
 46
 00:02:42,480 --> 00:02:47,360
-AA events, The American
-Institute of Astronautics and
+events, the American Institute of Aeronautics and
 
 47
 00:02:47,360 --> 00:02:49,440
@@ -246,7 +244,7 @@ These are held every January and
 50
 00:02:55,320 --> 00:02:58,760
 they're called, that's called
-SCYTEC and July, which is called
+SciTech and July, which is called
 
 51
 00:02:58,800 --> 00:03:02,040
@@ -266,7 +264,7 @@ engineering defense contractors,
 54
 00:03:12,680 --> 00:03:18,000
 governments there, you know,
-lockheeds and Raytheons and NASA
+Lockheeds and Raytheons and NASA
 
 55
 00:03:18,000 --> 00:03:22,840
@@ -286,7 +284,7 @@ There's an exhibition floor.
 58
 00:03:28,600 --> 00:03:33,520
 But how I was always used to the
-AO AA is through quite technical
+AIAA is through quite technical
 
 59
 00:03:33,520 --> 00:03:37,600
@@ -330,7 +328,7 @@ journal of, of other things
 
 67
 00:04:04,840 --> 00:04:09,800
-through the AI AA, you know, not
+through the AIAA, you know, not
 that cheap to go to.
 
 68
@@ -365,7 +363,7 @@ people in the sort of aerospace
 
 74
 00:04:31,840 --> 00:04:35,760
-domain from ACFD and
+domain from a CFD and
 experimental point of view and
 
 75
@@ -426,17 +424,16 @@ minutes.
 86
 00:05:16,840 --> 00:05:19,920
 And the thing that I like the
-most about the AW are the
+most about the AIAA are the
 
 87
 00:05:19,920 --> 00:05:24,080
 workshops, things like the
-highly prediction workshop, drag
+High Lift Prediction Workshop, drag
 
 88
 00:05:24,080 --> 00:05:27,560
-prediction workshop, AI
-surrogate modelling workshop,
+prediction workshop, AIAA Surrogate Modeling Workshop,
 
 89
 00:05:27,560 --> 00:05:32,640
@@ -526,7 +523,7 @@ And, and that's ultimately why I
 106
 00:06:29,720 --> 00:06:32,280
 go to a conference.
-I want to make a sense of what's
+I want to make sense of what's
 
 107
 00:06:32,280 --> 00:06:34,560
@@ -560,7 +557,7 @@ but I would say you can't beat
 
 113
 00:06:48,600 --> 00:06:51,480
-the AI AA conference if you're
+the AIAA conference if you're
 from a government background or
 
 114
@@ -590,13 +587,12 @@ area.
 
 119
 00:07:05,320 --> 00:07:07,480
-You'll probably see him almost
-all the AI AA.
+You'll probably see him at almost all the AIAA conferences.
 
 120
 00:07:08,280 --> 00:07:14,680
 So yeah, if you want to know
-what's going in aerospace, your
+what's going on in aerospace, whether you're
 
 121
 00:07:14,680 --> 00:07:18,760
@@ -605,7 +601,7 @@ C-Suite, I would definitely go
 
 122
 00:07:18,920 --> 00:07:22,560
-to the to the AR AA conferences.
+to the to the AIAA conferences.
 And by the way, this is clearly
 
 123
@@ -636,7 +632,7 @@ NASA has various workshops that
 128
 00:07:45,040 --> 00:07:49,000
 they'll tend to do with
-aerospace companies from ACFD
+aerospace companies from a CFD
 
 129
 00:07:49,040 --> 00:07:51,480
@@ -716,7 +712,7 @@ forgetting the names of them
 144
 00:08:44,320 --> 00:08:48,280
 now, but I have to say, I find
-the AI AA ones pretty big.
+the AIAA ones pretty big.
 
 145
 00:08:48,280 --> 00:08:52,560
@@ -726,7 +722,7 @@ from Asia come as well from
 146
 00:08:52,560 --> 00:08:55,080
 Australia.
-Yeah, can't be the AI AA.
+Yeah, can't beat the AIAA.
 
 147
 00:08:56,880 --> 00:08:59,400
@@ -736,7 +732,7 @@ side?
 148
 00:08:59,400 --> 00:09:03,960
 Well, I don't think there's
-anything like the AI AA for
+anything like the AIAA for
 
 149
 00:09:03,960 --> 00:09:08,000
@@ -780,7 +776,7 @@ know they have different tracks
 
 157
 00:09:34,920 --> 00:09:38,440
-and torques, so they have aero,
+and talks, so they have aero,
 acoustics, aerodynamics, engine
 
 158
@@ -790,7 +786,7 @@ crash, you know the whole
 
 159
 00:09:42,200 --> 00:09:45,800
-automotive from ACFD point of
+automotive from a CFD point of
 view.
 
 160
@@ -805,7 +801,7 @@ I'd say the technical rigor is
 
 162
 00:09:53,960 --> 00:09:57,960
-maybe not as deep at the AR AA,
+maybe not as deep as at the AIAA,
 but still still OK.
 
 163
@@ -816,7 +812,7 @@ it, although I don't think it's
 164
 00:10:01,480 --> 00:10:05,280
 held in the same regard as the
-AI AA journal and personal
+AIAA Journal and personal
 
 165
 00:10:05,280 --> 00:10:08,200
@@ -861,7 +857,7 @@ version.
 173
 00:10:30,040 --> 00:10:33,160
 I would say it's probably FKFS,
-which is through the wind
+which is through the Stuttgart wind
 
 174
 00:10:33,160 --> 00:10:36,240
@@ -890,8 +886,7 @@ people go to that event and has
 
 179
 00:10:53,840 --> 00:10:57,560
-more experimental or mixture of
-experimental got a quite a high
+more experimental, or a mixture of experimental and CFD. It's got quite a high
 
 180
 00:10:57,560 --> 00:11:01,120
@@ -910,7 +905,7 @@ European angle.
 
 183
 00:11:07,440 --> 00:11:11,480
-There is never one which is a
+There is another one which is a
 little bit more now and again,
 
 184
@@ -921,11 +916,11 @@ experimental and CFD, whereas
 185
 00:11:14,800 --> 00:11:21,000
 CAE is broader.
-You can go to aero vehicles.
+You can go to AeroVEHICLES.
 
 186
 00:11:21,000 --> 00:11:23,360
-This is ACFD 1.
+This is a CFD 1.
 I think that's also every two
 
 187
@@ -951,12 +946,12 @@ list of people and that's auto
 191
 00:11:40,000 --> 00:11:42,320
 CFD.
-So the Automotive CFD Protection
+So the Automotive CFD Prediction
 
 192
 00:11:42,320 --> 00:11:47,240
 workshop, which was basically
-inspired by the AI AA workshops
+inspired by the AIAA workshops
 
 193
 00:11:47,240 --> 00:11:52,120
@@ -965,7 +960,7 @@ something I created in 2018 off
 
 194
 00:11:52,120 --> 00:11:54,280
-the back of seeing the AI AA and
+the back of seeing the AIAA and
 saying, hey, why isn't there
 
 195
@@ -991,7 +986,7 @@ bit to get it done.
 199
 00:12:06,320 --> 00:12:09,600
 I was at Oxford at the time, so
-we hosted Oxford, Gary Adams at
+we hosted at Oxford. Gary Page at
 
 200
 00:12:09,600 --> 00:12:13,360
@@ -1016,7 +1011,7 @@ So it's usually every two years.
 204
 00:12:22,200 --> 00:12:27,080
 And that is a very focused
-discussion or CFD methodology.
+discussion of CFD methodology.
 
 205
 00:12:27,080 --> 00:12:31,480
@@ -1066,12 +1061,11 @@ physics or the sub area.
 214
 00:13:08,760 --> 00:13:14,800
 So what I mean by that is you've
-got things like ETM, European
+got things like ETMM, Engineering
 
 215
 00:13:14,800 --> 00:13:18,080
-turbulence transition
-measurement is a, oh, I'm sorry,
+Turbulence Modelling and Measurements is a, oh, I'm sorry,
 
 216
 00:13:18,080 --> 00:13:19,600
@@ -1090,8 +1084,8 @@ And there's lots of through the
 
 219
 00:13:25,600 --> 00:13:28,160
-a cough TAC.
-So a cough TAC is a European
+ERCOFTAC.
+So ERCOFTAC is a European
 
 220
 00:13:28,160 --> 00:13:31,080
@@ -1126,7 +1120,7 @@ So Richard Dwight is one of the
 226
 00:13:47,800 --> 00:13:50,880
 leading people there, professor
-there at Delph.
+there at Delft.
 
 227
 00:13:51,760 --> 00:13:54,280
@@ -1136,7 +1130,7 @@ workshop type ones, which
 228
 00:13:54,280 --> 00:13:58,080
 increasingly I like because
-they're typically less than 203
+they're typically fewer than two or three hundred
 
 229
 00:13:58,080 --> 00:14:00,680
@@ -1155,7 +1149,7 @@ this podcast is often around ML
 
 232
 00:14:08,200 --> 00:14:12,560
-and fluids or CFDI would
+and fluids or CFD. I would
 definitely go because it's all
 
 233
@@ -1181,7 +1175,7 @@ Now if you are from, let's say
 237
 00:14:27,160 --> 00:14:31,120
 the CFD domain or aerodynamics
-and you go to the AA, AA and you
+and you go to the AIAA and you
 
 238
 00:14:31,120 --> 00:14:32,960
@@ -1196,16 +1190,16 @@ of unless you've got into this
 240
 00:14:37,280 --> 00:14:41,840
 is the ML conferences.
-Now the biggest one is Nurips
+Now the biggest one is NeurIPS
 
 241
 00:14:42,120 --> 00:14:47,640
-and EUR IPS, and I found out
+and NeurIPS, and I found out
 that's how you pronounce it, not
 
 242
 00:14:47,640 --> 00:14:50,960
-Nora, IPS, Nurips.
+NeurIPS, NeurIPS.
 There's a reason for that.
 
 243
@@ -1221,7 +1215,7 @@ conference paper or even a
 245
 00:14:56,320 --> 00:15:01,240
 poster, it's seen as a big deal.
-I've been protected from that
+I've been rejected from that
 
 246
 00:15:01,240 --> 00:15:05,760
@@ -1251,7 +1245,7 @@ go, you'll be blown away by the
 251
 00:15:22,320 --> 00:15:25,280
 attendance there.
-Another one is iclear, that's
+Another one is ICLR, that's
 
 252
 00:15:25,280 --> 00:15:28,000
@@ -1261,11 +1255,11 @@ one.
 253
 00:15:28,520 --> 00:15:33,040
 And the other one is ICML.
-So between Europe's ICML and
+So between NeurIPS ICML and
 
 254
 00:15:33,040 --> 00:15:35,520
-iclear, those are the top ones.
+ICLR, those are the top ones.
 In fact, if you want to get a
 
 255
@@ -1280,8 +1274,7 @@ like more research labs, you'll
 
 257
 00:15:45,240 --> 00:15:48,320
-see people say must have eye
-clear or nurse papers.
+see people say must have ICLR or NeurIPS papers.
 
 258
 00:15:48,360 --> 00:15:51,880
@@ -1291,7 +1284,7 @@ pinnacle from that field.
 259
 00:15:52,160 --> 00:15:54,120
 So if you've never been to one
-of them, highly go.
+of them, highly recommend you go.
 
 260
 00:15:54,120 --> 00:15:57,120
@@ -1300,8 +1293,8 @@ organized one with a few people
 
 261
 00:15:57,120 --> 00:16:01,040
-eye clear and it was great.
-You get old people focused in
+ICLR and it was great.
+You get all people focused in
 
 262
 00:16:01,040 --> 00:16:05,000
@@ -1346,7 +1339,7 @@ So these are the ones like, you
 270
 00:16:31,640 --> 00:16:34,280
 know, your Siemens conference or
-your Answers conference or your
+your Ansys conference or your
 
 271
 00:16:34,280 --> 00:16:37,920
@@ -1476,7 +1469,7 @@ a good conference to go to,
 296
 00:18:02,480 --> 00:18:05,920
 especially now with convergence
-of AI and HPCI.
+of AI and HPC. I.
 
 297
 00:18:05,920 --> 00:18:07,960
@@ -1505,8 +1498,7 @@ companies, all the vendors, all
 
 302
 00:18:20,480 --> 00:18:24,040
-the cloud companies, Christy,
-now a lot of the AI companies go
+the cloud companies. Increasingly now a lot of the AI companies go
 
 303
 00:18:24,040 --> 00:18:26,280
@@ -1535,8 +1527,7 @@ So it is quite prestigious.
 
 308
 00:18:38,960 --> 00:18:43,440
-There's lots of birds of a
-feather box panels, workshops.
+There's lots of birds-of-a-feather talks, panels, workshops.
 
 309
 00:18:43,800 --> 00:18:46,000
@@ -1586,7 +1577,7 @@ Good event to go to there is ISC
 318
 00:19:10,000 --> 00:19:13,880
 and Supercomputing Asia that are
-the European Asia feels to it.
+the European and Asian equivalents to it.
 
 319
 00:19:14,680 --> 00:19:17,480
@@ -1621,7 +1612,7 @@ And what I would mean to say is
 325
 00:19:30,840 --> 00:19:35,360
 the tech companies, the my first
-exposure to this was reinvent
+exposure to this was re:Invent
 
 326
 00:19:35,400 --> 00:19:38,920
@@ -1691,7 +1682,7 @@ from these events feeling like,
 339
 00:20:19,440 --> 00:20:24,000
 wow, I have just understood a
-different part of the tech will.
+different part of the tech world.
 
 340
 00:20:24,480 --> 00:20:27,760
@@ -1700,7 +1691,7 @@ circle, I just came back from
 
 341
 00:20:27,760 --> 00:20:32,880
-Nvidia's one of these GTC.
+NVIDIA's one of these GTC.
 And, you know, even if I wasn't
 
 342
@@ -1780,13 +1771,12 @@ And yeah, whether you're a
 
 357
 00:21:22,280 --> 00:21:25,520
-student trying to get a job, go
-that network, you can speak to
+student trying to get a job, go there, network, you can speak to
 
 358
 00:21:25,520 --> 00:21:27,200
 people.
-IA lot of people come up to me,
+A lot of people come up to me,
 
 359
 00:21:27,640 --> 00:21:31,440
@@ -1855,7 +1845,7 @@ things that I'm probably going
 
 372
 00:22:07,160 --> 00:22:08,880
-to regret when I after I posted
+to regret after I posted
 this.
 
 373

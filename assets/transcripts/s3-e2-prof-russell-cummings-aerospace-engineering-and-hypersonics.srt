@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,080 --> 00:00:05,920
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,800 --> 00:00:12,760
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,840 --> 00:00:16,880
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,880 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,960 --> 00:00:27,080
@@ -140,7 +139,7 @@ leading the resurgence, I guess
 
 29
 00:01:43,520 --> 00:01:47,080
-of hype of research into
+of hypersonics research into
 hypersonics, CFD, something that
 
 30
@@ -265,7 +264,7 @@ pushed for a renewed focus on
 
 54
 00:03:14,880 --> 00:03:19,040
-Hypersonic's research for CFDI.
+hypersonics research for CFD. I
 Got to know him partially
 
 55
@@ -276,7 +275,7 @@ program that he runs with the
 56
 00:03:22,760 --> 00:03:27,000
 DoD High Performance Computing
-modernization program, this HVSI
+Modernization Program, this HVSI
 
 57
 00:03:27,120 --> 00:03:30,520
@@ -311,16 +310,16 @@ somebody's very easy to get
 63
 00:03:50,760 --> 00:03:53,720
 along with.
-You see him at, you know, the AI
+You see him at, you know, AIAA
 
 64
 00:03:53,720 --> 00:03:57,520
-AA and conferences like that and
+conferences like that and
 he is really genuinely, I think
 
 65
 00:03:57,520 --> 00:04:02,800
-being an A influential person in
+being an influential person in
 in the community, that someone I
 
 66
@@ -355,7 +354,7 @@ said, but I wanted to just read
 
 72
 00:04:33,360 --> 00:04:38,280
-out a little bit of AI guess a
+out a little bit of, I guess, a
 disclaimer because we don't want
 
 73
@@ -375,13 +374,13 @@ reflect the official policy
 
 76
 00:04:46,400 --> 00:04:48,800
-opposition of the United States
+or position of the United States
 Air Force Academy, the Air
 
 77
 00:04:48,800 --> 00:04:51,680
-Force, the department of defends
-all the US government.
+Force, the Department of Defense,
+or the U.S. Government.
 
 78
 00:04:51,920 --> 00:04:56,160
@@ -391,12 +390,12 @@ thought it was a very good and
 79
 00:04:56,160 --> 00:04:59,400
 very interesting opinion and I
-hope you find too.
+hope you do too.
 
 80
 00:04:59,400 --> 00:05:03,200
-So please sit back and.
-Enjoyed this episode with
+So please sit back and
+enjoy this episode with
 
 81
 00:05:03,200 --> 00:05:06,000
@@ -631,12 +630,12 @@ And at that time that was like
 127
 00:08:15,920 --> 00:08:20,720
 the Century series of fighters.
-And then into the F4, It's still
+And then into the F-4. So the
 
 128
 00:08:20,720 --> 00:08:27,200
-the F100, the F1O2, the F1 O3,
-the F1 O 4, the F one O 5.
+the F-100, the F-102, the F-103,
+the F-104, the F-105.
 
 129
 00:08:27,720 --> 00:08:33,200
@@ -916,7 +915,7 @@ outright full laboratory
 184
 00:12:17,920 --> 00:12:22,040
 courses.
-So you we had a hanger and an
+So you we had a hangar and an
 
 185
 00:12:22,040 --> 00:12:27,320
@@ -931,7 +930,7 @@ one of his aircraft in from
 187
 00:12:30,440 --> 00:12:34,120
 Mojave and just landed it there
-and came and talked to the AI AA
+and came and talked to the AIAA
 
 188
 00:12:34,120 --> 00:12:36,920
@@ -985,8 +984,7 @@ graduating class in aeronautical
 
 198
 00:13:20,600 --> 00:13:23,400
-engineering at Cal Poly were
-became pilots.
+engineering at Cal Poly became pilots.
 
 199
 00:13:23,440 --> 00:13:30,880
@@ -1150,7 +1148,7 @@ him.
 
 231
 00:15:28,800 --> 00:15:30,880
-And I don't even know what this
+And I don't even know the subject
 matter.
 
 232
@@ -1191,7 +1189,7 @@ growing up that I could ever
 239
 00:16:04,600 --> 00:16:07,360
 imagine doing.
-And that was to moving to Los
+And that was to move to Los
 
 240
 00:16:07,360 --> 00:16:11,920
@@ -1410,8 +1408,8 @@ from Hughes Aircraft Company,
 
 283
 00:19:14,920 --> 00:19:18,080
-which was to be a missile air
-dynamicist.
+which was to be a missile
+aerodynamicist.
 
 284
 00:19:19,720 --> 00:19:24,040
@@ -1541,7 +1539,7 @@ worked.
 309
 00:21:05,280 --> 00:21:09,000
 If that meant you went on a wind
-tunnel test in Tallahoma,
+tunnel test in Tullahoma,
 
 310
 00:21:09,000 --> 00:21:12,080
@@ -1586,21 +1584,21 @@ He's always got the job done.
 318
 00:21:49,560 --> 00:21:54,160
 And, and I, I was really proud I
-got hired to work on AMRAM.
+got hired to work on AMRAAM.
 
 319
 00:21:54,920 --> 00:22:01,720
 So it was the original
-development of Amram, did all
+development of AMRAAM, did all
 
 320
 00:22:01,720 --> 00:22:05,360
 the wind tunnel testing for
-AMRAM, created the aerodynamic
+AMRAAM, created the aerodynamic
 
 321
 00:22:05,360 --> 00:22:11,400
-modeling for AMRAM, which was a
+modeling for AMRAAM, which was a
 completely new thing at the
 
 322
@@ -1620,8 +1618,8 @@ that could be interrogated by a
 
 325
 00:22:23,800 --> 00:22:29,040
-sixth off program, for example,
-using 4A series and cubic
+six-DOF program, for example,
+using Fourier series and cubic
 
 326
 00:22:29,040 --> 00:22:34,040
@@ -1631,12 +1629,12 @@ was just magical.
 327
 00:22:34,040 --> 00:22:37,560
 It was really amazing.
-I applied that to Amram and
+I applied that to AMRAAM and
 
 328
 00:22:37,560 --> 00:22:42,240
 created the first digital
-aerodynamic model for Amram.
+aerodynamic model for AMRAAM.
 
 329
 00:22:42,240 --> 00:22:45,320
@@ -1710,7 +1708,7 @@ stability and control and
 
 343
 00:23:41,560 --> 00:23:44,560
-ordinance in our department.
+ordnance in our department.
 There was a sister department
 
 344
@@ -1801,7 +1799,7 @@ friend at Hughes who got chosen
 361
 00:25:00,160 --> 00:25:03,120
 to go full time.
-He went to MIT and got his PHDI
+He went to MIT and got his PhD. I
 
 362
 00:25:04,520 --> 00:25:10,520
@@ -1876,7 +1874,7 @@ ground floor of CFD, but almost
 376
 00:26:03,640 --> 00:26:07,400
 just behind people like
-Jamieson, right, who were on the
+Jameson, right, who were on the
 
 377
 00:26:07,400 --> 00:26:13,600
@@ -1911,7 +1909,7 @@ To the initial potential codes
 383
 00:26:37,880 --> 00:26:43,760
 using CFD methods and then
-eventually Euler codes and Rands
+eventually Euler codes and RANS
 
 384
 00:26:43,760 --> 00:26:48,360
@@ -1960,12 +1958,12 @@ academic.
 
 393
 00:27:30,840 --> 00:27:36,600
-I received an AI AA award and
-the AI AA president at the time
+I received an AIAA award and
+the AIAA president at the time
 
 394
 00:27:36,600 --> 00:27:41,080
-was Malcolm Curry, who was the
+was Malcolm Currie, who was the
 president and CEO of Hughes
 
 395
@@ -2105,8 +2103,8 @@ of eight years.
 
 422
 00:29:23,000 --> 00:29:25,760
-After Amram.
-I worked on hypersonic IR and D
+After AMRAAM.
+I worked on hypersonic IR&D
 
 423
 00:29:26,360 --> 00:29:29,720
@@ -2265,7 +2263,7 @@ Northern California, Santa Cruz,
 
 454
 00:31:42,320 --> 00:31:44,760
-San Obispo area.
+San Luis Obispo area.
 I guess that's part of the
 
 455
@@ -2495,13 +2493,13 @@ where we were.
 
 500
 00:34:40,040 --> 00:34:44,159
-N you couldn't, it couldn't be
+And you couldn't, it couldn't be
 like Southwest because that
 
 501
 00:34:44,159 --> 00:34:50,760
 would be the Pacific Ocean.
-WE people who lived all
+We had people who lived all
 
 502
 00:34:50,760 --> 00:34:54,679
@@ -2510,7 +2508,7 @@ area and commuted to work.
 
 503
 00:34:55,960 --> 00:35:02,200
-I live right next to the the our
+I lived right next to our
 location, so I had like a 10
 
 504
@@ -2561,7 +2559,7 @@ connected to all that.
 513
 00:35:30,160 --> 00:35:35,080
 Shortly after I got to Cal Poly
-again for the second time, I was
+again for the second time, I
 
 514
 00:35:35,400 --> 00:35:39,760
@@ -2575,7 +2573,7 @@ So and and found myself being
 
 516
 00:35:45,720 --> 00:35:51,040
-asked to apply to be ANRC
+asked to apply to be an NRC
 postdoc at NASA Ames.
 
 517
@@ -2635,7 +2633,7 @@ The fluid dynamics division
 
 528
 00:36:35,640 --> 00:36:39,640
-director was Paul Cutler.
+director was Paul Kutler.
 He was now overseeing both
 
 529
@@ -2646,7 +2644,7 @@ but he was a CFD guy.
 530
 00:36:45,360 --> 00:36:49,760
 And the Ames Research Center
-director was Bill Balhouse, who
+director was Bill Ballhaus, who
 
 531
 00:36:49,760 --> 00:36:54,840
@@ -2670,7 +2668,7 @@ as, as a graduate student at
 
 535
 00:37:06,120 --> 00:37:11,640
-USCI, had read their papers.
+USC. I, had read their papers.
 I had, you know, so there were,
 
 536
@@ -2690,7 +2688,7 @@ started.
 
 539
 00:37:20,240 --> 00:37:24,320
-I had beam and warming and Tom
+I had Beam and Warming and Tom
 Pulliam and all.
 
 540
@@ -2705,12 +2703,12 @@ the applied CFD branch.
 
 542
 00:37:32,640 --> 00:37:41,200
-So that was Terry Holtz, Joe
-Stager, Denny Shawsey, Mccroskey
+So that was Terry Holst, Joe
+Steger, Dennis Chaussee, McCroskey
 
 543
 00:37:42,000 --> 00:37:43,960
-Gershian.
+Goorjian.
 It just goes.
 
 544
@@ -2740,7 +2738,7 @@ who was around in the summer was
 
 549
 00:38:02,440 --> 00:38:06,720
-a guy named Eugene, too, who was
+a guy named Eugene Tu, who was
 a intern from UC Berkeley.
 
 550
@@ -2766,17 +2764,16 @@ up with me to do research.
 554
 00:38:23,320 --> 00:38:26,440
 And it's a long list, but the
-first one was Ken G and then
+first one was Ken Gee and then
 
 555
 00:38:26,440 --> 00:38:29,360
-Donovan, Mathias, Scott.
-Merman, Scott.
+Donovan Mathias, Scott
+Murman,
 
 556
 00:38:29,680 --> 00:38:33,760
-Merman, Yeah.
-Joseph Garcia, It just.
+Joseph Garcia. It just
 
 557
 00:38:33,760 --> 00:38:36,600
@@ -2805,13 +2802,13 @@ yes, building 258.
 
 562
 00:38:51,200 --> 00:38:54,120
-The the meaning of Nas has
+The the meaning of NAS has
 changed over the years.
 
 563
 00:38:54,160 --> 00:38:56,760
 When I was there, it was
-numerical or dynamic simulation
+Numerical Aerodynamic Simulation
 
 564
 00:38:57,320 --> 00:39:00,520
@@ -2821,7 +2818,7 @@ first supercomputer.
 565
 00:39:01,600 --> 00:39:08,080
 We when I arrived we had two
-grade twos and they were named
+Cray-2s and they were named
 
 566
 00:39:08,080 --> 00:39:11,880
@@ -2830,7 +2827,7 @@ So.
 
 567
 00:39:12,760 --> 00:39:17,960
-Jamison talks about that in his
+Jameson talks about that in his
 talk that that connection
 
 568
@@ -2845,7 +2842,7 @@ So if you go back from the 70s.
 
 570
 00:39:25,920 --> 00:39:30,840
-All the way back to like Merman
+All the way back to like Murman
 and Cole in the early 70s doing
 
 571
@@ -2865,13 +2862,13 @@ D.
 
 574
 00:39:48,840 --> 00:39:53,240
-And to 3D or you go from invisa
+And to 3D or you go from inviscid
 to viscous.
 
 575
 00:39:53,840 --> 00:39:57,960
 So, so full potential came along
-and oiler methods and rands
+and Euler methods and RANS
 
 576
 00:39:57,960 --> 00:40:01,680
@@ -2915,7 +2912,7 @@ to has some link to that NASA
 
 584
 00:40:32,280 --> 00:40:36,720
-Ames Nas building.
+Ames NAS building.
 I I like the fact I did not know
 
 585
@@ -2946,7 +2943,7 @@ believe if you were there in the
 590
 00:40:51,280 --> 00:40:56,760
 late 80s, did you ever come
-across Philippe Spallard?
+across Philippe Spalart?
 
 591
 00:40:56,800 --> 00:40:58,120
@@ -2976,11 +2973,11 @@ was at the time a, a Naval Air
 596
 00:41:12,000 --> 00:41:14,640
 station.
-It was great fun because P
+It was great fun because P-
 
 597
 00:41:14,640 --> 00:41:16,920
-threes would be taking off and
+3s would be taking off and
 landing all the time.
 
 598
@@ -2996,7 +2993,7 @@ aircraft.
 600
 00:41:22,600 --> 00:41:25,920
 So we'd go out and watch the
-launches of the U2, for example,
+launches of the U-2, for example,
 
 601
 00:41:26,120 --> 00:41:30,040
@@ -3011,7 +3008,7 @@ then lots of people who were
 603
 00:41:37,600 --> 00:41:42,760
 grad students at Stanford.
-So Bob McCormick was at
+So Bob MacCormack was at
 
 604
 00:41:42,760 --> 00:41:44,320
@@ -3091,12 +3088,12 @@ famous and well known.
 619
 00:42:44,440 --> 00:42:49,200
 But then there were all those
-quote, UN quote, young guys, so
+quote-unquote, young guys, so
 
 620
 00:42:49,200 --> 00:43:00,160
 so Stu Rogers and.
-Tom-tom, I mean Scott Lawrence
+Tom Pulliam, Scott Lawrence
 
 621
 00:43:00,480 --> 00:43:04,920
@@ -3181,7 +3178,7 @@ Know I didn't know that, that
 637
 00:44:04,800 --> 00:44:08,680
 that all these people would
-quote UN quote, grow up to
+quote-unquote, grow up to
 
 638
 00:44:08,680 --> 00:44:14,960
@@ -3451,7 +3448,7 @@ became a group within the Maths
 691
 00:47:38,280 --> 00:47:45,000
 Institute, which has since moved
-to very nice location in Oxford
+to a very nice location in Oxford
 
 692
 00:47:45,000 --> 00:47:49,680
@@ -3466,7 +3463,7 @@ but they're in a wonderful place
 694
 00:47:53,680 --> 00:47:58,560
 now.
-So Mike Giles was had a CFD
+So Mike Giles had a CFD
 
 695
 00:47:58,560 --> 00:48:02,840
@@ -3480,8 +3477,8 @@ applications.
 
 697
 00:48:11,760 --> 00:48:19,480
-For both Euler and RANS Within 4
-Rolls Royce and again I found
+For both Euler and RANS for
+Rolls-Royce and again I found
 
 698
 00:48:19,480 --> 00:48:23,640
@@ -3575,7 +3572,7 @@ So for example, one of the guys
 
 716
 00:49:32,560 --> 00:49:38,400
-was at was at was at Katz, which
+was at was at was at Catz, which
 is a very modern college by
 
 717
@@ -3671,11 +3668,11 @@ sabbatical in 1995, came back
 735
 00:50:55,360 --> 00:51:00,000
 the summers of 96 and 97.
-I learned that from Gilstrang.
+I learned that from Gil Strang.
 
 736
 00:51:00,320 --> 00:51:04,440
-Gilstrang was a constant visitor
+Gil Strang was a constant visitor
 to the numerical analysis group.
 
 737
@@ -3790,7 +3787,7 @@ that he had developed about
 
 759
 00:52:46,920 --> 00:52:51,560
-GPU's, how to use them, how to
+GPUs, how to use them, how to
 understand how they work, You
 
 760
@@ -3815,7 +3812,7 @@ Became the professor of
 
 764
 00:53:05,520 --> 00:53:09,400
-numerical analysis in the Mass
+numerical analysis in the Maths
 Institute, which meant he got
 
 765
@@ -3841,7 +3838,7 @@ Still.
 769
 00:53:24,720 --> 00:53:30,600
 There and heading up all
-numerical analysis in the Mass
+numerical analysis in the Maths
 
 770
 00:53:30,600 --> 00:53:34,360
@@ -4291,7 +4288,7 @@ got in on the sort of the ground
 859
 00:59:17,280 --> 00:59:21,400
 floor of what was going on at
-Oxford with Matt Mcgilvray and
+Oxford with Matt McGilvray and
 
 860
 00:59:21,400 --> 00:59:28,240
@@ -4306,12 +4303,12 @@ hypersonics group.
 862
 00:59:32,560 --> 00:59:37,000
 There's a famous story at the
-AFOSR office, AFOSR office in
+AFOSR office in
 
 863
 00:59:37,000 --> 00:59:38,920
 London.
-It's called a org, the European
+It's called EOARD, the European
 
 864
 00:59:38,920 --> 00:59:41,080
@@ -4331,7 +4328,7 @@ And the great story is there was
 867
 00:59:54,360 --> 01:00:01,080
 a program officer back around
-20. 10 or so 2009 maybe who
+2010 or so 2009 maybe who
 
 868
 01:00:01,080 --> 01:00:04,760
@@ -4385,13 +4382,13 @@ That's how we started.
 
 878
 01:00:45,840 --> 01:00:51,560
-And I think Matt Mcgilvray and
+And I think Matt McGilvray and
 Peter Ireland and the people at
 
 879
 01:00:51,560 --> 01:00:53,760
-the Thermofluids Institute at
-Oxford.
+the Oxford Thermofluids
+Institute.
 
 880
 01:00:54,160 --> 01:01:00,520
@@ -4476,11 +4473,11 @@ then.
 896
 01:01:58,520 --> 01:02:01,520
 So I was actually using the
-supersonic hypersonic arbitrary
+Supersonic/Hypersonic Arbitrary-
 
 897
 01:02:01,520 --> 01:02:06,680
-Broady program to analyze
+Body Program to analyze
 aerodynamic shapes, which is
 
 898
@@ -4576,11 +4573,11 @@ almost everybody the people
 916
 01:03:22,680 --> 01:03:25,080
 left.
-Maybe with a bad taste in her
+Maybe with a bad taste in their
 
 917
 01:03:25,080 --> 01:03:29,480
-mouth about hypersonics.
+mouths about hypersonics.
 The facilities fell into
 
 918
@@ -4605,7 +4602,7 @@ By about 2015, there were about
 
 922
 01:03:50,040 --> 01:03:58,280
-3578 to 35, and it's those
+35—78 to 35, and it's those
 cycles that led to that.
 
 923
@@ -4625,7 +4622,7 @@ So so those peaks and valleys
 
 926
 01:04:14,960 --> 01:04:20,720
-really Hanford progress in in
+really hampered progress in in
 hypersonics in general.
 
 927
@@ -4805,7 +4802,7 @@ And if you're a Mach 2, look up
 
 962
 01:06:48,040 --> 01:06:51,920
-teat, you know, the temperature
+T₂/T₁, you know, the temperature
 change across a normal shock and
 
 963
@@ -4841,7 +4838,7 @@ dissipates over a shock in a
 969
 01:07:19,960 --> 01:07:25,240
 very small distance to what you
-go from Mach 20 to Mach .5
+go from Mach 20 to Mach 0.5
 
 970
 01:07:25,880 --> 01:07:29,680
@@ -4961,12 +4958,12 @@ Not good for subsonics, but
 993
 01:09:04,840 --> 01:09:11,000
 pretty good for hypersonics to a
-half £1,000,000 nearly vehicle
+nearly half-a-million-pound vehicle
 
 994
 01:09:11,000 --> 01:09:19,120
 in 92.
-The X30, it's right there that
+The X-30, it's right there that
 
 995
 01:09:19,120 --> 01:09:25,240
@@ -5135,7 +5132,7 @@ And then and then what happens?
 
 1028
 01:11:36,640 --> 01:11:41,080
-You put that in ACFD code that's
+You put that in a CFD code that's
 being developed for subsonic or
 
 1029
@@ -5196,7 +5193,7 @@ transition on a flight vehicle
 1040
 01:12:27,680 --> 01:12:32,040
 was almost notorious.
-Dennis Bushnell and NASA Langley
+Dennis Bushnell at NASA Langley
 
 1041
 01:12:32,440 --> 01:12:37,560
@@ -5220,7 +5217,7 @@ Yeah.
 
 1045
 01:12:44,960 --> 01:12:49,320
-The X15 was an example where the
+The X-15 was an example where the
 wind tunnel test said the flow
 
 1046
@@ -5285,7 +5282,7 @@ active systems that are on board
 
 1058
 01:13:38,000 --> 01:13:43,720
-and doing work like on the X51,
+and doing work like on the X-51,
 you know, cooling systems,
 
 1059
@@ -5521,7 +5518,7 @@ make it better or worse?
 1105
 01:17:00,200 --> 01:17:05,680
 I don't even know.
-And so, so all of that Hanford,
+And so, so all of that hampered,
 
 1106
 01:17:05,680 --> 01:17:09,400
@@ -5561,7 +5558,7 @@ shock in a, in a cell, right.
 1113
 01:17:35,200 --> 01:17:38,480
 And so the upwinding approaches
-and, you know, Merman and Cole's
+and, you know, Murman and Cole's
 
 1114
 01:17:38,480 --> 01:17:42,320
@@ -5651,7 +5648,7 @@ There is no appetite in an
 1131
 01:18:51,200 --> 01:18:55,160
 aerospace company these days to
-spend money developing ACFD
+spend money developing a CFD
 
 1132
 01:18:55,160 --> 01:18:59,760
@@ -5661,7 +5658,7 @@ This is 0 because why they did
 1133
 01:18:59,760 --> 01:19:04,080
 that back in the 70s and the 80s
-and developed in house codes
+and developed in-house codes
 
 1134
 01:19:04,080 --> 01:19:07,480
@@ -5675,7 +5672,7 @@ or a cargo airplane.
 
 1136
 01:19:14,840 --> 01:19:19,800
-Now you use it on a re entry
+Now you use it on a re-entry
 vehicle and it doesn't work.
 
 1137
@@ -5726,7 +5723,7 @@ that happen?
 1146
 01:19:59,840 --> 01:20:04,320
 Just wasn't happening.
-So I guess maybe this Tees up
+So I guess maybe this tees up
 
 1147
 01:20:04,320 --> 01:20:05,960
@@ -5791,7 +5788,7 @@ director for aerodynamics at the
 1159
 01:20:43,040 --> 01:20:47,400
 Air Force Academy at the time
-was John Burton, and John Burton
+was John Bertin, and John Bertin
 
 1160
 01:20:47,400 --> 01:20:49,680
@@ -5841,7 +5838,7 @@ It takes years and it's just
 1169
 01:21:18,520 --> 01:21:22,400
 kind of magical.
-John Burton not only asked me to
+John Bertin not only asked me to
 
 1170
 01:21:22,400 --> 01:21:26,720
@@ -5856,7 +5853,7 @@ Academy, both experimental and
 1172
 01:21:30,040 --> 01:21:35,200
 then he was not.
-ACFD guy but asked me to be his
+a CFD guy but asked me to be his
 
 1173
 01:21:35,200 --> 01:21:39,240
@@ -5876,7 +5873,7 @@ the way back to the Apollo days
 1176
 01:21:45,680 --> 01:21:50,920
 at at NASA Johnson.
-And he worked for also Sandia
+And he also worked for Sandia
 
 1177
 01:21:51,160 --> 01:21:53,680
@@ -5900,7 +5897,7 @@ along with John Anderson has a
 
 1181
 01:22:05,600 --> 01:22:10,800
-book and John Burton have has a
+book and John Bertin had a
 book and so that's what started
 
 1182
@@ -6066,12 +6063,12 @@ questions.
 1214
 01:24:24,360 --> 01:24:30,520
 I mean, that came out of the
-like 2013, 2014 AI, AA
+like 2013, 2014 AIAA
 
 1215
 01:24:30,720 --> 01:24:35,600
 hypersonic CFD blind code study
-at Kubrick.
+at CUBRC.
 
 1216
 01:24:35,600 --> 01:24:40,080
@@ -6080,13 +6077,13 @@ of basic geometries like the
 
 1217
 01:24:40,080 --> 01:24:45,880
-Hall cylinder and a double cone
+hollow cylinder and a double cone
 and a cone flare and asked for
 
 1218
 01:24:45,880 --> 01:24:49,640
 people to submit their
-simulations and then at an AI AA
+simulations and then at an AIAA
 
 1219
 01:24:49,640 --> 01:24:53,600
@@ -6116,7 +6113,7 @@ So I felt like that's what HVSI
 1224
 01:25:14,800 --> 01:25:19,800
 was starting to do.
-Since then, ONR Eric Marineau
+Since then, ONR's Eric Marineau
 
 1225
 01:25:19,800 --> 01:25:24,360
@@ -6360,7 +6357,7 @@ this.
 
 1273
 01:28:39,920 --> 01:28:49,000
-So AI and or machine learning
+So AI and/or machine learning
 for some aerodynamic, you know,
 
 1274
@@ -6711,7 +6708,7 @@ they can inform each other.
 1343
 01:33:14,840 --> 01:33:19,480
 You can learn about things from
-the test using CFDI.
+the test using CFD. I
 
 1344
 01:33:19,480 --> 01:33:20,840
@@ -6750,8 +6747,8 @@ when I was at Ames working on
 
 1351
 01:33:40,480 --> 01:33:44,320
-the high angle tech research
-vehicle, the F18 flying at very
+the high-angle-of-attack research
+vehicle, the F-18 flying at very
 
 1352
 01:33:44,320 --> 01:33:46,800
@@ -6771,7 +6768,7 @@ and I did CFD simulations of
 1355
 01:33:58,960 --> 01:34:03,440
 what the pressure distribution
-would be on the F18 for a
+would be on the F-18 for a
 
 1356
 01:34:03,440 --> 01:34:07,800
@@ -6815,7 +6812,7 @@ separation and vortices and
 
 1364
 01:34:37,520 --> 01:34:42,080
-everything else with Rands codes
+everything else with RANS codes
 using algebraic turbulence
 
 1365
@@ -6825,7 +6822,7 @@ high angle of attack that the
 
 1366
 01:34:45,480 --> 01:34:49,280
-Ghanian shift did.
+Chaderjian and Schiff did.
 We were were doing a really good
 
 1367
@@ -6860,13 +6857,13 @@ part of the issue is maybe
 
 1373
 01:35:12,560 --> 01:35:17,320
-previously when CFT was less
+previously when CFD was less
 mature for for whatever reasons,
 
 1374
 01:35:18,000 --> 01:35:21,640
 people would often do an
-experiment and CFT, they they
+experiment and CFD, they they
 
 1375
 01:35:21,640 --> 01:35:24,960
@@ -6916,7 +6913,7 @@ They're doing that at Oxford.
 1384
 01:35:53,200 --> 01:35:59,120
 So you've got Matt and Luca
-Demara running the CFD group
+di Mare running the CFD group
 
 1385
 01:35:59,800 --> 01:36:01,520
@@ -7026,7 +7023,7 @@ So when you report it, you say
 1406
 01:37:21,720 --> 01:37:24,640
 this for a Mach number and a
-rounds number of such and such.
+Reynolds number of such and such.
 
 1407
 01:37:27,120 --> 01:37:30,560
@@ -7036,7 +7033,7 @@ And nobody or very few people
 1408
 01:37:30,560 --> 01:37:35,000
 ever say that in their papers.
-OK, I've got a Mach 6 Ludwig
+OK, I've got a Mach 6 Ludwieg
 
 1409
 01:37:35,000 --> 01:37:38,840
@@ -7126,7 +7123,7 @@ give them?
 1426
 01:38:34,960 --> 01:38:38,880
 So because I was involved in
-student activities at a AA for
+student activities at AIAA for
 
 1427
 01:38:38,880 --> 01:38:42,040
@@ -7211,7 +7208,7 @@ You'll be writing textbooks.
 1443
 01:39:32,120 --> 01:39:34,120
 Whoever thought when I was
-taking that erroneous?
+taking that aerodynamics?
 
 1444
 01:39:34,320 --> 01:39:36,480
@@ -7220,7 +7217,7 @@ Undergraduate that not only
 
 1445
 01:39:36,480 --> 01:39:39,160
-would I teach erroneous, but I
+would I teach aerodynamics, but I
 would write the textbook.
 
 1446
@@ -7255,8 +7252,8 @@ future is plastics, right?
 
 1452
 01:40:04,440 --> 01:40:07,320
-That that was a famous lineback
-that was in, in like in the
+That that was a famous line back
+then, in, like, the
 
 1453
 01:40:07,320 --> 01:40:09,760

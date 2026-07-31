@@ -1,0 +1,6423 @@
+1
+00:00:00,100 --> 00:00:02,480
+Hi and welcome to the Neil Ashton podcast.
+
+2
+00:00:03,019 --> 00:00:03,839
+In each episode,
+
+3
+00:00:03,849 --> 00:00:07,309
+we explained some of the fascinating ways that science and engineering
+
+4
+00:00:07,469 --> 00:00:09,159
+are changing the world around us.
+
+5
+00:00:09,699 --> 00:00:14,170
+We talk to leading engineers from elite level sports like cycling and Formula One
+
+6
+00:00:14,760 --> 00:00:18,670
+to some of the world's top academics to understand how fluid dynamics,
+
+7
+00:00:18,680 --> 00:00:21,069
+machine learning and supercomputing
+
+8
+00:00:21,229 --> 00:00:22,729
+are bringing in a new era of discovery.
+
+9
+00:00:23,790 --> 00:00:27,149
+We also hear some of their life stories, their career advice
+
+10
+00:00:27,540 --> 00:00:31,590
+and lessons they've learned on the way that I hope will be helpful to you too.
+
+11
+00:00:31,959 --> 00:00:34,330
+So sit back and enjoy this episode.
+
+12
+00:00:42,220 --> 00:00:44,580
+Hi and welcome back to the Neil Ashton podcast.
+
+13
+00:00:44,900 --> 00:00:46,220
+We're in season two.
+
+14
+00:00:46,900 --> 00:00:49,159
+Wow. I'm, I'm pleased that
+
+15
+00:00:49,330 --> 00:00:53,169
+we managed to get through a whole season, I think 14 episodes.
+
+16
+00:00:53,439 --> 00:00:58,639
+Uh I'm really appreciative of the positive feedback. And so I wanted to try and do
+
+17
+00:00:58,840 --> 00:01:01,279
+an even better job for, for season two.
+
+18
+00:01:01,900 --> 00:01:06,040
+And uh what's a better way than starting a new season with
+
+19
+00:01:06,910 --> 00:01:11,889
+somebody who I think is probably at the moment one of the most
+
+20
+00:01:12,720 --> 00:01:18,519
+influential, powerful, important figures within Formula One.
+
+21
+00:01:18,870 --> 00:01:20,029
+And that is Nikolas Tombazis
+
+22
+00:01:20,790 --> 00:01:23,940
+and he is the single-seater director for the FIA
+
+23
+00:01:25,190 --> 00:01:28,809
+essentially what that means is he is the person
+
+24
+00:01:28,989 --> 00:01:31,260
+who is responsible for setting
+
+25
+00:01:31,580 --> 00:01:35,559
+the rules of the sport and, and works with his colleagues to,
+
+26
+00:01:36,269 --> 00:01:39,209
+to, you know, set the discipline, the rules of the,
+
+27
+00:01:39,220 --> 00:01:43,330
+the car, speaks with the teams, changes, listens to feedback.
+
+28
+00:01:43,339 --> 00:01:45,410
+He's the one who works closely with Formula
+
+29
+00:01:45,419 --> 00:01:47,690
+One Management uh and all of the partners.
+
+30
+00:01:47,980 --> 00:01:50,089
+But he is the one who is the,
+
+31
+00:01:50,099 --> 00:01:51,949
+the figurehead to deal with the team
+
+32
+00:01:51,959 --> 00:01:54,449
+principals to deal with the technical directors.
+
+33
+00:01:55,050 --> 00:01:56,309
+And along with his team
+
+34
+00:01:56,440 --> 00:01:57,589
+advance
+
+35
+00:01:57,879 --> 00:02:00,529
+the technical and sporting regulations
+
+36
+00:02:00,680 --> 00:02:01,870
+of Formula One.
+
+37
+00:02:03,000 --> 00:02:07,419
+He in this discussion though I really wanted to
+
+38
+00:02:08,089 --> 00:02:11,350
+or for you to learn more about him because I think he has a, a
+
+39
+00:02:11,529 --> 00:02:13,149
+fascinating
+
+40
+00:02:13,339 --> 00:02:15,880
+history. He's one of these people who
+
+41
+00:02:16,059 --> 00:02:17,779
+was one of the first
+
+42
+00:02:18,350 --> 00:02:23,610
+PhD educated uh people with a real sort of scientific background
+
+43
+00:02:23,770 --> 00:02:28,649
+who went into Formula One starting in the, in the early nineties.
+
+44
+00:02:28,800 --> 00:02:31,520
+Uh It's obviously very common now for that to happen.
+
+45
+00:02:31,529 --> 00:02:33,779
+But back then it, it wasn't so much
+
+46
+00:02:34,160 --> 00:02:36,639
+and he really has gone through, you know,
+
+47
+00:02:36,649 --> 00:02:40,160
+the ticking the box of all the top positions in the teams.
+
+48
+00:02:40,169 --> 00:02:41,199
+He was at Benetton,
+
+49
+00:02:41,600 --> 00:02:43,899
+he was at Ferrari, he was at McLaren,
+
+50
+00:02:44,059 --> 00:02:46,419
+he's won multiple world championships
+
+51
+00:02:46,699 --> 00:02:47,210
+um
+
+52
+00:02:47,410 --> 00:02:50,610
+and is someone who really has probably one of
+
+53
+00:02:50,619 --> 00:02:53,919
+the best understandings of the sport from a technical side
+
+54
+00:02:54,029 --> 00:02:57,740
+and obviously now from a regulatory side.
+
+55
+00:02:58,699 --> 00:03:03,399
+So we cover lots of areas. He he's somebody who I, I really like his personality.
+
+56
+00:03:03,410 --> 00:03:04,979
+We worked together a little bit.
+
+57
+00:03:05,250 --> 00:03:05,940
+Um,
+
+58
+00:03:06,419 --> 00:03:09,619
+when I was doing some stuff with Formula One for the new rules, you know,
+
+59
+00:03:09,630 --> 00:03:11,119
+about four years ago.
+
+60
+00:03:11,130 --> 00:03:12,970
+And at a time he was a consultant there
+
+61
+00:03:13,119 --> 00:03:15,080
+before he took over at the FIA
+
+62
+00:03:15,199 --> 00:03:17,869
+and he was one of these people I, I had on my list,
+
+63
+00:03:18,179 --> 00:03:19,490
+uh, to speak to,
+
+64
+00:03:20,110 --> 00:03:23,320
+um, before we, uh, you know, when I was starting to do this podcast.
+
+65
+00:03:23,330 --> 00:03:26,000
+So I was really pleased and I, I think
+
+66
+00:03:26,300 --> 00:03:30,679
+if you're a fan of Formula One or not, I hope you'll appreciate the, the,
+
+67
+00:03:30,690 --> 00:03:32,360
+the topic and the discussions.
+
+68
+00:03:32,369 --> 00:03:36,949
+Um We go through in hearing about his fascinating uh life journey. So
+
+69
+00:03:37,350 --> 00:03:41,529
+yeah, sit back and please enjoy this episode with Nikolas Tombazis.
+
+70
+00:03:42,399 --> 00:03:44,169
+You went to Cambridge
+
+71
+00:03:44,529 --> 00:03:45,419
+University.
+
+72
+00:03:46,500 --> 00:03:48,100
+But when did you know that you were going
+
+73
+00:03:48,110 --> 00:03:52,279
+to do engineering versus let's say physics or maths,
+
+74
+00:03:52,289 --> 00:03:55,479
+you know, specifically what made you want to go into an engineering course?
+
+75
+00:03:58,289 --> 00:03:58,729
+Um
+
+76
+00:03:59,460 --> 00:04:03,699
+Well, I guess I was very um
+
+77
+00:04:03,979 --> 00:04:06,190
+interested in mathematics and physics,
+
+78
+00:04:06,559 --> 00:04:07,750
+which I liked, really, at school.
+
+79
+00:04:08,279 --> 00:04:12,889
+Um And uh I also always had
+
+80
+00:04:12,990 --> 00:04:13,000
+a
+
+81
+00:04:13,630 --> 00:04:17,890
+bit of a design background because uh my father was an architect
+
+82
+00:04:18,329 --> 00:04:20,000
+and um
+
+83
+00:04:20,428 --> 00:04:21,279
+so
+
+84
+00:04:21,390 --> 00:04:24,769
+there was always some form of drawing going on at home.
+
+85
+00:04:25,500 --> 00:04:26,540
+Um
+
+86
+00:04:26,950 --> 00:04:29,799
+And I was extremely passionate about Formula One.
+
+87
+00:04:30,649 --> 00:04:31,220
+Uh
+
+88
+00:04:31,630 --> 00:04:37,149
+So, and my aspiration was to be designing Formula One cars as a kid.
+
+89
+00:04:37,929 --> 00:04:38,929
+Um
+
+90
+00:04:39,359 --> 00:04:39,869
+and
+
+91
+00:04:40,010 --> 00:04:45,279
+all of those factors I think conspired to make me want to go and do engineering.
+
+92
+00:04:45,920 --> 00:04:45,980
+I was
+
+93
+00:04:46,109 --> 00:04:47,910
+also quite, um
+
+94
+00:04:49,549 --> 00:04:53,269
+I guess, uh maybe a bit arrogant as a youth,
+
+95
+00:04:53,619 --> 00:04:54,540
+maybe I still am
+
+96
+00:04:54,859 --> 00:04:55,730
+and,
+
+97
+00:04:56,359 --> 00:04:57,510
+and therefore
+
+98
+00:04:58,000 --> 00:05:00,040
+I didn't want to
+
+99
+00:05:00,250 --> 00:05:02,450
+do what my dad did. Um
+
+100
+00:05:03,079 --> 00:05:04,890
+I felt it would be to
+
+101
+00:05:05,549 --> 00:05:06,089
+too
+
+102
+00:05:06,739 --> 00:05:10,609
+easy in some ways, even though I have full respect for the profession,
+
+103
+00:05:11,359 --> 00:05:11,940
+architecture.
+
+104
+00:05:12,049 --> 00:05:14,290
+And I find it fascinating. I
+
+105
+00:05:14,730 --> 00:05:16,410
+had too many people.
+
+106
+00:05:16,420 --> 00:05:20,390
+I guess when I was a kid asking me, are you going to be an architect when you grow up?
+
+107
+00:05:20,399 --> 00:05:24,170
+And that probably uh created the opposite effect in my head
+
+108
+00:05:24,510 --> 00:05:24,619
+as
+
+109
+00:05:24,850 --> 00:05:24,859
+a
+
+110
+00:05:25,220 --> 00:05:25,880
+youth.
+
+111
+00:05:27,230 --> 00:05:28,670
+It's kind of amazing, isn't it?
+
+112
+00:05:28,679 --> 00:05:32,160
+How those reverse psychology or some people you see,
+
+113
+00:05:32,170 --> 00:05:34,170
+you never know if you say to someone don't do that,
+
+114
+00:05:34,179 --> 00:05:36,890
+sometimes it can drive them the other
+
+115
+00:05:37,390 --> 00:05:38,209
+um
+
+116
+00:05:38,709 --> 00:05:42,429
+the other way. So, oh, so you're always into, were you one of these people then
+
+117
+00:05:42,649 --> 00:05:44,329
+as a teenager that was,
+
+118
+00:05:44,880 --> 00:05:48,410
+had that laser focus for Formula One, was watching the races, was
+
+119
+00:05:48,619 --> 00:05:49,989
+really passionate about it.
+
+120
+00:05:50,339 --> 00:05:55,489
+Yeah, I guess I got hooked up to Formula One when I was about
+
+121
+00:05:55,920 --> 00:05:56,850
+10 years old.
+
+122
+00:05:57,200 --> 00:05:59,940
+That's when I watched my first races.
+
+123
+00:06:00,470 --> 00:06:07,260
+Uh And uh when I was then uh well, in Greece where I come from there was no,
+
+124
+00:06:07,779 --> 00:06:11,029
+there was not always TV, coverage, there was only a few races a year
+
+125
+00:06:11,750 --> 00:06:16,500
+but I was uh I was always waiting for the newspaper or the,
+
+126
+00:06:16,779 --> 00:06:20,540
+the evening news to see who had won a race and following and so on. And, and,
+
+127
+00:06:20,809 --> 00:06:22,549
+and back then, of course,
+
+128
+00:06:22,950 --> 00:06:24,950
+there was a lot of talk about the ground effect
+
+129
+00:06:25,279 --> 00:06:27,980
+because the Lotus 79 was um
+
+130
+00:06:28,940 --> 00:06:31,190
+dominating in, in 1978.
+
+131
+00:06:31,579 --> 00:06:33,640
+And then in 1979
+
+132
+00:06:34,750 --> 00:06:37,299
+it was all very much an aerodynamic war
+
+133
+00:06:37,630 --> 00:06:40,500
+between competitors. And, um
+
+134
+00:06:40,730 --> 00:06:44,700
+and there was a lot of drawings in magazines with diffusers and
+
+135
+00:06:45,329 --> 00:06:47,470
+arrows indicating where the air would
+
+136
+00:06:47,790 --> 00:06:48,970
+move and so on.
+
+137
+00:06:49,450 --> 00:06:51,390
+And uh all of that
+
+138
+00:06:51,570 --> 00:06:55,459
+uh intrigued me very much. And uh that's exactly,
+
+139
+00:06:56,089 --> 00:06:57,470
+that's what, what
+
+140
+00:06:57,679 --> 00:06:59,059
+really attracted me.
+
+141
+00:06:59,410 --> 00:07:00,989
+I used to have. Um
+
+142
+00:07:01,489 --> 00:07:07,750
+uh Well, I still have that, that my best friend from school in those days and,
+
+143
+00:07:08,239 --> 00:07:12,549
+and he was also extremely passionate. He didn't become an engineer in Formula One.
+
+144
+00:07:13,070 --> 00:07:17,529
+Uh but we used to have um to draw our own Formula One cars and
+
+145
+00:07:17,950 --> 00:07:23,000
+try to compare them and say why mine is better than his or his better than mine.
+
+146
+00:07:23,899 --> 00:07:27,369
+So we used to draw cars a lot back then.
+
+147
+00:07:28,630 --> 00:07:29,880
+Yeah, that's uh
+
+148
+00:07:30,059 --> 00:07:32,589
+I guess you, you would be the equivalent now
+
+149
+00:07:32,890 --> 00:07:36,609
+of those people who can draw and have you seen them online where they draw
+
+150
+00:07:36,970 --> 00:07:37,239
+in
+
+151
+00:07:37,380 --> 00:07:37,820
+CAD,
+
+152
+00:07:37,970 --> 00:07:40,109
+an almost exact Formula One car.
+
+153
+00:07:40,130 --> 00:07:44,440
+They're not Formula One designers, but they just have incredible CAD skills
+
+154
+00:07:44,609 --> 00:07:46,880
+that they draw these things, I guess. Maybe
+
+155
+00:07:48,329 --> 00:07:48,920
+clearly. No CAD.
+
+156
+00:07:50,429 --> 00:07:50,890
+Yeah, indeed.
+
+157
+00:07:51,149 --> 00:07:52,630
+Not even a computer.
+
+158
+00:07:54,700 --> 00:07:55,579
+Now, we just draw
+
+159
+00:07:55,739 --> 00:07:57,570
+um, um, side view,
+
+160
+00:07:57,579 --> 00:08:01,420
+plan view and the cross section of the diffuser and a few things like that.
+
+161
+00:08:04,549 --> 00:08:09,299
+And, uh, but yeah, I guess if CAD had been available then probably
+
+162
+00:08:09,630 --> 00:08:10,420
+would have loved to.
+
+163
+00:08:11,190 --> 00:08:11,619
+Yeah.
+
+164
+00:08:12,000 --> 00:08:14,730
+What was Cambridge like there was that quite a
+
+165
+00:08:15,170 --> 00:08:18,570
+culture shock going to? I can imagine, uh
+
+166
+00:08:19,279 --> 00:08:23,359
+what feels like being in the 16th century? Was that something you
+
+167
+00:08:23,570 --> 00:08:25,320
+enjoyed that you were sort of
+
+168
+00:08:25,690 --> 00:08:27,220
+excited about?
+
+169
+00:08:29,790 --> 00:08:33,859
+Very excited to go there. And, um, and I have to say,
+
+170
+00:08:34,440 --> 00:08:39,130
+uh, I definitely enjoyed it. Um, it was probably the most,
+
+171
+00:08:40,239 --> 00:08:41,328
+um,
+
+172
+00:08:41,648 --> 00:08:45,369
+careless period of my life in many ways. Uh,
+
+173
+00:08:45,539 --> 00:08:47,249
+um, it's,
+
+174
+00:08:48,098 --> 00:08:49,778
+I was doing something I enjoyed.
+
+175
+00:08:50,249 --> 00:08:51,658
+I didn't have to do
+
+176
+00:08:52,799 --> 00:08:56,539
+subjects that I did not enjoy. Like at school, there were some
+
+177
+00:08:56,840 --> 00:09:01,109
+subjects I did not enjoy that I had to do being at school. Whereas at Cambridge, you know,
+
+178
+00:09:01,719 --> 00:09:04,179
+just in engineering which almost
+
+179
+00:09:04,780 --> 00:09:06,020
+everything I enjoyed.
+
+180
+00:09:07,030 --> 00:09:07,849
+Um,
+
+181
+00:09:08,440 --> 00:09:08,460
+it
+
+182
+00:09:08,590 --> 00:09:12,880
+was my first period away from home and parties and,
+
+183
+00:09:14,250 --> 00:09:16,299
+and, uh, living with other
+
+184
+00:09:16,799 --> 00:09:20,049
+young people, uh, you know, in
+
+185
+00:09:20,200 --> 00:09:21,700
+close proximity.
+
+186
+00:09:22,809 --> 00:09:25,669
+Yeah, it was quite reasonably hard work but I wouldn't,
+
+187
+00:09:26,760 --> 00:09:29,750
+compared to other stuff I've had to do in my life. It was probably
+
+188
+00:09:30,549 --> 00:09:31,690
+with hindsight.
+
+189
+00:09:32,239 --> 00:09:33,580
+Yeah, it was definitely the easiest period
+
+190
+00:09:33,770 --> 00:09:34,229
+of my life.
+
+191
+00:09:34,919 --> 00:09:36,200
+I know. I always think there,
+
+192
+00:09:36,359 --> 00:09:36,369
+I
+
+193
+00:09:36,479 --> 00:09:38,260
+don't know if you ever look back and
+
+194
+00:09:39,250 --> 00:09:39,640
+well,
+
+195
+00:09:39,919 --> 00:09:43,880
+not regret is the wrong word, but you do fully appreciate university.
+
+196
+00:09:43,890 --> 00:09:46,530
+I think it's that sweet spot because you're right at school,
+
+197
+00:09:46,739 --> 00:09:50,520
+you have no freedom really. You're kind of told what to do. You have to do the things
+
+198
+00:09:50,809 --> 00:09:51,239
+you're in,
+
+199
+00:09:51,250 --> 00:09:53,119
+you're in a work scenario when you're in your
+
+200
+00:09:53,130 --> 00:09:55,119
+early twenties and you're kind of told what to do
+
+201
+00:09:55,289 --> 00:09:58,049
+normally, especially nowadays, university, I guess,
+
+202
+00:09:58,059 --> 00:10:00,400
+is that sweet spot where you have enough freedom?
+
+203
+00:10:00,820 --> 00:10:03,859
+Usually they kind of say, well, if you don't want to go to lecture,
+
+204
+00:10:04,010 --> 00:10:05,770
+well, fine, whatever.
+
+205
+00:10:06,000 --> 00:10:08,340
+It's, yeah, it is a freeing period, isn't it?
+
+206
+00:10:08,799 --> 00:10:11,059
+It is. Yes. And, um,
+
+207
+00:10:11,630 --> 00:10:15,820
+and again, you're 18, you're away from home. You
+
+208
+00:10:16,059 --> 00:10:19,340
+don't have to ask permission to, to do almost anything
+
+209
+00:10:19,950 --> 00:10:21,340
+and you're doing stuff you enjoy.
+
+210
+00:10:21,469 --> 00:10:21,900
+Um,
+
+211
+00:10:22,340 --> 00:10:24,859
+I must say when I was there, I felt
+
+212
+00:10:25,669 --> 00:10:27,559
+quite shocked by
+
+213
+00:10:27,809 --> 00:10:28,770
+some of the
+
+214
+00:10:29,070 --> 00:10:30,510
+professors who,
+
+215
+00:10:31,059 --> 00:10:31,299
+you know,
+
+216
+00:10:31,309 --> 00:10:33,909
+sometimes you get to speak with a professor who
+
+217
+00:10:33,919 --> 00:10:36,729
+was maybe 70 years old or something like that.
+
+218
+00:10:37,880 --> 00:10:40,820
+And you'd ask him where he'd been to college and he'd say, well,
+
+219
+00:10:40,830 --> 00:10:44,929
+I've been to Cambridge and I did my PhD at Cambridge and then I became a fellow and then
+
+220
+00:10:45,179 --> 00:10:45,190
+I,
+
+221
+00:10:46,219 --> 00:10:49,659
+and so there are these guys who have lived there for
+
+222
+00:10:49,780 --> 00:10:50,369
+like,
+
+223
+00:10:50,489 --> 00:10:52,039
+50 years
+
+224
+00:10:53,679 --> 00:10:54,880
+and, um,
+
+225
+00:10:55,969 --> 00:10:59,239
+that, that one I must say did not attract me. I am I
+
+226
+00:10:59,559 --> 00:11:02,479
+happy. I haven't stayed there for 50 years.
+
+227
+00:11:03,039 --> 00:11:08,359
+Um, but, uh, I can see why some people have done that as well.
+
+228
+00:11:09,510 --> 00:11:12,919
+Yeah. Well, yeah, that's true. That's sort of uh, I've met
+
+229
+00:11:13,559 --> 00:11:15,940
+a few professors
+
+230
+00:11:16,369 --> 00:11:18,169
+who don't drive,
+
+231
+00:11:19,080 --> 00:11:21,849
+um, because they've always lived in college accommodation
+
+232
+00:11:22,409 --> 00:11:26,140
+and probably similar to you. It's like this and they just cycle around all the time.
+
+233
+00:11:26,150 --> 00:11:28,229
+It's almost like watching an Inspector Morse
+
+234
+00:11:28,349 --> 00:11:31,000
+or one of these, uh, programs, you know,
+
+235
+00:11:32,690 --> 00:11:34,690
+live in a bubble, don't they? And some
+
+236
+00:11:35,039 --> 00:11:36,520
+have never
+
+237
+00:11:37,010 --> 00:11:39,190
+moved away from that bubble. Um,
+
+238
+00:11:40,280 --> 00:11:44,289
+I'd say obviously life has its trials and tribulations and, um,
+
+239
+00:11:44,979 --> 00:11:45,619
+and
+
+240
+00:11:45,979 --> 00:11:49,500
+maybe, maybe they've understood things much better than we have.
+
+241
+00:11:49,840 --> 00:11:52,659
+Yeah, I was gonna say like it's not such a bad lifestyle.
+
+242
+00:11:52,909 --> 00:11:53,539
+Um
+
+243
+00:11:54,260 --> 00:11:55,099
+But you,
+
+244
+00:11:55,320 --> 00:11:57,159
+one thing that intrigued me is
+
+245
+00:11:58,359 --> 00:12:00,500
+especially when you did it.
+
+246
+00:12:01,479 --> 00:12:02,190
+Um A
+
+247
+00:12:02,390 --> 00:12:05,229
+lot of people who are really into engineering or,
+
+248
+00:12:05,239 --> 00:12:07,770
+or even fast forward to now really are desperate to
+
+249
+00:12:07,780 --> 00:12:09,719
+get into Formula One the first chance they have,
+
+250
+00:12:09,729 --> 00:12:10,489
+they'll try and go.
+
+251
+00:12:11,409 --> 00:12:16,260
+You went on to a PhD. I, I'm just wondering what drove your decision?
+
+252
+00:12:16,270 --> 00:12:19,070
+Was it a quest just for more knowledge? Was it
+
+253
+00:12:19,489 --> 00:12:21,590
+a strategic thing of doing it?
+
+254
+00:12:21,599 --> 00:12:26,150
+What, what, what was the reason that you then went to go down the PhD um route?
+
+255
+00:12:28,250 --> 00:12:32,750
+Well, um well, first of all, I will say conscious that
+
+256
+00:12:33,250 --> 00:12:37,390
+we're talking about uh whatever now, um sort of
+
+257
+00:12:38,159 --> 00:12:39,940
+35 years ago or whatever
+
+258
+00:12:40,460 --> 00:12:41,099
+that
+
+259
+00:12:41,260 --> 00:12:41,270
+I
+
+260
+00:12:41,489 --> 00:12:45,250
+fully acknowledge that things may have changed since then.
+
+261
+00:12:45,260 --> 00:12:49,260
+And what, what decision back in the eighties or nineties isn't?
+
+262
+00:12:50,440 --> 00:12:51,750
+I do not imply that
+
+263
+00:12:53,460 --> 00:12:54,140
+and
+
+264
+00:12:54,419 --> 00:12:55,280
+I,
+
+265
+00:12:56,429 --> 00:12:58,700
+I didn't feel at the time
+
+266
+00:12:59,390 --> 00:13:00,010
+that
+
+267
+00:13:00,969 --> 00:13:02,260
+just a three year
+
+268
+00:13:02,760 --> 00:13:03,989
+degree was
+
+269
+00:13:04,239 --> 00:13:06,349
+enough in some ways,
+
+270
+00:13:07,690 --> 00:13:09,080
+in many other countries,
+
+271
+00:13:09,770 --> 00:13:10,880
+um,
+
+272
+00:13:11,440 --> 00:13:14,580
+you know, three year degree would be associated with.
+
+273
+00:13:14,590 --> 00:13:16,520
+Uh, I don't know, lesser studies of some sort.
+
+274
+00:13:17,590 --> 00:13:20,549
+And then, so I had one was that in my mind.
+
+275
+00:13:20,559 --> 00:13:25,000
+So I guess I always had in mind that I was going to do some form of postgraduate study.
+
+276
+00:13:26,099 --> 00:13:27,099
+Um,
+
+277
+00:13:27,349 --> 00:13:28,239
+I
+
+278
+00:13:29,979 --> 00:13:31,419
+had heard that
+
+279
+00:13:32,219 --> 00:13:35,400
+uh Imperial College where I went for my PhD had
+
+280
+00:13:36,229 --> 00:13:37,020
+um
+
+281
+00:13:37,359 --> 00:13:39,700
+sort of quite a few people had gone
+
+282
+00:13:39,940 --> 00:13:42,260
+into Formula One from there back then
+
+283
+00:13:43,010 --> 00:13:46,770
+and I felt that it was going to be putting me in a good position.
+
+284
+00:13:47,270 --> 00:13:51,760
+I also felt that maybe the amount of aerodynamics I had done at Cambridge was not
+
+285
+00:13:52,659 --> 00:13:53,400
+that much.
+
+286
+00:13:53,409 --> 00:13:55,859
+I mean, I had taken all the aerodynamic options I could,
+
+287
+00:13:55,869 --> 00:13:57,909
+but I felt I could do a bit more.
+
+288
+00:13:58,940 --> 00:14:05,169
+Um So it was pretty, I, I didn't, I didn't actually even try to go from Cambridge into
+
+289
+00:14:05,919 --> 00:14:09,489
+the Formula One team back then. I, I only started
+
+290
+00:14:09,619 --> 00:14:12,849
+looking for a job in Formula One during my PhD
+
+291
+00:14:13,419 --> 00:14:15,190
+during the latter part of my PhD,
+
+292
+00:14:15,469 --> 00:14:15,750
+more accurately.
+
+293
+00:14:16,599 --> 00:14:20,940
+And what was the focus of your, your PhD in the end? What, what was the main
+
+294
+00:14:21,690 --> 00:14:24,229
+it was uh experimental aerodynamics?
+
+295
+00:14:24,239 --> 00:14:28,390
+So I was working in a wind tunnel and I was studying
+
+296
+00:14:29,000 --> 00:14:31,349
+uh the wakes of bluff bodies
+
+297
+00:14:32,080 --> 00:14:37,190
+and the vortex shedding and how the various 3D effects that
+
+298
+00:14:37,869 --> 00:14:38,450
+occur
+
+299
+00:14:38,950 --> 00:14:40,919
+naturally. And, um,
+
+300
+00:14:41,679 --> 00:14:42,729
+and, uh,
+
+301
+00:14:43,919 --> 00:14:45,260
+I guess what
+
+302
+00:14:46,299 --> 00:14:48,950
+I got from the PhD was not the,
+
+303
+00:14:50,059 --> 00:14:52,020
+actual knowledge of vortex
+
+304
+00:14:52,309 --> 00:14:53,400
+shedding from bluff
+
+305
+00:14:53,679 --> 00:14:54,010
+bodies and
+
+306
+00:14:54,159 --> 00:14:54,400
+that
+
+307
+00:14:55,770 --> 00:14:57,309
+honestly you can read it up.
+
+308
+00:14:58,109 --> 00:14:58,890
+Um,
+
+309
+00:14:59,049 --> 00:14:59,830
+and
+
+310
+00:15:01,119 --> 00:15:07,049
+ok, I guess what I got from it was that I had to do a big project which was standalone.
+
+311
+00:15:08,479 --> 00:15:09,299
+It was,
+
+312
+00:15:09,780 --> 00:15:13,099
+I had to deal with a lot of issues whether it was
+
+313
+00:15:13,919 --> 00:15:18,820
+instrumentation or writing software back then to analyze my data
+
+314
+00:15:19,520 --> 00:15:20,409
+or
+
+315
+00:15:21,239 --> 00:15:22,780
+designing my
+
+316
+00:15:23,119 --> 00:15:27,099
+models or instruments that I would put in the wind tunnel, sorting out
+
+317
+00:15:27,520 --> 00:15:28,859
+basically everything
+
+318
+00:15:30,169 --> 00:15:31,369
+and having to,
+
+319
+00:15:31,659 --> 00:15:32,789
+to then think a
+
+320
+00:15:33,330 --> 00:15:34,179
+bit like
+
+321
+00:15:35,640 --> 00:15:35,929
+or
+
+322
+00:15:36,229 --> 00:15:41,150
+try to provide some original theory of some of trying to explain what you're seeing
+
+323
+00:15:41,159 --> 00:15:44,070
+and understand what it is you need to do in order to investigate it.
+
+324
+00:15:44,659 --> 00:15:49,419
+So for me, it was more the thinking process
+
+325
+00:15:49,719 --> 00:15:50,580
+or learning
+
+326
+00:15:50,840 --> 00:15:53,150
+the thinking process more than the actual
+
+327
+00:15:53,690 --> 00:15:57,859
+specific topic I was studying that I felt was
+
+328
+00:15:58,190 --> 00:15:59,359
+neither here nor there.
+
+329
+00:16:00,400 --> 00:16:01,640
+No, I, I um
+
+330
+00:16:02,510 --> 00:16:05,289
+I totally agree with you. I felt,
+
+331
+00:16:06,090 --> 00:16:10,030
+I don't think your conclusion is entirely wrong about the three year thing.
+
+332
+00:16:10,039 --> 00:16:11,750
+I, I know when I speak to a lot of my
+
+333
+00:16:12,229 --> 00:16:14,549
+sort of European colleagues that,
+
+334
+00:16:15,460 --> 00:16:17,590
+you know, the four or five year standard
+
+335
+00:16:17,690 --> 00:16:19,080
+degree or master's
+
+336
+00:16:19,369 --> 00:16:21,340
+or, or rather let's put it around the other way,
+
+337
+00:16:21,609 --> 00:16:24,000
+people who do end up going into a PhD
+
+338
+00:16:24,489 --> 00:16:27,059
+from a UK background sometimes struggle a little
+
+339
+00:16:27,070 --> 00:16:29,159
+bit in the first year because they hadn't had
+
+340
+00:16:29,340 --> 00:16:31,400
+the same amount of knowledge
+
+341
+00:16:31,619 --> 00:16:33,659
+as people who have done longer degrees.
+
+342
+00:16:33,830 --> 00:16:34,599
+Um,
+
+343
+00:16:35,000 --> 00:16:38,919
+but the, the other way works as well that if you were to leave after just three years,
+
+344
+00:16:39,400 --> 00:16:39,419
+uh,
+
+345
+00:16:39,479 --> 00:16:41,890
+you wouldn't have necessarily had the same length of
+
+346
+00:16:41,900 --> 00:16:44,549
+study time and individual projects and things like that.
+
+347
+00:16:44,559 --> 00:16:44,820
+So,
+
+348
+00:16:44,929 --> 00:16:45,820
+I think that's still,
+
+349
+00:16:46,640 --> 00:16:49,989
+um, it holds true today, at least in my opinion.
+
+350
+00:16:50,109 --> 00:16:51,059
+Um And
+
+351
+00:16:51,349 --> 00:16:54,739
+you were probably, would you not say one of the
+
+352
+00:16:55,919 --> 00:17:01,679
+few—there were far fewer people, I would say having a PhD going into Formula One
+
+353
+00:17:02,070 --> 00:17:03,590
+in the early nineties compared to.
+
+354
+00:17:03,599 --> 00:17:05,979
+Now, was that the case when you went to Benetton,
+
+355
+00:17:06,060 --> 00:17:07,979
+were you one of the few people who had
+
+356
+00:17:07,989 --> 00:17:10,390
+done a PhD or was it actually already quite common
+
+357
+00:17:11,650 --> 00:17:11,699
+uh in
+
+358
+00:17:11,979 --> 00:17:12,368
+Benetton?
+
+359
+00:17:13,089 --> 00:17:13,868
+I think
+
+360
+00:17:14,449 --> 00:17:16,430
+there were very few. Maybe it was
+
+361
+00:17:16,760 --> 00:17:19,750
+me and one other guy in, I remember, structural
+
+362
+00:17:19,858 --> 00:17:20,750
+mechanics, I think,
+
+363
+00:17:21,118 --> 00:17:23,030
+I don't think there was anybody else there.
+
+364
+00:17:23,489 --> 00:17:25,858
+And back then, of course, there was a lot more
+
+365
+00:17:26,329 --> 00:17:30,030
+um people who'd grown through the ranks and uh
+
+366
+00:17:30,989 --> 00:17:33,140
+been mechanics in their youth or,
+
+367
+00:17:33,150 --> 00:17:36,839
+or whatever and uh as well as quite a few engineers, of course,
+
+368
+00:17:37,390 --> 00:17:39,250
+um in aerodynamics
+
+369
+00:17:39,430 --> 00:17:40,369
+back then.
+
+370
+00:17:40,770 --> 00:17:45,650
+Obviously, aerodynamics in the, let's say in the eighties or in the,
+
+371
+00:17:45,880 --> 00:17:49,459
+or even the late seventies during the Colin Chapman, whatever
+
+372
+00:17:49,569 --> 00:17:51,209
+the period I described as a kid
+
+373
+00:17:52,060 --> 00:17:52,310
+aerodynamics
+
+374
+00:17:52,520 --> 00:17:53,880
+was evolving
+
+375
+00:17:54,209 --> 00:17:56,719
+very much um empirically
+
+376
+00:17:58,510 --> 00:17:59,089
+and
+
+377
+00:17:59,709 --> 00:17:59,719
+I
+
+378
+00:18:00,069 --> 00:18:03,130
+don't think people who did it really had that much
+
+379
+00:18:03,589 --> 00:18:05,219
+knowledge about aerodynamics.
+
+380
+00:18:05,229 --> 00:18:08,439
+So there were people who were quite successful aerodynamicists
+
+381
+00:18:09,170 --> 00:18:10,000
+back then
+
+382
+00:18:10,390 --> 00:18:14,739
+who actually had very little formal knowledge about aerodynamics.
+
+383
+00:18:15,150 --> 00:18:18,750
+I think when I arrived in the scene in the nineties,
+
+384
+00:18:18,900 --> 00:18:19,989
+it had become,
+
+385
+00:18:20,479 --> 00:18:22,229
+it was beginning to be more
+
+386
+00:18:22,849 --> 00:18:23,349
+um
+
+387
+00:18:25,500 --> 00:18:28,699
+accepted that people needed to,
+
+388
+00:18:28,709 --> 00:18:31,739
+to actually have understood aerodynamics a bit better.
+
+389
+00:18:32,430 --> 00:18:34,260
+And certainly there was,
+
+390
+00:18:34,270 --> 00:18:36,800
+there were a few other people also from Imperial
+
+391
+00:18:36,810 --> 00:18:39,420
+College who had gone into Formula One back then.
+
+392
+00:18:39,949 --> 00:18:41,859
+The big difference to now, of course is that
+
+393
+00:18:42,770 --> 00:18:46,150
+um when I arrived at Benetton, I was the second
+
+394
+00:18:46,359 --> 00:18:47,180
+aerodynamicist.
+
+395
+00:18:48,449 --> 00:18:49,050
+Um uh
+
+396
+00:18:49,670 --> 00:18:55,060
+So basically, my boss was head of aerodynamics and me as junior aerodynamicist
+
+397
+00:18:55,800 --> 00:18:57,219
+and um
+
+398
+00:18:57,589 --> 00:18:58,819
+most teams had
+
+399
+00:18:59,300 --> 00:19:02,219
+two or three, or maybe four aerodynamicists in the bigger teams.
+
+400
+00:19:02,900 --> 00:19:04,449
+And uh
+
+401
+00:19:06,349 --> 00:19:11,069
+and maybe the small teams had one aerodynamicist.
+
+402
+00:19:11,489 --> 00:19:13,420
+and as a consequence,
+
+403
+00:19:13,780 --> 00:19:17,569
+the opportunities to enter Formula One were much fewer back then.
+
+404
+00:19:18,160 --> 00:19:18,689
+I felt
+
+405
+00:19:19,469 --> 00:19:21,489
+it was a double edged sword because
+
+406
+00:19:21,880 --> 00:19:22,410
+um
+
+407
+00:19:22,560 --> 00:19:27,199
+nowadays, I think people enter, I think it's probably a bit easier to enter now.
+
+408
+00:19:27,920 --> 00:19:27,930
+A
+
+409
+00:19:28,150 --> 00:19:30,770
+lot of competition, quite hard needs hard work,
+
+410
+00:19:31,920 --> 00:19:32,469
+but
+
+411
+00:19:33,500 --> 00:19:37,680
+their career progression afterwards is a bit slower because a lot slower,
+
+412
+00:19:38,180 --> 00:19:40,390
+it's unthinkable for somebody to be,
+
+413
+00:19:40,910 --> 00:19:44,800
+I don't know, chief aerodynamicist. At 26 I was chief aerodynamicist.
+
+414
+00:19:45,660 --> 00:19:45,680
+I
+
+415
+00:19:45,829 --> 00:19:46,000
+was going,
+
+416
+00:19:46,859 --> 00:19:47,359
+I mean,
+
+417
+00:19:47,650 --> 00:19:50,040
+nowadays, I think if they're lucky
+
+418
+00:19:51,010 --> 00:19:52,920
+and very capable, they will be
+
+419
+00:19:53,150 --> 00:19:58,040
+maybe that sort of position at 35 or something like that.
+
+420
+00:19:58,760 --> 00:19:59,489
+Um
+
+421
+00:19:59,770 --> 00:20:03,229
+So I think it was arguably more difficult to enter back then.
+
+422
+00:20:04,949 --> 00:20:05,719
+But
+
+423
+00:20:06,339 --> 00:20:11,119
+once you entered, I think if you had some sort of level of competence, I guess
+
+424
+00:20:11,439 --> 00:20:13,859
+your progression was a bit more rapid.
+
+425
+00:20:14,349 --> 00:20:15,439
+And I remember back then,
+
+426
+00:20:15,449 --> 00:20:19,849
+even I had this feeling for the generation of engineers who were
+
+427
+00:20:20,560 --> 00:20:23,530
+in Formula One since the seventies, they were all
+
+428
+00:20:23,890 --> 00:20:27,329
+sort of chief designers, technical directors, you know, they,
+
+429
+00:20:27,339 --> 00:20:30,189
+they had designed everything from nose to tail
+
+430
+00:20:30,500 --> 00:20:31,729
+and they had a uh
+
+431
+00:20:31,920 --> 00:20:34,680
+I felt that for many years there was
+
+432
+00:20:34,839 --> 00:20:34,849
+a
+
+433
+00:20:35,760 --> 00:20:36,989
+quite a gap in
+
+434
+00:20:37,520 --> 00:20:39,439
+Formula One because there were these
+
+435
+00:20:40,630 --> 00:20:42,790
+divine heroes in my perception
+
+436
+00:20:43,530 --> 00:20:44,569
+in the seventies
+
+437
+00:20:45,079 --> 00:20:47,010
+who knew how to do the whole car
+
+438
+00:20:47,660 --> 00:20:51,130
+and all the young people like me or other people arriving,
+
+439
+00:20:51,640 --> 00:20:52,339
+um
+
+440
+00:20:52,579 --> 00:20:54,900
+didn't have exposure to the whole car and
+
+441
+00:20:55,219 --> 00:20:55,439
+it
+
+442
+00:20:55,560 --> 00:20:58,770
+was difficult to see how they're going to expand one day and so on
+
+443
+00:20:59,020 --> 00:21:01,410
+Clearly. I guess biology
+
+444
+00:21:02,290 --> 00:21:03,089
+contributed to that.
+
+445
+00:21:04,489 --> 00:21:05,510
+They retired or went out of
+
+446
+00:21:05,630 --> 00:21:07,569
+work, and then you had to step in.
+
+447
+00:21:09,770 --> 00:21:11,520
+Yeah. I mean, that is—
+
+448
+00:21:11,650 --> 00:21:15,030
+so you went from Imperial, so you went to Benetton
+
+449
+00:21:15,790 --> 00:21:16,630
+was Benetton.
+
+450
+00:21:17,150 --> 00:21:20,430
+Where was it? Was it in Enstone by that time?
+
+451
+00:21:20,640 --> 00:21:20,900
+Um
+
+452
+00:21:22,099 --> 00:21:27,359
+Yes, I think uh well, when I started working, which was end of 92. They had moved to
+
+453
+00:21:28,680 --> 00:21:29,260
+literally
+
+454
+00:21:29,380 --> 00:21:30,180
+probably a
+
+455
+00:21:30,520 --> 00:21:30,989
+month
+
+456
+00:21:31,530 --> 00:21:32,630
+or something like that.
+
+457
+00:21:32,810 --> 00:21:33,660
+It was very new.
+
+458
+00:21:34,329 --> 00:21:38,790
+And uh and yeah, I, I my interview to
+
+459
+00:21:39,000 --> 00:21:42,520
+be accepted at Benetton was done at a previous factory.
+
+460
+00:21:42,530 --> 00:21:44,930
+And then when I started working, it was a new one.
+
+461
+00:21:45,849 --> 00:21:47,989
+What was it like at a personal level? Because,
+
+462
+00:21:48,790 --> 00:21:50,890
+um, you were in Cambridge
+
+463
+00:21:51,449 --> 00:21:53,089
+then, I guess in London
+
+464
+00:21:53,239 --> 00:21:56,810
+and then you were coming out. Did, did you have a bit of a shock moving to this
+
+465
+00:21:57,270 --> 00:22:01,300
+Oxfordshire countryside Cotswolds from the sort of big city of,
+
+466
+00:22:01,530 --> 00:22:03,270
+of London? Was that sort of
+
+467
+00:22:03,459 --> 00:22:03,469
+a
+
+468
+00:22:05,859 --> 00:22:06,310
+move
+
+469
+00:22:06,550 --> 00:22:07,069
+um,
+
+470
+00:22:07,750 --> 00:22:11,400
+from a personal side, uh I guess a bit, but I,
+
+471
+00:22:13,050 --> 00:22:16,569
+I was obviously a lot younger than I am now and I had
+
+472
+00:22:16,869 --> 00:22:18,109
+quite a lot of stamina
+
+473
+00:22:18,250 --> 00:22:20,170
+and I,
+
+474
+00:22:20,579 --> 00:22:23,869
+all my social life, I remained in London.
+
+475
+00:22:26,380 --> 00:22:27,760
+Uh I found a house
+
+476
+00:22:28,359 --> 00:22:31,130
+uh in a place called Wheatley, which is
+
+477
+00:22:31,420 --> 00:22:32,319
+uh quite
+
+478
+00:22:32,459 --> 00:22:36,109
+close to Oxford, and quite close to the M40. So I could
+
+479
+00:22:36,849 --> 00:22:37,750
+easily
+
+480
+00:22:37,959 --> 00:22:40,239
+get into London within about 50 minutes.
+
+481
+00:22:40,709 --> 00:22:42,819
+There was fewer speed cameras back then.
+
+482
+00:22:43,079 --> 00:22:43,790
+Um
+
+483
+00:22:43,959 --> 00:22:47,229
+And uh I was about 20 minutes from work
+
+484
+00:22:47,579 --> 00:22:51,510
+and I would go to London almost every weekend.
+
+485
+00:22:53,010 --> 00:22:55,180
+Usually I'd probably go into London
+
+486
+00:22:55,589 --> 00:22:59,910
+probably once midweek as well to meet with friends and stuff like that.
+
+487
+00:23:00,719 --> 00:23:02,290
+And of course, we had the wind tunnel,
+
+488
+00:23:02,300 --> 00:23:04,640
+we were using a wind tunnel at Farnborough back then,
+
+489
+00:23:04,650 --> 00:23:06,550
+which was a little bit closer to London.
+
+490
+00:23:06,560 --> 00:23:07,400
+Still. So,
+
+491
+00:23:07,849 --> 00:23:08,579
+so,
+
+492
+00:23:09,229 --> 00:23:09,989
+so,
+
+493
+00:23:10,369 --> 00:23:14,530
+yeah, my, my, I never had any real social life in Oxford or,
+
+494
+00:23:14,900 --> 00:23:17,260
+or in that area. All my life was in London,
+
+495
+00:23:17,959 --> 00:23:20,400
+which is, I always find it a little bit
+
+496
+00:23:21,130 --> 00:23:24,930
+unusual and I know there's some historical reasons for it that these
+
+497
+00:23:25,170 --> 00:23:28,719
+Formula One teams, other than a couple of exceptions are
+
+498
+00:23:28,979 --> 00:23:32,160
+all within this 40–50-mile radius of each other.
+
+499
+00:23:32,520 --> 00:23:34,040
+Do you find that?
+
+500
+00:23:34,050 --> 00:23:36,609
+Uh And then when I speak to some younger people, they hate it because they're like,
+
+501
+00:23:36,619 --> 00:23:38,339
+oh God, I'm moving out to the countryside.
+
+502
+00:23:38,349 --> 00:23:38,869
+There's no,
+
+503
+00:23:39,229 --> 00:23:41,270
+you know, there's just these old pubs around,
+
+504
+00:23:41,589 --> 00:23:46,109
+hence why you went to London and I think others sometimes want to be close to a city.
+
+505
+00:23:46,489 --> 00:23:47,109
+Um
+
+506
+00:23:47,880 --> 00:23:51,180
+It does create a weird dynamic though, doesn't it, it all being
+
+507
+00:23:52,000 --> 00:23:52,910
+in just this one
+
+508
+00:23:53,780 --> 00:23:55,209
+part of the world, do you not think?
+
+509
+00:23:55,640 --> 00:23:56,369
+Yeah, I mean, it's
+
+510
+00:23:56,510 --> 00:23:59,760
+understandable technically why this is the case because
+
+511
+00:23:59,869 --> 00:24:00,430
+the,
+
+512
+00:24:00,729 --> 00:24:02,729
+um these teams
+
+513
+00:24:03,569 --> 00:24:04,150
+um
+
+514
+00:24:06,109 --> 00:24:08,410
+indirectly and unwillingly
+
+515
+00:24:08,839 --> 00:24:11,030
+sort of collaborate with each other to some degree
+
+516
+00:24:12,640 --> 00:24:14,250
+nicking each other's personnel.
+
+517
+00:24:14,959 --> 00:24:17,189
+That's exactly what I was alluding to that,
+
+518
+00:24:17,540 --> 00:24:21,449
+I guess as you can just jump to another team and still stay living in the same place
+
+519
+00:24:21,589 --> 00:24:24,069
+when I found my house, I chose it
+
+520
+00:24:24,280 --> 00:24:27,209
+strategically. I bought a small flat back then
+
+521
+00:24:27,319 --> 00:24:29,829
+when I got my job after a few months.
+
+522
+00:24:30,420 --> 00:24:31,989
+But I thought, well,
+
+523
+00:24:32,380 --> 00:24:35,459
+it is close to Oxford. Um
+
+524
+00:24:35,560 --> 00:24:38,150
+If you look at where the teams are Benetton and,
+
+525
+00:24:38,550 --> 00:24:42,689
+uh, the various other Formula One teams, Williams was a bit south of Oxford back then
+
+526
+00:24:43,010 --> 00:24:47,569
+and so on. So I felt that I was covering a reasonably good circle.
+
+527
+00:24:47,989 --> 00:24:51,689
+Of course, then I moved to Italy afterwards,
+
+528
+00:24:55,859 --> 00:24:57,199
+so I had to sell my house.
+
+529
+00:24:57,640 --> 00:24:59,239
+But, um,
+
+530
+00:25:00,209 --> 00:25:03,869
+but yeah, initially I thought, yeah, it's quite a strategic choice.
+
+531
+00:25:04,449 --> 00:25:05,920
+But in the end
+
+532
+00:25:06,930 --> 00:25:08,300
+life came about differently
+
+533
+00:25:09,089 --> 00:25:10,699
+to the point that I, um,
+
+534
+00:25:11,469 --> 00:25:15,560
+if I go to a pub in Woodstock or, or somewhere, it's,
+
+535
+00:25:15,569 --> 00:25:18,400
+I'm always surprised how often you'll see somebody
+
+536
+00:25:18,410 --> 00:25:20,380
+and I think it's probably best not to,
+
+537
+00:25:20,780 --> 00:25:22,890
+it'd be hard to have a secret meeting, you know,
+
+538
+00:25:22,900 --> 00:25:25,560
+when people are deciding to move teams because you'd have to pick
+
+539
+00:25:25,569 --> 00:25:28,229
+a pub that no one else is going to go into.
+
+540
+00:25:28,239 --> 00:25:28,920
+I'm sure
+
+541
+00:25:29,189 --> 00:25:33,280
+there's been some conversations, uh, overheard for sure. Um,
+
+542
+00:25:34,130 --> 00:25:37,959
+so you were, I mean, that was incredible. You joined in 92
+
+543
+00:25:38,489 --> 00:25:38,949
+and then,
+
+544
+00:25:39,329 --> 00:25:41,689
+and then by 94 you were essentially
+
+545
+00:25:41,949 --> 00:25:44,900
+the head of aerodynamics or the chief aerodynamicist
+
+546
+00:25:46,069 --> 00:25:49,810
+Yeah, the latter part of '94, so two years after I joined, I guess I was
+
+547
+00:25:50,099 --> 00:25:50,260
+the chief aerodynamicist.
+
+548
+00:25:52,150 --> 00:25:54,089
+actually. That's almost unbelievable.
+
+549
+00:25:54,239 --> 00:25:56,410
+You know, now people
+
+550
+00:25:56,839 --> 00:26:01,609
+never become head of aero—they're 15 years in and still trying.
+
+551
+00:26:01,880 --> 00:26:03,130
+How was that?
+
+552
+00:26:03,439 --> 00:26:06,359
+Were you always used to
+
+553
+00:26:06,760 --> 00:26:08,599
+leadership positions? I know it sounds a strange way.
+
+554
+00:26:08,609 --> 00:26:11,060
+Were you comfortable in that sort of
+
+555
+00:26:11,390 --> 00:26:12,609
+responsibility?
+
+556
+00:26:15,640 --> 00:26:18,520
+Yeah, I don't, I don't think, I mean, I, I'm not
+
+557
+00:26:19,069 --> 00:26:20,010
+saying
+
+558
+00:26:21,229 --> 00:26:26,619
+I'm necessarily, I'm good or not good at leadership positions, but I didn't have
+
+559
+00:26:26,790 --> 00:26:26,800
+a,
+
+560
+00:26:27,489 --> 00:26:28,640
+um,
+
+561
+00:26:28,760 --> 00:26:32,520
+I mean, I enjoyed what I was doing very much. I was a very hard worker.
+
+562
+00:26:33,319 --> 00:26:34,319
+Um,
+
+563
+00:26:34,459 --> 00:26:37,520
+it was a passion for me as well as a profession
+
+564
+00:26:38,510 --> 00:26:39,369
+and I,
+
+565
+00:26:39,949 --> 00:26:41,910
+I think I was half decent. So,
+
+566
+00:26:42,270 --> 00:26:44,329
+so, um, all of that
+
+567
+00:26:44,589 --> 00:26:44,959
+was
+
+568
+00:26:45,589 --> 00:26:46,969
+ok. I always felt that
+
+569
+00:26:48,589 --> 00:26:49,859
+people who are
+
+570
+00:26:51,300 --> 00:26:55,939
+cutting up patients on a, on a surgery table or something like that
+
+571
+00:26:55,949 --> 00:26:57,150
+have more responsibility
+
+572
+00:26:57,930 --> 00:27:00,329
+than I had in many ways.
+
+573
+00:27:01,969 --> 00:27:02,910
+So,
+
+574
+00:27:03,750 --> 00:27:06,920
+what I mean is maybe less publicity and maybe,
+
+575
+00:27:07,430 --> 00:27:08,750
+but, but still,
+
+576
+00:27:09,089 --> 00:27:10,439
+I think ultimately
+
+577
+00:27:11,420 --> 00:27:15,689
+I always felt yes, it is a lot of responsibility but it is, we are still doing
+
+578
+00:27:16,479 --> 00:27:17,449
+sport or
+
+579
+00:27:17,989 --> 00:27:18,449
+something
+
+580
+00:27:18,810 --> 00:27:20,540
+a pastime, almost, for a lot of people. So it, it
+
+581
+00:27:21,109 --> 00:27:26,589
+That doesn't mean I ever used that as an excuse to say to somebody, ‘Well, don't worry,’
+
+582
+00:27:26,599 --> 00:27:27,130
+you know, we,
+
+583
+00:27:27,900 --> 00:27:27,910
+uh,
+
+584
+00:27:28,650 --> 00:27:29,199
+my boss,
+
+585
+00:27:30,900 --> 00:27:34,079
+but I always felt that ultimately we are, uh, you know,
+
+586
+00:27:34,089 --> 00:27:35,729
+we are still doing something that is fun.
+
+587
+00:27:35,739 --> 00:27:36,410
+And, um,
+
+588
+00:27:36,689 --> 00:27:37,050
+so,
+
+589
+00:27:37,560 --> 00:27:37,750
+yeah,
+
+590
+00:27:38,280 --> 00:27:40,709
+did, um, what was it like though? Going to
+
+591
+00:27:40,849 --> 00:27:43,260
+that first, you know, few days at Benetton
+
+592
+00:27:43,390 --> 00:27:46,140
+because as someone who was really into Formula One,
+
+593
+00:27:46,869 --> 00:27:49,550
+that first few days of being in it, was it
+
+594
+00:27:49,699 --> 00:27:52,310
+everything you hoped it to be? Was it a
+
+595
+00:27:52,569 --> 00:27:56,729
+bit less, you know, what was the feeling like those first?
+
+596
+00:27:57,500 --> 00:27:58,219
+Well, I remember
+
+597
+00:27:59,829 --> 00:28:00,729
+driving,
+
+598
+00:28:00,900 --> 00:28:01,560
+uh,
+
+599
+00:28:01,839 --> 00:28:04,640
+up those country lanes, um,
+
+600
+00:28:05,140 --> 00:28:05,849
+on
+
+601
+00:28:06,310 --> 00:28:07,729
+the morning of day one.
+
+602
+00:28:08,829 --> 00:28:13,520
+And of course, that was pre GPS and, uh, trying to find my way around.
+
+603
+00:28:14,619 --> 00:28:16,599
+And I remember driving and,
+
+604
+00:28:17,770 --> 00:28:20,189
+and thinking now, finally I'm going to
+
+605
+00:28:21,449 --> 00:28:22,449
+learn the truth.
+
+606
+00:28:22,910 --> 00:28:26,630
+You know, I'm going to ask all the questions for why,
+
+607
+00:28:27,349 --> 00:28:28,630
+uh, this is
+
+608
+00:28:29,040 --> 00:28:31,000
+done in this way or that way
+
+609
+00:28:31,270 --> 00:28:35,579
+and why is the car shaped in that particular way? Why is this particular
+
+610
+00:28:36,150 --> 00:28:37,030
+duct and so on?
+
+611
+00:28:37,599 --> 00:28:38,589
+And, um
+
+612
+00:28:39,780 --> 00:28:40,760
+so
+
+613
+00:28:41,930 --> 00:28:43,459
+I remember asking
+
+614
+00:28:43,770 --> 00:28:46,530
+when I arrived, you know, the first day I went to the wind tunnel and say,
+
+615
+00:28:46,540 --> 00:28:47,469
+why is this like that?
+
+616
+00:28:47,479 --> 00:28:48,189
+Why is it like that?
+
+617
+00:28:48,890 --> 00:28:51,020
+And I got a lot of answers along the
+
+618
+00:28:51,349 --> 00:28:55,640
+lines of uh well, you know, we've tried certain shapes and this is the best one.
+
+619
+00:28:56,369 --> 00:28:59,969
+And uh and I've got no idea why this works.
+
+620
+00:29:01,250 --> 00:29:02,030
+So
+
+621
+00:29:02,219 --> 00:29:03,550
+I guess my
+
+622
+00:29:03,869 --> 00:29:04,550
+um
+
+623
+00:29:05,810 --> 00:29:07,040
+yeah, my
+
+624
+00:29:07,380 --> 00:29:10,180
+imagination of perfection was
+
+625
+00:29:10,319 --> 00:29:11,319
+damped
+
+626
+00:29:11,530 --> 00:29:11,979
+very, very
+
+627
+00:29:13,930 --> 00:29:14,199
+uh
+
+628
+00:29:14,380 --> 00:29:14,640
+uh
+
+629
+00:29:15,119 --> 00:29:15,880
+and,
+
+630
+00:29:16,130 --> 00:29:16,479
+and
+
+631
+00:29:17,260 --> 00:29:20,760
+people nowadays, I think struggle a bit to understand it because
+
+632
+00:29:21,770 --> 00:29:22,739
+nowadays,
+
+633
+00:29:23,699 --> 00:29:24,599
+you have such
+
+634
+00:29:25,890 --> 00:29:27,910
+near perfect simulations that
+
+635
+00:29:28,689 --> 00:29:33,650
+people can see the flow can see almost every little vortex, every little
+
+636
+00:29:34,439 --> 00:29:35,189
+eddy
+
+637
+00:29:35,719 --> 00:29:36,989
+or something like that.
+
+638
+00:29:37,989 --> 00:29:38,589
+Um
+
+639
+00:29:39,760 --> 00:29:40,569
+Whereas
+
+640
+00:29:40,829 --> 00:29:41,670
+back then, of course,
+
+641
+00:29:41,680 --> 00:29:45,810
+we didn't have that and therefore to understand what the flow is doing,
+
+642
+00:29:45,819 --> 00:29:47,400
+it was extremely difficult.
+
+643
+00:29:48,099 --> 00:29:50,599
+And people
+
+644
+00:29:51,229 --> 00:29:54,000
+of the previous generation hadn't pursued
+
+645
+00:29:54,359 --> 00:29:54,790
+as many
+
+646
+00:29:54,910 --> 00:29:56,780
+aerodynamic, you know,
+
+647
+00:29:57,510 --> 00:30:00,930
+studies, and therefore a lot of it was empirical. So
+
+648
+00:30:01,140 --> 00:30:02,040
+my,
+
+649
+00:30:02,260 --> 00:30:05,609
+yeah, my my dream was shattered quite early
+
+650
+00:30:06,180 --> 00:30:07,410
+but not my enthusiasm.
+
+651
+00:30:07,420 --> 00:30:11,750
+But I mean, and I also realized very quickly that it's very difficult that
+
+652
+00:30:12,339 --> 00:30:17,449
+you still need a lot of empirical approach. Even if you've done a PhD, it's not
+
+653
+00:30:18,760 --> 00:30:22,229
+your PhD doesn't immediately tell you what shape to do or anything
+
+654
+00:30:22,410 --> 00:30:26,250
+like that. So you still have to spend a lot of time understanding things.
+
+655
+00:30:27,079 --> 00:30:28,650
+I, I must admit, um,
+
+656
+00:30:29,150 --> 00:30:30,329
+I had that
+
+657
+00:30:30,579 --> 00:30:32,180
+reaction when I went into Formula
+
+658
+00:30:32,329 --> 00:30:32,969
+One and I, I
+
+659
+00:30:33,239 --> 00:30:34,689
+think I've seen others that
+
+660
+00:30:35,030 --> 00:30:35,689
+the only
+
+661
+00:30:36,219 --> 00:30:38,849
+the problem with doing a PhD in a way is that
+
+662
+00:30:38,969 --> 00:30:41,170
+you have become an expert in your area,
+
+663
+00:30:41,180 --> 00:30:43,170
+you become almost a little bit opinionated
+
+664
+00:30:43,180 --> 00:30:45,250
+because you've been a sole person working
+
+665
+00:30:45,780 --> 00:30:50,199
+and sometimes the temptation is to go in from academia to industry
+
+666
+00:30:51,040 --> 00:30:53,819
+and instantly question, you know, why aren't you doing this?
+
+667
+00:30:53,829 --> 00:30:54,739
+Why aren't you doing that?
+
+668
+00:30:55,270 --> 00:30:56,290
+And um
+
+669
+00:30:57,089 --> 00:30:59,540
+but conversely, I found that, that
+
+670
+00:31:00,280 --> 00:31:01,170
+um
+
+671
+00:31:01,839 --> 00:31:04,099
+practical pragmatism
+
+672
+00:31:04,280 --> 00:31:05,979
+is something that is just
+
+673
+00:31:06,569 --> 00:31:10,140
+almost essential within industry, isn't it? There's a certain amount of this
+
+674
+00:31:10,810 --> 00:31:13,900
+thing that, you know, the ideal world is in academia.
+
+675
+00:31:14,189 --> 00:31:16,130
+But if you only live in the academic world,
+
+676
+00:31:16,140 --> 00:31:18,709
+you don't really see how things are really done in industry.
+
+677
+00:31:18,719 --> 00:31:20,640
+And that's what I personally have found.
+
+678
+00:31:21,119 --> 00:31:23,510
+People who go into industry
+
+679
+00:31:24,609 --> 00:31:27,869
+do see a more rounded view of,
+
+680
+00:31:27,880 --> 00:31:32,550
+of sort of design in the world um maybe different back then because
+
+681
+00:31:32,729 --> 00:31:35,709
+they didn't have some of the simulation approaches. Um
+
+682
+00:31:37,410 --> 00:31:37,760
+but
+
+683
+00:31:37,979 --> 00:31:38,000
+yeah,
+
+684
+00:31:38,479 --> 00:31:39,810
+I, I can see where you're coming from.
+
+685
+00:31:40,189 --> 00:31:40,709
+Well,
+
+686
+00:31:41,060 --> 00:31:43,079
+as I say, what I was impressed,
+
+687
+00:31:43,609 --> 00:31:47,079
+what I was not impressed with on day one was
+
+688
+00:31:47,609 --> 00:31:50,400
+the level of aerodynamic understanding. I felt
+
+689
+00:31:50,589 --> 00:31:51,349
+it was low.
+
+690
+00:31:51,770 --> 00:31:54,400
+What I was on the other hand, impressed with
+
+691
+00:31:55,290 --> 00:31:56,640
+was the
+
+692
+00:31:57,329 --> 00:32:01,750
+very intense programme and empirical approach and
+
+693
+00:32:02,060 --> 00:32:03,469
+getting the job done.
+
+694
+00:32:04,079 --> 00:32:06,829
+And that very much compensated. And
+
+695
+00:32:07,109 --> 00:32:08,900
+for sure if somebody arrived
+
+696
+00:32:09,339 --> 00:32:13,609
+on a high horse and said, this is what the theory says.
+
+697
+00:32:14,150 --> 00:32:15,300
+Uh one
+
+698
+00:32:15,579 --> 00:32:16,550
+wouldn't
+
+699
+00:32:16,750 --> 00:32:18,949
+be successful, one had to do a lot of
+
+700
+00:32:19,400 --> 00:32:20,020
+empirical things.
+
+701
+00:32:20,030 --> 00:32:24,589
+And I have to say in a bizarre way, my PhD because that was the previous question
+
+702
+00:32:24,930 --> 00:32:26,430
+helped me because
+
+703
+00:32:26,790 --> 00:32:28,290
+in my PhD, I had to
+
+704
+00:32:28,420 --> 00:32:32,030
+design my experimental apparatus. I had to design my
+
+705
+00:32:32,469 --> 00:32:36,890
+traversing gear to write little bits of software to analyze data, to
+
+706
+00:32:37,280 --> 00:32:38,290
+um
+
+707
+00:32:38,459 --> 00:32:42,030
+take algorithms and fit them into my programs to do.
+
+708
+00:32:42,040 --> 00:32:44,469
+I don't know, Fourier transforms and stuff like that.
+
+709
+00:32:44,849 --> 00:32:46,189
+So all of these things
+
+710
+00:32:47,670 --> 00:32:48,079
+um
+
+711
+00:32:49,270 --> 00:32:52,359
+I felt were extremely useful to my
+
+712
+00:32:52,469 --> 00:32:54,329
+first years at work
+
+713
+00:32:55,020 --> 00:32:56,209
+probably more than
+
+714
+00:32:56,819 --> 00:32:57,689
+the actual
+
+715
+00:32:57,890 --> 00:33:02,770
+knowledge I learned about vortices and uh bluff bodies.
+
+716
+00:33:03,439 --> 00:33:03,550
+Yeah.
+
+717
+00:33:03,719 --> 00:33:05,969
+No, no, I, I can see exactly.
+
+718
+00:33:06,160 --> 00:33:08,329
+And I guess at that time as well because there was so few
+
+719
+00:33:08,449 --> 00:33:11,109
+aerodynamicists, you had a bigger impact,
+
+720
+00:33:11,520 --> 00:33:12,209
+um
+
+721
+00:33:12,420 --> 00:33:14,569
+you know, potentially and you were driving the change.
+
+722
+00:33:14,739 --> 00:33:17,520
+One question I did have is back in that time,
+
+723
+00:33:17,780 --> 00:33:20,339
+you were probably, I guess at the
+
+724
+00:33:20,709 --> 00:33:23,900
+crucial starting point of when CFD,
+
+725
+00:33:24,439 --> 00:33:26,810
+when did CFD start to be used?
+
+726
+00:33:26,819 --> 00:33:28,560
+Was it in those early nineties or was it
+
+727
+00:33:28,569 --> 00:33:30,949
+when you moved to Ferrari that it was really more
+
+728
+00:33:31,430 --> 00:33:32,089
+predominantly
+
+729
+00:33:33,579 --> 00:33:34,270
+I
+
+730
+00:33:34,439 --> 00:33:35,439
+was
+
+731
+00:33:36,369 --> 00:33:39,510
+tasked with starting the Benetton CFD programme.
+
+732
+00:33:41,300 --> 00:33:41,790
+And, uh
+
+733
+00:33:43,010 --> 00:33:44,229
+and they did
+
+734
+00:33:44,670 --> 00:33:46,209
+quite a lot of work there.
+
+735
+00:33:47,189 --> 00:33:47,979
+Uh
+
+736
+00:33:49,219 --> 00:33:52,829
+to say that the CFD work I did actually benefited the
+
+737
+00:33:53,449 --> 00:33:57,359
+car would be probably quite wrong. Uh I
+
+738
+00:33:57,520 --> 00:33:58,540
+think I,
+
+739
+00:33:59,239 --> 00:34:03,560
+there was very little, if anything at all, that was CFD-originated
+
+740
+00:34:03,770 --> 00:34:04,520
+and so on.
+
+741
+00:34:04,969 --> 00:34:05,770
+Um
+
+742
+00:34:05,979 --> 00:34:06,750
+I,
+
+743
+00:34:07,699 --> 00:34:08,790
+I learned a lot
+
+744
+00:34:10,199 --> 00:34:11,540
+about CFD
+
+745
+00:34:12,159 --> 00:34:13,780
+and about why things
+
+746
+00:34:15,418 --> 00:34:17,299
+are more complicated than CFD.
+
+747
+00:34:17,309 --> 00:34:21,158
+So I think that benefited me in later stages of my career
+
+748
+00:34:21,819 --> 00:34:22,998
+when I was at McLaren
+
+749
+00:34:23,368 --> 00:34:24,059
+and Ferrari
+
+750
+00:34:24,309 --> 00:34:24,839
+and so on.
+
+751
+00:34:25,259 --> 00:34:29,638
+But initially, I remember I was doing 2D simulations for wings
+
+752
+00:34:30,858 --> 00:34:33,518
+very soon. I realized that it was pretty hopeless
+
+753
+00:34:34,099 --> 00:34:35,678
+and um
+
+754
+00:34:36,620 --> 00:34:39,708
+and I was writing some routines to change wing
+
+755
+00:34:39,719 --> 00:34:42,149
+shapes and stuff like that and try to optimize.
+
+756
+00:34:42,159 --> 00:34:42,409
+But
+
+757
+00:34:42,679 --> 00:34:43,478
+basically,
+
+758
+00:34:44,310 --> 00:34:49,370
+I didn't have a, a package that would tell me whether design A is better than design B
+
+759
+00:34:49,520 --> 00:34:49,770
+in
+
+760
+00:34:50,050 --> 00:34:53,149
+a reliable way. So that was pretty hopeless.
+
+761
+00:34:53,610 --> 00:34:54,399
+Um
+
+762
+00:34:54,620 --> 00:34:56,500
+I guess back in the nineties.
+
+763
+00:34:56,860 --> 00:34:59,409
+Uh And, and I was using the
+
+764
+00:35:00,120 --> 00:35:02,080
+uh how do you call it? The, the,
+
+765
+00:35:03,959 --> 00:35:06,370
+the ancestor of Fluent
+
+766
+00:35:06,489 --> 00:35:06,520
+was
+
+767
+00:35:06,959 --> 00:35:06,969
+a
+
+768
+00:35:07,330 --> 00:35:08,020
+package
+
+769
+00:35:08,860 --> 00:35:09,620
+called
+
+770
+00:35:09,790 --> 00:35:10,659
+RAMPANT.
+
+771
+00:35:12,310 --> 00:35:15,659
+It was done by, I think the company was called Fluent,
+
+772
+00:35:16,070 --> 00:35:18,620
+but, but the package was called RAMPANT
+
+773
+00:35:18,820 --> 00:35:18,929
+initially.
+
+774
+00:35:20,699 --> 00:35:21,669
+Um
+
+775
+00:35:22,149 --> 00:35:23,030
+then
+
+776
+00:35:24,229 --> 00:35:25,290
+I, I
+
+777
+00:35:25,939 --> 00:35:27,439
+felt at that time
+
+778
+00:35:27,649 --> 00:35:32,129
+and that was a common phenomenon in the nineties that people doing CFD felt
+
+779
+00:35:32,800 --> 00:35:33,620
+they were a bit
+
+780
+00:35:33,919 --> 00:35:36,370
+too cut off from the real action
+
+781
+00:35:36,659 --> 00:35:42,199
+They were like boffins on the side
+
+782
+00:35:42,840 --> 00:35:46,929
+and felt they were too detached. That was common back then.
+
+783
+00:35:47,489 --> 00:35:51,510
+It also happened to me at Ferrari when I was in a senior position,
+
+784
+00:35:51,520 --> 00:35:54,300
+people doing CFD would come to me and say, now I want to do wind
+
+785
+00:35:54,419 --> 00:35:55,110
+tunnel work
+
+786
+00:35:55,379 --> 00:35:56,070
+back then.
+
+787
+00:35:57,310 --> 00:35:57,899
+Um
+
+788
+00:35:58,360 --> 00:36:01,850
+So yes. Uh uh back then, I guess the most
+
+789
+00:36:02,659 --> 00:36:03,879
+useful CFD
+
+790
+00:36:04,340 --> 00:36:04,889
+um
+
+791
+00:36:05,100 --> 00:36:06,830
+process back then was
+
+792
+00:36:07,330 --> 00:36:08,300
+panel methods.
+
+793
+00:36:08,699 --> 00:36:12,530
+Um panel methods were numerically, of course, a lot less
+
+794
+00:36:13,300 --> 00:36:13,830
+dense.
+
+795
+00:36:14,110 --> 00:36:18,969
+Uh You could design really reasonably well 3D
+
+796
+00:36:19,290 --> 00:36:22,020
+shapes on wings like front wings.
+
+797
+00:36:22,510 --> 00:36:25,929
+And um we started doing some panel methods
+
+798
+00:36:26,439 --> 00:36:30,850
+then I was promoted to chief aerodynamicist in late 94. So
+
+799
+00:36:31,179 --> 00:36:34,250
+I moved much more. My focus was much more into the wind tunnel
+
+800
+00:36:34,520 --> 00:36:35,260
+and
+
+801
+00:36:35,479 --> 00:36:35,689
+so on.
+
+802
+00:36:36,840 --> 00:36:38,840
+Okay. And is it um
+
+803
+00:36:40,350 --> 00:36:44,449
+which would you say has advanced the most from a practical,
+
+804
+00:36:45,520 --> 00:36:46,610
+making-a-car perspective?
+
+805
+00:36:46,620 --> 00:36:48,459
+Do you think it's the wind tunnel technology
+
+806
+00:36:48,469 --> 00:36:51,100
+since the nineties or the CFD technology?
+
+807
+00:36:54,219 --> 00:36:55,280
+I would
+
+808
+00:36:56,199 --> 00:36:59,780
+say the CFD by probably quite a considerable factor.
+
+809
+00:37:01,250 --> 00:37:01,739
+I mean
+
+810
+00:37:02,929 --> 00:37:05,500
+CFD has multiplied by,
+
+811
+00:37:06,409 --> 00:37:07,219
+I don't know
+
+812
+00:37:08,350 --> 00:37:12,370
+hundreds if not thousands of times in usefulness. Uh uh
+
+813
+00:37:12,629 --> 00:37:16,280
+Whereas wind tunnel was pretty useful back then,
+
+814
+00:37:16,929 --> 00:37:21,250
+of course, still very useful. Um clearly technology
+
+815
+00:37:21,939 --> 00:37:23,840
+has evolved massively,
+
+816
+00:37:24,459 --> 00:37:24,929
+but
+
+817
+00:37:25,580 --> 00:37:28,169
+the basics are extremely similar.
+
+818
+00:37:28,709 --> 00:37:29,300
+Um
+
+819
+00:37:30,239 --> 00:37:31,120
+whereas
+
+820
+00:37:31,969 --> 00:37:36,159
+uh back then, you know, CFD, like back then was like a,
+
+821
+00:37:37,060 --> 00:37:38,479
+like an abacus compared with now.
+
+822
+00:37:39,879 --> 00:37:42,610
+I want to, I mean, this is jumping forward a little bit,
+
+823
+00:37:42,620 --> 00:37:44,010
+but just while we're on the topic,
+
+824
+00:37:44,929 --> 00:37:45,550
+um
+
+825
+00:37:46,360 --> 00:37:50,459
+I remember there was a lot of discussion about this, particularly during the sort of Manor
+
+826
+00:37:50,760 --> 00:37:54,100
+period in the Virgin team. So there were some of these challengers who
+
+827
+00:37:54,399 --> 00:37:56,500
+tried to do more of a CFD-only
+
+828
+00:37:57,169 --> 00:37:58,060
+approach.
+
+829
+00:37:58,070 --> 00:37:58,570
+And obviously,
+
+830
+00:37:58,580 --> 00:38:03,219
+now there are a lot more topical discussions around the role of wind tunnels and CFD.
+
+831
+00:38:03,949 --> 00:38:07,379
+Do you see a future where CFD,
+
+832
+00:38:08,320 --> 00:38:08,600
+you know,
+
+833
+00:38:08,610 --> 00:38:13,929
+could be the only or the predominant design tool or do you see that there is a,
+
+834
+00:38:14,669 --> 00:38:16,300
+a role for wind tunnels and
+
+835
+00:38:16,679 --> 00:38:18,489
+experimental methods
+
+836
+00:38:18,959 --> 00:38:21,649
+almost always in this sport?
+
+837
+00:38:22,530 --> 00:38:23,270
+Um
+
+838
+00:38:24,449 --> 00:38:26,429
+Well depends. First of all, if you talk by,
+
+839
+00:38:26,610 --> 00:38:27,270
+by
+
+840
+00:38:27,469 --> 00:38:29,750
+the team's free choice or by
+
+841
+00:38:31,090 --> 00:38:32,100
+regulation, of
+
+842
+00:38:32,290 --> 00:38:32,330
+course,
+
+843
+00:38:32,949 --> 00:38:33,050
+depends
+
+844
+00:38:33,389 --> 00:38:34,830
+which way your question is.
+
+845
+00:38:35,439 --> 00:38:36,600
+Uh I guess
+
+846
+00:38:37,209 --> 00:38:38,820
+the prospect of CFD
+
+847
+00:38:39,229 --> 00:38:41,590
+being the only development tool I think is
+
+848
+00:38:42,020 --> 00:38:43,989
+I believe is becoming quite realistic.
+
+849
+00:38:44,830 --> 00:38:47,899
+Um I think you will always need
+
+850
+00:38:48,330 --> 00:38:49,580
+to have a very strong
+
+851
+00:38:50,350 --> 00:38:51,399
+correlation
+
+852
+00:38:51,600 --> 00:38:52,350
+for them.
+
+853
+00:38:52,979 --> 00:38:54,770
+And I believe that
+
+854
+00:38:55,840 --> 00:38:56,649
+therefore
+
+855
+00:38:57,500 --> 00:38:58,719
+to have a periodic
+
+856
+00:38:59,850 --> 00:39:01,879
+correlation um
+
+857
+00:39:02,090 --> 00:39:02,989
+opportunity,
+
+858
+00:39:03,000 --> 00:39:07,949
+I think will always be necessary because you can't expect just to do CFD and to
+
+859
+00:39:08,300 --> 00:39:10,320
+get a bad surprise when you arrive at the track.
+
+860
+00:39:10,330 --> 00:39:12,280
+So you will need some form of correlation.
+
+861
+00:39:13,909 --> 00:39:16,050
+I think that is a realistic prospect
+
+862
+00:39:16,389 --> 00:39:18,530
+that it could happen.
+
+863
+00:39:19,189 --> 00:39:21,540
+You mentioned Virgin
+
+864
+00:39:21,649 --> 00:39:22,129
+and
+
+865
+00:39:23,120 --> 00:39:23,739
+back
+
+866
+00:39:26,229 --> 00:39:26,989
+then
+
+867
+00:39:27,469 --> 00:39:30,250
+I was, you know, when they were making a lot of noise about.
+
+868
+00:39:30,889 --> 00:39:34,310
+Uh Well, actually we're going to do it all in CFD. I felt it was
+
+869
+00:39:34,530 --> 00:39:35,229
+naive.
+
+870
+00:39:36,199 --> 00:39:37,669
+Uh I
+
+871
+00:39:37,949 --> 00:39:38,929
+however,
+
+872
+00:39:39,310 --> 00:39:42,419
+was thinking back then, we were worrying a lot about,
+
+873
+00:39:42,989 --> 00:39:44,590
+I don't know, curved flows.
+
+874
+00:39:44,949 --> 00:39:45,510
+Um
+
+875
+00:39:46,889 --> 00:39:50,419
+If you go many years further, back, back in the mid nineties,
+
+876
+00:39:50,429 --> 00:39:53,219
+I believe at Benetton and we were probably the first
+
+877
+00:39:53,939 --> 00:39:55,179
+to do serious work in
+
+878
+00:39:55,290 --> 00:39:55,310
+yaw
+
+879
+00:39:56,050 --> 00:40:00,360
+and the role of yaw and steer. We were the first to go away from the straight ahead
+
+880
+00:40:00,760 --> 00:40:00,949
+to
+
+881
+00:40:01,060 --> 00:40:01,080
+yaw
+
+882
+00:40:01,250 --> 00:40:02,139
+and found that yaw
+
+883
+00:40:02,270 --> 00:40:05,030
+was giving so much performance that we had to develop a lot of them.
+
+884
+00:40:05,370 --> 00:40:08,149
+I think that was a trend that then subsequently
+
+885
+00:40:08,969 --> 00:40:10,580
+got copied by everybody.
+
+886
+00:40:11,030 --> 00:40:14,030
+But back in the sort of
+
+887
+00:40:15,000 --> 00:40:18,870
+mid two thousands and late two thousands, we were worried about a
+
+888
+00:40:19,300 --> 00:40:21,179
+lot more about wheel shapes,
+
+889
+00:40:21,719 --> 00:40:24,870
+uh and tires and tire deformations
+
+890
+00:40:25,280 --> 00:40:29,270
+and um hot flows, um
+
+891
+00:40:29,989 --> 00:40:32,469
+um curved flows,
+
+892
+00:40:32,719 --> 00:40:35,300
+all sorts of parameters of this sort of
+
+893
+00:40:35,489 --> 00:40:36,219
+nature
+
+894
+00:40:37,290 --> 00:40:38,419
+that clearly
+
+895
+00:40:38,600 --> 00:40:40,919
+could not be simulated in the wind tunnel properly.
+
+896
+00:40:41,620 --> 00:40:43,840
+And therefore, I remember thinking
+
+897
+00:40:44,770 --> 00:40:44,780
+uh
+
+898
+00:40:44,929 --> 00:40:45,629
+well,
+
+899
+00:40:45,939 --> 00:40:48,820
+maybe they, they have correlation issues, but at least
+
+900
+00:40:49,570 --> 00:40:50,449
+they can
+
+901
+00:40:50,639 --> 00:40:52,709
+simulate the full,
+
+902
+00:40:52,909 --> 00:40:54,080
+you know, the full monty
+
+903
+00:40:54,979 --> 00:40:58,070
+only to find out when I did my brief stint at Manor
+
+904
+00:40:58,209 --> 00:40:58,830
+um
+
+905
+00:40:59,320 --> 00:41:01,919
+that actually at Virgin
+
+906
+00:41:02,080 --> 00:41:04,790
+they were running just half a car straight ahead. So therefore,
+
+907
+00:41:05,439 --> 00:41:07,659
+I think they had the worst of both worlds. They had
+
+908
+00:41:07,780 --> 00:41:08,100
+just a
+
+909
+00:41:08,780 --> 00:41:10,699
+straight-ahead
+
+910
+00:41:11,050 --> 00:41:14,699
+condition to, to the best of what I've been told, I never saw any data,
+
+911
+00:41:14,709 --> 00:41:15,500
+but somebody told me
+
+912
+00:41:15,770 --> 00:41:16,790
+that was what they were doing
+
+913
+00:41:17,209 --> 00:41:20,830
+and no correlation. Clearly, I think they had underestimated
+
+914
+00:41:21,600 --> 00:41:25,409
+the difficulties that are posed by open wheels.
+
+915
+00:41:26,770 --> 00:41:27,870
+But how, I mean,
+
+916
+00:41:28,370 --> 00:41:33,770
+obviously I'm a CFD person, I'm quite biased in wanting to see more CFD.
+
+917
+00:41:33,780 --> 00:41:36,090
+But then equally, I can understand a,
+
+918
+00:41:37,239 --> 00:41:39,739
+an argument of, well, how does it make the sport
+
+919
+00:41:40,139 --> 00:41:42,090
+better? How do you balance?
+
+920
+00:41:42,100 --> 00:41:45,899
+And then the other argument is, well, Formula One should be the pinnacle of technology
+
+921
+00:41:46,620 --> 00:41:50,879
+and we need to be pushing all things forward like CFD and other things.
+
+922
+00:41:51,020 --> 00:41:55,270
+How do you balance in your head? This thing between it's a sport.
+
+923
+00:41:55,280 --> 00:41:58,320
+It's all about just how exciting the racing is versus
+
+924
+00:41:58,989 --> 00:42:02,729
+upholding that Formula One is the pinnacle of engineering.
+
+925
+00:42:02,739 --> 00:42:05,310
+It's trying to be always using the latest methods.
+
+926
+00:42:05,719 --> 00:42:09,479
+That's why companies want to sponsor it. You know, how do you balance those two?
+
+927
+00:42:10,169 --> 00:42:11,070
+That's
+
+928
+00:42:11,550 --> 00:42:11,560
+a
+
+929
+00:42:11,709 --> 00:42:14,229
+very good question and a very
+
+930
+00:42:14,600 --> 00:42:17,790
+difficult one. It's a very, very fine balance because
+
+931
+00:42:18,469 --> 00:42:19,389
+as you,
+
+932
+00:42:20,570 --> 00:42:21,659
+we do have,
+
+933
+00:42:21,969 --> 00:42:23,060
+uh obviously
+
+934
+00:42:24,770 --> 00:42:26,270
+we do rely on
+
+935
+00:42:27,530 --> 00:42:28,729
+public watching us
+
+936
+00:42:29,489 --> 00:42:30,070
+and,
+
+937
+00:42:31,179 --> 00:42:31,639
+and
+
+938
+00:42:32,429 --> 00:42:37,080
+the main client of Formula One is the fan on the grandstand
+
+939
+00:42:37,790 --> 00:42:39,489
+and they must
+
+940
+00:42:39,610 --> 00:42:43,429
+watch an exciting race, exciting championship.
+
+941
+00:42:43,639 --> 00:42:45,760
+Sometimes we succeed, sometimes less so.
+
+942
+00:42:47,469 --> 00:42:48,250
+Um
+
+943
+00:42:48,929 --> 00:42:52,030
+I think fans don't want to see Formula One become
+
+944
+00:42:53,330 --> 00:42:55,020
+like a one-make series.
+
+945
+00:42:55,479 --> 00:42:57,949
+I think they are interested in the fact that
+
+946
+00:42:57,959 --> 00:43:00,080
+it is a Ferrari fighting against a Red Bull,
+
+947
+00:43:00,090 --> 00:43:03,239
+against Mercedes, against McLaren, etcetera, etcetera.
+
+948
+00:43:05,239 --> 00:43:05,959
+Therefore,
+
+949
+00:43:07,739 --> 00:43:10,939
+there has to be a competition for technological stuff.
+
+950
+00:43:12,360 --> 00:43:13,090
+And at
+
+951
+00:43:13,580 --> 00:43:15,770
+the same time, Formula One needs to be
+
+952
+00:43:16,280 --> 00:43:17,659
+pure. Uh
+
+953
+00:43:18,139 --> 00:43:19,459
+when I say pure, I mean,
+
+954
+00:43:19,469 --> 00:43:24,110
+uh we don't want to have uh let's say Balance of Performance of some sort,
+
+955
+00:43:24,120 --> 00:43:26,570
+try to handicap the fast car or something like that.
+
+956
+00:43:27,850 --> 00:43:28,780
+Um
+
+957
+00:43:29,179 --> 00:43:30,729
+And fair in that respect.
+
+958
+00:43:31,010 --> 00:43:31,620
+And
+
+959
+00:43:31,870 --> 00:43:34,179
+also we, we need to,
+
+960
+00:43:35,850 --> 00:43:36,850
+to reduce
+
+961
+00:43:37,090 --> 00:43:37,870
+costs.
+
+962
+00:43:38,800 --> 00:43:39,699
+Um
+
+963
+00:43:39,830 --> 00:43:40,469
+And
+
+964
+00:43:40,729 --> 00:43:41,510
+in the last
+
+965
+00:43:42,719 --> 00:43:43,379
+period,
+
+966
+00:43:43,389 --> 00:43:45,379
+uh we all have an obligation to
+
+967
+00:43:45,389 --> 00:43:47,760
+remain relevant from an environmental point of view
+
+968
+00:43:48,129 --> 00:43:49,260
+and, and so on.
+
+969
+00:43:49,530 --> 00:43:50,580
+All of these
+
+970
+00:43:51,050 --> 00:43:52,239
+key targets,
+
+971
+00:43:52,449 --> 00:43:53,659
+entertainment,
+
+972
+00:43:54,110 --> 00:43:57,020
+technological, uh you know, environmental
+
+973
+00:43:57,229 --> 00:44:01,090
+um cost uh sustainability in that respect,
+
+974
+00:44:01,379 --> 00:44:02,500
+all of these are
+
+975
+00:44:03,360 --> 00:44:05,699
+mutually incompatible to some degree.
+
+976
+00:44:06,530 --> 00:44:08,389
+Uh So as any,
+
+977
+00:44:10,110 --> 00:44:11,919
+you know, mutually incompatible
+
+978
+00:44:14,050 --> 00:44:16,610
+um set of equations with
+
+979
+00:44:17,010 --> 00:44:21,040
+many equations with sorry, too many unknowns with too few equations
+
+980
+00:44:21,340 --> 00:44:22,179
+and vice versa,
+
+981
+00:44:22,560 --> 00:44:25,199
+um Too many equations with too few unknowns.
+
+982
+00:44:25,669 --> 00:44:26,270
+The
+
+983
+00:44:26,399 --> 00:44:30,770
+the solution is, is always, let's say what one perceives to be a best fit,
+
+984
+00:44:31,629 --> 00:44:32,189
+not
+
+985
+00:44:32,520 --> 00:44:34,620
+uh it's not um
+
+986
+00:44:35,040 --> 00:44:37,929
+it cannot be too much in one direction or the other.
+
+987
+00:44:38,350 --> 00:44:39,100
+Um
+
+988
+00:44:41,159 --> 00:44:44,020
+And that is a very difficult part we have
+
+989
+00:44:47,620 --> 00:44:49,969
+in my current role for us at the FIA is
+
+990
+00:44:52,060 --> 00:44:52,800
+really
+
+991
+00:44:54,679 --> 00:44:55,419
+having,
+
+992
+00:44:55,620 --> 00:44:59,699
+let's say an agenda to protect the sport as much as possible and to make it
+
+993
+00:44:59,959 --> 00:45:01,610
+grow and to keep it
+
+994
+00:45:01,929 --> 00:45:03,620
+to achieve those objectives,
+
+995
+00:45:04,370 --> 00:45:05,060
+we have
+
+996
+00:45:06,469 --> 00:45:07,169
+the
+
+997
+00:45:07,479 --> 00:45:10,639
+the team participants, you know, team principals, for example,
+
+998
+00:45:10,649 --> 00:45:12,389
+the the the bosses of the teams
+
+999
+00:45:12,550 --> 00:45:14,709
+who also love the sport and want it to be healthy.
+
+1000
+00:45:14,719 --> 00:45:16,610
+But they also at the same time, they want to win.
+
+1001
+00:45:16,820 --> 00:45:19,419
+And they in the discussion, they,
+
+1002
+00:45:19,860 --> 00:45:20,330
+they
+
+1003
+00:45:20,459 --> 00:45:21,320
+look at both,
+
+1004
+00:45:21,330 --> 00:45:23,229
+they look whether this particular rule is going
+
+1005
+00:45:23,239 --> 00:45:25,610
+to benefit my team more than their team.
+
+1006
+00:45:25,969 --> 00:45:26,979
+They also look at
+
+1007
+00:45:27,209 --> 00:45:30,189
+whether the sport is going to grow. Then you go into discussions with
+
+1008
+00:45:30,850 --> 00:45:34,110
+the engineers who also look at the interest of the sport
+
+1009
+00:45:34,580 --> 00:45:35,129
+and,
+
+1010
+00:45:35,610 --> 00:45:37,449
+and it's all very legitimate.
+
+1011
+00:45:37,459 --> 00:45:39,969
+But every participant and every stakeholder
+
+1012
+00:45:39,979 --> 00:45:42,159
+in these discussions has a slightly different
+
+1013
+00:45:42,709 --> 00:45:44,909
+angle to why they, they
+
+1014
+00:45:45,040 --> 00:45:48,020
+believe the sport should go in one particular direction or another.
+
+1015
+00:45:51,070 --> 00:45:51,320
+Um
+
+1016
+00:45:51,610 --> 00:45:53,790
+sorry, we can't make it just
+
+1017
+00:45:54,739 --> 00:45:58,389
+a playground for who is designing a car. Uh It can't be
+
+1018
+00:45:59,270 --> 00:46:01,750
+um just a playground for,
+
+1019
+00:46:02,459 --> 00:46:04,590
+for an aerodynamicist, for example,
+
+1020
+00:46:05,010 --> 00:46:05,629
+um
+
+1021
+00:46:06,030 --> 00:46:09,030
+or, or an engine designer or anything,
+
+1022
+00:46:09,229 --> 00:46:13,939
+but also it cannot be one-make. There's a middle ground somewhere
+
+1023
+00:46:14,300 --> 00:46:18,000
+that tries to, to, to identify the correct areas
+
+1024
+00:46:18,159 --> 00:46:20,199
+where we want to have competition,
+
+1025
+00:46:20,629 --> 00:46:22,510
+to what extent, and the
+
+1026
+00:46:22,520 --> 00:46:24,870
+areas where we don't want to have competition maybe
+
+1027
+00:46:25,330 --> 00:46:28,060
+and so on. And clearly, we always want to keep the driver very,
+
+1028
+00:46:28,540 --> 00:46:28,979
+um
+
+1029
+00:46:29,459 --> 00:46:32,429
+you know, a key part of the, of the competition because
+
+1030
+00:46:32,739 --> 00:46:36,330
+ultimately the fans want to see humans racing against humans.
+
+1031
+00:46:37,479 --> 00:46:38,870
+I am still
+
+1032
+00:46:39,709 --> 00:46:43,729
+amazed when I, you know, have some friends message me who
+
+1033
+00:46:44,550 --> 00:46:48,649
+are really into Formula One and they love the intrigue about
+
+1034
+00:46:48,810 --> 00:46:50,399
+the engineering stuff.
+
+1035
+00:46:50,620 --> 00:46:52,909
+It is one of the things of Formula One, isn't it that people,
+
+1036
+00:46:52,919 --> 00:46:55,169
+even if they don't fully understand it,
+
+1037
+00:46:55,389 --> 00:46:58,250
+and there's probably very few people who truly understand
+
+1038
+00:46:58,510 --> 00:47:01,080
+what's put on the car and the real reason, you know,
+
+1039
+00:47:01,090 --> 00:47:02,689
+there's a lot of people who write about it
+
+1040
+00:47:02,860 --> 00:47:04,810
+but a lot of people don't actually understand it
+
+1041
+00:47:04,860 --> 00:47:06,669
+but it doesn't matter because they love the intrigue.
+
+1042
+00:47:06,679 --> 00:47:09,149
+Don't, oh, have you seen the new rear wing of that car? It's, it
+
+1043
+00:47:09,550 --> 00:47:12,969
+is almost part of the sport, isn't it this technical?
+
+1044
+00:47:14,429 --> 00:47:15,139
+Although
+
+1045
+00:47:15,820 --> 00:47:18,909
+we need to be very conscious that if it was just that,
+
+1046
+00:47:19,659 --> 00:47:19,679
+yeah,
+
+1047
+00:47:20,510 --> 00:47:22,459
+and no entertainment
+
+1048
+00:47:22,679 --> 00:47:25,550
+then we'd be all looking for another job.
+
+1049
+00:47:26,810 --> 00:47:27,000
+Yeah.
+
+1050
+00:47:27,010 --> 00:47:27,689
+And probably,
+
+1051
+00:47:27,699 --> 00:47:29,350
+maybe we're all a little bit in our own
+
+1052
+00:47:29,360 --> 00:47:32,449
+bubble because probably most people we speak to are engineers
+
+1053
+00:47:32,770 --> 00:47:33,830
+and they're the ones,
+
+1054
+00:47:34,530 --> 00:47:34,689
+there are a
+
+1055
+00:47:34,840 --> 00:47:34,979
+lot of
+
+1056
+00:47:35,270 --> 00:47:35,350
+people
+
+1057
+00:47:35,620 --> 00:47:35,979
+who
+
+1058
+00:47:36,080 --> 00:47:36,449
+don't,
+
+1059
+00:47:37,689 --> 00:47:38,729
+um,
+
+1060
+00:47:40,300 --> 00:47:41,629
+understand any of that,
+
+1061
+00:47:42,030 --> 00:47:43,760
+even avid fans.
+
+1062
+00:47:44,770 --> 00:47:45,750
+And
+
+1063
+00:47:47,090 --> 00:47:50,929
+some years ago when we were discussing some regulation changes, there were some,
+
+1064
+00:47:51,979 --> 00:47:53,389
+um, teams,
+
+1065
+00:47:54,050 --> 00:47:54,399
+some
+
+1066
+00:47:54,580 --> 00:47:57,550
+principals who said, uh, that's going to make all cars look,
+
+1067
+00:47:58,070 --> 00:47:58,790
+um,
+
+1068
+00:47:59,489 --> 00:48:00,629
+very similar to each other.
+
+1069
+00:48:01,600 --> 00:48:02,699
+And
+
+1070
+00:48:02,919 --> 00:48:03,560
+we,
+
+1071
+00:48:03,570 --> 00:48:08,899
+I remember somebody did a rendering of the previous generation cars all in white
+
+1072
+00:48:10,840 --> 00:48:13,020
+and asked the team principals to, to
+
+1073
+00:48:13,209 --> 00:48:15,199
+recognize which was their own car.
+
+1074
+00:48:15,209 --> 00:48:17,489
+In most cases, they couldn't even tell their own car
+
+1075
+00:48:17,750 --> 00:48:19,020
+apart from the others.
+
+1076
+00:48:19,639 --> 00:48:20,219
+And
+
+1077
+00:48:21,060 --> 00:48:21,919
+the reason
+
+1078
+00:48:23,199 --> 00:48:24,129
+however,
+
+1079
+00:48:24,709 --> 00:48:25,219
+that
+
+1080
+00:48:26,550 --> 00:48:31,060
+we, we don't have cars that look a lot more different. It's not only
+
+1081
+00:48:31,399 --> 00:48:34,659
+whether the rules are more restrictive. That is one part of the reason,
+
+1082
+00:48:35,179 --> 00:48:37,489
+the other part of the reason is that,
+
+1083
+00:48:37,909 --> 00:48:38,600
+um
+
+1084
+00:48:39,139 --> 00:48:42,229
+I think it's very much what we've been discussing for the last one hour.
+
+1085
+00:48:42,429 --> 00:48:43,939
+It's the level of simulation.
+
+1086
+00:48:44,350 --> 00:48:45,020
+Um
+
+1087
+00:48:45,179 --> 00:48:45,840
+The,
+
+1088
+00:48:46,260 --> 00:48:48,689
+the amount of simulation you do nowadays,
+
+1089
+00:48:49,250 --> 00:48:49,919
+um
+
+1090
+00:48:50,949 --> 00:48:55,419
+There's no way you would design a car with six wheels even if it was permitted.
+
+1091
+00:48:56,229 --> 00:48:56,929
+Um
+
+1092
+00:48:57,949 --> 00:48:59,389
+If it wasn't much better
+
+1093
+00:49:00,780 --> 00:49:03,479
+or, or if it wasn't clearly better in simulation
+
+1094
+00:49:03,659 --> 00:49:04,270
+or
+
+1095
+00:49:05,000 --> 00:49:10,399
+indeed, uh if it was better, probably there would be ten cars with six wheels
+
+1096
+00:49:10,959 --> 00:49:11,040
+and
+
+1097
+00:49:11,300 --> 00:49:14,189
+suddenly there would be a rule saying, well, actually you must have four wheels.
+
+1098
+00:49:14,870 --> 00:49:15,330
+But
+
+1099
+00:49:15,469 --> 00:49:17,300
+what I mean is there's no way you would
+
+1100
+00:49:17,310 --> 00:49:20,340
+design something that is so far out of the ordinary
+
+1101
+00:49:20,629 --> 00:49:20,899
+with
+
+1102
+00:49:21,179 --> 00:49:22,370
+a, with a low nose or,
+
+1103
+00:49:23,129 --> 00:49:26,020
+or completely different things like double diffusers or,
+
+1104
+00:49:26,209 --> 00:49:29,159
+you know, all of these, either successful or unsuccessful
+
+1105
+00:49:29,879 --> 00:49:31,780
+um things of the past.
+
+1106
+00:49:33,120 --> 00:49:36,260
+Nowadays, the level of simulation is so so
+
+1107
+00:49:37,290 --> 00:49:38,429
+fantastic
+
+1108
+00:49:38,879 --> 00:49:39,429
+that
+
+1109
+00:49:39,679 --> 00:49:43,250
+you can't just use your gut feeling anymore or, or your instinct
+
+1110
+00:49:44,290 --> 00:49:45,830
+or some sound knowledge,
+
+1111
+00:49:45,840 --> 00:49:50,989
+but you just need to simulate and a lot less is left to chance nowadays,
+
+1112
+00:49:52,159 --> 00:49:54,139
+which leads then on to the
+
+1113
+00:49:54,250 --> 00:49:56,590
+I guess, logical question of
+
+1114
+00:49:57,379 --> 00:49:58,030
+AI
+
+1115
+00:49:58,820 --> 00:50:00,489
+in a lot of industries,
+
+1116
+00:50:00,949 --> 00:50:05,600
+there have been breakthroughs in drug discovery, weather forecasting
+
+1117
+00:50:05,929 --> 00:50:08,770
+where with sufficient amount of prior data,
+
+1118
+00:50:09,070 --> 00:50:13,209
+machine learning models have been trained and shown to actually give
+
+1119
+00:50:13,560 --> 00:50:16,169
+as good or faster, you know, predictions.
+
+1120
+00:50:16,790 --> 00:50:22,459
+Is this something that you sort of see as almost a natural evolution, just a CFD,
+
+1121
+00:50:22,709 --> 00:50:24,250
+wind-tunnel thing? Or
+
+1122
+00:50:24,659 --> 00:50:25,489
+is that
+
+1123
+00:50:25,989 --> 00:50:26,750
+sort of
+
+1124
+00:50:26,889 --> 00:50:26,899
+a,
+
+1125
+00:50:27,570 --> 00:50:28,419
+a sweet spot here?
+
+1126
+00:50:28,429 --> 00:50:31,899
+You know, you have to be careful that you don't have a team that's, you know,
+
+1127
+00:50:31,909 --> 00:50:33,870
+blasting money on training AI models.
+
+1128
+00:50:33,879 --> 00:50:34,270
+And
+
+1129
+00:50:34,770 --> 00:50:35,500
+as you said,
+
+1130
+00:50:35,800 --> 00:50:38,830
+being able just to automatically design a car almost, you know, where,
+
+1131
+00:50:38,899 --> 00:50:40,379
+where do you see that
+
+1132
+00:50:40,629 --> 00:50:43,669
+future going when it comes to AI in the sport?
+
+1133
+00:50:45,909 --> 00:50:46,449
+When
+
+1134
+00:50:47,350 --> 00:50:47,360
+I
+
+1135
+00:50:47,610 --> 00:50:48,209
+think it's,
+
+1136
+00:50:49,530 --> 00:50:49,550
+I
+
+1137
+00:50:49,739 --> 00:50:51,120
+think it's uh
+
+1138
+00:50:51,659 --> 00:50:55,310
+unavoidable. It will be playing a more and more dominant
+
+1139
+00:50:55,949 --> 00:50:57,169
+role in this sport.
+
+1140
+00:50:57,729 --> 00:50:59,129
+I don't think there's,
+
+1141
+00:50:59,610 --> 00:51:00,370
+I don't think that
+
+1142
+00:51:01,399 --> 00:51:03,860
+clock can go backwards in that respect.
+
+1143
+00:51:04,500 --> 00:51:05,750
+There's a lot of things,
+
+1144
+00:51:06,179 --> 00:51:07,340
+uh which
+
+1145
+00:51:08,709 --> 00:51:09,479
+happen,
+
+1146
+00:51:09,739 --> 00:51:10,520
+which
+
+1147
+00:51:11,270 --> 00:51:11,459
+are
+
+1148
+00:51:12,020 --> 00:51:13,489
+an indication of progress.
+
+1149
+00:51:14,139 --> 00:51:15,209
+Um,
+
+1150
+00:51:15,510 --> 00:51:17,610
+not only in the sport but in
+
+1151
+00:51:17,820 --> 00:51:19,120
+life in general,
+
+1152
+00:51:19,570 --> 00:51:23,040
+which in many ways have made
+
+1153
+00:51:24,350 --> 00:51:26,419
+life better in a particular way,
+
+1154
+00:51:26,790 --> 00:51:28,199
+but have made
+
+1155
+00:51:29,830 --> 00:51:32,929
+life less fun than it used to be and so on.
+
+1156
+00:51:33,540 --> 00:51:34,800
+And, um,
+
+1157
+00:51:35,100 --> 00:51:37,280
+but you, many times you can't go back,
+
+1158
+00:51:38,030 --> 00:51:38,800
+I'm pretty
+
+1159
+00:51:40,580 --> 00:51:42,080
+clear in my head that
+
+1160
+00:51:42,479 --> 00:51:43,689
+kids having
+
+1161
+00:51:44,080 --> 00:51:46,179
+computer games and Game Boys and,
+
+1162
+00:51:46,449 --> 00:51:49,159
+and, uh, you know, online games
+
+1163
+00:51:50,080 --> 00:51:51,409
+is a lot less,
+
+1164
+00:51:51,899 --> 00:51:55,300
+uh, fun overall than playing in the woods.
+
+1165
+00:51:55,310 --> 00:51:58,810
+And, uh, you know, building houses out in the garden.
+
+1166
+00:51:59,360 --> 00:52:00,100
+Um,
+
+1167
+00:52:02,070 --> 00:52:03,709
+and I think it is a bit
+
+1168
+00:52:05,260 --> 00:52:07,989
+and I, I went, I mean, my kids are now
+
+1169
+00:52:08,300 --> 00:52:11,439
+old enough that I don't have to have this concern, but I had a
+
+1170
+00:52:11,949 --> 00:52:14,419
+moral dilemma about whether they should get a game
+
+1171
+00:52:14,429 --> 00:52:16,850
+boy or a computer game or something like that.
+
+1172
+00:52:17,600 --> 00:52:18,219
+And,
+
+1173
+00:52:19,689 --> 00:52:23,510
+but at some point it became impossible to resist the tide
+
+1174
+00:52:23,889 --> 00:52:25,689
+of that thing happening.
+
+1175
+00:52:25,979 --> 00:52:30,159
+And I think the same applies to what we've been discussing about simulation.
+
+1176
+00:52:30,750 --> 00:52:32,909
+Simulation has removed a lot of the
+
+1177
+00:52:33,699 --> 00:52:34,760
+intuitive
+
+1178
+00:52:35,370 --> 00:52:35,959
+or
+
+1179
+00:52:37,020 --> 00:52:40,750
+a sexy part of creative, creating something different.
+
+1180
+00:52:41,379 --> 00:52:42,760
+And, um,
+
+1181
+00:52:44,399 --> 00:52:47,340
+and, and AI has, I think a similar
+
+1182
+00:52:47,770 --> 00:52:49,120
+connotation, I guess,
+
+1183
+00:52:49,729 --> 00:52:50,679
+um,
+
+1184
+00:52:53,629 --> 00:52:56,889
+I don't think these things are things that can go back really.
+
+1185
+00:52:58,300 --> 00:52:58,949
+I get, yeah.
+
+1186
+00:52:58,959 --> 00:53:03,100
+So I guess for you more, it's more just how you manage it and make sure that teams
+
+1187
+00:53:03,439 --> 00:53:06,620
+because I guess the challenge you always have is you're not dealing with a, and
+
+1188
+00:53:06,820 --> 00:53:08,729
+this isn't meant to be offensive to the team.
+
+1189
+00:53:09,570 --> 00:53:14,729
+You're dealing with incredibly competitive people and teams who will go,
+
+1190
+00:53:15,580 --> 00:53:20,320
+who won't stop just for the sort of moral or ethical reason, but will go
+
+1191
+00:53:20,590 --> 00:53:22,419
+to the limits of the rules, essentially.
+
+1192
+00:53:22,929 --> 00:53:25,860
+Um, that seems to be my impression of sport, you know, there's,
+
+1193
+00:53:26,060 --> 00:53:27,610
+it's a, it's a tough, it's like
+
+1194
+00:53:27,889 --> 00:53:31,379
+any other sports people are so passionate that they will just go up to the line,
+
+1195
+00:53:31,520 --> 00:53:34,399
+I guess the difficulty for you as an organization is just how you
+
+1196
+00:53:35,449 --> 00:53:36,350
+frame it
+
+1197
+00:53:36,540 --> 00:53:40,629
+in a way to protect it from the excesses that they may do.
+
+1198
+00:53:41,360 --> 00:53:42,280
+Yeah. Um I
+
+1199
+00:53:42,459 --> 00:53:45,340
+think that will be evolving in the next few years.
+
+1200
+00:53:45,989 --> 00:53:47,040
+Clearly,
+
+1201
+00:53:47,550 --> 00:53:48,530
+we also
+
+1202
+00:53:49,649 --> 00:53:50,699
+are going to be
+
+1203
+00:53:50,979 --> 00:53:53,699
+using more and more AI for
+
+1204
+00:53:53,909 --> 00:53:55,820
+policing and for detecting
+
+1205
+00:53:56,479 --> 00:53:59,270
+breaches and, and so on and so forth. So,
+
+1206
+00:53:59,659 --> 00:54:00,919
+uh, it's,
+
+1207
+00:54:01,300 --> 00:54:02,939
+it's a bit on both sides, I guess.
+
+1208
+00:54:04,080 --> 00:54:06,629
+Yeah. Yeah, it's the million-dollar question.
+
+1209
+00:54:06,639 --> 00:54:09,129
+You're in a unique place to maybe answer this.
+
+1210
+00:54:10,010 --> 00:54:11,399
+People always wonder,
+
+1211
+00:54:12,429 --> 00:54:14,850
+what do you think is the reason you have a team,
+
+1212
+00:54:14,860 --> 00:54:18,139
+let's say Mercedes or it could be McLaren in the past.
+
+1213
+00:54:18,149 --> 00:54:21,610
+It doesn't really matter who have been going really well,
+
+1214
+00:54:21,620 --> 00:54:23,969
+had a great car won world championships
+
+1215
+00:54:24,409 --> 00:54:25,050
+and then
+
+1216
+00:54:25,780 --> 00:54:26,719
+the next year
+
+1217
+00:54:27,070 --> 00:54:28,949
+usually, I guess because of a rule change,
+
+1218
+00:54:29,120 --> 00:54:30,120
+but not always,
+
+1219
+00:54:30,810 --> 00:54:32,820
+they then start to do really poorly,
+
+1220
+00:54:34,070 --> 00:54:34,500
+is it?
+
+1221
+00:54:35,199 --> 00:54:37,169
+But they have the same people sometimes.
+
+1222
+00:54:37,709 --> 00:54:42,500
+Does it suggest that Formula One, whilst there's lots of simulation, is just such
+
+1223
+00:54:43,020 --> 00:54:45,790
+a complex thing that people truly have still not
+
+1224
+00:54:45,800 --> 00:54:48,120
+really understood how to design a Formula One car.
+
+1225
+00:54:48,129 --> 00:54:48,540
+And so
+
+1226
+00:54:48,860 --> 00:54:51,620
+there's so many risks that you can just go off the wrong path.
+
+1227
+00:54:52,899 --> 00:54:55,770
+You know, why is it that they can suddenly go from great
+
+1228
+00:54:56,030 --> 00:54:57,070
+to terrible.
+
+1229
+00:55:00,149 --> 00:55:00,199
+First
+
+1230
+00:55:00,310 --> 00:55:02,360
+of all, I'd rather not speak specifically about.
+
+1231
+00:55:05,860 --> 00:55:07,179
+I've lived in a similar,
+
+1232
+00:55:07,889 --> 00:55:08,719
+um,
+
+1233
+00:55:09,239 --> 00:55:11,300
+I've lived similar experiences as, you know,
+
+1234
+00:55:11,310 --> 00:55:13,760
+working for a team when it's been winning at
+
+1235
+00:55:13,770 --> 00:55:16,060
+one time and then doing badly at another time.
+
+1236
+00:55:16,729 --> 00:55:17,530
+Um,
+
+1237
+00:55:19,560 --> 00:55:22,689
+I guess, well, first of all the gaps nowadays are very small
+
+1238
+00:55:23,020 --> 00:55:26,459
+and therefore what you call doing terribly
+
+1239
+00:55:27,310 --> 00:55:29,830
+is maybe three or four tenths of a second
+
+1240
+00:55:29,989 --> 00:55:30,570
+a lap.
+
+1241
+00:55:31,100 --> 00:55:35,530
+As you say, the, there's, um, usually
+
+1242
+00:55:35,939 --> 00:55:37,929
+quite a lot of accumulated knowledge
+
+1243
+00:55:38,310 --> 00:55:38,929
+that
+
+1244
+00:55:40,969 --> 00:55:46,070
+it is difficult to undo and, and sometimes the rule change contributes to that, um,
+
+1245
+00:55:46,080 --> 00:55:47,120
+you know, being
+
+1246
+00:55:47,540 --> 00:55:50,310
+nullified and then almost people starting again.
+
+1247
+00:55:50,939 --> 00:55:51,870
+Um
+
+1248
+00:55:53,679 --> 00:55:54,689
+It's extremely
+
+1249
+00:55:56,229 --> 00:55:57,209
+difficult to
+
+1250
+00:55:58,100 --> 00:56:00,719
+not become complacent. I think if you're winning,
+
+1251
+00:56:01,590 --> 00:56:05,590
+um, people do become complacent by, by nature.
+
+1252
+00:56:06,209 --> 00:56:07,159
+Um
+
+1253
+00:56:08,409 --> 00:56:11,649
+I find that myself as well. It's, um,
+
+1254
+00:56:12,129 --> 00:56:16,060
+you know, it's easier to, to underestimate sometimes the task at hand.
+
+1255
+00:56:16,909 --> 00:56:21,169
+Um So I think it's all of these factors that, that can contribute.
+
+1256
+00:56:22,330 --> 00:56:23,820
+Well, how much this is my
+
+1257
+00:56:24,030 --> 00:56:26,070
+theory, I'm interested to know if you agree with this
+
+1258
+00:56:27,000 --> 00:56:28,139
+a people thing.
+
+1259
+00:56:28,510 --> 00:56:30,280
+How much do you think of it is a
+
+1260
+00:56:31,600 --> 00:56:35,050
+ultimately this wave of people. So
+
+1261
+00:56:35,389 --> 00:56:37,530
+somebody gets lured away to another team
+
+1262
+00:56:38,729 --> 00:56:43,469
+by the fact that somebody else goes to another team, somebody else replaces them.
+
+1263
+00:56:43,750 --> 00:56:46,459
+Maybe the people below didn't like that, they got replaced.
+
+1264
+00:56:46,469 --> 00:56:48,179
+They don't, that causes some bad thing.
+
+1265
+00:56:48,189 --> 00:56:50,000
+Then the other person leaves like,
+
+1266
+00:56:50,010 --> 00:56:52,629
+how much do you think of this weird thing is this going
+
+1267
+00:56:52,639 --> 00:56:54,979
+back to the other question of all the teams being so close,
+
+1268
+00:56:54,989 --> 00:56:55,929
+they jump around.
+
+1269
+00:56:56,169 --> 00:56:59,110
+How much do you think this is also like a people thing
+
+1270
+00:56:59,120 --> 00:57:02,469
+rather than technology and that who you have as your leader
+
+1271
+00:57:03,270 --> 00:57:05,810
+can actually make a genuine difference
+
+1272
+00:57:06,100 --> 00:57:11,699
+because of the potential for people to move around. And I think I would tend to agree.
+
+1273
+00:57:11,810 --> 00:57:14,000
+I think the people thing is,
+
+1274
+00:57:14,459 --> 00:57:17,489
+is very much part of it. And, um,
+
+1275
+00:57:18,149 --> 00:57:23,580
+yeah, I, I mentioned it as complacency, but complacency involves a team maybe
+
+1276
+00:57:23,729 --> 00:57:25,719
+stagnating. And, um,
+
+1277
+00:57:26,250 --> 00:57:30,320
+but on the other hand, it could be that you lose two or three key personnel
+
+1278
+00:57:30,780 --> 00:57:32,570
+and then the new people,
+
+1279
+00:57:33,330 --> 00:57:33,909
+you know,
+
+1280
+00:57:34,139 --> 00:57:38,110
+working together don't quite manage to click together properly
+
+1281
+00:57:38,659 --> 00:57:39,189
+and so on.
+
+1282
+00:57:40,280 --> 00:57:41,620
+I remember when I was,
+
+1283
+00:57:41,899 --> 00:57:44,760
+uh, I'm digressing a bit but when I was at Ferrari,
+
+1284
+00:57:45,209 --> 00:57:45,770
+um
+
+1285
+00:57:46,570 --> 00:57:46,820
+in,
+
+1286
+00:57:48,469 --> 00:57:50,679
+and I was chief designer in that
+
+1287
+00:57:51,020 --> 00:57:51,239
+period,
+
+1288
+00:57:51,379 --> 00:57:52,139
+we won
+
+1289
+00:57:52,300 --> 00:57:53,820
+two championships in
+
+1290
+00:57:53,979 --> 00:57:55,860
+2007, 2008.
+
+1291
+00:57:56,860 --> 00:57:59,330
+And I was feeling particularly chuffed about that
+
+1292
+00:58:02,250 --> 00:58:03,399
+and we had,
+
+1293
+00:58:03,780 --> 00:58:04,419
+um,
+
+1294
+00:58:05,159 --> 00:58:09,540
+the company had organized for some of the senior managers, some sort of
+
+1295
+00:58:09,969 --> 00:58:11,689
+leadership training and,
+
+1296
+00:58:14,260 --> 00:58:14,790
+and they were,
+
+1297
+00:58:15,320 --> 00:58:15,979
+they were,
+
+1298
+00:58:17,320 --> 00:58:18,139
+and I remember
+
+1299
+00:58:18,520 --> 00:58:20,530
+doing these sessions with
+
+1300
+00:58:20,860 --> 00:58:23,060
+all my group, like my senior
+
+1301
+00:58:24,100 --> 00:58:26,199
+people in my group. And there was about
+
+1302
+00:58:27,159 --> 00:58:28,610
+seven or eight of us
+
+1303
+00:58:29,070 --> 00:58:29,889
+and
+
+1304
+00:58:30,540 --> 00:58:32,260
+I remember they gave us a task
+
+1305
+00:58:33,370 --> 00:58:36,270
+to do. It was like a bit of a role-play-type
+
+1306
+00:58:36,959 --> 00:58:38,929
+game type task
+
+1307
+00:58:39,449 --> 00:58:41,060
+where you had to produce an outcome.
+
+1308
+00:58:42,250 --> 00:58:45,790
+And I remember we sat down very much like we do in a meeting and we said, ok,
+
+1309
+00:58:45,800 --> 00:58:47,060
+now what's the task?
+
+1310
+00:58:47,070 --> 00:58:48,139
+Let's do XYZ
+
+1311
+00:58:48,570 --> 00:58:49,429
+and so on.
+
+1312
+00:58:49,590 --> 00:58:52,949
+Um uh these things that
+
+1313
+00:58:53,169 --> 00:58:56,250
+some people were giving us, tasks are less important.
+
+1314
+00:58:56,260 --> 00:58:57,439
+These things are more important.
+
+1315
+00:58:57,669 --> 00:58:58,959
+Let's vote. Ok, bla bla bla,
+
+1316
+00:58:59,820 --> 00:58:59,879
+so
+
+1317
+00:58:59,989 --> 00:59:02,719
+we, we delivered the results quite quickly
+
+1318
+00:59:03,250 --> 00:59:05,629
+and I felt we were going to get good
+
+1319
+00:59:06,090 --> 00:59:06,909
+grades.
+
+1320
+00:59:07,110 --> 00:59:08,600
+I thought we'd get good feedback.
+
+1321
+00:59:08,610 --> 00:59:11,239
+These, um, people who are organizing this course,
+
+1322
+00:59:11,250 --> 00:59:13,790
+these external psychologists and stuff
+
+1323
+00:59:14,250 --> 00:59:14,949
+and
+
+1324
+00:59:15,060 --> 00:59:20,639
+they gave us a little bit of a blasting. They, they said, oh, no, it's,
+
+1325
+00:59:21,250 --> 00:59:25,229
+it's all too easy. You, you guys are too complacent. You know, it's just
+
+1326
+00:59:25,510 --> 00:59:29,510
+these things you had to choose between to make your decisions.
+
+1327
+00:59:29,520 --> 00:59:31,469
+You should have had a much more
+
+1328
+00:59:32,169 --> 00:59:35,840
+intense debate and higher level of tension in your group
+
+1329
+00:59:36,050 --> 00:59:36,989
+to decide.
+
+1330
+00:59:37,350 --> 00:59:38,489
+You shouldn't have just
+
+1331
+00:59:39,810 --> 00:59:44,030
+steamrolled through the, the easy solution and you should have debated it far more.
+
+1332
+00:59:45,149 --> 00:59:45,810
+And
+
+1333
+00:59:46,889 --> 00:59:48,100
+off the back of
+
+1334
+00:59:48,600 --> 00:59:49,820
+two championships,
+
+1335
+00:59:50,820 --> 00:59:53,669
+I felt, come on. What are these guys talking about?
+
+1336
+00:59:54,770 --> 00:59:58,560
+Then 2009 came, which was a very bad year for, for us.
+
+1337
+00:59:59,020 --> 00:59:59,760
+And
+
+1338
+01:00:00,050 --> 01:00:00,820
+I remember
+
+1339
+01:00:00,979 --> 01:00:02,179
+thinking that
+
+1340
+01:00:02,500 --> 01:00:06,139
+actually, and understanding a bit more what they were on about.
+
+1341
+01:00:06,850 --> 01:00:07,469
+Um,
+
+1342
+01:00:07,790 --> 01:00:07,800
+I
+
+1343
+01:00:07,979 --> 01:00:09,139
+think it's,
+
+1344
+01:00:09,590 --> 01:00:12,560
+it's not only people liking to work with each other,
+
+1345
+01:00:12,570 --> 01:00:14,330
+it's also challenging each other
+
+1346
+01:00:14,969 --> 01:00:16,520
+on which and,
+
+1347
+01:00:16,810 --> 01:00:20,379
+and sometimes challenging each other sometimes comes with
+
+1348
+01:00:21,939 --> 01:00:24,510
+not liking each other if you know what I mean? And,
+
+1349
+01:00:24,699 --> 01:00:27,439
+and what is the right balance between
+
+1350
+01:00:28,500 --> 01:00:33,489
+getting on and agreeing or not getting on and disagreeing or, or
+
+1351
+01:00:33,590 --> 01:00:35,020
+how do you mix both? I
+
+1352
+01:00:35,300 --> 01:00:37,560
+think is very much, uh,
+
+1353
+01:00:37,699 --> 01:00:38,949
+one of the difficulties
+
+1354
+01:00:39,550 --> 01:00:39,889
+I know.
+
+1355
+01:00:39,899 --> 01:00:41,500
+It's one of these things that I must admit,
+
+1356
+01:00:41,510 --> 01:00:43,850
+I think when you're early on in your career, you do think, oh,
+
+1357
+01:00:43,860 --> 01:00:44,889
+this is a load of rubbish.
+
+1358
+01:00:44,899 --> 01:00:45,899
+You know, this is all this
+
+1359
+01:00:46,090 --> 01:00:49,149
+psychobabble, talking about all this psychology stuff. But
+
+1360
+01:00:49,330 --> 01:00:49,780
+I don't know.
+
+1361
+01:00:49,790 --> 01:00:53,340
+At least, the more I progressed through my career,
+
+1362
+01:00:53,350 --> 01:00:55,570
+the more appreciation I had
+
+1363
+01:00:55,810 --> 01:00:59,330
+for the role of the culture you set and like
+
+1364
+01:00:59,340 --> 01:01:02,090
+how much level of disagreement or agreement you allow.
+
+1365
+01:01:02,100 --> 01:01:02,429
+And
+
+1366
+01:01:02,800 --> 01:01:06,830
+I think it can have more of an influence than people realize on sort of
+
+1367
+01:01:07,110 --> 01:01:07,120
+a team.
+
+1368
+01:01:08,139 --> 01:01:09,520
+Absolutely. And I remember in my early
+
+1369
+01:01:09,830 --> 01:01:10,459
+career,
+
+1370
+01:01:11,229 --> 01:01:15,060
+uh I'm going to speak ultimately very positively about two
+
+1371
+01:01:15,489 --> 01:01:18,659
+individuals. I have huge respect for and
+
+1372
+01:01:19,040 --> 01:01:20,139
+therefore,
+
+1373
+01:01:20,449 --> 01:01:21,169
+uh uh
+
+1374
+01:01:21,449 --> 01:01:23,459
+I'm sure if they happen to listen to this.
+
+1375
+01:01:25,709 --> 01:01:29,100
+I had my, my two bosses in my early career were
+
+1376
+01:01:29,830 --> 01:01:31,850
+uh Ross Brawn and Rory Byrne.
+
+1377
+01:01:32,310 --> 01:01:35,040
+And in my Benetton days, I remember
+
+1378
+01:01:35,810 --> 01:01:36,639
+um
+
+1379
+01:01:37,570 --> 01:01:38,659
+I was thinking
+
+1380
+01:01:39,129 --> 01:01:39,139
+that
+
+1381
+01:01:39,350 --> 01:01:43,570
+Rory was chief designer and he was basically creating the car and Ross was a more
+
+1382
+01:01:45,129 --> 01:01:47,870
+managerial leadership type role.
+
+1383
+01:01:48,580 --> 01:01:49,229
+And
+
+1384
+01:01:49,330 --> 01:01:52,949
+in my Benetton days, I definitely, if you'd asked me who's actually
+
+1385
+01:01:53,399 --> 01:01:55,179
+responsible for the results,
+
+1386
+01:01:55,760 --> 01:01:58,389
+I would have 100% said Rory.
+
+1387
+01:01:58,989 --> 01:02:02,610
+And I still believe Rory had a massive input and was very,
+
+1388
+01:02:02,620 --> 01:02:04,409
+very good at what he was doing.
+
+1389
+01:02:04,899 --> 01:02:05,290
+So
+
+1390
+01:02:06,620 --> 01:02:08,600
+as the years moved by, uh
+
+1391
+01:02:08,790 --> 01:02:11,719
+I realized actually that Ross had
+
+1392
+01:02:12,600 --> 01:02:14,159
+also an extremely important
+
+1393
+01:02:14,550 --> 01:02:15,739
+role of a different nature,
+
+1394
+01:02:16,189 --> 01:02:20,600
+which in my early years, I, I really underestimated and then I
+
+1395
+01:02:20,790 --> 01:02:24,919
+understood how important it was probably more after we moved to Ferrari, for
+
+1396
+01:02:25,139 --> 01:02:25,239
+example.
+
+1397
+01:02:27,270 --> 01:02:29,939
+Yeah, I guess you needed, maybe also
+
+1398
+01:02:30,379 --> 01:02:34,219
+as well. You needed to be in a senior position yourself to fully appreciate,
+
+1399
+01:02:34,399 --> 01:02:35,810
+you know, what others
+
+1400
+01:02:35,939 --> 01:02:36,889
+are
+
+1401
+01:02:37,270 --> 01:02:38,320
+doing.
+
+1402
+01:02:38,399 --> 01:02:42,020
+Did you ever, um, you've obviously been in Formula One now?
+
+1403
+01:02:42,419 --> 01:02:44,399
+I mean, essentially your whole career
+
+1404
+01:02:44,719 --> 01:02:47,959
+and it does seem to be a trend that people stay in it,
+
+1405
+01:02:48,449 --> 01:02:49,669
+but I would imagine
+
+1406
+01:02:50,370 --> 01:02:51,830
+has a part of you ever,
+
+1407
+01:02:52,100 --> 01:02:52,590
+you know,
+
+1408
+01:02:52,889 --> 01:02:54,459
+wanted to go off and
+
+1409
+01:02:55,870 --> 01:03:01,209
+do a start up in California on eVTOL or, or, or do something completely different.
+
+1410
+01:03:01,219 --> 01:03:03,449
+Have you, do you still have the sort of bug
+
+1411
+01:03:03,709 --> 01:03:06,909
+for Formula One even to this day? Is it that strong
+
+1412
+01:03:07,909 --> 01:03:07,989
+within you?
+
+1413
+01:03:08,409 --> 01:03:10,120
+I definitely have still got the bug
+
+1414
+01:03:11,389 --> 01:03:12,209
+um,
+
+1415
+01:03:12,370 --> 01:03:13,110
+I,
+
+1416
+01:03:15,830 --> 01:03:18,889
+I wouldn't say it is a bug that prevails over everything else.
+
+1417
+01:03:19,419 --> 01:03:22,729
+I have seen quite a lot of people who've left and done
+
+1418
+01:03:23,399 --> 01:03:25,959
+start ups or different things and
+
+1419
+01:03:26,260 --> 01:03:28,179
+are very happy and content with that.
+
+1420
+01:03:29,080 --> 01:03:30,830
+Um I also
+
+1421
+01:03:30,939 --> 01:03:33,219
+know quite a lot of people who have a better
+
+1422
+01:03:33,449 --> 01:03:34,939
+work life balance
+
+1423
+01:03:35,040 --> 01:03:35,610
+than I have.
+
+1424
+01:03:35,810 --> 01:03:36,850
+And
+
+1425
+01:03:37,919 --> 01:03:38,709
+therefore,
+
+1426
+01:03:38,850 --> 01:03:40,709
+um, I certainly
+
+1427
+01:03:41,040 --> 01:03:46,669
+wouldn't see it in as absolute a way now that I perhaps used to see it
+
+1428
+01:03:47,320 --> 01:03:49,290
+10 or 20 or 30 years ago.
+
+1429
+01:03:49,800 --> 01:03:53,300
+But I still enjoy it and I feel very fortunate
+
+1430
+01:03:53,659 --> 01:03:54,010
+to be doing it,
+
+1431
+01:03:55,459 --> 01:04:00,020
+so maybe uh a kind of final question for you or area
+
+1432
+01:04:00,500 --> 01:04:01,679
+really about
+
+1433
+01:04:02,300 --> 01:04:07,239
+what you would advise to people and you must get asked questions so much,
+
+1434
+01:04:07,250 --> 01:04:10,709
+but I'll try and be more specific with it around getting into Formula One.
+
+1435
+01:04:11,709 --> 01:04:13,649
+Is there, first of all,
+
+1436
+01:04:14,129 --> 01:04:18,010
+the PhD route, I would call the becoming a specialist
+
+1437
+01:04:18,469 --> 01:04:19,169
+route.
+
+1438
+01:04:19,989 --> 01:04:21,409
+Would you,
+
+1439
+01:04:21,850 --> 01:04:23,389
+would you advocate for that?
+
+1440
+01:04:23,399 --> 01:04:27,449
+Is that somewhere you would look for if you were sort of hiring people?
+
+1441
+01:04:27,909 --> 01:04:29,719
+And secondly,
+
+1442
+01:04:29,909 --> 01:04:32,330
+what about this balance between the
+
+1443
+01:04:33,080 --> 01:04:34,360
+Formula One
+
+1444
+01:04:35,370 --> 01:04:39,000
+knowledge or the motorsport knowledge versus the
+
+1445
+01:04:39,780 --> 01:04:43,639
+science or the technology? It's often a question I get asked like, should I
+
+1446
+01:04:43,959 --> 01:04:45,510
+do a motorsport degree?
+
+1447
+01:04:45,520 --> 01:04:47,689
+Should I do work experience in motorsport or is it more
+
+1448
+01:04:47,699 --> 01:04:52,040
+important to have the sort of science and the technical knowledge?
+
+1449
+01:04:54,169 --> 01:04:58,360
+Ok. There's, there's obviously more than one way to skin a cat.
+
+1450
+01:04:59,429 --> 01:04:59,909
+Now,
+
+1451
+01:05:04,120 --> 01:05:06,260
+I do get asked this a lot and I do
+
+1452
+01:05:07,850 --> 01:05:08,989
+speak with
+
+1453
+01:05:10,989 --> 01:05:13,969
+young people who are in this phase of their studies quite a lot
+
+1454
+01:05:14,800 --> 01:05:16,860
+and they ask me such questions.
+
+1455
+01:05:17,370 --> 01:05:18,189
+Um
+
+1456
+01:05:18,320 --> 01:05:20,949
+So what I say is my opinion, it's not the only way.
+
+1457
+01:05:21,229 --> 01:05:21,840
+Um
+
+1458
+01:05:22,580 --> 01:05:24,169
+I don't think a PhD is
+
+1459
+01:05:24,330 --> 01:05:25,350
+essential.
+
+1460
+01:05:26,179 --> 01:05:26,870
+Um
+
+1461
+01:05:27,370 --> 01:05:28,500
+and it's not
+
+1462
+01:05:30,969 --> 01:05:31,000
+uh
+
+1463
+01:05:31,649 --> 01:05:35,189
+if you consider three years versus a master's of one year,
+
+1464
+01:05:36,679 --> 01:05:37,340
+does it
+
+1465
+01:05:37,850 --> 01:05:40,179
+vastly improve the chances?
+
+1466
+01:05:40,479 --> 01:05:41,489
+I would say,
+
+1467
+01:05:42,929 --> 01:05:45,090
+I think a PhD has this
+
+1468
+01:05:46,489 --> 01:05:50,419
+degree of flexibility that if you happen to find a job at the right moment, you can
+
+1469
+01:05:50,899 --> 01:05:53,909
+more easily jump ship and more easily
+
+1470
+01:05:54,629 --> 01:05:57,770
+uh move into your job without
+
+1471
+01:05:57,909 --> 01:06:00,500
+maybe completing a PhD, which is very inadvisable. But,
+
+1472
+01:06:00,639 --> 01:06:01,810
+you know, people would do that.
+
+1473
+01:06:05,729 --> 01:06:06,370
+I'm not,
+
+1474
+01:06:09,379 --> 01:06:09,959
+I
+
+1475
+01:06:10,100 --> 01:06:11,550
+think I prefer
+
+1476
+01:06:11,659 --> 01:06:12,860
+more general,
+
+1477
+01:06:13,679 --> 01:06:14,879
+more generalists
+
+1478
+01:06:15,260 --> 01:06:17,280
+than specialists overall.
+
+1479
+01:06:17,770 --> 01:06:18,280
+Um
+
+1480
+01:06:18,739 --> 01:06:19,909
+I don't think it is
+
+1481
+01:06:20,159 --> 01:06:23,159
+essential to do a motorsport course.
+
+1482
+01:06:23,840 --> 01:06:25,520
+I think, um,
+
+1483
+01:06:25,959 --> 01:06:30,540
+you know, doing a general engineering or, or something like that
+
+1484
+01:06:31,370 --> 01:06:32,090
+is
+
+1485
+01:06:33,989 --> 01:06:35,209
+at least as good.
+
+1486
+01:06:35,219 --> 01:06:38,080
+And then what prevails in the choice is
+
+1487
+01:06:38,090 --> 01:06:40,419
+the quality of the university rather than the,
+
+1488
+01:06:40,629 --> 01:06:43,760
+whether the course is a specific motorsport course or not.
+
+1489
+01:06:44,790 --> 01:06:48,090
+What I do however, recommend a lot
+
+1490
+01:06:48,409 --> 01:06:50,250
+to young people is
+
+1491
+01:06:50,629 --> 01:06:53,090
+I give them two bits of advice. One is
+
+1492
+01:06:53,870 --> 01:06:54,850
+my opinion of course.
+
+1493
+01:06:55,080 --> 01:07:00,179
+Uh that if the university has a Formula SAE type activity,
+
+1494
+01:07:00,840 --> 01:07:03,399
+I think it is strongly advisable that they do that.
+
+1495
+01:07:04,739 --> 01:07:05,520
+Um
+
+1496
+01:07:06,020 --> 01:07:07,929
+If you want to get into motorsport, of course,
+
+1497
+01:07:08,090 --> 01:07:09,280
+because uh
+
+1498
+01:07:09,850 --> 01:07:10,659
+doing it,
+
+1499
+01:07:11,209 --> 01:07:11,600
+uh
+
+1500
+01:07:12,100 --> 01:07:15,439
+indicates that they work hard, they can work in a team.
+
+1501
+01:07:16,260 --> 01:07:17,850
+Um They, they
+
+1502
+01:07:20,429 --> 01:07:24,610
+have spent a huge amount of time doing that as well as studying for their
+
+1503
+01:07:24,800 --> 01:07:26,570
+degree and getting the good grades.
+
+1504
+01:07:27,219 --> 01:07:29,250
+Uh I was asked a question by one guy.
+
+1505
+01:07:29,260 --> 01:07:32,689
+Um, what's more important: do Formula SAE or get good grades? Well, you need both.
+
+1506
+01:07:35,879 --> 01:07:38,459
+That's very common in Formula SAE, because they get obsessed with it.
+
+1507
+01:07:40,419 --> 01:07:42,250
+I remember telling him, no, no, if you,
+
+1508
+01:07:42,459 --> 01:07:45,199
+if you're going to do it and then have bad grades,
+
+1509
+01:07:45,540 --> 01:07:46,679
+actually, then you're
+
+1510
+01:07:47,419 --> 01:07:48,179
+worse off.
+
+1511
+01:07:48,870 --> 01:07:52,760
+Um, so you need to do both and if you manage to do well in both
+
+1512
+01:07:52,889 --> 01:07:53,560
+it means
+
+1513
+01:07:53,850 --> 01:07:56,030
+it gives a message to your employer that, look,
+
+1514
+01:07:57,689 --> 01:07:59,689
+you're a hard worker. And
+
+1515
+01:08:00,090 --> 01:08:00,439
+uh and
+
+1516
+01:08:00,590 --> 01:08:00,610
+so,
+
+1517
+01:08:02,120 --> 01:08:03,620
+so I definitely advise that.
+
+1518
+01:08:04,100 --> 01:08:04,189
+Another
+
+1519
+01:08:04,449 --> 01:08:05,219
+thing I advise
+
+1520
+01:08:05,669 --> 01:08:06,469
+is
+
+1521
+01:08:06,659 --> 01:08:10,379
+that the world is changing and
+
+1522
+01:08:10,949 --> 01:08:15,179
+we don't know what it will be like in 20, 30 or 40 years from now.
+
+1523
+01:08:15,929 --> 01:08:17,950
+And people should
+
+1524
+01:08:19,099 --> 01:08:21,318
+uh always have a plan B as well.
+
+1525
+01:08:21,818 --> 01:08:26,837
+And uh and make sure that what they study and what they do doesn't
+
+1526
+01:08:27,627 --> 01:08:32,249
+lead only into motorsport, but can lead into a variety of fields
+
+1527
+01:08:33,639 --> 01:08:38,099
+in motorsport. So I consider it's, it's good luck to be in motorsport. I,
+
+1528
+01:08:38,249 --> 01:08:39,957
+I've been extremely fortunate.
+
+1529
+01:08:40,709 --> 01:08:43,290
+I'm not sure if somebody who is now 20 who,
+
+1530
+01:08:43,970 --> 01:08:44,950
+who will be
+
+1531
+01:08:45,809 --> 01:08:50,269
+still working in 45 years from now, probably when he's 65.
+
+1532
+01:08:51,140 --> 01:08:53,839
+I'm not sure if he can rely on,
+
+1533
+01:08:54,559 --> 01:08:57,229
+on just motorsport being his breadwinner.
+
+1534
+01:08:57,769 --> 01:09:00,139
+So I think it's important for
+
+1535
+01:09:00,479 --> 01:09:03,059
+people to keep to, to have a wide
+
+1536
+01:09:03,368 --> 01:09:05,328
+range of skills and abilities.
+
+1537
+01:09:06,578 --> 01:09:07,948
+Yeah, it is. Uh
+
+1538
+01:09:08,457 --> 01:09:12,438
+that's really good advice. And I, and I, what I find as well,
+
+1539
+01:09:12,749 --> 01:09:16,158
+maybe it's because of what we spoke about right at the beginning:
+
+1540
+01:09:17,419 --> 01:09:20,640
+there are so many people employed in these teams
+
+1541
+01:09:21,379 --> 01:09:24,339
+and it's hard to progress, you know,
+
+1542
+01:09:24,350 --> 01:09:27,720
+because I guess it's like a triangle, you know, sort of structure, isn't it?
+
+1543
+01:09:28,379 --> 01:09:29,080
+Um
+
+1544
+01:09:29,370 --> 01:09:30,979
+I usually say to people that,
+
+1545
+01:09:31,839 --> 01:09:34,620
+you know, yes, be passionate about getting into Formula One,
+
+1546
+01:09:34,959 --> 01:09:35,509
+but it's,
+
+1547
+01:09:35,910 --> 01:09:37,379
+it's also a great stepping stone.
+
+1548
+01:09:37,390 --> 01:09:39,939
+So many people have gone into Formula One and become
+
+1549
+01:09:39,950 --> 01:09:42,220
+experts and then exported that into others.
+
+1550
+01:09:42,229 --> 01:09:45,430
+I think one of Formula One's greatest exports is its talent.
+
+1551
+01:09:45,439 --> 01:09:47,339
+I know you often talk about technology
+
+1552
+01:09:47,529 --> 01:09:52,740
+but I'd say it's more the people if you look at Tesla and Rivian and all these sort of
+
+1553
+01:09:52,990 --> 01:09:56,240
+exciting companies and you look at who's the person who's
+
+1554
+01:09:56,560 --> 01:10:00,160
+head of aero or chief designer. It's almost always someone from Formula One.
+
+1555
+01:10:00,169 --> 01:10:01,529
+It's, it's kind of incredible.
+
+1556
+01:10:01,790 --> 01:10:04,129
+It has been a great exporter, hasn't it, in talent?
+
+1557
+01:10:04,140 --> 01:10:07,020
+Even if you don't make it in Formula One or decide to leave
+
+1558
+01:10:07,500 --> 01:10:08,620
+it. It's still a good
+
+1559
+01:10:09,520 --> 01:10:10,970
+stepping stone, I suppose.
+
+1560
+01:10:11,250 --> 01:10:11,459
+Yeah.
+
+1561
+01:10:12,459 --> 01:10:13,379
+Yeah, I agree. Yeah.
+
+1562
+01:10:14,009 --> 01:10:14,339
+Yeah.
+
+1563
+01:10:15,129 --> 01:10:18,399
+Well, thank you. Really appreciate it. I know you're a busy man.
+
+1564
+01:10:18,410 --> 01:10:21,890
+And as this is probably your first day back, there's about a million emails.
+
+1565
+01:10:24,410 --> 01:10:27,549
+I have to close with
+
+1566
+01:10:27,709 --> 01:10:27,850
+a mini
+
+1567
+01:10:28,600 --> 01:10:29,509
+boast.
+
+1568
+01:10:30,029 --> 01:10:30,830
+Uh
+
+1569
+01:10:31,500 --> 01:10:35,660
+I think sometimes um my
+
+1570
+01:10:36,689 --> 01:10:41,270
+biggest contribution to the sport I think was I believe I was the guy who
+
+1571
+01:10:41,700 --> 01:10:44,549
+initially originated the idea of the August break.
+
+1572
+01:10:44,939 --> 01:10:46,040
+And so,
+
+1573
+01:10:46,259 --> 01:10:47,600
+so Um
+
+1574
+01:10:48,129 --> 01:10:49,859
+Thanks to that, I don't have a million emails
+
+1575
+01:10:50,359 --> 01:10:50,919
+and I
+
+1576
+01:10:51,140 --> 01:10:51,250
+have
+
+1577
+01:10:51,520 --> 01:10:54,970
+only a relatively manageable list of emails to go through.
+
+1578
+01:10:54,979 --> 01:10:57,830
+But nonetheless, I'm trying to remember what it was all about. So
+
+1579
+01:10:59,620 --> 01:11:00,549
+that's a good thing. Right.
+
+1580
+01:11:00,560 --> 01:11:03,939
+So people, whenever they're, you know, disappointed in the FIA's decision,
+
+1581
+01:11:03,950 --> 01:11:06,750
+they should thank you for actually giving them a nice break
+
+1582
+01:11:07,129 --> 01:11:07,729
+over August
+
+1583
+01:11:08,120 --> 01:11:08,370
+and it was
+
+1584
+01:11:08,490 --> 01:11:09,209
+done for,
+
+1585
+01:11:09,540 --> 01:11:10,740
+back in my pre
+
+1586
+01:11:10,870 --> 01:11:11,000
+FIA
+
+1587
+01:11:11,120 --> 01:11:11,649
+days. So
+
+1588
+01:11:11,919 --> 01:11:13,859
+I proposed it when I was at Ferrari
+
+1589
+01:11:14,410 --> 01:11:16,709
+and I proposed it when I came back when I,
+
+1590
+01:11:16,720 --> 01:11:19,689
+I think I would have thought about it when I was flying back on a plane.
+
+1591
+01:11:20,100 --> 01:11:24,569
+Uh, a bad holiday, which was full of phone calls and emails and
+
+1592
+01:11:25,120 --> 01:11:26,180
+trying to
+
+1593
+01:11:26,500 --> 01:11:30,589
+um manage between my little kids at that time and
+
+1594
+01:11:30,740 --> 01:11:32,930
+phone calls and working on a report
+
+1595
+01:11:33,270 --> 01:11:37,839
+and I had a really lousy holiday and I remember thinking that's just stupid, you
+
+1596
+01:11:37,939 --> 01:11:38,009
+know?
+
+1597
+01:11:41,000 --> 01:11:41,910
+It was a good decision.
+
+1598
+01:11:43,410 --> 01:11:43,439
+Okay.
+
+1599
+01:11:43,790 --> 01:11:46,259
+Great. Thanks so much. Really appreciate it. Nice
+
+1600
+01:11:46,379 --> 01:11:46,470
+to see
+
+1601
+01:11:46,580 --> 01:11:46,600
+you
+
+1602
+01:11:46,740 --> 01:11:46,970
+again.
+
+1603
+01:11:47,790 --> 01:11:47,939
+Keep
+
+1604
+01:11:48,069 --> 01:11:48,100
+in
+
+1605
+01:11:48,220 --> 01:11:48,319
+touch
+
+1606
+01:12:12,060 --> 01:12:12,089
+then.

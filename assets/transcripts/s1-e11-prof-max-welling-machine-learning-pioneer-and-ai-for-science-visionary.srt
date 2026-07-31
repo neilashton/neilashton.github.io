@@ -1,0 +1,5723 @@
+1
+00:00:00,100 --> 00:00:02,480
+Hi and welcome to the Neil Ashton podcast.
+
+2
+00:00:03,019 --> 00:00:03,839
+In each episode,
+
+3
+00:00:03,849 --> 00:00:07,309
+we explained some of the fascinating ways that science and engineering
+
+4
+00:00:07,469 --> 00:00:09,159
+are changing the world around us.
+
+5
+00:00:09,699 --> 00:00:14,170
+We talk to leading engineers from elite level sports like cycling and Formula One
+
+6
+00:00:14,760 --> 00:00:18,670
+to some of the world's top academics to understand how fluid dynamics,
+
+7
+00:00:18,680 --> 00:00:21,069
+machine learning and supercomputing
+
+8
+00:00:21,229 --> 00:00:22,729
+are bringing in a new era of discovery.
+
+9
+00:00:23,790 --> 00:00:27,149
+We also hear some of their life stories, their career advice
+
+10
+00:00:27,540 --> 00:00:31,590
+and lessons they've learned on the way that I hope will be helpful to you too.
+
+11
+00:00:31,959 --> 00:00:34,330
+So sit back and enjoy this episode.
+
+12
+00:00:39,720 --> 00:00:41,419
+Welcome back to the Neil Ashton podcast.
+
+13
+00:00:42,360 --> 00:00:45,159
+Today's guest is Professor Max Welling,
+
+14
+00:00:45,470 --> 00:00:48,020
+one of the foremost experts in machine learning.
+
+15
+00:00:48,369 --> 00:00:49,750
+And I was speaking to him in
+
+16
+00:00:49,950 --> 00:00:52,939
+this episode about AI for science,
+
+17
+00:00:52,950 --> 00:00:55,150
+the use of machine learning and AI to
+
+18
+00:00:55,159 --> 00:00:57,939
+solve some of the biggest challenges in science.
+
+19
+00:00:58,080 --> 00:00:59,939
+Now, if you're in the machine learning world,
+
+20
+00:00:59,950 --> 00:01:02,299
+you'll already know who Professor Welling is.
+
+21
+00:01:02,509 --> 00:01:04,220
+But just in case you're, you're not,
+
+22
+00:01:04,230 --> 00:01:08,180
+I'll just briefly give his background of why he is such an expert.
+
+23
+00:01:08,919 --> 00:01:09,339
+Well,
+
+24
+00:01:09,349 --> 00:01:12,199
+as we actually discussed in the podcast cos I I always like
+
+25
+00:01:12,209 --> 00:01:15,019
+to ask people about their academic careers and how they got to,
+
+26
+00:01:15,029 --> 00:01:16,180
+you know, where they got to,
+
+27
+00:01:16,540 --> 00:01:20,680
+uh, he started off, you know, the, the standard academic track, I guess,
+
+28
+00:01:20,690 --> 00:01:22,319
+doing a master's and a PhD.
+
+29
+00:01:22,709 --> 00:01:25,430
+Uh, and then as he said, he actually did many postdocs,
+
+30
+00:01:25,580 --> 00:01:27,980
+um, moving between different universities.
+
+31
+00:01:27,989 --> 00:01:31,519
+I, I guess, most notably he was with, um,
+
+32
+00:01:31,529 --> 00:01:37,139
+Geoffrey Hinton who is seen as the sort of godfather of, um, of AI at UCL.
+
+33
+00:01:37,410 --> 00:01:39,110
+Uh But then he went over to,
+
+34
+00:01:39,120 --> 00:01:43,180
+to the US uh to UC Irvine and he started being a professor there.
+
+35
+00:01:43,550 --> 00:01:46,830
+Um And then he ended up actually going um
+
+36
+00:01:46,949 --> 00:01:48,309
+and being, being, yeah,
+
+37
+00:01:48,319 --> 00:01:50,940
+an assistant professor there and then coming back to the University
+
+38
+00:01:50,949 --> 00:01:53,809
+of Amsterdam to become a professor and he's actually stayed there
+
+39
+00:01:53,910 --> 00:01:55,410
+uh pretty much ever since.
+
+40
+00:01:55,709 --> 00:02:00,669
+But one of the interesting thing is that he has taken routes into industry and,
+
+41
+00:02:00,680 --> 00:02:01,430
+and start ups.
+
+42
+00:02:01,440 --> 00:02:03,269
+So he was a VP at Qualcomm.
+
+43
+00:02:03,870 --> 00:02:07,040
+Uh And actually very recently, he was also a VP
+
+44
+00:02:07,370 --> 00:02:09,690
+and distinguished scientist at Microsoft.
+
+45
+00:02:10,050 --> 00:02:16,169
+He recently left um that position and to start a new start up called CuspAI,
+
+46
+00:02:16,179 --> 00:02:19,970
+which is working on machine learning for material discovery.
+
+47
+00:02:19,979 --> 00:02:22,100
+In, in the topic of carbon capture,
+
+48
+00:02:22,460 --> 00:02:25,250
+we actually go into what his startup's about what they're doing,
+
+49
+00:02:25,259 --> 00:02:26,970
+why he's interested in this area.
+
+50
+00:02:27,789 --> 00:02:28,149
+Um
+
+51
+00:02:28,860 --> 00:02:32,279
+I probably could spend a long time going through all his achievements.
+
+52
+00:02:32,529 --> 00:02:35,020
+Um But he, he's one of those people who is,
+
+53
+00:02:35,789 --> 00:02:36,399
+you know,
+
+54
+00:02:36,800 --> 00:02:39,199
+at the forefront of, of machine learning.
+
+55
+00:02:39,210 --> 00:02:42,039
+So he's been the people in charge of all the major conference like
+
+56
+00:02:42,289 --> 00:02:44,639
+Nips and IC ML and Ile conferences.
+
+57
+00:02:44,880 --> 00:02:48,259
+Um He has been leading, if people haven't seen that,
+
+58
+00:02:48,270 --> 00:02:50,820
+I would highly recommend that you do look some of
+
+59
+00:02:50,830 --> 00:02:53,949
+these workshops on AI for science uh particularly at nos
+
+60
+00:02:54,240 --> 00:02:57,960
+the past few years. So these bring together all the world leading experts
+
+61
+00:02:58,080 --> 00:02:58,759
+on,
+
+62
+00:02:58,869 --> 00:02:59,320
+you know,
+
+63
+00:02:59,330 --> 00:03:01,520
+uh machine learning and its and its application to
+
+64
+00:03:01,529 --> 00:03:04,160
+science and bring them all together in workshops that's
+
+65
+00:03:04,289 --> 00:03:05,660
+has been really good.
+
+66
+00:03:06,020 --> 00:03:06,580
+Um
+
+67
+00:03:06,809 --> 00:03:11,729
+And what I like about him is he has that unique experience that we,
+
+68
+00:03:11,740 --> 00:03:15,600
+that we touch about being not just a pure academic
+
+69
+00:03:16,160 --> 00:03:19,309
+or being a pure industrious, but someone who has jumped between.
+
+70
+00:03:19,320 --> 00:03:23,559
+And I really do believe that that gives him uh somewhat a unique insight
+
+71
+00:03:23,860 --> 00:03:25,050
+into
+
+72
+00:03:25,160 --> 00:03:29,399
+not just the science but the practicalities of how do you go about it
+
+73
+00:03:29,410 --> 00:03:32,589
+and that's exactly what we try and discuss a little bit in this.
+
+74
+00:03:32,610 --> 00:03:35,339
+We purposely keep it reasonably high level.
+
+75
+00:03:35,350 --> 00:03:37,820
+So we're not going into the super super details
+
+76
+00:03:38,039 --> 00:03:41,440
+but rather looking at the the big topics. So for example,
+
+77
+00:03:41,720 --> 00:03:43,710
+we start off by discussing
+
+78
+00:03:44,210 --> 00:03:46,520
+data driven versus physics driven approach.
+
+79
+00:03:46,529 --> 00:03:49,270
+It as in do you need to include the physics,
+
+80
+00:03:49,279 --> 00:03:52,630
+physical equations into the loss functions into machine learning?
+
+81
+00:03:52,639 --> 00:03:54,699
+Or can you just let the data do it?
+
+82
+00:03:55,259 --> 00:04:00,960
+We talk about uh foundational models as in, could you create a foundational model,
+
+83
+00:04:00,970 --> 00:04:04,029
+the science that you can just use or, or just, or just fine tune.
+
+84
+00:04:04,679 --> 00:04:06,929
+And then we pivot a little bit and
+
+85
+00:04:07,289 --> 00:04:10,119
+what I think anyway, at least have some interesting discussions around.
+
+86
+00:04:10,130 --> 00:04:11,759
+Should you open source
+
+87
+00:04:11,899 --> 00:04:15,740
+the models and the data? We have a good discussion about the merits of that
+
+88
+00:04:16,119 --> 00:04:18,510
+um ethical considerations, et cetera.
+
+89
+00:04:19,070 --> 00:04:21,850
+Uh And then we get into the different mode of operation,
+
+90
+00:04:21,858 --> 00:04:24,170
+what the advantages of academic industry and start
+
+91
+00:04:24,179 --> 00:04:26,179
+ups in terms of reaching these benefits.
+
+92
+00:04:26,670 --> 00:04:28,649
+Um We talk about his start up about
+
+93
+00:04:28,769 --> 00:04:29,079
+ca I
+
+94
+00:04:29,200 --> 00:04:31,649
+we talk about what they're doing, why he's doing this,
+
+95
+00:04:31,660 --> 00:04:34,869
+his excitement and motivation to go back to a start up.
+
+96
+00:04:35,230 --> 00:04:37,209
+We briefly took on some of the funding, you know,
+
+97
+00:04:37,220 --> 00:04:41,070
+what's it like getting funding from VCs in Europe versus the US?
+
+98
+00:04:41,500 --> 00:04:45,239
+Uh And then we, we sort of finish a little bit discussing career paths.
+
+99
+00:04:45,250 --> 00:04:48,470
+He goes into more details about his personal journey
+
+100
+00:04:48,640 --> 00:04:52,209
+through academia, through industry, his advice for people now.
+
+101
+00:04:52,450 --> 00:04:55,380
+Uh and finishing really on what his
+
+102
+00:04:55,600 --> 00:04:58,500
+uh thoughts are on the future of machine
+
+103
+00:04:58,510 --> 00:05:00,890
+learning and how this could help scientific discovery.
+
+104
+00:05:00,899 --> 00:05:04,029
+So a pretty wide ranging uh just topic like anything
+
+105
+00:05:04,040 --> 00:05:06,089
+we probably could have spoke for many more hours.
+
+106
+00:05:06,100 --> 00:05:06,399
+But
+
+107
+00:05:06,559 --> 00:05:11,010
+I, I certainly learned a lot through this conversation and I, I hope you enjoy it too.
+
+108
+00:05:11,019 --> 00:05:11,450
+So
+
+109
+00:05:11,630 --> 00:05:15,540
+uh sit back and please listen to this episode with Professor Max. Welling
+
+110
+00:05:16,260 --> 00:05:17,380
+do we start it now?
+
+111
+00:05:17,890 --> 00:05:18,350
+We have?
+
+112
+00:05:18,570 --> 00:05:19,119
+All right.
+
+113
+00:05:20,359 --> 00:05:20,380
+Uh
+
+114
+00:05:20,480 --> 00:05:23,429
+Yeah. A for science, I think um
+
+115
+00:05:23,929 --> 00:05:28,040
+is the application of the tools that are being developed in machine learning and AI
+
+116
+00:05:28,790 --> 00:05:30,239
+um to
+
+117
+00:05:31,029 --> 00:05:36,410
+basically help the discovery process and the analysis process in the sciences.
+
+118
+00:05:37,649 --> 00:05:38,510
+Um
+
+119
+00:05:38,950 --> 00:05:43,320
+The interesting thing is that there's also signs for AI in a way which is
+
+120
+00:05:44,239 --> 00:05:45,109
+the, you know,
+
+121
+00:05:45,510 --> 00:05:49,299
+using principles from the sciences and the mathematics
+
+122
+00:05:49,980 --> 00:05:53,070
+such as um you know, symmetries,
+
+123
+00:05:53,309 --> 00:05:57,130
+um diffusion processes like thermodynamics
+
+124
+00:05:57,589 --> 00:05:59,640
+to build better machine learning models.
+
+125
+00:05:59,799 --> 00:06:04,190
+So this thing actually go goes two ways, the causal direction is going two ways.
+
+126
+00:06:05,170 --> 00:06:05,709
+Um
+
+127
+00:06:06,829 --> 00:06:12,089
+Now, what we see is that in the sciences um in in a very broad
+
+128
+00:06:12,739 --> 00:06:17,429
+spectrum of the science is going all the way from the very small uh you know, PICO
+
+129
+00:06:17,529 --> 00:06:18,239
+secons
+
+130
+00:06:18,970 --> 00:06:19,829
+uh femto
+
+131
+00:06:20,029 --> 00:06:21,769
+meters, which is basically
+
+132
+00:06:22,029 --> 00:06:23,470
+uh high energy physics
+
+133
+00:06:23,779 --> 00:06:27,500
+where a lot of machine learning is u used to do data analysis
+
+134
+00:06:28,010 --> 00:06:29,149
+all the way up.
+
+135
+00:06:29,630 --> 00:06:32,339
+Uh you know, let's say going through molecules and
+
+136
+00:06:33,260 --> 00:06:36,660
+liquids and fluids and then all the way to sort of
+
+137
+00:06:36,670 --> 00:06:39,760
+earth sciences and maybe going all the way up to uh
+
+138
+00:06:40,529 --> 00:06:41,450
+astronomy
+
+139
+00:06:42,589 --> 00:06:47,190
+um which is the at the scale of the universe uh machine learning mo um
+
+140
+00:06:47,359 --> 00:06:49,809
+models and methods are being used to,
+
+141
+00:06:50,679 --> 00:06:55,929
+yeah, model that particular domain, but also analyze the data better. So
+
+142
+00:06:56,269 --> 00:06:57,049
+it it
+
+143
+00:06:57,220 --> 00:07:02,380
+it has been having a huge and very broad impact in the science as I would say,
+
+144
+00:07:03,600 --> 00:07:04,739
+and how much
+
+145
+00:07:05,589 --> 00:07:10,369
+overlap is there, would you say between the work and the methods
+
+146
+00:07:10,690 --> 00:07:12,089
+that have been used
+
+147
+00:07:12,269 --> 00:07:14,859
+to develop, let's say some of the large language models
+
+148
+00:07:15,309 --> 00:07:19,450
+and those which are in the sciences, is it a matter of applying the same
+
+149
+00:07:19,910 --> 00:07:21,250
+tools and technologies?
+
+150
+00:07:21,260 --> 00:07:24,529
+And it's just essentially a different focus area or do you see that
+
+151
+00:07:24,540 --> 00:07:27,549
+fundamentally there are differences and new approaches
+
+152
+00:07:27,579 --> 00:07:29,450
+that are need to be developed.
+
+153
+00:07:29,769 --> 00:07:34,989
+There's a surprising amount of overlap I would say um which I find interesting.
+
+154
+00:07:35,000 --> 00:07:36,350
+So the fir the first thing to
+
+155
+00:07:36,750 --> 00:07:38,920
+say is that even within
+
+156
+00:07:39,250 --> 00:07:41,429
+this incredibly broad range of
+
+157
+00:07:42,089 --> 00:07:45,790
+um scientific disciplines, of course, the tools that are being used,
+
+158
+00:07:45,799 --> 00:07:49,290
+the mathematical tools that are being used are often very similar too.
+
+159
+00:07:49,299 --> 00:07:50,369
+So you start from
+
+160
+00:07:50,679 --> 00:07:51,250
+you, you know,
+
+161
+00:07:51,260 --> 00:07:53,950
+it's either a partial differential equation or
+
+162
+00:07:53,959 --> 00:07:57,239
+stochastic differential equation or ordinary differential equation.
+
+163
+00:07:57,730 --> 00:08:00,649
+That's because physics is causal, you know,
+
+164
+00:08:00,660 --> 00:08:02,630
+you try to predict the future from the past.
+
+165
+00:08:03,250 --> 00:08:06,829
+Um It's typically continuous but not necessarily, but many, you know,
+
+166
+00:08:06,839 --> 00:08:09,709
+processes are modeled continuously like fluids
+
+167
+00:08:11,820 --> 00:08:12,399
+a me
+
+168
+00:08:13,230 --> 00:08:17,649
+and it's local, which means that you, you typically don't have something at a very
+
+169
+00:08:17,820 --> 00:08:19,890
+far distant place,
+
+170
+00:08:20,190 --> 00:08:22,739
+instantaneously impacting things here.
+
+171
+00:08:23,209 --> 00:08:28,290
+And so these three aspects make the tool set typically quite similar,
+
+172
+00:08:28,299 --> 00:08:30,089
+even even across all those scales.
+
+173
+00:08:31,049 --> 00:08:31,549
+Um
+
+174
+00:08:31,950 --> 00:08:33,820
+So now to the question, um
+
+175
+00:08:34,460 --> 00:08:37,840
+some of these tools which are being developed for image generation
+
+176
+00:08:38,570 --> 00:08:42,010
+um perhaps more than for large language models.
+
+177
+00:08:42,020 --> 00:08:45,710
+So they're actually different tools, although they're all being,
+
+178
+00:08:46,650 --> 00:08:47,090
+you know,
+
+179
+00:08:47,119 --> 00:08:51,510
+put in the same bucket typically as generative AI but actually quite different.
+
+180
+00:08:52,630 --> 00:08:53,130
+Um
+
+181
+00:08:54,080 --> 00:08:59,340
+But especially the methods that have been used for video and and image generation,
+
+182
+00:08:59,349 --> 00:09:00,309
+which you can actually
+
+183
+00:09:00,539 --> 00:09:03,559
+somewhat think of as a physical object with pixels
+
+184
+00:09:03,570 --> 00:09:06,780
+being microscopic degrees of freedom which have some dynamics.
+
+185
+00:09:07,809 --> 00:09:08,309
+A me.
+
+186
+00:09:08,969 --> 00:09:11,270
+So the tools and diffusion models for instance,
+
+187
+00:09:11,280 --> 00:09:13,549
+which is the method that generates all
+
+188
+00:09:13,559 --> 00:09:15,950
+these beautiful images and videos these days,
+
+189
+00:09:16,849 --> 00:09:18,419
+those can be almost
+
+190
+00:09:18,799 --> 00:09:21,419
+literally used to generate molecules
+
+191
+00:09:22,330 --> 00:09:23,479
+um and fluids.
+
+192
+00:09:24,059 --> 00:09:25,159
+So um
+
+193
+00:09:25,809 --> 00:09:27,710
+maybe not surprising because of fluid,
+
+194
+00:09:27,719 --> 00:09:28,979
+you can think of it as a sort of a set
+
+195
+00:09:28,989 --> 00:09:31,559
+of pixels or it's typically modeled as a set of pixels,
+
+196
+00:09:31,570 --> 00:09:33,309
+you know, it evolves over time as well.
+
+197
+00:09:34,190 --> 00:09:37,590
+Um For molecules you could argue, you know, those are, you know,
+
+198
+00:09:37,820 --> 00:09:41,299
+it's more like a graph uh where the nodes are
+
+199
+00:09:41,900 --> 00:09:43,169
+at certain locations.
+
+200
+00:09:43,979 --> 00:09:46,719
+Um So maybe they're slightly more surprising,
+
+201
+00:09:46,729 --> 00:09:49,169
+but it is almost literally the same tools.
+
+202
+00:09:49,179 --> 00:09:51,150
+In fact, we developed uh
+
+203
+00:09:51,469 --> 00:09:52,150
+what's called equi
+
+204
+00:09:52,359 --> 00:09:55,729
+equivariant methods which incorporate the symmetries of the world,
+
+205
+00:09:55,739 --> 00:09:57,710
+which is that a molecule or an image.
+
+206
+00:09:57,719 --> 00:10:00,349
+So it may be best for an image if you look at sort of
+
+207
+00:10:00,570 --> 00:10:00,580
+a
+
+208
+00:10:00,989 --> 00:10:02,479
+histopathology slide,
+
+209
+00:10:02,489 --> 00:10:04,659
+which is a slide which has all all these kind
+
+210
+00:10:04,669 --> 00:10:07,549
+of stain cells in them and some cells might be
+
+211
+00:10:08,140 --> 00:10:11,039
+uh have a tumor in them and and other ones don't.
+
+212
+00:10:11,200 --> 00:10:14,580
+And your task is to find the cells which are malignant.
+
+213
+00:10:15,349 --> 00:10:15,969
+Um
+
+214
+00:10:16,359 --> 00:10:16,890
+So,
+
+215
+00:10:17,400 --> 00:10:20,960
+you know, if you turn the slide upside down, you know, you don't even know. Right.
+
+216
+00:10:20,969 --> 00:10:23,849
+It's just the same set of cells, but this rotate a little bit
+
+217
+00:10:24,799 --> 00:10:29,280
+and, but a neural network doesn't know that usually. And so we've built models
+
+218
+00:10:29,700 --> 00:10:30,479
+which were called equi
+
+219
+00:10:30,690 --> 00:10:32,719
+equivariant models, which build in sort of symmetries.
+
+220
+00:10:34,289 --> 00:10:36,890
+So for instance, you know, those methods,
+
+221
+00:10:36,900 --> 00:10:39,239
+these symmetries which we've developed for
+
+222
+00:10:39,510 --> 00:10:43,390
+fission very naturally also transfer to
+
+223
+00:10:44,090 --> 00:10:45,359
+but back to physics.
+
+224
+00:10:45,369 --> 00:10:49,549
+So they came from physics in some sense and we turned them into tools for, for,
+
+225
+00:10:49,559 --> 00:10:50,289
+for images.
+
+226
+00:10:50,299 --> 00:10:53,390
+And now, now, now we apply them again to molecules, right?
+
+227
+00:10:53,400 --> 00:10:56,200
+And so a molecule upside down is the same molecule,
+
+228
+00:10:56,210 --> 00:10:58,710
+a molecule displaced from here to here is still
+
+229
+00:10:58,719 --> 00:11:00,929
+the same molecule with the same properties typically.
+
+230
+00:11:00,940 --> 00:11:01,270
+So
+
+231
+00:11:01,630 --> 00:11:04,989
+that's why these tools are very useful, you know, across the board.
+
+232
+00:11:05,840 --> 00:11:07,739
+But one of the um
+
+233
+00:11:08,309 --> 00:11:12,219
+topics that seemed to be very much an active debate
+
+234
+00:11:12,880 --> 00:11:15,359
+in at least in the machine learning for
+
+235
+00:11:16,419 --> 00:11:19,200
+fluid dynamics, which is maybe what I'm most familiar with.
+
+236
+00:11:19,210 --> 00:11:19,440
+But I,
+
+237
+00:11:19,450 --> 00:11:21,549
+I'd be keen to get your opinion on this
+
+238
+00:11:21,559 --> 00:11:24,340
+and more broadly to other scientific disciplines is this
+
+239
+00:11:24,679 --> 00:11:27,650
+sort of physics driven versus data driven.
+
+240
+00:11:28,710 --> 00:11:30,200
+I see on one side,
+
+241
+00:11:30,330 --> 00:11:34,200
+the logical argument there are physics laws surely, you know,
+
+242
+00:11:34,210 --> 00:11:36,469
+the solutions should bound by them.
+
+243
+00:11:37,270 --> 00:11:41,570
+But I I saw you gave a talk recently and you were alluding to the idea of
+
+244
+00:11:42,250 --> 00:11:45,059
+there's a sort of cut off point where if you don't have much data,
+
+245
+00:11:45,070 --> 00:11:46,590
+maybe it makes sense to use them.
+
+246
+00:11:47,340 --> 00:11:51,440
+But if you have a lot of data, you may even be constraining the problem and, and,
+
+247
+00:11:51,450 --> 00:11:51,989
+and solving it.
+
+248
+00:11:52,000 --> 00:11:54,640
+What, what are your current thoughts on this debate around
+
+249
+00:11:54,909 --> 00:11:56,900
+physics or data driven approaches?
+
+250
+00:11:57,030 --> 00:12:00,900
+Yeah, very similar. So I, I'm still, I agree with my older self.
+
+251
+00:12:00,909 --> 00:12:03,359
+So that's good, at least some level of consistency.
+
+252
+00:12:03,809 --> 00:12:04,429
+Um
+
+253
+00:12:04,849 --> 00:12:07,179
+But uh so, for instance, uh you know,
+
+254
+00:12:07,190 --> 00:12:11,229
+when I was still working at Microsoft with a wonderful team there, um uh
+
+255
+00:12:11,840 --> 00:12:13,119
+we worked on
+
+256
+00:12:13,400 --> 00:12:15,159
+models for the atmosphere.
+
+257
+00:12:16,070 --> 00:12:20,349
+Um And this was recently published as a paper called aurora.
+
+258
+00:12:21,179 --> 00:12:21,750
+Um
+
+259
+00:12:21,960 --> 00:12:25,179
+So there, there is a lot of data. So it's like a uh
+
+260
+00:12:25,380 --> 00:12:27,229
+petabytes of data
+
+261
+00:12:28,219 --> 00:12:31,210
+for because, you know, we predict the weather every
+
+262
+00:12:31,559 --> 00:12:32,109
+day,
+
+263
+00:12:32,320 --> 00:12:33,210
+every hour.
+
+264
+00:12:33,219 --> 00:12:37,719
+Um and we store all that data and then of course, we know what the actual weather was,
+
+265
+00:12:37,729 --> 00:12:38,809
+at least we have measurements.
+
+266
+00:12:38,820 --> 00:12:39,099
+And
+
+267
+00:12:39,270 --> 00:12:40,809
+so it's a very rich
+
+268
+00:12:41,080 --> 00:12:43,650
+um and outdated set of data in some sense.
+
+269
+00:12:44,359 --> 00:12:46,010
+Um in that domain,
+
+270
+00:12:47,369 --> 00:12:50,099
+you can basically let go of all the laws of physics.
+
+271
+00:12:50,109 --> 00:12:53,809
+You can just say, let's think of this as a big machine learning problem.
+
+272
+00:12:53,820 --> 00:12:55,349
+We just try to predict the
+
+273
+00:12:55,479 --> 00:12:57,710
+state of the atmosphere, you know,
+
+274
+00:12:57,909 --> 00:13:00,830
+a day ahead, you know, 10 days ahead, whatever, right?
+
+275
+00:13:01,690 --> 00:13:02,349
+Um
+
+276
+00:13:02,809 --> 00:13:05,650
+And you can just use your transformers and everything
+
+277
+00:13:05,659 --> 00:13:08,090
+that you use for image and videos as well.
+
+278
+00:13:08,099 --> 00:13:08,570
+Um
+
+279
+00:13:08,859 --> 00:13:12,830
+And that worked really well. In fact, it's, it's basically as good as
+
+280
+00:13:13,679 --> 00:13:14,150
+a me
+
+281
+00:13:14,820 --> 00:13:18,179
+numerical soul verse. I should be a bit careful saying that. Um
+
+282
+00:13:18,559 --> 00:13:20,200
+But it's as good
+
+283
+00:13:20,969 --> 00:13:21,789
+um
+
+284
+00:13:22,140 --> 00:13:26,270
+with if, if the, if the prediction stays within, you know, the,
+
+285
+00:13:27,020 --> 00:13:31,929
+the the sort of the input that it was trained on, if it goes far beyond that,
+
+286
+00:13:31,940 --> 00:13:33,640
+you have to be much more careful, of course.
+
+287
+00:13:34,080 --> 00:13:36,429
+But the big advantage is just it's way, way faster.
+
+288
+00:13:36,440 --> 00:13:39,979
+So it can be up to 10,000 like four orders of magnitudes faster.
+
+289
+00:13:41,289 --> 00:13:43,979
+Now, there's other domains where
+
+290
+00:13:44,159 --> 00:13:47,549
+this is much harder where you don't have this huge amount of data in fact.
+
+291
+00:13:48,799 --> 00:13:50,219
+And in that case, um
+
+292
+00:13:50,409 --> 00:13:55,849
+you should really build in um the what we call inductive biases
+
+293
+00:13:56,210 --> 00:13:58,820
+that are coming from the laws of physics.
+
+294
+00:13:58,830 --> 00:14:02,299
+And, and I've seen some interesting examples where, for instance, we know
+
+295
+00:14:02,700 --> 00:14:05,950
+the continuity equations should hold typically,
+
+296
+00:14:05,960 --> 00:14:09,219
+if you write down sort of the Navier–Stokes equations,
+
+297
+00:14:09,229 --> 00:14:12,440
+many of them have to shape of some kind of continuity equation.
+
+298
+00:14:12,450 --> 00:14:12,799
+So
+
+299
+00:14:12,950 --> 00:14:13,770
+that, that's the,
+
+300
+00:14:14,200 --> 00:14:17,309
+the partial differential equation that describes basically
+
+301
+00:14:17,320 --> 00:14:20,030
+a velocity field over which the fluid moves
+
+302
+00:14:20,549 --> 00:14:24,619
+um in three dimensions. And then there's a source term basically which you know,
+
+303
+00:14:24,950 --> 00:14:26,619
+applies extra forces to that.
+
+304
+00:14:27,369 --> 00:14:28,109
+And um
+
+305
+00:14:29,669 --> 00:14:34,349
+and so um sort of if you do it with the transformers, you know, it has to learn all that.
+
+306
+00:14:34,750 --> 00:14:37,650
+But um it makes a lot of sense to say, well, we know
+
+307
+00:14:37,890 --> 00:14:41,080
+the world is three dimensional and, and, and it has this sort of,
+
+308
+00:14:41,460 --> 00:14:43,260
+and we know how fluids move around.
+
+309
+00:14:43,270 --> 00:14:47,119
+We just may not know precisely what the forces are that, that are acting on them.
+
+310
+00:14:47,130 --> 00:14:47,650
+And so
+
+311
+00:14:48,010 --> 00:14:50,289
+we learn the forces we,
+
+312
+00:14:50,299 --> 00:14:52,789
+but we constrain it to be a fluid that
+
+313
+00:14:52,799 --> 00:14:55,390
+moves around uh according to the laws of physics.
+
+314
+00:14:55,400 --> 00:14:56,169
+And there
+
+315
+00:14:56,419 --> 00:14:59,409
+you know, if you have little data, then that's a very good prior.
+
+316
+00:14:59,929 --> 00:15:00,549
+Now,
+
+317
+00:15:00,719 --> 00:15:03,219
+the flip side is there's always a flip side. So
+
+318
+00:15:03,559 --> 00:15:04,070
+if you,
+
+319
+00:15:04,960 --> 00:15:08,539
+you know, we don't know the precise laws of physics
+
+320
+00:15:08,719 --> 00:15:08,750
+at
+
+321
+00:15:08,979 --> 00:15:10,510
+that scale,
+
+322
+00:15:10,979 --> 00:15:14,090
+even for the weather, right, we have written down or we,
+
+323
+00:15:14,099 --> 00:15:16,599
+the demetri ologists have written down and I don't
+
+324
+00:15:16,609 --> 00:15:21,460
+know order 1020 equations which describe all the complicated interactions
+
+325
+00:15:21,909 --> 00:15:24,299
+of the, you know, the atmosphere with,
+
+326
+00:15:24,640 --> 00:15:26,630
+you know, the surface with, you know,
+
+327
+00:15:26,640 --> 00:15:29,150
+the radiation with chemicals and all these things.
+
+328
+00:15:29,159 --> 00:15:32,580
+So everything is written down in these equations, but these are approximations.
+
+329
+00:15:32,590 --> 00:15:34,059
+They are not actually, you know,
+
+330
+00:15:34,219 --> 00:15:37,859
+we we might know the laws of physics at the very microscopic level,
+
+331
+00:15:38,099 --> 00:15:41,719
+you know how one atom sort of interacts with another atom using quantum mechanics.
+
+332
+00:15:41,729 --> 00:15:43,219
+And all that, we, we know it very precise,
+
+333
+00:15:43,229 --> 00:15:47,080
+but it's completely hopeless to simulate the atmosphere at that level.
+
+334
+00:15:47,090 --> 00:15:47,979
+So we have to
+
+335
+00:15:48,150 --> 00:15:50,789
+Coors grain is what we call it. We have to go to a
+
+336
+00:15:51,020 --> 00:15:51,960
+much more
+
+337
+00:15:52,299 --> 00:15:52,859
+um
+
+338
+00:15:53,500 --> 00:15:56,599
+sort of a less precise level of description.
+
+339
+00:15:58,070 --> 00:16:04,169
+And at that level, things become approximate. And so if you impose more and more
+
+340
+00:16:05,000 --> 00:16:07,880
+laws of physics, which is, you know, you've approximated
+
+341
+00:16:08,260 --> 00:16:11,340
+at some point, uh you might have so much data that,
+
+342
+00:16:11,500 --> 00:16:14,539
+you know, you, you sort of build in a ceiling to this modeling,
+
+343
+00:16:14,549 --> 00:16:18,140
+you say I want you to fulfill these constraints.
+
+344
+00:16:18,510 --> 00:16:21,020
+But, but if these constraints are approximations,
+
+345
+00:16:21,380 --> 00:16:25,369
+um at some point, that means that you cannot get out of that box.
+
+346
+00:16:25,609 --> 00:16:28,619
+And if you have so much data that the model can actually learn
+
+347
+00:16:29,580 --> 00:16:31,530
+something that's more precise than that box
+
+348
+00:16:31,539 --> 00:16:33,119
+than those constraints you're giving it.
+
+349
+00:16:33,590 --> 00:16:36,979
+Um Then you're constraining the model over constraining the model and that's,
+
+350
+00:16:36,989 --> 00:16:37,750
+that's hurtful
+
+351
+00:16:38,799 --> 00:16:41,510
+all of these, at least from what I can see most of us,
+
+352
+00:16:41,520 --> 00:16:43,200
+when we use a large language model,
+
+353
+00:16:43,429 --> 00:16:45,340
+we never need to train the model.
+
+354
+00:16:45,349 --> 00:16:48,489
+We are just doing an inference essentially on a pre trained model,
+
+355
+00:16:48,500 --> 00:16:49,679
+a foundational model.
+
+356
+00:16:49,750 --> 00:16:53,020
+And most of us never need to, to train it ourselves.
+
+357
+00:16:53,429 --> 00:16:54,219
+Whereas
+
+358
+00:16:54,630 --> 00:16:57,580
+if we take a fluid dynamics or, or a weather problem,
+
+359
+00:16:58,849 --> 00:17:04,270
+do you think that we will ever be able to get to a truly foundational model which,
+
+360
+00:17:04,280 --> 00:17:06,989
+which is trained on such massive data that it,
+
+361
+00:17:07,000 --> 00:17:11,540
+it could work for a plane or a car or a building or the weather could be done in,
+
+362
+00:17:12,390 --> 00:17:15,930
+you know, different parts of the world or anything or, or is,
+
+363
+00:17:16,390 --> 00:17:17,368
+is science
+
+364
+00:17:18,040 --> 00:17:20,719
+a problem that's just much more challenging
+
+365
+00:17:20,839 --> 00:17:22,040
+than um
+
+366
+00:17:22,300 --> 00:17:24,660
+than what we've done for the large language models to date.
+
+367
+00:17:25,689 --> 00:17:29,260
+Yeah, it was a very interesting question, I think on the one.
+
+368
+00:17:29,270 --> 00:17:30,920
+So to me, this is kind of a,
+
+369
+00:17:31,550 --> 00:17:35,050
+I think it does make a lot of sense to train a very large foundation model.
+
+370
+00:17:35,060 --> 00:17:37,229
+And this means plenty of evidence now that
+
+371
+00:17:37,439 --> 00:17:41,930
+if you collect data from diff from very different domains, different regimes
+
+372
+00:17:42,280 --> 00:17:42,849
+um
+
+373
+00:17:42,949 --> 00:17:46,609
+training such a pre training, such a very large foundation model
+
+374
+00:17:47,209 --> 00:17:47,780
+um
+
+375
+00:17:48,000 --> 00:17:49,020
+is a huge benefit,
+
+376
+00:17:49,030 --> 00:17:50,829
+especially if you can then fine tune it
+
+377
+00:17:50,839 --> 00:17:52,969
+to the particular problem that you're interested in.
+
+378
+00:17:52,979 --> 00:17:54,430
+So with a little bit of data
+
+379
+00:17:54,829 --> 00:17:57,589
+and a little bit of fine tuning, you can get a very good model.
+
+380
+00:17:57,599 --> 00:17:59,560
+So I think that's a paradigm
+
+381
+00:17:59,989 --> 00:18:03,349
+that has now been established. And I think that's, you know,
+
+382
+00:18:03,869 --> 00:18:06,949
+I think that that that will just work for the foreseeable future.
+
+383
+00:18:07,560 --> 00:18:10,400
+Um But there's also this thing that um
+
+384
+00:18:11,189 --> 00:18:13,130
+which are called the 8020 rule,
+
+385
+00:18:13,140 --> 00:18:18,209
+which is that it's 80% of getting it right is quite easy,
+
+386
+00:18:18,219 --> 00:18:20,670
+you can do it with 20% maybe of the effort,
+
+387
+00:18:21,089 --> 00:18:24,209
+but then the last 20% is incredibly hard.
+
+388
+00:18:24,819 --> 00:18:27,880
+Um And you may be you may you need a lot more effort, right?
+
+389
+00:18:27,890 --> 00:18:31,170
+And so I think you can see this very clearly for self driving cars, right?
+
+390
+00:18:31,180 --> 00:18:32,400
+So in self driving cars,
+
+391
+00:18:33,069 --> 00:18:35,969
+you know, people get very enthusiastic for the 1st 80%
+
+392
+00:18:36,670 --> 00:18:41,089
+because, hey, we can drive a car without hands on a, on a street. How wonderful.
+
+393
+00:18:41,319 --> 00:18:43,020
+And then you realize that to get it
+
+394
+00:18:43,209 --> 00:18:45,130
+to drive inside Amsterdam,
+
+395
+00:18:45,910 --> 00:18:46,900
+um, you know,
+
+396
+00:18:47,250 --> 00:18:48,920
+that's not gonna work with that first,
+
+397
+00:18:49,150 --> 00:18:51,420
+you know, with this first, you know, model you have.
+
+398
+00:18:51,430 --> 00:18:54,680
+And so you now need an enormous amount of training, but actually
+
+399
+00:18:54,849 --> 00:18:56,589
+probably just rules based
+
+400
+00:18:57,060 --> 00:18:58,660
+methods as well.
+
+401
+00:18:58,670 --> 00:19:02,939
+You know, to make this thing drive safely inside a complicated city like Amsterdam,
+
+402
+00:19:02,949 --> 00:19:04,260
+maybe San Francisco works.
+
+403
+00:19:04,270 --> 00:19:06,729
+I don't know, the streets are all rectangular and everything, but
+
+404
+00:19:06,859 --> 00:19:08,880
+in Amsterdam it's all big chaos.
+
+405
+00:19:09,060 --> 00:19:12,579
+Yeah, people run red lights, bikes everywhere, you know,
+
+406
+00:19:12,589 --> 00:19:14,420
+it's like massively complicated.
+
+407
+00:19:15,099 --> 00:19:16,390
+Um And so
+
+408
+00:19:16,729 --> 00:19:17,640
+it will take
+
+409
+00:19:18,060 --> 00:19:21,489
+80% of the time maybe to get this long till of issues correct.
+
+410
+00:19:21,500 --> 00:19:24,349
+And this is where humans really are very good somehow,
+
+411
+00:19:24,380 --> 00:19:26,369
+this has to do with this generalization.
+
+412
+00:19:26,579 --> 00:19:29,770
+Somehow we do this very naturally and very good.
+
+413
+00:19:30,459 --> 00:19:34,359
+Now, in large language models, I'm sort of seeing something somewhat similar,
+
+414
+00:19:34,369 --> 00:19:34,599
+right?
+
+415
+00:19:34,609 --> 00:19:35,079
+Which is
+
+416
+00:19:36,079 --> 00:19:37,130
+we can get
+
+417
+00:19:37,349 --> 00:19:39,609
+amazingly good
+
+418
+00:19:39,780 --> 00:19:40,369
+at, you know, and,
+
+419
+00:19:40,599 --> 00:19:43,540
+you know, I didn't predict this to be really honest, you know,
+
+420
+00:19:44,729 --> 00:19:47,670
+to, to build these, these um these chat bots,
+
+421
+00:19:49,359 --> 00:19:52,939
+but it is, it is uh perhaps 80% of the way.
+
+422
+00:19:53,099 --> 00:19:55,619
+Um Now the last 20% is
+
+423
+00:19:56,550 --> 00:19:58,000
+you should get it such that,
+
+424
+00:19:58,640 --> 00:20:01,670
+you know, you can't trick it into saying all sorts of rubbish, like, you know,
+
+425
+00:20:01,680 --> 00:20:03,829
+put glue in your pizza or eat rocks, right?
+
+426
+00:20:03,839 --> 00:20:07,060
+These are the kind of things that are big tech companies are now
+
+427
+00:20:07,280 --> 00:20:10,699
+struggling with because, you know, if you put this out there,
+
+428
+00:20:10,819 --> 00:20:14,079
+people will try to, you know, to game it. Um,
+
+429
+00:20:14,459 --> 00:20:16,969
+and that's very negative publicity and all that. So,
+
+430
+00:20:17,739 --> 00:20:20,959
+so this last 20% to make, to make it
+
+431
+00:20:21,349 --> 00:20:23,599
+really understand common sense.
+
+432
+00:20:23,609 --> 00:20:24,520
+Um, you know, it's,
+
+433
+00:20:24,530 --> 00:20:28,599
+it's arguably whether this even can be done by just looking at text, maybe this
+
+434
+00:20:28,790 --> 00:20:30,209
+needs to be some
+
+435
+00:20:30,420 --> 00:20:33,130
+system that grows up among humans, you know,
+
+436
+00:20:33,140 --> 00:20:34,959
+with the body and sort of interact
+
+437
+00:20:34,969 --> 00:20:37,239
+with humans and understand social interactions and,
+
+438
+00:20:38,020 --> 00:20:39,900
+you know, ethical rules and all these kinds of things.
+
+439
+00:20:39,910 --> 00:20:44,270
+Maybe it's just, you can just learn that from text and that last 20% might be very,
+
+440
+00:20:44,280 --> 00:20:45,189
+very hard.
+
+441
+00:20:45,709 --> 00:20:48,430
+And so perhaps in, you know, in physics, it's the same, right?
+
+442
+00:20:48,439 --> 00:20:51,540
+So, you know, you can get it, you can get it right? 80%
+
+443
+00:20:51,800 --> 00:20:53,760
+and that hopefully is useful.
+
+444
+00:20:54,020 --> 00:20:57,550
+Um But then how do you protect yourself against that 20%?
+
+445
+00:20:57,560 --> 00:21:00,359
+You know, an unseen initial condition
+
+446
+00:21:00,949 --> 00:21:02,969
+with incredibly important
+
+447
+00:21:03,260 --> 00:21:08,489
+consequences like OK, it might just, we might just get a heat wave, 50
+
+448
+00:21:08,819 --> 00:21:10,410
+°C, you know, do we,
+
+449
+00:21:10,969 --> 00:21:13,130
+you know, do we warn the public
+
+450
+00:21:13,739 --> 00:21:17,689
+um or do we not because we, we don't know precisely what's going on, right? And
+
+451
+00:21:18,109 --> 00:21:22,050
+that I think is incredibly important to get Right. And we haven't really
+
+452
+00:21:22,520 --> 00:21:24,609
+get our heads around how to do that.
+
+453
+00:21:24,619 --> 00:21:27,369
+And I think uncertainty quantification and reliable,
+
+454
+00:21:27,380 --> 00:21:29,770
+uncertainty quantification is going to be key for that.
+
+455
+00:21:31,189 --> 00:21:36,410
+Very interesting. I haven't really thought about it that way. It's true. The 8020
+
+456
+00:21:37,339 --> 00:21:40,420
+and now I think about it, how I use these large language models
+
+457
+00:21:40,630 --> 00:21:43,880
+is I very rarely take the exact output. It gives me,
+
+458
+00:21:44,599 --> 00:21:48,599
+I normally will iterate on it, but it enables me to
+
+459
+00:21:48,969 --> 00:21:50,380
+get somewhere much faster,
+
+460
+00:21:51,260 --> 00:21:53,209
+I suppose maybe from the physics side,
+
+461
+00:21:53,219 --> 00:21:56,180
+we're expecting it to get perfect where really maybe our
+
+462
+00:21:56,189 --> 00:21:59,689
+expectation should be more similar that it gets us someone closer
+
+463
+00:22:00,479 --> 00:22:04,189
+and maybe then we feed that solution into a traditional solver
+
+464
+00:22:04,500 --> 00:22:04,640
+precisely
+
+465
+00:22:04,900 --> 00:22:05,949
+to do the next bit.
+
+466
+00:22:06,260 --> 00:22:10,150
+Um And its initialization like a smart initialization or something.
+
+467
+00:22:10,829 --> 00:22:11,150
+Yeah.
+
+468
+00:22:11,300 --> 00:22:11,739
+Yeah.
+
+469
+00:22:12,030 --> 00:22:13,099
+But all of this,
+
+470
+00:22:13,719 --> 00:22:17,219
+I still wonder about the data challenge because it seems
+
+471
+00:22:17,459 --> 00:22:20,640
+because of the internet and maybe things have been clamped down,
+
+472
+00:22:21,359 --> 00:22:26,229
+you know, so many images and so many text are publicly available that you can get.
+
+473
+00:22:27,040 --> 00:22:29,180
+Whereas with science,
+
+474
+00:22:29,660 --> 00:22:31,040
+it's very rare
+
+475
+00:22:31,469 --> 00:22:33,520
+to have so much of that data
+
+476
+00:22:34,010 --> 00:22:37,829
+in the public. To me, most companies have that behind firewalls.
+
+477
+00:22:38,390 --> 00:22:40,520
+Even people publish papers,
+
+478
+00:22:40,530 --> 00:22:43,699
+but they very rarely publish the entire data that created it.
+
+479
+00:22:44,400 --> 00:22:45,020
+So
+
+480
+00:22:46,079 --> 00:22:49,180
+how can we get around that issue of of the data?
+
+481
+00:22:49,520 --> 00:22:53,900
+Yeah, that's the absolutely key. So that's the, that's the key for progress I think.
+
+482
+00:22:53,910 --> 00:22:54,219
+So,
+
+483
+00:22:54,609 --> 00:22:54,890
+so
+
+484
+00:22:55,270 --> 00:22:57,329
+you can see that the domains were,
+
+485
+00:22:57,890 --> 00:22:58,250
+you know,
+
+486
+00:22:59,209 --> 00:23:02,089
+researchers have managed to do a lot more data sharing
+
+487
+00:23:02,099 --> 00:23:05,390
+or whether it's just more data available have progressed fast.
+
+488
+00:23:05,400 --> 00:23:08,130
+Um certainly, you know, with machine learning tools.
+
+489
+00:23:08,630 --> 00:23:11,290
+Um But for many other domains,
+
+490
+00:23:11,300 --> 00:23:14,160
+uh companies are hoarding that data or even universities
+
+491
+00:23:14,170 --> 00:23:16,829
+are hoarding their data because it's expensive to generate
+
+492
+00:23:17,300 --> 00:23:21,800
+and they want to, you know, milk that cow for a couple of years in terms of papers
+
+493
+00:23:21,949 --> 00:23:24,069
+before they give it to others. Um
+
+494
+00:23:24,300 --> 00:23:26,750
+And so that is really um
+
+495
+00:23:27,160 --> 00:23:29,099
+slowing down science and progress.
+
+496
+00:23:29,900 --> 00:23:32,719
+Um There is, there is great initiatives where,
+
+497
+00:23:33,030 --> 00:23:37,219
+you know, for instance, in, in bio where people aren't sharing a lot of data,
+
+498
+00:23:37,229 --> 00:23:39,739
+there is a lot of omics, data available, et cetera.
+
+499
+00:23:39,750 --> 00:23:40,060
+So
+
+500
+00:23:40,510 --> 00:23:42,180
+there's, there's also good examples,
+
+501
+00:23:42,189 --> 00:23:44,079
+there's some materials project for instance,
+
+502
+00:23:44,089 --> 00:23:47,959
+and other materials projects um around the world where
+
+503
+00:23:48,119 --> 00:23:50,280
+data about materials are being collected.
+
+504
+00:23:50,900 --> 00:23:51,449
+Um
+
+505
+00:23:51,609 --> 00:23:52,119
+But
+
+506
+00:23:52,459 --> 00:23:57,520
+um I think in the end, we will have to invent the technology that makes data sharing
+
+507
+00:23:58,599 --> 00:23:59,219
+much
+
+508
+00:23:59,670 --> 00:24:05,520
+easier. And, and I, you know, would envision some kind of marketplace um where
+
+509
+00:24:05,760 --> 00:24:07,420
+people have their data
+
+510
+00:24:07,719 --> 00:24:09,060
+behind a firewall.
+
+511
+00:24:09,579 --> 00:24:11,180
+Um But um
+
+512
+00:24:11,500 --> 00:24:14,300
+if I want to train a model, I just go to your,
+
+513
+00:24:14,310 --> 00:24:18,099
+your data source and I'm going to say um I'm gonna pay you
+
+514
+00:24:18,619 --> 00:24:20,160
+whatever amount of money
+
+515
+00:24:20,849 --> 00:24:22,680
+to access your data source.
+
+516
+00:24:23,000 --> 00:24:23,979
+Now, um
+
+517
+00:24:24,920 --> 00:24:26,920
+note that I will do it in a differently
+
+518
+00:24:26,930 --> 00:24:30,709
+privacy private way which is which is to guarantee that
+
+519
+00:24:31,280 --> 00:24:33,520
+I'm gonna update my model parameters,
+
+520
+00:24:33,530 --> 00:24:36,900
+but I'm gonna do it in such a way that I can never reconstruct data
+
+521
+00:24:38,079 --> 00:24:39,089
+that were, that were,
+
+522
+00:24:39,250 --> 00:24:41,859
+that were used inside your data source to,
+
+523
+00:24:41,979 --> 00:24:45,209
+to build my model now, that can be guaranteed.
+
+524
+00:24:45,219 --> 00:24:47,459
+But that technology also needs to be improved.
+
+525
+00:24:48,219 --> 00:24:49,839
+So that means that, you know,
+
+526
+00:24:51,229 --> 00:24:54,890
+you know, your agent and my agent, they negotiate a bit about the price
+
+527
+00:24:55,390 --> 00:25:00,089
+and then I enter, you know, do my model updating and then I move to the next uh
+
+528
+00:25:00,390 --> 00:25:01,709
+you know, data source, right?
+
+529
+00:25:01,969 --> 00:25:04,530
+So now we can train really excellent models.
+
+530
+00:25:04,540 --> 00:25:08,500
+Um but you know, there is kind of trading going on about how much that is worth.
+
+531
+00:25:08,510 --> 00:25:11,199
+In fact, you could do it for your own data. So I could say
+
+532
+00:25:11,510 --> 00:25:15,569
+I've collected all my data over my lifetime, including my medical data, whatever
+
+533
+00:25:16,099 --> 00:25:20,910
+I'm, I'm quite happy to help that, that hospital, let's say for free.
+
+534
+00:25:20,920 --> 00:25:24,089
+Um But when Google knocks on my door, I want money
+
+535
+00:25:24,459 --> 00:25:26,260
+because I want a fair share, right?
+
+536
+00:25:26,270 --> 00:25:30,729
+And so basically this means or actually for, for open AI kind of, you know,
+
+537
+00:25:30,739 --> 00:25:32,199
+check GP T models, right?
+
+538
+00:25:32,209 --> 00:25:32,770
+Just like
+
+539
+00:25:33,170 --> 00:25:36,560
+they now sort of there's lawsuits now, right? So basically,
+
+540
+00:25:37,060 --> 00:25:40,160
+you know, it's unclear, you know, what these models like, you know,
+
+541
+00:25:40,170 --> 00:25:41,810
+let's so I think there's a recent
+
+542
+00:25:42,050 --> 00:25:46,339
+lawsuit against some of these companies that generate songs from, you know, from
+
+543
+00:25:46,660 --> 00:25:46,939
+different
+
+544
+00:25:47,050 --> 00:25:49,180
+rights from songs that are being created by artists.
+
+545
+00:25:49,189 --> 00:25:51,359
+And so these artists feel, you know,
+
+546
+00:25:51,829 --> 00:25:54,270
+I've created this content and as being, you know,
+
+547
+00:25:54,280 --> 00:25:58,619
+and somebody else runs away with it and it's, and you know, where am I in this process?
+
+548
+00:25:58,800 --> 00:26:01,589
+This is a fundamental problem that we have to solve now.
+
+549
+00:26:01,989 --> 00:26:06,369
+And it would be much better if an artist, you know, or a person who collects data
+
+550
+00:26:06,469 --> 00:26:09,170
+in any way or generates content or data
+
+551
+00:26:09,780 --> 00:26:13,160
+gets paid in a, in a reasonable way or can choose
+
+552
+00:26:13,979 --> 00:26:17,099
+to make their data available to somebody who
+
+553
+00:26:17,109 --> 00:26:18,910
+wants that data to train their models on.
+
+554
+00:26:19,069 --> 00:26:22,869
+This is a fundamental problem across the whole machine learning.
+
+555
+00:26:23,680 --> 00:26:26,469
+And AI think that space that needs to be solved.
+
+556
+00:26:27,250 --> 00:26:28,819
+That's fascinating. I
+
+557
+00:26:30,229 --> 00:26:33,630
+it seems very interesting and maybe complimentary but
+
+558
+00:26:33,640 --> 00:26:35,660
+in some ways also at odds in that,
+
+559
+00:26:36,300 --> 00:26:37,270
+on one hand,
+
+560
+00:26:37,890 --> 00:26:40,189
+there is a movement of open source
+
+561
+00:26:40,900 --> 00:26:41,920
+open data,
+
+562
+00:26:42,219 --> 00:26:43,160
+open source.
+
+563
+00:26:43,170 --> 00:26:46,959
+So the idea being that everybody should make their data sets available.
+
+564
+00:26:48,069 --> 00:26:48,750
+But
+
+565
+00:26:49,069 --> 00:26:51,729
+and I believe that some of the um
+
+566
+00:26:51,920 --> 00:26:54,770
+weather forecasting companies who released those
+
+567
+00:26:54,780 --> 00:26:57,170
+data sets are now debating whether the next
+
+568
+00:26:57,579 --> 00:26:59,449
+data should be closed
+
+569
+00:26:59,689 --> 00:27:00,489
+and not open
+
+570
+00:27:01,199 --> 00:27:02,089
+because
+
+571
+00:27:02,579 --> 00:27:05,959
+it's true that many companies in our published models have have, you know,
+
+572
+00:27:05,969 --> 00:27:08,910
+great success, but the people who generate the data have no
+
+573
+00:27:09,160 --> 00:27:11,290
+financial reward for that.
+
+574
+00:27:11,989 --> 00:27:12,489
+Um
+
+575
+00:27:13,449 --> 00:27:15,650
+And I feel that for the sciences,
+
+576
+00:27:15,709 --> 00:27:19,910
+particularly most applications of science get into industrial use
+
+577
+00:27:20,530 --> 00:27:22,989
+where there is a commercial side to it.
+
+578
+00:27:24,069 --> 00:27:26,609
+So just saying open source your data, well,
+
+579
+00:27:26,969 --> 00:27:29,030
+they're probably not gonna open up their data.
+
+580
+00:27:29,180 --> 00:27:30,829
+So that's a very interesting point about it.
+
+581
+00:27:31,670 --> 00:27:32,390
+A way of
+
+582
+00:27:33,339 --> 00:27:35,150
+a way of people sharing their data
+
+583
+00:27:35,670 --> 00:27:37,170
+but also being able to make
+
+584
+00:27:37,459 --> 00:27:39,479
+money and privacy
+
+585
+00:27:40,439 --> 00:27:44,520
+because I can't see a way of, let's say fluid dynamics. Why would Boeing
+
+586
+00:27:44,770 --> 00:27:47,699
+release all the aircraft data for train?
+
+587
+00:27:47,709 --> 00:27:49,619
+Why would Airbus, why would anybody else do it?
+
+588
+00:27:50,849 --> 00:27:52,540
+It's a competitive advantage,
+
+589
+00:27:53,420 --> 00:27:56,469
+it's a competitive advantage, which is why I'm always wondering
+
+590
+00:27:57,869 --> 00:28:00,810
+and then universities typically do more fundamental problems.
+
+591
+00:28:00,819 --> 00:28:02,959
+So if you train the data on just university data,
+
+592
+00:28:02,969 --> 00:28:05,739
+it's only gonna work the simple test cases because
+
+593
+00:28:06,040 --> 00:28:07,920
+universities are incentivized to publish
+
+594
+00:28:08,540 --> 00:28:11,430
+pure research, typically not full aircrafts.
+
+595
+00:28:11,869 --> 00:28:12,520
+Um
+
+596
+00:28:13,489 --> 00:28:13,619
+Yeah,
+
+597
+00:28:14,640 --> 00:28:18,349
+I think the Blockchain could play an interesting role here somehow, right? So
+
+598
+00:28:18,599 --> 00:28:18,810
+you,
+
+599
+00:28:18,819 --> 00:28:21,510
+you could imagine that you could sort of ii I
+
+600
+00:28:21,520 --> 00:28:24,530
+believe there should be some kind of marketplace for data.
+
+601
+00:28:24,750 --> 00:28:26,560
+So first of all, we have to realize that
+
+602
+00:28:26,660 --> 00:28:29,170
+data is perhaps the most important,
+
+603
+00:28:30,040 --> 00:28:30,410
+you know,
+
+604
+00:28:31,449 --> 00:28:32,510
+uh what do you say,
+
+605
+00:28:32,689 --> 00:28:33,910
+resource?
+
+606
+00:28:34,530 --> 00:28:38,410
+You know, it's, it's kind of the the the the new oil on which these machines,
+
+607
+00:28:38,719 --> 00:28:39,150
+you know,
+
+608
+00:28:39,400 --> 00:28:42,790
+and compute, I guess, right? So it's, it's computing and data
+
+609
+00:28:43,099 --> 00:28:44,989
+that these machine learning methods need
+
+610
+00:28:45,329 --> 00:28:47,709
+and we just need to put a real value on it.
+
+611
+00:28:47,719 --> 00:28:52,390
+We have to say, you know, it's, it is valuable if you share your data or give your data
+
+612
+00:28:52,780 --> 00:28:55,310
+just pushing people to put it open source
+
+613
+00:28:55,660 --> 00:28:56,229
+is
+
+614
+00:28:57,420 --> 00:29:00,670
+I don't think it's gonna happen because everybody will always,
+
+615
+00:29:00,930 --> 00:29:01,160
+you know,
+
+616
+00:29:01,170 --> 00:29:04,959
+do what's good for them and we just need to make the incentive structures correct.
+
+617
+00:29:04,969 --> 00:29:06,069
+I think that's the thing.
+
+618
+00:29:06,079 --> 00:29:09,130
+You don't force people to do things to make the incentive structures correct. So
+
+619
+00:29:09,290 --> 00:29:11,530
+people who are open sourcing their data probably,
+
+620
+00:29:11,920 --> 00:29:12,109
+you know,
+
+621
+00:29:12,119 --> 00:29:14,260
+they work at universities or they work at companies
+
+622
+00:29:14,270 --> 00:29:16,680
+and then the open sourcing works for them somehow
+
+623
+00:29:16,949 --> 00:29:21,000
+anyway, because even companies who are open sourcing their stuff probably do it
+
+624
+00:29:21,920 --> 00:29:25,099
+because in the long run, it will benefit them as well.
+
+625
+00:29:26,300 --> 00:29:29,640
+What is your general opinion of that open source though? Versus close source?
+
+626
+00:29:29,650 --> 00:29:32,800
+It seems to be a bit of a debate in the community of
+
+627
+00:29:33,560 --> 00:29:37,020
+it. Does it help science to open source? But then
+
+628
+00:29:37,219 --> 00:29:40,060
+how do companies fund themselves if everything's open
+
+629
+00:29:40,069 --> 00:29:41,839
+source and how easily it can be copied?
+
+630
+00:29:41,849 --> 00:29:42,439
+Do you have a, a
+
+631
+00:29:42,880 --> 00:29:43,739
+thought on the,
+
+632
+00:29:44,140 --> 00:29:47,609
+the optimum approach that you've seen different companies over the years
+
+633
+00:29:48,439 --> 00:29:49,510
+take? Um
+
+634
+00:29:50,310 --> 00:29:52,979
+I mean, are you open to talking about open sourcing data or open
+
+635
+00:29:53,109 --> 00:29:54,140
+sourcing their models
+
+636
+00:29:54,390 --> 00:29:55,609
+models more?
+
+637
+00:29:55,619 --> 00:29:58,449
+But yes, I guess also, well, we maybe we just discussed the data,
+
+638
+00:29:58,459 --> 00:30:00,150
+but how about the models themselves?
+
+639
+00:30:00,530 --> 00:30:04,449
+I guess the discussion is about whether it's dangerous to release a model,
+
+640
+00:30:04,790 --> 00:30:08,250
+right? Um Because the, the model can be used for
+
+641
+00:30:09,010 --> 00:30:09,349
+at the
+
+642
+00:30:09,589 --> 00:30:11,949
+zeal purposes and is being used for a zeal
+
+643
+00:30:12,170 --> 00:30:16,229
+purposes. You have, you know, you have to be careful that if you enable
+
+644
+00:30:16,739 --> 00:30:20,219
+bad agents um to do horrible things.
+
+645
+00:30:20,229 --> 00:30:22,609
+You know, you, you just have to really think about that. So,
+
+646
+00:30:23,099 --> 00:30:26,550
+in other words, um if I would have the recipe
+
+647
+00:30:27,459 --> 00:30:29,319
+to build in a lab,
+
+648
+00:30:29,739 --> 00:30:34,959
+um you know, a terrible disease that can be, you know, unleashed on the world.
+
+649
+00:30:35,479 --> 00:30:38,680
+I'm not going to argue for open sourcing that knowledge, you know, clearly,
+
+650
+00:30:38,689 --> 00:30:41,270
+I just don't want that to be open out there.
+
+651
+00:30:41,949 --> 00:30:45,680
+Um And so you could argue similar things will apply at some point
+
+652
+00:30:46,079 --> 00:30:49,619
+to machine learning models or actually maybe already, I mean, at some, you know,
+
+653
+00:30:49,630 --> 00:30:51,319
+these models can be used for
+
+654
+00:30:51,810 --> 00:30:54,339
+fishing attacks and all these kinds of things, right?
+
+655
+00:30:54,349 --> 00:30:57,750
+So, so, or, or crime where you sort of um uh
+
+656
+00:30:58,459 --> 00:30:59,739
+basically uh
+
+657
+00:30:59,910 --> 00:31:03,790
+imitate somebody's voice and then you, you ask them to,
+
+658
+00:31:03,989 --> 00:31:07,589
+you know, pretend to be your son and then, you know, ask to,
+
+659
+00:31:08,300 --> 00:31:09,150
+to, um
+
+660
+00:31:09,310 --> 00:31:10,670
+give some money. So
+
+661
+00:31:10,910 --> 00:31:13,670
+you have to be extremely careful about,
+
+662
+00:31:14,400 --> 00:31:14,660
+you know,
+
+663
+00:31:14,670 --> 00:31:16,750
+when you open source something and maybe there just needs
+
+664
+00:31:16,760 --> 00:31:20,010
+to be some kind of ethical board that decides whether
+
+665
+00:31:20,819 --> 00:31:20,829
+a
+
+666
+00:31:20,949 --> 00:31:25,280
+particular very powerful technology can be open source, yes or no.
+
+667
+00:31:25,410 --> 00:31:30,079
+Now, within that, you know, once, you know, if you're within those bounds of safety,
+
+668
+00:31:30,520 --> 00:31:31,280
+um
+
+669
+00:31:31,550 --> 00:31:34,319
+it's up to everyone to open source.
+
+670
+00:31:34,329 --> 00:31:37,439
+It's, you know, it's a com you cannot tell a company to open source or not. Right.
+
+671
+00:31:37,449 --> 00:31:38,010
+It's like it's,
+
+672
+00:31:38,130 --> 00:31:41,119
+I think it's, it's not, not a very meaningful question to say
+
+673
+00:31:41,369 --> 00:31:43,680
+companies should open source their stuff. It doesn't
+
+674
+00:31:44,189 --> 00:31:47,900
+because of course they won't if it doesn't, you know, improve their bottom line.
+
+675
+00:31:48,410 --> 00:31:53,780
+Um So it's up to them to open source, whatever they need to open or want to open source.
+
+676
+00:31:54,099 --> 00:31:55,160
+But maybe a
+
+677
+00:31:55,369 --> 00:31:57,150
+more specific question then
+
+678
+00:31:58,599 --> 00:31:59,550
+is there a
+
+679
+00:32:00,010 --> 00:32:02,300
+can methods move faster
+
+680
+00:32:02,599 --> 00:32:04,959
+that have been open source because essentially
+
+681
+00:32:04,969 --> 00:32:08,579
+you're outsourcing the development to a community effort
+
+682
+00:32:09,280 --> 00:32:10,060
+or
+
+683
+00:32:11,160 --> 00:32:12,500
+is it the case that
+
+684
+00:32:13,540 --> 00:32:14,630
+that sounds nice,
+
+685
+00:32:14,640 --> 00:32:16,489
+but you can actually move faster by having
+
+686
+00:32:16,500 --> 00:32:19,479
+an internal team with their own developers?
+
+687
+00:32:21,140 --> 00:32:21,349
+Yeah.
+
+688
+00:32:22,459 --> 00:32:24,270
+Yeah. So um so I think
+
+689
+00:32:24,670 --> 00:32:26,930
+thinking very hard about the incentive structure.
+
+690
+00:32:26,939 --> 00:32:30,449
+So if, if it's true that if you're a whole number of small play, you know,
+
+691
+00:32:30,459 --> 00:32:32,900
+a small player cannot compete with a big player, right?
+
+692
+00:32:32,910 --> 00:32:36,170
+So it does make a lot of sense to put a whole bunch of small players
+
+693
+00:32:36,380 --> 00:32:37,229
+in a group,
+
+694
+00:32:38,000 --> 00:32:41,819
+you know, uh share resources and compete with the big players.
+
+695
+00:32:41,829 --> 00:32:44,819
+Let's say you all built one huge large language model
+
+696
+00:32:45,170 --> 00:32:48,099
+uh within your group of smaller players and
+
+697
+00:32:48,109 --> 00:32:50,500
+then everybody benefits from that large language model
+
+698
+00:32:50,739 --> 00:32:54,859
+and now you can compete with the big players. So that make that's a clear incentive to
+
+699
+00:32:54,959 --> 00:32:56,790
+share in that group.
+
+700
+00:32:57,219 --> 00:33:00,680
+Um Now there's also other reasons why people might want to share,
+
+701
+00:33:00,689 --> 00:33:03,819
+which is like we're all stuck with a problem together, which is,
+
+702
+00:33:04,209 --> 00:33:08,859
+uh, you know, climate change. Right. So for some strange reason we think that,
+
+703
+00:33:09,479 --> 00:33:10,180
+um,
+
+704
+00:33:10,380 --> 00:33:12,209
+we can pollute this earth,
+
+705
+00:33:12,319 --> 00:33:17,599
+um, and, uh, you know, push carbon into an atmosphere which is a shared resource,
+
+706
+00:33:18,030 --> 00:33:18,670
+um,
+
+707
+00:33:18,859 --> 00:33:19,680
+but not
+
+708
+00:33:19,939 --> 00:33:22,790
+pay the bill basically for doing that. Right.
+
+709
+00:33:22,839 --> 00:33:25,869
+Um, we, we, we, we somehow think that's ok to do and,
+
+710
+00:33:26,140 --> 00:33:27,780
+but I think there is a sort of
+
+711
+00:33:27,939 --> 00:33:32,099
+ethical awareness within a lot of companies,
+
+712
+00:33:32,290 --> 00:33:35,209
+big companies, big tech companies definitely
+
+713
+00:33:35,650 --> 00:33:36,790
+who are saying, well, we should,
+
+714
+00:33:36,800 --> 00:33:39,989
+we should all act together to do something about that, right?
+
+715
+00:33:40,000 --> 00:33:42,469
+Um So most of these companies have
+
+716
+00:33:43,140 --> 00:33:45,239
+climate uh sort of
+
+717
+00:33:45,739 --> 00:33:46,589
+um
+
+718
+00:33:46,910 --> 00:33:49,910
+promises or what do you call them? Um sustainability,
+
+719
+00:33:50,689 --> 00:33:51,040
+sustains
+
+720
+00:33:51,660 --> 00:33:52,709
+and things like this. Um
+
+721
+00:33:53,069 --> 00:33:56,829
+So to be carbon neutral or negative by 2030
+
+722
+00:33:56,939 --> 00:33:59,689
+all these kinds of things. So, so they, they're trying, although they're
+
+723
+00:33:59,819 --> 00:34:04,119
+tied up in an AI arms race and so it's very hard to actually make those goals,
+
+724
+00:34:04,130 --> 00:34:05,699
+but let's say that they're, you know,
+
+725
+00:34:05,849 --> 00:34:06,949
+they're trying to do this.
+
+726
+00:34:07,109 --> 00:34:10,889
+And so there it makes some sense to pool resources, I think and say, OK,
+
+727
+00:34:10,899 --> 00:34:14,250
+let's be good actors in this world with good citizens and
+
+728
+00:34:14,530 --> 00:34:18,840
+actually, you know, you know, release some of the data to the public so others can,
+
+729
+00:34:18,850 --> 00:34:20,050
+you know, help, for instance,
+
+730
+00:34:20,648 --> 00:34:20,658
+a,
+
+731
+00:34:20,759 --> 00:34:25,108
+you know, improve the technology to capture the carbon out of the atmosphere.
+
+732
+00:34:25,800 --> 00:34:26,330
+Hm
+
+733
+00:34:27,199 --> 00:34:27,989
+The um
+
+734
+00:34:29,000 --> 00:34:32,060
+I wanted to maybe pivot a little bit um
+
+735
+00:34:33,260 --> 00:34:36,639
+to, to, to talk about your new company,
+
+736
+00:34:36,870 --> 00:34:39,360
+but maybe as a way of getting there,
+
+737
+00:34:40,340 --> 00:34:42,090
+one of the things that I admire about
+
+738
+00:34:42,100 --> 00:34:44,639
+what you've done and I'm always interested to hear
+
+739
+00:34:45,620 --> 00:34:48,478
+the different logic is the role of academia,
+
+740
+00:34:49,340 --> 00:34:52,918
+industry, big industry, like big tech companies and start ups.
+
+741
+00:34:54,250 --> 00:34:55,020
+What,
+
+742
+00:34:55,610 --> 00:34:57,389
+what can a university achieve?
+
+743
+00:34:58,239 --> 00:35:00,510
+What's the advantage of a start up? Essentially?
+
+744
+00:35:00,520 --> 00:35:03,510
+What, what, what, what drove you to create this new company?
+
+745
+00:35:03,520 --> 00:35:04,409
+Is there a specific thing?
+
+746
+00:35:04,649 --> 00:35:05,030
+I, I
+
+747
+00:35:05,250 --> 00:35:08,520
+can just move faster by doing it as a start up versus
+
+748
+00:35:08,709 --> 00:35:11,300
+I'm interested to see how you've seen over your career,
+
+749
+00:35:11,310 --> 00:35:15,120
+the sort of benefits of these three different places.
+
+750
+00:35:15,550 --> 00:35:18,530
+Yeah, I find it very interesting because there really three modes of operation.
+
+751
+00:35:18,540 --> 00:35:22,300
+I've tried all of them now so I can sort of sampled them a little bit.
+
+752
+00:35:22,870 --> 00:35:23,399
+Um
+
+753
+00:35:24,979 --> 00:35:27,620
+Now universities have a very special role of educating
+
+754
+00:35:27,629 --> 00:35:30,310
+the next generation of talent that's really important and,
+
+755
+00:35:30,320 --> 00:35:31,959
+you know, they use taxpayer money for that.
+
+756
+00:35:31,969 --> 00:35:33,860
+So, you know, that's incredibly important,
+
+757
+00:35:34,129 --> 00:35:35,469
+but they also do
+
+758
+00:35:35,760 --> 00:35:36,310
+um
+
+759
+00:35:36,419 --> 00:35:40,790
+so much more exploratory research, right? So they, they can, you know, uh
+
+760
+00:35:40,969 --> 00:35:45,350
+if you like to think about the inside of a black hole, you know, fine, do it in a,
+
+761
+00:35:45,360 --> 00:35:46,679
+in a university setting.
+
+762
+00:35:46,689 --> 00:35:48,149
+There's no company that will, well,
+
+763
+00:35:48,159 --> 00:35:50,360
+there's very few companies that will fund that in some sense,
+
+764
+00:35:50,770 --> 00:35:52,719
+basically. No, I think at this point.
+
+765
+00:35:53,800 --> 00:35:54,300
+Um
+
+766
+00:35:54,780 --> 00:35:55,770
+So, um
+
+767
+00:35:56,439 --> 00:35:59,820
+but the impact is very diffuse. Right. So you, you, you write a paper,
+
+768
+00:36:00,270 --> 00:36:00,500
+um,
+
+769
+00:36:00,510 --> 00:36:04,060
+and that paper gets picked up maybe by different groups
+
+770
+00:36:04,070 --> 00:36:06,500
+and they build on it and that's a very indirect,
+
+771
+00:36:06,540 --> 00:36:09,739
+uh but important way to make impact and, you know, it's also,
+
+772
+00:36:10,189 --> 00:36:14,219
+you know, of course, you, you, uh, it's also a different style of doing research and,
+
+773
+00:36:14,229 --> 00:36:16,780
+and, and being engaged in intellectual activity.
+
+774
+00:36:17,500 --> 00:36:20,510
+Um now the big companies and the start ups,
+
+775
+00:36:20,770 --> 00:36:22,320
+you know, they can um
+
+776
+00:36:22,760 --> 00:36:28,399
+command much bigger resources to really go after a specific target, right? So, um
+
+777
+00:36:29,429 --> 00:36:32,610
+no, but they are commercial, right? So they are tied to commercial goals.
+
+778
+00:36:32,620 --> 00:36:34,419
+And so you have to really align
+
+779
+00:36:34,800 --> 00:36:38,610
+the commercial goal with the thing that you want to achieve.
+
+780
+00:36:39,389 --> 00:36:40,090
+Um
+
+781
+00:36:40,639 --> 00:36:44,429
+Now some people like, you know, if you, if you like to achieve A G I, you know, great.
+
+782
+00:36:44,439 --> 00:36:46,610
+So you can work for one of these big companies.
+
+783
+00:36:46,620 --> 00:36:50,110
+Um that's a perfect alignment because that's what these big companies want. Do.
+
+784
+00:36:50,120 --> 00:36:52,129
+They think they can make big money on that.
+
+785
+00:36:52,139 --> 00:36:54,129
+So, you know, that's where you can sort of do that,
+
+786
+00:36:55,020 --> 00:37:00,260
+that research and, and you can use the actual resources like massive amounts of GPUs
+
+787
+00:37:00,780 --> 00:37:01,959
+um to achieve that.
+
+788
+00:37:03,129 --> 00:37:06,550
+But big companies are also in a way slow and political
+
+789
+00:37:07,000 --> 00:37:10,350
+beasts, right? There's like, uh there's a lot of people that need to,
+
+790
+00:37:10,939 --> 00:37:13,550
+uh you know, agree on something and, you know,
+
+791
+00:37:13,750 --> 00:37:13,760
+a
+
+792
+00:37:13,879 --> 00:37:17,659
+lot of legal involvement if you wanna change something small.
+
+793
+00:37:17,669 --> 00:37:21,590
+And so it's, it's, it's, it's very uh fisc this whole thing
+
+794
+00:37:21,709 --> 00:37:23,479
+talking about fluid.
+
+795
+00:37:23,780 --> 00:37:25,290
+You know, it's like it's very fisc
+
+796
+00:37:25,429 --> 00:37:26,429
+thing. So, um
+
+797
+00:37:27,270 --> 00:37:27,899
+and
+
+798
+00:37:28,070 --> 00:37:28,080
+a
+
+799
+00:37:28,889 --> 00:37:33,379
+and a start, the great advantage of a start up is that um you're your own boss.
+
+800
+00:37:33,389 --> 00:37:34,909
+So if you have a vision,
+
+801
+00:37:34,919 --> 00:37:38,179
+you can execute on your own vision and you don't have to constantly
+
+802
+00:37:38,489 --> 00:37:41,310
+calibrate with other people higher up in your organization,
+
+803
+00:37:41,320 --> 00:37:44,129
+you just need a great set of co-founders and
+
+804
+00:37:44,260 --> 00:37:46,010
+a great team to execute
+
+805
+00:37:46,159 --> 00:37:48,949
+who are aligned with that vision. And then you can really go.
+
+806
+00:37:49,479 --> 00:37:52,929
+Um So to my surprise, um perhaps is that
+
+807
+00:37:53,600 --> 00:37:54,100
+um
+
+808
+00:37:54,469 --> 00:37:59,810
+the amount of resources you can get in a start up these days in the field of AI is
+
+809
+00:38:00,179 --> 00:38:02,219
+no less than what you would get
+
+810
+00:38:02,489 --> 00:38:03,620
+in a big tech company.
+
+811
+00:38:03,870 --> 00:38:04,500
+So,
+
+812
+00:38:05,219 --> 00:38:09,580
+in fact, um you know, if you can tap into VC capital,
+
+813
+00:38:10,030 --> 00:38:14,300
+um I've had until now, incredibly positive experiences with this,
+
+814
+00:38:14,310 --> 00:38:16,060
+which means that uh first of all,
+
+815
+00:38:16,790 --> 00:38:19,729
+you know, these are very smart people, you know, of course, they, you know,
+
+816
+00:38:19,739 --> 00:38:22,070
+they want, of course get return on investment.
+
+817
+00:38:22,080 --> 00:38:24,489
+So there's no idealism here mostly.
+
+818
+00:38:25,209 --> 00:38:29,239
+Um but they're very smart people, they help you find a market, they help you
+
+819
+00:38:29,590 --> 00:38:30,639
+build a
+
+820
+00:38:30,760 --> 00:38:31,830
+healthy business.
+
+821
+00:38:33,560 --> 00:38:34,149
+Um
+
+822
+00:38:34,340 --> 00:38:37,500
+And uh and there's lots of money available as well, right,
+
+823
+00:38:37,510 --> 00:38:39,939
+for that particular purpose that you want to pursue.
+
+824
+00:38:39,949 --> 00:38:40,479
+Um
+
+825
+00:38:40,850 --> 00:38:41,649
+And so,
+
+826
+00:38:41,949 --> 00:38:42,739
+and so I think
+
+827
+00:38:43,419 --> 00:38:44,669
+the agility
+
+828
+00:38:45,469 --> 00:38:48,250
+and also the positive attitude
+
+829
+00:38:48,770 --> 00:38:53,449
+that you find in start up land I really like. So I, I guess I've now
+
+830
+00:38:54,250 --> 00:38:56,790
+converged on that particular model and I'll, I'll,
+
+831
+00:38:56,800 --> 00:38:58,610
+I'll stick with that now for a while
+
+832
+00:38:59,310 --> 00:39:02,360
+and, and just before we get into the Pacifics um
+
+833
+00:39:02,860 --> 00:39:05,340
+of, of your company, is there any
+
+834
+00:39:06,070 --> 00:39:10,290
+differences or challenges between, let's say, in your experience,
+
+835
+00:39:10,659 --> 00:39:12,260
+us, Bay area,
+
+836
+00:39:13,000 --> 00:39:15,179
+Europe, you know, other
+
+837
+00:39:15,429 --> 00:39:19,889
+advantages, disadvantages in terms of finding the staff, finding the,
+
+838
+00:39:20,510 --> 00:39:21,379
+the the money.
+
+839
+00:39:22,310 --> 00:39:27,899
+Well, we actually do use uh American and somewhat and English VCs,
+
+840
+00:39:27,909 --> 00:39:29,669
+mostly there's also a few
+
+841
+00:39:29,860 --> 00:39:33,679
+continental Europe, Dutch investors, but mostly it's
+
+842
+00:39:33,780 --> 00:39:33,840
+uh
+
+843
+00:39:34,139 --> 00:39:35,729
+we tapping into uh
+
+844
+00:39:36,409 --> 00:39:40,600
+you know, um UK and US based VC firms,
+
+845
+00:39:41,040 --> 00:39:46,050
+although our lead investor is actually is a UK based investor
+
+846
+00:39:47,110 --> 00:39:47,500
+A me.
+
+847
+00:39:48,270 --> 00:39:48,919
+So
+
+848
+00:39:50,080 --> 00:39:53,500
+um so I don't think you need to make that distinction in some sense.
+
+849
+00:39:53,760 --> 00:39:58,459
+The nice thing is that these big investors, they're turning their side to Europe.
+
+850
+00:39:58,770 --> 00:39:59,979
+And the reason is that
+
+851
+00:40:00,149 --> 00:40:02,620
+there's just incredible talent pool in Europe.
+
+852
+00:40:03,129 --> 00:40:03,729
+Many of
+
+853
+00:40:03,949 --> 00:40:08,020
+many of these talent pool likes to stay in Europe because Europe is just great, just,
+
+854
+00:40:08,030 --> 00:40:09,459
+just fun place to be
+
+855
+00:40:10,919 --> 00:40:17,060
+and the salaries are a lot lower than in Bay Area.
+
+856
+00:40:18,090 --> 00:40:19,909
+Um And so with relatively
+
+857
+00:40:20,590 --> 00:40:22,969
+little investment, well,
+
+858
+00:40:22,979 --> 00:40:25,959
+less investment than what you would have to invest in Bay Area,
+
+859
+00:40:25,969 --> 00:40:27,909
+you can get a excellent team.
+
+860
+00:40:28,699 --> 00:40:32,969
+Um And so it only makes a lot of sense that also these investors turn their eyes on,
+
+861
+00:40:32,979 --> 00:40:33,639
+on Europe.
+
+862
+00:40:33,649 --> 00:40:33,969
+So
+
+863
+00:40:34,330 --> 00:40:38,810
+I think we will see a lot of growth and activity in these, in these sort of uh
+
+864
+00:40:38,989 --> 00:40:42,250
+start up and scale ups in, in Europe in the coming years.
+
+865
+00:40:43,500 --> 00:40:44,649
+I've often um
+
+866
+00:40:44,800 --> 00:40:47,129
+I tease some of my American colleagues that
+
+867
+00:40:47,879 --> 00:40:49,840
+why are they all based in Seattle?
+
+868
+00:40:49,850 --> 00:40:53,669
+It seems like the most crazy time zone and position in the world to have such a,
+
+869
+00:40:53,679 --> 00:40:56,199
+if you were going to invent a company to have a global reach,
+
+870
+00:40:56,209 --> 00:40:57,800
+surely you wouldn't put it
+
+871
+00:40:58,070 --> 00:41:00,370
+there. I still don't understand how this,
+
+872
+00:41:01,129 --> 00:41:04,100
+but yeah, something to do with ecosystems, right? So, um
+
+873
+00:41:05,000 --> 00:41:09,739
+so, and, and that's really the thing. So uh if you build a particular
+
+874
+00:41:10,419 --> 00:41:11,889
+nucleus or particular
+
+875
+00:41:12,129 --> 00:41:16,000
+geographic area where, where it's lots of things are happening, right?
+
+876
+00:41:16,010 --> 00:41:19,629
+In Silicon Valley, you have the big universities like Berkeley and Stanford,
+
+877
+00:41:20,169 --> 00:41:21,020
+um
+
+878
+00:41:21,310 --> 00:41:24,840
+which are providing a lot of talent and there is a lot of
+
+879
+00:41:25,360 --> 00:41:29,679
+entrepreneurial spirit in those places and there's a whole,
+
+880
+00:41:29,689 --> 00:41:33,629
+it think of it as a supply line sort of issue where there's a lot of,
+
+881
+00:41:34,560 --> 00:41:36,540
+you know, other things which work for them.
+
+882
+00:41:36,550 --> 00:41:39,679
+So there's a very small, you know, everybody knows each other in the VC.
+
+883
+00:41:39,689 --> 00:41:42,620
+So there's very, there's a lot of VCs which can fund these things and,
+
+884
+00:41:42,879 --> 00:41:43,159
+you know,
+
+885
+00:41:43,669 --> 00:41:45,590
+so I think it has to do with the fact
+
+886
+00:41:45,600 --> 00:41:49,169
+that once you build a really good ecosystem locally,
+
+887
+00:41:49,560 --> 00:41:53,739
+it then becomes very attractive to be there to do your start up
+
+888
+00:41:54,120 --> 00:41:57,100
+because it's very easy to get good ideas from, you know,
+
+889
+00:41:57,110 --> 00:41:59,729
+people help each other to grow these start ups.
+
+890
+00:41:59,739 --> 00:41:59,790
+It's
+
+891
+00:41:59,929 --> 00:42:01,919
+very collaborative atmosphere,
+
+892
+00:42:02,149 --> 00:42:02,860
+it's easy.
+
+893
+00:42:02,870 --> 00:42:04,469
+You know, if I need a new investment,
+
+894
+00:42:04,479 --> 00:42:07,600
+I talk to a few people and they point me to other people and then you, you know,
+
+895
+00:42:07,610 --> 00:42:09,899
+you before you know it, you're in front of new investors.
+
+896
+00:42:09,909 --> 00:42:10,219
+So
+
+897
+00:42:10,340 --> 00:42:12,370
+I think that kind of uh
+
+898
+00:42:13,050 --> 00:42:14,620
+you know, lubricant
+
+899
+00:42:14,760 --> 00:42:17,840
+in some sense is really good in, in these ecosystems.
+
+900
+00:42:17,850 --> 00:42:20,889
+So what we need to do in Europe is to build these ecosystems.
+
+901
+00:42:21,110 --> 00:42:23,419
+And I think in Cambridge and in London,
+
+902
+00:42:23,600 --> 00:42:26,699
+these ecosystems exist so they are very good as well.
+
+903
+00:42:26,939 --> 00:42:28,959
+Um Amsterdam, Berlin,
+
+904
+00:42:29,360 --> 00:42:32,810
+you know, some other places, Paris for sure. Um
+
+905
+00:42:32,919 --> 00:42:34,199
+maybe Stockholm.
+
+906
+00:42:34,320 --> 00:42:38,530
+So some of these places in Europe also start to develop these ecosystems,
+
+907
+00:42:38,540 --> 00:42:40,949
+but we need to get better at that in Europe.
+
+908
+00:42:42,580 --> 00:42:45,919
+Yeah, I I do definitely agree that there seems to be a lot of um
+
+909
+00:42:47,330 --> 00:42:52,669
+a lot of very talented researchers and engineers and scientists in Europe that
+
+910
+00:42:52,939 --> 00:42:55,149
+maybe feel a pressure to perhaps to move
+
+911
+00:42:55,580 --> 00:42:56,860
+to, to the US
+
+912
+00:42:56,969 --> 00:43:00,510
+where probably a lot of them would probably rather stay in Europe if they could do.
+
+913
+00:43:00,800 --> 00:43:04,909
+So. There is that I agree there seems to be a desire and if you could tap into that,
+
+914
+00:43:05,040 --> 00:43:05,909
+you've got a big
+
+915
+00:43:06,399 --> 00:43:09,860
+uh pool as and the other benefits of time zones
+
+916
+00:43:10,090 --> 00:43:10,620
+and
+
+917
+00:43:10,800 --> 00:43:12,520
+access to, to different markets.
+
+918
+00:43:12,530 --> 00:43:16,510
+But yeah, I'd, I'd love to learn more a little bit um about your company.
+
+919
+00:43:16,520 --> 00:43:17,780
+And, and maybe also,
+
+920
+00:43:18,219 --> 00:43:21,620
+I think listeners to this podcast may be a little bit more familiar with
+
+921
+00:43:21,760 --> 00:43:24,419
+uh some of the topics we discussed around fluid dynamics.
+
+922
+00:43:24,429 --> 00:43:26,689
+So it would also be good perhaps for you to
+
+923
+00:43:27,419 --> 00:43:28,790
+align how some,
+
+924
+00:43:28,800 --> 00:43:33,090
+maybe the material discovery and material science has some overlaps and maybe
+
+925
+00:43:33,340 --> 00:43:35,149
+uh differences to
+
+926
+00:43:35,459 --> 00:43:35,840
+tonics.
+
+927
+00:43:36,479 --> 00:43:39,010
+So the start up is about material discovery
+
+928
+00:43:39,229 --> 00:43:40,739
+um for carbon capture.
+
+929
+00:43:40,860 --> 00:43:42,679
+Um And so we focus on
+
+930
+00:43:43,159 --> 00:43:48,020
+uh uh um a sort of a family of molecules called uh metal–organic frameworks.
+
+931
+00:43:48,669 --> 00:43:51,010
+Um These consist of uh sort of,
+
+932
+00:43:51,020 --> 00:43:54,479
+you can think of them as a sort of a lattice structure with, on the nodes,
+
+933
+00:43:54,489 --> 00:43:55,610
+you typically put
+
+934
+00:43:55,899 --> 00:43:57,729
+some kind of uh you know,
+
+935
+00:43:59,070 --> 00:44:03,110
+you know, small little molecule piece with a metal in it.
+
+936
+00:44:03,120 --> 00:44:06,370
+Um And then they get connected by organic linkers is what they called.
+
+937
+00:44:07,560 --> 00:44:09,979
+Um And so there's a huge design space,
+
+938
+00:44:09,989 --> 00:44:14,379
+like many trillions of possible things that you can sort of even, you know, imagine
+
+939
+00:44:14,840 --> 00:44:16,659
+uh with very different properties.
+
+940
+00:44:17,250 --> 00:44:18,439
+And these um
+
+941
+00:44:18,679 --> 00:44:20,290
+these frameworks uh
+
+942
+00:44:20,770 --> 00:44:22,629
+if you blow, let's say
+
+943
+00:44:23,050 --> 00:44:24,110
+air through them,
+
+944
+00:44:24,979 --> 00:44:28,149
+they tend to bind the molecules in the air
+
+945
+00:44:28,600 --> 00:44:30,639
+uh to the to the framework.
+
+946
+00:44:30,649 --> 00:44:35,739
+So for instance, carbon dioxide binds but hydrogen uh water,
+
+947
+00:44:36,080 --> 00:44:39,429
+um sorry, I say water also binds nitrogen, binds.
+
+948
+00:44:39,439 --> 00:44:42,800
+So all of these molecules bind to them and you want to find
+
+949
+00:44:43,250 --> 00:44:49,000
+the uh metal organic framework that preferentially binds carbon dioxide
+
+950
+00:44:49,459 --> 00:44:53,399
+um relative to water and nitrogen and all these other molecules.
+
+951
+00:44:53,790 --> 00:44:56,610
+And then you want to do this at a particular temperature and pressure.
+
+952
+00:44:57,229 --> 00:44:59,689
+Um And then you change the temperature and pressure.
+
+953
+00:45:00,179 --> 00:45:01,409
+Um let's say you, you
+
+954
+00:45:02,360 --> 00:45:04,879
+have less pressure and higher temperature
+
+955
+00:45:05,040 --> 00:45:07,949
+that would sort of release then the carbon again and then you can sort
+
+956
+00:45:07,959 --> 00:45:11,500
+of sequester it and sort of put it away or reuse it for something.
+
+957
+00:45:12,219 --> 00:45:14,489
+Um So, so that's the basic
+
+958
+00:45:14,659 --> 00:45:19,479
+idea. And now we are going to use machine learning to accelerate the process a lot.
+
+959
+00:45:20,469 --> 00:45:20,750
+All right.
+
+960
+00:45:20,760 --> 00:45:21,159
+So we're gonna,
+
+961
+00:45:21,169 --> 00:45:23,909
+we're gonna use the same generative models that are
+
+962
+00:45:23,919 --> 00:45:26,949
+being used to generate images to generate new materials.
+
+963
+00:45:27,600 --> 00:45:28,679
+Um And then we're gonna
+
+964
+00:45:29,399 --> 00:45:32,959
+test those materials in a chemistry pipeline, but those,
+
+965
+00:45:33,350 --> 00:45:35,219
+those are also
+
+966
+00:45:35,379 --> 00:45:35,899
+um
+
+967
+00:45:36,550 --> 00:45:40,850
+infused with machine learning methods to speed up this, this testing framework
+
+968
+00:45:41,179 --> 00:45:44,120
+of how good this particular proposed material is.
+
+969
+00:45:44,500 --> 00:45:47,580
+And then we have a search agent that tries to, you know,
+
+970
+00:45:47,719 --> 00:45:50,080
+orchestrate this, this, this,
+
+971
+00:45:50,409 --> 00:45:50,729
+you know,
+
+972
+00:45:50,739 --> 00:45:53,050
+searching through the space of molecules to find the
+
+973
+00:45:53,060 --> 00:45:56,169
+best molecule with certain properties as quickly as possible.
+
+974
+00:45:57,280 --> 00:46:00,459
+Um And you can, so how does this connect to fluids? Um Well, you a
+
+975
+00:46:00,689 --> 00:46:02,409
+gas is not quite a fluid.
+
+976
+00:46:02,419 --> 00:46:07,060
+Um but you can, you know, you could imagine actually a fluid in a,
+
+977
+00:46:07,070 --> 00:46:08,479
+in a mo that's actually what happens.
+
+978
+00:46:08,489 --> 00:46:09,479
+So you can sort of uh
+
+979
+00:46:09,909 --> 00:46:12,070
+you can also put fluids in MOFs.
+
+980
+00:46:12,580 --> 00:46:13,129
+Um
+
+981
+00:46:13,320 --> 00:46:15,449
+But let's imagine a gas where you can sort of
+
+982
+00:46:15,459 --> 00:46:18,770
+describe a gas but somewhat similar equations as a fluid.
+
+983
+00:46:19,439 --> 00:46:21,060
+Um And, you know,
+
+984
+00:46:21,429 --> 00:46:22,419
+there's sort of
+
+985
+00:46:23,080 --> 00:46:23,090
+a,
+
+986
+00:46:23,219 --> 00:46:23,229
+a,
+
+987
+00:46:23,629 --> 00:46:24,110
+you know,
+
+988
+00:46:24,120 --> 00:46:28,989
+an equation that describes how this gas would blow through this particular um
+
+989
+00:46:29,139 --> 00:46:34,010
+framework and then, you know, and how it binds the molecules to the framework.
+
+990
+00:46:34,020 --> 00:46:36,739
+So that, that is not very unlike how you would
+
+991
+00:46:37,320 --> 00:46:41,010
+uh simulate a fluid maybe um in, in some,
+
+992
+00:46:41,300 --> 00:46:42,229
+you know, in some
+
+993
+00:46:42,350 --> 00:46:44,540
+space with certain boundaries or something.
+
+994
+00:46:45,560 --> 00:46:47,939
+And, and how do people do it now,
+
+995
+00:46:48,229 --> 00:46:50,179
+you know, because there are companies
+
+996
+00:46:50,389 --> 00:46:54,600
+trying to do these kind of, so are they relying on more traditional physics based
+
+997
+00:46:54,949 --> 00:46:56,280
+simulations
+
+998
+00:46:56,669 --> 00:46:57,899
+to do these discoveries?
+
+999
+00:46:58,270 --> 00:47:00,020
+Yeah. So um there is already
+
+1000
+00:47:00,250 --> 00:47:01,659
+people who are um
+
+1001
+00:47:02,370 --> 00:47:06,169
+having these kind of pipelines. So uh they are mostly chemists.
+
+1002
+00:47:06,179 --> 00:47:09,270
+So it's, it's a chemistry pipeline or workflow
+
+1003
+00:47:09,629 --> 00:47:13,689
+um where um you know, there's a database of um
+
+1004
+00:47:14,000 --> 00:47:14,830
+you know, known
+
+1005
+00:47:15,489 --> 00:47:20,969
+um metal–organic frameworks and you push them through a chem chemistry
+
+1006
+00:47:21,270 --> 00:47:23,770
+simulation pipeline that sort of simulates all the
+
+1007
+00:47:23,780 --> 00:47:26,340
+molecules as they wiggle around in this particular
+
+1008
+00:47:26,689 --> 00:47:30,909
+uh environment. And then you can sort of measure how many of them would
+
+1009
+00:47:31,260 --> 00:47:33,590
+would bind at certain temperatures and pressures.
+
+1010
+00:47:34,070 --> 00:47:36,020
+Um And that's, and that
+
+1011
+00:47:36,270 --> 00:47:38,739
+turns into a number that says how good this thing is.
+
+1012
+00:47:38,750 --> 00:47:40,250
+And then, you know, you have some,
+
+1013
+00:47:40,530 --> 00:47:43,870
+some sim simple way of searching through the space. Now, you can see that
+
+1014
+00:47:44,850 --> 00:47:47,919
+that can be massively improved with machine learning techniques.
+
+1015
+00:47:47,929 --> 00:47:50,350
+That's why we think it's, it's such an exciting field
+
+1016
+00:47:50,810 --> 00:47:54,530
+because they are not generating new materials with diffusion models.
+
+1017
+00:47:54,820 --> 00:47:58,270
+Um They don't use very sophisticated search algorithms either.
+
+1018
+00:47:58,860 --> 00:48:00,550
+Um in order to um
+
+1019
+00:48:01,929 --> 00:48:04,939
+you know, to do, only do the simulations for the ones that are
+
+1020
+00:48:05,110 --> 00:48:05,949
+important.
+
+1021
+00:48:06,449 --> 00:48:07,469
+Um And
+
+1022
+00:48:08,669 --> 00:48:12,379
+you can even accelerate the simulation models by, you know,
+
+1023
+00:48:12,679 --> 00:48:15,810
+predicting the properties directly using machine learning models.
+
+1024
+00:48:16,459 --> 00:48:18,520
+Um or by
+
+1025
+00:48:18,750 --> 00:48:19,449
+what's called
+
+1026
+00:48:19,639 --> 00:48:22,580
+training force fields, these are methods that
+
+1027
+00:48:23,300 --> 00:48:26,159
+compute the forces on atoms as they wiggle.
+
+1028
+00:48:26,850 --> 00:48:30,270
+Typically, you have to do this with quantum mechanics, it's very expensive.
+
+1029
+00:48:30,280 --> 00:48:33,169
+Um but you could do it with a machine learned force field
+
+1030
+00:48:33,510 --> 00:48:38,070
+which is again way, way faster, many orders of magnitude faster than a normal
+
+1031
+00:48:38,510 --> 00:48:42,310
+uh force field. Uh if you use quantum mechanical calculations.
+
+1032
+00:48:42,629 --> 00:48:45,949
+Um but almost as accurate as that quantum mechanical calculation.
+
+1033
+00:48:47,399 --> 00:48:50,689
+OK. Interesting. And what made you target this
+
+1034
+00:48:51,580 --> 00:48:52,399
+area?
+
+1035
+00:48:52,610 --> 00:48:55,949
+Is it more as the climate change sustainability?
+
+1036
+00:48:55,959 --> 00:48:59,939
+And is that a sort of a personal thing of yours that you've wanted to do?
+
+1037
+00:48:59,949 --> 00:49:00,719
+Cos I know you've
+
+1038
+00:49:00,860 --> 00:49:03,219
+had a focus in many areas of science.
+
+1039
+00:49:03,229 --> 00:49:06,760
+You know, I'm just wondering what made you focus on this area in particular.
+
+1040
+00:49:07,830 --> 00:49:11,010
+Yeah, it's definitely uh a personal uh
+
+1041
+00:49:11,159 --> 00:49:13,709
+sort of preference for me and my
+
+1042
+00:49:13,929 --> 00:49:15,679
+co-founder Chet Edwards
+
+1043
+00:49:16,409 --> 00:49:16,790
+a me.
+
+1044
+00:49:17,780 --> 00:49:20,340
+But also we think there is a big market for this
+
+1045
+00:49:20,489 --> 00:49:21,520
+because I think,
+
+1046
+00:49:22,260 --> 00:49:24,189
+you know, companies do want to
+
+1047
+00:49:24,669 --> 00:49:28,139
+be a good citizen and, you know, compensate their carbon emissions.
+
+1048
+00:49:28,149 --> 00:49:31,679
+And at some point, it might actually be enforced by government, which is what I hope,
+
+1049
+00:49:31,689 --> 00:49:33,760
+you know, we need to tax pollution.
+
+1050
+00:49:34,699 --> 00:49:36,030
+Um And then having
+
+1051
+00:49:36,199 --> 00:49:38,520
+um a solution available
+
+1052
+00:49:39,010 --> 00:49:40,040
+to actually
+
+1053
+00:49:40,300 --> 00:49:44,040
+capture that carbon is, is there going to be a big market, I think as well?
+
+1054
+00:49:44,050 --> 00:49:46,479
+So it's, it's it's an alignment again between
+
+1055
+00:49:46,719 --> 00:49:49,199
+something you really want to do and work on with
+
+1056
+00:49:49,739 --> 00:49:50,810
+a commercial
+
+1057
+00:49:50,939 --> 00:49:54,070
+angle because otherwise you cannot build that company,
+
+1058
+00:49:54,260 --> 00:49:54,479
+that
+
+1059
+00:49:54,610 --> 00:49:57,090
+a healthy company that would actually make that impact.
+
+1060
+00:49:57,100 --> 00:49:58,350
+So that's the way I view that.
+
+1061
+00:49:59,479 --> 00:50:02,030
+Um But having said that, you know,
+
+1062
+00:50:02,040 --> 00:50:06,090
+there is many other directions in which this platform could be pointed
+
+1063
+00:50:06,770 --> 00:50:10,870
+even for metal–organic frameworks, um you can store hydrogen,
+
+1064
+00:50:11,280 --> 00:50:13,709
+you can catalyze, you can um
+
+1065
+00:50:14,729 --> 00:50:20,590
+um you can sort of deliver drugs, uh you can detect toxins, uh you can
+
+1066
+00:50:20,919 --> 00:50:24,149
+clean water and that's only metal–organic frameworks, right?
+
+1067
+00:50:24,159 --> 00:50:25,979
+But then we can also go to other markets
+
+1068
+00:50:25,989 --> 00:50:28,580
+at some point um that are completely different materials.
+
+1069
+00:50:29,290 --> 00:50:30,770
+And how does it feel?
+
+1070
+00:50:30,780 --> 00:50:36,040
+I think you alluded to um what many people who work for large companies feel, which is
+
+1071
+00:50:36,219 --> 00:50:38,669
+the benefits of working for large companies, the, you know,
+
+1072
+00:50:38,679 --> 00:50:41,020
+access to a great talent pool, but maybe the
+
+1073
+00:50:41,419 --> 00:50:46,000
+slight slowing down and sort of meetings to decide other meetings.
+
+1074
+00:50:46,239 --> 00:50:48,310
+Have you felt a certain sort of
+
+1075
+00:50:48,780 --> 00:50:53,030
+energy of being uh back in a, in a start up again.
+
+1076
+00:50:53,399 --> 00:50:54,260
+Definitely,
+
+1077
+00:50:54,850 --> 00:50:58,189
+I've definitely felt a lot of energy being back in a start up.
+
+1078
+00:50:58,659 --> 00:51:01,409
+It is, uh I think it is no comparison
+
+1079
+00:51:01,959 --> 00:51:03,959
+in terms of, uh you know, the,
+
+1080
+00:51:04,419 --> 00:51:04,919
+I don't know
+
+1081
+00:51:05,300 --> 00:51:06,719
+the way in which,
+
+1082
+00:51:07,120 --> 00:51:10,800
+you know, you can motivate people to all work on this problem.
+
+1083
+00:51:10,810 --> 00:51:14,959
+And um and it's, it's, it's somewhat small group at this point. Of course,
+
+1084
+00:51:15,229 --> 00:51:17,810
+when these companies grow much bigger, there's also, of course, you know,
+
+1085
+00:51:17,820 --> 00:51:20,739
+how do you maintain that spirit is not so easy, but,
+
+1086
+00:51:21,100 --> 00:51:24,760
+you know, as a start up, that's very special because you're small, um,
+
+1087
+00:51:24,770 --> 00:51:28,649
+you want to change the world, you have that vision to do that and you have,
+
+1088
+00:51:29,280 --> 00:51:34,899
+you know, you can do it quick and fast with a lot of money actually under your wings.
+
+1089
+00:51:35,610 --> 00:51:38,870
+So it's a big responsibility on the one hand, on the other hand,
+
+1090
+00:51:38,879 --> 00:51:41,030
+it's also an incredible opportunity.
+
+1091
+00:51:41,040 --> 00:51:41,689
+And,
+
+1092
+00:51:41,939 --> 00:51:42,709
+yeah, and,
+
+1093
+00:51:42,850 --> 00:51:46,360
+and really a little bit of a different feel than working in a big company.
+
+1094
+00:51:47,050 --> 00:51:47,570
+Yeah,
+
+1095
+00:51:47,979 --> 00:51:49,540
+I wanted to
+
+1096
+00:51:49,790 --> 00:51:51,770
+pivot a little bit to
+
+1097
+00:51:52,709 --> 00:51:54,389
+get your advice really.
+
+1098
+00:51:54,399 --> 00:51:59,100
+And some of your, uh uh, yeah, maybe your advice, I guess to, to people who are
+
+1099
+00:51:59,459 --> 00:52:02,370
+early on in their careers, I think you've
+
+1100
+00:52:02,729 --> 00:52:06,770
+had a very interesting trajectory and, and, and kind of movement if you,
+
+1101
+00:52:07,689 --> 00:52:08,739
+what would you recommend?
+
+1102
+00:52:08,750 --> 00:52:11,620
+So if you're, you're going back, you're doing your undergraduate degree.
+
+1103
+00:52:12,449 --> 00:52:14,750
+Let's say you've already decided to do a PhD.
+
+1104
+00:52:16,379 --> 00:52:17,830
+Would you recommend
+
+1105
+00:52:18,260 --> 00:52:22,360
+go do a postdoc, try and go the academic route? Would you suggest to go to a start up?
+
+1106
+00:52:22,820 --> 00:52:27,429
+How do you navigate this for people who wanted to sort of follow in your footsteps?
+
+1107
+00:52:27,439 --> 00:52:30,510
+What was, is there anything that you would do again or do differently?
+
+1108
+00:52:31,560 --> 00:52:35,969
+So, I should say I did many, many postdocs, right. So, um
+
+1109
+00:52:36,120 --> 00:52:42,610
+I did, uh I, I graduated in 98 and then I did a couple of years at Caltech and then I did
+
+1110
+00:52:42,840 --> 00:52:46,149
+and another three years with Geoffrey Hinton and do two different places
+
+1111
+00:52:46,500 --> 00:52:47,939
+and I just loved it.
+
+1112
+00:52:48,090 --> 00:52:48,659
+So,
+
+1113
+00:52:49,100 --> 00:52:51,949
+so the first thing I want to say, it depends a lot on who you are.
+
+1114
+00:52:52,879 --> 00:52:54,649
+Um And also, um
+
+1115
+00:52:55,469 --> 00:52:58,810
+so that really suited me at that stage in my life.
+
+1116
+00:52:58,820 --> 00:53:01,449
+It was incredibly interested in fundamental
+
+1117
+00:53:01,679 --> 00:53:03,320
+science and um
+
+1118
+00:53:03,530 --> 00:53:06,040
+I didn't get paid a lot at all.
+
+1119
+00:53:06,050 --> 00:53:09,330
+Um But I didn't care at all, you know, it's just, it was a beautiful life,
+
+1120
+00:53:09,629 --> 00:53:12,949
+you know, uh having very little money to spend and just being,
+
+1121
+00:53:13,060 --> 00:53:13,679
+you know,
+
+1122
+00:53:13,939 --> 00:53:15,250
+being a scientist.
+
+1123
+00:53:16,100 --> 00:53:19,719
+Um So these days, but, but, but I didn't have that choice, right?
+
+1124
+00:53:19,729 --> 00:53:23,330
+So that was actually different and interesting. So these days
+
+1125
+00:53:24,040 --> 00:53:26,969
+it's much harder for young people because they see,
+
+1126
+00:53:27,300 --> 00:53:29,620
+you know, this other opportunity, clear
+
+1127
+00:53:29,850 --> 00:53:31,290
+clearly in front of them, right?
+
+1128
+00:53:31,300 --> 00:53:33,379
+And they say I could, I do that, you know,
+
+1129
+00:53:33,389 --> 00:53:36,320
+and earn like 10 times as much as I can earn there.
+
+1130
+00:53:36,709 --> 00:53:36,820
+Is
+
+1131
+00:53:37,090 --> 00:53:40,340
+it worth, is it worth for me to just go to this
+
+1132
+00:53:40,530 --> 00:53:42,060
+do this academic route? And
+
+1133
+00:53:42,750 --> 00:53:44,179
+you know, honestly academics
+
+1134
+00:53:44,560 --> 00:53:47,850
+working in academia is also not all positive, right?
+
+1135
+00:53:47,860 --> 00:53:50,570
+At some point, you, you know, you're asked to juggle
+
+1136
+00:53:50,939 --> 00:53:52,889
+many balls, like you have to
+
+1137
+00:53:53,199 --> 00:53:55,879
+write grants, you have to teach, you have to basically,
+
+1138
+00:53:56,570 --> 00:54:00,020
+you know, run your own business. You have to be good people, a good manager.
+
+1139
+00:54:00,030 --> 00:54:01,389
+You know, you have to be good at research.
+
+1140
+00:54:01,399 --> 00:54:03,679
+You have to be good at everything basically. And then you,
+
+1141
+00:54:04,070 --> 00:54:06,879
+you don't have job security until you get tenure.
+
+1142
+00:54:07,090 --> 00:54:10,429
+It's really in that sense, a pretty lousy deal if you think about it.
+
+1143
+00:54:10,439 --> 00:54:12,070
+So you have, you have to really,
+
+1144
+00:54:13,320 --> 00:54:13,830
+you know,
+
+1145
+00:54:14,310 --> 00:54:19,169
+want, you want, you, you should be an educator. So the good thing about academia is
+
+1146
+00:54:20,379 --> 00:54:22,399
+it's great to work with young people,
+
+1147
+00:54:22,689 --> 00:54:25,550
+right? It's fantastic to help people grow
+
+1148
+00:54:26,060 --> 00:54:28,330
+and I still sometimes get emails from people.
+
+1149
+00:54:28,449 --> 00:54:31,320
+I was in your master class then and then,
+
+1150
+00:54:31,330 --> 00:54:36,159
+and it's because of you that I took this route and I now have this fantastic job,
+
+1151
+00:54:36,260 --> 00:54:36,689
+right?
+
+1152
+00:54:37,080 --> 00:54:37,820
+That is,
+
+1153
+00:54:38,000 --> 00:54:39,330
+you know, unbelievably
+
+1154
+00:54:39,469 --> 00:54:40,860
+rewarding to get that.
+
+1155
+00:54:41,000 --> 00:54:44,520
+Um And that's what you have in academia, you can help people grow,
+
+1156
+00:54:44,530 --> 00:54:46,860
+you can turn them into great researchers
+
+1157
+00:54:46,979 --> 00:54:50,739
+and you can see them have stellar careers, which is very rewarding. I think
+
+1158
+00:54:52,389 --> 00:54:52,840
+so.
+
+1159
+00:54:52,850 --> 00:54:56,899
+So, so, you know, is that if that's you, you want to work on the inside of a black hole,
+
+1160
+00:54:56,909 --> 00:54:59,300
+you know what's going on on the inside of a black hole.
+
+1161
+00:54:59,570 --> 00:55:01,639
+And you like to work with young people
+
+1162
+00:55:01,830 --> 00:55:05,399
+and you can put up with some annoying nuisances in, in academia.
+
+1163
+00:55:05,409 --> 00:55:09,050
+Then academia is your, is your thing, I honestly believe and you should,
+
+1164
+00:55:09,179 --> 00:55:10,229
+and especially,
+
+1165
+00:55:10,469 --> 00:55:10,899
+um,
+
+1166
+00:55:11,689 --> 00:55:14,870
+you should not worry about money. It's easy for me to say now.
+
+1167
+00:55:14,879 --> 00:55:18,010
+Um, but I didn't do it then I didn't worry about it.
+
+1168
+00:55:18,020 --> 00:55:20,280
+But it was the best thing I decided because
+
+1169
+00:55:20,629 --> 00:55:23,669
+I could really focus on, you know, building a,
+
+1170
+00:55:24,530 --> 00:55:27,590
+um, a good foundation for science learning.
+
+1171
+00:55:27,600 --> 00:55:31,270
+A lot about a lot about different topics and, and,
+
+1172
+00:55:31,280 --> 00:55:34,350
+and having a sort of a research strategy for myself.
+
+1173
+00:55:34,360 --> 00:55:34,969
+So I think
+
+1174
+00:55:35,149 --> 00:55:36,429
+having a postdoc
+
+1175
+00:55:36,570 --> 00:55:40,600
+on the Ariel Rings is, is really fantastic. And I don't think if you're good postdoc
+
+1176
+00:55:40,899 --> 00:55:41,669
+and you publish
+
+1177
+00:55:42,050 --> 00:55:43,060
+well, you know,
+
+1178
+00:55:43,889 --> 00:55:47,620
+it, it's not a disadvantage either. I would say at, at all,
+
+1179
+00:55:47,800 --> 00:55:49,070
+but you can also do something else.
+
+1180
+00:55:49,080 --> 00:55:52,810
+You can also first work for a start up or work first work for, you know,
+
+1181
+00:55:53,260 --> 00:55:56,840
+for company and then go back to academia. You should, you should feel free to,
+
+1182
+00:55:57,169 --> 00:55:58,810
+you know, you're not closing any doors.
+
+1183
+00:55:58,820 --> 00:55:59,510
+I feel, you know,
+
+1184
+00:55:59,520 --> 00:56:01,820
+going back and forth between East East may maybe
+
+1185
+00:56:01,830 --> 00:56:04,429
+make sure you publish it now and then something exciting
+
+1186
+00:56:04,699 --> 00:56:06,340
+if you want to go back to academia.
+
+1187
+00:56:07,679 --> 00:56:09,479
+But do you think there should be more
+
+1188
+00:56:09,879 --> 00:56:11,830
+that the complaint I hear,
+
+1189
+00:56:12,010 --> 00:56:13,540
+uh, or the issue is that
+
+1190
+00:56:15,219 --> 00:56:16,300
+post doc,
+
+1191
+00:56:17,610 --> 00:56:20,389
+the funding model, the contract model
+
+1192
+00:56:21,260 --> 00:56:25,159
+is such that, as you said, for a certain time period,
+
+1193
+00:56:25,489 --> 00:56:27,169
+you can sort of deal with it and I know from
+
+1194
+00:56:27,179 --> 00:56:30,080
+my own experiences but there comes a point where you,
+
+1195
+00:56:30,090 --> 00:56:30,719
+you're sort of,
+
+1196
+00:56:31,530 --> 00:56:33,260
+you want to buy a house or you want,
+
+1197
+00:56:33,560 --> 00:56:35,810
+you want to get married or something? There comes a point.
+
+1198
+00:56:35,820 --> 00:56:38,030
+Do you think universities should do more?
+
+1199
+00:56:39,679 --> 00:56:44,129
+Oh. Is there any way that you can do more to sort of keep those researchers
+
+1200
+00:56:44,699 --> 00:56:45,560
+who are great?
+
+1201
+00:56:45,570 --> 00:56:47,719
+But give them more security or,
+
+1202
+00:56:47,729 --> 00:56:51,060
+or does that break just the model of how universities work?
+
+1203
+00:56:51,939 --> 00:56:52,719
+Yeah. I don't know.
+
+1204
+00:56:52,830 --> 00:56:54,469
+It's a very hard one.
+
+1205
+00:56:56,520 --> 00:57:00,070
+Yeah. So, in Europe, you know, especially in the Netherlands tenure isn't,
+
+1206
+00:57:00,479 --> 00:57:03,439
+you know, it's very likely you'll get tenure, right.
+
+1207
+00:57:03,449 --> 00:57:06,600
+There's even something that was only recently introduced in some sense, but I've,
+
+1208
+00:57:06,610 --> 00:57:08,860
+I've never seen people not get tenure.
+
+1209
+00:57:08,870 --> 00:57:11,219
+So it's, it's not at all like MIT, or Harvard where
+
+1210
+00:57:11,479 --> 00:57:13,560
+I know half of the people get kicked out or something.
+
+1211
+00:57:13,570 --> 00:57:17,100
+But then if you're kicked out of Harvard, you still have a great career afterwards,
+
+1212
+00:57:17,110 --> 00:57:17,290
+right?
+
+1213
+00:57:17,300 --> 00:57:19,090
+Because you work at Harvard in the first place. So,
+
+1214
+00:57:19,959 --> 00:57:20,469
+yeah,
+
+1215
+00:57:21,030 --> 00:57:23,770
+I've never really worried about tenure and all these things.
+
+1216
+00:57:23,780 --> 00:57:25,179
+I went through the 10 year process in the
+
+1217
+00:57:25,189 --> 00:57:27,500
+U SI just maybe it's just blissful ignorance.
+
+1218
+00:57:27,510 --> 00:57:28,820
+I just never worried about it.
+
+1219
+00:57:28,830 --> 00:57:32,100
+I just, but whatever happened, it happened and just take the next step.
+
+1220
+00:57:32,989 --> 00:57:33,469
+Um,
+
+1221
+00:57:33,600 --> 00:57:35,469
+I don't know whether we can give postdoc
+
+1222
+00:57:35,919 --> 00:57:39,649
+permanent positions because that's not the definition of a postdoc. So,
+
+1223
+00:57:40,199 --> 00:57:42,199
+what we have done at the University of Amsterdam a
+
+1224
+00:57:42,209 --> 00:57:47,649
+little bit is to allow people more like flexible contracts.
+
+1225
+00:57:47,659 --> 00:57:48,800
+Right. So, for instance,
+
+1226
+00:57:48,929 --> 00:57:49,760
+you could say
+
+1227
+00:57:49,909 --> 00:57:52,239
+half of my time I'm opposed or half of my time,
+
+1228
+00:57:53,080 --> 00:57:55,669
+you know, that particular construction doesn't exist, but it's a half time.
+
+1229
+00:57:55,679 --> 00:57:56,330
+You work
+
+1230
+00:57:56,850 --> 00:58:00,139
+in a start up, half your time, you work at the university or something like that.
+
+1231
+00:58:00,149 --> 00:58:04,139
+I think that could be very helpful because half of the time you can make a lot of money,
+
+1232
+00:58:04,149 --> 00:58:06,260
+you know, working in a start up or a big tech company or whatever
+
+1233
+00:58:07,060 --> 00:58:10,239
+or run your own business. And then the other half of the time
+
+1234
+00:58:10,500 --> 00:58:13,959
+you teach or, you know, do research at the university
+
+1235
+00:58:14,090 --> 00:58:18,120
+that's already incredibly helpful and it doesn't cost university anything. So
+
+1236
+00:58:18,639 --> 00:58:21,790
+I was going to say that model, is it
+
+1237
+00:58:21,909 --> 00:58:23,159
+by chance
+
+1238
+00:58:23,370 --> 00:58:25,310
+or is it something?
+
+1239
+00:58:25,449 --> 00:58:28,250
+So if you look at an engineering company, look at Boeing, look at Airbus,
+
+1240
+00:58:28,320 --> 00:58:29,399
+look at Rolls Royce,
+
+1241
+00:58:29,770 --> 00:58:31,560
+look at Shell, look at almost any
+
+1242
+00:58:32,870 --> 00:58:33,320
+and I
+
+1243
+00:58:33,540 --> 00:58:35,729
+don't think there are very many people there
+
+1244
+00:58:36,520 --> 00:58:38,080
+unless I'm wrong who are,
+
+1245
+00:58:39,340 --> 00:58:42,600
+let's say their head of their science, but also a professor somewhere else.
+
+1246
+00:58:42,870 --> 00:58:45,199
+They seem to be purely at that company.
+
+1247
+00:58:45,209 --> 00:58:48,399
+Whereas I've noticed in tech companies and I guess your
+
+1248
+00:58:48,409 --> 00:58:50,560
+previous role of Microsoft was an example of that.
+
+1249
+00:58:50,899 --> 00:58:52,360
+They almost always is a,
+
+1250
+00:58:52,760 --> 00:58:53,000
+you know,
+
+1251
+00:58:53,010 --> 00:58:56,310
+extremely distinguished scientists like yourself who also has
+
+1252
+00:58:56,320 --> 00:58:59,120
+a link to university because it enables them,
+
+1253
+00:58:59,879 --> 00:59:03,469
+by definition, they, that's how they still become distinguished because,
+
+1254
+00:59:03,479 --> 00:59:05,060
+you know, they, they're doing their own research.
+
+1255
+00:59:05,639 --> 00:59:07,979
+Do you think this is a model that should be taken
+
+1256
+00:59:07,989 --> 00:59:11,260
+more broadly or is it just something unique to the tech world
+
+1257
+00:59:11,610 --> 00:59:12,709
+with AI? If
+
+1258
+00:59:13,000 --> 00:59:14,850
+that's the case, I've just noticed this is a,
+
+1259
+00:59:14,979 --> 00:59:14,989
+a
+
+1260
+00:59:15,510 --> 00:59:16,939
+trend that,
+
+1261
+00:59:17,379 --> 00:59:17,479
+yeah,
+
+1262
+00:59:17,489 --> 00:59:19,679
+we do have some professorships in the Netherlands
+
+1263
+00:59:19,689 --> 00:59:21,739
+that are one day a week at the university
+
+1264
+00:59:22,030 --> 00:59:22,540
+um
+
+1265
+00:59:23,239 --> 00:59:25,820
+that are subsidized by a company. So I think
+
+1266
+00:59:26,469 --> 00:59:30,030
+it, it does exist a little bit more broadly, of course, in the tech world,
+
+1267
+00:59:30,040 --> 00:59:35,010
+it gives you also access to the talent pool, which is, which is a very scarce resource
+
+1268
+00:59:35,320 --> 00:59:38,300
+in AI which may not be the same thing in other companies.
+
+1269
+00:59:38,590 --> 00:59:43,370
+So that, that's one way in which it's already helpful to have some leg
+
+1270
+00:59:43,780 --> 00:59:45,010
+in the university.
+
+1271
+00:59:45,929 --> 00:59:50,080
+Um Yeah, and the other thing is that this field is developing so fast,
+
+1272
+00:59:50,090 --> 00:59:52,439
+you just need to be at the front,
+
+1273
+00:59:52,899 --> 00:59:56,179
+you know, you know, frontier of all of that to know what's going on.
+
+1274
+00:59:56,189 --> 00:59:59,540
+And the best way to do that is to have, you know, to have students and
+
+1275
+01:00:00,330 --> 01:00:03,070
+you know, let them explain to you what the new trend is, right?
+
+1276
+01:00:03,080 --> 01:00:05,159
+So it's, it's really important that you're,
+
+1277
+01:00:05,449 --> 01:00:06,909
+you don't get, you know,
+
+1278
+01:00:07,080 --> 01:00:08,000
+sort of a,
+
+1279
+01:00:08,709 --> 01:00:13,449
+how do I say, um, fix it into your own, um, sort of ideology.
+
+1280
+01:00:13,500 --> 01:00:15,610
+Um But you keep listening to
+
+1281
+01:00:16,020 --> 01:00:17,449
+young researchers which pick,
+
+1282
+01:00:17,459 --> 01:00:20,530
+pick up the new trends and want to work on new things and, and you,
+
+1283
+01:00:20,540 --> 01:00:22,330
+you go with that flow in some sense.
+
+1284
+01:00:22,750 --> 01:00:24,830
+So I think there's many advantages of having a
+
+1285
+01:00:25,139 --> 01:00:26,729
+foot in academia
+
+1286
+01:00:27,290 --> 01:00:30,449
+also for the company where you work for. Uh In fact,
+
+1287
+01:00:31,060 --> 01:00:31,520
+yeah,
+
+1288
+01:00:32,310 --> 01:00:33,719
+well, maybe um
+
+1289
+01:00:33,850 --> 01:00:36,770
+coming, coming to a final question,
+
+1290
+01:00:39,040 --> 01:00:43,820
+if in term, I think I heard you say in um one of the recent um
+
+1291
+01:00:44,110 --> 01:00:45,330
+talks that you gave
+
+1292
+01:00:46,360 --> 01:00:46,729
+that
+
+1293
+01:00:47,260 --> 01:00:49,010
+you had underestimated
+
+1294
+01:00:49,889 --> 01:00:52,270
+where machine learning could get to.
+
+1295
+01:00:52,560 --> 01:00:53,870
+So with that in mind,
+
+1296
+01:00:54,290 --> 01:00:56,350
+if we were to fast forward five years,
+
+1297
+01:00:56,850 --> 01:01:01,679
+where do you think we will be at and particularly from the AI for science side,
+
+1298
+01:01:02,560 --> 01:01:05,139
+do you think there will be a breakthrough,
+
+1299
+01:01:05,520 --> 01:01:09,780
+huge change almost like uh opening I did with Chat T BT,
+
+1300
+01:01:09,790 --> 01:01:12,060
+which sort of sent this inflection point?
+
+1301
+01:01:12,250 --> 01:01:13,610
+Where do you see
+
+1302
+01:01:13,899 --> 01:01:16,020
+as being uh in the next few years?
+
+1303
+01:01:16,290 --> 01:01:17,340
+That's a tough one.
+
+1304
+01:01:17,989 --> 01:01:20,939
+Predicting the future is always extremely tough. Um
+
+1305
+01:01:21,969 --> 01:01:25,229
+I do see a very steady improvement and uh this field
+
+1306
+01:01:25,239 --> 01:01:28,219
+will grow definitely a lot over the next five years.
+
+1307
+01:01:28,229 --> 01:01:29,969
+So I see, but that's also
+
+1308
+01:01:30,139 --> 01:01:30,750
+because,
+
+1309
+01:01:30,919 --> 01:01:33,050
+you know, students need to get interested in it,
+
+1310
+01:01:33,209 --> 01:01:34,929
+you know, new start ups need to start, you know,
+
+1311
+01:01:34,939 --> 01:01:38,250
+big tech companies needs to get interested in this, which is what's happening now.
+
+1312
+01:01:38,260 --> 01:01:38,760
+Um
+
+1313
+01:01:39,250 --> 01:01:41,429
+And so that field will steadily grow,
+
+1314
+01:01:41,820 --> 01:01:44,629
+um whether there will be sort of a watershed moment.
+
+1315
+01:01:44,969 --> 01:01:45,500
+Um
+
+1316
+01:01:45,649 --> 01:01:47,340
+Now, the reason that happened in,
+
+1317
+01:01:47,959 --> 01:01:51,469
+you know, in the other field is because there's a lot of data available there.
+
+1318
+01:01:51,479 --> 01:01:55,739
+Um So I think in some sense, the weather forecasting is a good example of
+
+1319
+01:01:56,139 --> 01:02:00,810
+a somewhat of a watershed moment. Um where, you know, these models are
+
+1320
+01:02:01,239 --> 01:02:01,669
+un you know,
+
+1321
+01:02:02,070 --> 01:02:04,340
+much better than people would have predicted.
+
+1322
+01:02:05,139 --> 01:02:05,719
+Um
+
+1323
+01:02:06,090 --> 01:02:10,540
+Now I'm betting myself on materials clearly. Um
+
+1324
+01:02:11,010 --> 01:02:11,800
+And I think
+
+1325
+01:02:12,040 --> 01:02:15,280
+my prediction would be that there's going to be enormous
+
+1326
+01:02:15,580 --> 01:02:17,919
+pool or pressure if you wish
+
+1327
+01:02:18,020 --> 01:02:19,669
+from society
+
+1328
+01:02:19,780 --> 01:02:21,090
+to work on,
+
+1329
+01:02:21,810 --> 01:02:22,340
+you know,
+
+1330
+01:02:22,590 --> 01:02:26,139
+problems and sustainability because we are running into
+
+1331
+01:02:26,149 --> 01:02:28,600
+a wall in this whole climate change problem,
+
+1332
+01:02:29,229 --> 01:02:31,159
+we are still increasing our
+
+1333
+01:02:31,600 --> 01:02:33,000
+carbon output.
+
+1334
+01:02:33,179 --> 01:02:33,729
+Um
+
+1335
+01:02:33,870 --> 01:02:34,409
+you know,
+
+1336
+01:02:34,550 --> 01:02:39,000
+um since over the last 12% more, over the last five years, something like this. Um
+
+1337
+01:02:39,479 --> 01:02:40,530
+And there's a lot of
+
+1338
+01:02:40,689 --> 01:02:44,850
+countries which still have to go through sort of uh industrial revolution almost.
+
+1339
+01:02:45,540 --> 01:02:48,919
+So I I'm not seeing that politics will solve this.
+
+1340
+01:02:49,250 --> 01:02:50,110
+Um
+
+1341
+01:02:51,580 --> 01:02:55,120
+And the problem with this is that it's a shared resource and
+
+1342
+01:02:56,429 --> 01:03:00,520
+um it, it's, you know, there might be a dynamics where
+
+1343
+01:03:01,120 --> 01:03:03,179
+by the time it's in your face,
+
+1344
+01:03:03,500 --> 01:03:07,169
+it's too late because you're past tipping points and all these kinds of things and
+
+1345
+01:03:07,350 --> 01:03:08,620
+humans have the
+
+1346
+01:03:08,969 --> 01:03:10,209
+annoying, proper,
+
+1347
+01:03:10,320 --> 01:03:11,219
+you know, um
+
+1348
+01:03:11,969 --> 01:03:11,989
+as
+
+1349
+01:03:12,090 --> 01:03:16,699
+a property of only responding to things when it's right in their face, right?
+
+1350
+01:03:16,830 --> 01:03:17,060
+You know,
+
+1351
+01:03:17,070 --> 01:03:20,870
+when the danger is right there in front of you and the lion is there to eat you,
+
+1352
+01:03:21,070 --> 01:03:22,620
+you know, that's when you run away.
+
+1353
+01:03:23,080 --> 01:03:26,479
+And so it's very hard to predict and say, oh, this is gonna be tricky, right?
+
+1354
+01:03:26,489 --> 01:03:29,010
+And so some people do that and some governments even do that.
+
+1355
+01:03:29,020 --> 01:03:31,659
+But two is that a global scale is incredibly hard.
+
+1356
+01:03:32,030 --> 01:03:36,139
+Now, what we will see is the impact of climate change, increasing and increasing.
+
+1357
+01:03:36,879 --> 01:03:40,860
+And that would mean that um this awareness also it's more in your face.
+
+1358
+01:03:40,870 --> 01:03:43,550
+So it become, you know, the awareness starts to increase as well.
+
+1359
+01:03:44,149 --> 01:03:47,219
+And that means that people are really going to look for
+
+1360
+01:03:47,750 --> 01:03:50,139
+solutions in the tech business as well.
+
+1361
+01:03:50,149 --> 01:03:50,860
+So, you know,
+
+1362
+01:03:50,870 --> 01:03:52,830
+and there will be more and more investments and more
+
+1363
+01:03:52,840 --> 01:03:55,120
+and more people will go into that to try to do
+
+1364
+01:03:55,510 --> 01:04:01,209
+fusion or carbon capture or, you know, uh clean energy, all these kinds of things,
+
+1365
+01:04:01,219 --> 01:04:01,500
+right?
+
+1366
+01:04:01,909 --> 01:04:03,899
+And that will accelerate and that's a good thing.
+
+1367
+01:04:05,320 --> 01:04:10,639
+Um So in that sense, I think we will find amazing new technologies and you know, where
+
+1368
+01:04:10,750 --> 01:04:15,219
+indeed you you could actually find completely weird new materials that you know,
+
+1369
+01:04:15,229 --> 01:04:16,699
+weren't imaginable
+
+1370
+01:04:17,290 --> 01:04:20,699
+some time ago. But now with these new tools, we can actually create them.
+
+1371
+01:04:21,520 --> 01:04:22,149
+Um
+
+1372
+01:04:22,260 --> 01:04:24,399
+So I think we'll see amazing things where there's going to
+
+1373
+01:04:24,409 --> 01:04:28,330
+be an absolutely watershed moment that's really hard to predict.
+
+1374
+01:04:29,040 --> 01:04:32,320
+Um But um yeah, I, I do think
+
+1375
+01:04:32,790 --> 01:04:33,820
+that with the new
+
+1376
+01:04:34,030 --> 01:04:38,699
+technology that we're building in AI um and maybe quantum computing as well uh in,
+
+1377
+01:04:38,770 --> 01:04:40,520
+you know, 5 to 10 years,
+
+1378
+01:04:40,739 --> 01:04:45,649
+this field will accelerate and, and, and, and produce very exciting results. Yeah.
+
+1379
+01:04:45,949 --> 01:04:48,020
+Do, do you feel almost that um
+
+1380
+01:04:49,179 --> 01:04:50,479
+one person told me
+
+1381
+01:04:51,139 --> 01:04:52,800
+we've globally
+
+1382
+01:04:53,520 --> 01:04:56,889
+tech companies and start ups have hired so many people
+
+1383
+01:04:57,310 --> 01:04:59,250
+to work on large language models.
+
+1384
+01:05:00,010 --> 01:05:02,699
+Do we almost need to wait for that to plateau for
+
+1385
+01:05:02,709 --> 01:05:05,969
+all those staff to then be given another direction to work on
+
+1386
+01:05:06,159 --> 01:05:10,229
+and then they can double down more on the scientific problems where for now,
+
+1387
+01:05:10,239 --> 01:05:14,239
+I guess most companies are trying to chase the current goal, which is,
+
+1388
+01:05:14,570 --> 01:05:15,129
+you know,
+
+1389
+01:05:15,260 --> 01:05:19,159
+the the large language model type thing. Do, do you feel there's also a little bit of a
+
+1390
+01:05:19,379 --> 01:05:22,120
+resourcing and pivotal moment that
+
+1391
+01:05:22,260 --> 01:05:23,649
+we need to shift
+
+1392
+01:05:23,889 --> 01:05:25,320
+to focus on the science
+
+1393
+01:05:25,459 --> 01:05:27,199
+or can they be be done in parallel?
+
+1394
+01:05:27,429 --> 01:05:28,639
+Um I think they
+
+1395
+01:05:28,790 --> 01:05:32,399
+have to be done in parallel because I have no illusions that um
+
+1396
+01:05:32,699 --> 01:05:37,840
+you know, A G I will be pursued hotly by all these big companies because it's just,
+
+1397
+01:05:37,989 --> 01:05:38,459
+I don't know,
+
+1398
+01:05:39,489 --> 01:05:43,659
+you can make too much money if you find that, you know, this is too uh
+
+1399
+01:05:44,570 --> 01:05:45,090
+um
+
+1400
+01:05:46,110 --> 01:05:46,669
+you know, you can,
+
+1401
+01:05:46,929 --> 01:05:49,310
+how do you say too lucrative to, to not do it.
+
+1402
+01:05:49,909 --> 01:05:50,449
+Um
+
+1403
+01:05:50,790 --> 01:05:53,429
+But I think there is also a lot of talent in the market
+
+1404
+01:05:53,679 --> 01:05:56,969
+and I have found that a lot of young people in particular,
+
+1405
+01:05:57,060 --> 01:06:00,330
+they want to do something that is meaningful with their life.
+
+1406
+01:06:00,870 --> 01:06:06,290
+And it's that subset of people that can align their goals in life, you know,
+
+1407
+01:06:06,399 --> 01:06:09,129
+contributing meaningfully to society with their talent
+
+1408
+01:06:09,459 --> 01:06:10,530
+and make a good,
+
+1409
+01:06:10,669 --> 01:06:11,169
+you know,
+
+1410
+01:06:11,520 --> 01:06:12,350
+salary
+
+1411
+01:06:12,479 --> 01:06:14,250
+on the side. And so I think
+
+1412
+01:06:14,510 --> 01:06:16,909
+there will be an increasing group of people who want
+
+1413
+01:06:16,919 --> 01:06:19,530
+to pursue these kinds of goals rather than work on
+
+1414
+01:06:19,810 --> 01:06:22,050
+advertisement placement or something like that.
+
+1415
+01:06:23,649 --> 01:06:25,780
+Well, yeah, I, I agree. I, I hope so.
+
+1416
+01:06:25,790 --> 01:06:29,149
+I think uh it's amazing what machine learning has been able to achieve.
+
+1417
+01:06:29,159 --> 01:06:31,000
+But I agree that if we could
+
+1418
+01:06:31,189 --> 01:06:31,780
+um
+
+1419
+01:06:32,929 --> 01:06:36,669
+push all that knowledge and that amazing thing to
+
+1420
+01:06:36,879 --> 01:06:41,790
+things that will help the world and society and the average individual,
+
+1421
+01:06:41,800 --> 01:06:44,909
+then I think that will be seen as a very positive
+
+1422
+01:06:45,060 --> 01:06:47,590
+outcome from all this rather than, as you said,
+
+1423
+01:06:48,679 --> 01:06:51,560
+things that are maybe still useful, but
+
+1424
+01:06:51,719 --> 01:06:52,899
+maybe less
+
+1425
+01:06:53,580 --> 01:06:56,689
+an impact on society and on climate change. So,
+
+1426
+01:06:57,590 --> 01:07:00,330
+thank you so much. I know you're a very busy man.
+
+1427
+01:07:00,340 --> 01:07:01,889
+So I appreciate you taking the time to speak.
+
+1428
+01:07:01,899 --> 01:07:04,229
+I certainly learned a lot and I found it very interesting.
+
+1429
+01:07:04,239 --> 01:07:05,850
+So, yeah, thank you so much.
+
+1430
+01:07:06,020 --> 01:07:08,330
+My pleasure, Neil. It was, it was really fun talking to you
+
+1431
+01:07:30,770 --> 01:07:30,800
+that

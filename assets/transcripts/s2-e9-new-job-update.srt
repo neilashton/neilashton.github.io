@@ -20,18 +20,18 @@ from elite level sports like
 
 5
 00:00:12,840 --> 00:00:16,880
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,880 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
 are bringing in a new era
-discovery.
+of discovery.
 
 8
 00:00:23,960 --> 00:00:27,080
@@ -111,17 +111,17 @@ know, I guess if people are
 23
 00:01:25,240 --> 00:01:28,560
 interested.
-So I'm I've joined the video as
+So I'm I've joined NVIDIA as
 
 24
 00:01:28,560 --> 00:01:32,200
-a distinguished CAE.
-So computer, computer aided
+a Distinguished CAE
+(Computer-Aided
 
 25
 00:01:32,200 --> 00:01:37,400
-engineering architect, which
-enjoyed on the sort of product
+Engineering) Architect, which I
+joined on the sort of product
 
 26
 00:01:37,440 --> 00:01:39,480
@@ -135,7 +135,7 @@ builds the builds, designs the,
 
 28
 00:01:45,040 --> 00:01:49,880
-the, the, the GP US and CPUs and
+the, the, the GPUs and CPUs and
 also looks after the, the sort
 
 29
@@ -156,7 +156,7 @@ to help, you know, the product
 32
 00:02:01,240 --> 00:02:07,240
 teams, the marketing, the sales
-and BI guess the subject matter
+and be, I guess, the subject matter
 
 33
 00:02:07,240 --> 00:02:12,160
@@ -166,7 +166,7 @@ for, for CAE, which is super
 34
 00:02:12,160 --> 00:02:16,840
 exciting because, you know,
-Nvidia's doing a lot in many
+NVIDIA's doing a lot in many
 
 35
 00:02:16,840 --> 00:02:19,080
@@ -231,7 +231,7 @@ the AI side.
 47
 00:02:58,840 --> 00:03:03,120
 And you know, for obvious
-reasons, the videos are pretty
+reasons, NVIDIA is pretty
 
 48
 00:03:03,120 --> 00:03:06,240
@@ -320,7 +320,7 @@ join a company like that?
 
 65
 00:04:01,440 --> 00:04:04,680
-At that time, it didn't see like
+At that time, it didn't seem like
 my path would ever lead me
 
 66
@@ -400,17 +400,17 @@ It's called GTC.
 
 81
 00:04:57,560 --> 00:04:59,600
-So it's Nvidia's main
+So it's NVIDIA's main
 conference.
 
 82
 00:04:59,920 --> 00:05:04,640
 I guess a bit like AWS has
-Reinvent and Microsoft has RE
+re:Invent and Microsoft has
 
 83
 00:05:05,560 --> 00:05:07,320
-ignition or something.
+Ignite or something.
 I can't remember what it's
 
 84
@@ -420,7 +420,7 @@ Every company, you know, Siemens
 
 85
 00:05:08,960 --> 00:05:11,400
-has Siemens realise live ANSYS
+has Siemens Realize LIVE. Ansys
 has something else.
 
 86
@@ -441,7 +441,7 @@ out there again for that.
 89
 00:05:19,000 --> 00:05:22,880
 So if anybody listens to this,
-watches this and it's going to
+watches this and is going to
 
 90
 00:05:22,880 --> 00:05:25,040
@@ -476,7 +476,7 @@ And and I'm going to take a
 96
 00:05:42,600 --> 00:05:47,720
 little bit of a break then to
-sort of get re energised and get
+sort of get re-energised and get
 
 97
 00:05:47,720 --> 00:05:52,160
@@ -506,7 +506,7 @@ But I thought I should come on
 102
 00:06:03,720 --> 00:06:07,520
 here and at least tell you that
-I'm sorry for not putting in a
+I'm sorry for not putting out any
 
 103
 00:06:07,520 --> 00:06:09,280
@@ -530,12 +530,12 @@ been really, you know, proud of
 
 107
 00:06:20,000 --> 00:06:23,600
-doing, like the auto CFDS, like
+doing, like AutoCFD, like
 the high lift workshops, like
 
 108
 00:06:23,600 --> 00:06:27,360
-some of the AI data set stuff.
+some of the AI dataset stuff.
 These are all activities that I
 
 109
@@ -555,7 +555,7 @@ But also very keen to to hear
 
 112
 00:06:39,800 --> 00:06:42,920
-what people think at the next
+what people think are the next
 topics and engage and try and
 
 113
@@ -566,7 +566,7 @@ That always interests me.
 114
 00:06:45,920 --> 00:06:48,880
 That's obviously why I've done
-so many episodes array around
+so many episodes around
 
 115
 00:06:48,880 --> 00:06:52,800
@@ -606,7 +606,7 @@ Yeah.
 122
 00:07:12,160 --> 00:07:14,680
 Tell me what sort of stuff
-interests you, what you'd liked,
+interests you, what you've liked,
 
 123
 00:07:14,680 --> 00:07:18,640
@@ -630,7 +630,7 @@ listening to these podcasts,
 
 127
 00:07:28,240 --> 00:07:31,880
-there is quite a few episodes
+there are quite a few episodes
 maybe to go back and listen to.
 
 128
@@ -661,17 +661,17 @@ and listen more of those
 133
 00:07:47,280 --> 00:07:49,480
 episodes if you didn't get
-listened to the whole thing
+to listen to the whole thing
 
 134
 00:07:49,880 --> 00:07:53,680
-because yeah, I left them long
-forms so you could really get
+because, yeah, I left them
+long-form so you could really get
 
 135
 00:07:53,680 --> 00:07:55,640
 the full story.
-But I appreciate that there are
+But I appreciate that they're
 
 136
 00:07:55,640 --> 00:07:57,800

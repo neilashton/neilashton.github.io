@@ -26,7 +26,7 @@ of the world's top academics to
 6
 00:00:16,920 --> 00:00:21,000
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
@@ -95,7 +95,7 @@ And hopefully, as you can tell
 
 20
 00:01:09,160 --> 00:01:12,440
-from this episode, he's a a
+from this episode, he's a
 really nice guy and has a great
 
 21
@@ -180,7 +180,7 @@ than, you know, 30,000
 
 37
 00:02:14,480 --> 00:02:19,040
-citations, H&X of 84, which is
+citations, h-index of 84, which is
 already in the very high, sort
 
 38
@@ -240,13 +240,13 @@ characterizing possible failure
 
 49
 00:02:56,640 --> 00:02:58,680
-modes in physics informed neural
+modes in physics-informed neural
 networks.
 
 50
 00:02:58,680 --> 00:03:02,360
 And this is, you hear many
-people talk about pins, physics,
+people talk about PINNs: physics-
 
 51
 00:03:02,360 --> 00:03:04,440
@@ -326,7 +326,7 @@ something he's also very well
 66
 00:03:44,680 --> 00:03:48,920
 known for, which is randomized
-linear numerical algebra, which
+numerical linear algebra, which
 
 67
 00:03:48,920 --> 00:03:52,120
@@ -430,7 +430,7 @@ talks that I really want you
 
 87
 00:05:01,720 --> 00:05:04,280
-after watching this, listening
+after watching this, listening to
 this to go to his website and
 
 88
@@ -516,7 +516,7 @@ So that's, this was a sign of
 104
 00:06:01,640 --> 00:06:05,640
 success when it was finally
-mentioned on a net no, the
+mentioned on Netflix—no, the
 
 105
 00:06:05,640 --> 00:06:08,840
@@ -605,7 +605,7 @@ you know, linear operators or
 
 122
 00:06:59,680 --> 00:07:01,240
-iterated former linear operators
+iterated forms of linear operators
 appear.
 
 123
@@ -675,13 +675,13 @@ more or less the exact answer.
 
 136
 00:07:39,920 --> 00:07:42,840
-I mean, and I say exact and
-scare and scare quotes because
+I mean, and I say exact in
+scare quotes because
 
 137
 00:07:43,160 --> 00:07:46,040
 there's numerical issues and you
-can't represent sqrt 2 on a
+can't represent square root of two on a
 
 138
 00:07:46,040 --> 00:07:48,800
@@ -736,7 +736,7 @@ And so most people, if they're
 148
 00:08:19,440 --> 00:08:23,720
 running computations, sit on top
-of Glass and LA Pack and, and,
+of BLAS and LAPACK and, and,
 
 149
 00:08:23,720 --> 00:08:27,840
@@ -790,7 +790,7 @@ practice then?
 
 159
 00:08:53,200 --> 00:08:57,480
-So if I'm sold in APDE and I'm
+So if I'm solving a PDE and I'm
 normally using some sort of
 
 160
@@ -810,7 +810,7 @@ Yeah, I mean, when you're
 
 163
 00:09:12,280 --> 00:09:16,080
-solving APDE, you're typically
+solving a PDE, you're typically
 solving it for a particular
 
 164
@@ -840,7 +840,7 @@ or you're solving a second order
 
 169
 00:09:32,560 --> 00:09:35,640
-optimization to as a piece of
+optimisation, too, as a piece of
 that PDE solver.
 
 170
@@ -875,7 +875,7 @@ So take least squares as an
 
 176
 00:09:53,480 --> 00:09:55,320
-example, a low rank
+example, a low-rank
 approximation.
 
 177
@@ -886,7 +886,7 @@ these algorithms is you have the
 178
 00:10:00,400 --> 00:10:02,720
 data and you want to solve the
-least squares of the low rank
+least squares of the low-rank
 
 179
 00:10:02,720 --> 00:10:06,440
@@ -991,7 +991,7 @@ the more theoretically inclined
 199
 00:11:03,280 --> 00:11:05,760
 communities want to take that
-sketch and solve the sub problem
+sketch and solve the subproblem
 
 200
 00:11:06,040 --> 00:11:07,920
@@ -1005,13 +1005,13 @@ solution to the exact, the exact
 
 202
 00:11:10,920 --> 00:11:13,720
-solution to that sub problem
+solution to that subproblem
 computed any which way.
 
 203
 00:11:13,720 --> 00:11:16,840
 A traditional solver or
-something else is epsilon close
+something else is epsilon-close
 
 204
 00:11:16,840 --> 00:11:19,080
@@ -1025,7 +1025,7 @@ Now, in a lot of cases that is
 
 206
 00:11:22,320 --> 00:11:24,800
-sort of course because you
+sort of coarse because you
 can't.
 
 207
@@ -1065,7 +1065,7 @@ And by preconditioner I just
 
 214
 00:11:46,640 --> 00:11:50,880
-mean a preconditioner for APDE
+mean a preconditioner for a PDE
 solver or or least squares or a
 
 215
@@ -1090,27 +1090,27 @@ The theoretically inclined
 
 219
 00:12:00,760 --> 00:12:03,640
-people just say good, done M
-epsilon good.
+people just say good, done; I'm
+epsilon-good.
 
 220
 00:12:04,120 --> 00:12:06,240
 And you can say, now I'm going
-to take that epsilon good where
+to take that epsilon-good where
 
 221
 00:12:06,240 --> 00:12:09,320
-epsilon is .1 and just use any
+epsilon is 0.1 and just use any
 of a range of traditional
 
 222
 00:12:09,320 --> 00:12:12,120
 iterative solvers and drive that
-epsilon down to 10 to the -8 or
+epsilon down to 10⁻⁸ or
 
 223
 00:12:12,120 --> 00:12:15,960
-10 to the -16.
+10⁻¹⁶.
 And, and just like most
 
 224
@@ -1140,8 +1140,8 @@ people solve it that way.
 
 229
 00:12:31,520 --> 00:12:33,720
-So those are called sketch and
-solve and sketch and
+So those are called sketch-and-
+solve and sketch-and-
 
 230
 00:12:33,720 --> 00:12:37,000
@@ -1161,7 +1161,7 @@ you're interested in low
 233
 00:12:45,200 --> 00:12:47,840
 precision data representations,
-you know, going to half or
+you know, going to half- or
 
 234
 00:12:47,840 --> 00:12:50,840
@@ -1190,7 +1190,7 @@ intermediate solutions 10 to the
 
 239
 00:13:00,960 --> 00:13:03,480
--210 to the -410 to the -6
+10⁻², 10⁻⁴ and 10⁻⁶
 quality.
 
 240
@@ -1216,7 +1216,7 @@ orders of magnitude of the
 244
 00:13:15,440 --> 00:13:20,720
 savings that you could get?
-You know, if I'm doing a Nabia
+You know, if I'm doing a Navier–
 
 245
 00:13:20,720 --> 00:13:25,440
@@ -1226,7 +1226,7 @@ neural net using these
 246
 00:13:25,800 --> 00:13:28,880
 randomized, you know, numerical
-linear algebra versus a blast
+linear algebra versus BLAS
 
 247
 00:13:28,880 --> 00:13:33,600
@@ -1260,7 +1260,7 @@ And if you feed this into a big
 
 253
 00:13:51,440 --> 00:13:53,480
-PD solver, there's a lot of
+PDE solver, there's a lot of
 moving parts and you're
 
 254
@@ -1280,8 +1280,8 @@ that the scientist that is
 
 257
 00:14:02,400 --> 00:14:05,560
-looking at the PD solver is
-interested in roll gold to the
+looking at the PDE solver is
+interested in. Or go to the
 
 258
 00:14:05,560 --> 00:14:08,000
@@ -1290,8 +1290,8 @@ And you want to say, I want to
 
 259
 00:14:08,000 --> 00:14:10,200
-compete with blast or a late
-pack.
+compete with BLAS or
+LAPACK.
 
 260
 00:14:10,920 --> 00:14:14,800
@@ -1305,13 +1305,12 @@ So one of the big successes in
 
 262
 00:14:17,360 --> 00:14:19,560
-the area was with blend and
-pick.
+the area was with Blendenpik.
 
 263
 00:14:19,560 --> 00:14:22,560
-And then soon after that was LSR
-and blend and pick, which said
+And then soon after that was LSRN
+and Blendenpik, which said
 
 264
 00:14:22,560 --> 00:14:26,960
@@ -1325,7 +1324,7 @@ notation, not whatever can they
 
 266
 00:14:30,640 --> 00:14:34,880
-beat LA pack Because this is not
+beat LAPACK Because this is not
 boutique code you have or I have
 
 267
@@ -1336,7 +1335,7 @@ with the community.
 268
 00:14:36,920 --> 00:14:39,720
 So well, this is something
-that's been stress test for
+that's been stress-tested for
 
 269
 00:14:39,720 --> 00:14:41,880
@@ -1376,17 +1375,17 @@ But think of it as ballpark 2 to
 276
 00:14:57,520 --> 00:15:02,440
 Now this was back in 2010 and so
-a lot's changed the since then,
+a lot's changed since then,
 
 277
 00:15:02,440 --> 00:15:05,440
 in particular in the hardware
-landscape with respect to GP us
+landscape with respect to GPUs
 
 278
 00:15:05,440 --> 00:15:08,400
 and hardware heterogeneity and
-the Sun sending of Moore's law
+the sunsetting of Moore's law
 
 279
 00:15:08,400 --> 00:15:10,120
@@ -1470,7 +1469,7 @@ low rank algorithms and feed
 
 295
 00:16:00,520 --> 00:16:02,800
-this them into other solvers
+them into other solvers
 would be very different.
 
 296
@@ -1525,7 +1524,7 @@ sort of decouples things, makes
 
 306
 00:16:30,720 --> 00:16:33,080
-it easier to paralyze certain
+it easier to parallelise certain
 sorts of computations.
 
 307
@@ -1536,7 +1535,7 @@ factors of 2 or 10 improvement
 308
 00:16:36,480 --> 00:16:38,000
 there.
-But then again the baselines
+But then again the baseline's
 
 309
 00:16:38,000 --> 00:16:41,360
@@ -1635,7 +1634,7 @@ And they said randomization and
 
 328
 00:17:34,120 --> 00:17:37,680
-numerical in your algebra.
+numerical linear algebra.
 So that was the context of how
 
 329
@@ -1670,13 +1669,13 @@ on something exotic and came
 
 335
 00:17:52,240 --> 00:17:53,120
-across.
-It that's fine.
+across it.
+That's fine.
 
 336
 00:17:53,120 --> 00:17:55,320
 Yeah.
-That's like reminds me of the
+That reminds me of the
 
 337
 00:17:55,600 --> 00:17:59,040
@@ -1755,12 +1754,12 @@ of the times that what they're
 
 352
 00:18:40,200 --> 00:18:42,800
-citing is not warp Dr. and
+citing is not warp drive and
 quantum gravity, but
 
 353
 00:18:42,800 --> 00:18:46,440
-randomization numerical.
+randomized numerical linear algebra.
 This is a core statement about
 
 354
@@ -1816,7 +1815,7 @@ scientific disciplines?
 364
 00:19:27,680 --> 00:19:31,560
 Wouldn't we be able to just, you
-know, ask her a prompt to go and
+know, ask a prompt to go and
 
 365
 00:19:31,640 --> 00:19:33,960
@@ -1826,7 +1825,7 @@ do something?
 366
 00:19:34,680 --> 00:19:39,600
 And then there's the the other
-Ave., which seems to be more the
+avenue, which seems to be more the
 
 367
 00:19:41,200 --> 00:19:45,080
@@ -1835,8 +1834,8 @@ augmenting simulation tools like
 
 368
 00:19:45,080 --> 00:19:48,440
-graph cast or forecast net or,
-you know, these sort of Seminole
+GraphCast or FourCastNet or,
+you know, these sort of seminal
 
 369
 00:19:48,440 --> 00:19:51,200
@@ -1976,11 +1975,11 @@ And, and then people want to get
 396
 00:21:17,440 --> 00:21:21,400
 a foundation model, not for all
-of science, but for area A&B&C
+of science, but for areas A, B and C
 
 397
 00:21:21,400 --> 00:21:24,480
-and sub area D&E&F and get finer
+and subareas D, E and F and get finer
 and finer granularity.
 
 398
@@ -2011,7 +2010,7 @@ think about it is it's, it's,
 403
 00:21:35,120 --> 00:21:36,960
 it's infrastructure, it's a
-foundation what you build
+foundation on which you build
 
 404
 00:21:36,960 --> 00:21:41,160
@@ -2040,7 +2039,7 @@ And at one point, post World War
 
 409
 00:21:53,720 --> 00:21:56,280
-2, the US thought they'd need 5
+2, the US thought they'd need five
 computers and that would be it.
 
 410
@@ -2055,7 +2054,7 @@ than expected.
 
 412
 00:22:00,520 --> 00:22:03,480
-And it involved in particular
+And it evolved in particular
 because it, it could complement
 
 413
@@ -2111,7 +2110,7 @@ things that, that, that are not
 423
 00:22:25,760 --> 00:22:28,320
 continuous that were driven
-largely cited by business needs.
+largely by business needs.
 
 424
 00:22:29,080 --> 00:22:31,800
@@ -2170,7 +2169,7 @@ not at all.
 
 435
 00:23:02,960 --> 00:23:04,280
-I think it's not all clear for
+I think it's not at all clear for
 two reasons.
 
 436
@@ -2206,7 +2205,7 @@ unique just like they think that
 442
 00:23:21,120 --> 00:23:24,640
 they're special and unique.
-M LS taught you anything.
+If ML's taught you anything.
 
 443
 00:23:24,640 --> 00:23:26,800
@@ -2251,11 +2250,11 @@ but it could be fluid dynamics.
 451
 00:23:46,240 --> 00:23:48,640
 It could be something else about
-stylist formation.
+stellar formation.
 
 452
 00:23:48,640 --> 00:23:51,920
-It could be properties and
+It could be properties of
 materials and doing density
 
 453
@@ -2276,7 +2275,7 @@ of course be the more
 456
 00:23:59,280 --> 00:24:03,440
 interesting thing.
-So there's something Kronos
+So there's something, Chronos
 
 457
 00:24:03,440 --> 00:24:06,360
@@ -2320,7 +2319,7 @@ know, you got to be careful
 
 465
 00:24:26,320 --> 00:24:28,880
-about off by 1 errors and a
+about off-by-one errors and a
 range of other technical things.
 
 466
@@ -2331,11 +2330,11 @@ take a language model, language
 467
 00:24:33,880 --> 00:24:37,600
 model structure with a bunch of
-time series and just mean center
+time series and just mean-centre
 
 468
 00:24:37,600 --> 00:24:40,640
-it and variance normalize it.
+it and variance-normalise it.
 So just do the simplest possible
 
 469
@@ -2370,12 +2369,12 @@ But but the fact that you can do
 
 475
 00:24:58,600 --> 00:25:01,920
-that just by sort of variance
-normalizing and and mean
+that just by sort of variance-
+normalising and and mean-
 
 476
 00:25:01,920 --> 00:25:04,920
-centering is is, you know, not
+centring is is, you know, not
 obvious and sort of interesting.
 
 477
@@ -2406,7 +2405,7 @@ as to whether you could have a
 482
 00:25:23,400 --> 00:25:27,800
 foundation model for sort of a
-broad swaths of, of time series
+broad swath of, of time series
 
 483
 00:25:27,800 --> 00:25:31,200
@@ -2415,7 +2414,7 @@ And so, as you know, I said, I'm
 
 484
 00:25:31,200 --> 00:25:33,480
-an Amazon scholar working with
+an Amazon Scholar working with
 the Scott team and we're looking
 
 485
@@ -2430,12 +2429,12 @@ you look at the details of the
 
 487
 00:25:38,840 --> 00:25:42,120
-model, not the chronos, but some
+model, not the Chronos, but some
 other things, why would you
 
 488
 00:25:42,120 --> 00:25:46,600
-expect that article scraped from
+expect that articles scraped from
 Wikipedia, you know, public,
 
 489
@@ -2515,7 +2514,7 @@ So you can learn these sort of
 
 504
 00:26:32,240 --> 00:26:35,720
-heavy tailed sort of structures
+heavy-tailed sort of structures
 and that gives you a better set
 
 505
@@ -2530,7 +2529,7 @@ language models give you better
 
 507
 00:26:42,000 --> 00:26:46,880
-embeddings, you know, 4A
+embeddings, you know, Fourier
 analysis and Laplace transforms
 
 508
@@ -2580,8 +2579,7 @@ reproduce what happens in the
 
 517
 00:27:12,480 --> 00:27:16,160
-natural language processing the
-NLP models, which is roughly
+natural language processing (NLP) models, which is roughly
 
 518
 00:27:16,160 --> 00:27:18,120
@@ -2635,13 +2633,13 @@ saturation and you do that one
 
 528
 00:27:40,600 --> 00:27:44,240
-way with NLP, natural language
-processing and CV computer
+way with NLP (natural language
+processing) and CV (computer
 
 529
 00:27:44,240 --> 00:27:48,280
-vision.
-But an NLP and CV, there's much
+vision).
+But in NLP and CV, there's much
 
 530
 00:27:48,280 --> 00:27:52,400
@@ -2650,8 +2648,8 @@ you need on the spatiotemporal
 
 531
 00:27:52,400 --> 00:27:55,800
-geometry than PD ES, right?
-Is, is, you know, PD ES, if
+geometry than PDEs, right?
+Is, is, you know, PDEs, if
 
 532
 00:27:55,800 --> 00:27:58,200
@@ -2680,18 +2678,18 @@ So can you come up with data
 
 537
 00:28:06,840 --> 00:28:10,120
-generation or tokenization
+generation or tokenisation
 mechanisms that that respect the
 
 538
 00:28:10,120 --> 00:28:12,960
-spatio temporal properties?
+spatiotemporal properties?
 So I think if you're going to
 
 539
 00:28:12,960 --> 00:28:16,160
 have a foundation model that
-applies across a raw broad range
+applies across a broad range
 
 540
 00:28:16,160 --> 00:28:19,680
@@ -2701,7 +2699,7 @@ weather and, and, and climate
 541
 00:28:19,680 --> 00:28:23,160
 and, and simulations of
-different grid structure from
+different grid structures from
 
 542
 00:28:23,160 --> 00:28:24,640
@@ -2731,7 +2729,7 @@ So I think if, if you want to
 547
 00:28:35,720 --> 00:28:38,360
 deliver on the promise in the
-same way is, is the is computer
+same way as computer
 
 548
 00:28:38,360 --> 00:28:40,880
@@ -2766,7 +2764,7 @@ I guess that is one argument as
 554
 00:28:57,640 --> 00:29:02,600
 well, which is how close does it
-need to be to machine accuracy
+need to be to machine precision
 
 555
 00:29:02,680 --> 00:29:05,520
@@ -2785,8 +2783,8 @@ need to add.
 
 558
 00:29:12,360 --> 00:29:15,640
-You don't typically ask it to do
-something right, document and
+You don't typically ask it to write
+a document and
 
 559
 00:29:15,640 --> 00:29:18,040
@@ -2801,7 +2799,7 @@ but I'm still going to go and
 561
 00:29:21,680 --> 00:29:24,240
 fix it.
-Or it writes you a Python code.
+Or it writes you Python code.
 
 562
 00:29:24,240 --> 00:29:26,200
@@ -2841,7 +2839,7 @@ best analogy is look at the
 569
 00:29:51,360 --> 00:29:53,520
 history of computer science and
-how that of all that, I think, I
+how that evolved, I think, I
 
 570
 00:29:53,520 --> 00:29:56,120
@@ -2860,7 +2858,7 @@ group comfortable, the numerical
 
 573
 00:30:05,600 --> 00:30:08,240
-analysts and the PD people that
+analysts and the PDE people that
 frame a question a certain way.
 
 574
@@ -2876,7 +2874,7 @@ you had, you know, represented
 576
 00:30:15,000 --> 00:30:19,080
 continuous numbers on, on a
-computer discreetly take a step
+computer discretely take a step
 
 577
 00:30:19,080 --> 00:30:21,120
@@ -2886,7 +2884,7 @@ certain problem.
 578
 00:30:21,120 --> 00:30:24,840
 And, and the question is now
-that I have very different trade
+that I have very different trade-
 
 579
 00:30:24,840 --> 00:30:28,320
@@ -2911,12 +2909,12 @@ I mean, so in, for example, in,
 583
 00:30:39,160 --> 00:30:42,240
 in chemistry historically, but
-also nucleus physics and, and in
+also nuclear physics and, and in
 
 584
 00:30:42,240 --> 00:30:44,480
 fluid mechanics, there's this
-notion of a semi empirical
+notion of a semi-empirical
 
 585
 00:30:44,480 --> 00:30:48,520
@@ -2936,7 +2934,7 @@ phenomenologically with
 588
 00:30:54,200 --> 00:30:56,880
 parameters that are then fit
-empirically or semi empirically.
+empirically or semi-empirically.
 
 589
 00:30:57,160 --> 00:31:01,920
@@ -2966,7 +2964,7 @@ And so certain methods that
 594
 00:31:11,320 --> 00:31:14,000
 maybe were more principled were
-a bit too course for that.
+a bit too coarse for that.
 
 595
 00:31:14,000 --> 00:31:15,880
@@ -3005,13 +3003,13 @@ to be so successful to say I
 
 602
 00:31:31,800 --> 00:31:35,280
-want to get 10 to the -16 or 10
-to the -2 of my large language
+want to get 10⁻¹⁶ or
+10⁻² of my large language
 
 603
 00:31:35,280 --> 00:31:38,680
 model, but but a foundation
-model for science and need not
+model for science need not
 
 604
 00:31:38,680 --> 00:31:40,200
@@ -3021,16 +3019,16 @@ It, it, it, you could be
 605
 00:31:40,200 --> 00:31:42,800
 literally learning the
-embeddings from a range of PD
+embeddings from a range of
 
 606
 00:31:42,800 --> 00:31:44,720
-ES.
+PDEs.
 You could, you could train to
 
 607
 00:31:44,720 --> 00:31:47,160
-PDS of different types.
+PDEs of different types.
 And you could say, I want to
 
 608
@@ -3075,7 +3073,7 @@ of course you could use image or
 
 616
 00:32:07,680 --> 00:32:09,960
-PD ES or simulations, any of a
+PDEs or simulations, any of a
 range of things.
 
 617
@@ -3115,12 +3113,12 @@ interesting to explore.
 
 624
 00:32:31,400 --> 00:32:36,280
-There is, AI would say, a
+There is, I would say, a
 relatively fierce or contested
 
 625
 00:32:36,400 --> 00:32:42,280
-argument around physics informed
+argument around physics-informed
 or physics in it versus
 
 626
@@ -3165,8 +3163,8 @@ about in natural language
 
 634
 00:33:09,640 --> 00:33:15,280
-processing, computer vision does
-did you just, I mean, there's a,
+processing, computer vision did
+you just, I mean, there's a,
 
 635
 00:33:15,320 --> 00:33:17,640
@@ -3220,7 +3218,7 @@ shirt against the background
 
 645
 00:33:44,080 --> 00:33:47,640
-wall in this picture in my of
+wall in this picture of
 me, you may smudge stuff out.
 
 646
@@ -3245,7 +3243,7 @@ sequence learning.
 
 650
 00:33:56,560 --> 00:33:59,200
-That's also much more discreet
+That's also much more discrete
 in, in natural language
 
 651
@@ -3265,7 +3263,7 @@ architectures that had very
 
 654
 00:34:05,440 --> 00:34:08,520
-particular adaptive biases and
+particular inductive biases and
 then you're careful about the
 
 655
@@ -3295,7 +3293,7 @@ I mean, time series, forecasting
 
 660
 00:34:20,520 --> 00:34:24,760
-space, you temporal modelling,
+space—temporal modelling,
 these sorts of things will have
 
 661
@@ -3331,7 +3329,7 @@ Some people say, Oh, you'll
 667
 00:34:41,000 --> 00:34:43,960
 never match what I can do with
-my careful PD solver.
+my careful PDE solver.
 
 668
 00:34:45,159 --> 00:34:47,600
@@ -3370,7 +3368,7 @@ I mean, for years, for decades.
 
 675
 00:35:02,960 --> 00:35:07,280
-People working on PDS call
+People working on PDEs call
 certain linear algebra libraries
 
 676
@@ -3406,7 +3404,7 @@ linear algebraic computations.
 682
 00:35:24,120 --> 00:35:26,640
 Maybe there's different
-trade-offs points in the space
+trade-off points in the space
 
 683
 00:35:27,040 --> 00:35:28,600
@@ -3416,7 +3414,7 @@ to bear.
 684
 00:35:28,600 --> 00:35:33,400
 You know, a model that has
-learned certain course type
+learned certain coarse-type
 
 685
 00:35:33,400 --> 00:35:36,760
@@ -3455,7 +3453,7 @@ So you can imagine rather than
 
 692
 00:35:54,680 --> 00:35:57,520
-just writing down a physics
+just writing down a physics-
 informed loss and pressing a
 
 693
@@ -3471,12 +3469,12 @@ splitting method and deal with
 695
 00:36:02,160 --> 00:36:04,600
 the two types of physical things
-and the diffusion and invection
+and the diffusion and advection
 
 696
 00:36:04,600 --> 00:36:09,000
 in two slightly different ways.
-And machine one and one and take
+And machine-learn one and take
 
 697
 00:36:09,000 --> 00:36:10,800
@@ -3486,7 +3484,7 @@ And then you couple them
 698
 00:36:10,800 --> 00:36:13,400
 together, like maybe in a
-differentiable end to end.
+differentiable end-to-end.
 
 699
 00:36:13,400 --> 00:36:15,240
@@ -3516,7 +3514,7 @@ have all these PDE solvers, you
 704
 00:36:31,280 --> 00:36:38,600
 know, developed for decades.
-And you know what convinced me
+And you know what convince me
 
 705
 00:36:39,320 --> 00:36:45,080
@@ -3535,7 +3533,7 @@ sensational claims of, you know,
 
 708
 00:36:58,280 --> 00:37:01,000
-sort of real time.
+sort of real-time.
 Well, of course, when you dig
 
 709
@@ -3571,7 +3569,7 @@ to a reasonably low accuracy
 715
 00:37:25,280 --> 00:37:27,360
 because the computers just
-weren't power enough.
+weren't powerful enough.
 
 716
 00:37:27,680 --> 00:37:30,920
@@ -3600,7 +3598,7 @@ This is the bit I think a lot of
 
 721
 00:37:48,440 --> 00:37:52,560
-BCS and start-ups are also
+VCs and start-ups are also
 asking that question if we pump
 
 722
@@ -3701,7 +3699,7 @@ This is a very practical thing.
 741
 00:38:39,120 --> 00:38:41,040
 You're asking about this in the
-context of PDS.
+context of PDEs.
 
 742
 00:38:41,280 --> 00:38:43,440
@@ -3760,13 +3758,12 @@ And so this was right around the
 
 753
 00:39:07,000 --> 00:39:09,200
-time of the Blunden pic paper
+time of the Blendenpik paper
 that I mentioned that that
 
 754
 00:39:09,200 --> 00:39:10,680
-basically said, can you beat LA
-pack?
+basically said, can you beat LAPACK?
 
 755
 00:39:10,680 --> 00:39:13,920
@@ -3775,7 +3772,7 @@ So now, for example, if you look
 
 756
 00:39:13,920 --> 00:39:16,120
-at the Simon linear Alger
+at the SIAM Linear Algebra
 meeting, half the talks are on
 
 757
@@ -3915,8 +3912,8 @@ the methods?
 
 784
 00:40:26,400 --> 00:40:28,360
-Are they just going to Pooh,
-Pooh it and say, well, they're
+Are they just going to pooh-
+pooh it and say, well, they're
 
 785
 00:40:28,360 --> 00:40:30,640
@@ -4041,7 +4038,7 @@ some commonalities between your
 809
 00:41:41,320 --> 00:41:44,560
 fluid dynamics and this other
-solid mechanics problem.
+solid-mechanics problem.
 
 810
 00:41:44,960 --> 00:41:48,240
@@ -4050,7 +4047,7 @@ there between that and something
 
 811
 00:41:48,240 --> 00:41:51,880
-in in 3DS in the atmosphere as
+in in 3D in the atmosphere as
 opposed to, you know, something
 
 812
@@ -4181,7 +4178,7 @@ And so I think the question is,
 837
 00:43:01,680 --> 00:43:03,360
 how does that play out?
-And that's going to be a non
+And that's going to be a non-
 
 838
 00:43:03,360 --> 00:43:06,640
@@ -4200,7 +4197,7 @@ between sort of Transformers
 
 841
 00:43:13,840 --> 00:43:17,880
-versus CNNS and you know, if you
+versus CNNs and you know, if you
 just throw the whole world's
 
 842
@@ -4245,7 +4242,7 @@ architecture for for each
 
 850
 00:43:50,400 --> 00:43:52,800
-different size?
+different science?
 And therefore the, the, the
 
 851
@@ -4310,17 +4307,17 @@ You know, one dimension is very,
 
 863
 00:44:24,920 --> 00:44:27,400
-very special. 2 dimension, the
+very special. two dimensions, the
 surface area to volume
 
 864
 00:44:27,400 --> 00:44:29,880
-properties are very different. 3
+properties are very different. Three
 dimensions is very different.
 
 865
 00:44:30,200 --> 00:44:33,160
-By the time you get 4 in
+By the time you get four in
 scientific computing, that's
 
 866
@@ -4330,7 +4327,7 @@ Machine learners, by the time
 
 867
 00:44:36,080 --> 00:44:38,200
-until you get to a million, you
+you get to a million, you
 know, it still seems pretty
 
 868
@@ -4340,12 +4337,12 @@ So mapping the methods to one
 
 869
 00:44:41,480 --> 00:44:44,640
-versus 2 versus 3 dimensions,
+versus two versus three dimensions,
 open question, maybe there'll be
 
 870
 00:44:44,640 --> 00:44:47,040
-no trade off point where the
+no trade-off point where the
 surface area to volume and the
 
 871
@@ -4361,7 +4358,7 @@ I suspect it could, but I mean,
 873
 00:44:51,760 --> 00:44:55,240
 open question.
-And then non technically, if you
+And then non-technically, if you
 
 874
 00:44:55,240 --> 00:44:57,800
@@ -4396,7 +4393,7 @@ around, around Turing machines
 880
 00:45:11,400 --> 00:45:13,920
 and, and, and the Lambda
-calculus and, and discreet
+calculus and, and discrete
 
 881
 00:45:13,920 --> 00:45:16,720
@@ -4455,7 +4452,7 @@ and applied it to PDE type B.
 
 892
 00:45:42,480 --> 00:45:43,720
-It would be certain course
+It would be certain coarse
 things.
 
 893
@@ -4476,7 +4473,7 @@ methods work.
 896
 00:45:51,760 --> 00:45:55,160
 And you know, you, you take a
-course, you learn A1 O1 method
+course, you learn a 101 method
 
 897
 00:45:55,160 --> 00:45:57,160
@@ -4511,11 +4508,11 @@ mean, you know, computer science
 903
 00:46:08,640 --> 00:46:11,520
 is not computational science.
-Computer science is an area of
+Computer science is a coherent
 
 904
 00:46:11,520 --> 00:46:14,040
-the coherent.
+area.
 Computational science is spread
 
 905
@@ -4560,17 +4557,17 @@ scraping half the Internet.
 
 913
 00:46:50,200 --> 00:46:53,040
-There were a few captures or
+There were a few CAPTCHAs or
 there was a few sort of, you
 
 914
 00:46:53,040 --> 00:46:55,960
-know, firewalls to stop thing.
+know, firewalls to stop things.
 But in general, it was a sort of
 
 915
 00:46:55,960 --> 00:46:59,880
-free for all it seemed, Whereas
+free-for-all it seemed, Whereas
 now people have, you know,
 
 916
@@ -4610,7 +4607,7 @@ and do things like, you know,
 
 923
 00:47:26,920 --> 00:47:32,320
-forecast net and graph cast.
+FourCastNet and GraphCast.
 But those data may not be open
 
 924
@@ -4726,12 +4723,12 @@ you can't get more than a couple
 946
 00:48:40,080 --> 00:48:42,320
 decades older, right?
-And so often times the the most
+And so oftentimes the the most
 
 947
 00:48:42,320 --> 00:48:44,440
 recent data is the most valuable
-and you just design A method
+and you just design a method
 
 948
 00:48:44,440 --> 00:48:48,440
@@ -4746,7 +4743,7 @@ generated and, and collected,
 950
 00:48:50,880 --> 00:48:54,080
 distributed now will be the one
-that is going developed going
+that is going to be developed going
 
 951
 00:48:54,080 --> 00:48:55,880
@@ -4821,7 +4818,7 @@ or interaction with, you know,
 965
 00:49:40,360 --> 00:49:44,160
 horizontal infrastructure
-companies, hyper scalers and
+companies, hyperscalers and
 
 966
 00:49:44,160 --> 00:49:46,240
@@ -4845,8 +4842,8 @@ and I guess if this is for me,
 
 970
 00:49:56,840 --> 00:50:01,120
-the difference between the pre
-trained quote quote foundation
+the difference between the pretrained, quote-
+unquote foundation
 
 971
 00:50:01,120 --> 00:50:04,080
@@ -4891,7 +4888,7 @@ head, how could it ever become
 979
 00:50:34,800 --> 00:50:40,480
 the point where some person has
-access to not only BM WS data,
+access to not only BMW's data,
 
 980
 00:50:40,880 --> 00:50:46,840
@@ -4900,7 +4897,7 @@ and Boeings and Airbuses and you
 
 981
 00:50:46,840 --> 00:50:49,520
-know, Exxon Mobil and Shell and
+know, ExxonMobil and Shell and
 everyone else.
 
 982
@@ -4966,7 +4963,7 @@ And so you gave, you know,
 994
 00:51:25,640 --> 00:51:31,000
 several that in particular are
-with is a strong sort of
+with a strong sort of
 
 995
 00:51:31,000 --> 00:51:32,880
@@ -4976,12 +4973,12 @@ I'm always reminded of the
 996
 00:51:32,880 --> 00:51:37,680
 story.
-Gray was, I guess, the most
+Jim Gray was, I guess, the most
 
 997
 00:51:37,680 --> 00:51:40,800
 prominent person in the
-Microsoft's research division
+Microsoft Research division
 
 998
 00:51:40,800 --> 00:51:43,760
@@ -5001,7 +4998,7 @@ the most prominent person in my
 1001
 00:51:48,040 --> 00:51:51,160
 research division applying
-databases techniques to
+database techniques to
 
 1002
 00:51:51,160 --> 00:51:53,640
@@ -5010,7 +5007,7 @@ This is when he started working
 
 1003
 00:51:53,640 --> 00:51:56,240
-with Alex Silly and some others
+with Alex Szalay and some others
 on, on databases for, for
 
 1004
@@ -5025,7 +5022,7 @@ of our products?
 
 1006
 00:52:02,120 --> 00:52:04,720
-And, and crazy answer was
+And, and Gray's answer was
 basically, I'm working on it
 
 1007
@@ -5040,7 +5037,7 @@ I don't have to talk to the
 
 1009
 00:52:09,400 --> 00:52:11,680
-lawyers and we can work at IP
+lawyers and we can work out IP
 and all these things.
 
 1010
@@ -5080,7 +5077,7 @@ illustrate that you would have a
 
 1017
 00:52:31,360 --> 00:52:34,680
-proof of principle foundation
+proof-of-principle foundation-
 like model.
 
 1018
@@ -5105,7 +5102,7 @@ then companies could take it and
 
 1022
 00:52:48,120 --> 00:52:49,880
-fine tune to their particular
+fine-tune to their particular
 data, right.
 
 1023
@@ -5136,7 +5133,7 @@ product they have.
 1028
 00:53:04,480 --> 00:53:09,520
 But I, I can imagine that, you
-know, the Pdes from early solar
+know, the PDEs from early solar
 
 1029
 00:53:09,520 --> 00:53:14,520
@@ -5176,7 +5173,7 @@ would, that have a geospatial
 1036
 00:53:31,000 --> 00:53:33,240
 component.
-And so can you stress test that
+And so can you stress-test that
 
 1037
 00:53:33,240 --> 00:53:36,440
@@ -5185,7 +5182,7 @@ of principle that, that if you
 
 1038
 00:53:36,440 --> 00:53:39,360
-would attack those on, then the
+would attack those, then, then the
 answer would be yes, that, that
 
 1039
@@ -5216,7 +5213,7 @@ And I could, I could imagine
 1044
 00:53:50,840 --> 00:53:54,120
 that that basically it's too big
-a left in the area stalls.
+a lift in the area stalls.
 
 1045
 00:53:54,120 --> 00:53:56,120
@@ -5261,7 +5258,7 @@ it can happen.
 1053
 00:54:17,280 --> 00:54:20,280
 And their competitors by talking
-to these public models and fine
+to these public models and fine-
 
 1054
 00:54:20,280 --> 00:54:23,000
@@ -5280,8 +5277,8 @@ guess this is affecting the
 
 1057
 00:54:29,080 --> 00:54:33,280
-current Gen.
-AI and AI, which is how do you
+current generative
+AI, which is how do you
 
 1058
 00:54:33,280 --> 00:54:36,160
@@ -5436,7 +5433,7 @@ students came back to me and
 1088
 00:56:08,200 --> 00:56:10,000
 didn't know who I was.
-I was lecturing me and saying,
+was lecturing me and saying,
 
 1089
 00:56:10,000 --> 00:56:11,800
@@ -5585,8 +5582,8 @@ particular of complex systems
 
 1118
 00:57:30,240 --> 00:57:33,200
-that have sort of long ranged,
-non trivial, heavy tailed
+that have sort of long-range,
+non-trivial, heavy-tailed
 
 1119
 00:57:33,200 --> 00:57:36,640
@@ -5651,16 +5648,16 @@ things like that.
 1131
 00:58:09,800 --> 00:58:11,920
 I could imagine that you get
-these course embeddings.
+these coarse embeddings.
 
 1132
 00:58:11,920 --> 00:58:15,120
-These are course functions.
-They're not sinusoids and 4:00
+These are coarse functions.
+They're not sinusoids and Fourier
 
 1133
 00:58:15,120 --> 00:58:16,080
-AM modes.
+modes.
 They're something that's
 
 1134
@@ -5746,7 +5743,7 @@ that any of those companies I
 1150
 00:59:02,680 --> 00:59:06,240
 could imagine try and you know,
-buy out a start up company that
+buy out a startup company that
 
 1151
 00:59:06,240 --> 00:59:07,600
@@ -5770,7 +5767,7 @@ you're getting at is you, what
 
 1155
 00:59:17,400 --> 00:59:20,120
-we've seen from current machine
+we've seen from current machine learning
 that it seems to do things that
 
 1156
@@ -5781,7 +5778,7 @@ are like you, like you gave the
 1157
 00:59:23,440 --> 00:59:27,080
 original example of the time
-series that an LM that wasn't
+series that an LLM that wasn't
 
 1158
 00:59:27,080 --> 00:59:29,240
@@ -5860,8 +5857,8 @@ that, but you also have, you
 
 1173
 01:00:25,000 --> 01:00:27,760
-know, the Amazon scholar
-position you at the, you know,
+know, the Amazon Scholar
+position; you're at, you know,
 
 1174
 01:00:27,760 --> 01:00:35,000
@@ -5875,7 +5872,7 @@ work on real problems?
 
 1176
 01:00:40,240 --> 01:00:46,280
-Was this a just you find more
+Was this just you find more
 interesting, like is there, How
 
 1177
@@ -5916,7 +5913,7 @@ That but, but, but yeah, you
 1184
 01:01:03,240 --> 01:01:05,320
 tapped enough stuff into the
-question to make it Ford
+question to make it forward-
 
 1185
 01:01:05,320 --> 01:01:07,240
@@ -5926,7 +5923,7 @@ as it sounds like.
 1186
 01:01:08,000 --> 01:01:12,320
 I mean, so my, my, you know, OK,
-so my PF2's in physics, I never
+so my PhD's in physics, I never
 
 1187
 01:01:12,320 --> 01:01:14,480
@@ -5990,7 +5987,7 @@ So I got involved with that and
 
 1199
 01:01:46,800 --> 01:01:49,640
-I'd done enough coding that was
+I'd done enough coding that it was
 clear certain ones are going to
 
 1200
@@ -6021,7 +6018,7 @@ people listening, it's good to
 1205
 01:02:03,720 --> 01:02:06,720
 know that sometimes older people
-have had textured past, let's
+have had chequered past, let's
 
 1206
 01:02:06,720 --> 01:02:08,760
@@ -6035,7 +6032,7 @@ dissertation advisor and and the
 
 1208
 01:02:11,280 --> 01:02:14,000
-supply demand structure in the
+supply-demand structure in the
 natural sciences and engineering
 
 1209
@@ -6056,7 +6053,7 @@ I also realized that that the
 1212
 01:02:25,240 --> 01:02:27,320
 particular work I've been doing
-in computational system
+in computational statistical
 
 1213
 01:02:27,320 --> 01:02:29,520
@@ -6071,11 +6068,11 @@ done since then.
 1215
 01:02:31,400 --> 01:02:36,720
 But you know, it was a great
-area to be in a 1970 because you
+area to be in 1970 because you
 
 1216
 01:02:36,720 --> 01:02:39,040
-know, Ford compatible with a
+know, forward-compatible with a
 huge expansion.
 
 1217
@@ -6125,7 +6122,7 @@ for the next couple decades.
 
 1226
 01:03:08,920 --> 01:03:14,000
-So I done work in theory of
+So I'd done work in theory of
 algorithms and, and with respect
 
 1227
@@ -6185,7 +6182,7 @@ general space.
 
 1238
 01:03:45,400 --> 01:03:48,680
-Some definitely 1 industry and
+Some definitely want industry and
 some, you know, could go with
 
 1239
@@ -6231,7 +6228,7 @@ broadly because the randomness
 1247
 01:04:13,120 --> 01:04:17,000
 entered in a very different way
-then classical algorithms.
+than classical algorithms.
 
 1248
 01:04:17,000 --> 01:04:20,520
@@ -6260,17 +6257,17 @@ there and at the International
 
 1253
 01:04:33,920 --> 01:04:36,360
-Computer Science Institute of
+Computer Science Institute and
 Lawrence Berkeley National Lab.
 
 1254
 01:04:36,360 --> 01:04:39,920
-And as you mentioned couple
+And as you mentioned, a couple
 years ago started with as an
 
 1255
 01:04:39,920 --> 01:04:42,560
-Amazon scholar working in the
+Amazon Scholar working in the
 supply chain optimization
 
 1256
@@ -6311,7 +6308,7 @@ navigate that space is something
 1263
 01:05:03,240 --> 01:05:05,680
 I try and encourage students and
-post docs to think about sooner
+postdocs to think about sooner
 
 1264
 01:05:05,680 --> 01:05:08,280
@@ -6326,7 +6323,7 @@ have to move?
 1266
 01:05:14,080 --> 01:05:19,640
 You know, I always think this is
-1 of this sad in a way, things
+one of the sad in a way, things
 
 1267
 01:05:19,640 --> 01:05:21,800
@@ -6390,7 +6387,7 @@ elsewhere to get experience with
 
 1279
 01:06:01,800 --> 01:06:04,960
-other people, the real filters
+other people, the real filter's
 at the assistant professor
 
 1280
@@ -6400,7 +6397,7 @@ And you got to move there
 
 1281
 01:06:06,440 --> 01:06:09,480
-because, you know, except in our
+because, you know, except in rare
 cases, you don't get a job at
 
 1282
@@ -6420,7 +6417,7 @@ run the numbers, right.
 
 1285
 01:06:17,480 --> 01:06:21,000
-If there's 10:20, 30-40 places
+If there's 10, 20, 30 or 40 places
 hiring and that you're looking
 
 1286
@@ -6435,13 +6432,13 @@ happen at that same place even
 
 1288
 01:06:27,880 --> 01:06:29,880
-if ultimately end up there.
+if you ultimately end up there.
 Sometimes people go and leave
 
 1289
 01:06:29,880 --> 01:06:33,440
 and come back.
-So moving for better for us as
+So moving, for better or worse, is
 
 1290
 01:06:33,440 --> 01:06:37,560
@@ -6495,7 +6492,7 @@ or would you say no, no, no, If
 
 1300
 01:07:14,440 --> 01:07:16,160
-you really want to be an
+you really want to be in
 academia, you basically need to
 
 1301
@@ -6505,7 +6502,7 @@ Yeah, I mean it, it's, it's more
 
 1302
 01:07:23,200 --> 01:07:25,480
-texture than the following.
+textured than the following.
 But I, I think the short answer
 
 1303
@@ -6586,7 +6583,7 @@ to.
 1318
 01:08:15,680 --> 01:08:19,479
 And so there's sometimes there's
-post docs that at industry that
+postdocs in industry that
 
 1319
 01:08:19,479 --> 01:08:21,640
@@ -6596,7 +6593,7 @@ docs, you write papers.
 1320
 01:08:21,720 --> 01:08:24,279
 So I'm not counting that because
-that's, that's the fact of the
+that's, that's effectively the
 
 1321
 01:08:24,279 --> 01:08:25,520
@@ -6651,7 +6648,7 @@ So how does it work with the
 1331
 01:08:54,800 --> 01:08:57,000
 national labs?
-So you have a position on the
+So you have a position at the
 
 1332
 01:08:57,000 --> 01:09:00,840
@@ -6676,7 +6673,7 @@ the sort of meetings, but I
 1336
 01:09:12,240 --> 01:09:14,319
 guess it's valuable.
-And interesting off an hour
+And interestingly, after an hour
 
 1337
 01:09:14,319 --> 01:09:15,640
@@ -6685,8 +6682,8 @@ e-mail.
 
 1338
 01:09:15,640 --> 01:09:18,439
-That's what I've turned it off.
-That's the accept e-mail is a
+That's why I've turned it off.
+Except, e-mail is a
 
 1339
 01:09:18,439 --> 01:09:21,960
@@ -6696,11 +6693,11 @@ I mean, it's not so common.
 1340
 01:09:22,240 --> 01:09:26,439
 So, so I, I with the Berkeley
-hack, because I'm in the
+hat, because I'm in the
 
 1341
 01:09:26,439 --> 01:09:30,040
-statistic department there, I'm
+Statistics Department there, I'm
 at Lawrence Berkeley lab.
 
 1342
@@ -6746,7 +6743,7 @@ This is all we rename, but the
 1350
 01:09:56,240 --> 01:10:01,840
 scientific machine learning
-group, basically MLA machine
+group, basically MLA: Machine
 
 1351
 01:10:01,840 --> 01:10:06,280
@@ -6755,7 +6752,7 @@ And and so it's it's it's part
 
 1352
 01:10:06,360 --> 01:10:09,600
-was partly facilitating for the
+was partly facilitated by the
 fact that there there is a
 
 1353
@@ -6766,7 +6763,7 @@ between UC Berkeley campus and
 1354
 01:10:13,800 --> 01:10:18,360
 LBNL Lawrence Berkeley National
-Lab, Oak Ridge Argon.
+Lab, Oak Ridge, Argonne.
 
 1355
 01:10:18,360 --> 01:10:20,360
@@ -6780,8 +6777,7 @@ Most people are there, meaning
 
 1357
 01:10:23,880 --> 01:10:27,360
-just there and 100% of their FT
-ES there and and there for long
+just there and 100% of their FTEs there and and there for long
 
 1358
 01:10:27,360 --> 01:10:29,880
@@ -6826,11 +6822,11 @@ doing a postdoc.
 1366
 01:11:03,480 --> 01:11:06,200
 But is there any, doesn't have
-to be a very, you know, Pacific,
+to be a very, you know, specific,
 
 1367
 01:11:06,200 --> 01:11:10,840
-Pacific, but what sort of area
+specific, but what sort of area
 we'd say, you know, this is
 
 1368
@@ -6880,7 +6876,7 @@ coming from CS or stats learning
 
 1377
 01:11:47,120 --> 01:11:49,440
-scientific problems are coming
+scientific problems or coming
 from one scientific area.
 
 1378
@@ -6900,7 +6896,7 @@ know, we, we, we construct
 
 1381
 01:11:58,520 --> 01:12:01,720
-projects, you know, student, a
+projects, you know, a student or
 postdoc owns a piece of it.
 
 1382
@@ -6915,7 +6911,7 @@ also in an ML venue.
 
 1384
 01:12:08,760 --> 01:12:12,000
-And it need to be the same one.
+And it needn't be the same one.
 Sometimes it is, it's a long
 
 1385
@@ -6955,17 +6951,17 @@ get it in a top machine learning
 
 1392
 01:12:28,480 --> 01:12:30,840
-band room.
+venue.
 And similarly, on the scientific
 
 1393
 01:12:30,840 --> 01:12:33,400
-side, you know, a, a statement
-that it's a value of the
+side, you know, a statement that it's
+of value to the
 
 1394
 01:12:33,400 --> 01:12:36,160
-scientist is you get 3 reviewers
+scientist is you get three reviewers
 to say accept and then it's
 
 1395
@@ -7045,7 +7041,7 @@ not something that's portable
 
 1410
 01:13:18,920 --> 01:13:20,680
-the particular album, not
+the particular algorithm, not
 something that's portable to
 
 1411
@@ -7060,7 +7056,7 @@ spatiotemporal forecasting
 
 1413
 01:13:26,680 --> 01:13:29,240
-problems with non trivial
+problems with non-trivial
 boundary constraints.
 
 1414
@@ -7081,11 +7077,11 @@ technical solutions that are
 1417
 01:13:38,120 --> 01:13:40,720
 probably, you know, go, can you
-come up with a differential
+come up with a differentiable
 
 1418
 01:13:40,720 --> 01:13:43,760
-optimizer for an end to end
+optimizer for an end-to-end
 differentiable system where you
 
 1419
@@ -7120,7 +7116,7 @@ way to make yourself most
 
 1425
 01:14:00,480 --> 01:14:02,320
-forward compatible with with
+forward-compatible with with
 however.
 
 1426
@@ -7146,7 +7142,7 @@ during their PhD or the postdoc
 1430
 01:14:12,840 --> 01:14:15,360
 at that time have no real
-necessary idea.
+idea, necessarily.
 
 1431
 01:14:15,800 --> 01:14:20,120
@@ -7185,7 +7181,7 @@ So I I think that's what you're
 
 1438
 01:14:41,720 --> 01:14:43,560
-alluding to it, it sets you up
+alluding to. It sets you up
 better.
 
 1439
@@ -7291,7 +7287,7 @@ to get interesting results in an
 1459
 01:15:40,560 --> 01:15:44,200
 area.
-And so, and so being learning
+And so, and so learning
 
 1460
 01:15:44,200 --> 01:15:45,720
@@ -7301,7 +7297,7 @@ By the time you know two or
 1461
 01:15:45,720 --> 01:15:47,280
 three things, it's easy to learn
-the 4th.
+the fourth.
 
 1462
 01:15:47,840 --> 01:15:49,720
@@ -7355,5 +7351,5 @@ All right.
 
 1472
 01:16:18,240 --> 01:16:41,320
-Cheers.
-None.
+Cheers,
+Neil.

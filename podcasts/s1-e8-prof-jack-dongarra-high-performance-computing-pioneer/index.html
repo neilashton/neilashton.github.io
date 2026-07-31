@@ -15,7 +15,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Prof. Jack Dongarra — High-Performance Computing Pioneer | The Neil Ashton Podcast</title>
+<title>The Past and Future of High-Performance Computing | Jack Dongarra</title>
 <meta name="author" content="Neil Ashton">
 <meta name="description" content="In this episode, Neil speaks to Professor Jack Dongarra, a renowned figure in the supercomputing and high-performance computing (HPC) world. He is a…">
 <meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
@@ -28,7 +28,7 @@
 
   <meta property="og:site_name" content="Neil Ashton">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Prof. Jack Dongarra — High-Performance Computing Pioneer | The Neil Ashton Podcast">
+  <meta property="og:title" content="The Past and Future of High-Performance Computing | Jack Dongarra">
   <meta property="og:url" content="https://neilashton.co.uk/podcasts/s1-e8-prof-jack-dongarra-high-performance-computing-pioneer/">
   <meta property="og:description" content="In this episode, Neil speaks to Professor Jack Dongarra, a renowned figure in the supercomputing and high-performance computing (HPC) world. He is a…">
   <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e8.webp">
@@ -38,7 +38,7 @@
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Prof. Jack Dongarra — High-Performance Computing Pioneer | The Neil Ashton Podcast">
+  <meta name="twitter:title" content="The Past and Future of High-Performance Computing | Jack Dongarra">
   <meta name="twitter:description" content="In this episode, Neil speaks to Professor Jack Dongarra, a renowned figure in the supercomputing and high-performance computing (HPC) world. He is a…">
   <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e8.webp">
   <meta name="twitter:image:alt" content="Prof. Jack Dongarra — High-Performance Computing Pioneer — The Neil Ashton Podcast">
@@ -94,7 +94,7 @@
         {
           "@context": "https://schema.org",
           "@type": "VideoObject",
-          "name": "Prof. Jack Dongarra — High-Performance Computing Pioneer",
+          "name": "The Past and Future of High-Performance Computing | Jack Dongarra",
           "description": "In this episode, Neil speaks to Professor Jack Dongarra, a renowned figure in the supercomputing and high-performance computing (HPC) world. He is a…",
           "thumbnailUrl": [
             "https://i.ytimg.com/vi/DgQt6rktdzw/maxresdefault.jpg"
@@ -381,6 +381,8 @@
     <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S1--EP8---Prof-Jack-Dongarra---High-Performance-Computing-HPC-Pioneer-e39d4os">Spotify for Creators</a>
     <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
     
+      <a href="/assets/transcripts/s1-e8-prof-jack-dongarra-high-performance-computing-pioneer.srt" download>Download transcript</a>
+    
   </nav>
 
   <div class="episode-content">
@@ -444,7 +446,307 @@
 
 <section class="episode-section" aria-labelledby="episode-transcript">
   <h2 id="episode-transcript">Transcript</h2>
-  <p class="episode-transcript-unavailable">A public transcript is not currently available for this episode.</p>
+  <p class="episode-transcript-intro">
+    This transcript was created from the corrected YouTube captions, with names and technical terminology reviewed. <a href="/assets/transcripts/s1-e8-prof-jack-dongarra-high-performance-computing-pioneer.srt" download="">Download the corrected SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi and welcome to the Neil Ashton podcast. In each episode we explain some of the fascinating ways that science and engineering are changing the world around us. We talk to leading engineers from elite level sports like cycling and Formula 1 to some of the world&#39;s top academics to understand how fluid dynamics, machine learning, supercomputing are bringing in a new era of discovery. We also hear some of their life stories, their career advice, and lessons they&#39;ve learned on the way that I hope will be helpful to you, too. So, sit back and enjoy this episode. Welcome back to the Neil Ashton podcast. I talked in the intro of this podcast</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:44</span>
+  <span>that we would talk about things like fluid dynamics, we would talk about aerodynamics, but one of the things I also said was supercomputing and high-performance computing. And I said that because nowadays with the huge increase in using these simulation tools to simulate a car or a plane or wind turbine, or develop machine learning models like the ones that you probably use day in day out now with large language models, you need computers to run them or to train them. And that is what is known when it&#39;s done in a very large scale and high-performing way, high-performance computing or supercomputing. And so I I really wanted to have an episode that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:25</span>
+  <span>discussed this so people who are very familiar with this maybe got some extra details and more insights in where the future lies, or for people who are are really not familiar at all just to make you aware of this very important thing in the world around us and that is so important for scientific discovery. So, I was very lucky that Professor Jack Dongarra was willing to speak to me because he is arguably one of the, you know, most distinguished and and famous people in the supercomputing and high-performance computing world. Um that&#39;s because he started and really pushed this supercomputing world, you know, he was there sort of in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:05</span>
+  <span>the in the early days and is most well known for two things. One is the LINPACK, which is a software library essentially for doing linear algebra, but what it&#39;s used for is a way to benchmark systems hardware. And still today it is one of the main benchmarks that are used to assess the TOP500 list, what are the TOP500 most powerful supercomputers in the world. And we talk about that in the episode. He has done many other things, but he was also one of the key contributors that developed MPI, Message Passing Interface. And this is a, you know, a function that is used to program the majority of simulation methods like CFD, like weather modeling.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:46</span>
+  <span>But I think what he&#39;s also got to is that point where he&#39;s been so aware and been on so many advisory boards and and also being, you know, a professor at at Tennessee and also at Oak Ridge National Lab, he&#39;s so aware of what&#39;s going on in the world. He&#39;s In recent years I found some of his papers and commentary to be incredibly insightful and very interesting. And we talked through a couple of those in the interview with him. Really focusing on a couple of key topics. One, what is HPC? What is the impact of machine learning and AI on HPC? Some of the discussions around the leadership of the United States in supercomputing, which for people who are</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:31</span>
+  <span>into this world is a sort of a hot topic with the rise of China and other countries. Um we also talk about just the challenges and opportunities, what&#39;s coming next. And we finish with some more reflecting on his career and advice to to people, which is I think always a an important thing. So, um we didn&#39;t have a huge amount of time to discuss and so there were many topics and and we didn&#39;t really get into his whole career and his life story, which, you know, I would love to have done, but I&#39;m hoping you still find it um an interesting discussion to listen to. So, yeah, sit back and enjoy this discussion with Professor Jack Dongarra.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:07</span>
+  <span>I would start with maybe a very high-level question that it seems deceptively difficult for some people to answer, which is how would you define HPC? So, high-performance computing, what is it? High-performance computing is about using the fastest computers that we have to solve our problems, whatever problems they are. So, high-performance computing uses supercomputers to help solve scientific problems as an example. So, what&#39;s a supercomputer? Supercomputers again would be the fastest computer that we have available to us for for doing a computation. And now we have to think about what&#39;s a computation.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:56</span>
+  <span>So, in this context I would say if we&#39;re thinking about scientific computations, we&#39;re generally talking about doing 64-bit floating-point arithmetic. Sometimes it&#39;s 32-bit floating-point arithmetic. With the advent of machine learning, we have hardware now that can do 16-bit floating point. They don&#39;t need as much precision in terms of um the computations they&#39;re doing. And we even see the emergence of 8-bit floating-point arithmetic. And maybe even less than that for some for some machine learning. Now, those kind of computations are hard to fit into what I would call traditional scientific computing, but, you know, there is attempts being</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:42</span>
+  <span>made to do that. There&#39;s attempts being made to let&#39;s call it get an approximation to a solution in a lower precision and then do some do some mathematics to improve the accuracy and come up with a solution that hopefully is as good as what you would have gotten doing 64-bit. Of course, doing 64-bit is more expensive than doing 32-bits and 32-bit is more expensive than 16-bit. And that has to do with in some sense moving data and also the hardware that&#39;s inherent in in the floating-point units that are there. It&#39;s been said that um the one who has the fastest computer can do the best science. Now, that&#39;s that&#39;s</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:30</span>
+  <span>perhaps an overreach, but there is some truth in that. Faster computer, the the supercomputers that we have are today in the what&#39;s considered exascale range. So, we have two examples of those that we know about that are doing exascale computing. So, exascale is defined as 10 to the 18 floating-point operations per second. And that&#39;s 64-bit floating-point operations. So, that&#39;s that&#39;s a big that&#39;s a big number, 10 to the 10 to the 18. Yeah, um there&#39;s two two sides that I think people or at least myself, I&#39;m always interested in where the future lies a little bit. I I want to know where the where things came</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:19</span>
+  <span>from, but I&#39;m also always interested to sort of see where things are going in we&#39;ve talked in in some other discussions I&#39;ve had with people around the pure science. So, what&#39;s the future of CFD or what&#39;s the future? But it&#39;s interesting to maybe look at that from a from a HPC point of view. Um I saw I I really enjoyed the article that you wrote, Reinventing HPC, the challenges and opportunities. Um I I know it&#39;s difficult task to summarize that in a few minutes, but but what what do you kind of see as the current challenges but the opportunities for for HPC over the coming years? Right. So, let&#39;s see, the challenges.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:02</span>
+  <span>Well, um if we take a look at the computers that we have today, they&#39;re they&#39;re incredible devices, but you know, they they suffer from the standpoint of moving data. So, data movement is the most expensive thing that uh that we do on a computer today. So, moving data from one part of the machine to another part of the machine where it&#39;s going to be used is very expensive. So, it&#39;s much more expensive than doing floating-point operations. And floating-point operations today on our computers are really over-provisioned, I feel. So, we have too much floating-point capacity and we have a hard time effectively using the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:48</span>
+  <span>floating-point units because of passing data to them. So, we spend most of the time passing data. So, the challenge would be to design a system that um that can overcome some of that uh some of that resistance in passing data. You know, our our computers today, our supercomputers today are bought or purchased or acquired in a sort of a strange way. So, what we do is we we say we have a desire to have a machine at this level of performance and we have this much money. So, then we we tell the vendors we need a machine that matches that performance with this this um this cap on it. So, I&#39;m being very crude in terms of the the the the parameters</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:34</span>
+  <span>here, but it&#39;s sort of like this. And then a a vendor goes off and cobbles together a machine usually out of commodity parts and bids that machine. And if they win the bid, and you know, there&#39;s a lot of things that go into winning a bid and making making things work, then they put together a machine and it basically gets thrown over the fence. and we on the other side of that fence the people who who are intended to use that computer sort of scramble for the next three or four years to figure out how to use it effectively. And that that scrambling, you know, is an incredibly intensive process of optimizing redoing algorithms and redesigning</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:18</span>
+  <span>algorithms, creating new algorithms that can effectively function in the parameters of that new machine. So, we&#39;re doing you know, in some sense we&#39;re doing that incorrectly. So, we&#39;re not we&#39;re not designing a machine that&#39;s suited for the scientific problems that we have. We&#39;re designing a machine based on how much money we have and what the expected performance could be in terms of peak performance of all things. So, we end up with a computer that um you know, for for some for some outdated benchmark perhaps can reach the highest levels we asked for, but for realistic problems we run we run much less than that. And the example</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:04</span>
+  <span>that I usually drag out is something perhaps I&#39;m responsible for is is the LINPACK benchmark. So, LINPACK benchmark is is solving a dense system of linear equations using a standard algorithm. The algorithm is Gaussian elimination with partial pivoting. It&#39;s the algorithm I learned when I was in high school for solving a system of linear equations. And the benchmark is to use that algorithm to solve a dense matrix problem and to look at the performance with 64-bit accuracy. So, you know, that problem is at its core doing a matrix multiply. So, if your hardware can do matrix multiply well, that algorithm is going to run very</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:48</span>
+  <span>well. Now, that that that algorithm is not is not very relevant to today&#39;s scientific computations. That is to say, the computations we do on supercomputers, they usually don&#39;t look like matrix multiply. They look like something with a sparse data structure. So, it&#39;s solving the same problem by the way. So, solving a solving this LINPACK benchmark solves a system of linear equations Ax = b. So, you&#39;re given A and you&#39;re given B and you&#39;re asked to compute X and you&#39;re told to use Gaussian elimination with partial pivoting and that matrix A is dense. So, all the elements are filled in with nonzero element nonzero components and you&#39;re</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:34</span>
+  <span>asked to use that algorithm. We have another benchmark that&#39;s called the high performance conjugate gradients benchmark HPCG. And that benchmark again solves that same problem Ax = b, but the data structures are different for the matrix A. The data is sparse. So, we have a sparse matrix representation for the problem. And that sparse matrix is similar the way in which it&#39;s formed is similar to what we typically use supercomputers to to do and that&#39;s solve a three-dimensional partial differential equation. So, when we discretize that that differential equation, we end up with a matrix problem. That matrix problem is sparse.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:21</span>
+  <span>And we use an iterative method to solve it. So, it&#39;s not solved in the in the sense that we solve that dense problem. It&#39;s using a different approach to solving it and that that approach does not have matrix multiply at its core. It has a sparse matrix vector product which requires you to move data and get get it gets very little reuse of the data. So, the data is basically passed into the functional units, computations done and then there&#39;s no reuse of that data and you have to do it again for the next for the next iteration. And just in terms of um raw numbers, the the dense matrix problem, we can get</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:11</span>
+  <span>probably 70 to 80% of the theoretical peak performance in 64-bit precision. For the sparse problem unfortunately we get less than 3% of the theoretical peak performance. So, problems that we are intending to solve on these supercomputers, we&#39;re ending up with 3% of of efficiency, let&#39;s call it. And you know, is that is that a good or a bad thing? Well, I would say that&#39;s not a very good use of the resources that we have. And you know, why is that the case? Why do we only get 3%? It&#39;s because we&#39;re we&#39;re we don&#39;t have a good way to pass data around. And we&#39;ve cobbled together a machine based on commodity parts CPUs, commodity GPUs, commodity</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:59</span>
+  <span>interconnects, commodity memory and all of that comes together to give us a machine with a very high theoretical peak performance, but very very inefficient in terms of how it&#39;s used. How much I I guess you&#39;re alluding to that all of one of the conclusions around co-design. Are you essentially saying that really the hardware and the software should be more tightly sort of coupled together rather than being I mean, how how can that be addressed I suppose pragmatically or practically? Right. So, we had a mantra with some of the Department of Energy projects. For the mantra was to to do co-design. What is co-design? Well, it&#39;s to get the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:41</span>
+  <span>hardware people together with the with the with the computational scientists together with the guys designing algorithms that will solve those computational problems along with the software people that are going to write software for doing those for doing those algorithms. So, it gets the the architects together with the scientists together with the computer people who are doing things. And that&#39;s they&#39;re going to do co-design a machine based on the aspects of the applications that they have, how to make those applications run as efficiently as possible on some architecture. And working with the architects come up with</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:22</span>
+  <span>a piece of hardware that can satisfy that problem. So, that&#39;s the mantra. In the end what we got is somebody throwing a machine over the fence and the computational people scramble for the next three years trying to figure out how to use it. And there is no real co-design of that machine. So, again, we&#39;re stuck using commodity processors. We&#39;ve lost in some sense the you know, I can remember back when I was in school, there were many universities doing architectural work in terms of building experimental machines that potentially could could solve challenging problems. And I think we&#39;ve lost some of that. So, we&#39;ve lost some</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:06</span>
+  <span>of the ability to do that fundamental research in terms of designing architectures that would meet the needs of the computational science community. So, maybe we should go back and invest I&#39;ll say in that in that effort. That is um invest in terms of allowing those universities to do architectural research that would benefit scientific computing. Architectural research is being done of course in in universities, but with the focus being on scientific computing I think is the thing that we&#39;ve lost. Do you think um that you know, AI machine learning has been a force for good for HPC in the sense that it&#39;s obviously a user of HPC and has</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:55</span>
+  <span>driven huge new investment or has it been negative because it&#39;s sort of diverted that to from computational science towards a different discipline that maybe doesn&#39;t suit it, you know? So, I would say AI is and machine learning are are causing a revolution to take place in how we look at scientific problems. Almost every scientific application that I see today is embedding machine learning and artificial intelligence in it. And it&#39;s having a very positive effect in terms of allowing those applications to get a better solution, better time to solution, a more accurate solution. And I&#39;m not saying that they they replace</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:42</span>
+  <span>the traditional classical approaches. What they do is they augment them. They&#39;re a tool that&#39;s being used now by the computational scientists. So, it&#39;s a it&#39;s a tremendous positive influence in terms of how we solve problems and that that&#39;s going to be a great benefit as we go forward and really understand how we can use the uh the technology and use it as a tool to to solve our problems much better than we uh than we&#39;re doing today. So, it&#39;s it&#39;s really a um it&#39;s a thing which will help us amplify our ability to solve these problems. But do you um I&#39;m I&#39;m apologies if I&#39;m wrong on this one, but</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:30</span>
+  <span>is there therefore a logic that some of the methods to evaluate the TOP500 should be more skewed to include machine learning given that increasingly a lot of these supercomputers will run more and more machine learning workloads with different algorithms and methods? So, so I guess you know, as a as a person who has developed accidentally benchmarks that have that have gotten getting gotten take up in the community, I&#39;ll say that we should have a lot of benchmarks. We shouldn&#39;t just have one or two benchmarks. We should have a bunch of benchmarks. The benchmarks should have should reflect the applications that were going</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:13</span>
+  <span>to use these machines for. So, having many benchmarks allows us maybe to dial up something these benchmarks to get a handle on what our what our application will look like when run on these machines. So, we should of course keep the existing benchmarks. There is a lot of historical information, trends, and other things that we get out of them. So, it&#39;s been very informative and and has been beneficial. So, I would advocate keeping them, not throwing them away, but I would say we should augment them and you know, we&#39;ve tried to do that. I&#39;ve tried to do that just as as I go through trying to understand how effectively they use the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:56</span>
+  <span>machines. So, HPL was something that was done, you know, to be honest, it was done in the late 70s. So, we&#39;ve got something that has you know, almost a what is that? 50-year horizon here and the TOP500&#39;s been around 30 plus years. So, that that&#39;s an historical snapshot of that that information in some sense for high-performance computing. And now we have this HPCG benchmark, which is you know, again, looking at something a little bit different but more relevant perhaps to the applications that we do. And you know, there are other machine learning benchmarks that I think um need to be understood and explored. But you know, with these benchmarks, you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:40</span>
+  <span>know, we want to keep them around for a long period. We want to make sure they reflect really what&#39;s going on in the applications and what we should what we can expect. So, some of that is unknown unknown territory today. So, I would say you know, we&#39;re in a learning process and it&#39;ll take some time for the right benchmarks to um perhaps to emerge. But I think you know, we should be working towards a whole suite of benchmarks that can be used to evaluate a system rather than just focusing on one. We&#39;ve tried to address that in my group. We tried to address that by um by tweaking, I&#39;ll say, um, the HPL benchmark. So, the benchmark</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:23</span>
+  <span>that does a dense matrix computation. Tweaking in the sense that we&#39;re trying to understand what we can get out of using mixed precision. So, the mixed precision is can we get can we get by with low precision start to the problem and then do some mathematics to improve the solution to the same that we would have gotten had we done everything in 64-bit. So, there&#39;s there&#39;s a benchmark that goes by the name of HPL-MxP. MxP is for mixed precision. So, it it allows the use of 16-bit 32-bit arithmetic. It has a problem a dense matrix problem that you&#39;re asked to solve and there&#39;s a technique that we have as a reference implementation which</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:11</span>
+  <span>uses a iteration. It it constructs a approximate solution in lower precision and then uses an iterative technique on that dense matrix problem to converge to a much higher accuracy result. And we can show you know, very effective very efficient speedups over time based on that. And that&#39;s one of the benchmarks that the guys at Argonne and and also at Oak Ridge ran and a bunch of other places have run to show significant speedups. So, there&#39;s there&#39;s a need for many benchmarks and those benchmarks should reflect the applications that we&#39;re going to be using on the machines. But that&#39;s an interesting point about the precision because um</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:01</span>
+  <span>that was kind of my question before a little bit in terms of the positivity, the negativity, the direction with machine learning in the sense for many computational things, mixed precision or double seems to be what&#39;s required and and it but it&#39;s good obviously there&#39;s been work to see if there&#39;s a way around it. But obviously a lot of machine learning methods can get huge speedups from using lower precision and there&#39;s a lot of money in that for the chip vendors and the hyperscalers. So, I guess is there a slight is there a need to sort of not get overhyped by machine learning in the sense you still have to remember that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:43</span>
+  <span>there are some things that require um one chip cannot solve it all, I guess is the is that the right way? Well, I&#39;m I&#39;m thankful that NVIDIA still does 64-bit arithmetic in their in their accelerators. So, that&#39;s that&#39;s the first thing. Thank you very much for keeping that real estate there as opposed to selling out totally and just doing 16-bit arithmetic, which is what machine learning needs to to do its to its problem. So, yeah, I think that there&#39;s there&#39;s room there to you know, I I think we&#39;re we&#39;re trying to understand how we can push the precision, the the accuracy, and what we can do to enhance the accuracy once we&#39;ve gotten a result and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:31</span>
+  <span>that&#39;s that&#39;s current research. So, there&#39;s a lot of activity there. There&#39;s a there&#39;s a cottage industry, I&#39;ll call it, trying to use mixed mixed precision to solve scientific problems, trying to exploit that 16-bit arithmetic as much as possible. And and I&#39;ve I&#39;ve seen some some reasonable results from that. So, so I would say that&#39;s a positive thing to exploit. You know, again, I&#39;m I want I&#39;m thankful that that we have 64-bit. And I saw a paper recently which was quite interesting. They were using um integer arithmetic. So, the NVIDIA GPUs have the ability to do fixed-point arithmetic very fast. So, it&#39;s you know, much faster than</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:19</span>
+  <span>floating-point 16-bit fixed-point arithmetic, which gets you a 32-bit result. Fixed-point integer arithmetic and that&#39;s being used to actually implement the procedure for doing floating-point matrix multiply. So, they essentially think of you have two matrices you want to multiply together and the algorithm basically separates the numbers and bins them in a certain way so that they can do fixed-point arithmetic on those bins of numbers and then upscale that to floating-point and get a get a floating-point result as a as a result of that very efficiently. And it can be encapsulated so that the user doesn&#39;t even know that&#39;s happening. So,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:08</span>
+  <span>it&#39;s under the covers. They&#39;re they basically do a matrix multiply and they they&#39;re expecting a 64-bit result and under the covers it&#39;s being done in integer arithmetic with the correct precision with the correct ability to detect errors in it with all the floating-point things we we would like to see from my triple E arithmetic. In the end they get a result which is done much faster but using that energy unit. There are some there are some hiccups along the way but that&#39;s a that&#39;s a that&#39;s a very interesting approach to dealing with the situation of the hardware providing a capability and exploiting that hardware capability to get a results</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:47</span>
+  <span>that can be used. Two questions for you. One, is it really necessary in the current age to have a single system with 50,000 GPUs or 100,000 GPUs? Does anybody actually use the full system? Or is it actually more economical or more effective to have multiple systems, whether it&#39;s a cloud or not, because nobody runs on the full system anyway. And or is it is there a bigger picture of politics and and needing to hit numbers? I&#39;m I&#39;d be interested to get your take on the sort of the need for just one massive machine. Right. So, right. So, so the question is should I should I build one exascale machine or get a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:37</span>
+  <span>thousand petascale machines? That&#39;s the equivalent of that question perhaps. Yeah. So, so let me say that the Department of Energy is investing in exascale computing and they&#39;ve um they&#39;ve you know, put together a program called the Exascale Computing program, the ECP, along with the Exascale Computing Initiative and it&#39;s a it&#39;s a it&#39;s a program that was over seven years and it was designed to produce the those exascale computers. So, they get three exascale computers. The price tag is $600 million for each one of those and the whole program is $4 billion. So, $4 billion over seven years</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:25</span>
+  <span>to get to exascale. That clock was set a little over six seven years ago. The program has run its course. It&#39;s spent those $4 billion and we have three exascale machines. One is at Oak Ridge National Lab called Frontier. Another is at Argonne National Laboratory that&#39;s called Aurora. And uh third one is a machine that&#39;s uh being constructed today at Lawrence Livermore National Lab called El Capitan. So, those are hardware machines uh that all have exascale plus capabilities. And the uh the the uh the purpose of those machines are to solve some very challenging problems. So, uh the Department of Energy in this program</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:09</span>
+  <span>defined, I think it was 20 uh 21 or 24 applications that they were going to target to use the exascale machine. And in the course of uh solving those problems, not solving them, but using those exascale machines to push the boundaries for those problems forward, um it&#39;s intended for those exascale machines to be used at some point uh during during the course of um its life to be used the whole machine to be used uh to solve or to be used in the solution for some aspects of those 21 problems. So, yes, those machines are intended to be used at uh at um at their full uh scale um to solve one problem uh to help solve</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:56</span>
+  <span>that one problem. And um uh when it&#39;s not being used to solve that one problem, of course, it&#39;s being used to solve many problems uh simultaneously through a time-shared uh through a uh system of using that machine. And um uh so, first So, that says there is a need for the exascale machine. We couldn&#39;t get by with a thousand petascale machines uh to solve those very challenging problems, which have been designated as challenging problems. Um uh the other um part of your uh question, I think, is something that I feel very envious about. So, the hyperscalers can go off and build the machine which is co-designed. It&#39;s it is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:37</span>
+  <span>co-designed, you know, there Here&#39;s the problem that we want to solve. We&#39;re going to build hardware to help us solve that problem. And they build hardware to do that. So, you know, you go down the list. Um uh A- Amazon has their own hardware. Microsoft has their hardware. Uh Google has their hardware. So, they&#39;ve invested in that. They&#39;re They have enough resources that they can do that. So, uh you know, the statement that we make, I think, in in one of the papers is the exascale; hyperscalers uh hyperscalers uh they&#39;re uh they have resources. Uh they have tremendous amount of resources, so they&#39;re exothermic. They</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:12</span>
+  <span>can they can do that investment in terms of building hardware to help them solve the specific problems that they have. Where in the in the high-performance computing scientific domain, which is uh the research side with the DOE, NSF, we&#39;re we&#39;re not we&#39;re endothermic. We don&#39;t have enough resources to solve our problems. And that leads us down that path which says we&#39;re going to cobble together a machine based on commodity parts that are available and hopefully get something that can be used to help us solve our high-performance computing problems. And um you know, the machine is not co-designed in the sense that the hyperscalers go</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:53</span>
+  <span>off and co-design a machine with very specific requirements to solve the kind of problem that they have. So, again, I&#39;m envious that we can&#39;t do that in the high-performance computing. I think we should uh invest in terms of making uh allowing research to take place so that we can investigate what architectures would be the right Is the US still the leader in in HPC? I found it very interesting the anal- I can&#39;t Sorry, I I will put the a copy of it in the in the comments of this whole thing, but but you you were the um I think the main author along with some collaborators who who defined this. I I I think you know what I&#39;m talking</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:34</span>
+  <span>about. I&#39;m interested to get your perspective Um Yeah. on that and what should be done to address Right. So, so, so, this is AI was part of a Department of Energy uh uh study that was done for the Office of Science on uh uh US competi- competitiveness in this in this area. So, So, there&#39;s a number of issues there, some of which we&#39;ve touched on, uh but the elephant in the room is uh does the US have uh the same or greater capabilities than China uh in terms of high-performance computing? Uh so, I think we can say that um you know, Europe is developing high-performance computing, you know, they have a lot of programs in place. Uh they&#39;re</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:17</span>
+  <span>European-centric in some sense. Uh they want to use RISC-V. They have Arm processors that are they&#39;re looking at. They have a number of things that are based on uh things which are more um uh things that that that would benefit the European uh Commission the European Union. And um and I think that&#39;s fine. That&#39;s a great thing, and you know, we&#39;ll we&#39;ll learn a little bit from what they&#39;re we&#39;ll learn from what they&#39;re doing. So, that&#39;s a good thing. Japan, you know, has their own hardware that they&#39;ve developed very impressive uh systems. Uh the Fugaku system is their top-tier machine, which has very uh very strong capabilities.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:55</span>
+  <span>You know, it&#39;s one of the it&#39;s one of the machines in the top 10 that are not using GPUs. So, they have vector architecture uh at their disposal, and uh they&#39;re using an Arm processor. They&#39;ve augmented it with vector instructions, but their uh secret sauce is the is their interconnect network is very efficient. And um it&#39;s through that efficiency uh that they can get very good performance, and they can out, you know, on tops for things that matter in terms of data movement. Uh the other one is China. China um is interesting, you know, they&#39;ve developed They They have been forced into developing their own hardware. So, that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:34</span>
+  <span>the forcing was the US putting sanctions on technology going to China. So, it was initially processors, then GPUs, and now uh you know, the the ability to use TSMC for uh for for fabric for fabrication is is taken out of their hands. Uh so, China, uh perhaps in a reaction to that, has um stopped uh submitting uh benchmark numbers for uh Top500. So, the So, we&#39;ve seen no no new machines um coming um out of the out of the uh China uh that are no new entries coming uh from uh submitting uh numbers uh to the Top500. So, that&#39;s um you know, that&#39;s a that&#39;s a bit you know, they&#39;re taking a very strong</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:23</span>
+  <span>uh stance, I would say, on that. And you know, what&#39;s the reason for that? Well, they&#39;re afraid the US will take more action is the only thing I can think of. Uh so, again, it&#39;s a situation where they&#39;re reacting in that way. And you know, again, China&#39;s pivoted, and they&#39;re designing their own hardware for their high-performance machines. They have uh you know, their own chips that they&#39;re designing. Uh question is, where are those chips fabricated? Uh I would guess they&#39;re fabricated in Taiwan, but you know, they have fabrication facilities in China now, which are, you know, a little bit below what what one can do in at TSMC. And uh those chips</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:57</span>
+  <span>will probably be fabricated there for the next uh generation of uh hardware that they&#39;re producing. So, it&#39;s unfortunate that they&#39;ve shut the window, so we can&#39;t really see what&#39;s going on. You know, occasionally they write a scientific paper which describes the hardware, so we get a glimpse of what that hardware looks like, uh but we don&#39;t have a real good uh benchmark associated with it. We can&#39;t see how well it does provide. So, so, that&#39;s a that&#39;s a bit unfortunate, uh but that&#39;s uh that&#39;s life. You know, we have this thing called the Gordon Bell Prize. So, Gordon Bell Pri- Gordon Bell passed away just recently. Gordon uh set up this uh</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:34</span>
+  <span>prize that would uh uh set up a competition to see who can improve on real applications using high-performance computing. It&#39;s sort of the the short version of what the prize is about. And uh it&#39;s uh you know, it&#39;s competed, and uh people submit a paper that describes the application and the results that they got on their uh supercomputer. Um and um we&#39;re now looking at uh the current uh entries that are being submitted. So, I&#39;m I&#39;m one of the uh uh judges who are looking at the entries there. And you know, China&#39;s submitting uh results for uh applications that are running on their current generation of supercomputers. Those supercomputers are</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:18</span>
+  <span>described in the machine to some extent, and uh we can see the performance that they&#39;re getting on those applications, not on a standard benchmark where we have uh perhaps uh equal uh understanding of what was done and how it was done. So, so, you know, they&#39;re they&#39;re making progress. Um they have high-performance machines. The US is uh certainly competitive uh to some extent. Uh you know, there&#39;s claims that the Chinese machines are faster for some of these benchmarks. Uh you know, that may be the case. Uh but uh you know, the China&#39;s is competitive with uh what what we see from the US systems. And if you fast-forward, you mentioned before about</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:58</span>
+  <span>the exascale project. You know, it was a seven-year project to to sort of reach these frontier El Capitan, etc. If you were to fast-forward seven years from now, is there the investment in place to make an equal leap? Or is it the scenario that we won&#39;t make the same progression that we made, and other countries that have doubled down will make a bigger gain? Right. So, one has to make an investment to to get the advances in in hardware, applications, algorithms, and software. Um uh the ECP project was a wonderful project. It uh it was uh seven years of long-term funding. It in- involved 800 people uh working on high-performance</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:46</span>
+  <span>computing from applications, from software, from algorithms, all received funding to to advance things to further as well as the hardware being purchased. So, half the money went for hardware and the other half went for algorithms and software and and applications. So, that was a interesting split of that of that funding. But, it ended. The project ended. And the the sad part about that is there&#39;s no follow-on project. So, we had 800 people working on this this effort and it ended. It ended in December of last year and those 800 people are scrambling for jobs. So, we have very highly trained people who understand high-performance</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:29</span>
+  <span>computing at various levels who are now maybe out of a job and so they&#39;re scrambling still to find find its way. So, I think it&#39;s it&#39;s a sad day for Department of Energy who invested in in the algorithm software applications as well as the hardware and now those people who designed those algorithms, applications, and software may be looking for a job. And you know, I know that many of the people are being sucked up by the hyperscalers companies like NVIDIA to develop their their technology. So, that&#39;s a that&#39;s a loss I would say for the community and that loss is hard to replace. You can&#39;t just spin that up overnight. If</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:17</span>
+  <span>you wanted to restart a program, you can&#39;t restart the program. So, it&#39;s it&#39;s a it&#39;s a situation where we would have to follow on. And you know, there there&#39;s an attempt to follow on with AI for science and you know, that that process is undergoing and getting off the ground now but it it wasn&#39;t a clear follow-on. It wasn&#39;t something that was dovetailed into by the by the shutdown of the ECP project. So, you know, I think it&#39;s important. I think the investment needs to be made. We need to have people who can guarantee a job long-term. The talents that they bring with them are are hard to replace if they if they go</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:59</span>
+  <span>away and we&#39;re seeing some of that drain today in in going to the in going to the hyperscaler companies. You know, I I feel DOE shouldn&#39;t be a minor league team for the for the hyperscaler guys. They they should be the major leagues as well. The people should be funded for doing that in the long-term. Yeah. Um One question I guess still on the future peering into the future a little bit is obviously depending on where you are in the computer science or HPC world, either you&#39;re very full-on with GPUs and you&#39;ve known about it for decades like yourself or or it still seems quite new. But, that I guess will come to an end as</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:46</span>
+  <span>in the sense of the acceleration, the performance improvement, the new Are there any technologies that you see coming that would just as GPUs has oddly given a big boost from the traditional x86 CPU? Do you see a new technology around the horizon that people should be sort of reading up about or being more aware of than they currently are? Right. So, if you look back and and look at where we&#39;ve been, you know, we&#39;ve had we&#39;ve had originally we had machines which were special purpose machines for doing scientific computing. You go look at companies like Cray, CDC, Hitachi, Fujitsu you know, built machines which were</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:25</span>
+  <span>specific for that but the market couldn&#39;t sustain them. And we had microprocessors come up and and be more powerful. So, we had special purpose machines, vector computers, then we had multi-core computers which was the architecture that sort of led to the downfall of those vector-based systems, the attack of the killer micros. And then we had parallel computing come into place and then we had GPUs. I&#39;m sort of simplifying this but that&#39;s sort of the the progression that we had in terms of getting to the point where we are now. So, what&#39;s next is your question and you know, my crystal ball isn&#39;t that good to to predict</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:04</span>
+  <span>what&#39;s the next big thing. But, you know, machine learning comes into it. It&#39;s a tool that we&#39;re going to use to help us solve the problems but it&#39;s not architectural um uh advancement that we have. You know, we think about uh what what are the changes in the architecture that we might envision we can see we can see things like um uh you know, neuromorphic computing. We see things like um uh you know, optical computing. We see things like um uh you know, we see things like potentially way in the future quantum-based computing. Those are all things which could could make you know, perhaps make improvements where we get that leap</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:47</span>
+  <span>uh which we gotten we&#39;ve had in the past with those generations of things. So, but you know, quantum computing&#39;s way off into the future is my my feeling. You know, a lot of So, so it&#39;s a it&#39;s an important topic. We should invest in the research into it. It&#39;s something which you know, has promise of course but it&#39;s not going to replace replace our existing machines in the near term or not in my lifetime. So, it&#39;s it&#39;s something which needs to be worked on and figured out how we can effectively use them. And it&#39;s not it&#39;s not going to be the thing that that replaces our high-performance machines. It&#39;s going to be something that we add</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:25</span>
+  <span>to the to the ensemble that we use to attack problems. So, again, we have CPUs and GPUs and optical and neuromorphic and DNA-based stuff maybe and you know, going going adding quantum to that mix is something that perhaps can happen and that would then lead to problems that could use those devices perhaps giving a boost in terms of how they how they solve their problems. Mhm. I I did want to change track a little bit because you&#39;ve um you&#39;ve had a an amazing career. Obviously, you&#39;re very modest in when you mentioned about oh, you know, I kind of involved a little bit with some benchmarking obviously with</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:13</span>
+  <span>LINPACK and and MPI and many other things that you contributed to. I know it&#39;s a difficult question to ask but do you have any standout sort of memorable things from your career that were sort of a wow, I even just a day or a moment standing on a stage or doing Is there anything that you know, you sit when you are having a drink and you sort of think about what you&#39;ve been doing? Is there anything that stands out? Uh yes, that&#39;s a hard question to answer. You know, I like I like to think I was I I&#39;ve contributed to three three things. And one thing is developing software and algorithms for solving some standard problems in linear</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:52</span>
+  <span>algebra. So, that&#39;s that&#39;s something I think I&#39;ve I&#39;ve contributed to. And along with that goes portability and performance. And the second thing is tools for doing distributed computing. So, there I&#39;m I put in the basket you know, MPI. So, I didn&#39;t I wasn&#39;t solely around to do MPI. There was a group of people of course who contributed to the standard but you know, we were all there together at ground zero. And the third thing is about performance evaluation. And there again it&#39;s an accident in some sense. So, the way I think of this is my true passion is with linear algebra and developing software that is portable and can be run</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:38</span>
+  <span>efficiently. So, that&#39;s that&#39;s the goal and along the way we needed tools to make that happen. So, we needed tools to do the evaluation. So, that&#39;s where the benchmarking comes in. So, we developed tools which exposed how well that software would would run on these systems. And then we needed as the architectures changed, went from sequential to vector to parallel, we needed some way to to engage with parallel processing. You know, when we started doing MPI, it was the wild west in terms of message passing. Each vendor had their own way of doing it. And we we recognized there was a community that recognized we needed to standardize it. And it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:17</span>
+  <span>wasn&#39;t going to happen by the vendors. It was going to happen in a organic way from the ground up. And we formed a committee to a de facto committee to look at what would we need in terms of mechanisms for doing message passing on those systems that could be portable and efficient. And out of that came came MPI. So, those are the those are sort of the mixes. So, if I if I was saying my contribution, what was I what did I feel most proud about, it must be the linear algebra software and then these benchmarking things and and the message passing stuff comes along as a necessity to doing that linear algebra stuff. What about</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:03</span>
+  <span>I don&#39;t want to say regrets but are there anything you really wish I&#39;d done that or I missed that opportunity or you know, is there anything where you look back and you wish you&#39;d done? I wish I&#39;d done. So, I don&#39;t I don&#39;t have regrets in that context. I mean, everything I have to say, you know, I people come up and ask me I want to do what you did. How did you do it? And I say, well, it was serendipitous. I can&#39;t give you a formula for it. You know, I wanted to be a high school science teacher. So, that was my ambition when I started and then things changed along the way and I can&#39;t reproduce those changes. It just happened. I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:37</span>
+  <span>happened to be chosen to work at Argonne National Lab, spend a semester with a scientist. And you know, that was transformational. In terms of looking at or following, you know, it really opened my eyes and I saw passion for doing these things and you know, I changed the course of what I wanted to do based on that. And I think I was in the right place at the right time for many many of the events that that have occurred. So it&#39;s hard to replicate that. You know, I tell people I tell people, you know, in research we should expect to fail. So that&#39;s that&#39;s an important lesson that everybody in research should going into research should understand.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:22</span>
+  <span>You know, it&#39;s a process where I I don&#39;t know the solution at a time. I can&#39;t I can&#39;t give you what what it&#39;s going to be, but I&#39;m going to try things and through that experiment experimental process, I I may hit on something which is going to lead to the right thing. So you know, expect to fail if you&#39;re going to do research. You know, follow your passion, do something that you feel passionate about and and take take that forward. You should you know, networking is an important thing. Talking to other people, interacting with people trying to in solving a problem, we often need some other stimulus and talking to people is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:04</span>
+  <span>a good way to to get that. You know, throw something up against the wall and let other people see it and and how how they react is is going to be important. And I guess the other thing is you know, aim high. Try not to solve try to solve challenging problems. Try to solve problems which are stretching what you can do and what others have tried to do. So it again gives you an opportunity to to advance the field and to do that. So those are my recommendations I tell my students. This for And are you are you optimistic about the future of HPC and scientific computing? Oh, absolutely. Yeah, this is a great time. So um</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:42</span>
+  <span>and it&#39;s been a great time for a while. So it continues to be a great time I guess I should say. And it&#39;s a great time because of all of the things that that are happening in the field in high performance computing and um you know, AI is part of that. Machine learning is certainly there. You know, looking for the next big advance in terms of architectural features. That&#39;s a that&#39;s an important thing. For my standpoint, you know, how can I bring all this mathematical knowledge that&#39;s been accumulated over time in solving the next set of problems on the current on the next the problems that we have on the next generation of architectures.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:26</span>
+  <span>So that requires innovation and some of that innovation comes about because of not not creating something, but using something that people have created in the past and bringing it forward to to be used on today&#39;s environment. Well, thank you. I know that you&#39;re a very busy person, so I want to be respectful of your time, but I really appreciate you coming to speak. I think you very eloquently are They always say Someone told me that you&#39;re a true expert when you can explain things simply. What I really like is that you&#39;re Anytime I ask you a question, you very I love how you you simplified it in such a way and that&#39;s a real sign of of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:07</span>
+  <span>expertise. So I know you&#39;re a university professor explaining. But thank you very much and Well, thank you for that compliment. It was it was fun to to talk to you and I look look forward to to seeing seeing what what you produce. All right. Cheers. Yeah.</span>
+</p>
+  </div>
 </section>
 
   </div>

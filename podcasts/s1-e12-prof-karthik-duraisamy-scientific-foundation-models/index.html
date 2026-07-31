@@ -15,7 +15,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Prof. Karthik Duraisamy — Scientific foundation models | The Neil Ashton Podcast</title>
+<title>Can AI Build Foundation Models for Engineering? | Karthik Duraisamy</title>
 <meta name="author" content="Neil Ashton">
 <meta name="description" content="Prof. Karthik Duraisamy is a Professor at the University of Michigan, the Director of the Michigan Institute for Computational Discovery and Engineering…">
 <meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
@@ -28,7 +28,7 @@
 
   <meta property="og:site_name" content="Neil Ashton">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Prof. Karthik Duraisamy — Scientific foundation models | The Neil Ashton Podcast">
+  <meta property="og:title" content="Can AI Build Foundation Models for Engineering? | Karthik Duraisamy">
   <meta property="og:url" content="https://neilashton.co.uk/podcasts/s1-e12-prof-karthik-duraisamy-scientific-foundation-models/">
   <meta property="og:description" content="Prof. Karthik Duraisamy is a Professor at the University of Michigan, the Director of the Michigan Institute for Computational Discovery and Engineering…">
   <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e12.webp">
@@ -38,7 +38,7 @@
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Prof. Karthik Duraisamy — Scientific foundation models | The Neil Ashton Podcast">
+  <meta name="twitter:title" content="Can AI Build Foundation Models for Engineering? | Karthik Duraisamy">
   <meta name="twitter:description" content="Prof. Karthik Duraisamy is a Professor at the University of Michigan, the Director of the Michigan Institute for Computational Discovery and Engineering…">
   <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e12.webp">
   <meta name="twitter:image:alt" content="Prof. Karthik Duraisamy — Scientific foundation models — The Neil Ashton Podcast">
@@ -94,7 +94,7 @@
         {
           "@context": "https://schema.org",
           "@type": "VideoObject",
-          "name": "Prof. Karthik Duraisamy — Scientific foundation models",
+          "name": "Can AI Build Foundation Models for Engineering? | Karthik Duraisamy",
           "description": "Prof. Karthik Duraisamy is a Professor at the University of Michigan, the Director of the Michigan Institute for Computational Discovery and Engineering…",
           "thumbnailUrl": [
             "https://i.ytimg.com/vi/VnISBGD6T14/maxresdefault.jpg"
@@ -381,6 +381,8 @@
     <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S1--EP12---Prof-Karthik-Duraisamy---Scientific-Foundational-Models-e39d4p1">Spotify for Creators</a>
     <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
     
+      <a href="/assets/transcripts/s1-e12-prof-karthik-duraisamy-scientific-foundation-models.srt" download>Download transcript</a>
+    
   </nav>
 
   <div class="episode-content">
@@ -494,7 +496,487 @@
 
 <section class="episode-section" aria-labelledby="episode-transcript">
   <h2 id="episode-transcript">Transcript</h2>
-  <p class="episode-transcript-unavailable">A public transcript is not currently available for this episode.</p>
+  <p class="episode-transcript-intro">
+    This transcript was created from the corrected YouTube captions, with names and technical terminology reviewed. <a href="/assets/transcripts/s1-e12-prof-karthik-duraisamy-scientific-foundation-models.srt" download="">Download the corrected SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi and welcome to the Neil Ashton podcast. In each episode, we explained some of the fascinating ways that science and engineering are changing the world around us. We talk to leading engineers from elite level sports like cycling and Formula One to some of the world&#39;s top academics to understand how fluid dynamics, machine learning and supercomputing are bringing in a new era of discovery. We also hear some of their life stories, their career advice and lessons they&#39;ve learned on the way that I hope will be helpful to you too. So sit back and enjoy this episode. Hi and welcome back to the Neil Ashton podcast. So today&#39;s guest is Professor Dore</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:45</span>
+  <span>Zamy who is a professor at the University of Michigan and is also the director of the Michigan Institute for Computational Discovery and Engineering. And he has become actually one of the key voices in this area of AI for science coming from the fluid dynamics background. In fact, actually, we we discussed that many of the people moving and being pioneers in A I for science which covers of course science in general, actually coming from a fluid dynamics uh background and he is probably to some best um best known for his work actually in turbulence modelling uh in the sense of the seminal paper that he did turbulence modelling in the age of data</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:30</span>
+  <span>that back in 2019, although I, you know, we discussed, he actually started that work 2012, 2014, which was well before the current uh hype and, and rise of machine learning and AI and that paper. And that work really, um I would say motivated the whole community to, to really look at machine learning. And he&#39;s progressed from that point to, to actually broaden out um not only into more general fluid dynamics, but also covering, you know, the sciences. Uh and, and really focusing in the role of machine learning and AI. In fact, one of the uh Pacific areas that he has really tried to push in recent years and bring the community together</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:13</span>
+  <span>is around uh foundational models for science. Uh certainly a hot topic and something of, you know, potentially huge significance. So in this episode, we, we mainly focus on these debates around AI for science and we do limit ourselves um a little bit into the fluid dynamics and computational fluids um fluid dynamics domain, but really trying to get a sense of where this field is going. And here&#39;s some of his thoughts uh starting in the turbulence modelling side. So where does he see the current progress when it comes to using machine learning in that side. And he&#39;s, you know, careful to, to remind everybody that he,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:52</span>
+  <span>he&#39;s not trying to say that this replaces the need for humans. It&#39;s just an additional tool that they can use in the development of these methods. And then we, we broaden the discussion a little bit to go into more surrogate modeling and his thoughts around, you know, PINNs—physics-informed neural networks, how he sees their potential to replace or does he see their potential to replace PDEs solvers? Um And then we really get into a, a reasonably detailed discussion on foundational models. What he believes foundational models are his thoughts on maybe even how large language models using transformer um architectures could still be used in many parts of scientific discovery.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:31</span>
+  <span>But using um you know, simulation tools as agents within that, I thought that was a really interesting part of the discussion we had, I also asked him about the role of academia and industry and start ups in this space. And we have a discussion around also some of his advice for, for students and aspiring academics and some of his opinions on, on his enjoyment of being in academia and the career path that that he&#39;s taken as we I say this in almost every single episode. Um Even though this, you know, we spoke for more than an hour, there were many topics we didn&#39;t really get to cover. And that&#39;s why I put some links uh in the chat.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:10</span>
+  <span>Certainly, if you&#39;re watching this on, on YouTube, uh if you&#39;re listening to this uh on Spotify, Apple, maybe you can go to the YouTube channel to see some of those links where I, some of the summer schools that he&#39;s organized and symposia, which had some really fantastic speakers. And also I think they have the, some of the slides and talks that he gave where he goes into even more detail into some of the specifics that perhaps we were ever able to get into in this episode. So, um I, yeah, this is uh along the theme of um as I mentioned, the, the the past episode we did and there&#39;s a few more coming that really focuses on this AI for science and, and he is really a key voice in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:49</span>
+  <span>this that I hope you&#39;ll learn a lot from. So please sit back and enjoy this episode with Professor Do Ay, the MICDE or the Michigan Institute for Computational Discovery and Engineering. So it&#39;s a institute across the entire um campus. There are more than 180 faculty members looking at all kinds of disciplines, you know, from computational medicine to biology, to uh astrophysics, to climate modeling. But of course, as a researcher, my uh applications tend to be somewhat close to fluids, but not in the sense of seven or eight years ago. Um So my work has maybe moved closer to computational science and AI, um, rather than fluid specific. But of course, many of my applications tend to be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:40</span>
+  <span>close to fluids but not exclusively. Ok. Yeah, I mean, that&#39;s, it&#39;s always nice, isn&#39;t it to expand a little bit? I guess there&#39;s a, there&#39;s a trade off, isn&#39;t there? Like, there&#39;s a lot of transferable knowledge from, I guess, fluid dynamics outside, which is useful, um, to bring, do you think that&#39;s important, particularly in the age of um AI where methods are coming from different disciplines? In fact, since we are on this uh few months ago, I kind of had a consortium of uh institute directors across various universities. There was PTOs Kumars Soos at Harvard, Ken Wilcox at Texas, John Luca Ario at Stanford,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:28</span>
+  <span>YF Marzuk at MIT. And what is common to all of these people, fluids applications? It&#39;s kind of weird, right? You know, they are, the institutes are very broad in scope. But I think because of the scale of the problem and certain peculiarities about fluid dynamics, uh I think some of the knowledge and methods that we develop here tend to be asking questions that are very hard. And so I think assimilating other information or taking these to other methods, I think it&#39;s a bit of a bridge but of course, I could be biased. Um but it sounds like a good career advice for people. If you want to become the director of a top institute,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:13</span>
+  <span>go down the fluid dynamics route. Because statistically the other way to think about it is if you never want to solve the problem that you want to solve, you want to pick fluids and turbulence in particular. But you gain so many different skills in that frustrating process of not being able to solve anything. I&#39;m being tongue in cheek here. But, but, but, but seriously, I do think there is something here, right? Because um you know, if you look at uh you know, the development of computational fluid dynamics, uh it has a very strong connection to numerical methods in general, right? And you can and many other disciplines, you can see like a diffusion of these ideas.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:59</span>
+  <span>But yes, there is certainly some of the problems are so hard, you know, and that is this quote. I don&#39;t know who said it. It said turbulence is the graveyard of all ideas that are successful in other fields. But you can also flip that and you can say many of the methods that we use to probe turbulence and modern it, you know, can have applications in many other disciplines because this is in a sense, a hard and intractable problem. But end of the day, I&#39;m still an engineer, right? So we still can get very useful things out. Yeah, I I maybe want to start a little bit on um and it would be good to please correct me if I&#39;m wrong. But I think one of the areas that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:45</span>
+  <span>um really brought you to the national or international stage was the pioneering work, the turbt modeling paper that you did looking at data driven turbulence modelling. Uh at least from my side, I suddenly I found those papers and those review papers incredibly useful. And I know many other colleagues, it sort of brought it to the attention to the, to the point I would say arguably now, so many people I know at least in the Fluids Domain have PhD students have projects and many of them are citing that sort of as an original piece of work. That sort of kick started. Uh a lot of this off uh turbots modeling in the age of data was that your,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:32</span>
+  <span>was that also your sort of first uh move into machine learning and, and sort of more data science from your prior background, maybe more as a pure uh quote unquote turbulence modeling or, or engineer. Yeah, I mean, uh yeah, there is, I mean, first of all, I that paper you referred to is he wrote it in 2018, that was already six years into the work that I&#39;ve been doing in the field. But you&#39;re right, that is the first entry for me into data science, machine learning type of areas. Um And I I was never really a turbulence modeler as you or your adviser were. Um But uh it was certainly AAA good chunk of my thinking back in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:19</span>
+  <span>15 years ago or so. Um And, and the entry into the field was a bit interesting. So I was working on this idea called structure based turbulence modeling. It&#39;s very advanced. So think of writing equations for a three dimensional tensor. So 27 equations, of course, there symmetries and things you can eliminate a few. And there, even though we were going more and more fundamental into the theory, by the time you were developing a, a true turbulence model, there are just so many uncertainties, so many functions that we had to make up so many coefficients we had to fit. So we said, yeah, this is probably a task that data science can address.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:06</span>
+  <span>And of course, at that time, big data was everywhere. This is, this is the world of, you know, Walmart saying big data is going to be the next big thing kind of thing. So yeah, that&#39;s how I entered the field. You&#39;re right in that sense. Um Yeah, I I started this in this 2012, 2013 time frame and I think for a few years, there was literally nobody at least in turbulence and CFD doing that. Uh at least, yeah, for these kind of problems and then, yeah, the field kind of took off. Yeah, that&#39;s kind of incredible in a way. Now when you look back, it&#39;s hard to split the now to then because now machine learning AI is literally</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:53</span>
+  <span>everywhere you you can&#39;t even watch the television, listen to anything without being on where probably in 2012, 2013, was it even a struggle to get funding with the funding agencies not even fully appreciating it or was it, as you say, more under a different banner? This big data um banner? No, I must count myself lucky because the very first proposal I wrote when I came to the University of Michigan, I think it was called turbulence modeling. I think it was something to do with big data and turbulence modelling in, in, in the title and they got funded. It was one of, I think they had, I submitted to NASA, I think they had about 90 proposals and this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:36</span>
+  <span>14 and haven&#39;t been one of them. So I was lucky in the sense that when I started, even before my ideas were fully formed, I just shot out a proposal and it got funded and I must say it has not been a struggle at any point to get funding because uh maybe I got the timing right or, or whatever I asked the right questions, I don&#39;t know. But uh being ahead of the curve in terms of, you know, what needs to be done or what needs to be looked at, I think helps. But that doesn&#39;t mean the problem is anywhere close to being solved as I mentioned earlier. But yeah, it has been, yeah, that was my entry point. And yeah, it&#39;s been good to be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:23</span>
+  <span>um close to the center of the field and see what people have been doing. So maybe for people who are not as familiar, how would you describe the state as it is now? I mean, it essentially, I think still it&#39;s quite a ferocious debate depending on how close people are to the research. Perhaps some on one side of the coin being almost anti machine learning anti this sense that it&#39;s just all hype and, and why we&#39;ve been doing this to the other side that really do see it as being, you know, the next generation of, of methods from, I know we&#39;ll maybe expand this to a broader debate around scientific foundational models.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:11</span>
+  <span>But on the turbulence modelling side, how would you summarize how it is today? Yeah. So, I mean, I&#39;ve been saying this almost, I mean, first of all, I think you&#39;re right, that has been ferocious debate right from the beginning. And uh I don&#39;t know which side is louder right now. Um uh But, but I think uh if you want me to summarize the state of the field, I want to like separate a few things here, right? One early on especially and maybe even recently when somebody publishes a paper saying, hey, here is a method, right? So from the viewpoint of the person who publishes it, the viewpoint of the turbulence model, they&#39;re looking for a model,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:57</span>
+  <span>they&#39;re not looking for a method, right? So that is that disconnect, um which I think can be bridged better by being very clear about what the objective is, right? Um Yeah, but beyond that, I&#39;ve been saying this all the way from 2013 now, uh maybe as a way to, you know, hedge, I don&#39;t know what about why I started presenting my work this way. So I would go through this hour long talk on data driven turbulence modeling. And then at the end, I would say I have not presented to you a new approach to turbulence modelling. I&#39;m providing a new tool that you can use, right? And from that perspective, you know, what have we do? What have we been,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:47</span>
+  <span>what have we been doing as a community from 1960 right? We have some ideas, we put together a model and then we leave some coefficients to be calibrated. And in the way we make up some functions right along the way and then using some very few data points like the log layer and jets and things like that we calibrate coefficients or constants. Um So at least my view has always been do not abandon that by any means, but use these new tools, right, which can potentially help you uh in just more information and uh maybe do things in a, in a better way. But that doesn&#39;t mean</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:36</span>
+  <span>again, I do not want the focus to be on the machine learning. In fact, I organized a very successful conference in Ann Arbor about 2017 and I was on a war path. It was on data driven turbulence modeling. I said we should never use machine learning in the abstract or in the title because that is one piece, right? The modeling is the most important piece and then the data is another piece, right? So the machine learning is a little tool in this process. And even without using it, there are many ways to like massage the data, right, to get you the information you need. So, so it is a tool and I do not think a machine learning first or an AI first approach,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:23</span>
+  <span>at least in turbulence mind, we can talk about other fields where purely data driven machine learning type of or AI approaches can take you almost all the way. But here it is a tool in the modeller&#39;s toolkit and to use it judiciously as you have been using it in the past, right? Without overfitting, et cetera. I think that&#39;s the way forward. It has always been the way forward. In my opinion. Even though I would publish a paper, I did not claim to say I have solved this problem. I said here is a method you can use with your own uh judicious interpretation of what needs to be done with this tool. Yeah. Yeah, I guess it&#39;s always um</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:07</span>
+  <span>like with anything, there&#39;s always an overreaction to things sometimes where people. But I guess the turbulence modelling community in general has, has a large sort of quite conservative nature. I would argue as well, which probably makes it even harder for um newer methods to perhaps come in to, to, you know, to the phrase because people are used to doing a certain way. Um What, um and I guess this would also I&#39;m not as familiar, but I would assume transition models as well are equally, I mean, maybe a slightly changing uh angle a little bit. I think one of the areas you also work on is some of the hypersonics work. And I believe</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:57</span>
+  <span>transition modeling is one of the most complicated parts of that. Have you seen equally that, you know, for all these models of tons of coefficients and models that machine learning can, can play a part also in transition modeling that it&#39;s not just about turbulence modelling per se. Yeah, there&#39;s certainly quite a bit of work and I&#39;ve always said this um that I think even though neither problem has been solved to an extent that, you know, we would be happy with the methods. I&#39;ve always maintained that transition modeling may be more amenable to this data driven disciplines because at least there, there is a hope</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:42</span>
+  <span>that you can cover many possible regimes using hyper data and experiments because the Reynolds numbers tend to be smaller by definition right than the other way. But of course, in some senses, the the quality of measurements has to be better. But I think one of especially when you know, the the field has become more model consistent, I can tell you more what that is the ability to work with um integral data like ski friction or heat transfer wall he flux can still drive these models. So, so I think in a sense, I mean, quite, I would say about 20% of the work may be moving towards transition these days. That was not the case earlier.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:32</span>
+  <span>And one of our first um applications in this field was bypass transition modeling or at least methods for bypass transition modeling to be more size. So yes, there is a lot happening in the field and the fact that it is possible to run uh DNS at four or at least close to the condition that we want. And that being a rich source of high quality data, I think is something that is very useful. So the turbulence modelling on one side. So you could argue you&#39;re still, as you said, maintaining, um you&#39;re still using a traditional solver, whether it&#39;s commercial solver, open source government and you&#39;re plugging in your tuning coefficient.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:18</span>
+  <span>Um One of the points that you brought up and seems to be strong interest is replacing all of it versus a surrogate model. What&#39;s your view on that is this, let&#39;s say if we take just for now, um like I say an external aerodynamic example, like like an aircraft, do you see that a turbulence modelling machine learning fix is the way to ultimately get more accuracy and speed and, and all the the merits that people discuss or do you see that actually a surrogate model is the sort of better route and better angle given the advances in machine learning? Yeah, I, I think it certainly depends on the application how that computational result is going to be processed.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:07</span>
+  <span>You know, if you&#39;re doing design exploration, I do feel that a surrogate model for quantities of interest can take you, you know, can give you a lot of benefits, right? But if you are going to be probing some details of the flow physics, um and you want it to be somewhat general, I do not think a surrogate model can get it done. Um unless you parameterize the problem and there are a few parameters and you hit parameter space properly and then you can crunch through some, some large data. Uh You can&#39;t quite do it. The reason tends to be following, right? Like whenever we think of a surrogate model, we think of a system,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:56</span>
+  <span>right? And you have a lot of data on that system and you want to be um developing some representation of that system. But the take the classical CFD turbulence modeling approach where you can at least in theory run a problem for which you have seen no data for, right, a different system from the systems or subsystems where you trained your model, right? So that&#39;s the whole discovery process where let&#39;s say you want to design a hypersonic aircraft, maybe I have data for the an inlet. I have data from some shock bound interaction. I have some eran data. The advantage of going through the classical CFD slash PDE route is you can</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:47</span>
+  <span>in principle extract information from these different sub components. And if you do that properly, you can take that to this unseen problem, right? Whereas if you go with the surrogate, you do not have that flexibility, you have to have data from that system or a parameterized version of that system. And if it is a discovery task, then you cannot get off the ground, right. So that&#39;s why I think, you know, as I said earlier at uh uh machine learning is a is a tool of the modelers, toolkit. All of these are tools in the designer toolkit. So they help you address different parts of the design or discovery or analysis process.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:29</span>
+  <span>So yeah, both have a room and in certain circumstances, it makes a lot of sense to go with the surrogate model for quantities of interest. And in many cases, it makes no sense to do that right? And go with this other approach. So yes, both need both need to be like you would as a source of information to address different parts of the spectrum. But what about um physics informed approaches, physic driven approaches like like PINNs that, uh depending on the paper you read and the person you speak to have a, a much bolder claim of, of ultimately being able to solve the PDEs and therefore potentially move away or combine those two together in the sense of being able to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:20</span>
+  <span>um not be relying just on the data that you&#39;ve trained it on. Uh what&#39;s your uh opinion on those methods? Yeah. So I have worked on PINNs almost from the early days of PINNs. Obviously, I looked at uh George Karniadakis papers and other things and from probably the very first, very first week it was put on archive or maybe even before that because I think one of the students had given a thought, I&#39;ve been trying it, right. So I think if your problem is simple, right? Um And you do not have a code, I, I think it&#39;s a good idea, right? In the forward sense in terms of solving A P uh but where it,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:08</span>
+  <span>you know, runs into tough ground is we are pretty damn good at solving pds, you know, over the past century, we have so many reliable methods. Um And uh putting the PD in the loss function, there are a few uh few things that are not um uh appealing. Right? First, you, it&#39;s in the loss function. So by definition, you&#39;re doing it, you&#39;re not solving it exactly, you&#39;re, you know, reducing the residual to some level and that may be OK as a surrogate model in some applications. But even more so, right, if you think about all of the things we have learned in our numerical analysis classes and in our compressible flows</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:58</span>
+  <span>is the discreteness of the problem matters, right? Your weak form matters. Um You have Riemann solvers, you have when you a continuous form is not the same as a discrete form. So you kind of lose that uh at least in the classic formulation of the PINNs. And there are some approaches that try to approach it from a different way like Koumoutsakos at Harvard, he has a method called ODIL that tries to keep the discrete form. But even if you ignore whatever I said so far, purely in terms of speed, I have a hard time believing that for complex PDEs, these methods can beat conventional ways of solving PDEs just because I think the baseline is really good. So this is how,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:47</span>
+  <span>you know, I, when I maybe we&#39;ll get into this later, when I talk about what are all the successful problems in AI for science? And I list a few things and PDEs will almost never be there. And that&#39;s partly because the baseline is very good, right? We are very good at solving PDEs. All of that said when you go the other way inverse problems, then I find a good application for, for PINNs. I still can&#39;t say it&#39;s the best in class. It cannot, it may or may not be uh it probably would not be the best approach to do inverse problems uh using classical methods, but it may be competitive and you it does not have to compete against 100 years of,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:36</span>
+  <span>of accumulated wealth of knowledge. So so again, to summarize it in certain circumstances, as a surrogate, it could help. And there are also hybrid versions, right? You can inject some physics, you can inject some data and it has that flexibility without all of this machinery that we need. And your entire code could be like 60 lines and by options about 60,000 lines and inverse problem solutions. So it has a place there. Yeah, II I uh I must confess, I always find it. It&#39;s a tricky one because there&#39;s so like I guess in the early days of any field, there&#39;s so many counter claims and claims that it is sometimes hard to have a truly independent</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:26</span>
+  <span>view on it. I suppose you have to ultimately like you, you know, you have to get into the code, you have to look at it to really understand it. But um there was one comment and maybe this is a bit of a segue into the AI for science when I was speaking to one of the previous guests that scale has become the the main thing that that actually what has solved many of the large language problem issues is just the sheer amount of data and to the point that that is the focus not on the uh you know accuracy of the individual or the beauty of the algorithm. So with that in mind, and this discussion of data versus physics driven</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:09</span>
+  <span>is the real problem for fluid dynamics. And more generally, AI for science, just the data. And if we solve that actually, we will come a long way and we&#39;re just trying to solve a problem with so little data that that&#39;s really the issue. Um So obviously like having more data helps, it can only help if we use it the right way. But if you want to like solve hard science problems, I don&#39;t think any amount of data would be enough or the amount of data to be required is so large that that is not the main problem because we just cannot reach them, right? Again, unless your problem is so well defined like alpha fold, you know, going from</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:56</span>
+  <span>amino acid sequences to protein structure. So there the problem is so well posted, I shouldn&#39;t say well post but conducive to this kind of approach, right? But because you asked a more gentle question, I do not think that data is the biggest bottleneck because you will not have enough to like do that. Um But uh so inductive biases or or being able to bring in physics in tuition and I need to be very clear the right or the most appropriate level of physics, not anything you think, not some anything variant of something just because it, it feels appealing to us. Uh It&#39;s, you know, people talk about symmetries and variances, beautiful ideas,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:45</span>
+  <span>nothing wrong with that. But is that the most important thing for you to get the answer you desire or is that one other way of constraining the model to do what you think it should be doing with that information or should it be just doing something else to, to get it to where you want to go? So, um again, if the question is is well posed and you have a means of acquiring the data, then I would say data is the biggest thing, right? So again, going back to alpha for, I think they only had 170,000 proteins or something like that, that&#39;s not a lot. The common space is immense, right? And they were able to really solve the problem and advance the field.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:32</span>
+  <span>But if you take something like turbulence modeling in general, that is not the answer. But if you have a system or a class of assists you care about and you have your data driven modeling tools and you have a connection to some experimental or numerical simulation approaches that can get you the data you want, then yeah, I would say data is the most important piece. So it depends on your problem and and what you want to do. So maybe this is a good then se way to this discussion around foundational models because I think this, at least with some of the people I speak to is the most contested or argued point within science that just as</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:22</span>
+  <span>large language models seem to be able to do so much without being explicitly taught the grammar of a language or explicitly done something then logically and people even confuse the terms and say, well, can we not build a foundational model for science or foundational model for fluid dynamics? Where do you, you, you put, you put recently on I believe a very um successful symposium looking at this question of foundational models for science. So maybe you could introduce a little bit the the challenge and some of the ways that you think we can address it. This is a favorite of mine just earlier. This year, we started a new center on scientific foundation models.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:08</span>
+  <span>Um So there are foundation models for science and then there are foundation models for particular domains within science. So there&#39;s I I want to make the distinction and we can cover both. But uh I think to answer your question. Um so by definition, right, this foundation models tend to do um general things in a very broad domain. Whereas the classical AI techniques in science, they tend to do, they want to have a narrow application and they tend to do something specific, right? Um So some people say broad and shallow and narrow and deep. But, you know, I don&#39;t want to go go that route.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:57</span>
+  <span>Um But, but I think the, the uh discussion around large language models has been incredibly fascinating. Right. So, because JJ, that was maybe for natural language, it is, it has really been surprising even to, I think open AI, I do not think they expected it to expected 3.5 to be, to make that much of a splash because they pretty much had whatever we saw in, in November 2022 they had it a year ago, they just put an api play. Um But I think, I think the buzz can be explained in many different ways. So one is uh the ability to ability of these large language models to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:47</span>
+  <span>bring together different concepts and compose them, right? That I think is what um I think quite people off track, there&#39;s a beautiful paper from Princeton from Sanjiv aa&#39;s group where he defines topics and skills, right? A topic could be suing or mending or whatever, right? And a skill could be uh metaphor could be a skill and then he passes these topics uh and then he in his prompt, he he asks um the prompt in such a way that many of these skills and topics have to be covered and composed and then you get answers. And what he found was the larger the model, the more composition was happening, right? Between these topics</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:37</span>
+  <span>and he made a very clear argument that the commentator space of topics and skills is so large that it is impossible for this to have seen all of this in the data, right? So the ability of these models to to compose and combine these different topics to a degree, if you go more than seven or eight compositions, it breaks down and and the small model would break down at three. So there is already something like intelligence there. And if you so so to me, even if these large language models do not get much better, I think they can still be extremely useful, right? And um I have a lot of thoughts on it, but I want you to like ask me something more specific so that we can we can hit,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:26</span>
+  <span>hit what you want to hit, not what I want. No, no, no, no, this is, this is good. So maybe um one question is do the architectures and the methods that are used for current foundational models for things like ChatGPT or Llama or et cetera. Can they be used largely as is or with minor modifications for applications and science or do we need completely different architectures to deal with a? So at a high level, is it just a matter of using the same thing and just plugging it into different data sources or do we need fundamentally different approaches than the sort of transformer style that has been used to date. I think the answer is both. Right.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:11</span>
+  <span>Let&#39;s, let&#39;s talk about the first thing, let&#39;s say you wanna have a uh a scientific version of GPT-4, right? So, as you said, uh plugging into different data sources is certainly a start. And I think that would certainly be uh something that would probably be very beneficial. So, for instance, uh you know, I was working on a fairly complicated mathematical derivation a few months ago and I would have pinged GPT for about 50 times no less than 50 times during the process about, you know, some statistical expectations and some expressions that I was struggling to derive maybe 49 out of those 50 times, it was wrong,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:57</span>
+  <span>but 50 out of those 50 times, it was useful because I was prompting it. And it was always telling me pushing me in directions that as a reasonably sophisticated expert, I could use that information and know that it is doing this arithmetic or is math wrong, but it&#39;s thinking in the right direction, right. So, so, so that&#39;s why I feel there is a, there is a place for this. And if you look at what GPT-4 and some of these other models have been trained of, you never know what GPT-4 is trained on really. But, you know, something like Google&#39;s P, they&#39;ve released at least some statistics on what they trained on. Science tends to be like</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:39</span>
+  <span>less than 5% or maybe 3% of the entire data corpus sports was probably bigger than science entertainment was probably 20 times bigger. I don&#39;t know. But so just changing that balance is gonna be enormously useful. And our colleagues at Oregon National lab have actually started that process of curated scientific data, you know, from journal papers and guiding the process. So I think that even if the base is just in large language model with some multimodal capabilities, I think that is still going to be very useful uh in many different tasks. Um And there&#39;s also this this confusion</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:28</span>
+  <span>or maybe misguided emphasis on these things being able to like solve your problems. But I think the best use of these models in my opinion, at least for the next 15 years, nobody can predict the future. But at least the next decade is to use these as assistance, right? For things that you want to be doing and for this to be doing the the low end of the uh scientific process, right? You were still, you know, looking at the details and you&#39;re using, you&#39;re guiding it. But yeah, to answer your question more directly, I feel even a GPT-4 like base um but</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:16</span>
+  <span>architecture but with uh the right data can take us a long way. But I also want to talk a little bit about, you know, even within this architecture, there is a lot we can do to improve the output, right? For instance, these things are trained to complete the next token, right? In, in, in at least supervised unsupervised pre training, they just complete the next word. And it&#39;s not really as some people say, thinking before speaking. But if even that part can be iterative, I think you can still get a huge performance gain. OK. And um being able to provide additional context or being able to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:04</span>
+  <span>connected to agents that can go look for other things, even this architecture, even if the architecture doesn&#39;t get better. And even if um the language part of the model doesn&#39;t get better if it&#39;s done, right? I think it can be massively beneficial for science. So are you referring a little bit more to the idea of during the conceptual phase? So not simulations now, but just more scientific discovery like developing a hypothesis or analyzing flow fields? Or you&#39;re saying that you could be using these transformer style models to help in that side, not just the replace physics based simulations</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:53</span>
+  <span>by machine learning. That&#39;s kind of what you Yeah. Yeah. So I only answered the first part of your previous question, right. I said if we just stick with LLMs and transformers, even if you do that, right? With some tinkering with the with the way it&#39;s trained, like I said, not just complete the next word but maybe one day today and that&#39;s not too hard to do. So I think that will automatically help but then, and it can help data processing, it can help you, you know, code up, it can help you in so many ways as scientific assistant. But for other more regular science tasks that we do, of course transformer architectures on their own won&#39;t cut it. We need</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:39</span>
+  <span>newer architectures and I wouldn&#39;t even say newer. Uh most of these things have existed in, in some form for a while. We just, as you said earlier scale, we are scaling it up and we are uh I would say you can hobble it as Ian Foster from or God says it. But yes, uh different architectures but not necessarily completely radical that doesn&#39;t exist so far. So with that, like maybe diving into perhaps some examples and because I&#39;ve always been having this sort of theoretical debate with um with some colleagues. So if you wanted, what do you see as the definition of foundation or do? Is it really realistic if we just look at CFD</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:30</span>
+  <span>that instead of using a code by company X, you know that you put settings in that it could be economically viable, that there could be a model trained on enough incompressible compressible, low speed, high speed, you know, all different flow regimes that you could essentially then give it a geometry and it has seen somewhere enough to be able to give you an answer or do you see that it is more likely a quote unquote foundational model that is for a particular flow regime or a particular use case. Um answer could be both. But if you&#39;d ask me maybe</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:19</span>
+  <span>six months ago, I would have said the first thing is fiction, but my thinking has evolved on this and there&#39;s also been some work trying to train these models on different kinds of domains and introducing body conditions by masking and things like that. Um So I think it is possible, right? So think about it is, but, but your question was to get an answer, even get an answer. I don&#39;t think that answer would be terrible, but it probably won&#39;t satisfy all of your needs, right? So think about, think about uh uh an immerse boundary type approach where you can put in any geometry, you can put in boundary conditions with the meshes</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:04</span>
+  <span>condition and then your geometry gets represented, you know, as a cut cell or mask or whatever it is, I really think and there&#39;s a paper from Anima Anan Kumar&#39;s group, a Kumar&#39;s group that does something very similar. So I do think even, and it&#39;s not like very complicated, I think even within the next couple of years, we may see something like that. Uh that is somewhat reliable, that can give you an answer. That could be, I&#39;m just making up a number here like 75 80% accurate. In my opinion, that is still useful because that&#39;s not your final thing. That could be your precondition or that&#39;s the first guess</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:52</span>
+  <span>that you want to explore in many different ways. I really feel that that kind of capability is not fiction. I would not have been as confident in my answer six months ago. Um So right now we&#39;re running a summer school and we are, one of the hackathon groups is actually trying something like that and I&#39;m actually seeing that in action. So yes, it is possible to, to get there. But you know, if you go to a purist and say, hey, look at this answer, they only look at where it&#39;s wrong. And I think that that view is OK from uh uh uh guardrail perspective. Um But then the other question you asked, you know, for a class of problems,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:36</span>
+  <span>I think yeah, many tools that even pre foundation models, many tools we&#39;ve been developing can actually get us there. And in fact, I even covered one such example earlier and I spoke about if you&#39;re able to parameterize the problem, then I think AI can, these MS techniques purely data driven can do you know a lot of damage already. And then with these foundation models thrown in especially foundation models that can interact with agents, right? At least that&#39;s my notion of how these things would be useful in the future. Even if these GPT-4 like models or GP T five or whatever they are, even if they plateau in their accuracy,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:23</span>
+  <span>their ability to interface with more specialized agents to carry out tasks in more specific tasks and then being able to synthesize information back. I think to me that&#39;s the most realistic or pragmatic scenario of how these tools will evolve in the next decade or so. But um some would say that this opens up a very interesting uh commercial or ethical angle or both. So one is if, if, if you were to make a foundational model, let&#39;s say that is for conceptual design, so not super high accuracy, but for conceptual design, um most of that data is public,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:12</span>
+  <span>you know, like a hypersonic vehicle, not many uh hypersonic vehicles, all the results are in the public domain or for a um or even for like road cars, you know, a lot of those are kept commercially sensitive. How do you think we would get around the the data availability issue? Yeah, that&#39;s an interesting question for which I don&#39;t think one person can answer but, but remember there are two stages that is this pre training stage and then there is the fine tuning stage. So when I say this will be useful, the pre training may not be as sophisticated, but every organization can have its own fine tuned fine tunable data sets</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:56</span>
+  <span>and that can be private, that can be as sophisticated as they want, right? And then there may be enough, you know, there is enough open source activity out there even for something like hypersonics, even though I think at least in the near future things will be more closed than open. There is enough open source research happening um in this country and in Europe and other countries that I think getting the data sets for pre training is not unrealistic, but then the magic would be but that on its own, I do not think is going to be helpful for problems that are not closely related to,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:46</span>
+  <span>you know, the big uh the over represented parts of the data set. But so the fine tunable parts, I think that will be the most valuable. And as you know, the pre training is a bulk of the cost, right? It&#39;s about 95 99% of the cost is in pre training, generally speaking, and then people can have their own fine tune things within their organizations. So how um how can how can the community go about and do this then? So what are the practical challenges you put on the symposium to look at foundational models? But what needs to be done essentially to enable this? Yeah, I think, you know, anytime a new field, newish field emerges,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:35</span>
+  <span>you need to get people together and talk, right? So that&#39;s really the first step that we have organized here and we had this conference in April of this year. So next uh summer or early summer, we&#39;re planning the next version of this meeting and it&#39;s gonna be a really big deal with all the names you hear in the news, hopefully most of the names at least uh to be to be present. So I think so that&#39;s one activity right to, to be able to discuss ideas, to be able to discuss tools, to have tutorials, you know, to propagate this thing. Um But beyond that, there are already a few things that are happening uh in creating these</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:17</span>
+  <span>subdomain groups. And at least if some of visions, visions come true, we may have a multi university uh government industry consortium. I call it as, as futures IFM Institute where we go through this process. But I would like you to look at, you know, there is one organization, I don&#39;t know if you know, it&#39;s called the trillion parameter consortium. It&#39;s kind of laid out of organ and uh they already have probably like 50 universities. Michigan is a part of it and a few national labs and not just the US it, it&#39;s easy website to remember T PC dot DEV T pc.de. And they&#39;re already facilitating precisely the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:07</span>
+  <span>kind of things you&#39;re talking about, right? They&#39;re organizing, they talk, they talk to AC M and they&#39;ve organized access to the journals. They are basically setting a benchmark, they&#39;re setting up evaluations that is still to support the science, the Open Science Foundation model in particular. But that is the community that is the farthest along in uh enabling the kind of thing you&#39;re talking. But that is not a body that, you know, gives you money to do research, right? But, but we are, you know, envisioning this this kind of institute with uh you know, government funding and philanthropy and venture funds to make sure there are also the resources needed.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:57</span>
+  <span>But uh you know, starting with some of our activities as part of the next foundation models conference in in May 2025 we already have some of those structures built up as you know, uh we collaborate with larger organizations. So um if you take CFD, which is our traditional domain, there are those eco tact data sets and there are maybe about 10 or 12 such sizable clusters. I mean that would be a start. But then if you have an open way to uh bring data in and hopefully some resources to train it and then more importantly, incentives. So I think the incentives have to change right now. At</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:45</span>
+  <span>least so far, the academic and the scientific community incentivizes certain class of activities as more valuable or more procedures and that has to change, right? Uh And I think to me the one of the most exciting um aspects of aspect of foundation models is the idea that for the first time in human history, I must say there is a possibility of say thousands of domain scientists collaborating on the same platform, right? You know, some of them are contributing data, some of them may be fine tuning some of them are building the architecture, some of them are doing evaluations.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">55:36</span>
+  <span>Um you know, some of them are probing the models, some are developing architectures, but it is the same platform. That&#39;s kind of pretty crazy if you think about how it changes the nature of collaborations, which tend to be kind of loose, you know, unless you have a project like and other things. Um but still this can be more direct, everyone&#39;s working on the same platform on the same type of model and bringing their pieces in. And I, I think many countries I think will start to coalesce around us because of the fact that this is a collaboration tool that is that is unprecedented. But again, I think the the benefit would be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:24</span>
+  <span>uh when this model kind of interacts with those agents, right? And some people may be developing those specialized agents like for protein folding or turbulence modeling or whatever. So, so I think you can unify domains within science and science itself. And this is the first platform that allows people to do that, right? So I like that idea. Uh I, I think what your vision is is more of a and I haven&#39;t heard this articulated in such a clear way, you&#39;re saying essentially that we sometimes double down and focus in this fluid domain CFD domain on PINNs or on, you know, neural operators on things. But you, you&#39;re already seeing them as the sort of the the agents</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:11</span>
+  <span>that a future sort of large language model can be calling, but there needs to be also the investment on the underlying or the, the main thing that&#39;s calling those agents and, and able to interpret what we&#39;re asking. And that&#39;s something that perhaps hasn&#39;t been as widely spoken about. At least I&#39;ve not heard this as much and I&#39;m appreciating you saying this because it&#39;s kind of making sense in my head now. Um, and I guess it can learn vice, you know, the agents can learn from what the large, large language model is doing and vice versa, I guess to, you know, to do that. Um I do want to mention one important thing, right? So it is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:49</span>
+  <span>the the large model, the agents and the humans also in the loop doing this general guidance and evaluating but taken together. I think this has the potential to be a new way of or to be more conservative here, a new tool to do science, but a collaborative tool that has not existed, right? Well, you, you probably know where I&#39;m going to go next with this because I&#39;m always never sure. And I think it&#39;s a global debate on regulation and, and the ethics. I know that when I&#39;ve spoken to various, you know, um colleagues or people at conferences or, or wherever there then starts to be this, you know, light bulb moment where you realize, hold on,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">58:37</span>
+  <span>you&#39;re condensing a lot of knowledge into a, into one thing and most software packages are have I A restrictions or have some form that stops them going, you know, to other places. Is it the case, how difficult is it going to be to do this fully open source? Yeah. Well, again, what is open source is, is the the first question, right? Like whatever is available, open source right now has data under the use it under the right terms, I think could be fair game for the pre training, the pre trained part of the foundation model.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:26</span>
+  <span>And then there&#39;s a fine tuning and the agents that become a little more specific, right? So again, I&#39;m not an expert on this topic, but even in that scenario, there are many things to worry about what is, you know, you spoke about. Uh I don&#39;t know which two words you spoke about, but you didn&#39;t talk about, you didn&#39;t mention security, right? What if you know, something comes out of this, that could be potentially a risk to national security or, you know, some other thing that we worry about. So that&#39;s certainly an open question. And I&#39;m not, I mean, I was comfortable talking about everything before this because I thought about this.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:08</span>
+  <span>I kind of worked on some aspects, but that&#39;s not my expertise. So, but I would say yes, I mean, we have to look at this very carefully. Um But I think what is openly available can be used, right, for that. And then for things that are more uh this open science foundation model um is not the only open, only science foundation model that would be out there, right? Um But the the thing there, of course, the risk there is people organizations, countries that have more access to more resources and more compute and more data will have their own, more powerful foundation models. Um And these are going to be very expensive to train</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:57</span>
+  <span>if you ask me, are they useful? I would say, absolutely. Are they always going to be accurate? Absolutely not, but they can still be huge productivity, they can still, you know, result in huge productivity gains. And I think from a uh national interest, I think countries should be investing in this because of the potential. But is it worth investing $7 trillion? Like Sam Altman says, that&#39;s a different debate to be had. Um But, but, but I think, you know, I wish in the next year or two or at least as soon as possible. At least the only thing I feel strongly about this is there is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:46</span>
+  <span>this whole thing about artificial general intelligence and you know, we want, we will get there by in five years to 10 years. I think that&#39;s a big distraction given what these tools can already do and what these tools can, can do in the next few years without that goal, if that is the goal, I think people be disappointed, very disappointed. In my opinion. But if you have more pragmatic goals about productivity boost scientific assistance and you&#39;re able to work with the realization that these things will never be perfect. They may not be able to tell you something drastically new, but they can still be a massive productivity boost.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:32</span>
+  <span>I think even within the next few years, we&#39;ll see great benefits come out of it. Well, I guess the previous episode gave an opinion and I was interested to see what you think of this around the role of academia, the tech sector and start ups to achieve this vision you&#39;re talking about of, you know, a new platform, new technology for scientific discovery. What where do you see the roles of all three of them? Where does academia fit into this? Where are start ups required? Where are the tech companies needed or industry? This is I&#39;m glad you asked me this because one of the exciting aspects of the platform that I described earlier</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:03:13</span>
+  <span>was because different uh kinds of organizations can do different things, right? I do not think at least in the next two or three years, academia would be doing the pre training because I mean, you need 10,000 GPUs just to get off the ground, right? So that&#39;s not what academia is probably ever going to be good at. But then almost everything else that I mentioned, right, data curation, I mean, traditionally academia has been keepers of knowledge, right? And this is, this is just baked in, right? Maybe they don&#39;t have access to all kinds of data, but the open data, right. So that&#39;s that is where academia is at its strongest.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:01</span>
+  <span>And then let&#39;s go down downstream, right? Let&#39;s talk about being specialized agents. What does academia do? Basic research, specialized, narrow. So that is the clean role there and maybe even the fine tuning process. And then, you know, if you talk to people who are developing these science foundation models and probably any kind of foundation model right now, they&#39;re not complaining about when I talk to them, they&#39;re not complaining about data, they&#39;re not complaining about compute. They&#39;re saying the most important thing is evaluation and feedback. You know, I can again envision a future where um as part of many</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:45</span>
+  <span>classes that masters or PhD students or undergraduate students take where they may be evaluating or fine tuning or creating data, right? Uh So, and this kind of expertise and and human scale only exists for for these kind of tasks only exist in academia. And of course, there&#39;s a lot of basic research needed to improve architectures to uh as again, as as people say, coming of it, much better ways of much better, much better ways than just complete the next word uh this iterative process. So this is where academia has, it has its strongest. So except that one pre training block, I think academia is in a nice position to contribute</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:35</span>
+  <span>e everybody else and then you have national laboratories uh who are very well placed uh for certain parts of, you know, this, this this ecosystem. Um how do companies come in that complicates things a little bit because mostly these are for profit and so they have their own goals and some of those goals, thankfully, I think overlap with some of these broader ambitions we have and certain companies, it is in their best interest to sell more GPUs. So I&#39;m sure I&#39;m sure they can help in, in, in, in addressing part of the research and the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:06:23</span>
+  <span>and the computing resource kind of spectrum. Uh So, so I think all these organizations can have a very clear role in this entire process, entire platform. And that is again, very exciting to me, right? Even even companies that are, that have different goals than academia and national labs, which have slightly different goals than academia and companies, I think there is still so much common ground that maps to like one part of the platform or the other. I don&#39;t know if you have this similar thought, but I do often wonder, I mean, I don&#39;t envy the people at the top of Seamen&#39;s or Dasso or Ansys or cadence</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:07:13</span>
+  <span>who are probably faced with a a complication. Do I bet the House essentially on, you know, really going in on AI and machine learning and this idea of scientific foundation models because you know, a lot of scientific discovery is done using their billions of dollars worth of software packages, you know, throughout engineering and science or do we continue and make even better these higher fidelity, you know, physics based simulators? Do you know to me that like there was not, well, I guess there is in large language models, there were companies already doing things and I guess Adobe and Microsoft and others are, are in there.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:08:00</span>
+  <span>But just give my point, what role do you see for these massive companies already in the simulation space who arguably have the most to gain or lose from um these new methods? Um I&#39;m glad you just asked, you just restricted your domain to simulation. So that&#39;s easier to answer. If they bet the House on foundation models, I think it would be foolish. I think if they bet the house purely on AI, that would also be foolish. But if they ignore this, that&#39;s even more foolish. So, so that is, I think a happy medium where whatever you&#39;ve been doing and whatever you are very good at those can be agents. Remember, agents don&#39;t just have to be AI agents, right?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:08:49</span>
+  <span>An agent could be your uh beautiful solver, right? And it may maybe there is an AI angle to it, but it doesn&#39;t matter. But I think, you know, I mentioned earlier about uh probing an evaluation if there is something that&#39;s fairly trustworthy like your solver that you&#39;ve developed for 20 years, that can play an enormously useful role in this evaluation process. You know, the foundation model can generate a prior that can be evaluated or fine tuned, right and brought back in. So whatever you have been good, I don&#39;t think AI fundamentally changes many things that we have been doing. In fact, I think it can</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:09:37</span>
+  <span>help drive more value also because AI on its own has many shortcomings that cannot be addressed using data alone. So, so yes, I mean for those simulation companies, um you know, being uh cognizant of some of the developments and then even taking open source models and maybe you don&#39;t want to spend enormous amount of computer on on this pre training stage. But uh collaborating with institutions like I mentioned earlier, right, if we have an Open science foundation model, then maybe Stevens can provide you shouldn&#39;t name particular names, but</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:10:28</span>
+  <span>the particular companies can provide services in the context of the tools that they already provide, right? So I think there are a lot of opportunities there at the intersection of what you&#39;re already good at with all of these things happening. And of course, some other companies that I think certain certain simulation companies that are already part of a bigger conglomerate. I am absolutely sure every company has this in their vision and they may have their own context specific uh models that will be interface. So the short answer to the question is. Yeah. Don&#39;t bet the house fully on this. But, uh, it&#39;s not something that can be ignored either,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:12</span>
+  <span>but at the same time I&#39;m sure there is completely unreal, unrealistic expectations all over the place from customers and management. Yeah. It&#39;s kind of interesting if I speak to some of my friends who work in industry and it&#39;s hard to know because sometimes you don&#39;t know whether you&#39;re in the bubble, you know, by being in a certain thing. But they are almost to the point where they&#39;re sick of people pitching stuff to them. And, you know, it&#39;s almost, you know, the classic response is, well, you know, we&#39;ve had reduced order models for decades, you know, you&#39;re just rebranding this. So there is, I think the danger of some of the hype of AI in general</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:11:51</span>
+  <span>and if you go in too early into a field, promising the world, it can sometimes burn trust or it&#39;s a do, do you see that sometimes in your discussions? Yeah, for sure. And, and, and I don&#39;t know if, you know, I have a start up as well and it&#39;s called Gin s dot A. I, we&#39;ve been going for about five years and even before the foundation models, we, we had the same kind of challenges, right? People think it&#39;s like very little data, you can create magic. Uh But I think what has worked for us right from the beginning is by setting these expectations and saying hey, this can, I mean, just be very clear about what it can do well and what it could do</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:12:39</span>
+  <span>and what it cannot do and being very clear and you know, being honest about it, I think, I think there is a, there is a way here, but you&#39;re right. I mean, there is we have faced some customer scenarios where understanding of the capabilities of this technology is so unrealistic. Um but it&#39;s an iterative process ultimately. If you&#39;re able to show that there is something that can be done at lower cost or, you know, in, in quicker time with reasonable accuracy, then that iterative process, you know, I think will take hold ultimately, right? Nobody&#39;s going to argue against actual utility, right? It&#39;s the perceived utility</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:13:25</span>
+  <span>and hype that uh cloud things up. Yeah. Yeah. Um One of the things I&#39;ve tried it in all the episodes where possible is a bit of, well, career advice, I guess. And you&#39;ve rose to be a very prominent and successful professor at leading university. You have your own start up. Your many people look at people like you and they often wonder, well, how did you get there? How can I get there? Um This is a difficult question to ask because I know it&#39;s very dependent on people&#39;s roots and everything. But what have you learned along the way? If people are wanting to go um into academia, they&#39;re wanting to rise, they think. Oh,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:14:17</span>
+  <span>would you do the same as you did and the paths that you would take differently as advice you would give if you, OK, let me frame it. You&#39;re a PhD student. Now, you&#39;re already doing a PhD, let&#39;s say, in fluid dynamics. And you would like to become a full professor one day. What, what would be your advice to that PhD student? So that&#39;s a question to answer then, the more broader question, although I have been asked that question quite a few times, right? So, so I think I did the first part very briefly and then get to the second part, right? For me, the only thing that has driven me is curiosity and, you know, not defining a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:15:01</span>
+  <span>control volume, saying this is what I&#39;m interested in but being intensely curious and then slowly growing the control volume to come for certain things. And none of, I mean, if you say I&#39;m successful, then in your view, I&#39;m successful. But I don&#39;t define things that way. But what has worked for me is just pursuing the curiosity but also not forgetting what needs to get done on the site, right? To keep the trains running on time. Uh But yes, what advice would I give my PhD students? Uh Maybe I&#39;ll, I&#39;ll interject another question. I get asked a lot, right? When people ask about, I get asked this, I mean, I&#39;ve given about 20 talks over the past few months just on these AI topics and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:15:51</span>
+  <span>this question comes up, you know, I want to specialize in AI for science or my group ones. Uh So where should we start? And what should we be focusing on? My first answer always is get really good at the science because the AI is not going to solve any scientific problem to a greater degree than what the expert solves. But if you have a very good understanding of, of the domain and you do not lose any rigor there and then you pick up the essentials of AI, then it can help you be much more productive and uh you know, hopefully like leverage it in the right way. So, so I think I would give the same kind of advice. Um</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:16:34</span>
+  <span>You know, the foundations are the most important pieces you&#39;re, you know, losing, I mean, without losing rigor in, in, in, in, in mathematics, physics, chemistry and biology, where, where, where it matters. Um then every AI and all of these techniques that come about, right, are basically layers that are built by combining these different different nodes. And um I think for those who have that perspective and have a solid foundation, I think moving into new areas is, is, is, is, is much easier. But I think your question certainly has one important aspect that I want to highlight, right? So</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:17:24</span>
+  <span>if you think about how academia has changed or even nature of research has changed in the past two decades. Um when I was a graduate student, everybody pretty much in my line of work would write a solver from scratch, right. So that has changed completely, you know, one PhD would be running an le properly. That was, I think at the Stanford would say that even like 10 years ago. So all of that is changing. So, and to be a faculty member, to be a, a professor at the university like Michigan, you were the expert in your domain and you had a big impact in the field that has changed AI or not, right? Because globally, there is just</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:18:13</span>
+  <span>lot of researchers, you know, looking at these topics. So if your foundations are very strong and this is not just for academia, this is for industry and national labs as well. If your foundations are very strong and then you&#39;re curious then uh without losing that core aspects, being able to navigate into newer and newer areas and adapt and be flexible, I think that becomes easier. And my PhD students, you know, II I I called the PhD program at least in my lab as a, as a training exercise to equip you with the skills rather than just to like solve a problem from end to end. So gain as many skills as possible. But the most important thing is, is, is the rigor that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:19:02</span>
+  <span>um makes you see things and connections and makes you navigate those as seamlessly as possible, very rarely meet academics at the top of that profession who aren&#39;t genuinely excited and interested and, and feel almost like, you know, they&#39;re running their own start up. I know you also have a start up but, you know, you, you kind of, compared to an industry, I speak to far more people who are a little bit miserable and sort of depressed and I know academic academia has many problems but normally when I speak to an academic, they are still genuinely reasonably positive um about at least the flexibility they have and the ability to set</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:19:46</span>
+  <span>sort of their directions. Yeah, it is like I never left grad school or sometimes I&#39;ve never left kindergarten, right. I get to play with these amazing tos and tools and get to collaborate with people. It&#39;s just an amazing place to be, but it&#39;s not without its challenges, right? Especially the first seven or eight years in academia can be extremely stressful for some people, not everybody. And of course, the move from postdoc to assistant professor is also very competitive. Um and it&#39;s maybe not for everybody. But I think for like you said, if you are genuinely driven by curiosity and passion and you are um you know, you, you&#39;re,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:20:34</span>
+  <span>you&#39;re paying your bills for things that you have to pay your bills. I think it&#39;s incredibly rewarding career. So maybe as a final question, as a bit of an outlook to the, to the future and I know these are always hard. So maybe more thematically where, where you see it if you were to fast forward now and you&#39;re doing your symposium in five years time, what do you think will have been the big achievements by them? What do you think will be, will there still be the gen AI hype? And it will keep going will have there been in the winter of AI and people will be moving on to new things like quantum or where do, where do you see</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:21:16</span>
+  <span>in five years time though the academic world around, let&#39;s say, let&#39;s restrict it to fluid dynamics just, just to make it a little bit easier to predict. Yeah, first of all, I mean, even next year, it won&#39;t be my symposium. It could be the community symposium. I think a whole bunch of us together, we come together to organize it. Yeah, but, but uh you know, II I, especially in AI, right, predictions never go to plan. You know, I think in 1971 of the most famous AI DS such as ever, Marvin Minsky of MIT who started their AI lab, he said in, in 3 to 8 years, you&#39;ll have a machine with general intelligence of an average human being.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:21:59</span>
+  <span>And I think in 1965 they said within six years, we will have a computer that will be the best human chess player. Um So in that sense, uh I would say, I mean, I think these things will happen at some point. But what I, what I have learned from listening to many party leaders, including Jeff Hinton and all of these people. Yeah, thought leaders tend to compress, compress time frames a lot, right? So I will not give you uh precise answers on what will happen in five years. But uh I feel uh there may be one big leap</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:22:48</span>
+  <span>in the capabilities of modules like GPT-4. Um But I don&#39;t know if it would be as big as going from zero to GPT-3.5. But, but there&#39;ll be one big leap there. Um But in, in, in more restricted domains like D modelling, I think again, maybe this is more of a hope. There is no two camps, there is only one camp and because it&#39;s a turbulence modeling, there should only be turbulence modelers who use these tools better. There is no like AI people and traditional modelers. So I think it&#39;s already been slowly like coming together because I mean, I&#39;ll be honest, right? In 2012, I could write anything and I could, it could be published</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:23:35</span>
+  <span>um in this topic because it was just new. And then slowly uh people had to show that I&#39;m not just doing a periodic learning, I&#39;m being more consistent and then almost every paper that people are working on now, it has to show some level of generalization which I was not doing in 2013, I was training and testing on same or very similar things. So in that sense, the field is moving but I still have not. And because of the nature of how funding works, you know, if you get like $500,000 from NSF, you&#39;re addressing a very specific question and you will publish papers to address that very specific question. You know, we need a broader thing like in the US, we have things called new</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:24:27</span>
+  <span>multi universities admissions. So it&#39;s like order of 77 $8 million. So there now you&#39;re getting different kinds of people together and not just developing methods, you want to develop some solutions and that still has not happened again, maybe that&#39;s an excuse, you know, my group has had it enough different projects that maybe we could have done something like that, but to have more unified uh projects and collaborations where the goal is to actually create better models rather than showing what your particular contribution is doing. So, so I think that I think that will happen because even in terms of publishing and even in terms of funding so far,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:25:17</span>
+  <span>you being able to show a few things has been good enough because the field didn&#39;t quite exist or mature. But as with any field, once some of the lower hanging fruit have been picked, then the demand, the market would, would desire actual progress. And I&#39;m pretty sure in five years, at least the mark. It&#39;s very clear what the market desires and I think it will drive it towards the models. I don&#39;t, I still don&#39;t think data driven or not. Uh uh general generalisable turbulence modeling model exists because of many things I go through going in that paper that you have to tell you. But I think for particular domains and flow regimes,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:26:07</span>
+  <span>he just needs, I, I think the methods are there, the community, the community is big enough uh People just need to come together under the same umbrella and then some, some people have to come together and I think you&#39;ll already see a lot of benefit. Yeah. Well, I won&#39;t test you in five years time on that, but I&#39;m pretty sure you&#39;re, you&#39;re right that it seems to be one of those ones where um there&#39;s enough swell of people working on it that it seems irreversible now in terms of momentum. Um it doesn&#39;t seem like quantum where there was this bit of a buzz. But then it uh I know that&#39;s a whole other topic how machine learning is sort of, you know,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:26:56</span>
+  <span>push quantum aside a little bit from a lot of people&#39;s minds, but it feels like with, with machine learning. AI, there&#39;s almost every person you speak to in the community is doing in some form. Um So it, it feels like it can&#39;t really turn back. But yeah, whether there&#39;ll be a um I guess in the weather domain, things like FourCastNet and GraphCast have had their big moments. Uh I guess what you&#39;re referring to is maybe uh there needs to, if, if there is one in the CFD, for example, domain that would be enough of a catalyst to then convince industry as well where it seems maybe there hasn&#39;t been that GraphCast, FourCastNet sort of moment yet.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:27:38</span>
+  <span>I would argue in CFDI, I would say that it&#39;s not that the moment hasn&#39;t existed. The question has not come up. The the weather, weather prediction is uh is a sweet spot, right? For these techniques, lots of data, lots of good quality data. And then the question you&#39;re asking is you take one system and you&#39;re saying, predict few days or two weeks, that&#39;s the only question you&#39;re asking. And I think for that question, I would say the tools are fairly good, I say fairly good because in my opinion, these models don&#39;t need to be as sophisticated</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:28:27</span>
+  <span>and as expensive and they can still do a nice job, right? But you&#39;re right. So that&#39;s to me, that&#39;s more like the sweet spot problem existed. And the question was narrow enough that you could. And those are the problems that I think AI has been really doing well, right? Like alpha fold is the prime example, very specific, very narrow question. Now, if you say, can we go from two weeks to climate, then all of the work that&#39;s been doing then needs a lot more, a lot more work. So, to me, the, the turbulence problem is more like the climate problem rather than the weather.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:29:18</span>
+  <span>Yeah. Which is why I guess I was originally asking like, the, maybe we, we need to set our standards a bit lower or our site a bit sort of narrower on, like, you know, even if you could develop something that proved you could design a commercial aircraft, that is the thing where I guess the picture has often been by, by some like all of CFD, which just seems almost like that&#39;s like predicting the weather on any planet in anywhere in the universe, you know, by definition. But yes, I think every organization within their, their confines, I think even full aircraft design is a bit too big for now. But yeah, it can change.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:30:07</span>
+  <span>But even if your, if your thing is not, you know, the weather prediction problem, it&#39;s end to end AI. Right. So that&#39;s like really clean, I don&#39;t think end to end AI for something like aircraft design, I don&#39;t think that will ever happen. But in the end to end spectrum, I think already like a few gaps can be like closed and because there are uh human experts in the loop, this can be beneficial. But, but otherwise, yeah, these tools are not useful without that human expert being in the loop and guiding them. But I think as time progresses, I think more of these gaps can be addressed and more productivity benefits can be,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:30:55</span>
+  <span>can be achieved with not much more sophisticated tools. It&#39;s just having the expertise to like integrate them and guide them and do the well, I feel we could probably talk for hours on this, which is the danger of AI and sort of science, it sort of becomes one of these, you know, drinks over a beer in a pub. Yeah, thank you so much. And I really appreciate it and I definitely would recommend people to follow you very closely. I genuinely everything you&#39;ve done, you seem to have a very good way of whether you know it or not sort of predicting the future or predicting the path of science. So, uh, because I didn&#39;t know anything about the foundational thing and as</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:31:41</span>
+  <span>soon as I thought I saw you put it out, I was like, so he&#39;s done it again. He&#39;s, he&#39;s definitely sees where, where it needs to go. So that, yeah, having some curiosity and then having the right people around me. Ok. Yeah, very modest. But a group of people. Well, thank you again. And, uh, yeah, hopefully we get a chance to see each other at some conference uh in the future. But yeah, for now, thank you very much. See you around Neil. Thank you very much for this,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:32:36</span>
+  <span>that</span>
+</p>
+  </div>
 </section>
 
   </div>

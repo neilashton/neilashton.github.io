@@ -5,7 +5,7 @@ Ashton Podcast.
 
 2
 00:00:03,080 --> 00:00:05,920
-In each episode, we explained
+In each episode, we explain
 some of the fascinating ways
 
 3
@@ -15,23 +15,22 @@ changing the world around us.
 
 4
 00:00:09,800 --> 00:00:12,760
-We talked to leading engineers
+We talk to leading engineers
 from elite level sports like
 
 5
 00:00:12,840 --> 00:00:16,880
-cycling in Formula One to some
+cycling and Formula One to some
 of the world's top academics to
 
 6
 00:00:16,880 --> 00:00:20,960
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
-are bringing in a new era
-discovery.
+are bringing in a new era of discovery.
 
 8
 00:00:23,960 --> 00:00:27,080
@@ -56,7 +55,7 @@ Hi, and welcome back to the Neil
 12
 00:00:40,680 --> 00:00:43,960
 Ashton Podcast.
-So today's guest is Yoris Port,
+So today's guest is Joris Poort,
 
 13
 00:00:43,960 --> 00:00:47,080
@@ -156,7 +155,7 @@ agentic AI.
 32
 00:01:42,240 --> 00:01:45,680
 This is something that, you
-know, myself and yours turns out
+know, myself and Joris turns out
 
 33
 00:01:45,680 --> 00:01:48,600
@@ -186,7 +185,7 @@ that comes probably in the
 38
 00:01:59,880 --> 00:02:03,520
 second-half of of the chat.
-So it definitely TuneIn if you
+So it definitely tune in if you
 
 39
 00:02:03,520 --> 00:02:06,720
@@ -195,7 +194,7 @@ thoughts on that, given my
 
 40
 00:02:06,720 --> 00:02:09,440
-background, having worked Adbs
+background, having worked at AWS
 before and therefore being
 
 41
@@ -230,7 +229,7 @@ funding from companies like
 
 47
 00:02:32,120 --> 00:02:35,440
-people like Salt and Jeff Bezos,
+people like Sam Altman and Jeff Bezos,
 Paul Graham.
 
 48
@@ -245,7 +244,7 @@ So, you know, it's, it's
 
 50
 00:02:41,360 --> 00:02:44,120
-impressive defeat for someone to
+impressive feat for someone to
 create a company that's had
 
 51
@@ -270,17 +269,16 @@ I always talk about doing this
 
 55
 00:02:56,240 --> 00:02:58,600
-and I'm probably just too risk
-adverse to do it.
+and I'm probably just too risk-averse to do it.
 
 56
 00:02:58,600 --> 00:03:01,280
 So, but don't listen to me,
-listen to yours and hopefully
+listen to Joris and hopefully
 
 57
 00:03:01,280 --> 00:03:03,880
-you get some, some, some in.
+you get some, some, some insights.
 So this was a wide-ranging
 
 58
@@ -325,7 +323,7 @@ So sit back and enjoy this
 
 66
 00:03:27,680 --> 00:03:30,840
-episode with your support.
+episode with Joris Poort.
 Thank you for for coming and
 
 67
@@ -345,7 +343,7 @@ before sort of seeing cloud.
 
 70
 00:03:41,800 --> 00:03:45,920
-I think I joined 80 Business in
+I think I joined AWS in
 2020 and thinking, oh, this is
 
 71
@@ -376,7 +374,7 @@ I'd be interested to know like
 76
 00:04:04,320 --> 00:04:08,440
 what was your pitch for that
-start up for for risk?
+start up for for Rescale?
 
 77
 00:04:09,840 --> 00:04:11,560
@@ -536,11 +534,11 @@ aeronautics, astronautics.
 108
 00:05:55,880 --> 00:05:59,440
 I was sort of part of did a lot
-of work in the field of multi
+of work in the field of multi-
 
 109
 00:05:59,440 --> 00:06:02,920
-display optimization.
+disciplinary optimisation.
 I know you come from a strong
 
 110
@@ -550,12 +548,11 @@ So by the professor I studied
 
 111
 00:06:07,520 --> 00:06:12,040
-under actually as a sort of
-elasticity expert who was a
+under actually was an aeroelasticity expert who was a
 
 112
 00:06:12,040 --> 00:06:15,240
-disciple of Lucian Schmidt from
+disciple of Lucien Schmit from
 the sort of structure of the
 
 113
@@ -731,7 +728,7 @@ these equations more
 147
 00:07:55,560 --> 00:07:57,680
 efficiently, right.
-So trying to combine an air
+So trying to combine aero-
 
 148
 00:07:57,680 --> 00:08:00,960
@@ -755,13 +752,13 @@ calculating all these different
 
 152
 00:08:08,560 --> 00:08:11,760
-complex multi physics responses.
+complex multiphysics responses.
 And at Boeing, we were
 
 153
 00:08:11,760 --> 00:08:14,200
 implementing with this sort of
-multi physics problem, but in a
+multiphysics problem, but in a
 
 154
 00:08:14,200 --> 00:08:16,560
@@ -800,7 +797,7 @@ So that got me into this whole
 
 161
 00:08:34,640 --> 00:08:38,240
-sort of category of HBCI.
+sort of category of HPC. I.
 Think one kind of insight as
 
 162
@@ -810,7 +807,7 @@ look at kind of the people who
 
 163
 00:08:41,120 --> 00:08:45,040
-were the best better name assist
+were the best aerodynamicists
 at Boeing, for example, or the
 
 164
@@ -971,7 +968,7 @@ Was it going to Business School
 195
 00:10:21,440 --> 00:10:24,880
 or going to McKinsey that gave
-you a bit more confidential
+you a bit more confidence and
 
 196
 00:10:24,880 --> 00:10:27,240
@@ -1055,8 +1052,7 @@ disagreeableness, but it's like
 
 212
 00:11:15,040 --> 00:11:18,880
-you sort of have to be sober
-enough, right to be able it's
+you sort of have to be stubborn enough, right to be able it's
 
 213
 00:11:18,880 --> 00:11:21,000
@@ -1155,7 +1151,7 @@ But like the probably the one in
 
 232
 00:12:17,640 --> 00:12:19,840
-lease supply is, is I think the
+least supply is, is I think the
 courage, right?
 
 233
@@ -1270,7 +1266,7 @@ And then you, you know, you go
 
 255
 00:13:25,400 --> 00:13:29,360
-around to the various species to
+around to the various VCs to
 get to get funding.
 
 256
@@ -1325,7 +1321,7 @@ least the one I went to, all
 
 266
 00:13:59,960 --> 00:14:01,880
-these different CE OS come
+these different CEOs come
 through, right?
 
 267
@@ -1396,7 +1392,7 @@ Like I had sort of, you know,
 280
 00:14:37,480 --> 00:14:39,480
 done this internship at
-McKenzie.
+McKinsey.
 
 281
 00:14:39,480 --> 00:14:44,640
@@ -1605,8 +1601,7 @@ in the day, right?
 
 322
 00:16:42,280 --> 00:16:47,640
-Like sort of 20, probably 20
-tenths maybe earlier to yeah,
+Like sort of 20, probably 2010 maybe earlier to yeah,
 
 323
 00:16:47,760 --> 00:16:49,880
@@ -1706,7 +1701,7 @@ to start a company.
 342
 00:17:54,640 --> 00:17:56,320
 And I just started working at
-writing coat.
+writing code.
 
 343
 00:17:56,640 --> 00:17:59,920
@@ -1860,8 +1855,7 @@ I think that dynamic is really,
 
 373
 00:19:29,920 --> 00:19:31,960
-there's a lot of paying it for
-it, like a lot of founders help
+there's a lot of paying it forward, like a lot of founders help
 
 374
 00:19:31,960 --> 00:19:34,000
@@ -1891,7 +1885,7 @@ Yeah, yeah.
 379
 00:19:43,360 --> 00:19:47,400
 That, you know, the exact
-opposite of social locomobile.
+opposite of social, local, mobile.
 
 380
 00:19:47,400 --> 00:19:49,760
@@ -1951,7 +1945,7 @@ What were the some standout
 391
 00:20:14,440 --> 00:20:16,520
 moments?
-Who were the was a returning
+Who were the was a turning
 
 392
 00:20:16,520 --> 00:20:21,080
@@ -2476,7 +2470,7 @@ foreign.
 496
 00:25:27,760 --> 00:25:32,040
 And remember, like web services,
-So EWS had just started and web
+So AWS had just started and web
 
 497
 00:25:32,040 --> 00:25:34,800
@@ -2541,7 +2535,7 @@ breakthrough, I mean, that was
 509
 00:26:08,240 --> 00:26:12,400
 very exciting, right?
-And and those little winds along
+And and those little wins along
 
 510
 00:26:12,400 --> 00:26:15,320
@@ -2745,7 +2739,7 @@ technology point of view, you
 
 550
 00:28:06,040 --> 00:28:10,400
-know, the hyperscale has took
+know, the hyperscalers took
 quite a long time to really
 
 551
@@ -2756,7 +2750,7 @@ interconnect.
 552
 00:28:14,120 --> 00:28:18,680
 You, you, you know, like when I
-joined Adbs in what 2020, things
+joined AWS in what 2020, things
 
 553
 00:28:18,680 --> 00:28:21,920
@@ -2866,7 +2860,7 @@ The reality was I would be going
 574
 00:29:34,960 --> 00:29:37,560
 in at that time.
-It was going to be Andy, Jesse
+It was going to be Andy Jassy
 
 575
 00:29:38,160 --> 00:29:42,320
@@ -2961,7 +2955,7 @@ right, because if you kind of
 593
 00:30:36,760 --> 00:30:39,720
 look at it, it's like, well, you
-know, commodity confused great.
+know, commodity compute great.
 
 594
 00:30:39,720 --> 00:30:41,880
@@ -2990,7 +2984,7 @@ like the simple, it's just like
 
 599
 00:30:54,840 --> 00:30:59,160
-EC2S3 like basic stuff, right?
+EC2, S3 like basic stuff, right?
 And most people consume just
 
 600
@@ -3121,7 +3115,7 @@ yeah, yeah, I think of the eyes
 625
 00:32:07,000 --> 00:32:10,080
 of say somebody like Andy Jassy
-or you know, Sacho was running
+or you know, Satya was running
 
 626
 00:32:10,080 --> 00:32:11,640
@@ -3181,7 +3175,7 @@ today.
 637
 00:32:39,360 --> 00:32:41,600
 And as far as I understand,
-there's no infinite band
+there's no InfiniBand
 
 638
 00:32:41,600 --> 00:32:45,640
@@ -3260,8 +3254,7 @@ because they they're still just
 
 653
 00:33:35,560 --> 00:33:40,280
-thinking back to the mid twenty
-10s when maybe the hardware
+thinking back to the mid-2010s when maybe the hardware
 
 654
 00:33:40,920 --> 00:33:42,360
@@ -3281,7 +3274,7 @@ probably on the same side of the
 657
 00:33:48,000 --> 00:33:54,000
 table on this, but, but I think
-if I had to steal a man, like
+if I had to steelman, like
 
 658
 00:33:54,000 --> 00:33:57,320
@@ -3376,7 +3369,7 @@ faster, they are able to refresh
 676
 00:34:47,880 --> 00:34:50,880
 and resell your old hardware if
-you want to rotate to new skews
+you want to rotate to new SKUs
 
 677
 00:34:50,880 --> 00:34:53,440
@@ -3435,13 +3428,13 @@ But it's all about this sort of
 
 688
 00:35:22,840 --> 00:35:25,720
-ITTCO sort of frame, right?
+IT/TCO sort of frame, right?
 And.
 
 689
 00:35:26,240 --> 00:35:30,160
 Purely on that frame, maybe
-sometimes on Prem is competitive
+sometimes on-prem is competitive
 
 690
 00:35:30,160 --> 00:35:32,760
@@ -3580,7 +3573,7 @@ today, right, it's, it's about
 
 717
 00:36:49,680 --> 00:36:54,960
-20% cloud and say 80% on Prem,
+20% cloud and say 80% on-prem,
 which which you know, I don't
 
 718
@@ -3606,7 +3599,7 @@ data centers, you're maybe
 722
 00:37:04,800 --> 00:37:07,280
 depreciating that you know if.
-It's ACFO making a decision
+It's a CFO making a decision
 
 723
 00:37:07,280 --> 00:37:11,440
@@ -3670,7 +3663,7 @@ it's a specialized field right
 
 735
 00:37:48,280 --> 00:37:51,080
-now, every scale we write
+now, at Rescale we write
 software to simplify all that.
 
 736
@@ -3690,8 +3683,7 @@ If you ask the people who are on
 
 739
 00:37:58,760 --> 00:38:01,120
-the sort of still running on
-prime systems, they would often
+the sort of still running on-prem systems, they would often
 
 740
 00:38:01,120 --> 00:38:05,320
@@ -3821,7 +3813,7 @@ still to this day, you know,
 765
 00:39:18,520 --> 00:39:21,000
 there's people who believe.
-Like HBC should be done on Prem
+Like HPC should be done on-prem
 
 766
 00:39:22,320 --> 00:39:25,480
@@ -3891,7 +3883,7 @@ But I definitely saw a shift.
 779
 00:40:08,920 --> 00:40:15,400
 But then I thought that means
-the time then to do Apoc to then
+the time then to do a PoC to then
 
 780
 00:40:15,400 --> 00:40:20,920
@@ -3976,7 +3968,7 @@ principles as opposed to.
 796
 00:41:08,080 --> 00:41:10,160
 Sort of you have all this
-baggage of these like on Prem
+baggage of these like on-prem
 
 797
 00:41:10,160 --> 00:41:11,760
@@ -4015,12 +4007,12 @@ right?
 
 804
 00:41:27,640 --> 00:41:31,680
-And say you're running Star CCM.
-We know that version of Star
+And say you're running STAR-CCM+.
+We know that version of STAR-
 
 805
 00:41:31,680 --> 00:41:35,520
-CCM, how well it scales.
+CCM+, how well it scales.
 We we know like with that kind
 
 806
@@ -4041,7 +4033,7 @@ compute recommendation engine.
 809
 00:41:42,160 --> 00:41:45,320
 So you actually so say, OK, you
-can plug in your own on Prem
+can plug in your own on-prem
 
 810
 00:41:45,320 --> 00:41:46,760
@@ -4070,8 +4062,7 @@ one, you have all the major
 
 815
 00:41:55,560 --> 00:41:58,480
-cloud providers, you have NEO
-clouds, maybe have some special
+cloud providers, you have neoclouds, maybe have some special
 
 816
 00:41:58,480 --> 00:42:00,640
@@ -4201,7 +4192,7 @@ So for us, how this shows up is
 841
 00:43:10,320 --> 00:43:13,280
 literally like you open up
-rescale, you drag in your like
+Rescale, you drag in your like
 
 842
 00:43:13,280 --> 00:43:15,920
@@ -4275,12 +4266,12 @@ easier.
 
 856
 00:43:51,760 --> 00:43:54,000
-Like this POC process you
+Like this PoC process you
 described, you got to remember,
 
 857
 00:43:54,000 --> 00:43:56,360
-like if you're buying on Prem,
+like if you're buying on-prem,
 you're probably going through
 
 858
@@ -4326,7 +4317,7 @@ right?
 866
 00:44:18,280 --> 00:44:21,800
 And I do think today if you go
-to rescale, right, and go
+to Rescale, right, and go
 
 867
 00:44:21,800 --> 00:44:24,960
@@ -4390,7 +4381,7 @@ you're using cloud, like if I go
 
 879
 00:44:54,880 --> 00:44:56,480
-to on Prem.
+to on-prem.
 Yeah.
 
 880
@@ -4410,8 +4401,8 @@ to be happening that there's
 
 883
 00:45:06,640 --> 00:45:10,680
-even more because of UCB sort of
-neo clouds, which I guess has
+even more because of you see, sort of,
+neoclouds, which I guess has
 
 884
 00:45:10,680 --> 00:45:14,320
@@ -4430,7 +4421,7 @@ but even more reason to have a
 
 887
 00:45:20,960 --> 00:45:23,760
-single place to root that
+single place to route that
 through.
 
 888
@@ -4496,7 +4487,7 @@ piece, there's the speed, right?
 900
 00:46:00,120 --> 00:46:01,640
 That's why I think.
-You see the newer clouds as
+You see the neoclouds as
 
 901
 00:46:01,640 --> 00:46:03,960
@@ -4520,7 +4511,7 @@ that they outsource a lot of
 
 905
 00:46:09,680 --> 00:46:13,560
-their GPU compute to core Weave,
+their GPU compute to CoreWeave,
 right?
 
 906
@@ -4576,7 +4567,7 @@ or two customers, you can build
 916
 00:46:42,000 --> 00:46:44,360
 these bespoke systems, right?
-Like, like what cloud prevention
+Like, like what cloud provider
 
 917
 00:46:44,360 --> 00:46:47,560
@@ -4590,7 +4581,7 @@ And so there's a challenge for a
 
 919
 00:46:50,760 --> 00:46:52,360
-Neocloud is how do you scale
+neocloud is how do you scale
 that?
 
 920
@@ -4620,7 +4611,7 @@ And it's because of the sort of
 
 925
 00:47:06,600 --> 00:47:09,160
-ultimate end use skate like this
+ultimate end-use case like this
 sort of AI war between all the
 
 926
@@ -4656,11 +4647,11 @@ Like if you, I don't know if
 932
 00:47:24,560 --> 00:47:26,520
 you've been following this, but
-there's like, it's all these neo
+there's like, it's all these neoclouds
 
 933
 00:47:26,520 --> 00:47:29,680
-clouds, of course.
+of course.
 But there's also these practical
 
 934
@@ -4670,8 +4661,8 @@ into, like there's not enough
 
 935
 00:47:31,560 --> 00:47:34,680
-electricians to like, you know,
-data centers, right?
+electricians to, like, you know, build
+data centres, right?
 
 936
 00:47:36,440 --> 00:47:40,240
@@ -4696,7 +4687,7 @@ built by NVIDIA that like run
 940
 00:47:51,840 --> 00:47:55,360
 super efficiently.
-But then like XAI is, is is like
+But then like xAI is, is is like
 
 941
 00:47:55,360 --> 00:48:00,120
@@ -4791,7 +4782,7 @@ companies or aerospace
 959
 00:48:48,400 --> 00:48:53,120
 companies, they don't have
-100,000 GPUs to train 1 bottle
+100,000 GPUs to train one model
 
 960
 00:48:53,120 --> 00:48:54,840
@@ -4840,7 +4831,7 @@ I think the way, if you sort of
 
 969
 00:49:20,680 --> 00:49:22,040
-Fast forward to rescale today,
+Fast forward to Rescale today,
 right?
 
 970
@@ -4850,8 +4841,7 @@ it today is there's the HPC
 
 971
 00:49:24,720 --> 00:49:29,040
-layer or the compute layer, but
-you the the the data layer,
+layer or the compute layer, but you have the data layer,
 
 972
 00:49:29,040 --> 00:49:33,920
@@ -4866,7 +4856,7 @@ training models?
 974
 00:49:36,600 --> 00:49:39,440
 Why, why are these then sort of
-on Prem is like a natural
+on-prem is like a natural
 
 975
 00:49:39,440 --> 00:49:41,080
@@ -5010,7 +5000,7 @@ and automotive, you're kind of
 
 1003
 00:51:01,280 --> 00:51:04,680
-running your it's like a 510%
+running your it's like a 5–10%
 margin business often, right?
 
 1004
@@ -5221,7 +5211,7 @@ intelligence already built into
 1045
 00:53:07,080 --> 00:53:11,440
 all these processes, etcetera.
-And so it's rescale with our
+And so it's Rescale with our
 
 1046
 00:53:11,440 --> 00:53:12,920
@@ -5290,7 +5280,7 @@ The you're right, we basically
 
 1059
 00:53:46,560 --> 00:53:52,720
-focused on HPCHPC was pre AI the
+focused on HPC. HPC was pre-AI, the
 big changer, you know, you have
 
 1060
@@ -5301,7 +5291,7 @@ faster and it still is, don't
 1061
 00:53:55,600 --> 00:53:57,600
 get me wrong.
-And of course you know, GP us
+And of course you know, GPUs
 
 1062
 00:53:57,600 --> 00:54:04,160
@@ -5400,8 +5390,7 @@ Like you're always trying to
 
 1081
 00:55:02,280 --> 00:55:04,320
-kind of to reduce your
-remodeling or some way to
+kind of to reduced-order modelling or some way to
 
 1082
 00:55:04,320 --> 00:55:08,120
@@ -5416,7 +5405,7 @@ If you're say building an
 1084
 00:55:10,320 --> 00:55:12,960
 airplane, you have this
-conceptual design chase where
+conceptual design phase where
 
 1085
 00:55:12,960 --> 00:55:16,440
@@ -5570,7 +5559,7 @@ level decisions, right?
 
 1115
 00:56:46,480 --> 00:56:49,800
-And what AI circuits allow you
+And what AI surrogates allow you
 to do is to simplify that
 
 1116
@@ -5680,7 +5669,7 @@ Like in in typical aerospace
 
 1137
 00:57:48,960 --> 00:57:53,120
-company, both Airbus and Bali of
+company, both Airbus and Boeing of
 this sort of like loop of just
 
 1138
@@ -5915,7 +5904,7 @@ right, I can get an instant
 
 1184
 01:00:14,600 --> 01:00:17,760
-arrow response that's like 99%
+aero response that's like 99%
 accurate.
 
 1185
@@ -5926,7 +5915,7 @@ Like before, my alternative was
 1186
 01:00:21,480 --> 01:00:24,720
 I changed the design, sent the
-CAD model over to the Arrow
+CAD model over to the aero
 
 1187
 01:00:24,720 --> 01:00:27,120
@@ -5995,7 +5984,7 @@ Like I think there's the, I call
 
 1200
 01:01:04,000 --> 01:01:06,760
-it the SIM to real gap, which is
+it the sim-to-real gap, which is
 a separate discussion.
 
 1201
@@ -6011,7 +6000,7 @@ simulations that we're running,
 1203
 01:01:13,400 --> 01:01:15,200
 how accurate are they?
-Because the real ground tooth
+Because the real ground-truth
 
 1204
 01:01:15,200 --> 01:01:17,480
@@ -6185,7 +6174,7 @@ because of that, a spin up like
 
 1238
 01:02:52,240 --> 01:02:55,520
-ALS dyna job to go run the crash
+LS-DYNA job to go run the crash
 analysis and I'm just going to
 
 1239
@@ -6231,7 +6220,7 @@ So when I come in in the
 1247
 01:03:15,240 --> 01:03:19,200
 morning, right open my laptop at
-7 AMI got right there.
+7 a.m., I've got right there.
 
 1248
 01:03:19,280 --> 01:03:21,640
@@ -6241,7 +6230,7 @@ right to go review right?
 1249
 01:03:21,680 --> 01:03:24,080
 And it's like it's.
-Pre done the proce processing,
+Pre done the preprocessing,
 
 1250
 01:03:24,120 --> 01:03:26,240
@@ -6536,7 +6525,7 @@ engineering process, right?
 1308
 01:06:26,960 --> 01:06:29,600
 Some of these are more
-leveraging LLMS, right?
+leveraging LLMs, right?
 
 1309
 01:06:29,600 --> 01:06:32,000
@@ -6575,7 +6564,7 @@ productization of these because
 
 1316
 01:06:47,400 --> 01:06:50,160
-like if I tried to steal man,
+like if I tried to steelman,
 sort of the cynics and I've I've
 
 1317
@@ -6640,8 +6629,7 @@ matter that go into
 
 1329
 01:07:20,600 --> 01:07:25,360
-certification and like the Arrow
-model for say a Boeing airplane,
+certification and like the aero model for say a Boeing airplane,
 
 1330
 01:07:25,400 --> 01:07:28,000
@@ -6746,11 +6734,11 @@ Why is it awesome?
 1350
 01:08:23,640 --> 01:08:27,640
 Well, what we just have to grind
-through a whole bunch of CAT and
+through a whole bunch of CAD and
 
 1351
 01:08:27,640 --> 01:08:31,160
-CAA modeling with like a team of
+CAE modeling with like a team of
 12 people for like 6 months to
 
 1352
@@ -6855,12 +6843,12 @@ Yes, and like it's.
 
 1372
 01:09:30,800 --> 01:09:35,319
-You know, the USI think the job
+You know, the U.S. I think the job
 retraining stat is something
 
 1373
 01:09:35,319 --> 01:09:38,640
-like 20 to 30% do rescaling
+like 20 to 30% do reskilling
 every year.
 
 1374
@@ -7140,8 +7128,7 @@ scale compute to solve this,
 
 1429
 01:12:17,760 --> 01:12:19,720
-specifically this sort of LLM
-trading model.
+specifically this sort of LLM training model.
 
 1430
 01:12:19,720 --> 01:12:21,680
@@ -7391,12 +7378,12 @@ It changes the way you work with
 1479
 01:14:34,960 --> 01:14:36,400
 your customers.
-If you're seeing an aircraft
+If you're say, an aircraft
 
 1480
 01:14:36,400 --> 01:14:39,360
 manufacturer right, and that
-pushes society for it, I think
+pushes society forward, I think
 
 1481
 01:14:39,360 --> 01:14:41,720
@@ -7495,7 +7482,7 @@ Like most companies don't last
 
 1500
 01:15:38,400 --> 01:15:40,920
-like 1520 years as a public
+like 15–20 years as a public
 market company.
 
 1501
@@ -7610,8 +7597,7 @@ airplane.
 
 1523
 01:16:43,480 --> 01:16:44,920
-It's it's like built with
-rescales.
+It's it's like built with Rescale's.
 
 1524
 01:16:44,920 --> 01:16:48,960
@@ -7715,7 +7701,7 @@ And I do think as a as if you
 
 1544
 01:17:52,560 --> 01:17:54,920
-consider rescale a big or small
+consider Rescale a big or small
 company, but as a 200 person
 
 1545
@@ -7836,7 +7822,7 @@ without sort of concept of cloud
 1568
 01:18:58,160 --> 01:19:01,880
 etcetera.
-AII do think is even bigger,
+AI, I do think is even bigger,
 
 1569
 01:19:02,040 --> 01:19:04,240
@@ -7975,7 +7961,7 @@ I mean with a lot of like
 
 1596
 01:20:16,640 --> 01:20:21,680
-CTOSCIOS, but also CEO right,
+CTOs, CIOs, but also CEO right,
 very important that they lead by
 
 1597
@@ -8130,8 +8116,7 @@ you'd be able to write training
 
 1627
 01:21:51,520 --> 01:21:54,960
-data and like he gets a nine
-9.9% accuracy, yes, but like
+data and like he gets a 99.9% accuracy, yes, but like
 
 1628
 01:21:55,600 --> 01:21:58,520
@@ -8266,7 +8251,7 @@ I think you can take this
 1654
 01:23:11,280 --> 01:23:15,960
 concept of like at a very high
-level with AI1 sort of frame
+level with AI. One sort of framework
 
 1655
 01:23:15,960 --> 01:23:17,960
@@ -8375,7 +8360,7 @@ airplanes can be solved with
 
 1676
 01:24:11,080 --> 01:24:14,360
-AIAI can kind of like sort of
+AI. AI can kind of like sort of
 again, aggregate a lot of this
 
 1677
@@ -8480,7 +8465,7 @@ And they're just like I was,
 
 1697
 01:25:16,000 --> 01:25:18,160
-there's like the the cloud code
+there's like the the Claude Code
 founder, right?
 
 1698
@@ -8496,7 +8481,7 @@ different agents and all this
 1700
 01:25:26,920 --> 01:25:29,840
 stuff, right?
-And you know, this cloud code
+And you know, this Claude Code
 
 1701
 01:25:29,840 --> 01:25:32,040
@@ -8590,7 +8575,7 @@ trends, right?
 
 1719
 01:26:16,280 --> 01:26:18,600
-And so same thing with AII think
+And so same thing with AI, I think
 you can kind of see where this
 
 1720
@@ -8646,7 +8631,7 @@ for that is like, I think you
 1730
 01:26:45,360 --> 01:26:48,200
 got to really lean in to like
-that feature.
+that future.
 
 1731
 01:26:48,240 --> 01:26:51,720
@@ -8680,7 +8665,7 @@ and it can interact.
 
 1737
 01:27:07,800 --> 01:27:10,080
-So we have a rescale MCP.
+So we have a Rescale MCP.
 You can interact with it.
 
 1738
@@ -8700,7 +8685,7 @@ But then you can connect to LLM
 
 1741
 01:27:16,360 --> 01:27:19,280
-to like a cab tool, right.
+to like a CAD tool, right.
 And you say, hey, like, you
 
 1742
@@ -8710,8 +8695,7 @@ like windshield.
 
 1743
 01:27:21,120 --> 01:27:23,400
-You're the author of the driver
-ML data set.
+You're the author of the DrivAerML data set.
 
 1744
 01:27:23,800 --> 01:27:25,760
@@ -8735,12 +8719,12 @@ parameters, right, to generate
 
 1748
 01:27:36,800 --> 01:27:39,640
-all the cat.
+all the CAD.
 It can do that today.
 
 1749
 01:27:39,680 --> 01:27:42,920
-Now your cat designer is going
+Now your CAD designer is going
 to say, Oh yeah, it can do that.
 
 1750
@@ -8765,8 +8749,8 @@ to 100% replace.
 
 1754
 01:27:52,600 --> 01:27:55,600
-The point is now you can Gen.
-cab like nobody's business,
+The point is now you can generate
+CAD like nobody's business,
 
 1755
 01:27:55,600 --> 01:27:57,960
@@ -8915,7 +8899,7 @@ come work at Rescale.
 
 1784
 01:29:27,720 --> 01:29:32,080
-My e-mail is yours@rescale.com.
+My e-mail is joris@rescale.com.
 But I think this look, all the
 
 1785
@@ -8960,13 +8944,13 @@ That concept is super important.
 
 1793
 01:29:54,760 --> 01:29:59,120
-And this sort of SIM to reel
+And this sort of sim-to-real
 gap, like real being reality,
 
 1794
 01:29:59,160 --> 01:30:00,240
 right?
-And the SIM being the kind of
+And the sim being the kind of
 
 1795
 01:30:00,240 --> 01:30:03,840
@@ -9160,13 +9144,13 @@ world, right?
 
 1833
 01:31:57,800 --> 01:31:59,320
-And I think videos are amazing
+And I think NVIDIA's are amazing
 work and.
 
 1834
 01:31:59,320 --> 01:32:02,240
 Like sort of the.
-Developing the software and SDKS
+Developing the software and SDKs
 
 1835
 01:32:02,240 --> 01:32:03,880
@@ -9181,7 +9165,7 @@ these models in a virtual way,
 1837
 01:32:06,000 --> 01:32:07,920
 but ultimately you want to kind
-of get that match to real,
+of get that sim-to-real,
 
 1838
 01:32:07,920 --> 01:32:08,920
@@ -9221,11 +9205,11 @@ example of Waymo, right?
 1845
 01:32:23,600 --> 01:32:28,680
 And to me, like, I think if you
-really the closing the SIM to
+really think closing the sim-to-
 
 1846
 01:32:28,680 --> 01:32:31,000
-reel gap is possible for
+real gap is possible for
 anything you're passionate
 
 1847
@@ -9371,7 +9355,7 @@ this equation more efficiently,
 1875
 01:34:01,720 --> 01:34:04,880
 whether or not Boeing like uses
-this and tops this or anybody
+this and adopts this or anybody
 
 1876
 01:34:04,880 --> 01:34:08,480
@@ -9435,8 +9419,7 @@ super smart and they keep
 
 1888
 01:34:37,680 --> 01:34:39,080
-climbing this sort of academic
-letter.
+climbing this sort of academic ladder.
 
 1889
 01:34:39,080 --> 01:34:40,000
@@ -9516,16 +9499,16 @@ applying it in another, right?
 1904
 01:35:16,000 --> 01:35:18,360
 Like, like it's actually like
-the deep mind folks that sort of
+the DeepMind folks that sort of
 
 1905
 01:35:18,360 --> 01:35:21,040
-like mesh, graphnet, etcetera.
+like MeshGraphNets, etcetera.
 Like that's why we have AI
 
 1906
 01:35:21,040 --> 01:35:24,400
-service and they're not all like
+surrogates and they're not all like
 physics experts, right?
 
 1907
@@ -9625,8 +9608,8 @@ like, you know, there's a lot of
 
 1926
 01:36:24,680 --> 01:36:26,600
-people who apply to jobs that
-rescale and I see a lot of
+people who apply to jobs at
+Rescale and I see a lot of
 
 1927
 01:36:26,600 --> 01:36:30,120
@@ -9720,7 +9703,7 @@ amazing breakthroughs like that
 
 1945
 01:37:18,680 --> 01:37:22,600
-rescale and like also beyond
+Rescale and like also beyond
 like in places like Boeing and
 
 1946
@@ -9761,7 +9744,7 @@ the biggest impact.
 1953
 01:37:42,720 --> 01:37:46,320
 What is hard is that there's a
-lot of like sidle things that
+lot of like societal things that
 
 1954
 01:37:46,320 --> 01:37:49,880
@@ -9936,7 +9919,7 @@ I'm sure something completely
 1988
 01:39:17,200 --> 01:39:19,920
 different will have come around
-that nine of us predicted, but
+that neither of us predicted, but
 
 1989
 01:39:19,920 --> 01:39:22,360

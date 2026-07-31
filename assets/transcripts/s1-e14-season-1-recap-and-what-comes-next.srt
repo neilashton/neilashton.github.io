@@ -1,0 +1,1587 @@
+1
+00:00:00,100 --> 00:00:02,480
+Hi and welcome to the Neil Ashton podcast.
+
+2
+00:00:03,019 --> 00:00:03,839
+In each episode,
+
+3
+00:00:03,849 --> 00:00:07,309
+we explained some of the fascinating ways that science and engineering
+
+4
+00:00:07,469 --> 00:00:09,159
+are changing the world around us.
+
+5
+00:00:09,699 --> 00:00:14,170
+We talk to leading engineers from elite level sports like cycling and Formula One
+
+6
+00:00:14,760 --> 00:00:18,670
+to some of the world's top academics to understand how fluid dynamics,
+
+7
+00:00:18,680 --> 00:00:21,069
+machine learning and supercomputing
+
+8
+00:00:21,229 --> 00:00:22,729
+are bringing in a new era of discovery.
+
+9
+00:00:23,790 --> 00:00:27,149
+We also hear some of their life stories, their career advice
+
+10
+00:00:27,540 --> 00:00:31,590
+and lessons they've learned on the way that I hope will be helpful to you too.
+
+11
+00:00:31,959 --> 00:00:34,330
+So sit back and enjoy this episode.
+
+12
+00:00:39,700 --> 00:00:42,209
+Welcome back to the Neil Ashton podcast.
+
+13
+00:00:42,729 --> 00:00:47,919
+Well, today is actually the last episode of this first season.
+
+14
+00:00:47,930 --> 00:00:49,200
+So it's gonna be a short one
+
+15
+00:00:50,069 --> 00:00:51,319
+really just to
+
+16
+00:00:52,180 --> 00:00:56,950
+say, thank you, I suppose to the people who have listened to this first season,
+
+17
+00:00:57,150 --> 00:01:00,159
+which has gone on a journey, I guess,
+
+18
+00:01:00,509 --> 00:01:05,790
+certainly myself, I wasn't sure whether any would even listen to these episodes
+
+19
+00:01:06,059 --> 00:01:11,239
+and uh purposely picked a range of guests and topics that
+
+20
+00:01:12,510 --> 00:01:17,639
+were quite broad and I really wanted to see what people liked the most,
+
+21
+00:01:17,650 --> 00:01:19,080
+what was interesting to them.
+
+22
+00:01:19,440 --> 00:01:21,709
+And it also reflects, I guess the
+
+23
+00:01:21,849 --> 00:01:21,870
+the,
+
+24
+00:01:22,209 --> 00:01:23,440
+the broad
+
+25
+00:01:24,080 --> 00:01:27,209
+taste and interests that, that I also have.
+
+26
+00:01:27,510 --> 00:01:28,660
+Um, so
+
+27
+00:01:28,949 --> 00:01:34,180
+I also wanted them to go into um, a reasonable amount of detail.
+
+28
+00:01:34,459 --> 00:01:38,680
+And so probably as you've seen, they have been quite long. Um
+
+29
+00:01:38,830 --> 00:01:39,559
+I think the,
+
+30
+00:01:39,569 --> 00:01:45,180
+the longest one was with Professor Tony Purnell and that was over two hours, I think,
+
+31
+00:01:45,190 --> 00:01:47,769
+for some of them, I managed to keep it a little bit shorter.
+
+32
+00:01:47,779 --> 00:01:50,660
+So just, uh you know, a couple of, uh just an hour or so,
+
+33
+00:01:51,209 --> 00:01:56,809
+but I was a fan of the long form podcast because really to hear people's stories, you,
+
+34
+00:01:57,199 --> 00:01:58,309
+you kind of have to,
+
+35
+00:01:58,470 --> 00:01:58,949
+you know,
+
+36
+00:01:59,160 --> 00:02:03,739
+do it over time and it's difficult to edit and condense it down to just, you know,
+
+37
+00:02:03,750 --> 00:02:04,540
+seven minutes.
+
+38
+00:02:04,550 --> 00:02:04,879
+So
+
+39
+00:02:05,349 --> 00:02:10,630
+I know that YouTube says you should never make videos that long. Um But
+
+40
+00:02:11,050 --> 00:02:11,539
+yeah,
+
+41
+00:02:11,800 --> 00:02:15,070
+I wasn't as concerned about that and uh
+
+42
+00:02:15,460 --> 00:02:19,639
+I'd be interested actually to know whether people tend to listen
+
+43
+00:02:19,649 --> 00:02:23,360
+to this on Spotify or Apple or tend to watch it.
+
+44
+00:02:23,639 --> 00:02:26,460
+Uh When I created these being an hour or two hours,
+
+45
+00:02:26,470 --> 00:02:29,210
+my assumption was that people would listen to it.
+
+46
+00:02:29,539 --> 00:02:31,960
+So, if you are watching this on YouTube, I appreciate that.
+
+47
+00:02:31,970 --> 00:02:34,940
+A one or two hours on YouTube is quite long.
+
+48
+00:02:35,050 --> 00:02:36,520
+So if you are watching it,
+
+49
+00:02:36,529 --> 00:02:40,960
+I would recommend that you instead perhaps search on Spotify or
+
+50
+00:02:40,970 --> 00:02:44,800
+Apple for this podcast because I personally think listening to it actually
+
+51
+00:02:45,179 --> 00:02:46,199
+is um
+
+52
+00:02:46,710 --> 00:02:47,360
+it's better.
+
+53
+00:02:47,970 --> 00:02:53,139
+So, yeah, I just really briefly sort of recap and maybe even remind people what,
+
+54
+00:02:53,580 --> 00:02:57,580
+you know, who I've spoken to, what I've covered and a little bit about the
+
+55
+00:02:57,690 --> 00:02:58,830
+future. So,
+
+56
+00:02:59,490 --> 00:03:04,270
+yeah, this is the last episode I've done 13 episodes for this season.
+
+57
+00:03:04,610 --> 00:03:09,740
+So I'm gonna take a bit of a break, um, for a month or so over the over August,
+
+58
+00:03:09,960 --> 00:03:13,710
+um, got some really exciting
+
+59
+00:03:13,949 --> 00:03:16,949
+people to speak to already for the next season.
+
+60
+00:03:17,360 --> 00:03:19,360
+But I thought I'd give it a little bit of break.
+
+61
+00:03:19,369 --> 00:03:23,589
+It gives me chance to focus on some other stuff a little bit and,
+
+62
+00:03:24,059 --> 00:03:27,149
+and do a better job at taking a step up
+
+63
+00:03:27,160 --> 00:03:29,429
+trying to make these maybe a bit more professional,
+
+64
+00:03:29,690 --> 00:03:33,729
+uh get even, you know, broader range of, of, of speakers
+
+65
+00:03:33,850 --> 00:03:38,199
+and also take some feedback on what people liked or didn't like.
+
+66
+00:03:38,210 --> 00:03:41,889
+So I'm hoping it will come back in the second season with a even better
+
+67
+00:03:42,339 --> 00:03:46,380
+podcast that can be even more enjoyable and worthwhile listening to.
+
+68
+00:03:47,130 --> 00:03:47,570
+But
+
+69
+00:03:47,809 --> 00:03:48,520
+yeah, I,
+
+70
+00:03:48,789 --> 00:03:54,039
+who did we speak to the beginning? So, uh Dr Florian Menter, that was
+
+71
+00:03:54,320 --> 00:03:56,440
+essentially the, the first episode.
+
+72
+00:03:56,449 --> 00:03:59,470
+But technically, it's episode two because the first was a podcast intro.
+
+73
+00:04:00,259 --> 00:04:02,320
+And I, I really enjoyed that conversation.
+
+74
+00:04:02,330 --> 00:04:05,449
+I think it was actually one of the most popular ones because
+
+75
+00:04:05,460 --> 00:04:08,789
+uh Dr Florian Menter has been one of these pioneers of CFD.
+
+76
+00:04:09,440 --> 00:04:13,039
+And as, as I mentioned in the episode with him, you know,
+
+77
+00:04:13,050 --> 00:04:14,770
+has stayed reasonably quiet.
+
+78
+00:04:14,779 --> 00:04:17,298
+In a way, even though he's very well known,
+
+79
+00:04:17,608 --> 00:04:20,459
+um he, he's kind of, you know, not
+
+80
+00:04:21,278 --> 00:04:24,259
+attracted the light and not wanted the limelight.
+
+81
+00:04:24,558 --> 00:04:27,049
+So I think a lot of people liked that episode because
+
+82
+00:04:27,058 --> 00:04:29,648
+it really gave them a better understanding of who he was,
+
+83
+00:04:29,868 --> 00:04:33,348
+uh what he's done and some of the history around those, you know,
+
+84
+00:04:33,359 --> 00:04:34,889
+turbulence models and CFD.
+
+85
+00:04:34,898 --> 00:04:35,748
+So that was really
+
+86
+00:04:35,859 --> 00:04:40,598
+an episode focused on the CFD and even the turbulence models
+
+87
+00:04:40,938 --> 00:04:42,009
+sort of community.
+
+88
+00:04:42,019 --> 00:04:43,928
+And I was pleasantly surprised how many people
+
+89
+00:04:43,938 --> 00:04:45,959
+actually uh were interested in that one.
+
+90
+00:04:45,968 --> 00:04:47,259
+So if you haven't listened to it already,
+
+91
+00:04:47,959 --> 00:04:50,750
+I would um I would go back and,
+
+92
+00:04:50,760 --> 00:04:53,109
+and maybe take a look because it might be interesting for some,
+
+93
+00:04:54,010 --> 00:04:55,709
+the, the third episode
+
+94
+00:04:56,040 --> 00:04:58,920
+was with Professor Professor Tony Purnell and
+
+95
+00:04:59,420 --> 00:05:00,329
+I,
+
+96
+00:05:01,209 --> 00:05:02,070
+that was like I said,
+
+97
+00:05:02,079 --> 00:05:05,670
+one of the longest ones and I would really encourage people to listen to it,
+
+98
+00:05:06,049 --> 00:05:07,829
+listen to it, maybe not watch it.
+
+99
+00:05:08,260 --> 00:05:11,429
+Um because Tony had done so many things, I mean,
+
+100
+00:05:11,609 --> 00:05:16,299
+it's hard for me to describe, for someone to have run a Formula One team
+
+101
+00:05:17,049 --> 00:05:19,730
+then being at the top of the FIA
+
+102
+00:05:20,200 --> 00:05:24,160
+then being in charge of the British cycling project for, you know,
+
+103
+00:05:24,170 --> 00:05:25,500
+more than four years
+
+104
+00:05:25,630 --> 00:05:27,429
+through the whole Olympic cycle
+
+105
+00:05:27,839 --> 00:05:30,230
+and being a professor at Cambridge University
+
+106
+00:05:30,619 --> 00:05:33,750
+and having had a very successful business that he sold, you know,
+
+107
+00:05:33,760 --> 00:05:34,809
+for quite a lot of money,
+
+108
+00:05:35,179 --> 00:05:39,250
+he's done so many things and he's a game on these people that
+
+109
+00:05:39,420 --> 00:05:44,750
+if he wanted to have done, he probably could have, you know, spoken louder and,
+
+110
+00:05:44,760 --> 00:05:46,709
+and got more media attention and,
+
+111
+00:05:47,190 --> 00:05:48,950
+but he stayed a bit, you know,
+
+112
+00:05:48,959 --> 00:05:52,359
+quieter and so he's probably not as well known to people,
+
+113
+00:05:52,369 --> 00:05:55,029
+but I would argue that what he's actually done
+
+114
+00:05:55,329 --> 00:05:58,089
+puts him up there with, you know, some of these really top,
+
+115
+00:05:58,320 --> 00:05:59,869
+uh, engineers. So, yeah,
+
+116
+00:06:00,000 --> 00:06:02,750
+that, that was, um, a great one for me and, and
+
+117
+00:06:03,029 --> 00:06:04,929
+actually Tony is someone I really looked up to
+
+118
+00:06:04,940 --> 00:06:07,769
+because we actually worked together on the British cycling.
+
+119
+00:06:08,269 --> 00:06:10,149
+And maybe what I didn't say is that, you know,
+
+120
+00:06:10,160 --> 00:06:14,029
+that really was an important point in my career because it gave me
+
+121
+00:06:15,119 --> 00:06:15,130
+a
+
+122
+00:06:15,230 --> 00:06:19,700
+real insight into one sport. I'd really like, you know, I enjoy cycling myself,
+
+123
+00:06:20,140 --> 00:06:23,760
+but I learned so much from it and it helped me then when I
+
+124
+00:06:23,769 --> 00:06:27,910
+went on to do things uh with Formula One or other things later,
+
+125
+00:06:28,350 --> 00:06:29,049
+um
+
+126
+00:06:29,149 --> 00:06:30,420
+I've really learned a lot from that and it,
+
+127
+00:06:30,429 --> 00:06:34,260
+and it opened the doors for many things and, and, and, and
+
+128
+00:06:34,480 --> 00:06:38,299
+expanded my network. So I was really appreciate to Tony who gave me the chance,
+
+129
+00:06:38,959 --> 00:06:40,380
+you know, to, um
+
+130
+00:06:40,649 --> 00:06:41,859
+to work on that project.
+
+131
+00:06:41,869 --> 00:06:43,279
+And it, and it was also, it was Tony,
+
+132
+00:06:43,290 --> 00:06:45,640
+but it was also other people within the British cycling.
+
+133
+00:06:46,010 --> 00:06:47,700
+Um you know, realm.
+
+134
+00:06:47,709 --> 00:06:52,220
+Um some people who still work for British cycling now and still do other things like,
+
+135
+00:06:52,230 --> 00:06:52,899
+like Chris.
+
+136
+00:06:53,339 --> 00:06:53,940
+Um
+
+137
+00:06:54,619 --> 00:06:56,299
+but yeah, that was an episode and I,
+
+138
+00:06:56,309 --> 00:06:59,720
+and I hope you may go back and listen to that because I thought that was a good one.
+
+139
+00:07:00,390 --> 00:07:04,329
+The fourth one was my attempt to do something a little bit different.
+
+140
+00:07:04,350 --> 00:07:08,529
+And the title was Academia or Industry PhD or No PhD.
+
+141
+00:07:08,980 --> 00:07:09,760
+And I
+
+142
+00:07:10,339 --> 00:07:11,929
+wanted to give an experiment
+
+143
+00:07:12,600 --> 00:07:13,809
+to do something a bit different.
+
+144
+00:07:13,820 --> 00:07:15,480
+So, rather than interviewing somebody,
+
+145
+00:07:15,579 --> 00:07:17,859
+I thought I'd do it on my own this episode and,
+
+146
+00:07:17,869 --> 00:07:20,140
+and discuss something that's quite close to my heart,
+
+147
+00:07:20,500 --> 00:07:23,779
+which is this decision that many people go through of, you know,
+
+148
+00:07:23,790 --> 00:07:27,480
+do I try and progress through academia to become a professor?
+
+149
+00:07:27,660 --> 00:07:29,429
+Do I go into industry?
+
+150
+00:07:29,850 --> 00:07:33,019
+I get a lot of questions, you know, is it worth doing a PhD
+
+151
+00:07:33,160 --> 00:07:37,149
+financially and, you know, for life reasons?
+
+152
+00:07:37,309 --> 00:07:42,089
+So I really went into some detail and I was pleasantly surprised how many people
+
+153
+00:07:42,670 --> 00:07:43,200
+um
+
+154
+00:07:44,489 --> 00:07:46,420
+valued having some of that feedback.
+
+155
+00:07:46,429 --> 00:07:48,910
+And I think I'll try and do a few more for the next season.
+
+156
+00:07:49,010 --> 00:07:52,190
+So I'd be interested to know, reach out to me if you have ideas of
+
+157
+00:07:52,500 --> 00:07:53,630
+topics to cover.
+
+158
+00:07:53,880 --> 00:07:56,470
+But that was one that really tried to um
+
+159
+00:07:56,779 --> 00:07:59,529
+pass some of the knowledge that I've gained, which is not
+
+160
+00:07:59,640 --> 00:08:01,209
+complete by any means.
+
+161
+00:08:01,359 --> 00:08:03,709
+Uh But yeah, it was a bit of a solo one
+
+162
+00:08:04,950 --> 00:08:08,450
+in the description of the podcast. I often talk about um
+
+163
+00:08:10,119 --> 00:08:14,429
+you know, Formula One, cycling, how it links to machine learning and engineering.
+
+164
+00:08:14,549 --> 00:08:20,049
+And so episode five was with um Dimitris Katsanis who is one of the world's top bike designers.
+
+165
+00:08:20,059 --> 00:08:21,459
+And so it was a chance for me
+
+166
+00:08:21,640 --> 00:08:23,739
+to revisit that cycling theme,
+
+167
+00:08:23,950 --> 00:08:28,519
+something that we will also be um doing more of in the next season.
+
+168
+00:08:28,839 --> 00:08:32,369
+Something I've got a passion for this and there's lots of more
+
+169
+00:08:32,599 --> 00:08:35,210
+areas we can explore. So we're going to focus a lot more
+
+170
+00:08:35,619 --> 00:08:37,049
+and some of the aerodynamics
+
+171
+00:08:37,369 --> 00:08:41,440
+in the next season and talk to some people from some of the cycling teams.
+
+172
+00:08:42,058 --> 00:08:44,590
+Uh But Dimitris Katsanis's conversation was really interesting
+
+173
+00:08:44,630 --> 00:08:46,419
+if you're into bikes and the way
+
+174
+00:08:46,429 --> 00:08:50,640
+that they operate and the mentality of how you design a race winning bike.
+
+175
+00:08:50,940 --> 00:08:55,250
+So that was episode six was with Juan Alonso.
+
+176
+00:08:55,500 --> 00:09:01,080
+So this was a bit like the Florian Menter. One was again a CFD focused episode.
+
+177
+00:09:01,619 --> 00:09:05,369
+Uh Juan Alonso has created this startup, Luminary Cloud.
+
+178
+00:09:05,770 --> 00:09:09,320
+And I think it's a good opportunity to hear from someone who is
+
+179
+00:09:10,049 --> 00:09:11,489
+um taken
+
+180
+00:09:12,109 --> 00:09:16,349
+his findings from academia and, and tried to create a start up out of it.
+
+181
+00:09:16,359 --> 00:09:18,309
+And I personally find that interesting because there's quite a
+
+182
+00:09:18,320 --> 00:09:20,900
+few start ups around now in the CFD space.
+
+183
+00:09:21,130 --> 00:09:24,789
+So if you listen to episode, you'll get a bit of a sense of what drove him to do it and,
+
+184
+00:09:24,799 --> 00:09:26,020
+and why he's doing it.
+
+185
+00:09:26,210 --> 00:09:27,609
+And he's also a really nice
+
+186
+00:09:27,909 --> 00:09:28,380
+guy.
+
+187
+00:09:28,390 --> 00:09:32,469
+And I think a lot of the lessons and things that he spoke about are useful for,
+
+188
+00:09:32,479 --> 00:09:33,989
+for many, for many people.
+
+189
+00:09:35,229 --> 00:09:39,090
+I keep switching back and forth between more deep dive in
+
+190
+00:09:39,349 --> 00:09:42,010
+sort of academia or CFD and then
+
+191
+00:09:42,179 --> 00:09:43,919
+more the applications of it.
+
+192
+00:09:44,150 --> 00:09:46,469
+So the seventh episode was with Pat Symonds.
+
+193
+00:09:46,760 --> 00:09:47,330
+Um
+
+194
+00:09:47,500 --> 00:09:50,770
+he was kind enough to invite me to his house where we did the interview.
+
+195
+00:09:51,059 --> 00:09:52,090
+And um
+
+196
+00:09:52,380 --> 00:09:52,690
+uh
+
+197
+00:09:52,909 --> 00:09:55,530
+annoyingly the audio didn't work out that well for me.
+
+198
+00:09:55,539 --> 00:09:58,400
+So it was the first time doing an actual in person interview.
+
+199
+00:09:59,150 --> 00:10:05,250
+But, you know, hearing his story, his way of rising up through the ranks to arguably,
+
+200
+00:10:05,260 --> 00:10:07,210
+you know, one of the top positions in Formula One.
+
+201
+00:10:07,640 --> 00:10:10,369
+He's another person that was really crucial for my
+
+202
+00:10:10,640 --> 00:10:12,320
+career because he,
+
+203
+00:10:12,919 --> 00:10:14,210
+he took a bit of a gamble.
+
+204
+00:10:14,219 --> 00:10:20,729
+I think in having me to be a consultant for Formula One, a bit like Professor Tony Purnell,
+
+205
+00:10:20,869 --> 00:10:23,409
+these people who I'd like to think were
+
+206
+00:10:24,159 --> 00:10:28,099
+um had an eye on trying to help the next generation come through.
+
+207
+00:10:28,419 --> 00:10:29,270
+And so,
+
+208
+00:10:29,460 --> 00:10:31,710
+you know, Pat didn't have to do it.
+
+209
+00:10:31,719 --> 00:10:35,229
+He could have, you know, gone with someone far more experienced or older,
+
+210
+00:10:35,700 --> 00:10:39,590
+but I really appreciate the trust he put in me. And I, I'd like to think that I
+
+211
+00:10:39,909 --> 00:10:42,539
+gave them some insights from, you know,
+
+212
+00:10:42,549 --> 00:10:45,090
+what's going on in the world and cutting edge CFD.
+
+213
+00:10:45,570 --> 00:10:48,469
+And, and since then, and still now I really value
+
+214
+00:10:48,580 --> 00:10:52,669
+Pat and all that he's done for my um career. And so I was
+
+215
+00:10:53,440 --> 00:10:57,280
+always wanted to speak to him more about what he's done in his life.
+
+216
+00:10:57,289 --> 00:11:01,020
+And so this podcast was a great opportunity to, to go and speak to him.
+
+217
+00:11:01,030 --> 00:11:02,979
+So again that if you're really into Formula One,
+
+218
+00:11:03,280 --> 00:11:04,570
+that's a good one to listen to.
+
+219
+00:11:05,659 --> 00:11:06,130
+Um
+
+220
+00:11:06,979 --> 00:11:08,320
+I, I pivoted
+
+221
+00:11:08,429 --> 00:11:11,039
+from the Formula One then to speak to Jack
+
+222
+00:11:11,260 --> 00:11:11,840
+Dongarra,
+
+223
+00:11:12,280 --> 00:11:14,359
+which was all about high-performance computing.
+
+224
+00:11:14,580 --> 00:11:17,840
+Um Actually, high-performance computing is something that I've
+
+225
+00:11:18,010 --> 00:11:21,780
+more and more focused on, particularly my day job at, at Amazon.
+
+226
+00:11:22,299 --> 00:11:27,880
+And it's one of those topics that I feel I didn't know as much about before I joined AWS
+
+227
+00:11:28,510 --> 00:11:30,919
+and, and it's become something I've incredibly,
+
+228
+00:11:30,929 --> 00:11:33,880
+I find very interesting because it touches many fields.
+
+229
+00:11:34,070 --> 00:11:38,000
+It's not just CFD, it's, you know, weather forecasting, drug discovery,
+
+230
+00:11:38,010 --> 00:11:38,979
+machine learning
+
+231
+00:11:39,510 --> 00:11:43,760
+and, and so it's, it's something I think is useful for people to know about because
+
+232
+00:11:44,799 --> 00:11:49,200
+the computing side of it is actually quite important in almost any area of
+
+233
+00:11:49,400 --> 00:11:51,020
+simulation or engineering.
+
+234
+00:11:51,030 --> 00:11:55,659
+It's really what is the, the driving force buying so many of our things today.
+
+235
+00:11:55,669 --> 00:11:57,960
+If you look at generative AI or these large language models,
+
+236
+00:11:58,049 --> 00:12:02,059
+they wouldn't exist if you didn't have a supercomputer to train these models.
+
+237
+00:12:02,359 --> 00:12:04,380
+So that was a good episode with him.
+
+238
+00:12:04,390 --> 00:12:06,179
+And he was kind enough to speak to me and,
+
+239
+00:12:06,190 --> 00:12:08,489
+and we try to look a little bit towards the future.
+
+240
+00:12:08,679 --> 00:12:14,289
+It may go into a little bit of technical detail, you know, into the HPC world. But I, I,
+
+241
+00:12:14,580 --> 00:12:18,390
+uh, I think it's something good to know more about.
+
+242
+00:12:20,330 --> 00:12:21,479
+The next episode,
+
+243
+00:12:21,489 --> 00:12:23,809
+episode nine was with Chris Rumsey and he's uh
+
+244
+00:12:23,820 --> 00:12:27,479
+another person who I personally looked up to and,
+
+245
+00:12:27,890 --> 00:12:29,250
+uh, again has
+
+246
+00:12:29,549 --> 00:12:32,479
+helped me a lot, you know, inviting me um
+
+247
+00:12:33,760 --> 00:12:36,789
+to or welcomed me into some of these
+
+248
+00:12:36,909 --> 00:12:41,169
+aerospace activities. You know, a lot of my background has been an automotive,
+
+249
+00:12:41,380 --> 00:12:43,929
+but I've always loved aerospace and space
+
+250
+00:12:44,309 --> 00:12:45,179
+and, um
+
+251
+00:12:46,099 --> 00:12:48,440
+I didn't come from that world per se.
+
+252
+00:12:48,450 --> 00:12:51,150
+You know, I, I, although I did work for NASA a little bit,
+
+253
+00:12:51,330 --> 00:12:54,000
+you know, nothing like people like Chris and others who are, you know,
+
+254
+00:12:54,010 --> 00:12:55,599
+full time employees at NASA.
+
+255
+00:12:55,900 --> 00:12:57,940
+And Chris has always been very good to me
+
+256
+00:12:58,090 --> 00:13:02,080
+and I've learned a lot from him and I really, you know, admire him as a person.
+
+257
+00:13:02,510 --> 00:13:06,219
+Um We work quite closely over the past few years in some of
+
+258
+00:13:06,229 --> 00:13:08,520
+these things called the High Lift Prediction Workshops
+
+259
+00:13:08,530 --> 00:13:10,200
+with NASA and Boeing and others.
+
+260
+00:13:10,650 --> 00:13:14,080
+And again, I, I was always intrigued to know a little bit more about Chris.
+
+261
+00:13:14,090 --> 00:13:15,859
+And so I this episode was
+
+262
+00:13:16,119 --> 00:13:17,809
+like many episodes. It's,
+
+263
+00:13:17,960 --> 00:13:19,200
+you know, the secret here is,
+
+264
+00:13:19,210 --> 00:13:23,239
+it's an opportunity for me to speak to people I like to hear from as well.
+
+265
+00:13:23,729 --> 00:13:27,929
+So that was a good episode. A bit similar to Florian Menter and
+
+266
+00:13:28,250 --> 00:13:30,719
+um Juan Alonso, a bit of a CFD focus.
+
+267
+00:13:30,729 --> 00:13:34,039
+But if you haven't listened to it already, hopefully you'll, you'll enjoy it.
+
+268
+00:13:35,289 --> 00:13:36,070
+Now,
+
+269
+00:13:36,320 --> 00:13:40,619
+the past, um, three or technically four episodes
+
+270
+00:13:41,679 --> 00:13:45,219
+have dived into this. AI for Science and this
+
+271
+00:13:45,409 --> 00:13:47,460
+really is a sort of mini series.
+
+272
+00:13:48,739 --> 00:13:51,479
+I started off with me giving some of my thoughts.
+
+273
+00:13:51,489 --> 00:13:53,020
+It was a bit of a quick episode really.
+
+274
+00:13:53,030 --> 00:13:56,830
+It was more just to sort of frame some of the discussions. Um,
+
+275
+00:13:57,510 --> 00:13:59,789
+and it's all about trying to look at
+
+276
+00:13:59,799 --> 00:14:02,799
+if machine learning could be a revolutionary thing.
+
+277
+00:14:02,809 --> 00:14:05,869
+It's certainly so it's a bit of a hot topic
+
+278
+00:14:06,630 --> 00:14:09,690
+and one that divides people, some people think, oh, it's a load of rubbish,
+
+279
+00:14:09,700 --> 00:14:12,270
+this machine learning, you know, we've been doing it for 2030 years.
+
+280
+00:14:12,280 --> 00:14:13,489
+It's just got a different name
+
+281
+00:14:13,719 --> 00:14:15,729
+and there are others who are far more bullish.
+
+282
+00:14:16,020 --> 00:14:17,950
+So, what I thought I would do is I would,
+
+283
+00:14:18,130 --> 00:14:19,929
+you know, try and speak to
+
+284
+00:14:20,500 --> 00:14:24,369
+some of the top people in the world and instead of me giving my opinion,
+
+285
+00:14:24,729 --> 00:14:28,650
+how about trying to, 00. And also instead of just one person giving their opinion,
+
+286
+00:14:29,070 --> 00:14:33,830
+if I speak to three different people, hopefully we can get a broader sense of
+
+287
+00:14:34,039 --> 00:14:35,849
+what the community is thinking.
+
+288
+00:14:36,479 --> 00:14:37,859
+So I purposely
+
+289
+00:14:37,960 --> 00:14:38,799
+tried to speak to them.
+
+290
+00:14:38,809 --> 00:14:42,630
+So, Max Welling is actually a very well known person, machine learning world.
+
+291
+00:14:42,640 --> 00:14:44,400
+I don't come from the machine learning world.
+
+292
+00:14:44,739 --> 00:14:47,619
+Um But if you even start to look into it, you'll see.
+
+293
+00:14:47,630 --> 00:14:50,020
+Max Welling is like one of the top guys.
+
+294
+00:14:50,030 --> 00:14:50,140
+I mean,
+
+295
+00:14:50,150 --> 00:14:54,539
+he was a VP at Microsoft one of the top people were in their research department.
+
+296
+00:14:55,039 --> 00:14:58,729
+He was pioneering with things like autoencoders, which if again,
+
+297
+00:14:58,739 --> 00:14:59,809
+if you're into machine learning,
+
+298
+00:14:59,820 --> 00:15:03,469
+you'll realize is a building block of so many things.
+
+299
+00:15:03,869 --> 00:15:07,309
+And he's turned his hand to the AI for science realm
+
+300
+00:15:07,679 --> 00:15:12,750
+and he's a very smart individual. He's in many of these workshops and committees and
+
+301
+00:15:13,109 --> 00:15:16,159
+uh reviewers for, you know, journals. So he's
+
+302
+00:15:16,630 --> 00:15:18,039
+literally one of the top people.
+
+303
+00:15:18,049 --> 00:15:22,090
+I was kind of amazed that he even said yes, I was so pleased that he said yes.
+
+304
+00:15:22,440 --> 00:15:24,330
+And I like that episode cos I
+
+305
+00:15:24,650 --> 00:15:26,969
+genuinely learnt things from that
+
+306
+00:15:27,440 --> 00:15:28,489
+and um
+
+307
+00:15:28,700 --> 00:15:33,909
+it was good to get his opinion on, on, on the potential of AI for science
+
+308
+00:15:34,409 --> 00:15:35,369
+the next one.
+
+309
+00:15:35,890 --> 00:15:39,000
+But, but Max Welling is not a fluid dynamics specialist.
+
+310
+00:15:39,010 --> 00:15:40,469
+That's not actually his background,
+
+311
+00:15:40,780 --> 00:15:43,289
+he comes more from the pure ML world.
+
+312
+00:15:43,429 --> 00:15:45,669
+Whereas um then I spoke
+
+313
+00:15:45,830 --> 00:15:47,309
+to Karthik Duraisamy in episode 12
+
+314
+00:15:47,559 --> 00:15:52,030
+who comes from a more similar background to me, more of a sort of CFD or
+
+315
+00:15:52,250 --> 00:15:55,250
+turbomachinery background, but has turned himself to
+
+316
+00:15:55,479 --> 00:15:58,039
+uh really focus on machine learning applications.
+
+317
+00:15:58,289 --> 00:16:01,640
+And that was a good one because I felt that gave an even more
+
+318
+00:16:02,130 --> 00:16:06,719
+useful insight into how it could be used for fluid dynamics.
+
+319
+00:16:06,729 --> 00:16:09,609
+Um and, and CFD and aerodynamics,
+
+320
+00:16:09,619 --> 00:16:12,250
+which is obviously kind of the theme of this podcast.
+
+321
+00:16:12,369 --> 00:16:12,890
+You know, I
+
+322
+00:16:13,010 --> 00:16:16,280
+I do try and cover other topics but as you probably noticed it's
+
+323
+00:16:16,650 --> 00:16:19,419
+aerodynamics computational fluid dynamics,
+
+324
+00:16:19,590 --> 00:16:22,039
+anything to do with engineering essentially.
+
+325
+00:16:22,320 --> 00:16:22,619
+And so
+
+326
+00:16:22,869 --> 00:16:24,630
+Karthik Duraisamy gave a very insight. He was,
+
+327
+00:16:25,010 --> 00:16:26,299
+um I would say
+
+328
+00:16:26,859 --> 00:16:28,369
+a realist almost or,
+
+329
+00:16:28,380 --> 00:16:30,950
+or someone who realized that a IA I has its
+
+330
+00:16:30,960 --> 00:16:33,159
+place but he wasn't trying to claim it could,
+
+331
+00:16:33,169 --> 00:16:34,190
+you know, do everything.
+
+332
+00:16:34,669 --> 00:16:37,710
+But he's been focusing a lot on this thing called foundational models,
+
+333
+00:16:37,719 --> 00:16:38,760
+which is very interesting.
+
+334
+00:16:39,919 --> 00:16:44,010
+The um the final episode was with Anima who is
+
+335
+00:16:44,440 --> 00:16:48,799
+again very well established in the, the field is
+
+336
+00:16:48,950 --> 00:16:50,710
+highly influential.
+
+337
+00:16:51,169 --> 00:16:56,270
+And as I said in the episode, has held very senior positions at companies
+
+338
+00:16:56,489 --> 00:17:00,429
+who are really putting the money behind a lot of stuff like AWS and NVIDIA
+
+339
+00:17:00,880 --> 00:17:03,559
+and of course, being, you know, a full professor at Caltech
+
+340
+00:17:03,859 --> 00:17:04,270
+and
+
+341
+00:17:04,560 --> 00:17:08,858
+she um has really been the one pushing some of the debate.
+
+342
+00:17:08,868 --> 00:17:10,358
+And so I wanted to hear her as well.
+
+343
+00:17:10,368 --> 00:17:12,780
+Now, as I alluded to, she's a bit more bullish,
+
+344
+00:17:12,790 --> 00:17:17,800
+she's more confident of what we can achieve probably more so than Max and
+
+345
+00:17:18,239 --> 00:17:18,280
+Karthik Duraisamy.
+
+346
+00:17:18,618 --> 00:17:21,339
+But I wanted to have, you know, that, that blend of it.
+
+347
+00:17:22,390 --> 00:17:27,010
+So that's where we are. We're at today. Those 13 episodes have, have, have come out.
+
+348
+00:17:27,219 --> 00:17:27,650
+Um
+
+349
+00:17:28,458 --> 00:17:31,629
+What would I like to do in the next season? What's to come?
+
+350
+00:17:31,928 --> 00:17:32,558
+Well,
+
+351
+00:17:33,550 --> 00:17:35,040
+I would like,
+
+352
+00:17:35,489 --> 00:17:37,459
+and I'm going to expand
+
+353
+00:17:38,069 --> 00:17:41,160
+and try it some more into the engineering side.
+
+354
+00:17:41,170 --> 00:17:45,199
+So some of the topics that we're going to cover in the next season will be things like
+
+355
+00:17:45,880 --> 00:17:46,890
+hypersonics.
+
+356
+00:17:48,270 --> 00:17:51,810
+What are the challenges? Why is hypersonic so important to the world?
+
+357
+00:17:51,819 --> 00:17:53,930
+What are the, you know, science challenges with
+
+358
+00:17:54,339 --> 00:17:55,660
+hypersonics being more than mach
+
+359
+00:17:55,770 --> 00:17:57,489
+five? So very, very fast,
+
+360
+00:17:58,270 --> 00:18:01,689
+want to get into um supersonic planes.
+
+361
+00:18:01,699 --> 00:18:04,890
+So things like Concorde, you know, could something come back again,
+
+362
+00:18:05,530 --> 00:18:11,869
+gonna do, gonna um double down on some of the um CFD. So we've got some really
+
+363
+00:18:12,219 --> 00:18:15,910
+uh amazing legends of the CFD world to speak to
+
+364
+00:18:16,119 --> 00:18:16,800
+uh formula.
+
+365
+00:18:16,810 --> 00:18:17,589
+One, of course,
+
+366
+00:18:17,599 --> 00:18:20,099
+some really big figures in Formula One who will
+
+367
+00:18:20,109 --> 00:18:22,430
+be um recording with in the next few weeks.
+
+368
+00:18:22,959 --> 00:18:28,709
+Uh and cycling, I want to um to, to get into, in a, in a more deepening way.
+
+369
+00:18:28,719 --> 00:18:32,500
+So it's not gonna be that different than the first episode uh than the first season.
+
+370
+00:18:32,890 --> 00:18:37,910
+Um But I do want to uh tackle some what I think are very interesting engineering,
+
+371
+00:18:37,920 --> 00:18:39,119
+engineering challenges.
+
+372
+00:18:39,130 --> 00:18:41,439
+And one of the final things we're gonna cover is
+
+373
+00:18:41,619 --> 00:18:44,989
+some of the things to do with space, which has always been something I've
+
+374
+00:18:45,150 --> 00:18:47,229
+loved to, you know, getting to Mars,
+
+375
+00:18:47,239 --> 00:18:49,430
+what are some of the challenges and things like that?
+
+376
+00:18:50,119 --> 00:18:50,900
+So,
+
+377
+00:18:51,709 --> 00:18:52,189
+but
+
+378
+00:18:52,310 --> 00:18:53,170
+I'm flexible
+
+379
+00:18:53,959 --> 00:18:57,849
+and I'm trying to be guided by what people listening to this one, not just myself.
+
+380
+00:18:58,069 --> 00:19:04,060
+So if you have some ideas, please go to the YouTube, it's probably the easiest way
+
+381
+00:19:04,369 --> 00:19:06,839
+and put a comment until let's say this video or any
+
+382
+00:19:06,849 --> 00:19:09,630
+of the videos on what you may like or what you dislike
+
+383
+00:19:09,819 --> 00:19:11,660
+or um on LinkedIn.
+
+384
+00:19:11,670 --> 00:19:16,369
+If you follow me on LinkedIn and send me a message um with feedback or ideas,
+
+385
+00:19:16,380 --> 00:19:18,550
+then I'll definitely take it into account.
+
+386
+00:19:18,560 --> 00:19:18,880
+So,
+
+387
+00:19:19,619 --> 00:19:20,800
+yeah, thanks again.
+
+388
+00:19:20,810 --> 00:19:24,939
+Really appreciate people um getting involved and listening to this.
+
+389
+00:19:24,949 --> 00:19:29,530
+I'm, I'm, I'm pleased that it's resonated with some of you very happy about that.
+
+390
+00:19:29,540 --> 00:19:30,459
+And, uh,
+
+391
+00:19:30,660 --> 00:19:32,199
+yeah, I hope I can do it again
+
+392
+00:19:32,540 --> 00:19:34,619
+for season two, but for now
+
+393
+00:19:34,729 --> 00:19:35,400
+that's it
+
+394
+00:19:35,689 --> 00:19:40,439
+gonna have a bit of a break and I'll probably see you again in, uh, September.
+
+395
+00:19:40,660 --> 00:19:42,239
+So thank you for listening
+
+396
+00:19:42,699 --> 00:19:43,359
+and watching.
+
+397
+00:20:06,219 --> 00:20:06,339
+Ok.

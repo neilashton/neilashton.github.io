@@ -60,7 +60,7 @@ So today's guest is Professor
 
 13
 00:00:43,800 --> 00:00:47,000
-Neil Torre.
+Nils Thuerey.
 He's an associate professor at
 
 14
@@ -210,7 +210,7 @@ moved into both generating data
 
 43
 00:02:41,920 --> 00:02:45,800
-sets like the Super wing data
+sets like the SuperWing data
 set, but also addressing the
 
 44
@@ -286,7 +286,7 @@ just on fluids, but also on the,
 58
 00:03:37,000 --> 00:03:39,040
 on the weather side, interesting
-like weather bench.
+like WeatherBench.
 
 59
 00:03:39,320 --> 00:03:42,840
@@ -336,7 +336,7 @@ what I mean by that.
 68
 00:04:08,600 --> 00:04:12,920
 So hope you enjoy this episode
-with Professor Neil Torry.
+with Professor Nils Thuerey.
 
 69
 00:04:13,440 --> 00:04:16,480
@@ -436,7 +436,7 @@ computational numerics
 88
 00:05:23,600 --> 00:05:28,480
 computational physics lab,
-basically targeting multi grid
+basically targeting multigrid
 
 89
 00:05:28,520 --> 00:05:32,240
@@ -480,13 +480,13 @@ So we also worked on computer
 
 97
 00:05:53,000 --> 00:05:55,800
-graphics, BASIC for computer
-based animation for quite a
+graphics, basically, for
+computer-based animation for quite a
 
 98
 00:05:55,800 --> 00:05:58,000
 while.
-My post I get ETH and then
+My postdoc at ETH and then
 
 99
 00:05:58,000 --> 00:06:01,200
@@ -530,8 +530,8 @@ field.
 
 107
 00:06:24,760 --> 00:06:28,080
-But yes, that's that's why we
-did my poster basically.
+But yes, that's why I did my
+postdoc, basically.
 
 108
 00:06:28,080 --> 00:06:32,760
@@ -570,7 +570,7 @@ tried.
 
 115
 00:06:51,360 --> 00:06:54,840
-And then when Alphago came
+And then when AlphaGo came
 along, I thought, oh, this has
 
 116
@@ -595,17 +595,17 @@ on basically finding these
 
 120
 00:07:06,240 --> 00:07:08,360
-techniques to the
-reconciliations and food
+applying these techniques to
+numerical simulations and fluid
 
 121
 00:07:08,360 --> 00:07:11,760
 mechanics specifically.
-And I think in a way, it's a
+And I think, in a way, it's a
 
 122
 00:07:12,240 --> 00:07:14,280
-good time at the world.
+good time at the moment.
 It's finally starting to work.
 
 123
@@ -635,7 +635,7 @@ on these things before now, you
 
 128
 00:07:38,480 --> 00:07:41,920
-know, before chat GB Teemo, what
+know, before ChatGPT, what
 was the field like?
 
 129
@@ -665,8 +665,8 @@ in the early phases, all these
 
 134
 00:07:56,800 --> 00:08:00,280
-AIO back then, it was called
-deep learning techniques were
+AI-based—back then called deep learning—
+techniques were
 
 135
 00:08:01,520 --> 00:08:03,280
@@ -700,8 +700,8 @@ generate anything.
 
 141
 00:08:14,960 --> 00:08:18,080
-Also, if you, if you think about
-alpha gold, the early success
+Also, if you think about
+AlphaGo, the early success
 
 142
 00:08:18,080 --> 00:08:21,400
@@ -746,7 +746,7 @@ literally laugh me in the face
 150
 00:08:41,280 --> 00:08:43,559
 like, you're doing learning for
-Pdes.
+PDEs.
 
 151
 00:08:43,559 --> 00:08:45,760
@@ -781,16 +781,16 @@ least makes sense to consider
 157
 00:09:04,280 --> 00:09:07,880
 this combination.
-And luckily I interestingly, I
+And luckily, interestingly, I
 
 158
 00:09:07,880 --> 00:09:11,400
-think for the for the white
+think for the wide
 community, I think the picture
 
 159
 00:09:11,400 --> 00:09:15,280
-really changed with chat GPTI
+really changed with ChatGPT. I
 think in computer science and
 
 160
@@ -800,7 +800,7 @@ People have been aware earlier,
 
 161
 00:09:18,640 --> 00:09:23,920
-but since chat ChatGPT it's
+but since ChatGPT, it's
 really on everybody's plate and
 
 162
@@ -820,12 +820,12 @@ probably some of the first ones
 
 165
 00:09:33,400 --> 00:09:36,480
-are sort of like in the AI AA,
+are sort of like in the AIAA,
 the deep learning of like some
 
 166
 00:09:36,680 --> 00:09:43,720
-random airfoils and so quite a
+RANS of airfoils, and so quite a
 few in the 20 twenties before
 
 167
@@ -856,16 +856,16 @@ were a fundamental issue.
 172
 00:09:59,680 --> 00:10:03,600
 I think the whole infrastructure
-right in the beginning, CNNS
+right in the beginning, CNNs
 
 173
 00:10:03,600 --> 00:10:06,280
 were were a big breakthrough,
-yes, for your MLPS.
+yes, before you had MLPs.
 
 174
 00:10:06,280 --> 00:10:10,640
-So CNNS definitely for feel like
+So CNNs definitely for field-like
 data worked quite nicely, but
 
 175
@@ -890,7 +890,7 @@ in 3D plus time.
 
 179
 00:10:23,760 --> 00:10:27,240
-You essentially have 40 fields.
+You essentially have 4D fields.
 Even if you simplify it and and
 
 180
@@ -1080,8 +1080,8 @@ applications.
 
 217
 00:12:37,440 --> 00:12:40,880
-And where did the, you know, Phi
-flow when there's a
+And where did the, you know,
+PhiFlow and the sort of
 
 218
 00:12:40,880 --> 00:12:45,040
@@ -1145,18 +1145,18 @@ So we just started experimenting
 
 230
 00:13:19,520 --> 00:13:24,440
-with on solvers since 5:00 flow
+with our own solvers. PhiFlow
 became a good testing ground for
 
 231
 00:13:24,440 --> 00:13:28,920
 very basic methods across
-different, different AP is back
+different APIs. Back
 
 232
 00:13:28,920 --> 00:13:33,680
-then, right there was 10s of
-flow and, and Pytorch and JAX
+then, right, there was TensorFlow,
+PyTorch and JAX
 
 233
 00:13:33,680 --> 00:13:37,560
@@ -1185,7 +1185,7 @@ bit more.
 
 238
 00:13:53,480 --> 00:13:56,280
-But five floor was one of these
+But PhiFlow was one of these
 early testing grounds.
 
 239
@@ -1305,7 +1305,7 @@ There was actually a great
 
 262
 00:15:16,120 --> 00:15:18,920
-observation by Phoenix, one of
+observation by Felix, one of
 one of the PhD students from my
 
 263
@@ -1450,13 +1450,13 @@ It is very difficult to really
 
 291
 00:17:08,960 --> 00:17:12,040
-do this in a target to way.
+do this in a targeted way.
 So we had some new cases where
 
 292
 00:17:12,040 --> 00:17:14,560
-it worked for some, some basic
-infection fusion and burgers.
+it worked for some basic
+advection-diffusion and Burgers.
 
 293
 00:17:14,760 --> 00:17:17,560
@@ -1466,12 +1466,12 @@ example actually because the the
 294
 00:17:17,560 --> 00:17:22,960
 shock representation and
-smoothness bogus is non bogus
+smoothness—Burgers equation
 
 295
 00:17:22,960 --> 00:17:25,640
-equation.
-It's non trivial but seem to be
+is non-trivial, but
+seemed to be
 
 296
 00:17:25,640 --> 00:17:30,200
@@ -1486,17 +1486,17 @@ we haven't unfortunately we
 298
 00:17:34,000 --> 00:17:37,200
 haven't gotten around to finding
-a good way to to leverage this
+a good way to leverage this
 
 299
 00:17:37,200 --> 00:17:39,480
-for it.
-Reword never Stokes problems or
+for real-world Navier–Stokes
+problems or
 
 300
 00:17:39,480 --> 00:17:46,920
-so but but not to say.
-But what about foundation mods
+so. But what about
+foundation models
 
 301
 00:17:46,920 --> 00:17:48,480
@@ -1520,7 +1520,7 @@ Recently we switched pretty much
 
 305
 00:17:57,640 --> 00:18:00,160
-from these differential solvers
+from these differentiable solvers
 to foundation models.
 
 306
@@ -1551,7 +1551,7 @@ general and I'm sure you and and
 311
 00:18:16,840 --> 00:18:20,560
 most people know these fields of
-Pdes are extremely diverse.
+PDEs are extremely diverse.
 
 312
 00:18:21,320 --> 00:18:23,600
@@ -1571,7 +1571,7 @@ bit out of reach.
 315
 00:18:35,440 --> 00:18:39,160
 Nonetheless, if you just right
-foundation was also by now I
+foundation models also by now I
 
 316
 00:18:39,160 --> 00:18:41,200
@@ -1645,7 +1645,7 @@ foundation model tools borrowing
 
 330
 00:19:24,600 --> 00:19:27,680
-a lot from large vendors models,
+a lot from large language models,
 we can actually do this if we
 
 331
@@ -1755,7 +1755,7 @@ think about it.
 
 352
 00:20:43,760 --> 00:20:48,280
-What we noticed in this tadpole
+What we noticed in this Tadpole
 work, we we called it typically
 
 353
@@ -1770,7 +1770,7 @@ a way on on previous work on on
 
 355
 00:20:59,440 --> 00:21:03,320
-this eight bench benchmark with
+this APEBench benchmark with
 very synthetic data.
 
 356
@@ -1785,12 +1785,12 @@ efficiently compute super good
 
 358
 00:21:12,280 --> 00:21:15,960
-solutions for right, a class of
-basic PD, ES affection fusion,
+solutions for a class of basic
+PDEs. For advection-diffusion,
 
 359
 00:21:15,960 --> 00:21:20,880
-these ETDRK solvers in a way,
+these ETDRK solvers—in a way,
 they're really perfect.
 
 360
@@ -1820,7 +1820,7 @@ this data extremely quickly and
 
 365
 00:21:40,040 --> 00:21:43,680
-very broadly if you bury the
+very broadly if you vary the
 parameters and we notice that
 
 366
@@ -1835,13 +1835,13 @@ for varying parameter ranges for
 
 368
 00:21:53,320 --> 00:21:57,480
-these different PD ES from
-affection diffusion to transport
+these different PDEs, from
+advection-diffusion to transport
 
 369
 00:21:58,240 --> 00:22:02,320
-to some some higher order terms
-with chaos promoters, Yushinski
+to some higher-order terms with
+Kuramoto–Sivashinsky
 
 370
 00:22:02,320 --> 00:22:05,120
@@ -1875,8 +1875,8 @@ And the nice thing then is
 
 376
 00:22:26,400 --> 00:22:28,440
-right, these, these solutions to
-these synthetic prones are
+right, these solutions to
+these synthetic problems are
 
 377
 00:22:28,440 --> 00:22:30,760
@@ -1905,12 +1905,12 @@ So it's basically just running
 
 382
 00:22:41,200 --> 00:22:44,360
-the solver alongside you
-typically have written and all
+the solver alongside. You
+typically have a node with
 
 383
 00:22:44,360 --> 00:22:46,360
-the four GPU.
+four GPUs.
 So one GPU does the data
 
 384
@@ -2000,8 +2000,8 @@ idea is you generate data like
 
 401
 00:23:53,160 --> 00:23:56,280
-you did with the Super wing or,
-or now this highlight aero ML or
+you did with the SuperWing or,
+or now this HiLiftAeroML or
 
 402
 00:23:56,280 --> 00:23:59,080
@@ -2021,7 +2021,7 @@ And the other one is you're
 405
 00:24:05,280 --> 00:24:08,320
 starting from the far left side
-of basic PD ES.
+of basic PDEs.
 
 406
 00:24:09,040 --> 00:24:13,720
@@ -2030,8 +2030,8 @@ they go in the middle?
 
 407
 00:24:13,720 --> 00:24:17,400
-The basic PDS are just can you
-go to Navier Stokes?
+The basic PDEs are—can you
+go to Navier–Stokes?
 
 408
 00:24:17,400 --> 00:24:19,400
@@ -2136,11 +2136,11 @@ pre training already makes sense
 428
 00:25:25,520 --> 00:25:30,320
 in in retrospect I think.
-And then with the synthetic PD
+And then with the synthetic
 
 429
 00:25:30,320 --> 00:25:34,560
-ES, probably you also might not
+PDEs, probably you also might not
 get the out-of-the-box best
 
 430
@@ -2155,7 +2155,7 @@ very good starting point also
 
 432
 00:25:42,240 --> 00:25:45,560
-for Navia Stokes.
+for Navier–Stokes.
 So what I see as a practical
 
 433
@@ -2196,7 +2196,7 @@ But pre training doesn't need to
 440
 00:26:10,560 --> 00:26:13,560
 be restricted to these canonical
-PD ES, but could go in certain
+PDEs, but could go in certain
 
 441
 00:26:13,560 --> 00:26:16,720
@@ -2246,7 +2246,7 @@ Admittedly, that's an open
 450
 00:26:49,400 --> 00:26:54,080
 question and in in a way also we
-were surprised that the bonus
+were surprised that the models
 
 451
 00:26:54,080 --> 00:26:59,000
@@ -2281,7 +2281,7 @@ like the key modes?
 457
 00:27:15,280 --> 00:27:18,040
 Or do they learn differential
-operators like Also, these PD ES
+operators? Also, these PDEs
 
 458
 00:27:18,040 --> 00:27:22,440
@@ -2300,7 +2300,7 @@ to test.
 
 461
 00:27:28,960 --> 00:27:32,320
-So the PD ES are initialized.
+So the PDEs are initialized.
 If you only train with these
 
 462
@@ -2310,18 +2310,18 @@ actually also learn something,
 
 463
 00:27:35,520 --> 00:27:40,120
-but it clearly does less good on
-the Stokes than if you pre train
+but it clearly does less well on
+Navier–Stokes than if you pre-train
 
 464
 00:27:40,120 --> 00:27:42,760
-with the PD ES.
+with the PDEs.
 So basically a transformation of
 
 465
 00:27:42,760 --> 00:27:46,400
 initial conditions into actual
-states of a of APDE seems to be
+states of a PDE seems to be
 
 466
 00:27:46,400 --> 00:27:48,600
@@ -2450,7 +2450,7 @@ directions to go, right?
 
 491
 00:29:26,920 --> 00:29:33,080
-The PD ES definitely aim for
+The PDEs definitely aim for
 generality in a way I think also
 
 492
@@ -2490,7 +2490,7 @@ especially in in 3D for large
 
 499
 00:30:02,920 --> 00:30:07,880
-scale Pdes, it's actually
+scale PDEs, it's actually
 difficult to gather these really
 
 500
@@ -2515,18 +2515,18 @@ feels to be different than
 
 504
 00:30:27,920 --> 00:30:34,000
-ChatGPT where, you know, chat
-GBTS cost does not really
+ChatGPT where, you know,
+ChatGPT's cost does not really
 
 505
 00:30:34,000 --> 00:30:38,000
-include the, the data, the token
-cost per SE.
+include the data—the token
+cost per se.
 
 506
 00:30:38,000 --> 00:30:41,400
-And, and therefore it's all on
-the trading side.
+And therefore it's all on
+the training side.
 
 507
 00:30:43,040 --> 00:30:47,600
@@ -2776,7 +2776,7 @@ thanks to all the methodology is
 556
 00:33:51,440 --> 00:33:56,640
 converging on this LLM
-transformer style processing,
+transformer-style processing,
 
 557
 00:33:58,560 --> 00:34:01,920
@@ -2790,8 +2790,8 @@ to work because also we have the
 
 559
 00:34:06,600 --> 00:34:09,719
-the tools and and outlooks how
-to stay up things up to these
+the tools and outlooks for how
+to scale things up to these
 
 560
 00:34:09,719 --> 00:34:15,560
@@ -2866,7 +2866,7 @@ How to actually adjust how to
 574
 00:35:02,800 --> 00:35:05,800
 scale up the size of the network
-in terms of this bedding space
+in terms of this embedding space
 
 575
 00:35:05,800 --> 00:35:08,440
@@ -2885,7 +2885,7 @@ every new case again and also
 
 578
 00:35:17,640 --> 00:35:20,080
-for the for the PD case,
+for the PDE case,
 unfortunately.
 
 579
@@ -2955,7 +2955,7 @@ GPU to generate the data, 3 to
 
 592
 00:36:06,640 --> 00:36:07,440
-trade.
+train.
 How?
 
 593
@@ -2995,7 +2995,7 @@ somehow need to get it from the
 
 600
 00:36:30,960 --> 00:36:35,920
-disk, get it to the to the GPU's
+disk, get it to the GPUs
 with this large data set that
 
 601
@@ -3030,7 +3030,7 @@ right.
 
 607
 00:36:55,600 --> 00:36:58,040
-You have your DP us they, they
+You have your GPUs; they
 need to load the data from this,
 
 608
@@ -3181,17 +3181,17 @@ that's physically valid and that
 637
 00:38:40,080 --> 00:38:44,200
 that could be used and it might
-take for for realistic reward
+take for a realistic real-world
 
 638
 00:38:44,200 --> 00:38:48,200
-case might take hours until
+case, it might take hours until
 you're in that regime and need
 
 639
 00:38:48,360 --> 00:38:52,680
-fair number of of CPUs at least
-or DP US if you have a modern
+fair number of CPUs at least,
+or GPUs if you have a modern
 
 640
 00:38:52,680 --> 00:38:54,840
@@ -3211,11 +3211,11 @@ training, which is why I think
 643
 00:39:02,320 --> 00:39:05,520
 it's actually so interesting to
-use these canonical PDS with
+use these canonical PDEs with
 
 644
 00:39:05,520 --> 00:39:10,280
-these Spectra solvers because
+these spectral solvers because
 it, it's really, the solver is
 
 645
@@ -3420,8 +3420,8 @@ over time for data generation.
 
 685
 00:41:54,160 --> 00:41:56,360
-Unfortunately he was tadpole
-with his online training.
+Unfortunately, here with Tadpole,
+with this online training,
 
 686
 00:41:58,480 --> 00:42:03,240
@@ -3445,7 +3445,7 @@ So if this reuse is too high of
 
 690
 00:42:12,440 --> 00:42:16,480
-our our pre trained buffer
+our pre-training buffer
 basically the models do start to
 
 691
@@ -3470,7 +3470,7 @@ And if the samples are reused
 
 695
 00:42:28,680 --> 00:42:32,160
-too often, the bars already we
+too often, there was already—we
 saw some signs of of performance
 
 696
@@ -3495,7 +3495,7 @@ is is for some reason slower and
 
 700
 00:42:47,760 --> 00:42:50,960
-suddenly on when training run
+suddenly on one training run
 you reuse the data more often.
 
 701
@@ -3510,7 +3510,7 @@ overly strong.
 
 703
 00:42:57,880 --> 00:43:00,840
-So it's still generative fair
+So it still generated a fair
 amount of data.
 
 704
@@ -3605,7 +3605,7 @@ that's why I was interested in
 
 722
 00:44:05,040 --> 00:44:08,080
-your differentiable physic, your
+your differentiable physics, your
 your code writing essentially
 
 723
@@ -3626,7 +3626,7 @@ a way that.
 726
 00:44:25,080 --> 00:44:28,240
 I think right now our focus is
-on foundation was I'm also
+on foundation models. I'm also
 
 727
 00:44:28,240 --> 00:44:30,800
@@ -3716,7 +3716,7 @@ around what were some of your
 744
 00:45:38,640 --> 00:45:43,280
 lessons learned from doing, you
-know, weather bench and AP bench
+know, WeatherBench and APEBench
 
 745
 00:45:43,280 --> 00:45:46,400
@@ -3740,7 +3740,7 @@ behind those efforts?
 
 749
 00:45:58,040 --> 00:46:03,120
-So the weather bench effort,
+So the WeatherBench effort,
 yeah, in retrospect, it's, it's
 
 750
@@ -3785,12 +3785,12 @@ But in other fields, like
 
 758
 00:46:29,480 --> 00:46:34,640
-whether there was very little,
+weather, there was very little,
 basically having established
 
 759
 00:46:34,640 --> 00:46:39,360
-benchmarks and libel evaluations
+benchmarks and reliable evaluations
 is really important for for any
 
 760
@@ -3841,7 +3841,7 @@ Really important you you
 769
 00:47:10,200 --> 00:47:15,560
 recently generated to your group
-the Super wing data set.
+the SuperWing data set.
 
 770
 00:47:16,000 --> 00:47:17,520
@@ -4260,7 +4260,7 @@ used were one of the key things
 
 853
 00:52:38,680 --> 00:52:40,840
-to apply for one of these test
+to apply for one of these
 tech Oscars.
 
 854
@@ -4310,7 +4310,7 @@ actually the exception that
 
 863
 00:53:10,480 --> 00:53:12,840
-papers came to code and it's
+papers came with code and it's
 great.
 
 864
@@ -4465,8 +4465,8 @@ And I, I do see potential there
 
 894
 00:55:15,560 --> 00:55:18,680
-on the, on the PDE front and
-through its front.
+on the PDE front and
+fluids front.
 
 895
 00:55:20,640 --> 00:55:23,600
@@ -4615,7 +4615,7 @@ existing companies towards this
 
 924
 00:57:08,520 --> 00:57:11,640
-physically eye direction.
+physics AI direction.
 So I think also in a way
 
 925
@@ -4645,8 +4645,8 @@ I, I had my experience with
 
 930
 00:57:26,480 --> 00:57:30,760
-industry I for, for visual
-attacks and before I'm quite
+industry for visual
+effects, and therefore I'm quite
 
 931
 00:57:30,760 --> 00:57:34,920
@@ -4751,7 +4751,7 @@ The sort of so that that I'm
 951
 00:58:36,160 --> 00:58:38,800
 sure that has been discussed a
-little bit in the broader LM
+little bit in the broader LLM
 
 952
 00:58:38,800 --> 00:58:41,600
@@ -4896,7 +4896,7 @@ progress, doesn't it?
 980
 01:00:31,360 --> 01:00:33,240
 Yeah.
-So LLMS will be interesting to
+So LLMs will be interesting to
 
 981
 01:00:33,240 --> 01:00:34,960
@@ -4906,7 +4906,7 @@ That's there have been
 982
 01:00:34,960 --> 01:00:39,480
 initiatives of training open
-LLMS, but some of them I guess
+LLMs, but some of them I guess
 
 983
 01:00:39,480 --> 01:00:42,560
@@ -4920,7 +4920,7 @@ very few people who really can
 
 985
 01:00:47,520 --> 01:00:53,440
-or try to train their own LLMS.
+or try to train their own LLMs.
 That's really become a very
 
 986
@@ -5380,7 +5380,7 @@ depending what's the use of
 
 1077
 01:06:20,960 --> 01:06:26,600
-these world moles, if they
+these world models, if they
 really are like a true, true
 
 1078
@@ -5455,8 +5455,8 @@ If you could really get feedback
 
 1092
 01:07:20,360 --> 01:07:24,200
-on how all the forming plane
-with straining conditions would
+on how a deforming plane
+with changing conditions would
 
 1093
 01:07:24,640 --> 01:07:28,680
@@ -5466,12 +5466,12 @@ I think that's that's still
 1094
 01:07:29,080 --> 01:07:34,480
 beyond even regular simulation
-capabilities that full structure
+capabilities—that fluid-structure
 
 1095
 01:07:34,480 --> 01:07:38,520
-interactions was changing
-conditions are are really
+interactions with changing
+conditions are really
 
 1096
 01:07:38,520 --> 01:07:42,760
@@ -5495,7 +5495,7 @@ wing profile or the shape of of
 
 1100
 01:07:53,000 --> 01:07:57,480
-a vehicle tour behavior in the
+a vehicle to behave in the
 whole longer sequence.
 
 1101
@@ -5521,7 +5521,7 @@ calculator.
 1105
 01:08:11,840 --> 01:08:15,000
 That's like ultimately, I guess
-if you call Chachi BT to add 2
+if you call ChatGPT to add 2
 
 1106
 01:08:15,000 --> 01:08:18,439
@@ -5565,7 +5565,7 @@ than just a world model.
 
 1114
 01:08:43,399 --> 01:08:47,720
-It's it's more than a gentic
+It's more of an agentic
 way, if you know what I mean.
 
 1115
@@ -5585,17 +5585,17 @@ feedback on how these different
 
 1118
 01:08:58,920 --> 01:09:03,479
-pieces is recognised.
-Should should interact of
+pieces it recognises should interact.
+For
 
 1119
 01:09:03,479 --> 01:09:05,319
-original bodies.
-Actually these days you would
+rigid bodies,
+actually these days you would
 
 1120
 01:09:05,319 --> 01:09:06,800
-just call it original body
+just call it a rigid-body
 simulator.
 
 1121
@@ -5640,18 +5640,18 @@ run so fast?
 
 1129
 01:09:35,680 --> 01:09:37,560
-Right, I think for World War,
-it's an interesting challenge
+Right, I think for world models,
+an interesting challenge
 
 1130
 01:09:37,560 --> 01:09:41,920
 will be to to quickly switch
-from from the proximate fidelity
+from approximate fidelity
 
 1131
 01:09:41,920 --> 01:09:45,319
-kind of for for rigid bodies or
-the former objects of winds or
+for rigid bodies or
+deformable objects, or winds, or
 
 1132
 01:09:45,319 --> 01:09:49,080

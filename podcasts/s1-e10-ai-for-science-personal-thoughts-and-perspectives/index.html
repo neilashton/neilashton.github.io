@@ -15,7 +15,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI for Science — Personal thoughts and perspectives | The Neil Ashton Podcast</title>
+<title>AI for Science: What It Can—and Cannot—Do</title>
 <meta name="author" content="Neil Ashton">
 <meta name="description" content="This episode sets the scene for upcoming discussions on AI4Science with world renowned experts on machine learning. The focus is on using machine learning to…">
 <meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
@@ -28,7 +28,7 @@
 
   <meta property="og:site_name" content="Neil Ashton">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="AI for Science — Personal thoughts and perspectives | The Neil Ashton Podcast">
+  <meta property="og:title" content="AI for Science: What It Can—and Cannot—Do">
   <meta property="og:url" content="https://neilashton.co.uk/podcasts/s1-e10-ai-for-science-personal-thoughts-and-perspectives/">
   <meta property="og:description" content="This episode sets the scene for upcoming discussions on AI4Science with world renowned experts on machine learning. The focus is on using machine learning to…">
   <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e10.webp">
@@ -38,7 +38,7 @@
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AI for Science — Personal thoughts and perspectives | The Neil Ashton Podcast">
+  <meta name="twitter:title" content="AI for Science: What It Can—and Cannot—Do">
   <meta name="twitter:description" content="This episode sets the scene for upcoming discussions on AI4Science with world renowned experts on machine learning. The focus is on using machine learning to…">
   <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e10.webp">
   <meta name="twitter:image:alt" content="AI for Science — Personal thoughts and perspectives — The Neil Ashton Podcast">
@@ -94,7 +94,7 @@
         {
           "@context": "https://schema.org",
           "@type": "VideoObject",
-          "name": "AI for Science — Personal thoughts and perspectives",
+          "name": "AI for Science: What It Can—and Cannot—Do",
           "description": "This episode sets the scene for upcoming discussions on AI4Science with world renowned experts on machine learning. The focus is on using machine learning to…",
           "thumbnailUrl": [
             "https://i.ytimg.com/vi/T-ddFBJgITo/maxresdefault.jpg"
@@ -381,6 +381,8 @@
     <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S1--EP10---AI4Science---Personal-Thoughts-and-Perspectives-e39d4oi">Spotify for Creators</a>
     <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
     
+      <a href="/assets/transcripts/s1-e10-ai-for-science-personal-thoughts-and-perspectives.srt" download>Download transcript</a>
+    
   </nav>
 
   <div class="episode-content">
@@ -426,7 +428,119 @@
 
 <section class="episode-section" aria-labelledby="episode-transcript">
   <h2 id="episode-transcript">Transcript</h2>
-  <p class="episode-transcript-unavailable">A public transcript is not currently available for this episode.</p>
+  <p class="episode-transcript-intro">
+    This transcript was created from the corrected YouTube captions, with names and technical terminology reviewed. <a href="/assets/transcripts/s1-e10-ai-for-science-personal-thoughts-and-perspectives.srt" download="">Download the corrected SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi and welcome to the Neil Ashton podcast. In each episode, we explained some of the fascinating ways that science and engineering are changing the world around us. We talk to leading engineers from elite level sports like cycling and Formula One to some of the world&#39;s top academics. To understand how fluid dynamics, machine learning and supercomputing are bringing in a new era of discovery. We also hear some of their life stories, their career advice and lessons they&#39;ve learned on the way that I hope will be helpful to you too. So sit back and enjoy this episode. Hi, and welcome back to the Neil Ashton podcast. Today&#39;s episode is really setting the scene for</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:46</span>
+  <span>what are gonna be a couple of really interesting interviews and discussions with some world leading experts on machine learning. What the next month&#39;s episodes are really gonna be focusing on is this topic of AI for science or how artificial intelligence, how machine learning can be used to solve scientific problems in addition to the way that machine learning is now increasingly being used, uh, for generative AI for these large language models that you can go in and you can ask questions. You can generate images. Increasingly, you can generate short clips. How or is it possible for some of those to also solve some of the scientific problems like</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:37</span>
+  <span>computational fluid dynamics, weather modelling, material design, drug discovery, et cetera, And I just wanted to set the scene. Really? Today is going to be a bit of a shorter episode, and I wanted to maybe, um, discuss some of the fundamentals in terms of why this is becoming interesting. And I&#39;m gonna talk through the lens of Of of CFD of computational fluid dynamics, um such that hopefully the next few episodes when you listen to them with some of these world leading experts, uh, you&#39;ll get a little bit of another context because we may dive in straight away in those conversations. So I thought this one might be useful to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:17</span>
+  <span>to really explain some of the high level concepts. So the way I would say it is this. So let&#39;s let&#39;s look at, uh, computational fluid dynamics. Let&#39;s look at what the previous you know, nine episodes have essentially been about, which is OK. I want to design a car or a plane or a wind turbine or a jet engine. And, uh, I could do it physically, as in, you know, I could build it, fly it and test it, but most of the time that&#39;s too expensive. So so people don&#39;t do it. That&#39;s that&#39;s really left, right? You know, to the end. It&#39;s not really a development thing. Sorry. I think I&#39;ve got a bit of a cold or something. So my voice is going a bit,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:57</span>
+  <span>Um, what is increasingly used more are either wind tunnel tests. So some sort of artificial environment that mimics the real world. But let&#39;s say in a very large warehouse where you blow air over like an object or you do some sort of lab test where you maybe have like a jet engine in S in, in inside a building which is detached from a plane and you do some experimental tests. Um, but even those are are are arguably still quite slow. And, um, limit the number of designs you can explore, and hence why? Simulation is so, uh, widely done now. And hence why? Computational fluid dynamics is this important area that is continues to grow in terms of its applicability.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:47</span>
+  <span>And that&#39;s why I constantly talk about CFD because it really is used in so many of the things that that you&#39;re used to doing. But if you&#39;re doing uh, CFD and this applies also to, let&#39;s say, drug discovery or weather modelling or materials design. Typically you&#39;re solving some, you know, partial differential equations using some numerical methods that essentially have typically, uh, a quasi linear relationship between the accuracy of your simulation and the amount of time it takes to run it. I in general and different methods have different order, uh, of of of computational cost versus accuracy. But you know, in general, let&#39;s say, for the simulation of a car,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:37</span>
+  <span>um, the to make it more accurate. I need to reduce the error in these numerical schemes by having um, less dissipation smaller digitalization to these sort of mesh points that you have more of them to be able to capture more of what&#39;s really going on. And as you add more of that fidelity in space and time, because most of the time these turbulent structures have a very small you know, time scale, and particularly true if we start getting into Multiphase and, uh, and combustion and things like that the time it takes you the number of iterations you need to run and the amount of memory and compute goes up and up and up.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:19</span>
+  <span>So, um, that&#39;s why high-performance computing is such an important discussion. It&#39;s why I kind of link them together. Fluid dynamics HPC because they are inherently linked. But the third topic that I mentioned, I think, in the intro to every podcast is machine learning. And that&#39;s why I wanted these next few episodes to really dive in and help to be honest Me, I learn every time I speak to somebody, uh, but also yourselves to to get this sense of why I think machine learning has a strong potential in this area of, uh, Formula One and cycling and engineering and fluid dynamics. So what I said before was, in general,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:04</span>
+  <span>all these simulations are getting more and more accurate, but they&#39;re also requiring more and more compute Now. Interestingly, machine learning has developed over the past decade, I would argue, but certainly has ramped up in the past 23 years, to the point that actually, and I&#39;m gonna speak it at a high level because these next um, interviews are gonna be the chance where we can go in a little bit deeper. So this this is like, I guess, the sort of 101 class they developed to the point that, in theory, machine learning is all essentially about inputs and outputs, isn&#39;t it? You know, essentially, you&#39;ve got some input, some data</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:51</span>
+  <span>that you can train a machine learning model, some sort of, you know, neural network, usually to come up with some weights, et cetera that then once it&#39;s trained, you can give something some new, unseen task that it can predict the output for. And to do that, you need some inputs and you need some outputs. So in the context of computational fluid dynamics, the inputs could be lots of cars or planes or wind turbines. It could be their geometries. It could be their volume measures. It could be a a variety of things, but essentially the inputs are usually the simulations of many cars or planes, or it could be more the same plane or the same car.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:37</span>
+  <span>But lots of different boundary conditions, so different wind speeds different your angles and the outputs could be their lifts and drags, or it could be their flow fields of the lost and the pressure and the nodal points on the mesh. And the model is essentially learning that link between those out inputs and outputs such that now because it&#39;s learned that mapping. I can give it an input, let&#39;s say a new car or plane and it can go and predict me that output. But the real reason I guess that it&#39;s so appealing is because that actual prediction step that inference step</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:25</span>
+  <span>is essentially nearly real time seconds, typically less than a minute. And if you just focus on that pure imprint, step that pure prediction step and you say it&#39;s, let&#39;s say, worst case, let&#39;s say a minute a minute on what&#39;s often, uh, you know, a single GP, U or even AC PU at this inference step compared to I don&#39;t know, um, 48 hours on 1,000 CPU cores 48 hours to a minute is a dramatic change, and that&#39;s why you&#39;re seeing many companies many papers claim 10,000 times faster and strictly That is true. It&#39;s 10,000 times faster. I think if you do the maths now, people will say rightly so. Well, what about the time to train the model?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:19</span>
+  <span>Well, the time to train the model depending on what What methods you&#39;re using. And if you look in the literature is probably still in the in the hours, maybe maximum a day. So the training cost of time is is actually, um, for these sort of, um, methods typically not actually that long compared to the cost of a CFD. Um, simulation. Now I&#39;m talking at a very high level here. I appreciate it. I&#39;m just trying to set the scene. Really? There&#39;s nuances and there&#39;s different approaches, and that&#39;s what we&#39;re gonna explore over the next few episodes. But in general, the cost of training and the cost of inference is actually</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:03</span>
+  <span>relatively cheap. The big one, of course, is you have to have the training data, and this is the interesting similarities and differences between machine learning for scientific problems and machine learning for, um, I&#39;m not sure how you would phrase it, but for large language models, for the stuff that what you use in these, uh, chat G, BT or Amazon Titan or Bard or or or Llama model in those scenarios the training data is widely available because it it&#39;s and maybe it&#39;s getting harder now. But previously it was simply scraping off the Internet lots and lots of of texts and documents, et cetera. Now many of these companies have signed deals</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:45</span>
+  <span>with, um, magazines or newspapers or various other entities to get the data. But it&#39;s I would say, it&#39;s largely available and, um, not huge in size. So if you look at these models, the actual data itself is, you know, gigabytes or terabytes. It&#39;s not in the petabytes and the real cost of training these large language models that many of you are starting to use it is not the data collection per se, although there is work to do that, you know, labelling and preprocessing, but more the actual training time. So you know you might need 4000 or 10,000 GPUs running for weeks, and this is what&#39;s driven this huge boom in AI,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:27</span>
+  <span>uh, chips, because the training time is so massive. If you contrast that with, um, this is why we jump into so many rabbit holes. So bear with me for many people at the moment. The big difference is that for scientific problems? Many people are not talking about foundational models, and I&#39;ll explain what I believe that stands for in a moment, but more that you are training a model each time, essentially, so the training time is for your specific 50 cars or 100 cars, or or your specific, um, Earth model or your specific drug discovery. And so the training time is actually not that much and not that expensive.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:15</span>
+  <span>What is the real challenge is collecting the training data foundational models. The whole point of a foundational model is it&#39;s meant to be so foundational that you should train it once essentially, and then you can just use it, with the exception being that maybe you need to fine tune it. But when you go and use any of these commercially available large language models, you are only doing a prediction step. You are not training the model. It has already been trained on so much data that is considered almost foundational. There is a current debate in the scientific community, but I think it&#39;s fair to say that most of the stuff that&#39;s been done</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:55</span>
+  <span>to date in the scientific side, whether it&#39;s weather modelling, or CFD are not foundational models because they only work for quite a specific, um, use case that it has been trained for. So it&#39;s not able to predict any fluid dynamics or any weather scenario. It is still within the confines of a particular thing. One of the debates is. Could we build foundational models for science? And that&#39;s one of the topics I&#39;ll be discussing with some of my guest. And I&#39;m purposely not saying the names of the, um of the guest to keep it. I&#39;ll I&#39;ll, I&#39;ll sort of leak that information, Um, once they&#39;re actually recorded. But the but the it&#39;s quite exciting,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:38</span>
+  <span>and I&#39;m really pleased who I&#39;ve managed to convince to to have a chat and share their their wisdom. Um, so the all of that was to essentially say, Why is it so interesting? It&#39;s interesting because ultimately the promise is that you can get a method that, once trained, can run in quasi real time. So if you are a car manufacturer, a plane manufacturer wind turbine, you can design and explore thousands of designs in in in minutes. Now that all sounds too good to be true doesn&#39;t it? Well, the the truth is that, um at the moment, there is still a, um, active debate on how accurate are these methods? Uh, and what can they actually do?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:25</span>
+  <span>So there&#39;s been lots of I would say fundamental work, and there are various start ups in the space who are claiming they can do more, but it&#39;s it&#39;s It&#39;s a very active area of research that, I would say, is nowhere near as mature as some of these large language models that have that people are using every day and you can actually see their usefulness. But there was a huge amount of promise. And so what I want to do over the next few episodes is tease in where these industry experts think we&#39;re at and and where we could go to. One of the things that you&#39;re probably thinking, and I just want to briefly explain and mention</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:01</span>
+  <span>again as a context to these upcoming ones, is physics. When you&#39;re training these large language models, one of the interesting thing is that when it when you ask it a question, you ask it to write a sentence. You have not told it explicitly. What are the laws of the English language I If we&#39;re talking about English now, you haven&#39;t told it these. These are the AL. This is specifically the alphabet. These are the rules. These are the grammar rules. Instead, it&#39;s actually learned it essentially from the data. When it comes to, let&#39;s say, fluid dynamics. There is one argument that, and this is typically called sort of data driven approaches that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:49</span>
+  <span>if you give it enough data, it inherently learns the laws of physics through the data that it ingests, similar to how a larger language model is able to essentially learn the language without explicitly knowing the rules. And you could argue this is a little bit how a child learns at the beginning. They&#39;re speaking the language through sort of just observation through trial and error, without explicitly knowing the rules. Whereas an adult, maybe then you actually have to learn the rules. And that&#39;s a whole other topic, how the brain works. And anyone who learns a foreign language knows it&#39;s much harder when you&#39;re older</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:26</span>
+  <span>to do it when you&#39;re, um, when you&#39;re younger. But um, when it comes to through dynamics, there is the opposite viewpoint, which is that? No, we must include somehow these physical laws in the machine learning model in the loss function it some mechanism to force it to abide by these foundational physical laws, the conservation of mass conservation of energy that we know are real and and help us. And that is typically what are called more physics driven or physics informed approaches. And it&#39;s very interesting debate, I would say still a very ongoing debate in the literature on which one of these</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:16</span>
+  <span>is essentially the winner. Um, which is the most correct? Or is it somehow something in the middle where, um, it&#39;s a little bit of data, a little bit of physics? This, um, in my mind is very interesting, and it&#39;s still not clear, uh, whether it will be one of these sort of models that have been coming out Or is it going to be something completely different? So I hope that I&#39;ve maybe just framed a little bit of what&#39;s coming. What really I want to tease out in the next few months is to hear from these people, first of all, where they see the current state of the art where things are going and their optimism to what a future will look like in 5 to 10 years.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:04</span>
+  <span>Will we ever be able to have these foundational models of science where we could essentially almost ask it in a prompt like fashion? Solve these equations and it can go off and do it just as I can tell it. Now write me a script that does this. Is it theoretically possible that if it could learn it, that we could actually be solving some of these fantastic problems just in a A you know, a few, um, types of a keyboard. It&#39;s for me. It&#39;s super fascinating one. And I know it divides many people. Some people see machine learning as just a huge hype that is marketing. Um I. I felt that way a little bit at the beginning.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:44</span>
+  <span>Now I&#39;m convinced, actually that it there are huge potential changes, Um, and something that everybody should be far more aware of because I think it has a potentially transformative effect, particularly in the engineering, um, industry that, um just as computers and simulation transform the sector from the previous days of sort of trial and error, physically making things that the the question is, how much can machine learning bring out a new revolution in those industries? So, yeah, um, that&#39;s this episode. We&#39;re gonna keep it sweet. Gonna keep it short. And, um, please watch out, please subscribe, please. Like, look out at the next few interesting, uh, episodes I think you&#39;re gonna like.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:27</span>
+  <span>I think you&#39;re gonna learn a lot from And, um, I. I hope you&#39;ll join me for those. So thanks very much for listening to this and, uh, yeah, hopefully, uh, you&#39;ll join us for the next few ones too. That</span>
+</p>
+  </div>
 </section>
 
   </div>

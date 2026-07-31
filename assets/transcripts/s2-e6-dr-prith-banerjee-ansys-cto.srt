@@ -26,7 +26,7 @@ of the world's top academics to
 6
 00:00:16,920 --> 00:00:21,000
 understand how fluid dynamics,
-machine learning, supercomputing
+machine learning and supercomputing
 
 7
 00:00:21,360 --> 00:00:23,000
@@ -56,16 +56,16 @@ Hi, and welcome back to the Neil
 12
 00:00:41,880 --> 00:00:44,680
 Ashton Podcast.
-So today have a very special
+So today I have a very special
 
 13
 00:00:44,680 --> 00:00:50,280
 guest in Prith Banerjee, who is
-the CTO of ANSYS, somebody who I
+the CTO of Ansys, somebody who I
 
 14
 00:00:50,280 --> 00:00:56,360
-am honored to have on the
+am honoured to have on the
 podcast because he truly is at
 
 15
@@ -81,7 +81,7 @@ myself, but also asking many of
 17
 00:01:03,840 --> 00:01:07,560
 the guests on this podcast.
-So to ask the CTO of one of the
+So to ask the CTO of one of
 
 18
 00:01:07,880 --> 00:01:12,680
@@ -130,7 +130,7 @@ And you'll see him do this in
 
 27
 00:01:42,040 --> 00:01:47,440
-the in the interview today that
+the interview today that
 really shows that professor in
 
 28
@@ -161,7 +161,7 @@ on its own as a professor in
 33
 00:02:02,600 --> 00:02:06,200
 Illinois, but then went off to
-the start up world.
+the startup world.
 
 34
 00:02:06,440 --> 00:02:09,960
@@ -185,8 +185,8 @@ know, CTO of companies like
 
 38
 00:02:20,720 --> 00:02:26,160
-ABBHP Labs, Schneider Electric,
-and now ANSYS for the past six
+ABB, HP Labs, Schneider Electric,
+and now Ansys for the past six
 
 39
 00:02:26,160 --> 00:02:28,560
@@ -250,7 +250,7 @@ So we had a really deep and I
 
 51
 00:03:07,600 --> 00:03:10,920
-put interesting discussion about
+thought interesting discussion about
 the role of machine learning and
 
 52
@@ -260,7 +260,7 @@ We've already dived into some of
 
 53
 00:03:14,160 --> 00:03:17,560
-the details, discussed quite a
+the details, discussed at
 length about foundational
 
 54
@@ -280,7 +280,7 @@ really is an important thing
 
 57
 00:03:26,560 --> 00:03:29,840
-that could even see the end or
+that could even see the end of
 the simulation market as we know
 
 58
@@ -296,7 +296,7 @@ computing, how that could be a
 60
 00:03:37,360 --> 00:03:40,760
 sign of things to come, some
-changes which answers have been
+changes which Ansys have been
 
 61
 00:03:40,760 --> 00:03:42,760
@@ -305,7 +305,7 @@ We touched on, you know,
 
 62
 00:03:42,760 --> 00:03:48,160
-HBCGPUS, but we also talked a
+HPC, GPUs, but we also talked a
 lot about the role of startups,
 
 63
@@ -316,7 +316,7 @@ startups should be trying to do.
 64
 00:03:51,720 --> 00:03:55,960
 And we talked some advice for
-students, mid Korea and
+students, mid-career and
 
 65
 00:03:55,960 --> 00:03:59,440
@@ -326,11 +326,11 @@ they could do to maybe come up
 66
 00:03:59,440 --> 00:04:03,640
 with the next amazing invention.
-We touched on open source,
+We touched on open-source,
 
 67
 00:04:03,640 --> 00:04:07,000
-closed source and how we need to
+closed-source and how we need to
 work with academia.
 
 68
@@ -346,22 +346,22 @@ really finished on what he is
 70
 00:04:17,160 --> 00:04:19,959
 quite an inspiring individual.
-You know, he's wrote a book.
+You know, he's written a book.
 
 71
 00:04:19,959 --> 00:04:22,720
-It's really amazing, the
-innovation factory.
+It's really amazing, The
+Innovation Factory.
 
 72
 00:04:22,800 --> 00:04:24,960
-I can put the link in the
+I can put the link on
 YouTube if you're watching it.
 
 73
 00:04:25,640 --> 00:04:29,520
 And on that note, you know, if
-you enjoy this, it really would
+you enjoy this, I really would
 
 74
 00:04:29,520 --> 00:04:33,080
@@ -476,16 +476,16 @@ So I started my career in
 96
 00:05:31,960 --> 00:05:34,880
 academia.
-I have got my PhD in Electrical
+I have got my PhD in electrical
 
 97
 00:05:34,880 --> 00:05:37,080
-and Computer Engineering from
+and computer engineering from
 the University of Illinois
 
 98
 00:05:37,200 --> 00:05:41,560
-Urbana Champagne, and I started
+Urbana-Champaign, and I started
 as a professor at Urbana.
 
 99
@@ -496,7 +496,7 @@ going through the ranks becoming
 100
 00:05:45,920 --> 00:05:51,320
 a full professor, and I was the
-founding Director of
+founding director of
 
 101
 00:05:51,960 --> 00:05:55,920
@@ -505,12 +505,12 @@ Engineering Program at UIUC.
 
 102
 00:05:55,920 --> 00:05:58,760
-Illinois is as this National
-Center for supercomputing
+Illinois has the National
+Center for Supercomputing
 
 103
 00:05:58,760 --> 00:06:01,680
-applications, a big place for
+Applications, a big place for
 HPC.
 
 104
@@ -561,7 +561,7 @@ all of those things.
 113
 00:06:29,800 --> 00:06:34,560
 And as it turns out, 30 years
-later, I have landed up at in
+later, I have landed up in
 
 114
 00:06:34,560 --> 00:06:35,840
@@ -591,7 +591,7 @@ After that, I made a hard turn
 119
 00:06:47,880 --> 00:06:52,560
 into the corporate world.
-I was head of HP Labs and in at
+I was head of HP Labs, and at
 
 120
 00:06:52,560 --> 00:06:55,840
@@ -605,13 +605,13 @@ We used to build this really
 
 122
 00:06:57,680 --> 00:07:01,680
-super duper high performance
+super-duper high performance
 servers, so a lot of cool work
 
 123
 00:07:01,680 --> 00:07:04,600
 there.
-And then I became CTO at EBB, a
+And then I became CTO at ABB, a
 
 124
 00:07:04,800 --> 00:07:07,800
@@ -630,8 +630,8 @@ in France.
 
 127
 00:07:13,120 --> 00:07:19,000
-About 6 1/2 years ago I I joined
-ANSYS as the CTO.
+About six and a half years ago I I joined
+Ansys as the CTO.
 
 128
 00:07:19,000 --> 00:07:24,560
@@ -655,7 +655,7 @@ And we take that physics, which
 
 132
 00:07:34,880 --> 00:07:38,640
-is explained as second order
+is explained as second-order
 partial differential equations.
 
 133
@@ -666,11 +666,11 @@ through finite element methods,
 134
 00:07:42,120 --> 00:07:46,640
 finite volume methods using
-things like FLUENT, which is our
+things like Fluent, which is our
 
 135
 00:07:46,640 --> 00:07:49,680
-fluid score, in things like
+fluid solver, in things like
 mechanical, which is our
 
 136
@@ -680,12 +680,12 @@ HFSS, which is an
 
 137
 00:07:52,280 --> 00:07:56,400
-electromagnetic score.
+electromagnetic solver.
 And my role as CTO is to look at
 
 138
 00:07:57,000 --> 00:07:59,920
-the all these amazing products,
+all these amazing products,
 what is the future of
 
 139
@@ -705,7 +705,7 @@ learning, right?
 
 142
 00:08:12,560 --> 00:08:15,080
-How does AIML improve
+How does AI/ML improve
 simulation?
 
 143
@@ -751,7 +751,7 @@ that people have.
 151
 00:08:40,000 --> 00:08:45,480
 But maybe I love the fact that
-you have had such a a great
+you have had such a great
 
 152
 00:08:45,480 --> 00:08:48,480
@@ -800,13 +800,13 @@ bypassed one part of my career.
 
 161
 00:09:17,160 --> 00:09:19,680
-So I've actually had been 3
+So I've actually had three
 phases in my career.
 
 162
 00:09:19,680 --> 00:09:23,880
 I was in academia for 20 years,
-but in between Academy in the
+but in between academia in the
 
 163
 00:09:23,880 --> 00:09:26,200
@@ -816,7 +816,7 @@ the startup world.
 164
 00:09:26,200 --> 00:09:30,880
 I did two start-ups, One was
-Excel Chip, 1 was Banachip.
+AccelChip; one was BINACHIP.
 
 165
 00:09:30,880 --> 00:09:34,600
@@ -825,8 +825,8 @@ out of technologies from the
 
 166
 00:09:34,600 --> 00:09:37,400
-university, from the one from
-Northwest and one from the
+university, from one from
+Northwestern and one from the
 
 167
 00:09:37,400 --> 00:09:42,280
@@ -895,12 +895,12 @@ with graduate students and I
 
 180
 00:10:23,600 --> 00:10:28,560
-have had in my 20 plus career
+have had in my 20-plus-year career
 right in academia, I have had 37
 
 181
 00:10:28,560 --> 00:10:32,120
-PhD students 40 plus masters
+PhD students and 40-plus master's
 students with whom I have
 
 182
@@ -911,7 +911,7 @@ technical papers in IEEE
 183
 00:10:36,760 --> 00:10:39,840
 conference in this and IEEE
-transactions of that and so on
+Transactions of that and so on
 
 184
 00:10:39,840 --> 00:10:42,040
@@ -951,7 +951,7 @@ right?
 191
 00:11:02,800 --> 00:11:07,360
 So in academia you have two
-roles. 1 is invent, create
+roles. One is invent, create
 
 192
 00:11:07,360 --> 00:11:09,200
@@ -991,11 +991,11 @@ I did the startups was I was
 199
 00:11:31,720 --> 00:11:37,000
 frustrated that I was doing all
-this work, 350 papers, 10 plus
+this work, 350 papers, 10-plus
 
 200
 00:11:37,000 --> 00:11:38,440
-pattern, doing all kinds of
+patents, doing all kinds of
 stuff.
 
 201
@@ -1010,13 +1010,13 @@ up in any product.
 
 203
 00:11:44,960 --> 00:11:49,720
-So when I accessed it was
+So when AccelChip was
 actually created when I ended a
 
 204
 00:11:50,200 --> 00:11:53,440
-DARPA project called the match
-Compiler and the DARPA PM said,
+DARPA project called the MATCH
+compiler and the DARPA PM said,
 
 205
 00:11:53,800 --> 00:11:56,760
@@ -1036,7 +1036,7 @@ say, would you like to use this
 208
 00:12:01,880 --> 00:12:04,520
 technology?
-I say absolutely, this looks so
+They said, absolutely, this looks so
 
 209
 00:12:04,520 --> 00:12:06,680
@@ -1055,7 +1055,7 @@ the only way this really
 
 212
 00:12:13,520 --> 00:12:17,320
-commercialize if I were to do it
+commercialise if I were to do it
 myself with my graduate
 
 213
@@ -1065,7 +1065,7 @@ So that's kind of why I started
 
 214
 00:12:19,960 --> 00:12:25,400
-the first company at surgery.
+the first company, AccelChip.
 So startups, what they do is
 
 215
@@ -1090,7 +1090,7 @@ myself and then I came to the
 
 219
 00:12:43,560 --> 00:12:46,280
-large corporate world of HPABB
+large corporate world of HP, ABB
 and so on, right?
 
 220
@@ -1100,23 +1100,23 @@ large companies, they don't have
 
 221
 00:12:52,120 --> 00:12:56,160
-a single product like ANSYS.
+a single product like Ansys.
 We have 70 products, right, in
 
 222
 00:12:56,160 --> 00:12:58,120
 simulation, right?
-We have ANSYS Mechanical, we
+We have Ansys Mechanical, we
 
 223
 00:12:58,120 --> 00:13:02,400
-have LS Dyna, we have Fluent, we
-have this twin builder, all
+have LS-DYNA, we have Fluent, we
+have this Twin Builder, all
 
 224
 00:13:02,400 --> 00:13:05,400
 kinds of products, right?
-And the role of a large company
+And the role of a large company is
 
 225
 00:13:05,400 --> 00:13:08,600
@@ -1170,7 +1170,7 @@ that you need to do.
 
 235
 00:13:38,520 --> 00:13:42,200
-We have ANSYS, ANSYS mechanical,
+We have Ansys Mechanical,
 it's a finite element based
 
 236
@@ -1201,7 +1201,7 @@ things, right?
 241
 00:13:56,720 --> 00:13:59,080
 We are doing a hierarchical
-octree to measure
+octree mesh
 
 242
 00:13:59,080 --> 00:14:01,200
@@ -1215,12 +1215,12 @@ But that is not a product.
 
 244
 00:14:04,000 --> 00:14:08,240
-What a startups do is take that
+What startups do is take that
 work in academia and they
 
 245
 00:14:08,280 --> 00:14:12,840
-package it up into is really
+package it up into this really
 brilliant disruptive innovation,
 
 246
@@ -1335,7 +1335,7 @@ leave academia and they build a
 
 268
 00:15:34,720 --> 00:15:38,520
-destructive thing.
+disruptive thing.
 But in a concept of a startup, a
 
 269
@@ -1346,7 +1346,7 @@ one product, right?
 270
 00:15:42,560 --> 00:15:46,080
 The world that has not seen
-right, very destructive, but
+right, very disruptive, but
 
 271
 00:15:46,080 --> 00:15:47,720
@@ -1375,7 +1375,7 @@ innovation.
 
 276
 00:15:58,480 --> 00:16:02,840
-It will become like they AB BS
+It will become like the ABBs
 of the world right until they
 
 277
@@ -1420,7 +1420,7 @@ You know, it was almost a dirty
 
 285
 00:16:26,440 --> 00:16:29,280
-word to try and commercialize
+word to try and commercialise
 what you were doing.
 
 286
@@ -1435,7 +1435,7 @@ And then there was the large
 
 288
 00:16:35,120 --> 00:16:38,560
-companies, you know, the Rolls
+companies, you know, the Rolls-
 Royces or whatever of the world
 
 289
@@ -1450,7 +1450,7 @@ same.
 
 291
 00:16:44,880 --> 00:16:47,720
-Now, having worked for AUS
+Now, having worked for a US
 company and and being more
 
 292
@@ -1476,7 +1476,7 @@ time now?
 296
 00:17:04,119 --> 00:17:07,800
 I guess looking at start-ups,
-but also having run a start up,
+but also having run a startup,
 
 297
 00:17:08,599 --> 00:17:11,720
@@ -1520,8 +1520,8 @@ The way I would think about a
 
 305
 00:17:34,360 --> 00:17:39,000
-start up is if you're doing a
-start up just to make money,
+startup is if you're doing a
+startup just to make money,
 
 306
 00:17:39,640 --> 00:17:43,120
@@ -1595,7 +1595,7 @@ right?
 
 320
 00:18:28,240 --> 00:18:32,160
-If you say to HPI want to build
+If you say to HP, I want to build
 a quantum computer, right?
 
 321
@@ -1605,7 +1605,7 @@ that's not what we do, right?
 
 322
 00:18:35,440 --> 00:18:40,520
-So but often times these
+So but oftentimes these
 problems come out and look at
 
 323
@@ -1650,7 +1650,7 @@ choice do I have?
 
 331
 00:19:00,960 --> 00:19:04,320
-You should then do a start up,
+You should then do a startup,
 try to follow your passion,
 
 332
@@ -1671,7 +1671,7 @@ academic people, right?
 335
 00:19:14,520 --> 00:19:16,960
 And so literally startups come
-from 2 ends.
+from two ends.
 
 336
 00:19:17,000 --> 00:19:21,000
@@ -1685,13 +1685,13 @@ commercialize it like me.
 
 338
 00:19:24,320 --> 00:19:27,440
-And again, I am just a a very
+And again, I am just a very
 small person, but there's so
 
 339
 00:19:27,440 --> 00:19:30,880
 many more famous people who came
-from Academy and some absolutely
+from academia and some absolutely
 
 340
 00:19:30,880 --> 00:19:33,720
@@ -1765,7 +1765,7 @@ and.
 
 354
 00:20:18,760 --> 00:20:22,280
-So often times you say, well,
+So oftentimes you say, well,
 what's the market for GPUs?
 
 355
@@ -1826,7 +1826,7 @@ OK, that device does not exist.
 366
 00:20:58,360 --> 00:21:02,600
 You do a Google search of market
-for device for blind men per C
+for device for blind men per se
 
 367
 00:21:02,960 --> 00:21:05,720
@@ -1916,11 +1916,11 @@ people are blind.
 384
 00:22:00,880 --> 00:22:04,080
 How much would they pay for it?
-Well, I pay, I go to Lens
+Well, I pay, I go to Lens-
 
 385
 00:22:04,080 --> 00:22:06,480
-Trafters and buy these glasses
+Crafters and buy these glasses
 for $200.00.
 
 386
@@ -1941,7 +1941,7 @@ So 300 times 100 million blind
 389
 00:22:18,040 --> 00:22:20,880
 people.
-That's the $303 billion market.
+That's the $30 billion market.
 
 390
 00:22:21,160 --> 00:22:24,880
@@ -1955,7 +1955,7 @@ see.
 
 392
 00:22:27,000 --> 00:22:32,080
-The market is 3 billion versus a
+The market is $30 billion versus a
 chair with 9 legs, right?
 
 393
@@ -2001,16 +2001,16 @@ can I can I can explain the
 401
 00:23:00,240 --> 00:23:01,960
 world of.
-Start and I see that a little
+Startups. And I see that a little
 
 402
 00:23:01,960 --> 00:23:08,280
 bit with simulation is that it
-is difficult probably in the CFD
+is difficult probably in CFD
 
 403
 00:23:08,280 --> 00:23:13,360
-world or the CAE world to really
+or CAE world to really
 appreciate the difference I
 
 404
@@ -2041,7 +2041,7 @@ trust you.
 409
 00:23:30,760 --> 00:23:35,000
 They may prefer, you know, So I
-guess this is where the IT
+guess this is where it
 
 410
 00:23:35,000 --> 00:23:38,600
@@ -2080,7 +2080,7 @@ that a lot of people have seen
 
 417
 00:23:59,600 --> 00:24:05,720
-is a huge growth now in the AIML
+is a huge growth now in the AI/ML
 world, you know, obviously for
 
 418
@@ -2106,7 +2106,7 @@ know, CAE codes.
 422
 00:24:24,640 --> 00:24:29,880
 And I know you have your own
-product as well, SIM AI, but I
+product as well, Ansys SimAI, but I
 
 423
 00:24:29,880 --> 00:24:32,880
@@ -2115,7 +2115,7 @@ some of your thoughts on where
 
 424
 00:24:32,880 --> 00:24:39,760
-you see the use of AIML today
+you see the use of AI/ML today
 short term and you know, what's
 
 425
@@ -2135,7 +2135,7 @@ That's a great question.
 
 428
 00:24:48,160 --> 00:24:53,960
-So let me explain the my my
+So let me explain my
 thought, right, just by going in
 
 429
@@ -2160,7 +2160,7 @@ formulated in the ideal world as
 
 433
 00:25:05,920 --> 00:25:09,120
-Navier Stokes equations, right?
+Navier–Stokes equations, right?
 You have the, the governing
 
 434
@@ -2170,12 +2170,12 @@ conservation, so on.
 
 435
 00:25:11,280 --> 00:25:13,360
-And those are second order PDS,
+And those are second-order PDEs,
 right?
 
 436
 00:25:13,960 --> 00:25:18,000
-So you can write those PDS.
+So you can write those PDEs.
 And when you went to college,
 
 437
@@ -2186,7 +2186,7 @@ You can take a very simple
 438
 00:25:20,400 --> 00:25:25,400
 differential equation, right?
-Linear, whatever the simplest 1
+Linear, whatever the simplest one
 
 439
 00:25:25,400 --> 00:25:28,960
@@ -2216,7 +2216,7 @@ the CAD, define the boundary
 444
 00:25:41,280 --> 00:25:43,960
 conditions and so on, and you
-have the Navier Stokes equations
+have the Navier–Stokes equations
 
 445
 00:25:44,560 --> 00:25:47,760
@@ -2231,11 +2231,11 @@ So you have to solve it
 447
 00:25:49,840 --> 00:25:54,120
 numerically.
-So you take those Pdes and you
+So you take those PDEs and you
 
 448
 00:25:54,120 --> 00:25:57,880
-discretize them, right?
+discretise them, right?
 So you do say finite elements,
 
 449
@@ -2280,7 +2280,7 @@ The trouble with these numerical
 
 457
 00:26:24,040 --> 00:26:28,320
-methods is the trade off become
+methods is the trade-off become
 between accuracy and speed,
 
 458
@@ -2331,7 +2331,7 @@ hours to run, it will take you
 467
 00:27:06,840 --> 00:27:11,000
 100,000 hours to run, right?
-So the trade off of accuracy and
+So the trade-off of accuracy and
 
 468
 00:27:11,000 --> 00:27:15,480
@@ -2365,22 +2365,22 @@ things with the meshing, it
 
 474
 00:27:33,400 --> 00:27:35,440
-doesn't convert.
+doesn't converge.
 So wow, my God, I didn't
 
 475
 00:27:35,720 --> 00:27:38,560
-conserve.
-Oh, it didn't convert because of
+converge.
+Oh, it didn't converge because of
 
 476
 00:27:38,560 --> 00:27:40,920
 this.
-I should use mosaic machine.
+I should use Mosaic meshing.
 
 477
 00:27:40,920 --> 00:27:44,160
-I should use towel machine.
+I should use tet meshing.
 So there are these zillion tools
 
 478
@@ -2411,11 +2411,11 @@ You just give it in English and
 483
 00:28:07,280 --> 00:28:12,200
 automatically it sets the
-settings for star CCM plus or or
+settings for STAR-CCM+ or or
 
 484
 00:28:12,200 --> 00:28:16,040
-EXA from DASO or fluent.
+Exa from Dassault or Fluent.
 It just does it like that's the
 
 485
@@ -2466,7 +2466,7 @@ We are doing without using high
 494
 00:28:54,400 --> 00:28:56,640
 performance computing, without
-using AIML.
+using AI/ML.
 
 495
 00:28:56,920 --> 00:29:00,560
@@ -2501,7 +2501,7 @@ converge all the time and so on.
 501
 00:29:16,440 --> 00:29:21,280
 The second pillar is HPC, right?
-I mean, again, you work out AW
+I mean, again, you worked at
 
 502
 00:29:22,080 --> 00:29:25,040
@@ -2515,7 +2515,7 @@ we take an algorithm and we
 
 504
 00:29:30,040 --> 00:29:33,600
-parallelize it, put it on 100
+parallelise it, put it on 100
 processors using shared memory
 
 505
@@ -2525,7 +2525,7 @@ distributed sort of data
 
 506
 00:29:37,040 --> 00:29:39,960
-decomposition, all with GPU.
+decomposition, all with GPUs.
 So there are all these different
 
 507
@@ -2555,8 +2555,8 @@ If I had 100 processors, the
 
 512
 00:29:57,760 --> 00:30:02,440
-best I can get is get 100 times,
-speed up and run it in 10 hours,
+best I can get is get 100-times
+speedup and run it in 10 hours,
 
 513
 00:30:02,440 --> 00:30:04,440
@@ -2565,7 +2565,7 @@ So within that I use shared
 
 514
 00:30:04,440 --> 00:30:08,640
-memory message passing GPU's XYZ
+memory message passing GPUs XYZ
 and now we are looking at
 
 515
@@ -2581,12 +2581,12 @@ force parallelism, right?
 517
 00:30:15,680 --> 00:30:19,240
 The third pillar that we have is
-AIML, which is sort of your
+AI/ML, which is sort of your
 
 518
 00:30:19,240 --> 00:30:22,520
 question.
-So AIML has been used in a
+So AI/ML has been used in a
 
 519
 00:30:22,520 --> 00:30:28,000
@@ -2610,17 +2610,17 @@ right?
 
 523
 00:30:33,480 --> 00:30:36,800
-Or chat GPD allowing you to
+Or ChatGPT allowing you to
 write wonderful poetry and text.
 
 524
 00:30:37,040 --> 00:30:41,520
 But the question that we asked
-is, can AIML be applied to
+is, can AI/ML be applied to
 
 525
 00:30:41,520 --> 00:30:43,280
-numerical method simulation,
+numerical-method simulation,
 right?
 
 526
@@ -2645,7 +2645,7 @@ black box solver like Fluent
 
 530
 00:31:00,160 --> 00:31:02,240
-from which is a fluid solver,
+which is a fluid solver,
 right?
 
 531
@@ -2660,8 +2660,8 @@ And with this input and output
 
 533
 00:31:10,000 --> 00:31:13,720
-you train in AI model, right?
-And you see you have this new 6
+you train an AI model, right?
+And you see you have this new six-
 
 534
 00:31:13,720 --> 00:31:16,120
@@ -2706,12 +2706,12 @@ error.
 542
 00:31:37,040 --> 00:31:40,840
 How do I minimize the error?
-I do back propagation to adjust
+I do backpropagation to adjust
 
 543
 00:31:40,840 --> 00:31:44,960
 the weights of neural networks
-so that my error is 0 for this
+so that my error is zero for this
 
 544
 00:31:44,960 --> 00:31:49,440
@@ -2730,12 +2730,12 @@ weights.
 
 547
 00:31:56,000 --> 00:31:59,160
-I run it, I get an A predicted
+I run it, I get a predicted
 output.
 
 548
 00:31:59,520 --> 00:32:02,640
-I have a new output from fluent.
+I have a new output from Fluent.
 Again there is an error.
 
 549
@@ -2745,7 +2745,7 @@ error.
 
 550
 00:32:04,640 --> 00:32:07,960
-So I do back propagation to
+So I do backpropagation to
 change the weights again.
 
 551
@@ -2760,7 +2760,7 @@ I keep iterating.
 
 553
 00:32:17,400 --> 00:32:23,680
-After about 102 hundred cases, I
+After about 100–200 cases, I
 kind of get, I converge on the
 
 554
@@ -2775,12 +2775,12 @@ kinds of there's choices, right?
 
 556
 00:32:28,400 --> 00:32:30,760
-Should I have a six stage
+Should I have a six-stage
 network?
 
 557
 00:32:30,760 --> 00:32:32,240
-Should I have a eight stage
+Should I have a eight-stage
 network?
 
 558
@@ -2801,12 +2801,12 @@ right?
 561
 00:32:39,720 --> 00:32:44,520
 But assuming you have done all
-that, right, that's what SIM AI
+that, right, that's what SimAI
 
 562
 00:32:44,520 --> 00:32:49,680
 does.
-So SIM AI is a platform which
+So SimAI is a platform which
 
 563
 00:32:49,680 --> 00:32:56,880
@@ -2825,7 +2825,7 @@ electromagnetics.
 
 566
 00:33:06,440 --> 00:33:11,800
-And you, Mr. Customer, use CMI
+And you, Mr. Customer, use SimAI
 platform to train the AI models
 
 567
@@ -2840,7 +2840,7 @@ instead of taking 100 hours,
 
 569
 00:33:21,520 --> 00:33:25,040
-we'll be we'll run in a minute.
+it will run in a minute.
 That's the value proposition.
 
 570
@@ -2870,7 +2870,7 @@ Highlander, the, the, the
 
 575
 00:33:44,360 --> 00:33:46,600
-forerunner, the this Rav or
+4Runner, the RAV4 or
 whatever.
 
 576
@@ -2880,7 +2880,7 @@ from Hyundai and the SUVs from
 
 577
 00:33:51,280 --> 00:33:53,360
-the four.
+Ford.
 So you are training it with
 
 578
@@ -2915,7 +2915,7 @@ making airplanes.
 
 584
 00:34:15,800 --> 00:34:19,080
-You're not going to go from 1
+You're not going to go from one
 airplane to tomorrow doing a
 
 585
@@ -2926,7 +2926,7 @@ So you're actually doing only
 586
 00:34:20,840 --> 00:34:23,320
 airplanes.
-So it is actually work.
+So it actually works.
 
 587
 00:34:23,400 --> 00:34:27,600
@@ -2945,8 +2945,8 @@ airplanes or slightly different
 
 590
 00:34:32,920 --> 00:34:35,280
-cards and so on.
-So there is value in CMAI.
+cars and so on.
+So there is value in SimAI.
 
 591
 00:34:38,120 --> 00:34:40,880
@@ -2965,7 +2965,7 @@ of things.
 
 594
 00:34:54,600 --> 00:34:56,800
-There is no need for a semi
+There is no need for a SimAI
 platform.
 
 595
@@ -3101,7 +3101,7 @@ creating this massive database,
 621
 00:36:49,520 --> 00:36:51,160
 right?
-This page rank algorithms of
+This PageRank algorithms of
 
 622
 00:36:51,160 --> 00:36:53,920
@@ -3110,7 +3110,7 @@ And based on I'm clicking this,
 
 623
 00:36:53,920 --> 00:36:57,800
-right, gives you the left list
+right, gives you the list
 of 100 things, and you click
 
 624
@@ -3190,7 +3190,7 @@ And the other question is who is
 
 639
 00:37:56,560 --> 00:38:00,160
-Prit Banerjee Francis, right?
+Prith Banerjee from Ansys, right?
 That is knowledge that is being
 
 640
@@ -3205,7 +3205,7 @@ on Airbus designs, right?
 
 642
 00:38:12,280 --> 00:38:15,440
-The think of it as the Google
+Think of it as the Google
 search for only people within
 
 643
@@ -3220,8 +3220,8 @@ right?
 
 645
 00:38:23,800 --> 00:38:29,120
-To Airbus and Boeing and Pratt,
-Whitney and G, it will be
+To Airbus and Boeing and Pratt &
+Whitney and GE, it will be
 
 646
 00:38:30,240 --> 00:38:32,400
@@ -3281,7 +3281,7 @@ business model which was free,
 657
 00:39:11,840 --> 00:39:15,880
 perceived free, but in exchange
-for free they are sucking their
+for free they are sucking in their
 
 658
 00:39:15,880 --> 00:39:19,520
@@ -3290,13 +3290,13 @@ So can I create a model which is
 
 659
 00:39:19,520 --> 00:39:27,000
-an opt in model where all ANSYS
+an opt-in model where all Ansys
 customers would opt to give
 
 660
 00:39:27,000 --> 00:39:31,920
-their data in an anonymized way
-two ANSYS to collect the data,
+their data in an anonymised way
+to Ansys to collect the data,
 
 661
 00:39:31,920 --> 00:39:35,760
@@ -3310,7 +3310,7 @@ train all these models because
 
 663
 00:39:42,560 --> 00:39:45,400
-if it is on Prem, you actually
+if it is on-prem, you actually
 cannot have access to it.
 
 664
@@ -3341,7 +3341,7 @@ Yeah, that's.
 669
 00:40:06,360 --> 00:40:08,840
 So now we are getting into
-policy to things.
+policy-type things.
 
 670
 00:40:09,040 --> 00:40:11,840
@@ -3430,8 +3430,8 @@ And for example, people are now
 
 687
 00:41:05,160 --> 00:41:11,280
-suing Dally right for hey, you,
-you are generating a image based
+suing DALL-E right for hey, you,
+you are generating an image based
 
 688
 00:41:11,280 --> 00:41:14,440
@@ -3440,7 +3440,7 @@ I'm I'm whatever, right?
 
 689
 00:41:15,040 --> 00:41:16,920
-I'm Preet Banerjee.
+I'm Prith Banerjee.
 I've written a beautiful
 
 690
@@ -3450,22 +3450,22 @@ And you took that picture into
 
 691
 00:41:19,640 --> 00:41:22,720
-Delhi and now you generate a new
-picture, right, based on his
+DALL-E and now you generate a new
+picture, right, based on its
 
 692
 00:41:22,720 --> 00:41:26,040
-Indian knowledge.
-That's not fair if Preet
+hidden knowledge.
+That's not fair if Prith
 
 693
 00:41:26,040 --> 00:41:31,320
-Banerjee where to say I will
-give 10 of my pictures to Delhi
+Banerjee were to say I will
+give 10 of my pictures to DALL-E
 
 694
 00:41:32,160 --> 00:41:37,160
-or 10 of my poems to open AI
+or 10 of my poems to OpenAI
 right and I get one cent for
 
 695
@@ -3476,16 +3476,16 @@ token I give to contribute to
 696
 00:41:40,640 --> 00:41:44,680
 this thing, I get one cent.
-Hey, I am I incentivize in that
+Hey, I am I incentivised in that
 
 697
 00:41:44,680 --> 00:41:47,880
-case, I will not sue Delhi.
+case, I will not sue DALL-E.
 So my thing is, I think the
 
 698
 00:41:47,880 --> 00:41:52,720
-whole world of gene AI, all the
+whole world of GenAI, all the
 governance mechanism, so on, is
 
 699
@@ -3500,18 +3500,18 @@ getting recognized, right?
 
 701
 00:41:59,480 --> 00:42:02,680
-Why do people have patterns?
-Well, they have patterns so that
+Why do people have patents?
+Well, they have patents so that
 
 702
 00:42:02,680 --> 00:42:04,880
 they can have royalties based on
-the patterns, right?
+the patents, right?
 
 703
 00:42:05,320 --> 00:42:08,120
 That royalties based on the
-pattern, which is this big thing
+patent, which is this big thing
 
 704
 00:42:08,720 --> 00:42:11,640
@@ -3521,7 +3521,7 @@ You have to figure it out how to
 705
 00:42:11,640 --> 00:42:15,920
 take that big thing into small,
-small sunk chunks and to figure
+small chunks and to figure
 
 706
 00:42:15,920 --> 00:42:18,960
@@ -3561,7 +3561,7 @@ leads to the other one because
 713
 00:42:40,200 --> 00:42:46,960
 often the question is around
-data-driven versus physics
+data-driven versus physics-
 
 714
 00:42:46,960 --> 00:42:51,280
@@ -3585,7 +3585,7 @@ And I have followed the progress
 
 718
 00:43:02,680 --> 00:43:04,840
-of you know physics informed
+of you know physics-informed
 etcetera.
 
 719
@@ -3616,11 +3616,11 @@ because it's harder and it will
 724
 00:43:28,720 --> 00:43:32,720
 take more time to sort of
-develop the more physics
+develop the more physics-
 
 725
 00:43:32,720 --> 00:43:36,520
-informed physics inspired, you
+informed, physics-inspired, you
 know, how much do you think that
 
 726
@@ -3635,7 +3635,7 @@ challenge when it comes to AI
 
 728
 00:43:45,920 --> 00:43:49,480
-for, you know, computer aided
+for, you know, computer-aided
 engineering?
 
 729
@@ -3681,7 +3681,7 @@ of data, right to do the right
 737
 00:44:12,360 --> 00:44:16,440
 level of accuracy for the models
-where physics team firm gets you
+where physics-informed gets you
 
 738
 00:44:16,480 --> 00:44:20,240
@@ -3766,11 +3766,11 @@ measuring, right?
 754
 00:45:06,880 --> 00:45:10,400
 If it is, if you know these two
-points, you can deduce the Third
+points, you can deduce the third
 
 755
 00:45:10,400 --> 00:45:11,880
-Point.
+point.
 It is actually not an
 
 756
@@ -3800,7 +3800,7 @@ knowledge of the physics, you
 
 761
 00:45:28,640 --> 00:45:30,920
-can constraint.
+can constrain.
 You say you don't have to search
 
 762
@@ -3811,7 +3811,7 @@ can do it with only 1000 data
 763
 00:45:35,600 --> 00:45:37,560
 points.
-That's the power of physics
+That's the power of physics-
 
 764
 00:45:37,560 --> 00:45:39,280
@@ -3820,13 +3820,13 @@ And the work was, as you know,
 
 765
 00:45:39,280 --> 00:45:42,920
-done by John, I mean Karnatakis,
-George and I say at Brown
+done by I mean, Karniadakis—
+George Karniadakis— at Brown
 
 766
 00:45:42,920 --> 00:45:46,000
 University, and we did a lot of
-work at AT and says we've done a
+work at Ansys we've done a
 
 767
 00:45:46,000 --> 00:45:48,480
@@ -3836,12 +3836,12 @@ things.
 768
 00:45:48,760 --> 00:45:51,720
 The trouble is when we started
-doing the physics informed to
+doing the physics-informed to
 
 769
 00:45:51,720 --> 00:45:56,600
 incorporate the physics, the
-competition needed in this, we
+computation needed in this, we
 
 770
 00:45:56,600 --> 00:45:58,920
@@ -3855,8 +3855,8 @@ towards graph neural networks
 
 772
 00:46:01,920 --> 00:46:04,280
-and then animated the work on
-F&O.
+and then NVIDIA did the work on
+FNO.
 
 773
 00:46:04,280 --> 00:46:08,640
@@ -3890,7 +3890,7 @@ And that I have told my board is
 
 779
 00:46:29,880 --> 00:46:34,880
-when the whole market for ANSYS
+when the whole market for Ansys
 will completely collapse because
 
 780
@@ -4035,8 +4035,8 @@ open source, right?
 
 808
 00:48:21,680 --> 00:48:25,320
-You have things like Tensorflow
-and Pytor, these are absolutely
+You have things like TensorFlow
+and PyTorch, these are absolutely
 
 809
 00:48:25,320 --> 00:48:29,600
@@ -4081,16 +4081,16 @@ So the combination of open
 817
 00:48:49,720 --> 00:48:54,760
 source things like CUDA, open
-source things like Bytorch and
+source things like PyTorch and
 
 818
 00:48:54,760 --> 00:49:01,160
-Tensorflow, etcetera, and open
+TensorFlow, etcetera, and open
 source models for the data like
 
 819
 00:49:01,160 --> 00:49:03,960
-Imagenet and all those things
+ImageNet and all those things
 that are out there, right?
 
 820
@@ -4105,12 +4105,12 @@ world of numerical methods, we
 
 822
 00:49:13,520 --> 00:49:15,560
-are, we know something doesn't
-know something.
+at Ansys know something, Dassault
+knows something.
 
 823
 00:49:15,560 --> 00:49:17,840
-He seems so and we don't sort of
+Siemens knows something and we don't sort of
 share stuff, right.
 
 824
@@ -4125,23 +4125,23 @@ ah, but they are working on, on
 
 826
 00:49:26,560 --> 00:49:29,800
-trivial fraud to eye problems.
-They cannot work on ANSYS, but
+trivial toy problems.
+They cannot work on Ansys, but
 
 827
 00:49:29,800 --> 00:49:33,520
-ANSYS will not give those tough
+Ansys will not give those tough
 problems that did not happen in
 
 828
 00:49:33,520 --> 00:49:36,480
 the AI world, that did not
-happen in the map reduce world,
+happen in the MapReduce world,
 
 829
 00:49:36,720 --> 00:49:40,440
-in the map reduce world, right?
-The map reduce thing was
+in the MapReduce world, right?
+The MapReduce thing was
 
 830
 00:49:40,840 --> 00:49:44,240
@@ -4156,7 +4156,7 @@ and Yahoo.
 832
 00:49:48,640 --> 00:49:53,320
 Now why did they do that?
-That map reduce framework is a
+That MapReduce framework is a
 
 833
 00:49:53,320 --> 00:49:57,880
@@ -4166,26 +4166,26 @@ improve their searches, right?
 834
 00:49:57,880 --> 00:50:02,280
 So it was a brilliant business
-move for them to open source map
+move for them to open-source Map-
 
 835
 00:50:02,280 --> 00:50:05,640
-reduce to the world, right where
+Reduce to the world, right where
 the smartest graduate students
 
 836
 00:50:05,640 --> 00:50:10,880
 at MIT and Oxford and and CMU,
-they all work to improve map
+they all work to improve Map-
 
 837
 00:50:10,880 --> 00:50:13,560
-reduce and it's open source.
+Reduce and it's open source.
 So all the innovations that
 
 838
 00:50:13,560 --> 00:50:17,640
-coming from the from the open
+coming from the the open
 source world academic world,
 
 839
@@ -4236,17 +4236,17 @@ simulation, right, there is
 848
 00:50:50,400 --> 00:50:52,960
 obviously one code called
-Openform.
+OpenFOAM.
 
 849
 00:50:52,960 --> 00:50:55,440
 Since you know, fluids, you know
-Openform, right?
+OpenFOAM, right?
 
 850
 00:50:55,840 --> 00:51:00,560
 So it's open source, actually
-Openform plus Open AI.
+OpenFOAM plus OpenAI.
 
 851
 00:51:00,680 --> 00:51:04,480
@@ -4260,7 +4260,7 @@ data for the CAD models, right?
 
 853
 00:51:09,160 --> 00:51:13,200
-And so just like Imagenet has
+And so just like ImageNet has
 created this thing for 2D and 3D
 
 854
@@ -4291,11 +4291,11 @@ And we, you know, we, we
 859
 00:51:31,960 --> 00:51:35,280
 ourselves published a couple of
-data that's these Driver ML and
+datasets: DrivAerML and
 
 860
 00:51:35,560 --> 00:51:37,560
-Ahmed ML.
+AhmedML.
 That I I am aware so.
 
 861
@@ -4305,7 +4305,7 @@ bit, but I.
 
 862
 00:51:43,000 --> 00:51:45,560
-Not at the level of image net,
+Not at the level of ImageNet,
 not at the level of of.
 
 863
@@ -4335,7 +4335,7 @@ it's sort of the ground truth.
 
 868
 00:52:07,400 --> 00:52:11,880
-Yes, someone has wrote it, but
+Yes, someone has written it, but
 it isn't a simulation, right?
 
 869
@@ -4445,13 +4445,13 @@ They have not generated those.
 
 890
 00:53:35,360 --> 00:53:40,440
-Suppose a next version of chat
-GPD is take chat GPD to generate
+Suppose a next version of Chat-
+GPT is take ChatGPT to generate
 
 891
 00:53:40,720 --> 00:53:43,360
-all those tests, right?
-And then you feel it, that would
+all those texts, right?
+And then you feed it, that would
 
 892
 00:53:43,360 --> 00:53:44,720
@@ -4460,7 +4460,7 @@ right?
 
 893
 00:53:45,360 --> 00:53:49,320
-So and there and, and Delhi has
+So and there and, and DALL-E has
 taken the same approach of
 
 894
@@ -4470,7 +4470,7 @@ Internet and use those images to
 
 895
 00:53:52,920 --> 00:53:56,120
-program Delhi, right?
+program DALL-E, right?
 And Sora has done the same thing
 
 896
@@ -4491,12 +4491,12 @@ measure 3D fields, right?
 899
 00:54:08,200 --> 00:54:13,080
 You you take a car right Google
-way more those cars have videos
+Waymo those cars have videos
 
 900
 00:54:13,080 --> 00:54:15,800
 right.
-So imagine you you sensorize
+So imagine you you sensorise
 
 901
 00:54:15,800 --> 00:54:21,680
@@ -4530,7 +4530,7 @@ So what I am saying what I have
 
 907
 00:54:37,840 --> 00:54:41,920
-told my board is we ANSYS will
+told my board is we Ansys will
 create the synthetic data
 
 908
@@ -4541,7 +4541,7 @@ the fluids model.
 909
 00:54:46,480 --> 00:54:50,800
 But you are absolutely right, we
-ANSYS fluent is ran simulation.
+Ansys Fluent is RANS simulation.
 
 910
 00:54:50,800 --> 00:54:52,760
@@ -4645,7 +4645,7 @@ he dropped it and it fell down
 
 930
 00:56:08,080 --> 00:56:09,320
-and he drove something else,
+and he derived something else,
 right?
 
 931
@@ -4681,7 +4681,7 @@ actually we have got work going
 937
 00:56:44,800 --> 00:56:48,800
 on with Google DeepMind right.
-DeepMind is using the ANSYS
+DeepMind is using the Ansys
 
 938
 00:56:48,800 --> 00:56:53,680
@@ -4715,8 +4715,8 @@ So they have actually taken that
 
 944
 00:57:08,840 --> 00:57:13,680
-as an example to use ANSYS
-mechanical to model the world of
+as an example to use Ansys
+Mechanical to model the world of
 
 945
 00:57:13,920 --> 00:57:17,560
@@ -4725,7 +4725,7 @@ And just by say and thereby
 
 946
 00:57:17,560 --> 00:57:24,080
-train the Google, Google Mind
+train the Google DeepMind
 has trained the robot arm to do
 
 947
@@ -4740,12 +4740,12 @@ how I think foundational models
 
 949
 00:57:30,760 --> 00:57:37,160
-will work because Isaac Newston
+will work because Isaac Newton
 generated the physics model of
 
 950
 00:57:37,160 --> 00:57:40,360
-force equals minus some
+force equals mass times
 acceleration by looking at the
 
 951
@@ -4766,7 +4766,7 @@ Every one of those equations can
 954
 00:57:51,280 --> 00:57:54,000
 be deduced.
-Navier Stokes equations can be
+Navier–Stokes equations can be
 
 955
 00:57:54,000 --> 00:57:58,320
@@ -4881,12 +4881,12 @@ too niche and yeah, not?
 977
 00:59:16,600 --> 00:59:19,920
 No, no, it's a great question.
-And actually in my city office,
+And actually in my CTO office,
 
 978
 00:59:19,920 --> 00:59:23,600
 so the the first thing I did in
-my city office was to work on AI
+my CTO office was to work on AI
 
 979
 00:59:24,240 --> 00:59:28,400
@@ -4911,17 +4911,17 @@ And the the beauty of quantum is
 983
 00:59:37,880 --> 00:59:40,760
 it is a potential for
-exponential speed UPS, right?
+exponential speedups, right?
 
 984
 00:59:41,560 --> 00:59:45,800
-Because if you have N cubits,
+Because if you have N qubits,
 your speed, your, your, your
 
 985
 00:59:45,800 --> 00:59:48,400
 runtime, your, your speed up is
-2 to the power N, right?
+2ᴺ, right?
 
 986
 00:59:48,840 --> 00:59:52,680
@@ -4931,7 +4931,7 @@ computing algorithms have been
 987
 00:59:52,680 --> 00:59:56,840
 used on problems that are sort
-of NP complete to begin with,
+of NP-complete to begin with,
 
 988
 00:59:56,840 --> 01:00:00,440
@@ -4940,7 +4940,7 @@ materials discovery, your
 
 989
 01:00:00,440 --> 01:00:02,560
-optimization and travelling
+optimisation and travelling
 salesman and so on.
 
 990
@@ -4950,7 +4950,7 @@ world, right our our problems
 
 991
 01:00:06,520 --> 01:00:10,880
-are polynomial is n ^3.
+are polynomial: N cubed.
 Except that N is huge, N is a
 
 992
@@ -4966,11 +4966,11 @@ power P kind of exponential
 994
 01:00:19,200 --> 01:00:23,600
 capacity to solve a polynomial
-problem order N cube where N is
+problem order N cubed where N is
 
 995
 01:00:23,600 --> 01:00:26,640
-very large, yes there is
+very large, yes there are
 benefits.
 
 996
@@ -4986,12 +4986,12 @@ heard of that can take a because
 998
 01:00:36,440 --> 01:00:40,640
 in all our things like we
-ultimately we will take our PDS
+ultimately we will take our PDEs
 
 999
 01:00:40,640 --> 01:00:46,560
-and and make it into some AX
-equals B, some matrix vector.
+and and make it into some Ax
+= b, some matrix vector.
 
 1000
 01:00:46,640 --> 01:00:48,960
@@ -5011,7 +5011,7 @@ speed up.
 1003
 01:00:56,240 --> 01:00:59,680
 So we are looking into those
-kind of methods at ANSYS.
+kind of methods at Ansys.
 
 1004
 01:01:00,280 --> 01:01:05,280
@@ -5025,12 +5025,12 @@ see quantum computing
 
 1006
 01:01:08,160 --> 01:01:12,600
-accelerating CE simulation.
+accelerating CAE simulation.
 And that'll be interesting.
 
 1007
 01:01:12,600 --> 01:01:18,480
-It's almost like you never clear
+It's almost like you never quite clear
 what technology will be the one
 
 1008
@@ -5065,7 +5065,7 @@ those on.
 
 1014
 01:01:36,280 --> 01:01:39,440
-Now maybe there's a future warm,
+Now maybe there's a future one,
 you know, with the Apple vision,
 
 1015
@@ -5105,7 +5105,7 @@ to your broader question, what I
 
 1022
 01:02:05,400 --> 01:02:10,840
-I would say is Nansys is now a
+I would say is Ansys is now a
 company of about 2 1/2 billion
 
 1023
@@ -5115,7 +5115,7 @@ And our software originated from
 
 1024
 01:02:14,480 --> 01:02:18,240
-CE simulation written in Fortran
+CAE simulation written in Fortran
 in 1970, right?
 
 1025
@@ -5130,7 +5130,7 @@ put it on a shared memory and
 
 1027
 01:02:24,840 --> 01:02:26,600
-with this directive, paralyze
+with this directive, parallelise
 it.
 
 1028
@@ -5151,12 +5151,12 @@ And somehow we have OK, now
 1031
 01:02:37,120 --> 01:02:41,120
 let's work with this.
-And now the AIML came in and
+And now the AI/ML came in and
 
 1032
 01:02:41,120 --> 01:02:42,520
 let's do it with with
-Tensorflow.
+TensorFlow.
 
 1033
 01:02:42,520 --> 01:02:44,840
@@ -5176,7 +5176,7 @@ I, I asked of my technology, I
 1036
 01:02:50,000 --> 01:02:55,400
 said, what if you knew that you
-have access to quantum, to AIML,
+have access to quantum, to AI/ML,
 
 1037
 01:02:55,400 --> 01:03:00,640
@@ -5185,7 +5185,7 @@ technologies and you to start
 
 1038
 01:03:00,640 --> 01:03:03,840
-writing ANSYS mechanical, How
+writing Ansys Mechanical, How
 would you write it?
 
 1039
@@ -5200,7 +5200,7 @@ Would you write it in Fortran
 
 1041
 01:03:11,560 --> 01:03:13,280
-with the linear is not at all
+with the linear algebra? Not at all
 right.
 
 1042
@@ -5221,7 +5221,7 @@ I said if you are a startup, you
 1045
 01:03:26,240 --> 01:03:31,560
 have the latest widgets, right
-With with ARVRIOTI don't know
+With with AR, VR, IoTI don't know
 
 1046
 01:03:31,560 --> 01:03:33,520
@@ -5231,7 +5231,7 @@ Put all of that in the blender
 1047
 01:03:33,520 --> 01:03:37,440
 and out will come something that
-a large company against this has
+a large company like Ansys has
 
 1048
 01:03:37,440 --> 01:03:39,240
@@ -5261,7 +5261,7 @@ challenge to say, I want to
 1053
 01:03:53,880 --> 01:03:58,680
 start from scratch.
-Prove to me and Sis that a new
+Prove to me, Ansys, that a new
 
 1054
 01:03:58,680 --> 01:04:04,240
@@ -5276,7 +5276,7 @@ than retrofitting another code.
 1056
 01:04:08,280 --> 01:04:10,720
 And that is what would make a
-start up attractive to you.
+startup attractive to you.
 
 1057
 01:04:10,720 --> 01:04:12,160
@@ -5286,7 +5286,7 @@ market.
 1058
 01:04:12,160 --> 01:04:14,600
 That's what would do it.
-And it's only really a start up.
+And it's only really a startup.
 
 1059
 01:04:14,640 --> 01:04:17,000
@@ -5295,12 +5295,12 @@ following, right?
 
 1060
 01:04:17,920 --> 01:04:21,800
-Often times I am asked, Aaron
-says, hey, you are doing this
+Oftentimes I am asked, at
+Ansys, hey, you are doing this
 
 1061
 01:04:21,800 --> 01:04:23,640
-right with AIML, why are you
+right with AI/ML, why are you
 doing this?
 
 1062
@@ -5315,8 +5315,8 @@ things run 100 times faster,
 
 1064
 01:04:28,880 --> 01:04:32,360
-it's not good for the ANSYS
-mechanical business or fluid
+it's not good for the Ansys
+Mechanical business or fluid
 
 1065
 01:04:32,360 --> 01:04:36,640
@@ -5361,7 +5361,7 @@ so good that they did not want
 1073
 01:04:58,160 --> 01:05:01,960
 to disrupt it, right?
-Motorola new about digital
+Motorola knew about digital
 
 1074
 01:05:01,960 --> 01:05:06,200
@@ -5415,7 +5415,7 @@ And what I write in my book is
 
 1084
 01:05:33,360 --> 01:05:38,320
-therefore companies like ANSYS,
+therefore companies like Ansys,
 like Kodak, like Motorola need
 
 1085
@@ -5425,7 +5425,7 @@ printers, the digital phones,
 
 1086
 01:05:42,400 --> 01:05:49,360
-the digital, the quantum or AIB
+the digital, the quantum or AI-based
 simulation and embrace them and
 
 1087
@@ -5455,7 +5455,7 @@ Amazon leadership principles,
 
 1092
 01:06:05,160 --> 01:06:08,920
-the one of custom obsession
+the one of customer obsession
 makes sense if you just focus on
 
 1093
@@ -5470,7 +5470,7 @@ That always.
 
 1095
 01:06:15,640 --> 01:06:17,600
-And that is has been mind
+And that has been my
 defining philosophy.
 
 1096
@@ -5481,7 +5481,7 @@ Well, maybe to close out, I
 1097
 01:06:20,640 --> 01:06:25,840
 would love just to get some of
-your, you know, summarized
+your, you know, summarised
 
 1098
 01:06:25,840 --> 01:06:27,720
@@ -5555,7 +5555,7 @@ a PhD in 2024.
 
 1112
 01:07:09,840 --> 01:07:13,040
-When I graduated the PhD in
+When I graduated with a PhD in
 1984, forty years ago, I didn't
 
 1113
@@ -5610,8 +5610,8 @@ run on that treadmill and, and
 
 1123
 01:07:48,480 --> 01:07:52,080
-you'll be guaranteed 100,000
-dollar 200,000 salary.
+you'll be guaranteed $100,000–
+$200,000 salary.
 
 1124
 01:07:52,080 --> 01:07:54,680
@@ -5645,12 +5645,12 @@ from Berkeley.
 
 1130
 01:08:14,440 --> 01:08:17,399
-He had who have interviewed, he
+He could have interviewed, he
 had interviewed at all the large
 
 1131
 01:08:17,399 --> 01:08:20,120
-companies in that behavior, but
+companies in the Bay Area, but
 he chose to do a startup and
 
 1132
@@ -5680,7 +5680,7 @@ this healthcare startup called
 
 1137
 01:08:36,399 --> 01:08:39,640
-Sempra Health that he's doing
+Sempre Health that he's doing
 right along with his wife,
 
 1138
@@ -5770,7 +5770,7 @@ the gadgets that you have today,
 
 1155
 01:09:33,920 --> 01:09:38,720
-which Prince Banerjee in 1984
+which Prith Banerjee in 1984
 did not have access to, you guys
 
 1156
@@ -5810,7 +5810,7 @@ You very much for inviting me
 
 1163
 01:10:00,840 --> 01:10:02,600
-for for the blog.
+for for the podcast.
 I really, really enjoyed it.
 
 1164
@@ -5821,7 +5821,7 @@ Thank you so much.
 1165
 01:10:04,600 --> 01:10:08,440
 This has been great.
-ANSYS is very lucky to have you
+Ansys is very lucky to have you
 
 1166
 01:10:08,480 --> 01:10:10,400

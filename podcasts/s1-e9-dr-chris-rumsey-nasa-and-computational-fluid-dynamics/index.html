@@ -15,7 +15,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dr. Chris Rumsey — NASA and Computational Fluid Dynamics | The Neil Ashton Podcast</title>
+<title>NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey</title>
 <meta name="author" content="Neil Ashton">
 <meta name="description" content="In this episode of the Neil Ashton podcast, Neil interviews Dr. Chris Rumsey, Research Scientist at NASA Langley Research Center. Chris is one of the main…">
 <meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
@@ -28,7 +28,7 @@
 
   <meta property="og:site_name" content="Neil Ashton">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Dr. Chris Rumsey — NASA and Computational Fluid Dynamics | The Neil Ashton Podcast">
+  <meta property="og:title" content="NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey">
   <meta property="og:url" content="https://neilashton.co.uk/podcasts/s1-e9-dr-chris-rumsey-nasa-and-computational-fluid-dynamics/">
   <meta property="og:description" content="In this episode of the Neil Ashton podcast, Neil interviews Dr. Chris Rumsey, Research Scientist at NASA Langley Research Center. Chris is one of the main…">
   <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e9.webp">
@@ -38,7 +38,7 @@
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dr. Chris Rumsey — NASA and Computational Fluid Dynamics | The Neil Ashton Podcast">
+  <meta name="twitter:title" content="NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey">
   <meta name="twitter:description" content="In this episode of the Neil Ashton podcast, Neil interviews Dr. Chris Rumsey, Research Scientist at NASA Langley Research Center. Chris is one of the main…">
   <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s1-e9.webp">
   <meta name="twitter:image:alt" content="Dr. Chris Rumsey — NASA and Computational Fluid Dynamics — The Neil Ashton Podcast">
@@ -94,7 +94,7 @@
         {
           "@context": "https://schema.org",
           "@type": "VideoObject",
-          "name": "Dr. Chris Rumsey — NASA and Computational Fluid Dynamics",
+          "name": "NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey",
           "description": "In this episode of the Neil Ashton podcast, Neil interviews Dr. Chris Rumsey, Research Scientist at NASA Langley Research Center. Chris is one of the main…",
           "thumbnailUrl": [
             "https://i.ytimg.com/vi/RsGdzzQOGvM/maxresdefault.jpg"
@@ -381,6 +381,8 @@
     <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S1--EP9---Dr-Chris-Rumsey---NASA--Computational-Fluid-Dynamics-CFD-e39d4ou">Spotify for Creators</a>
     <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
     
+      <a href="/assets/transcripts/s1-e9-dr-chris-rumsey-nasa-and-computational-fluid-dynamics.srt" download>Download transcript</a>
+    
   </nav>
 
   <div class="episode-content">
@@ -469,7 +471,327 @@
 
 <section class="episode-section" aria-labelledby="episode-transcript">
   <h2 id="episode-transcript">Transcript</h2>
-  <p class="episode-transcript-unavailable">A public transcript is not currently available for this episode.</p>
+  <p class="episode-transcript-intro">
+    This transcript was created from the corrected YouTube captions, with names and technical terminology reviewed. <a href="/assets/transcripts/s1-e9-dr-chris-rumsey-nasa-and-computational-fluid-dynamics.srt" download="">Download the corrected SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi, and welcome to the Neil Ashton podcast. In each episode, we explain some of the fascinating ways that science and engineering are changing the world around us. We talk to leading engineers from elite level sports like cycling and Formula 1 to some of the world&#39;s top academics to understand how fluid dynamics, machine learning, supercomputing are bringing in a new era of discovery. We also hear some of their life stories, their career advice, and lessons they&#39;ve learned on the way that I hope will be helpful to you, too. So, sit back and enjoy this episode. Welcome back to the Neil Ashton podcast. Today&#39;s episode is with Chris Rumsey,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:44</span>
+  <span>who is a research scientist at NASA Langley Research Center. This is another one of these episodes that is going to get quite focused into computational fluid dynamics and turbulence modelling. So, um I&#39;m hoping if you&#39;re interested in that, this is, you know, great for you and diving into a topic and speaking to somebody who I think is, you know, has played a key role in this industry and this community. Um but, uh just just a caveat that if you are maybe outside of CFD and you&#39;ve been watching or listening to some of the episodes on Formula 1 or cycling, uh just be prepared this does get quite deep. So, I just put that as a warning</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:23</span>
+  <span>out there. Um a quick thing as well I should say if you&#39;re listening to this podcast, there is also a YouTube version where we have the full video. Just type Neil Ashton podcast. Uh but, equally if you&#39;re watching this on YouTube right now, and actually sometimes you prefer just to listen to a podcast, it&#39;s also available on uh Spotify and Apple. And uh thanks to those who have already listening. I I can&#39;t believe there&#39;s over now 15,000 subscribers on YouTube, which yeah, I thought it&#39;d be, you know, five people and a few of their mates. So, I&#39;m pleased that at least some people are finding this interesting, but yeah, so</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:00</span>
+  <span>if you do like this, I hate saying this thing, but I&#39;m told I should say it, the whole like and subscribe, just because then if a new episode comes out, you you know about it. So, today&#39;s thing is, like I said, about Chris Rumsey from from NASA. Um I have to say that I have a personal I I just I really like Chris as an individual, and I hope many other people who know him will agree with me, and and after watching this, you&#39;ll also agree if you didn&#39;t know him before, because he&#39;s just such a nice guy. He&#39;s just such a pleasure to talk to. He has no ego, he&#39;s very modest, he he but he has so much awareness, and and we</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:47</span>
+  <span>discussed many of the things that he&#39;s he&#39;s done. He&#39;s created and shared so much like his his role of sort of public dissemination, the papers he&#39;s written, the websites he looked after, the workshop he&#39;s done, so many of these things that I genuinely think have had a huge impact on every person out there who develops a method, a code. And this is particularly true in the aeronautical sphere and things like drag prediction or high-lift prediction of aircraft, Chris has really played a huge role. But what the one of the some of the things that I found interesting and that we get into is um I didn&#39;t know Chris was an artist. So,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:30</span>
+  <span>we talk a little bit about some of his early passions for that, how that he he actually interviewed for the CIA. Again, I had no clue about that. But I guess the conversation is split into two. The first half is a little bit about his career, how he got into CFD, some of the early days at Langley. Talking a little bit about the turbulence modelling website that he was one of the the founders for. And if you look in the um the caption notes or the the show notes, there&#39;s a link to that website if you&#39;re not aware. It basically lists almost every single turbulence model that CFD has so that you can implement it and you can verify that you&#39;ve</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:11</span>
+  <span>implemented it correctly and then you can validate it against some test cases. This is widely used as he said as you know more than 40,000 visitors a month because it is one of the central places um for for these models. And that&#39;s not just low-speed aerodynamics. Almost anybody who&#39;s doing any turbulence modelling um quite often goes to this website to find the formulation and the papers. Um and if you&#39;re writing a new code, uh I mean hundreds or thousands of papers reference this site to verify that they&#39;ve implemented the model correctly. So we talk about some of the origins of that. Um we talk about the high-lift</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:46</span>
+  <span>prediction workshop which um is a workshop that&#39;s trying to advance the state of the art for high-lift aerodynamics. Uh again, I&#39;ll put a link in the in the chat. Um and we talk about how how some of those came about, some of his thoughts on the role of machine learning for CFD and for turbulence modelling. Again, something that he&#39;s been part of uh arranging with other symposiums and and workshops to try and explore this place. Um we also um get into some discussion of certification by analysis uh and some of the challenges of machine learning applied to that, uh how reproducibility, etc. Um and then we shift a little bit</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:25</span>
+  <span>because one of the things I wanted people listening to this to get a feel of is uh what is it what is it like to work at NASA? What was that journey like? Um I&#39;m always jealous of people who work for NASA. It was a dream of mine to to work for NASA. And even though I did spend a little bit of time there, I was you know, never a civil servant like like Chris is. So we dive a little bit into how he got in, how other people, the differences in the roles, and then maybe a few more light-hearted things around some of the conferences that he the most memorable times he&#39;s had at conferences and events that he&#39;s done. And then a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:01</span>
+  <span>little bit of discussion at the end around whether it&#39;s best to pursue your hobby as a job or do your job and have a hobby afterwards. So, hopefully an interesting explanation or exploration of someone who I think has made it a really key role for CFD. And and just someone, like I said, it&#39;s just such a a lovely and nice individual that I hope um if you haven&#39;t met him, that you have the opportunity to meet him because he&#39;s just a pleasure to speak to. So, yeah, please sit back and enjoy this episode with Chris Rumsey. I I think most people have a dream. At least I did. Of working for NASA. It&#39;s sort of like when you&#39;re growing up, there&#39;s this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:46</span>
+  <span>certainly doesn&#39;t almost matter what country you grow up in. You know, you you think about NASA. You actually do work for NASA. So, did you always actually want to work for NASA? Was that sort of a childhood dream? No, not not really. When I was in in college at Rensselaer Polytechnic Institute, RPI, they just had interviews and I actually interviewed for the CIA. And then I interviewed interviewed for NASA. And it just it just struck me at the time that it would be a good place to work and it sounded cool then, but I hadn&#39;t thought of it before before that time. Just that they had an opening and and it sounded really interesting.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:32</span>
+  <span>Okay, I need to back up there cuz I wasn&#39;t expecting that answer. Is that because of where you were living? I mean, was this When you said the CIA or NASA, they&#39;re quite different things. Were these graduate programs essentially or No, it was just at the time they just had the school had job fairs and it was just random companies would come in, you know, all from all over and and you just signed up for the ones that you were potentially interested in and just had It was almost like practice interviews where you could could talk and not you know, not worry so much about it because you were just kind of trying to get a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:10</span>
+  <span>feel for what was out there and and I just remember those two. Did you ever think what would happen if you&#39;d gone down the other route, I guess? I&#39;d be a spy, I think. Well, we wouldn&#39;t be having this conversation, that&#39;s for sure. That&#39;s right, yeah. Um but hold on, so you What did you study then in university? What? I went into aeronautical engineering. So I started I I went directly from directly into the aero aeronautical engineering program. And so I was always interested in in aeronautics and aeronautical engineering and mathematics, that type of thing. But the the aero appealed to me I guess because of uh airplanes and space, I&#39;ve always</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:56</span>
+  <span>just found them fascinating that they even work. So, you know, when I was a kid it was like, &quot;Wow, look at look at that thing. How&#39;s that even working?&quot; So, just always always fascinated me and and interested me. So, just wanted to get into that field. And did you Were you the sort of child who was very like obsessed with planes and fighter jets and all that or were you more just yeah? Yeah, not not really. Actually, I was more into um art and artistic things. I was In fact, I almost went that direction instead of engineering because I was good at art, good at drawing and painting and things like that. But um, teachers convinced me that it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:38</span>
+  <span>would be better to go into something more lucrative and that where you have a definite type of income and then keep the art for a hobby or something to do on the side uh or or to do when you retire type of thing. But, that&#39;s also partly why I was interested in in aeronautics because of the sleekness of the airplanes and how they were shaped and the design aspect of it was was fascinating. interesting. So, Oh, so I see behind you. Are these some of your works that you Oh, yeah. have that that one uh uh went to yeah, those are mine. Yeah. Mhm. But, see, you said before we started, &quot;Oh, I&#39;ve got nothing interesting.&quot; I&#39;m</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:18</span>
+  <span>already this is something I did not know at all. Okay, that&#39;s interesting. So, you were always Did Were you tempted to go into architecture then at all that side or was it more the drawing like uh proper art like Yeah, maybe a little bit um the architecture I um Yeah, it doesn&#39;t move though. So, maybe it wasn&#39;t quite as interesting me to be from that perspective. A- And actually, when when I was when I was at RPI, they had an architecture program and some of my roommate one of my roommates was a in that. And it sa- he was just miserable. It was awful because the mathematics part of it, you know, was always very definite. You&#39;re either</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:55</span>
+  <span>right or you&#39;re wrong. But, the art part of it is very subjective. And if you happen to have a teacher who is just doesn&#39;t like you for some reason, he can just say, &quot;I don&#39;t like that because it&#39;s not good.&quot; And it And it&#39;s very subjective. So, he he was driven crazy by that. So, you did your um undergraduate, but then you went on to do a PhD. Is that correct? W- Yeah, at RPI, I stayed at RPI for the undergraduate and a master&#39;s. Did those kind of together. Okay. Yeah. So, it went fairly quickly and then came to uh NASA. And then I got my PhD through NASA. NASA has a has a nice program. Well, they they will pay for you to get your degree,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:38</span>
+  <span>you know, because it benefits them to have someone who&#39;s smarter working for them. Okay. So, what did you do your PhD in then? What was the um It It was in uh aeronautical or aerospace engineering. It It was at the University of Michigan, and it was numerical methods uh under Bram van Leer. And that was uh he was my advisor. Okay. And that connection came about because of NASA, because at NASA we had the ICASE program. I don&#39;t know if you&#39;ve heard of that. But it&#39;s it&#39;s a it&#39;s a it was a a really nice institute, kind of like the uh there are other institutes like this elsewhere. Um ICASE, what does it stand for? I don&#39;t</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:18</span>
+  <span>remember what it even stands for. It&#39;s not around anymore. But it was a a small institute that was independently run within NASA, and it was actually housed in the building where my branch was located. And it would bring in mostly in the summers bring in all these professors from all over the world, Bram van Leer, Phil Roe, I mean, all these all these really uh great CFD guys. Mhm. And turbulence folks as well. Uh to to come and work um uh for the summer or or other times. And they would also bring in young undergraduates and uh build up the science that that way. And so, being housed with them, you know, we got to know all these folks.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:59</span>
+  <span>And it was really a a great relationship. And because of that is what why then work for Bram for the PhD. Ah, okay. But did you Did you always want to go into the more uh CFD side rather than wind tunnel testing? Was Was there a reason for going in, or was it just that was the choice of PhD that was available? Well, the branch that I joined was a it was a This was the time when CFD was kind of getting started. So, it was a new branch that had just uh gotten underway maybe a year or two previous. And I was hired into that branch uh despite knowing very little about numerical methods at the you know, from my uh from my</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:45</span>
+  <span>uh undergraduate and and master&#39;s work. I didn&#39;t do that much with with com- with computer science. But, the branch was all numerical methods. In fact, when I first got there, one of the first things they do is they sit you down and and they Each person in the branch who was already there would talk to you about what they did. And I just remember sitting there going, &quot;What the heck? I didn&#39;t even know I didn&#39;t know what a vortex was.&quot; I mean, they they were just talking like gibberish. So, I was brought in and really trained on the job to to do the the numerical methods. Wow. So, what was the state that&#39;s This is NASA Langley. It was NASA Langley,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:22</span>
+  <span>yeah. I And so, what was the um What was it like at that stage? Was there any major projects going on at that time? I mean, the space shuttle Am I getting the dates wrong now? When would that have been? I&#39;m sure that that was going on, but we weren&#39;t at least to my knowledge that involved in that. It was more uh fundamental development of the of CFD codes for doing um analyzing wings, you know, starting out with the Euler and then moving fairly quickly after I got there into the Navier–Stokes and and started up these codes. I don&#39;t know if you remember any of the names of the codes, you know, CFL3D and TLNS3D. They were very old</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:03</span>
+  <span>codes that were uh and and worked with uh you know, Tony Jameson was someone involved too, or he was in in the same cadre of of folks that that that came to ICASE. And so, everyone was working on the same um uh in the same area trying to build up the the CFD methods. When did you start to transition more into turbulence modelling compared to pure numerical methods? Was there a sort of turning point when that happened or particular project? Yeah, it was kind of a gradual shift toward that. Uh, part of it was that we had, um, some to turbulence, you know, the turbulence work was going on at ICASE and then, uh, we had some folks in the branch who who</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:47</span>
+  <span>were more turbulence modelers and I just started to work with them uh, a little over time and and of course our codes, starting out with just laminar Navier–Stokes, but then we needed turbulence models, so we put in this the Cebeci-Smith and the Baldwin-Lomax. And then, of course, in the early &#39;90s, uh, Philippe Spalart and, uh, Florian Menter, who who you&#39;ve interviewed already here, their models came out and and we worked with them to put them in our codes as well. And then that it just kind of built from there. Yeah, what was I was trying to when I was asking Florian about that, what was it like that time? Because looking back,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:24</span>
+  <span>it seems like that must have been this really, you know, fast-paced development all these models. Did it feel like that or at the time did it did it not? Do you know what I mean? Did it feel like you were onto something momentous with these new models coming in that gave better accuracy than before or was it Did it just feel like a normal No, I don&#39;t think it felt normal. It was It was I think we we we saw this as as major developments. I mean, Mhm. uh, because with the ones we were working with before were just, um, uh, I don&#39;t know. So, so, um, touchy and, um, I don&#39;t know what the word is, but, ad hoc ad hoc, yeah. And then to have</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:05</span>
+  <span>these, uh, well actually the even before Philippe Spalart&#39;s, uh, model, there was the Johnson-King model, you know, and that that one I spent a lot of time working with Dennis Johnson and NASA Ames to put that in our code. And and that was a very difficult model to to implement. I&#39;d say in fact if we had to do verification on that model now, I think most codes would all be giving different answers cuz it was you know, searching along lines to find thing I don&#39;t know. It&#39;s just not very easy. Mhm. And in fact it was kind of a funny story with that. We had two codes in in our branch, CFL3D and FUN3D and and we started comparing against each other.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:45</span>
+  <span>And at one point we were getting different answers with that model. And the TLNS3D answers were better compared to certain experiments when we were comparing. But it turned out that that there was a a factor of two error in in their coding. So putting in that factor of two just happened to give a better answer. This is a this is a story of turbulence modelling, right? Yeah. There&#39;s always a two missing or a half missing. Yeah, yeah. Ah, okay. Just so for people to understand, so CFL3D, am I correct that was the structured focused code, is that right? Well, both TLNS3D and CFL3D are both structured codes. Yeah, they just</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:27</span>
+  <span>kind of developed side by side. Um Okay. within the same same branch. And then FUN3D came along. This is also within our branch, came along the unstructured uh code came along around that time, started to build up. Okay, so were you quite involved with FUN3D as well or was it more CFL focused? Yeah, for me it was more CFL3D. Uh the FUN3D I wasn&#39;t too involved in until later. Yeah, maybe in the 2000s I started to get more involved on that team. Now, one of the thing that I was really interested to know the turbulence modelling website Mhm. has become a I mean, almost everybody who&#39;s developing turbulence models or</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:11</span>
+  <span>or not even developing them, testing them, verifying them, validating them. So, if you go to that website now, but how did it all begin? What How did that even start? Yeah, that um during the early 2000s, I guess. Uh uh Brian Smith from Lockheed Martin and George Wang from um Where is he now? Ohio State One of the One of the universities in up there. Uh we got together and we were talking about this um how it would be nice to have uh a website or a a place where people could go to um see how models behave for basic problems, right? That was the the first idea was to say, &quot;Okay, well, if I want to run a</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:59</span>
+  <span>case that&#39;s really dominated by, you know, shear or or a jet an axisymmetric you know, different type If I have this this dominant basic problem, what is the best model for it?&quot; And to have a place where people could just go and look it up and say like a little library. Say, &quot;Oh, you know, for this type of flow, this is the best model.&quot; Uh or or whatever. Or or this is the the flaws of the model here. And uh so, we created this team uh the turbulence model benchmark working group, which still exists today and still meets fairly regularly. Um to to talk about to get together and talk about these things and maybe start</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:37</span>
+  <span>to formulate uh plans for that. So, that&#39;s really the where it started. And there were some special sessions at early AIAA meetings where we uh brought up the ideas and talked to people about it. But then, the part of the But the part of the website the verification part, which which I think is maybe had a little bit more impact now. That was actually something that I came up with as a total fluke result of what what I would call serendipity. You know, I just something that just happened at a workshop I went to and it was it was something in um it was a workshop in Europe. They used to have these uh I can&#39;t remember the names of the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:18</span>
+  <span>workshops, but they were they would get together kind of like they do now and they everyone would run their codes with certain models certain small ones. um a cough tech maybe? It was in a cough tech. It was in a cough tech. Yeah, sponsored event. And then they would compare results. You know, and usually it was something with separation because no one could do that. Mhm. And then they would um draw conclusions from them or not which is maybe more often what happened. And and at at this at this workshop at one point there was um they were showing results and I was I was using CFL3D with a Spalart–Allmaras model. And it turns out that another</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:55</span>
+  <span>group, I think it was ONERA was using I believe it was ELSA, but one of their codes using the same model and there were all these results, but these two results right dead on top of each other. And it was it was these two code results and I realized then that said, you know, this is a good way to determine whether you&#39;re um you&#39;ve coded it correctly. If two people because it&#39;s so much more likely that if you get the same answer what&#39;s the what are the chances of of of a coding error if two are absolutely dead on top of each other like that. Mhm. And so it just struck me that that was a way of um doing a kind of cheap verification, you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:37</span>
+  <span>know, without you know, the formal method of manufactured solutions or or other methodology, but just just you know, the the on the more codes you compare and the more the degree the more confidence you have in that this is right. And um do you have any stats on that? Do you know how many people actually go to that website? Do you have a ton of any Yeah, I mean I&#39;ve it&#39;s that&#39;s hard to say because they have these, you know, Google um has a a way of uh tracking these things, but I don&#39;t know what these numbers actually mean because it&#39;s is I don&#39;t know whether it&#39;s actually people going to it or or robots going to it. I I don&#39;t know</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:15</span>
+  <span>what it is. But uh yeah, it&#39;s it&#39;s it&#39;s quite a bit. I can&#39;t remember maybe 40,000 a month or something like that at the most, yeah. It&#39;s a lot. I&#39;m sure it is cuz everybody seems to go there. It&#39;s um I mean, it is a credit that you know, Brian himself and the rest still keep this going because uh I I used it in my PhD. I think most people do it. It&#39;s it&#39;s such a But I always feel bad for you cuz it seems like I your website coding skills quite good now because you always seem to be updating websites. Oh, yeah. That that&#39;s happened. And then one unintended consequence of the website, too, was just I didn&#39;t realize this at</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:55</span>
+  <span>the time, but having one place just to go for information like that is really it&#39;s I mean, I do it all the time myself. Like instead of having to say, &quot;Okay, well, I got to look up this thing in in the Broughton&#39;s model.&quot; So, you have to find the paper and you have to remember where the paper was. You have to remember which year it was published. And this way it&#39;s just one it takes you 10 seconds and you&#39;re and you&#39;re there. One of the things that stood out in that 2030 report was the lack of machine learning. It it&#39;s kind of incredible in a way. If I&#39;m not mistaken, there was very little mention if if at all Yeah.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:26</span>
+  <span>about machine learning and fast forward to now and it&#39;s So, is that What Where do you I mean, this is a big topic, but so let&#39;s say first of all, the turbulence modelling, where do you see the role of machine learning? Are Are you positive about? Are you thinking there&#39;s over hype in this area around turbulence modelling to begin with? Yeah, I think there&#39;s a little bit of over hype and it&#39;s coming back down to ground now a little bit because I think at the time well first of all I think when the when the 2014 report came out there wasn&#39;t much machine learning out there. I mean there it was there but not so much in our field. So I it wasn&#39;t</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:07</span>
+  <span>even in the the authors brains at that point. But um I think then that that the thought there was a lot of thought that oh well this is going to answer everything within a few years we&#39;ll have all the answers and and that did not pan out and now I think maybe the thinking more is that machine learning in conjunction with someone who understands turbulence like a turbulence model developer somehow working hand in hand and maybe it like another tool that could be used to help the turbulence modeler develop something but that the machine learning itself it is it&#39;s it&#39;s not going to do it on its own. So yeah we were talking um before about</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:47</span>
+  <span>the high-lift. So where did um I guess similar to the turbulence modelling website high-lift workshop among some of the other workshop as I would say been responsible for pushing a lot of the innovation particularly around scale resolving methods. I think the past few years um there&#39;s been a lot of advances on that but what where did that actually start the the high-lift workshop? Do you remember the origins? Well I mean I guess the drag prediction workshop came first and became the the source for a lot of ideas for for workshop subsequently but um yeah the high-lift workshop was uh I guess it was a the brainchild of uh the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:33</span>
+  <span>NASA collaboration with folks at uh Boeing and um another uh of the commercial companies that where high-lift was the the solution or the need to solve high-lift accurately with CFD it was seen as a major stumbling block and and it&#39;s you know still is today, you know, that&#39;s not not really known exactly how to confidently do that. And so the workshops were they saw the drag prediction workshops and said, &quot;Well, we should do this for high-lift and really bring the community together to to try to put our brains in one place and get get something working better.&quot; And where do you see it from then to now? How how have you seen the progression</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:17</span>
+  <span>being in terms of accuracy, in terms of capability? Well, I guess the first three workshops were almost all Reynolds average Navier–Stokes. And one of our big conclusions so far has been that Reynolds average Navier–Stokes cannot consistently and accurately predict separated flow. So, it consist it cannot consistently and accurately predict high lift uh the high-lift flows. So, for a lot of it, it was uh not much progression other than just confirmation every time that, you know, we can&#39;t do it or we have this issue. And then very slowly over the last couple of workshops, we&#39;ve had more of the scale resolving type of simulations</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:02</span>
+  <span>enter into the picture. And we&#39;re seeing now the the push in that direction and seeing how it it&#39;s still not perfect, but those and those methods still have a lot of There&#39;s so many out there, so many different ways of approaching it. But we see that the the flow physics is better captured by those methods. We see the um uh the separation patterns and the the reasons for the stall that happened near near maximum lift are being captured by those methods. But do you think therefore we&#39;re close to solving this problem? Where do you see as the Well, I think it&#39;s it&#39;s certainly closer, you know, in projects we often have, you know,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:50</span>
+  <span>milestones and uh and points where we declare success. And it&#39;s it&#39;s it it&#39;s maybe almost too easy to say, &quot;Yeah, we&#39;ve solved it.&quot; When really there&#39;s it just made a step in the right direction and it&#39;s it&#39;s certainly getting it better, but there&#39;s still a ways to go. I saw you just recently did um a paper which which I guess all of this is sort of leading to, isn&#39;t it? Which is this certification by analysis. Um where do you see that being and maybe you could explain just this terminology. I guess some people call it digital certification, some people call it certification. How would you explain it and why is it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:30</span>
+  <span>an important thing for for NASA and and others? Yeah, well well it&#39;s important thing especially for the aircraft industry. I guess NASA is hoping to support that that goal. But it&#39;s um the idea that right now when they design airplanes, there&#39;s a lot of uh wind tunnel and flight tests that are very expensive that take place during the certification process. And the hope is that some aspects of the certification testing could be done by CFD in combination with uh with the others. That would lessen the the need for all of the expensive uh especially the flight flight testing, but all to reduce the expense of of the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:15</span>
+  <span>testing. So to get to that point though, there has to be a extremely high trust in the CFD that that what it&#39;s doing is as good as the um the other type of testing. And so that&#39;s the hope. At this point I think it&#39;s not there, but uh that&#39;s that&#39;s the idea of push toward that goal. I I think that&#39;s the one where I find particularly interesting around machine learning because I guess if you&#39;re going to do the way I see it, certification by analysis makes sense. It takes a you know, billions of dollars, years to do a lot of the wind tunnel and flight tests that will still need to be done, but it I guess it&#39;s just reducing the number of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:00</span>
+  <span>them um such that the ones that they do do could maybe be more high fidelity or you know, more detailed. Um and it seems like scale resolving methods are the sort of methods that could help in that. But then this is where the interest in machine learning comes in cuz there&#39;s a lot of a lot of talk of of machine learning, but the issue then is the reproducibility and can you explain it? I guess if you take a scale resolving, you can say it&#39;s solving these equations with this numerical scheme. You can sort of there&#39;s a theory how you get to the answer, isn&#39;t there? Where most people cannot exactly explain how a machine learning model gets to the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:43</span>
+  <span>answer. You know what I mean? Like how The computer can&#39;t even tell you how it gets the Yeah, so I do kind of wonder whether there&#39;s a bit of an opposing challenge here that machine learning may offer the challenge to do things faster and cheaper, but does it meet the test of being fully explainable and reproducible such that you can use it to do Right. Um cuz there&#39;s a lot of I think the reason I&#39;m saying this is you know how it is, there&#39;s always when it comes to funding there&#39;s buzzwords, isn&#39;t there? There&#39;s there&#39;s there&#39;s things that attract funding. So for a while RANS was it. I think now it&#39;s almost the opposite where</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:20</span>
+  <span>if you put RANS in your funding proposal This is what a lot of academics tell me. They say that is a guaranteed way for it not to be funded because they say it&#39;s all been done. Yeah. Yeah. And then it was all about scale resolving. And that was the way to get things funded, but it feels like now if you just say you&#39;re doing scale resolving, that&#39;s not considered novel enough. That&#39;s what everyone does it now. Yeah. You see, you have to do machine learning. Mhm. And uh the sort of concern is if all the money is put into the machine learning for partially good reason, does it actually take money away from perhaps some of the methods</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:57</span>
+  <span>that ultimately may need to be used because of this reproduce You know what Do you see that? Do you see many of the NASA project or not just NASA, but just projects you&#39;re involved in? Well, in general, yeah, I think so. It&#39;s like It&#39;s like buzzword funding. Yeah, you you you almost have to have to do that to to get funding. And this is one of the concerns about the turbulence model benchmarking working group. It&#39;s a big mouthful to say. They um you know, that group in general feels that that RANS, you know, because Reynolds-averaged Navier–Stokes will be around for a long time. It&#39;s It&#39;s a very useful and usable method. We shouldn&#39;t</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:32</span>
+  <span>just fix it in time and stagnate it. There should be continued development. And so, there&#39;s there It would be nice to have continued funding to some degree to some level for that effort. Mhm. Yeah. I guess this is always the challenge of um existing method versus new methods. You know, you have to sort of keep things going, but if you lose the older methods, yeah, it&#39;s it&#39;s tricky. Um I I was keen to to take a slightly different turn. Um Uh-oh. No, in a in a positive way. Um Okay. What&#39;s the best conference you&#39;ve ever been to? Okay, the best conference I&#39;ve ever been to. That&#39;s uh not a question I was expecting</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:23</span>
+  <span>to Well, I&#39;ve been to so many AIAA conferences, right? I mean, I&#39;ve been to Reno probably eight times. Uh Uh maybe maybe 50 AIAA conferences in my life. Um so, it&#39;s hard to say if if if they&#39;re I mean, I always enjoy them and they&#39;re and they&#39;re very good. So, I have to think of a novel conference that&#39;s something out of the ordinary that I&#39;ve been to. Um well, I would have to say probably one of one of the workshop that one of the first workshops I went to in Europe where this idea for the turbulence model verification came about. That I think that was a I always think back fondly on that workshop. First of all, because it was</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:11</span>
+  <span>in France. Okay. And uh you know, I hadn&#39;t been there before. And they had wine for lunch. See, there we go. But I just think fondly on it just from the fact that that was where you know, the idea first came to me for the for the turbulence modelling website. Did the wine help the idea of I don&#39;t think so, no. Do you remember where in France that was? Uh that I think that was in Poitiers. Okay. Yeah. Okay. Yeah. Where Joan of Arc was tried or burned or something. I don&#39;t know. Okay. It was part of the tour there. Yeah, I mean, I love the AIAA, but um you know, there is something nice. I see</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:59</span>
+  <span>the value The AIAA conferences are fantastic as a networking event to see everybody in one place. It sort of saves you the you know everyone&#39;s going to be there. That&#39;s right. To a certain point. Um but there is a value to sometimes these smaller workshops that have a a very targeted focus. Um and I must admit I do kind of like these ones. Um I&#39;m a bit of I&#39;m obviously a bit biased being in Europe myself, but there tends to be a sort of a large social aspect to it, which is quite helpful to to sort of start ideating ideas. Um Yeah, and you meet new people because it&#39;s a place you don&#39;t ordinarily go and it&#39;s out of your normal wheelhouse. So,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:44</span>
+  <span>that&#39;s always nice, too. Okay, so the um maybe we can find the name. It was probably in a cough tech thing. I think I may I think it was, yeah. That That reminds me. I&#39;ve seen some reports. I can try and find I can maybe put in the show comments. Okay, what was the worst conference? Uh The worst location for a conference. Uh the worst conference Well, maybe the uh the one that was held here in uh in Norfolk. There was an AIAA held in Norfolk, so it was so close that we just had to drive to and from it. And you couldn&#39;t even stay. You couldn&#39;t justify Couldn&#39;t even justify staying. You just had to drive from home, yeah.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:29</span>
+  <span>What about Didn&#39;t they used to go um This was before I think So, what&#39;s the history of Reno? Was it always in Reno? Was that the thing? And someone told me that there was like but it was there for many, many years. I think AIAA had a nice deal there. Maybe that was the reason, but it was also very inexpensive place to stay. I remember $55 a night was the uh the cost of the the room for many, many years. Wow. Okay. hard to get to. That was the hard part because it was in in January. And then, of course, in Reno depends on the weather, you know, and it was often fogged in. It was one time we had to drive through a snowstorm from San Francisco to get</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:08</span>
+  <span>there because the flights weren&#39;t weren&#39;t going in. Wow. That&#39;s crazy. Yeah, I think one of my um favorite conference I don&#39;t know if they still have this philosophy. I think they did, which was um ETMM. This is the European Turbulence modelling and I should know what the acronym is. And something measurement, something like that. And someone told me that the if you wanted to be an organizer, one of the requirements they had is that ETMM must always be by the a beach. That&#39;s right. I think I heard that, too. Yeah. And but it did make it a very nice event to do. So that I think there was one in</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:56</span>
+  <span>I&#39;m not sure if you were there. Yeah, I went to I went to the one recent I&#39;ve I&#39;ve never been to any of those, but I went to one recently. I think that was the one in near Barcelona. Was that the one in there was one in Marbella that I I think I went to. Okay. That was one. The only one that I&#39;m jealous of is every time the AIAA seems to have something in Hawaii. Which is not very often nowadays. I&#39;ve never been able to make but I do seem to remember that about 10 years ago it was in Hawaii and all the European people I knew were trying to desperately put together abstracts to justify going. Yeah. Going to Hawaii.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:32</span>
+  <span>There was a big flak when they first had it in Hawaii. Some of the NASA managers were saying this doesn&#39;t this isn&#39;t right because it&#39;s like you&#39;re going to a resort. It doesn&#39;t you know, it&#39;s not right for a government person to go to a resort. We have to be Yeah. Yeah, no, no, no. I especially whenever there&#39;s times of sort of economic crunch. I guess those uh those get more challenging. Um how about one of the things that I&#39;ve I&#39;ve always keen to do and I guess part of the reason for you been doing this podcast was to help people who are maybe a bit earlier in their careers and they&#39;re not so clear sort of you know, how to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:15</span>
+  <span>progress in you know, throughout throughout career. Mhm. What would be your advice, and I don&#39;t know if you do mentor people or help people in terms of working for NASA? Do you What are the routes? So, if you&#39;re, let&#39;s say, an undergraduate or school um kid in the US, what routes are there to ultimately get to to NASA? Well, I think part of part of working for NASA is is being lucky because they don&#39;t hire very often and and it&#39;s it&#39;s very competitive to get in, but um uh the job itself is great, you know, because there&#39;s a certain amount of a autonomy. It&#39;s probably similar to being uh in in a university to some degree,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:59</span>
+  <span>although maybe a little less pressure from the point of view of Having to get get funding, yeah. Yeah. Yeah. But uh yeah, I mean, I guess I the kind of advice I would give would be I mean, to always say at least when you&#39;re young, to always say yes, you know, to anything and sign up for things and and try new things that are um that are challenging that uh no one else wants to do because you you&#39;ll always learn something from it. And then also, I think hook on to things that happen by chance and and if if you see something that happens by chance, then it&#39;s uh a potential route to follow, you know, follow it if you can.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:42</span>
+  <span>Mhm. But, do you have Are you aware of like even in Langley, do they do internships? Do you You know, if you&#39;re like an undergraduate, can you come over to do Are there those sort of programs? Yeah, they do have they do have internships. Um there&#39;s a it&#39;s an official site I mean, it&#39;s changed over the years how they&#39;ve done it. Uh but but there&#39;s a a uh internship program where they bring in even high school students, college students, various different levels. Mhm. And how does it I think I know the answer to this, but maybe it&#39;s interesting for others to know. So, you join at NASA, correct? And am I right in that</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:21</span>
+  <span>when you first join, you either you quite often join as um like a contractor almost? Would that be right to say that that there&#39;s a sort of Do you Do you know what I&#39;m getting at? And Right. Right. Yeah. Yeah. Could you explain maybe have civil servants and they have contractors, yeah. Now, the civil servants are the are the difficult the ones that don&#39;t open up so often. There aren&#39;t often uh positions or the positions are very few and far between. Uh so often uh they&#39;ll have contractor positions. And I think even now they&#39;ve even changed the positions uh maybe not to not be a lifetime position. They&#39;ll be like term hires.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:59</span>
+  <span>As a way of um trying to limit the the the number of civil servants. civil servants, yeah. So, term hires or which would be you know, it&#39;ll be a 5-year position, renewable depending on your uh Ah, okay. how how well you do or you know, your the needs for the pro- of the projects. I don&#39;t I guess this must be very difficult across NASA, but I you mentioned that and I&#39;ve always wondered myself like with a university. So, is it meant Is it essentially that as a you&#39;re sort of treated as your own specialist where you sort of have a a freedom to work on your own projects as well as you&#39;re assigned projects to work on? Is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:46</span>
+  <span>that kind of how it is? There&#39;s a bit of a blend between the two. There&#39;s some independent work and there&#39;s some some project work? Yeah, well, I think the way it it optimally works is well, 50% of your time is spent reading emails, right? Like but nowadays. But among the among the time when you actually do work, uh so the projects, you know, when you&#39;re first hired especially, you know, you you&#39;re you&#39;re given a project and you&#39;re you&#39;re expected to work on the project. I think as you become more and more senior, you you have more of a say in contributing to what the projects are doing, right? Cuz projects often get</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:19</span>
+  <span>their ideas from the the the people that work there, you know, the senior members will help define what the project&#39;s goals are. Uh, but then every individual also is given I mean, again, this is in theory, given like 15% of their time to do whatever they want, you know, this is a white space type of activity where they encourage you to go try something that that you saw that you didn&#39;t you know, it&#39;s not necessarily a project goal, but something that you think might turn out good and give give something. So, the problem, of course, is finding that 15% sometimes, especially with the with the all the emails. Yeah, I know I can</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:04</span>
+  <span>I can imagine. Did you ever There&#39;s often a debate, academia, industry, government. Mhm. Were you ever tempted to go to an industry position, you know, to to leave NASA? Yeah, I&#39;d say you know, throughout my career I&#39;ve had several times when I thought, well, I&#39;ve done this long enough, I should I should do something different and thought about what if I worked at Pixar, you know, I mean Oh, wow. or or Tesla or something, you know. Yeah. Yeah, but never got beyond the point of just kind of thinking about it. But, uh, yeah, yeah, and then at one point so some folks have left NASA and worked at universities, um, and then sometimes</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:51</span>
+  <span>they come back and or they&#39;ve migrated from universities to NASA. It&#39;s very different. I mean, we&#39;re we&#39;re similar to university. I think we&#39;re there&#39;s a lot uh, it&#39;s kind of an academic feel to working at NASA. Very very academic environment in general. But we do have very definitive project goals and project thrusts. So therefore there&#39;s milestones and and needs you know NASA type you know thrust and goals that that that define you where which where you may not have that in in a in university environment but then of course university environment there&#39;s other pressures of trying to get funding from places like NASA.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:35</span>
+  <span>Yeah. of course industry there&#39;s always the worry of the ups and down swings in the in the in the industry. So what&#39;s kept you is there a certain thing of are you over the NASA thing or do you have any moments like I don&#39;t know if you ever work then wear the NASA t-shirt when you go through are there any times when you you sort of have that moment you go oh actually this is pretty cool that I work. Is there anything that keeps you basically at NASA like that? Yeah I think that there&#39;s that that factor. There there&#39;s been a lot of a lot of times where you run into people and you say you work at NASA and they all go woo</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:09</span>
+  <span>you know. And then you say well that&#39;s the aeronautical side of NASA and they say the what? I was going to ask you about Yeah everyone thinks of the the space space part of it. But I I think I I&#39;ve really enjoyed working here. It&#39;s been a you know it&#39;s nothing&#39;s perfect and there&#39;s always you know the grass is greener thoughts. But but overall I&#39;d say it&#39;s been a a really good place to work. You said right at the beginning that you attempted to to go into art. So have you managed to keep that balance? Do do you still draw? Do you have you managed to sort of keep that hobby alive? Yes and no. It&#39;s it&#39;s gone in cycles</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:50</span>
+  <span>like anything. It it it&#39;s it&#39;s energy right? I mean if if I have Uh been a time in my life when I had a lot of energy and every night I would do um some kind of art project or or something just just for fun. Try to enter in shows. At one point I was a a member of uh art alliance from the Hampton Roads area. So I would be constantly going to and from there. But then, you know, you get tired of that and the cycle cycles cycle out of that and then everything gets packed up and put on a shelf somewhere and you don&#39;t do much. Mhm. But Do you think that advice is right though about art you know, a job that pays well and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:31</span>
+  <span>not do art? Cuz I I&#39;ve heard this a lot that some people are encouraged away from the arts to go to a safe job like being a doctor or being a thing. I mean, when you look, do you think that was the right choice or do you know friends and family who have you know, made a living out of uh art? My sister&#39;s made a living out of art. She&#39;s she&#39;s um done very well. She&#39;s actually a professor of art up at uh Oh, wow. in in your your in a college. Yeah, it&#39;s um I don&#39;t know if that was the right decision or not. I mean, the the the professor that I I trusted the professor who who told me that and I felt that that was the right decision at the time.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:12</span>
+  <span>I you know, obviously if I had if I had made a different decision everything would you know, wouldn&#39;t have the same family and wouldn&#39;t be you know, So it&#39;s right from that perspective that what I did. But yeah, I I don&#39;t know. It&#39;s it&#39;s really hard to hard back in time and Mhm. and say You know, you contributed a lot. You&#39;ve done a huge amount of things. Is there anything that you still feel is unfinished? Is there Is there anything that you like I really I have certain things I really would like to go and do or achieve that I haven&#39;t yet done? No, I don&#39;t think so. I mean, when I was younger, I would be um uh of course there&#39;s always the dream to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:51</span>
+  <span>become uh another uh Brown Van Lear or you know some surname Einstein or something. Yeah. You know, but that that eventually you say, &quot;Okay, this this is what I&#39;m good at. I I&#39;m well organized. I can figure out how to do do these certain things and and you know, I I I&#39;ll just enjoy what I&#39;m able to do as best I can do it, but I&#39;m not going to solve turbulence modelling. That was also a dream, too, at one point. Like, &quot;Oh, this model is going to Everyone&#39;s going to use it. It&#39;ll be the best thing to come along.&quot; But now, it&#39;s it&#39;s um So, just just bow out gracefully at some point, say, &quot;Oh, well, this this is Yeah, no, it&#39;s it&#39;s it&#39;s true, isn&#39;t it?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:40</span>
+  <span>It&#39;s like almost That&#39;s why I enjoy speaking to people like Florian or Philippe who who are the rare individuals that you could say have done that thing of having a surname after a model, but I guess the sad reality is that for most people that is never the case. And I I remember the same thing during my PhD thing, &quot;Oh, yeah, well, if I sort of move this equation around, if I can fit this line, maybe this could be a new model.&quot; And you know, this could this could be it, but it&#39;s actually much harder than you realize, isn&#39;t it, to do it? Oh, yeah. Yeah, definitely. And you know, it&#39;s respect to those people, but I don&#39;t think whilst it&#39;s</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:20</span>
+  <span>amazing what they&#39;ve done, I think actually what you&#39;ve done, which not to uh put what you&#39;ve done just in one circle, but I think where I genuinely think you&#39;ve done a lot of help to the community is the curation of knowledge. You know, you can have the best models in the world. You can do the best research, but I don&#39;t know if you&#39;ve consciously focused on this or not, but you&#39;ve seemed to have done a lot about documenting it. You know, like when I look at what you&#39;ve done with the turbulence modelling website, with the high-lift, with CGNS, with the codes, like you seem to be very good at documenting and curating that knowledge</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:02</span>
+  <span>and almost that public dissemination knowledge. Is that a conscious thing you do or you just sort of slipped in to the to the Probably probably just slipped slipped in. Yeah. I mean, I saw the need for it maybe and just did it because it it seemed like the right thing to do. But, I I I think kudos to you for that cuz genuinely, if I look at all these new methods, these new startups, new methods, they almost all are showing that they&#39;ve validated their thing against some basic turbulence modelling website case. They&#39;ve almost all taken some high-lift case and running it. And I know it&#39;s a team effort, but a lot of that has been</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:43</span>
+  <span>basically put on a website, curated, organized by you and a few others. So, I would argue whilst your surname may not be on a particular turbulence model, I think you&#39;ve still actually had AI think you can have a tap on the back for for contributing. That&#39;s That&#39;s nice of you to say that. And I I think others would would agree with me, too. So, I Yeah, I really um I really appreciate you speaking and um I have certainly learned something new. I had no idea about the arc connection. I didn&#39;t know that maybe you could have been a spy. That&#39;s Never too late. Not a good one, though. Um but, yeah, and uh I hope we can um</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:27</span>
+  <span>uh have a good chance to catch up at the uh at the high-lift workshop. Coming up. a nice way to sort of I don&#39;t know about you, but I&#39;m after that, I feel like I need to have a break. I think August will be a a good time for Yeah, this next month is not going to be fun for Yeah. collecting everything and getting it ready. Yeah. Brilliant. Thanks Chris. Really appreciate it. Sure Neil. Cheers. Cheers.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:16</span>
+  <span>Yeah.</span>
+</p>
+  </div>
 </section>
 
   </div>
