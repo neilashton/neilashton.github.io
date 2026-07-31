@@ -16,14 +16,35 @@ podcast_same_as:
   <div class="page-intro measure-wide">
     <p>Long-form interviews with researchers and engineers working in artificial intelligence, scientific computing, simulation, aerodynamics, and related fields.</p>
   </div>
-  <nav class="platform-links academic-links" aria-label="Listen to the podcast">
+  <nav class="platform-links academic-links" aria-label="Watch or listen to the podcast">
+    <a href="{{ site.youtube_podcast_url }}">YouTube</a>
     <a href="{{ site.spotify_show_url }}">Spotify</a>
     <a href="{{ site.apple_podcasts_url }}">Apple Podcasts</a>
-    <a href="{{ site.youtube_podcast_url }}">YouTube</a>
     <a href="{{ site.podcast_rss_url }}" rel="alternate" type="application/rss+xml">RSS</a>
   </nav>
 </div>
 
+<section class="podcast-video-showcase" aria-labelledby="podcast-video-title">
+  <div class="podcast-video-heading">
+    <div>
+      <p class="eyebrow">Watch the podcast</p>
+      <h2 id="podcast-video-title">Full conversations on YouTube</h2>
+    </div>
+    <a href="{{ site.youtube_podcast_url }}">Browse the YouTube playlist <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="podcast-video-frame">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/videoseries?list={{ site.youtube_podcast_playlist_id }}"
+      title="The Neil Ashton Podcast on YouTube"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<p class="eyebrow podcast-audio-label">Listen on Spotify</p>
 <div
   class="podcast-embed"
   data-podcast-embed

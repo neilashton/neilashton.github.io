@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% capture episode_video_key %}s{{ page.season }}-e{{ page.episode }}{% endcapture %}
+{% assign youtube_video = site.data.podcast_youtube[episode_video_key] %}
 <article class="podcast-episode">
   <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
     <a href="{{ '/podcasts/' | relative_url }}">Podcast</a>
@@ -30,6 +32,29 @@ layout: default
     >
   </header>
 
+  {% if youtube_video %}
+    <section class="episode-video" aria-labelledby="episode-video-title">
+      <div class="episode-video-heading">
+        <div>
+          <p class="eyebrow">Watch on YouTube</p>
+          <h2 id="episode-video-title">{{ page.title | escape }}</h2>
+        </div>
+        <a href="https://www.youtube.com/watch?v={{ youtube_video.id }}">Open on YouTube <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="episode-video-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ youtube_video.id }}"
+          title="Watch {{ page.title | escape }} on YouTube"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  {% endif %}
+
+  <p class="eyebrow episode-listen-label">Listen to the audio</p>
   <div
     class="podcast-embed podcast-embed--episode"
     data-podcast-embed
@@ -70,6 +95,9 @@ layout: default
   </div>
 
   <nav class="episode-platform-links academic-links" aria-label="Episode links">
+    {% if youtube_video %}
+      <a href="https://www.youtube.com/watch?v={{ youtube_video.id }}">YouTube</a>
+    {% endif %}
     <a href="{{ page.spotify_url }}">Spotify</a>
     <a href="{{ page.creator_url }}">Spotify for Creators</a>
     <a href="{{ site.apple_podcasts_url }}">Apple Podcasts</a>

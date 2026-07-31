@@ -1,0 +1,30 @@
+---
+layout: none
+permalink: /video-sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+  {% assign video_episodes = site.podcast_episodes | sort: "date" | reverse %}
+  {% for podcast_episode in video_episodes %}
+    {% capture episode_video_key %}s{{ podcast_episode.season }}-e{{ podcast_episode.episode }}{% endcapture %}
+    {% assign youtube_video = site.data.podcast_youtube[episode_video_key] %}
+    {% if youtube_video %}
+      <url>
+        <loc>{{ podcast_episode.url | absolute_url | xml_escape }}</loc>
+        <video:video>
+          <video:thumbnail_loc>https://i.ytimg.com/vi/{{ youtube_video.id }}/maxresdefault.jpg</video:thumbnail_loc>
+          <video:title>{{ podcast_episode.title | xml_escape }}</video:title>
+          <video:description>{{ podcast_episode.description | xml_escape }}</video:description>
+          <video:player_loc allow_embed="yes">https://www.youtube.com/embed/{{ youtube_video.id }}</video:player_loc>
+          <video:publication_date>{{ podcast_episode.date | date_to_xmlschema }}</video:publication_date>
+          <video:family_friendly>yes</video:family_friendly>
+          <video:uploader info="{{ site.url | xml_escape }}">{{ site.first_name | append: " " | append: site.last_name | xml_escape }}</video:uploader>
+        </video:video>
+      </url>
+    {% endif %}
+  {% endfor %}
+</urlset>

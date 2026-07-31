@@ -91,6 +91,14 @@
   {% elsif page.schema_type == 'PodcastEpisode' %}
     {% assign publication_date = page.date | date_to_xmlschema %}
     {% assign episode_image = page.episode_image | absolute_url %}
+    {% capture episode_video_key %}s{{ page.season }}-e{{ page.episode }}{% endcapture %}
+    {% assign youtube_video = site.data.podcast_youtube[episode_video_key] %}
+    {% if youtube_video %}
+      {% capture youtube_watch_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}{% endcapture %}
+      {% capture youtube_embed_url %}https://www.youtube.com/embed/{{ youtube_video.id }}{% endcapture %}
+      {% capture youtube_thumbnail_url %}https://i.ytimg.com/vi/{{ youtube_video.id }}/maxresdefault.jpg{% endcapture %}
+      {% capture youtube_seek_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}&t={seek_to_second_number}s{% endcapture %}
+    {% endif %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -124,10 +132,45 @@
         },
         "sameAs": [
           {{ page.spotify_url | jsonify }},
-          {{ page.creator_url | jsonify }}
+          {{ page.creator_url | jsonify }}{% if youtube_video %},
+          {{ youtube_watch_url | jsonify }}{% endif %}
         ]
       }
     </script>
+    {% if youtube_video %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": {{ page.title | jsonify }},
+          "description": {{ meta_description | jsonify }},
+          "thumbnailUrl": [
+            {{ youtube_thumbnail_url | jsonify }}
+          ],
+          "uploadDate": {{ publication_date | jsonify }},
+          "duration": {{ page.duration_iso | jsonify }},
+          "embedUrl": {{ youtube_embed_url | jsonify }},
+          "url": {{ youtube_watch_url | jsonify }},
+          "inLanguage": {{ site.lang | jsonify }},
+          "isFamilyFriendly": true,
+          "publisher": {
+            "@type": "Person",
+            "name": {{ author_name | jsonify }},
+            "url": {{ site.url | jsonify }}
+          },
+          "isPartOf": {
+            "@type": "PodcastEpisode",
+            "name": {{ page.title | jsonify }},
+            "url": {{ canonical_url | jsonify }}
+          },
+          "potentialAction": {
+            "@type": "SeekToAction",
+            "target": {{ youtube_seek_url | jsonify }},
+            "startOffset-input": "required name=seek_to_second_number"
+          }
+        }
+      </script>
+    {% endif %}
   {% else %}
     <script type="application/ld+json">
       {
