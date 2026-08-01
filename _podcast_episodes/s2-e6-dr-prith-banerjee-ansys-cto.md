@@ -41,8 +41,7 @@ last_modified_at: '2026-08-01'
   <h2 id="episode-overview">Episode overview</h2>
   <div class="episode-overview">
     <p>In this episode of the Neil Ashton Podcast, Dr. Prith Banerjee, CTO of Ansys, shares his extensive journey from academia to the corporate world, discussing the interplay between academia and industry, the role of startups in innovation, and the transformative potential of AI and ML in simulation. He emphasizes the importance of solving real-world problems and the need for collaboration between academia, startups, and large corporations to foster disruptive innovation.</p>
-    <p>He discusses innovative business models for data sharing, the intersection of data-driven and physics-informed approaches, the role of open source in AI innovation, the potential of foundational models in computer-aided engineering (CAE), the future of quantum computing in simulation, and offers advice for aspiring innovators and entrepreneurs. He emphasizes the importance of collaboration, data governance, and the need for interdisciplinary approaches to solve complex problems in engineering and technology. Dr.</p>
-    <p>Banerjee&#39;s book - The Innovation factory:</p>
+    <p>He discusses innovative business models for data sharing, the intersection of data-driven and physics-informed approaches, the role of open source in AI innovation, the potential of foundational models in computer-aided engineering (CAE), the future of quantum computing in simulation, and offers advice for aspiring innovators and entrepreneurs. He emphasizes the importance of collaboration, data governance, and the need for interdisciplinary approaches to solve complex problems in engineering and technology.</p>
   </div>
 </section>
 

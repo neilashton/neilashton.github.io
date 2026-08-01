@@ -43,7 +43,6 @@ last_modified_at: '2026-08-01'
   <h2 id="episode-overview">Episode overview</h2>
   <div class="episode-overview">
     <p>Physics-informed AI, DMD, SINDy and data-driven engineering are the focus of this conversation with Professor J. Nathan Kutz, Director of Physics-Informed AI at Autodesk. Neil and Nathan trace machine learning’s evolution in engineering, the role of physics in trustworthy models, and the future of autonomous agents, design automation and human expertise.</p>
-    <p>Full episode, corrected transcript and resources:</p>
   </div>
 </section>
 
@@ -128,12 +127,6 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-references">
   <h2 id="episode-references">References and links</h2>
   <ul class="episode-references">
-<li>
-  <a href="https://neilashton.co.uk/podcasts/s4-e2-prof-nathan-kutz-on-physics-informed-ai-and-data-driven-modeling/" rel="external noopener">
-    Full episode, corrected transcript and resources:
-    <span class="episode-reference-domain">neilashton.co.uk</span>
-  </a>
-</li>
 <li>
   <a href="https://doi.org/10.1126/science.1251041" rel="external noopener">
     Nathan Kutz

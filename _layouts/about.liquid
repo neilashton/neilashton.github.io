@@ -82,6 +82,44 @@ layout: default
     {% include workshop_leadership.liquid %}
   </section>
 
+  {% assign latest_podcast_episodes = site.podcast_episodes | sort: 'date' | reverse %}
+  {% if latest_podcast_episodes.size > 0 %}
+    <section class="home-section" aria-labelledby="podcast-title">
+      <div class="section-heading">
+        <h2 id="podcast-title">Latest podcast episodes</h2>
+        <a class="text-link" href="{{ '/podcasts/' | relative_url }}">All episodes</a>
+      </div>
+      <p class="section-intro measure-wide">
+        Recent conversations about artificial intelligence, computational fluid dynamics, simulation, and engineering research.
+      </p>
+      <div class="home-podcast-grid">
+        {% for episode in latest_podcast_episodes limit: 3 %}
+          <article class="home-podcast-card">
+            {% if episode.episode_image %}
+              <img
+                src="{{ episode.episode_image | relative_url }}"
+                alt=""
+                width="1280"
+                height="720"
+                loading="lazy"
+                decoding="async"
+              >
+            {% endif %}
+            <p class="home-podcast-meta">
+              Season {{ episode.season }} · Episode {{ episode.episode }} ·
+              <time datetime="{{ episode.date | date_to_xmlschema }}">{{ episode.date | date: '%-d %B %Y' }}</time>
+            </p>
+            <h3>
+              <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a>
+            </h3>
+            <p>{{ episode.description }}</p>
+            <a class="text-link home-podcast-link" href="{{ episode.url | relative_url }}">Watch, listen, and read the transcript</a>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
   <section class="home-section" aria-labelledby="publications-title">
     <div class="section-heading">
       <h2 id="publications-title">Selected publications</h2>

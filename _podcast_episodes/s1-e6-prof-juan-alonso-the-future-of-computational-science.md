@@ -45,7 +45,7 @@ last_modified_at: '2026-08-01'
     <p>In this episode I speak to Prof Juan J. Alonso on his vision of the future of computational science as well as his journey from academia to entrepreneurship - founding Luminary Cloud. He reflects on the revolutions in computational science and the different ways of developing software throughout his career.</p>
     <p>Alonso emphasizes the importance of academia in creating and perpetuating knowledge, as well as the value of innovation and new ideas. He also discusses the changes in the CFD world, the emergence of new technologies like GPU computing and cloud computing, and the potential for advancements in computational simulations for analysis and design. We also touch on the transition of the aerospace industry towards commercial software and the potential for cloud computing to revolutionize CFD.</p>
     <p>The conversation concludes with a discussion on the progress made towards achieving the goals outlined in the 2030 CFD vision report and the role of machine learning and AI in simulation-driven workflows. In this final part of the conversation, Juan discusses the potential applications of ML and AI in engineering. He identifies four main areas where these technologies can be beneficial, but emphasizes that these applications will always be based on high-fidelity simulations.</p>
-    <p>He concludes by envisioning the future of computational-driven science and the continued innovation in the field. You can check out Luminary Cloud at</p>
+    <p>He concludes by envisioning the future of computational-driven science and the continued innovation in the field.</p>
   </div>
 </section>
 

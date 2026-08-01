@@ -44,7 +44,7 @@ last_modified_at: '2026-08-01'
   <div class="episode-overview">
     <p>In this episode of the Neil Ashton podcast, Professor Michael Mahoney discusses the intersection of machine learning, mathematics, and computer science. The conversation covers topics such as randomized linear algebra, foundational models for science, and the debate between physics-informed and data-driven approaches. Prof.</p>
     <p>Mahoney shares insights on the relevance of his research, the potential of using randomness in algorithms, and the evolving landscape of machine learning in scientific disciplines. He also discusses the evolution and practical applications of randomized linear algebra in machine learning, emphasizing the importance of randomness and data availability. He explores the tension between traditional scientific methods and modern machine learning approaches, highlighting the need for collaboration across disciplines.</p>
-    <p>Prof Mahoney also addresses the challenges of data licensing and the commercial viability of machine learning solutions, offering insights for aspiring researchers in the field. Prof. Mahoney website:</p>
+    <p>Prof Mahoney also addresses the challenges of data licensing and the commercial viability of machine learning solutions, offering insights for aspiring researchers in the field.</p>
   </div>
 </section>
 

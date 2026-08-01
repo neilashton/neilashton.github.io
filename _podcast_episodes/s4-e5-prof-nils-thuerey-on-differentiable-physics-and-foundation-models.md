@@ -42,7 +42,7 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-overview">
   <h2 id="episode-overview">Episode overview</h2>
   <div class="episode-overview">
-    <p>Differentiable physics, neural emulators and foundation models for PDEs are the focus of this conversation with Professor Nils Thuerey, head of the Physics-based Simulation group at TUM. Neil and Nils discuss PhiFlow, PICT, Tadpole, scalable 3D transformers, online synthetic data, open datasets, world models and agents that call physics simulators. Full episode, corrected transcript and resources:</p>
+    <p>Differentiable physics, neural emulators and foundation models for PDEs are the focus of this conversation with Professor Nils Thuerey, head of the Physics-based Simulation group at TUM. Neil and Nils discuss PhiFlow, PICT, Tadpole, scalable 3D transformers, online synthetic data, open datasets, world models and agents that call physics simulators.</p>
   </div>
 </section>
 
@@ -163,12 +163,6 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-references">
   <h2 id="episode-references">References and links</h2>
   <ul class="episode-references">
-<li>
-  <a href="https://neilashton.co.uk/podcasts/s4-e5-prof-nils-thuerey-on-differentiable-physics-and-foundation-models/" rel="external noopener">
-    Full episode, corrected transcript and resources:
-    <span class="episode-reference-domain">neilashton.co.uk</span>
-  </a>
-</li>
 <li>
   <a href="https://arxiv.org/abs/2510.23111" rel="external noopener">
     Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data

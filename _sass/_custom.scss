@@ -1863,6 +1863,66 @@ h3 {
   }
 }
 
+.home-podcast-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-podcast-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding-top: 1rem;
+  border-top: 2px solid var(--global-theme-color);
+
+  > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--global-divider-color);
+    background: var(--surface-soft);
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-bottom: 0.55rem;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 1.4;
+
+    a {
+      color: var(--global-text-color);
+    }
+  }
+
+  > p:not(.home-podcast-meta) {
+    margin-bottom: 0.8rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+}
+
+.home-podcast-meta {
+  margin-bottom: 0.45rem;
+  color: var(--global-theme-color);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.065em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.home-podcast-link {
+  align-self: flex-start;
+  margin-top: auto;
+  font-size: 0.84rem;
+}
+
 .about-section .prose,
 .about-section .prose p:first-child {
   color: var(--global-text-color);
@@ -2837,6 +2897,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .home-podcast-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .conversation-grid .conversation-card:first-child {
     grid-column: auto;
   }
@@ -2972,6 +3036,7 @@ h3 {
 
   .credential-list,
   .conversation-grid,
+  .home-podcast-grid,
   .season-grid,
   .dataset-list,
   .service-list,

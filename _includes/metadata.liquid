@@ -8,6 +8,9 @@
 {% assign current_role = site.current_position.role %}
 {% assign current_organisation = site.current_position.organisation %}
 {% assign current_organisation_url = site.current_position.organisation_url %}
+{% assign person_id = site.url | append: '/#person' %}
+{% assign website_id = site.url | append: '/#website' %}
+{% assign website_url = '/' | absolute_url %}
 {% if page.meta_title %}
   {% assign meta_title = page.meta_title %}
 {% elsif page.permalink == '/' %}
@@ -48,6 +51,22 @@
 {% endif %}
 
 {% if site.serve_schema_org %}
+  {% if page.url == '/' %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": {{ website_id | jsonify }},
+        "url": {{ website_url | jsonify }},
+        "name": {{ site.title | jsonify }},
+        "alternateName": ["Dr Neil Ashton", "neilashton.co.uk"],
+        "inLanguage": {{ site.lang | jsonify }},
+        "publisher": {
+          "@id": {{ person_id | jsonify }}
+        }
+      }
+    </script>
+  {% endif %}
   {% if page.schema_type == 'ProfilePage' %}
     <script type="application/ld+json">
       {
@@ -56,9 +75,14 @@
         "url": {{ canonical_url | jsonify }},
         "name": {{ meta_title | jsonify }},
         "description": {{ meta_description | jsonify }},
+        "isPartOf": {
+          "@id": {{ website_id | jsonify }}
+        },
         "mainEntity": {
           "@type": "Person",
+          "@id": {{ person_id | jsonify }},
           "name": {{ author_name | jsonify }},
+          "alternateName": "Dr Neil Ashton",
           "url": {{ site.url | jsonify }},
           "image": {{ '/assets/img/prof_pic.jpg' | absolute_url | jsonify }},
           "jobTitle": {{ current_role | jsonify }},
@@ -82,7 +106,9 @@
         "webFeed": {{ site.podcast_rss_url | jsonify }},
         "author": {
           "@type": "Person",
+          "@id": {{ person_id | jsonify }},
           "name": {{ author_name | jsonify }},
+          "alternateName": "Dr Neil Ashton",
           "url": {{ site.url | jsonify }}
         },
         "sameAs": {{ page.podcast_same_as | jsonify }}
@@ -93,6 +119,7 @@
     {% assign episode_image = page.episode_image | absolute_url %}
     {% capture episode_video_key %}s{{ page.season }}-e{{ page.episode }}{% endcapture %}
     {% assign youtube_video = site.data.podcast_youtube[episode_video_key] %}
+    {% assign apple_episode_url = site.data.podcast_apple[episode_video_key] %}
     {% if youtube_video %}
       {% assign youtube_title = youtube_video.title | default: page.youtube_title | default: page.title %}
       {% capture youtube_watch_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}{% endcapture %}
@@ -112,7 +139,9 @@
         "image": {{ episode_image | jsonify }},
         "author": {
           "@type": "Person",
+          "@id": {{ person_id | jsonify }},
           "name": {{ author_name | jsonify }},
+          "alternateName": "Dr Neil Ashton",
           "url": {{ site.url | jsonify }}
         },
         "partOfSeason": {
@@ -132,7 +161,8 @@
         },
         "sameAs": [
           {{ page.spotify_url | jsonify }},
-          {{ page.creator_url | jsonify }}{% if youtube_video %},
+          {{ page.creator_url | jsonify }}{% if apple_episode_url %},
+          {{ apple_episode_url | jsonify }}{% endif %}{% if youtube_video %},
           {{ youtube_watch_url | jsonify }}{% endif %}
         ]
       }
@@ -155,7 +185,9 @@
           "isFamilyFriendly": true,
           "publisher": {
             "@type": "Person",
+            "@id": {{ person_id | jsonify }},
             "name": {{ author_name | jsonify }},
+            "alternateName": "Dr Neil Ashton",
             "url": {{ site.url | jsonify }}
           },
           "isPartOf": {
@@ -176,7 +208,9 @@
         "description": {{ meta_description | jsonify }},
         "author": {
           "@type": "Person",
+          "@id": {{ person_id | jsonify }},
           "name": {{ author_name | jsonify }},
+          "alternateName": "Dr Neil Ashton",
           "url": {{ site.url | jsonify }}
         }
       }

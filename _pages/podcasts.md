@@ -34,15 +34,41 @@ podcast_same_as:
     </div>
     <a href="{{ site.youtube_podcast_url }}">Browse the YouTube playlist <span aria-hidden="true">↗</span></a>
   </div>
-  <div class="podcast-video-frame">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/videoseries?list={{ site.youtube_podcast_playlist_id }}"
-      title="The Neil Ashton Podcast on YouTube"
-      loading="lazy"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+  <div
+    class="podcast-video-frame"
+    data-youtube-playlist
+    data-embed-src="https://www.youtube-nocookie.com/embed/videoseries?list={{ site.youtube_podcast_playlist_id }}"
+  >
+    <div class="podcast-video-slot" data-youtube-playlist-slot>
+      <div class="podcast-video-poster">
+        <img
+          src="{{ '/assets/img/podcast/episodes/s4-e5.webp' | relative_url }}"
+          alt=""
+          width="1280"
+          height="720"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        >
+        <div class="podcast-video-poster-copy">
+          <p class="eyebrow">YouTube playlist</p>
+          <p class="podcast-video-poster-title">Watch every full conversation</p>
+          <p>The playlist is loaded only when you choose to watch, keeping this page fast and private by default.</p>
+          <button
+            class="button button-primary podcast-video-load"
+            type="button"
+            data-load-youtube-playlist
+            hidden
+          >
+            Load YouTube playlist
+          </button>
+          <noscript>
+            <p class="podcast-video-noscript"><a href="{{ site.youtube_podcast_url }}">Open the playlist on YouTube</a>.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <p class="sr-only" data-youtube-playlist-status aria-live="polite"></p>
   </div>
 </section>
 

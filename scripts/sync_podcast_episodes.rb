@@ -5,6 +5,8 @@
 # feed while retaining the curated titles in _data/podcast_seasons.yml.
 # Add each new episode to that data file, then run:
 #   bundle exec ruby scripts/sync_podcast_episodes.rb
+# To print the Spotify/RSS canonical-link map as JSON without writing pages:
+#   bundle exec ruby scripts/sync_podcast_episodes.rb --print-canonical-map
 
 require "cgi"
 require "date"
@@ -20,6 +22,7 @@ require "yaml"
 ROOT = File.expand_path("..", __dir__)
 RSS_URL = "https://anchor.fm/s/10a5bf2d8/podcast/rss"
 PROFILE_URL = "https://creators.spotify.com/pod/profile/neilashton"
+SITE_URL = "https://neilashton.co.uk"
 EPISODES_DIR = File.join(ROOT, "_podcast_episodes")
 TRANSCRIPTS_DIR = File.join(ROOT, "assets", "transcripts")
 YOUTUBE_DATA_FILE = File.join(ROOT, "_data", "podcast_youtube.yml")
@@ -28,6 +31,7 @@ META_DESCRIPTIONS_FILE = File.join(ROOT, "_data", "podcast_meta_descriptions.yml
 SECTION_MARKERS = [
   "Main Topics:",
   "Main Topics",
+  "Topics",
   "Key topics",
   "Key Topics",
   "Papers",
@@ -36,6 +40,8 @@ SECTION_MARKERS = [
   "Timestamps",
   "Keywords",
 ].freeze
+
+SELF_LINK_LABEL = /Full episode(?:,| and)?(?:\s+(?:corrected\s+)?transcript)?(?:\s+and\s+resources)?\s*:/i
 
 CURRENT_REFERENCE_URLS = {
   "http://tensorlab.cms.caltech.edu/users/anima/" => "https://neuroscience.caltech.edu/people/anima-anandkumar",
@@ -87,15 +93,69 @@ def normalise_sentence_spacing(text)
     .strip
 end
 
+def url_identity(url)
+  uri = URI.parse(url)
+  host = uri.host.to_s.downcase.sub(/\Awww\./, "")
+  path = CGI.unescape(uri.path.to_s).sub(%r{/+\z}, "")
+  "#{host}#{path}"
+rescue URI::InvalidURIError
+  url.to_s.sub(%r{/+\z}, "").downcase
+end
+
+def same_url?(left, right)
+  url_identity(left) == url_identity(right)
+end
+
+def remove_canonical_self_link(text, canonical_url)
+  self_link_removed = false
+  cleaned = text.gsub(%r{https?://[^\s<>]+}i) do |candidate|
+    if same_url?(candidate.sub(/[),.;:]+\z/, ""), canonical_url)
+      self_link_removed = true
+      ""
+    else
+      candidate
+    end
+  end
+  return text unless self_link_removed
+
+  # Spotify descriptions use this label to introduce the canonical episode
+  # page. Once that URL has been removed from the first-party page, remove its
+  # now-empty label as well rather than publishing a dangling sentence.
+  cleaned
+    .gsub(SELF_LINK_LABEL, "")
+    .gsub(/[ \t]+\n/, "\n")
+    .gsub(/\n{3,}/, "\n\n")
+    .strip
+end
+
+def trim_trailing_link_lead_in(text)
+  paragraphs = text.split(/\n{2,}/)
+  while paragraphs.length >= 2
+    candidate = paragraphs.last.to_s.strip
+    looks_like_label = candidate.length <= 240 && (
+      candidate.end_with?(":", "(") ||
+      candidate.match?(/\b(?:at|see)\s*\z/i) ||
+      candidate.match?(/\A(?:As part of|For more|Learn more|Summary of|Top .+ contributions|You can|Visit)\b/i)
+    )
+    break unless looks_like_label
+
+    paragraphs.pop
+  end
+
+  paragraphs.join("\n\n").strip
+end
+
 def overview_text(text)
   clean = text.sub(/\ASummary\s*/i, "")
   marker_positions = SECTION_MARKERS.map { |marker| clean.index(marker) }.compact
   url_position = clean.index(%r{https?://})
   cut_position = (marker_positions + [url_position]).compact.min || clean.length
-  overview = normalise_sentence_spacing(clean[0...cut_position])
+  overview_source = clean[0...cut_position]
+  overview_source = trim_trailing_link_lead_in(overview_source) if url_position && cut_position == url_position
+  overview = normalise_sentence_spacing(overview_source)
 
   if url_position && cut_position == url_position
-    sentence_endings = overview.enum_for(:scan, /[.!?](?=\s|[A-Z])/).map { Regexp.last_match.end(0) }
+    sentence_endings = overview.enum_for(:scan, /[.!?](?=\s|[A-Z]|\z)/).map { Regexp.last_match.end(0) }
     last_ending = sentence_endings.last
     overview = overview[0...last_ending].strip if last_ending && overview.length - last_ending > 80
   end
@@ -190,7 +250,7 @@ def clean_link_label(segment, url)
   label
 end
 
-def extract_links(text)
+def extract_links(text, excluded_urls: [])
   starts = text.enum_for(:scan, %r{https?://}).map { Regexp.last_match.begin(0) }
   previous_url_end = 0
   links = []
@@ -204,7 +264,7 @@ def extract_links(text)
 
     label_segment = text[previous_url_end...start_position]
     label = clean_link_label(label_segment, url)
-    links << { "url" => url, "label" => label }
+    links << { "url" => url, "label" => label } unless excluded_urls.any? { |excluded| same_url?(url, excluded) }
     previous_url_end = start_position + url.length
   end
 
@@ -471,6 +531,7 @@ episodes = rss_episodes.map do |episode|
     "transcript_corrected" => youtube_episode["transcript_corrected"] == true,
     "slug" => slug,
     "permalink" => "/podcasts/#{slug}/",
+    "canonical_url" => "#{SITE_URL}/podcasts/#{slug}/",
     "spotify_url" => spotify_episode.fetch("spotifyUrl"),
     "spotify_embed_url" => spotify_episode.fetch("spotifyUrl").sub("/episode/", "/embed/episode/"),
     "episode_image" => "/assets/img/podcast/episodes/s#{key[0]}-e#{key[1]}.webp",
@@ -480,6 +541,23 @@ end
 missing_from_feed = curated.keys - episodes.map { |episode| [episode["season"], episode["episode"]] }
 abort "Curated episodes missing from RSS: #{missing_from_feed.inspect}" if missing_from_feed.any?
 
+if ARGV.delete("--print-canonical-map")
+  canonical_map = episodes.to_h do |episode|
+    key = "s#{episode.fetch("season")}-e#{episode.fetch("episode")}"
+    [
+      key,
+      {
+        "title" => episode.fetch("title"),
+        "canonical_url" => episode.fetch("canonical_url"),
+      },
+    ]
+  end
+  puts JSON.pretty_generate(canonical_map)
+  exit
+end
+
+abort "Unknown arguments: #{ARGV.join(", ")}" if ARGV.any?
+
 FileUtils.mkdir_p(EPISODES_DIR)
 FileUtils.mkdir_p(TRANSCRIPTS_DIR)
 
@@ -487,9 +565,10 @@ rss_transcripts_downloaded = 0
 episodes.each_with_index do |episode, index|
   newer = index.positive? ? episodes[index - 1] : nil
   older = episodes[index + 1]
-  text = plain_text(episode.fetch("description_html"))
+  canonical_url = episode.fetch("canonical_url")
+  text = remove_canonical_self_link(plain_text(episode.fetch("description_html")), canonical_url)
   overview = overview_text(text)
-  links = extract_links(text)
+  links = extract_links(text, excluded_urls: [canonical_url])
   chapters = extract_chapters(text)
 
   transcript_path = "/assets/transcripts/#{episode.fetch("slug")}.srt"

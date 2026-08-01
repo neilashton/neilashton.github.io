@@ -41,7 +41,7 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-overview">
   <h2 id="episode-overview">Episode overview</h2>
   <div class="episode-overview">
-    <p>Foundation models, explainable AI and autonomous discovery in fluid mechanics are the focus of this conversation with Professor Ricardo Vinuesa, Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan. Neil and Ricardo discuss latent representations, turbulence, reduced-order modeling, flow control and whether AI can discover physical mechanisms that humans might miss. Full episode, corrected transcript and resources:</p>
+    <p>Foundation models, explainable AI and autonomous discovery in fluid mechanics are the focus of this conversation with Professor Ricardo Vinuesa, Associate Chair for Research and Associate Professor of Aerospace Engineering at the University of Michigan. Neil and Ricardo discuss latent representations, turbulence, reduced-order modeling, flow control and whether AI can discover physical mechanisms that humans might miss.</p>
   </div>
 </section>
 
@@ -110,12 +110,6 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-references">
   <h2 id="episode-references">References and links</h2>
   <ul class="episode-references">
-<li>
-  <a href="https://neilashton.co.uk/podcasts/s4-e3-prof-ricardo-vinuesa-on-ai-for-fluid-mechanics/" rel="external noopener">
-    Full episode, corrected transcript and resources:
-    <span class="episode-reference-domain">neilashton.co.uk</span>
-  </a>
-</li>
 <li>
   <a href="https://arxiv.org/abs/2604.09584" rel="external noopener">
     Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations — Abhijeet Vishwasrao et al.

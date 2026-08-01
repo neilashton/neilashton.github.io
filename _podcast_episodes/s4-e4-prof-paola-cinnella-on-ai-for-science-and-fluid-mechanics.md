@@ -42,7 +42,7 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-overview">
   <h2 id="episode-overview">Episode overview</h2>
   <div class="episode-overview">
-    <p>RANS uncertainty, data-driven turbulence modeling and AI for Science are the focus of this conversation with Professor Paola Cinnella, Professor of Fluid Mechanics at Sorbonne University and Director of SCAI. Neil and Paola discuss high-order methods, dense gases, Bayesian uncertainty, AirfRANS, surrogate modeling, scientific publishing and education in the AI era. Full episode, corrected transcript and resources:</p>
+    <p>RANS uncertainty, data-driven turbulence modeling and AI for Science are the focus of this conversation with Professor Paola Cinnella, Professor of Fluid Mechanics at Sorbonne University and Director of SCAI. Neil and Paola discuss high-order methods, dense gases, Bayesian uncertainty, AirfRANS, surrogate modeling, scientific publishing and education in the AI era.</p>
   </div>
 </section>
 
@@ -175,12 +175,6 @@ last_modified_at: '2026-08-01'
 <section class="episode-section" aria-labelledby="episode-references">
   <h2 id="episode-references">References and links</h2>
   <ul class="episode-references">
-<li>
-  <a href="https://neilashton.co.uk/podcasts/s4-e4-prof-paola-cinnella-on-ai-for-science-and-fluid-mechanics/" rel="external noopener">
-    Full episode, corrected transcript and resources:
-    <span class="episode-reference-domain">neilashton.co.uk</span>
-  </a>
-</li>
 <li>
   <a href="https://doi.org/10.1016/j.paerosci.2018.10.001" rel="external noopener">
     Quantification of model uncertainty in RANS simulations: A review — Heng Xiao, Paola Cinnella
