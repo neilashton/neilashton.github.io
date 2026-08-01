@@ -1919,7 +1919,7 @@ it, it, it was really ideal.
 
 386
 00:27:04,440 --> 00:27:07,640
-And so Mark, Mark Drella and I
+And so Mark, Mark Drela and I
 teamed up on that.
 
 387
@@ -2520,7 +2520,7 @@ developing our visualisation
 506
 00:35:44,440 --> 00:35:47,360
 software.
-So Visual2, Visual3.
+So VISUAL2, VISUAL3.
 
 507
 00:35:48,040 --> 00:35:50,400

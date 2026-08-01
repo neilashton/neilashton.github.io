@@ -1558,7 +1558,7 @@ many of the startups and there
 316
 00:20:10,200 --> 00:20:15,280
 are many many to list, you know
-Navasto, PhysicsX and
+NAVASTO, PhysicsX and
 
 317
 00:20:15,280 --> 00:20:17,920
@@ -2091,7 +2091,7 @@ So it's a bit like going back to
 424
 00:27:06,920 --> 00:27:09,520
 1994.
-The K Omega comes out and it
+The k–ω model comes out and it
 
 425
 00:27:09,520 --> 00:27:11,080

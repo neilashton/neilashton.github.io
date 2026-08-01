@@ -680,7 +680,7 @@ on what's often,
 
 171
 00:08:45,179 --> 00:08:48,770
-uh, you know, a single GP, U or even AC PU at this inference step
+uh, you know, a single GPU or even a CPU at this inference step
 
 172
 00:08:49,090 --> 00:08:50,390
@@ -756,7 +756,7 @@ that long
 
 190
 00:09:41,070 --> 00:09:45,739
-compared to the cost of a CFD. Um, simulation.
+compared to the cost of a CFD simulation.
 
 191
 00:09:46,820 --> 00:09:49,450
@@ -812,11 +812,11 @@ I'm not sure how you would phrase it, but for large language models,
 
 204
 00:10:21,309 --> 00:10:24,049
-for the stuff that what you use in these, uh, chat G,
+for the systems you use, such as ChatGPT,
 
 205
 00:10:24,059 --> 00:10:27,450
-BT or Amazon Titan or Bard or or or Llama model
+Amazon Titan, Bard or Llama models,
 
 206
 00:10:28,690 --> 00:10:29,869

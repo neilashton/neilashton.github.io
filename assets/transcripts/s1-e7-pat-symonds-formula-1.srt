@@ -436,7 +436,7 @@ but that's perhaps another story.
 
 110
 00:05:53,950 --> 00:05:57,779
-But I certainly decided that AI wanted to design cars
+But I certainly decided that I wanted to design cars
 
 111
 00:05:58,269 --> 00:05:59,049
@@ -1004,7 +1004,7 @@ which
 
 252
 00:12:36,380 --> 00:12:37,429
-was run by Jan LAMAs
+was run by Jan Lammers,
 
 253
 00:12:37,729 --> 00:12:39,320
@@ -1100,7 +1100,7 @@ so he went off to do that.
 
 276
 00:13:47,229 --> 00:13:50,340
-And he recommended to Alan Corno,
+And he recommended to Alan Cornock,
 
 277
 00:13:50,479 --> 00:13:55,320
@@ -1504,7 +1504,7 @@ uh,
 
 377
 00:18:38,219 --> 00:18:40,030
-Alex Hawk Ridge, who was the
+Alex Hawkridge, who was the
 
 378
 00:18:40,770 --> 00:18:42,750
@@ -1840,7 +1840,7 @@ So
 
 461
 00:22:26,810 --> 00:22:30,229
-that year I was running Stephanie Hansen in the Formula two car,
+that year I was running Stefan Johansson in the Formula Two car,
 
 462
 00:22:30,829 --> 00:22:31,500
@@ -1928,7 +1928,7 @@ And so there was a bit of a meeting on the Sunday
 
 483
 00:23:26,180 --> 00:23:30,910
-and Ted Toleman and Alex Hawk Ridge said, Right, we're going to change things.
+and Ted Toleman and Alex Hawkridge said, Right, we’re going to change things.
 
 484
 00:23:31,640 --> 00:23:32,229
@@ -2084,7 +2084,7 @@ There was a bit of friction because this was the time when there was
 
 522
 00:25:07,729 --> 00:25:11,050
-what was known as the FISA Foca War. So FISA was
+what was known as the FISA–FOCA war. So FISA was
 
 523
 00:25:11,479 --> 00:25:13,920
@@ -2100,11 +2100,11 @@ Um, people like that were in the the
 
 526
 00:25:21,550 --> 00:25:22,189
-FSA Camp
+FISA camp.
 
 527
 00:25:22,839 --> 00:25:23,290
-Foer
+FOCA
 
 528
 00:25:23,439 --> 00:25:26,099
@@ -2124,7 +2124,7 @@ essentially the the the sort of, um,
 
 532
 00:25:33,660 --> 00:25:37,520
-the cars with the DFE in the back. So, you know, you could go and buy AD FE.
+the cars with the DFV in the back. So, you know, you could go and buy a DFV.
 
 533
 00:25:37,790 --> 00:25:38,989
@@ -2132,7 +2132,7 @@ You could buy a a
 
 534
 00:25:39,489 --> 00:25:42,739
-heel and gearbox and, you know, you could build your mono
+Hewland gearbox and, you know, you could build your monocoque
 
 535
 00:25:43,050 --> 00:25:47,510
@@ -2144,7 +2144,7 @@ So there was a bit of a split between that,
 
 537
 00:25:49,839 --> 00:25:51,540
-and we were on the the FSA
+and we were on the the FISA
 
 538
 00:25:51,760 --> 00:25:54,459
@@ -2436,19 +2436,19 @@ Um,
 
 610
 00:29:06,560 --> 00:29:10,920
-I mean something many, many years later, when I I was doing consultancy work for
+I mean, many years later, when I was doing consultancy work for
 
 611
 00:29:11,280 --> 00:29:11,420
-Mousa
+Marussia—
 
 612
 00:29:12,160 --> 00:29:12,680
-Uh, maurita
+well, Manor—
 
 613
 00:29:12,920 --> 00:29:15,390
-entered Formula One. They were based up in Yorkshire,
+when they entered Formula One, they were based up in Yorkshire,
 
 614
 00:29:15,869 --> 00:29:18,040
@@ -2512,7 +2512,7 @@ Motorsport Valley.
 
 629
 00:29:50,630 --> 00:29:53,560
-Uh, yeah. And Caterham moved down to Lefel,
+Uh, yeah. And Caterham moved down to Leafield,
 
 630
 00:29:53,699 --> 00:29:54,910
@@ -2728,11 +2728,11 @@ Um,
 
 683
 00:32:13,140 --> 00:32:16,030
-largest manufacturer racing cars now is De
+the largest manufacturer of racing cars now is
 
 684
 00:32:16,219 --> 00:32:17,349
-Lara in Italy.
+Dallara in Italy.
 
 685
 00:32:17,849 --> 00:32:22,709
@@ -3668,7 +3668,7 @@ a single number
 
 918
 00:43:29,659 --> 00:43:34,030
-getting AC L of 5.5 on your your your car.
+getting a C_L of 5.5 on your car.
 
 919
 00:43:35,090 --> 00:43:37,360
@@ -4244,7 +4244,7 @@ uh,
 
 1062
 00:50:33,310 --> 00:50:35,820
-I first became technical director at Bennington,
+I first became technical director at Benetton,
 
 1063
 00:50:36,189 --> 00:50:39,330
@@ -4256,7 +4256,7 @@ and
 
 1065
 00:50:41,620 --> 00:50:43,719
-Ross Braun was technical director
+Ross Brawn was technical director,
 
 1066
 00:50:44,770 --> 00:50:47,929
@@ -5884,7 +5884,7 @@ And also, of course, in those days you couldn't go and buy
 
 1472
 01:09:20,399 --> 01:09:24,220
-ML API S to plug into your stuff. You had to write it all.
+ML APIs to plug into your stuff. You had to write it all.
 
 1473
 01:09:24,509 --> 01:09:26,919
@@ -5904,7 +5904,7 @@ could well be the time that has now become quite famous. As
 
 1477
 01:09:35,169 --> 01:09:38,669
-why is a IML suddenly popular now, when these methods
+why is AI/ML suddenly popular now, when these methods
 
 1478
 01:09:38,770 --> 01:09:41,899
@@ -6924,7 +6924,7 @@ any form of
 
 1732
 01:21:00,149 --> 01:21:05,209
-AI, particularly when we get to a G I you know, the artificial general intelligence.
+AI, particularly when we get to AGI—you know, artificial general intelligence.
 
 1733
 01:21:05,220 --> 01:21:07,140

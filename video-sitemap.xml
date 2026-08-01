@@ -16,7 +16,7 @@
           <video:title>Can AI Learn Physics? Differentiable Simulation &amp; Foundation Models | Nils Thuerey</video:title>
           <video:description>Nils Thuerey explores differentiable physics and foundation models, from PhiFlow and neural emulators to online training, open data and simulation agents.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/h42plIdxDSM</video:player_loc>
-          <video:publication_date>2026-07-23T05:22:37-07:00</video:publication_date>
+          <video:publication_date>2026-07-23T13:22:37+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -34,7 +34,7 @@
           <video:title>Can AI Fix Turbulence Models? AI for Fluid Mechanics | Paola Cinnella</video:title>
           <video:description>Paola Cinnella explores AI for fluid mechanics, turbulence-model uncertainty, AirfRANS, Bayesian methods and the need for rigorous scientific standards.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/qWFlaEeCwdY</video:player_loc>
-          <video:publication_date>2026-07-08T22:50:54-07:00</video:publication_date>
+          <video:publication_date>2026-07-09T06:50:54+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -52,7 +52,7 @@
           <video:title>Can AI Discover New Fluid Mechanics? | Ricardo Vinuesa</video:title>
           <video:description>Ricardo Vinuesa explores AI for fluid mechanics, explainable learning, latent representations, flow control and agents for autonomous scientific discovery.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/7S-7aQR8HJg</video:player_loc>
-          <video:publication_date>2026-06-25T04:01:10-07:00</video:publication_date>
+          <video:publication_date>2026-06-25T12:01:10+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -70,7 +70,7 @@
           <video:title>Physics-Informed AI: What Actually Works? | Nathan Kutz</video:title>
           <video:description>Nathan Kutz explains what works in physics-informed AI, comparing data-driven models, reduced-order methods, human expertise and responsible deployment.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/kdlE5q8yHpw</video:player_loc>
-          <video:publication_date>2026-06-11T06:50:49-07:00</video:publication_date>
+          <video:publication_date>2026-06-11T14:50:49+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -88,7 +88,7 @@
           <video:title>Agentic AI for CAE/EDA: Are Foundation Models Rewriting Engineering?</video:title>
           <video:description>Neil Ashton examines how AI agents and foundation models could rewrite CAE/EDA, from automated simulation workflows to ownership, licensing and trust.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/yp9CONycDR8</video:player_loc>
-          <video:publication_date>2026-06-01T08:48:29-07:00</video:publication_date>
+          <video:publication_date>2026-06-01T16:48:29+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -106,7 +106,7 @@
           <video:title>Fluid Intelligence: Can AI Learn the Physics of Fluids? | Brandstetter &amp; Mishra</video:title>
           <video:description>Johannes Brandstetter and Siddhartha Mishra examine whether AI can learn fluid physics, covering CFD data, scaling laws, inductive bias and model training.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/M5R-jyti-bE</video:player_loc>
-          <video:publication_date>2025-12-02T00:23:31-08:00</video:publication_date>
+          <video:publication_date>2025-12-02T08:23:31+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -124,7 +124,7 @@
           <video:title>What HPC and CAE Conferences Reveal About AI in Engineering</video:title>
           <video:description>Neil Ashton maps the conferences connecting HPC, CAE, machine learning and engineering, explaining where specialists meet, learn and build collaborations.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/FB4nlB6MMEc</video:player_loc>
-          <video:publication_date>2025-11-01T16:25:53-07:00</video:publication_date>
+          <video:publication_date>2025-11-01T23:25:53+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -142,7 +142,7 @@
           <video:title>The Future of CFD: 5 Key Trends Revisited</video:title>
           <video:description>Neil Ashton revisits five trends shaping CFD, assessing progress in GPUs, AI, cloud computing, digital certification and simulation-industry consolidation.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/dWkZYU77A04</video:player_loc>
-          <video:publication_date>2025-10-15T00:38:20-07:00</video:publication_date>
+          <video:publication_date>2025-10-15T08:38:20+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -160,7 +160,7 @@
           <video:title>Turbulence Modelling and the Origins of Modern CFD | Brian Launder</video:title>
           <video:description>Brian Launder recounts the origins of modern turbulence modelling, including the k-ε model, wall functions and a career that helped shape practical CFD.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/Eqv0bK7HVnE</video:player_loc>
-          <video:publication_date>2025-09-30T05:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-09-30T13:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -178,7 +178,7 @@
           <video:title>Cloud HPC for Engineering: Building Rescale | CEO Joris Poort</video:title>
           <video:description>Rescale founder Joris Poort explains cloud HPC for engineering, startup growth, enterprise adoption and how AI agents may reshape simulation workflows.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/k9OMhc9-uXI</video:player_loc>
-          <video:publication_date>2025-09-17T08:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-09-17T16:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -196,7 +196,7 @@
           <video:title>5 Skills CAE Engineers Need in the AI Era</video:title>
           <video:description>Neil Ashton sets out five skills CAE engineers need in the AI era, from technical learning and data readiness to judgement about building or buying tools.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/h9isQ5Ov4Co</video:player_loc>
-          <video:publication_date>2025-09-02T05:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-09-02T13:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -214,7 +214,7 @@
           <video:title>Can We Build a Foundation Model for CFD? | Johannes Brandstetter</video:title>
           <video:description>Johannes Brandstetter explains the path toward foundation models for CFD, covering transformers, meshes, temporal dynamics, scaling and physical insight.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/5oB1FC5VjTc</video:player_loc>
-          <video:publication_date>2025-08-18T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-08-19T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -232,7 +232,7 @@
           <video:title>Hypersonics, Aircraft Design and the Future of Aerospace | Russell Cummings</video:title>
           <video:description>Russell Cummings explores hypersonics, aircraft design and aerospace education, discussing CFD, artificial intelligence and advice for future engineers.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/_POUsKP9H4s</video:player_loc>
-          <video:publication_date>2025-08-04T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-08-05T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -250,7 +250,7 @@
           <video:title>From CFD to Computational Finance: A Pioneer’s Journey | Mike Giles</video:title>
           <video:description>Mike Giles traces a pioneering journey from CFD and Rolls-Royce to computational finance, explaining algorithms, HPC and the choices behind career reinvention.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/bTleW1-8aTE</video:player_loc>
-          <video:publication_date>2025-07-21T05:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-07-21T13:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -268,7 +268,7 @@
           <video:title>Foundation Models for CFD: What They Are and Why They Matter</video:title>
           <video:description>Neil Ashton explains foundation models for CFD, how they differ from conventional surrogates, and why data, scale and industry dynamics matter today.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/aF140tpENN8</video:player_loc>
-          <video:publication_date>2025-04-24T12:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-04-24T20:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -286,7 +286,7 @@
           <video:title>Engineering Innovation in Pro Cycling | Kurt Bergin-Taylor</video:title>
           <video:description>Kurt Bergin-Taylor reveals how Tudor Pro Cycling approaches engineering innovation, from aerodynamics and equipment to data, nutrition and performance.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/el2Q1-ijBVw</video:player_loc>
-          <video:publication_date>2025-03-10T14:00:00-07:00</video:publication_date>
+          <video:publication_date>2025-03-10T21:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -304,7 +304,7 @@
           <video:title>Why I Joined NVIDIA: A New Chapter in AI, CFD and Engineering</video:title>
           <video:description>Neil Ashton explains why he joined NVIDIA as a Distinguished CAE Architect, what the role covers, and how the move connects AI with engineering simulation.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/Ljf9BuzN-NA</video:player_loc>
-          <video:publication_date>2025-02-21T10:00:00-08:00</video:publication_date>
+          <video:publication_date>2025-02-21T18:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -322,7 +322,7 @@
           <video:title>Engineering Career Advice: Lessons I Wish I Knew Earlier</video:title>
           <video:description>Neil Ashton shares engineering career lessons, mapping roles across industry, consulting and technology while explaining how software and AI change the field.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/Si_B47m9w2Q</video:player_loc>
-          <video:publication_date>2025-01-09T02:00:00-08:00</video:publication_date>
+          <video:publication_date>2025-01-09T10:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -340,7 +340,7 @@
           <video:title>AI for Science: What Machine Learning Must Get Right | Michael Mahoney</video:title>
           <video:description>Michael Mahoney examines what machine learning must get right for science, from data and licensing to foundation models and commercial viability.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/lk4lvKQsqWU</video:player_loc>
-          <video:publication_date>2024-12-26T00:00:00-08:00</video:publication_date>
+          <video:publication_date>2024-12-26T08:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -358,7 +358,7 @@
           <video:title>The Future of Engineering Simulation and AI | Ansys CTO Prith Banerjee</video:title>
           <video:description>Ansys CTO Prith Banerjee explores the future of engineering simulation, examining AI, foundation models, open source, quantum computing and innovation.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/9Ic5xgJt6BQ</video:player_loc>
-          <video:publication_date>2024-12-15T23:00:00-08:00</video:publication_date>
+          <video:publication_date>2024-12-16T07:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -376,7 +376,7 @@
           <video:title>NASA X-59: Engineering Quieter Supersonic Flight | Peter Coen</video:title>
           <video:description>NASA’s Peter Coen explains how the X-59 could enable quieter supersonic flight, covering sonic booms, aircraft design, simulation and future regulation.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/liem50iWhkw</video:player_loc>
-          <video:publication_date>2024-12-04T00:00:00-08:00</video:publication_date>
+          <video:publication_date>2024-12-04T08:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -394,7 +394,7 @@
           <video:title>The Algorithms That Transformed CFD | Antony Jameson</video:title>
           <video:description>Antony Jameson recounts the algorithms and flow codes that transformed CFD, connecting numerical methods, aerodynamic design and decades of innovation.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/DnRdE7tqIRw</video:player_loc>
-          <video:publication_date>2024-11-20T01:00:00-08:00</video:publication_date>
+          <video:publication_date>2024-11-20T09:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -412,7 +412,7 @@
           <video:title>Cycling Aerodynamics: The Lifelong Pursuit of Speed | Michael Hutchinson</video:title>
           <video:description>Michael Hutchinson explores cycling aerodynamics, training, equipment and regulation, sharing a lifelong pursuit of speed as a rider, writer and engineer.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/hdRn4AvCvhQ</video:player_loc>
-          <video:publication_date>2024-11-08T03:00:00-08:00</video:publication_date>
+          <video:publication_date>2024-11-08T11:00:00+00:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -430,7 +430,7 @@
           <video:title>The Future of CFD: 5 Key Trends Every Engineer Should Watch</video:title>
           <video:description>Neil Ashton identifies five forces reshaping CFD: GPUs, AI, cloud computing, higher-fidelity certification and consolidation across simulation software.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/ayJKToUhp3Y</video:player_loc>
-          <video:publication_date>2024-10-24T00:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-10-24T08:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -448,7 +448,7 @@
           <video:title>The Future of Formula 1: Rules, Safety and Engineering | Nikolas Tombazis</video:title>
           <video:description>Nikolas Tombazis explores Formula 1’s rules, safety and engineering, explaining how aerodynamics, technology and team dynamics shape the sport’s future.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/gnWGUgmA4gc</video:player_loc>
-          <video:publication_date>2024-10-10T02:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-10-10T10:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -466,7 +466,7 @@
           <video:title>14 Lessons on AI, CFD and Engineering—and What Comes Next</video:title>
           <video:description>Neil Ashton revisits Season 1’s lessons across CFD, AI, Formula 1, cycling and HPC, then previews the engineering questions planned for Season 2.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/xDUcHxTD9Nw</video:player_loc>
-          <video:publication_date>2024-08-08T10:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-08-08T18:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -484,7 +484,7 @@
           <video:title>AI + Science: Building the Next Generation of Scientific Models | Anima Anandkumar</video:title>
           <video:description>Anima Anandkumar explores AI for science, neural operators and weather prediction, explaining how scientific knowledge can guide scalable learning systems.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/Mamxev0IcZM</video:player_loc>
-          <video:publication_date>2024-07-30T00:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-07-30T08:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -502,7 +502,7 @@
           <video:title>Can AI Build Foundation Models for Engineering? | Karthik Duraisamy</video:title>
           <video:description>Karthik Duraisamy explains how foundation models, neural operators and specialised agents could transform CFD, turbulence modelling and engineering.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/VnISBGD6T14</video:player_loc>
-          <video:publication_date>2024-07-22T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-07-23T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -520,7 +520,7 @@
           <video:title>How Machine Learning Can Transform Science | Max Welling</video:title>
           <video:description>Max Welling explores how machine learning can transform science, discussing foundation models, open research, sustainability and responsible innovation.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/mN8dnkZmczc</video:player_loc>
-          <video:publication_date>2024-07-09T00:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-07-09T08:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -538,7 +538,7 @@
           <video:title>AI for Science: What It Can—and Cannot—Do</video:title>
           <video:description>Neil Ashton examines what AI for science can and cannot do, comparing data-driven and physics-informed methods for simulation and discovery.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/T-ddFBJgITo</video:player_loc>
-          <video:publication_date>2024-07-02T00:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-07-02T08:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -556,7 +556,7 @@
           <video:title>NASA, CFD and the Future of Turbulence Modelling | Chris Rumsey</video:title>
           <video:description>NASA’s Chris Rumsey explores CFD validation, turbulence modelling, high-lift prediction and certification by analysis, alongside lessons from his career.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/RsGdzzQOGvM</video:player_loc>
-          <video:publication_date>2024-06-25T01:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-06-25T09:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -574,7 +574,7 @@
           <video:title>The Past and Future of High-Performance Computing | Jack Dongarra</video:title>
           <video:description>Jack Dongarra charts the evolution of high-performance computing, explaining its scientific impact, global competition and the technologies ahead.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/DgQt6rktdzw</video:player_loc>
-          <video:publication_date>2024-06-18T00:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-06-18T08:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -592,7 +592,7 @@
           <video:title>Formula 1 Engineering: Inside a Legendary Career | Pat Symonds</video:title>
           <video:description>Pat Symonds reflects on a legendary Formula 1 career, exploring engineering leadership, team culture, cost caps and the sport’s technological future.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/vMoIgfHtJHc</video:player_loc>
-          <video:publication_date>2024-06-10T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-06-11T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -610,7 +610,7 @@
           <video:title>The Future of CFD and Computational Science | Juan Alonso</video:title>
           <video:description>Juan Alonso explores the future of CFD and computational science, from GPUs and cloud computing to machine learning, open source and digital twins.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/KKNWYtaLWWY</video:player_loc>
-          <video:publication_date>2024-06-03T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-06-04T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -628,7 +628,7 @@
           <video:title>How to Design the World’s Fastest Bikes | Dimitris Katsanis</video:title>
           <video:description>Dimitris Katsanis explains how aerodynamics, materials, rider interaction and UCI rules shape the design of the world’s fastest racing bicycles.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/rGjce1qUBT8</video:player_loc>
-          <video:publication_date>2024-05-27T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-05-28T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -646,7 +646,7 @@
           <video:title>PhD or Industry? 4 Career Questions Every Engineer Should Ask</video:title>
           <video:description>Neil Ashton answers four career questions for engineers, comparing PhDs, academia, industry and technology roles while sharing lessons from Formula 1.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/B1Wj8x14wV8</video:player_loc>
-          <video:publication_date>2024-05-20T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-05-21T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -664,7 +664,7 @@
           <video:title>From Formula 1 to British Cycling: Engineering High Performance | Tony Purnell</video:title>
           <video:description>Tony Purnell traces a career spanning Formula 1, Jaguar, the FIA and British Cycling, revealing how engineering and leadership drive elite performance.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/DfmPgpw6NL4</video:player_loc>
-          <video:publication_date>2024-05-13T23:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-05-14T07:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -682,7 +682,7 @@
           <video:title>The k-ω SST Model, RANS and the Future of CFD | Florian Menter</video:title>
           <video:description>Florian Menter explains the origins of the k-ω SST turbulence model, the future of RANS and LES, and how machine learning could reshape practical CFD.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/M7ul3sa2wiE</video:player_loc>
-          <video:publication_date>2024-05-07T03:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-05-07T11:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>
@@ -700,7 +700,7 @@
           <video:title>Why I Started an AI, CFD and Engineering Podcast | Neil Ashton</video:title>
           <video:description>Neil Ashton introduces his podcast on AI, CFD and computational engineering, outlining its expert guests, technical themes and practical career insights.</video:description>
           <video:player_loc allow_embed="yes">https://www.youtube.com/embed/elVX780AdMU</video:player_loc>
-          <video:publication_date>2024-05-07T02:00:00-07:00</video:publication_date>
+          <video:publication_date>2024-05-07T10:00:00+01:00</video:publication_date>
           <video:family_friendly>yes</video:family_friendly>
           <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
         </video:video>

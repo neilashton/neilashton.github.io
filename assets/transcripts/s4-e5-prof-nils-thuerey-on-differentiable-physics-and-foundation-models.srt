@@ -70,7 +70,7 @@ Munich TUM and has been a
 
 15
 00:00:51,000 --> 00:00:53,920
-pioneer in physics based deep
+pioneer in physics-based deep
 learning.
 
 16
@@ -325,7 +325,7 @@ ahead of where most of the field
 
 66
 00:04:01,600 --> 00:04:04,240
-is AT.
+is at.
 And so if you look at his 2025
 
 67
@@ -1000,18 +1000,18 @@ And that's why we also started
 
 201
 00:11:35,680 --> 00:11:39,560
-actually doing these proof
-concept papers like the the
+actually doing these proof-of-
+concept papers like the
 
 202
 00:11:39,560 --> 00:11:45,960
-Iran's predictions by AIA back
+RANS predictions by AI back
 then also these were tiny
 
 203
 00:11:45,960 --> 00:11:49,920
 resolutions, right?
-32128 square basically.
+128 by 128, basically.
 
 204
 00:11:49,920 --> 00:11:54,560
@@ -1020,8 +1020,8 @@ And also I remember back then
 
 205
 00:11:54,560 --> 00:11:58,040
-actually it's I'm, I'm glad it's
-got into a a, but there were
+actually, I'm glad it got into
+AIAA, but there were
 
 206
 00:11:58,040 --> 00:11:59,760
@@ -1525,8 +1525,8 @@ to foundation models.
 
 306
 00:18:00,760 --> 00:18:03,840
-I was quite skeptical for a TI
-for for quite a while.
+I was quite skeptical of it
+for quite a while.
 
 307
 00:18:04,120 --> 00:18:07,640
@@ -1730,7 +1730,7 @@ you talk about not needing as as
 
 347
 00:20:25,120 --> 00:20:27,960
-much data or all the OR high
+much data or all the high-
 quality data?
 
 348
@@ -4120,7 +4120,7 @@ there was already a movement now
 
 825
 00:50:54,680 --> 00:51:00,560
-with open source LMS, you know,
+with open-source LLMs, you know,
 going on, whereas I feel now how
 
 826
@@ -4195,23 +4195,23 @@ We used to work in computer
 
 840
 00:51:55,720 --> 00:51:59,560
-graphics basically with movie
-studios and I remember 1 of was
+graphics, basically, with movie
+studios. I remember, during
 
 841
 00:51:59,600 --> 00:52:03,160
 my postdoc, one of the first
-papers at once at Arthur
+papers was at our
 
 842
 00:52:03,160 --> 00:52:06,840
-conference seeker there.
-We basically put up with an open
+conference, SIGGRAPH. There,
+we basically put out some open-
 
 843
 00:52:06,840 --> 00:52:11,840
-source code and company
-DreamWorks at the time actually
+source code, and DreamWorks
+at the time actually
 
 844
 00:52:11,840 --> 00:52:14,240
@@ -4381,7 +4381,7 @@ company needs to customize it,
 877
 00:54:03,880 --> 00:54:06,880
 which I think is the value at
-the moment for open source LMS
+the moment for open-source LLMs
 
 878
 00:54:07,320 --> 00:54:10,720
@@ -5861,7 +5861,7 @@ of years, we were not going to
 1173
 01:12:21,560 --> 01:12:24,240
 be completely replaced by I
-don't think chap DPT is going to
+don't think ChatGPT is going to
 
 1174
 01:12:24,240 --> 01:12:26,840

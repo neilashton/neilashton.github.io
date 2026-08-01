@@ -2440,8 +2440,8 @@ papers which were, you know,
 
 489
 00:31:19,480 --> 00:31:26,600
-just giraglyphs to me,
-giraglyphs started to be clear.
+just hieroglyphs to me,
+hieroglyphs started to be clear.
 
 490
 00:31:26,720 --> 00:31:31,760
@@ -2671,11 +2671,11 @@ we don't know exactly how to do
 535
 00:34:16,800 --> 00:34:20,679
 the meshes because they were
-trying to use, you know, Open
+trying to use, you know,
 
 536
 00:34:20,679 --> 00:34:25,880
-FOAM and we're using, you know,
+OpenFOAM, and we're using, you know,
 snappyHexMesh.
 
 537
@@ -5230,7 +5230,7 @@ So in some cases they have
 
 1047
 01:07:41,520 --> 01:07:43,560
-Navier Stokes plus the magnetic
+Navier–Stokes plus the magnetic
 fields.
 
 1048
@@ -6085,7 +6085,7 @@ In some ways it'll end up
 
 1218
 01:18:59,760 --> 01:19:04,960
-creating a bit of a so A2 tier
+creating a bit of a two-tier
 system where in some ways people
 
 1219

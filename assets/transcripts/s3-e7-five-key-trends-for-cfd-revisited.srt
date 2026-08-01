@@ -119,7 +119,7 @@ So the rise of GPUs in CFD.
 
 25
 00:01:38,360 --> 00:01:42,720
-Can I answer that with an being
+Can I answer that while being
 completely unbiased?
 
 26
@@ -492,8 +492,8 @@ long, you've gone from, let's
 
 100
 00:06:10,560 --> 00:06:16,280
-say a wall resolved RANS like a
-low Y plus RANS where you wanted
+say a wall-resolved RANS, like a
+low-y+ RANS, where you wanted
 
 101
 00:06:16,280 --> 00:06:18,400
@@ -503,7 +503,7 @@ you need a certain gridding
 102
 00:06:18,800 --> 00:06:23,200
 strategy to be able to resolve
-the wall to a wall modelled LES
+the wall to a wall-modelled LES
 
 103
 00:06:23,200 --> 00:06:25,440
@@ -641,7 +641,7 @@ Stuff was coming out around like
 
 130
 00:07:48,720 --> 00:07:51,440
-graph neural Nets and being able
+graph neural networks and being able
 to predict things, but all the
 
 131
@@ -697,7 +697,7 @@ surface of the car or a slice of
 141
 00:08:28,000 --> 00:08:30,440
 the car.
-What I found was breakthrough in
+What I found was a breakthrough in
 
 142
 00:08:30,440 --> 00:08:34,600
@@ -1372,11 +1372,11 @@ a CFD and external aero point of
 277
 00:16:34,880 --> 00:16:38,760
 view, but one of the challenges
-still with even going to wall
+still with even going to
 
 278
 00:16:38,760 --> 00:16:41,120
--modelled LES to hybrid is
+wall-modelled LES to hybrid is
 transition modelling.
 
 279

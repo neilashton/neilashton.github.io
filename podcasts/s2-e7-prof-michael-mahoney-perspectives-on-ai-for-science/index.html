@@ -58,7 +58,7 @@
         "name": "Prof. Michael Mahoney — Perspectives on AI for Science",
         "url": "https://neilashton.co.uk/podcasts/s2-e7-prof-michael-mahoney-perspectives-on-ai-for-science/",
         "description": "Michael Mahoney examines what machine learning must get right for science, from data and licensing to foundation models and commercial viability.",
-        "datePublished": "2024-12-26T00:00:00-08:00",
+        "datePublished": "2024-12-26T08:00:00+00:00",
         "duration": "PT1H16M44S",
         "episodeNumber": 7,
         "image": "https://neilashton.co.uk/assets/img/podcast/episodes/s2-e7.webp",
@@ -99,7 +99,7 @@
           "thumbnailUrl": [
             "https://i.ytimg.com/vi/lk4lvKQsqWU/maxresdefault.jpg"
           ],
-          "uploadDate": "2024-12-26T00:00:00-08:00",
+          "uploadDate": "2024-12-26T08:00:00+00:00",
           "duration": "PT1H16M44S",
           "embedUrl": "https://www.youtube.com/embed/lk4lvKQsqWU",
           "url": "https://www.youtube.com/watch?v=lk4lvKQsqWU",
@@ -114,11 +114,6 @@
             "@type": "PodcastEpisode",
             "name": "Prof. Michael Mahoney — Perspectives on AI for Science",
             "url": "https://neilashton.co.uk/podcasts/s2-e7-prof-michael-mahoney-perspectives-on-ai-for-science/"
-          },
-          "potentialAction": {
-            "@type": "SeekToAction",
-            "target": "https://www.youtube.com/watch?v=lk4lvKQsqWU&t={seek_to_second_number}s",
-            "startOffset-input": "required name=seek_to_second_number"
           }
         }
       </script>
@@ -135,7 +130,7 @@
   media="none"
   id="highlight-theme-dark"
 >
-<link rel="stylesheet" href="/assets/css/main.css?4866a3a965efc959c05f870d94ff1391">
+<link rel="stylesheet" href="/assets/css/main.css?1ea76f4e6e49ad4cb2052818c6d53f50">
 
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 
@@ -181,6 +176,8 @@
             >
           </li>
           
+          
+            
           
             
           
@@ -296,7 +293,7 @@
       <p class="episode-meta">
         <span>Season 2, episode 7</span>
         <span aria-hidden="true">·</span>
-        <time datetime="2024-12-26T00:00:00-08:00">26 December 2024</time>
+        <time datetime="2024-12-26T08:00:00+00:00">26 December 2024</time>
         <span aria-hidden="true">·</span>
         <span>01:16:44</span>
       </p>
@@ -559,123 +556,123 @@
 </p>
 <p>
   <span class="transcript-timestamp">10:00</span>
-  <span>data and you want to solve the least squares of the low-rank problem. And you could solve it exactly machine precision or whatever. But you might want to on the other hand, get what they call a sketch of the of the data, which is roughly a small number of data points. It could be a small number of actual data points, or it could be what they call a random projection. And if you&#39;re familiar with like if you feel signal processing and electrical engineering and, and physics, think of this as like a randomized version of a, of a Fourier transform. So it takes some signal that that might be localized in space and, and spreads it out everywhere.</span>
+  <span>data and you want to solve the least squares of the low-rank problem. And you could solve it exactly machine precision or whatever. But you might want to on the other hand, get what they call a sketch of the of the data, which is roughly a small number of data points. It could be a small number of actual data points, or it could be what they call a random projection. And if you&#39;re familiar with like if you&#39;re familiar with signal processing and electrical engineering and, and physics, think of this as like a randomized version of a, of a Fourier transform. So it takes some signal that that might be localized in space</span>
 </p>
 <p>
-  <span class="transcript-timestamp">10:36</span>
-  <span>But you don&#39;t need this to be a physical space. This is just a linear algebraic problem. And so you have, you know, you have columns and rows, so you could select the important columns or rows, or you could do this random projection, which is essentially a, a basically a random type rotation that spreads the information out and then sample uniformly in that rotated space. And so you take this sketch and you can do one of a couple things that so some communities, the more theoretically inclined communities want to take that sketch and solve the subproblem exactly. And there&#39;s a range of theoretical work that says the solution to the exact, the exact</span>
+  <span class="transcript-timestamp">10:34</span>
+  <span>and, and spreads it out everywhere. But you don&#39;t need this to be a physical space. This is just a linear algebraic problem. And so you have, you know, you have columns and rows, so you could select the important columns or rows, or you could do this random projection, which is essentially a, a basically a random type rotation that spreads the information out and then sample uniformly in that rotated space. And so you take this sketch and you can do one of a couple things that so some communities, the more theoretically inclined communities want to take that sketch and solve the subproblem exactly. And there&#39;s a range of</span>
 </p>
 <p>
-  <span class="transcript-timestamp">11:10</span>
-  <span>solution to that subproblem computed any which way. A traditional solver or something else is epsilon-close to the exact solution to the original problem if you set things up right. Now, in a lot of cases that is sort of coarse because you can&#39;t. It&#39;s hard to get machine precision just by drawing a sample and solving the sub problem unless you take a huge number of samples, just because Monte Carlo methods tend to converge slowly as a function of the error parameter. So you could take that, you know, low quality, low precision, but not trivially bad solution and ask yourself what is a preconditioner? And by preconditioner I just</span>
+  <span class="transcript-timestamp">11:07</span>
+  <span>theoretical work that says the solution to the exact, the exact solution to that subproblem computed any which way. A traditional solver or something else is epsilon-close to the exact solution to the original problem if you set things up right. Now, in a lot of cases that is sort of coarse because you can&#39;t. It&#39;s hard to get machine precision just by drawing a sample and solving the sub problem unless you take a huge number of samples, just because Monte Carlo methods tend to converge slowly as a function of the error parameter. So you could take that, you know, low quality, low precision, but not trivially bad solution and ask yourself what</span>
 </p>
 <p>
-  <span class="transcript-timestamp">11:46</span>
-  <span>mean a preconditioner for a PDE solver or or least squares or a linear solver. And a preconditioner is basically a low quality solution that you refine. So you can actually take this preconditioner that the that this is a sketch. The theoretically inclined people just say good, done; I&#39;m epsilon-good. And you can say, now I&#39;m going to take that epsilon-good where epsilon is 0.1 and just use any of a range of traditional iterative solvers and drive that epsilon down to 10⁻⁸ or 10⁻¹⁶. And, and just like most preconditioners, if, if the cost to construct it is less than the cost to, you know, the cost to construct it plus iterate is</span>
+  <span class="transcript-timestamp">11:44</span>
+  <span>is a preconditioner? And by preconditioner I just mean a preconditioner for a PDE solver or or least squares or a linear solver. And a preconditioner is basically a low quality solution that you refine. So you can actually take this preconditioner that the that this is a sketch. The theoretically inclined people just say good, done; I&#39;m epsilon-good. And you can say, now I&#39;m going to take that epsilon-good where epsilon is 0.1 and just use any of a range of traditional iterative solvers and drive that epsilon down to 10⁻⁸ or 10⁻¹⁶. And, and just like most preconditioners, if, if the cost to construct it is less than the</span>
 </p>
 <p>
-  <span class="transcript-timestamp">12:23</span>
-  <span>less than you know, the, the algorithm you&#39;re competing with, you win. And it&#39;s a good preconditioner. So there&#39;s a range of ways people solve it that way. So those are called sketch-and- solve and sketch-and- precondition, respectively. Increasingly for machine learning applications that want medium precision, also relevant for scientific computing when you&#39;re interested in low precision data representations, you know, going to half- or quarter precision, which is, is increasingly seen in hardware. There&#39;s a more subtle interplay where you can get the solution and then you can iterate it and get a second sketch and toggle</span>
+  <span class="transcript-timestamp">12:20</span>
+  <span>cost to, you know, the cost to construct it plus iterate is less than you know, the, the algorithm you&#39;re competing with, you win. And it&#39;s a good preconditioner. So there&#39;s a range of ways people solve it that way. So those are called sketch-and- solve and sketch-and- precondition, respectively. Increasingly for machine learning applications that want medium precision, also relevant for scientific computing when you&#39;re interested in low precision data representations, you know, going to half- or quarter precision, which is, is increasingly seen in hardware. There&#39;s a more subtle interplay where you can get the solution</span>
 </p>
 <p>
-  <span class="transcript-timestamp">12:56</span>
-  <span>back and forth. And if you set the parameters differently, you can get intermediate solutions 10 to the 10⁻², 10⁻⁴ and 10⁻⁶ quality. So there&#39;s a range of ways you can use the sketches, but roughly the idea is you get most of the information in the sketch and and solve it or do something with it. And is there any, you know, orders of magnitude of the savings that you could get? You know, if I&#39;m doing a Navier– Stokes solver or solving some neural net using these randomized, you know, numerical linear algebra versus BLAS rolling back, Are we talking, you know, a 10% saving? Is it an order of magnitude or is it still under research?</span>
+  <span class="transcript-timestamp">12:54</span>
+  <span>and then you can iterate it and get a second sketch and toggle back and forth. And if you set the parameters differently, you can get intermediate solutions 10 to the 10⁻², 10⁻⁴ and 10⁻⁶ quality. So there&#39;s a range of ways you can use the sketches, but roughly the idea is you get most of the information in the sketch and and solve it or do something with it. And is there any, you know, orders of magnitude of the savings that you could get? You know, if I&#39;m doing a Navier– Stokes solver or solving some neural net using these randomized, you know, numerical linear algebra versus BLAS or LINPACK, are we talking, you know, a 10% saving?</span>
 </p>
 <p>
-  <span class="transcript-timestamp">13:38</span>
-  <span>And so it&#39;s not delivering the full yet. Yeah. I mean, I think the question of of how well you&#39;d improve upon something depends strongly on what your baseline is. And if you feed this into a big PDE solver, there&#39;s a lot of moving parts and you&#39;re competing with very mature code and they&#39;re doing a little bit better or even a lot better on a solver may or may not matter for the downstream use case that that the scientist that is looking at the PDE solver is interested in. Or go to the other extreme. And you want to say, I want to compete with BLAS or LAPACK. These are extremely optimized pieces of code and it&#39;s, you</span>
+  <span class="transcript-timestamp">13:33</span>
+  <span>Is it an order of magnitude or is it still under research? And so it&#39;s not delivering the full yet. Yeah. I mean, I think the question of of how well you&#39;d improve upon something depends strongly on what your baseline is. And if you feed this into a big PDE solver, there&#39;s a lot of moving parts and you&#39;re competing with very mature code and they&#39;re doing a little bit better or even a lot better on a solver may or may not matter for the downstream use case that that the scientist that is looking at the PDE solver is interested in. Or go to the other extreme. And you want to say, I want to compete with BLAS or LAPACK.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">14:14</span>
-  <span>know, it&#39;s hard to beat them. So one of the big successes in the area was with Blendenpik. And then soon after that was LSRN and Blendenpik, which said we wanted to ask whether these randomized sketches, you know, not in theory, not Big O notation, not whatever can they beat LAPACK Because this is not boutique code you have or I have or a solver that you don&#39;t share with the community. So well, this is something that&#39;s been stress-tested for decades. And the answer is yes. I mean, basically on any tall dense matrix, you can beat LA pack with these techniques. You got to set parameters right and be a little bit careful. But, but the short answer is</span>
+  <span class="transcript-timestamp">14:10</span>
+  <span>These are extremely optimized pieces of code and it&#39;s, you know, it&#39;s hard to beat them. So one of the big successes in the area was with Blendenpik. And then soon after that was LSRN and Blendenpik, which said we wanted to ask whether these randomized sketches, you know, not in theory, not Big O notation, not whatever can they beat LAPACK Because this is not boutique code you have or I have or a solver that you don&#39;t share with the community. So well, this is something that&#39;s been stress-tested for decades. And the answer is yes. I mean, basically on any tall dense matrix, you can beat LAPACK with these techniques. You got to set parameters right</span>
 </p>
 <p>
-  <span class="transcript-timestamp">14:49</span>
-  <span>yes, how much you improve it by depends on the aspect ratio and depends on properties of of the matrix. But think of it as ballpark 2 to 10. Now this was back in 2010 and so a lot&#39;s changed since then, in particular in the hardware landscape with respect to GPUs and hardware heterogeneity and the sunsetting of Moore&#39;s law and Dennard scaling and these sorts of things. And so it is the case that you know, you can be a factor of 10 better. Similarly in in in low rank type approximations. I think the the the way scientists versus machine learners use low rank approximations is very different. Scientists tend to say low rank means you know 99% of the</span>
+  <span class="transcript-timestamp">14:47</span>
+  <span>and be a little bit careful. But, but the short answer is yes, how much you improve it by depends on the aspect ratio and depends on properties of of the matrix. But think of it as ballpark 2 to 10. Now this was back in 2010 and so a lot&#39;s changed since then, in particular in the hardware landscape with respect to GPUs and hardware heterogeneity and the sunsetting of Moore&#39;s law and Dennard scaling and these sorts of things. And so it is the case that you know, you can be a factor of 10 better. Similarly in in in low rank type approximations. I think the the the way scientists versus machine learners use low rank</span>
 </p>
 <p>
-  <span class="transcript-timestamp">15:31</span>
-  <span>Frobenius norm, meaning 99.9% of the Frobenius norm and 99.99 I mean basically the whole matrix. When machine learners say low rank, they mean sorry, sorry, the spectral norm. When machine learners say low rank, they mean, you know, 50% of the Frobenius norm, in which case, you know, you lose a lot of information, but you might iterate and and do something better. So think of sort of scaling laws and the neural scaling context with, with neural networks. And so the way you&#39;d use those low rank algorithms and feed them into other solvers would be very different. And then that would lead to very different levels of improvement.</span>
+  <span class="transcript-timestamp">15:24</span>
+  <span>approximations is very different. Scientists tend to say low rank means you know 99% of the Frobenius norm, meaning 99.9% of the Frobenius norm and 99.99 I mean basically the whole matrix. When machine learners say low rank, they mean sorry, sorry, the spectral norm. When machine learners say low rank, they mean, you know, 50% of the Frobenius norm, in which case, you know, you lose a lot of information, but you might iterate and and do something better. So think of sort of scaling laws and the neural scaling context with, with neural networks. And so the way you&#39;d use those low rank algorithms and feed them into other solvers would be very different.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">16:05</span>
-  <span>And so I think that&#39;s largely open. And then with the memory wall that you&#39;re increasingly seeing in, in general, but most egregiously in the machine learning applications, one of the big wins and it&#39;s just starting to be explored for the randomized techniques is basically improving the memory properties. And so this could be just reordering algorithms in the sense of communication, avoiding linear algebra could be much broader because the randomness sort of decouples things, makes it easier to parallelise certain sorts of computations. And so you see much bigger than factors of 2 or 10 improvement there. But then again the baseline&#39;s</span>
+  <span class="transcript-timestamp">16:03</span>
+  <span>And then that would lead to very different levels of improvement. And so I think that&#39;s largely open. And then with the memory wall that you&#39;re increasingly seeing in, in general, but most egregiously in the machine learning applications, one of the big wins and it&#39;s just starting to be explored for the randomized techniques is basically improving the memory properties. And so this could be just reordering algorithms in the sense of communication-avoiding linear algebra could be much broader because the randomness sort of decouples things, makes it easier to parallelise certain sorts of computations. And so you see much bigger than factors of 2 or 10 improvement</span>
 </p>
 <p>
-  <span class="transcript-timestamp">16:38</span>
-  <span>changing year to year as as as people explore different representations and and low precision and intermediate precision and stuff. Interesting, so how was it mentioned in Netflix then going back to the former? Well, the particular I, I think so, I&#39;m not a movie star or a movie producer, but I, I have a sense that they, they want to, I, I mentioned this to someone and they said, you know what that means? They tried to take the most exotic thing that wouldn&#39;t make sense to anyone and, and, and, and cited it. So the context was I, I think it was early on and the, the, the main character, who was this, the attorney needed to represent someone and the person had to</span>
+  <span class="transcript-timestamp">16:36</span>
+  <span>there. But then again the baseline&#39;s changing year to year as as as people explore different representations and and low precision and intermediate precision and stuff. Interesting, so how was it mentioned in Netflix then going back to the former? Well, the particular I, I think so, I&#39;m not a movie star or a movie producer, but I, I have a sense that they, they want to, I, I mentioned this to someone and they said, you know what that means? They tried to take the most exotic thing that wouldn&#39;t make sense to anyone and, and, and, and cited it. So the context was I, I think it was early on and the, the, the main character, who was this,</span>
 </p>
 <p>
-  <span class="transcript-timestamp">17:16</span>
-  <span>get out of, of, of whatever they were charged with, which was not a, a, you know, relatively minor thing, but it was the 10th time they did it. And so they, the, the, the Lincoln lawyer said, why do you need to get out? And they said, I have a defense on Thursday. I need to get out. And they asked what&#39;s the, what&#39;s the topic? And they said randomization and numerical linear algebra. So that was the context of how it was mentioned there. I wonder how they found that out. I wouldn&#39;t know how they actually. Yeah, I don&#39;t know. They they, they, they didn&#39;t call me up. So they must have had someone in movie producer land or something</span>
+  <span class="transcript-timestamp">17:12</span>
+  <span>the attorney needed to represent someone and the person had to get out of, of, of whatever they were charged with, which was not a, a, you know, relatively minor thing, but it was the 10th time they did it. And so they, the, the, the Lincoln lawyer said, why do you need to get out? And they said, I have a defense on Thursday. I need to get out. And they asked what&#39;s the, what&#39;s the topic? And they said randomization and numerical linear algebra. So that was the context of how it was mentioned there. I wonder how they found that out. I wouldn&#39;t know how they actually. Yeah, I don&#39;t know. They they, they, they didn&#39;t call me up.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">17:48</span>
-  <span>that did did a Google search on on something exotic and came across it. That&#39;s fine. Yeah. That reminds me of the Did you ever like Star Trek? Yeah, I used to see if there&#39;s a bifurcation which maybe would get us in into a separate discussion whether you like the original version or the the second version. But then there was this explosion of different, different versions of it. Yeah, I was more the next generation person, but I the reason I mention it is it was often whenever they wanted to explain how they were breaking the laws of physics, some stupidly complicated phrase was used. And I&#39;m sure it exists somewhere and it just reminds me of that,</span>
+  <span class="transcript-timestamp">17:45</span>
+  <span>So they must have had someone in movie producer land or something that did did a Google search on on something exotic and came across it. That&#39;s fine. Yeah. That reminds me of the Did you ever like Star Trek? Yeah, I used to see if there&#39;s a bifurcation which maybe would get us in into a separate discussion whether you like the original version or the the second version. But then there was this explosion of different, different versions of it. Yeah, I was more the next generation person, but I the reason I mention it is it was often whenever they wanted to explain how they were breaking the laws of physics, some stupidly complicated phrase was used.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">18:31</span>
-  <span>you know, explanation of how they&#39;re exceeding the warp drive. Oh, it&#39;s because the something something. Yeah. So I think it was a little bit like that. I mean, I, I think it&#39;s a sign of the times that what they&#39;re citing is not warp drive and quantum gravity, but randomized numerical linear algebra. This is a core statement about how areas are progressing and so on. Exactly. Exactly. Yeah, yeah. So maybe one of the topics would be good to chat with you about, and it&#39;s definitely a hot topic at the moment, is the the foundational models for science. I&#39;ve seen quite different viewpoints. There&#39;s one argument that is, well, large language models take</span>
+  <span class="transcript-timestamp">18:26</span>
+  <span>And I&#39;m sure it exists somewhere and it just reminds me of that, you know, explanation of how they&#39;re exceeding the warp drive. Oh, it&#39;s because the something something. Yeah. So I think it was a little bit like that. I mean, I, I think it&#39;s a sign of the times that what they&#39;re citing is not warp drive and quantum gravity, but randomized numerical linear algebra. This is a core statement about how areas are progressing and so on. Exactly. Exactly. Yeah, yeah. So maybe one of the topics would be good to chat with you about, and it&#39;s definitely a hot topic at the moment, is the the foundational models for science.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">19:16</span>
-  <span>all this data from the Internet. They train and they&#39;re remarkably good at doing what they do. What about if we could do it for scientific disciplines? Wouldn&#39;t we be able to just, you know, ask a prompt to go and simulate me a plane or, or, or do something? And then there&#39;s the the other avenue, which seems to be more the replacing simulation tools or augmenting simulation tools like GraphCast or FourCastNet or, you know, these sort of seminal pieces of work that have come out, but they were for very, they had to be trained, you know, for something. Where do you see this? Where do you see this going? Are foundational models possible?</span>
+  <span class="transcript-timestamp">19:07</span>
+  <span>I&#39;ve seen quite different viewpoints. There&#39;s one argument that is, well, large language models take all this data from the Internet. They train and they&#39;re remarkably good at doing what they do. What about if we could do it for scientific disciplines? Wouldn&#39;t we be able to just, you know, ask a prompt to go and simulate me a plane or, or, or do something? And then there&#39;s the the other avenue, which seems to be more the replacing simulation tools or augmenting simulation tools like GraphCast or FourCastNet or, you know, these sort of seminal pieces of work that have come out, but they were for very, they had to be trained, you know, for something.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">20:05</span>
-  <span>Is it we just don&#39;t have enough data? This is a big topic. So yeah, I&#39;m not sure how we want to start it. I mean, we&#39;re in the middle of this fray and I guess that&#39;s why we were asking about this. And I should start off with saying I don&#39;t know what a foundation model is. Actually. I know what different people say a foundation model is and, and it means very different things to to different communities. And so I think articulating that a little bit helps articulate some of the possible directions and some of the questions you&#39;re asking. I mean, I think one way to think about a lot of these machine learning methods and it&#39;s</span>
+  <span class="transcript-timestamp">19:56</span>
+  <span>Where do you see this? Where do you see this going? Are foundational models possible? Is it we just don&#39;t have enough data? This is a big topic. So yeah, I&#39;m not sure how we want to start it. I mean, we&#39;re in the middle of this fray and I guess that&#39;s why we were asking about this. And I should start off with saying I don&#39;t know what a foundation model is. Actually. I know what different people say a foundation model is and, and it means very different things to to different communities. And so I think articulating that a little bit helps articulate some of the possible directions and some of the questions you&#39;re</span>
 </p>
 <p>
-  <span class="transcript-timestamp">20:45</span>
-  <span>highlighted particularly cleanly with these foundation models is machine learning methods. And in particular, these foundation models are, they&#39;re an infrastructure, right? The, the, the, the Stanford report said, call it foundation models, not foundational models, because it&#39;s a foundation in which you build things and as and as opposed to a half dozen other terms they could have used. Now, whether that&#39;s right or not, I mean, but that, that&#39;s what they said. And so since then people have said, well, it has to be this big and that big and, and whatever. And, and then people want to get a foundation model, not for all of science, but for areas A, B and C</span>
+  <span class="transcript-timestamp">20:38</span>
+  <span>asking. I mean, I think one way to think about a lot of these machine learning methods and it&#39;s highlighted particularly cleanly with these foundation models is machine learning methods. And in particular, these foundation models are, they&#39;re an infrastructure, right? The, the, the, the Stanford report said, call it foundation models, not foundational models, because it&#39;s a foundation in which you build things and as and as opposed to a half dozen other terms they could have used. Now, whether that&#39;s right or not, I mean, but that, that&#39;s what they said. And so since then people have said, well, it has to be this big and that big and, and</span>
 </p>
 <p>
-  <span class="transcript-timestamp">21:21</span>
-  <span>and subareas D, E and F and get finer and finer granularity. So in a sense it&#39;s, it&#39;s a it&#39;s a term. And, and if you ask people, most people using it what it means, they sort of will acknowledge that, that they don&#39;t know. And it&#39;s not a standard definition. I think probably the best way to think about it is it&#39;s, it&#39;s, it&#39;s infrastructure, it&#39;s a foundation on which you build things. And so the computer&#39;s infrastructure, I mean, you can do different things with the computer than you can do with pencil and paper. And so it wasn&#39;t obvious the way computer science, even before it existed, would evolve. And at one point, post World War</span>
+  <span class="transcript-timestamp">21:13</span>
+  <span>whatever. And, and then people want to get a foundation model, not for all of science, but for areas A, B and C and subareas D, E and F and get finer and finer granularity. So in a sense it&#39;s, it&#39;s a it&#39;s a term. And, and if you ask people, most people using it what it means, they sort of will acknowledge that, that they don&#39;t know. And it&#39;s not a standard definition. I think probably the best way to think about it is it&#39;s, it&#39;s, it&#39;s infrastructure, it&#39;s a foundation on which you build things. And so the computer&#39;s infrastructure, I mean, you can do different things with the computer than you can do with pencil and paper.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">21:53</span>
-  <span>2, the US thought they&#39;d need five computers and that would be it. And then it would solve all the nation&#39;s needs, right? So it evolved in ways different than expected. And it evolved in particular because it, it could complement what people did. I mean, you could ask different scientific questions than you could with pencil and paper and you could ask different engineering questions than you could. I mean, now you can simulate whole things and, and the very, very last step is building it, right. But in addition, you could do lots of other things that were driven by industry. And, and so there&#39;s a bifurcation in the area whether</span>
+  <span class="transcript-timestamp">21:46</span>
+  <span>And so it wasn&#39;t obvious the way computer science, even before it existed, would evolve. And at one point, post World War 2, the US thought they&#39;d need five computers and that would be it. And then it would solve all the nation&#39;s needs, right? So it evolved in ways different than expected. And it evolved in particular because it, it could complement what people did. I mean, you could ask different scientific questions than you could with pencil and paper and you could ask different engineering questions than you could. I mean, now you can simulate whole things and, and the very, very last step is building it, right. But in addition, you could do</span>
 </p>
 <p>
-  <span class="transcript-timestamp">22:21</span>
-  <span>you&#39;re doing more numerical things that are continuous or whether you&#39;re doing discrete things that, that, that are not continuous that were driven largely by business needs. So I think the, the right way to think about this is it&#39;s that sort of infrastructure and it&#39;s tied to the data more closely than than, you know, database systems because the foundation models have information cooked into them. And so it wasn&#39;t obvious some number of years ago that just with language you, you could do what you know, has caught the popular attention in the last couple of years. So I think so to anyone who says that confidently, you, you can</span>
+  <span class="transcript-timestamp">22:17</span>
+  <span>lots of other things that were driven by industry. And, and so there&#39;s a bifurcation in the area whether you&#39;re doing more numerical things that are continuous or whether you&#39;re doing discrete things that, that, that are not continuous that were driven largely by business needs. So I think the, the right way to think about this is it&#39;s that sort of infrastructure and it&#39;s tied to the data more closely than than, you know, database systems because the foundation models have information cooked into them. And so it wasn&#39;t obvious some number of years ago that just with language you, you could do what you know, has caught the</span>
 </p>
 <p>
-  <span class="transcript-timestamp">22:53</span>
-  <span>or you can&#39;t with science, I mean, probably you can&#39;t say that they&#39;re sort of reliably saying what what will hold for the future &#39;cause I think it&#39;s not at all. I think it&#39;s not at all clear for two reasons. One, there&#39;s certain technical things that really do matter. I mean that that are different about scientific data than, you know, language and, and vision data. And then there&#39;s just very different cultural, there&#39;s very different cultural things. I think every scientist thinks that their data is special and unique just like they think that they&#39;re special and unique. If ML&#39;s taught you anything. These algorithms can predict what movie you&#39;ll watch and what</span>
+  <span class="transcript-timestamp">22:47</span>
+  <span>popular attention in the last couple of years. So I think so to anyone who says that confidently, you, you can or you can&#39;t with science, I mean, probably you can&#39;t say that they&#39;re sort of reliably saying what what will hold for the future &#39;cause I think it&#39;s not at all. I think it&#39;s not at all clear for two reasons. One, there&#39;s certain technical things that really do matter. I mean that that are different about scientific data than, you know, language and, and vision data. And then there&#39;s just very different cultural, there&#39;s very different cultural things. I think every scientist thinks that their data is special and unique just like they think that</span>
 </p>
 <p>
-  <span class="transcript-timestamp">23:26</span>
-  <span>stuff you&#39;ll buy better than you can. And so you&#39;re maybe slightly less unique, you know, than than you thought in some sense. And so I think there&#39;s a question, you know, what does foundation model mean and how can it be used so narrowly? You know, I have a big model I can train it in in domain A domain A could be weather and climate have gotten attention, but it could be fluid dynamics. It could be something else about stellar formation. It could be properties of materials and doing density functional theory and so on. And then there&#39;s a question about whether you could maybe learn broad based models that cut across domains, which would of course be the more</span>
+  <span class="transcript-timestamp">23:21</span>
+  <span>they&#39;re special and unique. If ML&#39;s taught you anything. These algorithms can predict what movie you&#39;ll watch and what stuff you&#39;ll buy better than you can. And so you&#39;re maybe slightly less unique, you know, than than you thought in some sense. And so I think there&#39;s a question, you know, what does foundation model mean and how can it be used so narrowly? You know, I have a big model I can train it in in domain A domain A could be weather and climate have gotten attention, but it could be fluid dynamics. It could be something else about stellar formation. It could be properties of materials and doing density functional theory and so on. And then there&#39;s a question</span>
 </p>
 <p>
-  <span class="transcript-timestamp">23:59</span>
-  <span>interesting thing. So there&#39;s something, Chronos said, I was involved with the AWS people that sort of says, I, I don&#39;t want to be the best at at the most extreme things. I don&#39;t want to be the 1% that&#39;s predicting the most extreme things I want to be. I want to do as well as as the majority of users for for time series analysis and oversimplify the story. I mean, time series is a complicated area clearly of interest in a lot of cases, but it&#39;s it&#39;s a little bit, you know, you got to be careful about off-by-one errors and a range of other technical things. And what that says basically is take a language model, language</span>
+  <span class="transcript-timestamp">23:54</span>
+  <span>about whether you could maybe learn broad based models that cut across domains, which would of course be the more interesting thing. So there&#39;s something, Chronos said, I was involved with the AWS people that sort of says, I, I don&#39;t want to be the best at at the most extreme things. I don&#39;t want to be the 1% that&#39;s predicting the most extreme things I want to be. I want to do as well as as the majority of users for for time series analysis and oversimplify the story. I mean, time series is a complicated area clearly of interest in a lot of cases, but it&#39;s it&#39;s a little bit, you know, you got to be careful about off-by-one errors and a range of other technical things.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">24:33</span>
-  <span>model structure with a bunch of time series and just mean-centre it and variance-normalise it. So just do the simplest possible things you could and you got to do some data augmentation stuff and boom, you know, you do sort of comparably and, and better than a a wide range of public benchmarks. Now, the public benchmarks are not extraordinarily high because a lot of time series data is valuable and so companies tend not to release it. But but the fact that you can do that just by sort of variance- normalising and and mean- centring is is, you know, not obvious and sort of interesting. It turns out sort of on a separate thread that you could</span>
+  <span class="transcript-timestamp">24:29</span>
+  <span>And what that says basically is take a language model, language model structure with a bunch of time series and just mean-centre it and variance-normalise it. So just do the simplest possible things you could and you got to do some data augmentation stuff and boom, you know, you do sort of comparably and, and better than a a wide range of public benchmarks. Now, the public benchmarks are not extraordinarily high because a lot of time series data is valuable and so companies tend not to release it. But but the fact that you can do that just by sort of variance- normalising and and mean- centring is is, you know, not obvious and sort of interesting.</span>
 </p>
 <p>
-  <span class="transcript-timestamp">25:10</span>
-  <span>say, could I do well compared to the 1%, you know, the most extreme things and, and the the answers that you can there too. You got to use different techniques than you do there. And so that leads to questions as to whether you could have a foundation model for sort of a broad swath of, of time series and forecasting analysis. And so, as you know, I said, I&#39;m an Amazon Scholar working with the Scott team and we&#39;re looking at that there. And one of the interesting things I think about there, if you look at the details of the model, not the Chronos, but some other things, why would you expect that articles scraped from Wikipedia, you know, public,</span>
+  <span class="transcript-timestamp">25:05</span>
+  <span>It turns out sort of on a separate thread that you could say, could I do well compared to the 1%, you know, the most extreme things and, and the the answers that you can there too. You got to use different techniques than you do there. And so that leads to questions as to whether you could have a foundation model for sort of a broad swath of, of time series and forecasting analysis. And so, as you know, I said, I&#39;m an Amazon Scholar working with the Scott team and we&#39;re looking at that there. And one of the interesting things I think about there, if you look at the details of the model, not the Chronos, but some other things, why would you</span>
 </p>
 <p>
-  <span class="transcript-timestamp">25:47</span>
-  <span>publicly available language models? What would, why would that allow you to do better job predicting dog food demand? You know, I mean, it&#39;s not obvious they have anything to do with anything. You know, it turns out, I suspect the hypothesis is that the text, the linguistic structure that you&#39;re learning from the Wikipedia articles is strongly related to sequence to sequence modeling, which, you know, if you think of 1 dimension as a metric space, it&#39;s a very, very special metric space, a very specially structured metric space. And so you can learn not just recent information and not just low frequency information over the past, but maybe in</span>
+  <span class="transcript-timestamp">25:42</span>
+  <span>expect that articles scraped from Wikipedia, you know, public, publicly available language models? What would, why would that allow you to do better job predicting dog food demand? You know, I mean, it&#39;s not obvious they have anything to do with anything. You know, it turns out, I suspect the hypothesis is that the text, the linguistic structure that you&#39;re learning from the Wikipedia articles is strongly related to sequence to sequence modeling, which, you know, if you think of 1 dimension as a metric space, it&#39;s a very, very special metric space, a very specially structured metric space. And so you can learn not just recent information and not just</span>
 </p>
 <p>
-  <span class="transcript-timestamp">26:23</span>
-  <span>information at different scales. Because, you know, sometimes articles in text refer back 10 words or 100 words or 1000 words or 10,000 words. So you can learn these sort of heavy-tailed sort of structures and that gives you a better set of basis functions to learn dog food demand or whatever else. So in a sense, these, the language models give you better embeddings, you know, Fourier analysis and Laplace transforms and, and these sort of things are great for pencil and paper. They&#39;re all developed in the 1800s, right? These are data-driven embeddings that are good if you have computers and and data not necessary for pencil and paper,</span>
+  <span class="transcript-timestamp">26:19</span>
+  <span>low frequency information over the past, but maybe in information at different scales. Because, you know, sometimes articles in text refer back 10 words or 100 words or 1000 words or 10,000 words. So you can learn these sort of heavy-tailed sort of structures and that gives you a better set of basis functions to learn dog food demand or whatever else. So in a sense, these, the language models give you better embeddings, you know, Fourier analysis and Laplace transforms and, and these sort of things are great for pencil and paper. They&#39;re all developed in the 1800s, right? These are data-driven embeddings that are good if you have</span>
 </p>
 <p>
-  <span class="transcript-timestamp">26:57</span>
-  <span>but they&#39;re good for that. And so that leads you to the question about if, if I&#39;m really careful about doing foundation model work in science, what do I need to worry about? It&#39;s not the details of this PDE or that PDE. It might be that I want to reproduce what happens in the natural language processing (NLP) models, which is roughly scale model and data and compute. So none of them saturate. That&#39;s very different than the usual strong scaling and weak scaling and high performance computing. I want to change the amount of data I&#39;m putting in. I want to change the size of the model. I want to change the size as it</span>
+  <span class="transcript-timestamp">26:54</span>
+  <span>computers and and data not necessary for pencil and paper, but they&#39;re good for that. And so that leads you to the question about if, if I&#39;m really careful about doing foundation model work in science, what do I need to worry about? It&#39;s not the details of this PDE or that PDE. It might be that I want to reproduce what happens in the natural language processing (NLP) models, which is roughly scale model and data and compute. So none of them saturate. That&#39;s very different than the usual strong scaling and weak scaling and high performance computing. I want to change the amount of data I&#39;m putting in. I want to change the size of the</span>
 </p>
 <p>
-  <span class="transcript-timestamp">27:30</span>
-  <span>computes. So none of them saturate and, and the conjecture would be that if if any of them saturate, it&#39;s going to be harder to do transfer learning. So you really need the non saturation and you do that one way with NLP (natural language processing) and CV (computer vision). But in NLP and CV, there&#39;s much weaker control you have and that you need on the spatiotemporal geometry than PDEs, right? Is, is, you know, PDEs, if you&#39;re below a nice a Mach transition or some other physical transition, things are sort of smooth. If you&#39;re above it, things are very messy. Dealing with that transition is hard and people spend their</span>
+  <span class="transcript-timestamp">27:28</span>
+  <span>model. I want to change the size as it computes. So none of them saturate and, and the conjecture would be that if if any of them saturate, it&#39;s going to be harder to do transfer learning. So you really need the non saturation and you do that one way with NLP (natural language processing) and CV (computer vision). But in NLP and CV, there&#39;s much weaker control you have and that you need on the spatiotemporal geometry than PDEs, right? Is, is, you know, PDEs, if you&#39;re below a Mach transition or some other physical transition, things are sort of smooth. If you&#39;re above it, things are very messy. Dealing with that transition is hard and people spend their</span>
 </p>
 <p>
   <span class="transcript-timestamp">28:04</span>
@@ -683,7 +680,7 @@
 </p>
 <p>
   <span class="transcript-timestamp">28:38</span>
-  <span>science had to work out a range of numerical methods to really match and beat state-of-the-art, you&#39;re going to have to do a similar thing here. And so partly depends on these technical issues, but partly depends on cultural issues. But how much do you think? I mean you raised the what percent versus the 50%? I guess that is one argument as well, which is how close does it need to be to machine precision to be useful. You could argue that any of these large language models, the way that most people use them, there is still a correction you need to add. You don&#39;t typically ask it to write a document and literally take it word for word. You usually go in and go.</span>
+  <span>science had to work out a range of numerical methods to really match and beat state-of-the-art, you&#39;re going to have to do a similar thing here. And so partly depends on these technical issues, but partly depends on cultural issues. But how much do you think? I mean you raised the 1% versus the 50%? I guess that is one argument as well, which is how close does it need to be to machine precision to be useful. You could argue that any of these large language models, the way that most people use them, there is still a correction you need to add. You don&#39;t typically ask it to write a document and literally take it word for word. You usually go in and go.</span>
 </p>
 <p>
   <span class="transcript-timestamp">29:18</span>
@@ -771,7 +768,7 @@
 </p>
 <p>
   <span class="transcript-timestamp">41:44</span>
-  <span>And I see some similarities there between that and something in in 3D in the atmosphere as opposed to, you know, something very different. And so identifying those commonalities I think is important. What I see in, in in some cases, and this is Hanford by universities and it&#39;s Hanford by industry, and it&#39;s Hanford in a couple government labs in, in a couple different ways, is a lot of people want to solve a scientific problem. And so they&#39;re going to say, I&#39;m only going to invest, invest literally or figuratively in machine learning in that one area. And that&#39;s just not how machine learning works. You don&#39;t see the, I mean, think</span>
+  <span>And I see some similarities there between that and something in in 3D in the atmosphere as opposed to, you know, something very different. And so identifying those commonalities I think is important. What I see in, in in some cases, and this is hampered by universities and it&#39;s hampered by industry, and it&#39;s hampered in a couple government labs in, in a couple different ways, is a lot of people want to solve a scientific problem. And so they&#39;re going to say, I&#39;m only going to invest, invest literally or figuratively in machine learning in that one area. And that&#39;s just not how machine learning works. You don&#39;t see the, I mean, think</span>
 </p>
 <p>
   <span class="transcript-timestamp">42:19</span>
@@ -947,11 +944,11 @@
 </p>
 <p>
   <span class="transcript-timestamp">1:09:14</span>
-  <span>today and I haven&#39;t been hit by e-mail. That&#39;s why I&#39;ve turned it off. Except, e-mail is a little overwhelming. I mean, it&#39;s not so common. So, so I, I with the Berkeley hat, because I&#39;m in the Statistics Department there, I&#39;m at Lawrence Berkeley lab. It&#39;s literally just up the hill. And so I can, you can walk there. And so they worked in scientific machine learning and, and I had done work and was well known in machine learning and, and algorithms and statistics, large scale statistics. And I had various projects over the years with people there and elsewhere on scientific ML problems. And so started about two years</span>
+  <span>today and I haven&#39;t been hit by e-mail. That&#39;s why I&#39;ve turned it off. Except, e-mail is a little overwhelming. I mean, it&#39;s not so common. So, so I, I with the Berkeley hat, because I&#39;m in the Statistics Department there, I&#39;m at Lawrence Berkeley lab. It&#39;s literally just up the hill. And so I can, you can walk there. And so they were interested in scientific machine learning and, and I had done work and was well known in machine learning and, and algorithms and statistics, large scale statistics. And I had various projects over the years with people there and elsewhere on scientific ML problems. And so started about two years</span>
 </p>
 <p>
   <span class="transcript-timestamp">1:09:53</span>
-  <span>ago. This is all we rename, but the scientific machine learning group, basically MLA: Machine learning and analytics. And and so it&#39;s it&#39;s it&#39;s part was partly facilitated by the fact that there there is a moderate amount of interaction between UC Berkeley campus and LBNL Lawrence Berkeley National Lab, Oak Ridge, Argonne. Some of the other labs have things like that, but it&#39;s not so, so, so common. Most people are there, meaning just there and 100% of their FTEs there and and there for long term but so it&#39;s not. I wouldn&#39;t say it&#39;s very common. OK, which makes your experience even more unique then to have done it. Yeah, what maybe is a sort of</span>
+  <span>ago. This is what we renamed, but the scientific machine learning group, basically MLA: Machine learning and analytics. And so it was partly facilitated by the fact that there there is a moderate amount of interaction between UC Berkeley campus and LBNL Lawrence Berkeley National Lab, Oak Ridge, Argonne. Some of the other labs have things like that, but it&#39;s not so, so, so common. Most people are there, meaning just there and 100% of their FTEs there and and there for long term but so it&#39;s not. I wouldn&#39;t say it&#39;s very common. OK, which makes your experience even more unique then to have done it. Yeah, what maybe is a sort of</span>
 </p>
 <p>
   <span class="transcript-timestamp">1:10:39</span>
@@ -1108,12 +1105,14 @@
       <p class="footer-name">Neil Ashton</p>
       <p>Computational Engineering</p>
     </div>
-    <nav class="footer-links" aria-label="Contact and profile links">
+    <nav class="footer-links" aria-label="Footer links">
       <a href="/cv/">CV</a>
       <a href="mailto:%63%6F%6E%74%61%63%74@%6E%65%69%6C%61%73%68%74%6F%6E.%63%6F.%75%6B">Email</a>
       <a href="https://www.linkedin.com/in/neilashton">LinkedIn</a>
       <a href="https://scholar.google.com/citations?user=mtBY0RcAAAAJ">Google Scholar</a>
       <a href="https://orcid.org/0000-0002-9943-2334">ORCID</a>
+      <a href="/privacy/">Privacy</a>
+      <button class="footer-link-button" type="button" data-analytics-settings>Analytics settings</button>
     </nav>
     <p class="footer-meta">&copy; 2026 Neil Ashton. Built with Jekyll and hosted on GitHub Pages.</p>
   </div>
@@ -1123,6 +1122,197 @@
 
 
     
+  <aside class="analytics-consent" data-analytics-consent hidden aria-labelledby="analytics-consent-title">
+    <div class="analytics-consent-copy">
+      <p id="analytics-consent-title" class="analytics-consent-title">Help improve this website</p>
+      <p>
+        With your permission, privacy-conscious Google Analytics measures visits and which external links visitors choose, including YouTube and
+        podcast platforms.
+        <a href="/privacy/">Privacy details</a>
+      </p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button class="button button-primary" type="button" data-analytics-accept>Allow analytics</button>
+      <button class="button button-secondary" type="button" data-analytics-decline>No thanks</button>
+    </div>
+  </aside>
+  <script>
+    (() => {
+      const measurementId = "G-25LQZE8E6D";
+      const storageKey = 'neil-ashton-analytics-consent';
+      const analyticsDisableKey = `ga-disable-${measurementId}`;
+      const banner = document.querySelector('[data-analytics-consent]');
+      const acceptButton = document.querySelector('[data-analytics-accept]');
+      const declineButton = document.querySelector('[data-analytics-decline]');
+      const settingsButtons = document.querySelectorAll('[data-analytics-settings]');
+      let outboundTrackingEnabled = false;
+      let currentConsent = null;
+
+      const readConsent = () => {
+        try {
+          return window.localStorage.getItem(storageKey);
+        } catch (_error) {
+          return null;
+        }
+      };
+
+      const writeConsent = (value) => {
+        try {
+          window.localStorage.setItem(storageKey, value);
+        } catch (_error) {
+          // The visitor will be asked again next time when browser storage is unavailable.
+        }
+      };
+
+      const clearAnalyticsCookies = () => {
+        const analyticsCookieNames = document.cookie
+          .split(';')
+          .map((cookie) => cookie.split('=')[0].trim())
+          .filter(
+            (name) =>
+              name === '_ga' ||
+              name === '_gid' ||
+              name === '_gat' ||
+              name.startsWith('_ga_') ||
+              name.startsWith('_gat_') ||
+              name.startsWith('_gac_'),
+          );
+
+        if (!analyticsCookieNames.length) return;
+
+        const hostname = window.location.hostname;
+        const apexHostname = hostname.startsWith('www.') ? hostname.slice(4) : hostname;
+        const cookieDomains = [...new Set([hostname, `.${hostname}`, apexHostname, `.${apexHostname}`])];
+        const expires = 'Thu, 01 Jan 1970 00:00:00 GMT';
+
+        analyticsCookieNames.forEach((name) => {
+          document.cookie = `${name}=; expires=${expires}; Max-Age=0; path=/; SameSite=Lax`;
+          cookieDomains.forEach((domain) => {
+            document.cookie = `${name}=; expires=${expires}; Max-Age=0; path=/; domain=${domain}; SameSite=Lax`;
+          });
+        });
+      };
+
+      const handleOutboundClick = (event) => {
+        if (currentConsent !== 'granted') return;
+
+        const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+        if (!link) return;
+
+        let destination;
+        try {
+          destination = new URL(link.href, window.location.href);
+        } catch (_error) {
+          return;
+        }
+
+        if (!/^https?:$/.test(destination.protocol) || destination.hostname === window.location.hostname) return;
+
+        window.gtag?.('event', 'outbound_click', {
+          link_domain: destination.hostname,
+          link_text: link.textContent.trim().slice(0, 100),
+          link_url: destination.href,
+          transport_type: 'beacon',
+        });
+      };
+
+      const trackOutboundLinks = () => {
+        if (outboundTrackingEnabled) return;
+        document.addEventListener('click', handleOutboundClick);
+        outboundTrackingEnabled = true;
+      };
+
+      const stopTrackingOutboundLinks = () => {
+        if (!outboundTrackingEnabled) return;
+        document.removeEventListener('click', handleOutboundClick);
+        outboundTrackingEnabled = false;
+      };
+
+      const disableAnalytics = () => {
+        window.gtag?.('consent', 'update', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+        });
+        window[analyticsDisableKey] = true;
+        stopTrackingOutboundLinks();
+        clearAnalyticsCookies();
+      };
+
+      const loadAnalytics = () => {
+        window[analyticsDisableKey] = false;
+        if (window.neilAshtonAnalyticsLoaded) {
+          window.gtag?.('consent', 'update', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'granted',
+          });
+          trackOutboundLinks();
+          return;
+        }
+        window.neilAshtonAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag('consent', 'default', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'granted',
+        });
+        window.gtag('js', new Date());
+        window.gtag('config', measurementId, {
+          allow_google_signals: false,
+          anonymize_ip: true,
+        });
+
+        const analyticsScript = document.createElement('script');
+        analyticsScript.async = true;
+        analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+        document.head.appendChild(analyticsScript);
+        trackOutboundLinks();
+      };
+
+      const showBanner = (moveFocus = false) => {
+        if (!banner) return;
+        banner.hidden = false;
+        if (moveFocus) acceptButton?.focus();
+      };
+
+      const hideBanner = () => {
+        if (banner) banner.hidden = true;
+      };
+
+      acceptButton?.addEventListener('click', () => {
+        currentConsent = 'granted';
+        writeConsent('granted');
+        hideBanner();
+        loadAnalytics();
+      });
+
+      declineButton?.addEventListener('click', () => {
+        currentConsent = 'denied';
+        writeConsent('denied');
+        disableAnalytics();
+        hideBanner();
+      });
+
+      settingsButtons.forEach((button) => button.addEventListener('click', () => showBanner(true)));
+
+      currentConsent = readConsent();
+      if (currentConsent === 'granted') {
+        loadAnalytics();
+      } else if (currentConsent === 'denied') {
+        disableAnalytics();
+      } else {
+        showBanner(false);
+      }
+    })();
+  </script>
+
 
 
   </body>

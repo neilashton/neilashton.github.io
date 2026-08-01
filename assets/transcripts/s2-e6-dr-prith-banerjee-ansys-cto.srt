@@ -671,7 +671,7 @@ things like Fluent, which is our
 135
 00:07:46,640 --> 00:07:49,680
 fluid solver, in things like
-mechanical, which is our
+Mechanical, which is our
 
 136
 00:07:49,680 --> 00:07:52,280
@@ -1146,7 +1146,7 @@ world is more incremental,
 230
 00:13:23,960 --> 00:13:26,640
 right?
-It is what I call Horizon one.
+It is what I call Horizon 1.
 
 231
 00:13:26,760 --> 00:13:30,000
@@ -5221,7 +5221,7 @@ I said if you are a startup, you
 1045
 01:03:26,240 --> 01:03:31,560
 have the latest widgets, right
-With with AR, VR, IoTI don't know
+With with AR, VR, IoT—I don't know
 
 1046
 01:03:31,560 --> 01:03:33,520

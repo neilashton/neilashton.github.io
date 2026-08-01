@@ -500,27 +500,27 @@ uh institute directors across various universities. There was
 
 126
 00:06:22,350 --> 00:06:22,489
-PTOs
+Petros
 
 127
 00:06:22,609 --> 00:06:22,700
-Kumars
+Koumoutsakos
 
 128
 00:06:23,179 --> 00:06:25,059
-Soos at Harvard, Ken Wilcox at
+at Harvard, Karen Willcox at
 
 129
 00:06:25,410 --> 00:06:26,619
-Texas, John Luca
+Texas, Gianluca
 
 130
 00:06:27,130 --> 00:06:28,079
-Ario at Stanford,
+Iaccarino at Stanford,
 
 131
 00:06:28,649 --> 00:06:29,929
-YF Marzuk at MIT.
+Youssef Marzouk at MIT.
 
 132
 00:06:30,750 --> 00:06:34,029
@@ -2120,7 +2120,7 @@ But what about um
 
 531
 00:25:00,699 --> 00:25:04,849
-physics informed approaches, physic driven approaches like like PINNs that,
+physics-informed approaches, physics-driven approaches like, like PINNs that,
 
 532
 00:25:05,280 --> 00:25:09,140
@@ -2172,7 +2172,7 @@ Karniadakis papers and other things and from probably the very first,
 
 544
 00:25:42,369 --> 00:25:46,420
-very first week it was put on archive or maybe even before that because
+very first week it was put on arXiv or maybe even before that because
 
 545
 00:25:47,050 --> 00:25:49,229
@@ -2204,7 +2204,7 @@ I, I think it's a good idea, right?
 
 552
 00:26:03,689 --> 00:26:06,420
-In the forward sense in terms of solving A P
+In the forward sense in terms of solving a PDE,
 
 553
 00:26:07,469 --> 00:26:08,520
@@ -2212,7 +2212,7 @@ uh but where it,
 
 554
 00:26:08,949 --> 00:26:14,099
-you know, runs into tough ground is we are pretty damn good at solving pds, you know,
+you know, runs into tough ground is we are pretty damn good at solving PDEs, you know,
 
 555
 00:26:14,109 --> 00:26:17,729
@@ -2228,7 +2228,7 @@ And
 
 558
 00:26:22,010 --> 00:26:28,829
-uh putting the PD in the loss function, there are a few uh few things that are not
+uh putting the PDE in the loss function, there are a few, uh, few things that are not
 
 559
 00:26:29,189 --> 00:26:29,910
@@ -3004,7 +3004,7 @@ it has really been
 
 752
 00:35:15,219 --> 00:35:18,040
-surprising even to, I think open AI,
+surprising even to, I think, OpenAI,
 
 753
 00:35:18,320 --> 00:35:22,590
@@ -4204,7 +4204,7 @@ Even if
 
 1052
 00:48:16,510 --> 00:48:20,600
-these GPT-4 like models or GP T five or whatever they are, even if
+these GPT-4-like models or GPT-5 or whatever they are, even if
 
 1053
 00:48:21,330 --> 00:48:23,139
@@ -4620,7 +4620,7 @@ They're organizing,
 
 1156
 00:53:10,600 --> 00:53:13,820
-they talk, they talk to AC M and they've organized
+they talk, they talk to ACM and they've organized
 
 1157
 00:53:14,239 --> 00:53:15,750
@@ -5100,7 +5100,7 @@ and most software packages are
 
 1276
 00:58:44,820 --> 00:58:49,760
-have I A restrictions or have some form that stops them going, you know,
+have IP restrictions or have some form that stops them going, you know,
 
 1277
 00:58:49,770 --> 00:58:50,939
@@ -5908,11 +5908,11 @@ I don't envy
 
 1478
 01:07:08,520 --> 01:07:10,770
-the people at the top of Seamen's or Dasso
+the people at the top of Siemens or Dassault
 
 1479
 01:07:11,120 --> 01:07:13,149
-or Ansys or cadence
+or Ansys or Cadence
 
 1480
 01:07:13,439 --> 01:07:16,550
@@ -6368,7 +6368,7 @@ it's called
 
 1593
 01:12:07,609 --> 01:12:09,529
-Gin s dot A. I, we've been going for about
+Geminus.AI, we've been going for about
 
 1594
 01:12:09,729 --> 01:12:10,680
@@ -7744,7 +7744,7 @@ FourCastNet sort of moment yet.
 
 1937
 01:27:38,910 --> 01:27:41,509
-I would argue in CFDI,
+I would argue in CFD,
 
 1938
 01:27:43,089 --> 01:27:46,279

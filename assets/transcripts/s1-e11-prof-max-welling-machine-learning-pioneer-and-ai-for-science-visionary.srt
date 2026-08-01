@@ -124,7 +124,7 @@ I, I guess, most notably he was with, um,
 
 32
 00:01:31,529 --> 00:01:37,139
-Geoffrey Hinton who is seen as the sort of godfather of, um, of AI at UCL.
+Geoffrey Hinton who is seen as the sort of godfather of, um, of AI at U of T.
 
 33
 00:01:37,410 --> 00:01:39,110
@@ -220,7 +220,7 @@ So he's been the people in charge of all the major conference like
 
 56
 00:02:42,289 --> 00:02:44,639
-Nips and IC ML and Ile conferences.
+NeurIPS, ICML and ICLR conferences.
 
 57
 00:02:44,880 --> 00:02:48,259
@@ -232,7 +232,7 @@ I would highly recommend that you do look some of
 
 59
 00:02:50,830 --> 00:02:53,949
-these workshops on AI for science uh particularly at nos
+these workshops on AI for science, uh, particularly at NeurIPS
 
 60
 00:02:54,240 --> 00:02:57,960
@@ -272,7 +272,7 @@ that we touch about being not just a pure academic
 
 69
 00:03:16,160 --> 00:03:19,309
-or being a pure industrious, but someone who has jumped between.
+or being a pure industrialist, but someone who has jumped between.
 
 70
 00:03:19,320 --> 00:03:23,559
@@ -368,7 +368,7 @@ Um We talk about his start up about
 
 93
 00:04:28,769 --> 00:04:29,079
-ca I
+CuspAI
 
 94
 00:04:29,200 --> 00:04:31,649
@@ -432,7 +432,7 @@ So
 
 109
 00:05:11,630 --> 00:05:15,540
-uh sit back and please listen to this episode with Professor Max. Welling
+uh sit back and please listen to this episode with Professor Max Welling.
 
 110
 00:05:16,260 --> 00:05:17,380
@@ -452,7 +452,7 @@ Uh
 
 114
 00:05:20,480 --> 00:05:23,429
-Yeah. A for science, I think um
+Yeah. AI for science, I think, um,
 
 115
 00:05:23,929 --> 00:05:28,040
@@ -2064,7 +2064,7 @@ Now, um
 
 517
 00:24:24,920 --> 00:24:26,920
-note that I will do it in a differently
+note that I will do it in a differentially
 
 518
 00:24:26,930 --> 00:24:30,709
@@ -2144,7 +2144,7 @@ And so basically this means or actually for, for open AI kind of, you know,
 
 537
 00:25:30,739 --> 00:25:32,199
-check GP T models, right?
+ChatGPT models, right?
 
 538
 00:25:32,209 --> 00:25:32,770
@@ -3120,7 +3120,7 @@ Um
 
 781
 00:36:40,639 --> 00:36:44,429
-Now some people like, you know, if you, if you like to achieve A G I, you know, great.
+Now some people like, you know, if you, if you like to achieve AGI, you know, great.
 
 782
 00:36:44,439 --> 00:36:46,610
@@ -4164,7 +4164,7 @@ sort of preference for me and my
 
 1042
 00:49:13,929 --> 00:49:15,679
-co-founder Chet Edwards
+co-founder Chad Edwards
 
 1043
 00:49:16,409 --> 00:49:16,790
@@ -4864,7 +4864,7 @@ I went through the 10 year process in the
 
 1217
 00:57:25,189 --> 00:57:27,500
-U SI just maybe it's just blissful ignorance.
+U.S. I just—maybe it's just blissful ignorance.
 
 1218
 00:57:27,510 --> 00:57:28,820
@@ -5192,7 +5192,7 @@ do you think there will be a breakthrough,
 
 1299
 01:01:05,520 --> 01:01:09,780
-huge change almost like uh opening I did with Chat T BT,
+huge change almost like, uh, OpenAI did with ChatGPT,
 
 1300
 01:01:09,790 --> 01:01:12,060
@@ -5580,7 +5580,7 @@ have to be done in parallel because I have no illusions that um
 
 1396
 01:05:32,699 --> 01:05:37,840
-you know, A G I will be pursued hotly by all these big companies because it's just,
+you know, AGI will be pursued hotly by all these big companies because it's just,
 
 1397
 01:05:37,989 --> 01:05:38,459

@@ -2483,7 +2483,7 @@ to write code.
 
 498
 00:31:03,760 --> 00:31:07,000
-And there is A and I can talk
+And there is—and I can talk
 about this maybe in the in the
 
 499
@@ -3217,7 +3217,7 @@ So the, the SDE route is a very
 
 645
 00:40:41,280 --> 00:40:44,320
-interesting root if you are
+interesting route if you are
 particularly strong on the code
 
 646
