@@ -3160,7 +3160,7 @@ Well, I guess the first three workshops
 
 791
 00:27:24,960 --> 00:27:26,640
-were almost all Reynolds average
+were almost all Reynolds-averaged
 
 792
 00:27:26,640 --> 00:27:28,560
@@ -3172,7 +3172,7 @@ And one of our big conclusions so far
 
 794
 00:27:30,760 --> 00:27:32,320
-has been that Reynolds average
+has been that Reynolds-averaged
 
 795
 00:27:32,320 --> 00:27:35,360

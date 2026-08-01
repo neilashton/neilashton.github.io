@@ -369,12 +369,12 @@ some of the slight differences,
 
 75
 00:04:29,440 --> 00:04:32,400
-some of the links to I guess
-graph neural Nets and mesh graph
+some of the links to, I guess,
+graph neural networks and
 
 76
 00:04:32,400 --> 00:04:34,480
-Nets that probably most people
+MeshGraphNets that probably most people
 are aware of.
 
 77
@@ -873,7 +873,7 @@ one side and then these sort of
 
 176
 00:10:54,920 --> 00:10:56,640
-mesh graph Nets and other
+MeshGraphNets and other
 things.
 
 177
@@ -1292,7 +1292,7 @@ introduction with, you know,
 260
 00:16:10,840 --> 00:16:14,440
 what the DeepMind team did with
-with mesh graph Nets.
+MeshGraphNets.
 
 261
 00:16:14,600 --> 00:16:17,480
@@ -1585,16 +1585,16 @@ paper of yours.
 
 319
 00:19:46,600 --> 00:19:51,160
-So you you developed this
-transformer based approach, what
+So you developed this
+transformer-based approach, what
 
 320
 00:19:51,160 --> 00:19:53,920
-you call it Anchor-Based Universal Physics.
+you call the Anchored-Branched Universal Physics
 
 321
 00:19:53,920 --> 00:19:54,800
-Transformer What?
+Transformer. What?
 What?
 
 322
@@ -1639,7 +1639,7 @@ framework, similar approach,
 
 330
 00:20:24,680 --> 00:20:27,520
-which we call Anchored-Branched
+which we call Anchored-Branched UPT,
 because these are the two
 
 331
@@ -2273,11 +2273,11 @@ analogy.
 457
 00:27:58,480 --> 00:28:01,520
 I suppose what I'm trying to
-pick out is with mesh graph Nets
+pick out is with MeshGraphNets
 
 458
 00:28:01,520 --> 00:28:05,720
-or with graph neural Nets,
+or with graph neural networks,
 people could in theory take a
 
 459
@@ -2625,11 +2625,11 @@ tokenize the problem then?
 528
 00:32:25,840 --> 00:32:29,160
 How could people conceptually
-understand, you know, mesh graph
+understand, you know, MeshGraphNets
 
 529
 00:32:29,160 --> 00:32:32,960
-Nets conceptually was I have a
+conceptually was: I have a
 node which corresponds to my
 
 530
@@ -5345,13 +5345,13 @@ working well, should branch off.
 
 1074
 01:06:27,720 --> 01:06:31,640
-I was also lucky to to have met
+I was also lucky to have met
 people like Dennis Just and Miks
 
 1075
 01:06:31,640 --> 01:06:35,400
-Mikelsons who who did this
-before graded startups, very
+Mikelsons, who did this
+before, created startups, very
 
 1076
 01:06:35,400 --> 01:06:37,600

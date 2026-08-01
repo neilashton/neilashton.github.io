@@ -132,7 +132,7 @@ a number of actual Formula One teams that have partnerships,
 
 34
 00:01:48,610 --> 00:01:49,419
-uh, things like Inos,
+uh, things like INEOS,
 
 35
 00:01:49,769 --> 00:01:50,529
@@ -292,11 +292,11 @@ which is probably a bike brand that is synonymous with
 
 74
 00:03:33,559 --> 00:03:37,570
-team sky. All those wins with, you know, Bradley Wiggins and Chris Froome.
+Team Sky. All those wins with, you know, Bradley Wiggins and Chris Froome.
 
 75
 00:03:37,580 --> 00:03:38,850
-And now with Ineos,
+And now with INEOS,
 
 76
 00:03:39,210 --> 00:03:41,740
@@ -332,7 +332,7 @@ um, someone who deeply understands it. So we cover
 
 84
 00:04:04,009 --> 00:04:07,509
-we do. We try and start from the top about UCI I regulations.
+we do. We try and start from the top with UCI regulations.
 
 85
 00:04:07,520 --> 00:04:09,039
@@ -552,7 +552,7 @@ So
 
 139
 00:06:56,760 --> 00:07:02,019
-the UCIUC I stands for Union Cycliste Internationale, which is the
+UCI stands for Union Cycliste Internationale, which is the
 
 140
 00:07:02,529 --> 00:07:05,500
@@ -684,7 +684,7 @@ they were actually relaxed quite significantly.
 
 172
 00:08:42,539 --> 00:08:47,190
-And we saw the bikes, like this famous lotus bike and a few others
+And we saw the bikes, like this famous Lotus bike and a few others
 
 173
 00:08:47,450 --> 00:08:50,549
@@ -696,7 +696,7 @@ and a few other innovations.
 
 175
 00:08:53,289 --> 00:08:58,140
-And, uh, but then, since then, UCI I, um, tried to put more, uh,
+And, uh, but since then, UCI, um, tried to put more, uh,
 
 176
 00:08:58,150 --> 00:09:00,669
@@ -708,7 +708,7 @@ things that run away maybe a little bit too fast for what
 
 178
 00:09:04,320 --> 00:09:07,150
-it was the understanding of the UCI I at the time.
+it was the understanding of the UCI at the time.
 
 179
 00:09:08,210 --> 00:09:09,039
@@ -776,7 +776,7 @@ So there's a lot of detail on what you may call the road. What is a road racing 
 
 195
 00:10:02,609 --> 00:10:05,140
-and what is a truck racing bike is
+and what a track racing bike is
 
 196
 00:10:05,580 --> 00:10:10,710
@@ -968,7 +968,7 @@ more for a for a time that you I tried to restrict it.
 
 243
 00:12:35,760 --> 00:12:42,020
-Uh, but then it was in 91. If I remember correctly that UCI I they open up the rules,
+Uh, but then it was in ’91, if I remember correctly, that the UCI opened up the rules,
 
 244
 00:12:42,559 --> 00:12:45,460
@@ -988,7 +988,7 @@ uh,
 
 248
 00:12:50,849 --> 00:12:54,440
-it was a lotus, uh, that actually designed the bike.
+it wasn't Lotus, uh, that actually designed the bike.
 
 249
 00:12:54,570 --> 00:12:59,229
@@ -1144,7 +1144,7 @@ somewhere between 4010 and then today there is a lot of regulation,
 
 287
 00:15:00,489 --> 00:15:04,770
-and today UCI I is a lot more technically capable. If I can say
+and today the UCI is a lot more technically capable, if I can say
 
 288
 00:15:05,700 --> 00:15:07,030
@@ -1256,7 +1256,7 @@ and must start so the likes and museum to the front
 
 315
 00:16:17,659 --> 00:16:20,619
-and the same thing for the truck. So you have the
+and the same thing for the track. So you have the
 
 316
 00:16:20,739 --> 00:16:24,099
@@ -1512,11 +1512,11 @@ I did the first full bike for Pinarello,
 
 379
 00:19:40,310 --> 00:19:43,530
-and it was released in 2013. Which it was the Pinarello
+and it was released in 2013, which—it was the Pinarello
 
 380
 00:19:43,750 --> 00:19:43,869
-Bo
+Bolide,
 
 381
 00:19:44,140 --> 00:19:46,219
@@ -1536,7 +1536,7 @@ Uh, before that, uh, there were some minor things that I've done for Pinarello
 
 385
 00:19:59,839 --> 00:20:03,239
-RLO, but it was very much like an on off, uh, relationship before that.
+but it was very much like an on-off, uh, relationship before that.
 
 386
 00:20:04,500 --> 00:20:06,140
@@ -1548,7 +1548,7 @@ uh, like, um, I collaborate with
 
 388
 00:20:09,150 --> 00:20:11,400
-gulo in countless projects.
+Fausto in countless projects.
 
 389
 00:20:11,839 --> 00:20:14,800
@@ -1584,7 +1584,7 @@ for
 
 397
 00:20:28,520 --> 00:20:31,660
-Pinarello. Um, did the time trial bikes like the B
+Pinarello. Um, did the time-trial bikes like the Bolide
 
 398
 00:20:31,959 --> 00:20:32,770
@@ -1600,11 +1600,11 @@ F series
 
 401
 00:20:37,390 --> 00:20:40,430
-like, uh, F 8 1012 dog,
+like, uh, F8, F10, F12, Dogma
 
 402
 00:20:40,569 --> 00:20:41,430
-my F and all that.
+F and all that.
 
 403
 00:20:42,140 --> 00:20:43,079
@@ -1700,11 +1700,11 @@ Like, uh,
 
 426
 00:21:34,079 --> 00:21:37,150
-I, uh I delivered the the bo
+I, uh, I delivered the, the Bolide,
 
 427
 00:21:37,790 --> 00:21:38,729
-uh, the first bo
+uh, the first Bolide,
 
 428
 00:21:38,959 --> 00:21:39,400
@@ -1720,7 +1720,7 @@ And then, uh, not long after that, started working on what later became the Dogm
 
 431
 00:21:50,010 --> 00:21:50,760
-F eight.
+F8.
 
 432
 00:21:51,920 --> 00:21:55,969
@@ -1736,11 +1736,11 @@ uh, how to try and do it. And at the time, it was very common that, uh,
 
 435
 00:22:06,069 --> 00:22:08,989
-all major brands, uh, like, Cervelo
+all major brands, uh, like, Cervélo,
 
 436
 00:22:09,479 --> 00:22:12,920
-track specialised pretty much anybody who was anybody,
+Trek, Specialized—pretty much anybody who was anybody—
 
 437
 00:22:13,270 --> 00:22:14,790
@@ -1784,7 +1784,7 @@ uh, the Pinarello
 
 447
 00:22:31,270 --> 00:22:34,219
-guys and also the team sky guys as they
+guys and also the Team Sky guys as they
 
 448
 00:22:34,349 --> 00:22:35,099
@@ -2072,7 +2072,7 @@ to give you an idea the
 
 519
 00:26:32,430 --> 00:26:35,760
-the F eight, the first dogma that I did for Pinarello
+the F8, the first Dogma that I did for Pinarello
 
 520
 00:26:37,219 --> 00:26:39,540
@@ -2204,11 +2204,11 @@ so there was a significant difference in the rate
 
 552
 00:28:10,469 --> 00:28:15,060
-the stiffness go went up because we did a lot of FE
+the stiffness went up because we did a lot of FEA
 
 553
 00:28:15,069 --> 00:28:19,339
-a or what is the optimum size and shape of individual tubes?
+on the optimum size and shape of individual tubes:
 
 554
 00:28:19,869 --> 00:28:20,329
@@ -2216,7 +2216,7 @@ Uh,
 
 555
 00:28:20,589 --> 00:28:23,290
-down tube change, the AC tube and all that stuff,
+down tube, chainstays, seat tube and all that stuff,
 
 556
 00:28:23,609 --> 00:28:28,239
@@ -2260,7 +2260,7 @@ on CFD frame and four was
 
 566
 00:28:58,569 --> 00:29:01,160
-lower drug than the previous version,
+lower drag than the previous version,
 
 567
 00:29:01,989 --> 00:29:03,430
@@ -2512,7 +2512,7 @@ level bike, has
 
 629
 00:32:20,140 --> 00:32:23,680
-integrated integrated handlebars with aeroc cross sections and so on.
+integrated, integrated handlebars with aero cross-sections and so on.
 
 630
 00:32:24,619 --> 00:32:29,439
@@ -2532,11 +2532,11 @@ Probably
 
 634
 00:32:39,069 --> 00:32:42,640
-23 or four years later after that. So we've done the F eight.
+two, three or four years later after that. So we'd done the F8.
 
 635
 00:32:42,650 --> 00:32:44,839
-Then a couple of years later, we've done the F 10,
+Then a couple of years later, we'd done the F10,
 
 636
 00:32:45,589 --> 00:32:47,930
@@ -2548,7 +2548,7 @@ we were looking of where is the next potential improvement?
 
 638
 00:32:52,300 --> 00:32:56,609
-And we did a full a bike with whatever we could do at the time.
+And we did a full aero bike with whatever we could do at the time.
 
 639
 00:32:56,619 --> 00:32:58,310
@@ -2560,7 +2560,7 @@ and the difference on what you may call a full
 
 641
 00:33:03,939 --> 00:33:05,630
-arrow road bike
+aero road bike
 
 642
 00:33:06,170 --> 00:33:08,109
@@ -2568,7 +2568,7 @@ to whatever it was the
 
 643
 00:33:09,339 --> 00:33:11,709
-whatever was a current dogma at the time.
+whatever was the current Dogma at the time.
 
 644
 00:33:13,130 --> 00:33:16,869
@@ -2788,7 +2788,7 @@ and the
 
 698
 00:35:35,149 --> 00:35:37,620
-total drug goes down
+total drag goes down,
 
 699
 00:35:38,840 --> 00:35:41,770
@@ -2840,7 +2840,7 @@ if you and this is nothing to do with this is more general now, not just Pinarel
 
 711
 00:36:07,139 --> 00:36:08,899
-Rla, but just any bike brand.
+Pinarello, but just any bike brand.
 
 712
 00:36:09,540 --> 00:36:11,199
@@ -3020,7 +3020,7 @@ and new ones, they start appearing as you know,
 
 756
 00:38:13,360 --> 00:38:16,629
-with, like moving the seat station and the fors
+with, like, moving the seatstays and the forks
 
 757
 00:38:16,840 --> 00:38:17,979
@@ -3112,7 +3112,7 @@ translate
 
 779
 00:39:12,959 --> 00:39:16,929
-slowly into the road. This philosophy of R Is that what you're alluding to?
+slowly onto the road. This philosophy of aero—is that what you’re alluding to?
 
 780
 00:39:16,939 --> 00:39:19,580
@@ -3132,7 +3132,7 @@ OK,
 
 784
 00:39:25,129 --> 00:39:28,189
-you may say truck is a very individual category,
+you may say track is a very individual category,
 
 785
 00:39:28,469 --> 00:39:33,229
@@ -3180,7 +3180,7 @@ Therefore, you have now these elements which is like the, um, the
 
 796
 00:40:00,560 --> 00:40:02,290
-six days and the change days,
+seatstays and the chainstays,
 
 797
 00:40:02,679 --> 00:40:05,070
@@ -3356,7 +3356,7 @@ which then it brings your hands closer. So you are on a normal drop handlebar,
 
 840
 00:42:16,540 --> 00:42:19,510
-and you are almost like if you are on ATT bar
+and you are almost like if you are on a TT bar,
 
 841
 00:42:19,850 --> 00:42:26,399
@@ -3468,7 +3468,7 @@ Whereas if you keep your nerve. You keep your elbows in,
 
 868
 00:43:37,290 --> 00:43:41,070
-your drug doesn't go up and the other guy might run out of steam.
+your drag doesn’t go up and the other guy might run out of steam.
 
 869
 00:43:41,879 --> 00:43:45,959
@@ -3508,7 +3508,7 @@ rather than staying in a peloton. I Is there any evidence or thought that theref
 
 878
 00:44:15,780 --> 00:44:19,689
-the importance of arrow is even more because they're basically on their own for
+the importance of aero is even more because they're basically on their own for
 
 879
 00:44:21,469 --> 00:44:22,639
@@ -3520,7 +3520,7 @@ uh again, you know, people they have the the question of,
 
 881
 00:44:27,360 --> 00:44:31,489
-um, wait versus say, Oh, that is totally the wrong question.
+um, weight versus aero. That is totally the wrong question.
 
 882
 00:44:32,239 --> 00:44:33,939
@@ -3536,7 +3536,7 @@ In fact, where is the right balance between,
 
 885
 00:44:41,959 --> 00:44:44,540
-uh, weight, arrow stiffness?
+uh, weight, aero, stiffness?
 
 886
 00:44:45,179 --> 00:44:45,760
@@ -3544,7 +3544,7 @@ And, uh,
 
 887
 00:44:45,770 --> 00:44:49,300
-let's not forget the reliability because it doesn't matter how error
+let's not forget the reliability because it doesn't matter how aero
 
 888
 00:44:49,310 --> 00:44:52,429
@@ -3568,7 +3568,7 @@ and then everybody is chasing you behind
 
 893
 00:45:03,709 --> 00:45:08,320
-Arrow is mega important, especially on a flat road. If it is, the
+Aero is mega important, especially on a flat road. If it is, the
 
 894
 00:45:08,699 --> 00:45:09,850
@@ -3612,7 +3612,7 @@ weight
 
 904
 00:45:35,439 --> 00:45:37,449
-was becoming more important than
+was becoming more important than aero.
 
 905
 00:45:38,510 --> 00:45:42,540
@@ -3648,7 +3648,7 @@ when you are out on the front and everybody is chasing you,
 
 913
 00:46:01,780 --> 00:46:05,800
-arrow is number one by a long, long way.
+aero is number one by a long, long way.
 
 914
 00:46:06,060 --> 00:46:09,959
@@ -3672,7 +3672,7 @@ Uh, the difference is depending on what is your starting point.
 
 919
 00:46:25,350 --> 00:46:28,919
-And so on somewhere between five and 8% of overall drug.
+And so on—somewhere between 5% and 8% of overall drag.
 
 920
 00:46:29,469 --> 00:46:32,560
@@ -3688,7 +3688,7 @@ slows you down.
 
 923
 00:46:36,530 --> 00:46:40,459
-So arrow is mega important. And this when the moment you talk a
+So aero is mega important. And the moment you talk aero,
 
 924
 00:46:41,429 --> 00:46:45,729
@@ -3732,11 +3732,11 @@ and you go for Christ's sake, any
 
 934
 00:47:07,330 --> 00:47:07,469
-Arodys
+aerodynamicist
 
 935
 00:47:07,870 --> 00:47:10,419
-will tell you that this is creating drug.
+will tell you that this is creating drag.
 
 936
 00:47:11,560 --> 00:47:17,159
@@ -3800,7 +3800,7 @@ So then they were adding weight on the bike
 
 951
 00:48:03,459 --> 00:48:05,229
-to bring it back to UCI. I limit.
+to bring it back to the UCI limit.
 
 952
 00:48:05,709 --> 00:48:10,590
@@ -4052,7 +4052,7 @@ And actually, uh, I think that time trial,
 
 1014
 00:51:31,699 --> 00:51:37,060
-if I remember correctly from he won it over the Mulan for 21 seconds
+if I remember correctly, Froome won it over Dumoulin by 21 seconds.
 
 1015
 00:51:38,959 --> 00:51:41,979
@@ -4084,7 +4084,7 @@ and they raced in the Commonwealth Games. They was struck in July that year,
 
 1022
 00:52:03,350 --> 00:52:05,229
-and it was only frames. No, no fort.
+and it was only frames, no fork.
 
 1023
 00:52:06,629 --> 00:52:09,189
@@ -4128,7 +4128,7 @@ Let's assume that it was only the weight in this case,
 
 1033
 00:52:40,889 --> 00:52:44,110
-although I'm pretty sure the error difference was also significant.
+although I'm pretty sure the aero difference was also significant.
 
 1034
 00:52:46,070 --> 00:52:47,320
@@ -4444,7 +4444,7 @@ and they do this in effect.
 
 1112
 00:56:15,239 --> 00:56:18,659
-You can see that on on the FE A. On the stress analysis.
+You can see that on the FEA, on the stress analysis.
 
 1113
 00:56:18,919 --> 00:56:22,729
@@ -4648,7 +4648,7 @@ So bigger, heavier riders, as you said
 
 1163
 00:59:03,199 --> 00:59:08,000
-Van art or a big sprinter on the truck, or or something like this
+Van Aert or a big sprinter on the track, or something like this
 
 1164
 00:59:08,800 --> 00:59:12,129
@@ -4856,7 +4856,7 @@ So in effect you have it
 
 1215
 01:02:01,580 --> 01:02:02,560
-from the shed tube
+from the head tube
 
 1216
 01:02:03,739 --> 01:02:06,000
@@ -4896,7 +4896,7 @@ compliant so it can actually reduce the shock absorption.
 
 1225
 01:02:32,129 --> 01:02:33,870
-Sorry, increase the shock abjunction.
+Sorry, increase the shock absorption.
 
 1226
 01:02:34,889 --> 01:02:37,199
@@ -4904,11 +4904,11 @@ So the lower part of the frame.
 
 1227
 01:02:37,209 --> 01:02:43,050
-That's why you see large down tubes and large, uh, change days
+That’s why you see large down tubes and large, uh, chainstays,
 
 1228
 01:02:43,360 --> 01:02:46,850
-and, relatively speaking large and lower part of the CT.
+and, relatively speaking, a large lower part of the seat tube.
 
 1229
 01:02:47,540 --> 01:02:50,429
@@ -5496,7 +5496,7 @@ Uh, whereas if aluminium is 10, carbon fibre is six.
 
 1375
 01:09:56,830 --> 01:09:59,459
-Titanium will be 20 still will be 30
+Titanium will be 20, steel will be 30
 
 1376
 01:10:00,500 --> 01:10:01,020
@@ -5528,7 +5528,7 @@ about, um, three times
 
 1383
 01:10:23,040 --> 01:10:24,100
-the stiffness of steam.
+the stiffness of steel.
 
 1384
 01:10:24,939 --> 01:10:25,419
@@ -5808,7 +5808,7 @@ carbon fibre will probably come and win hands down on pretty much everything,
 
 1453
 01:14:12,500 --> 01:14:14,109
-especially if its intention,
+especially if it's in tension,
 
 1454
 01:14:15,129 --> 01:14:17,779
@@ -5816,7 +5816,7 @@ like one important point to remember
 
 1455
 01:14:18,089 --> 01:14:21,100
-carbon fibre, is pretty damn good intention.
+carbon fibre is pretty damn good in tension.
 
 1456
 01:14:22,120 --> 01:14:22,830
@@ -6476,7 +6476,7 @@ So all these things are great.
 
 1620
 01:22:33,709 --> 01:22:35,419
-So we made a 3D prin
+So we made a 3D-printed
 
 1621
 01:22:35,609 --> 01:22:39,649
@@ -6644,11 +6644,11 @@ alloy
 
 1662
 01:24:24,859 --> 01:24:26,629
-like material that we use called skal
+alloy—a material that we use called
 
 1663
 01:24:27,080 --> 01:24:28,580
-MAOI, which is a scandium aluminium
+Scalmalloy, which is a scandium–aluminium–
 
 1664
 01:24:28,879 --> 01:24:29,990
@@ -6724,15 +6724,15 @@ There are at least two manufacturers. They do that, um,
 
 1682
 01:25:21,750 --> 01:25:24,299
-specialise. They do that. And I think she
+Specialized do that, and I think Selle
 
 1683
 01:25:24,540 --> 01:25:25,209
-Italia,
+Italia.
 
 1684
 01:25:25,859 --> 01:25:27,640
-I'm not quite sure if they sell Italia I.
+I’m not quite sure if it is Selle Italia.
 
 1685
 01:25:27,649 --> 01:25:30,879
@@ -6756,7 +6756,7 @@ There are already small 3D printed parts. Uh, that, uh we did, uh, for Pinarello
 
 1690
 01:25:46,410 --> 01:25:49,069
-RLO in the past, actually, the current
+in the past. Actually, the current
 
 1691
 01:25:49,680 --> 01:25:50,000
@@ -6772,7 +6772,7 @@ F that you buy
 
 1694
 01:25:53,069 --> 01:25:55,229
-the beats, the holding, the saddle.
+the bits that are holding the saddle.
 
 1695
 01:25:56,169 --> 01:26:00,359
@@ -6808,7 +6808,7 @@ rode in the Hour Record in 22.
 
 1703
 01:26:20,129 --> 01:26:20,620
-Uh, the Pinarello
+Uh, the Pinarello Bolide
 
 1704
 01:26:21,000 --> 01:26:21,680
@@ -6840,7 +6840,7 @@ fully 3D printed frame and fork,
 
 1711
 01:26:35,359 --> 01:26:37,689
-but raised on the highest level.
+but raced at the highest level.
 
 1712
 01:26:41,689 --> 01:26:43,259
@@ -7124,7 +7124,7 @@ uh, was also significantly better.
 
 1782
 01:30:06,580 --> 01:30:10,529
-And, uh, at the time, you could do this with 3D PD. You could do it with karma.
+And, uh, at the time, you could do this with 3D printing. You couldn’t do it with carbon.
 
 1783
 01:30:12,020 --> 01:30:16,770
@@ -7368,7 +7368,7 @@ on,
 
 1843
 01:33:26,950 --> 01:33:32,180
-you know, the idea with the white seat station and so on, which is not that new.
+you know, the idea with the wide seatstays and so on, which is not that new.
 
 1844
 01:33:32,189 --> 01:33:33,080
@@ -7408,7 +7408,7 @@ So a
 
 1853
 01:33:53,060 --> 01:33:56,520
-lot of these things is the stop is UCI I regulations.
+a lot of these things, the stop is UCI regulations.
 
 1854
 01:33:56,910 --> 01:33:59,649
@@ -7632,7 +7632,7 @@ Excuse me for some, even on
 
 1909
 01:36:44,649 --> 01:36:45,220
-the truck.
+the track.
 
 1910
 01:36:46,910 --> 01:36:49,930
@@ -7640,7 +7640,7 @@ Then we're using 1.5 times the road standard
 
 1911
 01:36:50,370 --> 01:36:52,390
-for some other events on the truck
+for some other events on the track
 
 1912
 01:36:52,520 --> 01:36:53,529
@@ -7664,7 +7664,7 @@ Because when you have a 100 kg sprinter
 
 1917
 01:37:00,180 --> 01:37:03,879
-that is producing over 2.5 1000 watts on the standing start,
+that is producing over 2,500 watts on the standing start,
 
 1918
 01:37:04,520 --> 01:37:07,100
@@ -8036,7 +8036,7 @@ But I guess if they just totally said, Well, you could have
 
 2010
 01:42:09,299 --> 01:42:12,750
-a fork with, you know, any cross sexual area, the tube,
+a fork with, you know, any cross-sectional area, the tube,
 
 2011
 01:42:13,089 --> 01:42:16,020
@@ -8072,11 +8072,11 @@ I mean, you can actually take a good glimpse of that, uh, for the early to mid n
 
 2019
 01:42:38,959 --> 01:42:44,370
-when, the early to mid nineties, UCI I removed the regulation about the frame
+when, in the early to mid-nineties, the UCI removed the regulation about the frame,
 
 2020
 01:42:44,839 --> 01:42:49,569
-there were the lotus frame is the lotus bike is the most famous one.
+there were—the Lotus frame is, the Lotus bike is the most famous one.
 
 2021
 01:42:49,870 --> 01:42:53,129
@@ -8088,7 +8088,7 @@ from the
 
 2023
 01:42:54,899 --> 01:43:00,600
-Pinarello Espada to the butter clean bike that they they made to the
+Pinarello Espada to the Battaglin bike that they made to the
 
 2024
 01:43:01,140 --> 01:43:06,259
@@ -8108,11 +8108,11 @@ about
 
 2028
 01:43:14,549 --> 01:43:18,080
-92 when we saw the the Portman bike.
+’92, when we saw the Boardman bike.
 
 2029
 01:43:18,089 --> 01:43:20,009
-You know, the largest bike that Chris Boardman rode
+You know, the Lotus bike that Chris Boardman rode,
 
 2030
 01:43:20,620 --> 01:43:22,120
@@ -8212,11 +8212,11 @@ They opened up before 92
 
 2054
 01:44:39,680 --> 01:44:43,109
-but 92 is when everybody got a good sniff about it When, uh, Palma
+but ’92 is when everybody got a good sniff of it, when, uh, Boardman
 
 2055
 01:44:43,310 --> 01:44:44,620
-turned up with this lotus bike
+turned up with this Lotus bike
 
 2056
 01:44:45,259 --> 01:44:46,970
@@ -8224,7 +8224,7 @@ and then it was, uh
 
 2057
 01:44:47,080 --> 01:44:50,169
-uh I think it was spring 97 that UCI I came out
+uh, I think it was spring ’97 that the UCI came out
 
 2058
 01:44:50,180 --> 01:44:54,479
@@ -8320,7 +8320,7 @@ uh,
 
 2081
 01:45:45,629 --> 01:45:51,220
-Borman did the Hour Record in 96 to whatever he did it, Uh
+Boardman did the Hour Record in ’96—whatever he did it—uh,
 
 2082
 01:45:52,040 --> 01:45:54,370
@@ -8340,11 +8340,11 @@ And in effect, they said,
 
 2086
 01:46:00,240 --> 01:46:03,640
-you have to race with the 19 seventies bike because Eddie Merck raised,
+you have to race with the 1970s bike that Eddy Merckx raced,
 
 2087
 01:46:04,700 --> 01:46:06,890
-which is fine. Eddie Merck raced with that.
+which is fine. Eddy Merckx raced with that.
 
 2088
 01:46:06,899 --> 01:46:10,129
@@ -8352,7 +8352,7 @@ But it was the highest possible technology of the time.
 
 2089
 01:46:10,339 --> 01:46:10,689
-Eddie Mer.
+Eddy Merckx,
 
 2090
 01:46:10,839 --> 01:46:11,819
@@ -8372,7 +8372,7 @@ And, uh
 
 2094
 01:46:22,279 --> 01:46:24,229
-so UCI I they changed the regulations.
+so the UCI changed the regulations.
 
 2095
 01:46:24,240 --> 01:46:27,500
@@ -8388,7 +8388,7 @@ and the spokes and the wings and all that.
 
 2098
 01:46:34,029 --> 01:46:38,970
-I worked for UCI I for about a year and a half
+I worked for the UCI for about a year and a half,
 
 2099
 01:46:39,399 --> 01:46:44,819
@@ -8420,15 +8420,15 @@ they actually started around that time.
 
 2106
 01:46:58,939 --> 01:47:03,879
-So my first day that I arrived at UCI I
+So my first day that I arrived at the UCI,
 
 2107
 01:47:04,640 --> 01:47:09,970
-I go to UCI I and, uh, we're sitting down for a dinner for for lunch,
+I go to the UCI and, uh, we’re sitting down for lunch,
 
 2108
 01:47:10,339 --> 01:47:14,859
-uh, with some of the top brass of UCI I and next to me over here sits
+uh, with some of the top brass of the UCI, and next to me sits
 
 2109
 01:47:15,149 --> 01:47:17,140
@@ -8588,7 +8588,7 @@ obviously I
 
 2148
 01:49:19,970 --> 01:49:23,910
-yours still a major, you know, uh, play. But, you know, vis a Lisa bike
+INEOS is still a major, you know, uh, player. But, you know, Visma–Lease a Bike
 
 2149
 01:49:24,169 --> 01:49:26,439
@@ -8640,7 +8640,7 @@ You have to have regulations and you have to be able to enforce it.
 
 2161
 01:49:50,470 --> 01:49:52,810
-UCI. I had a bit of a problem
+UCI had a bit of a problem
 
 2162
 01:49:52,939 --> 01:49:55,970
@@ -8704,7 +8704,7 @@ So the competition makes a difference. So
 
 2177
 01:50:32,930 --> 01:50:35,970
-UCI I needs to do the regulations.
+the UCI needs to set the regulations.
 
 2178
 01:50:35,979 --> 01:50:40,410
@@ -8748,7 +8748,7 @@ And, uh, to
 
 2188
 01:51:07,470 --> 01:51:10,950
-be fair to UCI I nowadays, they are very good, very open.
+be fair to the UCI nowadays, they are very good, very open.
 
 2189
 01:51:11,189 --> 01:51:16,750
@@ -8764,7 +8764,7 @@ uh,
 
 2192
 01:51:19,569 --> 01:51:22,450
-the number I should be on the black list of UCI I of at
+the number, I should be on the blacklist of the UCI—
 
 2193
 01:51:22,549 --> 01:51:26,669

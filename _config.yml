@@ -7,7 +7,7 @@ email: contact@neilashton.co.uk
 description: Neil Ashton's research develops AI methods for computational engineering, including scientific machine learning, foundation models, agentic workflows, and computational fluid dynamics.
 keywords: Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing
 lang: en-GB
-timezone: America/Los_Angeles
+timezone: Europe/London
 icon: favicon.svg
 
 # Kept in one place so the visible profile and structured metadata change together.
@@ -39,6 +39,8 @@ same_as:
   - https://www.youtube.com/@drneilashton
   - https://open.spotify.com/show/4muRLrJ9Pxglw0RsPgx2gb
   - https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065
+  - https://developer.nvidia.com/blog/author/nashton/
+  - https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html
 
 # Public profiles
 linkedin_username: neilashton
@@ -52,9 +54,9 @@ youtube_podcast_url: https://www.youtube.com/playlist?list=PLZq5GKgxGJwQ2aougeam
 podcast_rss_url: https://anchor.fm/s/10a5bf2d8/podcast/rss
 contact_note: For research correspondence, academic talks, or questions about datasets and publications, please contact me by email.
 
-# Analytics remains opt-in.
+# Analytics loads only after the visitor explicitly opts in.
 google_analytics: G-25LQZE8E6D
-enable_google_analytics: false
+enable_google_analytics: true
 
 # News is rendered inline; individual announcement routes are intentionally disabled.
 collections:

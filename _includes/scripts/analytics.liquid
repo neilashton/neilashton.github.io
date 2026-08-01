@@ -1,13 +1,193 @@
 {% if site.enable_google_analytics %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <aside class="analytics-consent" data-analytics-consent hidden aria-labelledby="analytics-consent-title">
+    <div class="analytics-consent-copy">
+      <p id="analytics-consent-title" class="analytics-consent-title">Help improve this website</p>
+      <p>
+        With your permission, privacy-conscious Google Analytics measures visits and which external links visitors choose, including YouTube and
+        podcast platforms.
+        <a href="{{ '/privacy/' | relative_url }}">Privacy details</a>
+      </p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button class="button button-primary" type="button" data-analytics-accept>Allow analytics</button>
+      <button class="button button-secondary" type="button" data-analytics-decline>No thanks</button>
+    </div>
+  </aside>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
+    (() => {
+      const measurementId = {{ site.google_analytics | jsonify }};
+      const storageKey = 'neil-ashton-analytics-consent';
+      const analyticsDisableKey = `ga-disable-${measurementId}`;
+      const banner = document.querySelector('[data-analytics-consent]');
+      const acceptButton = document.querySelector('[data-analytics-accept]');
+      const declineButton = document.querySelector('[data-analytics-decline]');
+      const settingsButtons = document.querySelectorAll('[data-analytics-settings]');
+      let outboundTrackingEnabled = false;
+      let currentConsent = null;
+
+      const readConsent = () => {
+        try {
+          return window.localStorage.getItem(storageKey);
+        } catch (_error) {
+          return null;
+        }
+      };
+
+      const writeConsent = (value) => {
+        try {
+          window.localStorage.setItem(storageKey, value);
+        } catch (_error) {
+          // The visitor will be asked again next time when browser storage is unavailable.
+        }
+      };
+
+      const clearAnalyticsCookies = () => {
+        const analyticsCookieNames = document.cookie
+          .split(';')
+          .map((cookie) => cookie.split('=')[0].trim())
+          .filter(
+            (name) =>
+              name === '_ga' ||
+              name === '_gid' ||
+              name === '_gat' ||
+              name.startsWith('_ga_') ||
+              name.startsWith('_gat_') ||
+              name.startsWith('_gac_'),
+          );
+
+        if (!analyticsCookieNames.length) return;
+
+        const hostname = window.location.hostname;
+        const apexHostname = hostname.startsWith('www.') ? hostname.slice(4) : hostname;
+        const cookieDomains = [...new Set([hostname, `.${hostname}`, apexHostname, `.${apexHostname}`])];
+        const expires = 'Thu, 01 Jan 1970 00:00:00 GMT';
+
+        analyticsCookieNames.forEach((name) => {
+          document.cookie = `${name}=; expires=${expires}; Max-Age=0; path=/; SameSite=Lax`;
+          cookieDomains.forEach((domain) => {
+            document.cookie = `${name}=; expires=${expires}; Max-Age=0; path=/; domain=${domain}; SameSite=Lax`;
+          });
+        });
+      };
+
+      const handleOutboundClick = (event) => {
+        if (currentConsent !== 'granted') return;
+
+        const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+        if (!link) return;
+
+        let destination;
+        try {
+          destination = new URL(link.href, window.location.href);
+        } catch (_error) {
+          return;
+        }
+
+        if (!/^https?:$/.test(destination.protocol) || destination.hostname === window.location.hostname) return;
+
+        window.gtag?.('event', 'outbound_click', {
+          link_domain: destination.hostname,
+          link_text: link.textContent.trim().slice(0, 100),
+          link_url: destination.href,
+          transport_type: 'beacon',
+        });
+      };
+
+      const trackOutboundLinks = () => {
+        if (outboundTrackingEnabled) return;
+        document.addEventListener('click', handleOutboundClick);
+        outboundTrackingEnabled = true;
+      };
+
+      const stopTrackingOutboundLinks = () => {
+        if (!outboundTrackingEnabled) return;
+        document.removeEventListener('click', handleOutboundClick);
+        outboundTrackingEnabled = false;
+      };
+
+      const disableAnalytics = () => {
+        window.gtag?.('consent', 'update', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+        });
+        window[analyticsDisableKey] = true;
+        stopTrackingOutboundLinks();
+        clearAnalyticsCookies();
+      };
+
+      const loadAnalytics = () => {
+        window[analyticsDisableKey] = false;
+        if (window.neilAshtonAnalyticsLoaded) {
+          window.gtag?.('consent', 'update', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'granted',
+          });
+          trackOutboundLinks();
+          return;
+        }
+        window.neilAshtonAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag('consent', 'default', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'granted',
+        });
+        window.gtag('js', new Date());
+        window.gtag('config', measurementId, {
+          allow_google_signals: false,
+          anonymize_ip: true,
+        });
+
+        const analyticsScript = document.createElement('script');
+        analyticsScript.async = true;
+        analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+        document.head.appendChild(analyticsScript);
+        trackOutboundLinks();
+      };
+
+      const showBanner = (moveFocus = false) => {
+        if (!banner) return;
+        banner.hidden = false;
+        if (moveFocus) acceptButton?.focus();
+      };
+
+      const hideBanner = () => {
+        if (banner) banner.hidden = true;
+      };
+
+      acceptButton?.addEventListener('click', () => {
+        currentConsent = 'granted';
+        writeConsent('granted');
+        hideBanner();
+        loadAnalytics();
+      });
+
+      declineButton?.addEventListener('click', () => {
+        currentConsent = 'denied';
+        writeConsent('denied');
+        disableAnalytics();
+        hideBanner();
+      });
+
+      settingsButtons.forEach((button) => button.addEventListener('click', () => showBanner(true)));
+
+      currentConsent = readConsent();
+      if (currentConsent === 'granted') {
+        loadAnalytics();
+      } else if (currentConsent === 'denied') {
+        disableAnalytics();
+      } else {
+        showBanner(false);
+      }
+    })();
   </script>
 {% endif %}
 {% if site.enable_cronitor_analytics %}

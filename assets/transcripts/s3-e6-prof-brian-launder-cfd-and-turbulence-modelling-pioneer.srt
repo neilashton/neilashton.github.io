@@ -357,8 +357,8 @@ Spalart, Menter and
 
 73
 00:04:11,760 --> 00:04:14,720
-Wilcox and of course, you know,
-Professor Launder's gentleman.
+Wilcox and, of course, you know,
+Professor Launder is a gentleman.
 
 74
 00:04:14,720 --> 00:04:17,640
@@ -582,8 +582,8 @@ What would a top American
 
 118
 00:06:57,720 --> 00:07:00,920
-University do having a thick O
-like Q?
+university do, having a thicko
+like you?
 
 119
 00:07:01,080 --> 00:07:04,360
@@ -863,7 +863,7 @@ It's not enforceable.
 174
 00:11:01,360 --> 00:11:06,200
 And I'm sure MIT will take in a
-thick O like you, They'll,
+thicko like you. They'll,
 
 175
 00:11:06,240 --> 00:11:09,760
@@ -1526,7 +1526,7 @@ Did it feel like progression
 
 307
 00:20:17,480 --> 00:20:20,360
-with Spaulding now as a fellow
+with Spalding now as a fellow
 member of the academic staff?
 
 308
@@ -1807,7 +1807,7 @@ It it had the mixing length
 363
 00:24:09,480 --> 00:24:13,840
 hypothesis.
-Prandtl's 1925 paper In There
+Prandtl's 1925 paper. In there,
 
 364
 00:24:15,800 --> 00:24:19,920
@@ -1886,7 +1886,7 @@ by the square of length scale.
 
 379
 00:25:22,800 --> 00:25:27,240
-OK, well one day Spaulding said
+OK, well one day Spalding said
 to me, hey, would you like to
 
 380
@@ -1941,7 +1941,7 @@ and came across a paper by
 
 390
 00:26:06,400 --> 00:26:12,320
-somebody called Davidoff, which
+somebody called Davidov, which
 advocated in an otherwise
 
 391
@@ -2026,7 +2026,7 @@ the group's work should focus on
 
 407
 00:27:29,440 --> 00:27:33,640
-what he called the K epsilon
+what he called the k-epsilon
 model rather than either of the
 
 408
@@ -2036,7 +2036,7 @@ Of course, this model that we
 
 409
 00:27:37,800 --> 00:27:42,280
-arrived at, the K epsilon Eddy
+arrived at, the k-epsilon eddy
 viscosity model, wasn't any good
 
 410
@@ -2416,7 +2416,7 @@ The next major change in my own
 485
 00:33:09,520 --> 00:33:14,960
 career also arose indirectly
-from Brian Spaulding with the
+from Brian Spalding with the
 
 486
 00:33:15,040 --> 00:33:18,000
@@ -2685,7 +2685,7 @@ And I softened that by buying,
 539
 00:37:15,640 --> 00:37:21,600
 buying a property in France.
-My contractor Davis was for nine
+My contract at Davis was for nine
 
 540
 00:37:21,600 --> 00:37:26,520
@@ -4363,7 +4363,7 @@ whether people are inherently
 875
 01:01:04,760 --> 01:01:08,280
 favouring simpler models.
-And so the K epsilon it's
+And so the k-epsilon, it's
 
 876
 01:01:08,360 --> 01:01:11,320
@@ -4393,22 +4393,22 @@ But nowadays 1 is, is looking at
 881
 01:01:28,640 --> 01:01:34,880
 a situation where computers have
-developed so much that if K
+developed so much that if the
 
 882
 01:01:34,880 --> 01:01:40,040
-epsilon isn't good enough,
+k-epsilon model isn't good enough,
 perhaps you should use a hybrid
 
 883
 01:01:40,040 --> 01:01:46,920
-K epsilon LES approach.
+k-epsilon-LES approach.
 Yeah, and LES is conceptually
 
 884
 01:01:46,920 --> 01:01:50,880
 quite simple.
-K epsilon is also pretty simple.
+The k-epsilon model is also pretty simple.
 
 885
 01:01:51,360 --> 01:01:55,360
@@ -4477,7 +4477,7 @@ the time, Kazuhiko Suga, to work
 
 898
 01:02:43,280 --> 01:02:47,000
-on me and I've I'd figured that
+with me, and I'd figured that
 they wouldn't be interested in
 
 899
@@ -4997,7 +4997,7 @@ listening that I studied at
 1002
 01:10:42,480 --> 01:10:45,040
 Manchester University with
-Alistair as well.
+Alastair as well.
 
 1003
 01:10:45,120 --> 01:10:49,000
@@ -5230,7 +5230,7 @@ aware of and it's probably one
 
 1049
 01:13:37,560 --> 01:13:40,360
-of the reasons that Alistair
+of the reasons that Alastair
 works where he does now at the
 
 1050
@@ -5435,7 +5435,7 @@ UMIST had had done for me.
 1090
 01:16:09,560 --> 01:16:17,280
 You got communications from
-Horace Lambb, George Stokes, from
+Horace Lamb, George Stokes, from
 
 1091
 01:16:17,280 --> 01:16:21,600
@@ -5700,7 +5700,7 @@ I might have.
 1143
 01:19:57,080 --> 01:20:00,400
 So that started following Brian
-Spaulding's death.
+Spalding's death.
 
 1144
 01:20:00,440 --> 01:20:05,000

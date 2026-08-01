@@ -60,7 +60,7 @@ So my guest today is Professor
 
 13
 00:00:44,160 --> 00:00:48,520
-Nathan Kutz, our true pioneer
+Nathan Kutz, a true pioneer
 at the intersection of machine
 
 14
@@ -216,7 +216,7 @@ He actually spent time
 44
 00:02:37,000 --> 00:02:40,680
 sabbatical working alongside
-Formula One in with the McLaren
+Formula One with the McLaren
 
 45
 00:02:40,680 --> 00:02:43,280
@@ -5250,12 +5250,12 @@ these these guys wrote from sort
 
 1051
 01:04:13,360 --> 01:04:19,000
-of a largely a Oxford Cambridge
-collaboration called Arti
+of a largely Oxford-Cambridge
+collaboration called
 
 1052
 01:04:19,000 --> 01:04:20,440
-craft.
+Articraft.
 Maybe you saw this one.
 
 1053
@@ -5451,7 +5451,7 @@ like, like if they were just
 1091
 01:06:51,480 --> 01:06:54,640
 sitting at Stanford, like I have
-my friends there, Ali Labs, one
+my friends there, Ali's lab. One
 
 1092
 01:06:54,640 --> 01:06:57,400
@@ -5520,7 +5520,7 @@ Like so if you I think that
 
 1105
 01:07:50,840 --> 01:07:56,160
-stills really great strategy is
+still a really great strategy is
 that, you know, even here at
 
 1106

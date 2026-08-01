@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Podcast
+title: The Neil Ashton Podcast
+nav_title: Podcast
+meta_title: The Neil Ashton Podcast | AI, CFD & Computational Engineering
 permalink: /podcasts/
-description: The Neil Ashton Podcast is a series of long-form interviews on artificial intelligence, simulation, high-performance computing, aerodynamics, and engineering research.
+description: The Neil Ashton Podcast explores AI, computational fluid dynamics, simulation, aerodynamics, high-performance computing and engineering careers in depth.
 nav: true
 nav_order: 5
 schema_type: PodcastSeries

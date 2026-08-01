@@ -128,11 +128,11 @@ because he developed one of the key turbulence models,
 
 33
 00:01:44,800 --> 00:01:45,019
-the K
+the k–ω
 
 34
 00:01:45,169 --> 00:01:49,550
-OS ST that really has been responsible for so many
+SST model that really has been responsible for so many
 
 35
 00:01:50,080 --> 00:01:52,830
@@ -216,7 +216,7 @@ but more about him as a as a person and his life story and his journey into CFD.
 
 55
 00:02:53,479 --> 00:02:55,800
-We talk about how he started von Carmen
+We talk about how he started at the von Kármán
 
 56
 00:02:56,429 --> 00:02:58,250
@@ -236,7 +236,7 @@ was also when Philippe
 
 60
 00:03:10,509 --> 00:03:14,729
-Baard, arguably another person with a surname that it's, uh, very famous
+Spalart, arguably another person with a surname that is, uh, very famous
 
 61
 00:03:15,179 --> 00:03:17,029
@@ -300,11 +300,11 @@ understand that that sort of thought process,
 
 76
 00:04:02,660 --> 00:04:05,300
-you know, he's spent many decades at a N
+you know, he's spent many decades
 
 77
 00:04:05,479 --> 00:04:05,949
-SI
+at Ansys
 
 78
 00:04:06,710 --> 00:04:07,690
@@ -312,11 +312,11 @@ and has
 
 79
 00:04:07,889 --> 00:04:09,639
-gone beyond, of course, just the K
+gone beyond, of course, just the k–ω
 
 80
 00:04:09,779 --> 00:04:11,210
-OS ST model
+SST model
 
 81
 00:04:11,979 --> 00:04:16,369
@@ -332,7 +332,7 @@ and and I'm sure, is a
 
 84
 00:04:19,928 --> 00:04:24,529
-key figure inside of of, of a N SI in terms of what they what they do.
+key figure inside Ansys in terms of what they do.
 
 85
 00:04:25,010 --> 00:04:29,040
@@ -460,7 +460,7 @@ But arguably, what a lot of people know you for is,
 
 116
 00:05:57,739 --> 00:05:59,700
-you know, the K OS ST model.
+you know, the k–ω SST model.
 
 117
 00:06:00,630 --> 00:06:02,250
@@ -508,7 +508,7 @@ And the way I got into CFD is there was on the blackboard.
 
 128
 00:06:41,239 --> 00:06:42,670
-There was an announcement from the Von K
+There was an announcement from the von Kármán
 
 129
 00:06:42,890 --> 00:06:43,529
@@ -540,11 +540,11 @@ I got into CFD. And I had a diploma thesis on on numerics there,
 
 136
 00:07:01,809 --> 00:07:06,329
-And, uh, and after that, uh, my professor, I was in Klaus
+And, uh, after that—I was in Clausthal-
 
 137
 00:07:06,790 --> 00:07:06,869
-Teel,
+Zellerfeld,
 
 138
 00:07:07,049 --> 00:07:08,410
@@ -552,7 +552,7 @@ a very small university.
 
 139
 00:07:08,420 --> 00:07:12,320
-My professor was working actually mainly at the DLR in Gottingen.
+My professor was working actually mainly at the DLR in Göttingen.
 
 140
 00:07:13,140 --> 00:07:19,029
@@ -564,7 +564,7 @@ But I didn't do any. Really. Didn't do any turbulence modelling. It was mostly, 
 
 142
 00:07:24,700 --> 00:07:26,670
-code development parallelised Navier–
+code development, parabolized Navier–
 
 143
 00:07:26,899 --> 00:07:28,989
@@ -576,15 +576,15 @@ Uh, my boss was
 
 145
 00:07:31,290 --> 00:07:31,390
-Mayer
+Uli
 
 146
 00:07:31,619 --> 00:07:35,480
-and they had it was an experimental group and they had done a lot of measurements.
+Meier. It was an experimental group, and they had done a lot of measurements.
 
 147
 00:07:35,489 --> 00:07:36,869
-You probably know this prolate F
+You probably know this prolate spheroid
 
 148
 00:07:37,070 --> 00:07:37,929
@@ -640,11 +640,11 @@ so. That's how I got into CFD. And there were some, you know, interactions with
 
 161
 00:08:15,750 --> 00:08:18,440
-international groups because everybody was computing the pro
+international groups because everybody was computing the prolate
 
 162
 00:08:18,670 --> 00:08:19,779
-Ferried at the time
+spheroid at the time.
 
 163
 00:08:20,250 --> 00:08:24,160
@@ -656,11 +656,11 @@ C
 
 165
 00:08:24,750 --> 00:08:28,359
-PC. You might you might know the name. He was head of aerodynamics
+Cebeci. You might know the name. He was head of aerodynamics
 
 166
 00:08:28,470 --> 00:08:30,010
-at McDonald Douglas and
+at McDonnell Douglas, and
 
 167
 00:08:30,140 --> 00:08:32,450
@@ -668,7 +668,7 @@ some people from from NASA Ames like
 
 168
 00:08:32,640 --> 00:08:32,739
-toe
+Tom Coakley
 
 169
 00:08:34,330 --> 00:08:35,000
@@ -748,11 +748,11 @@ that's correct what he's saying. It was essentially between
 
 188
 00:09:21,400 --> 00:09:21,440
-Tosa,
+Tuncer
 
 189
 00:09:21,590 --> 00:09:21,669
-Sibisi
+Cebeci
 
 190
 00:09:21,830 --> 00:09:22,570
@@ -788,7 +788,7 @@ And, uh, my boss,
 
 198
 00:09:42,809 --> 00:09:42,969
-Uli Maya
+Uli Meier,
 
 199
 00:09:43,140 --> 00:09:44,880
@@ -832,15 +832,15 @@ So they passed it on to NASA Ames
 
 209
 00:10:15,570 --> 00:10:17,380
-and they ended up on on Joe's
+and it ended up on Joe
 
 210
 00:10:17,830 --> 00:10:20,900
-desk and he said, Well, you know, I know the guy.
+Steger’s desk, and he said, Well, you know, I know the guy.
 
 211
 00:10:21,460 --> 00:10:24,809
-That was the guy who picked a fight with TCP C. You know, in this
+That was the guy who picked a fight with Tuncer Cebeci, you know, in this
 
 212
 00:10:24,919 --> 00:10:24,950
@@ -1068,15 +1068,15 @@ And of course, it was a bit controversial.
 
 268
 00:12:56,760 --> 00:12:59,500
-Also the book It was this, you know, the struggle between K
+Also the book. It was this, you know, the struggle between k–
 
 269
 00:12:59,650 --> 00:13:00,299
-Omega and K, a
+ω and k–ε
 
 270
 00:13:00,440 --> 00:13:02,799
-salon groups and so forth. And
+groups and so forth. And
 
 271
 00:13:03,119 --> 00:13:06,859
@@ -1100,15 +1100,15 @@ lot of additional blending and damping and whatever functions.
 
 276
 00:13:17,489 --> 00:13:20,400
-And, uh and that was always downfall the century of the
+And, uh, that was always the downfall, essentially, of the
 
 277
 00:13:20,580 --> 00:13:20,619
-Kap
+k–ε
 
 278
 00:13:20,760 --> 00:13:21,559
-Salon. Or that
+model: there
 
 279
 00:13:21,840 --> 00:13:23,770
@@ -1144,7 +1144,7 @@ It was just about the time the computing power on the
 
 287
 00:13:46,840 --> 00:13:51,530
-Y MP the grey was about sufficient to do 3D simulations.
+Cray Y-MP was about sufficient to do 3D simulations.
 
 288
 00:13:51,539 --> 00:13:53,599
@@ -1160,7 +1160,7 @@ in the aerodynamics is they had all used algebraic models. So they had the
 
 291
 00:14:03,289 --> 00:14:05,039
-ABC Smith model or Baldwin Los
+Cebeci–Smith model or Baldwin–Lomax
 
 292
 00:14:05,359 --> 00:14:08,150
@@ -1172,7 +1172,7 @@ because it was mostly two dimensional simulation. So they had
 
 294
 00:14:12,679 --> 00:14:15,130
-for the sections, and you could find the boundary edge, you know,
+for the sections, and you could find the boundary-layer edge, you know,
 
 295
 00:14:15,140 --> 00:14:17,320
@@ -1184,7 +1184,7 @@ and and use these models. But
 
 297
 00:14:19,640 --> 00:14:24,489
-in a 3D flow, you could hardly find the bound edge anymore in a prolate
+in a 3D flow, you could hardly find the boundary-layer edge anymore in a 3D
 
 298
 00:14:24,989 --> 00:14:27,750
@@ -1192,11 +1192,11 @@ separation. It's pretty difficult and ambiguous, So
 
 299
 00:14:28,940 --> 00:14:34,010
-it was clear that there had to be a change in the paradigm from multi
+it was clear that there had to be a change in the paradigm from an algebraic
 
 300
 00:14:34,150 --> 00:14:36,390
-product to transport equation model.
+model to a transport-equation model.
 
 301
 00:14:37,650 --> 00:14:38,130
@@ -1208,7 +1208,7 @@ of course, there was a number of transport equation models out there,
 
 303
 00:14:41,650 --> 00:14:43,460
-most noticeably K up salon.
+most noticeably k–ε.
 
 304
 00:14:43,469 --> 00:14:45,890
@@ -1216,11 +1216,11 @@ But that was industrially mostly used with wall functions,
 
 305
 00:14:45,900 --> 00:14:49,969
-which they also didn't like, and certainly not very suitable for error.
+which they also didn't like, and certainly not very suitable for aeronautical
 
 306
 00:14:50,070 --> 00:14:51,559
-Nautical simulation. So
+simulation. So
 
 307
 00:14:52,159 --> 00:14:54,169
@@ -1248,15 +1248,15 @@ And and so
 
 313
 00:15:05,750 --> 00:15:06,599
-so K. A
+so the k–ε
 
 314
 00:15:06,710 --> 00:15:06,830
-cellar
+model
 
 315
 00:15:06,960 --> 00:15:09,299
-model was really not an option because we all know
+was really not an option because we all know
 
 316
 00:15:09,830 --> 00:15:12,520
@@ -1288,7 +1288,7 @@ and there was different elements out there.
 
 323
 00:15:26,619 --> 00:15:31,260
-And, uh, the k–ω model also had its kind of weaknesses in the boundary
+And, uh, the k–ω model also had its kind of weaknesses at the boundary-layer
 
 324
 00:15:31,390 --> 00:15:33,929
@@ -1332,7 +1332,7 @@ Then,
 
 334
 00:15:53,960 --> 00:15:56,409
-to distinguish between the boundary and the free, she
+to distinguish between the boundary layer and the free-shear
 
 335
 00:15:56,570 --> 00:15:56,950
@@ -1368,7 +1368,7 @@ K
 
 343
 00:16:17,219 --> 00:16:20,280
-Omega. Then in the middle of the boundary layer is was Johnson King.
+ω. Then in the middle of the boundary layer it was Johnson–King.
 
 344
 00:16:20,289 --> 00:16:23,320
@@ -1380,11 +1380,11 @@ which Dennis had explained to me in large detail.
 
 346
 00:16:26,729 --> 00:16:29,690
-And then near the edge of the boundary, we blended in a bit of K EP salon
+And then near the edge of the boundary layer, we blended in a bit of k–ε
 
 347
 00:16:29,849 --> 00:16:33,140
-to avoid this care, make a free stream problems.
+to avoid the k–ω free-stream problem.
 
 348
 00:16:33,590 --> 00:16:35,799
@@ -1416,7 +1416,7 @@ for
 
 355
 00:16:49,000 --> 00:16:51,520
-for boundary layer separation and for free she flows.
+for boundary-layer separation and for free-shear flows.
 
 356
 00:16:51,530 --> 00:16:52,909
@@ -1424,7 +1424,7 @@ You have to have some distinction.
 
 357
 00:16:52,919 --> 00:16:55,190
-You have to have some volt distance information there.
+You have to have some wall-distance information there.
 
 358
 00:16:56,609 --> 00:16:58,690
@@ -1432,11 +1432,11 @@ And the same is true actually for
 
 359
 00:16:59,159 --> 00:16:59,570
-Mars, right?
+Spalart–Allmaras, right?
 
 360
 00:16:59,580 --> 00:17:01,849
-It also has this wall distance dependent term,
+It also has this wall-distance-dependent term,
 
 361
 00:17:01,859 --> 00:17:03,799
@@ -1444,7 +1444,7 @@ so it can be calibrated differently for the
 
 362
 00:17:03,809 --> 00:17:05,449
-boundary layer than for the mixing there.
+boundary layer than for the mixing layer.
 
 363
 00:17:06,420 --> 00:17:08,650
@@ -1464,7 +1464,7 @@ Uh, Michael
 
 367
 00:17:17,339 --> 00:17:17,689
-Horman.
+Horstman.
 
 368
 00:17:18,290 --> 00:17:20,479
@@ -1744,7 +1744,7 @@ They would say that never gonna work.
 
 437
 00:20:34,369 --> 00:20:36,229
-But now that they would say, Hey, that'SA great idea.
+But now they would say, Hey, that’s a great idea.
 
 438
 00:20:37,989 --> 00:20:38,270
@@ -1800,7 +1800,7 @@ and
 
 451
 00:21:18,890 --> 00:21:23,930
-you then came up with a model. Do you remember going to the A IA A. Did people
+you then came up with a model. Do you remember going to the AIAA? Did people
 
 452
 00:21:24,459 --> 00:21:26,770
@@ -1832,7 +1832,7 @@ and and, of course, if we went. We always went to Reno. There was every year in
 
 459
 00:21:50,030 --> 00:21:53,770
-winter. There was the Reno conference at the AAA conference.
+winter, there was the AIAA conference in Reno.
 
 460
 00:21:54,369 --> 00:21:55,089
@@ -2068,11 +2068,11 @@ nobody had a model which was really working for this application.
 
 518
 00:24:43,030 --> 00:24:44,660
-So that's also the same with this Pala
+So that's also the same with this Spalart–
 
 519
 00:24:45,040 --> 00:24:47,300
-Morris model. I mean, that was also at that time.
+Allmaras model. I mean, that was also at that time.
 
 520
 00:24:47,550 --> 00:24:51,459
@@ -2116,11 +2116,11 @@ And then,
 
 530
 00:25:20,520 --> 00:25:21,170
-Yeah, there. Balata,
+Yeah, the Spalart–
 
 531
 00:25:21,369 --> 00:25:24,079
-Marra. Very similar time in the same place. So did you.
+Allmaras model—very similar time in the same place. So did you
 
 532
 00:25:24,890 --> 00:25:25,709
@@ -2152,11 +2152,11 @@ of the situation that you remember?
 
 539
 00:25:40,530 --> 00:25:41,670
-Well, I mean, Tate
+Well, I mean, turbulence
 
 540
 00:25:42,000 --> 00:25:46,469
-models are competitive, and and I learned that also from from Wilcox,
+models are competitive, and I learned that also from Wilcox;
 
 541
 00:25:46,479 --> 00:25:47,910
@@ -2184,11 +2184,11 @@ also came from two very unlikely candidates. So it was the
 
 547
 00:26:06,199 --> 00:26:08,189
-Baldwin bars model at the time,
+Baldwin–Barth model at the time,
 
 548
 00:26:08,640 --> 00:26:10,280
-and they were based in American ski.
+and they were both numerics guys.
 
 549
 00:26:10,410 --> 00:26:13,680
@@ -2208,43 +2208,43 @@ I would need two equations to solve before you
 
 553
 00:26:22,290 --> 00:26:23,989
-get a eddy viscosity. So
+get an eddy viscosity. So
 
 554
 00:26:24,329 --> 00:26:27,219
-they, uh, they came up with a transport equation for the
+they, uh, came up with a transport equation for the
 
 555
 00:26:27,810 --> 00:26:28,280
-native. And
+eddy viscosity. And
 
 556
 00:26:28,900 --> 00:26:31,079
-the problem is, the, uh the
+the problem with the
 
 557
 00:26:31,319 --> 00:26:32,430
-viscosity equation is
+eddy-viscosity equation is
 
 558
 00:26:32,650 --> 00:26:35,589
-you need a sync term, and that sync term doesn't come naturally.
+you need a sink term, and that sink term doesn't come naturally.
 
 559
 00:26:35,599 --> 00:26:39,209
-So if you if you transform a k–ω k–ε into k–ω
+So if you transform k–ω or k–ε
 
 560
 00:26:39,319 --> 00:26:39,800
-into N
+into an eddy
 
 561
 00:26:39,979 --> 00:26:41,449
-viscosity, you don't have a
+viscosity equation, you don't have an
 
 562
 00:26:41,709 --> 00:26:43,020
-algebraic sync term.
+algebraic sink term.
 
 563
 00:26:43,030 --> 00:26:45,790
@@ -2256,11 +2256,11 @@ which are not so numerically, uh, you know, easy to handle.
 
 565
 00:26:49,770 --> 00:26:53,079
-So they had a cross diffusion term as a sync term, which was gradient
+So they had a cross-diffusion term as a sink term, which was gradient
 
 566
 00:26:53,180 --> 00:26:55,849
-gradient eddy viscosity, gradient viscosity,
+eddy viscosity, gradient eddy viscosity,
 
 567
 00:26:56,479 --> 00:26:57,869
@@ -2268,7 +2268,7 @@ and and that term, uh,
 
 568
 00:26:57,880 --> 00:27:01,910
-turned out to be catastrophic near the boundary edge because it had
+turned out to be catastrophic near the boundary-layer edge because it had
 
 569
 00:27:01,969 --> 00:27:05,300
@@ -2276,7 +2276,7 @@ about the same destructive behaviour near the wall where you wanted it,
 
 570
 00:27:05,479 --> 00:27:09,689
-as it had at the boundary edge, where it was also going with a large gradient.
+as it had at the boundary-layer edge, where it was also going with a large gradient.
 
 571
 00:27:09,699 --> 00:27:11,180
@@ -2284,7 +2284,7 @@ And then, if you refine the mesh,
 
 572
 00:27:11,569 --> 00:27:13,030
-the sheer layers will collapse,
+the shear layers would collapse,
 
 573
 00:27:13,040 --> 00:27:16,380
@@ -2336,7 +2336,7 @@ is proportional to the strain rate.
 
 585
 00:27:49,959 --> 00:27:53,920
-And in in sheer layers and lock layers, that's exact,
+And in shear layers and log layers, that's exact,
 
 586
 00:27:54,329 --> 00:27:54,709
@@ -2360,15 +2360,15 @@ Get an exact transformation of k–ε
 
 591
 00:28:08,300 --> 00:28:10,839
-to k–ω, and it it It has the form
+to k–ω, and it has the von Kármán
 
 592
 00:28:11,079 --> 00:28:11,199
-common
+length
 
 593
 00:28:11,300 --> 00:28:12,079
-length scale in there,
+scale in there,
 
 594
 00:28:13,270 --> 00:28:14,530
@@ -2380,7 +2380,7 @@ So you get the first derivative divided by the second derivative, Uh,
 
 596
 00:28:17,569 --> 00:28:21,500
-and and of course, they come from karma length scale, Uh, is is yeah, it'SA bit
+and, of course, the von Kármán length scale is, yeah, a bit
 
 597
 00:28:21,939 --> 00:28:25,489
@@ -2392,7 +2392,7 @@ is a bit fragile.
 
 599
 00:28:27,410 --> 00:28:31,609
-Uh, if you have non perfect measures, it can be a bit, uh,
+Uh, if you have non-perfect meshes, it can be a bit, uh,
 
 600
 00:28:32,180 --> 00:28:37,099
@@ -2412,11 +2412,11 @@ also picked up that idea. And there's basically a third concept. So
 
 604
 00:28:45,069 --> 00:28:49,829
-the first source term is the viscosity Gradient squared. The second is basic
+the first source term is the eddy-viscosity gradient squared. The second is eddy
 
 605
 00:28:50,010 --> 00:28:53,010
-viscosity squared, divided by von Kármán length, scale squared.
+viscosity squared, divided by von Kármán length-scale squared.
 
 606
 00:28:53,119 --> 00:28:53,900
@@ -2424,15 +2424,15 @@ And the third
 
 607
 00:28:54,089 --> 00:28:54,630
-term is
+sink term is
 
 608
 00:28:55,099 --> 00:28:56,989
-Avis Cos. Squared by ball distance squared
+eddy viscosity squared by wall distance squared.
 
 609
 00:28:57,189 --> 00:28:57,880
-And as well,
+And Spalart
 
 610
 00:28:58,010 --> 00:29:00,630
@@ -2456,15 +2456,15 @@ So then it also, you know,
 
 615
 00:29:15,260 --> 00:29:19,689
-that that's the source of of this of this whole development at the time was
+that's the source of this whole development. At the time it was
 
 616
 00:29:20,119 --> 00:29:21,380
-Baldwin in part.
+Baldwin and Barth.
 
 617
 00:29:21,540 --> 00:29:25,400
-And so Barry Baldwin, also for some reason, had ended up in our
+And so Barrett Baldwin, also for some reason, had ended up in our
 
 618
 00:29:25,800 --> 00:29:26,479
@@ -2520,7 +2520,7 @@ and it turned out that in Russia there was also, uh, Professor
 
 631
 00:30:00,589 --> 00:30:01,239
-Seko's group.
+Sekundov’s group.
 
 632
 00:30:01,250 --> 00:30:05,250
@@ -3064,7 +3064,7 @@ I mean, sometimes there's really unbelievable things happening in life. So I was
 
 767
 00:36:39,750 --> 00:36:43,860
-in my office and I had a Chinese friend, George Wang from Taiwan
+in my office and I had a Chinese friend, George Wong from Taiwan,
 
 768
 00:36:44,550 --> 00:36:45,969
@@ -3080,7 +3080,7 @@ He had some correspondence with somebody from Germany
 
 771
 00:36:51,969 --> 00:36:54,209
-and he showed me the letter and said, Do you know the guy said Kosho.
+and he showed me the letter and said, Do you know the guy? It said Georg Scheuerer.
 
 772
 00:36:54,540 --> 00:36:54,770
@@ -3100,7 +3100,7 @@ and uh
 
 776
 00:37:03,909 --> 00:37:08,000
-and then I read, OK, there is AC FT company and it's right next to my hometown.
+and then I read, OK, there is a CFD company, and it’s right next to my hometown.
 
 777
 00:37:09,469 --> 00:37:11,350
@@ -3112,11 +3112,11 @@ you know how how big are the chances that, you know,
 
 779
 00:37:13,929 --> 00:37:16,239
-somewhere on the planet there is AC FD company,
+somewhere on the planet there is a CFD company
 
 780
 00:37:16,250 --> 00:37:19,439
-which you can reach almost there in 1520 minutes.
+which you can reach almost there in 15–20 minutes.
 
 781
 00:37:20,209 --> 00:37:23,520
@@ -3132,7 +3132,7 @@ And, uh so I I moved to Germany and, of course, I. I contacted, uh,
 
 784
 00:37:32,270 --> 00:37:32,899
-gag and
+Georg and
 
 785
 00:37:33,090 --> 00:37:34,560
@@ -3404,15 +3404,15 @@ So where was
 
 852
 00:40:41,909 --> 00:40:43,959
-I know? There'SA bit of a history with a
+I know? There’s a bit of a history with Ansys
 
 853
 00:40:44,189 --> 00:40:44,199
-I
+and
 
 854
 00:40:44,370 --> 00:40:47,370
-and like, acquisitions and different companies. So how did you
+acquisitions and different companies. So how did you
 
 855
 00:40:47,679 --> 00:40:49,139
@@ -3444,7 +3444,7 @@ and stay,
 
 862
 00:41:02,300 --> 00:41:07,320
-and everything else was just acquisition. So we were brought up, then by the
+and everything else was just acquisitions. So we were bought up, then, by the
 
 863
 00:41:07,919 --> 00:41:10,110
@@ -3452,7 +3452,7 @@ Atomic Energy Authority in England.
 
 864
 00:41:10,120 --> 00:41:14,239
-They developed the C FX four code for nuclear safety applications. And
+They developed the CFX-4 code for nuclear-safety applications. And
 
 865
 00:41:14,989 --> 00:41:17,090
@@ -3460,11 +3460,11 @@ it was the time of privatisation,
 
 866
 00:41:17,780 --> 00:41:21,409
-right? So the British government had decided to float the A
+right? So the British government had decided to float the
 
 867
 00:41:21,530 --> 00:41:22,370
-IAE a
+AEA
 
 868
 00:41:22,739 --> 00:41:24,330
@@ -3508,7 +3508,7 @@ So it was It was not a good place to be.
 
 878
 00:41:50,270 --> 00:41:54,429
-And then, fortunately, we got eventually bought up by a N SI, which, of course,
+And then, fortunately, we were eventually bought by Ansys, which, of course,
 
 879
 00:41:54,439 --> 00:41:56,270
@@ -3532,7 +3532,7 @@ they made a difference for us. And and, uh so we were quite happy.
 
 884
 00:42:03,699 --> 00:42:07,649
-And, of course, then came the Big Bang and the NC bought fluent, which, of course,
+And, of course, then came the Big Bang and Ansys bought Fluent, which, of course,
 
 885
 00:42:07,659 --> 00:42:09,030
@@ -3704,7 +3704,7 @@ it sounded like then? For a bit?
 
 927
 00:43:59,239 --> 00:44:03,679
-You weren't maybe on hardcore research as much on the turbin modelling side.
+You weren't maybe on hardcore research as much on the turbulence-modelling side.
 
 928
 00:44:04,429 --> 00:44:05,530
@@ -3788,7 +3788,7 @@ And of course,
 
 948
 00:44:58,649 --> 00:45:02,469
-there were specific transition models for aeronautics e^N method.
+there were specific transition models for aeronautics—the e^N method.
 
 949
 00:45:02,510 --> 00:45:05,739
@@ -3876,7 +3876,7 @@ then I had this.
 
 970
 00:45:54,959 --> 00:45:56,679
-It'SA small idea.
+It’s a small idea.
 
 971
 00:45:57,020 --> 00:46:01,429
@@ -3976,7 +3976,7 @@ then I had a student,
 
 995
 00:46:54,120 --> 00:46:57,489
-Katy from Poland, to to work, you know, for half a year.
+Sławomir Kubacki from Poland, to work, you know, for half a year.
 
 996
 00:46:57,500 --> 00:47:00,110
@@ -4028,7 +4028,7 @@ Not all of them, but the big ones.
 
 1008
 00:47:31,780 --> 00:47:35,629
-The cheese and Pratt and Whitney and Rolls Royce and so forth.
+GE and Pratt & Whitney and Rolls-Royce and so forth.
 
 1009
 00:47:36,500 --> 00:47:38,739
@@ -4056,7 +4056,7 @@ and they decided, Well, let's let's give it a shot.
 
 1015
 00:47:55,290 --> 00:47:59,540
-And then they funded it for, I think, three years and we hired Robin Langtree,
+And then they funded it for, I think, three years and we hired Robin Langtry,
 
 1016
 00:47:59,899 --> 00:48:04,919
@@ -4068,11 +4068,11 @@ So he had a good flying start and
 
 1018
 00:48:07,520 --> 00:48:08,780
-and that was then the Gamma
+and that was then the γ–Reθ
 
 1019
 00:48:08,959 --> 00:48:09,540
-Theta model.
+model.
 
 1020
 00:48:09,550 --> 00:48:14,699
@@ -4080,7 +4080,7 @@ Eventually, which resulted from his PhD thesis that he wrote on on that topic. A
 
 1021
 00:48:15,040 --> 00:48:19,270
-of course, these models then multiplied and multiplied, so there'SA whole
+of course, these models then multiplied and multiplied, so there’s a whole
 
 1022
 00:48:19,929 --> 00:48:20,879
@@ -4136,11 +4136,11 @@ have all sorts of problems, and and
 
 1035
 00:48:58,129 --> 00:49:01,120
-and so we we went back, you know, starting this gamma
+and so we went back, you know, starting with this γ–Reθ
 
 1036
 00:49:01,389 --> 00:49:03,919
-theta. And then we had the gamma one equation model.
+model. And then we had the gamma one-equation model.
 
 1037
 00:49:03,929 --> 00:49:08,560
@@ -4212,7 +4212,7 @@ And, of course, accuracy
 
 1054
 00:49:50,090 --> 00:49:52,620
-is rents. I mean, it's not not
+is RANS. I mean, it’s not
 
 1055
 00:49:53,689 --> 00:49:56,919
@@ -4232,15 +4232,15 @@ we have a lot of customers, which use it in very different applications from
 
 1059
 00:50:05,340 --> 00:50:05,560
-win.
+wind turbines.
 
 1060
 00:50:05,739 --> 00:50:07,810
-And there'SA huge range of applications. Turbo
+And there’s a huge range of applications: turbo-
 
 1061
 00:50:08,179 --> 00:50:08,610
-machinery win
+machinery, wind turbines,
 
 1062
 00:50:09,610 --> 00:50:14,669
@@ -4252,7 +4252,7 @@ have the same type of problems,
 
 1064
 00:50:17,639 --> 00:50:21,239
-so it'SA it'SA philtre kind of a niche there.
+so it’s filled kind of a niche there.
 
 1065
 00:50:22,050 --> 00:50:24,080
@@ -4304,7 +4304,7 @@ do you fully make something open? At what point is it commercial like?
 
 1077
 00:50:55,250 --> 00:50:57,620
-Yeah, of course. That'SA That'SA That's
+Yeah, of course. That’s a—that’s
 
 1078
 00:50:57,729 --> 00:50:57,739
@@ -4456,7 +4456,7 @@ uh,
 
 1115
 00:52:37,689 --> 00:52:39,620
-there'SA discrepancy between the large
+there’s a discrepancy between the large
 
 1116
 00:52:39,629 --> 00:52:41,750
@@ -4504,7 +4504,7 @@ were that kind of key era.
 
 1127
 00:53:10,719 --> 00:53:13,760
-And then I know there have been plenty of models of public sins.
+And then I know there have been plenty of models published since.
 
 1128
 00:53:14,100 --> 00:53:16,179
@@ -4592,7 +4592,7 @@ We
 
 1149
 00:54:06,489 --> 00:54:07,209
-do. L DS and
+do LES, and
 
 1150
 00:54:07,429 --> 00:54:10,889
@@ -4628,19 +4628,19 @@ machine
 
 1158
 00:54:30,189 --> 00:54:30,679
-they have in
+they have inviscid
 
 1159
 00:54:30,879 --> 00:54:30,909
-VSI
+flow
 
 1160
 00:54:31,030 --> 00:54:35,310
-codes, they have one D codes where they have the channel, and then they have in
+codes, they have 1D codes where they have the channel, and then they have inviscid
 
 1161
 00:54:35,479 --> 00:54:35,510
-vsi
+flow
 
 1162
 00:54:35,649 --> 00:54:39,179
@@ -4648,7 +4648,7 @@ codes. And then they have this and that. So they they will always
 
 1163
 00:54:39,899 --> 00:54:41,530
-have some place where they do a quick R
+have some place where they do a quick RANS
 
 1164
 00:54:41,770 --> 00:54:46,679
@@ -4680,7 +4680,7 @@ But otherwise
 
 1171
 00:55:03,479 --> 00:55:06,060
-the rents models will be around. Why would anybody
+the RANS models will be around. Why would anybody
 
 1172
 00:55:06,449 --> 00:55:08,479
@@ -4712,11 +4712,11 @@ codes and things coming out
 
 1179
 00:55:25,260 --> 00:55:27,360
-where they don't even have rounds implemented?
+where they don’t even have RANS implemented?
 
 1180
 00:55:28,530 --> 00:55:32,760
-Um, you know, And so I'm wondering, is that almost a mistake? That there'SA
+Um, you know, and so I’m wondering: is that almost a mistake? That there’s a
 
 1181
 00:55:33,459 --> 00:55:35,389
@@ -4748,11 +4748,11 @@ But, um, what has been your
 
 1188
 00:55:51,219 --> 00:55:54,629
-so obviously one of the other big ones was the SBS and now looking at
+so obviously one of the other big ones was SAS, and now looking at
 
 1189
 00:55:54,850 --> 00:55:58,689
-W de S. Where do you see that, though? Is it becoming far more?
+wall-modelled LES. Where do you see that, though? Is it becoming far more common?
 
 1190
 00:55:59,100 --> 00:56:01,820
@@ -4780,7 +4780,7 @@ they were still using
 
 1196
 00:56:13,510 --> 00:56:13,530
-R.
+RANS.
 
 1197
 00:56:13,939 --> 00:56:15,919
@@ -4800,7 +4800,7 @@ There's no question about it.
 
 1201
 00:56:24,629 --> 00:56:26,560
-Uh, there'SA lot of applications.
+Uh, there’s a lot of applications.
 
 1202
 00:56:26,570 --> 00:56:29,120
@@ -4808,7 +4808,7 @@ It started probably with combustion being one of
 
 1203
 00:56:29,129 --> 00:56:32,409
-the main AES or hybrid application areas,
+the main LES or hybrid application areas,
 
 1204
 00:56:32,419 --> 00:56:32,870
@@ -4816,7 +4816,7 @@ because
 
 1205
 00:56:33,020 --> 00:56:33,179
-rs
+RANS
 
 1206
 00:56:33,340 --> 00:56:33,449
@@ -4824,7 +4824,7 @@ in
 
 1207
 00:56:33,719 --> 00:56:34,570
-this I mean RS
+this—I mean, RANS
 
 1208
 00:56:34,739 --> 00:56:37,260
@@ -4856,7 +4856,7 @@ we saw these pizza shaped separations on the
 
 1215
 00:56:48,379 --> 00:56:51,050
-high lift air forces and then that's that.
+high-lift airfoils, and then that’s that.
 
 1216
 00:56:51,300 --> 00:56:51,689
@@ -4872,11 +4872,11 @@ options scale resolving is obviously necessary,
 
 1219
 00:57:00,250 --> 00:57:02,409
-and free share flows often have that.
+and free-shear flows often have that.
 
 1220
 00:57:02,419 --> 00:57:06,790
-So, uh, free share flows are also much cheaper to compute with LES.
+So, uh, free-shear flows are also much cheaper to compute with LES.
 
 1221
 00:57:07,340 --> 00:57:09,629
@@ -4916,7 +4916,7 @@ I mean
 
 1230
 00:57:26,729 --> 00:57:29,780
-bounded LES in any form wall function wall modelled anything.
+wall-bounded LES in any form—wall-function, wall-modelled, anything—
 
 1231
 00:57:29,790 --> 00:57:31,979
@@ -4936,7 +4936,7 @@ into the range of where that becomes feasible.
 
 1235
 00:57:43,580 --> 00:57:48,120
-If I look, for example, at the automotive drive air kind of simulations,
+If I look, for example, at the automotive DrivAer simulations,
 
 1236
 00:57:49,250 --> 00:57:54,389
@@ -4944,7 +4944,7 @@ if I look at the boundary layer between the SST and wall-function LES,
 
 1237
 00:57:55,179 --> 00:57:58,459
-I think the bound is better captured with the with the R
+I think the boundary layer is better captured with the RANS
 
 1238
 00:57:58,629 --> 00:57:59,129
@@ -4964,7 +4964,7 @@ You need a lot of points. You can
 
 1242
 00:58:07,540 --> 00:58:10,929
-You can do a pretty good job, actually, in a very co mes surprisingly,
+You can do a pretty good job, actually, on a fairly coarse mesh, surprisingly,
 
 1243
 00:58:11,300 --> 00:58:14,120
@@ -4988,11 +4988,11 @@ So you have you have LES
 
 1248
 00:58:30,449 --> 00:58:33,370
-in the boundary, being sometimes not more accurate than the kap
+in the boundary layer, sometimes not more accurate than the k–
 
 1249
 00:58:33,530 --> 00:58:33,699
-salon
+ε
 
 1250
 00:58:33,840 --> 00:58:35,939
@@ -5012,11 +5012,11 @@ for example,
 
 1254
 00:58:45,050 --> 00:58:50,229
-is that wall function AES forces you to have a more uniform form. Fine mesh.
+is that wall-function LES forces you to have a more uniform, fine mesh.
 
 1255
 00:58:50,330 --> 00:58:54,550
-So if you if you go from a from a ball bound, it flows into a separation.
+So if you go from wall-bounded flows into a separation,
 
 1256
 00:58:55,040 --> 00:58:57,659
@@ -5032,7 +5032,7 @@ where you have the grey area.
 
 1259
 00:59:00,669 --> 00:59:02,860
-Whatever you want to call this transition zone between Rs
+Whatever you want to call this transition zone between RANS
 
 1260
 00:59:03,040 --> 00:59:03,580
@@ -5044,11 +5044,11 @@ and often that transition zone is also pretty coarsely
 
 1262
 00:59:07,739 --> 00:59:10,439
-disc criticised because you don't know where it is, and
+discretized because you don’t know where it is, and
 
 1263
 00:59:10,739 --> 00:59:13,090
-and these brands, you don't need to have a very fine mesh.
+with RANS, you don’t need to have a very fine mesh.
 
 1264
 00:59:13,449 --> 00:59:13,929
@@ -5100,7 +5100,7 @@ and then it's too far downstream.
 
 1276
 00:59:43,520 --> 00:59:46,949
-And if you do it with LES, there is SST. There is SST model.
+And if you do it with SAS, with the SST model,
 
 1277
 00:59:47,030 --> 00:59:49,429
@@ -5128,7 +5128,7 @@ itself is more accurate than RANS with the
 
 1283
 00:59:58,949 --> 01:00:01,080
-with the measures we can afford these days.
+meshes we can afford these days.
 
 1284
 01:00:01,090 --> 01:00:01,389
@@ -5144,11 +5144,11 @@ Yeah, I thought for that the, um
 
 1287
 01:00:08,689 --> 01:00:10,780
-the whole warm of LES versus hybrid
+the whole wall-modelled LES versus hybrid
 
 1288
 01:00:10,790 --> 01:00:13,570
-rounds versus rounds is an interesting one because
+RANS versus RANS is an interesting one because
 
 1289
 01:00:14,120 --> 01:00:18,810
@@ -5156,7 +5156,7 @@ in some ways it seems to be not a completely fair comparison because
 
 1290
 01:00:19,229 --> 01:00:21,610
-most people when they do a hybrid rounds,
+most people when they do hybrid RANS,
 
 1291
 01:00:22,300 --> 01:00:26,219
@@ -5168,7 +5168,7 @@ whereas a
 
 1293
 01:00:27,750 --> 01:00:29,840
-wall of the ES, by definition,
+wall-modelled LES, by definition,
 
 1294
 01:00:30,399 --> 01:00:31,169
@@ -5236,19 +5236,19 @@ LES?
 
 1310
 01:00:59,699 --> 01:01:03,820
-Well, it's really only the grid that you use in the wall. Functional.
+Well, it’s really only the grid that you use. In wall-function LES,
 
 1311
 01:01:04,020 --> 01:01:07,520
-You basically have your first grid point somewhere in the lock layer cell centre.
+you basically have your first grid point somewhere in the log layer—cell centre,
 
 1312
 01:01:07,530 --> 01:01:09,800
-Whatever you're using, they have that in the lock layer.
+whatever you’re using—you have that in the log layer.
 
 1313
 01:01:09,959 --> 01:01:12,939
-And then you breach everything without the grid. You can have a separate.
+And then you bridge everything without the grid. You can have a separate—
 
 1314
 01:01:12,949 --> 01:01:15,530
@@ -5256,11 +5256,11 @@ Some people have separate meshes into separate simulations.
 
 1315
 01:01:15,649 --> 01:01:22,320
-But on the CFD mesh itself, you have no resolution between the lock layer and the wall
+But on the CFD mesh itself, you have no resolution between the log layer and the wall,
 
 1316
 01:01:22,689 --> 01:01:28,040
-and in a wall modelled LE, we have a resolution we can put in Y plus one meshes. But
+and in wall-modelled LES, we have resolution—we can put in y+ ≈ 1 meshes—but
 
 1317
 01:01:28,280 --> 01:01:31,899
@@ -5268,7 +5268,7 @@ we don't have the computing power to resolve all three dimensions.
 
 1318
 01:01:31,909 --> 01:01:34,270
-So we only refined one and then you have to put in this rs
+So we only refine in one, and then you have to put in this RANS
 
 1319
 01:01:34,580 --> 01:01:35,129
@@ -5276,7 +5276,7 @@ kind of algebraic
 
 1320
 01:01:35,379 --> 01:01:35,500
-RS
+RANS
 
 1321
 01:01:35,679 --> 01:01:36,360
@@ -5304,7 +5304,7 @@ between wall function and wall modelled in our terminology.
 
 1327
 01:01:50,429 --> 01:01:53,659
-Now the problem is wall modelled. You can put in the kind of front model there.
+Now, the problem with wall-modelled LES: you can put a kind of Prandtl model there.
 
 1328
 01:01:53,669 --> 01:01:55,139
@@ -5320,11 +5320,11 @@ but the question is, then how do we handle transition?
 
 1331
 01:02:00,780 --> 01:02:01,689
-Because then the RS
+Because then the RANS
 
 1332
 01:02:01,889 --> 01:02:06,199
-model starts to interfere with 11, apparently, and you have to somehow turn it off,
+model starts to interfere with the laminar boundary layer, and you have to turn it off,
 
 1333
 01:02:06,209 --> 01:02:07,300
@@ -5340,7 +5340,7 @@ friends in Russia.
 
 1336
 01:02:10,639 --> 01:02:14,179
-So we had this, as you know, this strong connection with the Strelitz
+So we had this, as you know, this strong connection with the Strelets
 
 1337
 01:02:14,580 --> 01:02:16,360
@@ -5352,7 +5352,7 @@ which was actually also triangular relationship because
 
 1339
 01:02:20,020 --> 01:02:21,570
-pard had a contract with them And he had
+Spalart had a contract with them, and we had
 
 1340
 01:02:21,959 --> 01:02:21,969
@@ -5388,11 +5388,11 @@ but, yeah, that's
 
 1348
 01:02:39,889 --> 01:02:44,770
-that's where that stands. And they started. Actually, this one model daily as
+that’s where that stands. And they started, actually, this wall-modelled LES.
 
 1349
 01:02:44,949 --> 01:02:45,699
-Professor sh
+Professor Shur
 
 1350
 01:02:45,889 --> 01:02:47,219
@@ -5408,7 +5408,7 @@ models where he used
 
 1353
 01:02:52,159 --> 01:02:54,260
-a frontal mixing ls model near the wall.
+a Prandtl mixing-length model near the wall.
 
 1354
 01:02:55,080 --> 01:02:55,260
@@ -5496,11 +5496,11 @@ And but on the modelling side, we we haven't done much else than anybody else.
 
 1375
 01:04:01,340 --> 01:04:04,330
-And of course, they had these compressibility corrections of Soar
+And of course, there were these compressibility corrections of Sarkar
 
 1376
 01:04:04,709 --> 01:04:09,179
-and others, which were mainly free. She flows and not for boundaries.
+and others, which were mainly for free-shear flows and not for boundary layers.
 
 1377
 01:04:09,189 --> 01:04:10,290
@@ -5568,7 +5568,7 @@ I have not seen, but I might not be aware of all and everything that's out there
 
 1393
 01:04:55,060 --> 01:04:57,729
-There'SA lot of stuff now. Of course, there'SA lot of funding there,
+There’s a lot of stuff now. Of course, there’s a lot of funding there,
 
 1394
 01:04:58,489 --> 01:04:59,209
@@ -5588,11 +5588,11 @@ and it was very hard to reproduce them because sometimes you didn't
 
 1398
 01:05:07,030 --> 01:05:10,389
-know the transition was and what other conditions you could imagine more
+know where the transition was and what other conditions you could match—wall
 
 1399
 01:05:10,639 --> 01:05:10,669
-rough
+roughness
 
 1400
 01:05:10,860 --> 01:05:11,489
@@ -5600,7 +5600,7 @@ and so forth.
 
 1401
 01:05:11,899 --> 01:05:16,229
-But now, with DNS, I'm certain Reynolds numbers are not that high,
+But now, with DNS, at certain Reynolds numbers—not that high—
 
 1402
 01:05:16,239 --> 01:05:19,020
@@ -5660,7 +5660,7 @@ in that realm?
 
 1416
 01:05:57,820 --> 01:06:01,969
-Well, I mean, from from a from AC FT company standpoint.
+Well, I mean, from a CFD company standpoint,
 
 1417
 01:06:01,979 --> 01:06:04,820
@@ -5688,7 +5688,7 @@ I mean if you read, if you read the geometry into A into a meshing geometry tool
 
 1423
 01:06:22,520 --> 01:06:26,189
-shouldn't that to recognise that that'SA car and that's an aeroplane, you know,
+shouldn’t that recognise that that’s a car and that’s an aeroplane, you know,
 
 1424
 01:06:26,199 --> 01:06:28,080
@@ -5744,7 +5744,7 @@ more an add on.
 
 1437
 01:07:13,620 --> 01:07:14,540
-But on the on the R
+But on the RANS
 
 1438
 01:07:14,669 --> 01:07:15,320
@@ -5752,7 +5752,7 @@ side,
 
 1439
 01:07:15,709 --> 01:07:21,570
-there'SA lot of I mean, sometimes it's It's shocking what people do there,
+there’s a lot of—I mean, sometimes it’s shocking what people do there,
 
 1440
 01:07:22,669 --> 01:07:26,090
@@ -5788,7 +5788,7 @@ But then he he examined what his machine learning tool was focusing in on,
 
 1448
 01:07:52,219 --> 01:07:54,360
-and it was essentially mu T of a mu
+and it was essentially μ_t/μ
 
 1449
 01:07:54,969 --> 01:07:58,100
@@ -5808,7 +5808,7 @@ It pick different cases and apparently had different levels
 
 1453
 01:08:06,459 --> 01:08:08,780
-of mu T of a U for coincidence.
+of μ_t/μ by coincidence.
 
 1454
 01:08:09,209 --> 01:08:13,199
@@ -5848,7 +5848,7 @@ project where they tried to generate data,
 
 1463
 01:08:37,330 --> 01:08:41,279
-uh, to use them to train rs
+uh, to use them to train RANS
 
 1464
 01:08:41,529 --> 01:08:44,120
@@ -5864,7 +5864,7 @@ averaged out of DNS.
 
 1467
 01:08:50,180 --> 01:08:52,750
-And then you have at every great point you have all the pressure,
+And then at every grid point you have all the pressure,
 
 1468
 01:08:52,759 --> 01:08:54,160
@@ -5900,7 +5900,7 @@ too large.
 
 1476
 01:09:09,750 --> 01:09:12,399
-And then, of course, you still have the scale equation, the Epsilon,
+And then, of course, you still have the scale equation, the epsilon,
 
 1477
 01:09:12,709 --> 01:09:12,729
@@ -5908,7 +5908,7 @@ the
 
 1478
 01:09:12,879 --> 01:09:15,189
-omic equation, which is not a solid basis.
+the omega equation, which is not a solid basis.
 
 1479
 01:09:15,200 --> 01:09:18,279
@@ -5944,11 +5944,11 @@ uh, it's currently not. It's currently not visible,
 
 1487
 01:09:46,819 --> 01:09:50,089
-but what about the bigger picture? One of so ignoring turb
+but what about the bigger picture? So, ignoring turbulence
 
 1488
 01:09:50,200 --> 01:09:50,959
-modelling per SE?
+modelling per se,
 
 1489
 01:09:51,589 --> 01:09:54,649
@@ -5968,11 +5968,11 @@ you know, reduced order modelling the idea of
 
 1493
 01:10:04,009 --> 01:10:07,569
-mapping an input to an output. You know, don't try and develop a T
+mapping an input to an output. You know, don’t try and develop a turbulence
 
 1494
 01:10:07,729 --> 01:10:10,200
-model just going straight from a to
+model—just going straight from a geometry to
 
 1495
 01:10:10,490 --> 01:10:11,500
@@ -5992,7 +5992,7 @@ do you?
 
 1499
 01:10:17,379 --> 01:10:21,200
-There'SA role that is very interesting, because
+There’s a role. That is very interesting, because
 
 1500
 01:10:21,629 --> 01:10:23,529
@@ -6028,7 +6028,7 @@ So of course, you can learn something from the previous ones, and
 
 1508
 01:10:45,430 --> 01:10:49,310
-I think that'SA that'SA much more fruitful
+I think that’s a much more fruitful
 
 1509
 01:10:49,990 --> 01:10:53,060
@@ -6044,7 +6044,7 @@ Right?
 
 1512
 01:10:56,430 --> 01:10:58,229
-It's kind of a function Interpol.
+It’s kind of a functional interpolator.
 
 1513
 01:10:58,350 --> 01:10:59,740
@@ -6052,7 +6052,7 @@ And if you have enough space
 
 1514
 01:10:59,990 --> 01:11:04,040
-and you can generate data because you only want to learn your R solution,
+and you can generate data because you only want to learn your RANS solution,
 
 1515
 01:11:04,049 --> 01:11:06,899
@@ -6136,7 +6136,7 @@ Maybe somebody comes up with some something very smart.
 
 1535
 01:12:04,500 --> 01:12:06,759
-You know, maybe you can replace the linear all of this machine,
+You know, maybe you can replace the linear solver with machine learning,
 
 1536
 01:12:07,009 --> 01:12:09,299
@@ -6148,7 +6148,7 @@ so we don't know that,
 
 1538
 01:12:11,270 --> 01:12:13,339
-uh, on on AC FD level.
+uh, on a CFD level.
 
 1539
 01:12:13,350 --> 01:12:16,629
@@ -6156,11 +6156,11 @@ It could be that maybe we learn so much about the solutions
 
 1540
 01:12:16,640 --> 01:12:20,339
-that CFD will play a smaller and smaller role because it'SA function
+that CFD will play a smaller and smaller role because it’s a functional
 
 1541
 01:12:20,819 --> 01:12:21,399
-Interpol.
+interpolator.
 
 1542
 01:12:21,910 --> 01:12:25,290
@@ -6200,7 +6200,7 @@ you know, fusion reactors driving them, who knows? And,
 
 1551
 01:12:49,479 --> 01:12:54,160
-of course, then the game is DNS or fine, Great AES and
+of course, then the game is DNS or fine-grid LES and
 
 1552
 01:12:54,319 --> 01:12:56,709
@@ -6276,7 +6276,7 @@ Well, one final thing I wanted to ask you actually was,
 
 1570
 01:13:47,379 --> 01:13:49,069
-you know, there'SA lot of people,
+you know, there’s a lot of people,
 
 1571
 01:13:49,720 --> 01:13:50,549
@@ -6312,7 +6312,7 @@ you know, you think has made a difference?
 
 1579
 01:14:17,600 --> 01:14:19,799
-I think there'SA few things, actually,
+I think there’s a few things, actually,
 
 1580
 01:14:20,359 --> 01:14:25,140
@@ -6468,7 +6468,7 @@ First of all,
 
 1618
 01:15:53,850 --> 01:15:57,740
-that's the first thing you cannot give up on an idea if you think it'SA valuable idea.
+that’s the first thing: you cannot give up on an idea if you think it’s a valuable idea.
 
 1619
 01:15:58,910 --> 01:16:00,160
@@ -6504,7 +6504,7 @@ because
 
 1627
 01:16:28,430 --> 01:16:32,430
-complexity always breeds complexity. So it'SA complexity of math
+complexity always breeds complexity. So it’s a complexity of maths that
 
 1628
 01:16:32,640 --> 01:16:36,169

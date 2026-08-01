@@ -675,8 +675,8 @@ and Synopsys, Cadence and BETA
 
 136
 00:08:37,679 --> 00:08:40,600
-CAE and Pointwise or Future
-facilities.
+CAE and Pointwise, or Future
+Facilities.
 
 137
 00:08:41,440 --> 00:08:44,680
@@ -725,12 +725,12 @@ some new startups to really get
 
 146
 00:09:24,920 --> 00:09:30,640
-hold and the Neural Concept, the
-PhysicsX, the NAVASTO Extrality
+hold: Neural Concept, PhysicsX,
+NAVASTO, Extrality and
 
 147
 00:09:31,720 --> 00:09:36,400
-Emmi AI, these companies started to
+Emmi AI. These companies started to
 come about offering the
 
 148

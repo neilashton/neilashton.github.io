@@ -95,7 +95,7 @@ leading engineering
 
 20
 00:01:06,400 --> 00:01:10,240
-universities, and he built a
+universities, and he built an
 internationally recognized
 
 21
@@ -136,12 +136,11 @@ topic of the moment foundation
 28
 00:01:35,440 --> 00:01:40,240
 models for fluid mechanics.
-He's a long people like Steve
+He, along with people like Steve
 
 29
 00:01:40,240 --> 00:01:42,080
-Brunton.
-He's done a lot to really
+Brunton, has done a lot to really
 
 30
 00:01:42,080 --> 00:01:46,600
@@ -1096,11 +1095,11 @@ because it will just be too
 220
 00:13:55,480 --> 00:13:57,360
 expensive.
-Do you need some DNSI?
+Do you need some DNS? I
 
 221
 00:13:57,680 --> 00:14:03,920
-Still feel like the foundation
+still feel like the foundation
 model is ultimately going to not
 
 222

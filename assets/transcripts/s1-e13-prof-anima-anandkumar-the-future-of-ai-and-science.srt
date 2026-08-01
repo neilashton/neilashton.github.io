@@ -96,11 +96,11 @@ and someone at the forefront of these methods.
 
 25
 00:01:24,599 --> 00:01:27,129
-That person is Professor Anima Anan
+That person is Professor Anima Anandkumar,
 
 26
 00:01:27,540 --> 00:01:30,970
-Kumar, who is a Bren Professor at Caltech.
+who is a Bren Professor at Caltech.
 
 27
 00:01:32,019 --> 00:01:33,029
@@ -136,7 +136,7 @@ and this was
 
 35
 00:01:53,510 --> 00:01:58,930
-actually before I suppose the mad craze now um with, with AI and GEN AI.
+actually before, I suppose, the mad craze now, um, with AI and GenAI.
 
 36
 00:01:59,839 --> 00:02:06,190
@@ -212,7 +212,7 @@ Uh And is um probably best known in a way for the work that was done for
 
 54
 00:03:11,610 --> 00:03:14,529
-cnet. And if you look at the links below, you can read the paper
+FourCastNet. And if you look at the links below, you can read the paper
 
 55
 00:03:15,080 --> 00:03:19,960
@@ -1392,7 +1392,7 @@ the stuff you see on the TV, the, you know,
 
 349
 00:18:15,609 --> 00:18:17,920
-the ja I the chat bots, etcetera.
+the GenAI, the chatbots, et cetera.
 
 350
 00:18:18,250 --> 00:18:22,329
@@ -1732,15 +1732,15 @@ Uh So to me like, you know,
 
 434
 00:22:43,760 --> 00:22:48,770
-one of the really impressive success stories is the AI BASED weather model for
+one of the really impressive success stories is the AI-based weather model,
 
 435
 00:22:49,089 --> 00:22:49,400
-CNET.
+FourCastNet.
 
 436
 00:22:49,579 --> 00:22:52,579
-That was the first AI BASED model that we started
+That was the first AI-based model that we started
 
 437
 00:22:52,589 --> 00:22:55,959
@@ -1748,7 +1748,7 @@ working on more than three years ago and we released it first
 
 438
 00:22:56,160 --> 00:23:01,354
-and other teams followed up and we now have a whole family of AI based weather models,
+and other teams followed up and we now have a whole family of AI-based weather models,
 
 439
 00:23:01,584 --> 00:23:03,944
@@ -2160,7 +2160,7 @@ you're not explicitly solving
 
 541
 00:28:40,479 --> 00:28:43,010
-the P DS, you're not explicitly
+the PDEs, you're not explicitly
 
 542
 00:28:43,449 --> 00:28:48,430
@@ -2596,7 +2596,7 @@ I mean, to me, the sky is the limit and just as we speak,
 
 650
 00:34:24,697 --> 00:34:27,478
-my students are presenting at IC ML. Uh
+my students are presenting at ICML. Uh
 
 651
 00:34:27,938 --> 00:34:30,259
@@ -2616,7 +2616,7 @@ know I
 
 655
 00:34:36,399 --> 00:34:36,800
-in Yunnan.
+in Vienna.
 
 656
 00:34:36,969 --> 00:34:38,030
@@ -2628,7 +2628,7 @@ so they're presenting it right as we speak or around this time where we've creat
 
 658
 00:34:44,458 --> 00:34:46,679
-let's say, a GP T two size model
+let's say, a GPT-2-sized model
 
 659
 00:34:47,030 --> 00:34:49,280
@@ -2716,7 +2716,7 @@ You can think of like the weather model,
 
 680
 00:36:08,530 --> 00:36:12,840
-which like the largest one is, let's say a little less than GB D two size model
+which, like, the largest one is, let's say, a little less than a GPT-2-sized model
 
 681
 00:36:13,169 --> 00:36:16,110
@@ -2732,7 +2732,7 @@ that is getting towards universal understanding of physics.
 
 684
 00:36:22,989 --> 00:36:27,010
-But that's only GB D two size, meaning it can't possibly
+But that's only GPT-2-sized, meaning it can't possibly
 
 685
 00:36:27,179 --> 00:36:31,760
@@ -2880,7 +2880,7 @@ But neural operator before we invented neural operators,
 
 721
 00:38:19,879 --> 00:38:23,790
-the neural works that were standard didn't have that ability, right?
+the neural networks that were standard didn't have that ability, right?
 
 722
 00:38:23,800 --> 00:38:25,689
@@ -2892,7 +2892,7 @@ So how do we bridge that gap?
 
 724
 00:38:27,570 --> 00:38:32,840
-And how do we think about like numerical solvers like pseudo spectral methods
+And how do we think about, like, numerical solvers like pseudospectral methods
 
 725
 00:38:33,040 --> 00:38:36,290
@@ -3024,7 +3024,7 @@ other labs have done that and
 
 757
 00:40:18,360 --> 00:40:22,429
-in our recent IC ML paper, it's really the largest collection, right?
+in our recent ICML paper, it's really the largest collection, right?
 
 758
 00:40:22,439 --> 00:40:23,629
@@ -3108,11 +3108,11 @@ created these
 
 778
 00:41:12,709 --> 00:41:14,580
-AI BASED simulations of the to
+AI-based simulations of the tokamak—
 
 779
 00:41:15,090 --> 00:41:20,159
-mark, you know how plasma evolution occurs in these nuclear fusion reactors.
+you know, how plasma evolution occurs in these nuclear fusion reactors.
 
 780
 00:41:20,340 --> 00:41:22,270
@@ -3180,7 +3180,7 @@ is one control of drone is another,
 
 796
 00:42:09,004 --> 00:42:13,004
-you wouldn't dream of putting AC FT sol on a drone because first of all,
+you wouldn't dream of putting a CFD solver on a drone because, first of all,
 
 797
 00:42:13,185 --> 00:42:18,135
@@ -3492,7 +3492,7 @@ split
 
 874
 00:46:13,600 --> 00:46:16,040
-transform a large language models and
+transformer large language models and
 
 875
 00:46:17,030 --> 00:46:19,750
@@ -4072,7 +4072,7 @@ Is that really your vision that
 
 1019
 00:53:03,300 --> 00:53:08,669
-there is a it's easier in a way to integrate it through an IA I model rather than
+there is—it's easier in a way to integrate it through an AI model rather than
 
 1020
 00:53:09,080 --> 00:53:12,459
@@ -4448,11 +4448,11 @@ where would you recommend people go to stay abreast? Is it
 
 1113
 00:57:46,209 --> 00:57:49,120
-the standard? You know, I clear IC Ml
+the standard? You know, ICLR, ICML,
 
 1114
 00:57:49,790 --> 00:57:52,590
-Ns are there other places that you're seeing
+NeurIPS—are there other places that you're seeing
 
 1115
 00:57:52,879 --> 00:57:56,889
@@ -4500,7 +4500,7 @@ go. But the main events are quite crowded.
 
 1126
 00:58:29,603 --> 00:58:32,863
-We have like now Europe with tens of thousands of people.
+We have, like, now NeurIPS with tens of thousands of people.
 
 1127
 00:58:33,042 --> 00:58:37,333
@@ -4584,7 +4584,7 @@ venture out from their comfort zone of
 
 1147
 00:59:43,020 --> 00:59:44,689
-Nips and IC ML and actually go
+NeurIPS and ICML and actually go
 
 1148
 00:59:44,929 --> 00:59:45,570
@@ -4600,7 +4600,7 @@ I mean, I'm sure that is being done. But I, I
 
 1151
 00:59:52,719 --> 00:59:56,040
-was amazed when I went to, uh I clear
+was amazed when I went to, uh, ICLR
 
 1152
 00:59:56,189 --> 00:59:58,020

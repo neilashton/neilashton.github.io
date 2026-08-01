@@ -601,7 +601,7 @@ There's a challenge in some sense, also the opportunity in this field.
 
 138
 00:12:24,916 --> 00:12:27,767
-And then this is where foundation models took sense.
+And then this is where foundation models make sense.
 
 139
 00:12:27,767 --> 00:12:33,540
@@ -1227,7 +1227,7 @@ language and then make the connection why CFD is not language.
 
 281
 00:25:36,046 --> 00:25:39,306
-And this is, think, where we're making a Sid-should-comment.
+And this is, I think, where Sid should comment.
 
 282
 00:25:40,086 --> 00:25:42,448
@@ -3067,7 +3067,7 @@ I mean, that's, that's just the case.
 
 704
 01:02:38,760 --> 01:02:44,942
-Um, so, but you are absolutely right, which is sort of the comment on open foam.
+Um, so, but you are absolutely right, which is sort of the comment on OpenFOAM.
 
 705
 01:02:44,942 --> 01:02:50,353
@@ -3164,7 +3164,7 @@ So it turns out that by using some nominal errors, if you want to arrive at
 726
 01:04:44,270 --> 01:04:54,570
 below 1 % error in the field, not in the integral quantities, then you would need 2.7
-million samples, which is very, close to the number that you also arrived at, Neel.
+million samples, which is very close to the number that you also arrived at, Neil.
 
 727
 01:04:54,570 --> 01:04:59,910
@@ -3510,7 +3510,7 @@ And the second point, which is super intriguing to me is the data mixing.
 
 806
 01:11:44,281 --> 01:11:54,890
-I don't think what we did in Aurora that punching data together and just uh doing the mix
+I don't think what we did in Aurora, that bunching data together and just uh doing the mix,
 is the way forward.
 
 807
@@ -3597,7 +3597,7 @@ So the best way to generalize is to...
 
 826
 01:13:29,526 --> 01:13:34,210
-make your distribution so large that everything is more or less an indistribution problem.
+make your distribution so large that everything is more or less an in-distribution problem.
 
 827
 01:13:34,210 --> 01:13:36,272

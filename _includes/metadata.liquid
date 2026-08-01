@@ -98,7 +98,6 @@
       {% capture youtube_watch_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}{% endcapture %}
       {% capture youtube_embed_url %}https://www.youtube.com/embed/{{ youtube_video.id }}{% endcapture %}
       {% capture youtube_thumbnail_url %}https://i.ytimg.com/vi/{{ youtube_video.id }}/maxresdefault.jpg{% endcapture %}
-      {% capture youtube_seek_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}&t={seek_to_second_number}s{% endcapture %}
     {% endif %}
     <script type="application/ld+json">
       {
@@ -163,11 +162,6 @@
             "@type": "PodcastEpisode",
             "name": {{ page.title | jsonify }},
             "url": {{ canonical_url | jsonify }}
-          },
-          "potentialAction": {
-            "@type": "SeekToAction",
-            "target": {{ youtube_seek_url | jsonify }},
-            "startOffset-input": "required name=seek_to_second_number"
           }
         }
       </script>

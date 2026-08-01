@@ -4427,11 +4427,11 @@ through.
 888
 00:45:23,800 --> 00:45:26,000
 Because if you have an if you
-have an account on cloud
+have accounts with cloud
 
 889
 00:45:26,000 --> 00:45:30,960
-provider ABCDE like to you for
+providers A, B, C, D and E, for
 that enterprise to build out all
 
 890
@@ -5590,7 +5590,7 @@ that's true or not.
 1121
 00:57:00,920 --> 00:57:06,080
 But like what what is absolutely
-true is that using neural Nets
+true is that using neural networks
 
 1122
 00:57:06,200 --> 00:57:10,040
@@ -7597,7 +7597,7 @@ airplane.
 
 1523
 01:16:43,480 --> 01:16:44,920
-It's it's like built with Rescale's.
+It's, it's like, built with Rescale.
 
 1524
 01:16:44,920 --> 01:16:48,960
@@ -9144,13 +9144,13 @@ world, right?
 
 1833
 01:31:57,800 --> 01:31:59,320
-And I think NVIDIA's are amazing
-work and.
+And I think NVIDIA's done amazing
+work in,
 
 1834
 01:31:59,320 --> 01:32:02,240
-Like sort of the.
-Developing the software and SDKs
+like, sort of,
+developing the software and SDKs
 
 1835
 01:32:02,240 --> 01:32:03,880
