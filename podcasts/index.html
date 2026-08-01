@@ -13,6 +13,9 @@
 
 
 
+
+
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Neil Ashton Podcast | AI, CFD &amp; Computational Engineering</title>
@@ -46,6 +49,7 @@
 
 
   
+  
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -56,7 +60,9 @@
         "webFeed": "https://anchor.fm/s/10a5bf2d8/podcast/rss",
         "author": {
           "@type": "Person",
+          "@id": "https://neilashton.co.uk/#person",
           "name": "Neil Ashton",
+          "alternateName": "Dr Neil Ashton",
           "url": "https://neilashton.co.uk"
         },
         "sameAs": ["https://open.spotify.com/show/4muRLrJ9Pxglw0RsPgx2gb","https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065","https://www.youtube.com/channel/UCFFbscxlXPiTNRulk8sOwRQ"]
@@ -74,7 +80,7 @@
   media="none"
   id="highlight-theme-dark"
 >
-<link rel="stylesheet" href="/assets/css/main.css?1ea76f4e6e49ad4cb2052818c6d53f50">
+<link rel="stylesheet" href="/assets/css/main.css?b646565f1cc77fde9f1ff20bdebabd6e">
 
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 
@@ -249,8 +255,24 @@
     </div>
     <a href="https://www.youtube.com/playlist?list=PLZq5GKgxGJwQ2aougeamqzHbaKCbBZf-S">Browse the YouTube playlist <span aria-hidden="true">↗</span></a>
   </div>
-  <div class="podcast-video-frame">
-    <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLZq5GKgxGJwQ2aougeamqzHbaKCbBZf-S" title="The Neil Ashton Podcast on YouTube" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+  <div class="podcast-video-frame" data-youtube-playlist="" data-embed-src="https://www.youtube-nocookie.com/embed/videoseries?list=PLZq5GKgxGJwQ2aougeamqzHbaKCbBZf-S">
+    <div class="podcast-video-slot" data-youtube-playlist-slot="">
+      <div class="podcast-video-poster">
+        <img src="/assets/img/podcast/episodes/s4-e5.webp" alt="" width="1280" height="720" loading="eager" fetchpriority="high" decoding="async" />
+        <div class="podcast-video-poster-copy">
+          <p class="eyebrow">YouTube playlist</p>
+          <p class="podcast-video-poster-title">Watch every full conversation</p>
+          <p>The playlist is loaded only when you choose to watch, keeping this page fast and private by default.</p>
+          <button class="button button-primary podcast-video-load" type="button" data-load-youtube-playlist="" hidden="">
+            Load YouTube playlist
+          </button>
+          <noscript>
+            <p class="podcast-video-noscript"><a href="https://www.youtube.com/playlist?list=PLZq5GKgxGJwQ2aougeamqzHbaKCbBZf-S">Open the playlist on YouTube</a>.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <p class="sr-only" data-youtube-playlist-status="" aria-live="polite"></p>
   </div>
 </section>
 
@@ -1043,7 +1065,7 @@
   </div>
 </section>
 
-<script defer="" src="/assets/js/podcast-embed.js?c51940005518ea34f0b5a8cfcb9fa760"></script>
+<script defer="" src="/assets/js/podcast-embed.js?f57f90cee3c707fe14bf3120f78d67c6"></script>
 
 
   </article>
