@@ -120,9 +120,72 @@
     });
   };
 
+  const initialiseYoutubeVideoEmbeds = () => {
+    document.querySelectorAll("[data-youtube-video]").forEach((embed) => {
+      const loadButton = embed.querySelector("[data-load-youtube-video]");
+      const slot = embed.querySelector("[data-youtube-video-slot]");
+      const status = embed.querySelector("[data-youtube-video-status]");
+
+      if (!loadButton || !slot) return;
+
+      loadButton.hidden = false;
+      loadButton.addEventListener(
+        "click",
+        () => {
+          let embedUrl;
+
+          try {
+            embedUrl = new URL(embed.dataset.embedSrc);
+          } catch {
+            if (status) status.textContent = "The YouTube video could not be loaded. Please use the direct YouTube link.";
+            return;
+          }
+
+          const isYoutubeVideo =
+            embedUrl.protocol === "https:" &&
+            embedUrl.hostname === "www.youtube-nocookie.com" &&
+            /^\/embed\/[A-Za-z0-9_-]{11}$/.test(embedUrl.pathname);
+
+          if (!isYoutubeVideo) {
+            if (status) status.textContent = "The YouTube video could not be loaded. Please use the direct YouTube link.";
+            return;
+          }
+
+          const iframe = document.createElement("iframe");
+          iframe.title = embed.dataset.embedTitle || "The Neil Ashton Podcast on YouTube";
+          iframe.width = "1280";
+          iframe.height = "720";
+          iframe.referrerPolicy = "strict-origin-when-cross-origin";
+          iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+          iframe.allowFullscreen = true;
+
+          embed.setAttribute("aria-busy", "true");
+          loadButton.disabled = true;
+          if (status) status.textContent = "Loading the YouTube video.";
+
+          iframe.addEventListener(
+            "load",
+            () => {
+              embed.removeAttribute("aria-busy");
+              if (status) status.textContent = "YouTube video loaded.";
+              iframe.focus();
+            },
+            { once: true }
+          );
+
+          iframe.src = embedUrl.href;
+          slot.replaceChildren(iframe);
+          embed.classList.add("is-loaded");
+        },
+        { once: true }
+      );
+    });
+  };
+
   const initialiseEmbeds = () => {
     initialisePodcastEmbeds();
     initialiseYoutubePlaylistEmbeds();
+    initialiseYoutubeVideoEmbeds();
   };
 
   if (document.readyState === "loading") {
