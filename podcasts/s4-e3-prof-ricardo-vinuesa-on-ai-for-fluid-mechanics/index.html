@@ -290,6 +290,8 @@
       
 
 
+
+
 <article class="podcast-episode">
   <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
     <a href="/podcasts/">Podcast</a>
@@ -311,10 +313,14 @@
     </div>
     <img
       class="episode-artwork"
-      src="/assets/img/podcast/episodes/s4-e3.webp"
+      src="/assets/img/podcast/episodes/s4-e3-480.webp"
+      srcset="/assets/img/podcast/episodes/s4-e3-480.webp 480w, /assets/img/podcast/episodes/s4-e3-768.webp 768w, /assets/img/podcast/episodes/s4-e3.webp 1280w"
+      sizes="(max-width: 430px) calc(100vw - 30px), (max-width: 767px) 384px, 320px"
       alt="Prof. Ricardo Vinuesa on AI for Fluid Mechanics — The Neil Ashton Podcast"
       width="320"
       height="180"
+      loading="eager"
+      fetchpriority="high"
       decoding="async"
     >
   </header>
@@ -328,15 +334,46 @@
         </div>
         <a href="https://www.youtube.com/watch?v=7S-7aQR8HJg">Open on YouTube <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="episode-video-frame">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/7S-7aQR8HJg"
-          title="Watch Prof. Ricardo Vinuesa on AI for Fluid Mechanics on YouTube"
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+      <div
+        class="podcast-video-frame episode-video-frame"
+        data-youtube-video
+        data-embed-src="https://www.youtube-nocookie.com/embed/7S-7aQR8HJg?autoplay=1"
+        data-embed-title="Watch Prof. Ricardo Vinuesa on AI for Fluid Mechanics on YouTube"
+      >
+        <div class="podcast-video-slot" data-youtube-video-slot>
+          <div class="podcast-video-poster">
+            <img
+              src="/assets/img/podcast/episodes/s4-e3-768.webp"
+              srcset="/assets/img/podcast/episodes/s4-e3-480.webp 480w, /assets/img/podcast/episodes/s4-e3-768.webp 768w, /assets/img/podcast/episodes/s4-e3.webp 1280w"
+              sizes="(max-width: 959px) calc(100vw - 30px), 928px"
+              alt=""
+              width="1280"
+              height="720"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="podcast-video-poster-copy">
+              <p class="eyebrow">YouTube video</p>
+              <p class="podcast-video-poster-title">Watch this episode</p>
+              <p>YouTube is contacted only after you choose to play the video, keeping this page fast and private by default.</p>
+              <button
+                class="button button-primary podcast-video-load"
+                type="button"
+                data-load-youtube-video
+                aria-label="Play Prof. Ricardo Vinuesa on AI for Fluid Mechanics on YouTube"
+                hidden
+              >
+                Play episode
+              </button>
+              <noscript>
+                <p class="podcast-video-noscript">
+                  <a href="https://www.youtube.com/watch?v=7S-7aQR8HJg">Watch this episode on YouTube</a>.
+                </p>
+              </noscript>
+            </div>
+          </div>
+        </div>
+        <p class="sr-only" data-youtube-video-status aria-live="polite"></p>
       </div>
     </section>
   
@@ -1000,7 +1037,7 @@
   <p class="episode-archive-link"><a href="/podcasts/">Browse all podcast episodes →</a></p>
 </article>
 
-<script defer src="/assets/js/podcast-embed.js?f57f90cee3c707fe14bf3120f78d67c6"></script>
+<script defer src="/assets/js/podcast-embed.js?25adb6c21a5a4e32aa6656f16931bd30"></script>
 
     </main>
 
