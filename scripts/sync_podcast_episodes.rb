@@ -27,6 +27,7 @@ EPISODES_DIR = File.join(ROOT, "_podcast_episodes")
 TRANSCRIPTS_DIR = File.join(ROOT, "assets", "transcripts")
 YOUTUBE_DATA_FILE = File.join(ROOT, "_data", "podcast_youtube.yml")
 META_DESCRIPTIONS_FILE = File.join(ROOT, "_data", "podcast_meta_descriptions.yml")
+META_TITLES_FILE = File.join(ROOT, "_data", "podcast_meta_titles.yml")
 
 SECTION_MARKERS = [
   "Main Topics:",
@@ -454,11 +455,19 @@ end
 seasons = YAML.load_file(File.join(ROOT, "_data", "podcast_seasons.yml"))
 youtube_episodes = YAML.load_file(YOUTUBE_DATA_FILE)
 meta_descriptions = YAML.load_file(META_DESCRIPTIONS_FILE)
+meta_titles = YAML.load_file(META_TITLES_FILE)
 expected_meta_keys = youtube_episodes.keys.sort
 missing_meta_keys = expected_meta_keys - meta_descriptions.keys
 unexpected_meta_keys = meta_descriptions.keys - expected_meta_keys
+unexpected_meta_title_keys = meta_titles.keys - expected_meta_keys
 abort "Missing curated meta descriptions: #{missing_meta_keys.join(", ")}" if missing_meta_keys.any?
 abort "Unexpected curated meta descriptions: #{unexpected_meta_keys.join(", ")}" if unexpected_meta_keys.any?
+abort "Unexpected curated meta titles: #{unexpected_meta_title_keys.join(", ")}" if unexpected_meta_title_keys.any?
+
+meta_titles.each do |episode_key, title|
+  abort "Meta title for #{episode_key} must be text" unless title.is_a?(String)
+  abort "Meta title for #{episode_key} is #{title.length} characters; expected 30–65" unless (30..65).cover?(title.length)
+end
 
 meta_descriptions.each do |episode_key, description|
   abort "Meta description for #{episode_key} must be text" unless description.is_a?(String)
@@ -527,6 +536,7 @@ episodes = rss_episodes.map do |episode|
   episode.merge(
     "title" => title,
     "youtube_title" => youtube_episode.fetch("title"),
+    "meta_title" => meta_titles.fetch(episode_key, youtube_episode.fetch("title")),
     "meta_description" => meta_descriptions.fetch(episode_key),
     "transcript_corrected" => youtube_episode["transcript_corrected"] == true,
     "slug" => slug,
@@ -598,7 +608,7 @@ episodes.each_with_index do |episode, index|
     "layout" => "podcast_episode",
     "title" => episode.fetch("title"),
     "youtube_title" => episode.fetch("youtube_title"),
-    "meta_title" => episode.fetch("youtube_title"),
+    "meta_title" => episode.fetch("meta_title"),
     "description" => episode.fetch("meta_description"),
     "permalink" => episode.fetch("permalink"),
     "date" => episode.fetch("published_at"),
