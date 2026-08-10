@@ -8,6 +8,7 @@ on:
     paths:
       - ".lycheeignore"
       - "assets/**"
+      - "scripts/check_apple_podcast_links.rb"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -28,6 +29,7 @@ on:
     paths:
       - ".lycheeignore"
       - "assets/**"
+      - "scripts/check_apple_podcast_links.rb"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -58,6 +60,9 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Validate Apple Podcasts episode links
+        run: ruby scripts/check_apple_podcast_links.rb
 
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
