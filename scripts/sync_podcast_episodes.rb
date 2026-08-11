@@ -48,6 +48,7 @@ CURRENT_REFERENCE_URLS = {
   "http://tensorlab.cms.caltech.edu/users/anima/" => "https://neuroscience.caltech.edu/people/anima-anandkumar",
   "https://brandstetter-johannes.github.io" => "https://research.jku.at/en/persons/johannes-brandstetter-3/",
   "https://staff.fnwi.uva.nl/m.welling/" => "https://www.uva.nl/en/profile/w/e/m.welling/m.welling.html",
+  "https://ptg.bsc.es/?p=44" => "https://ptg.bsc.es/about-us/",
 }.freeze
 
 def fetch(url)
@@ -60,6 +61,16 @@ end
 
 def child(element, expanded_name)
   element.elements.to_a.find { |candidate| candidate.expanded_name == expanded_name }
+end
+
+def rss_episode_numbers(item)
+  rss_title = item.elements["title"]&.text.to_s.strip
+  title_numbers = rss_title.match(/\AS(\d+)\s*,?\s*EP(\d+)/i)
+  season_number = child(item, "itunes:season")&.text.to_i
+  episode_number = child(item, "itunes:episode")&.text.to_i
+  season_number = title_numbers[1].to_i if season_number.zero? && title_numbers
+  episode_number = title_numbers[2].to_i if episode_number.zero? && title_numbers
+  [season_number, episode_number]
 end
 
 def slugify(text)
@@ -487,15 +498,28 @@ curated = seasons.each_with_object({}) do |season, result|
   end
 end
 
-rss = REXML::Document.new(fetch(RSS_URL))
+# Spotify's RSS CDN can briefly alternate between old and new feed versions
+# after an episode is published. Retry cache-busted requests and retain the
+# response with the most curated episodes so the site sync does not reject a
+# newly published entry.
+rss = nil
+rss_curated_episode_count = 0
+6.times do |attempt|
+  candidate = REXML::Document.new(fetch("#{RSS_URL}?site_sync=#{Time.now.to_i}-#{attempt}"))
+  candidate_keys = REXML::XPath.match(candidate, "/rss/channel/item").map { |item| rss_episode_numbers(item) }
+  candidate_curated_episode_count = (candidate_keys & curated.keys).length
+  if candidate_curated_episode_count > rss_curated_episode_count
+    rss = candidate
+    rss_curated_episode_count = candidate_curated_episode_count
+  end
+  break if rss_curated_episode_count >= curated.length
+end
+abort "Could not fetch podcast RSS episodes" unless rss
+
 rss_episodes = REXML::XPath.match(rss, "/rss/channel/item").map do |item|
   creator_url = item.elements["link"]&.text.to_s.strip
   rss_title = item.elements["title"]&.text.to_s.strip
-  title_numbers = rss_title.match(/\AS(\d+)\s*,?\s*EP(\d+)/i)
-  season_number = child(item, "itunes:season")&.text.to_i
-  episode_number = child(item, "itunes:episode")&.text.to_i
-  season_number = title_numbers[1].to_i if season_number.zero? && title_numbers
-  episode_number = title_numbers[2].to_i if episode_number.zero? && title_numbers
+  season_number, episode_number = rss_episode_numbers(item)
   {
     "rss_title" => rss_title,
     "description_html" => item.elements["description"]&.text.to_s,

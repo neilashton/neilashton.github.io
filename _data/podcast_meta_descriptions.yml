@@ -42,3 +42,4 @@ s4-e2: "Nathan Kutz explains what works in physics-informed AI, comparing data-d
 s4-e3: "Ricardo Vinuesa explores AI for fluid mechanics, explainable learning, latent representations, flow control and agents for autonomous scientific discovery."
 s4-e4: "Paola Cinnella explores AI for fluid mechanics, turbulence-model uncertainty, AirfRANS, Bayesian methods and the need for rigorous scientific standards."
 s4-e5: "Nils Thuerey explores differentiable physics and foundation models, from PhiFlow and neural emulators to online training, open data and simulation agents."
+s4-e6: "Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models."
