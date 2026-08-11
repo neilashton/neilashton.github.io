@@ -10,6 +10,24 @@
     
       
       <url>
+        <loc>https://neilashton.co.uk/podcasts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion/</loc>
+        <video:video>
+          <video:thumbnail_loc>https://i.ytimg.com/vi/tHckH7Rgu38/maxresdefault.jpg</video:thumbnail_loc>
+          <video:title>Can CFD Predict Hydrogen Combustion? GPUs, AI &amp; Future Propulsion | Daniel Mira</video:title>
+          <video:description>Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.</video:description>
+          <video:player_loc allow_embed="yes">https://www.youtube.com/embed/tHckH7Rgu38</video:player_loc>
+          <video:publication_date>2026-08-11T07:03:58+01:00</video:publication_date>
+          <video:family_friendly>yes</video:family_friendly>
+          <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
+        </video:video>
+      </url>
+    
+  
+    
+    
+    
+      
+      <url>
         <loc>https://neilashton.co.uk/podcasts/s4-e5-prof-nils-thuerey-on-differentiable-physics-and-foundation-models/</loc>
         <video:video>
           <video:thumbnail_loc>https://i.ytimg.com/vi/h42plIdxDSM/maxresdefault.jpg</video:thumbnail_loc>

@@ -1,0 +1,1223 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Mira: Hydrogen Combustion CFD and Future Propulsion</title>
+<meta name="author" content="Neil Ashton">
+<meta name="description" content="Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.">
+<meta name="keywords" content="Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing">
+
+<link rel="canonical" href="https://neilashton.co.uk/podcasts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion/">
+
+  <link rel="alternate" type="application/rss+xml" title="The Neil Ashton Podcast" href="https://anchor.fm/s/10a5bf2d8/podcast/rss">
+
+
+
+  <meta property="og:site_name" content="Neil Ashton">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Daniel Mira: Hydrogen Combustion CFD and Future Propulsion">
+  <meta property="og:url" content="https://neilashton.co.uk/podcasts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion/">
+  <meta property="og:description" content="Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.">
+  <meta property="og:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s4-e6.webp">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:image:alt" content="Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion — The Neil Ashton Podcast">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Daniel Mira: Hydrogen Combustion CFD and Future Propulsion">
+  <meta name="twitter:description" content="Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.">
+  <meta name="twitter:image" content="https://neilashton.co.uk/assets/img/podcast/episodes/s4-e6.webp">
+  <meta name="twitter:image:alt" content="Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion — The Neil Ashton Podcast">
+
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PodcastEpisode",
+        "name": "Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion",
+        "url": "https://neilashton.co.uk/podcasts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion/",
+        "description": "Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.",
+        "datePublished": "2026-08-11T07:03:58+01:00",
+        "duration": "PT1H24M52S",
+        "episodeNumber": 6,
+        "image": "https://neilashton.co.uk/assets/img/podcast/episodes/s4-e6.webp",
+        "author": {
+          "@type": "Person",
+          "@id": "https://neilashton.co.uk/#person",
+          "name": "Neil Ashton",
+          "alternateName": "Dr Neil Ashton",
+          "url": "https://neilashton.co.uk"
+        },
+        "partOfSeason": {
+          "@type": "PodcastSeason",
+          "seasonNumber": 4,
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "The Neil Ashton Podcast",
+            "url": "https://neilashton.co.uk/podcasts/",
+            "webFeed": "https://anchor.fm/s/10a5bf2d8/podcast/rss"
+          }
+        },
+        "associatedMedia": {
+          "@type": "MediaObject",
+          "contentUrl": "https://anchor.fm/s/10a5bf2d8/podcast/play/123825455/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-5%2F429295785-44100-2-3b7a0cca6425f.mp3",
+          "encodingFormat": "audio/mpeg"
+        },
+        "sameAs": [
+          "https://open.spotify.com/episode/1sar4fKgcDFe8aNGIdjbxX",
+          "https://podcasters.spotify.com/pod/show/neilashton/episodes/S4-EP6---Daniel-Mira-on-Hydrogen-Combustion-Modelling-and-Future-Propulsion-e3n1brf",
+          "https://www.youtube.com/watch?v=tHckH7Rgu38"
+        ]
+      }
+    </script>
+    
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "Can CFD Predict Hydrogen Combustion? GPUs, AI & Future Propulsion | Daniel Mira",
+          "description": "Daniel Mira explains hydrogen combustion CFD, future aircraft propulsion, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.",
+          "thumbnailUrl": [
+            "https://i.ytimg.com/vi/tHckH7Rgu38/maxresdefault.jpg"
+          ],
+          "uploadDate": "2026-08-11T07:03:58+01:00",
+          "duration": "PT1H24M52S",
+          "embedUrl": "https://www.youtube.com/embed/tHckH7Rgu38",
+          "url": "https://www.youtube.com/watch?v=tHckH7Rgu38",
+          "inLanguage": "en-GB",
+          "isFamilyFriendly": true,
+          "publisher": {
+            "@type": "Person",
+            "@id": "https://neilashton.co.uk/#person",
+            "name": "Neil Ashton",
+            "alternateName": "Dr Neil Ashton",
+            "url": "https://neilashton.co.uk"
+          },
+          "isPartOf": {
+            "@type": "PodcastEpisode",
+            "name": "Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion",
+            "url": "https://neilashton.co.uk/podcasts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion/"
+          }
+        }
+      </script>
+    
+  
+
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" id="highlight-theme-light">
+<link
+  rel="stylesheet"
+  href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca"
+  media="none"
+  id="highlight-theme-dark"
+>
+<link rel="stylesheet" href="/assets/css/main.css?b646565f1cc77fde9f1ff20bdebabd6e">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+
+<script src="/assets/js/theme.js?c8411e7fe60c2a34c85becf1307a9d2d"></script>
+
+  <script>
+    initTheme();
+  </script>
+
+
+  </head>
+  <body class="fixed-top-nav">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Neil Ashton, home">
+        <span class="brand-name">Neil Ashton</span>
+      </a>
+
+      <button
+        class="navbar-toggler collapsed ml-auto"
+        type="button"
+        data-nav-toggle
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav" data-nav-menu>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a
+              class="nav-link"
+              href="/"
+              
+              >About</a
+            >
+          </li>
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/work/"
+                  
+                >
+                  Research
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/publications/"
+                  
+                >
+                  Publications
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/cv/"
+                  
+                >
+                  CV
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/talks/"
+                  
+                >
+                  Talks
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item ">
+                <a
+                  class="nav-link"
+                  href="/podcasts/"
+                  
+                >
+                  Podcast
+                </a>
+              </li>
+            
+          
+          
+            <li class="nav-item theme-item">
+              <button
+                id="light-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Theme: system. Activate to switch to light mode."
+                title="Change colour theme"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19">
+                  <path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M16.8 8.4a4.8 4.8 0 0 0 2.8 6.2A5.5 5.5 0 1 1 16.8 8.4Z" fill="currentColor" opacity=".35"/>
+                </svg>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+    <main id="main-content" class="container site-main" tabindex="-1">
+      
+
+
+
+
+<article class="podcast-episode">
+  <nav class="episode-breadcrumbs" aria-label="Breadcrumb">
+    <a href="/podcasts/">Podcast</a>
+    <span aria-hidden="true">/</span>
+    <span>Season 4, episode 6</span>
+  </nav>
+
+  <header class="episode-header">
+    <div class="episode-header-copy">
+      <p class="eyebrow">The Neil Ashton Podcast</p>
+      <h1>Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion</h1>
+      <p class="episode-meta">
+        <span>Season 4, episode 6</span>
+        <span aria-hidden="true">·</span>
+        <time datetime="2026-08-11T07:03:58+01:00">11 August 2026</time>
+        <span aria-hidden="true">·</span>
+        <span>01:24:52</span>
+      </p>
+    </div>
+    <img
+      class="episode-artwork"
+      src="/assets/img/podcast/episodes/s4-e6-480.webp"
+      srcset="/assets/img/podcast/episodes/s4-e6-480.webp 480w, /assets/img/podcast/episodes/s4-e6-768.webp 768w, /assets/img/podcast/episodes/s4-e6.webp 1280w"
+      sizes="(max-width: 430px) calc(100vw - 30px), (max-width: 767px) 384px, 320px"
+      alt="Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion — The Neil Ashton Podcast"
+      width="320"
+      height="180"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async"
+    >
+  </header>
+
+  
+    <section class="episode-video" aria-labelledby="episode-video-title">
+      <div class="episode-video-heading">
+        <div>
+          <p class="eyebrow">Watch on YouTube</p>
+          <h2 id="episode-video-title">Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion</h2>
+        </div>
+        <a href="https://www.youtube.com/watch?v=tHckH7Rgu38">Open on YouTube <span aria-hidden="true">↗</span></a>
+      </div>
+      <div
+        class="podcast-video-frame episode-video-frame"
+        data-youtube-video
+        data-embed-src="https://www.youtube-nocookie.com/embed/tHckH7Rgu38?autoplay=1"
+        data-embed-title="Watch Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion on YouTube"
+      >
+        <div class="podcast-video-slot" data-youtube-video-slot>
+          <div class="podcast-video-poster">
+            <img
+              src="/assets/img/podcast/episodes/s4-e6-768.webp"
+              srcset="/assets/img/podcast/episodes/s4-e6-480.webp 480w, /assets/img/podcast/episodes/s4-e6-768.webp 768w, /assets/img/podcast/episodes/s4-e6.webp 1280w"
+              sizes="(max-width: 959px) calc(100vw - 30px), 928px"
+              alt=""
+              width="1280"
+              height="720"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="podcast-video-poster-copy">
+              <p class="eyebrow">YouTube video</p>
+              <p class="podcast-video-poster-title">Watch this episode</p>
+              <p>YouTube is contacted only after you choose to play the video, keeping this page fast and private by default.</p>
+              <button
+                class="button button-primary podcast-video-load"
+                type="button"
+                data-load-youtube-video
+                aria-label="Play Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion on YouTube"
+                hidden
+              >
+                Play episode
+              </button>
+              <noscript>
+                <p class="podcast-video-noscript">
+                  <a href="https://www.youtube.com/watch?v=tHckH7Rgu38">Watch this episode on YouTube</a>.
+                </p>
+              </noscript>
+            </div>
+          </div>
+        </div>
+        <p class="sr-only" data-youtube-video-status aria-live="polite"></p>
+      </div>
+    </section>
+  
+
+  <p class="eyebrow episode-listen-label">Listen to the audio</p>
+  <div
+    class="podcast-embed podcast-embed--episode"
+    data-podcast-embed
+    data-embed-src="https://open.spotify.com/embed/episode/1sar4fKgcDFe8aNGIdjbxX"
+    data-embed-title="Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion on Spotify"
+    aria-label="Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion Spotify player"
+  >
+    <div class="podcast-embed-slot" data-podcast-embed-slot>
+      <div class="podcast-embed-poster">
+        <span class="podcast-embed-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <circle cx="24" cy="24" r="23"></circle>
+            <path d="m20 15 14 9-14 9Z"></path>
+          </svg>
+        </span>
+        <div class="podcast-embed-copy">
+          <p class="eyebrow">Spotify player</p>
+          <p class="podcast-embed-title">Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion</p>
+          <button
+            class="button button-primary podcast-embed-load"
+            type="button"
+            data-load-podcast-player
+            hidden
+          >
+            Load episode player
+          </button>
+          <noscript>
+            <p class="podcast-embed-noscript">The embedded player requires JavaScript. You can still listen directly on Spotify.</p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+    <div class="podcast-embed-meta">
+      <p>Spotify is contacted only after you load the player and may then set cookies.</p>
+      <a href="https://open.spotify.com/episode/1sar4fKgcDFe8aNGIdjbxX">Open in Spotify <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="sr-only" data-podcast-embed-status aria-live="polite"></p>
+  </div>
+
+  <nav class="episode-platform-links academic-links" aria-label="Episode links">
+    
+      <a href="https://www.youtube.com/watch?v=tHckH7Rgu38">YouTube</a>
+    
+    <a href="https://open.spotify.com/episode/1sar4fKgcDFe8aNGIdjbxX">Spotify</a>
+    <a href="https://podcasters.spotify.com/pod/show/neilashton/episodes/S4-EP6---Daniel-Mira-on-Hydrogen-Combustion-Modelling-and-Future-Propulsion-e3n1brf">Spotify for Creators</a>
+    <a href="https://podcasts.apple.com/us/podcast/the-neil-ashton-podcast/id1745076065">Apple Podcasts</a>
+    
+      <a href="/assets/transcripts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion.srt" download>Download transcript</a>
+    
+  </nav>
+
+  <div class="episode-content">
+    <!-- Generated by scripts/sync_podcast_episodes.rb. -->
+
+<section class="episode-section" aria-labelledby="episode-overview">
+  <h2 id="episode-overview">Episode overview</h2>
+  <div class="episode-overview">
+    <p>Hydrogen combustion, high-fidelity CFD and the future of aircraft propulsion are the focus of this conversation with Dr. Daniel Mira, Head of the Propulsion Technologies Group at the Barcelona Supercomputing Center. Neil and Dani discuss why reacting flows are so difficult to simulate, how hydrogen changes combustion and aircraft design, the limits of RANS, LES and DNS, GPU-native solvers, coding agents and AI surrogate models.</p>
+  </div>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-chapters">
+  <h2 id="episode-chapters">Chapters</h2>
+  <ol class="episode-chapters">
+<li>
+  <span class="episode-chapter-time">00:00</span>
+  <span>Podcast intro</span>
+</li>
+<li>
+  <span class="episode-chapter-time">00:39</span>
+  <span>Introducing Daniel Mira</span>
+</li>
+<li>
+  <span class="episode-chapter-time">03:00</span>
+  <span>Conversation begins</span>
+</li>
+<li>
+  <span class="episode-chapter-time">04:55</span>
+  <span>Why combustion CFD is so hard</span>
+</li>
+<li>
+  <span class="episode-chapter-time">10:23</span>
+  <span>Daniel’s path into hydrogen and jet-engine combustion</span>
+</li>
+<li>
+  <span class="episode-chapter-time">12:48</span>
+  <span>Hydrogen versus hydrocarbon combustion</span>
+</li>
+<li>
+  <span class="episode-chapter-time">17:58</span>
+  <span>Industrial adoption of hydrogen</span>
+</li>
+<li>
+  <span class="episode-chapter-time">20:54</span>
+  <span>Gas turbines, aviation and fuel infrastructure</span>
+</li>
+<li>
+  <span class="episode-chapter-time">25:35</span>
+  <span>How jet engines must change</span>
+</li>
+<li>
+  <span class="episode-chapter-time">30:43</span>
+  <span>Redesigning the whole aircraft</span>
+</li>
+<li>
+  <span class="episode-chapter-time">34:46</span>
+  <span>What will trigger commercial adoption?</span>
+</li>
+<li>
+  <span class="episode-chapter-time">37:27</span>
+  <span>Why aerospace projects take a decade</span>
+</li>
+<li>
+  <span class="episode-chapter-time">42:14</span>
+  <span>RANS, LES and DNS for reacting flows</span>
+</li>
+<li>
+  <span class="episode-chapter-time">44:31</span>
+  <span>Replacing expensive tests with high-fidelity CFD</span>
+</li>
+<li>
+  <span class="episode-chapter-time">46:01</span>
+  <span>The biggest accuracy gaps in combustion LES</span>
+</li>
+<li>
+  <span class="episode-chapter-time">49:26</span>
+  <span>Where the computational cost goes</span>
+</li>
+<li>
+  <span class="episode-chapter-time">52:06</span>
+  <span>Chemistry, species and source-term bottlenecks</span>
+</li>
+<li>
+  <span class="episode-chapter-time">55:35</span>
+  <span>Wall modelling in combustion LES</span>
+</li>
+<li>
+  <span class="episode-chapter-time">59:49</span>
+  <span>GPUs, algorithms and solver redesign</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:08:52</span>
+  <span>Can coding agents accelerate combustion CFD?</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:12:27</span>
+  <span>AI surrogate models for combustion</span>
+</li>
+<li>
+  <span class="episode-chapter-time">01:24:20</span>
+  <span>Closing thoughts</span>
+</li>
+  </ol>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-references">
+  <h2 id="episode-references">References and links</h2>
+  <ul class="episode-references">
+<li>
+  <a href="https://ptg.bsc.es/about-us/" rel="external noopener">
+    Daniel Mira and the Propulsion Technologies Group
+    <span class="episode-reference-domain">ptg.bsc.es</span>
+  </a>
+</li>
+<li>
+  <a href="https://ptg.bsc.es/research-lines/" rel="external noopener">
+    opulsion Technologies Group — research lines
+    <span class="episode-reference-domain">ptg.bsc.es</span>
+  </a>
+</li>
+<li>
+  <a href="https://www.bsc.es/research-development/research-areas/engineering-simulations/combustion" rel="external noopener">
+    BSC — Combustion research
+    <span class="episode-reference-domain">bsc.es</span>
+  </a>
+</li>
+<li>
+  <a href="https://coec-project.eu/" rel="external noopener">
+    Center of Excellence in Combustion (CoEC)
+    <span class="episode-reference-domain">coec-project.eu</span>
+  </a>
+</li>
+<li>
+  <a href="https://upcommons.upc.edu/entities/publication/08a27c10-cb13-4357-a3ab-8e9ec1d706cc" rel="external noopener">
+    High-fidelity simulations of the mixing and combustion of a technically premixed hydrogen flame
+    <span class="episode-reference-domain">upcommons.upc.edu</span>
+  </a>
+</li>
+  </ul>
+</section>
+
+<section class="episode-section" aria-labelledby="episode-transcript">
+  <h2 id="episode-transcript">Transcript</h2>
+  <p class="episode-transcript-intro">
+    This transcript was created from the corrected YouTube captions, with names and technical terminology reviewed. <a href="/assets/transcripts/s4-e6-daniel-mira-on-hydrogen-combustion-modelling-and-future-propulsion.srt" download="">Download the corrected SRT file</a>.
+  </p>
+  <div class="episode-transcript">
+<p>
+  <span class="transcript-timestamp">0:00</span>
+  <span>Hi, welcome back to the Neil Ashton podcast. Combustion is one of those areas of CFD and fluid mechanics where everything gets harder once. Turbulence, thermodynamics, hundreds of chemical species, vastly different time scales, and heat releasing and all interacting. My guest today is somebody who has spent his whole career trying to make those problems computable, trying to solve them. Daniel Mira Martínez is head of the propulsion technologies group at the Barcelona Supercomputing Center. It&#39;s a wide-ranging conversation, I think, about physics, computing, and the future of propulsion. And I hope you enjoy it. what makes combustion so hard compared to let&#39;s say incompressible flow over</span>
+</p>
+<p>
+  <span class="transcript-timestamp">0:51</span>
+  <span>a car? Well, I don&#39;t know. Perhaps the first answer is thermodynamics. think one of the aspects that make the... this application field a little bit more complex than conventional aerodynamics or conventional flows is the fact that you have to satisfy the thermodynamics. And the thermodynamics involving multi-component flows, gases that have a different composition. And then because they have different composition, they have different partial pressures. And therefore, when you want to describe the evolution of the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:40</span>
+  <span>flow having these different compositions then the equations and the closers that you need to provide increase and then if you add also the fact that you can have combustion that you have a heat release. Heat release always occurs in a very very thin layer then you start having interaction with this heat release with the flow this couple system combined with the thermodynamics again, with the enthalpy variation, with the properties that change, then this is why it makes, for example, I don&#39;t know, multiphase flows for combustion a little bit more complex or compressible flows for combustion a little bit more complex</span>
+</p>
+<p>
+  <span class="transcript-timestamp">2:29</span>
+  <span>or supercritical fluids for combustion also more complex. So when you add the kind of problems that you have always in in CFD and then you add a multi-component reacting flows everything becomes a little bit more messy at the end. And your main focus has been more on the jet engine side, right? Would that be fair to say? Yes, yes exactly. from my PhD it&#39;s quite funny at this point because when I started the PhD I did my PhD in hydrogen combustion. I started in 2009 and then I found it very interesting as turbine hydrogen enriched.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">3:18</span>
+  <span>flows or fuels for gas turbine applications and then I enjoyed very much. There were of course quite a lot of activities related to hydrogen but it was from my understanding more related to that hydrogen is a small, I mean it&#39;s a fuel that the chemistry is well characterized, it&#39;s small so people prefer to look at hydrogen because they don&#39;t have as many species as hydrocarbon, for example methane or propane. But then it was quite interesting and it was of course quite... well explained in the literature back then that hydrogen was quite special because it had some particular properties that make the combustion of hydrogen</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:08</span>
+  <span>quite different from hydrocarbon fuels. But then after I started the PhD, I talked to my supervisor and I said, I like hydrogen. So I said, Just hydrogen is not a fuel, it&#39;s more like a vector, energy vector. So maybe you can try to find something else if you still like combustion. And then that was what happened. And then after that, after some years, hydrogen started to take a lot of momentum and a lot of interest. And now hydrogen is really at the heart of the new generation of sustainable fuels or electricity. based fuels so So yeah, and since then, my main background has been aerospace, fuel</span>
+</p>
+<p>
+  <span class="transcript-timestamp">4:59</span>
+  <span>combustors, gas turbine combustors. But more recently, with my current position, we try to model also other applications related to combustion, like furnaces, for example. And this has been a new topic for me over the last three, four years that I was trying to understand and was trying to deal with these configurations. And so maybe before we get to the CFD modeling challenges, what&#39;s the main changes and benefits and challenges between hydrocarbon combustion and hydrogen combustion? Why is the aerospace industry so interested in hydrogen combustion? Well, I would say there is one main reason.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">5:50</span>
+  <span>Well, there is one and it&#39;s actually related to a few others, which is the carbonization and energy dependency. So in general, the best fuel is the most energetic fuel, the one, but you can measure the energetic fuels in terms of energy. per kilogram or energy per volume per liter. So depending on your application, you might be interested in having fuels that have a lot of energy, kilojoules per kilogram or kilojoules per liter. So. Liquid fuels are dominant in the industry because they have lot of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">6:39</span>
+  <span>high density. So in a liter, then you can have lot of kilograms of fuel. Hydrogen is not the case to... per volume is not that interesting. You need big volumes at room temperature or room conditions to have a lot of mass of fuel. So one of the major problems of the utilization of hydrogen is how you are going to bring the hydrogen in the application. If it&#39;s a stationary application, then perhaps it&#39;s easier because you can build a pressurized cryogenic storage and then you can store the hydrogen there. are some problems, embrittlement and these kind of things that can happen</span>
+</p>
+<p>
+  <span class="transcript-timestamp">7:28</span>
+  <span>there. Safety also because it&#39;s a very high pressure and low temperature. But if you have a mobility application like an airplane or a car, then things get a little bit more complicated from the vehicle point of view. So you need to accommodate the storage into the system and then you end up having to reshape the vehicle eventually. But hydrogen is also quite interesting from the combustion characteristics point of view because it&#39;s very reactive and then it burns very fast. If it burns fast it means that you can produce a lot of heat very fast. compared to hydrocarbon. So you can have a system that can be</span>
+</p>
+<p>
+  <span class="transcript-timestamp">8:18</span>
+  <span>also smaller because it burns faster. So from the operational point of view, there are differences that can have certain advantages or certain disadvantages. The major disadvantage of hydrogen is that very likely that you will have to reshape the combustion system. to accommodate the injection and also to accommodate the flame or the combustion system to operate in the way you want. And perhaps... especially in Europe but also in other countries, in Asia as well and in the United States there are at this point a little bit less interested in these particular fuels or applications but because they have a lot of oil.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">9:07</span>
+  <span>then if you are able to burn hydrogen, hydrogen can be easily produced locally, for example, from renewable electricity and an electrolyser, can produce hydrogen free. after of course a lot of investment, lot of infrastructure, but at the end you become let&#39;s say independent from the generation of the fuel or the energy system and then you do not participate in these geopolitical situations about availability of fuels, that combustion is very integrated in the society, so we use combustion for many applications, mobility, heating, domestic use also. So if you are able somehow to avoid</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:02</span>
+  <span>the dependency of variations in the market prices and everything, then you are in a good position. And how far, you know, before we get into more of the modeling challenges, where would you track from when you did your PhD in 2009 to now, how is this hydrogen combustion going from an industrial adoption? You know, are we 20 years away from it being something feasible? Is it 10? Is it five? You know, is there a sense of where that is? Okay, no, in fact, it is... I mean, I was gonna say surprisingly, but it&#39;s not surprising because at the end, the technological evolution... at the end is mainly taken, I would say, by the companies</span>
+</p>
+<p>
+  <span class="transcript-timestamp">10:54</span>
+  <span>and by the demands of the society and also by the companies that, you know, they can make profit providing the technology that the society actually needs. And this is in fact what happened with hydrogen. Of course, there are some political investment and the European Commission has a vision for the future associated to cover partially or the use of conventional hydrocarbon fuels by not by only hydrogen because ammonia is also a quite interesting fuel nowadays especially for some applications that I can go a little bit in detail. So yeah this question requires a very long answer so I will try to be a bit sure here but you can see if we go sector by</span>
+</p>
+<p>
+  <span class="transcript-timestamp">11:45</span>
+  <span>sector you can actually see that in the gas turbine sector that their main priority is a stationary system and it can be located in the Middle East, in Asia, in Europe or the United States and so the priority is flexibility of fuel so if you are in a place that you can produce, I don&#39;t know, you have... biogas or you have, I don&#39;t know, methane or propane or you can produce a lot of hydrocarbon. What you would like is to be able to burn this and to not bring hydrogen by ships or anything. And in this flexibility of operation, the industry is moving</span>
+</p>
+<p>
+  <span class="transcript-timestamp">12:34</span>
+  <span>quite strong towards the accommodation of these synthetic fuels, ammonia and hydrogen. the I would say not refer to brands, I would say 30 % hydrogen in the fuel has been easily accommodated by all the manufacturers. There is a small trick here because 30 % by volume in hydrogen is almost nothing in kilograms, but then there has been demonstration plants, very few already, over the last years in which they can operate with 50%, 60%, 70 % in volume that make now a big contribution and also 100 % hydrogen in a real system. The problem nowadays is that my technology can burn hydrogen, but where</span>
+</p>
+<p>
+  <span class="transcript-timestamp">13:22</span>
+  <span>do I get the hydrogen? You just give me the hydrogen and then I can more or less burn it. In the aviation sector, there was a, it&#39;s a little bit more peculiar. If you allow me to go sector by sector quickly, I can do it and... And then I can give you more or less what is my perspective. It could be a little bit off in some areas that I work a bit less, but more or less the ideas are more or less this. These are mainly the discussions that we&#39;re having nowadays in the community are about this. So for the aviation sector, there was a huge effort by the manufacturers to accommodate</span>
+</p>
+<p>
+  <span class="transcript-timestamp">14:11</span>
+  <span>hydrogen. There was quite a lot of push from the political sector for the carbonization of the aviation sector. And then the manufacturers were saying, hey, we are only representing 4 % of the CO2 emissions worldwide. Why are we? Why do we have to invest so much money on changing everything? But this is a very, I mean, you know this well, you have worked in it also in the aerospace sector. It&#39;s highly technological. So they like challenges and they have invested and they have pushed a lot to develop technologies for hydrogen combustion. And then there has been quite a few demonstrators like with some airlines that they have already done some flights.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:02</span>
+  <span>I&#39;m talking about commercial aviation, civil aviation flying from one country to another. And that is really happening in most of the aero engine manufacturers nowadays they have technology for hydrogen combustion at quite a mature stage. For commercialization it is unclear but for demonstration stage I think they all are pretty advanced. The problem is that for aviation you have short range, mid range and long range so for short range all these transformations might not be worth. and the vision is more to operate with hydrogen or electric power,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">15:51</span>
+  <span>more with what you call this fuel cell system. So you can provide hydrogen and then you can produce electric power from the fuel cell. So that for the short range in the order of 1,000 kilometers and long, it&#39;s a solution that it&#39;s really the ambition in the sector. For mid-range and long-range, the electric solution is not feasible today and then solutions based on hydrogen are coming to... have a share. The main solution for decarbonization in the aviation at the moment is what they call sustainable aviation fuels that are replacement</span>
+</p>
+<p>
+  <span class="transcript-timestamp">16:42</span>
+  <span>fuels that they have similar properties and similar behavior as the conventional aviation fuels. Then if we move quickly to other sectors like furnaces or boilers or industrial applications, we are involved in several projects on this field also beyond aviation. And then there has been quite a lot of progress. There has been demonstrators of partners that can buy hydrogen in steel manufacturing or metallurgical sector, glass manufacturing also, and solutions based on hydrogen are actually possible. The question with hydrogen is the price of the hydrogen. and the availability and how much hydrogen you can give me and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">17:34</span>
+  <span>at which price. This is more or less what these sectors are wondering at the moment. Hmm, okay. So it sounds like it&#39;s, but if you look at, and apologies if this is a stupid question, but No. the jet engine obviously has been heavily optimized for a particular fuel type over decades. From a jet engine point of view, how different does the design have to be to take hydrogen? I mean, isn&#39;t it a completely different engine essentially? Or are you saying that it&#39;s more of a, you know, partial change within the combustor, but maybe the other bits or is it, does the whole thing essentially start to change because of the different</span>
+</p>
+<p>
+  <span class="transcript-timestamp">18:26</span>
+  <span>power requirements or weight or sizing? Yes, in fact, this is a very good question and it is a little bit unclear depending on who you talk to or Who you read from then you can get a slightly different answer. So putting more or less everything on the table a You can burn hydrogen in a conventional conventional aircraft engine that has been more or less demonstrated the problem is that Aircraft engines or jet engines they operate with liquid fuels. So the injector must be different. There are aeronautical injectors that can inject the gaseous fuels. You can store hydrogen as liquid, but as soon as they approach to the combustion chamber with all the passages and everything, it&#39;s going</span>
+</p>
+<p>
+  <span class="transcript-timestamp">19:16</span>
+  <span>to evaporate. So very likely it&#39;s going to have so changes in the engine to accommodate hydrogen fuel. So the first is the injector. The injector is a conventional jet engine operated with liquid fuel, so the injector must be different. There are gaseous aeronautical injectors, so that&#39;s not a problem, but yeah, something needs to be adapted. So even though the hydrogen, for people who are very experts, they say, okay, but you store the hydrogen as liquid in the tank. Yes, but through the delivery of the fuel through the pipes are going to be preheated and you are gonna lower the pressure partially.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:05</span>
+  <span>And then when you are injecting directly in the combustion chamber, then this is a very hot environment. So partial evaporation. is going to happen and this is an active area of research so the problem is not actually solved. This is on one side from the conventional RQL which is the technology for aero engines this is like a like the piston engine, so pretty much any fuel you burn it, okay? Because in the RQL, you have a primary fuel injection, you have dilution with the quenching, and then you have the secondary combustion happening. With this, you pretty much can burn any fuel. The question is, how efficient you burn the hydrogen?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">20:56</span>
+  <span>How many unburned hydrogen are you going to produce with the design of a combustion chamber that, as you mentioned, has been optimized for many years to burn hydrogen, to burn kerosene? So would that be enough to satisfy regulations? Well, could be. You don&#39;t have CO2, you don&#39;t have particulates. you don&#39;t have many of the other compounds CO in your fuel. What about the NOx? The NOx will depend on the temperatures. If you reach high temperatures, then it&#39;s very likely that you will have troubles with the NOx. If you manage to mix well, then your NOx will be okay. But changes in the combustion chamber would</span>
+</p>
+<p>
+  <span class="transcript-timestamp">21:49</span>
+  <span>be required in order to have an optimal combustion system for hydrogen, but not also on the jet engine, but also on the aircraft. The tanks must have to be different, the delivery of the fuel as well to accommodate the pressure, to accommodate the fuel must be different as well. feels almost equivalent in the automotive sector when initially people just said, well, let&#39;s just pull out the engine and put batteries where the engine was, but everything the same. And I think almost everybody realized that that was not the optimum solution. And actually all the modern day electric vehicles are designed from the beginning.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">22:35</span>
+  <span>and you see things like the batteries are on the bottom, you know, rather than in the front. you know, there&#39;s like different ways. And I can only imagine on an aircraft that ultimately you would want to design the system entirely based around that new fuel type. Exactly, is exactly the case. So in fact, how the aviation sector works is that they have the airplane and they make a call for having what is the most appropriate engine that can work, can go on that aircraft. in this case is the same. So if your engine operates with hydrogen, that cannot be a solution for all the aircraft. So in the end, an optimal aircraft will have a design of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">23:24</span>
+  <span>the whole aircraft associated to accommodate the fuel and to accommodate the engine. And then, of course, you can plug in the appropriate engine and everything will be optimized. But yeah, it&#39;s exactly the same. as you mentioned, yes. And I feel like the past 40 years has essentially been that where it&#39;s like, we&#39;ll still just go for the tube and two wings because it kind of works and we don&#39;t want to rock the boat. And so it&#39;d be interesting on the fuel type how much, you say, because planes operate globally. When that&#39;s what my question, when will they actually go, let&#39;s go for it and do the hydrogen. what needs to change commercially for that to be the switchover point.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">24:14</span>
+  <span>Like electric vehicles, there was this like switchover point and now I think it&#39;s switching over, isn&#39;t it? Exactly, exactly. But I think this is exactly the situation, what we should not forget... is that the technology required to design a jet engine and to operate safely across a wide range of operating conditions, the fly envelope and all that, is extremely demanding. And also the certification process is also very long, very tedious, and then not all the products that seem to work can be finally commercialized because the safety requirements for these products are not like the car. So the car stops in the highway and then you just stop</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:05</span>
+  <span>and you call some help. But on the airplane, if you have problem on the fly, then in the sky, then you are in big trouble. So nobody is gonna come and help you. I think this is why even the, I mean, our contacts with the Aeroengine manufacturers, you can see that they are really pushing and they are really interested in developing the technology. However, the horizon for hydrogen is very, very unclear and it&#39;s not to sit on the same table because I&#39;m a scientist. It is true that it&#39;s not clear what is going to be the price of hydrogen. And even if the price is acceptable, then the question is how much hydrogen? So an aircraft needs a lot of fuel. Only the takeoff needs,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">25:53</span>
+  <span>I don&#39;t know, how many thousands of kilograms of fuel you need for takeoff. So, and it takes only a minutes. So then how this is going to happen? So many aircrafts are going to use hydrogen. You need a huge amount of hydrogen available at the airport in storage and infrastructure. So I think this cannot be rushed and this needs to be done carefully. And I think this is what is the status today. So technologies are being developed, but the infrastructure to operate this in a sustainable way, I think it still misses quite some years. So maybe turning on the point which I guess both of us work on, which is this dream of, you know, why does it</span>
+</p>
+<p>
+  <span class="transcript-timestamp">26:45</span>
+  <span>take 10 years for aerospace projects or longer? And one of the reasons or hypothesis that we have is that if we can increasingly use more accurate simulation tools, then we can help them to move faster because they frankly need to rely a little bit less on. experimental methods and they can potentially explore and do more what-if scenarios. So on that point, today, to the best of your understanding, let&#39;s maybe zoom into the CFD side of things a little bit more. If you&#39;re doing combustion of a conventional hydrocarbon jet engine or a hydrogen. Where would you, what would be the typical CFD approach and where</span>
+</p>
+<p>
+  <span class="transcript-timestamp">27:34</span>
+  <span>would you classify in terms of their trust of the method in terms of accuracy, in terms of correlation? Where do we stand today? How pleased are they? How far away are they away from methods that they can trust? Okay, this is a good point and in fact this is quite... a good feature for engineers that they like combustion systems and engines, but also other type of applications from fluid mechanics, not only these applications about aerodynamics or other other type of flows. For combustion, there is a lot of things going on on this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">28:23</span>
+  <span>because The CFD part of the combustion system is very important today. But not only for one part of the whole product development. At the start, so combustion is, I would say, I don&#39;t want to give a percentage, but let me just be, it&#39;s very important, the injection system. The injection system is the start. So how you inject the fuel is one of the most important components of the engine. doesn&#39;t matter which or not even engine in any combustion system because you can only burn a fuel that is has already mixed with air with oxygen you don&#39;t need air you need oxygen you only need oxygen so how you can end up having a mixture of</span>
+</p>
+<p>
+  <span class="transcript-timestamp">29:14</span>
+  <span>fuel with oxygen so and that is maybe 80 90 percent because of the injector And of course, a part related to the geometry of the combustor. But it&#39;s mainly related to the injector. I&#39;m thinking of supersonic combustion in which the geometry of the combustor has to facilitate because everything happens very fast. But for other type of applications, the injector is very, important. It&#39;s the most important thing, especially with liquid fuels. Because you have to atomize the fuel. You have to break the liquid. the liquid core and this breaks into ligaments. These ligaments are broken into smaller ligaments. Finally, they form droplets and these droplets finally evaporate.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:04</span>
+  <span>You don&#39;t evaporate a whole liquid core. So in this process, for the injector, with additive manufacturing, is a revolution for the fill in combustion. So you can have very complicated designs of the injector thanks to the additive manufacturing. And then before you take them to the lab, you should do some CFD. Because if your CFD can show that you&#39;re not breaking the liquid film, and then you get a very long liquid sheet and it&#39;s not broken, what&#39;s the point to do an experiment? So you can save a lot of money by just having an initial stage. of CFD analysis of injection. Injection and then evaluating the spray</span>
+</p>
+<p>
+  <span class="transcript-timestamp">30:55</span>
+  <span>characteristics. Then after that you go to evaporation and then you go to combustion. Okay, so you can discriminate a lot of designs by a first filter based on CFD. And then after that, You can take this to the lab and then you can do the measurements, you can correlate, and then you can do this discrimination. For that, you can rely, and this is something that you have worked a lot, Anil, I know, on which technique do I use? Do I use RANs or do I use LES? Do I use DNS? DNS, definitely, we don&#39;t use it for design, but LES today is very competitive. I don&#39;t want to do some advertisement here, but our code, you</span>
+</p>
+<p>
+  <span class="transcript-timestamp">31:48</span>
+  <span>can solve today with supercomputers, with HPC, you can solve a problem of combustion or the fuel injection in 10 hours, 12 hours. I mean, you cannot get all the statistics, but you can actually get some LES in 24 hours that give you enough statistics for discrimination of designs. And then you can submit multiple jobs at the same time if you have your cluster. And then you can, you you leave the office like at five o&#39;clock in like in the UK. Spain probably leave a little bit later. But then the day after at nine o&#39;clock, you pretty much have 20, 25 designs already available for you to check the results. So for that is important. And then another core part of where</span>
+</p>
+<p>
+  <span class="transcript-timestamp">32:42</span>
+  <span>simulations are very important is when you do at high TRL designs of the engine which is for example one of the minor problems in combustion is pressure okay and maybe we can discuss that at some point later but when you go in pressure then the flame becomes very compact becomes very reactive very energetic and then it can be very difficult to simulate and it can be very difficult to model. So relying on brands is less, at this point is a little bit less reliable. So switching to Elias is what most of the,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">33:30</span>
+  <span>well, most of the manufacturers are trying to shift nowadays. I&#39;m saying shifting when they have already. done it but some of them, the smaller companies might not do LES today for that but the large companies they of course they do LES and this has gone to a point where some of the high pressure tests that you can do in the lab and they are extremely expensive because of the equipment, because of the room, because of the fuel you when you the pressure, the amount of kilograms per second that you have in your injector is very high, the fuel is not cheap, especially if you consider hydrogen, so doing tests at 5 bar or 10 bar</span>
+</p>
+<p>
+  <span class="transcript-timestamp">34:24</span>
+  <span>is extremely expensive in the orders of many thousands of euros per day of testing, so this can be partially substituted by doing high fidelity CFD. And many of the big companies nowadays, they have a strategy to discriminate and to not even do high pressure tests because they rely substantially on their CFD. Of course, at the end, the product reaches certain maturity, of course, you have to do the tests. But during the early stages, until you get to that point, then you can save a huge amount of time. by running these simulations. But these simulations are very special, so you need to be very careful about this. What are your numerics?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:08</span>
+  <span>What are your models? And where do where is the what&#39;s the bit that affects the accuracy the most so if they&#39;re doing an ls of the injection system or the combustion What&#39;s the bit that would affect the accuracy? What&#39;s the gap between that and a dns? What are the bits that? You know are still lacking Hmm. Yeah, that&#39;s a very good point. And I think I&#39;m a little bit biased to give you the answer because I&#39;m more into alias, not that DNS. For me, DNS is more phenomenological. So you don&#39;t really need to have a DNS of an aircraft engine to extract the information that you want from these simulations.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">35:59</span>
+  <span>because I think this is the key answer that I can give you. So it depends on what you want to get. So what is exactly what you want to learn? So in the aero engine sector, that this is what we have mainly focused the discussion. I think we can keep it like this. It&#39;s representative to most of the combustion applications and it brings some additional also challenges compared to other systems. So in the aero engine, everything I would say it&#39;s related to safety. You don&#39;t want to have flashbacks. You don&#39;t want the flame to propagate or to touch the wall and break anything. So stability is one of the priorities. But usually it&#39;s the balance between thermoacoustics.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">36:48</span>
+  <span>You have the acoustic waves interacting with the heat release. This gets into a feedback loop that creates the thermoacoustic instability. that is one of the most dangerous phenomena that can happen in an engine. And that is what drives a little bit the early stages of the design and of course until the end. the thermoacoustic instability is something to be avoided and to be checked. And the complexity of this phenomena is the fact that it is highly dependent on the geometry. So if you simplify the geometry to do your test, because I mean... We always talk about challenges for CFD because we have many and people know that we have many and we always have to justify</span>
+</p>
+<p>
+  <span class="transcript-timestamp">37:34</span>
+  <span>us. But in the experiments it&#39;s the same. An aero engine is not flat. But when they measure with the laser, they need to put straight windows. So doing measurements in rounded domains is much more complex. You need two mirrors, you need some specific equipment. So they prefer to have the injector. They put the two windows, they are flat, you measure with the laser and then you get all the fancy stuff. So that configuration tells you almost nothing about thermoacoustics in the engine. So then you have to work with the whole geometry. And then the other aspect is of course the emissions. So you need to deal with the potential emissions, particulate formation.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">38:19</span>
+  <span>You need to deal... CO2 is the consequence. If everything is perfect, you produce CO2, but you need to deal with CO, NOx... These are the main things in a pure fuel and then the particulates. So you need to account for all these things when you are designing the engine. And in terms of now the actual CFD running, what&#39;s the computational cost? it the solver, the chemistry, the load balancing, the IO, the like, what drives the, if you were to profile the code, what do you kind of see as the main bits? Cause I guess the chemistry and the species is the key difference between that and</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:07</span>
+  <span>some incompressible, you know, car flow. Yes, exactly. as you said, so in the end, if we go, if we forget about models, because at the end, the community, I mean, is not stupid. mean, in fact, we are smart. So we develop models for things that are complicated to resolve. So if we cannot resolve, we model, no? This is the... you the idea that we have. So if we forget about models and we think about our system, the number of unknowns and the conservation equations, at the end is the conventional fluid mechanics we solve for the continuity, the momentum and the energy equation like in the conventional fluid mechanics community, at least in the compressible.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">39:56</span>
+  <span>But then we need to solve equations for the chemical species. So the... more complex the fuel, the more number of species is usually attached to this, because you need to describe all the possible chemical pathways that the individual molecules can have after the interactions with all these radicals. So that introduces certain cost. you solve, I don&#39;t know, for hydrogen with nine species, you can describe the chemistry. But for methane or for a hydrocarbon fuel, C1 with one carbon, the more carbons you have in the fuel, the more potential chemical pathways you are going to have and the more species is very</span>
+</p>
+<p>
+  <span class="transcript-timestamp">40:45</span>
+  <span>likely that you are going to need to describe this properly. And then... The number of species can go from 23, 25, 30, 40, 50, 60, 100. If the fuel is complex, like a kerosene or like a gasoline or a diesel or something like that, to describe this, you can have hundreds of species. So then the cost of solving the Navier-Stokes is completely irrelevant. So this costs nothing. Ah, but I&#39;m not very efficient with my Navier-Stokes. Okay, no problem. You have 200 species. So Navier-Stokes is five equations more on 200. But usually, this is still not the source of the cost of the simulation. The cost of the simulation mainly comes from the computation</span>
+</p>
+<p>
+  <span class="transcript-timestamp">41:33</span>
+  <span>of the chemical source term. And I&#39;m going to try to explain this. People can find this information anywhere because it&#39;s very well known and it&#39;s very well accepted that this is the challenge. So the problem is that the chemical source term, you have a chemical source term in each equation of the species. But this particular species, for example, if we think about hydrogen as a chemical species, H2 molecule can participate in many reactions. So it does not appear in two or three reactions. It can appear in maybe 10 or 20 reactions. So then the chemical source terms depend on the reaction rate that can have this chemical species when participates in all these 10 or</span>
+</p>
+<p>
+  <span class="transcript-timestamp">42:25</span>
+  <span>20 reactions. So it becomes extremely nonlinear. But the point is that when you want to calculate the chemical source term, this these chemical reactions depend on the temperature, but the temperature depends on the flow. So you cannot, a priori, you cannot separate the chemical source term from the transporting and the conservation equations because this chemical source term depends on the temperature and depends on the local composition. So if this source term goes a little bit higher, the concentration of that species go a little bit higher. so the chemical source time changes. So you need to solve everything at the same time. So in fact, you can decouple and this</span>
+</p>
+<p>
+  <span class="transcript-timestamp">43:12</span>
+  <span>is called a splitting method or splitting operators. There are approximations that can try to decouple things so you can solve things separated. But in the end, in practice, you need to solve them all together. So you need to iterate in your source term in order. to have the correct chemical substance that is consistent with your thermochemical state. And then the problem is associated to the time scales because there are species that move very slow, like CO2 progresses very slow through the evolution of the chemical reactions, but also you have... radicals that they are produced very rapidly and consumed very rapidly.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:02</span>
+  <span>If you don&#39;t capture the production and consumption, you are not able to predict certain phenomena that could be very important for your combustor. For example, ignition or extinction or this kind of transient events that can dominate what happens in your combustor. So because of that, dealing with the disparity of the time scales, dealing with multiple species and dealing with the treatment of the chemical source term is what has mainly concentrated all the turbulent combustor modeling historically, basically. And am I right, before we get into the topic of GPUs, wall modeling is not such a first order effect, right?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">44:52</span>
+  <span>Would that be fair to say? Like, I know you don&#39;t want the flame to touch the walls. I know the walls have an impact from a sort of acoustics, et cetera, but. Is sort of wall modeled LES a more acceptable thing? Can you be using like wall functions or how much does resolving the boundary layers and the wall, how important is that? Okay, this is a very good point because I&#39;m facing this problem at the moment. In general, it depends again to exactly what you want. If you want to understand if the flame is stable or not, then if you have a very compact flame in the middle</span>
+</p>
+<p>
+  <span class="transcript-timestamp">45:41</span>
+  <span>and your combustor is very big, Having the best wall model that reproduces all the effects on these side walls is not that relevant if you are interested in understanding if the flame is stable or not. But you need to resolve the boundary layer in case that you are considering the possibility of flashback. If the flame is lifted, at the end, all the injection ports and everything that you have upstream, the combustion chamber, can be considered. This is how I always look at it as in boundary condition. So it&#39;s not that you need to resolve the flow, you just need to provide the right boundary condition to the part of your</span>
+</p>
+<p>
+  <span class="transcript-timestamp">46:24</span>
+  <span>computational domain that is interesting for you. However, if you are interested on the exhaust, for example, that because what is at the, we still think of the jet engine. So if at the exit of your combustor, you have the turbine, You need the distribution of temperature and velocity that is representative to the stage of the exit of the combustor. So you need to have a good characterization of the flow that goes downstream. So in combustion in general, people like me are not so much interested what happens downstream the flame. So in that case, The experiments only measure at the flame front. If we want to be predictive at capturing the dynamics of the</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:13</span>
+  <span>flame, we need to worry mainly about this part. The walls can have an effect on the flame. Of course, can have. If you are not resolving well the boundary layers, then of course you are going to affect the circulation zones. So you need to have just a balance of how much effort you want or resources you want to put or points you want put. on each part. However, for other applications in aerospace, in which you have a supersonic combustor, for example, and then you have shock waves interacting with walls on those conditions, then of course, solving the bounded layers is critically important. Otherwise, the dynamics of the flow</span>
+</p>
+<p>
+  <span class="transcript-timestamp">47:55</span>
+  <span>will not be predicted well. So it actually depends on the kind of application that you are thinking of. Okay, so with everything you just said about the complexities, know, in the, in other parts of the CFD world, GPUs have been a pretty viable way of accelerating simulations. And I always, I always prefer to talk about any HPC events, whether it&#39;s CPUs or GPUs, is more that people can do more complex problems rather than just, know, because I think most practitioners, yes, it&#39;s nice that they can make their simulation faster, but then the next thing they do is they go, right, now, how do I go to the next step?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">48:46</span>
+  <span>That, I think, has been largely proven to be viable. for other things. But what about in combustion? think when we&#39;ve spoken, you&#39;ve highlighted that there&#39;s additional challenges. So my first question would be, is moving to GPUs a kind of straightforward acceleration? And how much does the hardware, in this case, let&#39;s say GPUs, make you reconsider the choice of the algorithm and the solver from the ground up? Yes, that&#39;s a very cool question because in my department and in my group we are dedicating a lot of effort to this particular problem and I can tell you a little bit what is my</span>
+</p>
+<p>
+  <span class="transcript-timestamp">49:34</span>
+  <span>view on this. So indeed, you do things when they are necessary, especially you have been working with your code in a company or in a research lab like us. So you have developed your code for 20 years. Your code is very good. You can do many things. You only want to improve models, Because you have already prepared your code to accommodate all the functionalities that you need, all the data structures in order to make it efficient. So that is fine. So the last thing that you would like to do is to refactor the code from scratch to reproduce the same things that you are reproducing. So when that matters, well, In my opinion, it does matter when you see that what I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">50:21</span>
+  <span>run with my code in 1000 cores, I can run it with one GPU or 500 cores, I can run with one GPU. And then the simulation that takes me one day, I can do it in three hours in one GPU. So those numbers are very intriguing. So then... you start becoming a little bit alert about this, so cautious. So, okay, this is a game changer for us. So then you talk to industry, they say, no, no, I&#39;m happy with my code. I I invested five, 10 years ago on my cluster. I mean, I&#39;m still taking use of it. I have spent, I don&#39;t know, 50 years of CFD development in my code. So GPU is not a problem to me. So this is...</span>
+</p>
+<p>
+  <span class="transcript-timestamp">51:12</span>
+  <span>2016, 2018, 2020. 2026 is like GPUs are very powerful. You start seeing combustion codes running on GPUs saying goodbye to the CPU codes, going Mac two across CPU codes. So now everyone is understanding that this is a necessity. Also, from the whole infrastructure point of view, if you need to buy a workstation or a cluster, then the electricity bill always goes up. I don&#39;t know why, but this is something for another discussion. You will never pay less for your electricity bill in the future</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:00</span>
+  <span>than what you pay now. It&#39;s always increasing. So you can save some money by just running on GPUs. because they are more energy efficient. So now this is where we are. So I think this mindset is now changing. And now I think the combustion community is starting to see or has started already a few years ago. And now you see quite a lot of codes that are on combustion running on GPUs. And when you look at those codes, you should really, you should trade. take this with a lot of respect, whether you like it or not, the numerics or what they do, because the complexity is very</span>
+</p>
+<p>
+  <span class="transcript-timestamp">52:50</span>
+  <span>high. I see a lot of codes for Navistokes that can run on GPUs. They are very fast. But when you want to add thermodynamics or thermochemistry in the GPU, the dependency of specific enthalpies, properties that depend on composition, and all that stuff that is usually done with libraries, then you don&#39;t need to adapt your, you know, your gradient, you compute the divergence or the, I don&#39;t know, the advection operator, the diffusion operator is not only that, that is, I would say easy, you know, nowadays, especially with the AI tools that help you with the loops and the pragmas for GPUs. The problem is that your code relies</span>
+</p>
+<p>
+  <span class="transcript-timestamp">53:36</span>
+  <span>on certain libraries for computing things, chemistry, properties, et cetera, that you need to port those. And those are usually old or usually are black box for some users. So you need to open this black box and you need to work directly with that. And that introduces delays and that also introduces complexity and reduction of performance because you can say, no, this is very difficult. I will do this in the CPU. And the rest I will do in the GPU, but then you copy things across and then you pay the price. So this is something that we initially explored in one of the projects that I was coordinating that ended in 2023.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">54:22</span>
+  <span>It was the European Center of Excellence in Combustion. And then in this project, we had a list of European partners that they developed CFD codes. for combustion and this was one of the central topics of the discussion. How we can develop functionalities in GPUs for our codes, how we can run hybrid CPU GPUs executions, mainly because we cannot pour the whole code. Maybe we can pour the chemistry to the GPU. If the chemistry is 70 % of my total cost of the time step, if I accelerate the chemistry, I will accelerate my code substantially. You do things part by part, but then you realize that doing things part by part is very hard. Your code is very large.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">55:13</span>
+  <span>You need to refactor many things. So many people say, okay, stop refactoring. Let&#39;s a code from scratch. Native for GPU, the data structures are ready. Everything will be designed. And then... This is really for me one of the discussions that we are having. We have libraries for adaptive refinement, for chemistry that are already available for GPU. Why don&#39;t we take them and we build a main of our code with these libraries and then we only need to do the PDEs. The PDEs at the end, this is what we do. I mean, what we all have done. So. But the point I was trying to make is today with coding agents, you know, from Mistral, OpenAI, or Anthropic, you can write codes,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:05</span>
+  <span>right? That&#39;s... Now you can, you know, I think that whole excuse of, it&#39;s hard for me to write the code or go to rewrite it. I think actually these, this AI agents are pretty good at writing codes, right? Do you think that is actually now making this job a little bit more easier? Yes, that is exactly my point. you have to reconsider to write the code because now you have a lot of help. Before there was no help. So you could do some scripts that substitute bloops. But now I think you can really do a lot of things. What happens is again, this is why combustion again is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">56:55</span>
+  <span>special because To get a combustion code working takes time and people in academia mainly, yeah, they are rushing sometimes. Yes, so you take a code that works, it gives me closer to the paper. But maybe for the long run, investing on developing your own codes, maybe at low speed, it can give you an advantage in the future. If you are able to manage well with these agents and all these AI tools that are extremely helpful for this, you just need to have very clear what you want. The problem is that people don&#39;t have clear what they want. So when they enter and interacting with this, then they get very lost because, but if you know</span>
+</p>
+<p>
+  <span class="transcript-timestamp">57:47</span>
+  <span>how your code should look like, because you did it in the past for CPUs and you know, what works and what doesn&#39;t work, I mean, I don&#39;t see that it will take that long. And yeah, I think this is something that we will see more and more nowadays. I&#39;ve seen in these journals that they give you also like the GitLab for their computational models. You can see that there are... more and more CFD codes that are just created nowadays. And I think it&#39;s because of this. You can really create things faster. The problem of combustion is again that you need a lot</span>
+</p>
+<p>
+  <span class="transcript-timestamp">58:38</span>
+  <span>of dependency and you need a lot of thermodynamics. So CP is not constant. And then gamma is not constant. Then this is... I mean, people working in combustion will understand very well what I mean, because making all those quantities temperature-dependent, composition-dependent creates a lot of dependencies in the code. But I think this should not stop people developing their codes and learning from this, because you really learn a lot of things. Maybe you don&#39;t get your paper that fast, but maybe you can get more papers in the future. Yeah, so maybe a final question for you, which is more of a slightly forward looking question a little bit, but also now is</span>
+</p>
+<p>
+  <span class="transcript-timestamp">59:23</span>
+  <span>AI. So we just talked about agents. So leaving that aside, maybe in the aerospace and automotive world, when it comes to external aerodynamic surrogate models have become, you know, a really hot topic. And, and there&#39;s been you know, I would say reasonably good proof that they are getting much closer now to being a sort of technology readiness level to give a legitimate tool for people to use within the design process, not a replacement to, you know, traditional sort of PDE solvers, but certainly something, you know, that can help, particularly as a designer, you say, know, it&#39;s shifting through. Where do you see that, you know,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:07</span>
+  <span>sort of surrogate modeling technology in the combustion? If that&#39;s something that is being tested, embraced, rejected, where&#39;s your community seeing those approaches? Yes, I would say it has been quite a big acceleration of the development of these of surrogate models for combustion systems. I think over the last, I mean it started many years ago, but it has been especially growing over the last five to six years. So I think they are going to have a play, they are going to have a role. However, what I see a bit less is how these tools are</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:00:59</span>
+  <span>currently integrated into the design. there has been, what I see is that there is a lot of research on this, which has, which I see is ending at the research level and not being taken yet by the industry. So I think this is more or less this threshold situation that I see, there will be a moment, and I think this happens in all areas of the technology. So you accumulate knowledge and confidence in something, and then suddenly you start integrating things. You don&#39;t integrate things that are very new, and people are a bit skeptical about them, especially companies that, you know, if everything works, I don&#39;t touch it, no?</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:01:45</span>
+  <span>I think this is more or less... What I see, most of the companies have their thinking, of course, they think for future, but if something is working, you can do research, you can be ready to change it, but don&#39;t change it yet. And I believe that over the next years, we will start seeing this because the companies have started integrating these digital workflows more into their systems. they initially relied on control systems or design systems, very guided by specific companies that they develop a specific software. And now... this has opened up substantially with the AI tools. And now you don&#39;t really need to buy a specific software to</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:02:38</span>
+  <span>do an optimization. You can do that with AI in a Python Jupyter Notebook nowadays, connected to a cluster that has some execution. So it&#39;s a matter of time. I&#39;ve been, in fact, just to be very precise, mean, I&#39;ve been in a conference back in Italy, European, Italian, and Spanish sections, and there were some companies that participated in this discussion, and this question was answered. very, I mean, there were some companies that were saying, yes, we recognize that these tools are available. We are at the process of integrating them or thinking about how to integrate in them. they were companies were saying, no.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:03:21</span>
+  <span>I don&#39;t see the value. I could also see something which is also related to generations. I think the new generations are accepting this digitalization and integrating the digitalization as part of their basis in the... I don&#39;t know, in their life, in their normal life, but also in the work environment. So in the past, doing something with computers, they call you informatics. And I don&#39;t know anything about informatics. No, no, no, I switch on the computer and I click the button. And that is a mindset that... it is changing dramatically nowadays because everyone is has in the phone,</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:04:12</span>
+  <span>ChatGPT or whatever of these things. And now, you know, they are going to start relying more in these things as soon as they become, they can see them more available in other aspects of their life. And one of the things, in my opinion, that could be limiting is that when you pay for something, you have a guarantee that something is working. And this is something that we don&#39;t have the maturity today. In, I said this, it will give me trouble if somebody reads this, in CFD codes, in academic CFD codes, we&#39;re working extremely hard on this. All people like us, like me and the people I</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:02</span>
+  <span>work with developing codes, we... put so much effort on this aspect and until we reach certain maturity that people paying a license for another commercial software might think their software is more reliable than us. So I think in terms of digitalization, let me call it that way, people still think that they&#39;re paying a license, they give you more efficient and... more reliable tools for their design activities or their engineering activities. But they will realize in few years, they&#39;re not. This is not the case because you can build your own models, you can build your own tests, and it&#39;s not that difficult because you have all the surroundings around.</span>
+</p>
+<p>
+  <span class="transcript-timestamp">1:05:54</span>
+  <span>Research centers, you have AI tools, everything is open source. It&#39;s an open source environment. But it&#39;s also, I can understand that it&#39;s also overwhelming for some people to get into this because it&#39;s endless. Cool, thanks Danny. Really appreciate taking the time to chat. I learned a lot actually all about the hydrogen and the aircraft industry and combustion. yeah, look forward to catching up in person soon. Thank you, Anil. Thank you. It was my pleasure.</span>
+</p>
+  </div>
+</section>
+
+  </div>
+
+  
+  
+    <section class="episode-related" aria-labelledby="related-episodes-title">
+      <h2 id="related-episodes-title">Related episodes</h2>
+      <div class="episode-related-grid">
+        
+          
+          
+          
+          
+          
+          
+            <article class="episode-related-card">
+              <a href="/podcasts/s1-e2-dr-florian-menter-turbulence-modelling-pioneer/">
+                <img
+                  src="/assets/img/podcast/episodes/s1-e2.webp"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span class="episode-related-copy">
+                  <span class="episode-related-meta">Season 1, episode 2</span>
+                  <span class="episode-related-title">Dr. Florian Menter — Turbulence Modelling Pioneer</span>
+                </span>
+              </a>
+            </article>
+          
+        
+          
+          
+          
+          
+          
+          
+            <article class="episode-related-card">
+              <a href="/podcasts/s3-e6-prof-brian-launder-cfd-and-turbulence-modelling-pioneer/">
+                <img
+                  src="/assets/img/podcast/episodes/s3-e6.webp"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span class="episode-related-copy">
+                  <span class="episode-related-meta">Season 3, episode 6</span>
+                  <span class="episode-related-title">Prof. Brian Launder — CFD and Turbulence Modelling Pioneer</span>
+                </span>
+              </a>
+            </article>
+          
+        
+          
+          
+          
+          
+          
+          
+            <article class="episode-related-card">
+              <a href="/podcasts/s4-e4-prof-paola-cinnella-on-ai-for-science-and-fluid-mechanics/">
+                <img
+                  src="/assets/img/podcast/episodes/s4-e4.webp"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <span class="episode-related-copy">
+                  <span class="episode-related-meta">Season 4, episode 4</span>
+                  <span class="episode-related-title">Prof. Paola Cinnella on AI for Science and Fluid Mechanics</span>
+                </span>
+              </a>
+            </article>
+          
+        
+      </div>
+    </section>
+  
+
+  <nav class="episode-pagination" aria-label="Other podcast episodes">
+    
+      <a class="episode-pagination-link" href="/podcasts/s4-e5-prof-nils-thuerey-on-differentiable-physics-and-foundation-models/">
+        <span class="episode-pagination-label">Older episode</span>
+        <span>Prof. Nils Thuerey on Differentiable Physics and Foundation Models</span>
+      </a>
+    
+    
+  </nav>
+
+  <p class="episode-archive-link"><a href="/podcasts/">Browse all podcast episodes →</a></p>
+</article>
+
+<script defer src="/assets/js/podcast-embed.js?25adb6c21a5a4e32aa6656f16931bd30"></script>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name">Neil Ashton</p>
+      <p>Computational Engineering</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer links">
+      <a href="/cv/">CV</a>
+      <a href="mailto:%63%6F%6E%74%61%63%74@%6E%65%69%6C%61%73%68%74%6F%6E.%63%6F.%75%6B">Email</a>
+      <a href="https://www.linkedin.com/in/neilashton">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=mtBY0RcAAAAJ">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-9943-2334">ORCID</a>
+      <a href="/privacy/">Privacy</a>
+      <button class="footer-link-button" type="button" data-analytics-settings>Analytics settings</button>
+    </nav>
+    <p class="footer-meta">&copy; 2026 Neil Ashton. Built with Jekyll and hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+    <script defer src="/assets/js/common.js?1bb6c2519e97f5932c586bc8a69adfc0"></script>
+
+
+    
+  <aside class="analytics-consent" data-analytics-consent hidden aria-labelledby="analytics-consent-title">
+    <div class="analytics-consent-copy">
+      <p id="analytics-consent-title" class="analytics-consent-title">Help improve this website</p>
+      <p>
+        With your permission, privacy-conscious Google Analytics measures visits and which external links visitors choose, including YouTube and
+        podcast platforms.
+        <a href="/privacy/">Privacy details</a>
+      </p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button class="button button-primary" type="button" data-analytics-accept>Allow analytics</button>
+      <button class="button button-secondary" type="button" data-analytics-decline>No thanks</button>
+    </div>
+  </aside>
+  <script>
+    (() => {
+      const measurementId = "G-25LQZE8E6D";
+      const storageKey = 'neil-ashton-analytics-consent';
+      const analyticsDisableKey = `ga-disable-${measurementId}`;
+      const banner = document.querySelector('[data-analytics-consent]');
+      const acceptButton = document.querySelector('[data-analytics-accept]');
+      const declineButton = document.querySelector('[data-analytics-decline]');
+      const settingsButtons = document.querySelectorAll('[data-analytics-settings]');
+      let outboundTrackingEnabled = false;
+      let currentConsent = null;
+
+      const readConsent = () => {
+        try {
+          return window.localStorage.getItem(storageKey);
+        } catch (_error) {
+          return null;
+        }
+      };
+
+      const writeConsent = (value) => {
+        try {
+          window.localStorage.setItem(storageKey, value);
+        } catch (_error) {
+          // The visitor will be asked again next time when browser storage is unavailable.
+        }
+      };
+
+      const clearAnalyticsCookies = () => {
+        const analyticsCookieNames = document.cookie
+          .split(';')
+          .map((cookie) => cookie.split('=')[0].trim())
+          .filter(
+            (name) =>
+              name === '_ga' ||
+              name === '_gid' ||
+              name === '_gat' ||
+              name.startsWith('_ga_') ||
+              name.startsWith('_gat_') ||
+              name.startsWith('_gac_'),
+          );
+
+        if (!analyticsCookieNames.length) return;
+
+        const hostname = window.location.hostname;
+        const apexHostname = hostname.startsWith('www.') ? hostname.slice(4) : hostname;
+        const cookieDomains = [...new Set([hostname, `.${hostname}`, apexHostname, `.${apexHostname}`])];
+        const expires = 'Thu, 01 Jan 1970 00:00:00 GMT';
+
+        analyticsCookieNames.forEach((name) => {
+          document.cookie = `${name}=; expires=${expires}; Max-Age=0; path=/; SameSite=Lax`;
+          cookieDomains.forEach((domain) => {
+            document.cookie = `${name}=; expires=${expires}; Max-Age=0; path=/; domain=${domain}; SameSite=Lax`;
+          });
+        });
+      };
+
+      const handleOutboundClick = (event) => {
+        if (currentConsent !== 'granted') return;
+
+        const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+        if (!link) return;
+
+        let destination;
+        try {
+          destination = new URL(link.href, window.location.href);
+        } catch (_error) {
+          return;
+        }
+
+        if (!/^https?:$/.test(destination.protocol) || destination.hostname === window.location.hostname) return;
+
+        window.gtag?.('event', 'outbound_click', {
+          link_domain: destination.hostname,
+          link_text: link.textContent.trim().slice(0, 100),
+          link_url: destination.href,
+          transport_type: 'beacon',
+        });
+      };
+
+      const trackOutboundLinks = () => {
+        if (outboundTrackingEnabled) return;
+        document.addEventListener('click', handleOutboundClick);
+        outboundTrackingEnabled = true;
+      };
+
+      const stopTrackingOutboundLinks = () => {
+        if (!outboundTrackingEnabled) return;
+        document.removeEventListener('click', handleOutboundClick);
+        outboundTrackingEnabled = false;
+      };
+
+      const disableAnalytics = () => {
+        window.gtag?.('consent', 'update', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+        });
+        window[analyticsDisableKey] = true;
+        stopTrackingOutboundLinks();
+        clearAnalyticsCookies();
+      };
+
+      const loadAnalytics = () => {
+        window[analyticsDisableKey] = false;
+        if (window.neilAshtonAnalyticsLoaded) {
+          window.gtag?.('consent', 'update', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'granted',
+          });
+          trackOutboundLinks();
+          return;
+        }
+        window.neilAshtonAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          window.dataLayer.push(arguments);
+        };
+        window.gtag('consent', 'default', {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'granted',
+        });
+        window.gtag('js', new Date());
+        window.gtag('config', measurementId, {
+          allow_google_signals: false,
+          anonymize_ip: true,
+        });
+
+        const analyticsScript = document.createElement('script');
+        analyticsScript.async = true;
+        analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+        document.head.appendChild(analyticsScript);
+        trackOutboundLinks();
+      };
+
+      const showBanner = (moveFocus = false) => {
+        if (!banner) return;
+        banner.hidden = false;
+        if (moveFocus) acceptButton?.focus();
+      };
+
+      const hideBanner = () => {
+        if (banner) banner.hidden = true;
+      };
+
+      acceptButton?.addEventListener('click', () => {
+        currentConsent = 'granted';
+        writeConsent('granted');
+        hideBanner();
+        loadAnalytics();
+      });
+
+      declineButton?.addEventListener('click', () => {
+        currentConsent = 'denied';
+        writeConsent('denied');
+        disableAnalytics();
+        hideBanner();
+      });
+
+      settingsButtons.forEach((button) => button.addEventListener('click', () => showBanner(true)));
+
+      currentConsent = readConsent();
+      if (currentConsent === 'granted') {
+        loadAnalytics();
+      } else if (currentConsent === 'denied') {
+        disableAnalytics();
+      } else {
+        showBanner(false);
+      }
+    })();
+  </script>
+
+
+
+  </body>
+</html>
