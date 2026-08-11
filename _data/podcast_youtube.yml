@@ -1,4 +1,4 @@
-# YouTube videos corresponding to the 39 full podcast episodes.
+# YouTube videos corresponding to the 40 full podcast episodes.
 # Keys match the season and episode fields used by the podcast episode collection.
 # `title` is the search-focused video/page metadata title; the podcast H1 remains
 # the editorial title in podcast_seasons.yml. `transcript_corrected` marks the
@@ -161,4 +161,8 @@ s4-e4:
 s4-e5:
   id: h42plIdxDSM
   title: "Can AI Learn Physics? Differentiable Simulation & Foundation Models | Nils Thuerey"
+  transcript_corrected: true
+s4-e6:
+  id: tHckH7Rgu38
+  title: "Can CFD Predict Hydrogen Combustion? GPUs, AI & Future Propulsion | Daniel Mira"
   transcript_corrected: true
