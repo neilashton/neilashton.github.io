@@ -32,6 +32,7 @@ nav_order: 1
       <h3><a href="https://arxiv.org/abs/2511.20455">Fluid Intelligence</a></h3>
       <p>An analysis of scaling laws, data-generation cost, and the technical requirements for foundation models in computational fluid dynamics.</p>
       <a href="https://arxiv.org/abs/2511.20455">Paper</a>
+      <a href="https://github.com/neilashton/fluid-intelligence-cfd-scaling">Reproducibility code</a>
     </article>
   </div>
   {% include workshop_leadership.liquid %}
@@ -43,18 +44,22 @@ nav_order: 1
     <article>
       <h3><a href="https://arxiv.org/abs/2407.20801">AhmedML</a></h3>
       <p>Scale-resolving CFD for 500 geometric variants of the Ahmed body.</p>
+      <a href="https://huggingface.co/datasets/neashton/ahmedml">Data</a>
     </article>
     <article>
       <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/42a59a5f35b1b3c3fd648397c88a7164-Abstract-Datasets_and_Benchmarks_Track.html">WindsorML</a></h3>
       <p>GPU-native wall-modelled large-eddy simulations for 355 Windsor-body variants.</p>
+      <a href="https://huggingface.co/datasets/neashton/windsorml">Data</a>
     </article>
     <article>
       <h3><a href="https://arxiv.org/abs/2408.11969">DrivAerML</a></h3>
       <p>Surface and volume flow data for 500 realistic road-car variants.</p>
+      <a href="https://huggingface.co/datasets/neashton/drivaerml">Data</a>
     </article>
     <article>
       <h3><a href="https://arxiv.org/abs/2605.19565">HiLiftAeroML</a></h3>
       <p>High-fidelity simulations across geometry variants and angles of attack for high-lift aircraft aerodynamics.</p>
+      <a href="https://huggingface.co/datasets/nvidia/HiLiftAeroML">Data</a>
     </article>
   </div>
 </section>
