@@ -1,0 +1,1851 @@
+1
+00:00:38,600 --> 00:00:42,310
+Hi and welcome back to
+the Neil Ashton podcast.
+
+2
+00:00:42,750 --> 00:00:47,040
+Today I wanted to talk about a topic
+that is probably on many people's
+
+3
+00:00:47,040 --> 00:00:52,450
+minds. This is the topic
+of how will AI affect my
+
+4
+00:00:52,450 --> 00:00:57,210
+career? How much does it affect
+the choice that you may be making?
+
+5
+00:00:57,350 --> 00:01:03,150
+If you're an undergraduate or
+postgraduate wondering how is this gonna
+
+6
+00:01:03,150 --> 00:01:05,950
+affect my job prospects,
+what career should I go in?
+
+7
+00:01:06,040 --> 00:01:11,250
+If you're in a sector that you believe
+is potentially gonna change because of
+
+8
+00:01:11,250 --> 00:01:13,450
+AI, should you retrain?
+
+9
+00:01:13,710 --> 00:01:19,180
+I believe there is tremendous
+positivity and promise with AI,
+
+10
+00:01:19,270 --> 00:01:23,670
+but I am also sensitive to the
+fact that it can cause anxiety and
+
+11
+00:01:23,670 --> 00:01:29,330
+uncertainty, particularly for younger
+people who are early on in their careers.
+
+12
+00:01:29,330 --> 00:01:34,280
+And I wanted to at least give my
+opinion and it's just an opinion
+
+13
+00:01:34,280 --> 00:01:39,580
+and it's based on limited knowledge that
+I have and could be completely wrong.
+
+14
+00:01:39,610 --> 00:01:44,990
+But I wanted to go through and also
+really focus probably a little bit
+
+15
+00:01:44,990 --> 00:01:49,940
+more on people who are earlier on in
+their careers and the things that
+
+16
+00:01:49,940 --> 00:01:52,780
+I think are good to focus on.
+
+17
+00:01:54,190 --> 00:01:59,910
+The idea is really: should you still be,
+you know, specializing in engineering
+
+18
+00:01:59,910 --> 00:02:05,490
+or sciences or maths in the era of AI.
+
+19
+00:02:05,490 --> 00:02:10,490
+So, why ask this now? Well, you
+know, it's clear to see that AI
+
+20
+00:02:10,490 --> 00:02:14,840
+is getting better and better
+and by AI in some sense,
+
+21
+00:02:14,840 --> 00:02:16,990
+I mean, large language models.
+
+22
+00:02:17,000 --> 00:02:21,970
+So their ability to write code and
+analyze data is just tremendous.
+
+23
+00:02:22,590 --> 00:02:28,450
+I struggle to find anybody
+nowadays who isn't using some
+
+24
+00:02:28,450 --> 00:02:31,360
+sort of coding agent to develop code.
+
+25
+00:02:31,670 --> 00:02:36,430
+More and more, I speak to friends
+of mine who are not at all
+
+26
+00:02:36,430 --> 00:02:39,140
+in the technology industry.
+
+27
+00:02:39,140 --> 00:02:45,060
+And they are, you know, really
+on board and love the desktop
+
+28
+00:02:45,060 --> 00:02:50,600
+and mobile applications, you know,
+whether it's Gemini or ChatGPT or any
+
+29
+00:02:50,600 --> 00:02:55,870
+others. And so it really is
+now, I think today in August of
+
+30
+00:02:56,300 --> 00:03:02,080
+2026, gone past any sense
+of, this is just hype.
+
+31
+00:03:02,080 --> 00:03:08,190
+You know, I think people are seeing
+genuine usefulness out of AI.
+
+32
+00:03:08,370 --> 00:03:13,980
+But if you look at those various
+reports from like the World Economic
+
+33
+00:03:13,980 --> 00:03:19,930
+Forum, I picked out some stat here,
+around 39% of workers' skills will
+
+34
+00:03:19,930 --> 00:03:25,560
+change by 2030. And so the
+question is really how to
+
+35
+00:03:25,560 --> 00:03:28,010
+prepare for that change.
+
+36
+00:03:28,310 --> 00:03:33,570
+Now, when it comes to
+engineering, and maths and
+
+37
+00:03:33,570 --> 00:03:38,030
+sciences, I cannot see
+a short or medium term,
+
+38
+00:03:38,030 --> 00:03:42,650
+and longer term it's science
+fiction to think about longer term.
+
+39
+00:03:42,650 --> 00:03:47,440
+But in the short to medium
+term, as in years and decades,
+
+40
+00:03:47,890 --> 00:03:52,880
+there's only an increased
+need for engineers.
+
+41
+00:03:53,230 --> 00:03:57,970
+If we look across energy,
+for nuclear, for wind,
+
+42
+00:03:58,060 --> 00:04:04,050
+even still for fossil fuels, there
+is a huge need to build that
+
+43
+00:04:04,110 --> 00:04:07,910
+out. Of course, for AI, there's
+a massive focus on energy.
+
+44
+00:04:07,920 --> 00:04:13,430
+There's still a lot of amazing
+research going on on nuclear
+
+45
+00:04:13,430 --> 00:04:17,280
+fusion. And that sector needs people.
+
+46
+00:04:17,370 --> 00:04:21,600
+Transport, buildings,
+electronics, manufacturing.
+
+47
+00:04:21,610 --> 00:04:24,580
+There's a buzz now in the
+semiconductor industry.
+
+48
+00:04:24,730 --> 00:04:29,510
+There's a huge focus in defence,
+whether we like it or not.
+
+49
+00:04:29,510 --> 00:04:33,420
+And there's a shortage of engineers.
+
+50
+00:04:33,630 --> 00:04:37,170
+Anybody who speaks to a company will
+know that it's difficult to hire,
+
+51
+00:04:37,170 --> 00:04:39,080
+it's difficult to find good people.
+
+52
+00:04:39,210 --> 00:04:43,140
+Now that may sound odd to graduates
+who are struggling to find a job,
+
+53
+00:04:43,190 --> 00:04:47,890
+but there is still a need for it.
+
+54
+00:04:47,890 --> 00:04:53,920
+And it is hard to predict what tasks will
+
+55
+00:04:54,620 --> 00:05:00,230
+change, but I would say
+routine coding, you know,
+
+56
+00:05:00,230 --> 00:05:04,230
+simulation setup, writing
+
+57
+00:05:04,230 --> 00:05:09,700
+documentation, that sort of thing is
+
+58
+00:05:09,700 --> 00:05:15,480
+going to become much more of an AI-driven
+
+59
+00:05:15,480 --> 00:05:20,590
+thing. That doesn't mean that
+we're hiring less developers,
+
+60
+00:05:20,650 --> 00:05:25,730
+but it does mean that the skills
+that you need are changing.
+
+61
+00:05:25,730 --> 00:05:28,960
+And in some ways I see
+this as a positive thing.
+
+62
+00:05:28,960 --> 00:05:33,730
+And I think I've told this story
+before, but Like many other people
+
+63
+00:05:33,730 --> 00:05:39,600
+who did a more classical engineering
+
+64
+00:05:39,600 --> 00:05:42,540
+degree, I was not a hardcore programmer
+where when I did it, 20 years
+
+65
+00:05:42,540 --> 00:05:47,060
+ago whenever it was, we didn't
+do as much on programming,
+
+66
+00:05:47,070 --> 00:05:51,980
+we didn't do as much on that,
+it was more about engineering.
+
+67
+00:05:51,980 --> 00:05:56,300
+And probably 10 years ago or five years ago,
+
+68
+00:05:56,370 --> 00:06:01,960
+I did sometimes feel that that
+held me back a little bit when I
+
+69
+00:06:01,960 --> 00:06:05,810
+wanted to, you know, test
+an idea out, write a code,
+
+70
+00:06:05,990 --> 00:06:09,860
+do some more sophisticated analysis.
+
+71
+00:06:09,860 --> 00:06:12,110
+I kind of realized I couldn't do that.
+
+72
+00:06:12,110 --> 00:06:14,680
+And I actually felt that was a limitation.
+
+73
+00:06:14,680 --> 00:06:17,940
+And I kept saying to myself,
+I should really go and,
+
+74
+00:06:17,940 --> 00:06:21,060
+you know, do some immersive
+course in Python or,
+
+75
+00:06:21,060 --> 00:06:27,000
+you know, do something to really
+become amazing at programming as if
+
+76
+00:06:27,000 --> 00:06:32,320
+that would help me. Or, for things
+that I've mentioned before like,
+
+77
+00:06:32,320 --> 00:06:35,400
+computer-aided design (CAD), I always said,
+
+78
+00:06:35,400 --> 00:06:38,040
+if someone today said,
+Neil, design a, you know,
+
+79
+00:06:38,040 --> 00:06:41,830
+front wing of a Formula One
+car, I would conceptually,
+
+80
+00:06:41,830 --> 00:06:46,050
+well, more than conceptually, I
+would know what I need to do,
+
+81
+00:06:46,050 --> 00:06:51,850
+but I just don't have the
+ability to do it in CATIA or NX
+
+82
+00:06:51,850 --> 00:06:54,590
+or whatever CAD package.
+
+83
+00:06:54,590 --> 00:06:57,810
+And so again, I would
+probably therefore think,
+
+84
+00:06:57,810 --> 00:07:01,310
+well, I can't do it because
+I don't have those skills.
+
+85
+00:07:01,310 --> 00:07:07,260
+So now with AI, I know
+that I can code pretty
+
+86
+00:07:07,260 --> 00:07:12,140
+much anything up. Now I'm not
+talking about building an
+
+87
+00:07:12,140 --> 00:07:16,970
+enterprise-quality thing and we
+can get to that in a minute,
+
+88
+00:07:16,970 --> 00:07:22,550
+which still requires people with the
+skills of how to create a good program,
+
+89
+00:07:22,610 --> 00:07:27,570
+how to organize, how to have a
+team of people working on it.
+
+90
+00:07:27,570 --> 00:07:33,320
+But just in terms of developing
+prototypes or just automating
+
+91
+00:07:33,320 --> 00:07:37,010
+things in a typical engineering company.
+
+92
+00:07:38,300 --> 00:07:42,810
+When I was in Formula One, I was
+doing a lot of the methodology.
+
+93
+00:07:43,630 --> 00:07:47,240
+I think those teams exist
+basically in every company,
+
+94
+00:07:47,460 --> 00:07:51,790
+which is, you know, you have a bunch of
+designers or aerodynamicists and this
+
+95
+00:07:51,790 --> 00:07:53,950
+is across all of CAE now.
+
+96
+00:07:53,990 --> 00:07:58,230
+But you had a core group of people who
+would actually decide what methods
+
+97
+00:07:58,230 --> 00:07:59,970
+would be used. How would you script it?
+
+98
+00:07:59,970 --> 00:08:03,610
+How would you automate it? How would
+you make it the most efficient?
+
+99
+00:08:03,610 --> 00:08:05,880
+And that's what I was working on.
+
+100
+00:08:06,060 --> 00:08:11,390
+And a lot of what we were doing was
+scripting and automating things.
+
+101
+00:08:11,590 --> 00:08:15,420
+Now, I would imagine if you
+go into a Formula One team,
+
+102
+00:08:15,500 --> 00:08:21,460
+it would be totally transformative
+compared to when I was there
+
+103
+00:08:21,460 --> 00:08:27,010
+in terms of there's no barrier to
+the sophistication because you have
+
+104
+00:08:27,420 --> 00:08:32,490
+probably the world's best coding
+agent in some of these AI tools now.
+
+105
+00:08:32,670 --> 00:08:36,210
+So why am I saying this?
+
+106
+00:08:36,710 --> 00:08:42,560
+I'm saying that in some ways AI is
+a great enabler and democratizes
+
+107
+00:08:42,560 --> 00:08:45,150
+knowledge. It is a level setter.
+
+108
+00:08:45,220 --> 00:08:50,920
+It actually in some ways makes
+more people able to do the jobs
+
+109
+00:08:50,920 --> 00:08:53,970
+that they couldn't do before.
+
+110
+00:08:54,270 --> 00:08:57,710
+I strongly believe that.
+I think AI can help you;
+
+111
+00:08:57,750 --> 00:09:02,310
+you could apply for a job and
+AI could help you to do that
+
+112
+00:09:02,310 --> 00:09:07,950
+job. So in that sense, rather
+than it being a negative thing,
+
+113
+00:09:08,020 --> 00:09:12,890
+I would say I would now feel more
+comfortable going into a job that
+
+114
+00:09:12,890 --> 00:09:17,650
+I wouldn't probably have applied for
+before because I know AI is gonna be
+
+115
+00:09:17,650 --> 00:09:22,550
+there to help me. So that is
+a positive thing in my mind.
+
+116
+00:09:22,740 --> 00:09:28,140
+Now, if you think about it,
+what really matters are
+
+117
+00:09:28,140 --> 00:09:30,580
+still the fundamentals.
+
+118
+00:09:30,950 --> 00:09:36,700
+So another example I give is
+if someone said to me now,
+
+119
+00:09:36,790 --> 00:09:42,320
+go and work in a bio company
+looking at drug discovery.
+
+120
+00:09:42,500 --> 00:09:44,840
+I haven't got a biology degree.
+
+121
+00:09:44,990 --> 00:09:48,020
+I have no idea how drug discovery works.
+
+122
+00:09:48,190 --> 00:09:51,220
+I have no chemistry background,
+no biology background,
+
+123
+00:09:51,220 --> 00:09:54,790
+no medical background. For
+sure, I could, you know,
+
+124
+00:09:54,790 --> 00:09:56,620
+get a really good AI model.
+
+125
+00:09:56,620 --> 00:10:01,630
+And I'm sure it could do many of
+the things that someone would ask
+
+126
+00:10:01,630 --> 00:10:05,260
+me to do. But I would have
+no idea if it was right or
+
+127
+00:10:05,260 --> 00:10:09,540
+not. I could be smart and I could
+maybe get a couple of different
+
+128
+00:10:09,540 --> 00:10:12,190
+models and get the model
+to check the other model.
+
+129
+00:10:12,310 --> 00:10:15,210
+But I really would be just,
+you know, a dumb user of it.
+
+130
+00:10:15,360 --> 00:10:17,840
+I really wouldn't have any sense.
+
+131
+00:10:17,950 --> 00:10:20,910
+I have no background in that.
+
+132
+00:10:21,230 --> 00:10:27,380
+So in that way, until AI
+models become so unbelievably
+
+133
+00:10:27,460 --> 00:10:33,480
+good. And that, I think in a broad
+sense, will still take a long
+
+134
+00:10:33,710 --> 00:10:39,040
+time. There will always need
+to be the people there to
+
+135
+00:10:39,040 --> 00:10:42,200
+orchestrate and guide and check and sort of,
+
+136
+00:10:42,200 --> 00:10:45,000
+yeah, orchestrate is the word I like to use.
+
+137
+00:10:45,430 --> 00:10:49,140
+So in that sense, does the fact
+that AI is great at drug discovery
+
+138
+00:10:49,140 --> 00:10:53,530
+mean that you shouldn't study biology
+and chemistry and go into that?
+
+139
+00:10:53,530 --> 00:10:56,240
+No, of course you need to, you
+need people with that background.
+
+140
+00:10:56,380 --> 00:11:01,400
+If we go to engineering, the
+reason that I find AI so useful to
+
+141
+00:11:01,400 --> 00:11:07,420
+me is I have an engineering degree
+and a good knowledge of the area.
+
+142
+00:11:07,670 --> 00:11:10,790
+So if I ask the AI to help me to do a task,
+
+143
+00:11:10,820 --> 00:11:15,150
+I'm able to steer it to point
+it and tell it and validate it
+
+144
+00:11:15,150 --> 00:11:18,250
+and check it. I'm on all those levels.
+
+145
+00:11:18,380 --> 00:11:22,660
+That's where the fundamentals still matter.
+
+146
+00:11:22,910 --> 00:11:26,760
+You still need to sort of
+understand physical principles.
+
+147
+00:11:26,980 --> 00:11:30,100
+I'm talking about engineering now.
+You still need the domain knowledge.
+
+148
+00:11:30,170 --> 00:11:33,420
+You still need to know what
+codes should I be using.
+
+149
+00:11:33,510 --> 00:11:37,640
+You still need to have a sense of economics,
+
+150
+00:11:38,120 --> 00:11:44,000
+of team working. So in that sense,
+if you want to go into industry,
+
+151
+00:11:44,120 --> 00:11:49,490
+I still think an engineering, computer
+science, maths or physics degree is the right
+
+152
+00:11:49,490 --> 00:11:55,420
+choice, even though AI
+
+153
+00:11:55,420 --> 00:11:58,890
+is great at programming
+and statistics and data,
+
+154
+00:11:58,930 --> 00:12:00,760
+you still need to know it.
+
+155
+00:12:01,030 --> 00:12:06,200
+At this point, I would say
+the biggest opportunities
+
+156
+00:12:06,200 --> 00:12:09,960
+available now are for people who know AI.
+
+157
+00:12:10,230 --> 00:12:14,600
+So if you look at the job market,
+the best-paying jobs today,
+
+158
+00:12:14,720 --> 00:12:20,750
+the greatest need is for people
+
+159
+00:12:20,750 --> 00:12:23,580
+who can help the company
+to use AI in the best way.
+
+160
+00:12:23,580 --> 00:12:26,530
+Because AI is not cheap. And so
+if you're gonna be spending,
+
+161
+00:12:26,530 --> 00:12:29,370
+you know, huge amount of money
+on tokens and subscriptions,
+
+162
+00:12:29,670 --> 00:12:31,640
+you wanna extract the most out of it.
+
+163
+00:12:31,750 --> 00:12:36,510
+So actually at the moment, you need
+people who know how to use AI.
+
+164
+00:12:36,620 --> 00:12:38,530
+That's probably the skill.
+
+165
+00:12:38,630 --> 00:12:43,730
+And to be fair, this is
+actually where younger
+
+166
+00:12:43,730 --> 00:12:46,940
+graduates are in a better position.
+
+167
+00:12:47,140 --> 00:12:52,260
+I've spoken to several people and they
+have genuinely agreed that I think there
+
+168
+00:12:52,260 --> 00:12:57,360
+was three scenarios. And this is probably
+gonna be a bit negative for older
+
+169
+00:12:57,360 --> 00:12:59,710
+people, but I'll say it anyway.
+
+170
+00:12:59,830 --> 00:13:03,780
+So if you were gonna hire an engineer today,
+
+171
+00:13:03,830 --> 00:13:09,970
+would you hire a 50-year-old
+with 30 years of experience,
+
+172
+00:13:10,020 --> 00:13:15,770
+but who has no AI experience and
+actually has some AI negativity?
+
+173
+00:13:16,000 --> 00:13:20,250
+And I do see that a lot, unfortunately.
+
+174
+00:13:20,350 --> 00:13:26,190
+Would I hire an AI person that
+has no background at all in
+
+175
+00:13:26,830 --> 00:13:31,800
+engineering? Or would I find
+somebody who's sort of early career,
+
+176
+00:13:31,860 --> 00:13:37,850
+but extremely proficient with
+AI and has the right mentality?
+
+177
+00:13:38,110 --> 00:13:41,150
+It used to be the case that a
+lot of companies would want the
+
+178
+00:13:41,150 --> 00:13:46,620
+extreme expert. And it wouldn't matter if
+they know AI because that's somebody what
+
+179
+00:13:46,620 --> 00:13:49,210
+IT will do or something.
+
+180
+00:13:49,550 --> 00:13:53,250
+When I spoke to most people, they would
+actually prefer option three to one
+
+181
+00:13:53,250 --> 00:13:57,580
+or two. It's becoming
+
+182
+00:13:58,020 --> 00:14:02,210
+essential to have those AI skills.
+
+183
+00:14:02,550 --> 00:14:07,480
+To some, they would rather sacrifice a
+little bit of that domain knowledge because
+
+184
+00:14:07,710 --> 00:14:13,430
+right now what matters more is someone
+who can really take advantage of AI.
+
+185
+00:14:13,670 --> 00:14:15,980
+And I don't mean just take it
+and use it and blame it but
+
+186
+00:14:15,980 --> 00:14:17,940
+be the person who wants to improve it.
+
+187
+00:14:18,000 --> 00:14:22,860
+In a larger company that's maybe helping
+to negotiate which AI tool they should
+
+188
+00:14:22,860 --> 00:14:26,210
+use, whether they should be building
+things internally, understanding all the
+
+189
+00:14:26,210 --> 00:14:28,900
+different players where
+it's good, where it's bad.
+
+190
+00:14:29,070 --> 00:14:33,610
+So in that sense, if you're
+not an expert in AI right now,
+
+191
+00:14:33,640 --> 00:14:38,960
+at least in today's job market, I would
+say you're at a massive disadvantage
+
+192
+00:14:38,960 --> 00:14:40,860
+and you should learn very quickly.
+
+193
+00:14:41,070 --> 00:14:44,960
+And by being an expert in AI, I
+don't mean just using the chat
+
+194
+00:14:44,960 --> 00:14:48,100
+interface of ChatGPT. I don't
+mean just copy and pasting stuff.
+
+195
+00:14:48,310 --> 00:14:52,960
+I mean actually getting in and
+understanding how it works,
+
+196
+00:14:53,030 --> 00:14:58,490
+understanding how you could build out some
+
+197
+00:14:58,490 --> 00:15:01,960
+agents. You can still be using
+some of these commercial tools.
+
+198
+00:15:02,200 --> 00:15:06,710
+I don't mean write it all from
+scratch, but somebody who knows how to
+
+199
+00:15:06,710 --> 00:15:12,450
+do it, knows how MCP servers work, how
+to connect different tools together,
+
+200
+00:15:12,710 --> 00:15:17,430
+has an inquisitive mind, is
+looking at where are things going.
+
+201
+00:15:17,650 --> 00:15:21,570
+That is so valuable. If I
+interview somebody now for a job,
+
+202
+00:15:21,590 --> 00:15:25,620
+I want someone who is passionate about it.
+
+203
+00:15:25,910 --> 00:15:28,710
+Because like it or not, that
+is the technology of today.
+
+204
+00:15:28,970 --> 00:15:32,350
+It's a bit like hiring
+somebody who is, well,
+
+205
+00:15:32,430 --> 00:15:35,940
+I don't really like to use
+computers, 40 years ago.
+
+206
+00:15:36,110 --> 00:15:38,880
+Yeah, I prefer to do everything by hand.
+
+207
+00:15:39,180 --> 00:15:42,170
+At that time, maybe
+computers were seen as like,
+
+208
+00:15:42,170 --> 00:15:45,370
+we don't really need it. But for
+sure, the company that did have it,
+
+209
+00:15:45,370 --> 00:15:48,760
+or the same with the internet. If
+you hired somebody who was a whiz
+
+210
+00:15:48,760 --> 00:15:52,980
+with building websites during
+the time of the dot com,
+
+211
+00:15:53,220 --> 00:15:56,080
+that was really valuable for your company.
+
+212
+00:15:56,300 --> 00:16:00,950
+Having that mindset might have helped you
+shift to an online company instead of
+
+213
+00:16:00,950 --> 00:16:04,580
+just physical stores,
+which as many people know,
+
+214
+00:16:04,580 --> 00:16:09,320
+there's many examples of companies that
+failed because they didn't anticipate where
+
+215
+00:16:09,320 --> 00:16:14,820
+things were going. So that's a
+long-winded way of saying that
+
+216
+00:16:15,070 --> 00:16:19,930
+today I would say it really
+matters to know AI itself,
+
+217
+00:16:20,140 --> 00:16:23,910
+not just background in
+engineering or science,
+
+218
+00:16:23,950 --> 00:16:28,240
+which is still super
+important, but AI itself.
+
+219
+00:16:28,590 --> 00:16:31,170
+And the great thing is now there's so
+many YouTube courses, there's so much
+
+220
+00:16:31,170 --> 00:16:35,660
+free content, many companies are desperate
+to give you free training so that you
+
+221
+00:16:35,660 --> 00:16:38,050
+use their products essentially.
+
+222
+00:16:38,150 --> 00:16:40,940
+And this is true if you're
+working in the software side,
+
+223
+00:16:41,390 --> 00:16:46,850
+in the area I'm in, in more CAE
+and EDA, absolutely massive
+
+224
+00:16:46,850 --> 00:16:52,830
+opportunities there. So let's look
+at what practical skills should
+
+225
+00:16:52,830 --> 00:16:56,660
+you develop? And maybe we can
+look across undergraduate,
+
+226
+00:16:56,830 --> 00:17:01,710
+postgraduate, and then early
+and late stage careers.
+
+227
+00:17:01,910 --> 00:17:06,890
+If you're an undergraduate, I would
+not be tempted to use AI to do
+
+228
+00:17:06,890 --> 00:17:08,710
+all of the coursework for you.
+
+229
+00:17:08,710 --> 00:17:13,570
+Even though it's very tempting to do it,
+you're sort of ultimately gonna cheat
+
+230
+00:17:13,570 --> 00:17:17,650
+yourself out of learning some of these
+fundamentals that do matter later.
+
+231
+00:17:17,710 --> 00:17:21,840
+And even I, there's certain things
+now I kind of wish that I'd got
+
+232
+00:17:21,840 --> 00:17:25,790
+even better grounding on
+when I was at university.
+
+233
+00:17:26,030 --> 00:17:30,880
+You know, some of these like fundamental
+understanding of mathematical theory or
+
+234
+00:17:30,880 --> 00:17:36,900
+engineering principles, they
+really do give you that intuition
+
+235
+00:17:37,240 --> 00:17:41,820
+and physical understanding
+and logic that helps.
+
+236
+00:17:44,390 --> 00:17:48,720
+But at the same time, I would
+absolutely be using AI as a tutor.
+
+237
+00:17:48,810 --> 00:17:52,770
+I think I've said this before, I think
+AI's greatest role at the moment
+
+238
+00:17:52,770 --> 00:17:55,930
+is to help you to study. So if
+you get a piece of coursework,
+
+239
+00:17:55,960 --> 00:17:58,860
+instead of sort of copying
+and pasting it in and saying,
+
+240
+00:17:58,950 --> 00:18:03,330
+you know, give me the answer,
+essentially, I would do it to like create
+
+241
+00:18:03,330 --> 00:18:05,920
+me a podcast that will teach me this area.
+
+242
+00:18:06,100 --> 00:18:11,130
+Or I quite often have it where
+I will ask it to create me
+
+243
+00:18:11,130 --> 00:18:14,990
+a presentation that will teach me the area.
+
+244
+00:18:15,150 --> 00:18:19,490
+And you can ask it to help
+you to do things as long as
+
+245
+00:18:20,170 --> 00:18:23,400
+it's legally allowed in
+whatever study you're doing.
+
+246
+00:18:23,460 --> 00:18:26,250
+But I would then be like, explain
+to me in a high level how
+
+247
+00:18:26,250 --> 00:18:28,470
+this works and then dive deeper.
+
+248
+00:18:28,470 --> 00:18:31,460
+It's like having the ultimate tutor.
+
+249
+00:18:31,710 --> 00:18:34,980
+So in that sense at the undergraduate
+level I would use AI as a
+
+250
+00:18:34,980 --> 00:18:39,940
+teacher not as something that does it
+for you or you just you're ultimately
+
+251
+00:18:39,940 --> 00:18:43,790
+just cheating yourself and you're
+not going to learn the things.
+
+252
+00:18:43,790 --> 00:18:49,000
+In the PhD, wow, if you do
+do a PhD or research thing,
+
+253
+00:18:49,040 --> 00:18:52,700
+if I had AI when I was doing my PhD, my God,
+
+254
+00:18:52,750 --> 00:18:57,640
+that would have been so
+useful, unbelievably useful.
+
+255
+00:18:57,830 --> 00:19:00,750
+I mean, just incredible productivity.
+
+256
+00:19:00,990 --> 00:19:04,430
+I just think how much I could have
+done, how much more studies I
+
+257
+00:19:04,430 --> 00:19:09,750
+could have investigated, and the way that
+it would have helped me to understand
+
+258
+00:19:09,750 --> 00:19:12,840
+new areas, just mind blowing.
+
+259
+00:19:13,110 --> 00:19:16,930
+So I would fully embrace it
+as the ultimate companion.
+
+260
+00:19:17,100 --> 00:19:21,510
+At a sort of research level,
+whether it's masters or PhD,
+
+261
+00:19:21,590 --> 00:19:26,970
+I think the AI should be the bit
+where you really hone those skills,
+
+262
+00:19:27,300 --> 00:19:31,150
+help it to be your own
+PhD student a little bit,
+
+263
+00:19:31,860 --> 00:19:35,710
+to help you to do things. And that's
+the mentality that I think most
+
+264
+00:19:35,710 --> 00:19:40,470
+companies want. They want you
+to use AI as your helper,
+
+265
+00:19:40,540 --> 00:19:44,710
+not just a lazy way that you
+just sort of do this for me,
+
+266
+00:19:45,100 --> 00:19:49,230
+but rather something where you
+almost have your own team.
+
+267
+00:19:49,430 --> 00:19:52,270
+And that's why a lot of companies
+are now talking about a sort of
+
+268
+00:19:52,270 --> 00:19:56,610
+agentic engineer or an AI engineer, and
+they don't really mean it to replace
+
+269
+00:19:56,610 --> 00:20:00,320
+you as an engineer, but it's
+almost to give you extra help.
+
+270
+00:20:00,520 --> 00:20:04,650
+And so you're sat there farming
+off things to go and do.
+
+271
+00:20:04,870 --> 00:20:07,180
+So that's how I would do it.
+
+272
+00:20:07,390 --> 00:20:12,550
+Now, of course, there's a
+debate of what would you
+
+273
+00:20:12,550 --> 00:20:18,150
+actually study. In that sense, it's very
+
+274
+00:20:18,950 --> 00:20:21,910
+dependent on your area of study.
+
+275
+00:20:21,910 --> 00:20:25,590
+But at least if you were doing
+it now, then I would still focus
+
+276
+00:20:25,590 --> 00:20:31,590
+very much on, let's say in engineering,
+how can AI work for engineering in
+
+277
+00:20:31,590 --> 00:20:35,420
+a more holistic way?
+That's clearly one topic.
+
+278
+00:20:35,510 --> 00:20:38,560
+But it doesn't have to be just on AI itself.
+
+279
+00:20:38,710 --> 00:20:43,280
+If you're coming up with new theories,
+or studying fluid mechanics,
+
+280
+00:20:43,280 --> 00:20:46,510
+AI can just help you to do the
+post-processing, it can help you to
+
+281
+00:20:46,510 --> 00:20:49,280
+understand what's going on.
+
+282
+00:20:50,050 --> 00:20:53,030
+You don't have to be
+studying AI as the topic,
+
+283
+00:20:53,230 --> 00:20:57,830
+it's just AI can help you essentially.
+
+284
+00:20:58,070 --> 00:21:01,020
+And I know probably as I'm saying
+this, because I've said the word AI
+
+285
+00:21:01,020 --> 00:21:04,360
+so many times, some people
+may be skeptical and think,
+
+286
+00:21:04,360 --> 00:21:10,300
+but yeah, it would just be unwise
+for you not to be looking into
+
+287
+00:21:10,300 --> 00:21:14,440
+this. The good thing is if you
+set that sort of strong basis,
+
+288
+00:21:14,480 --> 00:21:19,180
+a good strong maths background,
+engineering background,
+
+289
+00:21:19,190 --> 00:21:22,650
+computational science, I would
+understand how chips work,
+
+290
+00:21:22,680 --> 00:21:26,420
+semiconductors work. That's a big area now.
+
+291
+00:21:26,620 --> 00:21:30,640
+If you think about it, if AI does
+become the revolutionary technology,
+
+292
+00:21:30,640 --> 00:21:34,440
+you need to understand the
+methods, how AI works,
+
+293
+00:21:34,460 --> 00:21:40,430
+how it's trained, how inference works,
+and all the stuff around fine-tuning and
+
+294
+00:21:40,430 --> 00:21:43,670
+agents, etc.—harnesses
+and scaffolding, blah,
+
+295
+00:21:43,710 --> 00:21:49,620
+blah, blah. But arguably what
+powers it and what powers
+
+296
+00:21:49,620 --> 00:21:54,540
+it are chips. So I would argue
+that actually learning more about
+
+297
+00:21:54,540 --> 00:21:58,380
+semiconductors and EDA is
+probably a very useful thing.
+
+298
+00:21:58,550 --> 00:22:01,320
+Learning about, you know, the engineering,
+
+299
+00:22:01,340 --> 00:22:06,710
+the power, the economics, that whole
+stack will be very useful to understand.
+
+300
+00:22:07,140 --> 00:22:10,980
+But I think you're in a great position
+if you have that engineering background,
+
+301
+00:22:11,440 --> 00:22:15,710
+science background, and you're very
+proficient with AI, I think you could turn
+
+302
+00:22:18,090 --> 00:22:23,990
+to many jobs. But I guess the elephant
+
+303
+00:22:23,990 --> 00:22:27,260
+in the room is how do you stand out?
+
+304
+00:22:27,460 --> 00:22:32,970
+If in some ways AI is the great
+enabler, how do you make sure
+
+305
+00:22:32,970 --> 00:22:35,020
+you get the job versus somebody else?
+
+306
+00:22:35,090 --> 00:22:38,400
+It used to be that you would
+just be the best specialist,
+
+307
+00:22:38,580 --> 00:22:41,140
+the best university, the best degree.
+
+308
+00:22:41,500 --> 00:22:47,340
+And that is to some extent
+still true, but I would argue
+
+309
+00:22:47,340 --> 00:22:52,770
+that if some of the technical ability is now
+
+310
+00:22:52,770 --> 00:22:58,310
+taken by AI, then the
+soft skills matter even
+
+311
+00:22:58,310 --> 00:23:01,460
+more. Maybe I, you know,
+lean too much into this,
+
+312
+00:23:01,460 --> 00:23:06,040
+but I cannot tell you how
+much I value the soft skills.
+
+313
+00:23:06,380 --> 00:23:11,030
+I want to see someone who
+can work well in a team,
+
+314
+00:23:11,030 --> 00:23:16,490
+who has the right attitude, who has
+the right organisational ability,
+
+315
+00:23:17,330 --> 00:23:22,240
+who understands emotional
+intelligence and sensitivity,
+
+316
+00:23:22,670 --> 00:23:28,600
+who maybe has skills in languages and
+understands different cultures—just
+
+317
+00:23:28,600 --> 00:23:30,250
+someone who is, you know, good with people.
+
+318
+00:23:30,250 --> 00:23:36,190
+More and more, anybody who goes
+into leadership roles knows this:
+
+319
+00:23:36,190 --> 00:23:39,640
+how well a company does is really
+down to the people and the vibe
+
+320
+00:23:39,740 --> 00:23:43,090
+and that is a lot about how you
+recruit people and the people you
+
+321
+00:23:43,090 --> 00:23:46,090
+have. The technical ability
+matters a huge amount,
+
+322
+00:23:46,180 --> 00:23:50,940
+but if we argue that AI is gonna
+solve some of that technical ability,
+
+323
+00:23:52,990 --> 00:23:55,640
+the dynamic of the team and the
+people is gonna matter more.
+
+324
+00:23:55,640 --> 00:24:01,110
+So I don't believe you can be
+the sort of super brainy but a
+
+325
+00:24:01,110 --> 00:24:05,310
+bit awkward person that
+won't stand out as well.
+
+326
+00:24:05,500 --> 00:24:10,640
+So I think the sort of soft skills
+and I don't mean everyone needs
+
+327
+00:24:10,640 --> 00:24:14,470
+to be an extrovert, but someone
+who can do well in the team is
+
+328
+00:24:14,470 --> 00:24:18,180
+probably gonna matter even more.
+
+329
+00:24:18,520 --> 00:24:23,080
+Showing demonstrable proof is important.
+
+330
+00:24:23,390 --> 00:24:26,370
+I always find that if
+someone just sends a CV,
+
+331
+00:24:26,400 --> 00:24:32,450
+if someone actually shows me a
+presentation of something they've built,
+
+332
+00:24:32,450 --> 00:24:35,460
+something they've done,
+something—that's important.
+
+333
+00:24:35,460 --> 00:24:37,880
+Internships are super important.
+
+334
+00:24:38,030 --> 00:24:41,040
+That is ultimately the way that
+a lot of companies hire now.
+
+335
+00:24:41,040 --> 00:24:45,990
+They get somebody as an intern, it's
+a bit of an extended job interview,
+
+336
+00:24:46,050 --> 00:24:48,710
+you know, and then they hire.
+
+337
+00:24:48,710 --> 00:24:53,090
+So actually, because there's so much
+open-source stuff out there now,
+
+338
+00:24:53,090 --> 00:24:56,690
+because AI is so great, you
+should be able to build things.
+
+339
+00:24:56,690 --> 00:25:00,960
+You should be able to demonstrate
+your ability much easier than before.
+
+340
+00:25:01,150 --> 00:25:06,010
+So if you wanna go into a job,
+and it's about doing data centre
+
+341
+00:25:06,010 --> 00:25:10,520
+design, you could probably pick
+up some research yourself,
+
+342
+00:25:10,910 --> 00:25:14,050
+you could build some simulations yourself,
+
+343
+00:25:14,220 --> 00:25:19,060
+you could do so much just to
+prove that you want and are able
+
+344
+00:25:19,110 --> 00:25:23,160
+to do it, all with relatively
+open-source and free tooling.
+
+345
+00:25:23,270 --> 00:25:26,790
+Now of course the actual
+token cost is another thing,
+
+346
+00:25:26,790 --> 00:25:29,890
+and that's where there's a
+lot of student programs,
+
+347
+00:25:29,910 --> 00:25:33,280
+but frankly, it's probably worth it
+for you to pay, and I think most
+
+348
+00:25:33,280 --> 00:25:37,360
+people do, for a decent
+subscription to an AI thing,
+
+349
+00:25:38,100 --> 00:25:40,880
+because it's gonna help you out.
+
+350
+00:25:41,080 --> 00:25:46,050
+So, it's hard for me to think,
+but if I was starting again,
+
+351
+00:25:46,070 --> 00:25:49,920
+I think engineering would
+still be the right choice.
+
+352
+00:25:50,070 --> 00:25:54,640
+I would still do it. And I think
+it's even more relevant today as
+
+353
+00:25:54,640 --> 00:25:57,550
+a good degree, regardless
+of what you go into,
+
+354
+00:25:57,670 --> 00:26:00,690
+just because every industry
+has been transformed by AI.
+
+355
+00:26:00,750 --> 00:26:05,270
+And I think engineering gives you
+that grounding in those subjects.
+
+356
+00:26:05,420 --> 00:26:08,470
+Maybe maths, you could
+argue, it's very specific.
+
+357
+00:26:08,470 --> 00:26:14,050
+An engineering degree, by
+design, has elements of maths,
+
+358
+00:26:14,350 --> 00:26:16,650
+elements of physics, elements
+of computer science.
+
+359
+00:26:16,670 --> 00:26:19,670
+I actually think it's a great
+all-round degree if I'm being honest.
+
+360
+00:26:19,670 --> 00:26:24,640
+I mean, I'm biased obviously, but I
+think today it's even more relevant for
+
+361
+00:26:24,640 --> 00:26:28,980
+you. So I've probably not
+
+362
+00:26:28,980 --> 00:26:34,550
+addressed all of the points, but I
+
+363
+00:26:34,550 --> 00:26:39,970
+really don't think that this
+is gonna be a matter of a mass
+
+364
+00:26:39,970 --> 00:26:45,050
+wipeout of jobs. Okay, long term if you
+
+365
+00:26:45,050 --> 00:26:50,520
+extrapolate things and you say robots can
+do everything and AI could do everything.
+
+366
+00:26:50,520 --> 00:26:53,880
+Okay, maybe there's a very
+uncertain long term future,
+
+367
+00:26:53,980 --> 00:26:57,510
+but frankly, none of us know and
+it is almost like a sci-fi thing
+
+368
+00:26:57,510 --> 00:27:00,430
+to look at. I'm not even sure
+it's worth looking at that.
+
+369
+00:27:00,460 --> 00:27:05,560
+I can look at the short to medium
+term, years or decades and
+
+370
+00:27:06,560 --> 00:27:10,810
+I don't see any mass wipeout
+of jobs in engineering.
+
+371
+00:27:10,870 --> 00:27:15,780
+I see just it being a different skill
+set, a different sort of productivity.
+
+372
+00:27:15,990 --> 00:27:21,770
+And that is not something
+where people are just gonna
+
+373
+00:27:21,770 --> 00:27:23,670
+suddenly hire like 50% less.
+
+374
+00:27:25,510 --> 00:27:27,960
+I just don't see that. I think
+you just need to be flexible in
+
+375
+00:27:27,960 --> 00:27:31,360
+what you will be doing for that company.
+
+376
+00:27:31,430 --> 00:27:37,210
+At least for engineers, I can't
+really comment about all the
+
+377
+00:27:37,210 --> 00:27:41,690
+other jobs in the job
+market, but as engineers,
+
+378
+00:27:41,720 --> 00:27:47,320
+I can't see a point where we're
+gonna suddenly need 50% less
+
+379
+00:27:47,480 --> 00:27:50,710
+engineers. I think they're
+in such short supply.
+
+380
+00:27:50,710 --> 00:27:53,180
+So I think if you are listening to
+this and you are doing engineering
+
+381
+00:27:53,180 --> 00:27:58,220
+or want to do engineering, I think that's
+a very sensible and future-proofed idea.
+
+382
+00:27:58,320 --> 00:28:03,110
+And, yeah, I probably waffled on
+a bit, but I just wanted to give
+
+383
+00:28:03,110 --> 00:28:09,050
+you some of my perspectives
+on this and if you have
+
+384
+00:28:09,050 --> 00:28:14,400
+questions for me or comments
+or thoughts that you have then
+
+385
+00:28:15,050 --> 00:28:17,350
+please put them in the chat.
+
+386
+00:28:17,550 --> 00:28:20,640
+I guess YouTube is probably
+the easiest place to do it.
+
+387
+00:28:21,060 --> 00:28:23,220
+All right, I hope you enjoyed that.
+
+388
+00:28:23,220 --> 00:28:28,190
+The next few episodes will be
+back to speaking with a guest,
+
+389
+00:28:28,190 --> 00:28:30,250
+I think. So, I hope you enjoyed it.
+
+390
+00:28:30,510 --> 00:28:31,410
+Thanks
