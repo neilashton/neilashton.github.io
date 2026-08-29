@@ -1,4 +1,4 @@
-# YouTube videos corresponding to the 40 full podcast episodes.
+# YouTube videos corresponding to the 41 full podcast episodes.
 # Keys match the season and episode fields used by the podcast episode collection.
 # `title` is the search-focused video/page metadata title; the podcast H1 remains
 # the editorial title in podcast_seasons.yml. `transcript_corrected` marks the
@@ -165,4 +165,8 @@ s4-e5:
 s4-e6:
   id: tHckH7Rgu38
   title: "Can CFD Predict Hydrogen Combustion? GPUs, AI & Future Propulsion | Daniel Mira"
+  transcript_corrected: true
+s4-e7:
+  id: nOMF2ho1E3E
+  title: "Should You Still Study Engineering in the Age of AI?"
   transcript_corrected: true

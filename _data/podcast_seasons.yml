@@ -1,9 +1,13 @@
 - number: 4
   years: "2026–present"
-  title: "AI for science and next-generation CAE"
-  description: "Foundation models, differentiable physics, and the emergence of agentic engineering."
+  title: "AI for science, engineering careers, and next-generation CAE"
+  description: "Foundation models, differentiable physics, advanced simulation, and engineering careers in the age of AI."
   guests: "Daniel Mira, Nils Thuerey, Paola Cinnella, Ricardo Vinuesa, and Nathan Kutz"
   episodes:
+    - number: 7
+      date: "2026-08-29"
+      title: "Should You Still Study Engineering in the Age of AI?"
+      url: "https://podcasters.spotify.com/pod/show/neilashton/episodes/S4-EP7---Should-You-Still-Study-Engineering-in-the-Age-of-AI-e3o21ng"
     - number: 6
       date: "2026-08-11"
       title: "Daniel Mira on Hydrogen Combustion Modelling and Future Propulsion"

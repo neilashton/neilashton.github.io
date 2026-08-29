@@ -37,6 +37,7 @@ SECTION_MARKERS = [
   "Key Topics",
   "Papers",
   "Links",
+  "Resource mentioned",
   "Chapters",
   "Timestamps",
   "Keywords",
@@ -299,7 +300,7 @@ def extract_chapters(text)
     label = text[match["finish"]...next_start]
       .sub(/\A[\s:–—-]+/, "")
       .sub(%r{https?://.*\z}m, "")
-      .sub(/(?:Links|Keywords|Papers)\b.*\z/m, "")
+      .sub(/(?:\A|\n)(?:Links|Keywords|Papers|Resource mentioned|Resources?):?\s*.*\z/m, "")
       .gsub(/\s+/, " ")
       .strip
     next if label.empty? || label.length > 220

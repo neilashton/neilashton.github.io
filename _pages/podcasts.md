@@ -42,7 +42,7 @@ podcast_same_as:
     <div class="podcast-video-slot" data-youtube-playlist-slot>
       <div class="podcast-video-poster">
         <img
-          src="{{ '/assets/img/podcast/episodes/s4-e6.webp' | relative_url }}"
+          src="{{ '/assets/img/podcast/episodes/s4-e7.webp' | relative_url }}"
           alt=""
           width="1280"
           height="720"
