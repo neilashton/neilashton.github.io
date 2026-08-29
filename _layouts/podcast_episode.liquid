@@ -22,7 +22,13 @@ layout: default
         <span aria-hidden="true">·</span>
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%-d %B %Y' }}</time>
         <span aria-hidden="true">·</span>
-        <span>{{ page.duration_display | escape }}</span>
+        {% if page.video_duration_display %}
+          <span>Audio {{ page.duration_display | escape }}</span>
+          <span aria-hidden="true">·</span>
+          <span>YouTube {{ page.video_duration_display | escape }}</span>
+        {% else %}
+          <span>{{ page.duration_display | escape }}</span>
+        {% endif %}
       </p>
     </div>
     <img

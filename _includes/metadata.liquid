@@ -122,6 +122,7 @@
     {% assign apple_episode_url = site.data.podcast_apple[episode_video_key] %}
     {% if youtube_video %}
       {% assign youtube_title = youtube_video.title | default: page.youtube_title | default: page.title %}
+      {% assign youtube_duration = page.video_duration_iso | default: page.duration_iso %}
       {% capture youtube_watch_url %}https://www.youtube.com/watch?v={{ youtube_video.id }}{% endcapture %}
       {% capture youtube_embed_url %}https://www.youtube.com/embed/{{ youtube_video.id }}{% endcapture %}
       {% capture youtube_thumbnail_url %}https://i.ytimg.com/vi/{{ youtube_video.id }}/maxresdefault.jpg{% endcapture %}
@@ -178,7 +179,7 @@
             {{ youtube_thumbnail_url | jsonify }}
           ],
           "uploadDate": {{ publication_date | jsonify }},
-          "duration": {{ page.duration_iso | jsonify }},
+          "duration": {{ youtube_duration | jsonify }},
           "embedUrl": {{ youtube_embed_url | jsonify }},
           "url": {{ youtube_watch_url | jsonify }},
           "inLanguage": {{ site.lang | jsonify }},

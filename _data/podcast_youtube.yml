@@ -3,6 +3,7 @@
 # `title` is the search-focused video/page metadata title; the podcast H1 remains
 # the editorial title in podcast_seasons.yml. `transcript_corrected` marks the
 # matching assets/transcripts SRT as the protected local transcript master.
+# `video_duration_display` is set when the YouTube cut differs from the audio.
 s1-e1:
   id: elVX780AdMU
   title: "Why I Started an AI, CFD and Engineering Podcast | Neil Ashton"
@@ -169,4 +170,5 @@ s4-e6:
 s4-e7:
   id: nOMF2ho1E3E
   title: "Should You Still Study Engineering in the Age of AI?"
+  video_duration_display: "00:27:53"
   transcript_corrected: true

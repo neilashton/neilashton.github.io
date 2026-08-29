@@ -2,7 +2,7 @@
 layout: podcast_episode
 title: Prof. Paola Cinnella on AI for Science and Fluid Mechanics
 youtube_title: Can AI Fix Turbulence Models? AI for Fluid Mechanics | Paola Cinnella
-meta_title: 'Paola Cinnella: AI for Turbulence Models and Fluid Mechanics'
+meta_title: Can AI Fix Turbulence Models? Paola Cinnella
 description: Paola Cinnella explores AI for fluid mechanics, turbulence-model uncertainty,
   AirfRANS, Bayesian methods and the need for rigorous scientific standards.
 permalink: "/podcasts/s4-e4-prof-paola-cinnella-on-ai-for-science-and-fluid-mechanics/"

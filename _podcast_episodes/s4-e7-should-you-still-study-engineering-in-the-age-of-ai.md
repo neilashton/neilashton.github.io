@@ -11,6 +11,8 @@ season: 4
 episode: 7
 duration_display: '00:28:39'
 duration_iso: PT28M39S
+video_duration_display: '00:27:53'
+video_duration_iso: PT27M53S
 guid: 6a0f0f4f-19b7-4f54-a8ad-b8164be4df69
 schema_type: PodcastEpisode
 og_type: article
@@ -45,7 +47,10 @@ last_modified_at: '2026-08-29'
 </section>
 
 <section class="episode-section" aria-labelledby="episode-chapters">
-  <h2 id="episode-chapters">Chapters</h2>
+  <h2 id="episode-chapters">Audio chapters</h2>
+  <p class="episode-chapters-note">
+    These timestamps follow the <a href="https://open.spotify.com/episode/3itJixkTkudqi2GZvwoAgZ" rel="external noopener">Spotify/audio edition</a>, including the podcast intro. The <a href="https://www.youtube.com/watch?v=nOMF2ho1E3E" rel="external noopener">YouTube edition</a> starts directly with the discussion, so its chapter timings differ.
+  </p>
   <ol class="episode-chapters">
 <li>
   <span class="episode-chapter-time">00:00</span>
