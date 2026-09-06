@@ -33,6 +33,7 @@ serve_schema_org: true
 og_image: /assets/img/neil-ashton-social-academic.jpg
 og_image_alt: Neil Ashton — Computational Engineering
 same_as:
+  - https://github.com/neilashton
   - https://www.linkedin.com/in/neilashton
   - https://scholar.google.com/citations?user=mtBY0RcAAAAJ
   - https://orcid.org/0000-0002-9943-2334
@@ -43,6 +44,7 @@ same_as:
   - https://www.nas.nasa.gov/pubs/ams/2026/04-09-26.html
 
 # Public profiles
+github_username: neilashton
 linkedin_username: neilashton
 scholar_userid: mtBY0RcAAAAJ
 orcid_id: 0000-0002-9943-2334

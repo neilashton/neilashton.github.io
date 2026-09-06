@@ -404,6 +404,7 @@ def build_pdf(cv: dict[str, Any], config: dict[str, Any]) -> None:
                     linked(config["email"], f"mailto:{config['email']}"),
                     linked("Google Scholar", f"https://scholar.google.com/citations?user={config['scholar_userid']}"),
                     linked("ORCID", f"https://orcid.org/{config['orcid_id']}"),
+                    linked("GitHub", f"https://github.com/{config['github_username']}"),
                     linked("LinkedIn", f"https://www.linkedin.com/in/{config['linkedin_username']}"),
                 ]
             ),
