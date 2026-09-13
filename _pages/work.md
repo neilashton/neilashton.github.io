@@ -50,7 +50,8 @@ nav_order: 1
     </article>
     <article>
       <h3><a href="https://arxiv.org/abs/2408.11969">DrivAerML</a></h3>
-      <p>Surface and volume flow data for 500 realistic road-car variants.</p>
+      <p>Scale-resolving CFD across a 500-geometry road-car design space, with 484 publicly available runs. STEP CAD files in millimetres are now available for every public run alongside the STL geometry, surface and volume fields, and official benchmark splits.</p>
+      <a href="https://huggingface.co/datasets/neashton/drivaerml">Dataset and CAD files</a>
     </article>
     <article>
       <h3><a href="https://arxiv.org/abs/2605.19565">HiLiftAeroML</a></h3>
