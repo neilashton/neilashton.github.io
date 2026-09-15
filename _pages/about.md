@@ -68,6 +68,12 @@ featured_publications:
     summary: A systematic comparison of turbulence-modelling approaches for the Ahmed and DrivAer automotive configurations.
 featured_talks:
   - year: "2026"
+    kind: Keynote
+    host: 1st Engineering CCP Conference, Oxford
+    title: Perspectives on Accelerated Computing and Machine Learning for Engineering Simulation
+    url: https://ccp-wsi.ac.uk/events/ccpconference/oxford2026-programme/
+    link_label: Event programme
+  - year: "2026"
     kind: Sponsored keynote
     host: SIGGRAPH 2026
     title: NVIDIA | Next Era of Graphics — Neural Rendering, World Models, and Simulation
