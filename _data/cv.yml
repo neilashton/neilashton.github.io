@@ -1,4 +1,4 @@
-updated: September 2026
+updated: October 2026
 
 summary: >-
   Computational engineering researcher and technical leader working at the
@@ -10,12 +10,17 @@ summary: >-
 
 experience:
   - current: true
-    period: Jan 2025–present
+    period: Sep 2026–present
+
+  - role: Distinguished Engineer
+    organisation: NVIDIA
+    organisation_url: https://www.nvidia.com/
+    period: Jan 2025–Sep 2026
     location: United Kingdom
     highlights:
       - Set research and product direction for accelerated computational engineering, AI physics, simulation, and engineering AI.
-      - Lead work on foundation models, scientific machine learning, and agentic architectures, with emphasis on tool orchestration, physical verification, provenance, uncertainty, failure recovery, and human oversight.
-      - Work across research, engineering, product, and external partners to translate advances into dependable computational-engineering systems.
+      - Led work on foundation models, scientific machine learning, and agentic architectures, with emphasis on tool orchestration, physical verification, provenance, uncertainty, failure recovery, and human oversight.
+      - Worked across research, engineering, product, and external partners to translate advances into dependable computational-engineering systems.
 
   - role: Worldwide Technical Lead for Computer-Aided Engineering
     organisation: Amazon Web Services

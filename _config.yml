@@ -1,10 +1,10 @@
 # Site identity
 title: Neil Ashton
-homepage_meta_title: Neil Ashton | NVIDIA Distinguished Engineer in AI & CAE/EDA
+homepage_meta_title: Neil Ashton | Vice President, Computational Engineering at Mistral
 first_name: Neil
 last_name: Ashton
 email: contact@neilashton.co.uk
-description: Neil Ashton's research develops AI methods for computational engineering, including scientific machine learning, foundation models, agentic workflows, and computational fluid dynamics.
+description: Neil Ashton is Vice President, Computational Engineering at Mistral. Research in scientific machine learning, foundation models, agentic AI and computational fluid dynamics.
 keywords: Neil Ashton, computational fluid dynamics, scientific machine learning, computational engineering, foundation models, agentic AI, CFD, CAE, high-performance computing
 lang: en-GB
 timezone: Europe/London
@@ -12,9 +12,9 @@ icon: favicon.svg
 
 # Kept in one place so the visible profile and structured metadata change together.
 current_position:
-  role: Distinguished Engineer
-  organisation: NVIDIA
-  organisation_url: https://www.nvidia.com/
+  role: Vice President, Computational Engineering
+  organisation: Mistral
+  organisation_url: https://mistral.ai/
 
 url: https://neilashton.co.uk
 baseurl: ""
