@@ -44,6 +44,10 @@
   <meta property="og:locale" content="en_GB">
 
   <meta name="twitter:card" content="summary_large_image">
+  {% if site.twitter_username %}
+    <meta name="twitter:site" content="@{{ site.twitter_username | escape }}">
+    <meta name="twitter:creator" content="@{{ site.twitter_username | escape }}">
+  {% endif %}
   <meta name="twitter:title" content="{{ meta_title | escape }}">
   <meta name="twitter:description" content="{{ meta_description | escape }}">
   <meta name="twitter:image" content="{{ social_image }}">

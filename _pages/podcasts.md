@@ -24,6 +24,9 @@ podcast_same_as:
     <a href="{{ site.apple_podcasts_url }}">Apple Podcasts</a>
     <a href="{{ site.podcast_rss_url }}" rel="alternate" type="application/rss+xml">RSS</a>
   </nav>
+  {% if site.twitter_username %}
+    <p>Follow <a href="https://x.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> on X for new episodes, clips and research updates.</p>
+  {% endif %}
 </div>
 
 <section class="podcast-video-showcase" aria-labelledby="podcast-video-title">
