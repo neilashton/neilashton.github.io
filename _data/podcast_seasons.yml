@@ -4,6 +4,10 @@
   description: "Foundation models, differentiable physics, advanced simulation, and engineering careers in the age of AI."
   guests: "Daniel Mira, Nils Thuerey, Paola Cinnella, Ricardo Vinuesa, and Nathan Kutz"
   episodes:
+    - number: 8
+      date: "2026-10-04"
+      title: "Why I Left NVIDIA for Mistral"
+      url: "https://podcasters.spotify.com/pod/show/neilashton/episodes/S4-EP8---Why-I-Left-NVIDIA-for-Mistral-e3proc2"
     - number: 7
       date: "2026-08-29"
       title: "Should You Still Study Engineering in the Age of AI?"

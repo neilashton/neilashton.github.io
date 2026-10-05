@@ -30,6 +30,7 @@ podcast_same_as:
 </div>
 
 <section class="podcast-video-showcase" aria-labelledby="podcast-video-title">
+  {% assign latest_podcast_episode = site.podcast_episodes | sort: 'date' | last %}
   <div class="podcast-video-heading">
     <div>
       <p class="eyebrow">Watch the podcast</p>
@@ -45,7 +46,7 @@ podcast_same_as:
     <div class="podcast-video-slot" data-youtube-playlist-slot>
       <div class="podcast-video-poster">
         <img
-          src="{{ '/assets/img/podcast/episodes/s4-e7.webp' | relative_url }}"
+          src="{{ latest_podcast_episode.episode_image | relative_url }}"
           alt=""
           width="1280"
           height="720"

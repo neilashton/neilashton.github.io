@@ -1,0 +1,3151 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hi and welcome to the Neil Ashton
+
+2
+00:00:02,000 --> 00:00:04,000
+podcast. In each episode, we explain
+
+3
+00:00:04,000 --> 00:00:05,000
+some of the fascinating ways that
+
+4
+00:00:05,000 --> 00:00:07,000
+[music] science and engineering are
+
+5
+00:00:07,000 --> 00:00:10,000
+changing the world around us. We talk to
+
+6
+00:00:10,000 --> 00:00:12,000
+leading engineers from elite level
+
+7
+00:00:12,000 --> 00:00:15,000
+sports like cycling and Formula 1 to
+
+8
+00:00:15,000 --> 00:00:17,000
+some of the world's top academics to
+
+9
+00:00:17,000 --> 00:00:19,000
+understand how fluid dynamics, machine
+
+10
+00:00:19,000 --> 00:00:21,000
+learning, supercomputing are bringing
+
+11
+00:00:21,000 --> 00:00:24,000
+[music] in a new era of discovery. We
+
+12
+00:00:24,000 --> 00:00:26,000
+also hear some of their life stories,
+
+13
+00:00:26,000 --> 00:00:28,000
+their career advice, and lessons they've
+
+14
+00:00:28,000 --> 00:00:30,000
+learned on the way that I hope will be
+
+15
+00:00:30,000 --> 00:00:33,000
+helpful to you, too. So, sit back and
+
+16
+00:00:33,000 --> 00:00:39,000
+enjoy this episode.
+
+17
+00:00:39,000 --> 00:00:41,000
+Hi, welcome back to the Neil Ashton
+
+18
+00:00:41,000 --> 00:00:44,000
+podcast. So, as the title of this uh
+
+19
+00:00:44,000 --> 00:00:46,000
+episode suggests, I've changed jobs.
+
+20
+00:00:46,000 --> 00:00:49,000
+I've left Nvidia and I'm joining uh
+
+21
+00:00:49,000 --> 00:00:54,000
+Mistral. I wanted to use this episode to
+
+22
+00:00:54,000 --> 00:00:55,000
+talk a little bit more about the reasons
+
+23
+00:00:55,000 --> 00:00:59,000
+for doing it but but more than that go
+
+24
+00:00:59,000 --> 00:01:02,000
+into talking a little bit more from a
+
+25
+00:01:02,000 --> 00:01:04,000
+career progression point of view uh
+
+26
+00:01:04,000 --> 00:01:08,000
+career advice point of view um I've done
+
+27
+00:01:08,000 --> 00:01:09,000
+episodes in the past you know which have
+
+28
+00:01:09,000 --> 00:01:11,000
+tried to give some guidance to people
+
+29
+00:01:11,000 --> 00:01:13,000
+who are maybe early on in their careers
+
+30
+00:01:13,000 --> 00:01:15,000
+uh just after university or first jobs
+
+31
+00:01:15,000 --> 00:01:17,000
+uh and I thought it might be useful a
+
+32
+00:01:17,000 --> 00:01:20,000
+time to reflect and and maybe give some
+
+33
+00:01:20,000 --> 00:01:22,000
+things I've learned uh along the way and
+
+34
+00:01:22,000 --> 00:01:24,000
+to briefly talk about some of the sort
+
+35
+00:01:24,000 --> 00:01:28,000
+of reasons for me doing it. Um this is
+
+36
+00:01:28,000 --> 00:01:30,000
+in no way a sort of commercial thing.
+
+37
+00:01:30,000 --> 00:01:32,000
+I'm not trying to sell you to to to
+
+38
+00:01:32,000 --> 00:01:34,000
+Mistral. Um I just in the in
+
+39
+00:01:34,000 --> 00:01:36,000
+transparency I I think this actually
+
+40
+00:01:36,000 --> 00:01:39,000
+might be useful for some people to know.
+
+41
+00:01:39,000 --> 00:01:42,000
+So just I guess to get out the the
+
+42
+00:01:42,000 --> 00:01:44,000
+obvious bit which is what am I actually
+
+43
+00:01:44,000 --> 00:01:47,000
+doing? What what have I done? So I've um
+
+44
+00:01:47,000 --> 00:01:50,000
+I joined Mr. as well as the VP of
+
+45
+00:01:50,000 --> 00:01:52,000
+computational engineering where I'll be
+
+46
+00:01:52,000 --> 00:01:54,000
+co-leading the AI for engineering side
+
+47
+00:01:54,000 --> 00:01:57,000
+of things with my very good friend
+
+48
+00:01:57,000 --> 00:02:00,000
+Johannes who I'll talk a bit uh about
+
+49
+00:02:00,000 --> 00:02:04,000
+later on and uh and yeah it's um to
+
+50
+00:02:04,000 --> 00:02:07,000
+summarize it very briefly it's about
+
+51
+00:02:07,000 --> 00:02:10,000
+developing uh physics AI so foundation
+
+52
+00:02:10,000 --> 00:02:12,000
+models all the stuff that you know we
+
+53
+00:02:12,000 --> 00:02:14,000
+talked about in the fluid intelligence
+
+54
+00:02:14,000 --> 00:02:20,000
+paper um and also the LLM uh side of
+
+55
+00:02:20,000 --> 00:02:21,000
+things and and to be completely
+
+56
+00:02:21,000 --> 00:02:24,000
+transparent, one of the reasons I was so
+
+57
+00:02:24,000 --> 00:02:26,000
+excited to to go to a company like
+
+58
+00:02:26,000 --> 00:02:30,000
+Mistrial was to be
+
+59
+00:02:30,000 --> 00:02:32,000
+right there where these leading LLMs are
+
+60
+00:02:32,000 --> 00:02:35,000
+being developed. And for me, it's an
+
+61
+00:02:35,000 --> 00:02:38,000
+amazing opportunity to to learn and
+
+62
+00:02:38,000 --> 00:02:41,000
+contribute and to to make an impact in
+
+63
+00:02:41,000 --> 00:02:44,000
+that. And that is yeah, super exciting.
+
+64
+00:02:44,000 --> 00:02:47,000
+I'm not going to talk any more uh on on
+
+65
+00:02:47,000 --> 00:02:49,000
+this for now. Um also, like I said,
+
+66
+00:02:49,000 --> 00:02:52,000
+really want this to be more of a sort of
+
+67
+00:02:52,000 --> 00:02:54,000
+general thing. I'm not here to try and
+
+68
+00:02:54,000 --> 00:02:56,000
+sell uh the company. You know, you can
+
+69
+00:02:56,000 --> 00:02:58,000
+there'll be opportunities for that on
+
+70
+00:02:58,000 --> 00:03:00,000
+more the official sort of uh I guess
+
+71
+00:03:00,000 --> 00:03:03,000
+mistral channels, etc. Um but this I'd
+
+72
+00:03:03,000 --> 00:03:06,000
+like to maybe take a step back a little
+
+73
+00:03:06,000 --> 00:03:09,000
+bit and um and give you idea of sort of
+
+74
+00:03:09,000 --> 00:03:12,000
+how I got to that and what drove some of
+
+75
+00:03:12,000 --> 00:03:14,000
+the decisions. Uh but maybe for some of
+
+76
+00:03:14,000 --> 00:03:16,000
+you who are um like I said earlier on in
+
+77
+00:03:16,000 --> 00:03:17,000
+your career and this might be some
+
+78
+00:03:17,000 --> 00:03:21,000
+useful things. So I I guess this started
+
+79
+00:03:21,000 --> 00:03:25,000
+I did a 4-year mast's engineering um at
+
+80
+00:03:25,000 --> 00:03:28,000
+Manchester University and probably like
+
+81
+00:03:28,000 --> 00:03:30,000
+many of you I really wasn't sure what I
+
+82
+00:03:30,000 --> 00:03:33,000
+wanted to do. I'd got to the end of a
+
+83
+00:03:33,000 --> 00:03:35,000
+degree
+
+84
+00:03:35,000 --> 00:03:36,000
+and didn't know what I wanted to
+
+85
+00:03:36,000 --> 00:03:38,000
+specialize in. Didn't really know what
+
+86
+00:03:38,000 --> 00:03:41,000
+company I wanted to be at. This was the
+
+87
+00:03:41,000 --> 00:03:43,000
+days before LinkedIn. you know I am
+
+88
+00:03:43,000 --> 00:03:46,000
+getting a bit old now just turned over
+
+89
+00:03:46,000 --> 00:03:49,000
+40 in fact been 41 soon so I guess this
+
+90
+00:03:49,000 --> 00:03:51,000
+is a while ago and so things are
+
+91
+00:03:51,000 --> 00:03:53,000
+probably different now uh but back then
+
+92
+00:03:53,000 --> 00:03:55,000
+uh certainly it wasn't I mean obvious
+
+93
+00:03:55,000 --> 00:03:57,000
+you know what companies to go to you
+
+94
+00:03:57,000 --> 00:04:00,000
+know just graduate schemes or going to
+
+95
+00:04:00,000 --> 00:04:03,000
+um emailing or people etc. It was quite
+
+96
+00:04:03,000 --> 00:04:06,000
+different uh back then compared to now
+
+97
+00:04:06,000 --> 00:04:09,000
+and um I had been lucky to do a
+
+98
+00:04:09,000 --> 00:04:12,000
+placement with a uh racing team. So
+
+99
+00:04:12,000 --> 00:04:15,000
+Formula 1 was for sure on my mind. I was
+
+100
+00:04:15,000 --> 00:04:18,000
+lucky enough in um to do my fourth year
+
+101
+00:04:18,000 --> 00:04:20,000
+project with this team called Iceport
+
+102
+00:04:20,000 --> 00:04:22,000
+International that was a Formula 2 team.
+
+103
+00:04:22,000 --> 00:04:24,000
+So the sort of feeder series to Formula
+
+104
+00:04:24,000 --> 00:04:27,000
+1 at that time called GP2.
+
+105
+00:04:27,000 --> 00:04:30,000
+and I was doing a project to help
+
+106
+00:04:30,000 --> 00:04:31,000
+optimize their rear wing in a wind
+
+107
+00:04:31,000 --> 00:04:34,000
+tunnel and to do some CFD was actually
+
+108
+00:04:34,000 --> 00:04:36,000
+my first introduction to CFD using I
+
+109
+00:04:36,000 --> 00:04:39,000
+think Gambit for anybody who is a CFD
+
+110
+00:04:39,000 --> 00:04:41,000
+person will remember that tool from many
+
+111
+00:04:41,000 --> 00:04:45,000
+years ago and fluent and I more than
+
+112
+00:04:45,000 --> 00:04:48,000
+anything the amazing opportunity was to
+
+113
+00:04:48,000 --> 00:04:50,000
+go to the racetrack. So I actually
+
+114
+00:04:50,000 --> 00:04:52,000
+shadowed a fantastic engineer called
+
+115
+00:04:52,000 --> 00:04:56,000
+Gavin. Um, and if if Gavin's listening,
+
+116
+00:04:56,000 --> 00:04:58,000
+I really should bring him on this
+
+117
+00:04:58,000 --> 00:04:59,000
+podcast. I'd love to talk to her about
+
+118
+00:04:59,000 --> 00:05:02,000
+all those years. Uh, and shadowed and
+
+119
+00:05:02,000 --> 00:05:04,000
+was like a shadow race engineer. I mean,
+
+120
+00:05:04,000 --> 00:05:06,000
+shadowing in the most thing of it. I
+
+121
+00:05:06,000 --> 00:05:09,000
+wasn't doing that much. Uh, but I was
+
+122
+00:05:09,000 --> 00:05:10,000
+there watching how do they set up the
+
+123
+00:05:10,000 --> 00:05:13,000
+car? How do they decide what to do with
+
+124
+00:05:13,000 --> 00:05:16,000
+a strategy? I was sat on the pit wall uh
+
+125
+00:05:16,000 --> 00:05:19,000
+trying to lift up the signs. Uh, it was
+
+126
+00:05:19,000 --> 00:05:21,000
+an unbelievable experience for someone
+
+127
+00:05:21,000 --> 00:05:24,000
+21. I think uh at that time also this
+
+128
+00:05:24,000 --> 00:05:27,000
+for people's interest uh Christian her
+
+129
+00:05:27,000 --> 00:05:30,000
+was at that time in Formula 2 he owned
+
+130
+00:05:30,000 --> 00:05:34,000
+the art Grand Prix team um if I remember
+
+131
+00:05:34,000 --> 00:05:35,000
+correctly I remember seeing him at some
+
+132
+00:05:35,000 --> 00:05:39,000
+of the races and Teemo Glock was racing
+
+133
+00:05:39,000 --> 00:05:41,000
+for iceport who later of course had that
+
+134
+00:05:41,000 --> 00:05:44,000
+controversial thing in Formula 1 that
+
+135
+00:05:44,000 --> 00:05:46,000
+racing moment you had Bruno Senna of
+
+136
+00:05:46,000 --> 00:05:51,000
+course Eton Senna's nephew and um Karen
+
+137
+00:05:51,000 --> 00:05:53,000
+Chandok who now does a lot of commentary
+
+138
+00:05:53,000 --> 00:05:56,000
+on TV. Uh Luca Degrassi was also around
+
+139
+00:05:56,000 --> 00:06:01,000
+at that time I think with art and um
+
+140
+00:06:01,000 --> 00:06:03,000
+and who else was there and yeah several
+
+141
+00:06:03,000 --> 00:06:06,000
+other uh people that I'm um forgetting.
+
+142
+00:06:06,000 --> 00:06:07,000
+It was a great experience. It definitely
+
+143
+00:06:07,000 --> 00:06:08,000
+made me think right I want to get into
+
+144
+00:06:08,000 --> 00:06:10,000
+Formula 1. Um I think I've told this
+
+145
+00:06:10,000 --> 00:06:12,000
+story before but I emailed I think
+
+146
+00:06:12,000 --> 00:06:15,000
+basically every Formula 1 team. Didn't
+
+147
+00:06:15,000 --> 00:06:17,000
+get any response. I didn't know anybody.
+
+148
+00:06:17,000 --> 00:06:19,000
+Had no clue. I was probably not even
+
+149
+00:06:19,000 --> 00:06:20,000
+emailing the right person. I don't think
+
+150
+00:06:20,000 --> 00:06:21,000
+they even had the email addresses on the
+
+151
+00:06:21,000 --> 00:06:23,000
+website. It just felt like an
+
+152
+00:06:23,000 --> 00:06:26,000
+impenetrable thing. [gasps]
+
+153
+00:06:26,000 --> 00:06:29,000
+And um so for that and linked to various
+
+154
+00:06:29,000 --> 00:06:31,000
+other things, I'd got into the research
+
+155
+00:06:31,000 --> 00:06:34,000
+side. I was given the opportunity to do
+
+156
+00:06:34,000 --> 00:06:37,000
+a PhD and uh as I explained to people
+
+157
+00:06:37,000 --> 00:06:39,000
+doing a PhD basically was do you want to
+
+158
+00:06:39,000 --> 00:06:44,000
+carry on being a student but be paid and
+
+159
+00:06:44,000 --> 00:06:46,000
+do it around potentially formula 1 theme
+
+160
+00:06:46,000 --> 00:06:49,000
+to thing. So, I took that opportunity
+
+161
+00:06:49,000 --> 00:06:52,000
+and I'll I'll skip through I won't go
+
+162
+00:06:52,000 --> 00:06:53,000
+chronologically through every year or
+
+163
+00:06:53,000 --> 00:06:56,000
+it's going to take forever. Uh but um
+
+164
+00:06:56,000 --> 00:07:00,000
+during the course of PhD, I finally felt
+
+165
+00:07:00,000 --> 00:07:03,000
+like I knew what I wanted to go into. I
+
+166
+00:07:03,000 --> 00:07:05,000
+knew that I could be a CFD or
+
+167
+00:07:05,000 --> 00:07:07,000
+computational engineering specialist.
+
+168
+00:07:07,000 --> 00:07:10,000
+That felt [snorts] clearer, which is why
+
+169
+00:07:10,000 --> 00:07:12,000
+I always I'm an advocate of doing a PhD
+
+170
+00:07:12,000 --> 00:07:14,000
+because I feel it gives you time to know
+
+171
+00:07:14,000 --> 00:07:16,000
+what you'd want to do. you could do lots
+
+172
+00:07:16,000 --> 00:07:18,000
+of other things. Um, in fact, you could
+
+173
+00:07:18,000 --> 00:07:20,000
+argue the reason I'm doing this podcast
+
+174
+00:07:20,000 --> 00:07:22,000
+now is because when I was at university
+
+175
+00:07:22,000 --> 00:07:24,000
+during my PhD,
+
+176
+00:07:24,000 --> 00:07:28,000
+I ended up being um the like subeditor
+
+177
+00:07:28,000 --> 00:07:30,000
+of the newspaper for the university. I
+
+178
+00:07:30,000 --> 00:07:33,000
+got in to journalism. I got into writing
+
+179
+00:07:33,000 --> 00:07:36,000
+and explaining uh things. Something that
+
+180
+00:07:36,000 --> 00:07:38,000
+I didn't do in my undergrad and probably
+
+181
+00:07:38,000 --> 00:07:39,000
+if I'd have left at the undergrad and
+
+182
+00:07:39,000 --> 00:07:40,000
+gone straight into a job, I probably
+
+183
+00:07:40,000 --> 00:07:42,000
+wouldn't have done it. The PhD gave me
+
+184
+00:07:42,000 --> 00:07:44,000
+that sort of time. also gave me a lot of
+
+185
+00:07:44,000 --> 00:07:46,000
+time to meet people and go to
+
+186
+00:07:46,000 --> 00:07:48,000
+conferences. I was involved in a lot of
+
+187
+00:07:48,000 --> 00:07:51,000
+these European workshops, you know, with
+
+188
+00:07:51,000 --> 00:07:55,000
+EDF Energy, with France, um, with
+
+189
+00:07:55,000 --> 00:07:59,000
+Airbus, with DR and it was a great, uh,
+
+190
+00:07:59,000 --> 00:08:01,000
+experience and Alistair Revel who was my
+
+191
+00:08:01,000 --> 00:08:03,000
+super at the time I owe a lot who sort
+
+192
+00:08:03,000 --> 00:08:07,000
+of showed me that that world and and but
+
+193
+00:08:07,000 --> 00:08:09,000
+as my good friend Alistister West and
+
+194
+00:08:09,000 --> 00:08:13,000
+probably remembers, we I remember saying
+
+195
+00:08:13,000 --> 00:08:15,000
+to him, if I ever say that I want to do
+
+196
+00:08:15,000 --> 00:08:18,000
+a posttock, please like you know stop
+
+197
+00:08:18,000 --> 00:08:20,000
+me. By the end of the PhD I was just
+
+198
+00:08:20,000 --> 00:08:23,000
+like not interested in academia. I just
+
+199
+00:08:23,000 --> 00:08:25,000
+wanted to get out. Uh wanted to get a
+
+200
+00:08:25,000 --> 00:08:29,000
+job. I had no desire to do academia.
+
+201
+00:08:29,000 --> 00:08:34,000
+And luckily because of the PhD
+
+202
+00:08:34,000 --> 00:08:36,000
+I'd now I think become a sort of
+
+203
+00:08:36,000 --> 00:08:41,000
+specialist I guess and I tried again to
+
+204
+00:08:41,000 --> 00:08:42,000
+get a job in Formula 1. Emailed all the
+
+205
+00:08:42,000 --> 00:08:46,000
+teams. Basically nobody replied apart
+
+206
+00:08:46,000 --> 00:08:50,000
+from um two or three teams. Did a few
+
+207
+00:08:50,000 --> 00:08:53,000
+interviews. Uh a couple I was going into
+
+208
+00:08:53,000 --> 00:08:55,000
+like aerodynamics which wasn't really my
+
+209
+00:08:55,000 --> 00:08:58,000
+thing. Went to one which was Lotus.
+
+210
+00:08:58,000 --> 00:09:01,000
+Applied for an aerodynamics position.
+
+211
+00:09:01,000 --> 00:09:03,000
+Basically they realized that I wasn't an
+
+212
+00:09:03,000 --> 00:09:06,000
+aerodynamicist but the the gentleman
+
+213
+00:09:06,000 --> 00:09:08,000
+Jared
+
+214
+00:09:08,000 --> 00:09:12,000
+said oh but maybe we could create you a
+
+215
+00:09:12,000 --> 00:09:16,000
+position to be a CFD engineer
+
+216
+00:09:16,000 --> 00:09:18,000
+and uh you know we'll do it for 6 months
+
+217
+00:09:18,000 --> 00:09:20,000
+or and then if you know if you do well
+
+218
+00:09:20,000 --> 00:09:24,000
+we'll we'll we'll we'll carry on and um
+
+219
+00:09:24,000 --> 00:09:28,000
+and that was that was my break and so I
+
+220
+00:09:28,000 --> 00:09:29,000
+have to thank Jared a lot for that.
+
+221
+00:09:29,000 --> 00:09:32,000
+Jared's now I think the chief engineer
+
+222
+00:09:32,000 --> 00:09:36,000
+of Mercedes F1 team or I mean he's very
+
+223
+00:09:36,000 --> 00:09:37,000
+very senior. He basically I think looks
+
+224
+00:09:37,000 --> 00:09:40,000
+after all of the car development arrow.
+
+225
+00:09:40,000 --> 00:09:42,000
+Um I haven't seen him for a good few
+
+226
+00:09:42,000 --> 00:09:44,000
+years. Uh but he he gave me that that
+
+227
+00:09:44,000 --> 00:09:48,000
+that break and so yeah I left sort of
+
+228
+00:09:48,000 --> 00:09:50,000
+left university behind and went into
+
+229
+00:09:50,000 --> 00:09:52,000
+there. Um
+
+230
+00:09:52,000 --> 00:09:57,000
+then only after leaving academia did I
+
+231
+00:09:57,000 --> 00:09:59,000
+reflect that I actually missed it and I
+
+232
+00:09:59,000 --> 00:10:01,000
+realized that
+
+233
+00:10:01,000 --> 00:10:02,000
+even though I really enjoyed doing the
+
+234
+00:10:02,000 --> 00:10:05,000
+Formula 1 job
+
+235
+00:10:05,000 --> 00:10:08,000
+I felt because I've been doing aerospace
+
+236
+00:10:08,000 --> 00:10:10,000
+and I had so much freedom
+
+237
+00:10:10,000 --> 00:10:12,000
+and I felt that I was just getting into
+
+238
+00:10:12,000 --> 00:10:15,000
+a more like dayto-day job there
+
+239
+00:10:15,000 --> 00:10:20,000
+something didn't fully connect. Uh and
+
+240
+00:10:20,000 --> 00:10:21,000
+so this is why I sometimes give this
+
+241
+00:10:21,000 --> 00:10:24,000
+advice now that
+
+242
+00:10:24,000 --> 00:10:26,000
+don't rule out something. Sometimes you
+
+243
+00:10:26,000 --> 00:10:29,000
+need time to leave to realize that you
+
+244
+00:10:29,000 --> 00:10:32,000
+like it. So it was only leaving academia
+
+245
+00:10:32,000 --> 00:10:33,000
+or leaving after the PhD to go to
+
+246
+00:10:33,000 --> 00:10:36,000
+industry that made me sort of realize
+
+247
+00:10:36,000 --> 00:10:40,000
+the benefits of of academia. And so sure
+
+248
+00:10:40,000 --> 00:10:43,000
+enough, I went back to do a posttock,
+
+249
+00:10:43,000 --> 00:10:45,000
+the thing that I said I would never do,
+
+250
+00:10:45,000 --> 00:10:48,000
+leaving Formula 1 behind, but thinking
+
+251
+00:10:48,000 --> 00:10:50,000
+to myself,
+
+252
+00:10:50,000 --> 00:10:52,000
+it's not like I'm closing the door
+
+253
+00:10:52,000 --> 00:10:55,000
+forever, but I feel I want to become
+
+254
+00:10:55,000 --> 00:10:58,000
+even more of a specialist. I felt good
+
+255
+00:10:58,000 --> 00:11:01,000
+after my PhD, but ironically, going into
+
+256
+00:11:01,000 --> 00:11:03,000
+Formula 1 changed my mind. I was like,
+
+257
+00:11:03,000 --> 00:11:05,000
+ah, this is how industry does it. All
+
+258
+00:11:05,000 --> 00:11:07,000
+the stuff in academia was great in my
+
+259
+00:11:07,000 --> 00:11:09,000
+PhD, but I realized I'd been, you know,
+
+260
+00:11:09,000 --> 00:11:12,000
+not naive, but I hadn't really
+
+261
+00:11:12,000 --> 00:11:13,000
+understood how the world works. Going
+
+262
+00:11:13,000 --> 00:11:17,000
+into Formula 1 and industry, maybe got
+
+263
+00:11:17,000 --> 00:11:20,000
+ah I think I can now come up with a
+
+264
+00:11:20,000 --> 00:11:22,000
+research direction. I think I know what
+
+265
+00:11:22,000 --> 00:11:26,000
+my research could fix. So I went back to
+
+266
+00:11:26,000 --> 00:11:30,000
+do the posttock uh at at Manchester
+
+267
+00:11:30,000 --> 00:11:32,000
+and uh I actually did it also with CD
+
+268
+00:11:32,000 --> 00:11:35,000
+Adapt which is now Seammens and that was
+
+269
+00:11:35,000 --> 00:11:37,000
+another entry point into the software
+
+270
+00:11:37,000 --> 00:11:39,000
+side. So I actually had a great
+
+271
+00:11:39,000 --> 00:11:42,000
+opportunity to work with the team at
+
+272
+00:11:42,000 --> 00:11:44,000
+City of Appco in Hammersmith in London.
+
+273
+00:11:44,000 --> 00:11:45,000
+Would go down there sometimes and that
+
+274
+00:11:45,000 --> 00:11:47,000
+again exposed me to the sort of ISV
+
+275
+00:11:47,000 --> 00:11:50,000
+software world and during the post talk
+
+276
+00:11:50,000 --> 00:11:52,000
+it was great because then I would really
+
+277
+00:11:52,000 --> 00:11:55,000
+be going to conferences expanding my
+
+278
+00:11:55,000 --> 00:11:58,000
+network uh even more and that was when I
+
+279
+00:11:58,000 --> 00:12:01,000
+had the opportunity to
+
+280
+00:12:01,000 --> 00:12:04,000
+then eventually move to to Oxford
+
+281
+00:12:04,000 --> 00:12:06,000
+University. uh that was a great
+
+282
+00:12:06,000 --> 00:12:09,000
+opportunity where then I really started
+
+283
+00:12:09,000 --> 00:12:12,000
+to specialize more in HPC
+
+284
+00:12:12,000 --> 00:12:14,000
+uh and that's sort of where all my high
+
+285
+00:12:14,000 --> 00:12:18,000
+performance computing sort of uh an IT I
+
+286
+00:12:18,000 --> 00:12:20,000
+guess you would call it side came in uh
+
+287
+00:12:20,000 --> 00:12:23,000
+to to to everything and that's the other
+
+288
+00:12:23,000 --> 00:12:25,000
+thing that I'd advise is that changing
+
+289
+00:12:25,000 --> 00:12:28,000
+university if you're an academic is good
+
+290
+00:12:28,000 --> 00:12:30,000
+there's no doubt if you just stay at one
+
+291
+00:12:30,000 --> 00:12:32,000
+institution your whole time yes you can
+
+292
+00:12:32,000 --> 00:12:34,000
+do it but I think it does change your
+
+293
+00:12:34,000 --> 00:12:36,000
+mindset so that's sort of second piece
+
+294
+00:12:36,000 --> 00:12:38,000
+of advice I guess the first one being
+
+295
+00:12:38,000 --> 00:12:39,000
+it's okay to switch between industry and
+
+296
+00:12:39,000 --> 00:12:42,000
+academia and the second one being even
+
+297
+00:12:42,000 --> 00:12:44,000
+within academia it's probably good to
+
+298
+00:12:44,000 --> 00:12:46,000
+change institutions to see a different
+
+299
+00:12:46,000 --> 00:12:49,000
+world to see a different attitude so I
+
+300
+00:12:49,000 --> 00:12:52,000
+had a great time in the Wes Amore who's
+
+301
+00:12:52,000 --> 00:12:54,000
+now a professor uh in the engineering
+
+302
+00:12:54,000 --> 00:12:56,000
+science department was fantastic for me
+
+303
+00:12:56,000 --> 00:12:58,000
+and um and actually that was my
+
+304
+00:12:58,000 --> 00:13:01,000
+opportunity then to go to to NASA
+
+305
+00:13:01,000 --> 00:13:04,000
+because I'd met um Chattin Chatir who
+
+306
+00:13:04,000 --> 00:13:06,000
+was at that I'm the branch chief at NASA
+
+307
+00:13:06,000 --> 00:13:11,000
+as he he kind of saw that I had this
+
+308
+00:13:11,000 --> 00:13:12,000
+experience industrial experience from
+
+309
+00:13:12,000 --> 00:13:14,000
+Formula 1 which I kind of been bringing
+
+310
+00:13:14,000 --> 00:13:17,000
+in to my research thinking how can we
+
+311
+00:13:17,000 --> 00:13:19,000
+solve some of these problems and he
+
+312
+00:13:19,000 --> 00:13:21,000
+invited me over I think at the same time
+
+313
+00:13:21,000 --> 00:13:24,000
+Jeff Slopnik uh who has now retired from
+
+314
+00:13:24,000 --> 00:13:26,000
+Boeing invited me over to to Boeing to
+
+315
+00:13:26,000 --> 00:13:28,000
+give a talk to them because I think they
+
+316
+00:13:28,000 --> 00:13:31,000
+had a link with F1 anyway and that
+
+317
+00:13:31,000 --> 00:13:34,000
+opened up my world to the US And I've
+
+318
+00:13:34,000 --> 00:13:36,000
+said this before, but this is I've
+
+319
+00:13:36,000 --> 00:13:38,000
+noticed with academia
+
+320
+00:13:38,000 --> 00:13:41,000
+there is like quite often
+
+321
+00:13:41,000 --> 00:13:43,000
+it's almost like a European way of doing
+
+322
+00:13:43,000 --> 00:13:44,000
+thing in the US. I don't know if this
+
+323
+00:13:44,000 --> 00:13:48,000
+translates outside of CFD, but everybody
+
+324
+00:13:48,000 --> 00:13:52,000
+in Europe that there was this
+
+325
+00:13:52,000 --> 00:13:53,000
+well maybe not Europe, but certainly the
+
+326
+00:13:53,000 --> 00:13:55,000
+UK. Oh no, I think more Europe. There
+
+327
+00:13:55,000 --> 00:13:56,000
+was it was coming from like this
+
+328
+00:13:56,000 --> 00:13:59,000
+incompressible
+
+329
+00:13:59,000 --> 00:14:01,000
+maybe it wasn't so much an aircraft
+
+330
+00:14:01,000 --> 00:14:03,000
+design. it was. So I think that's where
+
+331
+00:14:03,000 --> 00:14:05,000
+open film came out of Imperial very much
+
+332
+00:14:05,000 --> 00:14:08,000
+with this sort of incompressible
+
+333
+00:14:08,000 --> 00:14:10,000
+pressure-based segregated type
+
+334
+00:14:10,000 --> 00:14:13,000
+approaches. Um and that was true at
+
+335
+00:14:13,000 --> 00:14:15,000
+Manchester with the EDF, a lot of the
+
+336
+00:14:15,000 --> 00:14:18,000
+codes were like that. And then you'd go
+
+337
+00:14:18,000 --> 00:14:19,000
+and even if I look at the curriculum
+
+338
+00:14:19,000 --> 00:14:22,000
+that we had, the examples were with
+
+339
+00:14:22,000 --> 00:14:23,000
+those sort of formulations. And then you
+
+340
+00:14:23,000 --> 00:14:26,000
+go to the US and it was all because a
+
+341
+00:14:26,000 --> 00:14:28,000
+lot of it was done through NASA and
+
+342
+00:14:28,000 --> 00:14:30,000
+Boeing and aerospace. you were taught at
+
+343
+00:14:30,000 --> 00:14:31,000
+Stanford and others more in like
+
+344
+00:14:31,000 --> 00:14:34,000
+compressible density based uh codes and
+
+345
+00:14:34,000 --> 00:14:37,000
+I remember and like overset meshes and
+
+346
+00:14:37,000 --> 00:14:38,000
+all these things I'd never come across
+
+347
+00:14:38,000 --> 00:14:41,000
+before. Uh and that really opened my
+
+348
+00:14:41,000 --> 00:14:42,000
+eyes and it was the first time I saw
+
+349
+00:14:42,000 --> 00:14:46,000
+Silicon Valley and ironically I remember
+
+350
+00:14:46,000 --> 00:14:48,000
+being out in Silicon Valley and thinking
+
+351
+00:14:48,000 --> 00:14:49,000
+oh wow wouldn't it be amazing to come
+
+352
+00:14:49,000 --> 00:14:52,000
+and work here. That was 2016 so 10 years
+
+353
+00:14:52,000 --> 00:14:55,000
+ago. Um
+
+354
+00:14:55,000 --> 00:14:57,000
+uh and I'm sorry if this is boring
+
+355
+00:14:57,000 --> 00:14:59,000
+people but I'm going to keep going cuz I
+
+356
+00:14:59,000 --> 00:15:02,000
+I'm hoping this is also the reason like
+
+357
+00:15:02,000 --> 00:15:05,000
+if you do a posttock you can also try
+
+358
+00:15:05,000 --> 00:15:07,000
+and find those placement opportunities
+
+359
+00:15:07,000 --> 00:15:08,000
+you can find go somewhere expand your
+
+360
+00:15:08,000 --> 00:15:10,000
+horizon go to a different part of the
+
+361
+00:15:10,000 --> 00:15:12,000
+world just to see do they do things
+
+362
+00:15:12,000 --> 00:15:16,000
+differently uh there and then um you
+
+363
+00:15:16,000 --> 00:15:18,000
+know I I came back to the to the UK kept
+
+364
+00:15:18,000 --> 00:15:22,000
+you know trying to push things um that
+
+365
+00:15:22,000 --> 00:15:24,000
+was I started to do also a little bit of
+
+366
+00:15:24,000 --> 00:15:28,000
+consulting with um with Williams and and
+
+367
+00:15:28,000 --> 00:15:33,000
+Audi and and uh British cycling team. Um
+
+368
+00:15:33,000 --> 00:15:35,000
+ended up doing then some stuff for
+
+369
+00:15:35,000 --> 00:15:39,000
+Formula 1 because um good friend of mine
+
+370
+00:15:39,000 --> 00:15:41,000
+James James Crook um sort of helped
+
+371
+00:15:41,000 --> 00:15:44,000
+introduce me. It's a bit of a long
+
+372
+00:15:44,000 --> 00:15:47,000
+story, but um basically they needed some
+
+373
+00:15:47,000 --> 00:15:52,000
+help to be doing the um the 2022 uh
+
+374
+00:15:52,000 --> 00:15:53,000
+regulations at that time and they were
+
+375
+00:15:53,000 --> 00:15:56,000
+looking to build up like a CFD team. Um
+
+376
+00:15:56,000 --> 00:15:58,000
+and uh you know, I sort of pitched that
+
+377
+00:15:58,000 --> 00:16:01,000
+I could do the CFD for them. In reality,
+
+378
+00:16:01,000 --> 00:16:03,000
+you know, it probably didn't make sense
+
+379
+00:16:03,000 --> 00:16:06,000
+for them. And so I think they went with
+
+380
+00:16:06,000 --> 00:16:07,000
+um with Total Sim, you know, who have
+
+381
+00:16:07,000 --> 00:16:09,000
+become good good friends, but they were
+
+382
+00:16:09,000 --> 00:16:11,000
+like, well, maybe you could just help us
+
+383
+00:16:11,000 --> 00:16:13,000
+as like a consultant, as an adviser. You
+
+384
+00:16:13,000 --> 00:16:15,000
+know, CFD, you can and HBC, you could
+
+385
+00:16:15,000 --> 00:16:18,000
+maybe stop, give us advice so we know
+
+386
+00:16:18,000 --> 00:16:21,000
+what we're doing. Uh, and so that that
+
+387
+00:16:21,000 --> 00:16:23,000
+was an amazing opportunity to go back
+
+388
+00:16:23,000 --> 00:16:25,000
+into F1
+
+389
+00:16:25,000 --> 00:16:27,000
+um quite a few years later except now
+
+390
+00:16:27,000 --> 00:16:30,000
+I'm in London with Pat Simmons, you
+
+391
+00:16:30,000 --> 00:16:32,000
+know, an icon of the sport, somebody
+
+392
+00:16:32,000 --> 00:16:34,000
+who, you know, I speak with now
+
+393
+00:16:34,000 --> 00:16:35,000
+reasonably regularly and someone I
+
+394
+00:16:35,000 --> 00:16:37,000
+greatly admire as one of the sort of
+
+395
+00:16:37,000 --> 00:16:41,000
+amazing brains of the the sport who,
+
+396
+00:16:41,000 --> 00:16:43,000
+yeah, totally gets it, has a very
+
+397
+00:16:43,000 --> 00:16:46,000
+forward uh looking and it was a bit of
+
+398
+00:16:46,000 --> 00:16:49,000
+um a shell shock to be uh in F1 in
+
+399
+00:16:49,000 --> 00:16:54,000
+London with him, Jason uh Somerville
+
+400
+00:16:54,000 --> 00:16:56,000
+who's now deputy technical director at
+
+401
+00:16:56,000 --> 00:16:59,000
+Alpine, Simon Dodman who's now one of
+
+402
+00:16:59,000 --> 00:17:02,000
+the chief engineers at at Cadillac um
+
+403
+00:17:02,000 --> 00:17:05,000
+and and a couple of other people uh and
+
+404
+00:17:05,000 --> 00:17:08,000
+uh and sat in London and Ross Brawn's
+
+405
+00:17:08,000 --> 00:17:09,000
+walking around cuz his office is
+
+406
+00:17:09,000 --> 00:17:11,000
+basically like right next to you. It was
+
+407
+00:17:11,000 --> 00:17:14,000
+very surreal to be to be doing it. Um,
+
+408
+00:17:14,000 --> 00:17:17,000
+and um, it I'm sort of saying this
+
+409
+00:17:17,000 --> 00:17:20,000
+because I never knew that I would work
+
+410
+00:17:20,000 --> 00:17:23,000
+for AWS or Nvidia or any of these. I
+
+411
+00:17:23,000 --> 00:17:24,000
+thought I would always be just like a
+
+412
+00:17:24,000 --> 00:17:27,000
+CFD person. And and funny enough, during
+
+413
+00:17:27,000 --> 00:17:31,000
+Formula 1, they sponsored AWS
+
+414
+00:17:31,000 --> 00:17:34,000
+or AWS sponsored Formula 1. And at that
+
+415
+00:17:34,000 --> 00:17:36,000
+time, they were like, "Okay, well, we
+
+416
+00:17:36,000 --> 00:17:38,000
+kind of need somebody who can help us
+
+417
+00:17:38,000 --> 00:17:40,000
+maybe on this cloud stuff." And because
+
+418
+00:17:40,000 --> 00:17:44,000
+I got that HPC background from moving to
+
+419
+00:17:44,000 --> 00:17:47,000
+Oxford, you know, I ended up helping
+
+420
+00:17:47,000 --> 00:17:50,000
+basically on the HBC side. And uh and
+
+421
+00:17:50,000 --> 00:17:52,000
+and I've sort of told this story a few
+
+422
+00:17:52,000 --> 00:17:56,000
+times, but I ended up then also
+
+423
+00:17:56,000 --> 00:18:00,000
+AWS said, would you mind helping us? Uh
+
+424
+00:18:00,000 --> 00:18:02,000
+and and you know, Formula 1 were
+
+425
+00:18:02,000 --> 00:18:04,000
+completely fine with it. So I I was sort
+
+426
+00:18:04,000 --> 00:18:08,000
+of helping both people at the same time.
+
+427
+00:18:08,000 --> 00:18:10,000
+um which which was really kind of a
+
+428
+00:18:10,000 --> 00:18:11,000
+funny situation but it was all done with
+
+429
+00:18:11,000 --> 00:18:13,000
+complete transparency. It was basically
+
+430
+00:18:13,000 --> 00:18:18,000
+like hey can you help the AWS people who
+
+431
+00:18:18,000 --> 00:18:21,000
+weren't CFD specialist help formula one
+
+432
+00:18:21,000 --> 00:18:24,000
+to get all the CFD going and work with
+
+433
+00:18:24,000 --> 00:18:27,000
+you know total sim and others and um and
+
+434
+00:18:27,000 --> 00:18:28,000
+I remember there was like one example
+
+435
+00:18:28,000 --> 00:18:31,000
+where the code wouldn't scale that we
+
+436
+00:18:31,000 --> 00:18:32,000
+thought it was because of the
+
+437
+00:18:32,000 --> 00:18:34,000
+interconnect at the time being slow on
+
+438
+00:18:34,000 --> 00:18:36,000
+on the cloud you know the whole like EFA
+
+439
+00:18:36,000 --> 00:18:38,000
+thing getting into too much details for
+
+440
+00:18:38,000 --> 00:18:40,000
+most people but if you're a HPC
+
+441
+00:18:40,000 --> 00:18:41,000
+personally you know this is a big
+
+442
+00:18:41,000 --> 00:18:44,000
+controversy Ethernet Infinibad and they
+
+443
+00:18:44,000 --> 00:18:45,000
+thought ah it's because it's Ethernet.
+
+444
+00:18:45,000 --> 00:18:48,000
+So we we basically why should we do this
+
+445
+00:18:48,000 --> 00:18:50,000
+deal with AWS? You know, the performance
+
+446
+00:18:50,000 --> 00:18:53,000
+is crap. And uh and turns out I found
+
+447
+00:18:53,000 --> 00:18:55,000
+out it was uh due to a mesh
+
+448
+00:18:55,000 --> 00:18:58,000
+decomposition. They were using
+
+449
+00:18:58,000 --> 00:19:00,000
+uh hierarchical instead of scotch and I
+
+450
+00:19:00,000 --> 00:19:02,000
+said let's switch to scotch because I'd
+
+451
+00:19:02,000 --> 00:19:03,000
+done some research in the past that
+
+452
+00:19:03,000 --> 00:19:05,000
+shows it scales better. Very very
+
+453
+00:19:05,000 --> 00:19:06,000
+specific thing but basically it showed
+
+454
+00:19:06,000 --> 00:19:09,000
+that then you could scale a and that
+
+455
+00:19:09,000 --> 00:19:11,000
+helped a lot the AWS people. I work with
+
+456
+00:19:11,000 --> 00:19:15,000
+a great guy Lewis Foti on that and and
+
+457
+00:19:15,000 --> 00:19:16,000
+basically long story short the reason
+
+458
+00:19:16,000 --> 00:19:18,000
+I'm blabbing on about this is because
+
+459
+00:19:18,000 --> 00:19:21,000
+that is when AWS said to me would you
+
+460
+00:19:21,000 --> 00:19:24,000
+like a role at AWS you could be our CTF
+
+461
+00:19:24,000 --> 00:19:27,000
+specialist because we've seen how you've
+
+462
+00:19:27,000 --> 00:19:29,000
+been able to sort of translate and help
+
+463
+00:19:29,000 --> 00:19:32,000
+formula 1 to AWS well we want to go to
+
+464
+00:19:32,000 --> 00:19:33,000
+all these other engineering companies
+
+465
+00:19:33,000 --> 00:19:36,000
+could you be our like you know domain
+
+466
+00:19:36,000 --> 00:19:38,000
+specialist
+
+467
+00:19:38,000 --> 00:19:40,000
+and there there it was there was my
+
+468
+00:19:40,000 --> 00:19:42,000
+opportunity to completely change to go
+
+469
+00:19:42,000 --> 00:19:44,000
+essentially back into industry. It was a
+
+470
+00:19:44,000 --> 00:19:46,000
+very difficult decision to leave Oxford
+
+471
+00:19:46,000 --> 00:19:48,000
+at that time. I was still just starting
+
+472
+00:19:48,000 --> 00:19:50,000
+to get to the point of being offered
+
+473
+00:19:50,000 --> 00:19:53,000
+like a faculty position. Um it I'm not
+
+474
+00:19:53,000 --> 00:19:54,000
+going to be I'm not going to lie to you.
+
+475
+00:19:54,000 --> 00:19:56,000
+It was a struggle. Um I didn't really
+
+476
+00:19:56,000 --> 00:19:59,000
+succeed in academia. Like I see some
+
+477
+00:19:59,000 --> 00:20:00,000
+people getting a professorship straight
+
+478
+00:20:00,000 --> 00:20:03,000
+away. I I don't know. Maybe my research
+
+479
+00:20:03,000 --> 00:20:05,000
+area just wasn't aligned. I was too
+
+480
+00:20:05,000 --> 00:20:08,000
+industrial. But um I took that very
+
+481
+00:20:08,000 --> 00:20:11,000
+difficult choice to to leave and you
+
+482
+00:20:11,000 --> 00:20:12,000
+know to go to the dark side to go to
+
+483
+00:20:12,000 --> 00:20:16,000
+industry and there it was I joined AWS
+
+484
+00:20:16,000 --> 00:20:19,000
+uh an unbelievable experience in the
+
+485
+00:20:19,000 --> 00:20:22,000
+cloud and it was great because I've
+
+486
+00:20:22,000 --> 00:20:23,000
+always been a sort of IT person. I did
+
+487
+00:20:23,000 --> 00:20:26,000
+an IT A level when I was 14. I was a bit
+
+488
+00:20:26,000 --> 00:20:30,000
+of a geek and so I I got to to do that
+
+489
+00:20:30,000 --> 00:20:32,000
+and those years at AWS
+
+490
+00:20:32,000 --> 00:20:36,000
+were probably the most transformative in
+
+491
+00:20:36,000 --> 00:20:39,000
+terms of working at a you know 100,000
+
+492
+00:20:39,000 --> 00:20:42,000
+or million person company being in these
+
+493
+00:20:42,000 --> 00:20:44,000
+commercial discussions understanding the
+
+494
+00:20:44,000 --> 00:20:46,000
+sales cycle and the technical cycle like
+
+495
+00:20:46,000 --> 00:20:52,000
+just amazing um and um and throughout
+
+496
+00:20:52,000 --> 00:20:54,000
+that time I just learned so much I I but
+
+497
+00:20:54,000 --> 00:20:56,000
+I kept with academia I kept publishing I
+
+498
+00:20:56,000 --> 00:20:59,000
+kept doing workshops. Um this whole auto
+
+499
+00:20:59,000 --> 00:21:01,000
+CFD thing I started at Oxford. I carried
+
+500
+00:21:01,000 --> 00:21:04,000
+on carried on publishing papers.
+
+501
+00:21:04,000 --> 00:21:07,000
+I've always kept that academic mindset.
+
+502
+00:21:07,000 --> 00:21:10,000
+Uh and it was a couple of years in that
+
+503
+00:21:10,000 --> 00:21:13,000
+I I wanted to go back even more
+
+504
+00:21:13,000 --> 00:21:16,000
+technical and so I moved from the sales
+
+505
+00:21:16,000 --> 00:21:18,000
+side which is basically where solution
+
+506
+00:21:18,000 --> 00:21:20,000
+architects were into the product
+
+507
+00:21:20,000 --> 00:21:22,000
+engineering team at AWS.
+
+508
+00:21:22,000 --> 00:21:24,000
+and Deborah who's my manager and Ian
+
+509
+00:21:24,000 --> 00:21:27,000
+colleague were were fantastic for that
+
+510
+00:21:27,000 --> 00:21:29,000
+and I I then got into like how do you
+
+511
+00:21:29,000 --> 00:21:30,000
+design
+
+512
+00:21:30,000 --> 00:21:34,000
+a service I saw this how does the
+
+513
+00:21:34,000 --> 00:21:35,000
+product team work how does the
+
+514
+00:21:35,000 --> 00:21:37,000
+engineering team work how do you do
+
+515
+00:21:37,000 --> 00:21:39,000
+monthly business reviews how do you
+
+516
+00:21:39,000 --> 00:21:42,000
+design the APIs how do you figure out
+
+517
+00:21:42,000 --> 00:21:43,000
+the needs what's going to be the revenue
+
+518
+00:21:43,000 --> 00:21:44,000
+what's going to be the structure of the
+
+519
+00:21:44,000 --> 00:21:47,000
+code how are we going to make this a SAS
+
+520
+00:21:47,000 --> 00:21:49,000
+solution what are going to be the
+
+521
+00:21:49,000 --> 00:21:52,000
+compute requirements EC2 oh my god like
+
+522
+00:21:52,000 --> 00:21:54,000
+sitting in those calls with Dave Brown
+
+523
+00:21:54,000 --> 00:21:56,000
+who I really liked. I think he's now
+
+524
+00:21:56,000 --> 00:21:58,000
+just gone to Meta to lead all their
+
+525
+00:21:58,000 --> 00:22:01,000
+infrastructure. I just unbelievable
+
+526
+00:22:01,000 --> 00:22:03,000
+experience. I can't tell you going to
+
+527
+00:22:03,000 --> 00:22:05,000
+all these big tech companies how much
+
+528
+00:22:05,000 --> 00:22:07,000
+you learn. Just I can't think I would be
+
+529
+00:22:07,000 --> 00:22:09,000
+where I am now without having made that
+
+530
+00:22:09,000 --> 00:22:12,000
+switch to to to AWS. And that's when I
+
+531
+00:22:12,000 --> 00:22:14,000
+got into machine learning. I was for
+
+532
+00:22:14,000 --> 00:22:17,000
+years kicking off sort of and I probably
+
+533
+00:22:17,000 --> 00:22:19,000
+shouldn't talk too much about it openly
+
+534
+00:22:19,000 --> 00:22:22,000
+just to say there was projects I was um
+
+535
+00:22:22,000 --> 00:22:25,000
+leading where I really got in to machine
+
+536
+00:22:25,000 --> 00:22:28,000
+learning uh the surrogate modeling in a
+
+537
+00:22:28,000 --> 00:22:31,000
+huge way was like so much of my time and
+
+538
+00:22:31,000 --> 00:22:33,000
+that's actually where the drive ML stuff
+
+539
+00:22:33,000 --> 00:22:36,000
+was created these open data sets because
+
+540
+00:22:36,000 --> 00:22:38,000
+I knew that we wanted to develop things
+
+541
+00:22:38,000 --> 00:22:40,000
+and test things and um we needed open
+
+542
+00:22:40,000 --> 00:22:43,000
+data and it was my academic IC mind I
+
+543
+00:22:43,000 --> 00:22:45,000
+could have created that data and kept it
+
+544
+00:22:45,000 --> 00:22:47,000
+internal but I thought no it's the best
+
+545
+00:22:47,000 --> 00:22:49,000
+thing for the community that the entire
+
+546
+00:22:49,000 --> 00:22:51,000
+community benefits it will help us as
+
+547
+00:22:51,000 --> 00:22:55,000
+well if everything so and I think it has
+
+548
+00:22:55,000 --> 00:22:57,000
+you put the data out it's now become one
+
+549
+00:22:57,000 --> 00:23:00,000
+of the most widely used data sets and it
+
+550
+00:23:00,000 --> 00:23:01,000
+has helped all tech companies to to
+
+551
+00:23:01,000 --> 00:23:04,000
+advance so uh and that was something I
+
+552
+00:23:04,000 --> 00:23:07,000
+did with a ML and winter ML and and I
+
+553
+00:23:07,000 --> 00:23:10,000
+really it taught me I truly believe open
+
+554
+00:23:10,000 --> 00:23:13,000
+source helps everybody
+
+555
+00:23:13,000 --> 00:23:15,000
+Um
+
+556
+00:23:15,000 --> 00:23:17,000
+but
+
+557
+00:23:17,000 --> 00:23:18,000
+I
+
+558
+00:23:18,000 --> 00:23:21,000
+felt like if I really wanted to succeed
+
+559
+00:23:21,000 --> 00:23:24,000
+in the sort of AI for engineering, you
+
+560
+00:23:24,000 --> 00:23:28,000
+know, do I need to to keep moving on? Is
+
+561
+00:23:28,000 --> 00:23:30,000
+there other opportunities? And this is
+
+562
+00:23:30,000 --> 00:23:33,000
+where I had the, you know, great
+
+563
+00:23:33,000 --> 00:23:35,000
+opportunity most recently with Nvidia. I
+
+564
+00:23:35,000 --> 00:23:38,000
+joined to sort of do a not a completely
+
+565
+00:23:38,000 --> 00:23:41,000
+dissimilar role to AWS to be that I
+
+566
+00:23:41,000 --> 00:23:45,000
+guess domain specialist for for CE now.
+
+567
+00:23:45,000 --> 00:23:48,000
+I I sort of broadened out and eventually
+
+568
+00:23:48,000 --> 00:23:52,000
+also to EDA and joining Nvidia
+
+569
+00:23:52,000 --> 00:23:56,000
+again I felt like another step just
+
+570
+00:23:56,000 --> 00:23:57,000
+amazing
+
+571
+00:23:57,000 --> 00:24:00,000
+to see all of the stuff around the GPU
+
+572
+00:24:00,000 --> 00:24:03,000
+development, the CPU development, um all
+
+573
+00:24:03,000 --> 00:24:06,000
+the the AI development with like Neotron
+
+574
+00:24:06,000 --> 00:24:09,000
+and Vix Nemo, the way Jensen runs the
+
+575
+00:24:09,000 --> 00:24:12,000
+company just like incredible
+
+576
+00:24:12,000 --> 00:24:14,000
+just like another level, you know. Also
+
+577
+00:24:14,000 --> 00:24:18,000
+I guess I was slightly biased to AD as
+
+578
+00:24:18,000 --> 00:24:19,000
+always thinking the cloud going to
+
+579
+00:24:19,000 --> 00:24:22,000
+Nvidia. Then you you saw the other side
+
+580
+00:24:22,000 --> 00:24:23,000
+you know that there is this obviously
+
+581
+00:24:23,000 --> 00:24:26,000
+huge onrem opportunity. I saw now this
+
+582
+00:24:26,000 --> 00:24:28,000
+in between you know like these neo
+
+583
+00:24:28,000 --> 00:24:31,000
+clouds etc. Um but also loved getting
+
+584
+00:24:31,000 --> 00:24:34,000
+into the architecture. It wasn't my main
+
+585
+00:24:34,000 --> 00:24:37,000
+job but seeing how they make the
+
+586
+00:24:37,000 --> 00:24:38,000
+decisions on okay what should be the
+
+587
+00:24:38,000 --> 00:24:40,000
+next GPU? How do we decide this? How do
+
+588
+00:24:40,000 --> 00:24:42,000
+we, you know, all the benchmark that
+
+589
+00:24:42,000 --> 00:24:44,000
+goes on the, I can't tell you how many
+
+590
+00:24:44,000 --> 00:24:46,000
+super smart people there are at NVIDIA,
+
+591
+00:24:46,000 --> 00:24:50,000
+it's [snorts] nuts. Um, then all of the
+
+592
+00:24:50,000 --> 00:24:51,000
+CUDA libraries, all the stuff that goes
+
+593
+00:24:51,000 --> 00:24:54,000
+in at the lower level, you know, the
+
+594
+00:24:54,000 --> 00:24:56,000
+these enabling libraries that you
+
+595
+00:24:56,000 --> 00:24:58,000
+basically most people don't know about,
+
+596
+00:24:58,000 --> 00:25:01,000
+but are what powers all of deep learning
+
+597
+00:25:01,000 --> 00:25:04,000
+and engineering. [snorts] So, I I was
+
+598
+00:25:04,000 --> 00:25:06,000
+fortunate to still sort of help with
+
+599
+00:25:06,000 --> 00:25:07,000
+some of the sales side as well, speaking
+
+600
+00:25:07,000 --> 00:25:11,000
+to customers. um uh and and the AI side
+
+601
+00:25:11,000 --> 00:25:13,000
+and the agentic and then working with
+
+602
+00:25:13,000 --> 00:25:15,000
+some of the chip design team at NVIDIA
+
+603
+00:25:15,000 --> 00:25:18,000
+on the EDA side. But probably one of the
+
+604
+00:25:18,000 --> 00:25:20,000
+biggest things I realized at Nvidia was
+
+605
+00:25:20,000 --> 00:25:22,000
+the partnerships. I totally and I think
+
+606
+00:25:22,000 --> 00:25:25,000
+this is a Jensen thing the value of the
+
+607
+00:25:25,000 --> 00:25:28,000
+ecosystem and partnerships and I learned
+
+608
+00:25:28,000 --> 00:25:31,000
+so much from interacting with cadence
+
+609
+00:25:31,000 --> 00:25:34,000
+and synopsis and seammens and you know
+
+610
+00:25:34,000 --> 00:25:36,000
+I've realized the value of the the
+
+611
+00:25:36,000 --> 00:25:38,000
+ecosystem you know that it's not one
+
+612
+00:25:38,000 --> 00:25:39,000
+company can do everything it's a
+
+613
+00:25:39,000 --> 00:25:41,000
+multi-layered
+
+614
+00:25:41,000 --> 00:25:44,000
+uh cake and um and that that was an
+
+615
+00:25:44,000 --> 00:25:47,000
+experience that I sort of saw at AWS but
+
+616
+00:25:47,000 --> 00:25:49,000
+it was turbocharged
+
+617
+00:25:49,000 --> 00:25:53,000
+uh at at Nvidia and and Uh again I if id
+
+618
+00:25:53,000 --> 00:25:55,000
+have stayed at AWS no way would I have
+
+619
+00:25:55,000 --> 00:25:57,000
+the knowledge that I have now. Not this
+
+620
+00:25:57,000 --> 00:26:00,000
+is nothing against AWS amazing company
+
+621
+00:26:00,000 --> 00:26:02,000
+just like Azure and GCP and all the
+
+622
+00:26:02,000 --> 00:26:05,000
+cloud providers but I definitely felt
+
+623
+00:26:05,000 --> 00:26:08,000
+like I learned so much for Nvidia and to
+
+624
+00:26:08,000 --> 00:26:10,000
+the point that I was absolutely not you
+
+625
+00:26:10,000 --> 00:26:15,000
+know looking to leave. I was very happy
+
+626
+00:26:15,000 --> 00:26:17,000
+um you know that that those
+
+627
+00:26:17,000 --> 00:26:19,000
+inspirational uh figures there you know
+
+628
+00:26:19,000 --> 00:26:23,000
+I had I had a great manager. I was so
+
+629
+00:26:23,000 --> 00:26:26,000
+inspired by people like Ian Buck and um
+
+630
+00:26:26,000 --> 00:26:29,000
+and and Madison and and Carrie and all
+
+631
+00:26:29,000 --> 00:26:31,000
+these sort of and Reb and all these like
+
+632
+00:26:31,000 --> 00:26:36,000
+great leaders, you know. It was so
+
+633
+00:26:36,000 --> 00:26:38,000
+so good, you know, just felt like every
+
+634
+00:26:38,000 --> 00:26:42,000
+day I was learning. But I definitely
+
+635
+00:26:42,000 --> 00:26:46,000
+felt like I could take another step.
+
+636
+00:26:46,000 --> 00:26:50,000
+That's for sure. Um and when the
+
+637
+00:26:50,000 --> 00:26:52,000
+opportunity when you know sort of
+
+638
+00:26:52,000 --> 00:26:54,000
+Johannes was like you've got to come.
+
+639
+00:26:54,000 --> 00:26:57,000
+You've got to come over. You know this
+
+640
+00:26:57,000 --> 00:26:59,000
+was Emmy just got acquired by Mistral.
+
+641
+00:26:59,000 --> 00:27:00,000
+It's like this is it. We can do it
+
+642
+00:27:00,000 --> 00:27:02,000
+together. Let's let's this is the new
+
+643
+00:27:02,000 --> 00:27:05,000
+wave, right? It's the Frontier Lab
+
+644
+00:27:05,000 --> 00:27:09,000
+company um with Physics AI and you know
+
+645
+00:27:09,000 --> 00:27:13,000
+I really deliberated on it um because as
+
+646
+00:27:13,000 --> 00:27:15,000
+I said you know I I love Nvidia I still
+
+647
+00:27:15,000 --> 00:27:18,000
+do today I think it's an amazing company
+
+648
+00:27:18,000 --> 00:27:20,000
+but I thought this is it. I've never
+
+649
+00:27:20,000 --> 00:27:22,000
+done a startup, you know, as you saw
+
+650
+00:27:22,000 --> 00:27:23,000
+from me talking about the history. I've
+
+651
+00:27:23,000 --> 00:27:25,000
+done academia, gone to AWS, gone to
+
+652
+00:27:25,000 --> 00:27:28,000
+Nvidia, sold two very big companies. I
+
+653
+00:27:28,000 --> 00:27:29,000
+thought, oh, maybe going to a thousand
+
+654
+00:27:29,000 --> 00:27:31,000
+person company. Yes, I can take a bit of
+
+655
+00:27:31,000 --> 00:27:33,000
+more ownership as well. That's, you
+
+656
+00:27:33,000 --> 00:27:35,000
+know, obviously I'll be transparent. You
+
+657
+00:27:35,000 --> 00:27:37,000
+know, becoming a VP, it's it's a nice
+
+658
+00:27:37,000 --> 00:27:39,000
+thing. It's a nice great progression. Uh
+
+659
+00:27:39,000 --> 00:27:42,000
+being part of a sort of leadership team,
+
+660
+00:27:42,000 --> 00:27:44,000
+but it was still my inner academic
+
+661
+00:27:44,000 --> 00:27:48,000
+scientist wanted to learn. And having
+
+662
+00:27:48,000 --> 00:27:49,000
+the opportunity to get into this space
+
+663
+00:27:49,000 --> 00:27:51,000
+of LLMs,
+
+664
+00:27:51,000 --> 00:27:55,000
+I felt this for sure no matter what
+
+665
+00:27:55,000 --> 00:27:57,000
+happens, I will learn a lot. It will
+
+666
+00:27:57,000 --> 00:28:00,000
+always help you know my understanding
+
+667
+00:28:00,000 --> 00:28:03,000
+and uh and so yeah I I made the move. I
+
+668
+00:28:03,000 --> 00:28:06,000
+made the move out of a desire to
+
+669
+00:28:06,000 --> 00:28:11,000
+to learn more I guess and a feel like to
+
+670
+00:28:11,000 --> 00:28:13,000
+build something. I should say that's the
+
+671
+00:28:13,000 --> 00:28:16,000
+other thing is that for very good
+
+672
+00:28:16,000 --> 00:28:19,000
+reasons Nvidia and AWS still stay at the
+
+673
+00:28:19,000 --> 00:28:21,000
+say not the top level of the stack you
+
+674
+00:28:21,000 --> 00:28:24,000
+know um they're not making an
+
+675
+00:28:24,000 --> 00:28:26,000
+application per se it's mainly compute
+
+676
+00:28:26,000 --> 00:28:30,000
+and libraries uh and um whereas you know
+
+677
+00:28:30,000 --> 00:28:33,000
+obviously when you go to a company uh
+
+678
+00:28:33,000 --> 00:28:37,000
+that is directly going to customers then
+
+679
+00:28:37,000 --> 00:28:39,000
+it is a a slightly different uh
+
+680
+00:28:39,000 --> 00:28:41,000
+experience and I I kind of fancied the
+
+681
+00:28:41,000 --> 00:28:44,000
+idea of also building or being at a
+
+682
+00:28:44,000 --> 00:28:46,000
+company early on in the day, you know,
+
+683
+00:28:46,000 --> 00:28:48,000
+where things aren't fully defined, where
+
+684
+00:28:48,000 --> 00:28:50,000
+they need direction and there's the
+
+685
+00:28:50,000 --> 00:28:52,000
+opportunity to sort of build things from
+
+686
+00:28:52,000 --> 00:28:56,000
+the ground up. Um, and uh and I yeah and
+
+687
+00:28:56,000 --> 00:29:01,000
+and then of course I met you know Argy
+
+688
+00:29:01,000 --> 00:29:04,000
+the the co-founders or all the team
+
+689
+00:29:04,000 --> 00:29:07,000
+there and just amazing group of people.
+
+690
+00:29:07,000 --> 00:29:10,000
+Um again for transparency I'm sure
+
+691
+00:29:10,000 --> 00:29:11,000
+there's amazing group of people open a
+
+692
+00:29:11,000 --> 00:29:14,000
+nanthropic this is not in a dig at you
+
+693
+00:29:14,000 --> 00:29:17,000
+know any other uh company but uh but for
+
+694
+00:29:17,000 --> 00:29:20,000
+me the opportunity to work with with
+
+695
+00:29:20,000 --> 00:29:23,000
+Johannes who is also an academic he is a
+
+696
+00:29:23,000 --> 00:29:27,000
+professor we share the exact same
+
+697
+00:29:27,000 --> 00:29:30,000
+mindset of like we're really fastm
+
+698
+00:29:30,000 --> 00:29:32,000
+moving and and pushy and and like you
+
+699
+00:29:32,000 --> 00:29:36,000
+know we know what we want to do but
+
+700
+00:29:36,000 --> 00:29:39,000
+grounded in science and and rigor and
+
+701
+00:29:39,000 --> 00:29:42,000
+and openness uh and that sort of pro-
+
+702
+00:29:42,000 --> 00:29:45,000
+academic um pro publishing pro open
+
+703
+00:29:45,000 --> 00:29:49,000
+thing is so well aligned uh to myself.
+
+704
+00:29:49,000 --> 00:29:54,000
+So yeah, here I am. I guess uh the
+
+705
+00:29:54,000 --> 00:29:57,000
+advice maybe for others is that you
+
+706
+00:29:57,000 --> 00:29:59,000
+don't know where you're going to go. I
+
+707
+00:29:59,000 --> 00:30:00,000
+didn't have some grand plan that I'm
+
+708
+00:30:00,000 --> 00:30:02,000
+going to join an AI company, right? I
+
+709
+00:30:02,000 --> 00:30:03,000
+didn't even have a plan that I was going
+
+710
+00:30:03,000 --> 00:30:06,000
+to join a tech company. But looking to
+
+711
+00:30:06,000 --> 00:30:08,000
+continuously, I guess, push yourself and
+
+712
+00:30:08,000 --> 00:30:13,000
+be comfortable to take new challenges is
+
+713
+00:30:13,000 --> 00:30:17,000
+is worth it. And for sure, if you go
+
+714
+00:30:17,000 --> 00:30:21,000
+into a a large company, a sort of tech
+
+715
+00:30:21,000 --> 00:30:24,000
+company, I think you can learn so much.
+
+716
+00:30:24,000 --> 00:30:25,000
+It it doesn't mean that you can't
+
+717
+00:30:25,000 --> 00:30:27,000
+eventually go back to academia or
+
+718
+00:30:27,000 --> 00:30:29,000
+whatever, but I I'm still an advocate of
+
+719
+00:30:29,000 --> 00:30:33,000
+this scientific academic mindset
+
+720
+00:30:33,000 --> 00:30:36,000
+combined with industrial sort of
+
+721
+00:30:36,000 --> 00:30:38,000
+application.
+
+722
+00:30:38,000 --> 00:30:41,000
+So, so that's it. I know I've looking
+
+723
+00:30:41,000 --> 00:30:43,000
+like a clock here went on for half an
+
+724
+00:30:43,000 --> 00:30:45,000
+hour and so I hope that wasn't uh well
+
+725
+00:30:45,000 --> 00:30:46,000
+or maybe it helped you fall asleep. If
+
+726
+00:30:46,000 --> 00:30:47,000
+you listen to this to fall asleep, maybe
+
+727
+00:30:47,000 --> 00:30:49,000
+this did its job. But I just wanted to
+
+728
+00:30:49,000 --> 00:30:52,000
+share um a little bit of my story. I
+
+729
+00:30:52,000 --> 00:30:55,000
+hope again it just gives you a sense if
+
+730
+00:30:55,000 --> 00:30:57,000
+you're younger that don't worry if you
+
+731
+00:30:57,000 --> 00:30:58,000
+don't know exactly where you're going to
+
+732
+00:30:58,000 --> 00:31:02,000
+go as long as you you know have you know
+
+733
+00:31:02,000 --> 00:31:04,000
+what you want to do it what makes you
+
+734
+00:31:04,000 --> 00:31:07,000
+happy what what helps you to continue to
+
+735
+00:31:07,000 --> 00:31:09,000
+learn don't worry if you can't fully
+
+736
+00:31:09,000 --> 00:31:11,000
+chart out where you're going to go
+
+737
+00:31:11,000 --> 00:31:13,000
+there's a funny way that you can go from
+
+738
+00:31:13,000 --> 00:31:16,000
+place to place and and uh I wouldn't
+
+739
+00:31:16,000 --> 00:31:19,000
+stress sort of too much uh about it you
+
+740
+00:31:19,000 --> 00:31:21,000
+don't need to plan out your whole career
+
+741
+00:31:21,000 --> 00:31:22,000
+right from the
+
+742
+00:31:22,000 --> 00:31:26,000
+Um but be open to change and and be a
+
+743
+00:31:26,000 --> 00:31:27,000
+continual
+
+744
+00:31:27,000 --> 00:31:30,000
+learner. And I guess one thing maybe
+
+745
+00:31:30,000 --> 00:31:33,000
+okay I would say is and I'm biased. It's
+
+746
+00:31:33,000 --> 00:31:35,000
+nice if you can become a sort of expert
+
+747
+00:31:35,000 --> 00:31:39,000
+in something. I feel that that is always
+
+748
+00:31:39,000 --> 00:31:41,000
+going to help. You know there's nothing
+
+749
+00:31:41,000 --> 00:31:44,000
+wrong with being a generalist but I do
+
+750
+00:31:44,000 --> 00:31:46,000
+feel that if you can become a specialist
+
+751
+00:31:46,000 --> 00:31:50,000
+in an area it probably makes it easier
+
+752
+00:31:50,000 --> 00:31:52,000
+to chart a career path because you you
+
+753
+00:31:52,000 --> 00:31:56,000
+are known for a particular thing and I
+
+754
+00:31:56,000 --> 00:31:58,000
+feel that is probably hard to do without
+
+755
+00:31:58,000 --> 00:32:01,000
+having done a PhD or to be honest even a
+
+756
+00:32:01,000 --> 00:32:03,000
+posttock. Um obviously this is not
+
+757
+00:32:03,000 --> 00:32:07,000
+applicable to everybody but that would
+
+758
+00:32:07,000 --> 00:32:13,000
+at least be my um my personal uh advice.
+
+759
+00:32:13,000 --> 00:32:15,000
+There are many other ways of course and
+
+760
+00:32:15,000 --> 00:32:18,000
+it could be a specialist within your own
+
+761
+00:32:18,000 --> 00:32:20,000
+area right so it might be that you'll in
+
+762
+00:32:20,000 --> 00:32:23,000
+formula one but you become known as the
+
+763
+00:32:23,000 --> 00:32:25,000
+person who's like the AI engineering
+
+764
+00:32:25,000 --> 00:32:28,000
+expert within your formula one
+
+765
+00:32:28,000 --> 00:32:30,000
+discipline. I don't mean you have to,
+
+766
+00:32:30,000 --> 00:32:31,000
+you know, be then going to work for some
+
+767
+00:32:31,000 --> 00:32:34,000
+tech company or it could be in a in a
+
+768
+00:32:34,000 --> 00:32:35,000
+software company. You could just be
+
+769
+00:32:35,000 --> 00:32:38,000
+great uh that somebody who knows product
+
+770
+00:32:38,000 --> 00:32:40,000
+really well and you you become that that
+
+771
+00:32:40,000 --> 00:32:42,000
+person. All right. Well, um as you can
+
+772
+00:32:42,000 --> 00:32:44,000
+tell, I did slip a little bit with a few
+
+773
+00:32:44,000 --> 00:32:47,000
+episodes because uh all this change has
+
+774
+00:32:47,000 --> 00:32:49,000
+been a bit u been a bit busy. Uh but but
+
+775
+00:32:49,000 --> 00:32:52,000
+rest assured there is uh the podcast
+
+776
+00:32:52,000 --> 00:32:54,000
+will stay on track and I'll try and be a
+
+777
+00:32:54,000 --> 00:32:57,000
+bit better at getting these episodes out
+
+778
+00:32:57,000 --> 00:33:00,000
+more more regular. So if I can um help
+
+779
+00:33:00,000 --> 00:33:03,000
+if people have any questions on sort of
+
+780
+00:33:03,000 --> 00:33:07,000
+career or um things like that or just
+
+781
+00:33:07,000 --> 00:33:09,000
+general advice, feel free to leave a
+
+782
+00:33:09,000 --> 00:33:11,000
+comment. Uh probably on YouTube, I
+
+783
+00:33:11,000 --> 00:33:13,000
+guess. I think you can do it on Spotify,
+
+784
+00:33:13,000 --> 00:33:15,000
+but probably on YouTube and I'll try my
+
+785
+00:33:15,000 --> 00:33:18,000
+best to uh to to answer. So, I hope you
+
+786
+00:33:18,000 --> 00:33:21,000
+enjoyed that and uh wherever you are,
+
+787
+00:33:21,000 --> 00:33:28,000
+hope you're doing well. See you. [music]
+
+788
+00:33:28,000 --> 00:33:31,000
+[music]

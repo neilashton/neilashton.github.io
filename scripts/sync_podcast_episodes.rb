@@ -36,6 +36,7 @@ SECTION_MARKERS = [
   "Key topics",
   "Key Topics",
   "Papers",
+  "Paper mentioned",
   "Links",
   "Resource mentioned",
   "Chapters",
@@ -245,7 +246,8 @@ rescue URI::InvalidURIError
 end
 
 def clean_link_label(segment, url)
-  label = segment
+  paper_title = segment.match(/Paper mentioned:?\s*\n+([^\n]+)/i)&.[](1)
+  label = paper_title || segment
     .split(/\n+/)
     .last
     .to_s
@@ -300,7 +302,7 @@ def extract_chapters(text)
     label = text[match["finish"]...next_start]
       .sub(/\A[\s:–—-]+/, "")
       .sub(%r{https?://.*\z}m, "")
-      .sub(/(?:\A|\n)(?:Links|Keywords|Papers|Resource mentioned|Resources?):?\s*.*\z/m, "")
+      .sub(/(?:\A|\n)(?:Links|Keywords|Papers|Paper mentioned|Resource mentioned|Resources?):?\s*.*\z/m, "")
       .gsub(/\s+/, " ")
       .strip
     next if label.empty? || label.length > 220
