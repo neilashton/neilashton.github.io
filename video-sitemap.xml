@@ -10,6 +10,24 @@
     
       
       <url>
+        <loc>https://neilashton.co.uk/podcasts/s4-e8-why-i-left-nvidia-for-mistral/</loc>
+        <video:video>
+          <video:thumbnail_loc>https://i.ytimg.com/vi/uIbN-0O1Zp8/maxresdefault.jpg</video:thumbnail_loc>
+          <video:title>Why I Left NVIDIA for Mistral</video:title>
+          <video:description>Neil Ashton explains his move from NVIDIA to Mistral, reflecting on engineering careers, physics AI, foundation models and lessons from academia and industry.</video:description>
+          <video:player_loc allow_embed="yes">https://www.youtube.com/embed/uIbN-0O1Zp8</video:player_loc>
+          <video:publication_date>2026-10-04T10:13:57+01:00</video:publication_date>
+          <video:family_friendly>yes</video:family_friendly>
+          <video:uploader info="https://neilashton.co.uk">Neil Ashton</video:uploader>
+        </video:video>
+      </url>
+    
+  
+    
+    
+    
+      
+      <url>
         <loc>https://neilashton.co.uk/podcasts/s4-e7-should-you-still-study-engineering-in-the-age-of-ai/</loc>
         <video:video>
           <video:thumbnail_loc>https://i.ytimg.com/vi/nOMF2ho1E3E/maxresdefault.jpg</video:thumbnail_loc>
