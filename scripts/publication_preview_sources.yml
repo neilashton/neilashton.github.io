@@ -1,5 +1,10 @@
-# Source provenance for publication thumbnails added in July 2026.
-# Each image is a crop of the cited paper figure; no synthetic artwork is used.
+# Source provenance for publication thumbnails.
+# Images are taken from the cited paper figures; no synthetic artwork is used.
+
+leibovici2026canto:
+  preview: canto.png
+  source: https://arxiv.org/html/2609.36806v2/Figures/teaser.png
+  figure: "Figure 1 — CANTO CAD tokenization and physical-field prediction overview"
 
 ashton2026hiliftaeromlhighfidelitycomputationalfluid:
   preview: hiliftaeroml.png
