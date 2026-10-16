@@ -1,6 +1,11 @@
 # Source provenance for publication thumbnails.
 # Images are taken from the cited paper figures; no synthetic artwork is used.
 
+ashton2026hlpw5:
+  preview: hlpw5-summary.png
+  source: https://arc.aiaa.org/doi/pdf/10.2514/1.C038856
+  figure: "Journal version of the HLPW-5 summary; reuses the oil-flow comparison figure from the AIAA SciTech 2025 conference paper (ashton2025a)"
+
 leibovici2026canto:
   preview: canto.png
   source: https://arxiv.org/html/2609.36806v2/Figures/teaser.png

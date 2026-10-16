@@ -152,6 +152,12 @@ professional_standing:
 
 publications:
   - year: "2026"
+    authors: Neil Ashton, Paul Batten, Andrew Cary, Kevin Holst, and Vangelis Skaperdas
+    title: "High-Lift Prediction Workshop 5: Hybrid RANS/LES Technology Focus Group Summary"
+    venue: Journal of Aircraft, 1–18
+    url: https://doi.org/10.2514/1.C038856
+
+  - year: "2026"
     authors: Neil Ashton et al.
     title: "HiLiftAeroML: High-Fidelity Computational Fluid Dynamics Dataset for High-Lift Aircraft Aerodynamics"
     venue: arXiv preprint
