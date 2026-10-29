@@ -3,7 +3,7 @@ layout: page
 permalink: /work/
 title: Research
 nav_title: Research
-description: Neil Ashton's research in AI for computational engineering, foundation models for physical systems, agentic simulation workflows, scientific datasets, model evaluation, and computational fluid dynamics.
+description: Neil Ashton's research in AI for computational engineering, FluidsBench benchmarks, foundation models for physical systems, agentic simulation workflows, scientific datasets, and computational fluid dynamics.
 nav: true
 nav_order: 1
 ---
@@ -15,6 +15,13 @@ nav_order: 1
 <section class="work-section" aria-labelledby="projects-title">
   <h2 id="projects-title">Current research</h2>
   <div class="research-project-list">
+    <article>
+      <p class="research-type">Open benchmarks</p>
+      <h3><a href="https://fluidsbench.org/">FluidsBench</a></h3>
+      <p>I serve on the organising committee of FluidsBench, an open evaluation framework for AI surrogate models in fluid dynamics. Shared test splits, reference evaluation tools, and published metrics support reproducible comparisons of predictive accuracy and generalisation, including field errors, integrated forces, and flow profiles where supported.</p>
+      <p>The website is live, with submissions open for AirfRANS, AhmedML, WindsorML, DrivAerML, and DrivAerNet++. The first official leaderboard is planned for 5 December 2026; HiLiftAeroML and further benchmarks are coming soon.</p>
+      <a href="https://fluidsbench.org/run/">Evaluate and submit a model</a>
+    </article>
     <article>
       <p class="research-type">Research programme</p>
       <h3>Agentic computational engineering</h3>

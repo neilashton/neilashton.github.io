@@ -14,6 +14,11 @@ research_agenda:
   - title: Agentic engineering
     question: How can AI agents select and orchestrate simulation, analysis, and optimisation tools, verify physical consistency, preserve provenance, respond to uncertainty and failures, and keep consequential decisions under appropriate human oversight?
 featured_work:
+  - kicker: Open benchmarks
+    title: FluidsBench
+    url: https://fluidsbench.org/
+    description: An open framework for evaluating AI surrogate models in fluid dynamics, with shared test splits, reference evaluation tools, and physical performance metrics. The website is live and model submissions are open.
+    link_label: Explore FluidsBench
   - kicker: Open scientific data
     title: CAE ML Datasets
     url: https://caemldatasets.org/
